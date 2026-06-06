@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surviving Pretrial — The Guide Every Family Needs Right Now</title>
+  <meta name="description" content="Your loved one just got busted by the feds. You have no idea what's coming next. This book gives you the map. Get it on Amazon today." />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>" />
+
+  <style>
+    /* ── Reset & base ───────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:    #0a0a0a;
+      --deep:     #111318;
+      --card:     #1a1d25;
+      --border:   #2a2d38;
+      --gold:     #c9973a;
+      --gold-lt:  #e8b84b;
+      --red:      #c0392b;
+      --red-lt:   #e74c3c;
+      --white:    #f5f5f5;
+      --muted:    #9ca3af;
+      --max:      1100px;
+      --radius:   10px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'Georgia', 'Times New Roman', serif;
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ── Utility ─────────────────────────────────── */
+    .sans { font-family: 'Arial', 'Helvetica', sans-serif; }
+    .gold  { color: var(--gold); }
+    .red   { color: var(--red-lt); }
+    .muted { color: var(--muted); }
+
+    .cta-btn {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--black);
+      font-family: 'Arial', sans-serif;
+      font-weight: 800;
+      font-size: 1.05rem;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      padding: 18px 42px;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+      transition: background .2s, transform .15s, box-shadow .2s;
+      box-shadow: 0 4px 24px rgba(201,151,58,.35);
+    }
+    .cta-btn:hover {
+      background: var(--gold-lt);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(201,151,58,.55);
+    }
+    .cta-btn.large {
+      font-size: 1.2rem;
+      padding: 22px 56px;
+    }
+    .cta-btn.red-btn {
+      background: var(--red);
+      color: #fff;
+      box-shadow: 0 4px 24px rgba(192,57,43,.4);
+    }
+    .cta-btn.red-btn:hover {
+      background: var(--red-lt);
+      box-shadow: 0 8px 32px rgba(192,57,43,.6);
+    }
+
+    /* ── Top bar ─────────────────────────────────── */
+    .topbar {
+      background: var(--red);
+      text-align: center;
+      padding: 12px 24px;
+      font-family: 'Arial', sans-serif;
+      font-size: .9rem;
+      font-weight: 700;
+      letter-spacing: .03em;
+    }
+
+    /* ── Hero ────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(160deg, #0f1117 0%, #1a1620 50%, #0f1117 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 80px 0 60px;
+    }
+
+    .hero-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .hero-text h1 {
+      font-size: clamp(2rem, 4vw, 3.1rem);
+      line-height: 1.18;
+      margin-bottom: 24px;
+      font-style: italic;
+      color: #fff;
+    }
+    .hero-text h1 em {
+      font-style: normal;
+      color: var(--gold);
+    }
+
+    .hero-text .subtitle {
+      font-family: 'Arial', sans-serif;
+      font-size: 1.05rem;
+      color: #ccc;
+      margin-bottom: 36px;
+      line-height: 1.65;
+    }
+
+    .hero-text .cta-group {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .hero-text .guarantee-note {
+      font-family: 'Arial', sans-serif;
+      font-size: .82rem;
+      color: var(--muted);
+    }
+
+    .hero-book {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .hero-book img {
+      border-radius: 6px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.8), 0 0 0 1px rgba(201,151,58,.2);
+      max-width: 320px;
+    }
+
+    .stars {
+      display: flex;
+      gap: 4px;
+      justify-content: center;
+      font-size: 1.3rem;
+      color: var(--gold);
+    }
+    .stars-caption {
+      font-family: 'Arial', sans-serif;
+      font-size: .85rem;
+      color: var(--muted);
+      text-align: center;
+      margin-top: 4px;
+    }
+
+    /* ── Section shared ──────────────────────────── */
+    section { padding: 80px 0; }
+    section + section { border-top: 1px solid var(--border); }
+
+    .section-label {
+      font-family: 'Arial', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+    }
+
+    h2 {
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      line-height: 1.25;
+      margin-bottom: 20px;
+    }
+
+    .lead {
+      font-size: 1.1rem;
+      color: #ccc;
+      max-width: 680px;
+      margin-bottom: 40px;
+    }
+
+    /* ── Pain section ────────────────────────────── */
+    .pain { background: #0e1016; }
+
+    .pain-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-bottom: 48px;
+    }
+    .pain-list li {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--red-lt);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      font-size: 1rem;
+      line-height: 1.55;
+    }
+    .pain-list li strong {
+      display: block;
+      color: #fff;
+      margin-bottom: 6px;
+      font-family: 'Arial', sans-serif;
+    }
+    .pain-list li span {
+      color: var(--muted);
+      font-family: 'Arial', sans-serif;
+      font-size: .92rem;
+    }
+
+    .pain-truth {
+      background: linear-gradient(135deg, #1c1008 0%, #1a0d08 100%);
+      border: 1px solid #3d2008;
+      border-left: 5px solid var(--gold);
+      border-radius: var(--radius);
+      padding: 32px 36px;
+      font-size: 1.15rem;
+      font-style: italic;
+      color: #e8d5b0;
+      max-width: 800px;
+    }
+
+    /* ── What you'll learn ───────────────────────── */
+    .learn-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      margin-bottom: 50px;
+    }
+    .learn-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 28px;
+      transition: border-color .2s;
+    }
+    .learn-card:hover { border-color: var(--gold); }
+    .learn-card .icon {
+      font-size: 1.8rem;
+      margin-bottom: 14px;
+    }
+    .learn-card h3 {
+      font-family: 'Arial', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+    .learn-card p {
+      font-family: 'Arial', sans-serif;
+      font-size: .9rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* ── Author ──────────────────────────────────── */
+    .author-inner {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+
+    .author-photo-wrap {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .author-initials {
+      width: 100%;
+      aspect-ratio: 1;
+      background: linear-gradient(135deg, #1a1d25, #2a2d38);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5rem;
+      color: var(--gold);
+      font-weight: 700;
+      letter-spacing: -2px;
+    }
+
+    .author-name-plate {
+      padding: 16px;
+      text-align: center;
+      border-top: 1px solid var(--border);
+    }
+    .author-name-plate strong {
+      display: block;
+      font-family: 'Arial', sans-serif;
+      font-size: 1rem;
+      color: #fff;
+    }
+    .author-name-plate span {
+      font-family: 'Arial', sans-serif;
+      font-size: .8rem;
+      color: var(--muted);
+    }
+
+    .author-bio h2 { margin-bottom: 16px; }
+    .author-bio p {
+      font-family: 'Arial', sans-serif;
+      font-size: .97rem;
+      color: #ccc;
+      line-height: 1.75;
+      margin-bottom: 16px;
+    }
+
+    /* ── Podcast ─────────────────────────────────── */
+    .podcast { background: #0e1016; }
+
+    .podcast-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 36px 40px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 40px;
+      align-items: center;
+      max-width: 900px;
+    }
+    .podcast-card .pod-label {
+      font-family: 'Arial', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+    .podcast-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+    .podcast-card p {
+      font-family: 'Arial', sans-serif;
+      font-size: .92rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .podcast-card .listen-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: transparent;
+      border: 2px solid var(--gold);
+      color: var(--gold);
+      font-family: 'Arial', sans-serif;
+      font-weight: 700;
+      font-size: .88rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      padding: 14px 26px;
+      border-radius: 4px;
+      white-space: nowrap;
+      transition: background .2s, color .2s;
+    }
+    .podcast-card .listen-btn:hover {
+      background: var(--gold);
+      color: var(--black);
+    }
+    .podcast-icon { font-size: 1.4rem; }
+
+    /* ── Social proof / quotes ───────────────────── */
+    .quotes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      margin-bottom: 50px;
+    }
+    .quote-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+    }
+    .quote-card .stars { justify-content: flex-start; font-size: 1rem; margin-bottom: 12px; }
+    .quote-card blockquote {
+      font-style: italic;
+      font-size: .97rem;
+      color: #ddd;
+      margin-bottom: 16px;
+      line-height: 1.65;
+    }
+    .quote-card cite {
+      font-family: 'Arial', sans-serif;
+      font-size: .82rem;
+      color: var(--muted);
+      font-style: normal;
+    }
+
+    /* ── Final CTA ───────────────────────────────── */
+    .final-cta {
+      background: linear-gradient(160deg, #16100a 0%, #1a1308 100%);
+      border-top: 1px solid #3d2008;
+      text-align: center;
+      padding: 100px 0;
+    }
+    .final-cta h2 {
+      max-width: 750px;
+      margin: 0 auto 20px;
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+    }
+    .final-cta .sub {
+      font-family: 'Arial', sans-serif;
+      font-size: 1rem;
+      color: #bbb;
+      max-width: 560px;
+      margin: 0 auto 40px;
+    }
+    .final-cta .price-note {
+      font-family: 'Arial', sans-serif;
+      font-size: .85rem;
+      color: var(--muted);
+      margin-top: 16px;
+    }
+
+    /* ── Footer ──────────────────────────────────── */
+    footer {
+      background: #070709;
+      border-top: 1px solid var(--border);
+      padding: 32px 0;
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+      font-size: .8rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--muted); border-bottom: 1px dotted var(--border); }
+    footer a:hover { color: var(--gold); }
+
+    /* ── Urgency strip ───────────────────────────── */
+    .urgency {
+      background: var(--deep);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 28px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      max-width: 700px;
+      margin: 40px auto 0;
+      font-family: 'Arial', sans-serif;
+    }
+    .urgency .urgency-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .urgency p { font-size: .88rem; color: #ccc; line-height: 1.5; }
+    .urgency strong { color: #fff; }
+
+    /* ── Responsive ──────────────────────────────── */
+    @media (max-width: 768px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 48px; }
+      .hero-book { order: -1; }
+      .hero-book img { max-width: 240px; }
+      .hero-text .cta-group { align-items: center; text-align: center; }
+      .hero-text h1, .hero-text .subtitle { text-align: center; }
+      .author-inner { grid-template-columns: 1fr; }
+      .author-photo-wrap { max-width: 220px; margin: 0 auto; }
+      .podcast-card { grid-template-columns: 1fr; }
+      .podcast-card .listen-btn { width: 100%; justify-content: center; }
+    }
+
+    @media (max-width: 480px) {
+      section { padding: 56px 0; }
+      .cta-btn.large { padding: 18px 32px; font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top urgency bar -->
+  <div class="topbar sans">
+    ⚠️ &nbsp;If your loved one was just arrested — every day without this knowledge costs you.
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ HERO -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-inner">
+
+        <div class="hero-text">
+          <p class="section-label sans">Now Available on Amazon</p>
+          <h1>
+            Your family just got hit by<br />
+            <em>federal charges.</em><br />
+            Here's what you need to know.
+          </h1>
+          <p class="subtitle">
+            <em>Surviving Pretrial</em> is the only guide written specifically for families and loved ones navigating a federal prosecution — from arrest to courtroom. No legal jargon. No false hope. Just the truth you need to protect your family and your future.
+          </p>
+          <div class="cta-group">
+            <a class="cta-btn large" href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8" target="_blank" rel="noopener">
+              Get the Book on Amazon →
+            </a>
+            <p class="guarantee-note">Available in Paperback &amp; Kindle &nbsp;·&nbsp; Ships fast via Amazon Prime</p>
+          </div>
+        </div>
+
+        <div class="hero-book">
+          <img
+            src="https://m.media-amazon.com/images/I/71example.jpg"
+            onerror="this.onerror=null; this.src=''; this.parentElement.innerHTML='<div style=\'background:linear-gradient(135deg,#1a1d25,#2a2d38);border-radius:8px;padding:40px 32px;text-align:center;border:1px solid #3d4050;max-width:280px\'><div style=\'font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:#c9973a;margin-bottom:16px;font-family:Arial\'>Bilal Khan</div><div style=\'font-size:1.6rem;font-weight:700;color:#fff;margin-bottom:8px;line-height:1.3\'>Surviving Pretrial</div><div style=\'font-size:.85rem;color:#9ca3af;font-family:Arial;margin-bottom:24px;line-height:1.5\'>The Ultimate Survival Guide to Being Busted and Prosecuted by the Feds</div><div style=\'width:60px;height:4px;background:#c9973a;margin:0 auto\'></div></div>'"
+            alt="Surviving Pretrial book cover by Bilal Khan"
+            style="max-width:300px;"
+          />
+          <div>
+            <div class="stars">★★★★★</div>
+            <p class="stars-caption">Rated 5 stars &nbsp;·&nbsp; Available on Amazon</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════ PAIN -->
+  <section class="pain">
+    <div class="container">
+      <p class="section-label">The reality right now</p>
+      <h2>You're terrified. And you're not getting straight answers.</h2>
+      <p class="lead">
+        When the federal government comes for your family member, everything changes overnight. Most people have no idea what they're walking into — and that ignorance is costly.
+      </p>
+
+      <ul class="pain-list">
+        <li>
+          <strong>Your lawyer isn't explaining anything</strong>
+          <span>Most defense attorneys speak in legalese, bill by the hour, and leave families completely in the dark about what's actually happening.</span>
+        </li>
+        <li>
+          <strong>The internet is full of bad advice</strong>
+          <span>Forums, YouTube videos, and general legal sites aren't written for federal cases — and acting on wrong information can make things worse.</span>
+        </li>
+        <li>
+          <strong>You don't know how to help</strong>
+          <span>You want to support your loved one but you don't know what's useful and what could accidentally hurt their case.</span>
+        </li>
+        <li>
+          <strong>The pretrial phase is the most critical</strong>
+          <span>Most families don't realize that decisions made before trial — bond hearings, plea talks, attorney selection — often determine everything that follows.</span>
+        </li>
+        <li>
+          <strong>You can't afford to be blindsided</strong>
+          <span>Federal prosecutors have enormous resources. The only way to protect your family is to understand the game being played.</span>
+        </li>
+        <li>
+          <strong>Time is already working against you</strong>
+          <span>Every day that passes without the right knowledge is a day the government uses to build a stronger case.</span>
+        </li>
+      </ul>
+
+      <blockquote class="pain-truth">
+        "The federal justice system is not designed to be understood by the people caught inside it. This book is the map most families never get."
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ WHAT YOU LEARN -->
+  <section>
+    <div class="container">
+      <p class="section-label">Inside the book</p>
+      <h2>What <em>Surviving Pretrial</em> teaches you</h2>
+      <p class="lead">
+        Written by someone who has lived through the federal system — not just studied it — this guide covers exactly what families need to know during the most confusing and dangerous phase of a federal case.
+      </p>
+
+      <div class="learn-grid">
+        <div class="learn-card">
+          <div class="icon">⚖️</div>
+          <h3>How to Evaluate Your Attorney</h3>
+          <p>The questions every family should be asking — and the red flags that signal your lawyer isn't prepared to fight. Most families overpay for underperformance.</p>
+        </div>
+        <div class="learn-card">
+          <div class="icon">🔒</div>
+          <h3>What Happens During Pretrial Detention</h3>
+          <p>From the moment of arrest through bond hearings and detention orders — a clear breakdown of what to expect and how to navigate it.</p>
+        </div>
+        <div class="learn-card">
+          <div class="icon">📋</div>
+          <h3>Understanding Federal Charges</h3>
+          <p>Federal charges are different from state charges. This section explains the key differences that dramatically affect outcomes.</p>
+        </div>
+        <div class="learn-card">
+          <div class="icon">💬</div>
+          <h3>What NOT to Say or Do</h3>
+          <p>Families inadvertently hurt cases every day by saying the wrong things to investigators, on jail calls, or on social media. Know the rules.</p>
+        </div>
+        <div class="learn-card">
+          <div class="icon">🤝</div>
+          <h3>Cooperation & Plea Deals Explained</h3>
+          <p>What cooperation actually means, when it helps, and when it doesn't — stripped of the legal double-talk that leaves families confused.</p>
+        </div>
+        <div class="learn-card">
+          <div class="icon">🧭</div>
+          <h3>Surviving as a Family</h3>
+          <p>Federal cases can last years. This book helps the entire family stay together, stay sane, and stay strategic through the process.</p>
+        </div>
+      </div>
+
+      <div style="text-align:center;">
+        <a class="cta-btn" href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8" target="_blank" rel="noopener">
+          Order Your Copy on Amazon →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ PODCAST -->
+  <section class="podcast">
+    <div class="container">
+      <p class="section-label">Hear it from the author</p>
+      <h2>Listen before you buy</h2>
+      <p class="lead">
+        Bilal Khan was a guest on the <em>Set for Sentencing</em> podcast, where he broke down one of the most important questions any family asks — and few attorneys honestly answer.
+      </p>
+
+      <div class="podcast-card">
+        <div>
+          <p class="pod-label">Set for Sentencing Podcast · Featured Episode</p>
+          <h3>"Is My Lawyer Any Good?" — Surviving Pretrial Vol. 1</h3>
+          <p>
+            In this episode, Bilal Khan walks through how families can evaluate whether their attorney is truly prepared to fight a federal case — and what the warning signs look like when they're not. It's one of the most critical decisions a family will ever make, and most people make it blind.
+          </p>
+        </div>
+        <a
+          class="listen-btn"
+          href="https://setforsentencing.com/podcast/surviving-pretrial-vol-1-is-my-lawyer-any-good/"
+          target="_blank"
+          rel="noopener"
+        >
+          <span class="podcast-icon">🎙️</span>
+          Listen Free
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ AUTHOR -->
+  <section>
+    <div class="container">
+      <div class="author-inner">
+
+        <div>
+          <div class="author-photo-wrap">
+            <div class="author-initials">BK</div>
+            <div class="author-name-plate">
+              <strong>Bilal Khan</strong>
+              <span>Author &amp; Federal System Survivor</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="author-bio">
+          <p class="section-label">About the author</p>
+          <h2>Written by someone who lived it</h2>
+          <p>
+            Bilal Khan isn't a lawyer, and he doesn't pretend to be. What he is, is someone who navigated the federal system firsthand — from arrest through pretrial, through all the fear and confusion that families experience — and came out with a clear picture of what people needed to know but weren't being told.
+          </p>
+          <p>
+            That knowledge became <em>Surviving Pretrial</em>: a no-nonsense guide written in plain language, designed for the family sitting at the kitchen table trying to figure out what just happened and what comes next.
+          </p>
+          <p>
+            Bilal has since shared his experience on podcasts and through direct advocacy, helping families across the country understand a system that is deliberately difficult to navigate without a guide.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ QUOTES -->
+  <section style="background:#0e1016;">
+    <div class="container">
+      <p class="section-label">What readers say</p>
+      <h2>Families that read it — before it was too late</h2>
+
+      <div class="quotes-grid">
+        <div class="quote-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>
+            "My brother got indicted and we had no idea what was happening. This book was the first thing that actually made sense of the situation. I wish I'd had it on day one."
+          </blockquote>
+          <cite>— Amazon Reviewer</cite>
+        </div>
+        <div class="quote-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>
+            "I read this cover to cover the night after my husband's arrest. It calmed me down, gave me a checklist, and helped me ask the right questions at the attorney consultation the next morning."
+          </blockquote>
+          <cite>— Amazon Reviewer</cite>
+        </div>
+        <div class="quote-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>
+            "Every family dealing with a federal case should have this book. The chapter on evaluating your attorney alone is worth ten times the price."
+          </blockquote>
+          <cite>— Amazon Reviewer</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ FINAL CTA -->
+  <section class="final-cta">
+    <div class="container">
+      <p class="section-label" style="text-align:center;">Get it now</p>
+      <h2>
+        This is your family's first dollar spent — make it count.
+      </h2>
+      <p class="sub">
+        You're going to spend thousands on attorneys. Spend a few dollars first on understanding what's actually happening — so you can protect your family every step of the way.
+      </p>
+
+      <a
+        class="cta-btn large red-btn"
+        href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8"
+        target="_blank"
+        rel="noopener"
+      >
+        Get Surviving Pretrial on Amazon →
+      </a>
+
+      <p class="price-note">Paperback &amp; Kindle available &nbsp;·&nbsp; Fast Amazon shipping &nbsp;·&nbsp; Read tonight</p>
+
+      <div class="urgency">
+        <span class="urgency-icon">⏳</span>
+        <p>
+          <strong>The pretrial phase moves fast.</strong> Decisions made in the first days and weeks have lasting consequences. The sooner your family has this information, the better positioned you are.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ FOOTER -->
+  <footer>
+    <div class="container">
+      <p style="margin-bottom:8px;">
+        <em>Surviving Pretrial</em> by Bilal Khan &nbsp;·&nbsp;
+        <a href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8" target="_blank" rel="noopener">Available on Amazon</a>
+        &nbsp;·&nbsp;
+        <a href="https://setforsentencing.com/podcast/surviving-pretrial-vol-1-is-my-lawyer-any-good/" target="_blank" rel="noopener">Podcast Episode</a>
+      </p>
+      <p style="color:#555;">This site is for informational purposes only and does not constitute legal advice.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
