@@ -190,8 +190,8 @@ h3 { font-size: clamp(1.3rem, 2.2vw, 1.7rem); }
   gap: 24px;
 }
 .brand { display: flex; align-items: center; gap: 12px; }
-.brand img { height: 50px; width: auto; transition: height .35s var(--ease); }
-.scrolled .brand img { height: 42px; }
+.brand img { height: 64px; width: auto; transition: height .35s var(--ease); }
+.scrolled .brand img { height: 52px; }
 
 .nav-links { display: flex; align-items: center; gap: 4px; }
 .nav-link {
@@ -482,6 +482,7 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
   position: relative;
 }
 .founder-portrait .initials { font-family: var(--font-display); font-size: 5rem; font-weight: 600; color: var(--accent); }
+.founder-portrait img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .founder-plate { padding: 20px 24px; border-top: 1px solid var(--border); }
 .founder-plate strong { display: block; font-family: var(--font-label); letter-spacing: .08em; font-size: 1.05rem; }
 .founder-plate span { color: var(--muted); font-size: .85rem; }
@@ -739,7 +740,7 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
    ========================================================================== */
 
 /* ---- Photographic hero (full-bleed splash) ----------------------------- */
-.hero--photo { min-height: 100svh; align-items: center; background: linear-gradient(160deg, #0b0d11 0%, #16100b 55%, #0b0d11 100%); }
+.hero--photo { min-height: 86svh; align-items: center; background: linear-gradient(160deg, #0b0d11 0%, #16100b 55%, #0b0d11 100%); }
 .hero-photo {
   position: absolute; inset: 0; z-index: 0;
   background-color: #0d0f14;            /* fallback if image is missing */
