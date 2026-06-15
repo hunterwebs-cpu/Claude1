@@ -1,0 +1,29 @@
+# ============================================================================
+# Surviving the Feds — Apache config (Hostinger)
+# ============================================================================
+
+# Default document
+DirectoryIndex index.html
+
+# --- Caching -----------------------------------------------------------------
+<IfModule mod_headers.c>
+  # HTML: always revalidate so site updates appear immediately (no stale pages)
+  <FilesMatch "\.(html)$">
+    Header set Cache-Control "no-cache, must-revalidate, max-age=0"
+  </FilesMatch>
+
+  # Static assets: cache long-term. We bust them with ?v= when they change.
+  <FilesMatch "\.(css|js|jpg|jpeg|png|gif|svg|webp|ico|woff|woff2)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>
+
+# --- Correct MIME types (just in case) --------------------------------------
+<IfModule mod_mime.c>
+  AddType image/svg+xml .svg
+  AddType text/css .css
+  AddType application/javascript .js
+</IfModule>
+
+# --- Pretty 404 (optional) ---------------------------------------------------
+# ErrorDocument 404 /index.html
