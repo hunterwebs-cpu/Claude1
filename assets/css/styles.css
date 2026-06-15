@@ -846,6 +846,12 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
   .home-book-card { padding: 30px 30px !important; }
 }
 
+/* ---- Per-book pull review (Books page) --------------------------------- */
+.book-quote { margin-top: 28px; border-left: 3px solid var(--accent); padding: 4px 0 4px 22px; }
+.book-quote .stars { color: var(--accent); letter-spacing: 3px; font-size: .85rem; margin-bottom: 8px; }
+.book-quote p { font-family: var(--font-display); font-style: italic; color: var(--text); font-size: 1.08rem; line-height: 1.5; margin-bottom: 8px; max-width: 60ch; }
+.book-quote .bq-cite { font-family: var(--font-label); font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+
 /* ---- Books page: subtle photographic context per book ------------------ */
 .book-section { position: relative; overflow: hidden; }
 .book-section-bg { position: absolute; inset: 0; z-index: 0; background-size: cover; background-position: center; opacity: .08; }
