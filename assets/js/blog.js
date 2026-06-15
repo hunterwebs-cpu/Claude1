@@ -8,9 +8,9 @@
 (function () {
   'use strict';
 
-  var CONTENT_BASE = '/content/blog/';
-  var AUTO_INDEX = '/content/posts.php';   // preferred: lists posts automatically (needs PHP)
-  var MANIFEST = '/content/posts.json';    // fallback: static manifest (works anywhere)
+  var CONTENT_BASE = 'content/blog/';
+  var AUTO_INDEX = 'content/posts.php';   // preferred: lists posts automatically (needs PHP)
+  var MANIFEST = 'content/posts.json';    // fallback: static manifest (works anywhere)
 
   /* Minimal frontmatter parser: ---\n key: "value" \n--- \n body */
   function parseFrontmatter(raw) {
@@ -47,7 +47,7 @@
       ? '<img src="' + esc(post.cover) + '" alt="" loading="lazy" />'
       : '<span class="ph-mark" aria-hidden="true">§</span>';
     return '' +
-      '<a class="post-card" href="/post.html?slug=' + encodeURIComponent(post.slug) + '">' +
+      '<a class="post-card" href="post.html?slug=' + encodeURIComponent(post.slug) + '">' +
         '<div class="post-thumb">' + thumb + '</div>' +
         '<div class="post-body">' +
           '<span class="post-cat">' + esc(post.category || 'Article') + '</span>' +

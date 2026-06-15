@@ -6,7 +6,7 @@
 (function () {
   'use strict';
 
-  var CONTENT_BASE = '/content/blog/';
+  var CONTENT_BASE = 'content/blog/';
 
   function parseFrontmatter(raw) {
     var meta = {}, body = raw;
@@ -40,7 +40,7 @@
     if (host) {
       host.innerHTML = '<div class="article-header"><span class="eyebrow center">The Journal</span>' +
         '<h1>Article not found</h1><p class="lead center">' + msg +
-        '</p><div class="center" style="margin-top:28px;"><a class="btn btn--primary" href="/blog.html">Back to the Journal</a></div></div>';
+        '</p><div class="center" style="margin-top:28px;"><a class="btn btn--primary" href="blog.html">Back to the Journal</a></div></div>';
     }
   }
 
