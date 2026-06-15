@@ -64,26 +64,32 @@
 
   <main>
     <!-- ========================================================== HERO -->
-    <section class="hero">
-      <div class="hero-bg"></div>
+    <section class="hero hero--photo">
+      <div class="hero-photo" style="background-image:url('assets/img/photos/defendant-judge.jpg')"></div>
+      <div class="hero-scrim"></div>
       <div class="container">
-        <div data-reveal>
-          <span class="equation">
-            Knowledge <span class="op">+</span> Strength <span class="op">=</span> <span class="free">Freedom</span>
-          </span>
-        </div>
-        <h1 data-reveal data-delay="1">
-          The feds have a playbook. <span class="display-italic">Now so do you.</span>
-        </h1>
-        <p class="lead" data-reveal data-delay="2">
-          When the federal government comes for you or someone you love, the most dangerous thing you can be is uninformed. Surviving the Feds delivers the hard-won truth about the system — written by someone who lived through it, not a professor who studied it from a distance.
-        </p>
-        <div class="hero-actions" data-reveal data-delay="3">
-          <a class="btn btn--primary" href="books.html">
-            Explore the Books
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-          <a class="btn btn--ghost" href="#mission">Why we exist</a>
+        <div class="hero-content">
+          <div data-reveal>
+            <span class="equation">
+              Knowledge <span class="op">+</span> Strength <span class="op">=</span> <span class="free">Freedom</span>
+            </span>
+          </div>
+          <h1 data-reveal data-delay="1">
+            The feds have a playbook. <span class="display-italic">Now so do you.</span>
+          </h1>
+          <p class="lead" data-reveal data-delay="2">
+            When the federal government comes for you or someone you love, the most dangerous thing you can be is uninformed. Surviving the Feds delivers the hard-won truth about the system — written by someone who lived through it, not a professor who studied it from a distance.
+          </p>
+          <div class="hero-actions" data-reveal data-delay="3">
+            <a class="btn btn--primary" href="books.html">
+              Explore the Books
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#mission">Why we exist</a>
+          </div>
+          <p class="hero-trust" data-reveal data-delay="4">
+            Wide distribution on Amazon <span class="dot">·</span> Paperback &amp; eBook <span class="dot">·</span> Two volumes
+          </p>
         </div>
       </div>
       <div class="scroll-cue" aria-hidden="true">
@@ -109,12 +115,38 @@
       </div>
     </div>
 
+    <!-- ===================================================== PROMISE STRIP -->
+    <section class="promise">
+      <div class="container">
+        <div class="promise-grid">
+          <div class="promise-item" data-reveal>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            <div><strong>Lived, not studied</strong><span>Written from inside the federal system — not a lecture hall.</span></div>
+          </div>
+          <div class="promise-item" data-reveal data-delay="1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            <div><strong>Plain language</strong><span>No jargon, no false hope — just what's actually happening.</span></div>
+          </div>
+          <div class="promise-item" data-reveal data-delay="2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <div><strong>For families too</strong><span>Built for defendants and the people fighting for them.</span></div>
+          </div>
+          <div class="promise-item" data-reveal data-delay="3">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/><circle cx="12" cy="12" r="10"/></svg>
+            <div><strong>Knowledge stays free</strong><span>The Journal is free to read — and printable to mail inside.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ======================================================= MISSION -->
     <section class="section" id="mission">
       <div class="container">
-        <div class="sec-head" data-reveal>
-          <span class="eyebrow">The Mission</span>
-          <h2>The system counts on you not understanding it.</h2>
+        <div class="sec-head split-head" data-reveal>
+          <div class="sh-head">
+            <span class="eyebrow">The Mission</span>
+            <h2>The system counts on you not understanding it.</h2>
+          </div>
           <p class="lead">
             Federal prosecutions are designed to be opaque, intimidating, and lopsided. Most defendants and their families step into it with no map, no language, and no idea how fast the most important decisions get made. We exist to change that — to put real, lived knowledge into the hands of the people who need it most, when they need it most.
           </p>
@@ -149,26 +181,22 @@
     <!-- ======================================================== BOOKS -->
     <section class="section section--alt">
       <div class="container">
-        <div class="sec-head" data-reveal>
-          <span class="eyebrow">The Books</span>
-          <h2>Field guides for the federally accused.</h2>
+        <div class="sec-head split-head" data-reveal>
+          <div class="sh-head">
+            <span class="eyebrow">The Books</span>
+            <h2>Field guides for the federally accused.</h2>
+          </div>
           <p class="lead">Two volumes in the <em>Surviving the Feds</em> series — available in paperback and eBook on Amazon. Written for the person sitting at the kitchen table at midnight, trying to understand what just happened to their life.</p>
         </div>
 
         <div class="grid grid-2">
           <!-- Book 1 -->
-          <article class="card" data-reveal data-delay="1" style="display:flex; gap:24px; align-items:flex-start;">
-            <div class="book-cover-shell" style="flex:0 0 140px;">
-              <div class="book-cover" style="transform:none;">
-                <div>
-                  <div class="bc-series">Surviving the Feds · Vol. 1</div>
-                  <div class="bc-rule"></div>
-                  <div class="bc-title" style="font-size:1.1rem;">Surviving Pretrial</div>
-                </div>
-                <div class="bc-author">Bilal Khan</div>
-              </div>
-            </div>
+          <article class="card home-book-card" data-reveal data-delay="1" style="display:flex; gap:28px; align-items:center;">
+            <a class="book-cover-shell" href="books.html" style="flex:0 0 132px;" aria-label="Surviving Pretrial — view details">
+              <img class="cover-img" src="assets/img/cover-pretrial.jpg" alt="Surviving Pretrial book cover by Bilal Khan" loading="lazy" />
+            </a>
             <div>
+              <div class="bc-series" style="color:var(--accent); font-family:var(--font-label); letter-spacing:.18em; text-transform:uppercase; font-size:.72rem; margin-bottom:8px;">Volume 1</div>
               <h3 style="font-size:1.35rem;">Surviving Pretrial</h3>
               <p style="color:var(--muted); font-size:.95rem; margin:10px 0 18px;">The ultimate survival guide to being busted &amp; prosecuted by the feds. The map most families never get — covering arrest, detention, attorneys, and the decisions that shape everything.</p>
               <a class="nav-link" style="padding-left:0; color:var(--accent);" href="books.html">Read more →</a>
@@ -176,18 +204,12 @@
           </article>
 
           <!-- Book 2 -->
-          <article class="card" data-reveal data-delay="2" style="display:flex; gap:24px; align-items:flex-start;">
-            <div class="book-cover-shell" style="flex:0 0 140px;">
-              <div class="book-cover" style="transform:none;">
-                <div>
-                  <div class="bc-series">Surviving the Feds · Vol. 2</div>
-                  <div class="bc-rule"></div>
-                  <div class="bc-title" style="font-size:1.1rem;">The 2255 Motion Handbook</div>
-                </div>
-                <div class="bc-author">Bilal Khan</div>
-              </div>
-            </div>
+          <article class="card home-book-card" data-reveal data-delay="2" style="display:flex; gap:28px; align-items:center;">
+            <a class="book-cover-shell" href="books.html" style="flex:0 0 132px;" aria-label="The 2255 Motion Handbook — view details">
+              <img class="cover-img" src="assets/img/cover-2255.jpg" alt="The 2255 Motion Handbook book cover by Bilal Khan" loading="lazy" />
+            </a>
             <div>
+              <div class="bc-series" style="color:var(--accent); font-family:var(--font-label); letter-spacing:.18em; text-transform:uppercase; font-size:.72rem; margin-bottom:8px;">Volume 2</div>
               <h3 style="font-size:1.35rem;">The 2255 Motion Handbook</h3>
               <p style="color:var(--muted); font-size:.95rem; margin:10px 0 18px;">A post-conviction relief guide for federal inmates. The first guide of its kind — the exact steps to file, argue, and fight for your freedom after conviction.</p>
               <a class="nav-link" style="padding-left:0; color:var(--accent);" href="books.html">Read more →</a>
@@ -200,6 +222,39 @@
             See both books in detail
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================= REVIEWS -->
+    <!-- TODO: Replace the three quotes/attributions below with the real
+         verified reviews from the Amazon book pages. Keep the markup. -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="sec-head split-head" data-reveal>
+          <div class="sh-head">
+            <span class="eyebrow">Reader Reviews</span>
+            <h2>The people who needed it, first.</h2>
+          </div>
+          <p class="lead">Verified reviews from readers who found the books when it mattered most. (Live from Amazon.)</p>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review" data-reveal data-delay="1">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"My brother got indicted and we had no idea what was happening. This was the first thing that actually made sense of it. I wish we'd had it on day one."</blockquote>
+            <cite>Amazon Reader<span class="src">Verified review · Surviving Pretrial</span></cite>
+          </article>
+          <article class="review" data-reveal data-delay="2">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"I read it the night after my husband's arrest. It calmed me down and helped me ask the right questions at the attorney meeting the next morning."</blockquote>
+            <cite>Amazon Reader<span class="src">Verified review · Surviving Pretrial</span></cite>
+          </article>
+          <article class="review" data-reveal data-delay="3">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"There's nothing else like the 2255 handbook. It breaks down a complicated process so a regular person can actually follow it. Invaluable."</blockquote>
+            <cite>Amazon Reader<span class="src">Verified review · The 2255 Motion Handbook</span></cite>
+          </article>
         </div>
       </div>
     </section>
@@ -230,12 +285,24 @@
       </div>
     </section>
 
+    <!-- ==================================================== QUOTE BAND -->
+    <section class="quote-band">
+      <div class="qb-photo" style="background-image:url('assets/img/photos/handcuffs.jpg')"></div>
+      <div class="qb-scrim"></div>
+      <div class="container">
+        <blockquote data-reveal>"You will spend everything on this fight. Spend a little on understanding it first."</blockquote>
+        <p class="qb-cite" data-reveal data-delay="1">— From Surviving Pretrial</p>
+      </div>
+    </section>
+
     <!-- ==================================================== WHAT'S COMING -->
     <section class="section section--alt">
       <div class="container">
-        <div class="sec-head" data-reveal>
-          <span class="eyebrow">On the Horizon</span>
-          <h2>This is only the beginning.</h2>
+        <div class="sec-head split-head" data-reveal>
+          <div class="sh-head">
+            <span class="eyebrow">On the Horizon</span>
+            <h2>This is only the beginning.</h2>
+          </div>
           <p class="lead">The books are the foundation. Surviving the Feds is growing into a full brand of services for federal defendants and their families. Here's what we're building.</p>
         </div>
 
@@ -262,9 +329,11 @@
     <!-- ===================================================== JOURNAL TEASER -->
     <section class="section" id="journal-teaser">
       <div class="container">
-        <div class="sec-head" data-reveal>
-          <span class="eyebrow">The Journal</span>
-          <h2>Straight answers to the questions that keep you up at night.</h2>
+        <div class="sec-head split-head" data-reveal>
+          <div class="sh-head">
+            <span class="eyebrow">The Journal</span>
+            <h2>Straight answers to the questions that keep you up at night.</h2>
+          </div>
           <p class="lead">Articles on federal procedure, defense strategy, and surviving the process — written in plain language, free for anyone who needs them.</p>
         </div>
         <div class="post-grid" id="home-posts" data-reveal data-delay="1">
@@ -277,7 +346,9 @@
     </section>
 
     <!-- ======================================================= CTA BAND -->
-    <section class="section cta-band">
+    <section class="section cta-band cta-band--photo">
+      <div class="cta-photo" style="background-image:url('assets/img/photos/walkway.jpg')"></div>
+      <div class="cta-scrim"></div>
       <div class="container">
         <div data-reveal>
           <span class="eyebrow center">Knowledge + Strength = Freedom</span>

@@ -37,7 +37,7 @@
   --font-body:    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /* Layout */
-  --max:   1180px;
+  --max:   1240px;
   --max-narrow: 760px;
   --radius: 14px;
   --radius-sm: 8px;
@@ -88,7 +88,7 @@ main, header, footer { position: relative; z-index: 2; }
 .container { max-width: var(--max); margin: 0 auto; padding: 0 28px; }
 .narrow { max-width: var(--max-narrow); }
 .center { text-align: center; }
-.section { padding: clamp(64px, 9vw, 130px) 0; position: relative; }
+.section { padding: clamp(58px, 6vw, 104px) 0; position: relative; }
 .section--alt { background: var(--bg-2); }
 .divider { border: 0; border-top: 1px solid var(--border); }
 
@@ -733,6 +733,123 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
     color: #000;
   }
 }
+
+/* ============================================================================
+   IMAGERY-DRIVEN COMPONENTS (added with real photography + covers)
+   ========================================================================== */
+
+/* ---- Photographic hero (full-bleed splash) ----------------------------- */
+.hero--photo { min-height: 100svh; align-items: center; }
+.hero-photo {
+  position: absolute; inset: 0; z-index: 0;
+  background-size: cover;
+  background-position: 72% center;
+  transform: scale(1.04);
+}
+.hero-scrim {
+  position: absolute; inset: 0; z-index: 1;
+  background:
+    linear-gradient(90deg, rgba(8,9,11,.96) 0%, rgba(8,9,11,.88) 32%, rgba(8,9,11,.5) 64%, rgba(8,9,11,.35) 100%),
+    linear-gradient(0deg, rgba(8,9,11,.85) 0%, transparent 42%),
+    radial-gradient(700px 420px at 78% 30%, rgba(232,119,34,.18), transparent 70%);
+}
+.hero--photo .container { position: relative; z-index: 2; }
+.hero-content { max-width: 760px; }
+.hero-trust {
+  margin-top: 26px;
+  font-family: var(--font-label);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  font-size: .78rem;
+  color: var(--muted);
+}
+.hero-trust .dot { color: var(--accent); margin: 0 8px; }
+
+/* ---- Editorial split section header ------------------------------------ */
+@media (min-width: 1000px) {
+  .sec-head.split-head {
+    display: grid;
+    grid-template-columns: minmax(0,1.08fr) minmax(0,.92fr);
+    gap: clamp(36px, 5vw, 76px);
+    align-items: end;
+    max-width: none;
+  }
+  .sec-head.split-head .lead { margin: 0; max-width: 50ch; }
+}
+
+/* ---- Promise / values strip -------------------------------------------- */
+.promise { background: var(--bg-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.promise .container { padding-top: 38px; padding-bottom: 38px; }
+.promise-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; }
+.promise-item { display: flex; gap: 14px; align-items: flex-start; }
+.promise-item svg { width: 26px; height: 26px; color: var(--accent); flex-shrink: 0; margin-top: 2px; }
+.promise-item strong { display: block; font-family: var(--font-label); letter-spacing: .04em; font-size: .98rem; color: var(--text); margin-bottom: 4px; }
+.promise-item span { color: var(--muted); font-size: .86rem; line-height: 1.5; }
+@media (max-width: 900px) { .promise-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; } }
+@media (max-width: 560px) { .promise-grid { grid-template-columns: 1fr; } }
+
+/* ---- Cinematic image quote band ---------------------------------------- */
+.quote-band { position: relative; overflow: hidden; padding: clamp(84px, 13vw, 170px) 0; text-align: center; }
+.quote-band .qb-photo { position: absolute; inset: 0; z-index: 0; background-size: cover; background-position: center; }
+.quote-band .qb-scrim {
+  position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(0deg, rgba(8,9,11,.94), rgba(8,9,11,.66) 50%, rgba(8,9,11,.88));
+}
+.quote-band .container { position: relative; z-index: 2; }
+.quote-band blockquote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(1.7rem, 3.6vw, 3rem);
+  line-height: 1.28;
+  color: #fff;
+  max-width: 20ch;
+  margin: 0 auto 22px;
+}
+.quote-band .qb-cite { font-family: var(--font-label); letter-spacing: .16em; text-transform: uppercase; font-size: .82rem; color: var(--accent); }
+
+/* ---- Real book covers --------------------------------------------------- */
+.cover-img {
+  display: block; width: 100%;
+  border-radius: 3px 9px 9px 3px;
+  box-shadow: -14px 18px 44px -16px rgba(0,0,0,.85), 0 0 0 1px rgba(255,255,255,.05);
+}
+.book-photo {
+  display: block; width: 100%;
+  border-radius: 3px 10px 10px 3px;
+  box-shadow: -20px 24px 64px -22px rgba(0,0,0,.92), 0 0 0 1px rgba(255,255,255,.05);
+  transform: rotateY(-13deg) rotateX(3deg);
+  transition: transform .6s var(--ease);
+}
+.book-cover-shell:hover .book-photo { transform: rotateY(-4deg) rotateX(1deg) translateY(-6px); }
+
+/* ---- Reviews ------------------------------------------------------------ */
+.reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.review { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 30px 28px; display: flex; flex-direction: column; }
+.review .stars { color: var(--accent); letter-spacing: 3px; font-size: 1rem; margin-bottom: 16px; }
+.review blockquote { font-family: var(--font-display); font-style: italic; font-size: 1.12rem; line-height: 1.55; color: var(--text); margin-bottom: 18px; flex: 1; }
+.review cite { font-family: var(--font-label); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--text-soft); font-style: normal; }
+.review .src { display: block; color: var(--faint); font-size: .76rem; margin-top: 4px; letter-spacing: .04em; }
+@media (max-width: 920px) { .reviews-grid { grid-template-columns: 1fr; } }
+
+/* ---- CTA band with photo ----------------------------------------------- */
+.cta-band--photo { position: relative; overflow: hidden; border-top: 1px solid var(--border); background: #0A0B0E; }
+.cta-band--photo .cta-photo { position: absolute; inset: 0; z-index: 0; background-size: cover; background-position: center; opacity: .5; }
+.cta-band--photo .cta-scrim {
+  position: absolute; inset: 0; z-index: 1;
+  background: radial-gradient(700px 420px at 50% 0%, rgba(232,119,34,.22), transparent 65%), linear-gradient(0deg, rgba(8,9,11,.96), rgba(8,9,11,.78));
+}
+.cta-band--photo .container { position: relative; z-index: 2; }
+
+/* ---- Books-teaser cards: lift on desktop ------------------------------- */
+@media (min-width: 1000px) {
+  .home-book-card { padding: 30px 30px !important; }
+}
+
+/* ---- Books page: subtle photographic context per book ------------------ */
+.book-section { position: relative; overflow: hidden; }
+.book-section-bg { position: absolute; inset: 0; z-index: 0; background-size: cover; background-position: center; opacity: .08; }
+.book-section .container { position: relative; z-index: 1; }
 
 /* ---- Reduced motion ----------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
