@@ -84,6 +84,11 @@
     counters.forEach(animateCount);
   }
 
+  /* ---- Print / Save-as-PDF buttons ------------------------------------- */
+  document.querySelectorAll('[data-print]').forEach(function (btn) {
+    btn.addEventListener('click', function () { window.print(); });
+  });
+
   /* ---- Footer year ----------------------------------------------------- */
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();

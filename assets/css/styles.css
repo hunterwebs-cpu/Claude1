@@ -596,6 +596,9 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
 .article-header { max-width: var(--max-narrow); margin: 0 auto 48px; text-align: center; }
 .article-header h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); margin: 18px 0 22px; }
 .article-meta { color: var(--muted); font-family: var(--font-label); letter-spacing: .1em; text-transform: uppercase; font-size: .8rem; }
+.article-tools { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; max-width: var(--max-narrow); margin: 0 auto 40px; }
+.tools-hint { color: var(--muted); font-size: .88rem; line-height: 1.5; }
+.tools-hint strong { color: var(--text-soft); }
 .prose { max-width: var(--max-narrow); margin: 0 auto; font-size: 1.12rem; line-height: 1.8; color: var(--text-soft); }
 .prose h2 { font-size: 1.9rem; margin: 48px 0 18px; color: var(--text); }
 .prose h3 { font-size: 1.4rem; margin: 36px 0 14px; color: var(--text); }
@@ -666,6 +669,69 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
   .grid-3, .grid-2, .post-grid, .stats { grid-template-columns: 1fr; }
   .stats { gap: 16px; }
   .hero { padding-top: 120px; }
+}
+
+/* ---- Print / Save-as-PDF utilities ------------------------------------- */
+.print-only { display: none; }
+
+/* ---- Print layout (article → mailable PDF) ----------------------------- */
+@media print {
+  /* Reset to clean black-on-white, drop all chrome */
+  :root { --text:#000; }
+  html, body { background: #fff !important; color: #000 !important; font-size: 12pt; }
+  body::after { display: none !important; }            /* remove grain */
+  .site-header, .nav-overlay, .site-footer, .cta-band,
+  .screen-only, .scroll-cue, .marquee { display: none !important; }
+  main, .article { padding: 0 !important; }
+  .container { max-width: none; padding: 0; }
+
+  .screen-only { display: none !important; }
+  .print-only { display: block !important; }
+
+  @page { margin: 18mm 16mm 22mm; }
+
+  /* Logo, upper-left */
+  .print-brand { margin-bottom: 14pt; }
+  .print-brand img { height: 64px; width: auto; }
+
+  /* Article header */
+  .article-header { text-align: left !important; max-width: none; margin: 0 0 18pt; }
+  .article-header .eyebrow { color: #000 !important; margin-bottom: 8pt; }
+  .article-header .eyebrow::before { background: #000; }
+  #a-title { font-size: 24pt !important; margin: 6pt 0 10pt; color: #000; }
+  .article-meta { color: #333 !important; font-size: 9pt; }
+
+  /* Body copy */
+  .prose { max-width: none; font-size: 12pt; line-height: 1.55; color: #000; }
+  .prose h2 { font-size: 15pt; margin: 18pt 0 6pt; color:#000; }
+  .prose h3 { font-size: 13pt; margin: 14pt 0 5pt; color:#000; }
+  .prose p, .prose li { color: #000; margin-bottom: 9pt; }
+  .prose a { color: #000; border: 0; text-decoration: underline; }
+  .prose blockquote { border-left: 3px solid #000; color:#000; font-size: 13pt; }
+  .prose h2, .prose h3 { break-after: avoid; }
+  .prose p, .prose blockquote, .prose li { break-inside: avoid; }
+
+  /* Book promo block */
+  .print-books { margin-top: 22pt; padding-top: 12pt; border-top: 2px solid #000; break-inside: avoid; }
+  .print-books h2 { font-size: 15pt; margin-bottom: 6pt; }
+  .print-books-note { font-size: 10.5pt; margin-bottom: 12pt; }
+  .print-book { margin-bottom: 12pt; break-inside: avoid; }
+  .print-book h3 { font-size: 12.5pt; margin-bottom: 3pt; }
+  .print-book p { font-size: 10.5pt; line-height: 1.45; margin-bottom: 3pt; }
+  .print-link { font-size: 11pt; }
+  .print-disclaimer { font-size: 8.5pt; color: #444; margin-top: 10pt; font-style: italic; }
+
+  /* Catch-phrase running footer, centered at the bottom of every page */
+  .print-running-foot {
+    position: fixed;
+    bottom: 6mm; left: 0; right: 0;
+    text-align: center;
+    font-family: var(--font-label);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-size: 8.5pt;
+    color: #000;
+  }
 }
 
 /* ---- Reduced motion ----------------------------------------------------- */
