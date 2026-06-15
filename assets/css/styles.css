@@ -739,9 +739,10 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
    ========================================================================== */
 
 /* ---- Photographic hero (full-bleed splash) ----------------------------- */
-.hero--photo { min-height: 100svh; align-items: center; }
+.hero--photo { min-height: 100svh; align-items: center; background: linear-gradient(160deg, #0b0d11 0%, #16100b 55%, #0b0d11 100%); }
 .hero-photo {
   position: absolute; inset: 0; z-index: 0;
+  background-color: #0d0f14;            /* fallback if image is missing */
   background-size: cover;
   background-position: 72% center;
   transform: scale(1.04);
