@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 72" role="img" aria-label="Surviving the Feds emblem">
+  <defs>
+    <linearGradient id="em" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E63946"/>
+      <stop offset="1" stop-color="#9E1B26"/>
+    </linearGradient>
+  </defs>
+  <rect width="68" height="72" rx="14" fill="#0A0B0E"/>
+  <g transform="translate(2,4)">
+    <path d="M32 0 L62 10 V34 C62 50 49 60 32 64 C15 60 2 50 2 34 V10 Z"
+          fill="none" stroke="url(#em)" stroke-width="3"/>
+    <path d="M20 46 V22 M32 46 V14 M44 46 V22" stroke="#F2F3F5" stroke-width="3" stroke-linecap="round"/>
+    <path d="M22 20 L32 8 L42 20" fill="none" stroke="#E0B43B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

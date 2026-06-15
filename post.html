@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Article — Surviving the Feds</title>
+  <meta name="description" content="An article from the Surviving the Feds Journal." />
+  <meta name="theme-color" content="#0A0B0E" />
+  <link rel="icon" href="/assets/img/emblem.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="/index.html" aria-label="Surviving the Feds home">
+          <img src="/assets/img/logo.svg" alt="Surviving the Feds" />
+        </a>
+        <div class="nav-links">
+          <a class="nav-link" href="/index.html">Home</a>
+          <a class="nav-link" href="/books.html">The Books</a>
+          <a class="nav-link" href="/blog.html" aria-current="page">The Journal</a>
+          <a class="nav-link" href="/index.html#mission">Mission</a>
+        </div>
+        <div class="nav-cta">
+          <a class="btn btn--primary" href="/books.html">
+            Get the Books
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mega-menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="nav-overlay" id="mega-menu">
+    <div class="overlay-menu">
+      <a href="/index.html"><span class="idx">01</span>Home</a>
+      <a href="/books.html"><span class="idx">02</span>The Books</a>
+      <a href="/blog.html"><span class="idx">03</span>The Journal</a>
+      <a href="/index.html#mission"><span class="idx">04</span>The Mission</a>
+    </div>
+    <aside class="overlay-aside">
+      <p class="eyebrow">Knowledge + Strength = Freedom</p>
+      <p class="tagline-mini">We make sure the world has the information it needs to fight for its freedom.</p>
+      <p class="contact-line">For inquiries:</p>
+      <p class="contact-line"><a href="mailto:contact@survivingthefeds.com">contact@survivingthefeds.com</a></p>
+    </aside>
+  </div>
+
+  <main>
+    <article class="article" id="article-root">
+      <div class="container">
+        <header class="article-header">
+          <span class="eyebrow center" id="a-cat">The Journal</span>
+          <h1 id="a-title">Loading…</h1>
+          <p class="article-meta" id="a-meta"></p>
+        </header>
+        <div class="prose" id="a-body"></div>
+
+        <div class="center" style="margin-top:56px;">
+          <a class="btn btn--ghost" href="/blog.html">← Back to the Journal</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- CTA BAND -->
+    <section class="section cta-band">
+      <div class="container">
+        <div>
+          <span class="eyebrow center">Knowledge + Strength = Freedom</span>
+          <h2>Don't face it blind.</h2>
+          <p class="lead center">The books go deeper than any article can.</p>
+          <div class="hero-actions" style="justify-content:center;">
+            <a class="btn btn--primary" href="/books.html">
+              Explore the Books
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/assets/img/logo.svg" alt="Surviving the Feds" />
+          <p>Knowledge + Strength = Freedom. We make sure the world has the information it needs to fight for its freedom.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="/index.html">Home</a>
+          <a href="/books.html">The Books</a>
+          <a href="/blog.html">The Journal</a>
+          <a href="/index.html#mission">Mission</a>
+        </div>
+        <div class="footer-col">
+          <h4>The Books</h4>
+          <a href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8" target="_blank" rel="noopener">Surviving Pretrial</a>
+          <a href="https://www.amazon.com/2255-Motion-Handbook-Post-Conviction-Surviving/dp/B0D8HQRJN8" target="_blank" rel="noopener">The 2255 Motion Handbook</a>
+          <a href="https://www.amazon.com/dp/B0D471H5Z9" target="_blank" rel="noopener">The Series on Amazon</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:contact@survivingthefeds.com">contact@survivingthefeds.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Surviving the Feds. All rights reserved.</span>
+        <span>This site is for informational purposes only and does not constitute legal advice.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Markdown renderer -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/post.js" defer></script>
+</body>
+</html>

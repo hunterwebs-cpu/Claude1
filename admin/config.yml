@@ -1,0 +1,47 @@
+# =============================================================================
+# Surviving the Feds — Content Manager (Decap CMS) configuration
+#
+# This powers the publish dashboard at /admin. You log in with GitHub, write
+# an article, and hit Publish — the post is saved straight into the site's
+# content/blog folder. See DEPLOY.md for the one-time login (OAuth) setup.
+# =============================================================================
+
+backend:
+  name: github
+  repo: hunterwebs-cpu/claude1        # owner/repo — change if the repo moves
+  branch: main                        # the branch your LIVE site is built from
+  # base_url is the address of your OAuth login helper. Required because the
+  # site is NOT hosted on Netlify. Uncomment and set it once you deploy the
+  # tiny OAuth app described in DEPLOY.md (e.g. a free Netlify/Vercel/Cloudflare
+  # OAuth provider). Example:
+  # base_url: https://stf-oauth.yourname.workers.dev
+
+# Where images uploaded in the editor are stored / referenced.
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
+
+# Friendlier preview path for the editor.
+site_url: https://survivingthefeds.com
+display_url: https://survivingthefeds.com
+logo_url: /assets/img/emblem.svg
+
+collections:
+  - name: "blog"
+    label: "Journal Articles"
+    label_singular: "Article"
+    description: "Write and publish articles for The Journal."
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    summary: "{{title}}  —  {{date}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Category", name: "category", widget: "select", options: ["Pretrial", "Defense Strategy", "Post-Conviction", "Sentencing", "Family Guidance", "General"], default: "General" }
+      - { label: "Author", name: "author", widget: "string", default: "Bilal Khan" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", hint: "One or two sentences shown on the article card and in previews." }
+      - { label: "Cover Image", name: "cover", widget: "image", required: false, hint: "Optional. If left blank, a styled placeholder is shown." }
+      - { label: "Body", name: "body", widget: "markdown" }
