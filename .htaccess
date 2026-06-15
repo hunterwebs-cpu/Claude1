@@ -5,6 +5,9 @@
 # Default document
 DirectoryIndex index.html
 
+# --- Security: never serve the .git directory -------------------------------
+RedirectMatch 404 /\.git(/|$)
+
 # --- Caching -----------------------------------------------------------------
 <IfModule mod_headers.c>
   # HTML: always revalidate so site updates appear immediately (no stale pages)
