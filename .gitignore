@@ -1,2 +1,10 @@
-# Generated deploy artifact (rebuilt on demand)
-surviving-the-feds-site.zip
+# Build / deploy artifacts (rebuilt on demand)
+*.zip
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+
+# Dependencies (not used by the static site)
+node_modules/
