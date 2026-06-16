@@ -808,7 +808,7 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
   font-weight: 600;
   font-size: 1.12em;
   color: var(--accent);
-  animation: now-reveal 1.4s var(--ease-out) .5s both;
+  animation: now-reveal 2.7s cubic-bezier(.45,.05,.35,1) .55s both;
 }
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .hl-now {
@@ -817,7 +817,7 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: now-reveal 1.4s var(--ease-out) .5s both, hl-shimmer 6s ease-in-out 2.6s infinite;
+    animation: now-reveal 2.7s cubic-bezier(.45,.05,.35,1) .55s both, hl-shimmer 6s ease-in-out 2.6s infinite;
   }
 }
 @keyframes hl-shimmer { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
