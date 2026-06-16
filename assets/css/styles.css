@@ -956,6 +956,20 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
 .podcast-card h3 { margin-bottom: 8px; }
 .podcast-card p { color: var(--muted); font-size: .95rem; }
 
+/* ---- Emergency / triage (Start Here) ----------------------------------- */
+.checklist--avoid li { border-left: 3px solid #E5544B; }
+.checklist--avoid li svg { color: #E5544B; }
+.reassure { background: linear-gradient(135deg, rgba(232,119,34,.12), rgba(201,208,216,.04)); border: 1px solid var(--border-2); border-radius: var(--radius); padding: clamp(28px, 4vw, 48px); text-align: center; }
+.reassure h2 { margin-bottom: 14px; }
+.reassure .lead { margin-left: auto; margin-right: auto; }
+.faq-item { border-top: 1px solid var(--border); padding: 26px 0; }
+.faq-item:last-child { border-bottom: 1px solid var(--border); }
+.faq-item h3 { font-size: 1.18rem; margin-bottom: 10px; color: var(--text); }
+.faq-item p { color: var(--text-soft); max-width: 72ch; }
+.now-pill { display: inline-flex; align-items: center; gap: 9px; font-family: var(--font-label); letter-spacing: .14em; text-transform: uppercase; font-size: .76rem; color: #ffd9b0; background: rgba(232,119,34,.14); border: 1px solid rgba(232,119,34,.4); border-radius: 50px; padding: 7px 16px; margin-bottom: 22px; }
+.now-pill .dotpulse { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 0 rgba(232,119,34,.6); animation: pulse 2s ease-out infinite; }
+@keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(232,119,34,.55); } 70% { box-shadow: 0 0 0 10px rgba(232,119,34,0); } 100% { box-shadow: 0 0 0 0 rgba(232,119,34,0); } }
+
 /* ---- Reduced motion ----------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
