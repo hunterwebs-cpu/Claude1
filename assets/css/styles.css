@@ -6,7 +6,7 @@
    ========================================================================== */
 
 /* ---- Fonts -------------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
 
 /* ---- Design tokens ------------------------------------------------------ */
 :root {
@@ -762,6 +762,17 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
 }
 .hero--photo .container { position: relative; z-index: 2; }
 .hero-content { max-width: 760px; }
+/* Hero lead: an elegant, lighter serif "deck" under the headline */
+.hero--photo .hero-content .lead {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(1.24rem, 1.9vw, 1.62rem);
+  line-height: 1.55;
+  letter-spacing: 0;
+  color: #C8CDD4;
+  max-width: 56ch;
+}
+.hero--photo .hero-content .lead em { font-style: italic; font-weight: 400; color: #fff; }
 .hero-trust {
   margin-top: 26px;
   font-family: var(--font-label);
