@@ -767,35 +767,46 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
 }
 .hero-trust .dot { color: var(--accent); margin: 0 8px; }
 
-/* Animated, colored highlight for the hero's "Now so do you." */
+/* Hero line 1 dims a touch so the payoff line carries the impact */
+.hl-feds { animation: feds-dim 1s var(--ease) 1.05s forwards; }
+@keyframes feds-dim { to { color: var(--muted); } }
+
+/* Animated, colored, slightly larger payoff: "Now so do you." */
 .hl-now {
   display: inline-block;
   position: relative;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 1.12em;
   color: var(--accent);
+  animation: now-bright 1.1s var(--ease-out) .85s both;
 }
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .hl-now {
-    background: linear-gradient(95deg, var(--accent) 0%, #ffb066 55%, var(--accent) 100%);
+    background: linear-gradient(95deg, #ff7a1a 0%, #ffc27a 55%, #ff7a1a 100%);
     background-size: 220% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: hl-shimmer 6s ease-in-out infinite;
+    animation: now-bright 1.1s var(--ease-out) .85s both, hl-shimmer 6s ease-in-out 2.2s infinite;
   }
 }
 .hl-now::after {
   content: "";
   position: absolute; left: 0; bottom: -.04em;
   height: 3px; width: 100%;
-  background: linear-gradient(90deg, var(--accent), var(--accent-deep));
+  background: linear-gradient(90deg, #ff8a2a, var(--accent));
   border-radius: 2px;
   transform: scaleX(0); transform-origin: left;
-  animation: hl-draw .7s var(--ease-out) .9s forwards;
+  animation: hl-draw .7s var(--ease-out) 1s forwards;
 }
 @keyframes hl-draw { to { transform: scaleX(1); } }
 @keyframes hl-shimmer { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+@keyframes now-bright {
+  0%   { filter: brightness(.65) drop-shadow(0 0 0 rgba(232,119,34,0)); }
+  60%  { filter: brightness(1.22) drop-shadow(0 4px 26px rgba(232,119,34,.5)); }
+  100% { filter: brightness(1.06) drop-shadow(0 3px 20px rgba(232,119,34,.32)); }
+}
 
 /* ---- Editorial split section header ------------------------------------ */
 @media (min-width: 1000px) {
