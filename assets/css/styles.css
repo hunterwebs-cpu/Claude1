@@ -767,6 +767,36 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
 }
 .hero-trust .dot { color: var(--accent); margin: 0 8px; }
 
+/* Animated, colored highlight for the hero's "Now so do you." */
+.hl-now {
+  display: inline-block;
+  position: relative;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+}
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .hl-now {
+    background: linear-gradient(95deg, var(--accent) 0%, #ffb066 55%, var(--accent) 100%);
+    background-size: 220% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: hl-shimmer 6s ease-in-out infinite;
+  }
+}
+.hl-now::after {
+  content: "";
+  position: absolute; left: 0; bottom: -.04em;
+  height: 3px; width: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-deep));
+  border-radius: 2px;
+  transform: scaleX(0); transform-origin: left;
+  animation: hl-draw .7s var(--ease-out) .9s forwards;
+}
+@keyframes hl-draw { to { transform: scaleX(1); } }
+@keyframes hl-shimmer { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+
 /* ---- Editorial split section header ------------------------------------ */
 @media (min-width: 1000px) {
   .sec-head.split-head {
