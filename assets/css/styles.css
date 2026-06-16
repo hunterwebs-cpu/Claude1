@@ -970,6 +970,68 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
 .now-pill .dotpulse { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 0 rgba(232,119,34,.6); animation: pulse 2s ease-out infinite; }
 @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(232,119,34,.55); } 70% { box-shadow: 0 0 0 10px rgba(232,119,34,0); } 100% { box-shadow: 0 0 0 0 rgba(232,119,34,0); } }
 
+/* ============================================================================
+   LIGHT THEME — scoped to the welcoming "Start Here" page only.
+   A bright, safe, no-judgment space. Re-skins shared components via tokens.
+   ========================================================================== */
+body.theme-light {
+  --bg:        #FBF8F3;
+  --bg-2:      #F3ECE1;
+  --surface:   #FFFFFF;
+  --surface-2: #FBF7F0;
+  --border:    #EAE2D6;
+  --border-2:  #DBD1C2;
+  --text:      #221F1A;
+  --text-soft: #4C463E;
+  --muted:     #756E64;
+  --faint:     #A79E91;
+  --accent:      #D9641E;
+  --accent-deep: #AF480E;
+  --accent-glow: rgba(217,100,30,.28);
+  color: var(--text);
+}
+body.theme-light::after { opacity: .018; }
+body.theme-light .site-header.scrolled { background: rgba(255,251,245,.9); border-bottom-color: var(--border); }
+body.theme-light .site-footer { background: #F3ECE1; border-top-color: var(--border); }
+body.theme-light .nav-overlay { background: linear-gradient(160deg,#FFF8EF,#F3ECE1); }
+body.theme-light .nav-overlay::before { opacity: .12; }
+body.theme-light .overlay-menu a { color: var(--text-soft); }
+body.theme-light .lead.deck { color: var(--text-soft); }
+
+/* Welcoming light hero */
+.hero-light {
+  position: relative; overflow: hidden;
+  padding: clamp(120px, 15vw, 175px) 0 clamp(44px, 6vw, 74px);
+  background:
+    radial-gradient(1100px 620px at 72% -12%, #FFE7CC 0%, transparent 58%),
+    radial-gradient(800px 500px at 0% 0%, #FFF3E2 0%, transparent 55%),
+    linear-gradient(180deg, #FFF9F1 0%, #FBF8F3 100%);
+}
+.hero-light .container { position: relative; z-index: 2; }
+.hero-light h1 { font-size: clamp(2.3rem, 5vw, 3.7rem); margin: 18px 0 18px; max-width: 20ch; }
+.hero-light .ph-sub { font-family: var(--font-display); font-weight: 300; font-style: normal; font-size: clamp(1.2rem, 1.9vw, 1.55rem); line-height: 1.5; color: var(--text-soft); letter-spacing: 0; text-transform: none; max-width: 52ch; }
+.welcome-pill {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--font-label); letter-spacing: .12em; text-transform: uppercase; font-size: .76rem;
+  color: var(--accent-deep); background: rgba(217,100,30,.1); border: 1px solid rgba(217,100,30,.3);
+  border-radius: 50px; padding: 8px 16px;
+}
+.welcome-pill svg { width: 16px; height: 16px; }
+
+/* Friendly numbered steps (actionable intel) */
+.steps { display: grid; gap: 18px; }
+.step { display: grid; grid-template-columns: auto 1fr; gap: 22px; align-items: start; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px 30px; box-shadow: 0 1px 2px rgba(80,60,30,.04), 0 8px 24px -18px rgba(80,60,30,.18); }
+.step-n { width: 46px; height: 46px; display: grid; place-items: center; border-radius: 13px; background: var(--accent); color: #fff; font-family: var(--font-display); font-weight: 600; font-size: 1.3rem; }
+.step h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); margin-bottom: 10px; }
+.step p { color: var(--text-soft); margin-bottom: 12px; }
+.step p:last-child { margin-bottom: 0; }
+.step .step-key { color: var(--accent-deep); font-weight: 600; font-style: italic; }
+@media (max-width: 560px) { .step { grid-template-columns: 1fr; gap: 14px; } .step-n { width: 42px; height: 42px; } }
+
+/* Image placeholder (swap with licensed stock) */
+.img-ph { position: relative; border-radius: var(--radius); overflow: hidden; background: linear-gradient(135deg, #FFE7CC, #F6ECDD); border: 1px dashed var(--border-2); min-height: 280px; display: grid; place-items: center; text-align: center; }
+.img-ph span { font-family: var(--font-label); letter-spacing: .08em; text-transform: uppercase; font-size: .76rem; color: #9a8a72; padding: 18px 22px; max-width: 36ch; line-height: 1.5; }
+
 /* ---- Reduced motion ----------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
