@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 90" role="img" aria-label="Surviving the Feds shield">
+  <defs>
+    <linearGradient id="sf-shield-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#D8DFE6"/>
+      <stop offset="50%"  stop-color="#B0BCC8"/>
+      <stop offset="100%" stop-color="#8A9AAB"/>
+    </linearGradient>
+    <linearGradient id="sf-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#7A8C9C"/>
+      <stop offset="100%" stop-color="#5C6E7E"/>
+    </linearGradient>
+    <linearGradient id="sf-letters" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#9AAEBB"/>
+      <stop offset="100%" stop-color="#5C6E7E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield body: classic heraldic, pointed base -->
+  <path d="M40 2
+           L76 11
+           L76 47
+           C76 68  60 82  40 88
+           C20 82   4 68   4 47
+           L4  11
+           Z"
+        fill="url(#sf-shield-body)"
+        stroke="#6A7D8E"
+        stroke-width="1.5"
+        stroke-linejoin="round"/>
+
+  <!-- Horizontal divider bar -->
+  <rect x="4" y="42" width="72" height="5"
+        fill="url(#sf-bar)"/>
+
+  <!-- S — upper half -->
+  <text x="40" y="38"
+        font-family="'Arial Black','Impact','Helvetica Neue',sans-serif"
+        font-weight="900"
+        font-size="27"
+        letter-spacing="-1"
+        text-anchor="middle"
+        dominant-baseline="auto"
+        fill="url(#sf-letters)">S</text>
+
+  <!-- F — lower half -->
+  <text x="40" y="75"
+        font-family="'Arial Black','Impact','Helvetica Neue',sans-serif"
+        font-weight="900"
+        font-size="27"
+        letter-spacing="-1"
+        text-anchor="middle"
+        dominant-baseline="auto"
+        fill="url(#sf-letters)">F</text>
+</svg>

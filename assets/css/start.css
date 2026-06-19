@@ -286,6 +286,44 @@ body {
 }
 #cr-triage.phase-in { animation: phase-in .5s var(--cr-ease) both; }
 
+/* ---- Shield brand mark — triage intro ----------------------------------- */
+.cr-shield-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  background: var(--cr-white);
+  border: 1.5px solid var(--cr-border);
+  border-radius: var(--cr-radius-lg);
+  padding: 14px 22px;
+  margin-bottom: 36px;
+}
+.cr-shield-img {
+  width: 48px;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+}
+.cr-shield-brand-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 3px;
+}
+.cr-shield-brand-text strong {
+  font-family: var(--cr-font-slab);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--cr-text);
+  line-height: 1.2;
+}
+.cr-shield-brand-text span {
+  font-family: var(--cr-font-sans);
+  font-size: .8rem;
+  color: var(--cr-muted);
+  font-style: italic;
+  line-height: 1.3;
+}
+
 .cr-triage-intro {
   text-align: center;
   padding: clamp(44px, 7vw, 88px) 0 clamp(30px, 4.5vw, 52px);
@@ -510,17 +548,17 @@ body {
   font-weight: 500;
 }
 .cr-step-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--cr-border);
+  width: 14px;
+  height: 16px;
   flex-shrink: 0;
-  margin-top: 4px;
+  margin-top: 1px;
+  background: var(--cr-border);
+  -webkit-mask: url('../img/shield-sf.svg') center / contain no-repeat;
+  mask: url('../img/shield-sf.svg') center / contain no-repeat;
   transition: background .2s, box-shadow .2s;
 }
 .cr-step.is-current .cr-step-dot {
   background: var(--cr-accent);
-  box-shadow: 0 0 0 3px var(--cr-accent-light);
 }
 .cr-yah-note {
   margin-top: 18px;
@@ -608,7 +646,9 @@ body {
   font-style: italic;
 }
 .cr-say-this strong {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-style: normal;
   font-family: var(--cr-font-sans);
   font-size: .68rem;
@@ -616,6 +656,13 @@ body {
   text-transform: uppercase;
   color: var(--cr-accent);
   margin-bottom: 5px;
+}
+.cr-say-this strong img {
+  width: 14px;
+  height: 16px;
+  flex-shrink: 0;
+  /* tint to accent color */
+  filter: invert(30%) sepia(30%) saturate(600%) hue-rotate(130deg) brightness(80%);
 }
 
 /* Book CTA */
