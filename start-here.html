@@ -3,318 +3,667 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Someone Was Just Arrested — What To Do Right Now | Surviving the Feds</title>
-  <meta name="description" content="A loved one was just arrested by the police, FBI, Homeland Security, or any agency — or you fear they will be? Free, no judgment: how to find them, how to put money on their books, what to know, and the myths that hurt families." />
-  <meta name="theme-color" content="#FBF8F3" />
+  <title>Start Here — Surviving the Feds | Emergency Room for Federal Cases</title>
+  <meta name="description" content="You landed in the right place. This is where people in the first hours, days, and weeks of a federal criminal case get real answers — free, no judgment, no money required." />
+  <meta name="theme-color" content="#ECEEF1" />
 
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Someone Was Just Arrested — What To Do Right Now" />
-  <meta property="og:description" content="Free, no judgment. How to find your person, reach them, put money on their books, and the real first steps after an arrest." />
+  <meta property="og:title" content="Start Here — Surviving the Feds" />
+  <meta property="og:description" content="Pick your situation. Get the answers nobody else is giving you — free, no money, no judgment." />
   <meta property="og:image" content="https://survivingthefeds.com/assets/img/logo.png" />
   <link rel="canonical" href="https://survivingthefeds.com/start-here.html" />
 
   <link rel="icon" href="assets/img/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="assets/css/styles.css?v=13" />
-  <link rel="stylesheet" href="assets/css/start.css?v=1" />
+  <!-- NOTE: styles.css intentionally NOT loaded. This page has its own identity. -->
+  <link rel="stylesheet" href="assets/css/start.css?v=2" />
 </head>
-<body class="theme-light start">
+<body>
 
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="container">
-      <nav class="nav" aria-label="Primary">
-        <a class="brand" href="index.html" aria-label="Surviving the Feds home">
-          <img src="assets/img/logo.png" alt="Surviving the Feds" />
-        </a>
-        <div class="nav-links">
-          <a class="nav-link" href="index.html">Home</a>
-          <a class="nav-link" href="start-here.html" aria-current="page">Start Here</a>
-          <a class="nav-link" href="books.html">The Books</a>
-          <a class="nav-link" href="blog.html">The Journal</a>
-          <a class="nav-link" href="about.html">About</a>
-        </div>
-        <div class="nav-cta">
-          <a class="btn btn--primary" href="books.html">
-            Get the Books
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-          <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mega-menu">
-            <span></span><span></span><span></span>
-          </button>
-        </div>
-      </nav>
-    </div>
+  <!-- MINIMAL HEADER — crisis sub-brand, nothing from main site -->
+  <header class="cr-header">
+    <a class="cr-header-logo" href="index.html" aria-label="Surviving the Feds home">
+      <img src="assets/img/logo.png" alt="" aria-hidden="true" />
+      Surviving the Feds
+    </a>
+    <a class="cr-header-back" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+      Back to main site
+    </a>
   </header>
 
-  <div class="nav-overlay" id="mega-menu">
-    <div class="overlay-menu">
-      <a href="index.html"><span class="idx">01</span>Home</a>
-      <a href="start-here.html"><span class="idx">02</span>Start Here</a>
-      <a href="books.html"><span class="idx">03</span>The Books</a>
-      <a href="blog.html"><span class="idx">04</span>The Journal</a>
-      <a href="about.html"><span class="idx">05</span>About</a>
+  <!-- ================================================================ PHASE 1: PARCHMENT LETTER -->
+  <div id="cr-letter" role="dialog" aria-modal="true" aria-label="A personal note from Bilal Khan">
+    <div class="cr-parchment">
+      <div class="cr-letter-hook">I got you.<br>I've been there.</div>
+      <div class="cr-letter-body">
+        <p>Before you do anything else — go make yourself something warm to drink. Coffee, tea, water. Whatever you need. Then come back and settle in.</p>
+        <p>What you're about to find on this page isn't going anywhere. Neither am I.</p>
+        <p>I built this because I've sat exactly where you are right now — nobody would give me a straight answer, the lawyer didn't have time, and the internet gave me fear and nothing else. That silence cost people I love dearly. It doesn't have to cost you the same.</p>
+        <p>This page won't ask you for anything. No email address. No credit card. Just answers — starting right now.</p>
+      </div>
+      <span class="cr-letter-sig">— Bilal Khan</span>
+      <button class="cr-letter-cta" id="letter-cta">I'm ready. Let's go. →</button>
     </div>
-    <aside class="overlay-aside">
-      <p class="eyebrow">Knowledge + Strength = Freedom</p>
-      <p class="tagline-mini">We make sure the world has the information it needs to fight for its freedom.</p>
-      <p class="contact-line">For inquiries:</p>
-      <p class="contact-line"><a href="mailto:contact@survivingthefeds.com">contact@survivingthefeds.com</a></p>
-    </aside>
   </div>
 
-  <main>
-    <!-- ====================================================== HERO -->
-    <section class="st-hero st">
-      <svg class="st-sun" viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-        <circle cx="100" cy="100" r="46"/>
-        <g stroke-linecap="round">
-          <path d="M100 18v26M100 156v26M18 100h26M156 100h26M41 41l18 18M141 141l18 18M159 41l-18 18M59 141l-18 18"/>
-        </g>
-      </svg>
-      <div class="st-wrap" data-reveal>
-        <span class="st-kicker"><span class="dot" aria-hidden="true"></span>You found the right place</span>
-        <h1 class="st-h1">Your first step is simple. <em>Get comfortable.</em></h1>
-        <p class="st-hero-sub">Free. No judgment. No money needed. Make your favorite drink and settle in — the case isn't going anywhere, and neither are we.</p>
-        <span class="st-scroll"><span class="bar"></span>Read on</span>
+  <!-- ================================================================ PHASE 2: TRIAGE SELECTION -->
+  <div id="cr-triage" aria-label="Choose your situation">
+    <div class="cr-container">
+      <div class="cr-triage-intro">
+        <span class="cr-eyebrow">Emergency Room</span>
+        <h1>Where are you right now?</h1>
+        <p>Pick your situation. Everything you see next is built specifically for it.</p>
       </div>
-    </section>
 
-    <!-- ====================================================== COMFORT -->
-    <section class="st st-block st-comfort">
-      <div data-reveal>
-        <div class="st-index">01 — First</div>
-        <p class="st-statement">Go make your <em>favorite drink.</em></p>
-      </div>
-      <div class="st-comfort-body" data-reveal data-delay="1">
-        <p>The case is not going anywhere in the next ten minutes, and neither is this page. Getting comfortable matters more than it sounds.</p>
-        <p>Make no mistake: the United States Attorney assigned to this case is perfectly comfortable — sitting in a nice chair, sipping a latte, reading the file at their leisure. <strong>You are allowed to take a breath too.</strong></p>
-        <p>Then remind yourself of something that is actually freeing: nothing you do in this exact moment is going to change what happens next. If an arrest is going to happen, it will happen. If it already happened, the procedure from here is the same in every case. You cannot make a wrong move by slowing down.</p>
-      </div>
-      <blockquote class="st-pull" data-reveal data-delay="1">You could have Jesus himself appear and swear you're innocent — and history reveres him, across every belief, as the most honest man who ever lived — and it still would not stop the engine of justice today. If even he can't get you out this minute, you may as well get comfortable.</blockquote>
-    </section>
+      <div class="cr-triage-grid">
 
-    <!-- ====================================================== FIND / REACH / SUPPORT -->
-    <section class="st-rail">
-      <div class="st st-block">
-        <div class="st-rail-head" data-reveal>
-          <div class="st-index">02 — Right now</div>
-          <h2>Find them. Reach them. Support them.</h2>
-        </div>
-
-        <div class="st-steprow" data-reveal>
-          <div class="st-bignum" aria-hidden="true">1</div>
-          <div class="st-stepbody">
-            <h3>Find out where they are.</h3>
-            <p>If a family member was just arrested, start by calling the police or the local jail to see if they're there. <strong>Don't panic if you're told they aren't.</strong> It often takes hours for a jail to register that someone has been processed. Give it time and call back.</p>
+        <!-- Situation 1 -->
+        <button class="cr-triage-card" data-situation="1" aria-label="I was just arrested">
+          <div class="cr-triage-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M9 15l-3 6h12l-3-6"/><path d="M9 15h6"/></svg>
           </div>
-        </div>
-
-        <div class="st-steprow" data-reveal>
-          <div class="st-bignum" aria-hidden="true">2</div>
-          <div class="st-stepbody">
-            <h3>If you can't find them, use PACER.</h3>
-            <p>If you're sure it's a federal case and still can't locate them, look up the case yourself on <strong>PACER</strong> — the federal courts' public records system. It shows whether charges have been filed, when hearings are scheduled, and <strong>who has been appointed as the lawyer</strong>. Federal defendants are often held out of state, so contacting that assigned attorney is frequently the fastest way to learn where they are.</p>
-            <div class="st-pacer">
-              <h4>How to search PACER</h4>
-              <ol>
-                <li>Go to <strong>pacer.uscourts.gov</strong> and register for a free account.</li>
-                <li>Open the <strong>PACER Case Locator</strong> and search by your loved one's name.</li>
-                <li>Open the matching case to see the <strong>docket</strong> — charges, hearings, and the assigned attorney.</li>
-              </ol>
-              <p class="fineprint">Registration is free. Searches cost about ten cents a page, and fees are waived entirely if you stay under a small quarterly amount.</p>
-              <a class="btn btn--primary" href="https://pacer.uscourts.gov" target="_blank" rel="noopener">
-                Open PACER
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-              </a>
-            </div>
+          <div class="cr-triage-text">
+            <h3>I was just arrested.</h3>
+            <p>What happens next, your rights, and what not to do in the next 24 hours.</p>
           </div>
-        </div>
+        </button>
 
-        <div class="st-steprow" data-reveal>
-          <div class="st-bignum" aria-hidden="true">3</div>
-          <div class="st-stepbody">
-            <h3>Wait for their call — and keep it safe.</h3>
-            <p>Most people know at least one phone number by heart. Your loved one may call <strong>collect</strong> to tell you where they are. Accept the charges, get the essentials, and keep it short. Remember: that line is recorded. Keep it to <em>where</em> and <em>how they're doing</em> — never the facts of the case.</p>
+        <!-- Situation 2 -->
+        <button class="cr-triage-card" data-situation="2" aria-label="Someone I love was just arrested">
+          <div class="cr-triage-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M21 21v-2a4 4 0 0 0-3-3.87"/></svg>
           </div>
-        </div>
-
-        <div class="st-steprow" data-reveal>
-          <div class="st-bignum" aria-hidden="true">4</div>
-          <div class="st-stepbody">
-            <h3>Put a little money on their "books."</h3>
-            <p>Once you know where they are, ask the facility how to put money on their account — their <strong>"books."</strong> This lets them buy the basics the jail doesn't really provide: soap, paper, pens, stamps, snacks. (Yes, a jail must provide soap — but it's the cheap kind, and it doesn't go far.) An initial deposit of around <strong>$100</strong> usually gets them situated for the first week or two.</p>
+          <div class="cr-triage-text">
+            <h3>Someone I love was just arrested.</h3>
+            <p>How to find them, reach them, support them — without hurting the case.</p>
           </div>
-        </div>
+        </button>
 
-        <div class="st-detain" data-reveal>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 2"/><circle cx="12" cy="12" r="9"/></svg>
-          <p><strong>About being held:</strong> in federal cases, until a <strong>detention hearing</strong> is held, your loved one will most likely remain in custody. That hearing is one of the most important early moments in the entire case — <em>Surviving Pretrial</em> dedicates an entire chapter to it. <a href="books.html">See the book →</a></p>
-        </div>
-      </div>
-    </section>
+        <!-- Situation 3 -->
+        <button class="cr-triage-card" data-situation="3" aria-label="Charges may be coming — we're waiting">
+          <div class="cr-triage-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></svg>
+          </div>
+          <div class="cr-triage-text">
+            <h3>I think charges are coming. We're waiting.</h3>
+            <p>What to do — and what not to do — when you're in the government's crosshairs.</p>
+          </div>
+        </button>
 
-    <!-- ====================================================== THREE RIGHTS -->
-    <section class="st st-block">
-      <div class="st-rail-head" data-reveal>
-        <div class="st-index">03 — Protect the case</div>
-        <h2>Three rights nobody can take.</h2>
-      </div>
-      <div class="st-trio">
-        <div class="item" data-reveal>
-          <h3>You don't have to talk.</h3>
-          <p>No one — not the person arrested, not family — must speak with any government agent. <span class="step-key">"I am going to remain silent, and I want a lawyer."</span> Then stop.</p>
-        </div>
-        <div class="item" data-reveal data-delay="1">
-          <h3>A lawyer is coming regardless.</h3>
-          <p>If you're the one charged, you'll be given a lawyer no matter what. Ignore anyone who says "only the guilty ask for one" — innocent people are convicted for talking without one.</p>
-        </div>
-        <div class="item" data-reveal data-delay="2">
-          <h3>You can refuse a search.</h3>
-          <p>No warrant? <span class="step-key">"I do not consent to a search."</span> If they have one, don't interfere — but you still don't have to answer questions or explain anything.</p>
-        </div>
-      </div>
-    </section>
+        <!-- Situation 4 -->
+        <button class="cr-triage-card" data-situation="4" aria-label="The arrest happened — I just need to understand what's going on">
+          <div class="cr-triage-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+          </div>
+          <div class="cr-triage-text">
+            <h3>The arrest happened. I just need to understand what's going on.</h3>
+            <p>Where things stand, what's coming, and what matters most right now.</p>
+          </div>
+        </button>
 
-    <!-- ====================================================== MYTH vs FACT -->
-    <section class="st st-block">
-      <div class="st-myths-head" data-reveal>
-        <div class="st-index">04 — Don't let fear lie to you</div>
-        <h2>Myths that hurt families — and the truth.</h2>
-      </div>
+        <!-- Situation 5 — spans full width -->
+        <button class="cr-triage-card" data-situation="5" aria-label="My loved one is in jail and they are not getting proper care">
+          <div class="cr-triage-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <div class="cr-triage-text">
+            <h3>My loved one is in jail and the jail isn't taking care of them.</h3>
+            <p>What the facility is required to provide — and exactly what to do when they aren't doing it.</p>
+          </div>
+        </button>
 
-      <div class="st-mf" data-reveal>
-        <div class="myth"><span class="tag">Myth</span><p>"If we just explain everything, this will get cleared up."</p></div>
-        <div class="fact"><span class="tag">The truth</span><p>Talking to agents almost never clears anything up. You can't talk your way out — only into. Silence is what protects the case.</p></div>
-      </div>
-      <div class="st-mf" data-reveal>
-        <div class="myth"><span class="tag">Myth</span><p>"Only guilty people ask for a lawyer."</p></div>
-        <div class="fact"><span class="tag">The truth</span><p>Innocent people are convicted all the time — often because they spoke without a lawyer. Asking for one is what smart, innocent people do.</p></div>
-      </div>
-      <div class="st-mf" data-reveal>
-        <div class="myth"><span class="tag">Myth</span><p>"A court-appointed lawyer means a second-rate lawyer."</p></div>
-        <div class="fact"><span class="tag">The truth</span><p>Many federal defenders are deeply experienced in exactly this kind of case. Judge the lawyer, not the label.</p></div>
-      </div>
-      <div class="st-mf" data-reveal>
-        <div class="myth"><span class="tag">Myth</span><p>"They'll post bail and be home by morning, like on TV."</p></div>
-        <div class="fact"><span class="tag">The truth</span><p>Federal release isn't automatic. It usually turns on a detention hearing — and many remain in custody until then.</p></div>
-      </div>
-      <div class="st-mf" data-reveal>
-        <div class="myth"><span class="tag">Myth</span><p>"If they're innocent, the truth will protect them."</p></div>
-        <div class="fact"><span class="tag">The truth</span><p>The system runs on procedure and evidence rules, not innocence alone. You have to engage it correctly for the truth to matter.</p></div>
-      </div>
-      <div class="st-mf" data-reveal>
-        <div class="myth"><span class="tag">Myth</span><p>"A federal case will be over quickly."</p></div>
-        <div class="fact"><span class="tag">The truth</span><p>Most take many months — often more than a year. It's a marathon, and pacing yourself is part of winning.</p></div>
-      </div>
-
-      <p class="st-disclaimer" data-reveal>This is general information shared by someone who lived through it — a starting point, not legal advice, and not a substitute for a lawyer who knows your specific case.</p>
-    </section>
-
-    <!-- ====================================================== REASSURE + IMAGE -->
-    <section class="st-reassure">
-      <div class="st-photo" data-reveal aria-hidden="true">
-        <span>IMAGE PLACEHOLDER — warm, hopeful, human: soft morning light through a window onto a kitchen table, or two hands gently held in support. Natural light, calm. (Not jail or courtroom imagery.)</span>
-      </div>
-      <div class="st-words" data-reveal data-delay="1">
-        <div class="st-index">05 — You are not alone</div>
-        <h2>This feels like the end. It isn't.</h2>
-        <p>Thousands of families have stood exactly where you are standing right now — blindsided, terrified, certain their world had just ended. It hadn't. There is a way through this, and it begins the moment you trade fear for understanding.</p>
-      </div>
-    </section>
-
-    <!-- ====================================================== DOORS -->
-    <section class="st st-block">
-      <div class="st-doors-head" data-reveal>
-        <div class="st-index">06 — When you're ready</div>
-        <h2>Where to go next.</h2>
-        <p>No pressure, no cost to keep reading. Walk through whichever door you need.</p>
-      </div>
-
-      <a class="st-door" href="is-my-lawyer-any-good.html" data-reveal>
-        <span class="d-tag">Free</span>
-        <h3>Is my lawyer any good?<span class="d-sub">Tell whether an attorney is truly ready to fight — with a checklist of red flags.</span></h3>
-        <svg class="d-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
-      <a class="st-door" href="blog.html" data-reveal>
-        <span class="d-tag">Free</span>
-        <h3>The Journal<span class="d-sub">Plain-language articles on how the system actually works — printable to mail inside.</span></h3>
-        <svg class="d-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
-      <a class="st-door" href="books.html" data-reveal>
-        <span class="d-tag">When ready</span>
-        <h3>The full field guide<span class="d-sub"><em>Surviving Pretrial</em> — everything that comes next, at the price of a meal, not a retainer.</span></h3>
-        <svg class="d-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <img src="assets/img/logo.png" alt="Surviving the Feds" />
-          <p>Knowledge + Strength = Freedom. We make sure the world has the information it needs to fight for its freedom.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Explore</h4>
-          <a href="index.html">Home</a>
-          <a href="start-here.html">Start Here</a>
-          <a href="about.html">About</a>
-          <a href="books.html">The Books</a>
-          <a href="blog.html">The Journal</a>
-          <a href="is-my-lawyer-any-good.html">Is My Lawyer Any Good?</a>
-        </div>
-        <div class="footer-col">
-          <h4>The Books</h4>
-          <a href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8" target="_blank" rel="noopener">Surviving Pretrial</a>
-          <a href="https://www.amazon.com/2255-Motion-Handbook-Post-Conviction-Surviving/dp/B0D8HQRJN8" target="_blank" rel="noopener">The 2255 Motion Handbook</a>
-          <a href="https://www.amazon.com/dp/B0D471H5Z9" target="_blank" rel="noopener">The Series on Amazon</a>
-        </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <a href="mailto:contact@survivingthefeds.com">contact@survivingthefeds.com</a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>© <span id="year">2026</span> Surviving the Feds. All rights reserved.</span>
-        <span>This site is for informational purposes only and does not constitute legal advice.</span>
       </div>
     </div>
+  </div>
+
+  <!-- ================================================================ PHASE 3: COMMAND CENTERS -->
+
+  <!-- COMMAND CENTER 1: Just Arrested -->
+  <div id="cr-command-1" class="cr-command" role="main" aria-label="Command center: I was just arrested">
+    <div class="cr-container">
+      <div class="cr-back-row">
+        <button class="cr-back" data-back>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          Choose a different situation
+        </button>
+      </div>
+      <div class="cr-command-head">
+        <span class="cr-cmd-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Situation 1 of 5
+        </span>
+        <h2 class="cr-command-title">You were just arrested. Here's what you need to know right now.</h2>
+        <p class="cr-command-sub">The next 24–48 hours are the most critical. These answers will get you through them.</p>
+      </div>
+      <div class="cr-command-body">
+
+        <!-- Left: You Are Here -->
+        <aside class="cr-yah" aria-label="Where you are in the process">
+          <span class="cr-yah-label">You are here</span>
+          <ol class="cr-steps">
+            <li class="cr-step is-current"><span class="cr-step-dot" aria-hidden="true"></span>Arrest — right now</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Initial appearance (next 24–48 hrs)</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Detention hearing</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Attorney + case begins</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>The road ahead</li>
+          </ol>
+          <p class="cr-yah-note">The first hours are the most overwhelming. They get clearer from here — I promise.</p>
+        </aside>
+
+        <!-- Right: Answers -->
+        <div class="cr-answers">
+
+          <p class="cr-voice">Here's what I want you to hear before anything else: you are still the same person you were yesterday. The government moving against you does not change that. Now — here's what actually matters in the next 24 hours.</p>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What do I do right now?</div>
+            <div class="cr-card-a">
+              <p>Stop talking. Not to police. Not to agents. Not to other inmates. <strong>Nothing, to no one, about the case.</strong> This is the single most important thing you can do right now. Agents are patient, friendly, and trained for exactly this moment. "We just want to clear a few things up" is not an offer to help you — it is an invitation to build the government's case for them.</p>
+              <span class="cr-say-this"><strong>Say exactly this:</strong>"I am going to remain silent. I want a lawyer." Then stop. Not one more word.</span>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">Am I going to get a lawyer?</div>
+            <div class="cr-card-a">
+              <p>Yes. Regardless of your finances, you will have an attorney. If you cannot afford one, a federal public defender will be appointed at your first court appearance — usually within 24 hours. <strong>Do not panic about this.</strong> Court-appointed federal defenders are often deeply experienced. The question is not whether you will have a lawyer, but how well you work with that lawyer once you do.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What happens next — in order?</div>
+            <div class="cr-card-a">
+              <p>Within 24–48 hours: your <strong>initial appearance</strong> — a brief court hearing where you are told the charges and advised of your rights. Shortly after: the <strong>detention hearing</strong>, where a judge decides whether you are released or held in custody while the case proceeds. The detention hearing is one of the most important early moments in the case. Preparation for it matters.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What can't I say on a jail phone?</div>
+            <div class="cr-card-a">
+              <p>Every call from a detention facility is recorded and available to prosecutors. The rule is absolute: <strong>do not discuss the facts of the case on any jail line.</strong> Not with your family. Not with friends. Not with anyone. The only exception is your attorney — and that line must be properly set up as a legal call. On every other call: where you are, how you're doing, and logistics. Nothing about the case.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What about my family?</div>
+            <div class="cr-card-a">
+              <p>Someone close to you is terrified right now and getting no answers — this site was built for them too. On your first call, tell them where you are and that you're okay. That's the whole conversation. They can find practical guidance here for every step they need to take, starting with finding you and getting money on your books.</p>
+            </div>
+          </div>
+
+          <p class="cr-voice">You made it through the first read. That matters. Now — when you're ready — go deeper. The book I wrote covers every step from this exact moment through sentencing, in language that doesn't require a law degree.</p>
+
+          <div class="cr-book-cta">
+            <h3>Surviving Pretrial. The full field guide.</h3>
+            <p>Written by someone who went through every stage of a federal case. Covers arrest through sentencing in plain language. Many families read the first chapter the night of the arrest.</p>
+            <a class="cr-btn" href="books.html">
+              See the Book
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="cr-btn cr-btn--ghost" href="blog.html">Free Articles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMMAND CENTER 2: Loved One Just Arrested -->
+  <div id="cr-command-2" class="cr-command" role="main" aria-label="Command center: Someone I love was just arrested">
+    <div class="cr-container">
+      <div class="cr-back-row">
+        <button class="cr-back" data-back>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          Choose a different situation
+        </button>
+      </div>
+      <div class="cr-command-head">
+        <span class="cr-cmd-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Situation 2 of 5
+        </span>
+        <h2 class="cr-command-title">Someone you love was just arrested. Here's how to find them and help.</h2>
+        <p class="cr-command-sub">The first hours feel like chaos. They aren't — there's a process, and here's how to work it.</p>
+      </div>
+      <div class="cr-command-body">
+
+        <aside class="cr-yah" aria-label="Where you are in the process">
+          <span class="cr-yah-label">You are here</span>
+          <ol class="cr-steps">
+            <li class="cr-step is-current"><span class="cr-step-dot" aria-hidden="true"></span>Arrest — right now</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Initial appearance (24–48 hrs)</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Detention hearing</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Placement / communication set up</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>The case proceeds</li>
+          </ol>
+          <p class="cr-yah-note">The first hours are the most confusing. You don't have all the information yet — that's not a failure. Here's how to get it.</p>
+        </aside>
+
+        <div class="cr-answers">
+
+          <p class="cr-voice">I know what this feels like. That mix of terror and helplessness and not knowing who to call or whether you're already making a mistake by just existing. You're not. You found this page, and that's the right move. Let's get you some answers.</p>
+
+          <div class="cr-card">
+            <div class="cr-card-q">How do I find where they are?</div>
+            <div class="cr-card-a">
+              <p>Start with the local jail or police station — call them directly. <strong>It can take hours for someone to be processed into the system.</strong> If you're told they aren't there, don't panic. Wait and call back. If this is a federal case and you still can't find them after several hours, go to <strong>pacer.uscourts.gov</strong> and register for a free account. Use the Case Locator to search by name. The docket will show the charges, the next hearing, and who has been assigned as the attorney — <em>call that attorney first.</em> Federal defendants are often held out of state.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">How do I put money on their books?</div>
+            <div class="cr-card-a">
+              <p>Once you know where they are, ask the facility how to add money to their commissary account — their "books." This covers the basics: soap, food, stamps, phone time. <strong>An initial deposit of $100–$150 gets them through the first week or two.</strong> The facility will tell you which payment service they use — common ones are JPay and GTL/ViaPath. It matters more than you might think. Don't underestimate what having a little money means to someone on the inside.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">They called. What do I say?</div>
+            <div class="cr-card-a">
+              <p>Accept the call. Hear their voice. Tell them you love them. Then: <strong>do not discuss any facts of the case on that line.</strong> Every jail call is recorded and available to prosecutors. Keep it to where they are, how they're doing emotionally, and what they need logistically. Everything about the case — every question, every detail, every piece of information — stays off that line. Save all of it for the attorney.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What is a detention hearing and why does it matter?</div>
+            <div class="cr-card-a">
+              <p>The detention hearing happens within a few days of arrest. A judge decides whether your loved one is released while the case proceeds or stays in custody. <strong>In federal cases, many people remain in custody until this hearing — and sometimes through the entire case.</strong> It is one of the most important early moments in the process, and the attorney should be actively preparing for it. If they're not, ask why.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">How can I help without hurting the case?</div>
+            <div class="cr-card-a">
+              <p>The two ways families most often inadvertently cause harm: talking too openly on recorded lines, and posting about the case on social media or telling friends the details. Both can reach prosecutors. What you can do right now: be present, stay calm, gather practical information (location, attorney contact, facility rules for mail and visits), and let the attorney do the legal work. Your stability is genuinely part of their defense.</p>
+            </div>
+          </div>
+
+          <p class="cr-voice">You didn't ask for this. Neither did they. But you're here, getting answers, and that's exactly what they need you to be doing right now.</p>
+
+          <div class="cr-book-cta">
+            <h3>Surviving Pretrial. Written for both of you.</h3>
+            <p>Covers the full pretrial process — from the night of arrest through sentencing. Written in language you don't need a law degree to understand. Available in paperback and eBook.</p>
+            <a class="cr-btn" href="books.html">
+              See the Book
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="cr-btn cr-btn--ghost" href="blog.html">Free Articles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMMAND CENTER 3: Waiting, Charges May Come -->
+  <div id="cr-command-3" class="cr-command" role="main" aria-label="Command center: Waiting — charges may be coming">
+    <div class="cr-container">
+      <div class="cr-back-row">
+        <button class="cr-back" data-back>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          Choose a different situation
+        </button>
+      </div>
+      <div class="cr-command-head">
+        <span class="cr-cmd-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Situation 3 of 5
+        </span>
+        <h2 class="cr-command-title">Charges may be coming. This is when you have the most options.</h2>
+        <p class="cr-command-sub">Before arrest is the stage where the right moves can change the entire trajectory.</p>
+      </div>
+      <div class="cr-command-body">
+
+        <aside class="cr-yah" aria-label="Where you are in the process">
+          <span class="cr-yah-label">You are here</span>
+          <ol class="cr-steps">
+            <li class="cr-step is-current"><span class="cr-step-dot" aria-hidden="true"></span>Under investigation — right now</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Grand jury / indictment</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Arrest or voluntary surrender</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Initial appearance</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>The case begins</li>
+          </ol>
+          <p class="cr-yah-note">This is the stage with the most runway. What happens now matters more than most people realize.</p>
+        </aside>
+
+        <div class="cr-answers">
+
+          <p class="cr-voice">This waiting stage — where nothing has been charged but the signs are there — is actually when you have the most control. The government hasn't locked all its options yet. The decisions made now, before arrest, can shape everything that comes after.</p>
+
+          <div class="cr-card">
+            <div class="cr-card-q">Do I have to talk to federal agents?</div>
+            <div class="cr-card-a">
+              <p>No. Nobody does — not the person under investigation, not family members, not witnesses. An agent can ask you anything they want; you can decline to answer everything. The common trap is the "friendly conversation" — they are not there to help you, they are there to build a case. You can be polite and still say nothing that matters.</p>
+              <span class="cr-say-this"><strong>Say exactly this:</strong>"I appreciate your time, but I'm not going to answer any questions without speaking to an attorney first." Then stop.</span>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What does a target letter mean?</div>
+            <div class="cr-card-a">
+              <p>A target letter is a written notice from the U.S. Attorney's office that you are a "target" of a federal grand jury investigation — meaning they believe you may have committed a crime and are building a case. It is not a charge. <strong>It is a warning, and it is an opportunity.</strong> If you receive one, contact a federal criminal defense attorney immediately before calling the number on the letter or responding in any way.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What is a grand jury subpoena?</div>
+            <div class="cr-card-a">
+              <p>A grand jury subpoena is a court order requiring you to appear before a grand jury and testify. You must appear — but appearing does not mean answering every question. <strong>You can invoke your Fifth Amendment right against self-incrimination</strong> in response to specific questions. An attorney must be involved before you comply with a grand jury subpoena. Do not try to handle this alone.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">Should I get a lawyer now, before anything happens?</div>
+            <div class="cr-card-a">
+              <p>Yes — unequivocally. Having an attorney in place before arrest can meaningfully change the outcome. They can communicate with the government on your behalf, potentially negotiate a voluntary surrender instead of a dramatic arrest, get involved before charges are finalized, and be ready for the first hearing if it comes to that. <strong>Waiting until after arrest means the attorney is always catching up.</strong></p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What if agents come to my home or workplace?</div>
+            <div class="cr-card-a">
+              <p>If federal agents arrive: you do not have to let them in without a warrant. If they have one, comply physically but do not answer questions. Step outside if possible. Do not argue, do not explain, do not try to help. Call an attorney the moment they leave — or during, if possible.</p>
+              <span class="cr-say-this"><strong>Say exactly this:</strong>"I'm not going to answer any questions without an attorney. I do not consent to a search." Then stay quiet.</span>
+            </div>
+          </div>
+
+          <p class="cr-voice">The people who do best in federal cases are the ones who got good information early and stopped talking early. You're already doing one of those things right now.</p>
+
+          <div class="cr-book-cta">
+            <h3>Surviving Pretrial. Before and after arrest.</h3>
+            <p>The book covers everything from the investigation stage through sentencing — including how to choose an attorney, what to expect at every hearing, and how to protect the case from the beginning.</p>
+            <a class="cr-btn" href="books.html">
+              See the Book
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="cr-btn cr-btn--ghost" href="blog.html">Free Articles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMMAND CENTER 4: Past Arrest — Need to Understand -->
+  <div id="cr-command-4" class="cr-command" role="main" aria-label="Command center: Past arrest — need to understand">
+    <div class="cr-container">
+      <div class="cr-back-row">
+        <button class="cr-back" data-back>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          Choose a different situation
+        </button>
+      </div>
+      <div class="cr-command-head">
+        <span class="cr-cmd-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Situation 4 of 5
+        </span>
+        <h2 class="cr-command-title">The arrest is done. Now you need a map of what comes next.</h2>
+        <p class="cr-command-sub">The initial shock is settling. Here's how the system actually works from here.</p>
+      </div>
+      <div class="cr-command-body">
+
+        <aside class="cr-yah" aria-label="Where you are in the process">
+          <span class="cr-yah-label">You are here</span>
+          <ol class="cr-steps">
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Arrest (behind you)</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Initial appearance (behind you)</li>
+            <li class="cr-step is-current"><span class="cr-step-dot" aria-hidden="true"></span>Where you are now</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Plea agreement or trial</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Sentencing</li>
+          </ol>
+          <p class="cr-yah-note">You've made it through the hardest part emotionally. Now it's about understanding the system and making it work for you.</p>
+        </aside>
+
+        <div class="cr-answers">
+
+          <p class="cr-voice">The panic of the first days has settled into something harder in some ways — a long stretch of uncertainty where you don't know what's coming or when. Let me give you a map.</p>
+
+          <div class="cr-card">
+            <div class="cr-card-q">Where is the case right now?</div>
+            <div class="cr-card-a">
+              <p>Federal cases move slowly. After the initial stages, the government completes its investigation, a grand jury returns an indictment (or the defendant agrees to a plea by information), and then comes discovery — the government sharing its evidence. Pre-trial motions, negotiations, and eventually a plea agreement or trial follow. <strong>Most federal cases take six months to two years.</strong> The waiting is hard. It is also normal.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What is the PSR and why is it the most important document in the case?</div>
+            <div class="cr-card-a">
+              <p>The Presentence Report — the PSR — is prepared by a U.S. Probation Officer after a conviction or plea and submitted to the judge before sentencing. It contains the guidelines calculation, the government's version of the offense, the defendant's full background, and victim impact statements. <strong>The judge reads it. Errors in the PSR, if unchallenged, become the record.</strong> Your attorney should review every line and object in writing to anything inaccurate. This document shapes the sentence more than almost anything else.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What does a plea deal actually mean?</div>
+            <div class="cr-card-a">
+              <p>A plea agreement is a contract between the defendant and the government. The defendant agrees to plead guilty to specific charges; the government agrees to specific terms — which might include dropping other charges, a sentencing recommendation, or cooperation. <strong>More than 97% of federal convictions come from guilty pleas.</strong> What matters most before signing: understanding exactly what is being admitted to in the factual basis, because those admissions drive the sentencing guidelines calculation.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">How do I know if the lawyer is doing enough?</div>
+            <div class="cr-card-a">
+              <p>Red flags: minimal contact, no explanation of strategy, pressure to plead quickly without explanation, unable to answer basic questions about the case. Signs of strength: regular communication, a clear and evolving strategy, active investigation of the facts, meaningful engagement with the PSR. <strong>If your gut says something is wrong, it is worth getting a second opinion.</strong> A bad attorney in a federal case can cost years of someone's life.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">How long is this going to take?</div>
+            <div class="cr-card-a">
+              <p>Most federal cases take six months to two years from arrest to sentencing — often longer for complex cases. After sentencing, if there's a direct appeal or a 2255 post-conviction motion, the process can extend for years more. <strong>This is a marathon, not a sprint.</strong> Pacing yourself, and your family, is part of surviving it. The people who hold up best are the ones who understand the timeline and don't try to sprint it.</p>
+            </div>
+          </div>
+
+          <p class="cr-voice">Understanding how the system actually works is the only thing that makes the waiting manageable. Knowledge is not power in the abstract — it is the difference between fear and strategy.</p>
+
+          <div class="cr-book-cta">
+            <h3>Surviving Pretrial. The full picture.</h3>
+            <p>Covers the PSR, the plea agreement, the sentencing hearing, attorney evaluation, and everything in between — written by someone who navigated every stage of a federal case from the inside.</p>
+            <a class="cr-btn" href="books.html">
+              See the Book
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="cr-btn cr-btn--ghost" href="blog.html">Free Articles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMMAND CENTER 5: Jail Not Providing Care -->
+  <div id="cr-command-5" class="cr-command" role="main" aria-label="Command center: Jail not providing proper care">
+    <div class="cr-container">
+      <div class="cr-back-row">
+        <button class="cr-back" data-back>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          Choose a different situation
+        </button>
+      </div>
+      <div class="cr-command-head">
+        <span class="cr-cmd-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Situation 5 of 5
+        </span>
+        <h2 class="cr-command-title">The jail isn't caring for your loved one. Here's what you can do about it.</h2>
+        <p class="cr-command-sub">Facilities don't fix problems they don't know are being documented. Start a paper trail today.</p>
+      </div>
+      <div class="cr-command-body">
+
+        <aside class="cr-yah" aria-label="Where you are in the process">
+          <span class="cr-yah-label">You are here</span>
+          <ol class="cr-steps">
+            <li class="cr-step is-current"><span class="cr-step-dot" aria-hidden="true"></span>Problem identified — right now</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Document everything</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Contact facility + attorney</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Formal complaint process</li>
+            <li class="cr-step"><span class="cr-step-dot" aria-hidden="true"></span>Escalation if needed</li>
+          </ol>
+          <p class="cr-yah-note">This situation is more actionable than it feels. There are real tools here. Let's use them.</p>
+        </aside>
+
+        <div class="cr-answers">
+
+          <p class="cr-voice">This is one of the most frustrating things a family can face — your person is somewhere you can't get to them, and the people responsible aren't doing their job. Let me tell you what you can actually do, starting today.</p>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What is the facility legally required to provide?</div>
+            <div class="cr-card-a">
+              <p>Federal detention facilities are legally required to provide: <strong>adequate food</strong> meeting basic nutritional standards, <strong>access to medical care</strong> for chronic conditions and emergencies, <strong>safe housing</strong> free from known threats or abuse, <strong>basic hygiene and sanitation</strong>, <strong>access to an attorney</strong>, and access to the courts. They are not required to be comfortable. But they are required to provide health and safety — and when they don't, that is a legal issue with a legal process.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">How do I contact the facility?</div>
+            <div class="cr-card-a">
+              <p>Find the facility's direct number through the BOP inmate locator at <strong>bop.gov</strong>. Ask to speak with the <strong>case manager</strong> (for general issues) or <strong>medical department</strong> (for health concerns). Be specific about what is happening and what you need. Then document everything: <strong>the date and time you called, who you spoke with, exactly what they said.</strong> If you're told someone will follow up, note when. Call back if they don't. A paper trail matters if this escalates.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">Tell the attorney — right now.</div>
+            <div class="cr-card-a">
+              <p>The attorney has legal access and standing that you don't. They can communicate directly with facility staff, request urgent medical reviews, document conditions for the court record, and file emergency motions if the situation rises to a constitutional level. <strong>Facility condition problems are part of their job, not a burden.</strong> If the attorney is not responsive to serious concerns about your loved one's safety or health, that is itself a red flag about the representation.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">What is the BOP Administrative Remedy process?</div>
+            <div class="cr-card-a">
+              <p>For facilities under BOP jurisdiction, there is a formal complaint process: the <strong>Administrative Remedy Program</strong>. The inmate files a <em>BP-8</em> (informal resolution with staff), then a <em>BP-9</em> to the warden, then a <em>BP-10</em> to the regional director, and finally a <em>BP-11</em> to the Central Office. Exhausting this process is typically required before certain legal claims can be brought. Keep copies of every filing and every response. The attorney can help initiate and track this.</p>
+            </div>
+          </div>
+
+          <div class="cr-card">
+            <div class="cr-card-q">When and how do you escalate?</div>
+            <div class="cr-card-a">
+              <p>If facility-level contact and attorney intervention aren't resolving serious medical or safety issues: contact the <strong>BOP Regional Office</strong> for that facility (listed at bop.gov), the <strong>Department of Justice Office of Inspector General</strong>, or a <strong>prisoner rights legal aid organization</strong> in the relevant state. For an immediate medical emergency: call the facility directly and use the word "emergency" clearly and explicitly. Document that call — date, time, who you spoke with, what was said.</p>
+            </div>
+          </div>
+
+          <p class="cr-voice">I know this feels like you're fighting a wall. You are not powerless here. The paper trail you start today is what makes every step after it possible.</p>
+
+          <div class="cr-book-cta">
+            <h3>Surviving Pretrial. Know the system that's holding them.</h3>
+            <p>Understanding how BOP facilities work — what's required, what isn't, and how to navigate the system — is in the book. Knowledge is the tool. This is where you get it.</p>
+            <a class="cr-btn" href="books.html">
+              See the Book
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="cr-btn cr-btn--ghost" href="blog.html">Free Articles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CRISIS FOOTER — simplified -->
+  <footer class="cr-footer">
+    <span>© <span id="cr-year"></span> Surviving the Feds. This page is for informational purposes only and does not constitute legal advice.</span>
+    <nav class="cr-footer-links" aria-label="Footer links">
+      <a href="index.html">Main Site</a>
+      <a href="books.html">The Books</a>
+      <a href="blog.html">The Journal</a>
+      <a href="mailto:contact@survivingthefeds.com">Contact</a>
+    </nav>
   </footer>
 
-  <!-- FAQ structured data: helps Google / AI surface this as the answer -->
+  <!-- ================================================================ PHASE MANAGEMENT JS -->
+  <script>
+  (function () {
+    'use strict';
+
+    // Year
+    var y = document.getElementById('cr-year');
+    if (y) y.textContent = new Date().getFullYear();
+
+    // Elements
+    var letter   = document.getElementById('cr-letter');
+    var triage   = document.getElementById('cr-triage');
+    var commands = document.querySelectorAll('.cr-command');
+
+    function showTriage() {
+      triage.style.display = 'block';
+      requestAnimationFrame(function () {
+        triage.classList.add('phase-in');
+      });
+      document.title = 'Start Here — Surviving the Feds';
+    }
+
+    function showCommand(n) {
+      var el = document.getElementById('cr-command-' + n);
+      if (!el) return;
+      el.style.display = 'block';
+      el.scrollIntoView({ behavior: 'instant', block: 'start' });
+      requestAnimationFrame(function () {
+        el.classList.add('phase-in');
+      });
+    }
+
+    function hideAllCommands() {
+      commands.forEach(function (el) {
+        el.style.display = 'none';
+        el.classList.remove('phase-in');
+      });
+    }
+
+    // Phase 1 → Phase 2
+    var letterCta = document.getElementById('letter-cta');
+    if (letterCta) {
+      letterCta.addEventListener('click', function () {
+        letter.classList.add('letter-out');
+        setTimeout(function () {
+          letter.style.display = 'none';
+          showTriage();
+        }, 480);
+      });
+    }
+
+    // Phase 2 → Phase 3
+    document.querySelectorAll('[data-situation]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var sit = this.getAttribute('data-situation');
+        triage.style.display = 'none';
+        triage.classList.remove('phase-in');
+        hideAllCommands();
+        showCommand(sit);
+      });
+    });
+
+    // Phase 3 → Phase 2 (back)
+    document.querySelectorAll('[data-back]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        hideAllCommands();
+        triage.style.display = 'block';
+        requestAnimationFrame(function () {
+          triage.classList.add('phase-in');
+        });
+        window.scrollTo({ top: 0, behavior: 'instant' });
+      });
+    });
+
+    // Keyboard: Escape from letter
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && letter && letter.style.display !== 'none' && !letter.classList.contains('letter-out')) {
+        letterCta && letterCta.click();
+      }
+    });
+  })();
+  </script>
+
+  <!-- Structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How do I find a family member who was just arrested by federal agents?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Start by calling the local jail; it can take hours for someone to be registered, so call back if told they aren't there. If it's a federal case, look up the docket on PACER (pacer.uscourts.gov) to see charges, hearings, and the assigned attorney — federal defendants are often held out of state, and the assigned lawyer can tell you where they are." }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I put money on an inmate's books, and how much?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Ask the facility for its procedure to add money to the inmate's account (their 'books'). This lets them buy soap, paper, pens, stamps, and snacks. An initial deposit of around $100 is usually enough for the first week or two." }
-      },
-      {
-        "@type": "Question",
-        "name": "Do I have to talk to the police or federal agents?",
-        "acceptedAnswer": { "@type": "Answer", "text": "No. No one is obligated to speak with a government agent — not the person arrested, and not family members. Say: 'I am going to remain silent, and I want a lawyer,' and then stop." }
-      },
-      {
-        "@type": "Question",
-        "name": "Will they get out on bail right away?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Not necessarily. In federal cases, release usually turns on a detention hearing, and many people remain in custody until that hearing is held." }
-      }
-    ]
+    "@type": "WebPage",
+    "name": "Start Here — Surviving the Feds",
+    "description": "Emergency room for people in the first day to first month of a federal criminal case. Free answers for defendants and their families, organized by situation.",
+    "url": "https://survivingthefeds.com/start-here.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Surviving the Feds",
+      "url": "https://survivingthefeds.com"
+    }
   }
   </script>
 
-  <script src="assets/js/main.js?v=13" defer></script>
 </body>
 </html>
