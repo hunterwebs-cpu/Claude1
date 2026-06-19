@@ -11,6 +11,10 @@ the brand **Surviving the Feds** by author **Bilal Khan**. Tagline:
 knowledge into the hands of defendants and their families — for free — and sell
 the two books. Founder is "present but understated."
 
+> **Full reference spec:** `docs/SITE-SPEC.md` — read it before building or editing
+> pages (exact tokens, components, page structures, conventions). This file is the
+> quick-start; SITE-SPEC.md is authoritative.
+
 ## Hard rules (do not violate)
 1. **Never fabricate quotes from the books.** Only use book text the user has
    supplied/approved. Marketing lines must NOT be attributed to the book. If a
