@@ -1430,21 +1430,36 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   max-width: 14ch;
 }
 
+/* Typewriter reveal: clip sweeps left→right in discrete steps per character.
+   Step count matches visible character count of each line. */
 .hsl-dim {
   color: var(--text-soft);
-  opacity: 0;
-  animation: hero-fade-up .85s var(--ease-out) .45s forwards;
+  opacity: 1;
+  /* "It won't get easier." = 20 chars · 38ms each = 760ms */
+  clip-path: inset(0 100% -0.35em 0);
+  animation: tw-reveal .76s steps(20, end) .1s forwards;
 }
 
 .hsl-bright {
   color: var(--text);
-  opacity: 0;
-  animation: hero-fade-up .85s var(--ease-out) .72s forwards;
+  opacity: 1;
+  /* "But you can get through this." = 29 chars · 37ms each = 1073ms */
+  clip-path: inset(0 100% -0.35em 0);
+  animation: tw-reveal 1.07s steps(29, end) 1.0s forwards;
+}
+
+/* -0.35em bottom lets descenders (g, y, p) fully paint through */
+@keyframes tw-reveal {
+  to { clip-path: inset(0 0% -0.35em 0); }
 }
 
 .hsl-bright em {
   font-style: italic;
   display: inline-block;
+  /* Extend the element box into the descender zone so background-clip:text
+     paints the gradient all the way through letters like g, y, p */
+  padding-bottom: 0.22em;
+  margin-bottom: -0.22em;
 }
 
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
@@ -1454,10 +1469,12 @@ body.theme-light .lead.deck { color: var(--text-soft); }
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: hl-shimmer 7s ease-in-out 2.2s infinite;
+    /* shimmer starts after typewriter finishes line 2 (~2.1s) */
+    animation: hl-shimmer 7s ease-in-out 2.1s infinite;
   }
 }
 
+/* Deck and CTAs enter after typewriter completes (~2.1s) */
 .hero-statement-deck {
   font-family: var(--font-display);
   font-weight: 300;
@@ -1468,7 +1485,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   max-width: 54ch;
   margin-bottom: 42px;
   opacity: 0;
-  animation: hero-fade-up .85s var(--ease-out) 1.0s forwards;
+  animation: hero-fade-up .85s var(--ease-out) 2.2s forwards;
 }
 
 .hero-statement-deck strong {
@@ -1478,7 +1495,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 
 .hero-statement-actions {
   opacity: 0;
-  animation: hero-fade-up .85s var(--ease-out) 1.22s forwards;
+  animation: hero-fade-up .85s var(--ease-out) 2.45s forwards;
 }
 
 .hero-statement-sub {
@@ -1489,7 +1506,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   text-transform: uppercase;
   color: var(--faint);
   opacity: 0;
-  animation: hero-fade-up .7s var(--ease-out) 1.45s forwards;
+  animation: hero-fade-up .7s var(--ease-out) 2.65s forwards;
 }
 
 @keyframes hero-fade-up {
@@ -1503,7 +1520,12 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   .hsl-bright,
   .hero-statement-deck,
   .hero-statement-actions,
-  .hero-statement-sub { opacity: 1; animation: none; transform: none; }
+  .hero-statement-sub {
+    opacity: 1;
+    animation: none;
+    transform: none;
+    clip-path: none;
+  }
 }
 
 @media (max-width: 760px) {
