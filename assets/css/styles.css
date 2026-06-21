@@ -1430,51 +1430,62 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   max-width: 14ch;
 }
 
-/* Typewriter reveal: clip sweeps left→right in discrete steps per character.
-   Step count matches visible character count of each line. */
+/* Line 1 — fully static, appears immediately */
 .hsl-dim {
   color: var(--text-soft);
   opacity: 1;
-  /* "It won't get easier." = 20 chars · 38ms each = 760ms */
-  clip-path: inset(0 100% -0.35em 0);
-  animation: tw-reveal .76s steps(20, end) .1s forwards;
 }
 
+/* Line 2 — hidden until JS types each character in */
 .hsl-bright {
   color: var(--text);
-  opacity: 1;
-  /* "But you can get through this." = 29 chars · 37ms each = 1073ms */
-  clip-path: inset(0 100% -0.35em 0);
-  animation: tw-reveal 1.07s steps(29, end) 1.0s forwards;
+  opacity: 0; /* JS sets to 1 before splitting chars */
 }
 
-/* -0.35em bottom lets descenders (g, y, p) fully paint through */
-@keyframes tw-reveal {
-  to { clip-path: inset(0 0% -0.35em 0); }
+/* "can" — larger, orange, warm glow via child .tw-char */
+.hl-can {
+  color: var(--accent);
+  font-size: 1.22em;
+  font-style: normal;
 }
 
-.hsl-bright em {
+.hl-can .tw-char {
+  text-shadow:
+    0 0 26px rgba(232,119,34,.75),
+    0 0 58px rgba(232,119,34,.3);
+}
+
+/* "get through this." — italic gradient, descender-safe */
+.hl-em {
   font-style: italic;
   display: inline-block;
-  /* Extend the element box into the descender zone so background-clip:text
-     paints the gradient all the way through letters like g, y, p */
   padding-bottom: 0.22em;
   margin-bottom: -0.22em;
 }
 
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
-  .hsl-bright em {
+  .hl-em {
     background: linear-gradient(98deg, #E87722 0%, #ffaa5e 48%, #E87722 100%);
     background-size: 240% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    /* shimmer starts after typewriter finishes line 2 (~2.1s) */
-    animation: hl-shimmer 7s ease-in-out 2.1s infinite;
+    animation: hl-shimmer 7s ease-in-out 2.5s infinite;
   }
 }
 
-/* Deck and CTAs enter after typewriter completes (~2.1s) */
+/* Individual character spans injected by initTypewriter() in main.js */
+.tw-char {
+  display: inline;
+  opacity: 0;
+  animation: tw-char-in 0.04s ease var(--tw-delay, 0s) forwards;
+}
+
+@keyframes tw-char-in {
+  to { opacity: 1; }
+}
+
+/* Deck and CTAs enter after typewriter finishes (~2.05s) */
 .hero-statement-deck {
   font-family: var(--font-display);
   font-weight: 300;
@@ -1485,7 +1496,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   max-width: 54ch;
   margin-bottom: 42px;
   opacity: 0;
-  animation: hero-fade-up .85s var(--ease-out) 2.2s forwards;
+  animation: hero-fade-up .85s var(--ease-out) 2.25s forwards;
 }
 
 .hero-statement-deck strong {
@@ -1495,7 +1506,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 
 .hero-statement-actions {
   opacity: 0;
-  animation: hero-fade-up .85s var(--ease-out) 2.45s forwards;
+  animation: hero-fade-up .85s var(--ease-out) 2.5s forwards;
 }
 
 .hero-statement-sub {
@@ -1506,7 +1517,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   text-transform: uppercase;
   color: var(--faint);
   opacity: 0;
-  animation: hero-fade-up .7s var(--ease-out) 2.65s forwards;
+  animation: hero-fade-up .7s var(--ease-out) 2.7s forwards;
 }
 
 @keyframes hero-fade-up {
@@ -1518,6 +1529,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   .hero-eyebrow,
   .hsl-dim,
   .hsl-bright,
+  .tw-char,
   .hero-statement-deck,
   .hero-statement-actions,
   .hero-statement-sub {

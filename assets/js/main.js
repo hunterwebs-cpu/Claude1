@@ -93,6 +93,49 @@
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+  /* ---- Hero typewriter (line 2 only — "But you can / get through this.")
+         Line 1 is static. JS splits line 2 into .tw-char spans so each
+         character appears individually with a CSS animation keyed to
+         --tw-delay. Preserves nested .hl-can and .hl-em elements. ------- */
+  (function initTypewriter() {
+    var line = document.querySelector('.hsl-bright');
+    if (!line) return;
+
+    if (reduceMotion) {
+      line.style.opacity = '1';
+      return;
+    }
+
+    line.style.opacity = '1'; // container visible; individual chars start hidden
+
+    var delay = 580;   // ms before first char (line 1 has settled)
+    var charMs = 42;   // ms between characters
+    var brPause = 195; // extra pause at the <br> between the two lines
+
+    function processNode(node) {
+      if (node.nodeType === 3) { // text node
+        var chars = Array.from(node.textContent);
+        if (!chars.length) return;
+        var frag = document.createDocumentFragment();
+        chars.forEach(function (ch) {
+          var s = document.createElement('span');
+          s.className = 'tw-char';
+          s.textContent = ch;
+          s.style.setProperty('--tw-delay', delay + 'ms');
+          delay += charMs;
+          frag.appendChild(s);
+        });
+        node.parentNode.replaceChild(frag, node);
+      } else if (node.nodeType === 1) { // element node
+        if (node.tagName === 'BR') { delay += brPause; return; }
+        // Recurse into .hl-can and .hl-em, preserving their styling
+        Array.from(node.childNodes).forEach(processNode);
+      }
+    }
+
+    processNode(line);
+  }());
+
   /* ---- Magnetic hover on primary buttons (subtle) ---------------------- */
   if (!reduceMotion && window.matchMedia('(pointer:fine)').matches) {
     document.querySelectorAll('.btn--primary').forEach(function (btn) {
