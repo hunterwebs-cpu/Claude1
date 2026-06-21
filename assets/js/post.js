@@ -59,6 +59,28 @@
       var metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc && meta.excerpt) metaDesc.setAttribute('content', meta.excerpt);
 
+      // Open Graph + canonical for SEO
+      var canonicalHref = window.location.origin + window.location.pathname + window.location.search;
+      var ogTags = [
+        ['property', 'og:type',        'article'],
+        ['property', 'og:title',       meta.title || ''],
+        ['property', 'og:description', meta.excerpt || ''],
+        ['property', 'og:url',         canonicalHref],
+        ['name',     'twitter:card',   'summary'],
+        ['name',     'twitter:title',  meta.title || ''],
+        ['name',     'twitter:description', meta.excerpt || ''],
+      ];
+      ogTags.forEach(function (t) {
+        var el = document.createElement('meta');
+        el.setAttribute(t[0], t[1]);
+        el.setAttribute('content', t[2]);
+        document.head.appendChild(el);
+      });
+      var link = document.createElement('link');
+      link.rel = 'canonical';
+      link.href = canonicalHref;
+      document.head.appendChild(link);
+
       var cat = document.getElementById('a-cat');
       var title = document.getElementById('a-title');
       var byline = document.getElementById('a-meta');
