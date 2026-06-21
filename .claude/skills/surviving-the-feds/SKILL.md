@@ -1,5 +1,5 @@
 ---
-name: surviving-the-feds
+name: survivingwebsite
 description: Build, edit, and extend the Surviving the Feds website (survivingthefeds.com) in this repo — its pages, custom design system, free guides/blog, and deployment. Use whenever working on this project: homepage, Start Here, Books, About, the Journal, the "Is My Lawyer Any Good" page, the planned free guides, styling, copy, or pushing changes live.
 ---
 

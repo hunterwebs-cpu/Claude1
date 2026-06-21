@@ -1,3 +1,8 @@
+---
+name: article
+description: Writing, editing, and creating articles for The Journal (content/blog/*.md). Covers Bilal's voice, SEO, article structure, bracket-note handling, and quality standards.
+---
+
 # Journal Article Skill — Surviving the Feds
 
 Use this skill whenever processing, editing, or creating articles for The Journal
