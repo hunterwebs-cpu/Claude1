@@ -30,6 +30,10 @@ the two books. Founder is "present but understated."
    different.** Start Here is deliberately bespoke (see below).
 5. Keep everything **responsive** and respect `prefers-reduced-motion`. No emojis
    as icons — use inline SVG.
+6. **SEO page titles on every article page:** format is `[Primary keyword]: [Hook] | Surviving the Feds`.
+   `post.js` and `blog.js` set this dynamically from frontmatter. Never leave the
+   static `<title>Article — Surviving the Feds</title>` as the published title.
+   Use the `journal-article` skill for all article editing/creation work.
 
 ## Repo & deployment
 - Dev branch: **`claude/surviving-feds-site-5n4cmc`**. Work here, then fast-forward
@@ -42,7 +46,7 @@ the two books. Founder is "present but understated."
 - Local preview: `python3 -m http.server` from repo root (the blog uses `fetch`,
   so it needs http, not `file://`). Images optimized with Pillow (`pip install pillow`).
 - `.htaccess` sets HTML to no-cache, static assets long-cache, blocks `/.git`.
-- Cache-bust version is currently around **v=13** — check current value in the HTML
+- Cache-bust version is currently **v=14** — check current value in the HTML
   and increment when CSS/JS change.
 
 ## File map

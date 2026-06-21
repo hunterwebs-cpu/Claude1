@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Journal — Surviving the Feds</title>
-  <meta name="description" content="Plain-language articles on federal criminal procedure, defense strategy, and surviving the process — from someone who lived it." />
+  <title>The Journal | Surviving the Feds</title>
+  <meta name="description" content="Plain-language guides on federal criminal procedure, defense strategy, sentencing, and surviving the process — from someone who lived it." />
   <meta name="theme-color" content="#0A0B0E" />
   <link rel="icon" href="assets/img/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="assets/css/styles.css?v=13" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=14" />
 </head>
-<body>
+<body class="journal-page">
 
   <!-- HEADER -->
   <header class="site-header">
@@ -56,80 +56,109 @@
     </aside>
   </div>
 
-  <main>
-    <section class="section" style="padding-top:170px; padding-bottom:30px;">
-      <div class="container">
-        <div class="sec-head" data-reveal style="margin-bottom:0;">
-          <span class="eyebrow">The Journal</span>
-          <h2>Straight talk about the federal system.</h2>
-          <p class="lead deck">No jargon, no false hope — just the knowledge that defendants and families need most. New articles are added regularly.</p>
+  <!-- JOURNAL COMMAND CENTER -->
+  <div class="journal-layout">
+
+    <!-- LEFT: Article list -->
+    <aside class="journal-sidebar">
+      <div class="journal-sidebar-head">
+        <span class="eyebrow">The Journal</span>
+        <h2 class="journal-sidebar-title">Guides &amp; Articles</h2>
+        <p class="journal-sidebar-sub">Straight talk about the federal system. No jargon, no false hope.</p>
+      </div>
+      <nav class="journal-nav" id="post-list" aria-label="Articles">
+        <p style="color:var(--muted);padding:16px 24px;font-size:.9rem;">Loading articles…</p>
+      </nav>
+    </aside>
+
+    <!-- RIGHT: Reader -->
+    <section class="journal-reader" id="journal-reader" aria-live="polite">
+
+      <!-- Welcome / no-article state -->
+      <div class="journal-welcome" id="journal-welcome">
+        <div class="journal-welcome-inner">
+          <span class="eyebrow center">The Journal</span>
+          <h2>Real knowledge.<br>No jargon.</h2>
+          <p class="lead">Select an article from the list to begin reading. Every guide is free — no email required, no paywall.</p>
         </div>
       </div>
-    </section>
 
-    <section class="section" style="padding-top:30px;">
-      <div class="container">
-        <div class="post-grid" id="post-list" data-reveal>
-          <!-- Rendered by blog.js -->
-          <p style="color:var(--muted)">Loading articles…</p>
-        </div>
-      </div>
-    </section>
+      <!-- Article reader -->
+      <article class="journal-article" id="journal-article" hidden>
 
-    <!-- CTA BAND -->
-    <section class="section cta-band">
-      <div class="container">
-        <div data-reveal>
-          <span class="eyebrow center">Go deeper</span>
-          <h2>The books go where the articles can't.</h2>
-          <p class="lead center">Every article here is a starting point. The books are the full field guide.</p>
-          <div class="hero-actions" style="justify-content:center;">
-            <a class="btn btn--primary" href="books.html">
-              Explore the Books
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+        <!-- Mobile: back to list -->
+        <button class="journal-back-btn btn btn--ghost" type="button" id="journal-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          All Articles
+        </button>
 
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
+        <!-- Print logo (print-only) -->
+        <div class="print-brand print-only" style="padding:0 28px;">
           <img src="assets/img/logo.png" alt="Surviving the Feds" />
-          <p>Knowledge + Strength = Freedom. We make sure the world has the information it needs to fight for its freedom.</p>
         </div>
-        <div class="footer-col">
-          <h4>Explore</h4>
-          <a href="index.html">Home</a>
-          <a href="start-here.html">Start Here</a>
-          <a href="about.html">About</a>
-          <a href="books.html">The Books</a>
-          <a href="blog.html">The Journal</a>
-          <a href="is-my-lawyer-any-good.html">Is My Lawyer Any Good?</a>
-        </div>
-        <div class="footer-col">
-          <h4>The Books</h4>
-          <a href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8" target="_blank" rel="noopener">Surviving Pretrial</a>
-          <a href="https://www.amazon.com/2255-Motion-Handbook-Post-Conviction-Surviving/dp/B0D8HQRJN8" target="_blank" rel="noopener">The 2255 Motion Handbook</a>
-          <a href="https://www.amazon.com/dp/B0D471H5Z9" target="_blank" rel="noopener">The Series on Amazon</a>
-        </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <a href="mailto:contact@survivingthefeds.com">contact@survivingthefeds.com</a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>© <span id="year">2026</span> Surviving the Feds. All rights reserved.</span>
-        <span>This site is for informational purposes only and does not constitute legal advice.</span>
-      </div>
-    </div>
-  </footer>
 
-  <script src="assets/js/main.js?v=13" defer></script>
-  <script src="assets/js/blog.js?v=13" defer></script>
+        <header class="journal-article-head">
+          <span class="eyebrow center" id="jr-cat">Category</span>
+          <h1 id="jr-title">Loading…</h1>
+          <p class="article-meta" id="jr-meta"></p>
+          <div class="journal-tools screen-only">
+            <button class="btn btn--primary" type="button" data-print>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>
+              Download / Print PDF
+            </button>
+            <span class="tools-hint">Choose <strong>"Save as PDF"</strong> to mail to someone inside.</span>
+          </div>
+        </header>
+
+        <div class="prose" id="jr-body"></div>
+
+        <!-- Print: book promos -->
+        <aside class="print-books print-only" style="padding:0 28px;">
+          <h2>Get the full field guide — from someone who lived it</h2>
+          <p class="print-books-note">Most jails and prisons require books to be shipped <strong>directly from Amazon</strong>. A family member or supporter can order the paperback and have it sent straight to the facility.</p>
+          <div class="print-book">
+            <h3>Surviving Pretrial</h3>
+            <p>The Ultimate Survival Guide to Being Busted &amp; Prosecuted by the Feds. Covers arrest, detention, evaluating your attorney, what never to say on a recorded line, and how plea deals really work.</p>
+            <p class="print-link">Order the paperback &rarr; <strong>amazon.com/dp/B0BT19Y3V8</strong></p>
+          </div>
+          <div class="print-book">
+            <h3>The 2255 Motion Handbook</h3>
+            <p>A Post-Conviction Relief Guide for Federal Inmates. The exact steps to file, argue, and fight for your freedom after conviction.</p>
+            <p class="print-link">Order the paperback &rarr; <strong>amazon.com/dp/B0D8HQRJN8</strong></p>
+          </div>
+          <p class="print-disclaimer">Informational only — not legal advice. Always consult a licensed attorney about a specific case.</p>
+        </aside>
+
+        <!-- Print running foot -->
+        <div class="print-running-foot print-only" aria-hidden="true">
+          Knowledge&nbsp;+&nbsp;Strength&nbsp;=&nbsp;Freedom&nbsp;&nbsp;·&nbsp;&nbsp;survivingthefeds.com
+        </div>
+
+        <!-- In-reader CTA (screen-only) -->
+        <section class="journal-cta screen-only">
+          <div class="journal-cta-inner">
+            <span class="eyebrow center">Go deeper</span>
+            <h2>The books go where the articles can't.</h2>
+            <p class="lead center">Every article here is a starting point. The books are the full field guide — written by someone who spent 20 years navigating the system you're in right now.</p>
+            <div class="hero-actions" style="justify-content:center;">
+              <a class="btn btn--primary" href="books.html">
+                Explore the Books
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+              <a class="btn btn--ghost" href="start-here.html">Start Here</a>
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+    </section>
+
+  </div>
+
+  <!-- Markdown renderer (needed for inline article loading) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" defer></script>
+  <script src="assets/js/main.js?v=14" defer></script>
+  <script src="assets/js/blog.js?v=14" defer></script>
 </body>
 </html>

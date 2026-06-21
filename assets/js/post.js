@@ -54,7 +54,7 @@
     .then(function (r) { if (!r.ok) throw new Error('404'); return r.text(); })
     .then(function (raw) {
       var meta = parseFrontmatter(raw);
-      document.title = (meta.title || 'Article') + ' — Surviving the Feds';
+      document.title = (meta.title || 'Article') + ' | Surviving the Feds';
 
       var metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc && meta.excerpt) metaDesc.setAttribute('content', meta.excerpt);
