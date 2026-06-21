@@ -139,11 +139,60 @@
       '</button>';
   }
 
+  /* Simple string hash — seeds image layout variation per article */
+  function hashCode(str) {
+    var h = 0;
+    for (var i = 0; i < str.length; i++) {
+      h = (Math.imul(31, h) + str.charCodeAt(i)) | 0;
+    }
+    return Math.abs(h);
+  }
+
+  /* Apply alternating float classes to prose images after render */
+  function enhanceImages(container, slug) {
+    var imgs = container.querySelectorAll('img');
+    if (!imgs.length) return;
+    var sides = ['left', 'right'];
+    var start = hashCode(slug || '') % 2;
+    var count = 0;
+    imgs.forEach(function (img) {
+      img.classList.add('prose-img');
+      var para = img.parentElement;
+      if (para) para.classList.add('prose-img-para');
+      /* Every 3rd image goes full-width to break up the rhythm */
+      if (count % 3 === 2) {
+        img.classList.add('prose-img--full');
+      } else {
+        img.classList.add('prose-img--' + sides[(start + count) % 2]);
+      }
+      count++;
+    });
+  }
+
   function setReaderState(showArticle) {
     var welcome = document.getElementById('journal-welcome');
     var article = document.getElementById('journal-article');
-    if (welcome) welcome.hidden = showArticle;
-    if (article) article.hidden = !showArticle;
+    if (showArticle) {
+      /* Fade article in: make visible but transparent, then remove fade-enter */
+      if (article) {
+        article.hidden = false;
+        article.classList.add('fade-enter');
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () {
+            article.classList.remove('fade-enter');
+          });
+        });
+      }
+      /* Fade welcome out via class */
+      if (welcome) welcome.classList.add('is-hidden');
+    } else {
+      /* Restore welcome, hide article */
+      if (welcome) welcome.classList.remove('is-hidden');
+      if (article) {
+        article.hidden = true;
+        article.classList.remove('fade-enter');
+      }
+    }
   }
 
   function loadArticleInReader(slug, skipHistory) {
@@ -195,6 +244,7 @@
           bodyEl.innerHTML = window.marked
             ? window.marked.parse(bodyText)
             : '<pre style="white-space:pre-wrap">' + esc(bodyText) + '</pre>';
+          enhanceImages(bodyEl, slug);
         }
       })
       .catch(function () {
