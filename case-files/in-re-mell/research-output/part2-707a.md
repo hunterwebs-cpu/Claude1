@@ -39,7 +39,11 @@ Additionally, courts should assess good faith on an "ad hoc basis," considering 
 
 > "Dismissal based on lack of good faith should be confined carefully and is generally utilized only in those egregious cases that entail concealed or misrepresented assets and/or sources of income, lavish lifestyles and intention to avoid a large single debt based upon conduct akin to fraud, misconduct or gross negligence." 229 F.3d at 207.
 
-The court further elaborated at page 209:
+The key standard runs at pages 207–208:
+
+> "Dismissal based on lack of good faith should be confined carefully and is generally utilized only in those egregious cases that entail concealed or misrepresented assets and/or sources of income, lavish lifestyles and intention to avoid a large single debt based upon conduct akin to fraud, misconduct or gross negligence." 229 F.3d at 207–08. [Secondary sources confirm pinpoint as 207-08; VERIFY against original before filing]
+
+The court further elaborated (confirmed at 209 based on secondary court citations):
 
 > "Bankruptcy and district courts have reserved bad faith dismissal for the truly egregious case, often involving individuals with substantial means who have flaunted their wealth, have continued their lavish lifestyles, and are engaging in creative, elaborate schemes to conceal their assets and cheat their creditors or to otherwise inflict harm on third parties." 229 F.3d at 209. [VERIFY exact pinpoint — reported at p. 209 based on secondary sources]
 
@@ -298,6 +302,12 @@ Murray is an *involuntary* bankruptcy petition filed by a creditor, not a volunt
 
 **FLAG**: If Nagel cites Murray for the proposition that a case involving "one dominant creditor" and "no reorganization purpose" should be dismissed, he has the case backwards. Murray was dismissed because the *creditor* used bankruptcy as a pure enforcement tool, not because the *debtor* filed in bad faith. The case affirmatively supports Brad by demonstrating that courts are concerned about creditor *misuse* of the bankruptcy process — which is exactly what Nagel is doing by filing an OSC to dismiss rather than litigating the damages trial.
 
+**Key Murray language that cuts in Brad's favor**:
+> "Bankruptcy is not a judgment enforcement device." 900 F.3d at 57. [VERIFY pinpoint]
+> "The remedy of involuntary bankruptcy 'exists as an avenue of relief for the benefit of the overall creditor body…. [I]t was not intended to redress the special grievances, no matter how legitimate, of particular creditors….'" 900 F.3d at 58. [VERIFY pinpoint; quoting legislative history]
+
+These passages directly support the argument that Nagel's motion to dismiss — which functions to force Brad back into state court to face Nagel's judgment — is itself an improper use of bankruptcy court processes. If "bankruptcy is not a judgment enforcement device" for involuntary petitioners, the corollary principle is that § 707(a) is not a mechanism by which a creditor can undo a debtor's voluntary bankruptcy filing simply because the creditor wants to collect its judgment without the constraints of the automatic stay and discharge.
+
 ---
 
 ### B.5 — In re Murpenter LLC, No. 12-CV-5060, 2012 WL 6645538 (E.D. Pa. Dec. 21, 2012), aff'd, 550 F. App'x 114 (3d Cir. 2014)
@@ -411,7 +421,9 @@ The court found these factors present on the facts and affirmed dismissal.
 
 3. **Lifestyle**: Zick made "no significant lifestyle adjustments." There is no comparable finding here, and no evidence of lavish expenditure in the record.
 
-4. **The mediation award in Zick was based on Zick's own wrongful competitive conduct** — conduct "akin to fraud, misconduct or gross negligence." The liability in Mell arose from a Rule 4:23-5(a)(2) discovery sanction — a procedural default, not a merits adjudication of fraudulent conduct.
+4. **The mediation award in Zick was based on Zick's own wrongful competitive conduct** — conduct "akin to fraud, misconduct or gross negligence." The liability in Mell arose from a New Jersey Court Rule 4:23-5(a)(2) discovery sanction — a procedural default, not a merits adjudication of fraudulent conduct.
+
+**CRITICAL POINT ON THE DISCOVERY SANCTION NATURE OF "LIABILITY"**: The "liability" in this case was established not by any merits determination but by a Rule 4:23-5(a)(2) discovery sanction permitting the court to strike pleadings and enter a default for discovery failures. This is fundamentally different from the debts in Myers (fraudulent conveyance claim), Zick (breach of non-solicitation, misappropriation), and virtually every other case Nagel cites. Nagel cannot use Tamecki's "conduct akin to fraud, misconduct or gross negligence" language to bootstrap a procedurally-generated discovery default into the kind of egregious underlying misconduct Tamecki requires. The Third Circuit's "egregious cases" standard looks to the debtor's conduct, not to the creditor's ability to obtain a favorable procedural outcome in state court.
 
 **ARGUMENT**: Nagel is likely to cite Zick for its "manipulations which reduced the creditors to one" language. The answer is threefold: (a) Zick is Sixth Circuit, not binding here; (b) the Third Circuit adopted its own standard in Tamecki which controls; and (c) Brad has multiple creditors on his schedules and made no affirmative manipulation to reduce creditors.
 
@@ -531,9 +543,13 @@ To the extent Nagel cites Napier-Lopez, note that in the same D.N.J. judicial co
 
 Multiple courts have held that filing bankruptcy in response to pending state court litigation — even on the eve of trial — does not, without more, constitute bad faith:
 
-> "[T]he fact that the Debtor filed for bankruptcy in response to pending litigation without more additional evidence of misconduct is not enough to dismiss . . . for cause under 11 U.S.C. § 707(a)." [Bankr. N.D.N.Y. 2025 case, govinfo.gov text — VERIFY citation]
+> "The fact that the Debtor filed for bankruptcy in response to pending litigation without more additional evidence of misconduct is not enough to dismiss . . . for cause under 11 U.S.C. § 707(a)." [N.D.N.Y. Bankr. 2025/26 — Trainor case — VERIFY citation: USCOURTS-nynb-1_25-bk-11154]
 
-Courts distinguish between: (a) filing bankruptcy because state court litigation threatens genuine financial distress (legitimate); and (b) filing bankruptcy as a purely tactical delay with no underlying financial distress and no legitimate bankruptcy purpose (bad faith). See Murray, 900 F.3d at 58–60 (dismissal of involuntary petition where *creditor* used bankruptcy purely as enforcement tactic — no legitimate bankruptcy purpose on petitioner's side).
+> "[A]lmost every bankruptcy case is filed because a creditor is pursuing a debtor." [SDNY Bankr. — VERIFY citation: USCOURTS-nysb 315527_214 — opinion FOR PUBLICATION but HTTP blocked this session]
+
+Courts distinguish between: (a) filing bankruptcy because state court litigation threatens genuine financial distress (legitimate); and (b) filing bankruptcy as a purely tactical delay with no underlying financial distress and no legitimate bankruptcy purpose (bad faith). See Murray, 900 F.3d 53, 57 (2d Cir. 2018) (dismissal of involuntary petition where *creditor* used bankruptcy purely as enforcement tactic — no legitimate bankruptcy purpose on petitioner's side).
+
+**No per se rule exists**: The Tamecki "egregious cases" standard affirmatively prohibits a per se finding of bad faith based on timing alone. "[N]ot any one factor is enough, by itself, to warrant dismissal for bad faith — the bankruptcy court must examine the totality of the circumstances and all relevant facts." (Multiple courts; consistent with Tamecki, 229 F.3d at 207.)
 
 ---
 
