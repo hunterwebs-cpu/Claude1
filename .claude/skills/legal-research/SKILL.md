@@ -1,6 +1,6 @@
 ---
 name: legal-research
-description: Full-stack legal research workflow for bankruptcy opposition papers. Covers parallel subagent architecture, source prioritization, six-part memo structure, synthesis into a final memorandum, citation verification protocol, and pre-filing quality checks. Demonstrated in In re S. Bradley Mell, 26-16834-EJO (Bankr. D.N.J. 2026).
+description: Full-stack legal research workflow for bankruptcy opposition papers. Covers parallel subagent architecture, source prioritization, six-part memo structure, synthesis into a final memorandum, citation verification protocol, pre-filing quality checks, and automatic PDF generation (cover page + TOC + Table of Authorities + formatted body via pandoc/pdflatex). Demonstrated in In re S. Bradley Mell, 26-16834-EJO (Bankr. D.N.J. 2026).
 ---
 
 # Legal Research Skill — Bankruptcy Opposition Papers
@@ -424,6 +424,107 @@ case-files/
 | 20   | Pre-filing quality checklist; Westlaw verification of all [VERIFY] flags |
 | 23   | Final review; no new research after Hour 20 |
 | 24   | File |
+
+---
+
+## PDF Output — Final Deliverable Step
+
+After FINAL-MEMO.md is complete and all research is synthesized, generate a professional
+PDF for distribution to the legal team. This is the final step of every engagement.
+
+### Tools
+
+```
+.claude/skills/legal-research/gen_pdf.py       — main script
+.claude/skills/legal-research/templates/legal-memo.tex — LaTeX template
+```
+
+### Dependencies (Linux/apt)
+
+```bash
+apt-get install -y --fix-missing pandoc texlive-latex-recommended \
+  texlive-fonts-recommended texlive-latex-extra
+```
+
+### Usage
+
+```bash
+python3 .claude/skills/legal-research/gen_pdf.py \
+  case-files/[matter]/research-output/FINAL-MEMO.md \
+  case-files/[matter]/research-output/FINAL-MEMO.pdf
+```
+
+### What the Pipeline Does
+
+1. **Reads** FINAL-MEMO.md
+2. **Extracts citations** from original text (before any Unicode normalization):
+   - Cases: `In re Name, Vol Rep Page (Court Year)` and `X v. Y, citation` patterns
+   - Statutes: `11 U.S.C.`, `28 U.S.C.`, `N.J.S.A.` patterns
+   - Rules: `Fed. R. Bankr. P.`, `N.J. Ct. R.`, `N.J. RPC` patterns
+3. **Normalizes Unicode** → replaces `→`, `≠`, `§`, `—`, curly quotes, etc. with
+   pdflatex-safe equivalents (math symbols use pandoc `$...$` delimiters)
+4. **Pre-processes markdown** → strips duplicate H1/classification header (already on
+   cover page), promotes H4 to H3, highlights `[VERIFY]` flags in amber
+5. **Builds Table of Authorities** as a LaTeX section (cases / statutes / rules)
+6. **Runs pandoc** with custom LaTeX template → pdflatex → PDF
+
+### PDF Structure
+
+| Section | Page numbering |
+|---------|---------------|
+| Cover page | Unnumbered |
+| Table of Contents | Roman (i, ii, …) |
+| Table of Authorities | Roman (continued) |
+| Memo body | Arabic (1, 2, …) |
+
+### Formatting Decisions
+
+- **Font:** Times New Roman (mathptmx) — standard for legal documents
+- **Margins:** 1 inch all sides; top/bottom 1.2 inch for header/footer room
+- **Line spacing:** 1.25x — readable without being double-spaced
+- **Header:** ATTORNEY WORK PRODUCT — PRIVILEGED AND CONFIDENTIAL (red, every page)
+- **Footer:** Shortened case name (left) | page number (center)
+- **Blockquotes:** Left rule bar + italic — visual distinction for verbatim legal quotes
+- **Section headers:** Uppercase, rule line under — standard internal memo style
+- **VERIFY flags:** Amber/orange text with bold `[VERIFY BEFORE FILING]` label
+- **Confidentiality:** No firm name on header/footer; cover page carries all classification
+
+### Common Errors and Fixes
+
+| Error | Cause | Fix |
+|-------|-------|-----|
+| `\tightlist undefined` | Pandoc macro not in template | Add `\providecommand{\tightlist}{...}` |
+| `Unicode character X not set up` | Raw Unicode reaching pdflatex | Add to UNICODE_SUBSTITUTIONS in gen_pdf.py |
+| `Missing $ inserted` near `\rightarrow` | Used `\(` in markdown; pandoc treats as escaped paren | Use pandoc math `$\rightarrow$` instead |
+| Template `unexpected "$"` | Dollar sign in LaTeX comment or command | In pandoc templates, `$` outside `$var$` syntax is invalid; use `\(\)` or escape |
+| TOA has 0 statutes | Normalization ran before extraction | Always extract from raw_text before normalizing |
+| Long table cells overflow margin | Wide pipe table columns | Use narrower column labels; break long content across rows |
+
+### Adding New Unicode Characters
+
+Edit `UNICODE_SUBSTITUTIONS` in `gen_pdf.py`. Rules:
+- Math/comparison symbols: use `$\latex_name$` (pandoc math syntax)
+- Typography: use plain text equivalents where possible (`---` for em dash)
+- LaTeX text commands (`\S{}`, `\P{}`): only for symbols with dedicated commands
+- Never use `\(` or `\)` for inline math in substitutions (pandoc treats `\(` as escaped paren)
+
+### Customizing for a New Matter
+
+To adapt for a different case, change the `generate_pdf()` call arguments:
+
+```python
+generate_pdf(
+    input_md=Path("case-files/[matter]/research-output/FINAL-MEMO.md"),
+    output_pdf=Path("case-files/[matter]/research-output/FINAL-MEMO.pdf"),
+    case_number="26-XXXXX-XXX",
+    case_name_short="In re [Name]",
+    memo_date="June 25, 2026",
+)
+```
+
+The cover page case details are hardcoded in the template's `\begin{titlepage}` block.
+For a new matter, edit `legal-memo.tex` lines for IN RE, Case No., Court, Hearing,
+Before, Subject, and Date — or convert these to pandoc template variables.
 
 ---
 
