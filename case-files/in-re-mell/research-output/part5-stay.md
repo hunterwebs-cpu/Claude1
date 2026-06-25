@@ -378,9 +378,9 @@ However, in *In re Aleckna* (2021), the Third Circuit clarified that this defens
 
 Courts have found that law firms and their clients are subject to joint and several liability for willful stay violations where the law firm takes post-petition action on behalf of a creditor client. Courts have consistently held that clients are accountable for the acts and omissions of their attorneys in the stay violation context.
 
-> **CORRECTION — HALLUCINATED CITATION REMOVED:** A prior draft of this memorandum cited *In re Shaw* (Bankr. D.N.J.) for the joint-and-several proposition with specific damages figures ($10,000 actual + $25,000 punitive). **That case does not exist and was a hallucination.** The case with similar facts is *In re Dumace Leonard LeGrand* (Bankr. C.D. Cal. or N.D. Cal.) — a California case involving far more egregious conduct. LeGrand is persuasive only (different circuit) and the factual disparity limits its utility.
+> **CORRECTION — HALLUCINATED CITATION REMOVED:** A prior draft of this memorandum cited *In re Shaw* (Bankr. D.N.J.) for the joint-and-several § 362(k) proposition. **That case does not exist and was a hallucination.** The case superficially resembling the described facts is *In re Dumace Leonard LeGrand* (California) — but LeGrand concerns violations of the **discharge injunction under 11 U.S.C. § 524**, not the automatic stay under § 362(k). These are entirely different statutes: § 362 applies from the petition date forward (pre-discharge); § 524 applies after discharge is entered. The Paragano email (June 18, 2026 — six days post-petition, months before any discharge) is a § 362(k) issue only. LeGrand has no relevance to this argument whatsoever and should not be cited.
 >
-> **Action required:** Conduct a targeted Westlaw search in Bankr. D.N.J. and the Third Circuit for § 362(k) opinions holding a creditor's law firm jointly and severally liable. Search terms: "362(k)" + "law firm" + "joint and several" + "Bankr. D.N.J." The proposition is sound — the supporting citation must come from verified authority before filing.
+> **Action required:** Conduct a targeted Westlaw search for § 362(k) opinions holding a creditor's law firm jointly and severally liable. Search terms: "362(k)" + "law firm" + "joint and several" — filter to Bankr. D.N.J. and 3d Cir. The proposition is sound; the citation must come from verified § 362(k) authority, not § 524 authority.
 
 #### C-2(b): Assertion of a Prejudgment Attachment Post-Petition as a Stay Violation
 
@@ -577,7 +577,7 @@ The following items require paid database research that was not available throug
 
 3. **In re Murray, 543 B.R. 484 (Bankr. S.D.N.Y. 2016)** — Pull full bankruptcy court opinion (not just the appellate decision) for verbatim language on bad faith as cause for stay relief and any discussion of the interplay between § 707(a) dismissal and § 362(d)(1) stay relief.
 
-4. **Law firm § 362(k) joint-and-several authority [HALLUCINATION CORRECTED]** — "In re Shaw (Bankr. D.N.J.)" cited in prior drafts does not exist. The real case with similar (but more egregious) facts is *In re Dumace Leonard LeGrand* (California — persuasive only). Run Westlaw search in Bankr. D.N.J. and 3d Cir. for verified authority: "362(k)" + "law firm" + "joint and several."
+4. **Law firm § 362(k) joint-and-several authority [HALLUCINATION CORRECTED]** — "In re Shaw (Bankr. D.N.J.)" does not exist. *In re Dumace Leonard LeGrand* (California) is NOT a § 362(k) case — it concerns the discharge injunction under § 524, a different statute inapplicable here (Paragano email is pre-discharge). Run Westlaw search for verified § 362(k) authority only: "362(k)" + "law firm" + "joint and several" in Bankr. D.N.J. and 3d Cir.
 
 5. **Cal. Coast Univ. v. Aleckna (In re Aleckna)** — Confirm F.4th citation (currently cited as 2021 WL 4097155; search Westlaw for F.4th reporter citation if published).
 

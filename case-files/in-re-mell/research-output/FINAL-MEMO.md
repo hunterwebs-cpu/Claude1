@@ -396,7 +396,7 @@ In re Lansaw, 853 F.3d at 669, affirmed:
 - $7,500 in emotional distress damages (no medical evidence required where violations are "patently egregious" and debtor testifies credibly)
 - **$40,000 in punitive damages**
 
-Both Nagel (the creditor client) and the law firm are subject to joint and several liability for stay violations. **[CITATION NEEDED — "In re Shaw (Bankr. D.N.J.)" was a hallucinated case. The case with analogous facts is In re Dumace Leonard LeGrand (California — not binding in 3d Cir.; facts also more egregious than Mell's). A verified D.N.J. or 3d Cir. authority for law firm joint-and-several § 362(k) liability must be located on Westlaw before filing.]**
+Both Nagel (the creditor client) and the law firm are subject to joint and several liability for stay violations. **[CITATION NEEDED — "In re Shaw (Bankr. D.N.J.)" was a hallucinated case. In re Dumace Leonard LeGrand (California) is NOT analogous — it is a § 524 discharge injunction case, not a § 362(k) automatic stay case. These are distinct statutes; LeGrand has no application here. A verified § 362(k) authority holding a creditor's law firm jointly and severally liable must be located on Westlaw before filing. Search: "362(k)" + "law firm" + "joint and several" in Bankr. D.N.J. and 3d Cir.]**
 
 A law partner who directly contacts a represented debtor to assert a void lien — on behalf of a client whose partner has just acknowledged the bankruptcy to the bankruptcy court — presents a compelling case for the maximum available sanctions.
 
@@ -537,7 +537,7 @@ The prompt throughout references "N.J.S.A. 21:58D-1." This is incorrect. Title 2
 | In re Azeglio, 422 B.R. 490 (Bankr. D.N.J. 2010) | HIGH — collateral estoppel standard in D.N.J. |
 | In re Potter, No. 11-40237, 2021 WL 4494263 (Bankr. D.N.J. 2021) | MEDIUM — stay relief burden standard |
 | In re Adler (Bankr. S.D.N.Y. 2025) | CRITICAL — must obtain full citation and exact quote before citing |
-| § 362(k) law firm joint-and-several authority | **HALLUCINATION CORRECTED** — "In re Shaw" does not exist. Real case: *In re Dumace Leonard LeGrand* (California; more egregious facts; persuasive only). Westlaw search required for verified D.N.J./3d Cir. authority. |
+| § 362(k) law firm joint-and-several authority | **HALLUCINATION CORRECTED** — "In re Shaw" does not exist. *In re LeGrand* (California) is a § 524 discharge injunction case — wrong statute, inapplicable pre-discharge. Westlaw search required for verified § 362(k) authority. |
 | Berlingeri, 246 B.R. 196 (Bankr. D.N.J. 2000) | HIGH — must distinguish; check how Ruitenberg limits it |
 | In re Ruitenberg, 745 F.3d 647 (3d Cir. 2014) | HIGH — confirm § 523(a)(6) holding vs. marital property holding |
 | In re Fleetwood (Bankr. D. Alaska 2013) | CRITICAL — must obtain full text to identify "self-evident" language |
@@ -608,7 +608,7 @@ The prompt throughout references "N.J.S.A. 21:58D-1." This is incorrect. Title 2
 | § 362(d)(1) — 12-factor test | In re Mid-Atlantic Handling Systems | 304 B.R. 111 (Bankr. D.N.J. 2003) | Curtis/Sonnax factors; 7-factor permissive abstention test |
 | § 362(d)(1) — burden | In re Potter | 2021 WL 4494263 (Bankr. D.N.J. 2021) | Movant's failure to establish cause requires denial [PULL FROM PACER] |
 | § 707(a) — involuntary/creditor abuse | In re Murray | 900 F.3d 53 (2d Cir. 2018) | Bankruptcy not a judgment enforcement device; creditor abuse condemned |
-| § 362(k) — law firm liability | **[CITATION NEEDED]** | "In re Shaw" = hallucination. Real analog: *In re LeGrand* (California; not binding). Run Westlaw for verified D.N.J./3d Cir. authority. | Law firm and client jointly and severally liable for creditor attorney's post-petition acts |
+| § 362(k) — law firm liability | **[CITATION NEEDED]** | "In re Shaw" = hallucination. *In re LeGrand* (California) = § 524 discharge injunction, not § 362(k) — wrong statute entirely. Run Westlaw for verified § 362(k) authority. | Law firm and client jointly and severally liable for creditor attorney's post-petition acts |
 | Stay relief — 12 factors | In re Sonnax Industries | 907 F.2d 1280 (2d Cir. 1990) | Curtis/Sonnax factor framework; widely adopted in D.N.J. |
 | RPC 3.3 — material fact disclosure | In re Seelig | 180 N.J. 234 (2004) | Silence creating false impression = affirmative misrepresentation |
 | Judicial estoppel | New Hampshire v. Maine | 532 U.S. 742 (2001) | Three-factor federal test |
