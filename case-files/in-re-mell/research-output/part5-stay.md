@@ -374,11 +374,13 @@ However, in *In re Aleckna* (2021), the Third Circuit clarified that this defens
 
 **Additionally:** 11 U.S.C. § 362(a)(1) stays "the commencement or continuation . . . of a judicial, administrative, or other action or proceeding against the debtor that was . . . commenced before the commencement of the case." An email asserting a prejudgment attachment derived from a state court proceeding is an act in continuation of that proceeding within the meaning of § 362(a)(1).
 
-**DNJ/NJ Law Firm Sanctions Case (Representative):**
+**Law Firm Joint and Several Liability:**
 
-Courts have found that law firms and their clients are subject to joint and several liability for willful stay violations where the law firm takes post-petition action on behalf of a creditor client. Courts have consistently held that "clients are held accountable for the acts and omissions of their attorneys" in the stay violation context, and law firms can be held jointly and severally liable. *See, e.g.*, In re Shaw (D.N.J.) (NJBK, holding law firm and client jointly and severally liable and awarding actual damages of nearly $10,000 plus $25,000 in punitive damages for willful stay violations).
+Courts have found that law firms and their clients are subject to joint and several liability for willful stay violations where the law firm takes post-petition action on behalf of a creditor client. Courts have consistently held that clients are accountable for the acts and omissions of their attorneys in the stay violation context.
 
-> **RESEARCH NOTE:** The D.N.J. opinion cited as *In re Shaw* was identified at Bankr. D.N.J. (docket 11806925, confirming joint and several law firm liability). Supervising attorney should pull this opinion from the NJ Bankruptcy Court's website or PACER for verbatim quotes and Bluebook citation.
+> **CORRECTION — HALLUCINATED CITATION REMOVED:** A prior draft of this memorandum cited *In re Shaw* (Bankr. D.N.J.) for the joint-and-several proposition with specific damages figures ($10,000 actual + $25,000 punitive). **That case does not exist and was a hallucination.** The case with similar facts is *In re Dumace Leonard LeGrand* (Bankr. C.D. Cal. or N.D. Cal.) — a California case involving far more egregious conduct. LeGrand is persuasive only (different circuit) and the factual disparity limits its utility.
+>
+> **Action required:** Conduct a targeted Westlaw search in Bankr. D.N.J. and the Third Circuit for § 362(k) opinions holding a creditor's law firm jointly and severally liable. Search terms: "362(k)" + "law firm" + "joint and several" + "Bankr. D.N.J." The proposition is sound — the supporting citation must come from verified authority before filing.
 
 #### C-2(b): Assertion of a Prejudgment Attachment Post-Petition as a Stay Violation
 
@@ -515,7 +517,7 @@ Punitive damages are available "in appropriate circumstances" under § 362(k)(1)
 
 **Joint and Several Liability for Law Firm:**
 
-Both Nagel (the client-creditor) and the law firm (Paragano's firm) are subject to joint and several liability for the stay violation. "Clients are held accountable for the acts and omissions of their attorneys," and law firms can be held jointly and severally liable for their attorneys' stay violations. *See* In re Shaw (D.N.J.) (joint and several liability for creditor and law firm).
+Both Nagel (the client-creditor) and the law firm (Paragano's firm) are subject to joint and several liability for the stay violation. "Clients are held accountable for the acts and omissions of their attorneys," and law firms can be held jointly and severally liable for their attorneys' stay violations. **[CITATION NEEDED — "In re Shaw (D.N.J.)" was a hallucination; verified D.N.J./3d Cir. authority for law firm joint-and-several liability under § 362(k) must be obtained from Westlaw before filing.]**
 
 **What Conduct Triggered Sanctions (Illustrative Cases):**
 
@@ -575,7 +577,7 @@ The following items require paid database research that was not available throug
 
 3. **In re Murray, 543 B.R. 484 (Bankr. S.D.N.Y. 2016)** — Pull full bankruptcy court opinion (not just the appellate decision) for verbatim language on bad faith as cause for stay relief and any discussion of the interplay between § 707(a) dismissal and § 362(d)(1) stay relief.
 
-4. **In re Shaw (Bankr. D.N.J.)** — Identified at NJBK as holding law firm and client jointly and severally liable for § 362(k) violations with $10,000 actual + $25,000 punitive damages. Pull full citation and opinion.
+4. **Law firm § 362(k) joint-and-several authority [HALLUCINATION CORRECTED]** — "In re Shaw (Bankr. D.N.J.)" cited in prior drafts does not exist. The real case with similar (but more egregious) facts is *In re Dumace Leonard LeGrand* (California — persuasive only). Run Westlaw search in Bankr. D.N.J. and 3d Cir. for verified authority: "362(k)" + "law firm" + "joint and several."
 
 5. **Cal. Coast Univ. v. Aleckna (In re Aleckna)** — Confirm F.4th citation (currently cited as 2021 WL 4097155; search Westlaw for F.4th reporter citation if published).
 
