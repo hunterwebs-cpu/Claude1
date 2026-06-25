@@ -533,13 +533,49 @@ Courts that deny § 707(a) dismissal motions uniformly emphasize that the standa
 
 ---
 
-### C.4 — In re Napier-Lopez — Negative Signal
+### C.4 — In re Adler (Bankr. S.D.N.Y. 2025) — DISMISSAL DENIED; Single Creditor, Massive Judgment
+
+**Status: HIGHLY PERSUASIVE — Directly on point; 2025 decision; dismissal DENIED in single-creditor, post-judgment context.**
+
+#### Full Citation
+In re Darryl Lee Adler (Bankr. S.D.N.Y. 2025) [VERIFY: FindLaw citation 117880429; Westlaw/Lexis citation needed before filing]
+
+#### Facts
+Debtor Adler was a board-certified critical care physician. After a medical malpractice trial, a jury returned a verdict of $90 million ($60 million past pain and suffering + $30 million future pain and suffering) in favor of a single creditor who suffered permanent brain injury during Adler's care. Adler filed Chapter 7 on March 15, 2023. The creditor moved to dismiss under § 707(a) arguing bad faith.
+
+#### Holding — DISMISSAL DENIED
+
+The bankruptcy court denied the motion, holding:
+
+> "Courts have frequently held that filing for bankruptcy in order to counter the collection efforts of one creditor without further indicia of bad faith is insufficient for dismissal under § 707(a)." [VERIFY exact quote and pinpoint]
+
+> "Although it is plain that the debtor filed this bankruptcy petition to address the creditor's claim, the overall circumstances surrounding the filing lack other indicia of bad faith." [VERIFY exact quote and pinpoint]
+
+#### Application to Mell
+
+This case is directly on point and is extremely favorable to Brad:
+
+1. **Single creditor with massive judgment**: Adler had literally one creditor — a $90 million medical malpractice verdict. Brad has multiple creditors and a smaller disputed claim.
+
+2. **Dismissal denied**: Despite the obvious motivation to avoid a $90 million judgment from a single trial creditor, the court found no bad faith because the "other indicia" of bad faith were absent.
+
+3. **The governing principle**: Filing bankruptcy to address one creditor's collection efforts is not bad faith "without further indicia." What are those "further indicia"? The Tamecki factors: concealed assets, lavish lifestyle, akin-to-fraud conduct. None are present in Mell.
+
+4. **More recent than the dismissal cases Nagel cites**: Adler is 2025; DeSoto is 2006; Hunt is 2014. The trend in the case law is toward denying dismissal absent genuine Tamecki-threshold misconduct.
+
+**NOTE**: Adler is Second Circuit (S.D.N.Y.), not binding, but highly persuasive. The reasoning is fully consistent with Tamecki and Perlin. This case should be featured prominently in the brief.
+
+**URGENT VERIFY FLAG**: The Adler facts above were derived from search result summaries only. FindLaw URL 117880429 (caselaw.findlaw.com/court/us-ban-crt-s-d-new-yor/117880429.html) was HTTP 403 blocked. Before citing this case in a brief, counsel must: (1) confirm debtor is Darryl Lee Adler; (2) confirm the $90M malpractice verdict; (3) obtain the full citation (case number, judge, date); (4) verify the exact holding language. The substantive legal proposition — that filing in response to one creditor's collection efforts is NOT per se bad faith — is consistent with all other sources and is independently established by Tamecki and Perlin.
+
+---
+
+### C.5 — In re Napier-Lopez — Negative Signal
 
 To the extent Nagel cites Napier-Lopez, note that in the same D.N.J. judicial context, numerous § 707(a) motions have been denied. The court in Napier-Lopez appears to have found bad faith based on schedule omissions — a circumstance directly inapplicable where the debtor filed three binders of disclosure.
 
 ---
 
-### C.5 — General Principle — Filing on Eve of State Court Action Is Not Per Se Bad Faith
+### C.6 — General Principle — Filing on Eve of State Court Action Is Not Per Se Bad Faith
 
 Multiple courts have held that filing bankruptcy in response to pending state court litigation — even on the eve of trial — does not, without more, constitute bad faith:
 
