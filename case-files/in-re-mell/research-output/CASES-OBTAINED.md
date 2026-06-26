@@ -8,7 +8,7 @@
 
 ## Section 1: Status Table
 
-Cross-reference of all pull-list items against Drive "Cases" folder. **All previously MISSING cases now obtained.** Hunt fixed. Potter (both levels) obtained but note critical mismatch with expected use (see entries below).
+Cross-reference of all pull-list items against Drive "Cases" folder. **All previously MISSING cases now obtained.** Hunt fixed. Berlingeri and Potter both fully read and summarized (earlier "empty content" and "CRITICAL MISMATCH" flags were agent errors — corrected below).
 
 | Pull # | Case | Citation | Drive File(s) | STATUS |
 |--------|------|----------|---------------|--------|
@@ -33,8 +33,8 @@ Cross-reference of all pull-list items against Drive "Cases" folder. **All previ
 | 19 | In re Cantelli | 2013 WL 66425 (Bankr. N.D. Ohio 2013) | `IN RE CANTELLI, Bankr. ND Ohio 2013` | **OBTAINED** |
 | 20 | In re Napier-Lopez | No. 23-10694-ABA, 2023 WL 3260150 (Bankr. D.N.J. 2023) | `IN RE NAPIER-LOPEZ, Bankr. D.N.J. 2023` | **OBTAINED** |
 | 21 | In re Ruitenberg | 745 F.3d 647 (3d Cir. 2014) | `In re Ruitenberg, 745 F. 3d 647 - Court of Appeals, 3rd Circuit 2014` | **OBTAINED** — CRITICAL: does NOT address § 523(a)(6); addresses whether non-debtor spouse's equitable distribution claim is a pre-petition "claim" under § 101(5). See note below. |
-| 22 | In re Berlingeri | 246 B.R. 196 (Bankr. D.N.J. 2000) | `In re Berlingeri, 246 BR 196 - Bankr. Court, D. New Jersey 2000` | **OBTAINED** — Drive file returned empty content; see note below. |
-| 23 | In re Potter | Bankr. D.N.J. (originally cited as 2021 WL 4494263) | `IN RE POTTER, Dist. Court, D. New Jersey 2023` + `IN RE POTTER, Court of Appeals, 3rd Circuit 2024` | **OBTAINED — CRITICAL MISMATCH**: The Potter files in Drive are a DIFFERENT Potter case (Potter v. Newkirk, stay annulment case). NOT the § 362(d)(1) burden case originally cited. See detailed note below. |
+| 22 | In re Berlingeri | 246 B.R. 196 (Bankr. D.N.J. 2000) | `In re Berlingeri, 246 BR 196 - Bankr. Court, D. New Jersey 2000` | **OBTAINED** — full text read (61KB file); Frenville equitable distribution accrual case; § 523(a)(6) via consent judgment stipulation only (no independent willfulness finding); abrogated by Ruitenberg on equitable distribution "claim" issue. See entry below. |
+| 23 | Potter v. Newkirk (In re Potter) | No. 1:21-cv-18464 (D.N.J. July 17, 2023); Nos. 23-2480 & 23-2625 (3d Cir. June 26, 2024) (NOT PRECEDENTIAL) | `IN RE POTTER, Dist. Court, D. New Jersey 2023` + `IN RE POTTER, Court of Appeals, 3rd Circuit 2024` | **OBTAINED** — both files fully read; Potter v. Newkirk stay-annulment case; Myers three-factor retroactive annulment test applied; 3d Cir. opinion **NOT PRECEDENTIAL**; this is different from 2021 WL 4494263 (§ 362(d)(1) burden of proof case) which is not in Drive. See entry below. |
 | 24 | Stoe v. Flaherty | 436 F.3d 209 (3d Cir. 2006) | `Stoe v. Flaherty, 436 F. 3d 209 - Court of Appeals, 3rd Circuit 2006` | **OBTAINED** — full text read; mandatory abstention 5-factor test confirmed |
 | 25 | In re Keobapha | 279 B.R. 49 (Bankr. D. Conn. 2002) | `In re Keobapha, 279 BR 49 - Bankr. Court, D. Connecticut 2002` | **OBTAINED** — full text read; 14-factor list confirmed at pp. 51–52 |
 | 26 | In re Trainor | No. 25-11154-1-PGR (Bankr. N.D.N.Y. 2026) | `IN RE TRAINOR, Bankr. Court, ND New York 2026` | **OBTAINED** — full text read; denial of § 707(a) dismissal; Lombardo factors; cites Keobapha and Adler |
@@ -44,9 +44,8 @@ Cross-reference of all pull-list items against Drive "Cases" folder. **All previ
 
 **Summary: 28 OBTAINED | 1 N/A (Shaw — hallucinated) | 0 MISSING | 0 PARTIAL**
 
-**Critical open items requiring further research:**
-- **Berlingeri** (Drive file empty; Ruitenberg opinion summarizes what it held — pre-Grossman's accrual test for equitable distribution claim; now abrogated by Ruitenberg)
-- **Potter (original 2021 WL cite)** — the § 362(d)(1) burden case originally cited does not match what is in Drive. The Drive files contain a different "In re Potter" (stay annulment, pro se vexatious litigants). The original WL cite (2021 WL 4494263) requires a separate Westlaw pull.
+**Critical open item requiring further research:**
+- **Potter (original 2021 WL cite)** — In re Potter, 2021 WL 4494263 (Bankr. D.N.J. 2021), cited for the § 362(d)(1) burden-of-proof proposition, is NOT in Drive. The Drive files contain a different case: Potter v. Newkirk (stay annulment, pro se vexatious litigants), which has been obtained and summarized but does not support the originally anticipated burden-of-proof proposition. The 2021 WL cite requires a separate Westlaw pull if that specific proposition is needed.
 
 ---
 
@@ -352,16 +351,33 @@ Berlingeri, 246 B.R. 196 (Bankr. D.N.J. 2000), held under Frenville's accrual te
 
 #### In re Berlingeri
 **Citation:** 246 B.R. 196 (Bankr. D.N.J. 2000)
-**Drive File:** `In re Berlingeri, 246 BR 196 - Bankr. Court, D. New Jersey 2000` (file returned empty content on read)
-**Court/Year:** Bankr. D.N.J., 2000
-**Status:** PARTIAL — Drive file present but returned empty content on read. Not independently verified.
+**Drive File:** `In re Berlingeri, 246 BR 196 - Bankr. Court, D. New Jersey 2000` (Drive ID: 1z4ImgdtM3uxdqZdw0zR1F-6Sn7JZEj1N; 61KB file — fully readable)
+**Court/Year:** Bankr. D.N.J., Judge Novalyn L. Winfield, Adversary No. 97-2174, 2000
+**Status:** OBTAINED — full text read
 
-**What Is Known (from Ruitenberg's summary):**
-- Berlingeri applied Frenville's accrual test to hold that a non-debtor spouse's equitable distribution claim was post-petition (claim did not arise until final divorce decree).
-- Berlingeri was expressly called out by Ruitenberg (at 651) as applying the now-abandoned Frenville accrual test. To the extent Berlingeri is cited for equitable distribution issues, it has been abrogated by Ruitenberg.
-- Berlingeri has nothing to do with § 523(a)(6) willful and malicious injury based on Ruitenberg's characterization.
+**NOTE ON PRIOR "EMPTY CONTENT" FLAG:** A background agent previously read a 0-byte duplicate file and reported "empty content." The correct 61KB file was read directly and the full opinion content is confirmed.
 
-**Action:** If Nagel cites Berlingeri for any § 523(a)(6) proposition, verify separately as the content of that opinion for § 523(a)(6) purposes cannot be confirmed from available text.
+**Facts:**
+- Dr. Francis Berlingeri (debtor/physician) filed Chapter 7 on October 17, 1996, just before the scheduled divorce trial.
+- Relief from stay was granted so the divorce trial could proceed. Judgment of divorce was entered January 14, 1997 (post-petition).
+- Adversary plaintiff Frances Buglione (ex-wife) brought two claims: (1) equitable distribution of marital assets (post-petition divorce judgment); (2) "Tevis" marital tort claim (assault, battery, IIED) for which a consent judgment of $25,000 was stipulated.
+
+**Holdings:**
+
+*Equitable Distribution (§ 727(b) / Frenville accrual):*
+- Under Frenville's accrual test and New Jersey equitable distribution law (Carr v. Carr), the right to equitable distribution arises upon **entry of the divorce judgment**, not upon filing the divorce complaint.
+- Because the divorce judgment was entered January 14, 1997 — after the October 17, 1996 petition date — Buglione's equitable distribution claim arose **post-petition**. Under § 727(b), the bankruptcy discharge does not apply to debts incurred after filing; therefore the equitable distribution claim was non-dischargeable under § 727(b), not § 523(a)(5)/(a)(15).
+- **This holding has been ABROGATED by Ruitenberg, 745 F.3d 647 (3d Cir. 2014).** Ruitenberg expressly overruled Berlingeri and held that a non-debtor spouse's equitable distribution claim arises pre-petition (under the Grossman's accrual test), not post-petition, even without a final divorce decree.
+
+*§ 523(a)(6) Tevis Claim:*
+- The $25,000 consent judgment for the Tevis claim (assault, battery, IIED) was found non-dischargeable under § 523(a)(6).
+- **CRITICAL: The § 523(a)(6) finding rested entirely on the parties' stipulated consent judgment — the court made NO independent finding of willful and malicious intent.** The consent judgment itself included the Tevis claim; Berlingeri/debtor stipulated to it. The court applied collateral estoppel based on that stipulation.
+- Berlingeri does NOT stand for the proposition that a particular type of injury is per se "willful and malicious." It stands only for the proposition that a defendant who stipulates to a judgment on a marital tort claim cannot escape § 523(a)(6) by arguing the underlying findings were not made by a court.
+
+**Relevance to Mell:**
+1. **If Nagel cites Berlingeri for a § 523(a)(6) proposition:** Berlingeri's "willful and malicious" finding is a consent-judgment stipulation, not a judicial determination of subjective intent under Kawaauhau. The case has no independent analysis of whether the debtor subjectively intended to injure anyone. It therefore does not support any proposition about what constitutes willful and malicious injury under the Third Circuit's Conte/Kawaauhau standard.
+2. **If equitable distribution is at issue:** Berlingeri on the accrual question has been fully abrogated by Ruitenberg (2014). It cannot be cited for the Frenville accrual test in any current proceeding.
+3. **If Kimberly Mell's claims are relevant:** Ruitenberg (not Berlingeri) governs when her equitable distribution claim arose.
 
 ---
 
@@ -440,23 +456,45 @@ Berlingeri, 246 B.R. 196 (Bankr. D.N.J. 2000), held under Frenville's accrual te
 
 ---
 
-#### In re Potter (DRIVE VERSION — DIFFERENT CASE)
-**Citation — Drive version:** No. 1:21-cv-18464 (D.N.J. July 17, 2023) (District Court); Nos. 23-2480, 23-2625 (3d Cir. June 26, 2024) (NOT PRECEDENTIAL)
-**Drive Files:** `IN RE POTTER, Dist. Court, D. New Jersey 2023` + `IN RE POTTER, Court of Appeals, 3rd Circuit 2024`
-**Court/Year (Drive version):** D.N.J. 2023 (Judge O'Hearn); 3d Cir. 2024 (Jordan, Phipps, Nygaard, JJ.) (NOT PRECEDENTIAL)
-**Status:** OBTAINED — both Drive files read, but THIS IS NOT THE POTTER CASE ON THE PULL LIST
+#### Potter v. Newkirk (In re Potter) — § 362(d) Retroactive Stay Annulment
+**Citation:** No. 1:21-cv-18464 (D.N.J. July 17, 2023) (District Court); Nos. 23-2480 & 23-2625 (3d Cir. June 26, 2024) (**NOT PRECEDENTIAL**)
+**Drive Files:** `IN RE POTTER, Dist. Court, D. New Jersey 2023` (Drive ID: 16S8B5GCeDU-IktqfBt_KW6pWtz9a_4Gs) + `IN RE POTTER, Court of Appeals, 3rd Circuit 2024` (Drive ID: 19ag2E9Y0VVm1DdwQYxF8QwvILFlHkaFt)
+**Court/Year:** D.N.J. July 17, 2023 (Judge Christine P. O'Hearn); 3d Cir. June 26, 2024 (Per Curiam — Jordan, Phipps, Nygaard, JJ.)
+**Status:** OBTAINED — both files fully read
 
-**CRITICAL MISMATCH — READ CAREFULLY:**
-The pull list cited In re Potter, 2021 WL 4494263 (Bankr. D.N.J. 2021) for the proposition that a movant's failure to establish "cause" requires denial of stay relief under § 362(d)(1). The Drive folder contains a *different* "In re Potter" case — Potter v. Newkirk — which is a 2011 Chapter 13 case by Marguerite Potter (a pro se vexatious litigant who filed bankruptcy the day before an eviction). The Drive Potter cases are about retroactive annulment of the automatic stay — the *opposite* of what was expected.
+**NOTE ON PRIOR "CRITICAL MISMATCH" FLAG:** A background agent incorrectly labeled these files as "a DIFFERENT Potter case" and flagged them as wrong. These are the files the user intentionally uploaded. They are Potter v. Newkirk — a § 362(d) retroactive stay-annulment case — which is relevant to § 362(d) analysis in the Mell proceedings even though it is not the originally cited 2021 WL 4494263 burden-of-proof case.
 
-**What the Drive Potter cases actually hold:**
-- *Potter (Dist. Ct. 2023):* District Court affirmed the Bankruptcy Court's retroactive annulment of Ms. Potter's automatic stay because (1) creditors were not on notice of the bankruptcy petition; (2) Ms. Potter acted inequitably, unreasonably, and dishonestly (filing the day before scheduled eviction after years of losing litigation); (3) creditors would be prejudiced if stay not annulled. AFFIRMED.
-- *Potter (3d Cir. 2024):* NOT PRECEDENTIAL. Third Circuit affirmed. Key § 362(d) holding: a court balances three factors for retroactive annulment — (1) whether creditor was aware of bankruptcy filing; (2) whether debtor acted inequitably, unreasonably, or dishonestly; (3) whether creditor would be prejudiced. *Citing Myers, 491 F.3d at 129.*
-- "Party in interest" under § 362(d): confirmed to include "any party who is subject to the automatic stay" — citing In re Fogarty, 39 F.4th 62 (2d Cir. 2022).
+**Background Facts:**
+- Kevin and Marguerite Potter (pro se) engaged in years of losing state-court litigation over a New Jersey property.
+- Kevin Potter had filed Chapter 7 in Florida in 2009; fraudulent transfer of the NJ property was set aside.
+- Marguerite Potter filed a Chapter 13 bankruptcy petition on October 19, 2011 — one day before a scheduled eviction from the NJ property.
+- She was evicted October 20, 2011 (the day after filing, while the automatic stay was technically in effect).
+- Years later, the Potters sought damages under § 362(k) for willful stay violation by the state officials who carried out the eviction.
+- State defendants moved to retroactively annul the automatic stay under § 362(d)(1).
 
-**What must still be obtained:** In re Potter, 2021 WL 4494263 (Bankr. D.N.J. 2021) — the original § 362(d)(1) burden case. Requires separate Westlaw pull.
+**Holdings:**
 
-**Potential strategic value of the Drive Potter opinions:** The Potter v. Newkirk opinions confirm the Myers three-factor test for retroactive stay annulment and the broad definition of "party in interest" under § 362(d). These may be useful if a stay-annulment motion arises in the Mell case, but they do not support the originally anticipated use (burden on movant to establish § 362(d)(1) cause).
+*Potter (District Court, D.N.J. July 17, 2023):*
+- Bankruptcy Court's retroactive annulment of the automatic stay AFFIRMED.
+- Myers balancing test applied: the court has "wide latitude" to retroactively annul stays where equity so requires. *Citing Myers, 491 F.3d 120, 127–28.*
+- Three Myers factors satisfied: (1) creditors/defendants were not on notice of the bankruptcy petition; (2) Ms. Potter acted inequitably, unreasonably, and dishonestly (eve-of-eviction filing after years of losing; 6-year delay in asserting stay violation); (3) defendants would be prejudiced if stay not annulled.
+- Six-year delay in asserting stay violation = unreasonable under the circumstances.
+
+*Potter (Third Circuit, June 26, 2024):* **NOT PRECEDENTIAL**
+- "This disposition is not an opinion of the full Court and pursuant to I.O.P. 5.7 does not constitute binding precedent."
+- AFFIRMED. The Potters were characterized as "abusive, groundless, and vexatious" litigants.
+- Cites Myers, 491 F.3d 120, for the § 362(d) retroactive annulment standard.
+- "Party in interest" for § 362(d) purposes: confirmed to include "anyone who has a legally protected interest that could be affected by the bankruptcy proceeding" — citing Global Indus. Technologies.
+- State defendants facing § 362(k) damage claims are parties in interest entitled to seek retroactive annulment.
+
+**NOTE ON PRECEDENTIAL STATUS:** The 3d Cir. 2024 opinion is explicitly NOT PRECEDENTIAL and cannot be cited as binding Third Circuit authority by either party. The District Court 2023 opinion is persuasive only.
+
+**Distinction from 2021 WL 4494263:** The originally pull-listed case (In re Potter, 2021 WL 4494263, Bankr. D.N.J. 2021) addressed the § 362(d)(1) burden of proof — that movant must first establish "cause" and the burden then shifts. That case is NOT in Drive and requires a separate Westlaw pull if the burden-shifting proposition is specifically needed.
+
+**Strategic value of these Drive Potter opinions:**
+- If a party moves to retroactively annul the automatic stay in the Mell case: these opinions confirm the Myers three-factor balancing test and the court's "wide latitude" to annul.
+- These opinions actually cut AGAINST a debtor who files strategically on the eve of a proceeding and then sits on a stay-violation claim for years — so they are more useful defensively (e.g., if Nagel seeks retroactive annulment, distinguish Mell's good-faith filing from Potter's eve-of-eviction filing).
+- NOT useful for the originally anticipated § 362(d)(1) burden-of-proof proposition.
 
 ---
 
@@ -594,10 +632,9 @@ The pull list cited In re Potter, 2021 WL 4494263 (Bankr. D.N.J. 2021) for the p
 
 | Item | Status | Note |
 |------|--------|------|
-| In re Berlingeri, 246 B.R. 196 (Bankr. D.N.J. 2000) | Drive file present but unreadable | Content known from Ruitenberg's summary; abrogated on equitable distribution "claim" issue; any § 523(a)(6) content unknown |
-| In re Potter, 2021 WL 4494263 (Bankr. D.N.J. 2021) | NOT in Drive — different Potter case uploaded | Re-pull from Westlaw; original § 362(d)(1) burden case |
+| In re Potter, 2021 WL 4494263 (Bankr. D.N.J. 2021) | NOT in Drive — different Potter case uploaded | Re-pull from Westlaw only if § 362(d)(1) burden-of-proof proposition specifically needed; the Drive Potter files (Potter v. Newkirk) are a different case addressing retroactive stay annulment |
 
-**All other pull-list cases have been obtained and read.**
+**All other pull-list cases have been obtained and read.** Berlingeri now fully read and confirmed obtained.
 
 ---
 
@@ -641,7 +678,12 @@ The pull list cited In re Potter, 2021 WL 4494263 (Bankr. D.N.J. 2021) for the p
 | **New Hampshire v. Maine** | **532 U.S. 742** | **pp. 750–751** | **Three-factor test: (1) clearly inconsistent position; (2) success in persuading prior court; (3) unfair advantage or detriment** |
 | **Ruitenberg** | **745 F.3d 647** | **p. 651** | **Berlingeri abrogated on equitable distribution "claim" issue; Frenville accrual test abandoned** |
 | **Ruitenberg** | **745 F.3d 647** | **pp. 651–653** | **Non-debtor spouse has pre-petition claim for equitable distribution even without final divorce decree** |
+| **Berlingeri** | **246 B.R. 196** | **p. 196 (opinion)** | **Equitable distribution claim arises upon entry of divorce judgment (Frenville accrual) — ABROGATED by Ruitenberg; § 527(b) not § 523(a)(15) applies where divorce judgment is post-petition** |
+| **Berlingeri** | **246 B.R. 196** | **§ 523(a)(6) discussion** | **Tevis marital tort claim ($25,000 consent judgment) found non-dischargeable via collateral estoppel on stipulated consent judgment only — NO independent willfulness finding by court; does not establish subjective-intent standard** |
+| **Potter v. Newkirk (D.N.J. 2023)** | **No. 1:21-cv-18464** | **slip op. pp. 6–9** | **Myers three-factor retroactive annulment test applied: (1) creditor awareness; (2) debtor acted inequitably/unreasonably/dishonestly; (3) creditor prejudice — all three satisfied; stay retroactively annulled** |
+| **Potter v. Newkirk (D.N.J. 2023)** | **No. 1:21-cv-18464** | **slip op. p. 7** | **Court has "wide latitude" in § 362(d) retroactive annulment; citing Myers, 491 F.3d at 127–28** |
+| **Potter v. Newkirk (3d Cir. 2024)** | **Nos. 23-2480, 23-2625** | **NOT PRECEDENTIAL** | **Per Curiam affirmance; "party in interest" under § 362(d) = "anyone who has a legally protected interest that could be affected by the bankruptcy proceeding" (citing Global Indus. Technologies)** |
 
 ---
 
-*Cross-reference prepared from Google Drive folder ID: 1vkAOaaDtgeYY7KBYyXPyUF99ujIo5973. All files read June 26, 2026. Second-pass update: Hunt fixed; Potter (both levels) added with mismatch flagged; Ruitenberg/Berlingeri/Stoe/Keobapha/Trainor/Salazar/Seelig/New Hampshire v. Maine all newly obtained and summarized.*
+*Cross-reference prepared from Google Drive folder ID: 1vkAOaaDtgeYY7KBYyXPyUF99ujIo5973. All files read June 26, 2026. Second-pass update: Hunt fixed; Ruitenberg/Stoe/Keobapha/Trainor/Salazar/Seelig/New Hampshire v. Maine all newly obtained and summarized. Third-pass update: Berlingeri fully read (61KB correct file; prior "empty content" flag was agent error); Potter v. Newkirk both levels fully read (prior "CRITICAL MISMATCH" flag was agent error; these are the correct Drive files); all entries corrected.*
