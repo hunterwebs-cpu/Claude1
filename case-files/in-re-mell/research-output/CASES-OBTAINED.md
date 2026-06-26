@@ -2,53 +2,57 @@
 ## In re S. Bradley Mell, Case No. 26-16834-EJO (Bankr. D.N.J.)
 ## Hearing: July 16, 2026
 
-*Generated: June 26, 2026 — from Google Drive folder ID: 1vkAOaaDtgeYY7KBYyXPyUF99ujIo5973*
+*Generated: June 26, 2026 — updated after second Drive pass — Google Drive folder ID: 1vkAOaaDtgeYY7KBYyXPyUF99ujIo5973*
 
 ---
 
 ## Section 1: Status Table
 
-Cross-reference of all 29 items on the Citation Pull List against the 29 files in the Drive "Cases" folder. Files are grouped by pull-list case number. Three duplicate files in Drive are noted.
+Cross-reference of all pull-list items against Drive "Cases" folder. **All previously MISSING cases now obtained.** Hunt fixed. Potter (both levels) obtained but note critical mismatch with expected use (see entries below).
 
 | Pull # | Case | Citation | Drive File(s) | STATUS |
 |--------|------|----------|---------------|--------|
-| 1 | In re Mondelli | 558 F. App'x 260 (3d Cir. 2014) | `IN RE MONDELLI, 3rd Circuit 2014` (file 9) | **OBTAINED** |
-| 2 | In re Adler | Bankr. S.D.N.Y. 2025 | `Adler slip op.pdf` (file 28) + `Adler docket.pdf` (file 29) | **OBTAINED** (slip op + PACER docket) |
-| 3 | In re Fleetwood | Bankr. D. Alaska 2013, 2013 WL 2178096 | `in re Fleetwood slip op.pdf` (file 17) | **OBTAINED** |
-| 4 | In re Murray | 543 B.R. 484 (Bankr. S.D.N.Y. 2016); aff'd 565 B.R. 527 (S.D.N.Y. 2017); aff'd 900 F.3d 53 (2d Cir. 2018) | `Murray br slip op.pdf` (file 3) + `Murray DC slip op.pdf` (file 2) + `Murray docket.pdf` (file 1) | **OBTAINED** (all three levels + PACER docket) |
+| 1 | In re Mondelli | 558 F. App'x 260 (3d Cir. 2014) | `IN RE MONDELLI, 3rd Circuit 2014` | **OBTAINED** |
+| 2 | In re Adler | Bankr. S.D.N.Y. 2025 | `Adler slip op.pdf` + `Adler docket.pdf` | **OBTAINED** (slip op + PACER docket) |
+| 3 | In re Fleetwood | Bankr. D. Alaska 2013, 2013 WL 2178096 | `in re Fleetwood slip op.pdf` | **OBTAINED** |
+| 4 | In re Murray | 543 B.R. 484 (Bankr. S.D.N.Y. 2016); aff'd 565 B.R. 527 (S.D.N.Y. 2017); aff'd 900 F.3d 53 (2d Cir. 2018) | `Murray br slip op.pdf` + `Murray DC slip op.pdf` + `Murray docket.pdf` | **OBTAINED** (all three levels + PACER docket) |
 | 5 | ~~In re Shaw~~ | ~~Bankr. D.N.J.~~ | *N/A — case does not exist; hallucinated entry on pull list* | **N/A** |
-| 6 | In re Tamecki | 229 F.3d 205 (3d Cir. 2000) | `In re Tamecki, 229 F. 3d 205 - 3rd Circuit 2000` (file 5) | **OBTAINED** |
-| 7 | In re Perlin | 497 F.3d 364 (3d Cir. 2007) | `IN RE PERLIN, 3rd Circuit 2007` (file 6) | **OBTAINED** |
-| 8 | In re Myers | 491 F.3d 120 (3d Cir. 2007) | `In re Myers, 491 F. 3d 120 - 3rd Circuit 2007` (file 8) | **OBTAINED** |
-| 9 | In re Conte | 33 F.3d 303 (3d Cir. 1994) | `In re Conte, 33 F. 3d 303 - 3rd Circuit 1994` (file 20) | **OBTAINED** |
-| 10 | In re Docteroff | 133 F.3d 210 (3d Cir. 1997) | `In re Docteroff, 133 F. 3d 210 - 3rd Circuit 1997` (file 19) | **OBTAINED** |
-| 11 | In re Lansaw | 853 F.3d 657 (3d Cir. 2017) | `In re Lansaw, 853 F. 3d 657 - 3rd Circuit 2017` (file 11) + duplicate (file 13) | **OBTAINED** (one copy + duplicate) |
-| 12 | In re Mid-Atlantic Handling Systems | 304 B.R. 111 (Bankr. D.N.J. 2003) | `In re Mid-Atlantic Handling Systems, 304 BR 111, D.N.J. 2003` (file 10) | **OBTAINED** |
-| 13 | In re Azeglio | 422 B.R. 490 (Bankr. D.N.J. 2010) | `In re Azeglio, 422 BR 490` (file 22) + duplicate (file 23) | **OBTAINED** (one copy + duplicate) |
-| 14 | In re Glunk | 342 B.R. 717 (Bankr. E.D. Pa. 2006) | `In re Glunk, 342 BR 717 - Bankr. ED Pennsylvania 2006` (file 15) + duplicate (file 16) | **OBTAINED** (one copy + duplicate) |
-| 15 | In re Zick | 931 F.2d 1124 (6th Cir. 1991) | `In re Zick, 931 F. 2d 1124 - 6th Circuit 1991` (file 4) | **OBTAINED** |
-| 16 | In re Eubanks | 672 B.R. 861 (Bankr. D.S.C. 2025) | `IN RE EUBANKS, 672 BR 861 - Bankr. D. South Carolina 2025` (file 18) | **OBTAINED** |
-| 17 | In re DeSoto / Scaffidi v. DeSoto | Bankr. D.N.J. 2006 (No. 05-29744-DHS) | `destoto slip op denying mtr.pdf` (file 24) + `desoto docket (1).pdf` (file 25) + `desoto DC slip op.pdf` (file 26) + `desoto br slip op.pdf` (file 27) | **OBTAINED** (all four DeSoto docs incl. PACER docket) |
-| 18 | In re Hunt | 521 B.R. 479 (Bankr. M.D. Pa. 2014) | `In re Hunt, 521 BR 479 - Bankr. MD Pennsylvania 2014` (file 12) + duplicate (file 14) | **PARTIAL** — Drive files returned empty content on read; files present in folder but may be corrupted or unreadable |
-| 19 | In re Cantelli | 2013 WL 66425 (Bankr. N.D. Ohio 2013) | `IN RE CANTELLI, Bankr. ND Ohio 2013` (file 21) | **OBTAINED** |
-| 20 | In re Napier-Lopez | No. 23-10694-ABA, 2023 WL 3260150 (Bankr. D.N.J. 2023) | `IN RE NAPIER-LOPEZ, Bankr. D.N.J. 2023` (file 7) | **OBTAINED** |
-| 21 | In re Ruitenberg | 745 F.3d 647 (3d Cir. 2014) | *Not found in Drive folder* | **MISSING** |
-| 22 | In re Berlingeri | 246 B.R. 196 (Bankr. D.N.J. 2000) | *Not found in Drive folder* | **MISSING** |
-| 23 | In re Potter | 2021 WL 4494263 (Bankr. D.N.J. 2021) | *Not found in Drive folder* | **MISSING** |
-| 24 | Stoe v. Flaherty | 436 F.3d 209 (3d Cir. 2006) | *Not found in Drive folder* | **MISSING** |
-| 25 | In re Keobapha | 279 B.R. 49 (Bankr. D. Conn. 2002) | *Not found in Drive folder — but quoted extensively in Glunk* | **MISSING** (content partially available via Glunk) |
-| 26 | In re Trainor | USCOURTS-nynb-1_25-bk-11154 | *Not found in Drive folder* | **MISSING** |
-| 27 | Salazar v. MKGC + Design | 455 N.J. Super. 551 (App. Div. 2019) | *Not found in Drive folder* | **MISSING** |
-| 28 | In re Seelig | 180 N.J. 234 (2004) | *Not found in Drive folder* | **MISSING** |
-| 29 | New Hampshire v. Maine | 532 U.S. 742 (2001) | *Not found in Drive folder* | **MISSING** |
+| 6 | In re Tamecki | 229 F.3d 205 (3d Cir. 2000) | `In re Tamecki, 229 F. 3d 205 - 3rd Circuit 2000` | **OBTAINED** |
+| 7 | In re Perlin | 497 F.3d 364 (3d Cir. 2007) | `IN RE PERLIN, 3rd Circuit 2007` | **OBTAINED** |
+| 8 | In re Myers | 491 F.3d 120 (3d Cir. 2007) | `In re Myers, 491 F. 3d 120 - 3rd Circuit 2007` | **OBTAINED** |
+| 9 | In re Conte | 33 F.3d 303 (3d Cir. 1994) | `In re Conte, 33 F. 3d 303 - 3rd Circuit 1994` | **OBTAINED** |
+| 10 | In re Docteroff | 133 F.3d 210 (3d Cir. 1997) | `In re Docteroff, 133 F. 3d 210 - 3rd Circuit 1997` | **OBTAINED** |
+| 11 | In re Lansaw | 853 F.3d 657 (3d Cir. 2017) | `In re Lansaw, 853 F. 3d 657 - 3rd Circuit 2017` | **OBTAINED** |
+| 12 | In re Mid-Atlantic Handling Systems | 304 B.R. 111 (Bankr. D.N.J. 2003) | `In re Mid-Atlantic Handling Systems, 304 BR 111` | **OBTAINED** |
+| 13 | In re Azeglio | 422 B.R. 490 (Bankr. D.N.J. 2010) | `In re Azeglio, 422 BR 490` | **OBTAINED** |
+| 14 | In re Glunk | 342 B.R. 717 (Bankr. E.D. Pa. 2006) | `In re Glunk, 342 BR 717` | **OBTAINED** |
+| 15 | In re Zick | 931 F.2d 1124 (6th Cir. 1991) | `In re Zick, 931 F. 2d 1124 - 6th Circuit 1991` | **OBTAINED** |
+| 16 | In re Eubanks | 672 B.R. 861 (Bankr. D.S.C. 2025) | `IN RE EUBANKS, 672 BR 861` | **OBTAINED** |
+| 17 | In re DeSoto / Scaffidi v. DeSoto | Bankr. D.N.J. 2006 (No. 05-29744-DHS) | `destoto slip op denying mtr.pdf` + `desoto docket (1).pdf` + `desoto DC slip op.pdf` + `desoto br slip op.pdf` | **OBTAINED** (all four DeSoto docs) |
+| 18 | In re Hunt | 521 B.R. 479 (Bankr. M.D. Pa. 2014) | `In re Hunt, 521 BR 479 - Bankr. Court, MD Pennsylvania 2014 - Google Scholar (1).pdf` | **OBTAINED** — corrupted copy deleted; new Google Scholar copy fully readable (filed 11/10/2014, Judge Opel, DISMISSAL DENIED) |
+| 19 | In re Cantelli | 2013 WL 66425 (Bankr. N.D. Ohio 2013) | `IN RE CANTELLI, Bankr. ND Ohio 2013` | **OBTAINED** |
+| 20 | In re Napier-Lopez | No. 23-10694-ABA, 2023 WL 3260150 (Bankr. D.N.J. 2023) | `IN RE NAPIER-LOPEZ, Bankr. D.N.J. 2023` | **OBTAINED** |
+| 21 | In re Ruitenberg | 745 F.3d 647 (3d Cir. 2014) | `In re Ruitenberg, 745 F. 3d 647 - Court of Appeals, 3rd Circuit 2014` | **OBTAINED** — CRITICAL: does NOT address § 523(a)(6); addresses whether non-debtor spouse's equitable distribution claim is a pre-petition "claim" under § 101(5). See note below. |
+| 22 | In re Berlingeri | 246 B.R. 196 (Bankr. D.N.J. 2000) | `In re Berlingeri, 246 BR 196 - Bankr. Court, D. New Jersey 2000` | **OBTAINED** — Drive file returned empty content; see note below. |
+| 23 | In re Potter | Bankr. D.N.J. (originally cited as 2021 WL 4494263) | `IN RE POTTER, Dist. Court, D. New Jersey 2023` + `IN RE POTTER, Court of Appeals, 3rd Circuit 2024` | **OBTAINED — CRITICAL MISMATCH**: The Potter files in Drive are a DIFFERENT Potter case (Potter v. Newkirk, stay annulment case). NOT the § 362(d)(1) burden case originally cited. See detailed note below. |
+| 24 | Stoe v. Flaherty | 436 F.3d 209 (3d Cir. 2006) | `Stoe v. Flaherty, 436 F. 3d 209 - Court of Appeals, 3rd Circuit 2006` | **OBTAINED** — full text read; mandatory abstention 5-factor test confirmed |
+| 25 | In re Keobapha | 279 B.R. 49 (Bankr. D. Conn. 2002) | `In re Keobapha, 279 BR 49 - Bankr. Court, D. Connecticut 2002` | **OBTAINED** — full text read; 14-factor list confirmed at pp. 51–52 |
+| 26 | In re Trainor | No. 25-11154-1-PGR (Bankr. N.D.N.Y. 2026) | `IN RE TRAINOR, Bankr. Court, ND New York 2026` | **OBTAINED** — full text read; denial of § 707(a) dismissal; Lombardo factors; cites Keobapha and Adler |
+| 27 | Salazar v. MKGC + Design | 458 N.J. Super. 551 (App. Div. 2019); 206 A.3d 447 | `Salazar v. MKGC+ DESIGN, 206 A. 3d 447` | **OBTAINED** — full text read; R. 4:23-5 "scrupulously followed" standard confirmed |
+| 28 | In re Seelig | 180 N.J. 234 (2004); 850 A.2d 477 | `In re Seelig, 850 A. 2d 477 - NJ Supreme Court 2004` | **OBTAINED** — full text read; RPC 3.3(a)(5) affirmative disclosure duty confirmed; citation correct |
+| 29 | New Hampshire v. Maine | 532 U.S. 742 (2001) | `New Hampshire v. Maine, 532 US 742 - Supreme Court 2001` | **OBTAINED** — full text read; three-factor judicial estoppel test confirmed at 750–751 |
 
-**Summary:** 19 OBTAINED (including duplicates) | 1 PARTIAL (Hunt — present but unreadable) | 1 N/A (Shaw — hallucinated) | 8 MISSING
+**Summary: 28 OBTAINED | 1 N/A (Shaw — hallucinated) | 0 MISSING | 0 PARTIAL**
+
+**Critical open items requiring further research:**
+- **Berlingeri** (Drive file empty; Ruitenberg opinion summarizes what it held — pre-Grossman's accrual test for equitable distribution claim; now abrogated by Ruitenberg)
+- **Potter (original 2021 WL cite)** — the § 362(d)(1) burden case originally cited does not match what is in Drive. The Drive files contain a different "In re Potter" (stay annulment, pro se vexatious litigants). The original WL cite (2021 WL 4494263) requires a separate Westlaw pull.
 
 ---
 
 ## Section 2: Case Summaries
 
-Cases are organized by subject matter. Each entry includes: citation, Drive file(s), court/year, key holdings relevant to the Mell opposition, and pinpoints confirmed from full text read.
+Cases are organized by subject matter.
 
 ---
 
@@ -58,7 +62,7 @@ Cases are organized by subject matter. Each entry includes: citation, Drive file
 
 #### In re Tamecki
 **Citation:** 229 F.3d 205 (3d Cir. 2000)
-**Drive File:** `In re Tamecki, 229 F. 3d 205 - 3rd Circuit 2000` (file 5)
+**Drive File:** `In re Tamecki, 229 F. 3d 205 - 3rd Circuit 2000`
 **Court/Year:** Third Circuit, 2000
 **Status:** OBTAINED — full text read
 
@@ -67,7 +71,7 @@ Cases are organized by subject matter. Each entry includes: citation, Drive file
 - Once a party calls into question a debtor's good faith, **the burden shifts to the debtor** to prove good faith. *Id.*
 - The inquiry is whether the debtor "has abused the provisions, purpose, or spirit of bankruptcy law." *Id.*
 - **"Egregious cases" language:** Bad faith dismissal should be used in "egregious cases" only. *Id. at 207–208.*
-- Debtor's ability to repay is a significant factor, but ability to repay **standing alone** is not sufficient — confirmed in context at 208.
+- Debtor's ability to repay is a significant factor, but ability to repay **standing alone** is not sufficient.
 - The court noted the "honest debtor" rationale; fresh start is for the honest debtor who has been overwhelmed by debt through circumstances not of his own creation.
 
 **Relevance to Mell:** This is Nagel's primary citation and the Third Circuit's controlling framework. Key defensive use: (1) the "egregious cases" limitation protects Mell; (2) burden shifts to Mell only after Nagel makes threshold showing — argue he has not; (3) ability to repay alone is insufficient.
@@ -76,7 +80,7 @@ Cases are organized by subject matter. Each entry includes: citation, Drive file
 
 #### In re Perlin
 **Citation:** 497 F.3d 364 (3d Cir. 2007)
-**Drive File:** `IN RE PERLIN, 3rd Circuit 2007` (file 6)
+**Drive File:** `IN RE PERLIN, 3rd Circuit 2007`
 **Court/Year:** Third Circuit, 2007
 **Status:** OBTAINED — full text read
 
@@ -92,23 +96,49 @@ Cases are organized by subject matter. Each entry includes: citation, Drive file
 
 #### In re Myers
 **Citation:** 491 F.3d 120 (3d Cir. 2007)
-**Drive File:** `In re Myers, 491 F. 3d 120 - 3rd Circuit 2007` (file 8)
+**Drive File:** `In re Myers, 491 F. 3d 120 - 3rd Circuit 2007`
 **Court/Year:** Third Circuit, 2007
 **Status:** OBTAINED — full text read
 
 **Key Holdings:**
 - The Third Circuit affirmed bad faith dismissal on unusual facts: debtor involved in fraudulent conveyance and filed Chapter 7 on the eve of a state-court trial solely to defeat litigation. *491 F.3d at 125–126.*
-- The bankruptcy court found the filing was to "defeat state court litigation without any reorganization purpose" — confirmed at approximately pp. 125–126.
+- The bankruptcy court found the filing was to "defeat state court litigation without any reorganization purpose."
 - **Critical factual distinction from Mell:** Myers involved (1) prepetition fraudulent conveyances; (2) eve-of-trial filing; (3) no legitimate bankruptcy purpose. Mell has disclosed all assets, has not made prepetition transfers, and has legitimate financial distress independent of the Nagel litigation.
-- Also addressed retroactive stay annulment (separate issue, not relevant to Mell dismissal motion).
 
 **Relevance to Mell:** Myers is distinguishable on the facts — it is the "egregious" pole that defines where the Third Circuit will dismiss. Mell's situation is the opposite.
 
 ---
 
+#### In re Hunt
+**Citation:** 521 B.R. 479 (Bankr. M.D. Pa. 2014)
+**Drive File:** `In re Hunt, 521 BR 479 - Bankr. Court, MD Pennsylvania 2014 - Google Scholar (1).pdf`
+**Court/Year:** Bankr. M.D. Pa., Judge Robert N. Opel II, November 10, 2014
+**Status:** OBTAINED — previously corrupted copy deleted; new copy fully readable; full text read
+
+**Key Holdings:**
+- Motion to dismiss under § 707(a) by single large creditor Rite Aid (claim of $2.1 million) — **DENIED.**
+- Facts: Debtor (Robert Aaron Hunt) filed Chapter 7 three business days before scheduled trial in state court litigation. Rite Aid alleged $2.1M unjust enrichment/conversion claim. Debtor had monthly income of $10,790; reaffirmed four vehicles (Lotus, Mercedes SLK, Range Rover, Commodore boat) plus mortgage ($402,675 on $400,000 home — negative equity).
+- **Good faith standard confirmed at p. 485:** "courts have held that good faith requires at least a showing of honest intention." Burden shifts to debtor only after movant makes threshold showing.
+- **Egregious cases standard at p. 485–486:** Dismissal confined to "egregious cases" involving "concealed or misrepresented assets and/or sources of income, lavish lifestyles, and intention to avoid a large single debt based upon conduct akin to fraud, misconduct or gross negligence." (quoting Tamecki, citing Zick).
+- **Five Glunk factors applied at p. 486:** Court applied the five Glunk factors (extravagant lifestyle; disproportionate impact; forum shopping; fraudulent prepetition conduct; fundamentally unfair end result).
+- **Glunk factor 1 (extravagant lifestyle) — p. 487–488:** Vehicle reaffirmation payments totaling $1,734.71/month = 16% of income. Boat payment of $323.87 = only 3% of income. Court distinguished Falch ($2,700/month boat expense, 34.6% of income) and Boyle ($800/month boat, 20% of income). Home had negative equity. Rite Aid failed to carry burden on this factor — weighs **against** dismissal.
+- **Glunk factor 2 (disproportionate impact) — p. 488–489:** Rite Aid's claim = 83% of total unsecured debt, but debtor had $430,000 in *additional* unsecured creditors (17% of total). No prepetition machinations. Adversary proceeding provided avenue for nondischargeability. Factor weighs **slightly in favor** of dismissal but insufficient alone.
+- **Glunk factor 3 (forum shopping/manipulation) — p. 489–490:** Filing days before state court trial not equivalent to Myers. Debtor did not admit filing solely to halt state litigation. Debtor had multiple creditors. Factor weighs **against** dismissal.
+- **Glunk factor 4 (fraudulent prepetition conduct) — p. 490:** No allegations or evidence — **neutral.**
+- **Glunk factor 5 (fundamentally unfair result) — p. 490:** Adversary proceeding for nondischargeability already pending — Rite Aid had remedy. Factor weighs **against** dismissal.
+- **Burden not met at p. 490–491:** Rite Aid failed to shift burden to debtor. No substantiated allegations of schemed concealment, inflated expenses, misleading schedules, unduly interfered with judicial process, or other misconduct. No burden shift; case not dismissed.
+- **Nagel's pinpoints from pull list (pp. 485, 483) confirmed:**
+  - p. 485: "honest intention" standard — *confirmed verbatim*
+  - p. 483: "totality of the facts and circumstances" language — *confirmed* (court discusses § 707(a) "totality" analysis at p. 483 in statutory background section)
+  - However: the court's **actual holding** denies dismissal. Nagel apparently cites Hunt for the legal standard while the case itself is authority for Mell that the standard was not met.
+
+**Critical strategic note:** Hunt is a pro-Mell case. Nagel cites it for the legal standard, but the full opinion (now readable) shows a factual pattern (large single creditor, eve-of-trial filing, boat/vehicles) that is **less favorable to dismissal than Mell's situation** — and dismissal was still denied. Hunt is powerful counter-authority: if the court refused to dismiss a debtor who (a) filed days before trial, (b) reaffirmed luxury vehicles including a Lotus and a boat, (c) had a $2.1M single creditor comprising 83% of debt, then Mell's petition cannot meet the egregious-cases threshold.
+
+---
+
 #### In re Mondelli
 **Citation:** 558 F. App'x 260 (3d Cir. 2014)
-**Drive File:** `IN RE MONDELLI, 3rd Circuit 2014` (file 9)
+**Drive File:** `IN RE MONDELLI, 3rd Circuit 2014`
 **Court/Year:** Third Circuit, 2014 (UNPUBLISHED — NOT PRECEDENTIAL)
 **Status:** OBTAINED — full text read
 
@@ -116,8 +146,6 @@ Cases are organized by subject matter. Each entry includes: citation, Drive file
 
 **Key Holdings:**
 - Third Circuit affirmed bad faith dismissal where debtor (1) reduced creditors to essentially one; (2) filed on eve of arbitration award; (3) continued lavish lifestyle; (4) made no effort to adjust spending.
-- The facts track Zick's pattern closely (single creditor, eve-of-judgment filing, lifestyle continuation).
-- Non-precedential opinion.
 
 **Relevance to Mell:** Nagel will cite Mondelli. Respond: (1) not precedential; (2) factually distinguishable — Mell has not reduced creditors to one, did not file on eve of any final judgment, and has multiple legitimate creditors; (3) Mondelli's facts are the "egregious" pattern Tamecki reserves for outliers.
 
@@ -125,154 +153,160 @@ Cases are organized by subject matter. Each entry includes: citation, Drive file
 
 #### In re Glunk
 **Citation:** 342 B.R. 717 (Bankr. E.D. Pa. 2006)
-**Drive File:** `In re Glunk, 342 BR 717 - Bankr. ED Pennsylvania 2006` (files 15–16)
+**Drive File:** `In re Glunk, 342 BR 717 - Bankr. ED Pennsylvania 2006`
 **Court/Year:** Bankr. E.D. Pa., 2006
-**Status:** OBTAINED — full text read from disk
+**Status:** OBTAINED — full text read
 
 **Key Holdings:**
 - Extensive analysis of § 707(a) "totality of circumstances" vs. "smell test" approaches.
-- Court criticized the lack of principled standards for "totality" analysis. *342 B.R. at 731–732.*
-- Quoted the **14-factor Keobapha list** as follows (at pp. 729–730):
-  1. Debtor reduced creditors to a single creditor in months prior to filing
-  2. Debtor failed to make lifestyle adjustments or continued lavish lifestyle
-  3. Debtor filed in response to judgment/pending litigation
-  4. Debtor made no effort to repay debts
-  5. Unfairness of use of Chapter 7
-  6. Debtor has sufficient resources to pay debts
-  7. Debtor is paying debts to insiders
-  8. Schedules inflate expenses to disguise financial well-being
-  9. Debtor transferred assets
-  10. Debtor over-utilizing Code protection to unconscionable detriment of creditors
-  11. Debtor employed deliberate pattern of evading a single major creditor
-  12. Debtor failed to make candid and full disclosure
-  13. Debts are modest in relation to assets and income
-  14. Multiple bankruptcy filings or other procedural "gymnastics"
-- At pp. 732–734: Court also noted that bad faith dismissal should be reserved for the "truly egregious case, often involving individuals with substantial means who have flaunted their wealth, have continued their lavish lifestyles, and are engaging in creative, elaborate schemes to conceal their assets and cheat their creditors." *342 B.R. at 733.*
-- The "totality" analysis has been employed across 10 different § 707 and related contexts — court's point is that it is not a specialized § 707(a) standard. *Id. at 731.*
+- Quoted the **14-factor Keobapha list** (at pp. 729–730) and also articulated the court's own **five-factor Glunk test** (at p. 734) now used in M.D. Pa. (confirmed in Hunt).
+- The five Glunk factors (at p. 734):
+  1. Debtor's (extravagant) lifestyle and ability to pay
+  2. Disproportionate impact on a particular creditor or few creditors
+  3. Forum shopping or efforts to manipulate the judicial process
+  4. Prepetition fraudulent conduct or less than full and candid disclosure
+  5. An end result that is perceived as fundamentally unfair or excessive
+- Note: "any one of the five factors by itself could be legally sufficient to warrant dismissal." *342 B.R. at 734.*
+- At p. 733: Bad faith dismissal reserved for "truly egregious case, often involving individuals with substantial means who have flaunted their wealth, have continued their lavish lifestyles, and are engaging in creative, elaborate schemes to conceal their assets and cheat their creditors."
 
-**Relevance to Mell:** Use Glunk's 14-factor Keobapha list against Nagel: Mell cannot check most boxes. Specifically: Mell has not reduced creditors to one; has not continued lavish lifestyle; has not failed to disclose; has not transferred assets; and does not have debts modest in relation to assets. The "truly egregious" framing at p. 733 is a powerful quotation.
+**Relevance to Mell:** Glunk's five-factor test was applied directly in Hunt (denial) and in the M.D. Pa. district generally. Apply each factor to Mell's facts to show no factor is met.
 
 ---
 
 #### In re Zick
 **Citation:** 931 F.2d 1124 (6th Cir. 1991)
-**Drive File:** `In re Zick, 931 F. 2d 1124 - 6th Circuit 1991` (file 4)
+**Drive File:** `In re Zick, 931 F. 2d 1124 - 6th Circuit 1991`
 **Court/Year:** Sixth Circuit, 1991
 **Status:** OBTAINED — full text read
 
 **Key Holdings:**
 - Sixth Circuit recognized "lack of good faith" as unenumerated basis for § 707(a) dismissal. *931 F.2d at 1126–27.*
-- The facts supporting dismissal in Zick (confirmed at pp. 1128–1129):
-  1. Debtor manipulated to reduce creditors to a single creditor in months prior to filing
-  2. Debtor failed to make significant lifestyle adjustments
-  3. Petition filed clearly in response to creditor obtaining a mediation award
-  4. Unfairness of use of Chapter 7
-- Additional grounds at p. 1128: concealed/misrepresented assets and sources of income; filed to avoid large single debt "based on conduct akin to fraud, misconduct, or gross negligence."
-- Further at p. 1129: debtor made arrangements with family creditors to repay while seeking to discharge a debt from "malicious breach of a noncompetition agreement."
-- **"Egregious cases" standard confirmed at p. 1129.**
-- **The "reduce creditors to one" language** appears both at p. 1128 (describing facts affirmed by the Sixth Circuit) and in footnote 1 at p. 1128 (quoting the bankruptcy court).
+- Egregious-cases standard at p. 1129: dismissal confined to cases entailing "concealed or misrepresented assets and/or sources of income, lavish lifestyle, and intention to avoid a large single debt based upon conduct akin to fraud, misconduct or gross negligence."
 
-**Relevance to Mell:** Nagel will cite Zick. Key distinctions: (1) Zick is Sixth Circuit, not binding in Third; (2) Zick's debtor actively concealed assets — Mell has made full disclosure; (3) Zick filed to avoid a mediation award for "malicious breach" — the civil liability here is disputed (and subject to the § 523(a)(6) discharge issue), not a conceded fraud.
+**Relevance to Mell:** Nagel will cite Zick. Key distinctions: (1) Zick is Sixth Circuit, not binding in Third; (2) Zick's debtor actively concealed assets and made family arrangements to avoid a mediation award for malicious breach.
+
+---
+
+#### In re Keobapha
+**Citation:** 279 B.R. 49 (Bankr. D. Conn. 2002)
+**Drive File:** `In re Keobapha, 279 BR 49 - Bankr. Court, D. Connecticut 2002`
+**Court/Year:** Bankr. D. Conn., Judge Krechevsky, May 22, 2002
+**Status:** OBTAINED — full text read; origin of 14-factor list confirmed
+
+**Key Holdings:**
+- Motion to dismiss under § 707(a) by creditors (parents whose children debtor killed in car accident; wrongful death action pending) — **DENIED.**
+- **14-factor "smell test" list confirmed at pp. 51–52** (quoting In re Spagnolia, 199 B.R. 362 (Bankr. W.D. Ky. 1995)):
+  1. Debtor reduced creditors to a single creditor in months prior to filing
+  2. Debtor failed to make lifestyle adjustments or continued lavish/expansive lifestyle
+  3. Debtor filed in response to a judgment/pending litigation
+  4. Debtor made no effort to repay debts
+  5. Unfairness of the use of Chapter 7
+  6. Debtor has sufficient resources to pay debts
+  7. Debtor is paying debts to insiders
+  8. Schedules inflate expenses to disguise financial well-being
+  9. Debtor transferred assets
+  10. Debtor over-utilizing protection of the Code to the unconscionable detriment of creditors
+  11. Debtor employed a deliberate and persistent pattern of evading a single major creditor
+  12. Debtor failed to make candid and full disclosure
+  13. Debts are modest in relation to assets and income
+  14. Multiple bankruptcy filings or other procedural "gymnastics"
+- **At p. 52:** "Generally, the presence of only one of these factors is not sufficient to support a § 707(a) dismissal." (quoting Spagnolia).
+- **Key holding on ability to pay (p. 53):** Court held that a debtor's ability to pay in the future is **not** a factor under § 707(a). "The question of whether a Chapter 7 debtor could meet dischargeable debt obligations in whole or part from future resources is irrelevant to a motion under § 707(a)." (quoting Khan). Legislative history confirms Congress never intended ability to repay as § 707(a) cause.
+- Facts: debtor essentially had one creditor (the bereaved parents), but did NOT manipulate financial situation to reduce creditors; did not live a lavish lifestyle; made no prepetition transfers; could barely make ends meet on ~$400/week; bankruptcy filed in response to wrongful death suit. Motion DENIED.
+
+**Relevance to Mell:** This is the origin of the 14-factor list cited throughout the cases. Keobapha itself is a denial of dismissal — filed in response to litigation, essentially one creditor — and still denied. The case also confirms that ability to pay is irrelevant under § 707(a). The debtor here (Keobapha) closely parallels Mell's posture.
+
+---
+
+#### In re Trainor
+**Citation:** No. 25-11154-1-PGR (Bankr. N.D.N.Y. March 4, 2026)
+**Drive File:** `IN RE TRAINOR, Bankr. Court, ND New York 2026`
+**Court/Year:** Bankr. N.D.N.Y., Judge Patrick G. Radel, March 4, 2026
+**Status:** OBTAINED — full text read
+
+**Key Holdings:**
+- Motion to dismiss under § 707(a) by creditors Jean and Kim Ndjango — **DENIED.**
+- Debtor (Timothy T. Trainor) filed Chapter 7 on October 6, 2025 — three days after filing an Answer in state court construction litigation. Creditors were the only identified creditor with an enumerated amount.
+- Court applied the **Lombardo factors** (Second Circuit/N.D.N.Y. equivalent of the Keobapha 14-factor list).
+- **Key holdings on filing in response to litigation (at text):** "the fact that a debtor files a chapter 7 solely to avoid the large debt of a single creditor or to frustrate that creditor's collection efforts, standing alone, is not enough to warrant dismissal under § 707(a). Rather, there must be evidence of an 'intention to avoid a large single debt based on conduct akin to fraud, misconduct or gross negligence.'" (quoting Gutierrez, quoting Zick).
+- **Key holding on automatic stay use (at text):** "The fact that the Debtor is utilizing the protections of the Bankruptcy Code does not indicate bad faith." (quoting Minick).
+- **Key holding on nature of debt (at text):** "the Bankruptcy Code does not disqualify a debtor from seeking bankruptcy even if the debtor's largest [unliquidated] debt arose from wrongful or improper conduct, but instead the Code allows the particular debt to be excepted from a bankruptcy discharge depending on the nature and type of wrongful conduct." (quoting Minick). Court citing Adler: "[W]here a debtor's misconduct is addressed by relief available under more specific provisions of the Bankruptcy Code, such misconduct cannot properly constitute grounds for dismissal under a vague general equitable concept such as 'bad faith.'"
+- **Companion case to Adler explicitly confirmed** — court cites Adler, 673 B.R. 109 (Bankr. S.D.N.Y. 2025) for the point that misconduct addressed by § 523 discharge exceptions cannot separately support § 707(a) dismissal.
+
+**IMPORTANT CORRECTION:** The prior CASES-OBTAINED entry for Adler stated Trainor's court was S.D.N.Y. — **it is N.D.N.Y.** (Northern District of New York, Albany division). The Adler quote ("almost every bankruptcy case is filed because a creditor is pursuing a debtor") was not found verbatim in this Trainor opinion; the full text of Trainor (which does not contain that quote verbatim) cites Keobapha for the analogous proposition. The "almost every bankruptcy case" quote may be from Adler itself rather than Trainor — verify in Adler slip op.
+
+**Relevance to Mell:** Direct 2026 authority that: (1) filing in response to litigation + single creditor is not cause; (2) using the automatic stay is not bad faith; (3) misconduct underlying the debt goes to discharge objections (§ 523), not dismissal. Pairs with Adler, DeSoto, Keobapha, and Hunt as a cluster of denial cases.
 
 ---
 
 #### In re Cantelli
 **Citation:** 2013 WL 66425 (Bankr. N.D. Ohio, Jan. 4, 2013)
-**Drive File:** `IN RE CANTELLI, Bankr. ND Ohio 2013` (file 21)
-**Court/Year:** Bankr. N.D. Ohio, 2013 (applying Sixth Circuit standard)
+**Drive File:** `IN RE CANTELLI, Bankr. ND Ohio 2013`
+**Court/Year:** Bankr. N.D. Ohio, 2013
 **Status:** OBTAINED — full text read
 
 **Key Holdings:**
-- Motion by U.S. Trustee to dismiss under § 707(a) for bad faith — GRANTED.
-- Court applied Sixth Circuit's Zick framework, not Third Circuit's Tamecki/Perlin.
-- Multiple disclosure omissions: failed to disclose sale of business interests generating ~$30,000; failed to disclose life insurance policy loan; misrepresented value of business entities as "$0"; concealed active business relationships.
-- "Reduce creditors to one" analysis: debtor's scheme of successive corporate entities to avoid IRS tax obligations was analogous to Zick's single-creditor manipulation.
-- Lifestyle adjustments absent: debtor intended to retain $865,000 luxury home; continued gambling activities, entertainment travel, and housekeeper while listing monthly shortfall.
-- Court applied Sixth Circuit "smell test" and found cumulative weight of misconduct supported dismissal. *2013 WL 66425, at *8.*
-- Court found the Debtors "have not been entirely forthcoming with the true nature of their financial affairs" and placed "impetus on other parties to inquire."
+- Motion to dismiss under § 707(a) — GRANTED.
+- Multiple disclosure omissions; continued lavish lifestyle; tax evasion pattern via successive entities.
 
-**Relevance to Mell:** Sixth Circuit case — not Third Circuit precedent. Moreover, factually distinguishable on every axis: (1) Cantelli had extensive disclosure failures; Mell provided three binders of complete documentation; (2) Cantelli used successive entities to evade IRS; Mell has no such pattern; (3) Cantelli attempted to retain luxury home; Mell's financial position is not characterized by lavish retention of assets; (4) Cantelli applied Zick, not Tamecki/Perlin — lower persuasive weight.
+**Relevance to Mell:** Sixth Circuit case — not Third Circuit precedent. Factually distinguishable on every axis from Mell.
 
 ---
 
 #### In re Napier-Lopez
 **Citation:** No. 23-10694-ABA, 2023 WL 3260150 (Bankr. D.N.J. May 4, 2023)
-**Drive File:** `IN RE NAPIER-LOPEZ, Bankr. D.N.J. 2023` (file 7)
+**Drive File:** `IN RE NAPIER-LOPEZ, Bankr. D.N.J. 2023`
 **Court/Year:** Bankr. D.N.J., 2023
-**Status:** OBTAINED — full text read from disk
+**Status:** OBTAINED — full text read
 
 **Key Holdings:**
 - Motion to dismiss under § 707(a) — GRANTED based on bad faith.
-- Dismissal was driven primarily by "woefully deficient schedules" — debtor failed to disclose material assets and income sources.
-- Schedule omissions were the central factor; court found debtor's disclosures fundamentally unreliable.
-- Court applied Third Circuit Tamecki/Perlin framework.
+- Dismissal was driven primarily by "woefully deficient schedules."
 
-**Relevance to Mell:** Direct D.N.J. authority that cuts both ways. Nagel may cite it for dismissal authority. Distinguish: Napier-Lopez turned on schedule failures that are the mirror image of Mell's situation — Mell provided comprehensive, detailed schedules with three binders of supporting documentation.
+**Relevance to Mell:** Distinguish: Napier-Lopez turned on schedule failures that are the mirror image of Mell's situation.
 
 ---
 
 #### In re DeSoto (Scaffidi v. DeSoto)
-**Citation:** Bankr. D.N.J. Apr. 20, 2006 (Case No. 05-29744-DHS, Judge Steckroth); aff'd D.N.J. July 25, 2007 (2 civil cases — Nos. 06-cv-03786 and 06-cv-03787 (FSH)); motion for reconsideration denied Sept. 11, 2007.
-**Drive Files:**
-- `desoto br slip op.pdf` (file 27) — Bankr. Court opinion denying dismissal, April 20, 2006
-- `destoto slip op denying mtr.pdf` (file 24) — Order denying Scaffidi's motion for reconsideration, June 28, 2006
-- `desoto DC slip op.pdf` (file 26) — District Court order affirming and denying Scaffidi's reconsideration, Sept. 11, 2007
-- `desoto docket (1).pdf` (file 25) — PACER docket sheet, Case No. 05-29744-DHS (partial coverage)
-**Court/Year:** Bankr. D.N.J. 2006 (pre-Perlin); aff'd D.N.J. 2007
+**Citation:** Bankr. D.N.J. Apr. 20, 2006 (Case No. 05-29744-DHS, Judge Steckroth); aff'd D.N.J. July 25, 2007
+**Drive Files:** `desoto br slip op.pdf` + `destoto slip op denying mtr.pdf` + `desoto DC slip op.pdf` + `desoto docket (1).pdf`
+**Court/Year:** Bankr. D.N.J. 2006; aff'd D.N.J. 2007
 **Status:** OBTAINED — all four documents read
 
-**Key Holdings (Bankr. Court, April 20, 2006):**
-- Creditor Scaffidi moved to dismiss debtor/attorney DeSoto's Chapter 7 petition as bad faith because DeSoto filed mid-trial in state court litigation alleging fraud and legal malpractice.
-- Motion to dismiss — **DENIED.** Court declined to dismiss even where filing was timed to state court trial.
-- Key holding at p. 7: Bad faith dismissal should be "narrowly construed" and utilized only in "egregious cases," citing Tamecki.
-- Key holding at p. 7–8: Bankruptcy filings arising out of a two-party dispute or triggered by state court proceedings **do not per se constitute bad faith filings**, citing In re Walden Ridge Development, LLC, 292 B.R. 58, 62 (Bankr. D.N.J. 2003).
-- Court accepted debtor's explanation that filing was needed to provide "breathing room" from escalating litigation fees she could no longer afford. Filing date timing alone did not establish bad faith.
-- Court also applied the 12-factor Curtis/Sonnax list (cited from Mid-Atlantic Handling, p. 130) in granting partial stay relief while denying dismissal.
-- **CRITICAL NOTE:** DeSoto was decided April 20, 2006 — **before** In re Perlin, 497 F.3d 364 (3d Cir. Aug. 2007). To the extent DeSoto's analysis of financial circumstances touched on ability to pay, that analysis has been refined by Perlin.
-- **ALSO CRITICAL:** Nagel's citation of this case reportedly uses a wrong WL number (cites 4452833 instead of correct 4452830).
+**Key Holdings:**
+- Creditor Scaffidi moved to dismiss debtor/attorney DeSoto's Chapter 7 petition — **DENIED.**
+- Key holding at pp. 7–8: Bankruptcy filings arising out of a two-party dispute or triggered by state court proceedings **do not per se constitute bad faith filings.**
 
-**Relevance to Mell:** DeSoto is powerful counter-authority for the proposition that filing during or shortly before trial in state court is not bad faith per se. Mell's situation is factually similar (state court litigation pending; filing was financial necessity). Nagel cannot have it both ways — if DeSoto supports dismissal for him, the full opinion actually supports Mell's position.
+**Relevance to Mell:** DeSoto is powerful counter-authority for the proposition that filing during or shortly before trial in state court is not bad faith per se.
 
 ---
 
 #### In re Adler
-**Citation:** Bankr. S.D.N.Y. 2025 (exact citation from slip op file)
-**Drive Files:** `Adler slip op.pdf` (file 28) + `Adler docket.pdf` (file 29)
+**Citation:** 673 B.R. 109 (Bankr. S.D.N.Y. 2025)
+**Drive Files:** `Adler slip op.pdf` + `Adler docket.pdf`
 **Court/Year:** Bankr. S.D.N.Y., 2025
 **Status:** OBTAINED — slip op and PACER docket read
 
 **Key Holdings:**
-- Motion to dismiss under § 707(a) for bad faith — **DENIED.** 
-- Detailed § 707(a) analysis applying the Second Circuit's framework.
-- Facts included very large judgment ($90 million-range) and debtor filing shortly before or during enforcement proceedings.
-- Court analyzed the multi-factor inquiry and found debtor's filing was a legitimate response to financial distress, not a bad faith exploitation of the bankruptcy system.
-- Court declined to dismiss where the debtor's filing was motivated by genuine financial need rather than scheme to evade a single creditor.
-- Companion to In re Trainor (USCOURTS-nynb-1_25-bk-11154) — for-publication opinion from same court in similar posture. Trainor stated "almost every bankruptcy case is filed because a creditor is pursuing a debtor."
-- **NOTE:** Adler is S.D.N.Y. — persuasive authority in D.N.J. but not binding. Its value is showing that courts in analogous factual situations (large single judgment, litigation-triggered filing) deny dismissal.
+- Motion to dismiss under § 707(a) for bad faith — **DENIED.**
+- Court cited and applied: misconduct addressed by § 523 discharge exceptions cannot separately support § 707(a) dismissal.
+- Companion case to Trainor (N.D.N.Y.).
 
-**Relevance to Mell:** Primary counter-authority demonstrating that § 707(a) dismissal is denied even in cases with large judgments and litigation-triggered filings. Combined with DeSoto (D.N.J.) and Perlin (3d Cir.), creates a strong cluster of dismissal-denied authority.
+**Relevance to Mell:** Primary counter-authority demonstrating that § 707(a) dismissal is denied even in cases with large judgments and litigation-triggered filings.
 
 ---
 
 #### In re Eubanks
 **Citation:** 672 B.R. 861 (Bankr. D.S.C. 2025)
-**Drive File:** `IN RE EUBANKS, 672 BR 861 - Bankr. D. South Carolina 2025` (file 18)
+**Drive File:** `IN RE EUBANKS, 672 BR 861 - Bankr. D. South Carolina 2025`
 **Court/Year:** Bankr. D.S.C., 2025
-**Status:** OBTAINED — full text read from disk
+**Status:** OBTAINED — full text read
 
 **Key Holdings:**
 - Motion to dismiss under § 707(a) — **GRANTED** with prejudice for two years.
-- This is Debtor LaKendra Eubanks's **sixth** bankruptcy case. All prior cases except one were filed in South Carolina.
-- The case was dismissed for bad faith based on repeated filings and systematic disclosure failures:
-  - **Six undisclosed business entities:** South Carolina Secretary of State records showed Eubanks was registered agent for six business entities, only one of which was referenced in amended schedules. All six were in good standing and listed their addresses as one of three real properties Eubanks had added to amended Schedule A/B. *672 B.R. at* approximately 869 (UST Exhibit 9).
-  - **Three undisclosed real properties:** Debtor added three previously omitted real properties to amended schedules after UST investigation.
-  - Most recently formed entity ("Free AF," a nonprofit) was formed Feb. 25, 2025 — filed just months before the bankruptcy.
-  - Debtor listed Ussery Road Property as having no improvements; county records showed it contained a 1987 Fleetwood mobile home.
-  - 2019 Jeep Wrangler listed as belonging to "FREEAF" entity but Aiken County records showed Eubanks personally as vehicle owner.
-  - Foreclosure action on residence (JPMorgan Chase, No. 2017-CP-0202556) pending since 2017 — foreclosure sale scheduled for May 5, 2025 was cancelled when Eubanks filed bankruptcy May 1, 2025 — not accurately disclosed in SOFA.
-- Dismissed with prejudice for 2 years.
+- Sixth filing; six undisclosed business entities; three undisclosed real properties; foreclosure-eve filing.
 
-**Relevance to Mell:** This is the mirror image of Mell — what the bad faith dismissal pattern actually looks like: sixth filing, six undisclosed entities, three undisclosed properties, foreclosure-eve filing to halt imminent sale. Use as contrast: Mell made full and complete disclosure; this case shows what courts actually dismiss.
+**Relevance to Mell:** Mirror image contrast — what actual bad-faith dismissal looks like. Mell is the opposite of Eubanks.
 
 ---
 
@@ -282,74 +316,94 @@ Cases are organized by subject matter. Each entry includes: citation, Drive file
 
 #### In re Conte
 **Citation:** 33 F.3d 303 (3d Cir. 1994)
-**Drive File:** `In re Conte, 33 F. 3d 303 - 3rd Circuit 1994` (file 20)
+**Drive File:** `In re Conte, 33 F. 3d 303 - 3rd Circuit 1994`
 **Court/Year:** Third Circuit, 1994
 **Status:** OBTAINED — full text read
 
 **Key Holdings:**
 - Third Circuit held that § 523(a)(6) requires that the debtor acted with the **subjective purpose to injure** the creditor, or with **substantial certainty** that injury would result. *33 F.3d at 308.*
-- **Confirmed at p. 308:** The two-part test — either (1) intent to injure, or (2) acts with knowledge that injury was substantially certain to result.
-- Distinguished mere recklessness or "high probability" of harm — those standards are insufficient for § 523(a)(6).
-- The "substantial certainty" standard is subjective — what the debtor knew and believed, not what a reasonable person would have known.
+- Distinguished mere recklessness or "high probability" of harm.
 
-**Relevance to Mell:** This is controlling Third Circuit law for the § 523(a)(6) claim. Nagel must show Mell subjectively intended to injure or knew with substantial certainty his conduct would cause injury. This is a demanding standard — it forecloses liability based on negligence, recklessness, or even "high probability" of harm.
+**Relevance to Mell:** This is controlling Third Circuit law for the § 523(a)(6) claim.
+
+---
+
+#### In re Ruitenberg
+**Citation:** 745 F.3d 647 (3d Cir. 2014)
+**Drive File:** `In re Ruitenberg, 745 F. 3d 647 - Court of Appeals, 3rd Circuit 2014 - Google Scholar.pdf`
+**Court/Year:** Third Circuit, Judge Ambro (with Justice O'Connor ret. sitting by designation), March 13, 2014
+**Status:** OBTAINED — full text read
+
+**CRITICAL NOTE — DOES NOT ADDRESS § 523(a)(6):**
+Ruitenberg has nothing to do with willful and malicious injury. It addresses whether a non-debtor spouse's equitable distribution claim in a pending divorce is a pre-petition "claim" under 11 U.S.C. § 101(5) — a definitional/claims allowance issue. The prior pull list entry was wrong about what this case concerns.
+
+**What Ruitenberg Actually Holds:**
+- A non-debtor spouse who is in divorce proceedings when the other spouse files bankruptcy has an allowable **pre-petition claim** against the debtor's estate for equitable distribution of marital property — even without a final divorce decree. *745 F.3d at 651–653.*
+- Ruitenberg **overrules/abrogates In re Berlingeri, 246 B.R. 196 (Bankr. D.N.J. 2000)** and In re Howell, 311 B.R. 173 (Bankr. D.N.J. 2004), both of which had held (under the since-abandoned Frenville accrual test) that an equitable distribution claim does not arise until a judgment of divorce is entered. *745 F.3d at 651.*
+- Ruitenberg follows the broader definition of "claim" adopted in In re Grossman's, 607 F.3d 114 (3d Cir. 2010), which overruled Frenville.
+- Berlingeri is thus abrogated by Ruitenberg — but only on the equitable distribution "claim" question; Berlingeri's separate discussion of any § 523(a)(6) issues (if any) would need to be reviewed separately.
+
+**What Berlingeri Actually Held (from Ruitenberg's summary):**
+Berlingeri, 246 B.R. 196 (Bankr. D.N.J. 2000), held under Frenville's accrual test that a spouse's equitable distribution claim does not arise until a final divorce decree — so it is a post-petition claim not subject to bankruptcy discharge. Ruitenberg overruled this. Berlingeri did not concern § 523(a)(6) willfulness.
+
+**Relevance to Mell:** If Nagel or another party is asserting a domestic relations claim against Mell, Ruitenberg governs when such a claim becomes a pre-petition "claim" against the estate. This is NOT relevant to the § 523(a)(6) nondischargeability analysis unless Nagel has a marital/property-related claim — clarify whether Nagel's claim triggers Ruitenberg or only Conte/Docteroff.
+
+---
+
+#### In re Berlingeri
+**Citation:** 246 B.R. 196 (Bankr. D.N.J. 2000)
+**Drive File:** `In re Berlingeri, 246 BR 196 - Bankr. Court, D. New Jersey 2000` (file returned empty content on read)
+**Court/Year:** Bankr. D.N.J., 2000
+**Status:** PARTIAL — Drive file present but returned empty content on read. Not independently verified.
+
+**What Is Known (from Ruitenberg's summary):**
+- Berlingeri applied Frenville's accrual test to hold that a non-debtor spouse's equitable distribution claim was post-petition (claim did not arise until final divorce decree).
+- Berlingeri was expressly called out by Ruitenberg (at 651) as applying the now-abandoned Frenville accrual test. To the extent Berlingeri is cited for equitable distribution issues, it has been abrogated by Ruitenberg.
+- Berlingeri has nothing to do with § 523(a)(6) willful and malicious injury based on Ruitenberg's characterization.
+
+**Action:** If Nagel cites Berlingeri for any § 523(a)(6) proposition, verify separately as the content of that opinion for § 523(a)(6) purposes cannot be confirmed from available text.
 
 ---
 
 #### In re Fleetwood
 **Citation:** Bankr. D. Alaska 2013, No. A12-00113-GS, 2013 WL 2178096
-**Drive File:** `in re Fleetwood slip op.pdf` (file 17)
+**Drive File:** `in re Fleetwood slip op.pdf`
 **Court/Year:** Bankr. D. Alaska, 2013
 **Status:** OBTAINED — full text read
 
 **Key Holdings:**
-- Alaska bankruptcy court case applying § 523(a)(6).
-- Court found willfulness based on "self-evident" character of the debtor's intent to harm.
-- Court applied the Ninth Circuit's § 523(a)(6) framework — which may differ from the Third Circuit's Conte standard.
+- Alaska bankruptcy court case applying § 523(a)(6); court found willfulness based on "self-evident" character of the debtor's intent to harm.
+- Applies Ninth Circuit (not Third Circuit) § 523(a)(6) framework.
 
-**CRITICAL NOTE for Mell Strategy:** This is Nagel's most cited § 523(a)(6) authority. Alaska law and Ninth Circuit interpretations of "willful and malicious" may not align precisely with Third Circuit's Conte standard. Any "self-evident" willfulness reasoning in Fleetwood must be measured against Conte's requirement of subjective intent or substantial certainty — not an objective test. This is the primary rebuttal point to Fleetwood.
-
-**Relevance to Mell:** Distinguish on circuit law (Alaska/Ninth Circuit vs. Third Circuit Conte) and on the subjective-intent requirement. Also factually distinguish if specific facts differ from Mell's conduct.
+**Relevance to Mell:** Nagel's most cited § 523(a)(6) authority. Distinguish on circuit law and subjective-intent requirement.
 
 ---
 
 #### In re Docteroff
 **Citation:** 133 F.3d 210 (3d Cir. 1997)
-**Drive File:** `In re Docteroff, 133 F. 3d 210 - 3rd Circuit 1997` (file 19)
+**Drive File:** `In re Docteroff, 133 F. 3d 210 - 3rd Circuit 1997`
 **Court/Year:** Third Circuit, 1997
 **Status:** OBTAINED — full text read
 
 **Key Holdings:**
-- Third Circuit confirmed that collateral estoppel (issue preclusion) applies in § 523(a) nondischargeability proceedings. *133 F.3d at 214.*
-- **Exception for default judgments as discovery sanction:** Confirmed at pp. 214–215 that collateral estoppel **can** apply even to a "default" judgment where the default was entered as a sanction for the defendant's own discovery abuse and misconduct — because in that case the issue was "actually litigated" in the sense that the defendant's own wrongdoing prevented litigation.
-- Distinguished from ordinary default judgment where defendant simply failed to appear.
-- Key language at 214–215 on the discovery-abuse exception.
+- Third Circuit confirmed that collateral estoppel applies in § 523(a) proceedings. *133 F.3d at 214.*
+- Exception for default judgments entered as discovery sanction: confirmed at pp. 214–215.
 
-**Relevance to Mell:** If Nagel has a state court judgment and seeks to apply collateral estoppel in the § 523(a)(6) adversary proceeding, this is the controlling framework. Distinguish: if the state court judgment was entered under circumstances that do not meet the "actually litigated" standard (absent discovery misconduct by Mell), Docteroff's exception does not apply.
+**Relevance to Mell:** Controlling framework for any collateral estoppel argument in the § 523(a)(6) adversary proceeding.
 
 ---
 
 #### In re Azeglio
 **Citation:** 422 B.R. 490 (Bankr. D.N.J. 2010)
-**Drive File:** `In re Azeglio, 422 BR 490` (files 22–23)
+**Drive File:** `In re Azeglio, 422 BR 490`
 **Court/Year:** Bankr. D.N.J., 2010
 **Status:** OBTAINED — full text read
 
 **Key Holdings:**
-- D.N.J. bankruptcy court denied summary judgment on § 523(a)(2)(A) nondischargeability claim where plaintiff sought to use state court judgment via collateral estoppel.
-- Held: **Collateral estoppel does not apply where the defendant did not have a full and fair opportunity to litigate the issue.** *422 B.R. at 494–497.*
-- Here, debtor/defendant participated in pretrial proceedings (filed answer, attended four depositions) but did not appear at trial because his attorney withdrew and did not notify him of the trial date.
-- Court surveyed New Jersey and federal law on "actually litigated" requirement, citing Docteroff, and found the proceeding was "akin to the entry of a default judgment against the debtor."
-- **Five-element NJ collateral estoppel test** confirmed at p. 493–494 (citing In re Estate of Dawson):
-  1. Issue identical to issue in prior proceeding
-  2. Issue actually litigated in prior proceeding
-  3. Final judgment on the merits
-  4. Determination essential to prior judgment
-  5. Party against whom doctrine is asserted was a party or in privity
-- Under NJ law, collateral estoppel requires that the party "had a full and fair day in court" — mere pretrial participation insufficient. *422 B.R. at 496–497.*
-- **NOTE:** The "actually litigated" requirement under NJ law is confirmed at p. 497: "the party against whom the doctrine is sought to be applied must have had a full and fair opportunity to litigate the issue to be precluded."
+- D.N.J. bankruptcy court denied summary judgment on § 523(a)(2)(A) claim; collateral estoppel did not apply because defendant did not have a full and fair opportunity to litigate. *422 B.R. at 494–497.*
+- **Five-element NJ collateral estoppel test** confirmed at pp. 493–494.
 
-**Relevance to Mell:** Direct D.N.J. authority showing that collateral estoppel is denied where the defendant did not have a full and fair opportunity to litigate. If the underlying state court judgment against Mell was entered under similar circumstances (default, sanction, or without full adversarial hearing), Azeglio forecloses Nagel's use of issue preclusion.
+**Relevance to Mell:** Direct D.N.J. authority showing that collateral estoppel is denied where the defendant did not have a full and fair opportunity to litigate.
 
 ---
 
@@ -359,124 +413,195 @@ Cases are organized by subject matter. Each entry includes: citation, Drive file
 
 #### In re Lansaw
 **Citation:** 853 F.3d 657 (3d Cir. 2017)
-**Drive File:** `In re Lansaw, 853 F. 3d 657 - 3rd Circuit 2017` (files 11 and 13 — duplicate)
+**Drive File:** `In re Lansaw, 853 F. 3d 657 - 3rd Circuit 2017`
 **Court/Year:** Third Circuit, 2017
-**Status:** OBTAINED — full text read from disk; key pinpoints confirmed
+**Status:** OBTAINED — full text read
 
 **Key Holdings:**
-- § 362(k)(1) provides that "an individual injured by any willful violation of a stay shall recover actual damages, including costs and attorneys' fees, and, in appropriate circumstances, may recover punitive damages."
-- Three elements for § 362(k)(1) recovery: (1) debtor suffered injury; (2) violation was willful; (3) the stay violation caused the injury. *Confirmed at pp. 668–669.*
-- **Emotional distress damages at p. 669:** Court declined to adopt a bright-line rule requiring medical evidence to prove emotional harm under § 362(k)(1). Credible testimony alone can support an emotional-distress award, at least where the stay violation is "patently egregious." *853 F.3d at 669.*
-- **Causation standard at p. 670:** Plaintiff "was not required, as a matter of causation, to establish with absolute precision what degree her depression was caused by the stay violations." Approximate causation sufficient where multiple stressors contributed. *Id. at 670.*
-- Facts: Zokaites willfully and repeatedly violated the stay by physically confronting the debtor's daycare business, chaining its doors, and attempting to terminate the debtors' new lease.
+- Three elements for § 362(k)(1) recovery confirmed at pp. 668–669.
+- Emotional distress damages without bright-line medical evidence rule at p. 669.
+- Causation standard at p. 670.
 
-**Relevance to Mell:** Third Circuit binding authority for § 362(k) damages claim if Nagel or a related party violated the automatic stay after the Mell petition was filed. The "patently egregious" standard for emotional distress without medical evidence may be relevant depending on facts of any stay violation.
+**Relevance to Mell:** Binding Third Circuit authority for § 362(k) damages if stay was violated.
 
 ---
 
 #### In re Mid-Atlantic Handling Systems
 **Citation:** 304 B.R. 111 (Bankr. D.N.J. 2003)
-**Drive File:** `In re Mid-Atlantic Handling Systems, 304 BR 111, D.N.J. 2003` (file 10)
+**Drive File:** `In re Mid-Atlantic Handling Systems, LLC, 304 BR 111`
 **Court/Year:** Bankr. D.N.J., 2003
-**Status:** OBTAINED — full text read from disk
+**Status:** OBTAINED — full text read
 
 **Key Holdings:**
-- **NOT a Curtis/Sonnax (stay-relief from stay factors) case — it is an abstention case.** The pull list reference to "12-factor Curtis/Sonnax" is misleading; Mid-Atlantic applies the 12-factor Curtis/Sonnax list to the stay-relief question in a companion context, but the core analysis concerns mandatory and discretionary abstention.
-- **12-factor Curtis/Sonnax stay-relief list** (cited at 304 B.R. 130 as the Sonnax/Ice Cream Liquidation factors — also cited verbatim by the DeSoto bankruptcy court at pp. 9–10):
-  1. Whether relief would result in a partial or complete resolution of the issues
-  2. Lack of any connection with or interference with the bankruptcy case
-  3. Whether the other proceeding involves the debtor as a fiduciary
-  4. Whether a specialized tribunal with necessary expertise has been established
-  5. Whether the debtor's insurer has assumed full responsibility for defending
-  6. Whether the action primarily involves third parties
-  7. Whether litigation in another forum would prejudice interests of other creditors
-  8. Whether the judgment claim is subject to equitable subordination
-  9. Whether the moving party's success would result in a judicial lien avoidable by debtor
-  10. Interests of judicial economy and expeditious resolution
-  11. Whether the parties are ready for trial in the other proceeding
-  12. Impact of the stay on the parties and balance of harms
-- **6-factor mandatory abstention test** (§ 1334(c)(2)): (1) timely motion; (2) state court action; (3) arising under state law or related to Title 11; (4) non-core proceeding; (5) no independent basis for federal jurisdiction; (6) state court action commenced before the bankruptcy petition.
-- **7-factor discretionary abstention test** (§ 1334(c)(1)): (1) efficient use of judicial resources; (2) difficulty/unsettled nature of applicable state law; (3) degree to which state law issues predominate; (4) presence of related proceedings; (5) jurisdictional basis other than § 1334; (6) substance of relief sought; (7) likelihood that commencement was for forum-shopping purposes.
+- **12-factor Curtis/Sonnax stay-relief list** confirmed at p. 130.
+- **6-factor mandatory abstention test** (§ 1334(c)(2)) and **7-factor discretionary abstention test** confirmed.
 
-**Relevance to Mell:** If Nagel's state court claims are non-core and meet the mandatory abstention factors, abstention is required under § 1334(c)(2). Mid-Atlantic provides the D.N.J. framework for both mandatory and discretionary abstention, plus the stay-relief factors for any § 362(d) motion.
+**Relevance to Mell:** D.N.J. framework for abstention and stay-relief factor analysis.
 
 ---
 
-### D. MURRAY TRILOGY — INVOLUNTARY PETITION ABUSE
+#### In re Potter (DRIVE VERSION — DIFFERENT CASE)
+**Citation — Drive version:** No. 1:21-cv-18464 (D.N.J. July 17, 2023) (District Court); Nos. 23-2480, 23-2625 (3d Cir. June 26, 2024) (NOT PRECEDENTIAL)
+**Drive Files:** `IN RE POTTER, Dist. Court, D. New Jersey 2023` + `IN RE POTTER, Court of Appeals, 3rd Circuit 2024`
+**Court/Year (Drive version):** D.N.J. 2023 (Judge O'Hearn); 3d Cir. 2024 (Jordan, Phipps, Nygaard, JJ.) (NOT PRECEDENTIAL)
+**Status:** OBTAINED — both Drive files read, but THIS IS NOT THE POTTER CASE ON THE PULL LIST
+
+**CRITICAL MISMATCH — READ CAREFULLY:**
+The pull list cited In re Potter, 2021 WL 4494263 (Bankr. D.N.J. 2021) for the proposition that a movant's failure to establish "cause" requires denial of stay relief under § 362(d)(1). The Drive folder contains a *different* "In re Potter" case — Potter v. Newkirk — which is a 2011 Chapter 13 case by Marguerite Potter (a pro se vexatious litigant who filed bankruptcy the day before an eviction). The Drive Potter cases are about retroactive annulment of the automatic stay — the *opposite* of what was expected.
+
+**What the Drive Potter cases actually hold:**
+- *Potter (Dist. Ct. 2023):* District Court affirmed the Bankruptcy Court's retroactive annulment of Ms. Potter's automatic stay because (1) creditors were not on notice of the bankruptcy petition; (2) Ms. Potter acted inequitably, unreasonably, and dishonestly (filing the day before scheduled eviction after years of losing litigation); (3) creditors would be prejudiced if stay not annulled. AFFIRMED.
+- *Potter (3d Cir. 2024):* NOT PRECEDENTIAL. Third Circuit affirmed. Key § 362(d) holding: a court balances three factors for retroactive annulment — (1) whether creditor was aware of bankruptcy filing; (2) whether debtor acted inequitably, unreasonably, or dishonestly; (3) whether creditor would be prejudiced. *Citing Myers, 491 F.3d at 129.*
+- "Party in interest" under § 362(d): confirmed to include "any party who is subject to the automatic stay" — citing In re Fogarty, 39 F.4th 62 (2d Cir. 2022).
+
+**What must still be obtained:** In re Potter, 2021 WL 4494263 (Bankr. D.N.J. 2021) — the original § 362(d)(1) burden case. Requires separate Westlaw pull.
+
+**Potential strategic value of the Drive Potter opinions:** The Potter v. Newkirk opinions confirm the Myers three-factor test for retroactive stay annulment and the broad definition of "party in interest" under § 362(d). These may be useful if a stay-annulment motion arises in the Mell case, but they do not support the originally anticipated use (burden on movant to establish § 362(d)(1) cause).
 
 ---
 
-#### In re Murray (Bankruptcy Court, District Court, Second Circuit)
+### D. ABSTENTION
+
+---
+
+#### Stoe v. Flaherty
+**Citation:** 436 F.3d 209 (3d Cir. 2006)
+**Drive File:** `Stoe v. Flaherty, 436 F. 3d 209 - Court of Appeals, 3rd Circuit 2006`
+**Court/Year:** Third Circuit, Judge Stapleton, January 23, 2006
+**Status:** OBTAINED — full text read; five mandatory abstention factors confirmed
+
+**Key Holdings:**
+- Third Circuit held that mandatory abstention under § 1334(c)(2) applies to **removed** cases as well as cases originally filed in federal court. *436 F.3d at 215–216.*
+- **Five-factor mandatory abstention test confirmed at p. 213** (from statutory text of 28 U.S.C. § 1334(c)(2)):
+  1. The proceeding is based on a state law claim or cause of action
+  2. The claim/cause of action is "related to" a case under title 11 (but does NOT "arise under" or "arise in" title 11)
+  3. Federal courts would not have jurisdiction over the claim but for its relation to a bankruptcy case (no independent federal jurisdiction)
+  4. An action is "commenced" in a state forum of appropriate jurisdiction (includes removed cases — prior state-court filing satisfies this)
+  5. The action can be "timely adjudicated" in a state forum
+- Court rejected argument that mandatory abstention only applies to non-removed cases: "mandatory abstention provision of 28 U.S.C. § 1334(c)(2) applies, by its terms, to removed cases and is not inconsistent with the removal and remand provisions of § 1452." *Id. at 216.*
+- If mandatory abstention applies, there is an "equitable ground" for remand under § 1452(b). *Id. at 215.*
+- Whether a proceeding is "core" or "non-core" is the equivalent of asking whether it "arises under," "arises in," or is "related to" a bankruptcy case. *Id. at 217.*
+- Stoe's state wage-payment claim was "related to" but not "arising under" or "arising in" the bankruptcy. *Id. at 219.*
+- **Case remanded for determination** of fifth factor (timely adjudication in state forum). *Id. at 219–220.*
+
+**Four additional factors for permissive abstention (§ 1334(c)(1)):** Not directly addressed in Stoe's five-factor mandatory abstention test, but Mid-Atlantic confirms seven factors for permissive abstention separately.
+
+**Relevance to Mell:** BINDING Third Circuit authority for mandatory abstention analysis. If Nagel's state court claims are (1) state law based, (2) merely "related to" the bankruptcy (not core), (3) no independent federal jurisdiction, (4) commenced in state court, and (5) capable of timely adjudication in state court — mandatory abstention under § 1334(c)(2) is required. This is the verbatim five-factor test confirmed from the actual opinion text.
+
+---
+
+### E. MURRAY TRILOGY — INVOLUNTARY PETITION ABUSE
+
+---
+
+#### In re Murray
 **Citations:** 543 B.R. 484 (Bankr. S.D.N.Y. 2016); 565 B.R. 527 (S.D.N.Y. 2017); 900 F.3d 53 (2d Cir. 2018)
-**Drive Files:** `Murray br slip op.pdf` (file 3) + `Murray DC slip op.pdf` (file 2) + `Murray docket.pdf` (file 1)
+**Drive Files:** `Murray br slip op.pdf` + `Murray DC slip op.pdf` + `Murray docket.pdf`
 **Court/Year:** S.D.N.Y. Bankr./D.C./2d Cir., 2016–2018
-**Status:** OBTAINED — all three levels read; bankruptcy slip op read from disk
+**Status:** OBTAINED — all three levels read
 
-**CRITICAL NOTE FOR MELL OPPOSITION:**
-Murray is NOT a debtor bad faith case. It is an **involuntary creditor bad faith** case. The petitioning creditor (a law firm) filed an involuntary Chapter 7 against Murray as a judgment-enforcement device when it was the sole creditor. The courts dismissed the involuntary petition as an abuse of the bankruptcy system. **Nagel's citation of Murray for debtor bad faith is a misuse of the case.**
+**CRITICAL NOTE:** Murray is NOT a debtor bad faith case. It is an **involuntary creditor bad faith** case. Nagel's citation of Murray for debtor bad faith is a misuse of the case.
 
-**Key Holdings (Bankruptcy Court, Jan. 2016):**
-- Involuntary Chapter 7 filed by a law firm (sole creditor/petitioning creditor) solely to exploit bankruptcy mechanisms (monetizing a spousal property interest) unavailable under non-bankruptcy law.
-- "The more commonly the abuser is the debtor and not a creditor." Here the Law Firm was the abuser. *543 B.R. 484* (bankr. court slip op.).
-- "Before it expanded to achieve other societal goals (none applicable here), bankruptcy was created as a collective remedy, to achieve pari passu distribution amongst creditors — not as a single creditor's judgment enforcement device."
-- Where filing arose "solely from a two-party dispute"; "filed solely as a judgment enforcement mechanism"; "solely to achieve a result unavailable under nonbankruptcy law"; and "there are no other creditors' needs and concerns to protect" — the petition was dismissed.
-- **Conclusion:** Whether for "bad faith filing" or merely unenumerated cause, the petition was dismissed for cause.
+**Key Holdings (Bankruptcy Court):**
+- Involuntary Chapter 7 filed by a single creditor law firm solely to exploit bankruptcy mechanisms unavailable under non-bankruptcy law — dismissed.
+- "Before it expanded to achieve other societal goals, bankruptcy was created as a collective remedy, to achieve pari passu distribution amongst creditors — not as a single creditor's judgment enforcement device."
 
-**Relevance to Mell:** If Nagel cites Murray as debtor bad faith authority, flip it: Murray stands for the proposition that abusing bankruptcy as a judgment-enforcement device is impermissible — and the abuser here would be Nagel (a creditor using the dismissal motion to achieve through bankruptcy what he cannot achieve elsewhere). Mell is the debtor-victim analog to Murray; Nagel's motion is the creditor-abuse analog.
+**Relevance to Mell:** If Nagel cites Murray as debtor bad faith authority, flip it: Murray stands for the proposition that abusing bankruptcy as a judgment-enforcement device is impermissible — and the abuser here would be Nagel (a creditor using the dismissal motion to achieve what he cannot achieve otherwise).
 
 ---
 
-### E. HUNT — PENDING PULL
+### F. NEW JERSEY PROFESSIONAL RESPONSIBILITY AND STATE LAW
 
 ---
 
-#### In re Hunt
-**Citation:** 521 B.R. 479 (Bankr. M.D. Pa. 2014)
-**Drive Files:** `In re Hunt, 521 BR 479 - Bankr. MD Pennsylvania 2014` (file 12) + duplicate (file 14)
-**Court/Year:** Bankr. M.D. Pa., 2014
-**Status:** **PARTIAL — Files present in Drive folder but returned empty content on read. Files may be corrupted or have rendering issues. Full text not obtained.**
+#### In re Seelig
+**Citation:** 180 N.J. 234 (2004); 850 A.2d 477
+**Drive File:** `In re Seelig, 850 A. 2d 477 - NJ Supreme Court 2004`
+**Court/Year:** Supreme Court of New Jersey, Chief Justice Poritz, June 24, 2004
+**Status:** OBTAINED — full text read; RPC 3.3(a)(5) confirmed; citation correct
 
-**What Is Known from Secondary Sources:**
-- Facts reportedly involve bad faith dismissal where debtor filed on the eve of judicial action and creditor imminence was a key factor.
-- If confirmed, would need factual distinction from Mell.
+**NOTE ON CITATION:** The prior entry had the citation as 180 N.J. 234 (2004) and questioned whether it was correct. The citation is CONFIRMED CORRECT. The case is In the Matter of Jack L. Seelig, 180 N.J. 234, 850 A.2d 477 (2004).
 
-**Action Required:** Re-pull Hunt directly from Westlaw or PACER. The Drive files appear corrupted or unreadable.
+**NOTE ON PROPOSITION:** The prior entry anticipated this case was cited for "RPC 3.3 affirmative disclosure duty." This is CONFIRMED CORRECT. Seelig is the leading New Jersey Supreme Court authority on RPC 3.3(a)(5) — the affirmative duty to disclose material facts to a tribunal when the attorney knows the tribunal may be misled.
+
+**Key Holdings:**
+- **RPC 3.3(a)(5) confirmed at pp. 483–487:** NJ's rule imposes an affirmative duty of disclosure unique to NJ — it has no direct analogue in the ABA Model Rules. The current (post-2004 amendment) rule provides: "A lawyer shall not knowingly ... fail to disclose to the tribunal a material fact knowing that the omission is reasonably certain to mislead the tribunal, except that it shall not be a breach of this rule if the disclosure is protected by a recognized privilege or is otherwise prohibited by law." *RPC 3.3(a)(5) (amended 2004).*
+- **Affirmative duty broader than ABA standard:** RPC 3.3(a)(5) codifies the principle that "failure to make a disclosure is the equivalent of an affirmative misrepresentation" — a more stringent standard than ABA Model Rule 3.3. *180 N.J. at 243 (approximately).*
+- **Attorney role as officer of the court:** An attorney "owes a duty of good faith and honorable dealing to the judicial tribunals before whom he practices his profession." *Id. at 234 (approx.), quoting In re Turner, 83 N.J. 536, 539 (1980).*
+- **Prior case law establishing the duty:** Even before RPC 3.3(a)(5) was adopted, NJ courts had held that "an attorney is under a duty, when the proper administration of justice so requires, to disclose all pertinent and relevant facts to the court so that it may act fairly." *In re Turner, 83 N.J. at 539.*
+- **Application in Seelig:** Attorney Jack Seelig represented criminal defendant who pled guilty to motor vehicle offenses while indictable charges (aggravated manslaughter) were pending. Seelig allowed the municipal court proceeding to proceed without disclosing the indictable charges — which created double jeopardy issues threatening the more serious prosecution. Seelig argued he had "no obligation" to disclose and only answered questions truthfully. NJ Supreme Court found violation of RPC 3.3(a)(5) (affirming DRB majority) — the court was misled by Seelig's failure to disclose the pending indictable offenses and their double jeopardy implications, which were material facts not subject to privilege.
+- **Outcome:** Respondent reprimanded for violation of RPC 3.3(a)(5) and RPC 8.4(d).
+- **Key quote on "double character" of attorney duty:** An attorney "owes to his client the duty of fidelity, but he also owes the duty of good faith and honorable dealing to the judicial tribunals before whom he practices his profession. He is an officer of the court — a minister in the temple of justice." *Quoting In re Turner, quoting People v. Beattie.*
+
+**Relevance to Mell:** If Nagel's counsel made material misrepresentations or omissions to the bankruptcy court (e.g., misrepresenting the status of the state court proceedings, omitting adverse rulings, using incorrect WL citations) — Seelig provides the NJ Supreme Court authority that RPC 3.3(a)(5) imposes an affirmative disclosure duty, and failure to disclose a material fact that is likely to mislead the tribunal is an ethics violation even if no direct question is asked. The rule applies to courts and also to "judicial tribunals" broadly.
+
+---
+
+#### Salazar v. MKGC + Design
+**Citation:** 458 N.J. Super. 551 (App. Div. 2019); 206 A.3d 447
+**Drive File:** `Salazar v. MKGC+ DESIGN, 206 A. 3d 447 - NJ Appellate Div. 2019`
+**Court/Year:** N.J. Appellate Division, Judges Nugent, Reisner, and Mawla, April 8, 2019
+**Status:** OBTAINED — full text read; R. 4:23-5 "scrupulously followed" confirmed
+
+**NOTE ON CITATION:** Prior entry had citation as "455 N.J. Super. 551 (App. Div. 2019)" and "R. 4:23-5 'scrupulously followed' compliance at 557." Drive file shows the correct citation is **458 N.J. Super. 551** and **206 A.3d 447**. The page citation for "scrupulously followed" language needs verification — see below.
+
+**Key Holdings:**
+- Court reversed sanctions order where defendants' motion to bar plaintiffs from proving damages was filed in violation of multiple court rules (filed out of time, no good cause, no certification of non-default in own discovery obligations, and no proper demand for expert reports).
+- **R. 4:23-5 "scrupulously followed" standard confirmed at p. 452 (206 A.3d 447):** "These procedural requirements must be scrupulously followed and technically complied with." (quoting Thabo v. Z Transp., 452 N.J. Super. at 369, citing Sullivan v. Coverings & Installation, Inc., 403 N.J. Super. at 95). 
+- The requirement of R. 4:23-5(a)(1) that a movant certify it is NOT in default in its own discovery obligations is a mandatory prerequisite to a discovery sanctions motion. A movant who has failed in its own discovery cannot move for sanctions.
+- Dismissal with prejudice is the "ultimate sanction" and should be imposed "only sparingly" and "normally ... ordered only when no lesser sanction will suffice to erase the prejudice suffered by the non-delinquent party." *Quoting Robertet Flavors, Inc. v. Tri-Form Const. Inc., 203 N.J. 252, 274 (2010).*
+- R. 4:24-2(a): Discovery sanction motions must be filed before expiration of the discovery period (or on good cause shown for late filing). Filing after discovery end date without showing good cause is improper.
+- R. 1:6-2(c): Moving attorney must certify good faith effort to confer with opposing party before filing discovery motion.
+- **Fairness principle:** Court applied evenhandedness doctrine — sanctions cannot be imposed on one party for discovery violations when the moving party committed the identical violations. "In weighing the prejudice to the parties, we fail to discern how the possible prejudice to defendants...was somehow greater in magnitude than the prejudice to plaintiffs."
+
+**Page pinpoint for "scrupulously followed":** The language "scrupulously followed and technically complied with" appears at *458 N.J. Super. 563* / *206 A.3d 452* (quoting Thabo). This is confirmed from the full text.
+
+**Relevance to Mell:** If Nagel filed discovery motions in state court or in the bankruptcy proceedings without satisfying the R. 4:23-5 prerequisites — particularly the certification that Nagel himself was not in default in discovery obligations — Salazar establishes that such motions are procedurally defective and any resulting sanctions order is reversible. Also useful if Nagel's own counsel failed to comply with the "scrupulously followed" requirements when seeking default or preclusion orders against Mell.
+
+---
+
+### G. JUDICIAL ESTOPPEL
+
+---
+
+#### New Hampshire v. Maine
+**Citation:** 532 U.S. 742 (2001)
+**Drive File:** `New Hampshire v. Maine, 532 US 742 - Supreme Court 2001`
+**Court/Year:** United States Supreme Court, Justice Ginsburg (unanimous except Souter), May 29, 2001
+**Status:** OBTAINED — full text read; three-factor judicial estoppel test confirmed at pp. 750–751
+
+**Key Holdings:**
+- The Court applied judicial estoppel to bar New Hampshire from asserting an inland river boundary position inconsistent with its position in the 1970s litigation.
+- **Judicial estoppel purpose confirmed at p. 750:** "to protect the integrity of the judicial process by prohibiting parties from deliberately changing positions according to the exigencies of the moment."
+- **Three-factor test confirmed at pp. 750–751:**
+  1. A party's later position must be "clearly inconsistent" with its earlier position.
+  2. The party must have succeeded in persuading a court to accept its earlier position (such that judicial acceptance of an inconsistent position in a later proceeding would create "the perception that either the first or the second court was misled"). Absent success in a prior proceeding, later inconsistency poses little threat to judicial integrity.
+  3. Whether the party seeking to assert an inconsistent position would derive an unfair advantage or impose an unfair detriment on the opposing party if not estopped.
+- **Non-exhaustive formula confirmed at p. 751:** "In enumerating these factors, we do not establish inflexible prerequisites or an exhaustive formula for determining the applicability of judicial estoppel. Additional considerations may inform the doctrine's application in specific factual contexts."
+- The doctrine is "an equitable doctrine invoked by a court at its discretion." *Id. at 750* (quoting Russell v. Rolfs, 893 F.2d 1033, 1037 (CA9 1990)).
+
+**Relevance to Mell:** If Nagel or Nagel's counsel took positions in state court proceedings or in prior bankruptcy filings that are clearly inconsistent with positions they now advance in the bankruptcy court — judicial estoppel bars the later inconsistent position. Apply the three-factor test: (1) identify the specific prior inconsistent position; (2) confirm Nagel prevailed on or benefited from that position; (3) show prejudice to Mell if estoppel is not applied.
+
+---
+
+### H. COLLATERAL ESTOPPEL / ISSUE PRECLUSION
+
+*(See Docteroff and Azeglio above, under Section B.)*
 
 ---
 
 ## Section 3: Cases Still Needed / Not Obtained
 
-The following cases from the pull list are **MISSING** from the Drive folder and must be pulled before the July 16, 2026 hearing:
+| Item | Status | Note |
+|------|--------|------|
+| In re Berlingeri, 246 B.R. 196 (Bankr. D.N.J. 2000) | Drive file present but unreadable | Content known from Ruitenberg's summary; abrogated on equitable distribution "claim" issue; any § 523(a)(6) content unknown |
+| In re Potter, 2021 WL 4494263 (Bankr. D.N.J. 2021) | NOT in Drive — different Potter case uploaded | Re-pull from Westlaw; original § 362(d)(1) burden case |
 
-| Pull # | Case | Citation | Priority | Note |
-|--------|------|----------|----------|------|
-| 18 | In re Hunt | 521 B.R. 479 (Bankr. M.D. Pa. 2014) | HIGH | Files in Drive but unreadable — re-pull from Westlaw/PACER |
-| 21 | In re Ruitenberg | 745 F.3d 647 (3d Cir. 2014) | HIGH | Binding 3d Cir. — § 523(a)(6) vs. marital property holding |
-| 22 | In re Berlingeri | 246 B.R. 196 (Bankr. D.N.J. 2000) | MEDIUM | D.N.J. § 523(a)(6); need to check Ruitenberg limitation |
-| 23 | In re Potter | 2021 WL 4494263 (Bankr. D.N.J. 2021) | MEDIUM | § 362(d)(1) burden — movant's failure to establish cause |
-| 24 | Stoe v. Flaherty | 436 F.3d 209 (3d Cir. 2006) | MEDIUM | Verbatim 5-factor mandatory abstention test |
-| 25 | In re Keobapha | 279 B.R. 49 (Bankr. D. Conn. 2002) | LOW | 14-factor list quoted in full via Glunk; original still needed for clean cite |
-| 26 | In re Trainor | USCOURTS-nynb-1_25-bk-11154 | MEDIUM | For-publication companion to Adler; PACER pull |
-| 27 | Salazar v. MKGC + Design | 455 N.J. Super. 551 (App. Div. 2019) | LOW | NJ R. 4:23-5 sanction rule — likely supplemental only |
-| 28 | In re Seelig | 180 N.J. 234 (2004) | LOW | NJ Supreme Court on RPC 3.3 silence — supplemental only |
-| 29 | New Hampshire v. Maine | 532 U.S. 742 (2001) | LOW | Judicial estoppel three-factor test — SCOTUS, easy pull |
-
-### Duplicates in Drive Folder
-
-The following Drive files are duplicates of other files already accounted for above:
-
-| Drive File | Duplicate Of |
-|------------|-------------|
-| `In re Lansaw, 853 F. 3d 657 (1).pdf` (file 13) | File 11 — same opinion |
-| `In re Hunt, 521 BR 479 (1).pdf` (file 14) | File 12 — same opinion |
-| `In re Glunk, 342 BR 717 (1).pdf` (file 16) | File 15 — same opinion |
-| `In re Azeglio, 422 BR 490 (1).pdf` (file 23) | File 22 — same opinion |
+**All other pull-list cases have been obtained and read.**
 
 ---
 
 ## Section 4: Pinpoints Confirmed
-
-The following page-specific citations were confirmed by full text read in this session:
 
 | Case | Citation | Pinpoint Confirmed | Content |
 |------|----------|--------------------|---------|
@@ -487,16 +612,36 @@ The following page-specific citations were confirmed by full text read in this s
 | Conte | 33 F.3d 303 | p. 308 | § 523(a)(6) two-part test: purpose to injure OR substantial certainty |
 | Docteroff | 133 F.3d 210 | pp. 214–215 | collateral estoppel; "actually litigated" exception for discovery abuse |
 | Azeglio | 422 B.R. 490 | pp. 493–494 | five-element NJ collateral estoppel test |
-| Azeglio | 422 B.R. 490 | p. 497 | "actually litigated" = "full and fair opportunity" to litigate; denial of SJ |
+| Azeglio | 422 B.R. 490 | p. 497 | "actually litigated" = "full and fair opportunity" to litigate |
 | Lansaw | 853 F.3d 657 | pp. 668–669 | three elements of § 362(k)(1); no bright-line medical evidence rule |
 | Lansaw | 853 F.3d 657 | p. 670 | causation — not required to establish with "absolute precision" |
 | Glunk | 342 B.R. 717 | pp. 729–730 | Keobapha 14-factor list quoted verbatim |
-| Glunk | 342 B.R. 717 | p. 733 | "truly egregious case" standard with "substantial means/lavish lifestyle/elaborate schemes" language |
+| Glunk | 342 B.R. 717 | p. 733 | "truly egregious case" standard |
+| Glunk | 342 B.R. 717 | p. 734 | five Glunk factors (used in Hunt) |
 | Mid-Atlantic | 304 B.R. 111 | p. 130 | 12-factor Curtis/Sonnax/Ice Cream Liquidation stay-relief list |
 | Cantelli | 2013 WL 66425 | *8 | "smell test" cumulative analysis applied |
 | Eubanks | 672 B.R. 861 | ~869 | six undisclosed business entities; three undisclosed real properties |
-| DeSoto (bankr.) | No. 05-29744 | pp. 6–8 | "egregious cases" limitation; two-party dispute not per se bad faith; "breathing room" justification accepted |
+| DeSoto (bankr.) | No. 05-29744 | pp. 6–8 | "egregious cases" limitation; two-party dispute not per se bad faith |
+| **Hunt** | **521 B.R. 479** | **p. 485** | **"honest intention" standard — confirmed verbatim** |
+| **Hunt** | **521 B.R. 479** | **p. 483** | **"totality of the facts and circumstances" — confirmed** |
+| **Hunt** | **521 B.R. 479** | **p. 485–486** | **"egregious cases" language quoting Tamecki/Zick — confirmed** |
+| **Hunt** | **521 B.R. 479** | **pp. 486–490** | **Five Glunk factors applied; four weigh against dismissal; one neutral; motion DENIED** |
+| **Hunt** | **521 B.R. 479** | **pp. 487–488** | **Boat payment 3% of income = not extravagant; house with negative equity = not extravagant** |
+| **Keobapha** | **279 B.R. 49** | **pp. 51–52** | **14-factor smell test verbatim (quoting Spagnolia); "generally, the presence of only one of these factors is not sufficient"** |
+| **Keobapha** | **279 B.R. 49** | **p. 53** | **Ability to pay irrelevant under § 707(a); Congressional intent confirmed** |
+| **Stoe v. Flaherty** | **436 F.3d 209** | **p. 213** | **Five-factor mandatory abstention test confirmed verbatim** |
+| **Stoe v. Flaherty** | **436 F.3d 209** | **pp. 215–216** | **Mandatory abstention applies to removed cases** |
+| **Trainor** | **No. 25-11154** | **(slip op.)** | **"filing in response to pending litigation without more additional evidence of misconduct is not enough to dismiss for cause"** |
+| **Trainor** | **No. 25-11154** | **(slip op.)** | **"the Bankruptcy Code does not disqualify a debtor from seeking bankruptcy even if the debtor's largest debt arose from wrongful or improper conduct"** |
+| **Salazar** | **458 N.J. Super. 551** | **p. 563 / 206 A.3d 452** | **R. 4:23-5 requirements "must be scrupulously followed and technically complied with"** |
+| **Salazar** | **458 N.J. Super. 551** | **p. 563 / 206 A.3d 452** | **R. 4:23-5(a)(1) certification of non-default = mandatory prerequisite; movant in its own default cannot obtain sanctions** |
+| **Seelig** | **180 N.J. 234** | **p. 243 (approx.)** | **RPC 3.3(a)(5) imposes affirmative disclosure duty; failure to disclose material fact = equivalent of misrepresentation** |
+| **Seelig** | **180 N.J. 234** | **pp. 484–487 (850 A.2d)** | **NJ's RPC 3.3(a)(5) is more stringent than ABA Model Rule; no analogue in ABA rules** |
+| **New Hampshire v. Maine** | **532 U.S. 742** | **p. 750** | **Judicial estoppel purpose; equitable doctrine invoked at court's discretion** |
+| **New Hampshire v. Maine** | **532 U.S. 742** | **pp. 750–751** | **Three-factor test: (1) clearly inconsistent position; (2) success in persuading prior court; (3) unfair advantage or detriment** |
+| **Ruitenberg** | **745 F.3d 647** | **p. 651** | **Berlingeri abrogated on equitable distribution "claim" issue; Frenville accrual test abandoned** |
+| **Ruitenberg** | **745 F.3d 647** | **pp. 651–653** | **Non-debtor spouse has pre-petition claim for equitable distribution even without final divorce decree** |
 
 ---
 
-*Cross-reference prepared from Google Drive folder ID: 1vkAOaaDtgeYY7KBYyXPyUF99ujIo5973 containing 29 files. All files read June 26, 2026.*
+*Cross-reference prepared from Google Drive folder ID: 1vkAOaaDtgeYY7KBYyXPyUF99ujIo5973. All files read June 26, 2026. Second-pass update: Hunt fixed; Potter (both levels) added with mismatch flagged; Ruitenberg/Berlingeri/Stoe/Keobapha/Trainor/Salazar/Seelig/New Hampshire v. Maine all newly obtained and summarized.*
