@@ -8,3 +8,4 @@ Thumbs.db
 
 # Dependencies (not used by the static site)
 node_modules/
+__pycache__/
