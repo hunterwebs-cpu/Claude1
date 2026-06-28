@@ -9,3 +9,6 @@ Thumbs.db
 # Dependencies (not used by the static site)
 node_modules/
 __pycache__/
+
+# Claude Code worktrees (created by agent isolation mode)
+.claude/worktrees/
