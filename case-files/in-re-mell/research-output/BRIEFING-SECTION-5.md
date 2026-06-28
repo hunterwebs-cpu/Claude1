@@ -1,3 +1,5 @@
+> **NOTE:** This section file has been superseded by COMPREHENSIVE-BRIEFING.md for the July 16, 2026 hearing. The comprehensive briefing is the authoritative document.
+
 # COMPREHENSIVE INTERNAL BRIEFING — SECTION 5
 ## In re S. Bradley Mell, Case No. 26-16834-EJO (Bankr. D.N.J.)
 ## SECTION 5: FULL LEGAL ARGUMENTS — LAW-TO-FACTS ANALYSIS WITH COMPLETE CITATION SUPPORT

@@ -1,3 +1,5 @@
+> **NOTE:** This section file has been superseded by COMPREHENSIVE-BRIEFING.md for the July 16, 2026 hearing. The comprehensive briefing is the authoritative document.
+
 # COMPREHENSIVE INTERNAL BRIEFING — PART 1 OF [6]
 ## In re S. Bradley Mell, Case No. 26-16834-EJO (Bankr. D.N.J.)
 ## Opposition to Motion to Dismiss (Doc. 8), Motion for Stay Relief, and Abstention Motion
