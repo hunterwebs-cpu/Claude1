@@ -40,24 +40,28 @@ def extract_cases(text: str) -> list[str]:
     raw = set()
 
     # Pattern 1: "In re Name, Vol Rep Page (Court Year)"
+    # Allow optional leading asterisk from markdown italics
     for m in re.finditer(
-        r'In re [A-Z][A-Za-z\s\.\-\']+(?:LLC|LP|Inc\.|Corp\.|Co\.)?'
-        r',\s*\d+[^,\n\[\]]{3,50}\(\s*[^)]*\d{4}\)',
+        r'\*?In re [A-Z][A-Za-z\s\.\-\']+(?:LLC|LP|Inc\.|Corp\.|Co\.)?'
+        r'\*?,\s*\d+[^,\n\[\]]{3,50}\(\s*[^)]*\d{4}\)',
         text
     ):
         raw.add(m.group().strip())
 
     # Pattern 2: "Name v. Name, Vol Rep Page (Court Year)"
+    # Allow optional leading asterisk from markdown italics
     for m in re.finditer(
-        r'[A-Z][A-Za-z\s\.\-\']+\bv\.\s+[A-Z][A-Za-z\s\.\-\']+(?:,\s*\d+[^,\n\[\]]{3,50}\(\s*[^)]*\d{4}\))',
+        r'\*?[A-Z][A-Za-z\s\.\-\']+\bv\.\s+[A-Z][A-Za-z\s\.\-\']+\*?'
+        r'(?:,\s*\d+[^,\n\[\]]{3,50}\(\s*[^)]*\d{4}\))',
         text
     ):
         raw.add(m.group().strip())
 
-    # Clean up: remove trailing punctuation, footnote markers, VERIFY tags
+    # Clean up: strip markdown italic markers, trailing punctuation
     cleaned = set()
     for cite in raw:
-        cite = re.sub(r'\s*\[(?:VERIFY|BINDING|PERSUASIVE)[^\]]*\]', '', cite)
+        cite = re.sub(r'^\*+', '', cite)   # leading asterisks
+        cite = re.sub(r'\*+', '', cite)    # mid-string asterisks (closing italic)
         cite = re.sub(r'[\s\.\,;:]+$', '', cite)
         cite = cite.strip()
         if len(cite) > 15:
@@ -134,13 +138,6 @@ def build_toa_latex(cases: list[str], statutes: list[str], rules: list[str]) -> 
     lines = []
     lines.append(r'\thispagestyle{frontmatter}')
     lines.append(r'\section*{TABLE OF AUTHORITIES}')
-    lines.append(
-        r'\textit{Binding Third Circuit and Supreme Court authorities are '
-        r'marked \textbf{(BINDING)}. All other federal circuit authority '
-        r'is marked \textbf{(PERSUASIVE)}. Citations marked '
-        r'\textcolor{verifyAmber}{\textbf{[VERIFY]}} require Westlaw or '
-        r'PACER confirmation before filing.}'
-    )
     lines.append(r'\vspace{0.5em}')
 
     def authority_table(items: list[str], label: str) -> list[str]:
@@ -240,13 +237,6 @@ def preprocess_markdown(text: str) -> str:
         # Demote #### to ### (paragraph -> subsubsection looks better)
         if line.startswith('#### '):
             line = '### ' + line[5:]
-
-        # Style [VERIFY BEFORE FILING] and [VERIFY PINPOINT] flags
-        line = re.sub(
-            r'\[VERIFY(?:[^\]]*)\]',
-            r'\\textbf{\\textcolor{verifyAmber}{[VERIFY BEFORE FILING]}}',
-            line
-        )
 
         out.append(line)
         i += 1
