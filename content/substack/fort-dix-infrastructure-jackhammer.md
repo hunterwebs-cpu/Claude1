@@ -88,7 +88,9 @@ WARNING: THE BP-8 MUST BE FILED WITHIN 20 DAYS OF THE INCIDENT OR CONDITION BECO
 
 If the informal resolution produces no action, the BP-9 to the warden is next. Then the BP-10 to the regional office. Then the BP-11 to the central office. Every written denial is a brick in a legal foundation.
 
-For ADA and Rehabilitation Act issues specifically — the failure to maintain accessible facilities is a civil rights claim, not just a maintenance complaint. The administrative record from those remedy forms is what gets you to federal court if it comes to that. Don't let the fear of retaliation stop you from creating the record. The record is the protection.
+For inmates with mobility restrictions, there is a separate and powerful tool: the BOP has an entire Program Statement governing how inmates seek disability-related accommodations. That process has real teeth, and I have used it successfully for people inside. It deserves its own article — and it will get one. But it starts in the same place everything starts: a written record.
+
+That is the point I want you to understand above everything else in this section. The administrative remedy process is the only power an inmate has to document what is happening to them. Without it, you have no case. Not in the warden's office, not at the regional level, not in federal court. Judges do not want to hear that conditions were bad if you cannot show that you told the institution and they did nothing. The BP-8 through BP-11 chain is not a formality — it is the foundation. Every denial, every non-response, every brush-off in writing is evidence. Build the record. The record is the only protection you have.
 
 ---
 
