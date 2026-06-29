@@ -34,7 +34,7 @@ That is where we are.
 
 The hole is not even the worst part.
 
-Right at the edge of the unfinished work — a few inches from where the crew stopped — there was a pre-existing hazard in the sidewalk. Not part of the torn-up section. Just a hole that had been sitting there. While the crew was actively pouring fresh concrete nearby, with all the equipment and material on-site, they put a cone on it and kept moving. Then they stopped moving entirely and left.
+The crew created a triangular hole in the process — roughly three feet by three feet. While they were actively pouring fresh concrete a few inches away, with all the material and equipment right there, they put a cone on it and left it open. Then they stopped moving entirely and left the compound.
 
 My housing unit has a population that includes inmates on crutches, in wheelchairs, using walkers. They navigate this route every day — to the chow hall, to medical, to programming. There is no other route.
 
