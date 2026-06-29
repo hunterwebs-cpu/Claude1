@@ -60,9 +60,9 @@ Then there is the condemned building.
 
 It has a large red sign — no entry without proper authorization. That sign has been there for years. Right next to the building, close enough that you could reach out and touch the wall from where they sit, are bleachers. Active, in-use bleachers where inmates sit every day.
 
-I reported this to an associate warden. Her response: *they should never have put them there.*
+Several years ago, I reported this to an associate warden. Her response: *they should never have put them there.*
 
-The bleachers are still there.
+The bleachers are still there. She was eventually promoted.
 
 I want to sit with that for a moment. A senior BOP official at this facility acknowledged out loud that placing bleachers next to a condemned structure was wrong. She said it directly. And then nothing happened. The bleachers didn't move. The sign didn't change. The building didn't get repaired or torn down.
 
