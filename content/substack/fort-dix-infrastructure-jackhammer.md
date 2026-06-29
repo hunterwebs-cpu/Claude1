@@ -40,7 +40,7 @@ My housing unit has a population that includes inmates on crutches, in wheelchai
 
 Here is what makes it worse: there is no accessible ramp to enter or exit this building at all. Not a broken one. Not one that needs repair. One that does not exist. The BOP claims it abides by the Americans with Disabilities Act and the Rehabilitation Act. The crew was right there. The concrete was wet. Nobody built the ramp.
 
-The reason no one officially complains about this is not indifference. The inmates who need that ramp are afraid that if they file a grievance, the BOP's answer will be to move them — a transfer to an MRE-accessible housing unit, which could mean leaving Fort Dix entirely, losing whatever support system they've built here, potentially disrupting a halfway house placement. The system has trained people to stay quiet by making the solution worse than the problem.
+The reason no one officially complains about this is not indifference. The inmates who need that ramp are afraid that if they file a grievance, the BOP's answer will be to move them — a transfer to a more accessible housing unit, which could mean leaving Fort Dix entirely, losing whatever support system they've built here, potentially disrupting a halfway house placement. The system has trained people to stay quiet by making the solution worse than the problem.
 
 ---
 
