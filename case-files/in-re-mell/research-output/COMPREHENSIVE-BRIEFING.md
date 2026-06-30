@@ -62,7 +62,283 @@ Under 11 U.S.C. § 548(a)(1), the two-year lookback for federal fraudulent trans
 
 #### The January 2026 Summary Judgment Record — Asset by Asset
 
-On January 15, 2026, both trusts filed motions for summary judgment in ESX-L-7200-19. Patrick J. Whalen, Esq. filed for the SBM Trust (Trans ID: LCV2026127340); A. Ross Pearlson and Craig M. Wagenblast of Chiesa Shahinian & Giantomasi PC filed for the KRM Trust (Trans ID: LCV2026117428), returnable March 20, 2026. Together the motions submitted 68 numbered statements of undisputed material fact, supported by deposition transcripts, trust instruments, deed records, closing statements, and bank records. The record those motions built covers every asset Nagel characterizes as fraudulently sheltered.
+On January 15, 2026, both trusts filed motions for summary judgment in ESX-L-7200-19. Patrick J. Whalen, Esq. filed for the SBM Trust (Trans ID: LCV2026127340); A. Ross Pearlson and Craig M. Wagenblast of Chiesa Shahinian & Giantomasi PC filed for the KRM Trust (Trans ID: LCV2026117428), returnable March 20, 2026. Together the motions submitted 119 numbered statements of undisputed material fact — 63 in the SBM Trust motion (Whalen, Trans ID: LCV2026127340) and 56 in the KRM Trust motion (Pearlson/Wagenblast, Trans ID: LCV2026117428) — supported by deposition transcripts, trust instruments, deed records, closing statements, and bank records. The record those motions built covers every asset Nagel characterizes as fraudulently sheltered. Both statements are reproduced verbatim below.
+
+---
+
+##### SBM Trust Statement of Material Facts (Whalen, Trans ID: LCV2026127340)
+
+*Defendant Steven Bradley Mell 2012 Family Trust's Statement of Material Facts Pursuant to Rule 4:46-2 — Filed January 15, 2026*
+
+**A. Plaintiff's Claims**
+
+1. Plaintiff B.B. brought this civil action against Defendant Steven Bradley Mell 2012 Family Trust ("SBM Trust") for damages sustained as a result of sexual encounters she had with Defendant Kim Mell's then-husband, Defendant S. Bradley Mell ("Brad Mell"). (See Plaintiff's Second Amended Complaint ("SAC") at LCV20212933660.)
+
+2. As defined by the statute, N.J.S.A. 25:2-25, et. seq. ("NJUVTA"), the SBM Trust is not a "debtor" to the Plaintiff.
+
+3. As defined by the statute, N.J.S.A. 25:2-25, et. seq. ("NJUVTA"), Plaintiff is not a "creditor" of the SBM Trust.
+
+4. The only Count in Plaintiff's Second Amended Complaint against the SBM Trust is Count Fifteen. (See Plaintiff's SAC at LCV20212933660.)
+
+5. The only claims contained in Count Fifteen against the SBM Trust are (a) unjust enrichment; and (b) constructive trust. Id.
+
+**B. The SBM Trust Was Formed In 2012, 5 Years Before Defendant Brad Mell's Sexual Misconduct Involving Plaintiff.**
+
+6. The inappropriate sexual encounters between Plaintiff and Brad Mell went on from approximately June 20, 2017 through November 17, 2017. (See Plaintiff's SAC at ¶ 83.)
+
+7. Plaintiff has not alleged any contractual relationship or indirect quasi-contractual link between herself and the SBM Trust. (See Plaintiff's SAC at LCV20212933660.)
+
+8. Plaintiff has not and cannot prove any contractual relationship or indirect quasi-contractual link between Plaintiff and the SBM Trust.
+
+9. Plaintiff was not aware of the existence of the SBM Trust until this lawsuit. (See Exhibit 1 to the Certification of Patrick J. Whalen: 7/03/2025 Plaintiff Dep. Trans. at 173:3-14.)
+
+10. The SBM Trust was formed on or about December 18, 2012, with Steven Bradley Mell ("Brad Mell") as the Grantor and his children, Emily, Eliza, and William, and his ex-wife Kim, as the designated beneficiaries. (See SBM Trust Agreement Exhibit 2 to the Certification of Patrick J. Whalen.) (See also Exhibit 3 to the Whalen Cert., 9/22/2021 Brad Mell Dep. at 160:9-24; and Exhibit 4 to the Whalen Cert: 10/06/2021 Kim Mell Dep. Trans. at 115:10-18.)
+
+11. At his deposition in September 2021, Defendant Brad Mell testified that the SBM Trust was formed in 2012 for estate planning purposes and to support his children. (See Exhibit 3 to the Whalen Cert. at 160:9-24.)
+
+12. The purpose of the SBM Trust was to provide for the health and welfare of Kim Mell and her three children. Specifically, Article 3 A of the Trust Agreement states in pertinent part as follows: "Until the date of death of the survivor of KIMBERLY and the Grantor (the 'Division Date'), the Trustee, at any time or times that she deems it advisable, may pay or apply to or for the benefit of KIMBERLY, the Children and their issue, such sum or sums out of the net income and/or principal of this Trust as the Trustee shall deem advisable to provide for the health, education (including, but not limited to, elementary, secondary, undergraduate, graduate and postgraduate education), maintenance and support of KIMBERLY, the Children and their issue, as well as for any expenses incurred by or for them, or any of them, because of any illness, operation, infirmity, or other medical emergency." (See Exhibit 2 to the Whalen Cert.) (See also Exhibit 3 to the Whalen Cert. at 162:2-9 and Exhibit 4 to the Whalen Cert. Kim Mell Dep. at 116:13-25.)
+
+**C. The Sale of The Bedminster Property.**
+
+13. Prior to Defendant Brad Mell's sexual misconduct against the Plaintiff, Defendant Brad and Kim resided in a house located at 620 Black River Road, Bedminster, New Jersey. Plaintiff expressly acknowledged in her Complaint that "…[t]he house was owned by the Kimberly Mell Trust and the Steven Mell Trust." (See SAC at ¶33.)
+
+14. The Deeds to the Bedminster house confirm that Defendant Brad Mell and Kim transferred 100% of their ownership in the Bedminster house in 2012 to the SBM Trust and the KRM Trust. (See Exhibit 5 to the Whalen Cert.) (See also KRM Trust's Summary Judgment Motion.)
+
+15. Both Trusts owned the house in Bedminster from 2012 on, long before the sexual misconduct involving Defendant Brad Mell and B.B. Id.
+
+16. By no later than December 2012, the house located at 620 Black River Road, Bedminster, New Jersey was owned by the KRM Trust (70%) and the SBM Trust (30%). Id.
+
+17. Since December 2012, the house located at 620 Black River Road, Bedminster, New Jersey was not a marital asset of either Defendant Brad Mell or Kim. Id. (See also the Mell MSA as Exhibit 6 to the Whalen Cert., specifically Section 7.1(d).)
+
+18. Section 7.1(d) of the Mell MSA expressly confirms that these two Family Trusts own the Bedminster Property. Id.
+
+19. Pursuant to the MSA, the Bedminster Property is a Trust Asset, not a marital asset. Id.
+
+20. Plaintiff B.B. was not, and could not have been, a creditor of Defendant Brad Mell (nor was Brad Mell a debtor of Plaintiff B.B.) in December 2012, when the SBM Trust and KRM Trust acquired 100% ownership of the Bedminster house. (See Exhibit 5 to the Whalen Cert.) (See also KRM Trust's Summary Judgment Motion.)
+
+21. Likewise, it is beyond dispute that the SBM Trust is not a debtor to the Plaintiff. Id.
+
+22. At the time of the inappropriate sexual encounters between Plaintiff and Brad Mell, the Bedminster house was owned by both Trusts and not a marital asset. (See Exhibits 5 and 6 to the Whalen Cert.)
+
+23. In April 2019, the house in Bedminster was sold to an unrelated, non-insider, third-party, pursuant to the Mell MSA. (See Exhibit 7 to the Whalen Cert. Closing docs.) (See also ¶34 of Plaintiff's SAC at ECourts Trans. ID: LCV20212933660.)
+
+24. At the time of that sale, the Bedminster house was owned by both the SBM and KRM Trusts. (See Exhibits 5 and 6 to the Whalen Cert.) (See also KRM Trust's Summary Judgment Motion.)
+
+25. Plaintiff makes no allegations that the house was not sold at fair market value. (See SAC at LCV20212933660.)
+
+26. The sale proceeds from the Bedminster property were due to the two Trusts as the owners and Sellers of same. (See Exhibits 5 and 6 to the Whalen Cert.)
+
+27. Consistent with the Mell MSA, the SBM Trust received 30% of the proceeds from this sale. Id.
+
+28. Again, Plaintiff is not a creditor of Defendant the SBM Trust.
+
+29. Brad Mell is the Defendant who harmed the Plaintiff; the SBM Trust is not.
+
+30. Because the SBM Trust is not a debtor to Plaintiff, there could not have been a "transfer" by a "debtor" with respect to the house in Bedminster as required under the NJUVTA, N.J.S.A. 25:25-25(a).
+
+**D. The Sale of The Two Airplanes.**
+
+31. In 2012, Defendant Brad Mell transferred his sole ownership interest with regard to Defendant Aero Care, LLC to the SBM Trust. (See Exhibit 8 attached to the Whalen Cert.) (See also ¶19 of Plaintiff's SAC at LCV20212933660.)
+
+32. Aero Care had been transferred into the SBM Trust back in 2012 — nearly 5 years before B.B. and Brad Mell had any inappropriate sexual encounters. Id.
+
+33. At the time of the inappropriate sexual encounters between Plaintiff and Defendant Brad Mell, the airplanes were owned by the SBM Trust and were not a marital asset. Id.
+
+34. As Plaintiff alleges in her Complaint, Aero Care owned the two planes that were sold. (See ¶20 to Plaintiff's SAC at LCV20212933660.)
+
+35. The Hawker 800XP was sold to Hoover Aviation in Nashville, TN; and the Beech B200 King Jet was sold to Puerto Rico Wire Services, Inc. Id. at ¶22 and ¶25, respectively.
+
+36. Quite logically and expected, as part of the Mell divorce and with Defendant Brad Mell going to jail, the airplanes needed to be sold as the expense in maintaining and insuring them was high and it made no sense to keep them.
+
+37. The purchasers of the airplanes were outside entities — not insiders. (See Exhibits 9 and 10 attached to the Whalen Cert.)
+
+38. The Raytheon Aircraft Company Hawker 800XP (Serial No. 258678) was sold to Hoover Aviation, LLC for a purchase price of $2.45 million less fees. $1,932,159.37 went to Salem Five Cents Saving Bank as a payoff of the underlying loan. (See Exhibit 9 attached to the Whalen Cert.)
+
+39. The sale was effectuated on September 14, 2018. Id.
+
+40. The Beech Super King Air B200 (Serial No. BB-1209) was sold to Trekker Holdings, LLC/Puerto Rico Wire Services Inc. for $1.5 million dollars less fees. $448,485.86 went to Salem Five Cents Savings Bank as a payoff of the underlying loan. (See Exhibit 10 attached to the Whalen Cert.)
+
+41. The sale was effectuated on October 23, 2018. Id.
+
+42. The sale proceeds from both sales were deposited in the SBM bank account. (See Exhibits 9 and 10 to the Whalen Cert.)
+
+43. Plaintiff makes no allegations that the two airplanes were not sold at fair market value nor could she. (See Plaintiff's SAC at ECourts Trans. ID: LCV20212933660.)
+
+44. The two planes were sold at fair market value. (See Facts above.)
+
+45. The SBM Trust owned Aero Care, which owned the two airplanes, from December 2012 on, again, long before the sexual misconduct involving Plaintiff and Defendant Brad Mell, until same were sold to third-parties. (See Exhibit 8 to the Whalen Cert.).
+
+46. Defendant Brad Mell was not ever a beneficiary of the SBM Trust. (See Exhibit 2 to the Whalen Cert. and Facts above.)
+
+47. With respect to the sale of the two airplanes as required under the NJUVTA, N.J.S.A. 25:25-25(a), there could not have been a "transfer" by a "debtor" as the SBM Trust is not and never was a "debtor" of the Plaintiff.
+
+**E. The Sale of The Boat.**
+
+48. Plaintiff alleges "[u]pon information and belief, on October 27, 2021, Defendant Brad Mell, through Michael Simon Scott, orchestrated the transfer of the proceeds of the sale of a Regulator 41 ('the boat') into the KRM Trust to avoid Plaintiff's ability to secure recovery against Brad Mell and directed that proceeds be sent to the SBM Trust in the amount of $140,132.59." (See Count 18 of Plaintiff's SAC at pp. 31-32).
+
+49. Neither Kim nor Defendant SBM Trust sold this boat. Id.
+
+50. Indeed, Plaintiff's Count 18 is not directed at the SBM Trust. Id.
+
+51. Plaintiff has not asserted fraudulent transfer claims related to the boat sale against the SBM Trust. Id.
+
+52. The boat is specifically identified as a marital asset in the Mell April 8, 2019 Marital Settlement Agreement ("MSA"). (See Exhibit 6 to the Whalen Cert.: the Mell MSA.)
+
+53. The Mell MSA memorialized the Mells' understanding that the KRM and SBM Trusts would be reimbursed for the loan used to purchase the boat upon the sale of same. Id.
+
+54. Section 5.3 of the Mell MSA provides in relevant part: "Boat. The parties recognize and agree that in connection with the purchase of the Regulator 41 Boat in July 2016, the Wife and the Husband borrowed the principal sum of approximately $590,000.00 from the [Trusts]. The [Trusts] obtained a bank loan, secured by the marital residence that is owned by [the KRM Trust] (70%) and [the SBM Trust] (30%), and loaned the funds to the Husband and the Wife to purchase the boat. The parties agree and acknowledge that they are endeavoring to sell the boat as reasonably expeditiously as possible. The parties agree that they will cooperate in good faith to cause the prompt sale of the boat. If the sale of the boat precedes the sale of the marital residence, the parties agree that any net proceeds, after payment of sale related expenses, shall be used to pay down the existing bank loan secured by the marital residence. If the sale of the boat occurs after the sale of the marital residence, the parties agree that any net proceeds, after payment of sale related expenses, shall be delivered to [the KRM Trust] (70%) and [the SBM Trust] (30%) to repay the loan to these trusts." Id.
+
+55. The SBM Trust was involved in the financing of the purchase of this boat, and, thus, is/was entitled to be reimbursed the monies it expended for the financing and purchase of that boat in the Summer of 2016. Id.
+
+56. Significantly, that boat was purchased nearly one year prior to Defendant Brad Mell's sexual misconduct against the Plaintiff. Id.
+
+57. Notably, on or about October 29, 2021, Counsel for Defendant SBM Trust (and Kim Mell) alerted the Court to the boat being sold that Plaintiff now complains about. (See Exhibit 11 to the Whalen Cert.: e-filed letter to Court at LCV20212530613.)
+
+58. By advising the Court and Plaintiff Counsel about the boat sale, we started the process that actually thwarted any misperception as to any attempt of anyone fraudulently transferring any assets or violating the Court's January 23, 2020 Order. Id. (See also 1/23/2020 Order at ECourts Trans. ID.: LCV2020179006.)
+
+59. To date, the SBM Trust's portion of the Boat sale proceeds remains in the Trust Account of its Legal Counsel and will continue to do so until disposition of this matter. (See Exhibit 6 to the Whalen Cert.)
+
+**F. The September 26, 2019 Withdrawal of $100,000.00 From a Bank Account of The SBM Trust Deposited Into An Investment Account of The SBM Trust.**
+
+60. On September 26, 2019, $100,000.00 was withdrawn from the SBM Trust's Bank Account and simultaneously deposited into one of the SBM Trust's investment accounts. (See Exhibit 12 to the Whalen Cert.)
+
+61. In Plaintiff's October 2, 2025 filing with the Court in opposition to Defendant Kim's Motion to file Counterclaims, Plaintiff made it clear that she intends to claim that the September 26, 2019 $100,000.00 withdrawal somehow constitutes a "fraudulent transfer"; it clearly does not. (See LCV20252700803 at Page 11.)
+
+62. Obviously, the purpose of depositing funds into an investment account is to attempt to make money grow. (See Exhibit 4 to the Whalen Cert. Kim Dep. at pp. 128, 132, 137-138.)
+
+63. The SBM Trust did not transfer these monies into nor out of the Trust. Instead, the $100,000.00 moved from one SBM Account to another — at all times remaining in the control of the SBM Trust. (See preceding Facts.)
+
+---
+
+##### KRM Trust Statement of Undisputed Material Facts (Pearlson/Wagenblast, Trans ID: LCV2026117428)
+
+*Defendant Kimberly Ruggles Mell 2012 Family Trust's Statement of Undisputed Material Facts — Filed January 15, 2026*
+
+**Plaintiff's Claims Against the KRM Trust**
+
+1. Plaintiff filed the initial Complaint in this matter on October 2, 2019, which did not name the KRM Trust as a defendant.
+
+2. On April 17, 2020, Plaintiff filed a First Amended Complaint, adding the KRM Trust as a defendant and asserting a Fifteenth Cause of Action against the KRM Trust for Unjust Enrichment/Constructive Trust. (See Certification of A. Ross Pearlson dated January 15, 2026 ("Pearlson Cert.") at Ex. 1).
+
+3. Plaintiff pled in generalized terms that "[u]pon information and belief, on or after the start of the criminal investigation into the against [sic] Defendant Mell, Mell and Ruggles Mell transferred assets and/or property of Mell and Ruggles Mell into the Steven Mell and Kimberly Mell Trusts in an effort to avoid plaintiff's ability to secure recovery against him." (Id. ¶ 2 at p. 27).
+
+4. On December 13, 2021, Plaintiff filed a Second Amended Complaint, adding an Eighteenth Cause of Action against the KRM Trust for alleged fraudulent transfer in violation of the Uniform Fraudulent Transfer Act, N.J.S.A. 25:2-20 to 25:2-34 relating to the sale of a boat. (Pearlson Cert., Ex. 2 ("SAC") at p. 31-32).
+
+**Formation of the KRM Trust**
+
+5. The KRM Trust was formed on or about December 18, 2012, with Kimberly Ruggles Mell ("Ms. Ruggles Mell") as the Grantor and her children, Emily, Eliza, and William, as the designated beneficiaries. (Pearlson Cert., Ex. 3).
+
+6. Steven Bradley Mell ("Mr. Mell") testified that the KRM Trust was formed for estate planning purposes and to support his children. (See Pearlson Cert., Ex. 4, Excerpt from deposition transcript of S. Bradley Mell dated September 22, 2021 at 160:9-24; 169:2-170:16).
+
+7. Ms. Ruggles Mell also testified that the purpose of the KRM Trust was to benefit her three children. (Pearlson Cert., Ex. 5, Excerpt from deposition transcript of Kimberly Ruggles Mell dated October 6, 2021 at 149:20-150:17).
+
+8. The KRM Trust Agreement provides in pertinent part: "Until the date of death of the survivor of the Grantor's husband, STEPHEN BRADLEY MELL ('BRADLEY') and the Grantor (the 'Division Date'), the Trustee, at any time or times that she deems it advisable; may pay or apply to or for the benefit of the Children and their issue, such sum or sums out of the net income and/or principal of this Trust as the Trustee shall deem advisable to provide for the health, education (including but not limited to, elementary, secondary, undergraduate, graduate and postgraduate education), maintenance and support of the Children and their issue, as well as for any expenses incurred by or for them, or any of them, because of any illness, operation, infirmity, or other medical emergency." (Ex. 3 at Art. 3.A).
+
+9. The Second Amended Complaint does not allege that Mr. Mell and Plaintiff had any contact or even knew each other in 2012, when the KRM Trust was formed. (See SAC ¶ 52).
+
+10. Plaintiff alleges that Mr. Mell engaged in inappropriate sexual encounters with her from June to November of 2017. (Id. at ¶ 83).
+
+11. Prior to this litigation, Plaintiff had never heard of the KRM Trust. (Pearlson Cert., Ex. 6, Excerpt from deposition transcript of B.B. dated July 3, 2025 at 23:2-9).
+
+**The Bedminster Home**
+
+12. Plaintiff alleges that Mr. Mell and Ms. Ruggles Mell resided at 620 Black River Road, Bedminster, New Jersey (the "Bedminster Home") at the time Mr. Mell engaged in the inappropriate conduct with Plaintiff, the Bedminster Home was owned by the KRM Trust and the Steven Bradley Mell 2012 Family Trust ("SBM Trust"), and the Bedminster Home was sold. (SAC ¶¶ 29, 33, 34). None of these facts amount to a fraudulent transfer.
+
+13. The KRM Trust acquired an ownership interest in the Bedminster Home back on December 18, 2012, when the KRM Trust was granted a 70% ownership interest from Ms. Ruggles Mell, as set forth in a recorded deed. (Pearlson Cert., Ex. 7).
+
+14. On December 18, 2012, the SBM Trust was granted a 30% ownership interest from Mr. Mell in the Bedminster Home, as set forth in a recorded deed. (Pearlson Cert., Ex. 8).
+
+15. The KRM Trust and SBM Trust were granted their respective interests in the Bedminster Home in 2012; several years before Mr. Mell allegedly engaged in the tortious acts toward B.B. in 2017. (See SAC ¶ 83). The grant of these interests could not have possibly been the result of Mr. Mell's efforts to avoid or hinder Plaintiff's ability to secure a recovery against him.
+
+16. On or about April 24, 2019, the SBM Trust and KRM Trust sold the Bedminster Home for $4 million to third-party, non-insider buyers, Leonard Y. Lee and Min K. Kwon, as set forth in a recorded deed. (Pearlson Cert., Ex. 9).
+
+17. The Closing Disclosure for the 2019 sale of the Bedminster Home, which identifies the KRM Trust and SBM Trust as the seller, indicates that a net payment of $1,378,407.01 was due to the seller, after payoff of the mortgages on the property and other costs. (Pearlson Cert., Ex. 10).
+
+18. On April 24, 2019, a wire payment of $964,884.91 was deposited into the KRM Trust's bank account, which constituted the KRM Trust's 70% interest in the net sale proceeds for the Bedminster Home. (See Pearlson Cert., Ex. 11).
+
+19. $413,522.01 was deposited into the SBM Trust's account, reflecting its 30% interest in the sale proceeds for the Bedminster Home. (Pearlson Cert., Ex. 12).
+
+**The Boat**
+
+20. Plaintiff alleges "[u]pon information and belief, on October 27, 2021, Mell through his attorney in fact, Michael Simon Scott orchestrated the transfer of the proceeds of the sale of his boat into the KRM Trust in the amount of $326,976.06 to avoid plaintiff's ability to secure recovery against him and directed that proceeds be sent to the SBM Trust in the amount of $140,132.59." (SAC ¶ 4 at p. 32). However, the payments to the KRM Trust and SBM Trust were made in conjunction with the documented, pre-existing debt owed by Mr. Mell to the KRM Trust and SBM Trust for loans made in June 2016 that were funded from the proceeds of a refinancing of the Bedminster home and used to purchase the boat.
+
+21. In or around June 2016 (before Mr. Mell's alleged wrongful conduct towards Plaintiff began), Mr. Mell purchased a Regulator 41 boat (the "Boat"), which was funded by means of a refinance loan taken out against the Bedminster Home in the amount of $590,000. (See Pearlson Cert., Ex. 13).
+
+22. The KRM Trust, which had a 70% interest in the Bedminster Home, was listed as the Borrower on the June 17, 2016 mortgage for $590,000, with BNY Mellon, N.A. as the Lender and Endurance Abstract, LLC as the title company. (Id.).
+
+23. Mr. Mell's personal Bank of America account statement shows that $580,292.31 was deposited into his account on June 22, 2016 via a wire from the title company, Endurance Abstract, LLC. (Pearlson Cert., Ex. 14).
+
+24. The same statement shows an outgoing wire of $540,962.40 on June 27, 2016 to Ocean House Marina Inc, the marina from which Mr. Mell purchased the Boat. (Id.).
+
+25. The KRM Trust paid off the balance of the $590,000 mortgage upon the sale of the Bedminster Home, and the KRM Trust was therefore entitled to repayment of 70% of the $590,000 loan, or $413,000, and the SBM Trust was entitled to the other 30% ($177,000) from Mr. Mell. (Pearlson Cert., Ex. 15).
+
+26. Mr. Mell and Ms. Ruggles Mell memorialized their understanding that the KRM Trust would be reimbursed for this loan upon the sale of the Boat. Section 5.3 of their Marital Settlement Agreement dated April 8, 2019 ("MSA") provides in relevant part: "Boat. The parties recognize and agree that in connection with the purchase of the Regulator 41 Boat in July 2016, the Wife and the Husband borrowed the principal sum of approximately $590,000.00 from the [Trusts]. The [Trusts] had obtained a bank loan, secured by the marital residence that is owned by [the KRM Trust] (70%) and [the SBM Trust] (30%), and loaned the funds to the Husband and the Wife to purchase the boat. The parties agree and acknowledge that they are endeavoring to sell the boat as reasonably expeditiously as possible. The parties agree that they will cooperate in good faith to cause the prompt sale of the boat. If the sale of the boat precedes the sale of the marital residence, the parties agree that any net proceeds, after payment of sale related expenses, shall be used to pay down the existing bank loan secured by the marital residence. If the sale of the boat occurs after the sale of the marital residence, the parties agree that any net proceeds, after payment of sale related expenses, shall be delivered to [the KRM Trust] (70%) and [the SBM Trust] (30%) to repay the loan to these trusts. The parties agree that so long as permissible under the terms governing the within mentioned trusts, any remaining proceeds, if any, from the sale of the boat after payment of all loans shall be decided with the Wife receiving sixty percent (60%) and Husband receiving forty percent (40%) by way of equitable distribution. In the event of any liability relating to storage, maintenance, or sale of the boat, the Wife shall pay fifty percent (50%) and the Husband shall pay fifty percent (50%) of these liabilities." (See Pearlson Cert., Ex. 16 at § 5.3).
+
+27. Through his Power of Attorney for Mr. Mell, which was obtained on November 20, 2018, Michael Simon Scott caused the Boat to be sold, through a broker in an arms-length transaction on September 30, 2021 to Louis Sproviero for $520,000. (See Pearlson Cert., Ex. 17; Ex. 18).
+
+28. Mr. Scott had been serving as Trustee for the KRM Trust since March 16, 2020. (Pearlson Cert., Ex. 19).
+
+29. Mr. Scott testified that he was forced to sell the Boat for several reasons: it was a liability, it was declining in value, the KRM Trust was losing money (because it was paying for the Boat to be stored) and the ability to recover the funds it provided to Mr. Mell for the purchase of the Boat, and the MSA provided for the sale of the Boat. (Pearlson Cert., Ex. 20, Excerpts from deposition transcript of Michael Simon Scott dated July 22, 2025 at 110:2-19).
+
+30. The depreciation in the Boat's value was demonstrated by the decreased listing price from $620,000 in 2018 to $559,995 in 2021. (Pearlson Cert., Ex. 21; Ex. 22).
+
+31. The KRM Trust was also paying all of the expenses for the Boat before it was sold. (Ex. 20 at 145:8-16).
+
+32. The sales price for the Boat was $520,000, of which the KRM Trust's 70% share (because of the required loan repayment) was $326,976.06 after the payment of commissions and taxes from the sale. (Ex. 18).
+
+33. Those funds were deposited into the KRM Trust's account via wire transfer on October 27, 2021. (Pearlson Cert., Ex. 23).
+
+34. On October 27, 2021, Ocean House Marina, Inc. sent Ms. Ruggles Mell a check payable to the SBM Trust in the amount of $140,132.59, representing the remaining 30% of the net sales proceeds to which the SBM Trust is entitled for the loan it provided. (Pearlson Cert., Ex. 24).
+
+35. Mr. Scott resigned as Mr. Mell's Power of Attorney on December 7, 2021. (Pearlson Cert., Ex. 25).
+
+36. After the sale of the Boat, there still remains a balance due and owing from Mr. Mell to the KRM Trust for its 70% share of the $590,000 loan to Mr. Mell, in the amount of $86,024 (i.e., $413,000 minus $326,976.00).
+
+**The Aero Care Deposit**
+
+37. During discovery, Plaintiff questioned a deposit into the KRM Trust's bank account on March 8, 2019 in the amount of $501,006.19 from Aero Care Services LLC ("Aero Care"). This alleged transfer was not identified in the Second Amended Complaint. This deposit was not a transfer but constituted the repayment of loans made to Aero Care before Mr. Mell is alleged to have had inappropriate relations with Plaintiff.
+
+38. Mr. Mell testified that Aero Care had previously been loaned approximately one million dollars for new engines for a plane, and this deposit was for repayment of that loan when the airplane was sold. (Pearlson Cert., Ex. 27, Excerpts from S. Bradley Mell's deposition transcript dated August 22, 2025 at 169:17-170:14).
+
+39. Mr. Mell testified that the funds for this loan to Aero Care were funded by refinancing the Bedminster Home — in which the KRM Trust was later granted a 70% interest — through the Bank of New York. (Id. at 172:11-21).
+
+40. On or about December 15, 2011, a refinancing loan for the Bedminster Home in the amount of $2.4 million was approved through Bank of New York. (Pearlson Cert., Ex. 28).
+
+41. Attachment A to this loan identifies loans to be paid in full at the time of closing, including a $1,100,000 Airplane Loan. (Id. at p. 5).
+
+42. Mr. Mell testified that this document shows the amount of money that was loaned to Aero Care through the refinancing of the Bedminster Home. (Ex. 27 at 174:20-175:25).
+
+43. On or about February 27, 2019, Ms. Ruggles Mell wrote a letter to Mr. Mell in her capacity as the Manager of Aero Care. (Pearlson Cert., Ex. 29).
+
+44. The letter sets forth that Aero Care sold the two airplanes it owned, and Aero Care was using the sales proceeds to repay the outstanding balances on its loans. (Id. at pp. 1-2).
+
+45. The first table attached to this letter indicates that the KRM Trust and the SBM Trust loaned Aero Care approximately $1,100,000 (which corresponds to the 2011 refinancing loan), with $329,927.84 coming from the SBM Trust and $769,831.63 from the KRM Trust. This loan was made in proportion to the Trusts' corresponding interests in the Bedminster Home, which was owned 30% by the SBM Trust and 70% by the KRM Trust. (Id. at KM001183).
+
+46. The second table attached to this letter indicates the amounts being repaid to Aero Care's lenders, which shows $501,006.19 to be paid to the KRM Trust — the same amount that was deposited into the KRM Trust's bank account on March 8, 2019. (Id. at KM001184; Ex. 24).
+
+**Withdrawals from KRM Trust Accounts**
+
+47. Though not in her pleadings, Plaintiff has recently suggested at the deposition of Mr. Scott and again in recent motion papers, that the following withdrawals constitute potential fraudulent transfers: (a) $1,034,404.13 withdrawal from KRM Investments, LLC's account in July 2019; (b) $997,079.27 withdrawal from the KRM Trust's account in August 2019; and (c) $881,414.98 withdrawal from the KRM Trust's account in January 2020. However, the related bank documents demonstrate that the withdrawal of these funds from the KRM Trust account were the result of the forced closure of certain KRM Trust bank accounts and the funds being deposited into new KRM Trust bank accounts.
+
+48. Mr. Scott testified that on multiple occasions, banks ran a "Know Your Customer" check and would close accounts for the KRM Trust relating to or referencing Mr. Mell's name because the banks discovered information pertaining to Mr. Mell's criminal case. (Ex. 20 at 20:2-15).
+
+49. When a bank closed an account due to a "Know Your Customer" check, the funds needed to be transferred to another bank and a new account opened where the funds would be deposited. (Id. at 46:6-25). The record demonstrates that the withdrawals identified by Plaintiff were the result of the process of transferring funds from one KRM Trust account to another KRM Trust account due to these closures.
+
+50. The July 2019 statement for KRM Investments, LLC's Pershing account shows the withdrawal of $1,034,404.13 on July 17, 2019. (Pearlson Cert., Ex. 30).
+
+51. On the same date of July 17, 2019, the same amount of $1,034,404.13 was deposited into a Peapack account for KRM Investments, LLC. (Pearlson Cert., Ex. 31).
+
+52. The KRM Trust's Bank of America account statement for August 24, 2019 to September 23, 2019 shows the $997,079.27 withdrawal for "account Closing Transaction." (Pearlson Cert., Ex. 32).
+
+53. The KRM Trust's Wells Fargo account statement from September 2019 shows an initial deposit of $997,079.27. (Pearlson Cert., Ex. 33).
+
+54. The KRM Trust's Wells Fargo account statement for January 2020 shows the $881,414.98 withdrawal. (Pearlson Cert., Ex. 34).
+
+55. The KRM Trust's Dempsey Lord Smith account statement for April 2020 shows a deposit of $881,414.98 on 04/09/20. (Pearlson Cert., Ex. 35).
+
+56. Thus, all of the withdrawals from the KRM Trust's bank accounts identified by Plaintiff were deposited in KRM Trust accounts held in other banks, and none of them constitute a transfer going into or out of the KRM Trust.
+
+---
 
 *Trust formation.* Both trusts were formed December 18, 2012. Brad testified under oath at his September 2021 deposition that he formed them "for estate planning purposes and to support his children." Brad Mell Dep. (Sept. 22, 2021) at 160:9-24. Kim Mell testified identically. Kim Mell Dep. (Oct. 6, 2021) at 149:20-150:17; 116:13-25. The trust instruments confirm this in plain text: Article 3A of both agreements restricts distributions to "health, education, maintenance and support" of the children and their issue. Brad was never a beneficiary of the SBM Trust. B.B. herself — after six full years of discovery — testified at her July 3, 2025 deposition that she had never heard of the KRM Trust before this lawsuit (B.B. Dep. at 23:2-9) and "had no clue of when, how, or why the Trusts were set up." B.B. Dep. at 173:3-14. A debtor does not conceal assets in trusts the allegedly defrauded creditor has never heard of, that predate any debt by four and a half years, and that name the debtor's children — not the debtor — as sole beneficiaries.
 
@@ -118,7 +394,7 @@ The operative release language states that each party "shall knowingly and volun
 
 The KRM Trust was dismissed from the state court action on March 16, 2026. The SBM Trust was dismissed on March 18, 2026.
 
-Nagel filed Doc. 8 on June 23, 2026. The motion's Statement of Facts characterizes the KRM and SBM Trusts as fraudulent mechanisms for asset sheltering. It does not disclose the March 2026 settlement. It does not disclose the release of "any current or future claims" against trust assets. It does not disclose that the trust summary judgment motions — filed January 15, 2026 and supported by 68 numbered undisputed facts covering every asset the trusts hold — were not opposed by Nagel, who filed no response, no countering statement of material facts, and no expert disclosure of any kind. It does not disclose that Nagel settled those motions rather than contest them, obtaining dismissals with prejudice signed by his own partner Paragano, after six years of discovery produced nothing. The agreement expressly contemplated court disclosure: paragraph 10 permits any party to "disclose a copy of this Agreement to a Court of Law, in a sealed envelope marked 'Confidential,' for the purpose of enforcing the terms of this Agreement or effectuating any of the purposes and obligations stated herein." KRM & SBM Release (Mar. 6, 2026) ¶ 10. That Nagel elected not to make this disclosure while relying on the trust-fraud narrative raises serious questions under N.J. RPC 3.3(a)(5) and Fed. R. Bankr. P. 9011(b)(3).
+Nagel filed Doc. 8 on June 23, 2026. The motion's Statement of Facts characterizes the KRM and SBM Trusts as fraudulent mechanisms for asset sheltering. It does not disclose the March 2026 settlement. It does not disclose the release of "any current or future claims" against trust assets. It does not disclose that the trust summary judgment motions — filed January 15, 2026 and supported by 119 numbered undisputed facts (63 in the SBM Trust motion and 56 in the KRM Trust motion) covering every asset the trusts hold — were not opposed by Nagel, who filed no response, no countering statement of material facts, and no expert disclosure of any kind. It does not disclose that Nagel settled those motions rather than contest them, obtaining dismissals with prejudice signed by his own partner Paragano, after six years of discovery produced nothing. The agreement expressly contemplated court disclosure: paragraph 10 permits any party to "disclose a copy of this Agreement to a Court of Law, in a sealed envelope marked 'Confidential,' for the purpose of enforcing the terms of this Agreement or effectuating any of the purposes and obligations stated herein." KRM & SBM Release (Mar. 6, 2026) ¶ 10. That Nagel elected not to make this disclosure while relying on the trust-fraud narrative raises serious questions under N.J. RPC 3.3(a)(5) and Fed. R. Bankr. P. 9011(b)(3).
 
 ### E. The Bankruptcy Filing
 
@@ -178,7 +454,7 @@ The more pressing forum-related question is who actually shaped the trajectory o
 
 As a matter of statute: the trusts were formed December 18, 2012. The first cognizable act giving rise to B.B.'s claims occurred June 20, 2017 — four and a half years later. Under § 548(a)(1), the two-year lookback reaches only to June 12, 2024; the 2012 formations are fourteen years outside that window. Under the NJUVTA actual fraud prong, proof that Brad formed trusts in December 2012 to defraud someone he had not yet met, to whom no debt existed, is logically impossible. SOFA Part 7, Line 19 confirms no self-settled trust transfers within the ten-year lookback window.
 
-As a matter of evidence: both trusts filed detailed motions for summary judgment on January 15, 2026, submitting 68 numbered undisputed facts documenting that every asset transfer was legitimate, documented, arm's-length, and made without fraudulent intent. Every fact was supported by deposition testimony, recorded deeds, third-party closing statements, and bank records. Brad and Kim both testified under oath the trusts were formed for estate planning to benefit their children. B.B. testified she had never heard of either trust before the lawsuit. Every asset sale went to unrelated buyers at documented market prices; B.B. never alleged otherwise. The boat sale was self-reported to the state court and to Nagel himself in real time. The $100,000 never left the SBM Trust. Against this record, Nagel filed no opposition and produced no countering evidence.
+As a matter of evidence: both trusts filed detailed motions for summary judgment on January 15, 2026, submitting 119 numbered undisputed facts (63 in the SBM Trust motion and 56 in the KRM Trust motion) documenting that every asset transfer was legitimate, documented, arm's-length, and made without fraudulent intent. Every fact was supported by deposition testimony, recorded deeds, third-party closing statements, and bank records. Brad and Kim both testified under oath the trusts were formed for estate planning to benefit their children. B.B. testified she had never heard of either trust before the lawsuit. Every asset sale went to unrelated buyers at documented market prices; B.B. never alleged otherwise. The boat sale was self-reported to the state court and to Nagel himself in real time. The $100,000 never left the SBM Trust. Against this record, Nagel filed no opposition and produced no countering evidence.
 
 Rather than contest the motions, Nagel settled — accepting dismissals with prejudice signed by his own partner — after six years of discovery yielded nothing. He then filed Doc. 8 five months later presenting the same fraud allegations to a federal court. Fed. R. Bankr. P. 9011(b)(3) requires that factual contentions submitted to federal court "have evidentiary support." Six years and 2,100 days of Nagel's own discovery is the evidentiary record on whether the trust-fraud allegations have support, and the record's answer is unambiguous: they do not. A party cannot fail to find evidence in six years of discovery, settle rather than face a summary judgment motion it could not oppose, and then import the same factual contentions into a federal proceeding without sanction.
 
@@ -256,9 +532,15 @@ The federal court that determined restitution — consulting with B.B. and her f
 
 **The expert record establishes injury but not intent.** The only expert report in the record is Dr. Dawn M. Hughes's March 2023 forensic psychological evaluation on behalf of B.B., supplemented in October 2025. Hughes establishes the fact of injury — she provides a PTSD diagnosis and documents B.B.'s current symptomatology. Hughes does not establish, and does not opine on, Brad's subjective intent to cause those specific injuries. The § 523(a)(6) two-element test requires proof of (1) injury AND (2) subjective intent to injure. *Kawaauhau v. Geiger*, 523 U.S. at 61; *In re Long*, 528 B.R. at 657-58. The creditor's own expert satisfies element (1). Element (2) — what was inside Brad's head — remains without expert support.
 
-**Independent causation events undermine apportionment.** Hughes herself acknowledges in her March 2023 report that B.B. experienced "a sexual assault in high school after the disclosure of the Mell abuse" and that this assault "qualifies as a Criterion A traumatic stressor" under the DSM-5 criteria for PTSD. Hughes attempts to neutralize this by characterizing the school assault as derivative of the Mell trauma — arguing that B.B. "had no psychological coping resources to defend herself because of the traumatic stress she was dealing with as a result of the Mell abuse." But Hughes provides no validated apportionment methodology for separating which symptoms are attributable to Mell versus the independent school assault. She simply concludes, without methodology, that the school assault "is not manifesting" separately. No court has accepted that type of bare conclusory apportionment from a retained expert as sufficient to trace a specific quantum of harm to a specific defendant. Notably, no treating clinician documented the school assault: Dr. Cowen's records extend through January 2020 — covering the period when the school assault would have occurred — yet contain no reference to it as a clinical stressor. This silence undermines Hughes's characterization of its significance.
+**Independent causation events undermine apportionment.** Hughes herself acknowledges in her March 2023 report that B.B. experienced "a sexual assault in high school after the disclosure of the Mell abuse" and that this assault "qualifies as a Criterion A traumatic stressor" under the DSM-5 criteria for PTSD. Hughes attempts to neutralize this by characterizing the school assault as derivative of the Mell trauma — arguing that B.B. "had no psychological coping resources to defend herself because of the traumatic stress she was dealing with as a result of the Mell abuse." But Hughes provides no validated apportionment methodology for separating which symptoms are attributable to Mell versus the independent assault. She simply concludes, without methodology, that the assault "is not manifesting" separately. No court has accepted that type of bare conclusory apportionment from a retained expert as sufficient to trace a specific quantum of harm to a specific defendant.
 
-**Pre-existing conditions are an additional independent factor.** Multiple treating records document that B.B. had pre-existing anxiety, social isolation, and bullying-related insecurity before any contact with Brad. Dr. Cowen's initial psychiatric evaluation (July 18, 2018) documents "life-long anxiety," "separation anxiety as a little kid," and bullying during "sophomore year (catholic school)" where she was "told she was ugly." Dr. Robinson's initial session note (August 16, 2017) — before B.B. had disclosed the Mell relationship to anyone — documents "longtime social issues since elem school," pre-existing social anxiety, depression, and low self-esteem related to appearance. Somerset Psychological records (December 27, 2017) likewise document B.B.'s pre-existing vulnerability. Hughes acknowledges this history but reframes it as "vulnerability factors" that Mell exploited — folding them into his causal column rather than treating them as independent contributing causes. That reframing is a litigation conclusion, not a forensic methodology. In the adversary proceeding, an independent expert scoped to the *Geiger*/*Long* intent question — and to the apportionment of harm between Brad's conduct, the independent school assault, and the pre-existing conditions — would expose the significant methodological gaps in Hughes's framework.
+B.B.'s own July 3, 2025 deposition testimony materially narrows this event in ways that complicate Hughes's characterization of it as a "school" assault. B.B. confirmed the assault was committed by a former Proctor classmate, that it occurred off campus — "like the day after graduation" (~June 2019), and that she had never reported the incident to law enforcement, school officials, or through any civil proceeding. No Fifth Amendment privilege was invoked; B.B. answered all questions about the event freely. Hughes labels the event a "sexual assault in high school" without disclosing these specifics. The assault did not occur at Proctor, during the school year, or in any context in which the school bore institutional responsibility. Notably, no treating clinician documented this event: Dr. Cowen's records extend through January 2020 — covering the period when the assault occurred — yet contain no reference to it as a clinical stressor. This silence undermines Hughes's characterization of its significance as a Criterion A stressor attributable to the Mell conduct.
+
+**Pre-existing conditions are an additional independent factor.** Multiple treating records document that B.B. had pre-existing anxiety, social isolation, and bullying-related insecurity before any contact with Brad. Dr. Cowen's initial psychiatric evaluation (July 18, 2018) documents "life-long anxiety," "separation anxiety as a little kid," and bullying during "sophomore year (catholic school)" where she was "told she was ugly." Dr. Robinson's initial session note (August 16, 2017) — before B.B. had disclosed the Mell relationship to anyone — documents "longtime social issues since elem school," pre-existing social anxiety, depression, and low self-esteem related to appearance. Somerset Psychological records (December 27, 2017) likewise document B.B.'s pre-existing vulnerability.
+
+Critically, B.B.'s own July 3, 2025 deposition testimony establishes that active bullying was the direct precipitating cause of her first substantive contact with Brad. She testified that in approximately May 2017 — her sophomore year — boys from her high school were bullying her; she called her parents and sisters but only her sister Ella, then at Colby College, answered. Ella offered Brad as a ride. B.B. declined the ride but Brad checked in the next day, and B.B. testified: "I kind of opened the door to him texting." The bullying, B.B. testified, was "an ongoing thing" — she reported it to the school but "nothing happened." This testimony, from the creditor's own witness under oath, establishes that the triggering event for the Mell relationship was not predatory grooming by Brad targeting a stable minor, but rather a minor in active psychological distress from pre-existing peer abuse who initiated a texting relationship after declining an offered ride. That is precisely the type of pre-existing vulnerability that an independent causation expert — scoped to *Geiger*/*Long* — would need to account for in any apportionment analysis.
+
+Hughes acknowledges this history but reframes it as "vulnerability factors" that Mell exploited — folding them into his causal column rather than treating them as independent contributing causes. That reframing is a litigation conclusion, not a forensic methodology. In the adversary proceeding, an independent expert scoped to the *Geiger*/*Long* intent question — and to the apportionment of harm between Brad's conduct, the independent post-graduation assault, and the pre-existing conditions — would expose the significant methodological gaps in Hughes's framework.
 
 #### 5. Parents' Comparative Fault Affects Claim Value
 
@@ -350,7 +632,7 @@ Doc. 8 should be denied in its entirety.
 
 The § 707(a) motion fails because it describes the opposite of what *Tamecki* requires. Egregious bad faith means concealed assets, a lavish lifestyle, and fraud-like conduct. What Brad's verified schedules show is a recently released federal prisoner surviving on his brother's discretionary support, disclosing every asset — including the $750,000 held in Nagel's own trust account — down to the make and model of a 1995 automobile. The Glunk factors are not merely unmet; they are reversed. The "eve of trial" framing collapses once the full timeline is examined: the trial date was the product of seven years of Nagel's own litigation choices — a 100% attachment that denied Brad access to any funds, ten additional defendants including Brad's children, 2,100 days of discovery, and a two-year interlocutory appeal that Nagel himself initiated. A manufactured crisis is not the debtor's bad faith.
 
-The § 523(a)(6) motion is procedurally defective and substantively without basis. It should have been filed as an adversary complaint under Fed. R. Bankr. P. 7001(6) — it was not. On the merits, *Lewis v. Long* governs: a debtor convicted of carnal knowledge of a 12-year-old victim who fathered her child and signed a note confessing intentional torts obtained discharge because subjective intent to injure cannot be inferred from criminal conviction. Brad's record is less direct on every dimension that matters under § 523(a)(6). The creditor's own expert documents injury without opining on Brad's mental state. An independent assault at school appears in that expert report as a clinically recognized traumatic event without any apportionment between that event and the Mell conduct. Pre-existing anxiety and years of bullying are documented across multiple treating records before any Mell contact. The parental home environment is independently identified in the treatment records as a driver of B.B.'s symptoms. The § 523(a)(6) intent element — what was subjectively inside Brad's head — has no evidentiary support, cannot be inferred, and must be adjudicated in a properly filed adversary proceeding where Brad has the right to answer, discover, and present evidence.
+The § 523(a)(6) motion is procedurally defective and substantively without basis. It should have been filed as an adversary complaint under Fed. R. Bankr. P. 7001(6) — it was not. On the merits, *Lewis v. Long* governs: a debtor convicted of carnal knowledge of a 12-year-old victim who fathered her child and signed a note confessing intentional torts obtained discharge because subjective intent to injure cannot be inferred from criminal conviction. Brad's record is less direct on every dimension that matters under § 523(a)(6). The creditor's own expert documents injury without opining on Brad's mental state. An independent assault — documented in Hughes's report as occurring "in high school" but confirmed by B.B.'s own deposition testimony to have occurred off campus the day after her Proctor graduation, committed by a former classmate, never reported to any authority — appears in that expert report as a clinically recognized traumatic event without any apportionment between that event and the Mell conduct. Pre-existing anxiety and years of bullying are documented across multiple treating records before any Mell contact. The parental home environment is independently identified in the treatment records as a driver of B.B.'s symptoms. The § 523(a)(6) intent element — what was subjectively inside Brad's head — has no evidentiary support, cannot be inferred, and must be adjudicated in a properly filed adversary proceeding where Brad has the right to answer, discover, and present evidence.
 
 The stay violation is not remediated by filing Doc. 8 — it is compounded by it. Paragano emailed the represented debtor three days after his firm acknowledged the bankruptcy filing in open court, asserted control over estate property, and instructed Brad not to move a vehicle. That is a willful violation under *Lansaw* with no colorable defense. The appropriate remedy is sanctions under § 362(k)(1), not a reward in the form of the relief the violating party then seeks.
 
