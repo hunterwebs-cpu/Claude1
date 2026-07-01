@@ -10,6 +10,29 @@
 
 ---
 
+## TABLE OF CONTENTS
+
+- [Executive Summary](#executive-summary)
+- [Section 1: Preliminary Statement](#section-1-preliminary-statement)
+- [Section 2: Statement of Facts](#section-2-statement-of-facts)
+  - [A. Steven Bradley Mell and the 2012 Trusts](#a-steven-bradley-mell-and-the-2012-trusts)
+  - [B. Brad's Criminal Matter and Subsequent Release](#b-brads-criminal-matter-and-subsequent-release)
+  - [C. The Civil Action and the Attachment](#c-the-civil-action-and-the-attachment)
+  - [D. The March 2026 Trust Settlement](#d-the-march-2026-trust-settlement)
+  - [E. The Bankruptcy Filing](#e-the-bankruptcy-filing)
+- [Section 3: Argument](#section-3-argument)
+  - [A. The § 707(a) Motion to Dismiss Must Be Denied](#a-the--707a-motion-to-dismiss-must-be-denied)
+  - [B. § 523(a)(6) Is Procedurally Defective and Fails on the Merits](#b--523a6-is-procedurally-defective-and-fails-on-the-merits)
+  - [C. Stay Relief Under § 362(d)(1) Must Be Denied](#c-stay-relief-under--362d1-must-be-denied)
+  - [D. Nagel Rice Willfully Violated the Automatic Stay](#d-nagel-rice-willfully-violated-the-automatic-stay)
+  - [E. Abstention Is Not Available](#e-abstention-is-not-available)
+  - [F. Tax Debt Dischargeability — § 523(a)(1) Analysis](#f-tax-debt-dischargeability---523a1-analysis)
+  - [G. The Attachment Is the Structural Problem](#g-the-attachment-is-the-structural-problem)
+  - [**H. The Court Should Enter a Pseudonymity and Protective Order**](#h-the-court-should-enter-a-pseudonymity-and-protective-order)
+- [Section 4: Conclusion](#section-4-conclusion)
+
+---
+
 ## EXECUTIVE SUMMARY
 
 Bruce H. Nagel of Nagel Rice LLP filed Doc. 8 on June 23, 2026, eleven days after Steven Bradley Mell filed a voluntary Chapter 7 petition and three days after trial in the underlying state court tort action had been set to begin. The motion simultaneously seeks: (1) dismissal under 11 U.S.C. § 707(a) for alleged bad faith; (2) a declaration of nondischargeability under § 523(a)(6); (3) relief from the automatic stay under § 362(d)(1); and (4) abstention under what Nagel cites as 28 U.S.C. § 1134(c)(1) and (c)(2) — a statute that does not exist. Each request fails independently.
@@ -636,15 +659,85 @@ The Bankruptcy Code was designed to prevent exactly this outcome. The orderly Ch
 
 ### H. THE COURT SHOULD ENTER A PSEUDONYMITY AND PROTECTIVE ORDER
 
-The creditor is referred to throughout as "B.B." — the pseudonym used consistently in the underlying state court action ESX-L-7200-19. The use of initials is mandatory under Fed. R. Bankr. P. 9037, which incorporates Fed. R. Civ. P. 5.2(a)(3): a filing "that contains . . . the name of an individual known to be a minor . . . may include only . . . the minor's initials." Rule 5.2's protection is keyed to the person's age at the time of the events at issue, not her current age; B.B. was a minor throughout the period of the alleged encounters (June–November 2017).
+#### 1. Introduction
 
-The Third Circuit's standard for pseudonymous proceedings is established in *Doe v. Megless*, 654 F.3d 404, 408 (3d Cir. 2011). *Megless* holds that pseudonymous status is warranted when: (1) the information sought to be protected is "of the most personal intimate nature"; (2) disclosure would cause harm beyond ordinary reputational injury; and (3) the public interest in open proceedings does not override the specific privacy interest at stake. *Id.* A survivor of sexual abuse occurring during her minority satisfies all three *Megless* criteria. Courts routinely grant pseudonymous status in cases involving minor victims of sexual offenses. *See, e.g.*, *Doe v. C.A.R.S. Protection Plus, Inc.*, 527 F.3d 358, 371 n.2 (3d Cir. 2008); *Doe v. Provident Life & Accident Ins. Co.*, 176 F.R.D. 464, 467 (E.D. Pa. 1997).
+This case involves a creditor who was a minor at the time of the alleged encounters giving rise to her claim. She has been identified exclusively as "B.B." in six-plus years of litigation in New Jersey Superior Court, Essex County (ESX-L-7200-19). That pseudonymous treatment is not merely a styling convention — it is required by federal court rules and independently warranted under Third Circuit common law. The filing of a voluntary bankruptcy petition by the defendant in that underlying action does not terminate, suspend, or reduce the privacy protections the law affords to individuals who were minors at the time of the underlying events. This Court should enter a formal pseudonymity and protective order before the July 16, 2026 hearing to ensure that the existing protection is honored on the federal docket and that no filing, transcript, or public docket entry in this proceeding identifies the creditor by name.
 
-**Procedural steps required.** Counsel should move promptly for a protective order directing: (1) all filings and docket entries use "B.B." and never the creditor's full name; (2) any hearing transcript be redacted to replace the creditor's full name with the pseudonym before entry on the public docket; (3) any party wishing to use the creditor's full name do so only in sealed, in camera submissions approved by the Court; and (4) the docket itself be maintained with the pseudonym designation, consistent with the treatment of the state court docket.
+#### 2. Factual Background
 
-**Scope of the protective order.** The order should be drafted broadly enough to encompass: (a) the creditor's identity; (b) the settlement amount, which is protected by a confidentiality provision in the March 2026 settlement agreement; and (c) any other identifying information capable of connecting the pseudonym to a named individual. The settlement agreement's paragraph 10 expressly contemplates sealed disclosure to a court of law in a sealed envelope — providing the model for how sensitive information should be handled in this proceeding. Protection of the settlement amount also protects the trust beneficiaries — Brad's three children — from the collateral consequences of public disclosure in the context of litigation arising from their father's criminal history. The protective order should be sought before the July 16, 2026 hearing.
+B.B. was born on August 2, 2001. The events underlying her claim in ESX-L-7200-19 began in June 2017, when she was fifteen years old, and continued through November 2017, when she was sixteen. She was, indisputably, a minor throughout the entire period giving rise to her claim.
 
-**Outstanding item.** The briefing has been prepared consistent with the pseudonym "B.B." throughout. No section of this memorandum uses the creditor's full name. Any exhibits attached to the opposition brief that reference the creditor's full name should be redacted to "B.B." before public filing, with unredacted copies submitted in sealed form to chambers under the protective order.
+The underlying civil action was filed in 2019. From the date of filing through the present — a period of more than six years — every pleading, every motion, every order, and every court appearance in ESX-L-7200-19 has used the designation "B.B." No party has ever moved to remove that pseudonymous designation or to require that B.B.'s full name appear on the state court docket. The transcript of the May 15, 2026 summary judgment hearing — the last substantive hearing in the state court matter — uses the pseudonym throughout. B.B.'s July 3, 2025 deposition was taken and is cited in this proceeding as "B.B. Dep." — consistent with the same designation applied to every other document in the litigation.
+
+B.B. is now twenty-four years old. Her current age does not alter the applicable legal framework. The protections triggered by Fed. R. Civ. P. 5.2(a)(3) and Fed. R. Bankr. P. 9037 attach to the nature and timing of the underlying events — specifically, whether the individual was a minor at the time of the conduct giving rise to the claim — not to the individual's age at the time a federal proceeding is opened. No court has held that a minor who reaches the age of majority loses Rule 5.2 protection in a proceeding arising from events that occurred during her minority.
+
+Equally important: B.B.'s identity as the creditor in this bankruptcy case is, in the world at large, unknown. The public docket in the state court matter identifies her only as "B.B." There has been no press disclosure of her name in connection with this case. Maintaining the pseudonym preserves a protection that has been intact for six years. Removing it would be irreversible. Once a federal docket entry identifies her by name, it is permanent and publicly searchable. The Court should exercise its authority to prevent that outcome.
+
+#### 3. Legal Standard
+
+##### a. Mandatory Protection Under Fed. R. Bankr. P. 9037 and Fed. R. Civ. P. 5.2(a)(3)
+
+Fed. R. Bankr. P. 9037 incorporates Fed. R. Civ. P. 5.2 in its entirety. Rule 5.2(a)(3) provides that a filing "that contains . . . the name of an individual known to be a minor . . . may include only . . . the minor's initials." This provision is mandatory, not permissive. The rule does not authorize a court to override the minor-initials requirement upon a finding of good cause. Unlike certain other privacy protections in the federal rules, the minor-identification rule is an absolute floor: initials only, always, in any filing.
+
+The obligation runs to all parties, not just the filer. Under Rule 9037(d) (incorporated through Bankr. P. 9037), the clerk may refuse to accept a filing that contains personal data identifiers in violation of the rule, and the court may issue a protective order sua sponte. Counsel for all parties, including Nagel Rice LLP, are independently obligated to comply with Rule 9037 in every submission to this Court.
+
+The question of whether B.B. consents to identification does not override the rule. Rule 5.2 creates a structural protection for the courts and the public, not merely a personal privilege the individual may waive. Even if B.B. herself were to consent to public identification — a matter on which this memorandum takes no position — the Court would retain independent authority to maintain the pseudonymous designation to protect the integrity of its own record and to avoid converting a federal docket entry into a permanent searchable identification of a person who was a minor at the time of the underlying events.
+
+##### b. Common-Law Pseudonymity Under *Doe v. Megless*
+
+Beyond the mandatory Rule 9037 floor, the Third Circuit's common-law pseudonymity doctrine independently supports a formal order. In *Doe v. Megless*, 654 F.3d 404, 408 (3d Cir. 2011), the Third Circuit established a two-part threshold inquiry: the party seeking pseudonymous treatment must show (1) a fear of severe harm resulting from disclosure, and (2) that the fear is objectively reasonable. *Id.* at 408. If both threshold requirements are met, the court weighs a non-exhaustive list of factors favoring and disfavoring pseudonymity. *Id.*; *see also Doe v. C.A.R.S. Protection Plus, Inc.*, 527 F.3d 358, 371 n.2 (3d Cir. 2008) (identifying relevant factors in analogous context).
+
+The *Megless* court identified factors favoring pseudonymity, including: (1) the extent to which the litigant's identity has been kept confidential; (2) the severity of the threatened harm from disclosure; (3) the reasonableness of the fear; (4) the magnitude of the public interest in maintaining confidentiality; (5) whether the case involves intimate, highly personal subject matter; (6) the vulnerability of the party seeking protection; and (7) the absence of unfair prejudice to the opposing party. *Megless*, 654 F.3d at 408–09. Factors disfavoring pseudonymity include the public's general right to know who uses the federal courts and the risk that anonymity could shield a party from accountability or confuse the proceedings. *Id.*
+
+The threshold is met — and the balance is heavily one-sided — where, as here, the subject matter involves sexual conduct that occurred during the creditor's minority, the creditor's identity has been kept confidential throughout six years of prior litigation, and disclosure would connect her publicly and permanently to litigation arising from those events.
+
+#### 4. Application of the *Megless* Factors
+
+**Threshold: Fear of severe harm.** Public identification of B.B. as the creditor in a federal bankruptcy proceeding arising from sexual encounters that occurred when she was a minor would expose her to permanent, public, searchable association with this litigation. The federal court PACER docket is indexed by commercial search services and accessible to any member of the public indefinitely. A single docket entry using her full name creates a permanent record linking her to the subject matter of ESX-L-7200-19. The harm is severe, certain upon disclosure, and entirely irreversible. The threshold is met.
+
+**Threshold: Reasonableness of the fear.** Six years of litigation have been conducted with the pseudonym intact. The parties, the court, and counsel all understood and applied the designation consistently. There is no reason — and no party has articulated one — why the transition to a federal docket requires abandonment of a protection that has operated without incident in state court. The fear is objectively reasonable. The threshold is met.
+
+**Factor (1): Identity has been kept confidential.** As detailed above, B.B.'s identity has been maintained behind the pseudonym "B.B." throughout the entire duration of ESX-L-7200-19, from filing in 2019 through the present. The protection is not new and is not being requested for the first time; it is being requested to be preserved. This factor strongly favors pseudonymity.
+
+**Factor (2): Severity of harm from disclosure.** Permanent public identification — through a federally indexed docket — of a person who was a minor during the underlying events, in a case involving the most sensitive and intimate subject matter, constitutes severe and irreversible harm. This factor strongly favors pseudonymity.
+
+**Factor (3): Reasonableness of the fear.** The harm is not speculative. Federal court dockets are publicly accessible and commercially indexed. Disclosure on the federal docket would effectively be permanent. This factor strongly favors pseudonymity.
+
+**Factor (4): Public interest in confidentiality.** Courts and legislatures have consistently recognized that individuals who report sexual offenses occurring during their minority — and who pursue civil remedies arising from those offenses — must be protected from the prospect that litigation will permanently link their identity to publicly accessible court records. The public interest is served, not harmed, by maintaining confidentiality: it reinforces the credibility of courts as institutions that protect vulnerable parties and encourages proper use of legal process without deterring future litigants who would otherwise avoid exposure. This factor favors pseudonymity.
+
+**Factor (5): Sensitive, intimate subject matter.** There is no subject matter more personal or more consistently recognized as warranting pseudonymous treatment than sexual conduct occurring during an individual's minority. Courts throughout the Third Circuit and nationally grant pseudonymous status as a matter of course in cases involving minor victims of sexual offenses. *See, e.g.*, *Doe v. Provident Life & Accident Ins. Co.*, 176 F.R.D. 464, 467 (E.D. Pa. 1997). This factor strongly favors pseudonymity.
+
+**Factor (6): Vulnerability of the party.** B.B. was fifteen years old when the alleged encounters began. Whatever the ultimate legal resolution of the underlying claim, she was a minor and, by statutory definition, legally incapable of consent to sexual conduct with an adult under the New Jersey Child Sexual Abuse Act, N.J.S.A. 2A:61B-1. The protective impulse embedded in Rule 5.2(a)(3) recognizes the inherent vulnerability of individuals who were minors during the events giving rise to litigation. This factor favors pseudonymity.
+
+**Factor (7): Absence of prejudice to the opposing party.** Brad Mell is the debtor in this proceeding. He knows B.B.'s full identity. His counsel knows her identity. The Court knows or can be informed of her identity in a sealed submission. Nagel Rice LLP, her own counsel, is present in the proceeding. No party is confused, disadvantaged, or prejudiced by the continued use of the pseudonym "B.B." The sole consequence of the pseudonymous designation is that her full name does not appear on the public docket. That is not prejudice to any party. This factor favors pseudonymity.
+
+**Factors against pseudonymity: None applies.** The public's general right to know who uses the courts is real but not absolute — it consistently yields where, as here, the case involves a minor victim of sexual conduct and the pseudonymous treatment has been in place throughout the prior proceedings. There is no suggestion that the pseudonymous designation shields any party from accountability: the debtor's identity is fully disclosed; the creditor's pseudonym does not obscure anything relevant to the court's adjudication of the merits. There is no risk of confusion — all parties and the Court know who "B.B." is.
+
+The *Megless* balance is not close. Every factor favors pseudonymity. No factor favors disclosure.
+
+#### 5. Settlement Confidentiality Must Be Protected Under the Same Order
+
+The March 2026 Full and Final Settlement Agreement and Mutual Release (the "Trust Settlement") contains an express confidentiality provision covering the settlement amount. Paragraph 10 of that agreement permits disclosure to a court of law in a sealed envelope. The settlement amount has not been disclosed publicly and should not be disclosed in any public filing or at oral argument without a prior judicial ruling authorizing that disclosure.
+
+The protective order sought here should encompass the settlement amount as well as B.B.'s identity. The two protections are connected: both the identity and the dollar amount are sensitive, both were the subject of contractual confidentiality undertakings, and both can be managed through the same sealed-submission procedure that paragraph 10 of the Trust Settlement contemplates. Protecting the settlement amount through the same order also protects Brad's three children — the trust beneficiaries — from the collateral effects of public disclosure in litigation arising from their father's history.
+
+Counsel should present the settlement amount and operative release language (¶ 3 of the Trust Settlement) to the Court in sealed form — consistent with paragraph 10 of the agreement — at or before the July 16, 2026 hearing. This disclosure is necessary for the Court to evaluate the trust-fraud predicate underlying Doc. 8 and constitutes a required disclosure under N.J. RPC 3.3(a)(5). It should be made under seal, with notice to all parties that the sealed submission has been lodged.
+
+#### 6. Specific Relief Requested
+
+The following relief should be incorporated into a formal order entered before the July 16, 2026 hearing:
+
+**(a) Docket designation.** The Court should direct the Clerk of Court to designate the creditor as "B.B." in all public docket entries in this proceeding, including the Schedules as filed, the proof of claim when filed, and any adversary proceeding caption.
+
+**(b) Filing requirement.** All parties and all counsel are directed to use the designation "B.B." — and only that designation — in all filings, briefs, exhibits, and correspondence submitted to or docketed in this Court. Any filing that uses the creditor's full name must be submitted directly to chambers in sealed form and may not be uploaded to the public ECF docket without a prior order authorizing public filing.
+
+**(c) Hearing transcripts.** Any court reporter producing a transcript of a hearing in this proceeding is directed to substitute "B.B." for the creditor's full name throughout, before the transcript is released or docketed publicly.
+
+**(d) Sealed submissions.** Any party that must identify the creditor by full name in a submission to the Court — including for purposes of proof of claim, identification of a judgment holder, or settlement disclosures — shall file such identification in a sealed envelope or sealed ECF attachment labeled "CONFIDENTIAL — SUBMITTED UNDER SEAL — IDENTIFY INFORMATION — NOT FOR PUBLIC DOCKET." The Court shall maintain sealed submissions under seal absent further order.
+
+**(e) Settlement amount.** The dollar amount of the March 2026 Trust Settlement shall not be disclosed in any public filing, press communication, or oral argument in this proceeding. Counsel for B.B. and counsel for the debtor shall present the settlement amount to the Court in sealed form when required for any adjudicative purpose, consistent with paragraph 10 of the Trust Settlement.
+
+**(f) Retroactive application.** To the extent any filing already made in this proceeding — including any exhibit to Doc. 8 or any attachment to the voluntary petition — contains the creditor's full name, counsel are directed to file redacted versions substituting "B.B." within five business days of entry of this order. Sealed unredacted copies shall be maintained by the filing party and available to the Court upon request.
 
 ---
 
