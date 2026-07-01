@@ -13,16 +13,29 @@ This skill governs every article written for Bilal Khan's guest column on Doug P
 ## THE PIPELINE — 4 PHASES
 
 ```
-PHASE 1: Topic Discovery    → subagent researches what people are searching for
-         ↓ Bilal selects a topic
+PHASE 1: Topic Discovery    → AUTOMATED (weekly Routine, runs headlessly, no human present)
+         Researches what people are searching for, saves ranked report to
+         content/substack/topic-pipeline.md, commits, pushes, STOPS.
+         Bilal reads the report and picks a topic.
+         ↓
 PHASE 2: Topic Deep Dive    → subagent researches that topic thoroughly
-         ↓ Returns research brief + targeted interview questions
+         Returns research brief + targeted interview questions
+         ↓
 PHASE 3: Targeted Interview → main agent interviews Bilal using the research brief
-         ↓ Bilal adds, corrects, or deletes based on what the research found
+         Bilal adds, corrects, or deletes based on what the research found
+         ↓
 PHASE 4: Write & Deliver    → main agent writes, checks, generates .docx, delivers
 ```
 
-If Bilal arrives with a specific topic already chosen, skip Phase 1 and begin at Phase 2. If Bilal arrives with a fully formed story from inside (something he witnessed), begin at Phase 3 with the story sourcing interview.
+**The clean split:** Phase 1 runs automatically every week via a Claude Code Routine — no session, no human, fully autonomous. Phases 2–4 run interactively when Bilal is ready to write. The Routine produces a report. Bilal picks a topic. A new session handles the rest.
+
+**To start an article:** Open a new Claude Code session, type `/substack`, and tell Claude which topic from `content/substack/topic-pipeline.md` you want to develop.
+
+**Skip rules:**
+- If Bilal arrives with a topic already chosen: skip Phase 1, begin at Phase 2.
+- If Bilal arrives with a story he just witnessed from inside: skip Phases 1 and 2, begin at Phase 3 with story sourcing.
+
+**The Routine prompt lives at:** `content/substack/routine-prompt.md` — paste this into the Routine's prompt field at `claude.ai/code/routines`.
 
 ---
 
