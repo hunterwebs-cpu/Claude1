@@ -7,12 +7,14 @@
 
 I need you to insert missing documents into partially-completed PDF appendix volumes for a bankruptcy opposition filing.
 
+The 8 source documents I am attaching may be **ZIP archives of JPEG page scans** with a `.pdf` extension — a common format from court scanning systems. The 7 appendix volumes are real PDFs. The code below handles both formats: it auto-detects each source file and converts ZIP-of-JPEG files to proper PDFs before merging.
+
 ## What you have been given
 
-I am attaching **13 PDF files** to this message:
+I am attaching **15 files** to this message:
 
-### 7 partially-compiled appendix volumes (have placeholder tabs for missing docs):
-| Filename you will receive | Volume | Current pages |
+### 7 partially-compiled appendix volumes (valid PDFs, have placeholder tabs for missing docs):
+| Filename | Volume | Current pages |
 |---|---|---|
 | `appendix_vol_I.pdf` | Volume I — Motion/Schedules | 96 pages |
 | `appendix_vol_IIa.pdf` | Volume IIa — State Court Pleadings | 183 pages |
@@ -22,7 +24,7 @@ I am attaching **13 PDF files** to this message:
 | `appendix_vol_IVb.pdf` | Volume IVb — Criminal Proceedings | 108 pages |
 | `appendix_vol_VIb.pdf` | Volume VIb — Medical Records | 61 pages |
 
-### 7 missing source documents (raw PDFs I am attaching now):
+### 8 missing source documents (may be ZIP-of-JPEG — code will handle conversion automatically):
 | Attach as this filename | Tab | Description |
 |---|---|---|
 | `source_A4.pdf` | A-4 | Doc. 8 — Nagel/Rice Motion to Dismiss Bankruptcy Case |
@@ -34,112 +36,225 @@ I am attaching **13 PDF files** to this message:
 | `source_D3.pdf` | D-3 | Mell Memorandum to Roberts — State v. Mell, Corrected Attachments |
 | `source_F8.pdf` | F-8 | B.B. Medical Records — Robinson / Gill, January 3, 2018 |
 
-**IMPORTANT**: Please rename your files to exactly the filenames in the right-hand column of the second table before attaching, so the code below can find them.
+**Rename your local files to exactly the filenames above before attaching.**
 
 ---
 
-## What each volume currently looks like
+## Insertion points
 
-Each compiled volume already has a **separator tab page** (a single-page divider that says "Tab X-N — [Title]") as a placeholder for each missing document. The missing document's actual content pages need to be inserted immediately after that separator tab.
+Each compiled volume already has a separator tab page as a placeholder. The source content goes immediately after that separator.
 
-Exact insertion points (1-indexed page numbers):
-
-| Volume file | Separator tab | Separator is on page | Insert content after page |
+| Volume file | Tab | Separator page | Action |
 |---|---|---|---|
-| `appendix_vol_I.pdf` | A-4 | 53 | 53 (before current page 54) |
-| `appendix_vol_IIa.pdf` | B-3 | 183 | 183 (append at end) |
-| `appendix_vol_IIb.pdf` | B-10 | 209 | 209 (append at end) |
-| `appendix_vol_IIIb.pdf` | C-5 | 2 | 2 (before current page 3) |
-| `appendix_vol_IIIb.pdf` | C-9 | 48 | 48 (append at end, AFTER C-5 insertion) |
-| `appendix_vol_IVa.pdf` | D-1 | 2 | 2 (before current page 3) |
-| `appendix_vol_IVb.pdf` | D-3 | 2 | 2 (before current page 3) |
-| `appendix_vol_VIb.pdf` | F-8 | 61 | 61 (append at end) |
+| `appendix_vol_I.pdf` | A-4 | page 53 of 96 | insert after page 53 |
+| `appendix_vol_IIa.pdf` | B-3 | page 183 of 183 | append at end |
+| `appendix_vol_IIb.pdf` | B-10 | page 209 of 209 | append at end |
+| `appendix_vol_IIIb.pdf` | C-5 | page 2 of 48 | insert after page 2 |
+| `appendix_vol_IIIb.pdf` | C-9 | page 48 of 48 | append at end (after C-5 insertion) |
+| `appendix_vol_IVa.pdf` | D-1 | page 2 of 6 | insert after page 2 |
+| `appendix_vol_IVb.pdf` | D-3 | page 2 of 108 | insert after page 2 |
+| `appendix_vol_VIb.pdf` | F-8 | page 61 of 61 | append at end |
 
 ---
 
 ## Python code to run
 
-Please run the following Python code in your code execution environment. It will read the attached files, perform all insertions, and write 6 fixed output files.
+Run this in your code execution environment. It installs required packages, auto-converts any ZIP-of-JPEG source files to real PDFs, then merges everything.
 
 ```python
-import os
-from pypdf import PdfReader, PdfWriter
+import subprocess, sys
 
-def insert_after(vol_path, src_path, insert_after_page_1idx, out_path):
-    """Insert src PDF content after the given 1-indexed page of vol PDF."""
+# Install required packages
+subprocess.run([sys.executable, "-m", "pip", "install", "-q", "pypdf", "Pillow"], check=True)
+
+import os
+import zipfile
+import io
+from pypdf import PdfReader, PdfWriter
+from PIL import Image
+
+# ---------------------------------------------------------------------------
+# Step 1: Auto-convert source files (ZIP-of-JPEG → PDF if needed)
+# ---------------------------------------------------------------------------
+
+def zip_jpeg_to_pdf(src_path, out_path):
+    """Convert a ZIP archive of JPEG scans to a proper PDF."""
+    with zipfile.ZipFile(src_path) as zf:
+        names = sorted([
+            n for n in zf.namelist()
+            if n.lower().endswith(('.jpg', '.jpeg', '.png', '.tif', '.tiff'))
+            and not n.startswith('__MACOSX')
+        ])
+        if not names:
+            raise ValueError(f"{src_path}: ZIP contains no image files")
+
+        images = []
+        for name in names:
+            data = zf.read(name)
+            img = Image.open(io.BytesIO(data))
+            if img.mode not in ('RGB', 'L'):
+                img = img.convert('RGB')
+            images.append(img)
+
+    # Save as multi-page PDF
+    images[0].save(
+        out_path, format='PDF', save_all=True,
+        append_images=images[1:], resolution=150
+    )
+    print(f"  Converted {len(images)}-page ZIP-of-JPEG → {out_path}")
+
+
+def prepare_source(path):
+    """Return a path to a valid PDF version of the source file."""
+    # Check magic bytes
+    with open(path, 'rb') as f:
+        magic = f.read(4)
+
+    if magic == b'%PDF':
+        print(f"  {os.path.basename(path)}: already a valid PDF")
+        return path
+
+    if magic[:2] == b'PK':  # ZIP magic
+        out = path.replace('.pdf', '_converted.pdf')
+        zip_jpeg_to_pdf(path, out)
+        return out
+
+    raise ValueError(
+        f"{os.path.basename(path)}: unrecognized format (magic={magic!r}). "
+        "Expected PDF or ZIP-of-JPEG."
+    )
+
+
+SOURCE_FILES = [
+    "source_A4.pdf", "source_B3.pdf", "source_B10.pdf",
+    "source_C5.pdf", "source_C9.pdf",
+    "source_D1.pdf", "source_D3.pdf", "source_F8.pdf",
+]
+
+print("=== Step 1: Preparing source files ===")
+ready = {}  # tab -> converted path
+for sf in SOURCE_FILES:
+    if not os.path.exists(sf):
+        print(f"  MISSING: {sf} — skipping")
+        ready[sf] = None
+        continue
+    try:
+        ready[sf] = prepare_source(sf)
+    except Exception as e:
+        print(f"  ERROR on {sf}: {e}")
+        ready[sf] = None
+
+
+# ---------------------------------------------------------------------------
+# Step 2: Merge into appendix volumes
+# ---------------------------------------------------------------------------
+
+def insert_after(vol_path, src_path, cut, out_path):
+    """Insert src_path pages after 1-indexed page cut of vol_path."""
     vol = PdfReader(vol_path)
     src = PdfReader(src_path)
-    writer = PdfWriter()
-    n = len(vol.pages)
-    s = len(src.pages)
-    cut = insert_after_page_1idx  # pages before cut: indices 0..cut-1
-
+    n, s = len(vol.pages), len(src.pages)
+    w = PdfWriter()
     for i in range(cut):
-        writer.add_page(vol.pages[i])
+        w.add_page(vol.pages[i])
     for pg in src.pages:
-        writer.add_page(pg)
+        w.add_page(pg)
     for i in range(cut, n):
-        writer.add_page(vol.pages[i])
-
-    with open(out_path, "wb") as f:
-        writer.write(f)
-    print(f"OK  {out_path}  ({n}+{s}={n+s} pages)")
-    return n + s
+        w.add_page(vol.pages[i])
+    with open(out_path, 'wb') as f:
+        w.write(f)
+    print(f"  OK  {out_path}  ({n} + {s} = {n+s} pages)")
 
 
-# --- Vol I: insert A-4 after page 53 ---
-insert_after("appendix_vol_I.pdf", "source_A4.pdf", 53, "FIXED_appendix_vol_I.pdf")
+print("\n=== Step 2: Building fixed volumes ===")
 
-# --- Vol IIa: insert B-3 at end (after page 183) ---
-insert_after("appendix_vol_IIa.pdf", "source_B3.pdf", 183, "FIXED_appendix_vol_IIa.pdf")
+# Vol I — A-4 after page 53
+if ready.get("source_A4.pdf"):
+    insert_after("appendix_vol_I.pdf", ready["source_A4.pdf"], 53, "FIXED_appendix_vol_I.pdf")
+else:
+    print("  SKIP Vol I (source_A4.pdf not ready)")
 
-# --- Vol IIb: insert B-10 at end (after page 209) ---
-insert_after("appendix_vol_IIb.pdf", "source_B10.pdf", 209, "FIXED_appendix_vol_IIb.pdf")
+# Vol IIa — B-3 at end
+if ready.get("source_B3.pdf"):
+    insert_after("appendix_vol_IIa.pdf", ready["source_B3.pdf"], 183, "FIXED_appendix_vol_IIa.pdf")
+else:
+    print("  SKIP Vol IIa (source_B3.pdf not ready)")
 
-# --- Vol IIIb: two insertions ---
-# First: insert C-5 after page 2 (separator), before current page 3
-vol_iiib = PdfReader("appendix_vol_IIIb.pdf")   # 48 pages
-c5       = PdfReader("source_C5.pdf")
-c9       = PdfReader("source_C9.pdf")
+# Vol IIb — B-10 at end
+if ready.get("source_B10.pdf"):
+    insert_after("appendix_vol_IIb.pdf", ready["source_B10.pdf"], 209, "FIXED_appendix_vol_IIb.pdf")
+else:
+    print("  SKIP Vol IIb (source_B10.pdf not ready)")
 
-writer = PdfWriter()
-# Pages 1-2: cover + C-5 separator (indices 0,1)
-writer.add_page(vol_iiib.pages[0])
-writer.add_page(vol_iiib.pages[1])
-# C-5 content
-for pg in c5.pages:
-    writer.add_page(pg)
-# Pages 3-47: C-6 through C-8 content (indices 2..46)
-for i in range(2, 47):
-    writer.add_page(vol_iiib.pages[i])
-# Page 48: C-9 separator (index 47)
-writer.add_page(vol_iiib.pages[47])
-# C-9 content
-for pg in c9.pages:
-    writer.add_page(pg)
+# Vol IIIb — C-5 after page 2, then C-9 at end
+if ready.get("source_C5.pdf") or ready.get("source_C9.pdf"):
+    vol3b = PdfReader("appendix_vol_IIIb.pdf")   # 48 pages
+    w = PdfWriter()
 
-total_iiib = 48 + len(c5.pages) + len(c9.pages)
-with open("FIXED_appendix_vol_IIIb.pdf", "wb") as f:
-    writer.write(f)
-print(f"OK  FIXED_appendix_vol_IIIb.pdf  ({total_iiib} pages)")
+    # Cover + C-5 separator (pages 1-2, indices 0-1)
+    w.add_page(vol3b.pages[0])
+    w.add_page(vol3b.pages[1])
 
-# --- Vol IVa: insert D-1 after page 2 ---
-insert_after("appendix_vol_IVa.pdf", "source_D1.pdf", 2, "FIXED_appendix_vol_IVa.pdf")
+    # C-5 content (if available)
+    c5_pages = 0
+    if ready.get("source_C5.pdf"):
+        c5 = PdfReader(ready["source_C5.pdf"])
+        for pg in c5.pages:
+            w.add_page(pg)
+        c5_pages = len(c5.pages)
+    else:
+        print("  NOTE: source_C5.pdf missing — C-5 slot will remain empty")
 
-# --- Vol IVb: insert D-3 after page 2 ---
-insert_after("appendix_vol_IVb.pdf", "source_D3.pdf", 2, "FIXED_appendix_vol_IVb.pdf")
+    # C-6 through C-8 content (original pages 3-47, indices 2-46)
+    for i in range(2, 47):
+        w.add_page(vol3b.pages[i])
 
-# --- Vol VIb: insert F-8 at end (after page 61) ---
-insert_after("appendix_vol_VIb.pdf", "source_F8.pdf", 61, "FIXED_appendix_vol_VIb.pdf")
+    # C-9 separator (original page 48, index 47)
+    w.add_page(vol3b.pages[47])
 
-print("\nAll done. Download the 7 FIXED_*.pdf files.")
+    # C-9 content (if available)
+    c9_pages = 0
+    if ready.get("source_C9.pdf"):
+        c9 = PdfReader(ready["source_C9.pdf"])
+        for pg in c9.pages:
+            w.add_page(pg)
+        c9_pages = len(c9.pages)
+    else:
+        print("  NOTE: source_C9.pdf missing — C-9 slot will remain empty")
+
+    total = 48 + c5_pages + c9_pages
+    with open("FIXED_appendix_vol_IIIb.pdf", 'wb') as f:
+        w.write(f)
+    print(f"  OK  FIXED_appendix_vol_IIIb.pdf  ({total} pages)")
+else:
+    print("  SKIP Vol IIIb (both C-5 and C-9 sources missing)")
+
+# Vol IVa — D-1 after page 2
+if ready.get("source_D1.pdf"):
+    insert_after("appendix_vol_IVa.pdf", ready["source_D1.pdf"], 2, "FIXED_appendix_vol_IVa.pdf")
+else:
+    print("  SKIP Vol IVa (source_D1.pdf not ready)")
+
+# Vol IVb — D-3 after page 2
+if ready.get("source_D3.pdf"):
+    insert_after("appendix_vol_IVb.pdf", ready["source_D3.pdf"], 2, "FIXED_appendix_vol_IVb.pdf")
+else:
+    print("  SKIP Vol IVb (source_D3.pdf not ready)")
+
+# Vol VIb — F-8 at end
+if ready.get("source_F8.pdf"):
+    insert_after("appendix_vol_VIb.pdf", ready["source_F8.pdf"], 61, "FIXED_appendix_vol_VIb.pdf")
+else:
+    print("  SKIP Vol VIb (source_F8.pdf not ready)")
+
+print("\n=== Done. Download all FIXED_*.pdf files that were produced. ===")
 ```
 
 ---
 
 ## Expected output
 
-After the code runs you should see 7 output files:
+The code produces up to 7 fixed volumes (one per source file successfully processed):
 - `FIXED_appendix_vol_I.pdf`
 - `FIXED_appendix_vol_IIa.pdf`
 - `FIXED_appendix_vol_IIb.pdf`
@@ -148,24 +263,17 @@ After the code runs you should see 7 output files:
 - `FIXED_appendix_vol_IVb.pdf`
 - `FIXED_appendix_vol_VIb.pdf`
 
-Please provide all 6 as downloadable files when the code completes.
+If any source file is missing or unreadable, that volume is skipped and a SKIP message is printed — the other volumes still complete.
+
+Please provide all produced `FIXED_*.pdf` files as downloads when done.
 
 ---
 
-## Volumes NOT handled here (already complete or handled separately)
+## Volumes already complete (do NOT attach or modify these):
 
-- `appendix_vol_IIIa.pdf` — complete (414 pages, no missing docs)
+- `appendix_vol_IIIa.pdf` — 414 pages, complete
 - `appendix_vol_Va.pdf` — complete
 - `appendix_vol_Vb.pdf` — complete
 - `appendix_vol_VIa.pdf` — complete
-- `appendix_vol_VIb.pdf` — included above (F-8 Robinson/Gill records inserted at end)
-- `appendix_vol_VII.pdf` — complete (all 49 case law authorities present)
-- `appendix_vol_VIII_SEALED.pdf` — confidential documents; handled under separate sealed protocol
-
----
-
-## If pypdf is not available
-
-Try: `pip install pypdf` or `pip install PyPDF2` and change `from pypdf import` to `from PyPDF2 import`.
-If using PyPDF2: replace `PdfReader` with `PdfFileReader` and `PdfWriter` with `PdfFileWriter`,
-and replace `writer.add_page(p)` with `writer.addPage(p)`.
+- `appendix_vol_VII.pdf` — 49 case law authorities, complete
+- `appendix_vol_VIII_SEALED.pdf` — confidential; separate sealed protocol
