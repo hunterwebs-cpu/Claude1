@@ -11,7 +11,7 @@ I need you to insert missing documents into partially-completed PDF appendix vol
 
 I am attaching **13 PDF files** to this message:
 
-### 6 partially-compiled appendix volumes (have placeholder tabs for missing docs):
+### 7 partially-compiled appendix volumes (have placeholder tabs for missing docs):
 | Filename you will receive | Volume | Current pages |
 |---|---|---|
 | `appendix_vol_I.pdf` | Volume I — Motion/Schedules | 96 pages |
@@ -20,6 +20,7 @@ I am attaching **13 PDF files** to this message:
 | `appendix_vol_IIIb.pdf` | Volume IIIb — Pre-Trial Motions | 48 pages |
 | `appendix_vol_IVa.pdf` | Volume IVa — Criminal Proceedings | 6 pages |
 | `appendix_vol_IVb.pdf` | Volume IVb — Criminal Proceedings | 108 pages |
+| `appendix_vol_VIb.pdf` | Volume VIb — Medical Records | 61 pages |
 
 ### 7 missing source documents (raw PDFs I am attaching now):
 | Attach as this filename | Tab | Description |
@@ -31,6 +32,7 @@ I am attaching **13 PDF files** to this message:
 | `source_C9.pdf` | C-9 | Whalen Verification — Nagel Committed Extortion |
 | `source_D1.pdf` | D-1 | Plea Agreement — United States v. S. Bradley Mell |
 | `source_D3.pdf` | D-3 | Mell Memorandum to Roberts — State v. Mell, Corrected Attachments |
+| `source_F8.pdf` | F-8 | B.B. Medical Records — Robinson / Gill, January 3, 2018 |
 
 **IMPORTANT**: Please rename your files to exactly the filenames in the right-hand column of the second table before attaching, so the code below can find them.
 
@@ -51,6 +53,7 @@ Exact insertion points (1-indexed page numbers):
 | `appendix_vol_IIIb.pdf` | C-9 | 48 | 48 (append at end, AFTER C-5 insertion) |
 | `appendix_vol_IVa.pdf` | D-1 | 2 | 2 (before current page 3) |
 | `appendix_vol_IVb.pdf` | D-3 | 2 | 2 (before current page 3) |
+| `appendix_vol_VIb.pdf` | F-8 | 61 | 61 (append at end) |
 
 ---
 
@@ -126,20 +129,24 @@ insert_after("appendix_vol_IVa.pdf", "source_D1.pdf", 2, "FIXED_appendix_vol_IVa
 # --- Vol IVb: insert D-3 after page 2 ---
 insert_after("appendix_vol_IVb.pdf", "source_D3.pdf", 2, "FIXED_appendix_vol_IVb.pdf")
 
-print("\nAll done. Download the 6 FIXED_*.pdf files.")
+# --- Vol VIb: insert F-8 at end (after page 61) ---
+insert_after("appendix_vol_VIb.pdf", "source_F8.pdf", 61, "FIXED_appendix_vol_VIb.pdf")
+
+print("\nAll done. Download the 7 FIXED_*.pdf files.")
 ```
 
 ---
 
 ## Expected output
 
-After the code runs you should see 6 output files:
+After the code runs you should see 7 output files:
 - `FIXED_appendix_vol_I.pdf`
 - `FIXED_appendix_vol_IIa.pdf`
 - `FIXED_appendix_vol_IIb.pdf`
 - `FIXED_appendix_vol_IIIb.pdf`
 - `FIXED_appendix_vol_IVa.pdf`
 - `FIXED_appendix_vol_IVb.pdf`
+- `FIXED_appendix_vol_VIb.pdf`
 
 Please provide all 6 as downloadable files when the code completes.
 
@@ -151,7 +158,7 @@ Please provide all 6 as downloadable files when the code completes.
 - `appendix_vol_Va.pdf` — complete
 - `appendix_vol_Vb.pdf` — complete
 - `appendix_vol_VIa.pdf` — complete
-- `appendix_vol_VIb.pdf` — F-8 does not exist in the source system; placeholder tab remains
+- `appendix_vol_VIb.pdf` — included above (F-8 Robinson/Gill records inserted at end)
 - `appendix_vol_VII.pdf` — complete (all 49 case law authorities present)
 - `appendix_vol_VIII_SEALED.pdf` — confidential documents; handled under separate sealed protocol
 
