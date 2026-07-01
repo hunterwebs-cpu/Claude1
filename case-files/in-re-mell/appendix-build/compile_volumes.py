@@ -10,6 +10,7 @@ auto-splits at MAX_VOLUME_BYTES, outputs to ./output/
 
 import json
 import os
+import re
 import sys
 import io
 import textwrap
@@ -57,6 +58,19 @@ OPPOSITION_LABEL = "Appendix to Opposition to Motion to Dismiss"
 COLOR_NAVY = HexColor("#1B3A6B")
 COLOR_GOLD = HexColor("#B8962E")
 COLOR_LIGHT = HexColor("#F5F5F5")
+
+# ---------------------------------------------------------------------------
+# Pseudonymity rule
+# The creditor's real name (Lilly, Cannon, or any combination) must NEVER
+# appear in any cover page, separator page, or output file.
+# Only the pseudonym "B.B." is permitted.
+# ---------------------------------------------------------------------------
+_BB_REAL_NAME_PATTERN = re.compile(r'\bLilly\b|\bCannon\b', re.IGNORECASE)
+
+
+def sanitize_title(title: str) -> str:
+    """Replace any real name for B.B. with the pseudonym 'B.B.'"""
+    return _BB_REAL_NAME_PATTERN.sub("B.B.", title)
 
 # ---------------------------------------------------------------------------
 # PDF generation helpers
@@ -233,7 +247,8 @@ def compile_volume(vol_id: str, vol_label: str, documents: list,
     for doc in valid_docs:
         local_filename = doc["local_filename"]
         pdf_path = DOWNLOADS_DIR / local_filename
-        sep = make_separator_page(doc.get("tab", "?"), doc.get("display_title", ""), doc.get("confidential", False))
+        safe_title = sanitize_title(doc.get("display_title", ""))
+        sep = make_separator_page(doc.get("tab", "?"), safe_title, doc.get("confidential", False))
 
         if not pdf_path.exists():
             warnings.append(f"MISSING: {local_filename} (vol {vol_id}, tab {doc.get('tab')}) — file not found in downloads/")
@@ -263,7 +278,12 @@ def compile_volume(vol_id: str, vol_label: str, documents: list,
         if not chunk_docs_list:
             return None, 0
 
-        cover = make_cover_page(vol_label, chunk_docs_list)
+        # Sanitize display titles for cover page (pseudonymity rule)
+        sanitized_docs = [
+            {**d, "display_title": sanitize_title(d.get("display_title", ""))}
+            for d in chunk_docs_list
+        ]
+        cover = make_cover_page(vol_label, sanitized_docs)
         writer = PdfWriter()
 
         # Add cover
@@ -335,14 +355,20 @@ def compile_confidential_volume(vol_id: str, vol_label: str, documents: list,
     if not valid_docs:
         return outputs
 
-    cover = make_cover_page(f"[SEALED] {vol_label}", valid_docs)
+    # Sanitize display titles (pseudonymity rule)
+    sanitized_docs = [
+        {**d, "display_title": sanitize_title(d.get("display_title", ""))}
+        for d in valid_docs
+    ]
+    cover = make_cover_page(f"[SEALED] {vol_label}", sanitized_docs)
     writer = PdfWriter()
 
     for page in pdf_from_bytes(cover).pages:
         writer.add_page(page)
 
     for doc in valid_docs:
-        sep = make_separator_page(doc.get("tab", "?"), doc.get("display_title", ""), confidential=True)
+        safe_title = sanitize_title(doc.get("display_title", ""))
+        sep = make_separator_page(doc.get("tab", "?"), safe_title, confidential=True)
         for page in pdf_from_bytes(sep).pages:
             writer.add_page(page)
 
