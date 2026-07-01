@@ -663,8 +663,6 @@ The Bankruptcy Code was designed to prevent exactly this outcome. The orderly Ch
 
 #### 1. What Doc. 8 Actually Says — and Does Not Say
 
-We pulled the full text of Doc. 8 and ran it. Here is the complete picture:
-
 **"B.B." appears 554 times in Doc. 8 — from the caption to the signature page — with zero explanation.** The brief contains no footnote, no introductory sentence, and no acknowledgment whatsoever that using initials in a federal court requires any justification. The words "pseudonym," "anonymous," "initials," "Megless," "Rule 5.2," and "9037" do not appear anywhere in the 23-page brief. There is no motion for leave to proceed pseudonymously, and no order from Judge O'Hagan granting such status.
 
 The two things in Doc. 8 that are adjacent to the pseudonymity issue — and that we need to distinguish carefully — are:
