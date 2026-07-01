@@ -659,31 +659,43 @@ The Bankruptcy Code was designed to prevent exactly this outcome. The orderly Ch
 
 ### H. NAGEL RICE HAS NOT MOVED FOR PSEUDONYMOUS STATUS IN THIS PROCEEDING — COUNSEL SHOULD CONSIDER PRESSING FOR IDENTIFICATION
 
-#### 1. The Procedural Gap
+#### 1. What Doc. 8 Actually Says — and Does Not Say
 
-Doc. 8 uses "B.B." throughout, apparently assuming the state court pseudonym convention carries over automatically to federal court. It does not work that way. No motion for leave to proceed pseudonymously has been filed in this bankruptcy case. No order granting pseudonymous status has been entered by Judge O'Hagan. The state court's docketing practice has no binding effect on the federal docket.
+We pulled the full text of Doc. 8 and ran it. Here is the complete picture:
 
-This is an argument available to Brad that Nagel has handed to us by omission. We continue to use "B.B." in this memorandum only for internal consistency with the existing record; in any filing with the Court, counsel should assess whether to press the issue or hold it.
+**"B.B." appears 554 times in Doc. 8 — from the caption to the signature page — with zero explanation.** The brief contains no footnote, no introductory sentence, and no acknowledgment whatsoever that using initials in a federal court requires any justification. The words "pseudonym," "anonymous," "initials," "Megless," "Rule 5.2," and "9037" do not appear anywhere in the 23-page brief. There is no motion for leave to proceed pseudonymously, and no order from Judge O'Hagan granting such status.
+
+The two things in Doc. 8 that are adjacent to the pseudonymity issue — and that we need to distinguish carefully — are:
+
+**First, the state court confidentiality orders.** Nagel's brief notes that certain documents (divorce records, family trust documents, and abuse evidence) are "subject to multiple confidentiality orders entered in the State Court Action." He then states that B.B. has *not* filed a concurrent motion to seal those documents in this proceeding, and promises she will if the Court asks to see them. This is a disclosure about sealed documents — not about B.B.'s identity or the use of her initials. Nagel is not claiming that the state court's confidentiality orders require the federal court to use "B.B." as the creditor's name. He never makes that argument.
+
+**Second, the March 2024 sanctions order.** Nagel deploys the March 1, 2024 state court order sanctioning Brad for "repeatedly publishing B.B. and her family's names on the docket in violation of the court's orders" as bad-behavior evidence in the § 707(a) analysis. That is a state court sanctions order. It has no operative effect in this proceeding. It does not constitute a federal court protective order and it does not transfer any obligation to Judge O'Hagan's docket.
+
+Bottom line: Nagel never moved for pseudonymous treatment in the Bankruptcy Court, never acknowledged that he needed to, and the two state court references in Doc. 8 are about specific documents and past sanctions — not about the naming convention he has used throughout the federal filing without authorization.
+
+This is an argument available to Brad that Nagel has handed to us entirely by omission. We continue to use "B.B." in this memorandum only for internal consistency with the existing record; in any filing with the Court, counsel should assess whether to press the issue or hold it.
 
 #### 2. Why Rule 5.2 Does Not Require Pseudonymity Here
 
-The source Nagel would cite for mandatory pseudonymous treatment is Fed. R. Bankr. P. 9037, which incorporates Fed. R. Civ. P. 5.2. Rule 5.2(a)(3) requires initials only for "an individual known to be a minor." The operative phrase is present tense — it attaches to someone who is currently a minor at the time of the filing, not someone who was a minor when the underlying events occurred.
+The rule Nagel would invoke if forced to justify the initials is Fed. R. Bankr. P. 9037, which incorporates Fed. R. Civ. P. 5.2. Rule 5.2(a)(3) requires initials only for "an individual known to be a minor." The operative phrase is present tense — it attaches to someone who is currently a minor at the time of the filing, not someone who was a minor when the underlying events occurred.
 
-The creditor was born August 2, 2001. She is 24 years old. She is not a minor. Rule 5.2's mandatory protection simply does not apply to her in this proceeding. The state court's practice — whatever its basis — is not coextensive with the federal rules, and it does not migrate into this Court by operation of state court custom.
+The creditor was born August 2, 2001. She is 24 years old. She is not a minor. Rule 5.2's mandatory protection simply does not apply to her in this proceeding. The state court's practice — whatever its basis, and it appears to rest on multiple now-expired court orders — is not coextensive with the federal rules, and it does not migrate into this Court by operation of state court custom.
 
 #### 3. Common-Law Pseudonymity Requires a Motion Nagel Has Never Filed
 
 Under *Doe v. Megless*, 654 F.3d 404 (3d Cir. 2011), a party seeking to litigate pseudonymously in federal court must affirmatively move for that status and establish: (1) a fear of severe harm from disclosure, and (2) that the fear is objectively reasonable. The burden is on the party seeking pseudonymous treatment. If those thresholds are met, the court then weighs a series of factors.
 
-Nagel apparently referenced pseudonymity somewhere in Doc. 8 as if it were simply assumed — but a passing reference in a motion to dismiss is not a *Megless* motion. No formal motion has been filed. Until one is, there is no procedural basis for pseudonymous treatment of an adult creditor, and the Court has made no ruling authorizing it.
+Nagel filed 554 instances of "B.B." in a federal court filing and never filed that motion. There is no procedural basis for pseudonymous treatment of an adult creditor in this proceeding. The Court has made no ruling authorizing it. The state court's name-protection orders — whatever their terms — bound the parties in state court; they do not travel with Nagel into a new federal forum.
 
 #### 4. The Merits of Any Future Megless Motion Are Contestable
 
-If Nagel does eventually file a proper *Megless* motion, counsel should be prepared to oppose it. The argument for Brad is straightforward: a 24-year-old adult who has been an active litigant for six-plus years, represented by experienced counsel, who has now voluntarily stepped into a federal bankruptcy proceeding to assert a multi-million-dollar claim against Brad's estate — stands in a fundamentally different position from the typical pseudonymity plaintiff. Brad's own identity and financial information is entirely public on the federal docket; the creditor asserting claims against him should be held to the same standard of public accountability. *Megless*, 654 F.3d at 408 (public's right to know who is using the federal courts). We do not concede that the *Megless* balance would favor anonymity for an adult creditor in this posture, and we should say so plainly if and when a motion is filed.
+If Nagel does eventually file a proper *Megless* motion, counsel should be prepared to oppose it. The argument for Brad is straightforward: a 24-year-old adult who has been an active litigant for six-plus years, represented by experienced counsel, who has now voluntarily stepped into a federal bankruptcy proceeding to assert a multi-million-dollar claim against Brad's estate — stands in a fundamentally different position from the typical pseudonymity plaintiff. Brad's own identity and financial information is entirely public on the federal docket; the creditor asserting claims against him should be held to the same standard of public accountability. *Megless*, 654 F.3d at 408 (public's right to know who is using the federal courts). We do not concede that the *Megless* balance would favor anonymity for an adult creditor in this posture, and counsel should say so plainly if and when a motion is filed.
 
 #### 5. Recommended Approach for July 16
 
-Raise this at the hearing. If the Court or Nagel invokes the pseudonym, counsel's response is: no order has been entered in this proceeding granting pseudonymous status; Brad does not consent; and if Nagel wants that protection in federal court, he must file a proper motion with full *Megless* briefing and give Brad an opportunity to oppose it on a schedule that does not delay resolution of Doc. 8. This is a clean, low-risk point that costs nothing to raise and could produce a useful procedural advantage — or at minimum put Nagel on notice that the pseudonym is not a freebie in this forum.
+Raise this at the hearing. The argument is simple: Nagel used "B.B." throughout a 23-page federal filing without filing a motion and without citing any order from this Court. No motion has been filed. No order has been entered. Brad does not consent to pseudonymous treatment of a creditor asserting a claim against his estate. If Nagel wants that protection in federal court, he must file a proper motion with full *Megless* briefing and give Brad an opportunity to oppose it — on a schedule that does not delay resolution of Doc. 8.
+
+This is a clean, low-risk point that costs nothing to raise and puts Nagel on notice that the pseudonym is not a freebie in this forum. The downside risk is minimal — if Nagel files a Megless motion and prevails, nothing changes; the creditor continues to be called "B.B." But if the Court is persuaded that no proper basis has been established, the creditor must be identified by name. That identification matters: it is the name that belongs on any adversary proceeding caption, any claims objection, and any plan distribution.
 
 Note that the settlement amount remains separately protected regardless of how this issue resolves. The Trust Settlement's paragraph 10 permits disclosure in a sealed envelope to any court of law — that contractual protection does not depend on a pseudonymity order, and counsel should handle the settlement amount that way irrespective of the outcome on the pseudonym question.
 
