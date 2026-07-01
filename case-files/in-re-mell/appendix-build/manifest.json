@@ -1,0 +1,1100 @@
+{
+  "case": "In re S. Bradley Mell, No. 26-16834-EJO (Bankr. D.N.J.)",
+  "hearing_date": "2026-07-16",
+  "max_volume_bytes": 15099494,
+  "generated": "2026-07-01",
+  "volumes": [
+    {
+      "id": "I",
+      "label": "Volume I — Petition & Procedural History",
+      "documents": [
+        {
+          "drive_id": "1prWupexNoWNf0TBKfKum1OhAujKIQivJ",
+          "local_filename": "vol1_A1_bankruptcy_docket.pdf",
+          "display_title": "U.S. Bankruptcy Court, D.N.J. — Docket, In re S. Bradley Mell, No. 26-16834-EJO",
+          "tab": "A-1",
+          "date": "2026-06-12",
+          "size_bytes": 39936,
+          "skip": false,
+          "confidential": false,
+          "notes": "Live docket printout"
+        },
+        {
+          "drive_id": "1t7yDQquMe5-Tz1SEOXBH5_jEdOcyhhhG",
+          "local_filename": "vol1_A2_bankruptcy_filing.pdf",
+          "display_title": "Notice of Filing of Voluntary Petition Under Chapter 7 and Imposition of Automatic Stay",
+          "tab": "A-2",
+          "date": "2026-06-12",
+          "size_bytes": 570123,
+          "skip": false,
+          "confidential": false,
+          "notes": "Bankruptcy petition notice filed in Essex Cty Superior Court"
+        },
+        {
+          "drive_id": "1YaOyRwqdv1VLX8LrIVJR1Lx74ilUVkl-",
+          "local_filename": "vol1_A3_schedules.pdf",
+          "display_title": "Bankruptcy Schedules — Summary of Assets and Liabilities, Schedules A/B, D, E/F, I, J (Doc. 11)",
+          "tab": "A-3",
+          "date": "2026-06-25",
+          "size_bytes": 729918,
+          "skip": false,
+          "confidential": false,
+          "notes": "Official Form 106Sum and supporting schedules filed June 25, 2026"
+        },
+        {
+          "drive_id": "1RHd-7lPMRkFxdznkrizj3BGd0GHeT9yE",
+          "local_filename": "vol1_A4_nagel_motion_dismiss.pdf",
+          "display_title": "Doc. 8 — Motion to Dismiss Bankruptcy Case (Nagel Rice, LLP, on behalf of B.B.)",
+          "tab": "A-4",
+          "date": "2026-06-25",
+          "size_bytes": 7500000,
+          "skip": false,
+          "confidential": false,
+          "notes": "Creditor's motion to dismiss under 11 U.S.C. § 707(a)"
+        },
+        {
+          "drive_id": "1_AWbKmAxWm64WzhCCtMLfAhlPBn1hKne",
+          "local_filename": "vol1_A5_hearing_transcript_may15.pdf",
+          "display_title": "Transcript of Hearing on Motion to Dismiss — May 15, 2026",
+          "tab": "A-5",
+          "date": "2026-05-15",
+          "size_bytes": 310000,
+          "skip": false,
+          "confidential": false,
+          "notes": "Oral argument transcript, Bankr. D.N.J."
+        },
+        {
+          "drive_id": "10IQA-7YpEJqpR8YyOtloYdIIOfJ1rckw",
+          "local_filename": "vol1_A6_mell_letter_sodono.pdf",
+          "display_title": "Debtor's Letter to Trustee Sodono re: Case Status",
+          "tab": "A-6",
+          "date": "2026-01-01",
+          "size_bytes": 229000,
+          "skip": false,
+          "confidential": false,
+          "notes": "Mell_Letter_to_Sodono_FINAL_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "IIa",
+      "label": "Volume IIa — State Court Record (Part 1)",
+      "documents": [
+        {
+          "drive_id": "1YOXImcEErODCfvUtiB_s3eLBShs03YXm",
+          "local_filename": "vol2a_B1_civil_case_jacket_10.pdf",
+          "display_title": "Civil Case Jacket — B.B. v. S. Bradley Mell, ESX-L-7200-19 (Docket/Case History)",
+          "tab": "B-1",
+          "date": "2024-01-01",
+          "size_bytes": 1600000,
+          "skip": false,
+          "confidential": false,
+          "notes": "CivilCaseJacket (10) — most complete version; files 8 and 9 excluded as duplicates"
+        },
+        {
+          "drive_id": "1uVSeeXdaOI9-pOiT5UPU5u3NWOFZn_EW",
+          "local_filename": "vol2a_B2_esx_docket.pdf",
+          "display_title": "Essex County Superior Court Docket — ESX-L-007200-19",
+          "tab": "B-2",
+          "date": "2024-01-01",
+          "size_bytes": 615000,
+          "skip": false,
+          "confidential": false,
+          "notes": "ESX L-007200-19 (1).pdf"
+        },
+        {
+          "drive_id": "12mAcOnQMAV5bDBeNg6socOPKrg3wFMYD",
+          "local_filename": "vol2a_B3_civil_case_jacket_11.pdf",
+          "display_title": "Civil Case Jacket — Amended Complaint and Exhibits",
+          "tab": "B-3",
+          "date": "2022-01-01",
+          "size_bytes": 6900000,
+          "skip": false,
+          "confidential": false,
+          "notes": "CivilCaseJacket (11)"
+        }
+      ]
+    },
+    {
+      "id": "IIb",
+      "label": "Volume IIb — State Court Record (Part 2)",
+      "documents": [
+        {
+          "drive_id": "1Fs-ERG8coazJdAiYZoPDlwbYvrkiGGRD",
+          "local_filename": "vol2b_B4_civil_case_jacket_12.pdf",
+          "display_title": "Civil Case Jacket — Attachment/Writ",
+          "tab": "B-4",
+          "date": "2023-01-01",
+          "size_bytes": 562000,
+          "skip": false,
+          "confidential": false,
+          "notes": "CivilCaseJacket (12)"
+        },
+        {
+          "drive_id": "1qcTY_qpucKfH75cDTQ_6DEgzTAXzfhNk",
+          "local_filename": "vol2b_B5_civil_case_jacket_13.pdf",
+          "display_title": "Civil Case Jacket — Discovery Orders and Motions",
+          "tab": "B-5",
+          "date": "2023-01-01",
+          "size_bytes": 5500000,
+          "skip": false,
+          "confidential": false,
+          "notes": "CivilCaseJacket (13)"
+        },
+        {
+          "drive_id": "15b9yMscTBQH1Lg6hVo_OgxzrB-Rj_eRF",
+          "local_filename": "vol2b_B6_civil_case_jacket_14.pdf",
+          "display_title": "Civil Case Jacket — Motions and Orders",
+          "tab": "B-6",
+          "date": "2024-01-01",
+          "size_bytes": 1800000,
+          "skip": false,
+          "confidential": false,
+          "notes": "CivilCaseJacket (14); file 15 excluded as duplicate of first component"
+        },
+        {
+          "drive_id": "1iFmAPyzFM2rjKWItH8RBm3DJt0SS0es4",
+          "local_filename": "vol2b_B7_civil_case_jacket_16.pdf",
+          "display_title": "Civil Case Jacket — Motions and Orders (Continued)",
+          "tab": "B-7",
+          "date": "2025-01-01",
+          "size_bytes": 1500000,
+          "skip": false,
+          "confidential": false,
+          "notes": "CivilCaseJacket (16)"
+        },
+        {
+          "drive_id": "1KZxfM7lyc8qpbGfl4LbUOXgdbfyND0CZ",
+          "local_filename": "vol2b_B8_civil_case_jacket_17.pdf",
+          "display_title": "Civil Case Jacket — Final Orders",
+          "tab": "B-8",
+          "date": "2025-01-01",
+          "size_bytes": 188000,
+          "skip": false,
+          "confidential": false,
+          "notes": "CivilCaseJacket (17)"
+        },
+        {
+          "drive_id": "1bJ9svt1EIXqB4ejSMa_zEutdEtnM5NVS",
+          "local_filename": "vol2b_B9_appellate_opinion_2024.pdf",
+          "display_title": "B.B. v. Mell — N.J. Appellate Division Opinion (2024)",
+          "tab": "B-9",
+          "date": "2024-01-01",
+          "size_bytes": 131000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1fQgD5f05_DoTeUlTD3AmM8c4b0gDFHvP",
+          "local_filename": "vol2b_B10_writ_attachment_release.pdf",
+          "display_title": "Writ of Attachment Release — December 28, 2023",
+          "tab": "B-10",
+          "date": "2023-12-28",
+          "size_bytes": 7700000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "IIIa",
+      "label": "Volume IIIa — Trust Summary Judgment Record (Part 1)",
+      "documents": [
+        {
+          "drive_id": "1CZ9_LvjxdTqjZJOKRCaLJRkIbBQtCzTP",
+          "local_filename": "vol3a_C1_sbm_trust_sj_motion.pdf",
+          "display_title": "SBM Trust Motion for Summary Judgment — January 15, 2026",
+          "tab": "C-1",
+          "date": "2026-01-15",
+          "size_bytes": 4400000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1SrnZ0Bfy7fsLK5ySBItpiy5BlZxVTU_-",
+          "local_filename": "vol3a_C2_krm_sj_motion.pdf",
+          "display_title": "Kimberly Ruggles Mell Motion for Summary Judgment — January 15, 2026",
+          "tab": "C-2",
+          "date": "2026-01-15",
+          "size_bytes": 478000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1a4KyfD2Rs8cOD85eK7HU4pNlVRUAsxAW",
+          "local_filename": "vol3a_C3_sj_facts_jan7.pdf",
+          "display_title": "Statement of Facts in Support of Summary Judgment — Revised January 7, 2026",
+          "tab": "C-3",
+          "date": "2026-01-07",
+          "size_bytes": 3500000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1n3sUk8vwbvghVcqfk-9ubVaPqAc8mu1x",
+          "local_filename": "vol3a_C4_responsive_sof.pdf",
+          "display_title": "Responsive Statement of Facts (Plaintiff's Opposition to Summary Judgment)",
+          "tab": "C-4",
+          "date": "2026-01-01",
+          "size_bytes": 6000000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "IIIb",
+      "label": "Volume IIIb — Trust Summary Judgment Record (Part 2)",
+      "documents": [
+        {
+          "drive_id": "1F5LJpzwWwyHtvqEGYtQIcHhvtPfS1QiR",
+          "local_filename": "vol3b_C5_whalen_response_sj.pdf",
+          "display_title": "Whalen Response in Support of Summary Judgment — March 4, 2026",
+          "tab": "C-5",
+          "date": "2026-03-04",
+          "size_bytes": 7000000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1sbnzs7ySMkfHAWk_cHN5vroHqWj-ZSyK",
+          "local_filename": "vol3b_C6_sbm_trust_dismissal.pdf",
+          "display_title": "SBM Trust — Order of Dismissal, March 18, 2026",
+          "tab": "C-6",
+          "date": "2026-03-18",
+          "size_bytes": 529000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1Gt_rAGEWNJ7LwxvoMsCwELLcb0dF8zdY",
+          "local_filename": "vol3b_C7_krm_dismissal.pdf",
+          "display_title": "Kimberly Ruggles Mell — Order of Dismissal, March 16, 2026",
+          "tab": "C-7",
+          "date": "2026-03-16",
+          "size_bytes": 90000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1bEHt7uDzG4bOLXknTwQ547MDa1WqeMZ2",
+          "local_filename": "vol3b_C8_summary_judgment_brief.pdf",
+          "display_title": "Summary Judgment Brief",
+          "tab": "C-8",
+          "date": "2026-01-01",
+          "size_bytes": 639000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1UvXBH7m6F8AeJPCtwWw6sO73Hd9d26vh",
+          "local_filename": "vol3b_C9_whalen_extortion_statement.pdf",
+          "display_title": "Whalen Verification — Nagel Committed Extortion",
+          "tab": "C-9",
+          "date": "2026-01-01",
+          "size_bytes": 19000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "IVa",
+      "label": "Volume IVa — Criminal & Federal Record (Part 1)",
+      "documents": [
+        {
+          "drive_id": "1r6-bRxdEh9SKLIbhfxKUQB8w1jgr3r4i",
+          "local_filename": "vol4a_D1_plea_agreement.pdf",
+          "display_title": "Plea Agreement — United States v. S. Bradley Mell",
+          "tab": "D-1",
+          "date": "2019-01-01",
+          "size_bytes": 10500000,
+          "skip": false,
+          "confidential": false,
+          "notes": "Federal plea agreement; 10.5 MB — will be split if needed"
+        },
+        {
+          "drive_id": "17i1DQmwBgDwpc1dGQrEQ1QiPQVWqfESe",
+          "local_filename": "vol4a_D2_nagel_gulfstream_letter.pdf",
+          "display_title": "Letter from Gulfstream to Bruce H. Nagel, Esq. — B.B. v. Mell",
+          "tab": "D-2",
+          "date": "2023-01-01",
+          "size_bytes": 42000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "IVb",
+      "label": "Volume IVb — Criminal & Federal Record (Part 2)",
+      "documents": [
+        {
+          "drive_id": "1p8Yxd84qWOuy-qcHndEXm222pWeVS33U",
+          "local_filename": "vol4b_D3_mell_memo_roberts.pdf",
+          "display_title": "Mell Memorandum to Roberts — State v. Mell, Corrected Attachments",
+          "tab": "D-3",
+          "date": "2019-01-01",
+          "size_bytes": 10500000,
+          "skip": false,
+          "confidential": false,
+          "notes": "State sentencing/appeals memo"
+        },
+        {
+          "drive_id": "1_SvdI-OpWioxAlfJjO-uE-29rmC2M-Da",
+          "local_filename": "vol4b_D4_mell_sentencing_memo.pdf",
+          "display_title": "Sentencing Memorandum — State v. Steven Bradley Mell, Hunterdon County, June 26, 2019",
+          "tab": "D-4",
+          "date": "2019-06-26",
+          "size_bytes": 3052848,
+          "skip": false,
+          "confidential": false,
+          "notes": "From State/sentencing folder"
+        }
+      ]
+    },
+    {
+      "id": "Va",
+      "label": "Volume Va — Depositions (Part 1)",
+      "documents": [
+        {
+          "drive_id": "1zD9rS_ozykmJHZlmuVf9CuePtOTCa25M",
+          "local_filename": "vol5a_E1_mell_depo_sept2021.pdf",
+          "display_title": "Deposition of S. Bradley Mell — September 22, 2021",
+          "tab": "E-1",
+          "date": "2021-09-22",
+          "size_bytes": 5200000,
+          "skip": false,
+          "confidential": false,
+          "notes": "Compressed version"
+        },
+        {
+          "drive_id": "1Ul2T5IkfQHC3YRDJ-CxfsZ8K9Kim7dCF",
+          "local_filename": "vol5a_E2_mell_depo_aug2025.pdf",
+          "display_title": "Deposition of Steven Bradley Mell — August 22, 2025",
+          "tab": "E-2",
+          "date": "2025-08-22",
+          "size_bytes": 2300000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "16udLH37mcRX240AG_7sOa1yqFgkuSsXi",
+          "local_filename": "vol5a_E3_bb_depo_july2025.pdf",
+          "display_title": "Deposition of B.B. — July 3, 2025",
+          "tab": "E-3",
+          "date": "2025-07-03",
+          "size_bytes": 4300000,
+          "skip": false,
+          "confidential": false,
+          "notes": "B.B. deposition (use pseudonym on cover page only)"
+        }
+      ]
+    },
+    {
+      "id": "Vb",
+      "label": "Volume Vb — Depositions (Part 2)",
+      "documents": [
+        {
+          "drive_id": "1z_sS43UMLQi1It-3fuGrahCLftLMgzIZ",
+          "local_filename": "vol5b_E4_bb_depo_day1.pdf",
+          "display_title": "Deposition of B.B. — Day 1",
+          "tab": "E-4",
+          "date": "2025-01-01",
+          "size_bytes": 5700000,
+          "skip": false,
+          "confidential": false,
+          "notes": "lilly DEPO day 1.pdf — use pseudonym B.B. on cover"
+        },
+        {
+          "drive_id": "1Ow59CWND-j-efVOGjVZAlZfZBgFTpeBy",
+          "local_filename": "vol5b_E5_laura_depo.pdf",
+          "display_title": "Deposition of Laura Cannon",
+          "tab": "E-5",
+          "date": "2025-01-01",
+          "size_bytes": 680000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1GuowcC84VsU3UgFwrUw46pk5GUm-GcRh",
+          "local_filename": "vol5b_E6_laura_cannon_chase_depo.pdf",
+          "display_title": "Deposition of Laura Cannon Chase — July 27, 2017",
+          "tab": "E-6",
+          "date": "2017-07-27",
+          "size_bytes": 384000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1IUM_QQGaOPoREaTjFhlv64yiJm9UGui4",
+          "local_filename": "vol5b_E7_pickens_depo.pdf",
+          "display_title": "Deposition of Loretta Pickens — June 10, 2025",
+          "tab": "E-7",
+          "date": "2025-06-10",
+          "size_bytes": 344000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "VIa",
+      "label": "Volume VIa — Expert Reports & Medical Records (Part 1)",
+      "documents": [
+        {
+          "drive_id": "1zm_gUspqOOLbyVmFsuuQ-ldVcacRfQkA",
+          "local_filename": "vol6a_F1_hughes_nagel_spec_report.pdf",
+          "display_title": "Expert Report of Hughes — Nagel Special Report, March 1, 2023",
+          "tab": "F-1",
+          "date": "2023-03-01",
+          "size_bytes": 6100000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1gyrZk8gYYqfZ3WEJiNV7_xSn6v1-omeY",
+          "local_filename": "vol6a_F2_hughes_amended_oct2025.pdf",
+          "display_title": "Hughes Amended Expert Report — October 27, 2025",
+          "tab": "F-2",
+          "date": "2025-10-27",
+          "size_bytes": 518000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1HaMKzoXXHpQU962W8wSlVQ4HopbYer43",
+          "local_filename": "vol6a_F3_hughes_supplemental_oct2025.pdf",
+          "display_title": "Supplemental Hughes Expert Report — October 27, 2025",
+          "tab": "F-3",
+          "date": "2025-10-27",
+          "size_bytes": 529000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1nq0N2i-bqgZ5HHw4YTJ7jUQF0b1IobCR",
+          "local_filename": "vol6a_F4_third_party_complaint.pdf",
+          "display_title": "Third-Party Complaint (Compressed)",
+          "tab": "F-4",
+          "date": "2021-01-01",
+          "size_bytes": 2200000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "VIb",
+      "label": "Volume VIb — Expert Reports & Medical Records (Part 2)",
+      "documents": [
+        {
+          "drive_id": "1unm7YKklnS-0jSOMDFWHgAKnqNLURw-H",
+          "local_filename": "vol6b_F5_bb_medical_cowen.pdf",
+          "display_title": "B.B. Medical Records — Dr. Cowen, June 3, 2020",
+          "tab": "F-5",
+          "date": "2020-06-03",
+          "size_bytes": 2700000,
+          "skip": false,
+          "confidential": false,
+          "notes": "B.B. pseudonym used on cover page"
+        },
+        {
+          "drive_id": "1RWlvoImbe9CPwr-DZkcrW8jJTpI3ihlQ",
+          "local_filename": "vol6b_F6_bb_medical_robinson.pdf",
+          "display_title": "B.B. Medical Records — Dr. Bradley Robinson",
+          "tab": "F-6",
+          "date": "2020-01-01",
+          "size_bytes": 1400000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1yP4PUQ0d3PDSrtDGIYRN-_-jiimeob2x",
+          "local_filename": "vol6b_F7_bb_medical_somerset.pdf",
+          "display_title": "B.B. Medical Records — Somerset / Dr. Robinson",
+          "tab": "F-7",
+          "date": "2020-01-01",
+          "size_bytes": 2300000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "13uMdYooI2qbaN8psYWiIm2yAvw_3F9zn",
+          "local_filename": "vol6b_F8_bb_medical_robinson_gill.pdf",
+          "display_title": "B.B. Medical Records — Robinson / Gill, January 3, 2018",
+          "tab": "F-8",
+          "date": "2018-01-03",
+          "size_bytes": 130000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "VII",
+      "label": "Volume VII — Case Law Authorities",
+      "documents": [
+        {
+          "drive_id": "1y5vCOyX2lB-8r_Iqao_5WrEJYGUu4h1L",
+          "local_filename": "vol7_G1_kawaauhau_v_geiger.pdf",
+          "display_title": "Kawaauhau v. Geiger, 523 U.S. 57 (1998)",
+          "tab": "G-1",
+          "date": "1998-01-01",
+          "size_bytes": 55102,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1S5LkpVAhXw5vXqlh0RCYz3KlZA2Xzb4c",
+          "local_filename": "vol7_G2_in_re_lansaw.pdf",
+          "display_title": "In re Lansaw, 853 F.3d 657 (3d Cir. 2017)",
+          "tab": "G-2",
+          "date": "2017-01-01",
+          "size_bytes": 129961,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1B6s4oTY712CWCDRKW1yyPZ1rZaLnDMlk",
+          "local_filename": "vol7_G3_doe_v_megless.pdf",
+          "display_title": "Doe v. Megless, 654 F.3d 404 (3d Cir. 2011)",
+          "tab": "G-3",
+          "date": "2011-01-01",
+          "size_bytes": 88626,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1qj_HoMriRK6MhBYK-d0Omy7E57UVDmJA",
+          "local_filename": "vol7_G4_in_re_wilson.pdf",
+          "display_title": "In re Wilson, 116 F.3d 87 (3d Cir. 1997)",
+          "tab": "G-4",
+          "date": "1997-01-01",
+          "size_bytes": 54285,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1PaFi0Xg9GM-zQY7l8aV0vnfdZXptLBE0",
+          "local_filename": "vol7_G5_in_re_ruitenberg.pdf",
+          "display_title": "In re Ruitenberg, 745 F.3d 647 (3d Cir. 2014)",
+          "tab": "G-5",
+          "date": "2014-01-01",
+          "size_bytes": 67481,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1w_jWyl07KbTFmvXoDPbEXwaJezuasb2J",
+          "local_filename": "vol7_G6_in_re_perlin.pdf",
+          "display_title": "In re Perlin (3d Cir. 2007)",
+          "tab": "G-6",
+          "date": "2007-01-01",
+          "size_bytes": 80045,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1dPPiKRQx10bWhGAU1HfvDg-iAavVJdcX",
+          "local_filename": "vol7_G7_in_re_tamecki.pdf",
+          "display_title": "In re Tamecki, 229 F.3d 205 (3d Cir. 2000)",
+          "tab": "G-7",
+          "date": "2000-01-01",
+          "size_bytes": 70486,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1eiODAQbulYc1r54VlbsViaSObkRp7krn",
+          "local_filename": "vol7_G8_in_re_zick.pdf",
+          "display_title": "In re Zick, 931 F.2d 1124 (6th Cir. 1991)",
+          "tab": "G-8",
+          "date": "1991-01-01",
+          "size_bytes": 70691,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1WKeeMHiNNttX5yfScp1JO1bqFLz4Y7OR",
+          "local_filename": "vol7_G9_in_re_myers.pdf",
+          "display_title": "In re Myers, 491 F.3d 120 (3d Cir. 2007)",
+          "tab": "G-9",
+          "date": "2007-01-01",
+          "size_bytes": 86947,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "16S8B5GCeDU-IktqfBt_KW6pWtz9a_4Gs",
+          "local_filename": "vol7_G10_in_re_potter_dist.pdf",
+          "display_title": "In re Potter (D.N.J. 2023)",
+          "tab": "G-10",
+          "date": "2023-01-01",
+          "size_bytes": 86428,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "19ag2E9Y0VVm1DdwQYxF8QwvILFlHkaFt",
+          "local_filename": "vol7_G11_in_re_potter_3d.pdf",
+          "display_title": "In re Potter (3d Cir. 2024)",
+          "tab": "G-11",
+          "date": "2024-01-01",
+          "size_bytes": 52405,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "10sKN4Qd-7dRBpUxGgvCl8PlOM8Yj-C2V",
+          "local_filename": "vol7_G12_stoe_v_flaherty.pdf",
+          "display_title": "Stoe v. Flaherty, 436 F.3d 209 (3d Cir. 2006)",
+          "tab": "G-12",
+          "date": "2006-01-01",
+          "size_bytes": 104613,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1nJcsehHE2SuHNNzQOjbZBCegLnPXvGq9",
+          "local_filename": "vol7_G13_in_re_love.pdf",
+          "display_title": "In re Love, 347 B.R. 362 (Bankr. W.D. Mo. 2006)",
+          "tab": "G-13",
+          "date": "2006-01-01",
+          "size_bytes": 99789,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1z4ImgdtM3uxdqZdw0zR1F-6Sn7JZEj1N",
+          "local_filename": "vol7_G14_in_re_berlingeri.pdf",
+          "display_title": "In re Berlingeri, 246 B.R. 196 (Bankr. D.N.J. 2000)",
+          "tab": "G-14",
+          "date": "2000-01-01",
+          "size_bytes": 61440,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "11fSyWXNW0IKXNC9iFnYmeDCboYtf8H1s",
+          "local_filename": "vol7_G15_in_re_keobapha.pdf",
+          "display_title": "In re Keobapha, 279 B.R. 49 (Bankr. D. Conn. 2002)",
+          "tab": "G-15",
+          "date": "2002-01-01",
+          "size_bytes": 74489,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1_CO6WxjYZcnGFFNFSS7hjtBDOgCyTHb_",
+          "local_filename": "vol7_G16_in_re_glunk.pdf",
+          "display_title": "In re Glunk, 342 B.R. 717 (Bankr. E.D. Pa. 2006)",
+          "tab": "G-16",
+          "date": "2006-01-01",
+          "size_bytes": 222935,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1Oyl2bgKRrAphQtDGfybUsdjVvxz8cDu0",
+          "local_filename": "vol7_G17_in_re_basl.pdf",
+          "display_title": "In re Basl (Bankr. E.D. Va. 2018)",
+          "tab": "G-17",
+          "date": "2018-01-01",
+          "size_bytes": 126396,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "19LCacKUVrqfLJreuM2fyLJ4RoK_vEHpc",
+          "local_filename": "vol7_G18_in_re_napier_lopez.pdf",
+          "display_title": "In re Napier-Lopez (Bankr. D.N.J. 2023)",
+          "tab": "G-18",
+          "date": "2023-01-01",
+          "size_bytes": 187112,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1NdmNt--nkiPpy3ua1Or97wXyfD82nta2",
+          "local_filename": "vol7_G19_in_re_trainor.pdf",
+          "display_title": "In re Trainor (Bankr. N.D.N.Y. 2026)",
+          "tab": "G-19",
+          "date": "2026-01-01",
+          "size_bytes": 63060,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1hoOG9qyVFf92m9bV2NLV4GQODkwMXthg",
+          "local_filename": "vol7_G20_in_re_hunt.pdf",
+          "display_title": "In re Hunt, 521 B.R. 479 (Bankr. M.D. Pa. 2014)",
+          "tab": "G-20",
+          "date": "2014-01-01",
+          "size_bytes": 113189,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1mBF38UXn9eqH1S8Lx3RTZVsh2FMnud-F",
+          "local_filename": "vol7_G21_new_hampshire_v_maine.pdf",
+          "display_title": "New Hampshire v. Maine, 532 U.S. 742 (2001)",
+          "tab": "G-21",
+          "date": "2001-01-01",
+          "size_bytes": 120657,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1Sd5T7OyxFIvY9rre-7vU0wNe6pgZOwb4",
+          "local_filename": "vol7_G22_salazar_v_mkgc.pdf",
+          "display_title": "Salazar v. MKGC+ Design, 206 A.3d 447 (N.J. App. Div. 2019)",
+          "tab": "G-22",
+          "date": "2019-01-01",
+          "size_bytes": 55741,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1omlE4FcwYE-hozECUCZ3qvgFY_yqeIU1",
+          "local_filename": "vol7_G23_in_re_seelig.pdf",
+          "display_title": "In re Seelig, 850 A.2d 477 (N.J. 2004)",
+          "tab": "G-23",
+          "date": "2004-01-01",
+          "size_bytes": 163687,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1PUkU_mI1KRwhAEmgfw17d47TMO7gk5o1",
+          "local_filename": "vol7_G24_in_re_azeglio.pdf",
+          "display_title": "In re Azeglio, 422 B.R. 490 (Bankr. D.N.J. 2010)",
+          "tab": "G-24",
+          "date": "2010-01-01",
+          "size_bytes": 79000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "10E3_Kx3gTEfuwcilBTV_9Y5d_QGD8JEt",
+          "local_filename": "vol7_G25_in_re_mid_atlantic.pdf",
+          "display_title": "In re Mid-Atlantic Handling Systems, LLC, 304 B.R. 111 (D.N.J. 2003)",
+          "tab": "G-25",
+          "date": "2003-01-01",
+          "size_bytes": 154000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "160h2rpL5E2ZAnVZNVCXQwihdsrPj0IRt",
+          "local_filename": "vol7_G26_in_re_mondelli.pdf",
+          "display_title": "In re Mondelli (3d Cir. 2014)",
+          "tab": "G-26",
+          "date": "2014-01-01",
+          "size_bytes": 38785,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1xIyChNQeJfwkMdnOp1z4v4GHlPwsK1ag",
+          "local_filename": "vol7_G27_in_re_docteroff.pdf",
+          "display_title": "In re Docteroff, 133 F.3d 210 (3d Cir. 1997)",
+          "tab": "G-27",
+          "date": "1997-01-01",
+          "size_bytes": 71000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1b7YK9dLpcUf9e_g7iW1H6jmOVG8ym52Q",
+          "local_filename": "vol7_G28_in_re_conte.pdf",
+          "display_title": "In re Conte, 33 F.3d 303 (3d Cir. 1994)",
+          "tab": "G-28",
+          "date": "1994-01-01",
+          "size_bytes": 58000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1dsViTU22vSuOOR6E3e6MdZjBFo91QZgo",
+          "local_filename": "vol7_G29_in_re_cantelli.pdf",
+          "display_title": "In re Cantelli (Bankr. N.D. Ohio 2013)",
+          "tab": "G-29",
+          "date": "2013-01-01",
+          "size_bytes": 84000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1urjKcFEBN3j272oCCdGRZ33rnI4etBIM",
+          "local_filename": "vol7_G30_in_re_eubanks.pdf",
+          "display_title": "In re Eubanks, 672 B.R. 861 (Bankr. D.S.C. 2025)",
+          "tab": "G-30",
+          "date": "2025-01-01",
+          "size_bytes": 118000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1DiWNiVokIp8U5kN3KkfYX5ZQ31HGazrD",
+          "local_filename": "vol7_G31_in_re_fleetwood.pdf",
+          "display_title": "In re Fleetwood (Slip Op.)",
+          "tab": "G-31",
+          "date": "2023-01-01",
+          "size_bytes": 242000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1YSpJ2ZQyAt32BbTNONmtxXdVrlSwyozE",
+          "local_filename": "vol7_G32_murray_docket.pdf",
+          "display_title": "Murray — Docket",
+          "tab": "G-32",
+          "date": "2023-01-01",
+          "size_bytes": 88961,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1nY3o50Uq8WpFt8r4Y-mkdmjQo-1SLWEq",
+          "local_filename": "vol7_G33_murray_dc_slip_op.pdf",
+          "display_title": "Murray — District Court Slip Opinion",
+          "tab": "G-33",
+          "date": "2023-01-01",
+          "size_bytes": 271714,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1uDnRGt8eRtbjTBWYKWKfXAV1yPLM_dk9",
+          "local_filename": "vol7_G34_murray_br_slip_op.pdf",
+          "display_title": "Murray — Bankruptcy Court Slip Opinion",
+          "tab": "G-34",
+          "date": "2023-01-01",
+          "size_bytes": 369864,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1Mw9FYJjqhEja234ChzEHNHNDauiNZkTZ",
+          "local_filename": "vol7_G35_desoto_slip_op.pdf",
+          "display_title": "DeSoto — Slip Opinion Denying Motion",
+          "tab": "G-35",
+          "date": "2023-01-01",
+          "size_bytes": 86000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1dRN-PBFjHhjani1GQoedLSVms5LUq_IT",
+          "local_filename": "vol7_G36_desoto_docket.pdf",
+          "display_title": "DeSoto — Docket",
+          "tab": "G-36",
+          "date": "2023-01-01",
+          "size_bytes": 179000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1jZROlKhCoEKTVXEsEdLqb0HaWMKptZLI",
+          "local_filename": "vol7_G37_desoto_dc_slip_op.pdf",
+          "display_title": "DeSoto — District Court Slip Opinion",
+          "tab": "G-37",
+          "date": "2023-01-01",
+          "size_bytes": 60000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1FeywtsZpgHrBd8CbTBTG-WxsI0oDoed0",
+          "local_filename": "vol7_G38_desoto_br_slip_op.pdf",
+          "display_title": "DeSoto — Bankruptcy Court Slip Opinion",
+          "tab": "G-38",
+          "date": "2023-01-01",
+          "size_bytes": 91000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1zD8c9_d7VDaghrhuGcUUc0M19mzPonql",
+          "local_filename": "vol7_G39_adler_slip_op.pdf",
+          "display_title": "Adler — Slip Opinion",
+          "tab": "G-39",
+          "date": "2023-01-01",
+          "size_bytes": 432000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        },
+        {
+          "drive_id": "1dJJpvtgC4gIRKEB__dkME9fLQ8mvCiOQ",
+          "local_filename": "vol7_G40_adler_docket.pdf",
+          "display_title": "Adler — Docket",
+          "tab": "G-40",
+          "date": "2023-01-01",
+          "size_bytes": 240000,
+          "skip": false,
+          "confidential": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "VIII",
+      "label": "Volume VIII — CONFIDENTIAL: Settlement Documents (DO NOT EMAIL WITHOUT PROTECTIVE ORDER)",
+      "documents": [
+        {
+          "drive_id": "1yBkIe5eP9VgD7jlZopPEK_U1quNQy4Q4",
+          "local_filename": "vol8_CONF_H1_nagel_settlement_letter.pdf",
+          "display_title": "CONFIDENTIAL — Settlement Letter from Bruce H. Nagel, Esq. — February 27, 2026",
+          "tab": "H-1",
+          "date": "2026-02-27",
+          "size_bytes": 1200000,
+          "skip": false,
+          "confidential": true,
+          "notes": "Subject to protective order. Produce only under seal."
+        },
+        {
+          "drive_id": "1rqXQ7mfetBmEuuanXL8ryGW_zI-_yoc2",
+          "local_filename": "vol8_CONF_H2_civil_release.pdf",
+          "display_title": "CONFIDENTIAL — KRM & SBM Civil Release — March 6, 2026",
+          "tab": "H-2",
+          "date": "2026-03-06",
+          "size_bytes": 2400000,
+          "skip": false,
+          "confidential": true,
+          "notes": "Subject to protective order. Produce only under seal."
+        }
+      ]
+    }
+  ],
+  "oversized_files": [
+    {
+      "drive_id": "1dMlmR-IsR7FHtGDwTVbVGpY3XRPNj7vj",
+      "local_filename": "OVERSIZED_mell_depo_july2023.pdf",
+      "display_title": "Deposition of S. Bradley Mell — July 27, 2023",
+      "size_bytes": 24700000,
+      "skip": true,
+      "reason": "oversized — deliver separately"
+    },
+    {
+      "drive_id": "1sbrV1vRDsFPB8pZRPxEYXlihUQRozhcE",
+      "local_filename": "OVERSIZED_mell_volume3_exhibits_klm.pdf",
+      "display_title": "Mell Volume 3 Exhibits KLM",
+      "size_bytes": 21400000,
+      "skip": true,
+      "reason": "oversized — deliver separately"
+    },
+    {
+      "drive_id": "15G-LBxeg2qfxq5o-4iS9bFe8zeOFNv1p",
+      "local_filename": "OVERSIZED_tony_depo.pdf",
+      "display_title": "Deposition of Tony",
+      "size_bytes": 40400000,
+      "skip": true,
+      "reason": "oversized — deliver separately"
+    },
+    {
+      "drive_id": "1zWw5oEhyE5bTqDCUdbIuAJ1ac4Pbk2vu",
+      "local_filename": "OVERSIZED_ella_depo_2_c2.pdf",
+      "display_title": "Deposition of Ella — Volume 2",
+      "size_bytes": 17700000,
+      "skip": true,
+      "reason": "oversized — deliver separately"
+    }
+  ],
+  "expert_reports_additional": [
+    {
+      "drive_id": "1TgC-lncdSqpiutnEmD5gRce5XxUXBtXu",
+      "local_filename": "expert_nagel_whmell_eval_jun2025.pdf",
+      "display_title": "Nagel / DLA — W.H. Mell Associates Valuation Report, June 27, 2025",
+      "size_bytes": 6157068,
+      "skip": true,
+      "reason": "Expert report re: business valuation — not assigned to appendix volume per current instructions; retain for potential Vol. VII expansion"
+    },
+    {
+      "drive_id": "11XiGAuJt1GvKdV3TcQ9Oms2Pllw0mdqW",
+      "local_filename": "expert_nagel_whmell_eval_exhibits_jun2025.pdf",
+      "display_title": "Nagel / DLA — W.H. Mell Evaluation Exhibits, June 27, 2025",
+      "size_bytes": 13658718,
+      "skip": true,
+      "reason": "Expert report exhibits — not assigned to appendix volume per current instructions"
+    },
+    {
+      "drive_id": "1mhnVNthcAKmAp1SkqD4dvf817muP00lJ",
+      "local_filename": "expert_whmell_feldman_rebuttal_oct2025.pdf",
+      "display_title": "Dr. Stanley J. Feldman — Rebuttal Valuation Report, October 29, 2025",
+      "size_bytes": 11630427,
+      "skip": true,
+      "reason": "Expert valuation rebuttal — not assigned to appendix volume per current instructions"
+    },
+    {
+      "drive_id": "1qfXoxG43SEyzIaKGMxVSK0nAazaGuezO",
+      "local_filename": "expert_whmell_mainstay_oct2025.pdf",
+      "display_title": "Mainstay Capital Markets Consultants — Expert Report, October 29, 2025",
+      "size_bytes": 1478385,
+      "skip": true,
+      "reason": "Expert securities report — not assigned to appendix volume per current instructions"
+    }
+  ]
+}
