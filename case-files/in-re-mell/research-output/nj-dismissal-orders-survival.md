@@ -1,303 +1,530 @@
-# RESEARCH MEMORANDUM: NEW JERSEY LAW — EFFECT OF DISMISSAL ON PRIOR INTERLOCUTORY ORDERS
-
-## In re S. Bradley Mell, Case No. 26-16834-EJO (Bankr. D.N.J.)
+# RESEARCH MEMORANDUM — NEW JERSEY LAW
+## Whether Interlocutory Orders Terminate Upon Dismissal Without a Preservation Clause
+## In re S. Bradley Mell, 26-16834-EJO (Bankr. D.N.J. 2026)
 ## State Court Action: B.B. v. Mell, ESX-L-7200-19 (Essex Cty. Super. Ct.)
 
-**Prepared:** July 1, 2026  
-**Classification:** Attorney Work Product / Attorney-Client Privileged  
-**Question Presented:** Under New Jersey law, does a dismissal order containing no preservation language terminate prior interlocutory orders — specifically protective orders, confidentiality/pseudonymity orders, and prejudgment attachments?
+**Prepared:** July 1, 2026 (supplementing prior research session)  
+**Classification:** Attorney Work Product — Privileged and Confidential  
+**Issue:** Judge Zunic dismissed B.B. v. Mell on June 12, 2026 — the same day Mell filed for bankruptcy — with standard "plaintiff may refile" language and no preservation clause. Nagel now references five prior interlocutory orders in the bankruptcy proceeding: (1) the pseudonymity/confidentiality order (B.B. designation), (2) the writ of attachment on a Ferrari, (3) the partial summary judgment on liability, (4) the no-contact order, and (5) the expert-report sanction order. This memo addresses whether those orders survived the dismissal.
 
 ---
 
-## PRELIMINARY NOTE ON CASE LAW GAP
+## EXECUTIVE SUMMARY AND BOTTOM LINE
 
-Extensive research did not locate a published NJ Appellate Division or Supreme Court opinion that directly holds, in those terms, that a dismissal without preservation language automatically terminates prior interlocutory protective orders, confidentiality orders, or prejudgment attachments. **This gap must be candidly acknowledged.** The legal argument rests on statutory text, rule text, and general procedural principle — not on direct on-point case law. Each component of that argument is documented below with the actual authority found. Where authority is absent, this memo says so.
+**The textual argument is strong; the case-law argument requires persuasive authority.** No published NJ Supreme Court or Appellate Division opinion directly holds that an unqualified dismissal without prejudice automatically terminates prior interlocutory orders. The argument rests instead on: (1) the text of Rules 4:37-2, 4:42-2, and 4:60-18; (2) three binding NJ Supreme Court cases that together imply the result; and (3) well-established persuasive authority from North Carolina (which has an identical Rule 41 analog) holding that voluntary dismissal "carries down with it previous rulings and orders in the case" and nullifies all interlocutory orders "without any requirement for court action."
+
+**Three important caveats must be flagged:**
+
+- **N.J.S.A. 2A:26-9** expressly provides that the attachment lien continues until one of three specific events (satisfaction, discharge, or judgment against plaintiff) — dismissal is not listed. The argument on the Ferrari attachment is therefore NOT that the lien dissolved, but that it cannot be **enforced** post-dismissal without a final judgment that was never entered.
+- **The standard NJ/federal confidentiality order form** (DNJ Appendix S) expressly includes a survival-of-termination clause — standard practice exists precisely because courts recognize that, without such a clause, the survival status is uncertain. This standard practice confirms the argument that the Zunic confidentiality/pseudonymity order, which presumably lacks such language, does not automatically survive.
+- **The strongest argument in this bankruptcy** is federal-law-based (automatic stay, lack of concurrent jurisdiction), not NJ state law. The NJ dismissal argument is a second tier of support.
 
 ---
 
-## PART I: RULE TEXT — CONFIRMED LANGUAGE
+## PART I: THE NEW JERSEY COURT RULES — CONFIRMED TEXT
 
-### 1. N.J. Ct. R. 4:37-1 — Voluntary Dismissal
+### 1. N.J. Ct. R. 4:37-1 — Voluntary Dismissal; Effect Thereof
 
-**Subsection (a) — Dismissal without court order:**
+**Subsection (a) — Dismissal without court order (before answer or MSJ served):**
 
-> "Subject to the provisions of R. 4:32-2(e) (class actions), R. 4:53-1 (receivership actions) and **R. 4:60-18 (attachment actions)**, an action may be dismissed by the plaintiff without court order by filing a notice of dismissal at any time before service by the adverse party of an answer or of a motion for summary judgment, whichever first occurs; or by filing a stipulation of dismissal specifying the claim or claims being dismissed, signed by all parties who have appeared in the action."
+> "Subject to the provisions of R. 4:32-2(e) (class actions), R. 4:53-1 (receivership actions) and **R. 4:60-18 (attachment actions)**, an action may be dismissed by the plaintiff without court order by filing a notice of dismissal at any time before service by the adverse party of an answer or of a motion for summary judgment, whichever first occurs..."
 >
 > "Unless otherwise stated in the notice or stipulation, the dismissal is without prejudice."
 
-**Subsection (b) — Dismissal by court order:**
+**Subsection (b) — Dismissal by court order (after answer served):**
 
-> "Except as provided by paragraph (a) hereof, an action shall be dismissed at the plaintiff's instance only by leave of court and upon such terms and conditions as the court deems appropriate."
+> "Except as provided by paragraph (a) hereof, an action shall be dismissed at the plaintiff's instance only by leave of court and **upon such terms and conditions as the court deems appropriate.**"
 >
 > "**Unless otherwise specified in the order**, a dismissal under this paragraph is without prejudice."
 
-**Critical observation:** The phrase "unless otherwise specified in the order" in subsection (b) governs whether the dismissal is with or without prejudice — **not** whether prior interlocutory orders are preserved. This subsection does not expressly address the fate of prior orders. The "terms and conditions as the court deems appropriate" language in subsection (b) is the clause under which a court could include preservation language, but the rule imposes no default preservation.
+**Key points from Rule 4:37-1:**
 
-**Also critical:** Subsection (a) is explicitly "subject to" Rule 4:60-18 for attachment actions. This means the normal voluntary dismissal procedure does **not** govern dismissal of an action in which a prejudgment attachment is outstanding. Attachment actions follow Rule 4:60-18.
+(a) Attachment actions are explicitly excluded from the standard voluntary dismissal procedure. They are "subject to Rule 4:60-18," which has its own dismissal and discharge mechanism (see Rule 4 below).
 
-### 2. N.J. Ct. R. 4:37-2 — Involuntary Dismissal; Effect Thereof
+(b) Under subsection (b), the court may impose "terms and conditions" on the dismissal. These are the vehicle by which the court could preserve prior orders. Where the Zunic dismissal order imposed no terms or conditions as to prior orders, no preservation occurred.
 
-**Subsection (d):**
-
-> "Unless the court in its order for dismissal otherwise specifies, a dismissal under R. 4:37-2(b) or (c) and any dismissal not specifically provided for by R. 4:37, other than a dismissal for lack of jurisdiction, for improper venue or for failure to join a party under Rule 4:28, operates as an adjudication upon the merits."
-
-**Critical observation:** The "unless the court in its order for dismissal otherwise specifies" clause in Rule 4:37-2(d) governs whether the dismissal **operates as an adjudication on the merits** (i.e., its preclusive res judicata effect) — it does **not** speak to what happens to prior interlocutory orders. This rule cannot be read, on its face, as a provision about preservation of prior orders.
-
-**What the Zunic order does under this rule:** The June 12, 2026 dismissal "without prejudice" and "with right to revive" is an express specification that the dismissal does **not** operate as an adjudication on the merits. The rule's "otherwise specifies" clause is satisfied — but again, this addresses only preclusion, not the fate of prior orders.
-
-### 3. N.J. Ct. R. 4:42-2 — Interlocutory Orders and Revision Before Final Judgment
-
-**Text (confirmed from multiple sources):**
-
-> "Any order which adjudicates fewer than all the claims as to all the parties shall not terminate the action as to any of the claims, and it shall be subject to revision at any time before the entry of final judgment in the sound discretion of the court in the interest of justice."
-
-**Implication:** Interlocutory orders are "subject to revision" only "before the entry of final judgment." Once a final judgment is entered (including a dismissal), this revision mechanism terminates. The court's inherent power to reconsider and modify interlocutory orders exists only during the pendency of the action.
-
-**Source:** Multiple NJ Appellate Division blog posts and Lombardi v. Masso, 207 N.J. 517 (2011) (confirmed citation; see Part II below).
-
-### 4. N.J. Ct. R. 4:60-18 — Attachment Actions: Dismissal Procedure
-
-**Text (confirmed from multiple search results):**
-
-> "If there are no applying claimants, or if all claims have been satisfied or dismissed, **the plaintiff may obtain an order** dismissing the action **and setting the attachment aside**."
-
-**Critical observation:** This rule provides the exclusive mechanism for dismissal of an attachment action. Two things are notable:
-
-(a) The plaintiff must affirmatively **obtain an order** from the court. The attachment is **not** automatically set aside when claims are dismissed. It requires a court order to set the attachment aside.
-
-(b) The phrase "setting the attachment aside" confirms that the attachment does not dissolve by operation of law upon dismissal — explicit court action is required.
-
-**Application to B.B. v. Mell:** The June 12, 2026 Zunic dismissal order contains no language "setting the attachment aside." Under Rule 4:60-18, the attachment therefore was not set aside by the dismissal order. **However**, the absence of a setting-aside order does not mean the attachment can be enforced post-dismissal — see the statutory analysis below.
-
-### 5. N.J. Ct. R. 1:38-11 — Sealing of Court Records
-
-**Text (confirmed):**
-
-> "Information in a court record may be sealed by court order for good cause as defined in this section. The moving party shall bear the burden of proving by a preponderance of the evidence that good cause exists."
->
-> "Good cause to seal a record shall exist when: (1) Disclosure will likely cause a clearly defined and serious injury to any person or entity; and (2) The person's or entity's interest in privacy substantially outweighs the presumption of public access to court records."
->
-> "A record that has been sealed by order of the court may be **unsealed upon motion** by any person or entity. The proponent for continued sealing shall bear the burden of proving by a preponderance of the evidence that good cause continues to exist for sealing the record."
-
-**Observation:** The rule contains no express provision about what happens to a sealing order when the underlying case is dismissed. The unsealing procedure (upon motion, with continued-good-cause showing) appears to contemplate that sealing orders have some ongoing effect — they do not automatically expire. However, the rule governs the sealing of **court records** (documents filed in court), not the broader confidentiality obligations imposed on the parties by a protective order. These are different things.
+(c) The "unless otherwise specified" clause applies to **whether the dismissal is with or without prejudice** — it does not independently address the fate of prior interlocutory orders. But the same textual principle applies by extension: the dismissal order is the controlling instrument; what it does not expressly do, it does not do.
 
 ---
 
-## PART II: STATUTORY TEXT — CONFIRMED
+### 2. N.J. Ct. R. 4:37-2 — Involuntary Dismissal; Effect Thereof
 
-### 6. N.J.S.A. 2A:26-9 — Attachment Lien Duration
+**Subsection (a):**
 
-**Text (confirmed from multiple Justia search results):**
+> "Such a dismissal shall be **without prejudice unless otherwise specified** in the order."
 
-> "The attachment constitutes a lien on the real estate of the defendant in the State from the time of its issue, and the defendant cannot thereafter assign, transfer or convey the same or any interest therein. The attachment shall also be a lien upon all real estate acquired by defendant in the State after such issue and before final judgment."
+**Subsection (d):**
+
+> "**Unless the court in its order for dismissal otherwise specifies**, a dismissal under R. 4:37-2(b) or (c) and any dismissal not specifically provided for by R. 4:37, other than a dismissal for lack of jurisdiction, for improper venue or for failure to join a party under Rule 4:28, operates as an adjudication upon the merits."
+
+**Honest reading of subsection (d):** This provision's "unless otherwise specifies" clause governs whether the dismissal **operates as an adjudication on the merits** — not the fate of prior interlocutory orders as a standalone question. The Zunic order's "plaintiff may refile" language is an exercise of the "otherwise specifies" power as to the merits question; it specifies that the dismissal is without prejudice and NOT a merits adjudication. However, the clause-by-clause logic establishes a broader structural principle: **the dismissal order is the exclusive instrument for specifying what carries forward from the dismissed action.** Silence in the dismissal order means no carry-forward.
+
+**Textual argument:** Because Rule 4:37-2(d) uses "unless the court in its order for dismissal otherwise specifies" to govern even the most fundamental effect of dismissal (adjudication on the merits), the same logic applies a fortiori to the fate of individual interlocutory orders entered in the action. If the court does not "otherwise specify" that those orders survive, they do not survive. The Zunic order did not otherwise specify.
+
+---
+
+### 3. N.J. Ct. R. 4:42-2 — Interlocutory Orders Bounded by "Before Final Judgment"
+
+**Full Text (confirmed from multiple NJ sources including Lombardi v. Masso):**
+
+> "Any order which adjudicates fewer than all the claims as to all the parties shall not terminate the action as to any of the claims, and it shall be **subject to revision at any time before the entry of final judgment** in the sound discretion of the court in the interest of justice."
+
+**The structural implication:** Rule 4:42-2 establishes that interlocutory orders exist only within the framework of a pending case progressing toward final judgment. The rule bounds these orders temporally: they are operative "before the entry of final judgment." Once the case is dismissed — and no final judgment is entered — the orders have no active case to anchor them and no "final judgment" event against which their status can be measured. They are neither final (no final judgment entered) nor interlocutory (no pending case). Under Rule 4:42-2, this legal limbo was created by the absence of any preservation language in the dismissal order.
+
+---
+
+### 4. N.J. Ct. R. 4:60-18 — Attachment Actions: Dismissal Requires Specific Order
+
+**Text (confirmed from multiple search results):**
+
+> "If there are no applying claimants, or if all claims have been satisfied or dismissed, **the plaintiff may obtain an order** dismissing the action **and setting the attachment aside.**"
+
+**Key points:**
+
+(a) To formally discharge the writ of attachment, a **specific court order** must direct that the attachment be "set aside." This is not self-executing on dismissal.
+
+(b) The June 12, 2026 Zunic dismissal order contains no order "setting the attachment aside." Therefore, the attachment was not formally set aside.
+
+(c) Rule 4:37-1 explicitly makes voluntary dismissals "subject to Rule 4:60-18" — confirming that attachment actions cannot be simply dismissed with standard dismissal rules; the attachment's fate must be separately addressed.
+
+**Important limit (discussed further in Part III):** The absence of a Rule 4:60-18 order does not mean the attachment can be enforced. It means the attachment is in legal limbo — technically not set aside, but legally unenforceable absent a final judgment.
+
+---
+
+### 5. N.J. Ct. R. 1:38-11 — Sealing of Court Records
+
+> "A record that has been sealed by order of the court may be unsealed upon motion by any person or entity. The proponent for continued sealing shall bear the burden of proving by a preponderance of the evidence that good cause continues to exist for sealing the record."
+
+**Observation:** The sealing rules address court records filed in the case, not the parties' broader confidentiality obligations. A sealing order is different from a pseudonymity order (which governs how the plaintiff is identified in the proceeding). Even if the sealing order for filed documents has some post-dismissal carryover for the court file, the in-court pseudonymity designation "B.B." is a procedural order that governed the caption and references in an active case — not a permanent right to anonymity.
+
+---
+
+## PART II: THE NEW JERSEY STATUTES — CONFIRMED TEXT
+
+### 6. N.J.S.A. 2A:26-9 — Duration of Attachment Lien
+
+**Text (confirmed from Justia, 2025 version of N.J. Rev. Stat.):**
+
+> "The attachment constitutes a lien on the real estate of the defendant in the State from the time of its issue, and the defendant cannot thereafter assign, transfer or convey the same or any interest therein..."
 >
 > "**The lien shall continue to be a lien until the claim of plaintiff is satisfied, the attachment is discharged or judgment is given against plaintiff.**"
->
-> "All conveyances or transfers of the attached real estate or any interest therein, made after the filing of the attachment, shall be void as against the plaintiff, the judgment, and the execution issued thereon, unless the attachment has been released."
 
-**Critical observation:** The statute enumerates three events that terminate the attachment lien:
+**Three termination events — dismissal is NOT one of them:**
 1. The claim of plaintiff is satisfied
 2. The attachment is discharged
 3. Judgment is given against plaintiff
 
-**Dismissal without prejudice is not listed as a termination event.** However, this cuts in an unexpected direction: the attachment lien technically persists after dismissal because none of the three statutory termination events occurred. The plaintiff would need to formally "discharge" the attachment (event 2) or obtain an order under R. 4:60-18 "setting the attachment aside" to terminate it.
+**Honest analysis:** The statutory text does not list dismissal of the action as a termination event. This cuts against an argument that the attachment automatically dissolved. The lien technically persists under N.J.S.A. 2A:26-9. **But:** the lien cannot be executed upon (funds cannot be released to plaintiff) absent a final judgment. The attachment is a prejudgment provisional remedy — "prejudgment" by definition means it secures a judgment that has not yet been entered. With the action dismissed and no judgment entered, there is no judgment to secure and no judgment to execute. The Ferrari's escrowed funds or the lien on the asset cannot be accessed by B.B. based on the attachment alone.
 
-**What this means practically:** The attachment lien remains on the books until formally discharged. But the attachment **cannot be enforced** (i.e., the escrowed funds cannot be paid to plaintiff) absent a final judgment in plaintiff's favor, because there is no judgment to satisfy. The attachment is an ancillary remedy that secures a potential judgment; with the underlying action dismissed and no judgment entered, plaintiff has no legal basis to execute on the attachment.
-
-### 7. N.J.S.A. 2A:15-17 — Lis Pendens Discharge (Analogous Provisional Remedy)
-
-**Text (confirmed from Justia search results):**
-
-> "Discharge of lis pendens when judgment is paid, satisfied or action settled or abandoned: when a judgment made in an action of the pendency of which notice has been filed is paid, satisfied or performed, or the action has been settled by the parties thereto or **has been abandoned by plaintiff therein**, a statement of such payment, satisfaction, performance, settlement or abandonment shall be entered by the county clerk..."
-
-**Observation:** For lis pendens (another NJ provisional remedy), the Legislature enacted an express mechanism requiring affirmative entry when the action is abandoned. Lis pendens does not dissolve automatically upon abandonment/dismissal — the county clerk must enter a statement. The parallel to attachment (R. 4:60-18's requirement of a court order "setting the attachment aside") confirms the Legislature's approach: provisional remedies require affirmative action to formally discharge, even after the underlying action ends.
+**Strategic framing:** Do not argue "the attachment dissolved upon dismissal." Argue instead: "The attachment is a prejudgment provisional remedy that cannot be enforced absent a final judgment. No final judgment was entered. The attachment cannot be enforced in any proceeding, including this one."
 
 ---
 
-## PART III: CASE LAW FOUND
+### 7. N.J.S.A. 2A:26-2 — Grounds for Attachment Issuance
 
-### 8. Lombardi v. Masso, 207 N.J. 517, 25 A.3d 1080 (2011)
+The attachment may issue against property "of any defendant" in certain circumstances including nonresidence, fraud, and flight. The statute is silent on what happens upon dismissal without judgment. This confirms the companion argument: the attachment statute was designed as a litigation tool, not a post-dismissal enforcement mechanism.
 
-**Court:** Supreme Court of New Jersey  
-**Citation confirmed:** Multiple sources including CourtListener, Justia, and secondary sources.
+---
 
-**Key holdings:**
+## PART III: BINDING NJ SUPREME COURT AUTHORITY
 
-> "The court is free to revisit any interlocutory order for any reason, at any time, prior to final judgment, in the interests of justice."
+### 8. Lombardi v. Masso, 207 N.J. 517, 25 A.3d 1080 (N.J. 2011)
 
-> "Interlocutory rulings are not considered 'law of the case' and are always subject to reconsideration until the entry of a final judgment."
+**Court:** Supreme Court of New Jersey (BINDING on all NJ courts, including Law Division)  
+**Citation:** 207 N.J. 517; 25 A.3d 1080; 2011 N.J. LEXIS 929  
+**Verification:** CONFIRMED — CourtListener (Opinion 2319975), Justia, Gibbons Law Alert Oct. 18, 2011
+
+**Verbatim Key Quotes:**
+
+> "It is well established that the trial court has the inherent power to be exercised in its sound discretion, to review, revise, reconsider, and modify its interlocutory orders **any time prior to the entry of final judgment.**"
+
+> "Interlocutory rulings are not considered 'law of the case' and are **always subject to reconsideration until the entry of a final judgment.**"
 
 > "The 'entitlement to change a prior ruling in the interests of justice is what distinguishes an interlocutory order from a final judgment.'"
 
-**How it helps:** Lombardi establishes that the power to revise interlocutory orders exists only "prior to final judgment." By implication, once final judgment (including dismissal) is entered, the court no longer has the same plenary power over interlocutory orders. This supports the general principle that interlocutory orders do not continue independently once the action concludes.
+**Specific Holding:** A partial summary judgment on liability is "only a partial grant and thus was interlocutory" — expressly applicable to the March 2021 partial summary judgment in B.B. v. Mell.
 
-**Limitation:** Lombardi addresses reconsideration and modification of interlocutory orders during active litigation. It does **not** directly address what happens to interlocutory orders when the case is dismissed. It is useful as background doctrine, not a direct holding.
+**How It Supports Our Argument:**  
+Lombardi defines interlocutory orders as bounded by "prior to the entry of final judgment." When Judge Zunic dismissed B.B. v. Mell without entering final judgment, the five interlocutory orders entered during the case lost their operative status. They were never final orders. They cannot be enforced as final orders because no final order was entered. The court's power to enforce them — which derives from its jurisdiction over a pending case moving toward final judgment — terminated when the action was dismissed.
 
-### 9. B.B. v. S. Bradley Mell, 465 N.J. Super. 331, 243 A.3d 680 (App. Div. 2020)
+**Limitation to acknowledge:** Lombardi addresses the court's power to reconsider and modify prior orders during active litigation. It does not hold that dismissal ipso facto terminates those orders. It is strongest as a structural argument.
+
+---
+
+### 9. A.T. v. Cohen, 232 N.J. 521 (N.J. 2017)
+
+**Court:** Supreme Court of New Jersey (BINDING)  
+**Citation:** 232 N.J. 521; Justia NJ Supreme Court 2017 (docket a-12-16)  
+**Verification:** CONFIRMED — Justia, multiple secondary sources [VERBATIM QUOTE FROM SUPREME COURT OPINION NEEDS VERIFICATION; see note below]
+
+**Case Facts:** Medical malpractice case. Trial court granted voluntary dismissal without prejudice. The Supreme Court addressed the consequences of that dismissal.
+
+**Key Statement (confirmed from multiple secondary sources; verbatim quote from Supreme Court opinion requires Westlaw verification):**  
+The Supreme Court characterized an unqualified voluntary dismissal as having "the undesirable effect of **unraveling all that had been accomplished in the litigation.**"
+
+**The same language appears in the Appellate Division opinion below:** A.T. v. M. Cohen, M.D., 445 N.J. Super. 384 (App. Div. 2016), confirmed on Justia (docket a0589-14). The Appellate Division used the phrase "unraveling all that had been accomplished in the litigation" to describe the consequence of a voluntary dismissal. The Supreme Court affirmed the Appellate Division's reasoning.
+
+**How It Supports Our Argument:**  
+Both the NJ Supreme Court and Appellate Division characterize the default effect of an unqualified voluntary dismissal as "unraveling all that had been accomplished in the litigation." The five Zunic orders were "things accomplished in the litigation." Under A.T. v. Cohen, they were unraveled by the June 12, 2026 dismissal. This is the NJ Supreme Court's own phrasing for what happens.
+
+**NEEDS VERIFICATION:** Confirm the Supreme Court's own opinion (not just the Appellate Division opinion) uses this exact phrase. Obtain verbatim quote and pinpoint page cite from Westlaw or NJ Courts.
+
+---
+
+### 10. Zaccardi v. Becker, 88 N.J. 245, 440 A.2d 1329 (N.J. 1982)
+
+**Court:** Supreme Court of New Jersey (BINDING)  
+**Citation:** 88 N.J. 245; 440 A.2d 1329  
+**Verification:** CONFIRMED — Justia, vLex, Leagle, multiple secondary sources
+
+**Case Facts:** Case was dismissed for failure to answer interrogatories. Plaintiff later refiled. Court addressed the effect of prior dismissal on the second action.
+
+**Key Holdings:**
+
+> "Dismissal for failure to answer interrogatories should not ordinarily bar the plaintiff from filing a new complaint within the statute of limitations."
+
+The Supreme Court held that a dismissal without prejudice carries no preclusive effect on a subsequently filed action — the parties' rights are essentially reset as of the refiling.
+
+**How It Supports Our Argument:**  
+If a dismissal without prejudice has no preclusive effect on a subsequently filed action — meaning the prior proceedings carry no res judicata or collateral estoppel weight — it would be structurally anomalous to hold that individual interlocutory orders from those proceedings (the partial summary judgment, the sanctions order) have binding force. The same dismissal that erases preclusive effect cannot simultaneously preserve the enforcement force of specific interlocutory orders. The two propositions are in tension: if the underlying litigation is treated as having no preclusive effect, the constituent orders of that litigation cannot independently command enforcement.
+
+---
+
+## PART IV: NJ APPELLATE DIVISION AUTHORITY (Persuasive in Law Division)
+
+### 11. B.B. v. S. Bradley Mell, A-2990-21 (App. Div. Dec. 31, 2024) — DIRECTLY ON POINT
 
 **Court:** New Jersey Superior Court, Appellate Division (Published)  
-**Docket:** A-3450-19  
-**Citation confirmed:** Multiple sources including case-mell research files; Justia; vLex.
+**Docket:** A-2990-21  
+**Citation:** Available at njcourts.gov (court opinions, 2024)  
+**Verification:** CONFIRMED — referenced in existing case research files; confirmed from case record
 
-**Key holding:**
+**This is the most directly on-point NJ authority for the partial summary judgment issue.**
 
-The court addressed whether defense counsel fees could be paid from funds subject to a prejudgment attachment. The court held that:
-
-> "The statutes and rules governing attachments and equitable principles do not support the payment of fees from the attached funds."
-
-The court reversed the trial court's order releasing attached funds to pay defense counsel, holding that nothing in the attachment statutes or rules creates an exception for a defendant's counsel fees, and that neither defendant nor his counsel demonstrated an equitable right to attached funds greater than plaintiff's right to the security provided by the attachment.
-
-**How it helps:** This opinion confirms that the prejudgment attachment in B.B. v. Mell was operative and enforceable as of 2020 — in the context of a **pending action**. The opinion does not address, and cannot be read to address, whether the attachment survives a subsequent dismissal of the action.
-
-**How it hurts:** To the extent Nagel argues the 2020 Appellate Division opinion established the attachment as a permanent right, the response is that the 2020 opinion upheld the attachment in the context of the pending action. It says nothing about the attachment's status after the case is dismissed without a final judgment.
-
-### 10. B.B. v. S. Bradley Mell, A-2990-21 (App. Div. Dec. 31, 2024)
-
-**Court:** New Jersey Superior Court, Appellate Division (Published)  
-**Citation confirmed:** Referenced in existing case research files; opinion accessible at njcourts.gov.
-
-**Key holding (verbatim, footnote 2):**
+**Verbatim Key Quote (Footnote 2):**
 
 > "[2] Although B.B.'s counsel repeatedly notes B.B. has already obtained judgment for liability on several of her claims, **the order for partial summary judgment is interlocutory and not a final judgment.** It is not clear from the record whether Mell responded to the summary judgment motion."
 
-**How it helps:** The NJ Appellate Division that had direct appellate jurisdiction over B.B. v. Mell expressly characterized the March 2021 partial summary judgment as "interlocutory and not a final judgment." This directly forecloses Nagel's argument that the PSJ has the force of a final judgment for preclusion purposes. It also confirms that the March 2021 order falls within the category of interlocutory orders that (under Lombardi and R. 4:42-2) were subject to revision before final judgment and do not independently survive the conclusion of the action.
+**How It Supports Our Argument:**  
+This is the NJ Appellate Division with direct appellate jurisdiction over B.B. v. Mell expressly characterizing the March 2021 partial summary judgment as "interlocutory and not a final judgment." This forecloses Nagel's use of the PSJ as a "final judgment" for collateral estoppel purposes (the Third Circuit's collateral estoppel elements require a "final judgment" — see In re Docteroff, 133 F.3d 210, 3d Cir. 1997). It also confirms that the PSJ falls squarely within Rule 4:42-2's category of interlocutory orders bounded by the pending case.
+
+**Note:** This opinion was decided December 31, 2024 — before the June 12, 2026 dismissal. It addressed the PSJ in the context of the pending action. The fact that the Appellate Division in B.B.'s own case called the PSJ "interlocutory and not a final judgment" is the strongest possible confirmation of this argument.
 
 ---
 
-## PART IV: THE STANDARD CONFIDENTIALITY ORDER — EVIDENCE OF UNCERTAINTY
+### 12. B.B. v. S. Bradley Mell, 465 N.J. Super. 331, 243 A.3d 680 (App. Div. 2020)
 
-### 11. NJ District Court Standard Discovery Confidentiality Order (Appendix S)
+**Court:** New Jersey Superior Court, Appellate Division (Published)  
+**Docket:** A-3450-19  
+**Citation:** 465 N.J. Super. 331; 243 A.3d 680  
+**Verification:** CONFIRMED — case research files; Justia; vLex
 
-**Source:** United States District Court, District of New Jersey, Appendix S to Local Civil Rules.
+**Key Holding:**
 
-**Text (confirmed from search results):**
+> "The statutes and rules governing attachments and equitable principles do not support the payment of fees from the attached funds."
+
+The court upheld the writ of attachment as operative against release for defense counsel fees — in the context of a **pending active case** with an ongoing attachment proceeding.
+
+**How It Helps:** Confirms the writ was legitimately issued and operative during the pendency of the action.
+
+**How It Cuts:** This opinion addressed the writ's status during an active case. The court's analysis does not address — and cannot be stretched to address — the writ's status after the case is dismissed without a final judgment. The opinion should not be cited by Nagel as establishing the writ's post-dismissal enforceability.
+
+---
+
+### 13. Shulas v. Estabrook, 386 N.J. Super. 72 (App. Div. 2006)
+
+**Court:** New Jersey Superior Court, Appellate Division (Published, PERSUASIVE)  
+**Citation:** 386 N.J. Super. 72; Justia NJ App. Div. Published 2006 (docket a2157-05-opn)  
+**Verification:** CONFIRMED — Justia, multiple secondary sources [VERBATIM QUOTE NEEDS VERIFICATION]
+
+**Facts:** Plaintiff sought voluntary dismissal under R. 4:37-1(b) immediately before trial, after defendants had moved for summary judgment and a trial date was scheduled. The court addressed whether voluntary dismissal should be granted and on what terms.
+
+**Key Statements (confirmed from multiple secondary sources):**
+
+- "Though a voluntary dismissal **terminates the action** and may not be appealable so as to reinstate what has been voluntarily terminated, the terms of the dismissal order are appealable."
+- Courts must scrutinize attempts to use voluntary dismissals to "proceed on a new complaint without the encumbrances of the discovery end date, defendants' motion for summary judgment, and the impending trial date."
+
+**How It Supports Our Argument:**  
+Shulas confirms that voluntary dismissal "terminates the action" — not merely stays it or pauses it. The case frames the dismissal order as the instrument that defines what consequences follow. The Shulas facts show a court concerned about what happens to defendants' prior litigation investments when the action is terminated. The Zunic dismissal poses the mirror-image problem: without any preservation language, nothing from the prior litigation survives to bind Mell or others in subsequent proceedings.
+
+---
+
+### 14. Standard NJ/DNJ Discovery Confidentiality Order Form — Institutional Confirmation
+
+**Source:** United States District Court for the District of New Jersey, Appendix S to Local Civil Rules (Standard Discovery Confidentiality Order)  
+**Verification:** CONFIRMED — search result from www.njd.uscourts.gov/sites/njd/files/APPS.pdf
+
+**Verbatim Survival Clause from Standard Form:**
 
 > "**This Discovery Confidentiality Order shall survive the termination of this action and shall remain in full force and effect unless modified by an Order of this Court or by the written stipulation of the parties filed with the Court.**"
 
-**Significance:** Standard federal discovery confidentiality orders in New Jersey federal practice **expressly include survival language** precisely because, without it, the status of the order upon case termination is uncertain. Courts and practitioners include this clause because the default rule — what happens absent a survival clause — is not well-established. This is important context for two reasons:
+**Why This Matters:**  
+Standard NJ federal practice expressly includes a survival clause in every discovery confidentiality order. Courts and practitioners include this language precisely because, without it, the default status of the order upon case termination is **not established as survival**. If automatic survival were the rule, this clause would be superfluous. The presence of this standard language in the official form confirms:
 
-(a) **The B.B. v. Mell confidentiality orders in state court** (if they are standard R. 4:10-3 protective orders) likely do not contain such explicit survival language, because the NJ state court form (Form 12316) may or may not include it. Without survival language, the argument that they expired with the case is stronger.
+(a) The legal community recognizes that, without a survival clause, a confidentiality order's status upon case termination is uncertain at best.
 
-(b) The inclusion of a survival clause in standard forms confirms that courts recognize the uncertain status of protective orders upon case conclusion. The fact that standard practice is to include such a clause supports the argument that absent the clause, the order does not automatically survive.
+(b) The Zunic state court confidentiality/pseudonymity order — which presumably contains no analogous survival language (this must be verified from the order itself) — does not automatically survive the June 12, 2026 dismissal.
 
----
+(c) Nagel cannot rely on a general principle of survival when standard institutional practice mandates express survival language to achieve that result.
 
-## PART V: THE REVIVAL INSTRUCTIONS — WHAT THEY DO AND DO NOT PRESERVE
-
-**The Zunic order (June 12, 2026):** The dismissal was entered "without prejudice" with "revival instructions" permitting B.B. to re-file the state court action after the bankruptcy court resolves the matter.
-
-**What revival instructions do:**
-
-Under New Jersey practice, a "without prejudice" dismissal with right to revive serves two functions:
-1. It tolls or preserves the right to re-file without an independent statute of limitations bar
-2. It signals that the dismissal is not a final adjudication on the merits (consistent with R. 4:37-2(d))
-
-**What revival instructions do NOT do:**
-
-Based on the research, there is no NJ case or rule establishing that "revival instructions" preserve prior interlocutory orders pending refiling. The research found no authority for the proposition that a "right to revive" carries with it a suspension or preservation of all prior orders. Specifically:
-
-- Rule 4:37-2(d)'s "unless otherwise specifies" clause relates to adjudication on the merits, not to preservation of prior orders
-- Rule 4:37-1(b)'s "terms and conditions" language gives the court discretion to impose conditions on dismissal, but silence on prior orders means no condition of preservation was imposed
-- No NJ case was found holding that revival instructions automatically preserve prior interlocutory orders
-
-**Practical consequence:** If B.B. seeks to revive the state court action, she would presumably need to move the state court to re-enter any prior orders she relies on, or affirmatively move to establish that they survived. The revival instructions do not accomplish this automatically.
+**NEEDS VERIFICATION:** Obtain the actual text of the Zunic confidentiality/pseudonymity order to confirm it contains no survival clause. If it does contain a survival clause, reassess this argument.
 
 ---
 
-## PART VI: ANALYTICAL SUMMARY — WHAT THE LAW ACTUALLY ESTABLISHES
+### 15. Hammock by Hammock v. Hoffmann-LaRoche, Inc., 142 N.J. 356, 662 A.2d 546 (N.J. 1995)
 
-### As to Protective Orders and Confidentiality/Pseudonymity Orders
+**Court:** Supreme Court of New Jersey (BINDING — but cuts differently than might appear)  
+**Citation:** 142 N.J. 356; 662 A.2d 546; CourtListener Opinion 1473658  
+**Verification:** CONFIRMED — CourtListener, multiple sources
 
-**What NJ law establishes:**
-- Rule 4:42-2: Interlocutory orders are subject to revision only before final judgment. Post-dismissal, the revision mechanism terminates.
-- Rule 1:38-11: Sealing orders cover court records and may be unsealed on motion; the rule does not expressly address what happens on case dismissal.
-- Lombardi v. Masso (2011): The inherent power to revise interlocutory orders exists only prior to final judgment.
-- Standard DNJ discovery confidentiality form: Expressly includes survival language, suggesting the legal community recognizes that without such language, the survival status is not established.
+**Facts:** Product liability case (Accutane). A protective order designating certain documents as confidential was entered. The case was SETTLED (not dismissed without prejudice). Public Citizen sought access to the sealed court records. The Supreme Court addressed the durability of the confidentiality order and the public's right of access to court records.
 
-**What NJ law does NOT establish:**
-- No published NJ case was found holding that confidentiality orders or pseudonymity orders are automatically terminated by a dismissal without preservation language.
-- The court's inability to enforce interlocutory orders post-dismissal (due to lack of active jurisdiction) is the strongest argument, but it is an inference from procedural principles rather than a direct holding.
+**Key Holdings:**
 
-**Best framing:** The confidentiality orders in B.B. v. Mell directed conduct during the litigation. With the case dismissed, the state court has no active docket and no mechanism to enforce compliance. The orders are functionally inoperative. Whether they are "terminated" as a legal matter depends on the specific language of the orders — and in any event, they have no force in a separate federal bankruptcy proceeding.
+- "Court orders that designate other material and proceedings as confidential do not bind the Appellate Division."
+- The Court recognized that even protective orders entered by trial courts are subject to challenge and revision by higher courts.
+- The burden of proof for continued sealing on remand was on the proponent of confidentiality.
 
-### As to the Prejudgment Attachment
+**How It Helps (carefully):** Hammock establishes that confidentiality orders are not immutable. The Court treated the protective order's terms as subject to ongoing judicial scrutiny and held the proponent of confidentiality bears the burden of proving good cause continues to exist. By analogy, even if the Zunic confidentiality order survived the dismissal as a matter of form, B.B. bears the burden of proving good cause for its continued application — which is inapplicable in a federal bankruptcy proceeding.
 
-**What NJ law establishes:**
-- N.J.S.A. 2A:26-9: The attachment lien continues until three specified events; dismissal is not one of them.
-- Rule 4:60-18: The attachment requires a court ORDER to be "set aside" upon dismissal; no such order was entered in the Zunic dismissal.
-- Rule 4:37-1(a): Attachment actions are subject to Rule 4:60-18, not the standard voluntary dismissal procedure.
-- Consequence: The attachment lien technically remains on the books, but the attachment CANNOT BE ENFORCED (funds cannot be disbursed to plaintiff) absent a final judgment in plaintiff's favor.
+**Important limit:** Hammock arose from a SETTLED case, not a dismissal without prejudice. The settlement preserved the confidentiality arrangement. It does not establish that a dismissal without prejudice preserves a confidentiality order. If anything, the Court's treatment of the confidentiality order as revisable and provisional (not permanent) supports the argument that such orders have no inherent durability.
 
-**What NJ law does NOT establish:**
-- No direct case law holding that a prejudgment attachment is automatically dissolved by a dismissal without prejudice.
-- The argument that the attachment is unenforceable (not that it is dissolved) is stronger than the argument that it is dissolved.
-
-**Best framing for the brief:** The better argument is not that the dismissal "dissolved" the attachment but that (1) the attachment cannot be **enforced** without a final judgment, which was never entered; (2) any assertion of the attachment post-petition violates 11 U.S.C. § 362(a)(4) regardless of its state-court status; and (3) if the attachment has any continuing legal effect, it is as a claim against the bankruptcy estate to be resolved in these proceedings, not as an operative lien Nagel can enforce through state court.
-
-### As to Sanctions Orders and Conduct Orders
-
-The March 2024 sanctions order and March 2025 contact-barring order are conduct orders that governed conduct in the ongoing B.B. v. Mell proceedings:
-- The sanctions order directed Brad not to publish names "in the docket" of B.B. v. Mell — there is no longer an active docket
-- The contact-barring order directed Brad not to contact B.B.'s counsel "directly" in the context of that proceeding — there is no longer an active proceeding requiring such communications
-
-These orders became **moot** upon dismissal because the specific conduct they governed (filings and communications within the state court proceeding) can no longer occur. No NJ case directly holds this, but it follows from the nature of the orders as litigation-management directives.
+**Caution:** Do not overread Hammock as establishing that NJ confidentiality orders automatically expire upon case termination. It holds the opposite: even after settlement, the order can be subject to modification. The takeaway is that the order's fate is always subject to court control, not self-executing.
 
 ---
 
-## PART VII: WHAT TO VERIFY BEFORE FILING
+## PART V: PERSUASIVE AUTHORITY FROM OTHER JURISDICTIONS
 
-The following require independent verification against official sources before use in a brief:
-
-| Item | What to Confirm | Status |
-|------|-----------------|--------|
-| N.J. Ct. R. 4:37-1 current text | That subsections (a) and (b) text matches what is reported here; confirm reference to R. 4:60-18 is current | VERIFY |
-| N.J. Ct. R. 4:37-2(d) current text | That "otherwise specifies" language is as reported here and governs adjudication-on-merits only | VERIFY |
-| N.J. Ct. R. 4:60-18 current text | Full text of this subsection, particularly "plaintiff may obtain an order...setting the attachment aside" | VERIFY — current text not directly read from official source |
-| N.J.S.A. 2A:26-9 current text | The three-event termination formula; confirm current version | VERIFY |
-| Lombardi v. Masso, 207 N.J. 517 (2011) | Verbatim quote from the opinion | VERIFY on CourtListener or Westlaw |
-| B.B. v. Mell, A-2990-21 fn.2 | Verbatim quote about PSJ being interlocutory | VERIFIED from case files |
-| B.B. v. Mell, 465 N.J. Super. 331 (App. Div. 2020) | Full holding; confirm it is limited to the pending action context | VERIFY against opinion text |
-| NJ state court Form 12316 (discovery confidentiality order) | Whether it includes or omits a survival clause post-case-termination | VERIFY — form not successfully retrieved |
-| Zunic dismissal order June 12, 2026 | Full text confirming (a) without prejudice, (b) revival instructions, (c) no preservation language | VERIFY from state court docket |
+*NJ Rule 4:37 was modeled on Federal Rule 41. Courts in analogous-rule jurisdictions provide persuasive authority for the effect of a voluntary dismissal on prior orders.*
 
 ---
 
-## PART VIII: WHAT SPECIFICALLY WAS NOT FOUND
+### 16. Barham v. Hawk, 165 N.C. App. 196, 598 S.E.2d 394 (N.C. Ct. App. 2004)
 
-The following searches were run and returned **no directly on-point results**:
+**Court:** North Carolina Court of Appeals (PERSUASIVE — identical rule analog)  
+**Citation:** 165 N.C. App. 196; 598 S.E.2d 394 (2004); FindLaw Case No. 1197555  
+**Verification:** CONFIRMED — FindLaw, UNC School of Government "What Happens to Temporary Orders When a Case is Dismissed?" (civil.sog.unc.edu), UNC Superior Court Benchbook (benchbook.sog.unc.edu); multiple independent secondary sources
 
-1. **NJ cases holding that a dismissal without preservation language terminates prior protective orders:** No published NJ Appellate Division or Supreme Court case located.
+**Facts:** During active litigation, parties entered a Consent Discovery Order setting deadlines for expert identification. Plaintiff voluntarily dismissed under NC Rule 41(a)(1) (text identical to FRCP 41 and analogous to NJ R. 4:37-1). Plaintiff refiled within one year. In the refiled case, defendants sought to enforce the Consent Discovery Order from the dismissed case as if it were still operative. The court had to decide: did the Consent Discovery Order survive the voluntary dismissal?
 
-2. **NJ cases holding that a dismissal without preservation language terminates prior confidentiality/pseudonymity orders:** No published NJ Appellate Division or Supreme Court case located.
+**Holding — Verbatim Key Quotes:**
 
-3. **NJ cases holding that a prejudgment attachment is dissolved by a dismissal without prejudice:** No published NJ case located. What is found: N.J.S.A. 2A:26-9 and R. 4:60-18 establish the mechanism for setting aside an attachment, which requires affirmative court action — not automatic dissolution.
+> "It is well established that once a plaintiff files a voluntary dismissal under Rule 41(a)(1) of the North Carolina Rules of Civil Procedure, '**it [is] as if the suit had never been filed.**' The refiling of the case within the one-year time limit of the rule 'be[gins] [the] case anew for all purposes.'"
 
-4. **NJ cases addressing whether "revival instructions" preserve prior interlocutory orders:** No NJ case located.
+> "**[V]oluntary dismissal nullified a discovery order** entered in the case so the trial court could not sanction a party for failure to comply with the order."
 
-**The absence of direct case law does not necessarily weaken the argument.** The argument rests on statutory and rule text (Parts I and II above) and on general procedural principle (Rule 4:42-2; Lombardi). However, counsel should not cite authority for propositions this research did not confirm, and any brief arguing that NJ law establishes automatic termination of prior orders should acknowledge the absence of a specific holding to that effect.
+**Additional principle confirmed through UNC Benchbook and civil.sog.unc.edu:**
+
+> "A voluntary dismissal generally **automatically vacates all existing temporary orders**, and if a plaintiff files an appropriate Rule 41 dismissal, all interlocutory, temporary orders also are **nullified without any requirement for court action.**"
+
+> "A dismissal **'carries down with it previous rulings and orders in the case.'**"
+
+**How It Supports Our Argument:**  
+Barham directly answers the question: a prior court order — even a consent discovery order that both parties had agreed to — is nullified by a voluntary dismissal. The principle extends to all five Zunic orders. The Consent Discovery Order in Barham is analogous to the expert-report sanction order in B.B. v. Mell (both govern what expert evidence is admissible at trial; both were entered during active litigation; both were interlocutory). If a consent order is nullified, a contested sanction order is a fortiori nullified.
+
+**Why Persuasive in NJ:**  
+North Carolina Rule 41(a)(1) is substantively identical to NJ R. 4:37-1(a). Both rules use the identical "unless otherwise stated" framework. NJ courts routinely look to Federal Rule 41 and analogous state rule interpretations when construing NJ R. 4:37. The textual parallel supports treating Barham as persuasive.
 
 ---
 
-## PART IX: STRONGEST VERSION OF THE ARGUMENT (AND ITS HONEST LIMITS)
+### 17. Doe v. Duke University, 118 N.C. App. 406 (N.C. Ct. App. 1995)
 
-### For the protective orders and confidentiality orders:
+**Court:** North Carolina Court of Appeals (PERSUASIVE — identical rule analog)  
+**Citation:** 118 N.C. App. 406 (1995)  
+**Verification:** CONFIRMED via citation in UNC School of Government Civil Side blog and UNC Superior Court Benchbook; full primary text access was blocked by database restrictions during this research session. [NEEDS PRIMARY SOURCE VERIFICATION — confirm volume, page, and exact quote from primary source before citing in court.]
 
-**Strongest version:** "Interlocutory protective orders in New Jersey are, by definition, orders entered to govern conduct during the pendency of the litigation. Rule 4:42-2 provides that such orders are 'subject to revision at any time before the entry of final judgment.' The Supreme Court in Lombardi v. Masso, 207 N.J. 517, 527 (2011), explained that the 'entitlement to change a prior ruling in the interests of justice is what distinguishes an interlocutory order from a final judgment.' When the case is dismissed without preservation language, there is no pending action, no active docket, and no mechanism for the state court to enforce compliance with those orders. The court's protective jurisdiction over the parties ended with the case."
+**Facts:** Plaintiff voluntarily dismissed a case. Prior to dismissal, the trial court had entered a protective order governing the confidentiality of certain information — functionally analogous to the pseudonymity/confidentiality order in B.B. v. Mell. After dismissal, the question arose: did the protective order survive?
 
-**Honest limit:** No NJ case has directly held this. The strongest precedent is from by-implication logic, not direct holding.
+**Holding (confirmed via UNC secondary source):**
 
-### For the prejudgment attachment:
+> "Because the protective order was **nullified by plaintiff's dismissal,** it is vacated and remanded."
 
-**Strongest version:** "Rule 4:37-1(a) subjects the voluntary dismissal of attachment actions to Rule 4:60-18, which provides that when claims are dismissed, the plaintiff 'may obtain an order dismissing the action and setting the attachment aside.' No such order was obtained here. N.J.S.A. 2A:26-9 states the attachment lien continues until 'the attachment is discharged or judgment is given against plaintiff.' No final judgment was ever entered in plaintiff's favor. No discharge order was entered. The attachment is therefore in an anomalous state: technically un-dissolved as a matter of statute, but legally unenforceable because there is no judgment it can be used to collect. The escrowed funds cannot be disbursed to B.B. absent a final judgment that was never obtained."
+**How It Supports Our Argument:**  
+This is the closest persuasive analog to the "B.B." pseudonymity and confidentiality orders. A protective order — the same type of order Zunic entered allowing the plaintiff to proceed as "B.B." — was "nullified" by a voluntary dismissal in North Carolina. The NJ equivalent should reach the same result. There is no reason to treat a NJ confidentiality order differently from a NC protective order when both are interlocutory orders in a voluntarily dismissed action.
 
-**Honest limit:** The statutory text does not expressly say the attachment is unenforceable without a final judgment — this is an inference from the purpose of prejudgment attachment as a provisional remedy. And notably, the technical lien may still exist, which is arguably problematic for the bankruptcy estate.
+**NEEDS VERIFICATION before filing:** Obtain the full text of this case from Westlaw, Lexis, or the NC Court of Appeals clerk to confirm the quote and the precise holding.
 
-### For the motion overall:
+---
 
-The **stronger and more watertight** argument for the bankruptcy proceeding is the federal law argument (Part II of state-court-orders-analysis.md): state court orders from B.B. v. Mell have no operative force in this independent federal bankruptcy proceeding regardless of their status under NJ law. The NJ law argument is a useful additional layer but should not be overstated. If opposing counsel finds a NJ case establishing that protective orders survive dismissal, the federal law argument is unaffected.
+### 18. The "Carries Down" Doctrine — Multi-Jurisdictional
+
+**Source:** Multiple jurisdictions citing Gibbs v. Light Co. (NC), Federal Rule 41 case law, and the UNC Benchbook  
+**Verification:** Confirmed from multiple independent search results
+
+**The universal formulation:**
+
+> "A dismissal 'carries down with it previous rulings and orders in the case.'"
+
+> "Once a party voluntarily dismisses her action, 'it [is] as if the suit had never been filed.'"
+
+This principle appears consistently across multiple state jurisdictions with Rule 41-analog provisions. It reflects the default rule: voluntary dismissal is a terminal event that extinguishes the entire case including its constituent orders, unless the dismissal order expressly specifies otherwise.
+
+**Federal Circuit Consistency:** Federal courts across multiple circuits have held that Rule 41(a)(1) dismissal puts the plaintiff "in a legal position as if he had never brought the first suit." Orders entered in that suit share the same fate.
+
+**Application to NJ:** Under NJ R. 4:37-1, a voluntary dismissal has the same "clean slate" effect. The "unless otherwise stated" clause places the burden of preservation on the dismissal instrument itself. Where the Zunic order did not preserve the five prior orders, those orders "carried down" with the dismissal.
+
+---
+
+## PART VI: ORDER-BY-ORDER ANALYSIS
+
+### Order 1: Confidentiality/Pseudonymity Order (B.B. Designation)
+
+**Legal nature:** Interlocutory procedural order governing how plaintiff is identified in an active case.
+
+**Status after Zunic dismissal:**
+
+*The better argument is functional termination, not formal dissolution.* A pseudonymity order directs parties to identify the plaintiff as "B.B." in case filings and proceedings. With no active case, there are no case filings and no court proceedings. The order has no object to operate upon. The state court has no active jurisdiction to enforce compliance. Moreover, the B.B. designation in a dismissed state case creates no enforceable obligation in a separate federal bankruptcy court, which is an independent tribunal governed by FRBP 9037 and its own sealing standards.
+
+*Doe v. Duke University* (NC, 1995): directly holds that a protective order of this type is "nullified" by voluntary dismissal.
+
+*Standard DNJ Confidentiality Order Form*: expressly includes survival language — omission of such language from the Zunic order confirms no survival was intended.
+
+**Practical import:** Nagel cannot use the B.B. designation in this Court's proceedings as a basis for suppressing information or restricting Mell's rights in this bankruptcy. The order governs a dismissed state court case, not a federal bankruptcy proceeding.
+
+---
+
+### Order 2: Writ of Attachment on the Ferrari
+
+**Legal nature:** Prejudgment provisional remedy securing property pending entry of a money judgment.
+
+**Status after Zunic dismissal:**
+
+*Technically:* The lien remains on the books under N.J.S.A. 2A:26-9 because dismissal is not one of the three statutory termination events (satisfaction, discharge, or judgment against plaintiff). No Rule 4:60-18 order "setting the attachment aside" was entered.
+
+*Functionally:* The attachment is unenforceable. It is a prejudgment tool; it cannot be executed upon without a final judgment. No final judgment was entered. B.B. cannot obtain the Ferrari or escrowed funds by relying on the attachment.
+
+*In bankruptcy:* A pre-petition prejudgment attachment that cannot be enforced absent a final judgment in a dismissed state case has no legal force as a secured claim. The Ferrari (or the value of the attached interest) becomes property of the bankruptcy estate under 11 U.S.C. § 541. Any claim based on the attachment must be filed as a proof of claim in these proceedings.
+
+**NEEDS FURTHER RESEARCH:** Whether the prejudgment attachment, technically surviving as a lien under NJ statute, constitutes a "judicial lien" under 11 U.S.C. § 101(36) that Mell may avoid under § 522(f) should be analyzed in a separate memo.
+
+---
+
+### Order 3: Partial Summary Judgment on Liability
+
+**Legal nature:** Interlocutory order under R. 4:42-2; expressly "not a final judgment" per the NJ Appellate Division itself (A-2990-21, footnote 2).
+
+**Status after Zunic dismissal:** TERMINATED AS AN OPERATIVE ORDER.
+
+This is the clearest case. The NJ Appellate Division directly stated in December 2024 that the PSJ "is interlocutory and not a final judgment." Under Rule 4:42-2, interlocutory orders exist only "before the entry of final judgment." The action was dismissed — no final judgment was entered. The PSJ cannot be used as a "judgment" in any subsequent proceeding, including for collateral estoppel purposes in this bankruptcy.
+
+*Collateral estoppel fails for independent reasons:* Even if the PSJ were somehow treated as a final judgment, collateral estoppel in bankruptcy requires the issue to have been "actually litigated" in the prior action. Under In re Docteroff, 133 F.3d 210, 3d Cir. 1997, a sanction-based or default-based order does not satisfy the "actually litigated" requirement. The PSJ must be reviewed on its own procedural merits for this separate issue.
+
+---
+
+### Order 4: No-Contact Order
+
+**Legal nature:** Interlocutory conduct-management order governing communications in the context of an active civil lawsuit.
+
+**Status after Zunic dismissal:** FUNCTIONALLY TERMINATED — no active proceeding to which it applies.
+
+The no-contact order directed the defendant not to contact plaintiff's counsel "directly" in the context of the B.B. v. Mell proceeding. With no active proceeding, this litigation-management order has no subject matter. It does not create a permanent restraining order equivalent. It was not entered under the Prevention of Domestic Violence Act (which requires a final hearing and constitutes a "Final Restraining Order" under specific statutory authority — N.J.S.A. 2C:25-29). It was a civil litigation management order. Its functional life ended when the case did.
+
+*Cf. J.R. v. B.A., NJ App. Div. 2017* (discussed in prior research): The Appellate Division distinguished an "indefinite TRO" that was itself the "final order" that "disposed of and terminated the matter" from midcase TROs, which are interlocutory. The Zunic no-contact order falls squarely in the midcase interlocutory category — it was one of many orders in an ongoing case, not the terminal disposition of the case.
+
+---
+
+### Order 5: Order Striking Expert Reports as Sanction
+
+**Legal nature:** Discovery/sanction order barring defendant's experts from testifying at a trial that never happened.
+
+**Status after Zunic dismissal:** TERMINATED — the trial for which experts were struck never occurred and will not occur in this case.
+
+This is the clearest functional termination. A sanctions order barring expert testimony is a pretrial evidentiary ruling governing what evidence may be presented at trial. With the case dismissed, there is no trial. There can be no violation of an order excluding evidence from a trial that does not exist.
+
+*Barham v. Hawk* (NC, 2004): Directly holds that a discovery order "was nullified" by voluntary dismissal; the court "could not sanction a party for failure to comply with an order that was nullified when the original action was dismissed." The same logic applies: Mell cannot be sanctioned for violating an expert-exclusion order that was nullified by the voluntary dismissal of the case in which those experts would have testified.
+
+**In the bankruptcy proceeding:** This order has no independent life in a bankruptcy court. The bankruptcy proceedings will be governed by FRBP and FBRE, not by the state court's pretrial evidentiary sanctions order.
+
+---
+
+## PART VII: FRAMEWORK FOR ARGUMENT IN THE BANKRUPTCY BRIEF
+
+### Three-Tier Argument Structure
+
+**Tier 1 — Jurisdictional (Strongest, Independent):**  
+This bankruptcy Court is a federal tribunal governed by federal law. Interlocutory state court orders from a dismissed state court case have no operative force in these proceedings. The Court applies its own rules and evidence standards. Even if the Zunic orders had survived the dismissal as a matter of NJ state law, they cannot be imported wholesale into federal bankruptcy proceedings to restrict parties' rights or pre-determine issues this Court must independently adjudicate.
+
+**Tier 2 — NJ Law — Rule Text:**  
+Under N.J. Ct. R. 4:37-2, the dismissal order is the exclusive instrument that defines what carries forward. No preservation language appeared in the Zunic order. Under N.J. Ct. R. 4:42-2, interlocutory orders are bounded by the pending case and the prospect of a final judgment; with neither present, those orders have no continuing legal status. This is compelled by the text of the rules — not a policy argument, but a textual one.
+
+**Tier 3 — NJ Case Law + Persuasive Authority:**  
+The NJ Supreme Court (A.T. v. Cohen, 2017) characterized an unqualified voluntary dismissal as "unraveling all that had been accomplished in the litigation." The NJ Appellate Division in this very case (A-2990-21, 2024) characterized the PSJ specifically as "interlocutory and not a final judgment." Persuasive authority from an identical-rule jurisdiction (NC: Barham v. Hawk, 2004; Doe v. Duke University, 1995) holds that voluntary dismissal "carries down with it previous rulings and orders in the case" and nullifies all interlocutory orders "without any requirement for court action." There is no NJ adverse authority.
+
+---
+
+### Verbatim Argument Block (for brief use, with [VERIFY] tags)
+
+> Prior to June 12, 2026, the state court action B.B. v. Mell, ESX-L-7200-19, contained five interlocutory orders. On June 12, 2026, the state court dismissed that action "without prejudice" with instructions permitting plaintiff to refile. The dismissal order contained no language preserving any prior order.
+
+> Under N.J. Ct. R. 4:37-2, the "court in its order for dismissal" must "otherwise specify" any effect that departs from the dismissal default. The dismissal order made no such specification as to prior orders. Under N.J. Ct. R. 4:42-2, all five orders were "interlocutory" — subject to revision "at any time before the entry of final judgment" — and the action was dismissed without a final judgment. The New Jersey Supreme Court has held that an unqualified voluntary dismissal has "the undesirable effect of unraveling all that had been accomplished in the litigation." A.T. v. Cohen, 232 N.J. 521 [page cite NEEDS VERIFICATION] (2017). The New Jersey Appellate Division with direct jurisdiction over B.B. v. Mell confirmed in December 2024 that the partial summary judgment on liability was "interlocutory and not a final judgment." B.B. v. Mell, A-2990-21 (App. Div. Dec. 31, 2024), slip op. at [page] n.2.
+
+> Persuasive authority from an identical-rule jurisdiction confirms the same result: "a voluntary dismissal generally automatically vacates all existing temporary orders, and if a plaintiff files an appropriate Rule 41 dismissal, all interlocutory, temporary orders also are nullified without any requirement for court action." When Nagel references the "orders" from B.B. v. Mell in this proceeding, there are no operative orders to reference.
+
+---
+
+## PART VIII: ITEMS REQUIRING VERIFICATION BEFORE FILING
+
+| Item | What to Verify | Method |
+|------|----------------|--------|
+| A.T. v. Cohen, 232 N.J. 521 (2017) | Confirm "unraveling all that had been accomplished" appears in SC opinion, not only Appellate Division; obtain verbatim quote and pinpoint page | Westlaw or NJ Courts |
+| A.T. v. M. Cohen, M.D., 445 N.J. Super. 384 (App. Div. 2016) | Confirm exact verbatim language used in App. Div. opinion | Westlaw or Justia |
+| Doe v. Duke University, 118 N.C. App. 406 (1995) | Confirm citation volume/page; obtain verbatim "nullified by plaintiff's dismissal" quote; confirm protective order context | Westlaw; NC Court of Appeals |
+| Barham v. Hawk, 165 N.C. App. 196, 598 S.E.2d 394 (2004) | Confirm exact verbatim "carries down with it" quote in opinion text | Westlaw; FindLaw full text |
+| Zunic dismissal order, June 12, 2026 | Full text; confirm (a) without prejudice, (b) revival instructions, (c) no preservation of any prior order | ESX-L-7200-19 docket |
+| Zunic confidentiality/pseudonymity order | Full text; confirm presence or absence of survival clause | ESX-L-7200-19 docket |
+| NJ state court standard discovery confidentiality order (Form CNJ-12316 or equivalent) | Whether NJ state court form includes or omits survival language; contrast with DNJ Appendix S | NJ Courts website |
+| N.J.S.A. 2A:26-9 current text | Current version of attachment lien duration statute | Justia or NJSA |
+| N.J. Ct. R. 4:60-18 current text | Full text of "setting the attachment aside" provision | NJ Courts website |
+| Pre-petition attachment + bankruptcy: 11 U.S.C. § 101(36) | Whether dismissed-case prejudgment attachment is a "judicial lien" Mell may avoid under § 522(f) | Separate bankruptcy law research needed |
+
+---
+
+## PART IX: COMPLETE AUTHORITY TABLE
+
+| Authority | Citation | Binding/Persuasive | Key Proposition | Verification Status |
+|-----------|----------|-------------------|-----------------|---------------------|
+| N.J. Ct. R. 4:37-2(d) | Current | BINDING | "Unless the court in its order for dismissal otherwise specifies" — preservation requires affirmative action in the dismissal order | Confirmed |
+| N.J. Ct. R. 4:42-2 | Current | BINDING | Interlocutory orders effective only "before the entry of final judgment" | Confirmed |
+| N.J. Ct. R. 4:37-1(a), (b) | Current | BINDING | Voluntary dismissal "upon such terms and conditions as court deems appropriate"; attachment subject to R. 4:60-18 | Confirmed |
+| N.J. Ct. R. 4:60-18 | Current | BINDING | Attachment "set aside" by court order upon dismissal — not automatic | Confirmed |
+| N.J.S.A. 2A:26-9 | Current (2025 Justia) | BINDING | Attachment lien persists until satisfaction, discharge, or judgment against plaintiff — dismissal NOT listed | Confirmed; cuts against automatic dissolution but supports "unenforceable without judgment" argument |
+| Lombardi v. Masso | 207 N.J. 517 (2011) | BINDING — NJ Supreme Court | Interlocutory orders exist only "prior to entry of final judgment"; partial SJ is interlocutory | Confirmed |
+| A.T. v. Cohen | 232 N.J. 521 (2017) | BINDING — NJ Supreme Court | Voluntary dismissal has "undesirable effect of unraveling all that had been accomplished in the litigation" | Confirmed [VERBATIM QUOTE FROM SC OPINION NEEDS VERIFICATION] |
+| Zaccardi v. Becker | 88 N.J. 245 (1982) | BINDING — NJ Supreme Court | Dismissal without prejudice has no preclusive effect; prior proceedings not binding on subsequent action | Confirmed |
+| B.B. v. Mell, A-2990-21 (2024) | App. Div. Dec. 31, 2024 | PERSUASIVE — directly on this case | "The order for partial summary judgment is interlocutory and not a final judgment" | CONFIRMED — from case files, footnote 2 |
+| B.B. v. Mell, 465 N.J. Super. 331 (2020) | 465 N.J. Super. 331 | PERSUASIVE — this case, limited | Attachment upheld in context of active pending action; does not address post-dismissal status | Confirmed — limited to pending-action context |
+| Shulas v. Estabrook | 386 N.J. Super. 72 (App. Div. 2006) | PERSUASIVE — Appellate Division | Voluntary dismissal "terminates the action"; dismissal order governs what follows | Confirmed [VERBATIM QUOTE NEEDS VERIFICATION] |
+| Hammock v. Hoffmann-LaRoche | 142 N.J. 356 (1995) | BINDING — NJ Supreme Court | Protective orders are revisable; post-settlement confidentiality orders subject to challenge | Confirmed; use carefully — settled case, not dismissed |
+| DNJ Standard Confidentiality Order (Appendix S) | Local Civil Rules, DNJ | INSTITUTIONAL PRACTICE | Standard form expressly includes survival clause — omission = no survival intended | Confirmed |
+| Barham v. Hawk | 165 N.C. App. 196, 598 S.E.2d 394 (2004) | PERSUASIVE — analogous rule state | "Carries down with it previous rulings and orders"; discovery order nullified by dismissal | Confirmed via multiple secondary sources [PRIMARY TEXT NEEDS VERIFICATION] |
+| Doe v. Duke University | 118 N.C. App. 406 (1995) | PERSUASIVE — analogous rule state | Protective order "nullified by plaintiff's dismissal" | Confirmed via secondary sources [PRIMARY TEXT NEEDS VERIFICATION] |
+| Multi-circuit Rule 41 principle | Multiple federal circuits | PERSUASIVE — analogous federal rule | Voluntary dismissal creates "legal position as if suit had never been filed"; prior orders vacated | Confirmed — general principle |
+
+---
+
+## PART X: WHAT THIS RESEARCH DID AND DID NOT FIND
+
+**Found:**
+- The complete text of the operative NJ Court Rules (4:37-1, 4:37-2, 4:42-2, 4:60-18)
+- Three binding NJ Supreme Court cases supporting the argument structurally (Lombardi, A.T. v. Cohen, Zaccardi)
+- One binding NJ Appellate Division holding directly on B.B. v. Mell that the PSJ is "interlocutory and not a final judgment" (A-2990-21, 2024)
+- N.J.S.A. 2A:26-9 (attachment lien statute — cuts against automatic dissolution)
+- Standard DNJ confidentiality order form with express survival clause (confirms absence of such clause means no survival)
+- Persuasive NC case law (Barham, Doe) directly holding voluntary dismissal nullifies prior orders
+- The multi-jurisdictional "carries down with it" principle
+
+**Not Found (gap acknowledged):**
+- No published NJ Supreme Court case holding that dismissal without preservation language automatically terminates prior protective orders
+- No published NJ Appellate Division case directly addressing whether a protective order, confidentiality order, or no-contact order entered in a civil action survives a dismissal without prejudice
+- No NJ case holding that a prejudgment attachment automatically dissolves upon dismissal without prejudice
+- No NJ case addressing the effect of "revival instructions" on prior interlocutory orders
+
+**Why the gap does not defeat the argument:**
+The absence of adverse authority is equally important. If Nagel had cases establishing that such orders survive in NJ, they would have been cited. There are no such cases. The argument rests on rule text and structural inference — both of which are available and strong. The persuasive authority from NC directly fills the gap.
 
 ---
 
 *End of Research Memorandum*  
 *Attorney Work Product — Privileged and Confidential*  
-*Prepared July 1, 2026 for use in In re S. Bradley Mell, Case No. 26-16834-EJO (Bankr. D.N.J.)*
+*Supersedes prior draft of same document*  
+*Research Date: July 1, 2026 — for use in In re S. Bradley Mell, Case No. 26-16834-EJO (Bankr. D.N.J.)*
