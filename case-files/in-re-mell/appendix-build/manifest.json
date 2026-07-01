@@ -997,6 +997,105 @@
           "skip": false,
           "confidential": false,
           "notes": ""
+        },
+        {
+          "drive_id": "",
+          "local_filename": "vol7_G41_lewis_v_long_petition_docket.pdf",
+          "display_title": "Lewis v. Long — Chapter 13 Main Case Docket",
+          "tab": "G-41",
+          "date": "2023-01-01",
+          "size_bytes": 42627,
+          "skip": false,
+          "confidential": false,
+          "notes": "Lewis v. Long — downloaded from PACER"
+        },
+        {
+          "drive_id": "",
+          "local_filename": "vol7_G42_lewis_v_long_adversary_docket.pdf",
+          "display_title": "Lewis v. Long — Adversary Proceeding Docket",
+          "tab": "G-42",
+          "date": "2023-01-01",
+          "size_bytes": 64206,
+          "skip": false,
+          "confidential": false,
+          "notes": "Lewis v. Long — downloaded from PACER"
+        },
+        {
+          "drive_id": "",
+          "local_filename": "vol7_G43_lewis_v_long_adversary_complaint.pdf",
+          "display_title": "Lewis v. Long — Adversary Complaint",
+          "tab": "G-43",
+          "date": "2023-01-01",
+          "size_bytes": 577950,
+          "skip": false,
+          "confidential": false,
+          "notes": "Lewis v. Long — downloaded from PACER"
+        },
+        {
+          "drive_id": "",
+          "local_filename": "vol7_G44_lewis_v_long_hearing_tr.pdf",
+          "display_title": "Lewis v. Long — Hearing Transcript",
+          "tab": "G-44",
+          "date": "2023-01-01",
+          "size_bytes": 1292481,
+          "skip": false,
+          "confidential": false,
+          "notes": "Lewis v. Long — downloaded from PACER"
+        },
+        {
+          "drive_id": "",
+          "local_filename": "vol7_G45_lewis_v_long_memo_opinion.pdf",
+          "display_title": "Lewis v. Long — Bankruptcy Court Memorandum Opinion",
+          "tab": "G-45",
+          "date": "2023-01-01",
+          "size_bytes": 567690,
+          "skip": false,
+          "confidential": false,
+          "notes": "Lewis v. Long — downloaded from PACER"
+        },
+        {
+          "drive_id": "",
+          "local_filename": "vol7_G46_lewis_v_long_order_judgment.pdf",
+          "display_title": "Lewis v. Long — Order and Judgment",
+          "tab": "G-46",
+          "date": "2023-01-01",
+          "size_bytes": 50252,
+          "skip": false,
+          "confidential": false,
+          "notes": "Lewis v. Long — downloaded from PACER"
+        },
+        {
+          "drive_id": "",
+          "local_filename": "vol7_G47_lewis_v_long_supplemental_op.pdf",
+          "display_title": "Lewis v. Long — Supplemental Opinion on Reconsideration",
+          "tab": "G-47",
+          "date": "2023-01-01",
+          "size_bytes": 826315,
+          "skip": false,
+          "confidential": false,
+          "notes": "Lewis v. Long — downloaded from PACER"
+        },
+        {
+          "drive_id": "",
+          "local_filename": "vol7_G48_lewis_v_long_2nd_appeal.pdf",
+          "display_title": "Lewis v. Long — Second Appeal",
+          "tab": "G-48",
+          "date": "2023-01-01",
+          "size_bytes": 490854,
+          "skip": false,
+          "confidential": false,
+          "notes": "Lewis v. Long — downloaded from PACER"
+        },
+        {
+          "drive_id": "",
+          "local_filename": "vol7_G49_lewis_v_long_usdc_affirm.pdf",
+          "display_title": "Lewis v. Long — District Court Affirmance",
+          "tab": "G-49",
+          "date": "2023-01-01",
+          "size_bytes": 752072,
+          "skip": false,
+          "confidential": false,
+          "notes": "Lewis v. Long — downloaded from PACER"
         }
       ]
     },
