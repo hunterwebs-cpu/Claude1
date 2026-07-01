@@ -54,7 +54,17 @@ Push to the branch: `claude/substack-topic-research`
 
 If the branch does not exist, create it.
 
-## STEP 6 — STOP
+## STEP 6 — Send the weekly email briefing
+
+Run the email script to deliver the briefing to khan.erik@protonmail.com:
+
+```bash
+python3 scripts/send_topic_briefing.py
+```
+
+This requires the `GMAIL_APP_PASSWORD` environment variable to be set in the Routine's cloud environment config. If the script exits with an error about the missing variable, the Routine is not yet configured — do not retry. The report is already committed; the email can be sent manually by running the script locally with the password set.
+
+## STEP 7 — STOP
 
 Do not continue. Do not start Phase 2. Do not write an article. Do not ask any questions. The human will read the report, pick a topic, and start a new session when they are ready.
 
