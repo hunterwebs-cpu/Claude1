@@ -145,7 +145,6 @@ def make_cover_page(volume_label: str, documents: list) -> bytes:
 
         c.drawString(inch, y, tab)
 
-        # Wrap long titles
         max_title_width = int((w - 3.5 * inch) / (8.5 * 0.5))
         wrapped = textwrap.wrap(title, max_title_width) if len(title) > max_title_width else [title]
         c.drawString(1.6 * inch, y, wrapped[0])
@@ -193,7 +192,6 @@ def make_separator_page(tab: str, title: str, confidential: bool = False) -> byt
 
     c.setFillColor(black)
     c.setFont("Helvetica", 10)
-    # Wrap title
     wrapped = textwrap.wrap(title, 60)
     ypos = h / 2
     for line in wrapped:
