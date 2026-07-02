@@ -1,0 +1,111 @@
+DRIVE FILES INSPECTION REPORT
+In re S. Bradley Mell, No. 26-16834-EJO (Bankr. D.N.J.)
+Generated: 2026-07-02
+======================================================================
+
+DOWNLOADED FILES
+----------------------------------------------------------------------
+
+FILE: _drive_vol_VIII.pdf  (source: appendix_vol_VIII_SEALED.pdf)
+  Drive ID : 1kNi0B3rIjGjVKQy0xEeJUw5zGcns83t4
+  Saved    : 4,027 bytes
+  Pages    : 3
+  p1 text  : [ERROR — pypdf parse error in content stream]
+  p2 text  : [��������������������������������������������������������������������������������]
+  p3 text  : [Tab H-2 Tab H-2 CONFIDENTIAL — KRM & SBM Civil Release — March 6, 2026 CONFIDENTIAL — DO NOT DISTRIBUTE WITHOUT PROTECTI]
+  Cover pg : BLANK/CORRUPT (p1 parse error, p2 garbled bytes)
+  First tab: Tab H-2 (p3) — KRM & SBM Civil Release, March 6 2026
+  Note     : Tiny 4 KB file — likely a placeholder/stub for sealed vol
+
+FILE: _drive_vol_IVa.pdf  (source: appendix_vol_IVa.pdf)
+  Drive ID : 1blcnLfP5IdfwEK1kSGlbQvrvhgOUeFKy
+  Saved    : 1,330,412 bytes
+  Pages    : 15
+  Type     : Image-based PDF (scanned — 1 JPEG per page, Im0.jpg pattern)
+  p1 text  : [] — no extractable text (image layer only)
+  p2 text  : [] — image
+  p3 text  : [] — image
+  Cover pg : Cannot determine from text extraction (image-based)
+  First tab: Not determinable via text extraction
+
+FILE: _drive_vol_IIa.pdf  (source: appendix_vol_IIa.pdf)
+  Drive ID : 1WXnBJEUAz7ERn8l4n5vZNmT_vJVcOZsF
+  Saved    : 4,494,057 bytes
+  Pages    : 221
+  p1 text  : [In re S. Bradley Mell No. 26-16834-EJO (Bankr. D.N.J.) Hearing: July 16, 2026 Ap]
+  p2 text  : [ESX-L-007200-19 02/06/2020 4:09:26 PM Pg 20 of 20 Trans ID: LCV2020259751 Tab B-2 Tab B-2 Essex Coun]
+  p3 text  : [Steven Bradley Mell2012 AKA Steven Bradley Mell 2012 Family Trust Party Descript]
+  Cover pg : NOT BLANK — cover page present with case header
+  First tab: Tab B-2 (p2) — Essex County Superior Court Docket
+
+FILE: _drive_vol_VIb.pdf  (source: appendix_vol_VIb.pdf)
+  Drive ID : 1e-KHHipN_BseZM2UJEvQbmMA9SymLeB8
+  Saved    : 5,558,538 bytes
+  Pages    : 62
+  Type     : Image-based PDF (scanned — 1 JPEG per page, Im0.jpg pattern)
+  p1 text  : [] — no extractable text (image layer only)
+  p2 text  : [] — image
+  p3 text  : [] — image
+  Cover pg : Cannot determine from text extraction (image-based)
+  First tab: Not determinable via text extraction
+
+FILE: _drive_IVb.pdf  (source: appendix_vol_IVb.pdf — PRE-EXISTING)
+  Drive ID : 1m1apzd_D5CaHj0Mk-BR7os9Gwmjbr6wB
+  Saved    : 351,425 bytes  [downloaded in prior session]
+  Pages    : 152
+  p1 text  : [In re S. Bradley Mell No. 26-16834-EJO (Bankr. D.N.J.) Hearing: July 16, 2026 Ap]
+  p2 text  : [Tab D-3 Tab D-3 Mell Memorandum to Roberts — State v. Mell, Corrected Attachments]
+  p3 text  : [Dear Mr. Roberts, I hope this letter finds you well. My name is Bilal Khan, and ]
+  Cover pg : NOT BLANK — cover page present with case header
+  First tab: Tab D-3 (p2) — Mell Memorandum to Roberts, State v. Mell
+
+======================================================================
+SKIPPED — FILES > 10 MB (need separate handling)
+----------------------------------------------------------------------
+
+FILE: _drive_vol_I.pdf  (source: appendix_vol_I.pdf)
+  Drive ID : 1-IsRTvhjYHrh02qcfdQBtlYOk2l_m7MZ
+  Size     : 14,046,685 bytes (14 MB) — exceeded 10 MB skip threshold
+  Status   : NOT DOWNLOADED — needs separate handling
+
+FILE: _drive_FIXED_vol_IIIb.pdf  (source: FIXED_appendix_vol_IIIb.pdf)
+  Drive ID : 1sgkj9Afp-pi-DS6mRg9jhHy2OxtuoTb
+  Size     : 14,231,674 bytes (14 MB) — exceeded 10 MB skip threshold
+  Status   : NOT DOWNLOADED — needs separate handling
+
+======================================================================
+FAILED DOWNLOADS
+----------------------------------------------------------------------
+
+FILE: _drive_vol_IIb.pdf  (source: appendix_vol_IIb.pdf)
+  Drive ID : 1u3frNMVv_wJYFWFSoUoAb_bBYufIUqMk
+  Size     : 6,758,497 bytes
+  Status   : FAILED — MCP server session expired on every download attempt
+           : (5+ attempts; metadata pings succeed but download call times out)
+           : Content confirmed via metadata: Vol IIb State Court Record Part 2,
+           : tabs B-4 through B-10 (incl. Writ of Attachment Release 2023-12-28)
+
+======================================================================
+SKIPPED PER INSTRUCTIONS (no changes needed / identical to local)
+----------------------------------------------------------------------
+
+  appendix_vol_IIIa.pdf (copies 1 & 2) — identical 15.4 MB files, skip both
+  appendix_vol_VII.pdf  — no changes needed
+  appendix_vol_VIa.pdf  — same size as local
+  appendix_vol_Va.pdf   — same size as local
+  appendix_vol_Vb.pdf   — same size as local
+  COMPREHENSIVEBRIEFING.pdf — not an appendix volume
+  MASTER_TOC.pdf            — not an appendix volume
+
+======================================================================
+SUMMARY
+----------------------------------------------------------------------
+  Successfully downloaded : 5 files (incl. pre-existing IVb)
+    _drive_vol_VIII.pdf     3 pp   4,027 B   (sealed placeholder, stub)
+    _drive_vol_IVa.pdf     15 pp   1,330,412 B   (image-based/scanned)
+    _drive_vol_IIa.pdf    221 pp   4,494,057 B   (text PDF, cover + tabs B-1/B-2+)
+    _drive_vol_VIb.pdf     62 pp   5,558,538 B   (image-based/scanned)
+    _drive_IVb.pdf        152 pp   351,425 B     (text PDF, cover + tab D-3+)
+  Skipped (> 10 MB)       : 2 files (vol_I 14 MB, FIXED_vol_IIIb 14 MB)
+  Failed download         : 1 file  (vol_IIb 6.7 MB — MCP session timeout)
+  Skipped per instructions: 7 files
