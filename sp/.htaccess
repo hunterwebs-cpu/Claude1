@@ -1,7 +1,14 @@
 # sp.survivingthefeds.com
 
-# Force HTTPS
 RewriteEngine On
+
+# This folder is served both as sp.survivingthefeds.com (docroot) and as
+# survivingthefeds.com/sp/ (inside the main site's public_html). Canonical
+# home is the subdomain — redirect any other host there to prevent duplicates.
+RewriteCond %{HTTP_HOST} !^sp\.survivingthefeds\.com$ [NC]
+RewriteRule ^(.*)$ https://sp.survivingthefeds.com/$1 [L,R=301]
+
+# Force HTTPS
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 

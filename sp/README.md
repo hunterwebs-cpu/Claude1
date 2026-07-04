@@ -1,8 +1,14 @@
 # Surviving Pretrial — sp.survivingthefeds.com
 
 The sales/landing site for **Surviving Pretrial** by Bilal Khan (Surviving the Feds, Vol. 1).
-Hand-coded static HTML/CSS/JS, no build step. This folder is designed to become the root of
-its **own GitHub repo**, connected to the `sp` subdomain on Hostinger.
+Hand-coded static HTML/CSS/JS, no build step.
+
+**Deployment (actual setup):** this folder lives inside the main-site repo (Claude1), whose
+`main` branch auto-deploys the whole repo to `public_html` on Hostinger. The `sp` subdomain's
+document root is `public_html/sp`, so this folder deploys into place automatically with every
+main-site deploy — no separate repo or Git connection. The `.htaccess` here 301-redirects
+`survivingthefeds.com/sp/…` to the subdomain, so the content is only ever canonical at
+`https://sp.survivingthefeds.com/`.
 
 ## Pages
 - `index.html` — the landing page (hero, road-ahead timeline, all 5 real Amazon reviews,
