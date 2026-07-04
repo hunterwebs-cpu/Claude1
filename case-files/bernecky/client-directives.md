@@ -21,6 +21,20 @@ intake transcription). "Employ-" only appears in Standard Condition 7 (full-time
 employment requirement) and the sex-offender-registration special condition
 (register wherever employed) — neither is the CIMP condition.
 
+**Note on the condition's opening operative word:** the condition begins "The
+defendant shall not **USE** or possess any computer..." — the operative verb is
+USE (and possess), not merely "own" or "access." Relevant to the employer
+scenario: Bernecky told the employer he would not need to *use* the shared
+computers for his job duties — the condition's own opening verb is arguably not
+even triggered by an internal, non-web account he doesn't personally use for
+anything but incidental login purposes. Flag for the drafting/research phase.
+
+**Attribution correction:** "like kind and degree" is the **client's own
+characterization** of the PO's monitoring-parity statement, not a verbatim
+quote from the probation officer. Do not treat it as PO's exact words in any
+drafting — get the PO's actual language (or lack of a fixed formulation) from
+the client before citing it as a quote.
+
 ### Fact pattern — employer/occupational effect
 - Bernecky in BOP community custody; temp-service placement led to a real hiring
   opportunity at a contact lens manufacturer.
