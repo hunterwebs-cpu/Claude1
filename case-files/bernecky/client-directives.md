@@ -244,6 +244,79 @@ Von Behren/link-in-the-chain grounding, CVSA-specific reliability challenge,
 no-nexus merits argument, and cost/ability-to-pay issue all fully captured.
 Ready for research phase.
 
+### CLIENT PUSHBACK ON TRACK 2 RESEARCH (post-research correction — controlling)
+
+Track 2 research (part2-fifth-amendment-polygraph.md) concluded that *United
+States v. Johnson*, 446 F.3d 272 (2d Cir. 2006), forecloses a facial challenge
+because it already approved the Judgment's "answer now, preserve a later
+challenge, no waiver" model. **Client rejects this as the final word and has
+identified specific, substantive reasons Johnson does not resolve this case —
+these must control the next research pass:**
+
+1. **Johnson did not grapple with the right-to-counsel-for-invocation
+   question.** Client's position (I)–(IV) is not just "may I challenge use of
+   my answer later" (what Johnson approved) — it is that a layperson cannot be
+   expected to correctly determine, in real time, whether a specific question
+   is privileged, because that determination is a **pure question of law**.
+   Johnson's "preserve a later challenge" mechanism does not solve this: by the
+   time a later challenge is litigated, the defendant has already had to make
+   an unassisted legal judgment call in the room, under pressure, without
+   counsel. Client's position is that Johnson simply never addressed this
+   distinct problem.
+2. **Bernecky is not doing what Johnson's defendant did — he is issuing a
+   blanket, prospective, categorical invocation now, before any exam occurs.**
+   Johnson's model (answer, then preserve a challenge to use of that specific
+   answer) presupposes the defendant answers. It does not address, and per
+   client's reading did not need to address, a defendant who refuses to answer
+   *any* polygraph question *at all* unless/until the four protections are in
+   place. Client's position: this is a materially different posture that
+   Johnson's holding does not reach.
+3. **Client's characterization of Johnson: it functions more like a
+   "we are not deciding this broader question right now" holding** than a
+   comprehensive resolution of every Fifth Amendment issue a polygraph
+   condition can raise — i.e., client believes Johnson's actual scope is
+   narrower than the Track 2 memo credited it with, and wants this verified
+   directly against the opinion, not assumed from secondary-source
+   reconstruction (which is all Track 2 had, due to the WebFetch failure).
+4. **Reframing of the Von Behren point:** client is not simply arguing Von
+   Behren's specific fact pattern controls. Client's position is a broader,
+   affirmative claim: **the "answer now, invoke/challenge later" structure is
+   itself unconstitutional** and does not comply with Supreme Court
+   Fifth Amendment jurisprudence (Murphy's "classic penalty situation"
+   doctrine) when refusal to participate in the exam *at all* triggers
+   revocation — not merely when specific overbroad questions are asked. Client
+   wants this argued as a structural/facial defect, using Von Behren as the
+   illustrative lesson in how courts have applied Murphy, not as a citation
+   whose narrow holding must be conceded as the ceiling of the argument.
+5. **Three simultaneous theories requested, not a single unified theory:**
+   (a) a **facial** challenge (the answer-now-invoke-later structure itself is
+   unconstitutional as applied to a blanket, prospective invocation backed by
+   a revocation threat); (b) an **as-applied** challenge (Bernecky's specific
+   posture — categorical invocation, plus his documented history — takes this
+   outside anything Johnson or Brown-type cases resolved); and (c) a
+   **factual-distinguishing** argument (Johnson's defendant and posture are
+   factually different from Bernecky's in the respects listed above).
+6. **The N.D.N.Y./Federal Defender guidance article is non-negotiable —
+   client insists it exists and must be located,** not just the SDNY/EDNY
+   "Federal Defenders of New York" blog post Track 2 found as a partial
+   substitute. Do not settle for the partial-match source; search further.
+7. **New elevated-stakes fact:** client states Bernecky **already has two
+   prior sex offense convictions** (in addition to/inclusive of the instant
+   offense — exact count/configuration needs reconciliation against the
+   intake's confirmed record, which shows one explicit prior CP conviction
+   referenced in the offense title plus a related state SORA Level 2
+   adjudication) — **[VERIFY BEFORE FILING: confirm exact number and nature of
+   prior sex-offense convictions against the record before asserting "two
+   priors" in the motion]**. Client's point: given this record, Bernecky
+   "cannot risk anything further" — any additional disclosure elicited by
+   polygraph carries materially higher stakes than an ordinary first-time
+   offender, which should weigh heavily in favor of the requested procedural
+   protections and against compelling participation without them.
+
+**Action: a follow-up, deeper research pass on Special Condition (g) is
+required, built around these seven points, before the polygraph section of
+the motion is drafted.**
+
 ---
 
 ## Standard Condition 4 — "Answer truthfully"
