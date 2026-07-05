@@ -1053,16 +1053,31 @@ problem (fair notice of the actual scope of the obligation).
 **Status: consolidated fee thread established — will be addressed once, across
 all four conditions, at drafting rather than four separate arguments.**
 
-### GAP IDENTIFIED — actual dollar figures for treatment and polygraph costs
+### GAP IDENTIFIED, THEN CORRECTED — the dollar amounts are not the point
 
-Client correctly notes that research to date only produced a real fee
-schedule for **CIMP monitoring** (RemoteCOM: $35/device/month, per
-DRIVE-CATALOG). **No actual dollar figures have been found for sex-offense
-treatment program costs (Special Condition (b)) or polygraph/CVSA testing
-costs (Special Condition (g)).** Without these, the "compounding fee" burden
-across all four conditions cannot be fully quantified. **Action: dedicated
-research task to find typical/actual federal-supervision treatment program
-co-pay figures and polygraph examination costs charged to supervisees.**
+Client initially noted that research to date only produced a real fee
+schedule for CIMP monitoring (RemoteCOM: $35/device/month), with no figures
+for treatment (Special Condition (b)) or polygraph (Special Condition (g))
+costs. **Client then clarified: the actual dollar amounts are irrelevant.**
+Even a low per-unit cost (client's example: $10/device, $10/session)
+compounds rapidly into a prohibitive burden across four separate fee-bearing
+conditions. **The real defect is structural, not a quantum question:
+nothing in the Judgment gives Probation (or Bernecky) any guidance on how
+much he is expected to pay, whether there is a sliding scale tied to
+ability to pay, or what happens if he genuinely cannot afford it** — is
+inability to pay itself treated as a violation, i.e., is he "just screwed"?
+
+**Action (redirected): focus the fee research on (1) the total absence of
+any payment methodology/ability-to-pay mechanism in the condition text
+itself (a due-process/fair-notice defect, not a dollar-amount question), and
+(2) whether failure to pay a supervision cost-contribution obligation,
+standing alone, can be treated as a violation without an inquiry into
+willfulness vs. genuine inability to pay — starting point: *Bearden v.
+Georgia*, 461 U.S. 660 (1983) (revocation for nonpayment requires a
+willfulness/indigency inquiry and consideration of alternatives), and
+whether/how courts have extended that principle beyond fines/restitution to
+supervision-cost "contribute to the cost of services" conditions
+specifically.**
 
 ---
 
