@@ -521,5 +521,48 @@ this can be finalized for drafting.**
 
 ---
 
+## Special Condition (b) — Sex-offense-specific treatment
+
+**Verbatim:** "The defendant must participate in a sex offense-specific
+treatment program and follow the rules and regulations of that program. The
+probation officer will supervise the details of the defendant's participation
+in the program, including the selection of a provider and schedule. The
+defendant is not to leave treatment until complete or as ordered by the Court.
+The defendant is required to contribute to the cost of services rendered."
+
+**Client's argument — non-delegation problem in "follow the rules and
+regulations of the program":**
+
+Only the sentencing **court** may impose restrictions on Bernecky's liberty as
+conditions of supervised release — that authority cannot be delegated
+wholesale to a private treatment provider. As written, this condition
+automatically incorporates whatever rules a treatment provider unilaterally
+adopts as binding, enforceable conditions of supervision, with no court
+involvement in setting those specific rules. Client recalls a case on point
+(case name not recalled, believes it starts with "B"). **[VERIFY — leading
+candidate: *United States v. Balon*, 384 F.3d 38 (2d Cir. 2004), which
+addressed delegation of authority over sex-offense treatment/testing
+conditions to probation/providers; confirm this is the right case and its
+exact holding before relying on it. Distinct from the *Matta*/*Mayhew*/*Kunz*
+delegation authority already flagged for the CIMP condition, but likely the
+same doctrinal family — cross-reference at drafting.]**
+
+**Requested relief:** clarifying language establishing that Bernecky cannot be
+found in violation of supervised release (revocation/violation proceedings)
+for declining to comply with a treatment-provider rule that exceeds the scope
+of what the court itself ordered — i.e., if the provider goes "above and
+beyond" the court's own conditions and Bernecky says no to that
+provider-specific rule, that refusal alone cannot be a violation.
+
+**Research task:** confirm the correct case (Balon or otherwise), its holding
+on delegation to treatment providers specifically, and survey whether courts
+require express carve-out language of the kind requested here, or whether the
+non-delegation principle is instead enforced by voiding the provider rule
+itself when challenged.
+
+**Status: argument captured — case citation needs verification.**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — fees, and
 any others as raised.)*
