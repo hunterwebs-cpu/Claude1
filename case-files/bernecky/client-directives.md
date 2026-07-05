@@ -333,5 +333,73 @@ the Special Condition (a) employer arguments.**
 
 ---
 
+## Standard Condition 8 — No communication/interaction with felons or those engaged in criminal activity
+
+**Verbatim:** "You must not communicate or interact with someone you know is
+engaged in criminal activity. If you know someone has been convicted of a
+felony, you must not knowingly communicate or interact with that person without
+first getting the permission of the probation officer."
+
+**Client's argument — multiple independent grounds:**
+
+1. **Structural housing conflict:** sex offenders are systematically pushed to
+   the margins of available housing (residency restrictions, landlord
+   reluctance) and routinely end up living among/near other felons and
+   registered sex offenders as a direct result. The condition, as written,
+   makes compliance with ordinary neighborly contact itself a violation absent
+   advance PO permission — a conflict baked into the reality of where
+   Bernecky can even find housing, not a hypothetical.
+2. **Direct conflict with Special Condition (b) (sex-offense treatment):**
+   Bernecky is separately *ordered* to participate in sex-offense-specific
+   group treatment, where fellow participants are presumably also convicted
+   felons. One condition compels group contact with felons; this condition
+   bans it without prior permission. The Judgment does not reconcile this.
+3. **Workplace scenario:** if Bernecky learns a coworker has a felony
+   conviction, the literal text requires him to stop communicating with that
+   coworker (or preemptively seek PO permission) — an unworkable standard for
+   ordinary workplace functioning, and one he cannot always anticipate before
+   the fact (he doesn't necessarily know a coworker's record until it comes up
+   incidentally).
+4. **This is a communication ban, not merely an association-restriction** —
+   textually broader than a "no association" or "no cohabitation" condition.
+   Client's position: this reaches core First Amendment-protected speech
+   itself, not just relationships/association. Client's illustrative
+   hypotheticals: asking a celebrity with a felony conviction for an autograph
+   (client named Robert Downey Jr. and Wesley Snipes as examples of famous
+   convicted felons); attending a political rally where formerly incarcerated
+   people advocate for felon voting-rights restoration (core political speech/
+   petition-clause activity); writing a letter to a public figure who happens
+   to have a felony conviction. These are all one-off, incidental,
+   non-culpable contacts swept in by literal "communicate or interact... must
+   not" text with no de minimis, incidental-contact, or knowledge-timing
+   carve-out beyond the bare "without first getting permission" mechanism.
+5. **Overbreadth by the numbers:** client's estimate is that roughly 20% of the
+   U.S. adult population has a felony conviction. **[VERIFY BEFORE FILING —
+   source this statistic properly; likely from BJS/Sentencing Project data on
+   the population with a felony record, not necessarily 20% precisely.]** If
+   accurate or even roughly so, a blanket communication ban of this breadth
+   restricts an enormous swath of ordinary civic and social life.
+6. **Possible narrower alternative (client gestures at this, not yet a final
+   request):** distinguish a condition restricting *cohabitation/harboring*
+   felons in his home from a blanket ban on *communication* — client's
+   suggestion is that the former might be a legitimate, narrowly tailored
+   condition where the latter is not. Flag as a possible proposed
+   narrowing/replacement condition for the drafting phase rather than pure
+   elimination.
+
+**Research task:** survey 2d Cir. and other circuit case law narrowing/striking
+"no association/communication with felons" conditions for vagueness/overbreadth
+and First Amendment concerns, and whether courts distinguish "association" from
+"communication" bans. Starting candidate: *United States v. Reeves*, 591 F.3d 77
+(2d Cir. 2010) (narrowing an association condition to require knowledge +
+sustained relationship). **[VERIFY citation, holding, and whether it's the
+right lead case or whether better-fitting authority exists.]**
+
+**Status: argument fully captured across multiple grounds — not yet resolved
+whether requested relief is elimination, a knowledge/timing carve-out, or
+narrowing to cohabitation-only.**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — fees, and
 any others as raised.)*
