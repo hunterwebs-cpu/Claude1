@@ -367,6 +367,44 @@ the motion is drafted.**
 addressing all four numbered points above, before the occupational-restriction
 argument is finalized for drafting.**
 
+### ADDITIONAL CLIENT POINT — a fortiori strengthening of the Love/Jenkins/Ruff analogy
+
+Client's further point, to be folded into the integrated argument once the
+Track 6 re-examination (above) returns:
+
+1. **The real-world operation here is that Bernecky is being prohibited from
+   working at a job because the job wants to keep its own (business/Fourth
+   Amendment) rights intact** — the employer's own resistance to submitting
+   its systems to government monitoring is the proximate cause of the
+   suspension, not any conduct or condition-text restriction on Bernecky
+   himself.
+2. **A fortiori point on the Love/Jenkins/Ruff line:** those cases found a
+   mandatory *notification* condition (requiring the defendant to tell his
+   employer of the conviction and that it was computer-facilitated) to
+   function as a de facto occupational restriction requiring § 5F1.5
+   findings. Bernecky's own condition does not even contain a notification
+   requirement — he volunteered that disclosure to the employer himself,
+   going further than the condition legally required. If a *mandatory*
+   notification clause is enough to trigger § 5F1.5 in Love/Jenkins/Ruff,
+   then the PO's freestanding, extra-textual demand here — requiring the
+   employer to affirmatively *prove monitoring-capability parity*, a
+   materially more burdensome ask than mere notification, imposed with zero
+   textual basis at all — is at least as strong a candidate for the same
+   treatment, if not stronger.
+3. **Proportionality/nexus point specific to this job:** the contact-lens
+   manufacturer position does not require public internet access at all —
+   the employer already proposed an internal-only account with internet
+   access disabled (see Special Condition (a) employer fact pattern, above).
+   The government's own stated interest behind CIMP (monitoring
+   internet-facilitated risk) has minimal-to-no application to a job that by
+   its nature involves no public internet use, yet Bernecky remains
+   suspended anyway. This sharpens the "no greater deprivation than
+   reasonably necessary" / lack-of-nexus argument independent of the
+   occupational-restriction theory.
+
+**Action: integrate these three points into the final occupational-
+restriction argument once Track 6's re-examination is complete.**
+
 ---
 
 ## Standard Condition 4 — "Answer truthfully"
