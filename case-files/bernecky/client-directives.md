@@ -272,5 +272,43 @@ same underlying delegation problem recurring across multiple conditions.
 
 ---
 
+## Standard Condition 6 — Home visits / plain-view seizure
+
+**Verbatim:** "You must allow the probation officer to visit you at any time at
+your home or elsewhere, and you must permit the probation officer to take any
+items prohibited by the conditions of your supervision that he or she observes
+in plain view."
+
+**Client's argument — employer/third-party-premises problem only (recurring
+theme with Special Condition (a)/CIMP):**
+
+1. **"Or elsewhere" reaching the workplace:** if probation attempts to visit
+   Bernecky at a locked manufacturing plant, the employer may lawfully bar entry
+   under its own security regulations, insurance requirements, or company
+   policy — a constraint entirely outside Bernecky's control and not addressed
+   by the condition's text.
+2. **Plain-view seizure authority presumes possessory control Bernecky doesn't
+   have at a workplace:** the condition obligates Bernecky to "permit" the
+   officer to take prohibited items observed in plain view — but at a location
+   he does not own, lease, or otherwise hold possessory/authority rights in
+   (his employer's plant), he has no legal power to consent to a search or
+   seizure of the premises or others' property in the first place. He cannot
+   "permit" what isn't his to permit.
+
+**Same recurring structural problem as Special Condition (a) theories 1–3:** a
+condition drafted around Bernecky's own home/property is being read (or could be
+read) to reach third-party employer premises/property where neither Bernecky
+nor, derivatively, Probation has any independent authority — the employer's own
+rights and regulatory/contractual obligations are not addressed anywhere in the
+Judgment. Flag for the drafting phase: this may belong in a single consolidated
+argument about the Judgment's general failure to account for third-party
+(especially employer) premises and property across multiple conditions, rather
+than as fully separate arguments per condition.
+
+**Status: argument captured — cross-referenced to the CIMP employer theme
+for possible consolidation at drafting stage.**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — fees, and
 any others as raised.)*
