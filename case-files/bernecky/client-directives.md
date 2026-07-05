@@ -210,5 +210,33 @@ condition.**
 
 ---
 
+## Standard Condition 4 — "Answer truthfully"
+
+**Verbatim:** "You must answer truthfully the questions asked by your probation
+officer."
+
+**Client flag (research, not yet a final position):** condition compels
+truthfulness *if* an answer is given, but does not, on its face, compel that an
+answer be given at all. Client's instinct: this leaves room for a Fifth
+Amendment right to decline to answer in the first instance, unlike the polygraph
+condition (Special Condition (g)), which contains an explicit Fifth Amendment
+savings clause. Client wants this researched before deciding whether to seek
+express clarifying/savings language on this condition too, or to pass.
+
+**Research task:** survey whether an implicit Fifth Amendment privilege survives
+a standard "answer truthfully" condition absent an express savings clause, and
+whether courts read one in regardless. Starting point: *Minnesota v. Murphy*,
+465 U.S. 420 (1984) (probationer's compelled-answer/"penalty situation"
+doctrine) — **[VERIFY citation and current circuit treatment, esp. 2d Cir.]**
+Also check whether the 2016-era AO 245B standard-conditions revision (used in
+this Judgment) was intended to already build in an implicit privilege, or
+whether the absence of express language (contrasted with the polygraph
+condition's express clause) is meaningful.
+
+**Status: flagged for research phase — no client decision yet (not a pass, not
+a final argument).**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — fees, and
 any others as raised.)*
