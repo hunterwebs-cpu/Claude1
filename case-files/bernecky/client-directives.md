@@ -763,5 +763,33 @@ all four conditions, at drafting rather than four separate arguments.**
 
 ---
 
+## Special Condition (i) — General financial disclosure / asset restraint
+
+**Verbatim:** "The defendant shall provide the U.S. Probation Office with
+access to any requested personal and/or business financial information...
+authorized to release pre-sentence and post-sentence financial information...
+for use in the collection of any unpaid fine or restitution. If restitution or
+a fine is owed, the defendant shall notify the U.S. Probation Office of any
+assets received and shall not disburse his interest in any assets... without
+the approval of the U.S. Probation Office."
+
+**Client's argument:** this condition is expressly tied to **collection of
+unpaid fine or restitution.** Client believes Bernecky has **paid the $500
+restitution in full**, meaning there is no longer any unpaid fine or
+restitution for this condition to serve. **Requested relief: vacatur — the
+condition is no longer necessary** once its predicate (an outstanding
+balance) no longer exists.
+
+**[VERIFY BEFORE FILING — confirm actual payment status with documentation:
+BOP Inmate Financial Responsibility Program payment history, court financial
+records, or probation confirmation that the $500 restitution balance is paid
+in full. This is a factual verification task, not a legal research task —
+must be nailed down before asserting it in the motion.]**
+
+**Status: argument captured — contingent on factual confirmation of payment in
+full.**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — any
 others as raised.)*
