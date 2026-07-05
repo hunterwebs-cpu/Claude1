@@ -791,5 +791,35 @@ full.**
 
 ---
 
+## Special Condition (j) — No child pornography (last condition)
+
+**Verbatim:** "The defendant shall not possess or have in his control any
+child pornography."
+
+**Client's disposition:** PASS. Noted as redundant with Mandatory Condition 1
+("must not commit another federal, state or local crime") but client is fine
+with the language remaining as is.
+
+**Status: passed.**
+
+---
+
+# INTERVIEW COMPLETE — 30/30 conditions reviewed
+
+All Mandatory (1–7), Standard (1–13), and Special (a)–(j) conditions have been
+walked one by one. See summary/action-item recap at end of this document.
+
+## Outstanding action items before/during research phase
+1. Pull full text of WDNY standing order re: risk notification (*Boles*) from
+   Drive folder (Standard Condition 12).
+2. Locate and review Probation's "expected conditions" document presented to
+   Bernecky pre-release (referenced re: Standard Condition 12; not yet
+   identified as a distinct file).
+3. Confirm restitution payment-in-full status with documentation (Special
+   Condition (i)).
+4. Verify all case citations flagged `[VERIFY]` throughout this document
+   (Von Behren, Hoffman, Murphy, Reeves, Balon, Charmer Industries, Boles,
+   Leone) before relying on any of them in drafting.
+
 *(Additional conditions to be logged here as the interview proceeds — any
 others as raised.)*
