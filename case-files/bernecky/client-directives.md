@@ -618,5 +618,38 @@ both flagged.**
 
 ---
 
+## Special Condition (d) — Financial monitoring (anti-CP-purchase)
+
+**Verbatim:** "In order to monitor the defendant's compliance with not buying
+or subscribing to online services that provide child pornography, the
+defendant shall provide the U.S. Probation Office with access to any requested
+personal and/or business financial information."
+
+**Client's argument:** Bernecky has **never been alleged to have purchased**
+child pornography — the offense of conviction is possession, not purchase or
+distribution for consideration. A condition granting blanket, standing access
+to all personal/business financial information, premised on monitoring a
+purchasing behavior with no factual basis anywhere in the record, is
+disproportionate to the actual offense conduct. Client would accept a version
+of this condition **cabined by a reasonable-suspicion trigger** — i.e.,
+financial-information access only upon some articulated basis for suspicion,
+rather than unconditional/standing access.
+
+**Research task:** survey the standard for financial-disclosure conditions
+tied to monitoring a specific type of prohibited transaction — is a nexus/
+factual-basis requirement generally imposed, and is a reasonable-suspicion
+gating mechanism (as opposed to blanket standing access) a recognized/accepted
+narrowing in this circuit or others.
+
+**Cross-reference:** likely overlaps with Special Condition (i) (general
+financial-disclosure/asset-restraint condition, tied to restitution
+collection) — same "blanket financial access absent nexus" structural
+problem; consider consolidating at drafting.
+
+**Status: argument captured — research needed before finalizing scope of
+requested relief.**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — fees, and
 any others as raised.)*
