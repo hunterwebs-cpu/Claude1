@@ -238,5 +238,39 @@ a final argument).**
 
 ---
 
+## Standard Condition 5 — Residence approval
+
+**Verbatim:** "You must live at a place approved by the probation officer. If you
+plan to change where you live or anything about your living arrangements (such
+as the people you live with), you must notify the probation officer at least 10
+days before the change..."
+
+**Client's concern (research flag):** ambiguity in what "approved by" actually
+authorizes. Two readings:
+1. A verification-only function — Probation confirms he actually resides at the
+   stated address (administrative/monitoring function), or
+2. A substantive veto — Probation can affirmatively reject a residence choice
+   for reasons untethered to any stated standard, even though client's
+   understanding is that he is otherwise free to live anywhere in the district.
+
+Client's position: if reading (2) is correct, this is potentially an
+**impermissible/standardless delegation** of a judicial function to probation
+absent express statutory or Guidelines direction cabining that discretion — not
+yet a final argument, but flagged for research before deciding whether to seek
+clarifying language.
+
+**Research task:** survey case law on the scope of "residence approved by the
+probation officer" conditions — is it read as location-verification only, or as
+a substantive approval/denial power, and if the latter, what if any standard
+constrains it and what case law limits/permits it as a delegation matter.
+Cross-reference the delegation-doctrine authority already gathered in the Drive
+folder (*Matta*, *Mayhew*, *Kunz* — same doctrinal family flagged for the CIMP
+delegation argument at Special Condition (a)/theory 2) since this may be the
+same underlying delegation problem recurring across multiple conditions.
+
+**Status: flagged for research phase — no final client position yet.**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — fees, and
 any others as raised.)*
