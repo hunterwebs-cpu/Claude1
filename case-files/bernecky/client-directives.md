@@ -651,5 +651,46 @@ requested relief.**
 
 ---
 
+## Special Condition (e) — Sex offender registration / PSR disclosure
+
+**Verbatim:** "The defendant shall register with the state sex offender
+registration agency in any state where the defendant resides, is employed,
+carries on a vocation, or is a student, and shall provide proof of
+registration to the probation officer. The probation office is authorized to
+release the defendant's presentence report to the New York State Board of
+Examiners of Sex Offenders. Further disclosure to the county court and to the
+parties involved in the determination of the defendant's final classification
+level is also authorized."
+
+**Client's argument:**
+
+1. **PSR disclosure outright violates *United States v. Charmer Industries*,
+   711 F.2d 1164 (2d Cir. 1983)** — the controlling Second Circuit standard
+   governing confidentiality of and third-party disclosure standards for
+   presentence reports. This is the same case already cited in the client's
+   own pro se filings in the Drive folder (`jb_courtpack.pdf` and related,
+   re: the January 2026 emergency TRO motion challenging this exact
+   disclosure). **[VERIFY — confirm Charmer Industries' precise holding/
+   standard and whether a blanket, Judgment-level pre-authorization of PSR
+   disclosure to a state licensing/classification board satisfies or
+   violates it.]**
+2. **Registration clause is redundant** — Mandatory Condition 6 already
+   imposes SORNA registration (34 U.S.C. § 20901 et seq.). This special
+   condition's "register with the state sex offender registration agency..."
+   language duplicates that requirement and adds nothing independent (a
+   surplusage/clean-up point, not a rights violation).
+
+**Note:** this dovetails directly with the client's own pending pro se
+emergency motion in the folder (Section 10 of intake) objecting to this exact
+PSR disclosure — that motion and its cited authority (Charmer Industries;
+also *People v. Mingo*, 12 N.Y.3d 563 (2009), cited in `Jeff_Motions.pdf`)
+should be reviewed as part of the research phase rather than researched from
+scratch.
+
+**Status: argument captured — Charmer Industries citation to be verified;
+registration redundancy noted as a drafting clean-up item.**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — fees, and
 any others as raised.)*
