@@ -429,5 +429,60 @@ item.**
 
 ---
 
+## Standard Condition 12 — Risk notification to third parties
+
+**Verbatim:** "If the probation officer determines that you pose a risk to
+another person (including an organization), the probation officer may require
+you to notify the person about the risk and you must comply with that
+instruction. The probation officer may contact the person and confirm that you
+have notified the person about the risk."
+
+**Client's argument:**
+
+1. This condition must be adjusted to conform to the **Second Circuit's
+   decision in *United States v. Boles*** — **[VERIFY citation/holding
+   precisely: candidate is 914 F.3d 95 (2d Cir. 2019); confirm exact procedural
+   requirements Boles imposed on risk-notification conditions before relying
+   on it].**
+2. **W.D.N.Y. has already issued a standing order** addressing risk-
+   notification conditions post-*Boles* — a copy already sits in the Drive
+   folder (`wdny standing order re risk notification boles.pdf`, noted in
+   intake as present in 3 copies). Need to pull its full text once Drive
+   tools are available again.
+3. **Probation's own pre-release "expected conditions" document already
+   presented to Bernecky lists this condition in its pre-*Boles* / unmodified
+   form** — i.e., Probation is not even applying the district's own
+   corrective standing order to Bernecky's case. **[ACTION: locate this
+   "expected conditions" document in the Drive folder — not yet identified in
+   the original intake; may be a separate document from the Judgment. Need a
+   follow-up Drive search/read once tools reconnect.]**
+4. **Substantive problem with the standing order itself, independent of
+   Probation's noncompliance with it:** the standing order provides that the
+   probation officer acts "in consultation with the court" — but establishes
+   **no procedure for Bernecky to participate, be heard, or have counsel
+   involved** before a risk-notification determination is made or acted on.
+   Client's characterization: this recreates the "ancient condemned practice
+   of private tribunals" — a closed-door determination between the officer and
+   the court, outside any adversarial process. Client's position: merely
+   routing the decision through the court does not cure the *Boles* problem if
+   Bernecky has no opportunity to contest the risk determination, or the scope/
+   content of any required notification, before it issues or before it's acted
+   upon by contacting the third party.
+
+**Research task:** (a) confirm *Boles* citation and precise holding/required
+procedure; (b) obtain and analyze the full text of the WDNY standing order
+(already in Drive folder — re-pull once Drive access is back); (c) locate
+Probation's "expected conditions" document referenced by client and compare its
+Condition 12 language against both the Judgment and the standing order; (d)
+assess whether the standing order's "consultation with the court" mechanism, as
+written, satisfies *Boles* given the absence of any defendant participation/
+counsel procedure.
+
+**Status: argument captured; two documents still need to be located/pulled
+(standing order full text, Probation's expected-conditions document) before
+this can be finalized for drafting.**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — fees, and
 any others as raised.)*
