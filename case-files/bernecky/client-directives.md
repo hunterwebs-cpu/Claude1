@@ -407,28 +407,39 @@ restriction argument once Track 6's re-examination is complete.**
 
 ### PROPOSED REMEDY / MODIFICATION LANGUAGE — employer-veto provision
 
-Client's proposed concrete relief for the employer-facing dimension of
-Special Condition (a) (to be offered to the court as the specific modification
-sought, not just an abstract argument):
+**CORRECTION (controlling): this is an EITHER/OR structure, not a cumulative
+one.** The modification should offer two independent, alternative paths to
+compliance — satisfying either one is sufficient; the condition must not
+require both a notification AND a separate employer-permission showing
+stacked together, which would be more burdensome than either the
+Love/Jenkins/Ruff notification-only line of cases or Brown's veto-only
+structure standing alone.
 
-Bernecky would accept a modified condition built around an **express employer
-veto**, modeled on (a) the "as permitted by the employer" structure in
-Brown's own condition, and (b) what has actually already occurred here in
-practice: the employer represented that it can restrict the relevant
-account's public internet access internally, and the employer was notified,
-in whatever level of detail is appropriate, of the nature of Bernecky's
-offense and that it was computer-facilitated.
+**Path 1 — Notification, if Bernecky consents:** if Bernecky voluntarily
+notifies the employer of the nature of the conviction (and, where relevant,
+that it was computer-facilitated), that notification alone satisfies the
+condition — no further employer-permission showing required. **Bernecky has
+already done this in the present case** — he disclosed to the contact lens
+manufacturer employer voluntarily, going beyond anything the condition's text
+required of him.
 
-**The essential protective feature client wants built into the modification
-language:** any employer who is asked to accommodate monitoring must be able
-to see plainly, on the face of the condition itself, that **it is under no
-obligation whatsoever to acquiesce to any demand to search or monitor its own
-systems** — i.e., the condition should make explicit (not leave to
-inference, and not leave to a PO's after-the-fact administration) that an
-employer's refusal to permit monitoring (i) is not a violation by Bernecky,
-(ii) does not itself bar his employment there, and (iii) does not authorize
-Probation to impose a substitute demand (like the "like kind and degree"
-capability-parity requirement) in place of simple permission-or-refusal.
+**Path 2 — Employer veto, independent of notification:** modeled on Brown's
+own "as permitted by the employer" structure — monitoring of employer-owned/
+operated systems is authorized only as/if the employer permits it. If the
+employer does not permit it, that ends the inquiry; no notification is a
+separate precondition to this path working.
+
+**The essential protective feature, applicable to both paths:** the
+condition must make explicit, on its face, that (i) an employer's refusal to
+permit monitoring is not a violation by Bernecky, (ii) does not itself bar
+his employment there, and (iii) does not authorize Probation to impose a
+substitute demand (like the "like kind and degree" capability-parity
+requirement) in place of simple permission-or-refusal under either path.
+
+**Application to Bernecky's actual facts:** he already satisfied Path 1
+(voluntary notification). The argument is that this alone should have been
+sufficient, and the PO's additional demand for capability-parity proof is
+unauthorized surplus regardless of which path the court adopts going forward.
 
 **Action: draft actual proposed modification language along these lines for
 the motion's requested-relief section, once the Track 6 re-examination
