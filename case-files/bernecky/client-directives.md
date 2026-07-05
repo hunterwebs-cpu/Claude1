@@ -401,5 +401,33 @@ narrowing to cohabitation-only.**
 
 ---
 
+## Standard Condition 10 — Weapons
+
+**Verbatim:** "You must not own, possess, or have access to a firearm,
+ammunition, destructive device, or dangerous weapon (i.e., anything that was
+designed, or was modified for, the specific purpose of causing bodily injury or
+death to another person such as nunchakus or tasers)."
+
+**Client's disposition:** pass on firearms/ammunition/destructive
+devices/weapons generally — not contested. **Low-priority research flag only**
+(client's own characterization: "may be academic and not worth pursuing"): does
+the condition's definition of "dangerous weapon" (designed/modified for the
+specific purpose of causing bodily injury or death) reach non-lethal defensive
+items like pepper spray/OC spray, given the documented real-world risk of
+vigilante violence against registered sex offenders? Client wants this
+researched only if low-effort; not a priority track.
+
+**Research task (low priority):** whether pepper spray/OC spray falls within
+"dangerous weapon" as defined in standard supervised-release conditions, and
+whether any court has addressed a self-defense/personal-safety accommodation
+for a supervisee in a documented elevated-threat category. Do not over-invest
+research time here relative to the four priority tracks (occupational/CIMP,
+polygraph, fees, and any others yet to come) unless something surfaces quickly.
+
+**Status: passed on firearms; pepper spray flagged as a minor/optional research
+item.**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — fees, and
 any others as raised.)*
