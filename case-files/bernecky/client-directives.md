@@ -367,6 +367,46 @@ the motion is drafted.**
 addressing all four numbered points above, before the occupational-restriction
 argument is finalized for drafting.**
 
+### CLIENT PUSHBACK ON TRACK 7 — plain-error/precedential-effect question and Brown's actual theory of harm
+
+Two further points raised after Track 7, requiring dedicated re-verification:
+
+1. **Plain-error review and precedential effect.** Client questions whether
+   Brown's occupational-restriction holding can be "precedential" at all,
+   given it was decided on **plain-error review** (Brown did not object to
+   the condition at sentencing). Client's position: plain-error review, by
+   its nature, may not be capable of producing binding precedent on the
+   underlying legal question, and just because part of an opinion is
+   precedential does not make the whole opinion precedential. **Action:
+   research the general federal-appellate doctrine on whether/how a
+   plain-error affirmance's statement of the governing legal rule carries
+   precedential weight for future (including de novo-postured) cases, versus
+   situations where a plain-error panel merely holds an issue was "not
+   plainly wrong" without committing to an affirmative rule — and apply that
+   doctrine specifically to the exact wording of Brown's Part III.B holding.**
+2. **Brown's actual theory of harm was different in kind from Bernecky's.**
+   Client's point: Brown did not frame his challenge as an attack on the
+   monitoring condition itself — he argued the condition functioned as a
+   **de facto employer-notification requirement**, and that being forced to
+   notify was the occupational restriction. Bernecky's situation is
+   different: **Bernecky does not object to notifying his employer at all —
+   he already did so voluntarily, and affirmatively granted the probation
+   officer permission to speak candidly with HR.** Bernecky's actual
+   complaint is not about compelled disclosure; it is about Probation's
+   separate, additional demand that the employer prove monitoring-capability
+   parity as a precondition to his employment continuing, imposed *after*
+   voluntary disclosure already occurred and was accepted by the employer.
+   **Action: re-confirm exactly how Brown's claim was pled (review his
+   appellant brief again for this specific framing), and assess whether
+   Brown's holding — keyed specifically to the "de facto notification"
+   theory — even applies to a claim that isn't about compelled notification
+   at all, potentially taking Bernecky's theory outside Brown's holding's
+   frame entirely, independent of the distinguishing arguments already
+   developed.**
+
+**Action: launch a dedicated re-verification pass addressing both points
+before finalizing the Brown-distinguishing argument.**
+
 ### ADDITIONAL CLIENT POINT — a fortiori strengthening of the Love/Jenkins/Ruff analogy
 
 Client's further point, to be folded into the integrated argument once the
