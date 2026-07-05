@@ -802,6 +802,27 @@ itself when challenged.
 
 **Status: argument captured — case citation needs verification.**
 
+### CORRECTION — Browder belongs here, not at the alcohol clause
+
+Client clarifies a mix-up: the instruction to research *United States v.
+Browder* was intended for **this condition** (Special Condition (b) —
+"follow the rules and regulations of that program"), not for Special
+Condition (h)'s alcohol clause. Browder's actual holding is squarely on
+point here: Browder refused to sign a treatment provider's ("Mid-Erie")
+participant agreement because its own "General Conditions" required him to
+obtain permission before *any* contact with minors, including his own
+children — exceeding the court's actual sentence, which expressly excluded
+his own children from that restriction. The Second Circuit held the
+provider's rule could not be enforced against him: **"Because such a
+requirement... would contradict, rather than execute, Browder's sentence,
+the Probation Office was plainly without power to impose it, as Browder
+correctly argued."** 866 F.3d at 514. This is a closer factual match than
+Matta or Carlineo — it is specifically about a treatment *provider's own
+rules* exceeding a court's order, exactly Bernecky's concern about
+unwritten, unknown provider rules. **Action: integrate Browder as leading
+(or co-leading with Matta) authority for this condition's argument,
+demoting Carlineo further.**
+
 ---
 
 ## Special Condition (c) — Contact with minors / loitering
