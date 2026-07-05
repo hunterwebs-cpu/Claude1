@@ -691,5 +691,77 @@ registration redundancy noted as a drafting clean-up item.**
 
 ---
 
-*(Additional conditions to be logged here as the interview proceeds — fees, and
-any others as raised.)*
+## Special Condition (h) — Mental health treatment
+
+**Verbatim:** "The defendant is to participate in a mental health treatment
+program, including a mental health evaluation and any treatment recommended...
+While in treatment or taking psychotropic medication, the defendant shall
+abstain from the use of alcohol. The defendant is required to contribute to
+the cost of services rendered."
+
+**Client's arguments:**
+
+1. **Alcohol abstinence should be physician-gated, not a blanket court rule:**
+   client is fine with the treatment condition generally, but argues the
+   alcohol-abstinence clause should apply only if/when a treating physician
+   determines alcohol should not be taken (e.g., due to a specific medication
+   interaction) — not as a categorical rule imposed by the court, which is not
+   in a position to make that medical determination independent of an actual
+   physician's judgment.
+2. **"Contribute to the cost of services rendered" needs definition** — see
+   consolidated fee thread below.
+
+**Status: alcohol-abstinence argument captured (physician-gating); cost
+question folded into the cross-cutting fee thread.**
+
+---
+
+## CROSS-CUTTING: Fee Structure ("contribute to the cost" / "pay the cost of
+monitoring services")
+
+Consistent with client's original framing (compounding, undisclosed fee
+responsibilities) and now recurring across every fee-bearing condition, client
+raises the same unresolved questions each time — consolidating here rather
+than re-deriving per condition:
+
+**Conditions carrying a fee obligation:** CIMP monitoring (Special Condition
+(a)), sex-offense treatment (Special Condition (b)), polygraph (Special
+Condition (g)), mental health treatment (Special Condition (h)) — plus the
+10%-of-gross-income restitution garnishment (Sheet 5) as a related but
+separate obligation.
+
+**Client's unresolved questions, applicable across all four:**
+1. Is there any **ability-to-pay/indigency analysis** performed before
+   requiring "contribution," or is the obligation imposed regardless of
+   ability to pay?
+2. Does **insurance** apply first, with the defendant only responsible for
+   any gap, or is he exposed to the full cost regardless of coverage?
+3. **Medicaid interaction:** if Bernecky is Medicaid-eligible, federal/state
+   Medicaid rules generally **prohibit providers from balance-billing
+   Medicaid beneficiaries** beyond permitted cost-sharing for covered
+   services. A condition requiring him to "contribute to the cost of services
+   rendered" could directly conflict with that prohibition if the services are
+   Medicaid-covered — **[VERIFY: confirm Medicaid balance-billing prohibition
+   scope/citation and whether it would actually apply to
+   treatment/polygraph/monitoring services of this kind].**
+4. No dollar figures, rate-setting methodology, or payment procedure are
+   specified anywhere in the Judgment for any of these four conditions (already
+   confirmed at intake — no CIMP program agreement, fee schedule, or billing
+   document exists in the case file).
+
+**Research task:** survey the standard for fee-bearing supervision conditions
+generally — is an ability-to-pay finding constitutionally/statutorily required
+before imposing a "contribute to cost" obligation (cross-reference *United
+States v. Leone*, already gathered in the Drive folder per intake, re:
+ability-to-pay case law), how courts have handled the insurance/Medicaid
+interaction, and whether the total absence of quantification/rate-setting
+procedure across four separate conditions is itself a due process/vagueness
+problem (fair notice of the actual scope of the obligation).
+
+**Status: consolidated fee thread established — will be addressed once, across
+all four conditions, at drafting rather than four separate arguments.**
+
+---
+
+*(Additional conditions to be logged here as the interview proceeds — any
+others as raised.)*
