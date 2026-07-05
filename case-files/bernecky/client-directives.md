@@ -564,5 +564,59 @@ itself when challenged.
 
 ---
 
+## Special Condition (c) — Contact with minors / loitering
+
+**Verbatim:** "The defendant shall not have deliberate contact with any child
+under 18 years of age, excluding his biological or adopted children, unless
+approved by the probation officer or by the Court. The defendant shall not
+loiter within 100 feet of school yards, playgrounds, arcades or other places
+primarily used by children under the age of 18. The Probation Office has the
+discretion to authorize the defendant to pick up his children from school or
+other functions; however, authorization must be obtained in advance from the
+Probation Office or alternatively from the Court."
+
+**Client's argument:**
+
+1. **Family carve-out is illusory and too narrow:** the only exception is for
+   his own biological/adopted children — **which he does not have.** It does
+   not extend to any other family member: cousins, cousins' children, nieces,
+   nephews, etc. As applied, there is effectively no family carve-out at all.
+2. **Familial association rights implicated, no balancing test performed:**
+   this condition burdens the constitutionally protected right to familial
+   association, and the sentencing court never conducted the required
+   balancing analysis before imposing a restriction this broad on family
+   contact.
+3. **No nexus finding:** there is no basis in the record to believe Bernecky
+   poses a physical danger to anyone — no such finding was made.
+4. **Proposed narrower alternative:** client would accept a condition that
+   permits contact with minors when in the presence of an adult with knowledge
+   of his conviction — e.g., his mother, father, or sister, who already know —
+   without requiring advance case-by-case approval. Client's illustrative
+   example: if he's at his mother's house for Christmas and his sister arrives
+   with her kids, he should not have to leave immediately ("evacuate like
+   there's a fire") for lack of prior approval.
+5. **Employability clarification requested — ties to the recurring
+   occupational-restriction theme (see Special Condition (a) and Standard
+   Condition 7 above):** client wants it expressly clarified that this
+   condition creates **no occupational restriction whatsoever.** Ordinary,
+   incidental workplace contact — a coworker who is 17, or a minor customer
+   standing in front of him in the course of his job duties — must not be read
+   as "deliberate contact" requiring pre-approval or removal from the
+   situation.
+
+**Cross-cutting note for drafting:** this is now the **third** condition
+(alongside CIMP/Special Condition (a) and the Standard Condition 7 framing
+note) where an implied occupational restriction keeps surfacing without the
+court ever having performed the § 5F1.5 two-part analysis anywhere in the
+Judgment. Consider a dedicated, consolidated "no condition in this Judgment may
+be read to impose an occupational restriction absent an express § 5F1.5
+finding" argument/section, in addition to addressing each condition
+individually.
+
+**Status: argument captured — family-association and employability angles
+both flagged.**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — fees, and
 any others as raised.)*
