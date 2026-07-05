@@ -130,8 +130,9 @@ separate track — client says "we'll talk more about this," flagged not resolve
    whatsoever," raising access-to-courts and attorney-client privilege concerns
    independent of the offense conduct being supervised.
 
-**Status: condition (a) theories 1–3 (employer/occupational) captured; theories
-4–6 (personal-life) flagged for further discussion before finalizing.**
+**Status: CONDITION (a) CLOSED.** Theories 1–3 (employer/occupational) and 4–6
+(personal-life, incl. keystroke case-law flag and per-device cost sub-theory)
+fully captured. Ready for research phase.
 
 ---
 
