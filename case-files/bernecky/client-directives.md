@@ -445,6 +445,36 @@ Track 6 re-examination (above) returns:
 **Action: integrate these three points into the final occupational-
 restriction argument once Track 6's re-examination is complete.**
 
+### STANDING — client wants ironclad authority that Bernecky may raise the
+ultra vires/no-authority-over-non-party theory at all
+
+Client's concern: the ultra vires theory (Probation's demand on the employer
+exceeds any authority the condition or the court has delegated) needs
+"ironclad authority" establishing that **Bernecky himself has standing to
+raise this claim** — as opposed to it being framed as asserting the
+employer's own rights (which would trigger ordinary third-party-standing
+limits under Article III/prudential doctrine, e.g. the "close relationship
++ hindrance" test). Client's instinct: this should be something a court can
+always address regardless, since it concerns the scope of the court's/
+Probation's own authority over Bernecky's own supervision — but wants this
+confirmed with real authority, not assumed.
+
+**Action: dedicated research task —** (1) confirm/distinguish that this is
+not a third-party-standing problem at all, because Bernecky's own injury
+(lost employment, personal exposure to a violation/revocation risk from an
+unauthorized demand, burden on his own liberty) is direct and personal, not
+derivative of the employer's separate Fourth Amendment interest — i.e., this
+is an ordinary challenge to the scope of authority being exercised over
+Bernecky's own supervision (the same posture as Matta/Kunz/Carlineo/Peterson/
+Browder, none of which required special third-party-standing analysis); (2)
+find case law squarely confirming a supervisee's standing to challenge an
+ultra vires/unauthorized exercise of supervisory authority even where the
+mechanism of that overreach involves a third party or non-party's
+cooperation; (3) as a backstop, research the third-party standing doctrine
+itself (Singleton v. Wulff; Powers v. Ohio; Kowalski v. Tesmer) in case a
+court frames this differently than expected, so the argument is prepared
+either way.
+
 ### PROPOSED REMEDY / MODIFICATION LANGUAGE — employer-veto provision
 
 **CORRECTION (controlling): this is an EITHER/OR structure, not a cumulative
@@ -1022,6 +1052,17 @@ problem (fair notice of the actual scope of the obligation).
 
 **Status: consolidated fee thread established — will be addressed once, across
 all four conditions, at drafting rather than four separate arguments.**
+
+### GAP IDENTIFIED — actual dollar figures for treatment and polygraph costs
+
+Client correctly notes that research to date only produced a real fee
+schedule for **CIMP monitoring** (RemoteCOM: $35/device/month, per
+DRIVE-CATALOG). **No actual dollar figures have been found for sex-offense
+treatment program costs (Special Condition (b)) or polygraph/CVSA testing
+costs (Special Condition (g)).** Without these, the "compounding fee" burden
+across all four conditions cannot be fully quantified. **Action: dedicated
+research task to find typical/actual federal-supervision treatment program
+co-pay figures and polygraph examination costs charged to supervisees.**
 
 ---
 
