@@ -310,5 +310,28 @@ for possible consolidation at drafting stage.**
 
 ---
 
+## Standard Condition 7 — Full-time employment requirement
+
+**Verbatim:** "You must work full time (at least 30 hours per week) at a lawful
+type of employment, unless the probation officer excuses you from doing so..."
+
+**Client's disposition: PASS on the condition itself, but use as rhetorical
+anchor/refrain in drafting.** Client's point: this condition *mandates*
+full-time employment, while the CIMP condition (Special Condition (a)), as
+already being administratively applied through the PO's employer-facing
+demands (see Special Condition (a) log above), is the very thing preventing
+Bernecky from obtaining/keeping that employment — **before supervision has even
+formally started.** This creates an impossible-compliance / Catch-22 structure:
+he is required to work, yet the government's own administration of a different
+condition is the operative obstacle to his working. Use this juxtaposition
+(mandatory-employment condition vs. CIMP-driven de facto occupational bar) as a
+framing device in the motion to demonstrate concrete, non-speculative,
+already-occurring harm — not a hypothetical future problem.
+
+**Status: condition itself passed; flagged as a drafting/framing note tied to
+the Special Condition (a) employer arguments.**
+
+---
+
 *(Additional conditions to be logged here as the interview proceeds — fees, and
 any others as raised.)*
