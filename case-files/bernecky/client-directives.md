@@ -78,6 +78,42 @@ the client before citing it as a quote.
    whether any circuit authority addresses conditions as applied to a
    non-consenting third party's own property/systems.**
 
+### Personal-life theories — expanded (client confirms theories 1–3
+employer/occupational track settled; discussion below continues theories 4–6)
+
+**Keystroke monitoring specifically:** client has a strong objection to
+keystroke-level logging distinct from general computer/internet monitoring, and
+believes case law has limited this specific practice considerably (as opposed
+to monitoring generally, e.g., URL/website-history-level review). **Research
+task: find the case law distinguishing keystroke-level logging from lower-
+intrusion monitoring methods and any limits circuits have placed on keystroke
+logging as a supervision tool.** Starting candidates to check: *United States
+v. Lifshitz*, 369 F.3d 173 (2d Cir. 2004) (already in Drive folder as
+`United States v. Lifshitz_ Warrantless Computer Monitoring and th.pdf`) —
+**[VERIFY whether Lifshitz itself addresses keystroke logging specifically or
+only monitoring/search generally, and find any more targeted authority].**
+
+**Per-device cost structure — new sub-theory:** the CIMP condition's "pay the
+cost of monitoring services" is charged **per device**, not as a flat fee. This
+has two compounding problems:
+1. **Financial impossibility of full compliance:** with monitoring costs
+   multiplying per device (phone, computer, television, etc.), full compliance
+   across every qualifying device in an ordinary household is not
+   realistically affordable — forcing Bernecky into an artificial choice of
+   which single device to monitor/keep and which to forgo, which is not what
+   the condition contemplates on its face (it does not say "choose one").
+2. **Does not address IoT devices at all:** smart/connected devices (the
+   client's earlier example: a networked refrigerator) may fall within
+   "connected device" by the condition's broad text, but there may be no
+   commercially available CIMP-compatible monitoring software for such
+   devices — making compliance not just expensive but technically impossible
+   for a growing category of ordinary consumer electronics.
+
+**Cross-reference:** this per-device cost problem is a CIMP-specific instance
+of the broader fee-transparency/undisclosed-cost problem already flagged for
+the fee group generally (see Section 8(d) of the original intake) — tie
+together at drafting.
+
 ### Theories identified so far (personal-life application — same condition,
 separate track — client says "we'll talk more about this," flagged not resolved)
 4. **Vagueness/overbreadth of "operated by the defendant"** as applied to
