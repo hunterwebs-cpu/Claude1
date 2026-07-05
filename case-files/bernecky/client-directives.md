@@ -317,6 +317,56 @@ these must control the next research pass:**
 required, built around these seven points, before the polygraph section of
 the motion is drafted.**
 
+### CLIENT PUSHBACK ON TRACK 6 (Brown/Love) — controlling corrections
+
+1. **Jurisdiction correction:** Bernecky is **W.D.N.Y., not N.D.N.Y.** — client
+   confirms the earlier "N.D.N.Y." reference was their own misstatement; the
+   polygraph blog PDF is, as confirmed, the SDNY/EDNY Federal Defenders piece.
+   No further search for N.D.N.Y.-specific guidance is needed — it was never
+   actually applicable to begin with.
+2. **Carlineo may not fit well for Special Condition (b).** Client finds
+   Carlineo "wildly distinguished" and is skeptical it applies. Carlineo's
+   vice was a *totally undefined* program ("Partners in Restorative
+   Initiatives") that no one — not even the sentencing court — could describe
+   in any concrete terms. Bernecky's condition names a real, recognized
+   program *category* ("sex offense-specific treatment") with established
+   professional content; only the specific provider's rules are undefined.
+   This is a meaningfully different vice than Carlineo's. **Action: reassess
+   whether Carlineo is the right fit, or whether a different/refined
+   delegation theory is needed for Special Condition (b).**
+3. **The "as permitted by the employer" clause in Brown's condition is
+   significant and was underused in Track 6's analysis.** Client's point:
+   this language means Brown's own condition already gives the employer a
+   built-in veto — the employer can simply decline permission, and the
+   condition's own text accommodates that refusal. This is a real textual
+   distinction from Bernecky's situation, where no such consent-gate exists
+   in the condition at all, yet the PO is demanding the employer prove
+   monitoring-capability parity as a precondition to employment proceeding.
+   **Action: build this into an affirmative distinguishing point.**
+4. **Client disputes that Brown's § 5F1.5 holding is a true "categorical
+   rule" independent of facts, and questions whether it was substantively
+   analyzed at all ("summarily dealt with") — also questions whether a
+   summarily-treated portion of an otherwise-published opinion carries full
+   precedential weight.** Action: re-read the actual § 5F1.5 passage in full,
+   assess its length/depth and whether it references Brown's individual
+   facts, and address the precedential-weight question directly (published
+   2d Cir. opinions are precedential in full regardless of brevity of any one
+   section's discussion — but the brevity may still matter for how narrowly
+   the holding should be read/argued).
+5. **Client believes Brown's appellate counsel's Rule 28(j) letter comparing
+   the case to Love was weak and "got the comparison wrong."** Client does
+   not want our motion's Love argument to lean on "even Brown's own counsel
+   flagged Love and the panel ignored it" as if that proves the point — if
+   counsel's own comparison was flawed, the panel's silence proves less than
+   Track 6 suggested. **Action: build an independent, better Love-Bernecky
+   comparison from scratch, not derivative of appellate counsel's framing,
+   and separately assess/report what specifically was weak about counsel's
+   version.**
+
+**Action: a follow-up verification/refinement pass on Track 6 is required,
+addressing all four numbered points above, before the occupational-restriction
+argument is finalized for drafting.**
+
 ---
 
 ## Standard Condition 4 — "Answer truthfully"
