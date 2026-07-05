@@ -405,6 +405,35 @@ Track 6 re-examination (above) returns:
 **Action: integrate these three points into the final occupational-
 restriction argument once Track 6's re-examination is complete.**
 
+### PROPOSED REMEDY / MODIFICATION LANGUAGE — employer-veto provision
+
+Client's proposed concrete relief for the employer-facing dimension of
+Special Condition (a) (to be offered to the court as the specific modification
+sought, not just an abstract argument):
+
+Bernecky would accept a modified condition built around an **express employer
+veto**, modeled on (a) the "as permitted by the employer" structure in
+Brown's own condition, and (b) what has actually already occurred here in
+practice: the employer represented that it can restrict the relevant
+account's public internet access internally, and the employer was notified,
+in whatever level of detail is appropriate, of the nature of Bernecky's
+offense and that it was computer-facilitated.
+
+**The essential protective feature client wants built into the modification
+language:** any employer who is asked to accommodate monitoring must be able
+to see plainly, on the face of the condition itself, that **it is under no
+obligation whatsoever to acquiesce to any demand to search or monitor its own
+systems** — i.e., the condition should make explicit (not leave to
+inference, and not leave to a PO's after-the-fact administration) that an
+employer's refusal to permit monitoring (i) is not a violation by Bernecky,
+(ii) does not itself bar his employment there, and (iii) does not authorize
+Probation to impose a substitute demand (like the "like kind and degree"
+capability-parity requirement) in place of simple permission-or-refusal.
+
+**Action: draft actual proposed modification language along these lines for
+the motion's requested-relief section, once the Track 6 re-examination
+returns and the final argument structure is settled.**
+
 ---
 
 ## Standard Condition 4 — "Answer truthfully"
