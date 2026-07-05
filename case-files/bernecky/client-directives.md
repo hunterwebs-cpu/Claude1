@@ -99,5 +99,116 @@ separate track — client says "we'll talk more about this," flagged not resolve
 
 ---
 
-*(Additional conditions to be logged here as the interview proceeds — polygraph,
-fees, and any others as raised.)*
+## Special Condition (g) — Polygraph / CVSA
+
+**Verbatim (Sheet 3B):** "The defendant shall submit to polygraph, computerized
+voice stress analyzer or other such testing, not to exceed twice in a calendar
+year, and an additional two re-tests per year, as needed... The defendant shall
+answer the questions posed during the examination, subject to the defendant's
+right to challenge in a court of law the use of such statements as violations of
+the defendant's Fifth Amendment rights. In this regard, the defendant shall be
+deemed not to have waived the defendant's Fifth Amendment rights by making any
+such statements... The defendant is required to contribute to the cost of
+services rendered."
+
+The Judgment's own model is **"answer now, invoke/challenge later"** — answer at
+the exam, preserve a later court challenge to use of the statement. Client's
+position: this does not satisfy the Fifth Amendment, which requires the ability
+to invoke *before* answering, not simply to complain about it afterward.
+
+### Client's requested relief — categorical invocation pending four protections
+
+Client is **categorically invoking the Fifth Amendment right to remain silent as
+to any polygraph/quasi-scientific exam question**, until and unless each of the
+following is in place:
+
+**(I)** Appointed counsel to represent him before, during, and after all
+polygraph or other quasi-scientific exams.
+
+**(II)** Counsel given ample time, per question, to research and form a legal
+opinion on whether invocation is justified as to that specific question — client's
+rationale: whether the Fifth Amendment privilege applies to a given question is a
+**pure question of law**, which a layman cannot be expected to correctly determine
+in real time during an exam.
+
+**(III)** The credentials of any polygraph examiner proven to a degree counsel
+deems sufficient to support a **Daubert challenge/analysis**.
+
+**(IV)** A prohibition on disclosure of any polygraph-derived information by the
+examiner, any treatment provider, or probation to anyone (e.g., local police
+agencies, mandatory-reporting agencies) without leave of court.
+
+### Legal grounding cited by client
+- **10th Circuit, *United States v. Von Behren*** — cited by client as the source
+  of this framework; contrasted favorably against the **2nd Circuit's "answer
+  now, invoke later" approach** (which the client says fails to satisfy the Fifth
+  Amendment). **[VERIFY BEFORE FILING: full citation, holding, and precise scope
+  of what Von Behren required.]**
+- Supreme Court authority (client's characterization, to verify): the Fifth
+  Amendment protects not only statements that directly confess a crime, but any
+  answer that could furnish a **"link in the chain of evidence"** needed to
+  prosecute — likely referencing *Hoffman v. United States*, 341 U.S. 479 (1951).
+  **[VERIFY]**
+- Client's practical point: polygraph exams can and do elicit **propensity
+  evidence**; a federal court has no power to suppress use of such evidence in a
+  **state court** proceeding, and "you can't unring a bell" once disclosed —
+  argues for prophylactic protection on the front end rather than a post hoc
+  suppression remedy.
+- Client states the **Federal Defender's office for the N.D.N.Y.**, post-*Von
+  Behren*, explicitly advises defendants to demand counsel and invoke across the
+  board on polygraph conditions. **[VERIFY — locate this guidance if it exists;
+  may be a practice advisory, not a filed document.]**
+- Folder already contains two directly relevant pre-gathered research documents:
+  `Constitutional Challenge to Polygraph Condition.pdf` and `Polygraph Immunity
+  and Counsel Rights.pdf` — starting point for the research subagent, not a
+  substitute for independent verification.
+
+### CVSA-specific theory
+- **CVSA (computerized voice stress analyzer) is junk science** — client's
+  position is that CVSA should be challenged/excluded as unreliable outright,
+  independent of the procedural protections sought for polygraph generally.
+  (Note: protection (III) above — Daubert-level credential proof — and the
+  general Daubert-challenge framing already reach CVSA as one of the "quasi
+  scientific exams" covered by (I)–(IV), but client is also flagging CVSA as
+  weaker/more vulnerable to a standalone reliability challenge than polygraph.)
+
+### No-nexus / merits theory (independent of the procedural-protection framework)
+- Client's separate, independent argument: **there is no indication whatsoever
+  that this defendant is a liar** — he has never been accused of lying (in
+  treatment, in supervision, or otherwise).
+- Client's point on the origin/purpose of polygraph conditions: their stated
+  purpose is largely to verify truthfulness in sex-offense treatment. But the
+  **first principle of treatment** — mental health or medical — is that "the
+  patient is to be believed until proven otherwise." A condition premised on
+  presumed dishonesty, absent any actual instance of dishonesty, lacks the
+  factual nexus required to justify it as "reasonably related" and not a
+  greater deprivation than necessary under § 3583(d).
+
+### Client's stated strategy
+Client has "no illusion" that probation/the court will agree to eliminate the
+polygraph condition outright. The strategic goal in requesting protections
+(I)–(IV) is to make compliance so procedurally burdensome that the practical
+effect is abandonment of the condition — i.e., the procedural-protections
+request is intentionally maximalist/a pressure tactic, filed alongside (not
+instead of) the independent no-nexus merits argument for elimination.
+
+### Cost issue (polygraph-specific; cross-reference fee group (d) below)
+Client raises unresolved questions about the polygraph "contribute to the cost
+of services rendered" language:
+- What are these costs in dollar terms?
+- Who sets the rate — probation's unilateral discretion, or a "prevailing rate"
+  standard?
+- What happens if the defendant cannot pay?
+No answers to any of these appear in the Judgment or elsewhere in the file
+(consistent with the broader fee-transparency gap already flagged in intake).
+
+**Status: polygraph condition (g) theories fully captured — procedural-protection
+framework (I–IV) + Von Behren/link-in-the-chain grounding, CVSA-specific
+reliability challenge, no-nexus merits argument, and cost/ability-to-pay issue.
+Awaiting client sign-off on any additional angles before moving to next
+condition.**
+
+---
+
+*(Additional conditions to be logged here as the interview proceeds — fees, and
+any others as raised.)*
