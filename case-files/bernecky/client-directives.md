@@ -239,11 +239,10 @@ of services rendered" language:
 No answers to any of these appear in the Judgment or elsewhere in the file
 (consistent with the broader fee-transparency gap already flagged in intake).
 
-**Status: polygraph condition (g) theories fully captured — procedural-protection
-framework (I–IV) + Von Behren/link-in-the-chain grounding, CVSA-specific
-reliability challenge, no-nexus merits argument, and cost/ability-to-pay issue.
-Awaiting client sign-off on any additional angles before moving to next
-condition.**
+**Status: CONDITION (g) CLOSED.** Procedural-protection framework (I–IV) +
+Von Behren/link-in-the-chain grounding, CVSA-specific reliability challenge,
+no-nexus merits argument, and cost/ability-to-pay issue all fully captured.
+Ready for research phase.
 
 ---
 
