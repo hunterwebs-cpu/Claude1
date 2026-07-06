@@ -5,7 +5,7 @@
 
 | # | Condition | Client's theory (brief) | Research status | Covered in | Remaining gap |
 |---|---|---|---|---|---|
-| 1 | Standard 4 — "answer truthfully" | Implicit Fifth Amendment privilege despite no express savings clause | **DONE** | part2, part2b, part5 (Murphy confirmed via secondary source; Johnson fully verified primary) | Murphy/Hoffman not independently read as standalone opinions — not in Cases folder. Low risk (both are bedrock SCOTUS, widely/consistently corroborated) but ideally add to Cases folder or confirm via your own Westlaw access. |
+| 1 | Standard 4 — "answer truthfully" | Implicit Fifth Amendment privilege despite no express savings clause | **DONE** | part2, part2b, part5, **now also confirmed via full primary-source read of *Murphy* itself (2026-07-06 — see note below)** | Hoffman still not independently read as a standalone opinion. Murphy is now fully confirmed primary-source. |
 | 2 | Standard 5 — residence approval | Standardless veto vs. verification-only function; delegation | **DONE** | part1 | No case found squarely on point — argued from Matta/Kunz delegation framework by analogy. Honest gap, not a research shortfall; unlikely more searching finds a direct hit. |
 | 3 | Standard 6 — employer premises/plain-view | No possessory authority to "permit" search at employer's workplace | **DONE** | part1 | No case found directly on point — built from first principles + Georgia v. Randolph analogy (Randolph itself not independently verified — not in Cases folder). |
 | 4 | Standard 8 — no communication with felons | Multi-ground: housing conflict, treatment conflict, workplace, 1st Amendment, overbreadth-by-numbers | **DONE** | part4 | Reeves corrected (not a felon-association case). No case found distinguishing "communication" from "association" bans — genuine circuit gap, confirmed by two separate search passes. The ~20% statistic still needs a real BJS/Sentencing Project citation. |
@@ -16,7 +16,61 @@
 | 9 | Special (c) — contact with minors (family + employability) | Illusory family carve-out, no balancing test, no-nexus; employability clarification | **DONE** | part4, part1 (employability), part8 (independent Myers/Bleau/Dupes/Moore/Troxel/Peterson/DaSilva research) | Myers confirmed as strongest fit (same district, heightened scrutiny, individualized-findings requirement). Bleau confirmed but flags Bernecky's recidivist record as a real distinguishing fact from Bleau's clean record. Dupes confirmed NOT to support the family carve-out (only the loitering clause's specificity). New find: DaSilva (1st Cir., persuasive) confirms the "knowledgeable adult" carve-out is a real, accepted condition structure elsewhere. |
 | 10 | Special (d) — financial monitoring nexus | Never alleged to purchase CP; wants reasonable-suspicion gating | **DONE** | part3 | *Leone* (the case originally cited for this) could not be located or verified at all — either drop it or pull it from Westlaw/PACER yourself. Fallback argument (internal consistency with Special Condition (a)'s own suspicion-gated structure) is solid and doesn't depend on Leone. |
 | 11 | Special (e) — Charmer Industries / PSR disclosure | Blanket PSR disclosure violates *Charmer*; registration clause redundant | **DONE** | part4, part5 (Charmer verified in full primary text) | None significant — this is one of the strongest, most fully-verified arguments in the file. |
-| 12 | Special (g) — polygraph (4-part framework) | Categorical invocation, Von Behren/Murphy, CVSA junk science, no-nexus, cost | **DONE** | part2, part2b, part5 (Johnson fully verified primary) | Von Behren and Murphy still not independently read as standalone opinions (not in Cases folder) — same recommendation as #1. This is otherwise the single most thoroughly researched condition in the file. |
+| 12 | Special (g) — polygraph (4-part framework) | Categorical invocation, Von Behren/Murphy, CVSA junk science, no-nexus, cost | **DONE** | part2, part2b, part5, **Von Behren and Murphy now both fully confirmed primary-source (2026-07-06)** | No remaining verification gap on these two. This is the single most thoroughly researched condition in the file. |
+
+### SUPPLEMENTAL VERIFICATION (2026-07-06) — Von Behren and Murphy read in full
+
+You flagged that both cases had actually been uploaded to the Drive Cases
+folder (7/5, after the original research passes ran) — my prior notes
+calling them "not independently read/not in Cases folder" were stale. Both
+now read in full directly:
+
+- ***United States v. Von Behren***, 822 F.3d 1139 (10th Cir. 2016) — the
+  actual holding is **stronger and more directly applicable** than earlier
+  passes credited it: applying Murphy's "classic penalty situation"
+  doctrine squarely to a supervised-release sex-offender-treatment
+  polygraph, the panel held the government's threat to seek remand to
+  prison for refusing incriminating sexual-history questions **was**
+  unconstitutional compulsion — a real, on-point (if out-of-circuit)
+  holding, not just an illustrative gloss on Murphy.
+- **Confirmed limiting principle (footnote 9 — important, not previously
+  flagged this precisely):** Von Behren itself says the outcome would be
+  different if the question were "relevant only to... supervised release
+  status (such as whether he had looked at pornographic material)," or
+  didn't risk incrimination, or if immunity were given. Bernecky's own
+  Judgment condition already contains a savings clause (preserved right to
+  challenge use of the statement later; no waiver). **This needs to be
+  addressed directly in drafting** — Von Behren's facts involved a bare
+  refusal-to-answer with a straight revocation threat and no savings clause
+  at all, so it doesn't resolve whether Bernecky's Judgment's "answer now,
+  challenge use later" structure is itself sufficient, which is exactly the
+  client's own contested point (see the Track 2 pushback in
+  client-directives.md) — Von Behren is illustrative of the doctrine, not
+  a case deciding that exact question.
+- **Confirmed (as before): Von Behren does not address counsel-for-
+  invocation, per-question research time, Daubert credentialing, or a
+  disclosure prohibition** — the client's (I)-(IV) framework remains
+  Bernecky's own construction, not attributable to Von Behren as precedent.
+- **New cross-reference find:** Von Behren distinguishes *McKune v. Lile*,
+  536 U.S. 24 (2002) (via Justice O'Connor's controlling concurrence) on
+  the ground that *McKune*'s privilege-reduction penalties arose in the
+  **prison** context, whereas *Murphy*'s revocation-of-conditional-liberty
+  framework governs the **probation/supervised-release** context —
+  different in kind. **Useful cross-reference for Track 20's discussion of
+  *McKune* as adverse-flavored authority** on the freedom-of-thought theory
+  — Von Behren shows *McKune*'s force is already limited outside the prison
+  setting by this same circuit's own reasoning (persuasive, not binding).
+- ***Minnesota v. Murphy***, 465 U.S. 420 (1984) — the "classic penalty
+  situation" quote (465 U.S. at 435) is now confirmed word-for-word
+  against the primary text. Confirmed: Murphy lost because he never
+  invoked the privilege and the Court found no express-or-implied threat
+  of revocation for invoking it — the Judgment's own condition here
+  (explicit truthfulness requirement backed by a revocation threat) is
+  distinguishable on the facts Murphy itself flags as the two poles.
+
+**Action: update client-directives.md's Special Condition (g) section and
+MASTER-OUTLINE.md's polygraph section (E) to reflect this — done, see
+below.**
 | 13 | Special (h) — mental health treatment (alcohol abstinence) | Alcohol abstinence should be physician-gated, not a blanket court rule | **DONE** | part3 (fees), part9 (independent Betts/Browder/Rodriguez research) | Betts confirmed real and on point (vacates a total alcohol ban for lack of nexus). Browder corrected: it's a delegation case, not an individualized/medical-predicate case — doesn't support physician-gating directly, though it does show this exact clause is a district-wide template, not a Bernecky-specific finding. New textual argument found: the "or taking psychotropic medication" disjunct sweeps in talk-therapy-only situations with no interaction rationale at all. Physician-gating itself isn't case-compelled — framed as the sensible proposed remedy, not a mandated one. |
 | 14 | Special (i) — vacatur (restitution paid) | No longer necessary since restitution paid in full | **DONE**, pending fact confirmation | part3 (*Lussier* confirmed — no changed-circumstances showing required) | Legal standard is solid. Still need **your** confirmation that the $500 restitution is actually paid in full (BOP/court records) — that's a factual task, not a research one. |
 | — | Cross-cutting fee thread (a, b, g, h) | Ability-to-pay, insurance/Medicaid sequencing, no dollar figures anywhere | **DONE** | part3, DRIVE-CATALOG (real RemoteCOM fee schedule: $35/device/month found) | Strong. Only *Leone* remains unconfirmed (see #10). |

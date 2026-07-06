@@ -503,11 +503,16 @@ THE COURT'S ORDER (Special Condition (b) — ~2.5 pages)
    after; ample per-question time to research privilege; examiner
    credentials sufficient for a Daubert challenge; no disclosure of
    polygraph-derived information without leave of court.
-2. **Doctrinal grounding:** ***Minnesota v. Murphy***, 465 U.S. 420 (1984)
-   ("classic penalty situation" doctrine — note Murphy himself lost; no
-   penalty situation was found on his facts, so draft to show Bernecky's
-   Judgment crosses the line Murphy found absent). ***Hoffman v. United
-   States***, 341 U.S. 479, 486 (1951) ("link in the chain of evidence").
+2. **Doctrinal grounding (both now confirmed via full primary-source read,
+   2026-07-06 — see CITATIONS-TO-VERIFY.md items 4-5):** ***Minnesota v.
+   Murphy***, 465 U.S. 420, 435 (1984) ("classic penalty situation"
+   doctrine, quote confirmed word-for-word — note Murphy himself lost; his
+   own condition "said nothing about his freedom to decline to answer" and
+   no express-or-implied revocation threat for invoking the privilege was
+   found on his facts; draft to show Bernecky's Judgment — an explicit
+   truthfulness requirement backed by an actual revocation threat — crosses
+   the line Murphy found absent). ***Hoffman v. United States***, 341 U.S.
+   479, 486 (1951) ("link in the chain of evidence").
 3. **Distinguish *United States v. Johnson*, 446 F.3d 272 (2d Cir. 2006),
    on three independent grounds (per client's corrected pushback):** (a)
    Johnson never addressed the right-to-counsel-for-invocation question —
@@ -517,13 +522,31 @@ THE COURT'S ORDER (Special Condition (b) — ~2.5 pages)
    answering-then-challenging as Johnson's defendant did; (c) Johnson's
    actual scope, read directly, is narrower than a comprehensive resolution
    of every Fifth Amendment question a polygraph condition can raise.
-4. ***United States v. Von Behren***, 822 F.3d 1139 (10th Cir. 2016) — cite
-   as the **illustrative application of Murphy's doctrine**, not for a
-   specific holding on counsel/research-time/Daubert/disclosure (confirmed:
-   Von Behren's actual holding is narrower — real incrimination risk +
-   revocation threat = unconstitutional compulsion on its own facts; the
-   (I)-(IV) framework is Bernecky's own construction, not attributable to
-   Von Behren as precedent).
+4. ***United States v. Von Behren***, 822 F.3d 1139 (10th Cir. 2016) —
+   **stronger than previously credited, now confirmed via full primary-
+   source read.** Applying Murphy's doctrine squarely to a supervised-
+   release sex-offender polygraph, the panel held the government's threat
+   to seek remand to prison for refusing incriminating sexual-history
+   questions **was** unconstitutional compulsion — real, on-point
+   (out-of-circuit) authority, not merely illustrative gloss. **Confirmed
+   limiting principle to address directly (Von Behren fn. 9):** the result
+   would differ if the question were relevant only to supervised-release
+   status, didn't risk incrimination, or immunity were given — Bernecky's
+   own Judgment already contains a savings clause (preserved right to
+   challenge use later; no waiver), so this footnote must be confronted:
+   Von Behren's facts (bare refusal, no savings clause at all) don't
+   themselves resolve whether Bernecky's "answer now, challenge use later"
+   structure is sufficient — that is the client's own separately-argued
+   point (paragraph 3, above; Johnson-distinguishing). **Still confirmed:
+   Von Behren does not address counsel-for-invocation, per-question
+   research time, Daubert credentialing, or a disclosure prohibition** —
+   the (I)-(IV) framework remains Bernecky's own construction, not
+   attributable to Von Behren as precedent. **New cross-reference:** Von
+   Behren distinguishes *McKune v. Lile*, 536 U.S. 24 (2002), as governing
+   only the prison context (privilege-reduction penalties), not probation/
+   supervised release (revocation-of-conditional-liberty) — useful,
+   already-in-hand authority to blunt McKune's adverse use in Section C's
+   Track 20 discussion.
 5. **CVSA-specific:** independent reliability/Daubert challenge, folded into
    protection (III) above rather than argued as a wholly separate point.
 6. **No-nexus merits argument:** no basis in the record that Bernecky has
@@ -727,10 +750,10 @@ verified reporter/statute text) unless flagged [VERIFY]:*
 - United States v. DaSilva, 844 F.3d 8 (1st Cir. 2016)
 - Moore v. City of East Cleveland, 431 U.S. 494 (1977)
 - Troxel v. Granville, 530 U.S. 57 (2000)
-- Minnesota v. Murphy, 465 U.S. 420 (1984)
-- Hoffman v. United States, 341 U.S. 479 (1951)
+- Minnesota v. Murphy, 465 U.S. 420, 435 (1984) [confirmed, read in full 2026-07-06]
+- Hoffman v. United States, 341 U.S. 479, 486 (1951) [confirmed via Von Behren's own quotation; Hoffman itself not independently read as a standalone opinion]
 - United States v. Johnson, 446 F.3d 272 (2d Cir. 2006)
-- United States v. Von Behren, 822 F.3d 1139 (10th Cir. 2016)
+- United States v. Von Behren, 822 F.3d 1139 (10th Cir. 2016) [confirmed, read in full 2026-07-06]
 - United States v. Charmer Indus., Inc., 711 F.2d 1164 (2d Cir. 1983)
 - United States v. Betts, 886 F.3d 198 (2d Cir. 2018)
 - United States v. Reeves, 591 F.3d 77 (2d Cir. 2010)
@@ -743,7 +766,7 @@ verified reporter/statute text) unless flagged [VERIFY]:*
 - Osborne v. Ohio, 495 U.S. 103 (1990) [VERIFY — WebSearch-sourced this session]
 - Stanley v. Georgia, 394 U.S. 557 (1969) [VERIFY]
 - West Virginia State Bd. of Educ. v. Barnette, 319 U.S. 624 (1943) [VERIFY]
-- McKune v. Lile, 536 U.S. 24 (2002) [VERIFY] (adverse-flavored — do not cite affirmatively; know it for the government's likely response)
+- McKune v. Lile, 536 U.S. 24 (2002) [VERIFY as to Track 20/freedom-of-thought use — but note it is now confirmed, via Von Behren's own primary text, that Von Behren itself distinguishes McKune as prison-context-only; useful to blunt its adverse force, cite Von Behren for that distinction rather than researching McKune fresh]
 - Chiles v. Salazar, 607 U.S. ___ (2026) [VERIFY — very recent; pull slip opinion]
 - Burns v. Martuscello, 890 F.3d 77 (2d Cir. 2018) [VERIFY]
 - 18 U.S.C. § 3603

@@ -660,6 +660,42 @@ these must control the next research pass:**
 required, built around these seven points, before the polygraph section of
 the motion is drafted.**
 
+### SUPPLEMENTAL VERIFICATION (2026-07-06) — Von Behren and Murphy read in
+full (client caught a stale note — both were actually uploaded to the Drive
+folder on 7/5, after the original research passes ran)
+
+Both now confirmed via direct, full-text primary-source read:
+
+- ***Von Behren***'s actual holding is stronger than earlier passes
+  credited: applying Murphy's "classic penalty situation" doctrine to a
+  supervised-release sex-offender polygraph, the panel held the
+  government's threat to seek remand to prison for refusing incriminating
+  sexual-history questions **was** unconstitutional compulsion — real,
+  on-point (out-of-circuit) authority, not merely an illustrative gloss.
+- **Important limiting principle, confirmed (Von Behren fn. 9), needs to be
+  addressed head-on in drafting:** the result would differ if the question
+  were relevant only to supervised-release status, didn't risk
+  incrimination, or immunity were given. Bernecky's own Judgment already
+  has a savings clause (preserved right to challenge use later; no
+  waiver) — Von Behren's facts (bare refusal, no savings clause at all)
+  don't themselves resolve whether that "answer now, challenge use later"
+  structure is sufficient. That remains exactly the client's own separately
+  -argued point above (paragraph 4 — the Johnson-distinguishing argument),
+  not something Von Behren answers for us.
+- Confirmed, as before: Von Behren does not address counsel-for-invocation,
+  per-question research time, Daubert credentialing, or a disclosure
+  prohibition — the (I)-(IV) framework remains Bernecky's own construction.
+- **New, useful cross-reference:** Von Behren distinguishes *McKune v.
+  Lile*, 536 U.S. 24 (2002) (via Justice O'Connor's controlling
+  concurrence), as governing only the prison context — not probation/
+  supervised release. Useful to blunt McKune's adverse use in the Track 20
+  (freedom-of-thought) discussion under Special Condition (b).
+- ***Murphy***'s "classic penalty situation" quote (465 U.S. at 435) is now
+  confirmed word-for-word.
+
+**Action: MASTER-OUTLINE.md's polygraph section and citation list updated
+accordingly.**
+
 ### CLIENT PUSHBACK ON TRACK 6 (Brown/Love) — controlling corrections
 
 1. **Jurisdiction correction:** Bernecky is **W.D.N.Y., not N.D.N.Y.** — client
