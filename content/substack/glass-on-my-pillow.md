@@ -4,10 +4,6 @@ subtitle: "Fort Dix houses 4,100 people. The Bureau cannot close it."
 column: "Surviving the Feds: Dispatches from the Inside"
 ---
 
-I Fixed My Own Broken Window While the BOP Jackhammered Sidewalks That Were Perfectly Fine
-
-Fort Dix houses 4,100 people. The Bureau cannot close it.
-
 By Bilal Khan
 *Surviving the Feds: Dispatches from the Inside*
 
