@@ -727,6 +727,61 @@ to be supplemented with these two points if not already covered by its
 original scope; a follow-up pass on § 3006A specifically is being launched
 separately since the original Track 21 prompt did not include it.**
 
+### TRACK 21 RESULT — counsel presence for real-time privilege calls:
+your instinct that this is unprecedented was correct, but there's real
+adverse authority to confront, and a clear safe path forward
+
+**Bottom line: no federal case anywhere grants, or was even squarely asked
+to grant, counsel's physical presence during a probation/supervised-release
+polygraph for real-time privilege calls — but the one genuinely on-point
+case found is adverse and must be confronted, not left for the government
+to surface first.**
+
+- ***J.B. v. New Jersey State Parole Board*** (N.J. 2017) — a parolee's
+  claim to counsel's presence during a sex-offender polygraph was rejected:
+  the exam is a "routine interview," not custodial, so no Miranda-derived
+  right attaches. State law, not binding — but exactly the collision the
+  Murphy custodial/non-custodial line predicts, and the government will
+  likely find and cite this if we don't get there first.
+- **The good news: Bernecky's actual theory (privilege determinations are a
+  "pure question of law" a layperson can't reliably apply in real time) is
+  not a Miranda/custodial theory at all** — it doesn't depend on the exam
+  being "custodial," so it sidesteps the Murphy/*J.B.* collision entirely
+  rather than needing to win it.
+- **New, non-AI-generated, citable support for the underlying premise:**
+  the Guide to Judiciary Policy, Vol. 8E § 190.45, already directs a
+  probation officer facing an uncertain invocation to **refer the question
+  to the court** rather than decide it unilaterally — i.e., federal
+  supervision policy already treats this determination as too legally
+  delicate for a layperson (the officer) to resolve alone. Short step from
+  there to "the defendant shouldn't have to decide this alone either."
+- **Three real analogies, none controlling:** the grand jury "step outside
+  to consult counsel" practice (constitutionally unresolved per
+  *Mandujano*, but an accepted practical model); Fed. R. Crim. P. 32
+  PSR-interview practice and *United States v. Herrera-Figueroa*, 918 F.2d
+  1430 (9th Cir. 1990) (counsel's presence required via the court's
+  supervisory power, expressly NOT decided as a critical-stage holding —
+  exactly the kind of vehicle we want); *Estelle v. Smith*, 451 U.S. 454
+  (1981) (right to consult counsel before a consequential court-ordered
+  psychiatric exam).
+- **Honest practical objection disclosed:** in-room presence may distort
+  polygraph physiological readings; examiners often resist it on that
+  ground. Recommended fix: present relief as a menu (in-room presence →
+  consultation breaks → advance written question review with unresolved
+  questions referred to the court), not an all-or-nothing demand.
+
+**Recommendation (adopted): frame as a discretionary § 3583(d) request for
+a protective condition, explicitly NOT arguing the exam is "custodial" and
+NOT trying to distinguish or limit Murphy at all** — that fight is
+unnecessary and likely losing per *J.B.* Argue instead that this court
+(which *Johnson* already confirms has authority to craft safeguards into
+this exact condition) should exercise that same authority here given the
+legal complexity of real-time privilege calls.
+
+**Action: fold into the master outline's polygraph section as the framing
+for protections (I)/(II); coordinate with Track 24's § 3006A/critical-stage
+findings once that returns.**
+
 ### CLIENT PUSHBACK — Track 18's "unnamed" Tenth/Fifth Circuit cases are
 not usable as cited and need to be actually identified
 
