@@ -412,6 +412,15 @@ TO EXCLUDE KEYSTROKE-LEVEL LOGGING (Track 18 — ~3 pages after trim)
    whether automated capture/storage (before human review) violates a
    clause phrased in terms of avoiding "reading" privileged material — a
    genuinely open question, favorable in that nothing forecloses it.
+3a. **General-trend background (Track 23 — now nameable, not squarely
+   keystroke-specific but useful context):** ***United States v. Blair***,
+   933 F.3d 1271 (10th Cir. 2019) (vacating a condition that gave the
+   probation officer unbounded device-authorization discretion,
+   functioning as a de facto total ban); ***United States v. Becerra***,
+   977 F.3d 373 (5th Cir. 2020) (vacating a 10-year absolute internet/
+   device ban as substantively unreasonable). Cite as general-trend
+   support for narrow tailoring in this area, not as keystroke-specific
+   authority.
 4. **Requested relief:** a clarifying/modifying order that the existing
    privilege clause requires Probation to implement CIMP using a method
    that does not indiscriminately capture privileged content (e.g.,
@@ -740,6 +749,8 @@ verified reporter/statute text) unless flagged [VERIFY]:*
 - Singleton v. Wulff, 428 U.S. 106 (1976)
 - United States v. Sofsky, 287 F.3d 122 (2d Cir. 2002) [VERIFY full text — quoted only via Lifshitz/Kunz]
 - United States v. Lifshitz, 369 F.3d 173 (2d Cir. 2004)
+- United States v. Blair, 933 F.3d 1271 (10th Cir. 2019) [VERIFY pin cite — identified Track 23, holding confirmed via multiple secondary sources: unbounded probation-officer authorization discretion functioning as a de facto total ban held to violate §§ 3583(d)(2), 3553(a)(2)(B)-(D)]
+- United States v. Becerra, 977 F.3d 373 (5th Cir. 2020) [VERIFY pin cite — identified Track 23, holding confirmed via multiple secondary sources: 10-year absolute internet/device ban held substantively unreasonable]
 - United States v. Granger, 117 F. App'x 247 (4th Cir. 2004) [VERIFY]
 - United States v. Rath, 2015 WL 3559160 (5th Cir. 2015) [VERIFY]
 - United States v. Ullman, 2015 WL 3559221 (10th Cir. 2015) [VERIFY]
