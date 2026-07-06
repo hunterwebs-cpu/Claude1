@@ -879,6 +879,57 @@ restriction argument once Track 6's re-examination is complete.**
 Special Condition (a) and (c) and should be incorporated into the master
 outline as controlling framing, not just as one argument among several.**
 
+### NEW CROSS-CUTTING ARGUMENT — the "why litigate this now vs. later"
+judicial-economy point (applies to the Jurisdiction/Standard-of-Review
+section and the motion's framing generally)
+
+Client's point, in his own words: "It makes no sense that the courts are
+loathe to fix these [conditions] at any time given that a violation
+[proceeding] would require a reimposition which would allow objection on
+all grounds and even an appeal." The theory: if the court is reluctant to
+resolve a conditions dispute now via a § 3583(e)(2) modification motion, the
+practical alternative is that the dispute simply gets deferred until an
+actual violation occurs — at which point a revocation proceeding leads to
+reimposition of supervised release conditions under § 3583(e)(3)/(h), and
+*that* reimposition would itself be freshly objectionable and appealable on
+every ground, including the very same grounds raised in this motion. If the
+court will have to confront these same legal questions eventually regardless
+(and in a much higher-stakes posture — after a violation, with revocation
+and possible incarceration already on the table), there is no sound judicial-
+economy reason to decline to resolve them now, on a clean prophylactic
+record, before any violation has occurred. Litigating now is the lower-cost,
+lower-stakes forum for the exact same legal questions the court would
+otherwise have to resolve later anyway.
+
+**This is a genuinely new, cross-cutting framing argument — not tied to any
+one condition — and should be woven into the Jurisdiction/Standard-of-Review
+section as an affirmative reason for the court to reach the merits now,** and
+potentially also bears on the *Traficante*/*Boles* ripeness strategy question
+already flagged for Standard Condition 12 (does this argument support
+pressing that condition's merits now too, or is *Traficante* meaningfully
+different because no risk-determination has actually been made yet, unlike
+CIMP which is already being actively administered in a disputed way?).
+
+**Research task (not yet performed):** (1) confirm the actual statutory/
+procedural mechanics of revocation and reimposition — 18 U.S.C.
+§ 3583(e)(3) (revocation) and § 3583(h) (supervised release following
+revocation) — and whether reimposed conditions (including ones identical to
+previously unobjected-to conditions) are treated as a fresh sentencing
+act subject to full objection and appellate review, or whether courts treat
+mere continuation of an already-final, unappealed condition differently
+(e.g., law-of-the-case/no-fresh-appeal-right for unchanged terms); (2) any
+case law recognizing a judicial-economy/avoid-piecemeal-litigation rationale
+favoring proactive, pre-violation resolution of conditions disputes over
+deferral to a revocation proceeding; (3) whether void-for-vagueness/fair-
+notice doctrine's own rationale (a defendant should not have to guess at a
+condition's meaning under threat of penalty to find out what it requires) is
+a useful reinforcing analogy for this point, since it rests on the same
+underlying logic; (4) assess how this argument interacts with *Traficante*'s
+ripeness holding for Standard Condition 12 specifically — does it strengthen
+pressing that condition's merits now, or is *Traficante* distinguishable.
+
+**Status: new directive logged; research not yet started.**
+
 ### FACTUAL LIMITATION — sentencing transcript unavailable for now
 
 Client confirms the June 2018 sentencing transcript **cannot presently be
