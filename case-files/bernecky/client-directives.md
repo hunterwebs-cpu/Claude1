@@ -134,6 +134,51 @@ separate track — client says "we'll talk more about this," flagged not resolve
 (personal-life, incl. keystroke case-law flag and per-device cost sub-theory)
 fully captured. Ready for research phase.
 
+### REOPENED — keystroke monitoring elimination argument (client's "final
+question," post-research-phase)
+
+Client is not asking to eliminate CIMP monitoring generally — **"he is fine
+with monitoring"** — but specifically wants to get rid of **keystroke-level**
+logging, on two combined grounds:
+
+1. **No protection for attorney-client and other legally protected contact.**
+   Keystroke logging captures privileged/protected communications (attorney-
+   client, and by extension theories 5–6 above: petition-clause correspondence,
+   access-to-courts material) with no carve-out, filter, or minimization
+   procedure in the condition as currently administered.
+2. **Nexus/narrow-tailoring theory (new): the offense is "entirely pictorial."**
+   Bernecky's underlying offense conduct is image-based (child pornography
+   possession), not text- or communication-based. Client's theory: there is no
+   legitimate offense-based justification for monitoring all typed text/
+   keystrokes system-wide when the offense conduct being supervised is
+   exclusively about image content, not written communication. A narrower,
+   content/image-focused monitoring approach (matching what CIMP software
+   actually needs to catch — image files, image-sharing traffic, image-hosting
+   site visits) would be reasonably related to the offense; blanket keystroke
+   logging of all typed text is broader than that and should fail § 3583(d)'s
+   reasonably-related/no-greater-deprivation-than-necessary test as applied to
+   this defendant's specific offense conduct.
+
+**This connects to, but goes beyond, the already-logged theories 4–6 above
+and the Lifshitz footnote 10 finding** (Track 5: keystroke monitoring named as
+the paradigm most-intrusive monitoring method) — those theories flagged
+keystroke monitoring as a problem; this directive asks specifically for the
+affirmative argument and remedy (eliminate/narrow keystroke logging while
+retaining other CIMP monitoring).
+
+**Research task (not yet performed as of this entry):** (a) case law
+protecting attorney-client privileged communications from broad supervised-
+release/probation monitoring conditions — is there a recognized carve-out or
+minimization requirement, and has any court required one as a condition of
+upholding computer-monitoring conditions; (b) case law or § 3553(a)/3583(d)
+narrow-tailoring analysis distinguishing content-type-specific offense
+conduct (image-based) from communication-type monitoring (text/keystroke) —
+i.e., authority for the proposition that a monitoring condition must be
+tailored to the *type* of conduct that produced the offense, not just to the
+general instrumentality (a computer) used to commit it.
+
+**Status: research task defined, not yet started.**
+
 ---
 
 ## Special Condition (g) — Polygraph / CVSA
@@ -517,6 +562,85 @@ silence argument as resting on the written record (already in hand) as the
 primary basis, note the transcript as unavailable at this time due to cost,
 and flag it as something to be confirmed later if/when CJA counsel is
 appointed or the government provides it — not as a precondition to filing.**
+
+### CORRECTION — *Maiorana* demoted; do not lead the silence/clarification
+argument with it
+
+Client pushed back sharply on framing *United States v. Maiorana* as directly
+supporting the "court's silence on employment means no occupational
+restriction was intended" argument (Directive 2 above): **"how is maiorana
+like berneckys case. that doesnt even remotely sound like what we are talking
+about."** Correct, on reflection: *Maiorana* (overruling *Truscello*'s oral-
+pronouncement rule) is about the formalities required to **create** a new
+condition of supervised release — whether an unpronounced condition can
+nonetheless bind a defendant. Bernecky's CIMP condition is not that situation
+at all: the condition **was** validly pronounced and imposed; the dispute is
+about the **scope** of an existing, validly-imposed condition — specifically,
+whether "computer and internet monitoring" was ever intended to reach
+employer-facing/occupational restrictions given the Judgment's total silence
+on employment. Those are different doctrinal questions (formation vs.
+interpretation), and *Maiorana* does not control the second one.
+
+**Corrected approach:** demote *Maiorana*/oral-pronouncement material to a
+narrow, clearly-labeled a fortiori footnote only ("if an unpronounced
+condition cannot bind a defendant at all, still less can a pronounced
+condition be stretched by silent inference to cover territory — employment —
+it never addressed"). **Lead the silence/clarification argument instead with
+the *Browder*/*Matta*/*Kunz* "power to impose special conditions... vested
+exclusively in the district court" / "plainly without power to impose"
+line** — the closer doctrinal fit, since Bernecky's real complaint is that
+Probation (not the court) has effectively expanded the condition's reach into
+occupational territory the sentencing court never addressed, which is
+precisely the delegation problem that line of cases targets.
+
+**Action: rewrite the Special Condition (a) silence/clarification section
+(part16) to reflect this demotion before it goes into the master outline —
+not yet done as of this entry.**
+
+### CORRECTION — § 5D1.4(a)/(b) expressio unius argument rests on the
+statute, not on independent Guidelines drafting
+
+Client's caution (mid-message): "5D1.4 expressio unis[sic] ... subsection (b)
+only brings in the statutory language that says such consideration may only
+be given at 1 year" — i.e., be careful that § 5D1.4(b)'s one-year figure may
+just restate an existing statutory rule rather than reflect an independent
+choice by the Sentencing Commission to include a time-trigger in (b) while
+omitting one from (a).
+
+**Confirmed correct, on checking the primary text already in hand (part14,
+Part 6(a), quoting 18 U.S.C. § 3583(e) directly from the Drive folder's LII
+copy):**
+- **18 U.S.C. § 3583(e)(1)** (early termination) itself contains the one-year
+  figure: termination is available "at any time after the expiration of one
+  year of supervised release ... if it is satisfied that such action is
+  warranted by the conduct of the defendant ... and the interest of justice."
+- **18 U.S.C. § 3583(e)(2)** (modification — the provision actually at issue
+  in this motion) contains **no** analogous time-trigger at all; modification
+  is available "at any time prior to the expiration or termination of the
+  term of supervised release."
+- § 5D1.4(b)'s own text (part17) expressly cross-cites "See 18 U.S.C.
+  § 3583(e)(1)" for its one-year figure, and § 5D1.4(a)'s text expressly
+  cross-cites "See 18 U.S.C. § 3583(e)(2)" for its no-time-trigger rule. The
+  Guidelines are tracking, not independently creating, the statutory
+  distinction.
+
+**Correction to the argument (control for drafting): do NOT frame this as
+"the Sentencing Commission chose to include a one-year trigger in (b) but
+omit one from (a)" — that overstates the Commission's role and is the
+vulnerable version client flagged.** The accurate and actually stronger
+framing is a **statutory** expressio unius: **Congress itself** imposed a
+one-year floor on early termination under § 3583(e)(1) but attached no
+analogous temporal floor to modification under § 3583(e)(2), and the November
+2025 Guidelines amendment (§ 5D1.4(a)/(b)) simply implements and confirms
+that pre-existing statutory distinction rather than creating a new one. This
+is a more authoritative version of the same point (a statutory-text argument
+rather than an inference about Guidelines drafting choices), and it survives
+the client's caution intact — it just needs to be pinned to §§ 3583(e)(1)/
+(e)(2) as the source, with § 5D1.4 cited as confirming secondary authority,
+not as the origin of the distinction.
+
+**Action: correct this framing wherever it appears in part16/part17 and in
+any future outline draft — before drafting.**
 
 ### STANDING — client wants ironclad authority that Bernecky may raise the
 ultra vires/no-authority-over-non-party theory at all

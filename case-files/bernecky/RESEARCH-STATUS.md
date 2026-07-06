@@ -30,3 +30,7 @@
 1. Reconcile part6/part7/part10's three Brown-related argument drafts into one final version for the motion.
 2. Pull together a master outline/argument sequence across all 14 conditions.
 3. Resolve outstanding factual items: restitution-paid-in-full confirmation (Special (i)), and any remaining `[VERIFY]` citations you want run down via Westlaw/PACER before filing.
+4. **CORRECTIONS PENDING (post-research-phase pushback, logged in client-directives.md):**
+   - *Maiorana* demoted from lead authority to a narrow a fortiori footnote on the Special (a) silence/clarification argument; *Browder*/*Matta*/*Kunz* now lead instead. Not yet rewritten into part16 or an outline.
+   - § 5D1.4(a)/(b) expressio unius argument re-grounded in the statute (18 U.S.C. § 3583(e)(1) vs. (e)(2)) rather than framed as an independent Sentencing Commission drafting choice. Not yet corrected in part16/part17 text.
+5. **NEW — Track 18 (in progress): keystroke-monitoring elimination argument.** Client wants keystroke-level CIMP logging specifically eliminated/narrowed (general monitoring is acceptable to him). Two grounds: (a) no attorney-client-privilege/protected-contact carve-out exists in the condition as administered; (b) offense is "entirely pictorial" (image-based CP possession, not text/communication-based), so blanket keystroke/text logging lacks the narrow-tailoring nexus that image/content-focused monitoring would have. Research task defined in client-directives.md; see part18 once returned.
