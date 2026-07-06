@@ -338,8 +338,80 @@ applied this theory in this specific context — this may be genuinely
 unbriefed territory, which should be disclosed as such, not disguised as an
 established argument.**
 
-**Status: Theory 7 research in progress (Track 19). Theory 8 RESEARCHED
-(Track 20, part20-freedom-of-thought.md) — summary below.**
+**Status: BOTH THEORIES RESEARCHED. Theory 7 — Track 19,
+part19-place-device-tailoring.md (summary follows Theory 8's summary
+below). Theory 8 — Track 20, part20-freedom-of-thought.md.**
+
+### TRACK 19 RESULT — Theory 7 (place/device-capability tailoring):
+credible synthesis argument, one strong out-of-circuit holding doing real
+work
+
+**Bottom line: no case squarely ties monitoring's geographic/ownership
+scope to where the offense occurred as a named doctrine — a genuine gap —
+but a real, on-point (if out-of-circuit) primary-source holding reaches
+functionally the same result, and device-capability-based scoping turns out
+to be an established, multi-circuit drafting convention.**
+
+- **Strongest new find:** *United States v. Mike*, 632 F.3d 686 (10th Cir.
+  2011) (read in full), applying *United States v. Matteson*, 327 F. App'x
+  791 (10th Cir. 2009) — held a computer-monitoring condition
+  **unconstitutionally vague** where it could be read to reach devices the
+  defendant doesn't own, **expressly including his employer's computers**,
+  and remanded to narrow it to owned devices. The government there argued
+  the condition "cannot fairly be read" to reach employer computers — the
+  Tenth Circuit rejected that argument. **Directly parallel to Bernecky's
+  own fact pattern** (Probation already reading "owned or operated by the
+  defendant" to reach the employer's systems). Out-of-circuit, persuasive
+  only, but the single strongest building block for "monitor only what he
+  owns."
+- **Capability-based device definitions are an accepted multi-circuit
+  convention**, not a novel ask — several circuits already define
+  restricted-device categories by Internet-*capability* rather than blanket
+  "any device" language (*Granger*, *Rath*, *Ullman*, *Fletcher*,
+  *Phillips* — all FJC Guide-sourced, [VERIFY] against reporters).
+  Bernecky's proposed image-capability threshold is a one-step, modest
+  extension of this existing convention.
+- **Genuinely useful textual hook found in Bernecky's own condition:** the
+  CIMP condition already opens with "any **internet capable** device" as a
+  threshold qualifier — but the separate monitoring-authorization clause
+  ("surveil all activity on computer(s) or connected device(s) owned or
+  operated by the defendant") drops that capability qualifier entirely.
+  **The argument is to restore internal consistency to the condition's own
+  drafting logic**, recalibrated to image-capability given this offense —
+  not to import a foreign concept.
+- **No case anywhere addresses IoT/smart-appliance overbreadth
+  specifically** (the networked-refrigerator example) — confirmed gap, must
+  be argued from first principles plus the *Ullman* gaming-console
+  analogy.
+- **"Forbid rather than monitor" third-party devices** — no case addresses
+  this structure directly; it's a sound, first-impression synthesis of this
+  case's own already-built least-restrictive-means (Lifshitz/Sofsky),
+  ultra vires (part1), and standing (part13, *Bond*) doctrine — actually a
+  *cleaner* alternative than even the employer-veto "Path 2" language
+  already proposed, since it needs no third-party cooperation at all.
+- **Broader reinforcing find:** a genuine, multi-circuit "simple possession"
+  vs. "child pornography plus" (solicitation/chat/contact) doctrine
+  generalizes, and independently reinforces, Track 18's Sofsky/Lifshitz
+  image-vs-text finding — a related but analytically distinct basis for the
+  same conclusion; cite both, don't merge them.
+- **Kunz footnote 8** already flags an adjacent employer/VPN tension within
+  this exact condition family and treats a § 3583(e)(2) modification motion
+  as the correct vehicle — useful procedural confirmation that this is the
+  right posture, though it doesn't resolve the substantive standard.
+
+**Recommendation (adopted): file Theory 7 as a modification request
+grounded in restoring internal consistency to the condition's own
+capability-based drafting logic, reinforced by *Mike*/*Matteson*'s
+ownership-vagueness holding, the multi-circuit "CP-plus" doctrine, and the
+already-built least-restrictive-means/ultra vires/standing framework for the
+forbid-rather-than-monitor component. Do not represent that any court has
+already tied scope to place-of-offense, addressed IoT overbreadth, or
+blessed the forbid-vs-monitor structure directly — none has; this is a
+synthesis argument, candidly presented as such.**
+
+**Action: fold into the master outline for Special Condition (a) as a
+distinct sub-argument (capability-restoration + Mike/Matteson + forbid-not-
+monitor structure), cross-referenced to theories 2, 4, and Track 18.**
 
 ### TRACK 20 RESULT — Theory 8 (freedom of thought): candid, negative-leaning
 recommendation
