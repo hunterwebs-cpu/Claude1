@@ -338,7 +338,72 @@ applied this theory in this specific context — this may be genuinely
 unbriefed territory, which should be disclosed as such, not disguised as an
 established argument.**
 
-**Status: both new theories logged, research not yet started.**
+**Status: Theory 7 research in progress (Track 19). Theory 8 RESEARCHED
+(Track 20, part20-freedom-of-thought.md) — summary below.**
+
+### TRACK 20 RESULT — Theory 8 (freedom of thought): candid, negative-leaning
+recommendation
+
+**Bottom line: no case anywhere applies *Stanley*, *Barnette*, or any
+freedom-of-thought doctrine to a supervised-release monitoring-into-treatment
+mechanism, or to mandatory CBT generally — genuinely unbriefed territory,
+disclosed as such rather than dressed up as settled law.**
+
+- ***Osborne v. Ohio*, confronted directly:** its holding is narrow (only
+  decides whether *possessing* CP can be criminalized) and does not foreclose
+  this theory as a matter of stare decisis — but its *reasoning*
+  ("the State does not rely on a paternalistic interest in regulating [the]
+  mind... it hopes to destroy a market for the exploitative use of children")
+  hands the government a ready template to recast CIMP-fed CBT as legitimate
+  risk-reduction rather than mind control. Must be met head-on, not avoided.
+- ***Stanley*'s "control men's minds" quote is real and accurately
+  remembered** — almost certainly the source of the client's own phrasing —
+  but Osborne already cabined it specifically for this offense category, so
+  it cannot be used without distinguishing Osborne in the same breath.
+- ***Barnette*'s quote is accurate**, and its principle has been imported
+  into one Second Circuit corrections case (*Burns v. Martuscello*, 890 F.3d
+  77 (2d Cir. 2018)) — but only for a right *not to speak* (compelled
+  speech/right not to inform), not for a right against treatment-driven
+  belief reshaping. No case bridges that gap.
+- **Adverse-flavored authority that must be disclosed, not omitted:**
+  *McKune v. Lile*, 536 U.S. 24 (2002), upheld government-mandated
+  admission-of-responsibility/sexual-history treatment content against a
+  Fifth Amendment challenge with no freedom-of-thought concern recognized —
+  cuts against this theory by analogy.
+- **New, previously unflagged find:** *Chiles v. Salazar*, 607 U.S. ___
+  (2026) (Mar. 31, 2026) — SCOTUS held 8-1 that government regulation of
+  therapy content triggers First Amendment scrutiny. Conceptually exciting
+  but protects the *therapist's* speech against a *restriction*, not a
+  *client's* mind against a *directive* — an analogical, non-controlling,
+  very recent data point, not load-bearing authority.
+- **Where courts actually have limited specific treatment techniques**
+  (*United States v. Weber*, 451 F.3d 552 (9th Cir. 2006); *Harrington v.
+  Almy*, 977 F.2d 37 (1st Cir. 1992), both re: penile plethysmography), they
+  did it through the existing § 3583(d) liberty-deprivation/proportionality
+  framework and substantive due process — not a First Amendment
+  thought-control theory.
+
+**Recommendation (adopted): do NOT plead this as a freestanding First
+Amendment "freedom of thought" claim** — no supporting authority exists and
+Osborne/McKune supply real adverse material that would cost credibility if
+the claim were filed as if it were settled law. Instead:
+1. **Use the client's own words as rhetorical/moral framing** in the
+   motion's introduction to the Special Condition (b) discussion — explicitly
+   labeled as argument from principle, not controlling law — quoting Barnette
+   and Stanley candidly as principle, with Osborne distinguished in the same
+   breath.
+2. **Carry the actual legal weight through the already-developed Special
+   Condition (b) delegation theory** (part11: *Matta*/*Kunz*/*Carlineo*/
+   *Browder*): reframe "the government is controlling my mind" into "no
+   court ever authorized this specific surveillance-to-treatment mechanism"
+   — a real, addressable ultra vires/delegation defect under doctrine this
+   case already relies on, not a novel constitutional right requiring
+   invention. This is the same reframing move that worked for the keystroke-
+   logging/privilege theory in Track 18.
+
+**Action: adopt this recommendation for drafting — Theory 8 becomes framing
+language plus an added layer to the Special Condition (b) delegation
+argument, not a standalone constitutional count.**
 
 ---
 
