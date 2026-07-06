@@ -445,6 +445,61 @@ Track 6 re-examination (above) returns:
 **Action: integrate these three points into the final occupational-
 restriction argument once Track 6's re-examination is complete.**
 
+### CONTROLLING STRATEGIC DIRECTIVE — post-Lussier framing (given after Track
+14/15 confirmed Lussier excludes illegality claims from § 3583(e)(2))
+
+1. **Post-2018 case law/Guidelines changes ARE "changed circumstances."**
+   Client confirms: for every argument resting on a legal development that
+   postdates the June 2018 sentencing (*Boles* 2019, *Betts* 2018, *Carlineo*
+   2021, *Kunz* 2023, *Burnash*/*Gorychka* 2024, *Love* 2025, *Brown* 2026,
+   the November 2025 U.S.S.G. §§ 5D1.3/5D1.4 amendments), the intervening
+   change in law itself IS a changed circumstance supporting modification
+   under *Lussier*'s own "general punishment goals" framing — this is the
+   safe, Lussier-compliant vehicle, not an illegality claim about 2018.
+   **Every condition-specific argument should lead with whichever post-2018
+   legal development applies to it (see the Track 14 synthesis table) as the
+   changed-circumstances hook, before any legality-flavored material.**
+
+2. **KEY REFRAME for the CIMP/occupational track — likely the single most
+   valuable framing in the entire motion:** rather than arguing the CIMP
+   condition (or Probation's administration of it) is *illegal* because no
+   § 5F1.5 finding was made, argue instead that **the sentencing court's
+   total silence on employment/occupation is itself the best evidence of
+   what the court actually intended — i.e., no occupational restriction at
+   all.** Under this framing, Bernecky is not asking the court to invalidate
+   anything or to rule on the legality of a 2018 finding that was never made
+   — he is asking for a **simple clarification** that the condition means
+   what its silence already shows: no employer-facing authority was ever
+   granted. This sidesteps *Lussier*'s illegality-exclusion problem entirely,
+   since a clarification of the condition's own original scope is squarely
+   within the ordinary "modify... conditions" power under § 3583(e)(2) — it
+   is not a claim that the 2018 judgment was invalid, only a request that the
+   court say plainly what it already (implicitly) held by never addressing
+   employment at all. **This should be the LEAD framing for Special
+   Condition (a)'s employer/occupational theories, ahead of the § 5F1.5/
+   ultra vires distinguishing-Brown material (which remains available as
+   reinforcing, alternative argument).**
+
+3. **New factual development for Special Condition (c) — family carve-out:**
+   client confirms that while Bernecky was incarcerated (i.e., after the June
+   2018 sentencing), **his sister had children** — meaning the specific
+   nieces/nephews at issue in the family-contact dispute **did not exist at
+   the time of sentencing.** This sharpens and factually grounds the
+   "illusory carve-out" argument in two ways: (a) it is not merely a
+   structural/logical point that the "biological or adopted children"
+   exception was a null set in 2018 — there are now real, specific family
+   members the sentencing court could not possibly have made any
+   individualized danger finding about, since they were not yet born; and
+   (b) this is a clean, genuine "changed circumstances" showing under
+   *Lussier*'s own terms (new family members born after sentencing),
+   independent of any legality argument, supporting present-tense
+   reassessment of the family-contact condition's scope as applied to these
+   specific children.
+
+**Action: these three directives control the final drafting approach for
+Special Condition (a) and (c) and should be incorporated into the master
+outline as controlling framing, not just as one argument among several.**
+
 ### STANDING — client wants ironclad authority that Bernecky may raise the
 ultra vires/no-authority-over-non-party theory at all
 
