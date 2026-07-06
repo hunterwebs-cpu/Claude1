@@ -27,6 +27,14 @@ What remains: a broken window with a missing pane, held in a sill by a piece of 
 
 ---
 
+Around the same time, a crew arrived outside with jackhammers.
+
+The sidewalk they were tearing up had surface cracks — the kind any concrete develops over twenty years. The kind you patch in an afternoon with a bag of compound. They jackhammered the whole run and poured fresh. Then came back the next morning and extended the project another thirty feet.
+
+That money came from somewhere. It did not come from fixing what is actually broken.
+
+---
+
 Every time I walk to chow, to rec, to health services, to education — to anywhere on this compound — I pass within six feet of a condemned building. There is a hard hat required sign posted between the sidewalk and the wall. Bricks fall off it.
 
 We call it Jumanji.
@@ -59,13 +67,11 @@ FCI Big Spring was on the list.
 
 His statement: *"We are a Bureau that acts."*
 
-I know Big Spring. After I sued the BOP, they transferred me there. I litigated that transfer with the help of Cole Schotz attorneys on a pro bono basis. The government transferred me back to Fort Dix. The settlement requires the BOP to show cause and give advance notice before any future transfer of mine — an outcome that, as far as anyone can document, is exceedingly rare in BOP history. Possibly unique.
+I know Big Spring. After I sued the BOP, they transferred me there. I litigated that transfer with the help of Cole Schotz attorneys on a pro bono basis. The government transferred me back to Fort Dix. While at Big Spring, I came to realize that Fort Dix was not a bad facility.
 
-Big Spring was in far worse condition than Fort Dix. And it was closed for infrastructure failures.
+Big Spring was in far worse condition than Fort Dix. And it was closed for infrastructure failures; before I arrived there, half of the housing units were shuttered.
 
-Fort Dix is in better shape than Big Spring was.
-
-Fort Dix also cannot be closed.
+Fort Dix is in better shape than Big Spring was but even if it wasn't, it cannot be closed.
 
 ---
 
