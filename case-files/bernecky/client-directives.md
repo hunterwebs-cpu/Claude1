@@ -232,6 +232,114 @@ pictorial-nexus extension); revise the "no carve-out exists" framing
 throughout to "the existing carve-out cannot be honored by keystroke
 logging."**
 
+### NEW THEORY (7) — place/device-capability tailoring: the offense happens
+in one place, on one class of device
+
+Client's theory: nearly all offenses of this kind occur in the same physical
+setting — **a private residence/bedroom** — using devices with the specific
+technical capability to locate, retrieve, and display image content. **"The
+crime is not committed at a coffee shop or while walking in the grocery
+store."** Monitoring should be tailored to that reality rather than to a
+blanket "any device the defendant operates" standard that sweeps in
+employer systems, public terminals, borrowed third-party devices, and IoT
+devices with no image-display capability at all.
+
+**Proposed structure:**
+- **Forbid, rather than monitor:** it is perfectly acceptable to prohibit
+  Bernecky from *using* another person's personal device — a clean,
+  easily-enforced behavioral restriction that requires no monitoring
+  authority over a non-party's property at all, and sidesteps the
+  ultra vires/third-party-reach problem (Special Condition (a) theory 2)
+  entirely.
+- **Monitor only what he owns and brings home, and only if it's capable of
+  the relevant conduct:** the devices actually subject to monitoring should
+  be defined functionally — devices Bernecky owns and keeps/brings back to
+  his residence that are **capable of locating, accessing, storing, or
+  displaying illegal images** — not every "connected device" the current
+  condition's text sweeps in (client's recurring networked-refrigerator/IoT
+  example, already flagged under theory 4).
+- **This is not a computer-fraud case:** unlike an offense where the
+  *content of communications or keystrokes themselves* is legally
+  significant (fraud, threats, extortion — cases where what was typed is
+  the crime), Bernecky's offense is defined entirely by image content.
+  Monitoring authority should track that distinction.
+
+**Note: this ties together, and gives a unifying doctrinal frame to, three
+existing theories** — the employer/ultra vires theory (theory 2), the
+"operated by the defendant" vagueness theory (theory 4), and the
+pictorial-nexus/keystroke theory (Track 18) — around a single organizing
+principle: **nexus should be keyed to place (private residence, not public
+spaces or third-party systems) and device capability (image-capable devices
+he owns, not every connected object), not to a blanket "any device,
+anywhere, operated in any way" standard.**
+
+**Research task: find case law tying the scope of a computer/device
+monitoring condition to (a) the location where the offense conduct actually
+occurred (private residence vs. public/third-party spaces), and (b) the
+technical capability of a device to be relevant to the offense conduct, as
+opposed to blanket "any connected device" language. Cross-reference already-
+confirmed *Lifshitz*/*Sofsky* narrow-tailoring framework and § 5F1.5's
+"conduct relevant to the offense of conviction" analogy (Track 18) for the
+doctrinal hook.**
+
+### NEW THEORY (8) — freedom of thought: monitoring has become an
+instrument of ideological/psychological reformation, not crime prevention
+
+Client's concern, in his own words: **"this monitoring has gone from crime
+prevention to trying to control the supervisee's personal thoughts, an act
+abhorrent to our constitutional order (the [courts] have held that
+gover[nment] can't tell you how to think)."** The mechanism: CIMP data
+captured by Probation is provided to a treatment provider ("therapist"), who
+uses it to try to shape a specific thought process through CBT. Client is
+explicit that **CBT itself is legitimate and valuable** — the objection is
+to this specific application of it: using continuous, comprehensive
+surveillance data as an input for compelling or molding a person's internal
+thought process, which client believes exceeds what CBT is supposed to be
+used for and crosses into government-directed thought control.
+
+**This is an ambitious, novel constitutional theory — flag as such, not as
+settled law. Known doctrinal terrain to research carefully, honestly, and
+without overclaiming:**
+- **Likely favorable anchors to check:** *West Virginia State Bd. of Educ.
+  v. Barnette*, 319 U.S. 624 (1943) ("no official ... can prescribe what
+  shall be orthodox in politics, nationalism, religion, or other matters of
+  opinion") — closest fit to client's own phrasing; *Stanley v. Georgia*,
+  394 U.S. 557 (1969) (right to possess/read materials privately in the
+  home free of government control over the content of one's thoughts).
+- **Likely adverse authority that MUST be confronted head-on, not avoided:**
+  *Osborne v. Ohio*, 495 U.S. 103 (1990), expressly held *Stanley* does
+  **not** extend to child-pornography possession, given the harm to actual
+  children depicted and the state's interest in destroying the market for
+  such material — this is the government's obvious, powerful rejoinder to
+  any *Stanley*-based argument here, and must be researched and either
+  honestly distinguished (the argument is not about a right to possess CP,
+  but about the propriety of an ongoing *surveillance-into-treatment*
+  mechanism aimed at reshaping thought, which is analytically distinct from
+  criminalizing possession itself) or the theory's scope narrowed
+  accordingly.
+- **Also check:** any sex-offender-specific-conditions case law addressing
+  limits on mandatory treatment/"cognitive distortion" programs, compelled-
+  admission-of-guilt-as-treatment-precondition cases (already adjacent to
+  the Fifth Amendment polygraph research, Track 2), and *Turner v. Safley*-
+  style reasonableness review where it has been imported into supervised-
+  release-conditions review generally.
+
+**Client's own caveat should be preserved verbatim in any drafting:** the
+objection is not to treatment or to monitoring as such, but to the specific
+combination — comprehensive, real-time data capture feeding into a
+provider's effort to reshape a specific thought pattern — as an
+unconstitutional overreach beyond crime prevention and into thought control.
+
+**Research task: dedicated, careful pass on freedom-of-thought/compelled-
+ideological-conformity doctrine as applied (if ever) to supervised-release
+treatment/monitoring conditions, confronting *Osborne* honestly rather than
+citing *Stanley* without addressing it. Report candidly if no case has ever
+applied this theory in this specific context — this may be genuinely
+unbriefed territory, which should be disclosed as such, not disguised as an
+established argument.**
+
+**Status: both new theories logged, research not yet started.**
+
 ---
 
 ## Special Condition (g) — Polygraph / CVSA
