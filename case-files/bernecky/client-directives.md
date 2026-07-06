@@ -177,7 +177,60 @@ i.e., authority for the proposition that a monitoring condition must be
 tailored to the *type* of conduct that produced the offense, not just to the
 general instrumentality (a computer) used to commit it.
 
-**Status: research task defined, not yet started.**
+**Status: RESEARCHED (Track 18, part18-keystroke-monitoring.md). Summary below.**
+
+**Key finding — framing correction needed:** Bernecky's own Judgment's CIMP
+condition already contains a privilege-avoidance clause ("designed to avoid,
+as much as possible, reading any privileged information or any private
+material that is not illegal"). *United States v. Kunz*, 68 F.4th 748,
+766-67 (2d Cir. 2023), construes this **identical, word-for-word** WDNY
+boilerplate clause and holds it is a **real, judicially enforceable
+constraint on Probation** — not surplusage. **This means the motion should
+NOT claim "no privilege carve-out exists" (that overstates it and is an
+easily-exploited weakness) — the correct, stronger argument is that
+keystroke-level logging, as a category, cannot be reconciled with a clause
+already in the Judgment requiring Probation to avoid reading privileged
+material.** This is an as-applied/as-administered theory built on Bernecky's
+own existing condition text plus a directly-on-point Second Circuit
+construction of it — not a request for the court to invent new law.
+
+**Pictorial-nexus theory:** well-supported by analogy but not squarely
+decided. *United States v. Sofsky*, 287 F.3d 122, 126-27 (2d Cir. 2002)
+(same offense type — image-based CP), quoted in both *Lifshitz* and *Kunz*,
+holds a "more focused restriction, limited to pornography sites and images"
+is an adequate narrower alternative to a computer/internet ban. *Lifshitz*'s
+own footnote 11 separately approves keyword/phrase-triggered monitoring (a
+text-based, not image-based, narrowing example) as a narrower alternative to
+"recording all varieties of computer-related activity" — i.e., to what
+keystroke logging does. Neither case holds that offense-conduct type
+(image vs. text) is itself the doctrinal limit on monitoring scope — that is
+Bernecky's own sound extension of the "reasonably related to the offense" /
+"no greater deprivation than necessary" framework both cases already apply.
+
+**Honest gaps, confirmed (not overclaimed):** no case anywhere uses the words
+"attorney-client privilege" in the computer-monitoring-condition context; no
+case addresses whether automated capture/storage of privileged material
+(before any human reviews it) violates a clause phrased in terms of avoiding
+"reading" it — this remains a genuinely open question, favorable in that
+nothing forecloses it, but meaning the argument needs a factual/technical
+showing (how CIMP software actually captures/stores/reviews data) rather than
+a case squarely deciding the point; no circuit split or trend narrows
+keystroke logging specifically as opposed to monitoring generally.
+
+**Recommended relief (Kunz's own preferred remedial approach — construe
+rather than invalidate):** ask the court for a clarifying/modifying order
+holding that the existing privilege clause requires Probation to implement
+CIMP using a method that does not indiscriminately capture privileged
+content (e.g., website/domain-level review, image-file/hash scanning, or
+keyword-triggered flagging of the kind *Lifshitz* footnote 11 itself
+approved), rather than full keystroke capture — not a facial attack on
+keystroke logging as categorically unlawful.
+
+**Action: fold this into the master outline for Special Condition (a) as a
+distinct sub-argument (privilege-clause-as-applied, layered with the
+pictorial-nexus extension); revise the "no carve-out exists" framing
+throughout to "the existing carve-out cannot be honored by keystroke
+logging."**
 
 ---
 
