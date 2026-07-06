@@ -111,6 +111,21 @@ unresolved items:**
 
 ---
 
+## TRACK 16 ADDITIONS — new citations from the silence/§5D1.4 research pass (none yet primary-source confirmed; all sourced from WebSearch only, since WebFetch failed all session)
+
+| # | Case/Authority | Citation | Used for | Priority |
+|---|---|---|---|---|
+| 1 | **United States v. Maiorana** | No. 22-1115 (2d Cir. Aug. 28, 2025) (en banc) | **Major new finding.** Overruled *Truscello*; holds all non-mandatory supervised-release conditions must be orally pronounced (or expressly incorporated by reference) at sentencing to be valid. Central to the "silence means no occupational restriction" argument for Special Condition (a). | **HIGHEST — this is now load-bearing for the lead argument** |
+| 2 | **Esteras v. United States** | 606 U.S. ___, 145 S. Ct. 2027 (2025) (decided June 20, 2025) | Fresh SCOTUS authority applying *expressio unius* directly to 18 U.S.C. § 3583(e) itself — reinforces *Lussier*'s own unlabeled "conspicuously absent" reasoning. | **HIGH** |
+| 3 | United States v. Marquez | 506 F.2d 620 (2d Cir. 1974) | Foundational "oral pronouncement controls" rule — general background/rationale for Maiorana. | Moderate |
+| 4 | United States v. Truscello | 168 F.3d 61 (2d Cir. 1999) | Note: **overruled by Maiorana** on the standard-conditions point — cite only for background/rationale, not as current law on that specific point. | Moderate |
+| 5 | United States v. Rosario | 386 F.3d 166 (2d Cir. 2004) | Oral-pronouncement trilogy — struck a written-judgment addition never mentioned orally. | Moderate |
+| 6 | Chevron U.S.A. Inc. v. Echazabal | 536 U.S. 73 (2002), esp. 80–81 | Confirm exact holding — the Court *rejected* the expressio unius argument there (illustrative "may include" list); must be cited correctly and distinguished, not cited as if it applied the canon. | Moderate — citation-accuracy risk if miscited |
+| 7 | United States v. Chemical Foundation, Inc. | 272 U.S. 1, 14–15 (1926) | Minor/optional — "presumption of regularity" footnote point only. | Low |
+| 8 | U.S.S.G. § 5D1.4(b) | — | The one-year early-termination provision — only subsection (a) has been read from the primary PDF; (b)'s exact text is still unconfirmed. | Moderate |
+
+---
+
 ## Statutes/Guidelines needing a direct current-text pull (not case law, but still unverified)
 
 **All items formerly listed here were pulled and confirmed in the Part 15 pass** — see the CONFIRMED IN

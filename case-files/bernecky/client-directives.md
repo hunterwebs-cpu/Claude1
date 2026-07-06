@@ -500,6 +500,24 @@ restriction argument once Track 6's re-examination is complete.**
 Special Condition (a) and (c) and should be incorporated into the master
 outline as controlling framing, not just as one argument among several.**
 
+### FACTUAL LIMITATION — sentencing transcript unavailable for now
+
+Client confirms the June 2018 sentencing transcript **cannot presently be
+ordered — Bernecky lacks the funds**, and obtaining it will have to wait for
+either government counsel's cooperation or CJA counsel appointment at a
+later stage of this proceeding. **Client is not concerned this is fatal to
+the *Maiorana*/oral-pronouncement argument** — given the CIMP condition's
+verbatim match to the district's own standard post-*Browder* template (already
+confirmed in prior research), there is no realistic basis to believe an
+occupational/employment restriction was orally discussed and simply omitted
+from the written judgment; the inference of silence rests independently on
+the closed-list, fully-itemized structure of the written Judgment itself,
+which does not depend on the transcript. **Action: draft the *Maiorana*/
+silence argument as resting on the written record (already in hand) as the
+primary basis, note the transcript as unavailable at this time due to cost,
+and flag it as something to be confirmed later if/when CJA counsel is
+appointed or the government provides it — not as a precondition to filing.**
+
 ### STANDING — client wants ironclad authority that Bernecky may raise the
 ultra vires/no-authority-over-non-party theory at all
 
