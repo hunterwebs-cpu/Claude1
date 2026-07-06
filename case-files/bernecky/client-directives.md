@@ -696,6 +696,56 @@ Both now confirmed via direct, full-text primary-source read:
 **Action: MASTER-OUTLINE.md's polygraph section and citation list updated
 accordingly.**
 
+### CLIENT PUSHBACK — counsel-invocation theory: argue critical-stage
+affirmatively, and add an independent CJA "interests of justice" ground
+
+In response to being told the Sixth Amendment "critical stage" doctrine is
+likely a headwind (no pending prosecution at the time of a supervised-
+release polygraph), client pushes back with two points, both to be
+researched, not conceded away:
+
+1. **Argue affirmatively that this IS a critical stage.** Client wants the
+   critical-stage argument made head-on, not abandoned in favor of the
+   safer "discretionary condition-crafting" framing alone. Both should be
+   presented — critical-stage as the more ambitious lead theory, discretionary
+   crafting as the fallback if critical-stage is rejected.
+2. **Independent ground: the Criminal Justice Act, 18 U.S.C. § 3006A,
+   already permits appointment "in the interests of justice" regardless of
+   critical-stage status.** Client's theory: ensuring a supervisee's
+   Fifth Amendment rights remain fully protected during a polygraph
+   examination — where privilege determinations are pure questions of law a
+   layperson cannot reliably make in real time — is squarely the kind of
+   thing the "interests of justice" standard is meant to reach, independent
+   of whether the exam is formally a "critical stage" requiring counsel as
+   of constitutional right. **This needs real verification of § 3006A's
+   actual text and structure** (which categories of proceedings it lists as
+   of-right versus its more general interests-of-justice catch-all
+   provision) before being relied on — do not cite subsections from memory.
+
+**Action: dedicated research task launched (Track 21, already in progress)
+to be supplemented with these two points if not already covered by its
+original scope; a follow-up pass on § 3006A specifically is being launched
+separately since the original Track 21 prompt did not include it.**
+
+### CLIENT PUSHBACK — Track 18's "unnamed" Tenth/Fifth Circuit cases are
+not usable as cited and need to be actually identified
+
+Client correctly flagged that Track 18's citation list includes "Unnamed
+Tenth Circuit case (complete computer/internet ban discretion vacated)" and
+"unnamed Fifth Circuit case (ten-year total internet/device ban found
+unreasonable)" — these came from law-firm/practitioner commentary that
+described case outcomes without ever surfacing the actual case name or
+citation. **This is not a usable research product as-is — a case that
+cannot be named cannot be verified, checked, or cited at all.** Correct
+characterization: this is an unfinished research thread, not a completed
+one flagged for later confirmation — the case names themselves still need
+to be found.
+
+**Action: dedicated research task launched to identify the actual
+case names/citations behind these two described outcomes, or confirm they
+cannot be identified and should be dropped entirely rather than described
+vaguely in any future memo.**
+
 ### CLIENT PUSHBACK ON TRACK 6 (Brown/Love) — controlling corrections
 
 1. **Jurisdiction correction:** Bernecky is **W.D.N.Y., not N.D.N.Y.** — client
