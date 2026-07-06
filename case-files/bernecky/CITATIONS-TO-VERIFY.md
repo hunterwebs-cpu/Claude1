@@ -7,6 +7,46 @@ from a real opinion in the Google Drive "Cases" folder rests on WebSearch recons
 
 ---
 
+## CONFIRMED IN THIS PASS (Part 15 — full primary-source verification, 27 items)
+
+Full analysis (Case Name / Citation / Binding Status / Holding with pincites / Confirms-or-corrects /
+Application) for every item below is in `research-output/part15-master-verification.md`. Read the full
+memo before drafting — several items below required a **correction**, not just confirmation, and two
+citations should be **dropped**.
+
+| # | Case/Authority | Status | Key takeaway |
+|---|---|---|---|
+| 1 | **United States v. Leone**, No. 19-1670, 2020 WL 2610536 (2d Cir. May 20, 2020) | **RESOLVED** (2d Cir. summary order, non-precedential) | Same district/near-identical CIMP condition text. Useful for fee-exemption/ripeness point ("condition empowers him to seek an exemption from the district court"), NOT for a freestanding ability-to-pay right. Also rejects an IoT/"modern refrigerators" vagueness theory (citing Balon) — a headwind for Special Condition (a) theory 4. |
+| 2 | Bond v. United States, 564 U.S. 211 (2011) | Confirmed | "Bond seeks to vindicate her own constitutional interests" — verbatim, exact holding for standing theory. |
+| 3 | Bearden v. Georgia, 461 U.S. 660 (1983) | Confirmed | Willfulness/bona fide-efforts/alternatives-to-imprisonment standard confirmed verbatim. |
+| 4 | United States v. Von Behren, 822 F.3d 1139 (10th Cir. 2016) | **CORRECTED** | Actual holding is narrow: real risk of incrimination (4 RSA questions) + revocation threat = unconstitutional compulsion. **No holding on right to counsel, per-question research time, Daubert credentialing, or disclosure prohibition** — client's (I)-(IV) framework is not attributable to this case. |
+| 5 | Minnesota v. Murphy, 465 U.S. 420 (1984) | Confirmed, with nuance | "Classic penalty situation" doctrine confirmed verbatim — but Murphy himself LOST; no penalty situation was found on his facts. Draft to show Bernecky's Judgment crosses the line Murphy found absent. |
+| 6 | Hoffman v. United States, 341 U.S. 479 (1951) | Confirmed | "Link in the chain of evidence" — verbatim, 341 U.S. at 486. |
+| 7 | Moore v. City of East Cleveland, 431 U.S. 494 (1977) | Confirmed | Extended-family liberty interest confirmed verbatim. Note: 4-Justice **plurality** (Powell, J.). |
+| 8 | United States v. Betts, 886 F.3d 198 (2d Cir. 2018) | Confirmed | Vacates total alcohol ban for lack of nexus — verbatim holding. Bonus: Betts' own citation to Reeves independently corroborates item 15. |
+| 9 | 18 U.S.C. § 3603 | Confirmed | Every duty keyed to "a probationer or a person on supervised release, who is under his supervision" — no textual hook for authority over a non-party employer. |
+| 10 | United States v. Lussier, 104 F.3d 32 (2d Cir. 1997) | **CORRECTED — drafting-risk flag** | Lussier actually holds that **illegality of a condition is NOT a proper § 3583(e)(2) ground** for modification; frames § 3583(e)(2) as addressing "changed circumstances"/general punishment goals. Do not cite it as rejecting a changed-circumstances requirement. Frame ultra vires/illegality arguments in the alternative — see full memo for the recommended two-track drafting approach. |
+| 11 | United States v. Myers, 426 F.3d 117 (2d Cir. 2005) | Confirmed | Heightened-scrutiny/narrow-tailoring-to-compelling-interest standard confirmed verbatim; individualized-record requirement confirmed. |
+| 12 | United States v. Dupes, 513 F.3d 338 (2d Cir. 2008) | **CORRECTED — recommend dropping** | Addresses Double Jeopardy, therapeutic-confidentiality waiver, and Tenth Amendment/registration only. **Never challenged or analyzed the loitering/contact-with-minors condition at all.** Supports neither the family-carve-out theory nor loitering-clause specificity — drop from Special Condition (c) discussion. |
+| 13 | United States v. DaSilva, 844 F.3d 8 (1st Cir. 2016) | Confirmed | Approves "knowledgeable adult" carve-out; also supplies strong "associational restrictions... exclude incidental encounters" language, useful beyond Special Condition (c). |
+| 14 | Troxel v. Granville, 530 U.S. 57 (2000) | Confirmed | 4-Justice **plurality** (O'Connor, J.). Confirmed double-edged: Troxel is about a fit PARENT's authority over her own children — Bernecky is structurally more like the Troxel grandparents (seeking access) than like Granville. Use carefully. |
+| 15 | United States v. Reeves, 591 F.3d 77 (2d Cir. 2010) | Confirmed | "Significant romantic relationship" vagueness case, NOT a felon-association case — confirmed verbatim and independently corroborated via Betts' and Leone's own citations to it. |
+| 16 | Warth v. Seldin, 422 U.S. 490 (1975) | Confirmed | On/off-switch backstop rule confirmed. |
+| 17 | Powers v. Ohio, 499 U.S. 400 (1991) | Confirmed | Three-part third-party standing test confirmed. |
+| 18 | Kowalski v. Tesmer, 543 U.S. 125 (2004) | Confirmed | "Genuine," not merely convenient, hindrance standard confirmed. |
+| 19 | Singleton v. Wulff, 428 U.S. 106 (1976) | Confirmed | Foundational, more permissive third-party standing application confirmed. |
+| 20 | United States v. Lombardi (2d Cir. Mar. 22, 2018), United States v. Ruff (2d Cir. Nov. 14, 2019), United States v. Piper (2d Cir. Mar. 30, 2020) | Confirmed | All three are genuine, on-point summary orders in the employer-notification/§5F1.5(a) line, post-Jenkins. Ruff vacated outright; Lombardi and Piper remanded. All quote §5F1.5(a)'s two-part test verbatim. Strengthens the a fortiori argument for Bernecky. |
+| 20 | United States v. Salazar, 489 F.3d 555 (2d Cir. 2007) | **CORRECTED — drop entirely** | Unrelated case about post-Booker preponderance-of-evidence standard for Guidelines fact-finding in a cocaine-trafficking sentencing. Has nothing to do with supervised release, occupational restrictions, or §5F1.5. Remove from the employer-notification line. |
+| 21 | 42 C.F.R. § 447.15 | Confirmed | Medicaid payment-in-full/anti-balance-billing text confirmed verbatim. Still needs a factual predicate (Bernecky's Medicaid eligibility + providers' Medicaid-participation status) before use. |
+| 22 | Turner v. Rogers, 564 U.S. 431 (2011) | Confirmed (weak fit, as expected) | Four substitute procedural safeguards confirmed verbatim (notice, financial-info form, opportunity to respond, express ability-to-pay finding). Confirmed weak direct fit (civil contempt/incarceration posture) — use only as an analogical/prophylactic-relief template. |
+| 23 | Webster v. Fall, 266 U.S. 507 (1925) | Confirmed | "Questions which merely lurk in the record... are not to be considered as having been so decided as to constitute precedents" — confirmed verbatim. |
+| 24 | United States v. Olano, 507 U.S. 725 (1993) | Confirmed | Four-part plain-error framework confirmed verbatim (background doctrine only). |
+| 25 | 18 U.S.C. § 3583 | Confirmed | Full current text of (d) and (e)(2) quoted in the memo. Confirms (e)(2) contains no explicit "changed circumstances" language. |
+| 26 | U.S.S.G. §§ 5D1.3 and 5D1.4 | Confirmed + **major new finding** | §5D1.3 App. Note 2 confirms an implicit Fifth Amendment savings clause is read into "answer truthfully" (Standard Condition 4) as a matter of official Commission commentary — resolves that open research question. **§5D1.4(a) is a brand-new policy statement (amendment 835, eff. Nov. 1, 2025)** that expressly encourages the court to reassess conditions "in consultation with the probation officer after the defendant's release from imprisonment" — i.e., at/near commencement of supervision. This is the answer to the Track 14/procedural open question. |
+| 27 | GLMFull.pdf (2025 Guidelines Manual, full text) | Partially accessible; gap fully covered | Tool truncation prevented reaching Chapter Five directly (only reached ~page 72/Chapter Three). §5F1.5(a) exact text independently confirmed via 3 primary case quotations (item 20); §§5D1.3/5D1.4 confirmed via standalone files (item 26). No open question remains despite the access limitation. |
+
+---
+
 ## ALREADY CONFIRMED — read in full from a real opinion (Drive "Cases" folder). No action needed
 beyond a final pincite/quote spot-check if you want extra assurance before filing.
 
@@ -37,42 +77,25 @@ beyond a final pincite/quote spot-check if you want extra assurance before filin
 ## HIGH PRIORITY — verify before filing (foundational to a specific argument; currently
 secondary-source only)
 
-| # | Case/Authority | Citation | Used for | Why it matters |
-|---|---|---|---|---|
-| 1 | **United States v. Leone** | Unknown/unconfirmed | Special Condition (d) ability-to-pay (originally cited in the case file as already-gathered research) | **Could not be located or verified at all** despite two separate research passes. A search for "Leone" only surfaces the unrelated *United States v. Leon* (about supervised-release term length, not ability-to-pay). If you know where this citation came from, that's the fastest path — otherwise recommend dropping it; the fallback argument (internal consistency with Special Condition (a)'s own suspicion-gated structure) doesn't need it. |
-| 2 | **Bond v. United States** | 564 U.S. 211 (2011) | Lead authority for Bernecky's standing to raise the ultra vires/non-party-employer theory | This is the single most important citation supporting the whole standing argument — confirm the "seeks to vindicate her own constitutional interests" quote and holding before relying on it. |
-| 3 | **Bearden v. Georgia** | 461 U.S. 660 (1983) | Foundation of the entire fee/ability-to-pay argument | Bedrock SCOTUS case — should be easy to verify, but it's load-bearing for the whole fees section. |
-| 4 | **Von Behren** | 822 F.3d 1139 (10th Cir. 2016) | Polygraph — Fifth Amendment framing | Central to your original polygraph theory; not in the Cases folder, never independently read. |
-| 5 | **Minnesota v. Murphy** | 465 U.S. 420 (1984) | Polygraph + Standard Condition 4 — "penalty situation" doctrine | Doctrinal spine of the entire Fifth Amendment argument (both conditions). |
-| 6 | **Hoffman v. United States** | 341 U.S. 479 (1951) | Polygraph — "link in the chain of evidence" | Foundational SCOTUS quote used in the polygraph section. |
-| 7 | **Moore v. City of East Cleveland** | 431 U.S. 494 (1977) | Special Condition (c) — extended-family liberty interest | Central to the entire family-contact argument; SCOTUS plurality, should be readily available. |
-| 8 | **United States v. Betts** | 886 F.3d 198 (2d Cir. 2018) | Special Condition (h) alcohol; cross-cited for individualized-assessment standard elsewhere | Never read as a standalone opinion, but cross-corroborated across four other primary-read opinions (Kunz, Carlineo, Love, Gorychka all quote it identically) — high confidence, but still worth a direct pull since it's your lead case for the alcohol argument. |
-| 9 | **18 U.S.C. § 3603** | — | Statutory basis for the standing argument (PO's authority runs only to "a person... under his supervision") | Confirm exact current text — this is a short, easy statutory pull. |
-| 10 | **United States v. Lussier** | 104 F.3d 32 (2d Cir. 1997) | Special Condition (i) vacatur — no changed-circumstances showing required | Best-corroborated citation in the fees track, but still never independently read. |
+**All 10 items formerly listed here (Leone, Bond, Bearden, Von Behren, Murphy, Hoffman, Moore, Betts,
+§ 3603, Lussier) were verified in the Part 15 pass — see the CONFIRMED IN THIS PASS table above.
+Nothing remains in this priority tier.**
 
 ---
 
 ## MODERATE PRIORITY — verify if time allows; secondary-source only, less central
 
+**Myers, Dupes, DaSilva, Troxel, Reeves, Warth, Powers, Kowalski, Singleton, Lombardi/Ruff/Piper/Salazar,
+42 C.F.R. § 447.15, Turner v. Rogers, Webster v. Fall, Olano, and the U.S.S.G. § 5D1.3(d)/App. Note items
+formerly listed here were all verified in the Part 15 pass — see the CONFIRMED IN THIS PASS table above
+(Dupes and Salazar were corrected/dropped; everything else confirmed or confirmed-with-nuance). Remaining
+unresolved items:**
+
 | Case/Authority | Citation | Used for |
 |---|---|---|
-| United States v. Myers | 426 F.3d 117 (2d Cir. 2005) | Special Condition (c) lead case |
-| United States v. Bleau | 930 F.3d 35 (2d Cir. 2019) | Special Condition (c) |
-| United States v. Dupes | 513 F.3d 338 (2d Cir. 2008) | Special Condition (c) (loitering-clause specificity only — confirmed it does NOT support the family carve-out) |
-| United States v. DaSilva | 844 F.3d 8 (1st Cir. 2016) | Special Condition (c) — "knowledgeable adult" carve-out precedent (persuasive only) |
-| Troxel v. Granville | 530 U.S. 57 (2000) | Special Condition (c) (cuts both ways — read carefully before using) |
-| United States v. Reeves | 591 F.3d 77 (2d Cir. 2010) | Standard Condition 8 — general vagueness framework only (NOT a felon-association case, despite original file's characterization) |
-| Warth v. Seldin | 422 U.S. 490 (1975) | Standing — the on/off-switch test for third-party standing |
-| Powers v. Ohio | 499 U.S. 400 (1991) | Standing backstop |
-| Kowalski v. Tesmer | 543 U.S. 125 (2004) | Standing backstop |
-| Singleton v. Wulff | 428 U.S. 106 (1976) | Standing backstop |
-| Craig v. Boren | 429 U.S. 190 (1976) | Standing backstop |
-| United States v. Lombardi, Ruff, Piper, Salazar | 2d Cir., various | Cited as part of the employer-notification pattern (part13) — exact citations for each need confirmation; only Jenkins and Gorychka were pinned down with confidence |
-| 42 C.F.R. § 447.15 | — | Medicaid anti-balance-billing rule (fees) |
-| Turner v. Rogers | 564 U.S. 431 (2011) | Fees — procedural safeguards analogy (weaker fit, secondary use only) |
-| Webster v. Fall / Olano / Puckett / Marcus | Various | Plain-error/precedent doctrine (part10) — general appellate doctrine, lower stakes since the application to Brown's text is the real work product |
-| U.S.S.G. § 5D1.3(d) exact subsection | — | Special Condition (b) — confirm current Manual numbering for the sex-offense-treatment provision |
-| U.S.S.G. § 5D1.3 App. Note (Amdt. 803) | — | Standard Condition 4 — Fifth Amendment savings-clause commentary |
+| United States v. Bleau | 930 F.3d 35 (2d Cir. 2019) | Special Condition (c) — individualized-assessment/explanation requirement; not yet independently read |
+| Craig v. Boren | 429 U.S. 190 (1976) | Standing backstop — not yet independently read |
+| United States v. Puckett | — (plain-error doctrine) | Plain-error/precedent doctrine (part10) — not yet independently read; Olano and Webster v. Fall are now confirmed (see above), Marcus is confirmed via its restatement of the Olano test quoted within Ruff |
 
 ---
 
@@ -90,9 +113,15 @@ secondary-source only)
 
 ## Statutes/Guidelines needing a direct current-text pull (not case law, but still unverified)
 
-- 18 U.S.C. § 3603 (duties of probation officers)
-- 18 U.S.C. § 3583(d) and (e)(2) (conditions; modification standard)
-- U.S.S.G. § 5F1.5 (occupational restrictions) — quoted within Brown, but confirm current Manual numbering/text
-- U.S.S.G. § 5D1.3(d) (standard conditions, incl. sex-offense treatment and mental health subsections)
-- U.S.S.G. § 5D1.3 Application Note re: Fifth Amendment/"answer truthfully" (Amdt. 803, 2016)
-- 2025 USSG amendments to §§ 5D1.1/5D1.3 (individualized-assessment reform) — referenced across multiple memos from WebSearch synthesis only; **this ties directly into the new procedural research just requested**
+**All items formerly listed here were pulled and confirmed in the Part 15 pass** — see the CONFIRMED IN
+THIS PASS table above (items 9, 21, 25, 26, 27) and the full memo at
+`research-output/part15-master-verification.md` for verbatim text of 18 U.S.C. §§ 3603 and 3583(d)/(e)(2),
+U.S.S.G. § 5F1.5(a) (independently confirmed via three primary case quotations since GLMFull.pdf's
+Chapter Five could not be directly retrieved), and U.S.S.G. §§ 5D1.3 and 5D1.4 in full, including the
+Fifth Amendment savings-clause Application Note and the new (Nov. 2025, amendment 835) § 5D1.4(a)
+commencement-of-supervision reassessment language. Nothing remains in this section unresolved.
+
+Still open, not covered by this pass: whether/how a 2025 amendment to §§ 5D1.1 (as opposed to 5D1.3/5D1.4,
+both now confirmed) makes any additional individualized-assessment change — worth a narrow, targeted
+follow-up pull of § 5D1.1 specifically if time allows, though nothing in this pass suggests it materially
+changes the analysis above.
