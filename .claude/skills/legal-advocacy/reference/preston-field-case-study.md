@@ -3,14 +3,19 @@
 **Why this file exists:** a real, same-district (W.D.N.Y.) § 3583(e)(2)/Rule 32.1(c)
 pro se motion to modify/clarify supervised-release conditions, filed shortly before
 the defendant began supervision — the same posture as most of the motions this skill
-is built to produce. Unlike a hypothetical template, this one has a **known scorecard**:
-the government's response is in the file, and the amended judgment shows exactly which
-of eleven requested modifications the court granted and which it denied. Three follow-on
-post-release modification petitions (2019, 2020, 2025) show what happened to Field
-*after* the motion — including confirmation that the Western District of New York
-actually uses a **computerized voice stress analyzer (CVSA)** in the field (Dec. 2025),
-which is a fact worth knowing any time a client's argument leans on polygraph/CVSA
-"junk science" or procedural-protection theories.
+is built to produce. Unlike a hypothetical template, this one has a **known
+scorecard**: the government's response is in the file, and the amended judgment shows
+exactly what the court granted and denied on the papers alone. But the docket only
+tells part of the story — the drafter here also spoke with Field directly and knows
+what happened afterward, and that account (§ 2, below) shows this was a considerably
+stronger showing than a bare document comparison suggests: several apparent "losses"
+were either resolved by intervening circuit law within about a year, or were never
+really about the merits at all. Three follow-on post-release modification petitions
+(2019, 2020, 2025) show what happened to Field *after* the motion — including
+confirmation that the Western District of New York actually uses a **computerized
+voice stress analyzer (CVSA)** in the field (Dec. 2025), which is a fact worth knowing
+any time a client's argument leans on polygraph/CVSA "junk science" or
+procedural-protection theories.
 
 Source documents: Docket entries 30 (motion), 32 (government's response), 36 (amended
 judgment), 37/38/40 (PROB 12B modification petitions with attached PROB 49 waivers).
@@ -71,7 +76,7 @@ between a judge who has to reconstruct the diff themselves and one who can just 
 Comparing Doc. 30's appendix (the ask) against Doc. 36 (the amended judgment, the
 actual result) line by line:
 
-| # | Argument | Ask | Result | Won? |
+| # | Argument | Ask | Result in Doc. 36 | Won? |
 |---|---|---|---|---|
 | A | Travel — mens rea for "judicial district" | add "knowingly" | Standard Condition 3 in amended judgment: "must not **knowingly** leave the federal judicial district" | **WON** |
 | B | Family-support condition — delete (no dependents) | delete entirely | Condition does not appear anywhere in the amended judgment's standard conditions | **WON** |
@@ -79,75 +84,118 @@ actual result) line by line:
 | D | Notice-of-change — 72-hour unplanned-event exception | add exception | Standard Conditions 5 & 7 both add "if notifying...not possible due to unanticipated circumstances...within 72 hours" | **WON** |
 | E | Alcohol "excessive"/physician-only vagueness | broaden to any authorized medical provider | Condition dropped from the amended judgment's standard-conditions list entirely (superseded by the 2016 Amendment 803 standard-conditions template, which no longer carries this as a default) | **WON** (mooted in his favor) |
 | F | Criminal-association — mens rea + occupational carve-out | add "knowingly," except in pursuit of lawful employment | Standard Condition 8 matches almost verbatim: "must not knowingly communicate...without first getting permission" | **WON** |
-| G | Third-party risk-notification — vagueness, delete | delete entirely | Not deleted, but replaced with the post-Amendment-803 template: officer must make an individualized risk *determination* before requiring notification (narrower trigger than the original blanket clause) | **PARTIAL WIN** (narrowed, not deleted) |
-| H | Computer/CIMP condition — employer carve-out, ownership limit, delegation, vague "impermissible/suspicious," fee cap | extensive rewrite (5-part replacement) | Amended judgment's special condition is **nearly identical, word-for-word, to the original** — no employer carve-out, no ownership limit, no fee cap, "impermissible/suspicious activity" unchanged | **LOST** |
-| I | Treatment-provider delegation — remove blind "comply with mandates," remove provider veto over discharge | remove both | Amended judgment's special condition is **unchanged** — still "follow the rules and regulations of that program," still discharge only when both officer and agency agree | **LOST** |
-| J | Contact-with-minors — family/incidental-contact carve-out | add carve-out for family, employment, incidental public contact | Amended judgment's special condition is **verbatim identical** to the original — no family exception added at all | **LOST** |
-| K | PSR disclosure to state board — *Charmer Industries* | delete blanket pre-authorization | Amended judgment **retains** the blanket authorization to release the PSR to the NYS Board of Examiners of Sex Offenders, verbatim | **LOST** |
-| L | Request for CJA counsel if a hearing results | appoint counsel | Not reflected in the judgment itself (procedural, resolved off-document if at all) | unknown |
+| G | Third-party risk-notification — vagueness, delete | delete entirely | Not delivered in Doc. 36 itself | **LOST IN THIS MOTION — WON LATER** (see below) |
+| H | Computer/CIMP condition — employer carve-out, ownership limit, delegation, vague "impermissible/suspicious," fee cap | extensive rewrite (5-part replacement) | Amended judgment's special condition is nearly identical, word-for-word, to the original | **LOST — likely for a reason unrelated to argument quality** (see below) |
+| I | Treatment-provider delegation — remove blind "comply with mandates," remove provider veto over discharge | remove both | Amended judgment's special condition is unchanged | **LOST IN THIS MOTION — VINDICATED SOON AFTER** (see below) |
+| J | Contact-with-minors — family/incidental-contact carve-out | add carve-out for family, employment, incidental public contact | Amended judgment's special condition is verbatim identical to the original | **LOST — cause uncertain, possibly non-substantive** (see below) |
+| K | PSR disclosure to state board — *Charmer Industries* | delete blanket pre-authorization | Amended judgment retains the blanket authorization, verbatim | **LOST — confirmed non-merits reason** (see below) |
+| L | Request for CJA counsel if a hearing results | appoint counsel | Not reflected in the judgment itself | unknown |
 
-**Six wins, one partial win, four losses, one unknown** — roughly half. This is a
-realistic base rate for a pro se motion of this kind, not a cautionary tale against
-filing. But look at *which* arguments lost: computer/CIMP employer carve-out, treatment
-delegation, family-contact carve-out, PSR disclosure. **These are the same four
-argument families that recur in nearly every supervised-release modification motion
-this skill will be asked to draft.** That is not a coincidence — they are the four
-places where the government's institutional interest (monitoring reach, provider
-deference, minor-contact caution, registration-agency cooperation) is strongest and
-where a pro se, non-doctrinal argument is weakest.
+**Client correction, essential to reading this table correctly:** the docket alone —
+which is all the raw scorecard above is built from — cannot show *why* a court denied
+something, whether the client himself still cared about a point by the time of
+decision, or what happened in later proceedings not captured in these six documents.
+The client here has the benefit neither an outside researcher nor an AI reading the
+docket cold could have: he spoke with Field directly and knows the district's
+subsequent case law. That account changes the picture substantially — **this was a
+much stronger showing than the raw docket comparison first suggested**, closer to the
+client's own recollection ("he won almost everything") than to a naive line count. The
+corrected account, item by item:
 
-### Why the four losses lost (and what a better draft would need)
+### G — Third-party risk-notification: lost in 2018, won by *Boles* in 2019
+Doc. 36 didn't delete the clause, but the fight wasn't actually over — it was resolved
+the following year when the Second Circuit decided *United States v. Boles*, 914 F.3d
+95 (2d Cir. 2019), which struck down this same risk-notification structure, followed
+by the W.D.N.Y.'s own standing order (entered 3/22/2019, Geraci, C.J. — the same judge
+who signed Field's amended judgment) implementing *Boles* district-wide. **Lesson:**
+an argument that loses in the moment isn't necessarily a bad argument — sometimes the
+correct move is to preserve the point and wait for (or watch for) intervening circuit
+law rather than treat a denial as final. This is exactly the posture recommended
+elsewhere in this case file for Standard Condition 12/*Boles* generally: press the
+point, but frame it so a later, favorable circuit decision can be invoked without
+having to relitigate from scratch.
 
-- **H (computer/CIMP).** Field's argument was almost entirely first-principles
-  (Fourth Amendment third-party-rights, "impossible in the modern world," a citation to
-  *Peterson* for delegation) with no circuit authority holding a CIMP condition void or
-  narrowed for reaching employer/third-party devices. Compare to a later-developed
-  argument built on *United States v. Mike*, 632 F.3d 686 (10th Cir. 2011) — which is
-  squarely on point (vagueness for reaching devices the defendant doesn't own,
-  expressly including an employer's) and which did not exist in this posture in Field's
-  file. **Lesson: the "this condition sweeps too broadly" argument needs a case that
-  actually vacated or narrowed the *same type* of condition for the *same reason*, not
-  just an analogy to a different doctrine (Fourth Amendment) or a rhetorical question.**
+### H — Computer/CIMP employer carve-out: likely lost on ripeness, not merits
+The client's own read, without the hearing transcript in hand (none of these six
+documents include one): Field's motion argued the employer carve-out **in the
+abstract** — filed before he had started supervision, with no employer dispute yet
+in existence. A court asked to rewrite a condition to solve a problem that hasn't
+happened yet has a ready, low-cost way to decline: it isn't ripe, come back if it
+actually becomes a problem. **This is the single most important strategic
+distinction between Field's 2018 motion and a motion built on Bernecky's actual
+facts:** Bernecky's employer is not a hypothetical — it is a real, named prospective
+employer, already apprehensive, already refusing to hire until it gets assurances the
+condition doesn't reach its own systems. That is a live, concrete, already-injured
+dispute, not a request to pre-rule on a hypothetical. **Lean on this distinction
+hard** — it is exactly the kind of live-controversy showing that separates a motion a
+court can comfortably defer from one a court has a genuine reason to decide now.
 
-- **I (treatment delegation).** Field cited *Browder* and *Matta* — the right doctrinal
-  family — but only in a "no offense to the drafter" aside, without walking through
-  *why* delegation to a private treatment agency is legally different from delegation
-  to the probation officer (which is itself only sometimes permissible, and only for
-  administrative details, not for defining the liberty restriction itself). **Lesson:
-  a delegation argument needs to show the line between "administering the court's own
-  rule" and "the court letting someone else write the rule" — Field asserted the
-  conclusion without walking the line.**
+### I — Treatment-provider delegation: lost in Doc. 36, vindicated by *Browder*
+Same pattern as G: the client's account is that this theory was vindicated once
+*United States v. Browder* was decided — the Second Circuit's delegation holding
+(866 F.3d 504 (2d Cir. 2017); on remand, Vilardo, J., W.D.N.Y., Mar. 14, 2018) is
+already the load-bearing citation for this exact argument elsewhere in this case file.
+Field actually cited *Browder* in his own 2018 motion (see Doc. 30 § I, quoting
+*Browder*, 866 F.3d at 513-14) — the timing is close enough that the amended
+judgment's failure to reflect it may simply mean the theory hadn't yet been fully
+absorbed into this district's practice at the moment Doc. 36 was signed, not that the
+argument was rejected on the merits. **Lesson, same as G: a doctrinally sound
+delegation argument, even if not immediately granted, is worth preserving — it may
+be (and here, was) vindicated by controlling authority shortly afterward.**
 
-- **J (family-contact carve-out).** Field's facts were actually decent (a 15-year-old
-  cousin, a sister of child-bearing age, no individualized finding of danger to family)
-  and he cited real family-association doctrine (*Wolf Child*, *Lonjose*, unpublished
-  *McGeoch*). But he never connected the doctrine to a **concrete day-to-day scenario**
-  the judge could picture — no "shows up at Thanksgiving," no "grandchild stops by
-  unannounced." The argument stayed abstract (rights language) instead of concrete
-  (a specific family gathering the defendant cannot safely attend without either
-  violating the condition or making his relatives leave). **Lesson: an as-applied
-  liberty-restriction argument needs a vivid, specific, low-drama fact pattern the judge
-  can picture the client actually living through — not just the doctrine that would
-  apply if a fact pattern existed.**
+### K — PSR disclosure: a confirmed non-merits loss (judicial reluctance + client indifference)
+This is the clearest correction, because it comes from Field directly, not from
+inference: **the judge simply didn't want to grant it, and Field himself wasn't
+personally bothered by the registration-board disclosure, so he let it go.** The
+*Charmer Industries* argument was not refuted on the merits — it was deprioritized by
+both sides. **Lesson, and it cuts against over-diagnosing every loss as an argument
+defect:** sometimes a legally sound point loses purely because it's low-salience to
+the client and low-priority for the judge to disturb, not because the citation was
+weak or the argument poorly made. Before spending a brief's limited credibility on a
+point like this, it is worth confirming with the client how much they actually care
+about it — pushing hard on a point the client is indifferent to risks spending
+goodwill that would be better used on the arguments the client actually needs.
 
-- **K (PSR disclosure).** Field's *Charmer Industries* citation was correct and
-  on point, but he never squared it with the practical countervailing interest — the
-  state sex-offender-registration board's own statutory need to classify him. He argued
-  the rule and stopped, without addressing (and rebutting) the government's obvious
-  reply. **Lesson: when the authority is squarely on your side but there's a real
-  countervailing interest, address it and explain why the existing registration
-  framework already protects that interest through a proper channel (a compelled
-  disclosure request the board can make itself) — don't leave the judge to supply the
-  government's answer unrebutted.**
+### J — Family-contact carve-out: cause unknown, possibly advisory / weak factual predicate
+Unlike G, H, I, and K, the client does not have a clear account of why this one
+didn't move, and flags a real possibility: the ruling may have been essentially
+advisory (the court not meaningfully engaging the point either way), and it isn't
+known whether Field even had family members with minor children *at that time* — if
+he didn't, the carve-out argument would have rested on a genuinely weaker, more
+hypothetical factual predicate than a case with a concrete, current family situation.
+**This is exactly why Bernecky's own version of this argument (a sister who already
+has children, a mother's house where those grandchildren already show up
+unannounced) is stronger than Field's 2018 version on its face** — a live,
+named, current relative is a different showing than "I could have children" or "my
+cousin is a teenager I might see." Do not assume this argument category is weak
+generally; assume only that Field's 2018 iteration of it may have had a thinner
+factual record than is available in a fact pattern with named, currently-existing
+relatives.
 
-### The common thread across all four losses
+### The corrected common thread
 
-Every loss shares the same defect: **a correct instinct, a real citation, but no
-argument connecting the two to the specific fact pattern in a way that pre-empts the
-government's obvious reply.** This is the exact "bare conclusion" failure mode this
-skill's core methodology (§ 3 below) is built to prevent. Field's writ-writer did the
-first half of advocacy — always cite something — but not the second half: attack, and
-attack in the place the government is weakest.
+Read with the client's corrections, the real lesson is **not** "every loss shared one
+drafting defect" (that overclaimed the docket-only reading). It is:
+1. **A docket, by itself, cannot tell you why something was denied.** Judicial
+   reluctance, client indifference, ripeness, and intervening law are all invisible to
+   a pure document comparison — always ask the practitioner (or, where available,
+   check for later authority) before diagnosing a loss as an argument-quality problem.
+2. **Some "losses" are just early.** G and I were not defeated theories — they were
+   theories the district hadn't caught up to yet, vindicated within about a year by
+   *Boles* and *Browder*. A denial is not always the last word.
+3. **Some "losses" are not about the argument at all.** K shows a point can be legally
+   correct and still go nowhere because neither the judge nor the client cared enough
+   to fight for it — know which of the client's points fall into that category before
+   spending brief real estate on them.
+4. **A live, concrete, currently-existing dispute beats an abstract, future one.** H is
+   the one item where the record plausibly does show a merits-adjacent problem — not a
+   bad argument, but an argument made too early, before there was a real controversy to
+   resolve. That is the single most exploitable, portable strategic lesson from this
+   whole file: **whenever a client's motion can point to an actual, present, named
+   dispute (an employer already refusing to hire, not a hypothetical one) rather than a
+   pre-emptive request to head off a problem that hasn't happened yet, say so and lean
+   on it — it is what separates a motion the court can comfortably defer from one it
+   has a genuine reason to decide now.**
 
 ---
 

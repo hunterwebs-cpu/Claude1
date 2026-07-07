@@ -340,17 +340,43 @@ more than another hour of law-review reading, because it tells you which version
 an argument a real court actually accepted.
 
 See `reference/preston-field-case-study.md` for a full worked example: a W.D.N.Y.
-supervised-release modification motion with a documented scorecard (six wins, one
-partial win, four losses across eleven requested modifications) and a diagnosis of
-*why* each loss lost — in every case, a correct instinct and a real citation, but no
-argument connecting the two to the specific fact pattern in a way that pre-empted the
-government's obvious reply. That diagnosis is the single most reusable lesson in this
-skill: **a citation is necessary, but it is not the argument. The argument is why
-this citation, applied to these facts, forecloses that reply.**
+supervised-release modification motion with a documented scorecard built from the
+docket alone (six wins, one partial win, four losses across eleven requested
+modifications) — and then a materially different, more accurate picture once the
+drafter's own knowledge of what actually happened (conversations with the client,
+awareness of subsequent circuit law) was folded in. Several apparent "losses" turned
+out to be arguments vindicated within about a year by intervening authority, one
+turned out to be a point neither the judge nor the client cared enough about to fight
+for (not a merits failure at all), and only one showed a plausible merits-adjacent
+gap — and even that one is best explained by the motion being filed before a live
+dispute existed, not by weak argumentation.
+
+**The single most important lesson from this exercise is not about Field's motion at
+all — it is about the method:** a docket comparison alone cannot tell you *why* a
+court denied something. Judicial reluctance, client indifference, ripeness, and
+intervening law are all invisible to a pure document comparison. Treat a docket-only
+scorecard as a first draft of the analysis, not the final word — always ask the
+practitioner directly (if available) what actually happened before diagnosing a loss
+as an argument-quality problem, and check for later authority that may have vindicated
+a theory the papers alone show as denied. Getting this wrong risks the exact opposite
+error the rest of this skill guards against: instead of overclaiming a citation's
+strength, it overclaims a *loss's* meaning, treating a fine argument as a bad one.
+
+Where a genuine merits-relevant lesson does emerge, the most portable one from this
+file is about *timing*, not doctrine: a motion built on an actual, present, named
+dispute (an employer already refusing to hire pending assurances) gives a court a
+live controversy to resolve, where the same argument made pre-emptively, before any
+concrete dispute exists, gives a court an easy, low-cost reason to defer. When a
+current client's fact pattern includes a live dispute a predecessor motion lacked,
+say so explicitly and lean on it — it is a real, substantive distinction, not just a
+sympathetic detail.
 
 When using a prior client's file this way:
 - Extract structure, technique, and outcome — never import the prior client's facts,
   admissions, or violations into the current client's motion.
+- Before concluding an argument "lost," ask the practitioner (if available) whether it
+  was actually decided on the merits, deprioritized by mutual agreement, or later
+  vindicated by intervening authority — the docket alone will not tell you which.
 - Check whether a losing (or winning) argument's fact pattern would have covered the
   prior client's own later conduct, if any is in the file — an argument that would not
   have prevented a client's own subsequent violation is a warning sign that the theory
