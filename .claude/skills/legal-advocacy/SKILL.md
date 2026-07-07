@@ -1,6 +1,6 @@
 ---
 name: legal-advocacy
-description: General-purpose legal advocacy and motion-drafting methodology — subject-matter agnostic. Covers the core advocacy philosophy (cite-and-attack, chess not checkers), the argument-construction protocol (canon + case for every conclusion, reductio/absurdity technique, anticipate-the-reply), the holistic-drafting rule (never patchwork-edit a finished document), research-rigor and gap-honesty standards, style calibration from precedent briefs, a pre-filing quality checklist, and the docx/pdf formatting pipeline. Distilled from a Western District of New York supervised-release modification practice (Bernecky, Preston Field) but written to apply to any adversarial legal filing.
+description: General-purpose legal advocacy and motion-drafting methodology — subject-matter agnostic. Covers the core advocacy philosophy (cite-and-attack, chess not checkers), a voice/register guide drawn from the drafter's own prior filings (respectful-but-blunt, candor about bad facts, predictive framing/self-vindication, aphoristic reductio, lists-only-with-purpose), the argument-construction protocol (canon + case for every conclusion, reductio/absurdity technique, anticipate-the-reply), the holistic-drafting rule (never patchwork-edit a finished document), research-rigor and gap-honesty standards, style calibration from precedent briefs, a pre-filing quality checklist, and the docx/pdf formatting pipeline. Distilled from a Western District of New York supervised-release modification practice (Bernecky, Preston Field) plus a broader body of the same drafter's federal habeas, § 3582, FTCA, and appellate filings — written to apply to any adversarial legal filing.
 ---
 
 # Legal Advocacy Skill — Motion and Brief Drafting, Any Subject Matter
@@ -43,7 +43,141 @@ If either answer is missing, the section is not done.
 
 ---
 
-## 2. The Reductio / Absurdity Technique
+## 2. Voice and Register — Respectful, Blunt, Candid, Concrete
+
+Drawn from a real body of the drafter's own filings (a Third Circuit appellate
+response, a § 2241 habeas reply and supporting declaration, a § 3582(c)(2)
+sentence-reduction reply, an FTCA opposition to a motion to dismiss, and an advocacy
+letter to a non-court third party) — not generic "sound persuasive" advice, but
+specific, repeatable techniques actually used across these documents.
+
+### Respectful to the tribunal, unbashful about the opponent
+Every filing stays formally respectful to the court while being direct — sometimes
+blunt — about the opposing party's conduct. Calling out misconduct is not hedged into
+passive voice:
+
+> "This appears to be a deliberate attempt to mislead the Court."
+> "The government's attempt to rely on this inaccurate information exemplifies its bad faith."
+> "To suggest that [the cited case] resolves [this question] is not merely misleading; it is a profound fabrication of the record."
+> "The Government handed this Court documents that confirm the Plaintiff's account while arguing they prove the opposite."
+
+The register: state the accusation as a factual finding the record supports, not as a
+rhetorical flourish. Never insult; always indict with specifics.
+
+### Give the other side its due
+The same drafter who accuses the government of bad faith also concedes cleanly,
+without hedging, when a point is not winnable:
+
+> "Plaintiff concedes one point only: the discretionary function exception bars the
+> negligent supervision and training theory within Count II. That concession is the
+> beginning and end of the Government's meritorious arguments."
+
+A narrow, explicit concession, immediately bounded ("the beginning and end"), is more
+credible than silence on a weak point — it signals the rest of the brief can be
+trusted because the drafter is willing to fold where folding is correct.
+
+### Never hide bad facts about your own client
+Full candor about the client's own unflattering facts is a feature, not a risk to
+manage. Client's own instruction, verbatim, describing a supervised-release
+recidivist:
+
+> "[He] is a recidivist, plain and simple, and his conditions should be more strict
+> than previously — but not at the expense of living."
+
+The model: concede the aggravating fact plainly (no minimizing, no euphemism),
+concede it justifies a real consequence (stricter conditions), then draw the actual
+line the brief is fighting for (stricter, but not to the point of destroying a
+livelihood). A brief this candid about bad facts earns more trust on everything else
+in it than one that avoids the word "recidivist" and hopes the court doesn't notice
+the record. Compare *United States v. Grober*'s contact/non-contact distinction
+(§ 6, below): same technique — state the true, checkable category the client falls
+in, including the unflattering parts, and argue from there, not around it.
+
+### Predictive framing, then self-vindication on reply
+The sharpest structural technique in this body of work: in an opening filing,
+predict specifically what the opponent will do — in the opponent's own likely
+words — then, if the opponent does exactly that, quote the prediction back to the
+court in the reply.
+
+> Petition (opening): "The Bureau will inevitably attempt to remedy this facial
+> deficiency — through post-hoc declarations from staff claiming that they
+> 'considered' the factors in their minds. This Court must reject such retroactive
+> justifications. The administrative record must stand on its own."
+>
+> Reply (four months later, after the government did precisely that): "On May 8,
+> 2026 — four months later, and precisely on schedule — the government filed the
+> Declaration of Scott Tedesco. The prediction was correct. The government has done
+> exactly what Petitioner warned it would do."
+
+This makes the opponent's move look institutionally predictable and cynical rather
+than responsive, and lets the reply open with vindication instead of bare rebuttal.
+Build this in deliberately: identify the opponent's most likely procedural or
+evidentiary move in the *opening* brief, name it explicitly, and explain in advance
+why it should fail — so the reply, if the prediction lands, becomes a victory lap.
+
+### Turn the opponent's own remedy into proof of the violation
+When the opponent files something *to fix* a defect, argue that the filing itself
+proves the defect existed:
+
+> "The government needed a declarant because the Progress Report does not say what
+> the government needs it to say. That need proves the deficiency, not the remedy."
+
+And, turning the opponent's own documents against their own argument — quote the
+opponent's own exhibit, not a paraphrase of it, so the court sees the contradiction
+in the opponent's own words or data:
+
+> "The Government submitted those records. The Government relied on the fill-date
+> column to argue that Mr. Khan received his medications. The Government did not
+> mention the distribution column. That column ... shows either 'Not Distributed,' a
+> blank field... The Government handed this Court documents that confirm the
+> Plaintiff's account while arguing they prove the opposite."
+
+### Aphoristic reductio — short, declarative, hard to argue with
+Complex statutory arguments compress well into a short, near-proverbial sentence a
+judge can quote back in an opinion:
+
+> "A portion cannot be zero. Zero is not a part of a whole — it is the absence of a
+> part."
+> "Duration. Not eligibility."
+
+These work because they are simple enough to be self-evidently true and specific
+enough to resolve the exact dispute — not because they are clever. Reach for this
+compression *after* the doctrinal argument is fully built, as the sentence that
+distills it, not as a substitute for the doctrinal work.
+
+### Direct, numbered questions posed to the tribunal
+Rather than only asserting conclusions, pose the court's actual legal question as an
+explicit, numbered question when the argument's core is a discrete question of law
+(as opposed to a multi-factor balancing test):
+
+> "1. Does 18 U.S.C. § 3624(c)(1)'s command that the Director 'shall ensure' a
+> prisoner spends 'a portion' of final months in pre-release custody permit the BOP
+> to award zero days via administrative fiat?
+> 2. Do the § 3621(b) factors govern duration or eligibility?
+> 3. Does § 3624(c)(6)(B)'s command that decisions be 'determined on an individual
+> basis' permit categorical exclusions?"
+
+This frames the court's job as answering a discrete question, not wading through
+prose to extract one.
+
+### Lists only in service of an advocacy purpose — never as filler
+Numbered/lettered structure appears throughout this body of work, but always doing
+rhetorical work, never as a substitute for connected prose:
+- "on four independent grounds" / "on five independent grounds" — signals that any
+  one basis alone would suffice, so the court doesn't have to accept every point to
+  rule for the client.
+- Relief-requested lists (lettered a–h) — a different genre entirely (a court order
+  needs discrete, separately-orderable findings), not a stylistic default.
+- The numbered legal questions above — posed because the court must answer discrete
+  questions, not because numbering looks organized.
+
+Never break connected legal reasoning into bullet fragments merely to make a page
+look organized. If a list doesn't change what the court has to decide, and doesn't
+let the court act on any one item independently, it should be prose instead.
+
+---
+
+## 3. The Reductio / Absurdity Technique
 
 One of the sharpest tools available: when the opponent's own conduct or position
 demonstrates that a broad literal reading is untenable, **use their own confusion as
@@ -89,7 +223,7 @@ reading is wrong *in general*, not just inconvenient here.
 
 ---
 
-## 3. The Holistic-Drafting Rule (Never Patchwork-Edit)
+## 4. The Holistic-Drafting Rule (Never Patchwork-Edit)
 
 **The single most important process lesson from this practice:** a finished or
 near-finished document cannot be safely edited by isolated patches. Every edit to one
@@ -125,7 +259,7 @@ same pattern occurs, not just the example the reviewer happened to point at.
 
 ---
 
-## 4. Research Rigor and Gap-Honesty
+## 5. Research Rigor and Gap-Honesty
 
 Advocacy without rigor is just assertion with adjectives. Every citation needs a
 verification status, and every gap in the law needs to be disclosed as a gap, not
@@ -161,11 +295,13 @@ that references the same fact.
 
 ---
 
-## 5. Style Calibration — What Precedent Briefs Teach
+## 6. Style Calibration — What Precedent Briefs Teach
 
 Before drafting in a new register (new court, new subject matter, new client voice),
 read 2-3 of the drafter's own prior filings that succeeded, and extract *technique*,
-not boilerplate:
+not boilerplate. (For the specific rhetorical techniques found this way — predictive
+framing, aphoristic reductio, candor about bad facts, and the rest — see § 2 above;
+this section is about the *process* of extracting them, not the catalog itself.)
 
 - **Categorical honesty as a persuasion tool.** A compassionate-release motion for a
   CP-possession client opened not by minimizing the offense, but by immediately and
@@ -194,7 +330,7 @@ choices made on page one constrain what page ten can credibly do.
 
 ---
 
-## 6. Track-Record Awareness — Learn From the Same Court's Own History
+## 7. Track-Record Awareness — Learn From the Same Court's Own History
 
 Before drafting a motion type that has likely been filed before (in the same
 district, on the same condition type, by the same client or firm), search for prior
@@ -226,7 +362,7 @@ When using a prior client's file this way:
 
 ---
 
-## 7. Anticipating the Reply — Structural Sequencing
+## 8. Anticipating the Reply — Structural Sequencing
 
 Order arguments so the strongest, most procedurally prior point leads (a threshold
 defect that resolves the whole condition beats a proportionality argument that only
@@ -248,7 +384,7 @@ counter:
 
 ---
 
-## 8. Client-Directive Logging Convention
+## 9. Client-Directive Logging Convention
 
 Maintain a running `client-directives.md` (or equivalent) for any matter with more
 than one drafting round. Every substantive correction, reframe, or new instruction
@@ -264,7 +400,7 @@ same drafter) a full account of *why* the document looks the way it does.
 
 ---
 
-## 9. Pre-Filing Quality Checklist
+## 10. Pre-Filing Quality Checklist
 
 ### Argument Construction
 - [ ] Every legal conclusion has a citation; every citation has an explanation of why
@@ -275,6 +411,16 @@ same drafter) a full account of *why* the document looks the way it does.
 - [ ] No unwanted fallback relief is drafted in without explicit client sign-off
 - [ ] Reductio/absurdity examples (if used) reach beyond the immediate dispute to the
       sharpest, most unrelated illustration available
+
+### Voice and Register
+- [ ] Any accusation against the opposing party is stated as a specific, record-backed
+      finding, not a hedge or an unsupported adjective
+- [ ] Any losing or weak point is conceded explicitly and narrowly, not left silent
+- [ ] Any unflattering fact about the client is stated plainly, not minimized or
+      euphemized, and is turned into the actual line the brief is drawing
+- [ ] Lists are used only where they do genuine advocacy work (independent grounds,
+      separately-orderable relief, a discrete legal question) — not as organizational
+      filler for prose that should just be prose
 
 ### Document-Wide Consistency (Holistic Pass)
 - [ ] Full front-to-back re-read completed after the last round of edits — not just a
@@ -307,7 +453,7 @@ same drafter) a full account of *why* the document looks the way it does.
 
 ---
 
-## 10. Formatting Pipeline — Markdown to Court-Ready Document
+## 11. Formatting Pipeline — Markdown to Court-Ready Document
 
 For a polished, reviewable deliverable (docx for tracked-changes review, PDF for
 filing), do not rely on a single conversion tool's defaults — they leak inconsistent
@@ -338,7 +484,7 @@ regexes for the new matter rather than rebuilding the pipeline from scratch.
 
 ---
 
-## 11. Scanned-Document OCR Workflow
+## 12. Scanned-Document OCR Workflow
 
 Court dockets and Drive uploads are frequently scanned PDFs with no usable text
 layer — a Drive `read_file_content` or `download_file_content` call will return only
@@ -364,7 +510,7 @@ page-header bates stamps, not the substantive text. When this happens:
 .claude/skills/legal-advocacy/
   SKILL.md                              ← this file
   reference/
-    preston-field-case-study.md         ← worked track-record example (§ 6)
+    preston-field-case-study.md         ← worked track-record example (§ 7)
     [additional case studies as they accumulate]
 ```
 
