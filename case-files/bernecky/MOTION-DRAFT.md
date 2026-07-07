@@ -13,7 +13,7 @@ JEFFREY BERNECKY,
 # DEFENDANT'S MOTION TO MODIFY CONDITIONS OF SUPERVISED RELEASE
 ## PURSUANT TO 18 U.S.C. § 3583(e)(2)
 
-Defendant Jeffrey Bernecky, proceeding pro se, respectfully moves this Court, pursuant to 18 U.S.C. § 3583(e)(2) and Federal Rule of Criminal Procedure 32.1(c), to modify the conditions of supervised release imposed by the Judgment entered June 12, 2018 (Dkt. 28). In support of this motion, Mr. Bernecky states as follows.
+Defendant Jeffrey Bernecky, proceeding *pro se*, respectfully moves this Court, pursuant to 18 U.S.C. § 3583(e)(2) and Federal Rule of Criminal Procedure 32.1(c), to modify the conditions of supervised release imposed by the Judgment entered June 12, 2018 (Dkt. 28). In support of this motion, Mr. Bernecky states as follows.
 
 
 ## PRELIMINARY STATEMENT
@@ -65,7 +65,7 @@ The authority for saying so plainly does not rest on the formalities governing h
 
 **2. Even if an occupational restriction were found to exist, no U.S.S.G. § 5F1.5 finding supports it, and Mr. Bernecky's own facts make that plain.**
 
-Section 5F1.5(a) requires "a reasonably direct relationship . . . between the defendant's occupation, business, or profession and the conduct relevant to the offense of conviction," together with a necessity finding. This district's own recent case law treats even a mandatory employer-*notification* requirement as a de facto occupational restriction demanding that finding. *See United States v. Love*, No. 24-1706-cr, 2025 WL 1077176 (2d Cir. Apr. 8, 2025); *United States v. Jenkins*, 854 F.3d 181 (2d Cir. 2017); *United States v. Ruff*, No. 18-3247-cr (2d Cir. Nov. 14, 2019) (vacating); *United States v. Lombardi*, No. 17-2352-cr (2d Cir. Mar. 22, 2018) (remanding); *United States v. Piper*, No. 19-1058-cr (2d Cir. Mar. 30, 2020) (remanding).
+Section 5F1.5(a) requires "a reasonably direct relationship . . . between the defendant's occupation, business, or profession and the conduct relevant to the offense of conviction," together with a necessity finding. This district's own recent case law treats even a mandatory employer-*notification* requirement as a *de facto* occupational restriction demanding that finding. *See United States v. Love*, No. 24-1706-cr, 2025 WL 1077176 (2d Cir. Apr. 8, 2025); *United States v. Jenkins*, 854 F.3d 181 (2d Cir. 2017); *United States v. Ruff*, No. 18-3247-cr (2d Cir. Nov. 14, 2019) (vacating); *United States v. Lombardi*, No. 17-2352-cr (2d Cir. Mar. 22, 2018) (remanding); *United States v. Piper*, No. 19-1058-cr (2d Cir. Mar. 30, 2020) (remanding).
 
 If a mandatory *notification* clause is enough to trigger § 5F1.5 in that line of cases, a condition that has already produced a considerably more burdensome, textually unsupported capability question in practice — as this one has — is at least as strong a candidate for the same treatment — particularly because Mr. Bernecky's own condition contains no notification requirement at all; he disclosed voluntarily, going further than anything the condition required of him.
 
@@ -87,7 +87,9 @@ Nearly all offenses of this kind occur in one place — a private residence — 
 
 **5. Requested relief.**
 
-The Court should enter an order clarifying and, to the extent necessary, modifying Special Condition (a) to provide: (i) that Mr. Bernecky may satisfy any employer-facing aspect of the condition either by voluntary disclosure of his conviction to the employer, without any further employer-permission showing, or, independently, by the employer's consent to monitoring of its own systems on an "as permitted by the employer" basis modeled on *Brown*'s own structure — with an employer's refusal to permit monitoring deemed neither a violation by Mr. Bernecky nor a bar to his employment; (ii) that the devices actually subject to monitoring are limited to those Mr. Bernecky owns and keeps or brings to his residence that are capable of accessing, storing, or displaying image content, consistent with the condition's own "internet capable device" language; and (iii) that Mr. Bernecky is prohibited from using another person's personal device, in lieu of any monitoring or capability-parity demand directed at that person's property.
+The Court should enter an order clarifying and, to the extent necessary, modifying Special Condition (a) to provide: (i) that Special Condition (a) confers no authority over an employer's own systems and imposes no obligation on any employer to demonstrate anything about its own monitoring capability, so that Mr. Bernecky's voluntary disclosure of his conviction to the employer — which he has already made — is, on its own, all that this condition could ever require of him with respect to an employer; (ii) that the devices actually subject to monitoring are limited to those Mr. Bernecky owns and keeps or brings to his residence that are capable of accessing, storing, or displaying image content, consistent with the condition's own "internet capable device" language; and (iii) that Mr. Bernecky is prohibited from using another person's personal device, in lieu of any monitoring or capability-parity demand directed at that person's property. To be clear, Mr. Bernecky should never be placed in a position of having to choose between disclosing his conviction to an employer and asking that employer to permit monitoring of its own systems — the point of this relief is that neither is owed, and he has already done more than the condition requires by disclosing voluntarily.
+
+Should the Court nonetheless conclude that some employer-facing framework remains appropriate, Mr. Bernecky requests, in the alternative, that any such framework track *Brown*'s own "as permitted by the employer" structure, with an employer's refusal to permit monitoring deemed neither a violation by Mr. Bernecky nor a bar to his employment. Even under that alternative structure, Mr. Bernecky has already satisfied it: he disclosed his conviction to the employer voluntarily, which is all Path 1 of any such framework could require, and nothing further should ever be asked of him.
 
 
 ### B. The Court Should Narrow CIMP's Monitoring Method to Exclude Indiscriminate Keystroke-Level Logging
@@ -108,7 +110,7 @@ The Court should enter clarifying language establishing that Mr. Bernecky cannot
 One further point belongs here, offered as principle rather than as an independent legal claim. Cognitive-behavioral therapy is a legitimate and valuable treatment modality. Using continuous CIMP surveillance data as raw material for a provider's effort to reshape a specific thought pattern is a different thing, and it is not what CBT is meant to be used for. The Constitution has long recognized that "no official . . . can prescribe what shall be orthodox . . . in matters of opinion." *West Virginia State Bd. of Educ. v. Barnette*, 319 U.S. 624, 642 (1943). Mr. Bernecky does not ask the Court to revive a possessory right to obscene material of the kind *Stanley v. Georgia*, 394 U.S. 557 (1969), addressed and *Osborne v. Ohio*, 495 U.S. 103 (1990), correctly declined to extend to child pornography, given the harm to real children and the government's interest in destroying the market for such material. His concern is different: no court has ever authorized this specific surveillance-to-treatment mechanism, and that lack of authorization — not a claim about the content of his thoughts — is what the delegation principle set out above already reaches.
 
 
-### D. The Family-Contact Condition, as Written, Functions as a De Facto Ban on Ordinary Family Life
+### D. The Family-Contact Condition, as Written, Functions as a *De Facto* Ban on Ordinary Family Life
 
 Special Condition (c) prohibits "deliberate contact with any child under 18 years of age, excluding his biological or adopted children." Mr. Bernecky has no biological or adopted children; the only carve-out the condition provides has always been, and remains, a null set.
 
@@ -200,7 +202,7 @@ Respectfully submitted,
 
 _______________________________
 Jeffrey Bernecky
-Defendant, Pro Se
+Defendant, *Pro Se*
 
 
 ## CERTIFICATE OF SERVICE
