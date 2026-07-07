@@ -175,6 +175,37 @@ Never break connected legal reasoning into bullet fragments merely to make a pag
 look organized. If a list doesn't change what the court has to decide, and doesn't
 let the court act on any one item independently, it should be prose instead.
 
+### The Preliminary Statement and Conclusion are the soapbox — opening and closing argument, not throat-clearing
+Treat these two sections as the rhetorical bookends of the filing, the equivalent of
+an opening statement and closing argument at trial. The Argument section in between
+is where doctrine gets built rigorously, citation by citation, case by case — the
+Preliminary Statement and Conclusion are where the *stakes* and the *frame* live, and
+they should be written with more, not less, rhetorical force than the body.
+
+- **The Preliminary Statement compresses the entire filing's thesis** into a few
+  charged, memorable paragraphs, usually built around one governing image or fact:
+  "the iron curtain of a prison mailroom"; "the flow of incoming legal mail
+  mysteriously ceased"; the pharmacy's dispensing-vs.-distribution distinction that
+  the government's whole position turns out to rest on. It should end by telling the
+  court exactly what should happen and why, in one sentence, so a reader who stopped
+  there would still know the outcome sought and the reason for it.
+- **This is where the predictive-framing/self-vindication technique belongs** (see
+  above) — the Preliminary Statement is the section built to say "we told the Court
+  this would happen, and it did," right at the top, before the doctrinal argument even
+  starts.
+- **The Conclusion should not flatten into "for the foregoing reasons, the motion
+  should be granted."** It should return to the Preliminary Statement's rhetorical
+  register one last time, reinforcing the stakes before the formal prayer for relief:
+  "The courtroom doors cannot be bolted shut simply because the government prefers a
+  sterile, unopposed docket... Justice demands a decision on the merits, not a
+  technical knockout orchestrated by a custodian's interference or a blind eye turned
+  toward profound statutory inequities." Only after that does the itemized relief
+  follow.
+- **The two sections should rhyme.** Whatever image, phrase, or framing device opens
+  the Preliminary Statement is worth deliberately echoing in the Conclusion, so the
+  filing reads as a closed rhetorical arc — opening statement to closing argument —
+  rather than a linear argument that simply stops when the citations run out.
+
 ---
 
 ## 3. The Reductio / Absurdity Technique
@@ -447,6 +478,12 @@ same drafter) a full account of *why* the document looks the way it does.
 - [ ] Lists are used only where they do genuine advocacy work (independent grounds,
       separately-orderable relief, a discrete legal question) — not as organizational
       filler for prose that should just be prose
+- [ ] The Preliminary Statement compresses the whole filing's thesis in charged,
+      memorable language and ends by telling the court exactly what should happen and
+      why — it is not a flat, neutral summary
+- [ ] The Conclusion returns to that same rhetorical register, echoing the Preliminary
+      Statement's framing, rather than flattening into "for the foregoing reasons"
+      before the itemized relief
 
 ### Document-Wide Consistency (Holistic Pass)
 - [ ] Full front-to-back re-read completed after the last round of edits — not just a
