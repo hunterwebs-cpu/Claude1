@@ -1321,6 +1321,74 @@ into the master outline's critical-stage section.**
 confirmed cut, Section 16 (Standard Condition 12) simplified to match, and
 Section 0.2/Section 21's ghostwriting-disclosure item removed.**
 
+### CLIENT DIRECTIVE — advocacy philosophy, and a new "ubiquitous device"
+reductio argument (round 3 of feedback)
+
+Client created a Google Drive folder ("Advocacy," under "active cases,"
+folder ID `1IIsu13oLrp1cM1ea_q2pd0hZFQxTzaDn`) containing prior briefs to
+model advocacy style. Contents include a directly relevant document:
+**`Bernecky_Employer_Letter_FINAL_copy.pdf`** (Drive ID
+`1c28f_OPX5DJRLVaNldXiajSS0ks98GPF`) — an actual letter already sent to
+Bernecky's employer, dated June 7, 2026, signed "Bilal Khan, Inmate
+Advocate & Paralegal, Inmate Legal Assistance Center." **This establishes
+the client's own name/persona and organization for context.** The letter
+already deploys, on the exact "operated by the defendant" issue, the
+precise advocacy technique the client now wants built out further:
+
+> "To read the condition otherwise would produce an unworkable result:
+> every computer Mr. Bernecky touches would fall within its scope — a
+> grocery store checkout terminal, an ATM, a shared workstation — systems
+> over which he exercises no dominion, ownership, or control whatsoever.
+> That cannot be what the condition means, and we do not believe any court
+> would read it that way."
+
+**Client's articulated advocacy philosophy (verbatim, condensed):** citing
+authority for every conclusion is necessary but not sufficient. Advocacy
+also means affirmatively advancing the client's position — attacking when
+justified, not just defending. "This is a game of chess not checkers": the
+opening brief should be positioned to withstand an eventual attack from the
+opposition, and to steer that attack in a direction that helps the client
+either immediately or on reply. **This should inform tone and structure
+throughout the motion, not just the CIMP argument specifically.**
+
+**New argument to build out — extend the reductio beyond the employer to
+ubiquitous, modern "internet capable" devices:** the CIMP condition's
+literal text would also sweep in ordinary modern devices that are
+unquestionably internet-connected today but have no meaningful capability
+to access, store, or display the kind of image content at issue in this
+case. Client's own examples: **CPAP machines** (sleep-apnea therapy
+devices, now commonly cellular/Wi-Fi connected to transmit compliance data
+to manufacturers/physicians — a pure medical-telemetry device with no
+capability resembling image access at all) and **cars** (modern vehicles
+routinely have cellular telematics connectivity, making them unambiguously
+"internet capable devices"). **Analytical insight worth preserving:** the
+condition's chosen verb is "operated" — and in ordinary English, the
+paradigmatic thing a person "operates" is a vehicle or machinery, not a
+laptop or phone (one "uses" a laptop; one "operates" a car). This makes a
+car the single sharpest reductio example for the word "operated" taken at
+face value — if the condition's broadest possible literal reading is
+adopted, the paradigmatic "operated" device is swept in, yet no one would
+seriously argue Bernecky's car needs CIMP enrollment. This is not a
+concession — it's a trap: the government/Probation must either accept an
+absurd result (monitor the car, the CPAP machine) or concede that the
+real operative test is functional capability/nexus to the offense conduct
+(image access/storage/display), which is exactly the narrowing this case
+already argues for (Track 19).
+
+**Action: dedicated research task launched (Track 25) to (1) finally
+resolve the long-open "common sense reading" doctrine attribution gap
+(never confirmed to be *Browder*, flagged repeatedly since part1 without
+resolution); (2) find real authority for a general "avoid absurd results"
+interpretive canon; (3) build out the CPAP/car reductio argument in
+ready-to-use advocacy prose for insertion into Part A.4. Client is
+separately locating a supervised-release argument made in W.D.N.Y. with
+"large success several years ago" that may be directly on point — awaiting
+that document before further motion redrafting.**
+
+**Status: drafting paused pending (1) Track 25's return and (2) the
+client's incoming WDNY brief. Do not re-edit MOTION-DRAFT.md until both are
+in hand and reconciled together.**
+
 ### FACTUAL LIMITATION — sentencing transcript unavailable for now
 
 Client confirms the June 2018 sentencing transcript **cannot presently be
