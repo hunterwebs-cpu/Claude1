@@ -110,6 +110,55 @@ completely unresolved while the job evaporates in real time.
 Argument Part A.3 of the motion draft to reflect this corrected sequence.
 Not yet done as of this entry — flagged as the next task.**
 
+### CLIENT PUSHBACK (round 2, after reviewing the corrected draft) — three
+more corrections
+
+1. **Don't hedge the CIMP/employer argument as "ambiguity."** Client's
+   controlling instruction: the word "employer" does not appear in the
+   condition at all — therefore there is no employer-facing condition,
+   period, not merely an "ambiguous" one that might or might not reach
+   employer systems. **All Bernecky needs is a clarifying order confirming
+   the condition does not apply to employer systems — which is exactly
+   what the employer itself wants.** The vagueness/*Mike* material should
+   not be presented as the operative legal conclusion ("the text is
+   genuinely ambiguous") — it should, if used at all, support only the
+   *remedy* (a clarifying order, the same remedy *Mike* itself ordered),
+   not the premise that the law is unsettled. Lead with the certain,
+   affirmative argument: silence as to "employer" means no employer
+   authority was ever granted.
+2. **The Statement of Facts jumps abruptly from the employer issue to
+   "his sister had children" with no transition** — reads as confusing,
+   not as two clearly separated topics. Needs an actual transition sentence
+   introducing the family-contact issue as a distinct topic before diving
+   into the sister/niece-nephew fact.
+3. **The family-contact argument itself was mischaracterized.** It is
+   **not** about Bernecky wanting specific access to see his sister's
+   children. The real point: because the condition's only carve-out
+   ("excluding his biological or adopted children") is a null set, and
+   because no individualized danger finding was ever made as to *any*
+   family member, the condition functions as a **de facto ban on being
+   present at family gatherings or events at all** — since any minor
+   family member might unpredictably be there. **Client's own illustrative
+   examples, to be used directly:** stopping by his mother's house for
+   Christmas and his sister arriving with her kids; grandchildren stopping
+   by unexpectedly. This — being forced to avoid ordinary family life
+   because of who *might* show up, with no finding he is a danger to
+   anyone — is precisely the level of familial association the
+   Constitution protects. Rewrite Part D around this framing, not around a
+   narrower "wants contact with specific nieces/nephews" framing.
+4. **Argument Part A.1, as drafted, "meant nothing" to the client — too
+   abstract, doesn't explain what's actually going on.** Needs to be
+   grounded and concrete: plainly state that "employer" never appears in
+   the condition, connect that directly back to the real dispute (this is
+   why a clarifying order is needed now, so Probation and the employer
+   both know for certain the condition does not reach the employer's
+   systems), rather than reading as free-floating delegation-doctrine
+   discussion.
+
+**Action: rewrite Preliminary Statement/A.1/A.3 (definitive framing, not
+ambiguity-hedged), Statement of Facts (add transition), and Part D (de
+facto family-event-ban framing with client's own illustrative examples).**
+
 ### Theories identified so far (employer/occupational context)
 1. **§ 5F1.5 / §§ 3563(b)(5), 3583(d) procedural failure** — no two-part
    occupational-restriction finding was ever made; nothing on the face of the
