@@ -56,6 +56,60 @@ the client before citing it as a quote.
   structural and will recur with any future employer** — this needs to be resolved
   as a matter of the condition's scope/application, not just this one job.
 
+### MAJOR FACT-PATTERN CORRECTION (given after reviewing the first motion
+draft) — it was the employer, not Probation, that first read the condition
+broadly
+
+**The causal sequence above was wrong in a way that mattered to the drafted
+argument, and it needed fixing before anything else.** Corrected sequence,
+in the client's own words and account:
+
+1. **The employer** — not Probation — read the CIMP condition's text on its
+   own and got worried about its own systems being reached. This is the
+   origin of the concern; Probation did not initiate a demand.
+2. Bernecky then called the PO himself to try to clear the ambiguity up.
+   **The PO's actual comment was informal and non-committal: "it should be
+   fine so long as they have a way to monitor him."** This is not a formal
+   "like kind and degree"/keystroke-parity demand — that characterization,
+   already flagged once before as the client's own paraphrase rather than a
+   verbatim PO quote, should not be used at all going forward. Use the PO's
+   actual words above instead.
+3. **Since then, Probation has done nothing to resolve it.** Bernecky has
+   separately reached out to both the company's HR department and to
+   Probation. **HR says Probation has never contacted them at all** —
+   confirming the PO never followed through on the "would call" she
+   mentioned. **The PO has not returned any of Bernecky's emails either.**
+4. Bernecky does not believe the employer will hold the job much longer.
+   He may become unemployed at the exact moment of transition from RRC
+   placement into supervision — which he describes as "the complete
+   opposite of the purpose of the Second Chance Act and supervised
+   release." This framing point (Second Chance Act/rehabilitative purpose)
+   should be used rhetorically in the motion's introduction/statement of
+   facts.
+
+**Legal consequence of this correction:** the "ultra vires demand" framing
+in Part A.3 of the draft (Probation exceeding its authority via an
+affirmative demand) is not accurate as the lead characterization — no
+formal demand was ever actually made by Probation. **The more accurate, and
+arguably stronger, framing is a vagueness/ambiguity argument reinforced by
+real-world confirmation:** a sophisticated third party (the employer),
+reading the condition's text independently and without any prompting from
+Probation, construed it as potentially reaching its own systems. That is
+not a hypothetical, argued-from-first-principles vagueness claim — it is
+direct, contemporaneous, real-world proof that the condition's text is
+genuinely ambiguous and reasonably susceptible to the overbroad reading,
+exactly the kind of confirmation *United States v. Mike*'s vagueness
+holding was built on (there, the court held a condition vague because a
+probation officer *could* reasonably read it broadly; here, a third party
+actually did, unprompted). Separately and additionally, Probation's total
+non-responsiveness since then — no follow-up with HR, no response to
+Bernecky's emails — is itself part of the harm: the ambiguity remains
+completely unresolved while the job evaporates in real time.
+
+**Action: rewrite the Preliminary Statement, Statement of Facts, and
+Argument Part A.3 of the motion draft to reflect this corrected sequence.
+Not yet done as of this entry — flagged as the next task.**
+
 ### Theories identified so far (employer/occupational context)
 1. **§ 5F1.5 / §§ 3563(b)(5), 3583(d) procedural failure** — no two-part
    occupational-restriction finding was ever made; nothing on the face of the
