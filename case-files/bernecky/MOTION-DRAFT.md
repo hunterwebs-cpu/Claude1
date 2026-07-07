@@ -1,0 +1,223 @@
+UNITED STATES DISTRICT COURT
+WESTERN DISTRICT OF NEW YORK
+
+UNITED STATES OF AMERICA,
+
+    v.                                          No. 6:18-CR-06018-DGL-MWP
+
+JEFFREY BERNECKY,
+
+    Defendant.
+
+---
+
+# DEFENDANT'S MOTION TO MODIFY CONDITIONS OF SUPERVISED RELEASE
+## PURSUANT TO 18 U.S.C. § 3583(e)(2)
+
+Defendant Jeffrey Bernecky, proceeding pro se, respectfully moves this Court, pursuant to 18 U.S.C. § 3583(e)(2) and Federal Rule of Criminal Procedure 32.1(c), to modify the conditions of supervised release imposed by the Judgment entered June 12, 2018 (Dkt. 28). In support of this motion, Mr. Bernecky states as follows.
+
+---
+
+## PRELIMINARY STATEMENT
+
+Mr. Bernecky's ten-year term of supervised release is scheduled to commence on or about July 27, 2026. Before it does, one dispute already has a face and a cost: a real job offer, at a contact lens manufacturer, is presently suspended because the United States Probation Office has read the Computer and Internet Monitoring Program ("CIMP") condition to authorize a demand on Mr. Bernecky's prospective employer that appears nowhere in the Judgment's text — that the employer independently prove monitoring capability "of like kind and degree" to what CIMP itself provides, including keystroke-level logging, before Mr. Bernecky may begin work. Mr. Bernecky has already voluntarily disclosed his conviction and supervision status to the employer, who has, in turn, offered to provide him an internal-only account with no internet access at all. Mr. Bernecky is separately required, under Standard Condition 7, to maintain full-time employment. The result, before supervision has even begun, is a condition of supervision preventing compliance with another.
+
+This motion does not ask the Court to declare the June 2018 Judgment invalid, and it does not ask the Court to revisit the legality of any finding the sentencing court made — or did not make — eight years ago. It asks the Court to do something considerably narrower and considerably more ordinary: to exercise the forward-looking modification authority that 18 U.S.C. § 3583(e)(2) has always given it, informed by developments in the governing law since 2018 and by the U.S. Sentencing Commission's own November 2025 instruction that this exact moment — the commencement of supervision — is the moment a court should reassess whether its conditions still fit. See U.S.S.G. § 5D1.4(a) (2025).
+
+The motion is organized around eight groups of conditions. It leads with the CIMP/occupational dispute, because it is the most urgent and the most fully developed; it closes with several narrower, more efficiently presented requests. Throughout, the touchstone is the same: not whether the 2018 Judgment was right when entered, but whether, on the record as it stands today, these conditions are still doing the job the law asks them to do.
+
+---
+
+## JURISDICTION AND STANDARD OF REVIEW
+
+Title 18, United States Code, Section 3583(e)(2) provides that the Court "may . . . modify, reduce, or enlarge the conditions of supervised release, at any time prior to the expiration or termination of the term of supervised release, pursuant to the provisions of the Federal Rules of Criminal Procedure relating to the modification of probation." 18 U.S.C. § 3583(e)(2). The statute's own cross-reference to "the Federal Rules of Criminal Procedure relating to the modification of probation" identifies Rule 32.1(c) as the governing procedural vehicle.
+
+The Second Circuit has confirmed that § 3583(e)(2) is a general, forward-looking tool, not one gated by a threshold showing of changed circumstances. *United States v. Lussier*, 104 F.3d 32, 36 (2d Cir. 1997) (quoting the Rule 32.1 Advisory Committee's Notes for the proposition that "the sentencing court must be able to respond to changes in the [defendant's] circumstances as well as new ideas and methods of rehabilitation"). At the same time, *Lussier* holds that § 3583(e)(2) does not reach the legality or validity of a condition as it was originally imposed — that is the office of direct appeal or a motion under 28 U.S.C. § 2255. *Id.* at 33 ("We agree with the District Court that it lacked authority to entertain [the defendant's] challenge to the legality of the restitution order under subsection 3583(e)(2)."). This motion is framed accordingly, throughout, as a request for present-tense clarification and reassessment of the scope of existing conditions — not as a claim that the 2018 Judgment was invalid when entered.
+
+The Sentencing Commission's November 2025 amendment to U.S.S.G. § 5D1.4 confirms that this is precisely the right moment to ask. Subsection (a) provides that "[a]t any time prior to the expiration or termination of the term of supervised release, the court may modify, reduce, or enlarge the conditions of supervised release whenever warranted by an individualized assessment of the appropriateness of existing conditions," and that "[t]he court is encouraged to conduct such an assessment in consultation with the probation officer after the defendant's release from imprisonment." U.S.S.G. § 5D1.4(a) (2025). Mr. Bernecky is, right now, in exactly that position.
+
+It bears emphasis that Congress itself — not merely the Sentencing Commission — drew a sharp line between modification under § 3583(e)(2) and early termination under § 3583(e)(1). Early termination is available only "after the expiration of one year of supervised release." 18 U.S.C. § 3583(e)(1). Modification carries no such floor: it is available "at any time prior to the expiration or termination of the term of supervised release." *Id.* § 3583(e)(2). The Sentencing Commission's own guideline text tracks, rather than creates, that distinction — § 5D1.4(b)'s one-year figure expressly cross-cites § 3583(e)(1), while § 5D1.4(a)'s absence of any time-trigger cross-cites § 3583(e)(2). There is, in short, no procedural obstacle to resolving these questions now, before supervision has even begun.
+
+Finally, declining to resolve these disputes now would not make them disappear; it would only defer them to a proceeding with categorically higher stakes. A term of supervised release imposed after revocation under § 3583(h) is not an automatic continuation of the 2018 Judgment — it is a new, freestanding authorization that the district court decides, at a fresh sentencing event, whether to impose at all, and every condition attached to it — including one textually identical to a condition never objected to in 2018 — is imposed as part of that fresh sentencing act, fully subject to objection and appeal. *See United States v. Betts*, 886 F.3d 198 (2d Cir. 2018) (this district; reviewing, and partly vacating, special conditions newly imposed at a revocation sentencing under the ordinary individualized-assessment standard, with no diminished scrutiny traceable to the original, unappealed judgment). No decision holds that a condition merely carried forward unchanged into a revocation-based term receives less scrutiny than the same condition would receive today. To the contrary, the Second Circuit has said, in language that speaks directly to why a defendant should not have to wait: a condition that "fail[s] to inform [a defendant] what he must do . . . to avoid a violation proceeding" is itself constitutionally infirm. *United States v. Carlineo*, 998 F.3d 533, 539 (2d Cir. 2021). The same value that condemns a vague condition — that a person should not have to guess, under threat of a violation proceeding, what is required of him — supports resolving these disputes now, on a clean record, rather than waiting to find out, possibly through an actual violation, what these conditions permit.
+
+---
+
+## STATEMENT OF FACTS
+
+Mr. Bernecky was sentenced on June 12, 2018 by the Honorable David G. Larimer to 120 months' imprisonment followed by ten years of supervised release, following a guilty plea to possession of child pornography involving prepubescent minors. His release from imprisonment, and the commencement of his ten-year term of supervision, is scheduled for on or about July 27, 2026.
+
+While in Bureau of Prisons community custody, a temporary-service placement led to a genuine offer of employment at a contact lens manufacturer. Mr. Bernecky voluntarily and fully disclosed his conviction and supervision status to the employer — disclosure the CIMP condition's text does not require of him at all. The employer, in turn, raised its own concerns about CIMP monitoring reaching its business systems, and Mr. Bernecky authorized his probation officer to speak candidly with the employer's human resources department to resolve those concerns.
+
+In the course of explaining what would and would not create a problem, the probation officer indicated, in substance, that the employer would need to independently demonstrate monitoring capability "of like kind and degree" to CIMP itself — including keystroke-level logging — before the arrangement could proceed. Nothing in the CIMP condition's text mentions employers, third-party systems, or any capability-parity requirement of any kind; the condition speaks only of devices "owned or operated by the defendant," and requires Mr. Bernecky to pay the cost of monitoring services, without reference to any third party's obligations. Mr. Bernecky had already told the employer he would not need to use its shared computers for his job duties. The employer nonetheless offered a mitigation: an internal-only account, with internet access disabled entirely — precisely the kind of device that, by CIMP's own operative language ("any internet capable device"), should fall outside the condition's scope in the first place.
+
+More than a week has passed without further contact from the probation officer to the employer. The job remains suspended. Mr. Bernecky has signed a lease in reliance on stable income and is now in a financially precarious position. And the problem is not confined to this one job: absent a clarification of the condition's scope, the identical dispute will recur with any future employer, for as long as Mr. Bernecky remains subject to a mandatory full-time-employment requirement (Standard Condition 7) that Probation's own administration of a separate condition is simultaneously frustrating.
+
+Two further factual developments, both postdating the 2018 sentencing, bear on the arguments below. First, while Mr. Bernecky was incarcerated, his sister had children; the specific nieces and nephews at issue in the family-contact dispute discussed in Part D did not exist, and could not have been the subject of any individualized finding, at the time of sentencing. Second, Mr. Bernecky believes the $500 restitution obligation imposed by the Judgment has been paid in full, a fact that, if confirmed by the record, moots the continuing need for the general financial-disclosure condition discussed in Part H.
+
+---
+
+## ARGUMENT
+
+### A. No Condition of This Judgment Authorizes an Occupational Restriction, and None Should Be Read to Impose One
+
+**1. The Judgment's silence on employment is itself the best evidence of what the sentencing court intended.**
+
+The word "employer," "employ," or "employment" does not appear anywhere in the CIMP condition. It appears exactly twice elsewhere in the Judgment — in the mandatory full-time-employment condition and in the sex-offender-registration condition's "resides, is employed, carries on a vocation" language — and in neither instance does it authorize any restriction on Mr. Bernecky's occupation or on a third party's systems. No finding under U.S.S.G. § 5F1.5 appears anywhere in the Judgment, because none was ever made.
+
+The authority for resolving what that silence means does not rest on the formalities governing how a new condition is created. It rests on the settled principle that the power to impose special conditions of supervised release "is vested exclusively in the district court." *United States v. Matta*, 777 F.3d 116, 122 (2d Cir. 2015). When a treatment provider's rules, or a probation officer's administration of a condition, reach further than the condition the court actually imposed, the Second Circuit has not hesitated to say so: "[b]ecause such a requirement . . . would contradict, rather than execute, [the defendant's] sentence, the Probation Office was plainly without power to impose it." *United States v. Browder*, 866 F.3d 504, 514 (2d Cir. 2017). *Kunz* reaffirms the same principle for the very CIMP boilerplate at issue here, construing an identical condition's privilege-protection clause as a real constraint on Probation, "not surplusage." *United States v. Kunz*, 68 F.4th 748, 766-67 (2d Cir. 2023). Probation's administration of the CIMP condition to reach an employer's own systems, and to demand capability-parity proof with no textual basis anywhere in the condition, is precisely the kind of unauthorized expansion these cases forbid. The relief requested is a clarifying order — not a ruling that the 2018 Judgment was invalid.
+
+**2. Even if an occupational restriction were found to exist, no U.S.S.G. § 5F1.5 finding supports it, and Mr. Bernecky's own facts make that plain.**
+
+Section 5F1.5(a) requires "a reasonably direct relationship . . . between the defendant's occupation, business, or profession and the conduct relevant to the offense of conviction," together with a necessity finding. This district's own recent case law treats even a mandatory employer-*notification* requirement as a de facto occupational restriction demanding that finding. *See United States v. Love*, No. 24-1706-cr, 2025 WL 1077176 (2d Cir. Apr. 8, 2025); *United States v. Jenkins*, 854 F.3d 181 (2d Cir. 2017); *United States v. Ruff*, No. 18-3247-cr (2d Cir. Nov. 14, 2019) (vacating); *United States v. Lombardi*, No. 17-2352-cr (2d Cir. Mar. 22, 2018) (remanding); *United States v. Piper*, No. 19-1058-cr (2d Cir. Mar. 30, 2020) (remanding).
+
+If a mandatory *notification* clause is enough to trigger § 5F1.5 in that line of cases, the probation officer's considerably more burdensome, textually unsupported capability-parity *demand* here is at least as strong a candidate for the same treatment — particularly because Mr. Bernecky's own condition contains no notification requirement at all; he disclosed voluntarily, going further than anything the condition required of him.
+
+*United States v. Brown*, 173 F.4th 45 (2d Cir. 2026), does not compel a different result. Brown's own claim was that the condition functioned as a *compelled* notification requirement; Mr. Bernecky does not object to notification — he has already made it, voluntarily, and it was accepted. Brown's condition, moreover, contained its own "as permitted by the employer" clause — a built-in consent gate Mr. Bernecky's condition lacks entirely. And Brown's occupational-restriction holding arose on plain-error review, a posture materially different from the de novo consideration this motion invites.
+
+The disproportion is sharpened by the facts of this specific job: the position at the contact lens manufacturer requires no public internet access at all, and the employer has already offered an internet-disabled internal account. CIMP's stated purpose — monitoring internet-facilitated risk — has essentially no application here, and yet Mr. Bernecky remains suspended from employment he is separately required, under Standard Condition 7, to maintain.
+
+**3. Probation's demand exceeds any authority the Judgment or the Court has conferred over a non-party, and Mr. Bernecky has standing to say so in his own right.**
+
+Nothing in the CIMP condition's text authorizes any demand directed at a third party's systems. This is not a third-party-standing problem requiring Mr. Bernecky to assert his employer's own rights: his injury — lost employment, a live risk of a violation finding premised on an unauthorized demand, and a direct burden on his own liberty — "seeks to vindicate [his] own constitutional interests," not the employer's. *Bond v. United States*, 564 U.S. 211, 220 (2011). Should the Court view the matter differently, ordinary third-party standing doctrine would independently support Mr. Bernecky's ability to raise this claim, given the close relationship between his own compliance and the employer's cooperation, and the genuine, non-tactical hindrance an employer faces in litigating its own Fourth Amendment interests inside someone else's federal criminal case. *See Powers v. Ohio*, 499 U.S. 400 (1991); *Kowalski v. Tesmer*, 543 U.S. 125 (2004); *Singleton v. Wulff*, 428 U.S. 106 (1976); *Warth v. Seldin*, 422 U.S. 490 (1975).
+
+A closely analogous case reached the same result on materially the same condition language. In *United States v. Mike*, 632 F.3d 686, 696-97 (10th Cir. 2011), the Tenth Circuit held a computer-monitoring condition unconstitutionally vague where it could be read to reach devices the defendant did not own — expressly including his employer's computers — squarely rejecting the government's argument that the condition "cannot be read fairly" that broadly. The court remanded with instructions that any intent to reach an employer's devices would itself require the very § 5F1.5 findings discussed above. *Id.*; *see also United States v. Matteson*, 327 F. App'x 791 (10th Cir. 2009). Though out of circuit, *Mike* is squarely on point: a probation officer here has already read "owned or operated by the defendant" to reach an employer's systems, exactly the reading *Mike* held impermissible absent clarification.
+
+**4. The condition's own text already embraces a capability limit; it should be applied consistently, and third-party devices should be excluded outright rather than monitored.**
+
+The CIMP condition opens with a capability qualifier — "any internet capable device" — but the separate monitoring-authorization clause drops that qualifier and instead reaches any device "owned or operated by the defendant." Restoring internal consistency to the condition's own drafting logic, calibrated to the capability actually implicated by this offense (the ability to access, store, or display images, not internet access generally), is not a request to import a foreign concept — it is a request that the condition mean, throughout, what its own opening sentence already says. Multiple circuits have accepted device-capability thresholds of exactly this kind in place of undifferentiated "any device" language. *E.g.*, *United States v. Rath*, No. 14-51059, 2015 WL 3559160 (5th Cir. June 8, 2015) (device permitted for school or work "as long as the computer is not capable of Internet access"); *United States v. Ullman*, No. 14-1414, 2015 WL 3559221 (10th Cir. June 8, 2015) ("devices without Internet access, such as gaming systems, are not restricted").
+
+Nearly all offenses of this kind occur in one place — a private residence — on devices capable of locating, retrieving, and displaying image content. The crime is not committed at a coffee shop, or while walking through a grocery store, or on a co-worker's telephone. Monitoring authority should track that reality. It is entirely sufficient, and considerably less intrusive, to prohibit Mr. Bernecky outright from using a device he does not own, rather than to authorize monitoring, inspection, or capability-parity demands directed at a third party's property. A flat prohibition on using another person's device achieves the government's interest at zero cost to any non-party, and avoids the ultra vires and standing problems discussed above entirely.
+
+**5. Requested relief.**
+
+The Court should enter an order clarifying and, to the extent necessary, modifying Special Condition (a) to provide: (i) that Mr. Bernecky may satisfy any employer-facing aspect of the condition either by voluntary disclosure of his conviction to the employer, without any further employer-permission showing, or, independently, by the employer's consent to monitoring of its own systems on an "as permitted by the employer" basis modeled on *Brown*'s own structure — with an employer's refusal to permit monitoring deemed neither a violation by Mr. Bernecky nor a bar to his employment; (ii) that the devices actually subject to monitoring are limited to those Mr. Bernecky owns and keeps or brings to his residence that are capable of accessing, storing, or displaying image content, consistent with the condition's own "internet capable device" language; and (iii) that Mr. Bernecky is prohibited from using another person's personal device, in lieu of any monitoring or capability-parity demand directed at that person's property.
+
+---
+
+### B. The Court Should Narrow CIMP's Monitoring Method to Exclude Indiscriminate Keystroke-Level Logging
+
+The CIMP condition already contains a privilege-protection clause: monitoring "shall be designed to avoid, as much as possible, reading any privileged information or any private material that is not illegal." *Kunz* construed this identical clause and held it a real, judicially enforceable constraint on Probation — "constrains the supervisors in their surveillance . . . by requiring them not to abuse their power and access," not surplusage. 68 F.4th at 766-67. Keystroke-level logging, which by definition captures every character typed — including privileged attorney-client communications, before any determination of privilege is even possible — cannot be reconciled with a monitoring method the condition's own text requires to avoid reading such material. The point is not that no privilege protection exists; it is that keystroke-level capture, as a category, is incapable of honoring the protection the Judgment already promises.
+
+The narrowing this argument seeks has direct support in this Circuit's own case law concerning this exact offense type. In *United States v. Sofsky*, 287 F.3d 122, 126-27 (2d Cir. 2002), this Circuit held that "a more focused restriction, limited to pornography sites and images," is an adequate, narrower alternative for an image-based offense. And in *United States v. Lifshitz*, 369 F.3d 173, 192 (2d Cir. 2004), this Circuit itself observed that constant, content-blind monitoring "might be more like searching [a defendant's] diary . . . than . . . the highly targeted diagnosis accomplished by drug testing," and — on remand — specifically approved keyword- or phrase-triggered monitoring as a narrower alternative to "recording all varieties of computer-related activity." *Id.* at 193 n.11. Mr. Bernecky's offense is entirely pictorial; unlike a computer-fraud or communications-based offense, in which the content of what was typed is itself the legally significant conduct, nothing about image-based possession justifies capturing the content of everything he writes.
+
+The Court should modify Special Condition (a) to require that CIMP be implemented through a method — domain- or file-type review, image-hash scanning, or keyword-triggered flagging of the kind *Lifshitz* itself approved — that does not indiscriminately capture privileged or non-image content, rather than through full keystroke capture.
+
+---
+
+### C. The Treatment Provider's Own Rules Cannot Exceed What the Court Itself Ordered
+
+Special Condition (b) requires Mr. Bernecky to "follow the rules and regulations" of a sex-offense-specific treatment program, without any court-set limit on what those rules may contain. Only the sentencing court may impose restrictions on a defendant's liberty as a condition of supervised release; that authority cannot be delegated wholesale to a private provider. *Matta*, 777 F.3d at 122. The controlling illustration is squarely on point: in *Browder*, a treatment provider's own participant agreement required advance permission before *any* contact with minors, including the defendant's own children — exceeding the sentence the court had actually imposed, which expressly excluded his own children from that restriction. The Second Circuit held the provider's rule unenforceable: "the Probation Office was plainly without power to impose it." 866 F.3d at 514. Mr. Bernecky's concern is the same in kind: a program category the court did order, whose specific, unreviewable content is set entirely by the provider.
+
+The Court should enter clarifying language establishing that Mr. Bernecky cannot be found in violation of supervised release for declining to comply with a provider rule that exceeds the scope of what this Court itself ordered.
+
+One further point belongs here, offered as principle rather than as an independent legal claim. Cognitive-behavioral therapy is a legitimate and valuable treatment modality. Using continuous CIMP surveillance data as raw material for a provider's effort to reshape a specific thought pattern is a different thing, and it is not what CBT is meant to be used for. The Constitution has long recognized that "no official . . . can prescribe what shall be orthodox . . . in matters of opinion." *West Virginia State Bd. of Educ. v. Barnette*, 319 U.S. 624, 642 (1943). Mr. Bernecky does not ask the Court to revive a possessory right to obscene material of the kind *Stanley v. Georgia*, 394 U.S. 557 (1969), addressed and *Osborne v. Ohio*, 495 U.S. 103 (1990), correctly declined to extend to child pornography, given the harm to real children and the government's interest in destroying the market for such material. His concern is different: no court has ever authorized this specific surveillance-to-treatment mechanism, and that lack of authorization — not a claim about the content of his thoughts — is what the delegation principle set out above already reaches.
+
+---
+
+### D. The Family-Contact Condition's Carve-Out Is Illusory, and Its Scope Should Be Modified to Reflect a Family That Has Changed Since 2018
+
+Special Condition (c) prohibits "deliberate contact with any child under 18 years of age, excluding his biological or adopted children." Mr. Bernecky has no biological or adopted children; the exception has always been, and remains, a null set. While Mr. Bernecky was incarcerated, his sister had children — real nieces and nephews the sentencing court could not have made any individualized finding about, because they did not exist in June 2018. That is a genuine changed circumstance under *Lussier*'s own terms, independent of any claim about the condition's original validity.
+
+This district's own case law requires an individualized basis for a restriction of this breadth. *United States v. Myers*, 426 F.3d 117, 129-30 (2d Cir. 2005) (heightened scrutiny and an individualized record required for restrictions on familial association). No finding in this Judgment addresses any physical danger Mr. Bernecky poses to a specific family member, and *United States v. Bleau*, 930 F.3d 35, 43 (2d Cir. 2019), confirms that a court must explain the necessity of a contact-with-minors condition unless obvious from the record — candidly, Mr. Bernecky's recidivist history is a real distinguishing fact from *Bleau*'s clean-record defendant, and this motion does not ask the Court to overlook it. It asks, instead, for a structure that accounts for it: contact with minor family members permitted in the presence of a knowledgeable adult — his mother, father, or sister, all of whom already know of his conviction — without requiring case-by-case advance approval for ordinary family gatherings. Other circuits have recognized precisely this "knowledgeable adult" structure as an accepted, workable condition. *See United States v. DaSilva*, 844 F.3d 8 (1st Cir. 2016).
+
+Finally, this condition should be clarified, consistent with the theme of Part A above, to state expressly that it creates no occupational restriction: ordinary, incidental workplace contact with a minor — a coworker who is seventeen, a customer in the course of Mr. Bernecky's duties — is not "deliberate contact" requiring advance approval or removal from the situation.
+
+---
+
+### E. The Polygraph Condition Requires Real Procedural Protection, Not Merely a Later Opportunity to Object
+
+**1. The Judgment's model does not resolve Mr. Bernecky's actual objection.**
+
+The Judgment permits Mr. Bernecky to challenge, after the fact, the *use* of a polygraph statement as a Fifth Amendment violation; it does not permit him to decline to answer in the first instance. In *United States v. Johnson*, 446 F.3d 272 (2d Cir. 2006), this Circuit upheld exactly that structure — but only against the narrow immunity/waiver theory Johnson himself raised, on facts specific to Johnson's own documented history of resisting honest self-assessment. Johnson never addressed, and never had occasion to address, either of Mr. Bernecky's actual objections: that determining whether a specific question is privileged is a pure question of law a layperson cannot reliably apply under pressure in real time, or that a blanket, prospective refusal to answer *any* question absent protections is a materially different posture than answering and later challenging use of the answer. Mr. Bernecky presents no comparable predicate of documented dishonesty, and carries materially higher stakes given his record of prior sex-offense-related dispositions.
+
+Properly understood, *Minnesota v. Murphy*'s "classic penalty situation" doctrine does the real work here: if the State, "either expressly or by implication, asserts that invocation of the privilege would lead to revocation of probation, it would have created the classic penalty situation," and the resulting statement is compelled. 465 U.S. 420, 435 (1984). A condition that requires Mr. Bernecky to "answer the questions posed" — full stop, before any privilege determination — asserts exactly that. *United States v. Von Behren*, 822 F.3d 1139 (10th Cir. 2016), applies this same doctrine to a materially similar sex-offense polygraph and holds that a threat of program termination and revocation for refusing incriminating questions is unconstitutional compulsion. *Id.* at 1150-51. The privilege reaches not only direct confessions but any answer that would furnish "a link in the chain of evidence" needed to prosecute. *Hoffman v. United States*, 341 U.S. 479, 486 (1951).
+
+**2. The requested protections.**
+
+Mr. Bernecky requests that, until and unless each of the following is in place, he is entitled to decline to answer any polygraph or other quasi-scientific examination question:
+
+(i) appointed counsel present before, during, and after any such examination;
+
+(ii) counsel afforded adequate time, per question, to assess whether invocation is warranted — a determination of law, not one a layperson can be expected to make correctly under pressure;
+
+(iii) the examiner's credentials established to a degree sufficient to support a *Daubert* challenge; and
+
+(iv) no disclosure of any examination-derived information to any person or agency without leave of court.
+
+No federal court appears to have addressed a request of precisely this kind, and that should be said plainly rather than disguised as settled law. This request is best presented, and most likely to be granted, as a discretionary safeguard this Court has authority to craft under 18 U.S.C. § 3583(d) — not as a claim that the polygraph room is a custodial setting requiring Miranda-style protection. That framing is unnecessary and would invite an unfavorable comparison to authority rejecting a counsel-presence claim on custodial-interrogation grounds. *See J.B. v. New Jersey State Parole Board*, 229 N.J. 21 (2017). It is enough that determining whether a question is privileged is a legal judgment, and that the existing federal supervision policy framework already recognizes this determination is too delicate to leave to a probation officer alone, directing that uncertain invocations be referred to the court rather than resolved unilaterally. Guide to Judiciary Policy, Vol. 8E, § 190.45. If the Court is unwilling to order counsel's presence throughout the full examination, Mr. Bernecky requests, in the alternative, consultation access at any point during the exam, modeled on the long-accepted grand jury practice of permitting a witness to step outside to consult counsel, *see United States v. Mandujano*, 425 U.S. 564 (1976); or, at minimum, advance written review of the full question list by counsel, with any newly arising or disputed question referred to the Court rather than resolved by the examiner.
+
+A separate and independent basis exists for appointing counsel for this motion specifically: 18 U.S.C. § 3006A(a)(1)(E) already lists a person who "faces modification . . . of a condition . . . of a term of supervised release" among the categories for which representation "shall be provided" to a financially eligible person. Mr. Bernecky requests that the Court appoint counsel under this provision for purposes of this motion, independent of how the polygraph-specific request above is resolved.
+
+**3. There is, independently, no factual predicate for the polygraph condition as applied to Mr. Bernecky.**
+
+Mr. Bernecky has never been found dishonest in treatment or supervision. A condition premised on presumed dishonesty, in the absence of any actual instance of it, lacks the nexus required under § 3583(d)'s reasonably-related standard, and the same is true of the computerized voice stress analyzer, whose reliability is independently subject to challenge under protection (iii) above.
+
+---
+
+### F. The Judgment's Pre-Authorization of Presentence Report Disclosure Violates *Charmer Industries* and Should Be Vacated
+
+Special Condition (e) authorizes release of Mr. Bernecky's presentence report to the New York State Board of Examiners of Sex Offenders, and further disclosure "to the county court and to the parties involved in the determination of the defendant's final classification level." This blanket, Judgment-level pre-authorization is inconsistent with the confidentiality and case-specific disclosure standard this Circuit has long applied to presentence reports. *See United States v. Charmer Indus., Inc.*, 711 F.2d 1164 (2d Cir. 1983). The remaining registration language in this same condition is, independently, surplusage: Mandatory Condition 6 already requires registration under the Sex Offender Registration and Notification Act, 34 U.S.C. § 20901 *et seq.* The Court should strike the blanket PSR pre-authorization and the duplicative registration language, without prejudice to any case-specific disclosure request properly made in the future.
+
+---
+
+### G. The Fee-Bearing Conditions Lack Any Payment Methodology or Ability-to-Pay Mechanism
+
+Four separate conditions — CIMP monitoring, sex-offense treatment, polygraph testing, and mental health treatment — require Mr. Bernecky to pay or "contribute to the cost of services rendered," without stating a dollar figure, a rate-setting procedure, or any mechanism accounting for his ability to pay. The defect is structural, not a question of amount: nothing in the Judgment tells Mr. Bernecky, or Probation, how much is expected, whether any sliding scale applies, or what happens if he genuinely cannot pay.
+
+*Bearden v. Georgia*, 461 U.S. 660 (1983), requires a willfulness and bona-fide-efforts inquiry before nonpayment of a financial obligation may be treated as a basis for revocation; nothing in the record suggests that principle has been extended, in this Judgment, to these four "contribute to the cost" conditions. The Court should modify each of the four conditions to state expressly that (i) any fee obligation is subject to Mr. Bernecky's demonstrated ability to pay, (ii) insurance or Medicaid coverage, where applicable, applies before any personal contribution is assessed, and (iii) inability to pay, standing alone, is not a basis for a violation finding absent the willfulness inquiry *Bearden* requires.
+
+---
+
+### H. Two Financial-Disclosure Conditions Should Be Narrowed or Vacated as No Longer Necessary
+
+Special Condition (d) grants Probation blanket access to Mr. Bernecky's personal and business financial information "to monitor . . . compliance with not buying or subscribing to online services that provide child pornography." Mr. Bernecky has never been alleged to have purchased child pornography; his offense of conviction is possession. The condition should be modified to require a reasonable-suspicion predicate before financial information is accessed, consistent with the suspicion-gated structure the Judgment already applies elsewhere, in Special Condition (a) itself.
+
+Special Condition (i) grants similarly broad financial-disclosure and asset-restraint authority, expressly tied to "the collection of any unpaid fine or restitution." Mr. Bernecky believes the $500 restitution obligation has been paid in full. If the record confirms this, the condition's predicate no longer exists, and *Lussier* confirms no separate showing of changed circumstances is required to vacate a condition whose stated purpose has been satisfied. 104 F.3d at 36.
+
+---
+
+### I. The No-Communication-With-Felons Condition Should Be Narrowed to Avoid Sweeping in Ordinary, Protected Conduct
+
+Standard Condition 8 bars Mr. Bernecky from "communicat[ing] or interact[ing]" with anyone known to have a felony conviction, absent advance permission. As written, this is a communication ban, not merely an association restriction, and it reaches core protected conduct with no incidental-contact or knowledge-timing exception: requesting an autograph from a public figure with a felony conviction, attending a rally advocating for felon voting rights, or exchanging ordinary pleasantries with a coworker or neighbor whose record becomes known only after the fact. It also places Mr. Bernecky in direct conflict with Special Condition (b)'s own requirement that he participate in group treatment alongside other convicted individuals, and with the practical reality that housing available to registered sex offenders routinely places them in proximity to other felons.
+
+*United States v. Reeves*, 591 F.3d 77, 80-81 (2d Cir. 2010), confirms the general principle applicable here: "[a] condition is too vague if it requires a reasonable person to speculate as to its meaning." The Court should narrow this condition to a restriction on cohabitation with, or harboring of, a known felon, or, at minimum, add an incidental-contact and knowledge-timing exception consistent with ordinary civic and workplace life.
+
+---
+
+### J. Standard Condition 12 (Risk Notification)
+
+Probation's own pre-release materials describe this condition in its pre-*Boles* form, unmodified to reflect the district's own corrective standing order. *See United States v. Boles*, 914 F.3d 95 (2d Cir. 2019). Mr. Bernecky respectfully requests that the Court direct that the existing WDNY standing order be applied to him, as it already applies district-wide. No facial challenge to the standing order's mechanism is made here.[^1]
+
+[^1]: Mr. Bernecky preemptively objects to any determination of risk made through a closed-door process between the probation officer and the Court, without notice to him or an opportunity to be heard, and reserves the right to seek proper process — including notice, disclosure of the basis for any risk determination, and an opportunity to respond — should any such determination ever be made as to him. *See United States v. Traficante*, 966 F.3d 99 (2d Cir. 2020) (facial challenge to this mechanism not ripe absent an actual risk determination).
+
+---
+
+## CONCLUSION AND REQUESTED RELIEF
+
+For the foregoing reasons, Mr. Bernecky respectfully requests that the Court:
+
+1. Clarify and modify Special Condition (a) as set out in Part A.5, including limiting monitored devices to those Mr. Bernecky owns that are capable of accessing image content, and prohibiting rather than authorizing monitoring of third-party devices;
+2. Modify Special Condition (a) to exclude indiscriminate keystroke-level logging, as set out in Part B;
+3. Clarify Special Condition (b) to establish that a treatment provider's rules exceeding this Court's own conditions cannot support a violation finding, as set out in Part C;
+4. Modify Special Condition (c) to adopt a knowledgeable-adult family-contact structure and clarify that it imposes no occupational restriction, as set out in Part D;
+5. Grant the procedural protections requested for Special Condition (g), or in the alternative the narrower relief described, and appoint counsel under 18 U.S.C. § 3006A(a)(1)(E) for purposes of this motion, as set out in Part E;
+6. Vacate the blanket presentence-report disclosure authorization in Special Condition (e) and strike its duplicative registration language, as set out in Part F;
+7. Modify Special Conditions (a), (b), (g), and (h) to include an ability-to-pay mechanism, as set out in Part G;
+8. Modify Special Condition (d) to require a reasonable-suspicion predicate, and vacate Special Condition (i) upon confirmation that restitution has been paid in full, as set out in Part H;
+9. Narrow Standard Condition 8 as set out in Part I; and
+10. Direct that the district's existing risk-notification standing order be applied to Mr. Bernecky, as set out in Part J.
+
+Respectfully submitted,
+
+_______________________________
+Jeffrey Bernecky
+Defendant, Pro Se
+
+---
+
+## CERTIFICATE OF SERVICE
+
+I hereby certify that on this ____ day of ____________, 2026, a true and correct copy of the foregoing motion was served upon the United States Attorney's Office for the Western District of New York by the method directed by the Court's applicable rules for filings by self-represented litigants.
+
+_______________________________
+Jeffrey Bernecky
