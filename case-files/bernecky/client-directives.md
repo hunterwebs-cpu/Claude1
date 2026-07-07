@@ -1145,6 +1145,79 @@ provision — as the practical CJA-appointment hook for this motion itself.**
 consider raising § 3006A(a)(1)(E) as a request for appointed counsel for
 this motion, independent of the polygraph-condition merits.**
 
+### CLIENT PUSHBACK ON TRACK 24 — Cobb's offense-specific attachment rule
+targets *different* charges, not the ongoing supervision of the *same* case
+
+Client's point: *Cobb*'s offense-specific limitation is about whether the
+Sixth Amendment right extends to a **different** (even if factually
+related) uncharged offense — it does not speak to whether the right
+persists through the **ongoing supervision phase of the very case** in
+which it already attached at indictment. Supervision is not a new offense;
+it is a continuing consequence of the same conviction and the same case.
+
+**This is a fair, non-frivolous correction, and it's worth being precise
+about exactly what it does and doesn't fix:** *Cobb*/*McNeil*'s
+offense-specific rule genuinely is *not* the right barrier for the
+same-offense-continuation theory — the client is correct that *Cobb* is
+answering a different question (does the right reach a *different*
+offense) than "does the right persist through supervision of *this*
+offense." **But that does not clear the doctrinal path — it just
+identifies the correct adversary.** The real, harder obstacle to the
+same-offense-continuation theory is the *Gagnon v. Scarpelli*/*Morrissey v.
+Brewer*/*Pennsylvania v. Finley* line (already flagged in part24), which
+treats post-conviction proceedings — probation/parole revocation hearings,
+and by extension ordinary supervision-compliance interactions — under a
+due-process framework, not a Sixth Amendment critical-stage framework, and
+*Finley* specifically holds there is no Sixth Amendment right in
+"proceedings attacking a conviction that has become final upon exhaustion
+of the appellate process" — which is exactly Bernecky's posture (a final,
+appeal-exhausted conviction, now in the post-sentence supervision phase).
+*Estelle v. Smith* remains the best affirmative analogy for the
+same-case-continuation theory (tied to a still-pending proceeding within
+the same case), precisely because it never had to grapple with *Finley*'s
+finality problem (Estelle's capital sentencing was still pending, not
+final).
+
+**Corrected framing for drafting: lead with the client's own point — this
+is the same case, not a new offense, so *Cobb*'s rule is not the obstacle —
+but candidly confront *Finley*'s finality/post-appeal cutoff as the actual
+adverse authority, using *Estelle*'s "still bears directly on a liberty
+determination" logic to argue supervision is different in kind from an
+ordinary final, closed conviction because the sentencing court retains live,
+ongoing jurisdiction over it (which is itself the premise of this entire
+§ 3583(e)(2) motion).** This is a stronger, more accurate version of the
+argument than the original Track 24 framing, not a retreat from it.
+
+**Status: client's overall assessment — "in any event, I think we are all
+set." No further research requested; incorporate this corrected framing
+into the master outline's critical-stage section.**
+
+### FINAL DECISIONS — pepper spray, Standard Condition 12, ghostwriting
+
+1. **Pepper spray (Standard Condition 10): DUMP ENTIRELY.** Confirmed cut,
+   no footnote, no mention.
+2. **Standard Condition 12 / *Boles*: simplified final approach.** The
+   motion's main request is a **simple statement asking the court to direct
+   that the existing WDNY standing order actually be applied to Bernecky**
+   (per the intake finding that Probation's own pre-release "expected
+   conditions" document lists this condition in its pre-*Boles*/unmodified
+   form — i.e., Probation is not currently even applying the district's own
+   corrective order to his case). **Separately, in a footnote only:**
+   Bernecky preemptively objects to any "private tribunal" process — a
+   closed-door determination between the officer and the court with no
+   defendant participation — and requests proper process/an opportunity to
+   be heard if and when any risk-determination is actually made as to him.
+   This replaces the earlier "brief preservation paragraph" plan with
+   something even lighter: a request to apply existing relief, plus a
+   footnoted objection preserved for later, not a merits argument about
+   *Boles*/*Traficante* at all.
+3. **Ghostwriting disclosure: drop entirely — not a concern.** Bernecky is
+   filing pro se. No further research or flagging needed on this point.
+
+**Action: MASTER-OUTLINE.md updated accordingly — Section 17 (pepper spray)
+confirmed cut, Section 16 (Standard Condition 12) simplified to match, and
+Section 0.2/Section 21's ghostwriting-disclosure item removed.**
+
 ### FACTUAL LIMITATION — sentencing transcript unavailable for now
 
 Client confirms the June 2018 sentencing transcript **cannot presently be

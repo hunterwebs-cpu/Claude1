@@ -17,18 +17,11 @@ and internal cross-references below will not appear in the filed motion.
    **over budget by roughly 4-5 pages** and needs a trim decision from you
    before drafting starts (candidates flagged throughout).
 2. **Pro se filing; you are ghostwriting.** Bernecky signs and files this
-   himself; I am not entering an appearance. **Open item, not yet
-   researched:** confirm whether W.D.N.Y. (or the Second Circuit generally)
-   has a local rule, standing order, or general practice requiring
-   disclosure of ghostwriting assistance on the face of a pro se filing.
-   Practice varies by jurisdiction (many follow ABA Formal Op. 07-446,
-   permitting undisclosed assistance in civil matters absent a local rule to
-   the contrary) — this should be confirmed before the final filing, not
-   assumed either way. Style implication either way: the motion's prose
-   should read as capably self-represented, not as if drafted by a lawyer
-   holding back their name — plain, direct sentences; no reflexive "amicus
-   curiae"-style throat-clearing; Bernecky's own voice where he's quoted
-   should sound like him.
+   himself; I am not entering an appearance. **Client confirms: not a
+   concern, no further flagging or research needed.** Style implication:
+   the motion's prose should read as capably self-represented — plain,
+   direct sentences; no reflexive "amicus curiae"-style throat-clearing;
+   Bernecky's own voice where he's quoted should sound like him.
 3. **All typical motion sections required** — see Section 1 (structure).
 4. **All citations in Bluebook form.** Every citation used below is written
    in Bluebook format already, so this outline doubles as a citation
@@ -58,7 +51,7 @@ and internal cross-references below will not appear in the filed motion.
 
 ---
 
-## 2. PAGE BUDGET (working allocation — currently over by ~4-5 pages)
+## 2. PAGE BUDGET (working allocation — several decisions now final)
 
 | Section | Pages (draft budget) | Priority if cutting |
 |---|---|---|
@@ -69,25 +62,24 @@ and internal cross-references below will not appear in the filed motion.
 | B. Keystroke logging (Track 18) | 3.5 | Trim candidate — could compress to 2.5 |
 | C. Treatment-provider delegation (Special (b)) | 2.5 | Keep |
 | D. Family contact (Special (c)) | 2.5 | Keep |
-| E. Polygraph/CVSA (Special (g)) | 3.5 | Trim candidate — client's own "no illusion" framing means the (I)-(IV) ask can be stated more tersely; could compress to 2.5 |
+| E. Polygraph/CVSA (Special (g)) | 4 | **Grew since original budget** — now carries counsel-presence framing, the critical-stage argument, and the § 3006A appointment point (Section 10, items 1a-1c) on top of the original (I)-(IV) framework. Trim candidate — tight list format, not prose paragraphs, for all of it. |
 | F. PSR disclosure/registration (Special (e)) | 1.25 | Keep, already efficient |
 | G. Consolidated fee/ability-to-pay | 2 | Keep |
 | H. Financial disclosure vacatur (Special (d), (i)) | 1.25 | Keep, already efficient |
 | I. Third-party/employer premises (Standard 5, 6) | 1 | **Cut candidate — fold entirely into Section A as a sub-point rather than a separate heading; saves ~0.75 page** |
 | J. No-communication-with-felons (Standard 8) | 1.75 | Trim candidate — could compress to 1.25 |
-| K. Risk notification (Standard 12/*Boles*) | 0.75 | **Strategy decision needed — see Section 12 below; recommend a 2-3 sentence preservation paragraph, not full merits briefing, given *Traficante*'s ripeness holding** |
-| L. Weapons/pepper spray (Standard 10) | 0 (cut) | **Recommend cutting entirely** — client's own framing was "academic, not worth pursuing"; no page budget for it |
+| K. Risk notification (Standard 12/*Boles*) | 0.25 | **FINAL — simple statement asking the existing standing order be applied, plus a one-line footnote objecting to any "private tribunal" process. No merits briefing.** |
+| L. Weapons/pepper spray (Standard 10) | 0 (cut) | **FINAL — dumped entirely, no footnote, no mention.** |
 | Conclusion/Prayer for Relief | 1 | Keep |
-| **Running total (current draft)** | **~33.5** | **needs ~3.5-4.5 pages of trims** |
+| **Running total (current draft)** | **~33.5** | **still needs ~3.5-4.5 pages of trims — K's savings are now banked, but E grew by a roughly offsetting amount** |
 
-**Recommended trims to hit 30 (in order of preference, least damaging first):**
-1. Cut Section L (pepper spray) entirely — saves the full allocation, zero cost to the case.
-2. Fold Section I into Section A as a sub-point (not a separate heading) — saves ~0.75 page of headers/transitions.
-3. Compress Section K to a 3-4 sentence preservation-of-rights paragraph (not full *Boles* merits briefing) — saves ~0.5 page. See Section 12 for the ripeness reasoning.
-4. Compress Section E (polygraph) by stating the (I)-(IV) framework in a tighter list format rather than prose paragraphs — saves ~0.5-1 page without losing substance.
-5. Compress Section B (keystroke) similarly — saves ~0.5-1 page.
+**Remaining trims to hit 30 (in order of preference, least damaging first):**
+1. Fold Section I into Section A as a sub-point (not a separate heading) — saves ~0.75 page of headers/transitions.
+2. Compress Section E (polygraph) into tight list format for all of (I)-(IV) plus the new counsel-presence/critical-stage/CJA material — this is now the biggest lever, since the section grew.
+3. Compress Section B (keystroke) similarly — saves ~0.5-1 page.
+4. Compress Section J (felon communication) — saves ~0.5 page.
 
-That gets to roughly 30. **This is a proposed allocation, not a final decision — flag if you want a different section prioritized for space instead.**
+That gets to roughly 30. **This is a proposed allocation — flag if a different section should be prioritized for space instead.**
 
 ---
 
@@ -558,25 +550,38 @@ THE COURT'S ORDER (Special Condition (b) — ~2.5 pages)
    review with any unresolved question referred to the court. Polygraph
    examiners commonly resist in-room third parties on measurement-
    distortion grounds — address this candidly rather than ignore it.
-1b. **Affirmative critical-stage argument (Track 24) — make it, but
-   honestly, as a secondary/ambitious layer, not the load-bearing theory.**
-   Critical-stage doctrine is two-step (***Rothgery v. Gillespie County***,
-   554 U.S. 191 (2008)): attachment first (offense-specific — ***Kirby v.
-   Illinois***, 406 U.S. 682 (1972); ***McNeil v. Wisconsin***, 501 U.S.
-   171 (1991); ***Texas v. Cobb***, 532 U.S. 162 (2001)), critical-stage
-   second. For the new-uncharged-offense risk scenario — the one that
-   actually matters most here — attachment fails as a threshold, structural
-   matter, not a weighing problem: the right hasn't attached to an offense
-   that doesn't exist yet. Best affirmative analogy: ***Estelle v. Smith***,
-   451 U.S. 454 (1981) (compelled psychiatric exam held a critical stage
-   because tied to a still-pending capital sentencing) — real doctrinal
-   DNA, but tied to a still-pending same-case proceeding, so it doesn't
-   resolve the new-offense problem and has never been extended to a
-   supervision-phase exam. Mainstream doctrine (***Gagnon v. Scarpelli***,
-   411 U.S. 778 (1973); ***Morrissey v. Brewer***, 408 U.S. 471 (1972);
-   ***Pennsylvania v. Finley***, 481 U.S. 551 (1987)) treats post-conviction
-   supervision counsel questions as due process, not Sixth Amendment
-   critical-stage, questions — disclose this directly rather than omit it.
+1b. **Affirmative critical-stage argument (Track 24, corrected per client
+   pushback) — make it, but honestly, as a secondary/ambitious layer, not
+   the load-bearing theory.** Critical-stage doctrine is two-step
+   (***Rothgery v. Gillespie County***, 554 U.S. 191 (2008)): attachment
+   first (offense-specific — ***Kirby v. Illinois***, 406 U.S. 682 (1972);
+   ***McNeil v. Wisconsin***, 501 U.S. 171 (1991); ***Texas v. Cobb***, 532
+   U.S. 162 (2001)), critical-stage second. **Corrected framing (client's
+   point, adopted): *Cobb*'s offense-specific rule targets whether the
+   right extends to a *different* offense — it is the correct barrier only
+   for the new-uncharged-offense risk scenario (an admission to conduct
+   never charged at all), where attachment genuinely fails as a threshold,
+   structural matter. It is NOT the right barrier for the argument that the
+   right persists through ongoing supervision of the *same* offense —
+   supervision is a continuation of the same case, not a new one, so *Cobb*
+   does not apply to that theory at all.** For that same-case-continuation
+   theory, the real adverse authority to confront is the ***Gagnon v.
+   Scarpelli***, 411 U.S. 778 (1973)/***Morrissey v. Brewer***, 408 U.S.
+   471 (1972)/***Pennsylvania v. Finley***, 481 U.S. 551 (1987) line —
+   *Finley* specifically holds there is no Sixth Amendment right in
+   "proceedings attacking a conviction that has become final upon
+   exhaustion of the appellate process," which is exactly Bernecky's
+   posture (final, appeal-exhausted, now in post-sentence supervision).
+   **Best affirmative analogy: *Estelle v. Smith*, 451 U.S. 454 (1981)**
+   (compelled psychiatric exam held a critical stage because tied to a
+   still-pending capital sentencing) — never had to grapple with *Finley*'s
+   finality problem since Estelle's proceeding was still pending, not
+   final; argue supervision is different in kind from an ordinary final,
+   closed conviction because the sentencing court retains live, ongoing
+   jurisdiction over it — which is itself the premise of this whole
+   § 3583(e)(2) motion. Lead with the client's *Cobb*-is-not-the-barrier
+   point, then confront *Finley* directly rather than let the government
+   raise it first.
 1c. **CJA § 3006A — a genuinely useful independent practical finding
    (Track 24): consider requesting appointed counsel for this very motion.**
    § 3006A(a)(1)(E) already lists "faces modification... of a condition...
@@ -754,39 +759,42 @@ Brief sub-point within Section A's ultra vires discussion (A.3):
 ---
 
 ## 16. ARGUMENT SECTION K — RISK NOTIFICATION (Standard Condition 12 /
-*Boles*) — STRATEGY CONFIRMED (Track 22), brief treatment only
+*Boles*) — FINAL, SIMPLIFIED APPROACH
 
-***United States v. Traficante***, 966 F.3d 99 (2d Cir. 2020) (same
-sentencing judge, Larimer) holds that a facial challenge to the "consultation
-with the court" mechanism in the WDNY risk-notification standing order is
-**not ripe** until an actual risk-finding occurs. **Track 22 directly tested
-whether the new judicial-economy timing argument (§ 4, item 6 above)
-creates any tension with this — it does not.** *Traficante* failed
-ripeness's ordinary two-factor test (*Abbott Laboratories v. Gardner*, 387
-U.S. 136 (1967): fitness for decision + hardship from withholding review)
-because no risk-determination existed yet and no concrete harm had
-occurred; Bernecky's CIMP dispute satisfies both factors *Traficante*'s
-claim failed (live, currently-administered dispute + actual, ongoing,
-non-speculative harm). **Confirmed recommendation: a short (3-4 sentence)
-paragraph preserving the objection for if/when a risk-notification
-determination is actually made as to Bernecky**, rather than full merits
-briefing on ***United States v. Boles***, 914 F.3d 95 (2d Cir. 2019), now —
-this is no longer an open strategic question, it is affirmatively supported
-by the ripeness analysis. One addition worth making: the preservation
-paragraph may note, in conditional form only, that a future § 3583(e)(2)
-motion (not a violation proceeding) would be the correct vehicle if a
-risk-determination is ever made — consistent with, not an expansion of,
-the brief-treatment recommendation.
+**Main request (body text): a simple statement asking the court to direct
+that the existing WDNY standing order actually be applied to Bernecky.**
+Per the intake finding, Probation's own pre-release "expected conditions"
+document lists this condition in its pre-*Boles*/unmodified form — i.e.,
+Probation is not currently even applying the district's own corrective
+standing order to his case. The ask is narrow and factual: apply the
+order that already exists and already governs this district, not a request
+to modify, further litigate, or expand the standard itself. This sidesteps
+*Traficante*'s ripeness holding entirely — no facial challenge to the
+standing order's "consultation with the court" mechanism is being made.
+
+**Footnote only: preemptive objection to any "private tribunal" process.**
+Bernecky preemptively objects to any closed-door determination between the
+probation officer and the court, made without his participation, and
+requests proper process — notice and an opportunity to be heard — if and
+when any risk-determination is actually made as to him. This preserves the
+point for later without asking the court to resolve it now, consistent
+with *Traficante*.
+
+**Note (from Track 22, retained for context): this simplified approach is
+if anything more clearly correct than the earlier "brief preservation
+paragraph" plan** — *Traficante* failed ripeness's ordinary two-factor test
+(*Abbott Laboratories v. Gardner*, 387 U.S. 136 (1967): fitness for
+decision + hardship from withholding review) because no risk-determination
+existed yet; a request to simply apply an existing order, plus a footnoted
+objection reserved for a future, more ripe posture, avoids that problem
+even more cleanly than a paragraph of preservation argument would have.
 
 ---
 
-## 17. STANDARD CONDITION 10 (WEAPONS/PEPPER SPRAY) — RECOMMEND CUTTING
-ENTIRELY
+## 17. STANDARD CONDITION 10 (WEAPONS/PEPPER SPRAY) — CUT, CONFIRMED FINAL
 
-Client's own framing: "may be academic and not worth pursuing." Given the
-page constraint, recommend omitting entirely rather than including even a
-single sentence. No further action unless you want it preserved as a
-one-line footnote.
+**Client confirmed: dump entirely.** No footnote, no mention anywhere in
+the motion.
 
 ---
 
@@ -875,18 +883,19 @@ verified reporter/statute text) unless flagged [VERIFY]:*
 
 ## 21. OPEN ITEMS BEFORE DRAFTING BEGINS
 
-1. **Page-budget trim decision** (Section 2) — confirm or redirect.
-2. ~~Standard Condition 12/*Boles* strategy~~ **RESOLVED (Track 22)** —
-   brief-preservation approach confirmed correct; *Traficante* is
-   distinguishable, not in tension, per the ripeness analysis in Section 4.
-3. **Pepper spray cut** (Section 17) — confirm cutting entirely.
-4. **Ghostwriting disclosure practice in W.D.N.Y.** (Section 0.2) — not yet
-   researched; needs a quick check before the final filing.
+1. **Page-budget trim decision** (Section 2) — largely resolved; Section E
+   (polygraph) is now the primary remaining lever given it grew.
+2. ~~Standard Condition 12/*Boles* strategy~~ **RESOLVED** — simplified to a
+   simple statement requesting the existing standing order be applied,
+   plus a one-line footnote (Section 16).
+3. ~~Pepper spray cut~~ **RESOLVED — dumped entirely** (Section 17).
+4. ~~Ghostwriting disclosure practice~~ **RESOLVED — not a concern, no
+   further action** (Section 0.2).
 5. **Factual confirmations still outstanding:** restitution paid in full
    (Special (i)); exact count/nature of prior sex-offense convictions
    (Section E); exact wording of the PO's "like kind and degree" statement
    (get from client rather than relying on paraphrase in the motion);
-   Bernecky's financial eligibility for CJA purposes (bears on the new
+   Bernecky's financial eligibility for CJA purposes (bears on the
    § 3006A(a)(1)(E) appointment question, Section 10 item 1c).
 6. **[VERIFY] citations** — see CITATIONS-TO-VERIFY.md for the full,
    currently-open list; several are cited in this outline and must be
@@ -894,9 +903,7 @@ verified reporter/statute text) unless flagged [VERIFY]:*
    finalized, particularly the FJC-Guide-sourced device-capability cases
    (Section 6, A.4) and the freedom-of-thought anchors (Section 8, C.5),
    none of which are in the Drive folder.
-7. **NEW — consider whether to formally request CJA counsel appointment
-   for this motion itself** under § 3006A(a)(1)(E) (Section 10, item 1c) —
-   a practical, independently useful outcome regardless of how the
+7. **Consider whether to formally request CJA counsel appointment for this
+   motion itself** under § 3006A(a)(1)(E) (Section 10, item 1c) — a
+   practical, independently useful outcome regardless of how the
    polygraph-specific counsel-presence theory is ultimately resolved.
-   Requires a decision on whether to raise this at all, given Bernecky is
-   proceeding pro se with ghostwriting assistance.
