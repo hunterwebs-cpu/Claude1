@@ -164,6 +164,30 @@ descending order of urgency/strength.
    amendments) should note that development as an independent
    changed-circumstances hook under *Lussier*'s own framing — even though,
    per *Lussier*, no such showing is strictly required.
+6. **NEW — the judicial-economy/"resolve now vs. later" argument (Track
+   22, confirmed):** declining to resolve these disputes now does not make
+   them disappear — it only guarantees the identical legal questions
+   resurface at a future revocation proceeding, at categorically higher
+   stakes (incarceration on the table). Confirmed directly from
+   § 3583(e)(3)/(h)'s own text plus ***United States v. Betts***, 886 F.3d
+   198 (2d Cir. 2018) (Bernecky's own district, read in full): a
+   post-revocation § 3583(h) term is a fresh, freely-appealable sentencing
+   act, not an automatic continuation of the 2018 judgment — no
+   diminished-scrutiny/law-of-the-case doctrine was found anywhere for a
+   condition merely carried forward unchanged. No case names this
+   "resolve now vs. later" rule directly (honest gap), but it assembles
+   from Rule 32.1(c)'s own responsive purpose, the Nov. 2025 Guidelines
+   timing (item 3 above), and *Kunz* footnote 8's own characterization of a
+   § 3583(e)(2) motion as the "simple," correct, proactive tool for this
+   exact condition family. **Capstone quote:** ***United States v.
+   Carlineo***, 998 F.3d 533 (2d Cir. 2021) (already relied on elsewhere in
+   this case) independently held its condition vague because it "fail[ed]
+   to inform Carlineo what he must do... to avoid a violation proceeding"
+   — binding, in-circuit language stating this exact point. Present the
+   whole argument as a disclosed synthesis, not a citation to a controlling
+   holding, per Track 22's own recommendation. **Confirmed: this does not
+   conflict with *Traficante*'s ripeness holding — see Section 16 below,
+   now resolved rather than an open strategic question.**
 
 ---
 
@@ -512,6 +536,62 @@ THE COURT'S ORDER (Special Condition (b) — ~2.5 pages)
    after; ample per-question time to research privilege; examiner
    credentials sufficient for a Daubert challenge; no disclosure of
    polygraph-derived information without leave of court.
+1a. **Counsel-presence framing (Tracks 21 & 24, confirmed): lead with a
+   discretionary § 3583(d) safeguard request, NOT a Miranda-style
+   constitutional entitlement.** No federal case anywhere grants, or was
+   even asked to grant, counsel's physical presence during a supervised-
+   release polygraph for real-time privilege calls — genuinely unbriefed
+   territory. One adverse case must be confronted directly: ***J.B. v. New
+   Jersey State Parole Board***, 229 N.J. 21 (2017) (rejected this exact
+   claim on Miranda/custodial grounds — state law, not binding, but
+   disclose it before the government does). Bernecky's actual theory (a
+   "pure question of law" a layperson can't reliably apply in real time)
+   doesn't depend on custodial status, sidestepping that collision
+   entirely. Support: Guide to Judiciary Policy, Vol. 8E § 190.45 (directs
+   officers to refer uncertain invocations to the court rather than decide
+   alone); the grand jury "step outside to consult" practice; ***United
+   States v. Herrera-Figueroa***, 918 F.2d 1430 (9th Cir. 1990) (PSR-
+   interview counsel-presence required via supervisory power, expressly
+   NOT a critical-stage holding — the exact kind of vehicle wanted here).
+   **Present relief as a descending menu:** in-room presence throughout →
+   consultation breaks (grand-jury style) → advance written question
+   review with any unresolved question referred to the court. Polygraph
+   examiners commonly resist in-room third parties on measurement-
+   distortion grounds — address this candidly rather than ignore it.
+1b. **Affirmative critical-stage argument (Track 24) — make it, but
+   honestly, as a secondary/ambitious layer, not the load-bearing theory.**
+   Critical-stage doctrine is two-step (***Rothgery v. Gillespie County***,
+   554 U.S. 191 (2008)): attachment first (offense-specific — ***Kirby v.
+   Illinois***, 406 U.S. 682 (1972); ***McNeil v. Wisconsin***, 501 U.S.
+   171 (1991); ***Texas v. Cobb***, 532 U.S. 162 (2001)), critical-stage
+   second. For the new-uncharged-offense risk scenario — the one that
+   actually matters most here — attachment fails as a threshold, structural
+   matter, not a weighing problem: the right hasn't attached to an offense
+   that doesn't exist yet. Best affirmative analogy: ***Estelle v. Smith***,
+   451 U.S. 454 (1981) (compelled psychiatric exam held a critical stage
+   because tied to a still-pending capital sentencing) — real doctrinal
+   DNA, but tied to a still-pending same-case proceeding, so it doesn't
+   resolve the new-offense problem and has never been extended to a
+   supervision-phase exam. Mainstream doctrine (***Gagnon v. Scarpelli***,
+   411 U.S. 778 (1973); ***Morrissey v. Brewer***, 408 U.S. 471 (1972);
+   ***Pennsylvania v. Finley***, 481 U.S. 551 (1987)) treats post-conviction
+   supervision counsel questions as due process, not Sixth Amendment
+   critical-stage, questions — disclose this directly rather than omit it.
+1c. **CJA § 3006A — a genuinely useful independent practical finding
+   (Track 24): consider requesting appointed counsel for this very motion.**
+   § 3006A(a)(1)(E) already lists "faces modification... of a condition...
+   of a term of supervised release" as a **mandatory** appointment
+   category — this may entitle Bernecky to CJA counsel for this § 3583(e)(2)
+   motion itself, regardless of how the critical-stage or Fifth Amendment
+   merits come out. Genuine ambiguity: unclear whether this reaches a
+   defendant-initiated, defendant-favorable modification (the pending
+   Safer Supervision Act of 2025 suggests current practice may not treat it
+   that way) — but worth raising with the court directly. **§ 3006A(a)(2)'s
+   "interests of justice" provision is confirmed NOT a general catch-all**
+   — limited to two enumerated categories (Class B/C misdemeanants/
+   infraction defendants; § 2241/2254/2255 habeas petitioners) — it does
+   not reach the polygraph-counsel scenario on its text. Do not present it
+   as an independent ground in the motion; use (a)(1)(E) instead.
 2. **Doctrinal grounding (both now confirmed via full primary-source read,
    2026-07-06 — see CITATIONS-TO-VERIFY.md items 4-5):** ***Minnesota v.
    Murphy***, 465 U.S. 420, 435 (1984) ("classic penalty situation"
@@ -674,22 +754,29 @@ Brief sub-point within Section A's ultra vires discussion (A.3):
 ---
 
 ## 16. ARGUMENT SECTION K — RISK NOTIFICATION (Standard Condition 12 /
-*Boles*) — STRATEGY FLAG, recommend brief treatment only
+*Boles*) — STRATEGY CONFIRMED (Track 22), brief treatment only
 
-**Open strategic question — flagging rather than deciding unilaterally:**
 ***United States v. Traficante***, 966 F.3d 99 (2d Cir. 2020) (same
 sentencing judge, Larimer) holds that a facial challenge to the "consultation
 with the court" mechanism in the WDNY risk-notification standing order is
-**not ripe** until an actual risk-finding occurs. Given the 30-page limit and
-this ripeness problem, **recommend**: a short (3-4 sentence) paragraph
-preserving the objection for if/when a risk-notification determination is
-actually made as to Bernecky, rather than full merits briefing on ***United
-States v. Boles***, 914 F.3d 95 (2d Cir. 2019), now. This avoids spending
-scarce pages on an argument a court may simply decline to reach as unripe,
-while not forfeiting it. **Confirm this call before drafting** — the
-alternative is to press it now in full (requires locating/reviewing the
-WDNY standing order's full text and Probation's "expected conditions"
-document, neither yet pulled) at a real page cost.
+**not ripe** until an actual risk-finding occurs. **Track 22 directly tested
+whether the new judicial-economy timing argument (§ 4, item 6 above)
+creates any tension with this — it does not.** *Traficante* failed
+ripeness's ordinary two-factor test (*Abbott Laboratories v. Gardner*, 387
+U.S. 136 (1967): fitness for decision + hardship from withholding review)
+because no risk-determination existed yet and no concrete harm had
+occurred; Bernecky's CIMP dispute satisfies both factors *Traficante*'s
+claim failed (live, currently-administered dispute + actual, ongoing,
+non-speculative harm). **Confirmed recommendation: a short (3-4 sentence)
+paragraph preserving the objection for if/when a risk-notification
+determination is actually made as to Bernecky**, rather than full merits
+briefing on ***United States v. Boles***, 914 F.3d 95 (2d Cir. 2019), now —
+this is no longer an open strategic question, it is affirmatively supported
+by the ripeness analysis. One addition worth making: the preservation
+paragraph may note, in conditional form only, that a future § 3583(e)(2)
+motion (not a violation proceeding) would be the correct vehicle if a
+risk-determination is ever made — consistent with, not an expansion of,
+the brief-treatment recommendation.
 
 ---
 
@@ -789,18 +876,27 @@ verified reporter/statute text) unless flagged [VERIFY]:*
 ## 21. OPEN ITEMS BEFORE DRAFTING BEGINS
 
 1. **Page-budget trim decision** (Section 2) — confirm or redirect.
-2. **Standard Condition 12/*Boles* strategy** (Section 16) — confirm brief-
-   preservation approach or full merits briefing.
+2. ~~Standard Condition 12/*Boles* strategy~~ **RESOLVED (Track 22)** —
+   brief-preservation approach confirmed correct; *Traficante* is
+   distinguishable, not in tension, per the ripeness analysis in Section 4.
 3. **Pepper spray cut** (Section 17) — confirm cutting entirely.
 4. **Ghostwriting disclosure practice in W.D.N.Y.** (Section 0.2) — not yet
    researched; needs a quick check before the final filing.
 5. **Factual confirmations still outstanding:** restitution paid in full
    (Special (i)); exact count/nature of prior sex-offense convictions
    (Section E); exact wording of the PO's "like kind and degree" statement
-   (get from client rather than relying on paraphrase in the motion).
+   (get from client rather than relying on paraphrase in the motion);
+   Bernecky's financial eligibility for CJA purposes (bears on the new
+   § 3006A(a)(1)(E) appointment question, Section 10 item 1c).
 6. **[VERIFY] citations** — see CITATIONS-TO-VERIFY.md for the full,
    currently-open list; several are cited in this outline and must be
    independently confirmed against a reporter/PACER before the motion is
    finalized, particularly the FJC-Guide-sourced device-capability cases
    (Section 6, A.4) and the freedom-of-thought anchors (Section 8, C.5),
    none of which are in the Drive folder.
+7. **NEW — consider whether to formally request CJA counsel appointment
+   for this motion itself** under § 3006A(a)(1)(E) (Section 10, item 1c) —
+   a practical, independently useful outcome regardless of how the
+   polygraph-specific counsel-presence theory is ultimately resolved.
+   Requires a decision on whether to raise this at all, given Bernecky is
+   proceeding pro se with ghostwriting assistance.

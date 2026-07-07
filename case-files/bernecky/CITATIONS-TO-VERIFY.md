@@ -221,3 +221,38 @@ Both cases below were read in full, directly, from Drive-folder primary sources.
 **Confirmed gap, high confidence in the absence:** no federal case anywhere grants, or was squarely asked to grant, counsel's physical presence during a probation/supervised-release polygraph for real-time privilege determinations. Do not overclaim novelty as a strength — it cuts both ways (unbriefed territory, and the one on-point case is adverse).
 
 **Recommendation adopted:** frame as a discretionary § 3583(d) safeguard request, explicitly not arguing the exam is "custodial" and not trying to distinguish/limit *Minnesota v. Murphy* at all. Present relief as a descending menu (in-room presence → consultation breaks → advance written question review with unresolved questions referred to the court).
+
+---
+
+## TRACK 22 — Judicial-Economy Timing Argument (full analysis in `research-output/part22-timing-judicial-economy.md`)
+
+| # | Case/Authority | Status | Key takeaway |
+|---|---|---|---|
+| 1 | 18 U.S.C. § 3583(e)(3), (h) | Confirmed — read in full from the same primary LII copy already used in part14 | Confirms client's premise: (h)'s new term is a freestanding authorization, not an automatic continuation; (e)(3) requires a fresh judicial finding at the revocation proceeding. |
+| 2 | United States v. Betts, 886 F.3d 198 (2d Cir. 2018) | Confirmed — read in full (already in case file for its alcohol-condition holding, part9) | New finding: a revocation court's newly-imposed conditions were freely reviewed and partly vacated on ordinary appeal — no diminished scrutiny, no forfeiture tracing back to the original sentencing. Single best primary-source confirmation of the client's premise, and it's from Bernecky's own district. |
+| 3 | United States v. Carlineo, 998 F.3d 533 (2d Cir. 2021) | Confirmed — already read in full elsewhere (part1, part5) | Best find of this track: independently held the condition vague because it "fail[ed] to inform Carlineo what he must do... to avoid a violation proceeding" — binding, in-circuit language stating the client's exact point. Use as the section's capstone quote. |
+| 4 | United States v. Maiorana, 153 F.4th 306 (2d Cir. 2025) (en banc) | **[VERIFY]** — reconstructed from WebSearch this pass, used for a different purpose than the demoted CIMP-silence use | "Contemporaneous opportunity to object" logic applied here to confirm revocation resentencing gets a fresh objection/appeal right — a different, valid use of the same case already in this file. |
+| 5 | Esteras v. United States, 606 U.S. ___ (2025) | **[VERIFY]** | Reinforces that a revocation proceeding is its own forward-looking sentencing decision, not backward-looking enforcement of the original judgment. |
+| 6 | Abbott Laboratories v. Gardner, 387 U.S. 136 (1967) | **[VERIFY]** | Supplies the actual two-factor ripeness test (fitness + hardship) that explains why Traficante came out the way it did and why Bernecky's CIMP dispute is distinguishable. |
+| 7 | Steffel v. Thompson, 415 U.S. 452 (1974) | **[VERIFY]** | Analogy only, different procedural context (declaratory judgment) — "no civilized legal system... should force" a person to violate a law to test its scope. Cite as reinforcing background, not controlling. |
+| 8 | United States v. Loy, 237 F.3d 251 (3d Cir. 2001) | **[VERIFY]** | Out-of-circuit vagueness case, non-essential "accord" citation only — Carlineo already supplies the load-bearing in-circuit quote. |
+
+**Confirmed: no case names a "resolve now vs. defer to revocation" judicial-economy rule directly** — presented as a synthesis argument, consistent with this file's established practice. **Direct, candid answer on strategy: Traficante does not conflict with this argument — it explains it. Press CIMP's merits in full now; keep Standard Condition 12/Boles as a brief, conditionally-worded preservation paragraph — no change to the existing page-budget allocation.**
+
+---
+
+## TRACK 24 — Critical-Stage Argument and CJA § 3006A (full analysis in `research-output/part24-cja-critical-stage.md`)
+
+| # | Case/Authority | Status | Key takeaway |
+|---|---|---|---|
+| 1 | Rothgery v. Gillespie County, 554 U.S. 191 (2008) | **[VERIFY]** | Confirms critical-stage doctrine is two-step: attachment first, critical-stage second — analytically distinct, cannot be collapsed. |
+| 2 | Kirby v. Illinois, 406 U.S. 682 (1972); McNeil v. Wisconsin, 501 U.S. 171 (1991); Texas v. Cobb, 532 U.S. 162 (2001) | **[VERIFY]** | Confirm attachment is offense-specific — forecloses reaching the new-uncharged-offense risk scenario as a threshold, structural matter, not a weighing problem. |
+| 3 | United States v. Wade, 388 U.S. 218 (1967) | **[VERIFY]** | Source formulation of the "critical stage" test itself. |
+| 4 | Estelle v. Smith, 451 U.S. 454 (1981) | **[VERIFY]** | Best affirmative analogy — compelled psychiatric exam held a critical stage because tied to a still-pending capital sentencing. Real doctrinal DNA but doesn't resolve the new-offense attachment problem. |
+| 5 | Gagnon v. Scarpelli, 411 U.S. 778 (1973); Morrissey v. Brewer, 408 U.S. 471 (1972); Pennsylvania v. Finley, 481 U.S. 551 (1987) | **[VERIFY]** | Mainstream doctrine treating post-conviction supervision counsel questions as due process, not Sixth Amendment critical-stage — adverse to Thread 1, must be disclosed. |
+| 6 | Massiah v. United States, 377 U.S. 201 (1964) | **[VERIFY]** | Confirms custody is not the Sixth Amendment gatekeeper — but charge-status (attachment) still is; does not provide a workaround for the new-offense problem. |
+| 7 | J.B. v. New Jersey State Parole Board, 229 N.J. 21 (2017) | **[VERIFY]** — same case Track 21 found, now independently corroborated by a second research pass | Adverse authority confirmed again — squarely rejected a right-to-counsel-at-polygraph claim. Must be disclosed and distinguished, not omitted. |
+| 8 | 18 U.S.C. § 3006A(a)(1)(E) | **[VERIFY exact text/lettering against uscode.house.gov]** — high confidence via multiple independently-corroborating sources | **Significant practical find:** already lists supervised-release modification proceedings as a mandatory CJA-appointment category — may entitle Bernecky to counsel for this very motion. Genuine ambiguity flagged re: whether it covers defendant-initiated, defendant-favorable modifications (pending Safer Supervision Act of 2025 suggests current practice may not treat it that way). |
+| 9 | 18 U.S.C. § 3006A(a)(2) | **[VERIFY exact text against uscode.house.gov]** — high confidence via multiple independently-corroborating sources | Confirmed NOT a general "interests of justice" catch-all — limited to two enumerated categories (Class B/C misdemeanants/infraction defendants; § 2241/2254/2255 habeas petitioners). Does not reach the polygraph-counsel scenario on its text. **Do not present as an independent ground in the motion.** |
+
+**Recommendation adopted:** make the critical-stage argument affirmatively but honestly (lead with *Estelle*, disclose *J.B.*/*Gagnon*/*Finley* directly, be explicit the new-offense scenario hits a structural attachment wall) while keeping Track 21's discretionary condition-crafting theory as the load-bearing fallback. Use § 3006A(a)(1)(E)'s mandatory modification-proceeding category — not the interests-of-justice provision — as the practical CJA-appointment hook.

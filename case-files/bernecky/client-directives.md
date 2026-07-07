@@ -1033,7 +1033,117 @@ underlying logic; (4) assess how this argument interacts with *Traficante*'s
 ripeness holding for Standard Condition 12 specifically — does it strengthen
 pressing that condition's merits now, or is *Traficante* distinguishable.
 
-**Status: new directive logged; research not yet started.**
+**Status: RESEARCHED (Track 22, part22-timing-judicial-economy.md). Summary
+below.**
+
+### TRACK 22 RESULT — judicial-economy timing argument: premise confirmed,
+and it explains rather than conflicts with Traficante
+
+**Bottom line: your premise is correct, and better-supported than you
+framed it — the reimposed-condition analysis is a fresh sentencing act,
+freely appealable, with no diminished-scrutiny doctrine anywhere found.**
+
+- **Confirmed directly from § 3583(e)(3)/(h)'s own text plus *United States
+  v. Betts*, 886 F.3d 198 (2d Cir. 2018) (read in full — Bernecky's own
+  district):** a post-revocation § 3583(h) term is not an automatic
+  continuation of the 2018 judgment — it's a new, freestanding
+  authorization the court decides whether to impose at all, and *Betts*
+  itself shows a revocation court's newly-imposed conditions freely
+  reviewed and partly vacated on ordinary appeal, no forfeiture penalty
+  traced back to the original sentencing.
+- **No "law of the case"/diminished-scrutiny doctrine found anywhere** for
+  a condition merely carried forward unchanged — and *Maiorana*'s own
+  "contemporaneous opportunity to object" logic (used differently here than
+  the demoted CIMP-silence use) cuts the other way: it applies to every
+  sentencing event imposing a non-mandatory condition, revocation
+  resentencing included.
+- **No case names the "resolve now vs. defer to revocation" judicial-economy
+  rule directly** — honest gap — but real building blocks assemble into a
+  synthesis: Rule 32.1(c)'s own responsive, present-tense purpose (part14);
+  the Nov. 2025 Guidelines amendment's commencement-of-supervision timing
+  (part14); *Kunz* footnote 8's own characterization of a § 3583(e)(2)
+  motion as the "simple," correct, proactive tool for this exact condition
+  family (part19); and general ripeness doctrine (*Abbott Laboratories v.
+  Gardner*, 387 U.S. 136 (1967)).
+- **Best find: *United States v. Carlineo*, 998 F.3d 533 (2d Cir. 2021)
+  (already read in full elsewhere in this case) independently held the
+  challenged condition vague because it "fail[ed] to inform Carlineo what
+  he must do... to avoid a violation proceeding"** — binding, in-circuit
+  language stating your exact point in the Second Circuit's own words. Use
+  as the section's rhetorical/doctrinal capstone.
+- **Direct answer on Traficante: no tension — it explains rather than
+  undercuts your point.** *Traficante* failed ripeness's ordinary two-factor
+  test (no risk-determination existed yet; no concrete harm). Bernecky's
+  CIMP dispute satisfies both factors *Traficante*'s claim failed
+  (live, current administration + concrete ongoing harm). **Recommendation:
+  press Special Condition (a)/CIMP's merits in full now; keep Standard
+  Condition 12/Boles as a brief, conditionally-worded preservation
+  paragraph — this new argument reinforces, not disturbs, that existing
+  page-budget allocation.**
+
+**Action: fold into the Jurisdiction/Standard-of-Review section of the
+master outline, structured as: (1) statutory mechanics/Betts, (2) Rule
+32.1(c)/Guidelines-timing/Kunz-fn.8 synthesis, (3) Carlineo capstone quote,
+(4) a short Traficante-distinguishing footnote only — not an expansion of
+the Standard Condition 12 treatment.**
+
+### TRACK 24 RESULT — critical-stage argument and CJA § 3006A: honest
+limits, but a genuinely useful practical find
+
+**Bottom line: the affirmative critical-stage argument has a real,
+structural problem (not just unfavorable case law), the "interests of
+justice" provision doesn't reach this fact pattern as written — but § 3006A
+may already entitle Bernecky to appointed counsel for this very motion,
+independent of the polygraph theory entirely.**
+
+- **Critical-stage doctrine is two-step (*Rothgery v. Gillespie County*,
+  554 U.S. 191 (2008)): attachment first (offense-specific — *Kirby*,
+  *McNeil*, *Cobb*), then critical-stage second.** For the scenario that
+  actually worries you most — a polygraph answer eliciting an admission to
+  an **uncharged** offense — the right hasn't attached to that offense at
+  all, so critical-stage analysis is structurally premature, not just
+  unfavorably weighed. For the offense of conviction itself, mainstream
+  doctrine treats post-conviction supervision matters as due process
+  territory (*Gagnon v. Scarpelli*, *Morrissey v. Brewer*), not Sixth
+  Amendment critical-stage territory, and *Pennsylvania v. Finley* treats
+  direct appeal as the ordinary outer boundary.
+- **Adverse authority confirmed and must be disclosed:** *J.B. v. New
+  Jersey State Parole Board*, 229 N.J. 21 (2017), squarely rejected a
+  right-to-counsel-at-polygraph claim (same case Track 21 found).
+- **Best affirmative analogy: *Estelle v. Smith*, 451 U.S. 454 (1981)**
+  (compelled psychiatric exam held a critical stage because tied to a
+  still-pending capital sentencing) — real doctrinal DNA, but tied to a
+  still-pending same-case proceeding, so it doesn't resolve the
+  new-offense attachment problem and has never been extended to a
+  supervision-phase exam.
+- **§ 3006A(a)(1)(E) — significant, independently useful find:** already
+  lists "faces modification... of a condition... of a term of supervised
+  release" as a **mandatory** appointment category. **This may already
+  entitle Bernecky to CJA counsel for this very § 3583(e)(2) motion,
+  regardless of the critical-stage or Fifth Amendment merits.** Real
+  ambiguity flagged: unclear whether this reaches a defendant-initiated,
+  defendant-favorable modification (a pending bill, the Safer Supervision
+  Act of 2025, suggests current practice may not treat it that way) — but
+  worth raising with the court directly regardless.
+- **§ 3006A(a)(2) "interests of justice" is NOT a general catch-all** —
+  confirmed limited to exactly two categories (Class B/C misdemeanants/
+  infraction defendants; § 2241/2254/2255 habeas petitioners). **Your
+  proposed reading is a sound policy intuition but not a sound reading of
+  the actual statutory text — do not present it as an independent ground;
+  that risks the same overclaiming cost already flagged elsewhere in this
+  case.**
+
+**Recommendation (adopted): make the critical-stage argument affirmatively
+but honestly (lead with *Estelle*, disclose *J.B.*/*Gagnon*/*Finley*
+directly, be explicit the new-offense scenario hits a structural attachment
+wall) — but keep the discretionary condition-crafting theory (Track 21) as
+the load-bearing fallback. Use § 3006A(a)(1)(E)'s mandatory
+modification-proceeding category — not the interests-of-justice
+provision — as the practical CJA-appointment hook for this motion itself.**
+
+**Action: fold into the master outline's polygraph section; separately
+consider raising § 3006A(a)(1)(E) as a request for appointed counsel for
+this motion, independent of the polygraph-condition merits.**
 
 ### FACTUAL LIMITATION — sentencing transcript unavailable for now
 
