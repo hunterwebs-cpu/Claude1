@@ -108,7 +108,7 @@ unresolved items:**
 | United States v. Sterling | Flagged as likely hallucinated by a search-engine summarizer — already excluded from use, listed here only so it isn't accidentally reintroduced |
 | United States v. Mears | Could not locate any citation at all across two research passes — drop unless you can locate it |
 | United States v. Scott (9th Cir.) | Weak, tangential (bond-conditions context, not supervised release); only single-source corroborated |
-| The "~20% of adults have a felony conviction" statistic | No specific BJS/Sentencing Project source found — needs a real citation or should be dropped/softened to "a substantial portion of the adult population" |
+| The felony-conviction-prevalence statistic (Part J) | **UPDATED per client correction:** now stated in the filed motion as "approximately five percent" of U.S. adults, not the earlier unsupported "~20%" figure. **Still [VERIFY BEFORE FILING] — no specific source has been pulled for the 5% figure either.** Find and cite a real source (BJS, Sentencing Project, or similar) for whatever percentage is actually used, or soften to "a substantial portion of the adult population" if no defensible figure can be confirmed in time. |
 | The "probation absorbs cost for indigent defendants" claim | Potentially very useful if true, but only a secondhand search-engine paraphrase — do not cite until confirmed against primary AO text |
 
 ---

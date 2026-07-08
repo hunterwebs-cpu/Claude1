@@ -2329,3 +2329,119 @@ content this file's own directives require be kept.
 should (a) decide whether to accept the current length or direct a further
 trim, and (b) run the [VERIFY]-tier citations (see CITATIONS-TO-VERIFY.md)
 against Westlaw/Lexis/PACER before the motion is actually filed.
+
+---
+
+## 2026-07-08 (same day, second pass) — Client review of the full rewrite: six corrections applied directly
+
+Client reviewed the full rewrite and flagged six problems, all fixed directly
+in MOTION-DRAFT.md (no subagent used for this pass — precision edits made
+in the main session):
+
+1. **Factual error — Bernecky does not own a CPAP machine.** The CPAP
+   example in Part A.4 was drawn from the client's own earlier "even CPAP
+   machines and cars have internet access" advocacy point (logged above,
+   "advocacy philosophy" entry) — a generic illustration of IoT ubiquity,
+   never a fact about Bernecky personally. The prior rewrite pass
+   mistakenly wrote it as "Mr. Bernecky's CPAP machine," asserting personal
+   ownership of a device with no factual support in the case file. **Fixed:**
+   Part A.4 now uses a set of ubiquitous, unattributed IoT examples (a
+   refrigerator, a video doorbell, a fitness tracker, a CPAP machine, all
+   introduced generically, not as Bernecky's own possessions) per the
+   client's instruction to use "more ubiquitous internet of things examples"
+   rather than a single personalized device. The car example was also
+   revised to stop asserting personal ownership ("a family car" rather than
+   "Mr. Bernecky's car"), for the same reason, out of caution.
+2. **Citation working against its own argument.** The device-capability-
+   threshold citation to *United States v. Rath* (5th Cir.) quoted language
+   permitting a "school or work" device only "as long as . . . not capable
+   of Internet access" — which, read carefully, concedes that an
+   internet-capable work device WOULD be within the condition's reach,
+   directly undercutting Part A's flagship position that employer/third-
+   party systems are outside the condition's reach entirely, regardless of
+   capability. **Fixed:** Rath removed from Part A.4; *Ullman* (a general,
+   non-work-specific capability-threshold citation) kept alone, with an
+   added sentence clarifying the capability threshold governs only
+   Bernecky's own devices and concedes nothing about third-party/employer
+   devices.
+3. **Polygraph section (Part F) was choppy and under-motivated.** Client
+   flagged the numbered-subsection structure as fragmented (some
+   subsections one or two sentences) and noted the section dove straight
+   into case law without first stating Bernecky's actual bottom-line
+   position. **Fixed:** added an unnumbered lead paragraph stating plainly,
+   before any doctrine, that Bernecky will not answer any polygraph/CVSA
+   question without counsel present to advise him in real time; folded the
+   former standalone one-line F.5 (no factual predicate of dishonesty) into
+   the end of F.1 as a closing point rather than an orphaned subsection, so
+   F now runs four substantive parts instead of five, with none reduced to
+   a single throwaway sentence.
+4. **CJA counsel request "made zero sense."** The prior F.4 asked for
+   counsel "for purposes of this motion, independent of how the
+   polygraph-specific request above is resolved" — framing appointment as
+   disconnected from the actual polygraph relief, which is what made it
+   confusing. Client's correction: this is not a hedge — either the Court
+   appoints counsel to help Bernecky navigate the examinations, or, absent
+   that, Bernecky will invoke the Fifth Amendment categorically as to any
+   and all such examinations going forward. Client also directed that the
+   CJA's "interests of justice"/constitutional-rights-protection function
+   supports appointment, not merely the 18 U.S.C. § 3006A(a)(1)(E)
+   modification-proceeding category already used. **Fixed:** F.4 rewritten
+   to frame the appointment request as squarely in service of resolving the
+   polygraph protections sought in this very motion (not a separate,
+   independent ask), to state the binary consequence explicitly, and to
+   argue the interests-of-justice/constitutional-protection point as
+   additional support layered onto the (a)(1)(E) hook. **Open research
+   flag, not yet resolved:** Track 24 previously found that § 3006A(a)(2)'s
+   "interests of justice" language is NOT a general catch-all and is limited
+   to two enumerated categories that do not reach this fact pattern. The
+   interests-of-justice argument now in F.4 is framed as a persuasive point
+   about what the (a)(1)(E) appointment authority should be used to
+   accomplish, not as an independent citation to (a)(2) or any other specific
+   subsection — this needs a citation-verification pass before filing to
+   confirm there is a clean statutory or case-law hook for a freestanding
+   "interests of justice"/constitutional-protection appointment argument, or
+   whether it should remain framed only as persuasive gloss on (a)(1)(E).
+5. **Missing felony-conviction-prevalence statistic in Part J.** Client
+   directed that Part J was missing the point that a meaningful share of the
+   U.S. population — client's figure: approximately 5% — has a felony
+   conviction, which matters to the overbreadth argument (a "communicate or
+   interact with any felon" ban reaches an unremarkable share of the general
+   public, not a narrow class). **Fixed:** added to Part J's opening
+   paragraph. **This supersedes, and corrects, the file's own earlier
+   unsupported "~20%" figure** (flagged in CITATIONS-TO-VERIFY.md's LOW
+   PRIORITY section) — the 5% figure is the client's own number, not yet
+   independently sourced either, and is flagged `[VERIFY BEFORE FILING]` in
+   CITATIONS-TO-VERIFY.md pending a real BJS/Sentencing Project citation.
+6. **Two leftover "full stop" instances and one "de novo review" error.**
+   The phrase "full stop" had leaked from this drafting session's own
+   internal instructions (used there as emphasis/register guidance to the
+   drafter, not as text meant to appear in the filed document) into the
+   actual motion text in three places — a register error, since "full stop"
+   is a casual interjection with no place in formal motion practice. All
+   three removed. Separately, Part A.2's comparison to *Brown* mischaracterized
+   this motion's posture as inviting "de novo consideration" — but "de novo
+   review" is an appellate standard-of-review concept, and this is an
+   original district court motion under § 3583(e)(2), not an appeal from any
+   prior ruling; there is no "review" of anything happening here at all,
+   let alone de novo review. **Fixed:** replaced with an accurate
+   description — Brown's plain-error posture is inapposite because this
+   Court is exercising its own § 3583(e)(2) discretion in the first
+   instance, not reviewing a prior decision under any standard.
+
+**Also added per this pass:** a Track 9 section in CITATIONS-TO-VERIFY.md
+flagging *United States v. Rodriguez* (2d Cir. 2023) — cited in Part D,
+sourced from part9's pre-existing research, but never previously logged in
+the master verification checklist. This was caught during the commit review
+of the prior rewrite pass, before the client's own review comments arrived,
+and is a separate, already-fixed item (see the git history for the commit
+titled "Full from-scratch rewrite... integrating Track 25 and the
+legal-advocacy skill").
+
+**Action before filing:** resolve the open CJA interests-of-justice research
+flag (item 4, above); find or confirm a real source for the felony-
+conviction-prevalence statistic (item 5); and run every `[VERIFY]`-tier
+citation in CITATIONS-TO-VERIFY.md against Westlaw/Lexis/PACER, including
+Rodriguez, Ullman, Sofsky, Bleau, the Track 20/21/24 critical-stage and
+polygraph-counsel authorities, and the Track 25 absurdity-canon background
+cases — none of these should be treated as filing-ready on the strength of
+this drafting session's research alone.
