@@ -9,6 +9,85 @@ and internal cross-references below will not appear in the filed motion.
 
 ---
 
+## SUPERSEDING STRUCTURAL CHANGE (2026-07-08) — READ THIS FIRST
+
+Everything below this notice describes the **theory-led** structure (argument
+type as the organizing unit, e.g. "occupational restriction" or "fees" as a
+standalone section spanning multiple conditions). **That structure has been
+abandoned.** The client reviewed a full rewrite built on it and called for a
+genuine ground-up redo, directing that the motion instead be organized
+**condition-led** — one section per condition of the Judgment, in the order
+conditions appear in the Judgment, with every challenge to that condition
+(occupational-restriction, privilege/keystroke, fee, device-capability, or
+whatever else applies) addressed together inside that condition's own
+section. This mirrors the structure of the client's own prior, successful
+Preston Field motion (see `.claude/skills/legal-advocacy/reference/
+preston-field-case-study.md`).
+
+The filed draft's actual, current structure (case-files/bernecky/
+MOTION-DRAFT.md, as of the 2026-07-08 rewrite) is:
+
+- Preliminary Statement / Jurisdiction / Statement of Facts (largely
+  unchanged in function, rewritten to avoid ranking any one condition above
+  the others and to use "record" rather than "Judgment" when describing
+  what analysis was or was not performed)
+- **I. Special Condition (a) — CIMP**, with four sub-challenges: (A)
+  occupational restriction — **now grounded in the total absence of any
+  U.S.S.G. § 5F1.5 finding in the record, NOT in the word "employer" being
+  textually absent** (see the correction note immediately below); (B)
+  keystroke-logging/privilege; (C) device-capability/"internet capable
+  device" scope (the *Kunz* absurdity doctrine + ubiquitous-IoT-device
+  reductio, kept strictly as a capability-scope argument, not as proof
+  employer devices are excluded); (D) fee/ability-to-pay; (E) relief.
+- **II. Special Condition (b)** — delegation + fee
+- **III. Special Condition (c)** — family contact + occupational clarification
+- **IV. Special Condition (d)** — financial monitoring
+- **V. Special Condition (e)** — PSR/registration
+- **VI. Special Condition (g)** — polygraph/CVSA (Fifth Amendment, requested
+  protections, critical-stage/counsel, CJA appointment, fee) — treated as
+  co-equal in importance to CIMP, not narrower or secondary
+- **VII. Special Condition (h)** — alcohol physician-gating + fee
+- **VIII. Special Condition (i)** — financial disclosure vacatur
+- **IX. Standard Condition 8** — felon communication (now includes the
+  felony-conviction-prevalence point)
+- **X. Standard Condition 12** — risk notification/*Boles*
+- Standard Conditions 5/6 (third-party premises) folded into Part I as a
+  related point, not a standalone section
+
+**Critical substantive correction, not just a structural one — read
+carefully:** the client flagged that the CIMP-employer argument's prior
+framing (the word "employer" never appears in the condition, therefore no
+employer-facing restriction exists) actively worked against the motion,
+because the condition's actual operative word is "operates," and the
+client's own view is that "operates," read fairly, cannot be confidently
+distinguished from reaching an employer's systems — continuing to argue
+textual silence about "employer" while also leaning on "operates" for the
+device-capability reductio was an internal contradiction. **The word-absence
+theory has been dropped entirely, not merely rebalanced.** The new lead
+argument is procedural/prerequisite-based: no U.S.S.G. § 5F1.5 finding
+appears anywhere in the available record, § 5F1.5's finding is a
+precondition to any occupational restriction, and a court that never
+undertook that analysis cannot be said to have intended the condition to
+function as one. This is a stronger, non-self-defeating theory, and it does
+not depend at all on how broadly "operates" should be read. The *Esteras*/
+*Chevron v. Echazabal* expressio unius argument built around the earlier
+theory has been removed from the motion for this point (Esteras remains
+correctly used elsewhere, for the unrelated § 3583(e)(1)/(e)(2) timing
+point in the Jurisdiction section).
+
+**New fact incorporated:** as of 2026-07-08, Probation has finally contacted
+the employer's HR department, per a same-day phone call from Bernecky to the
+client. Hiring confirmation is still pending. The motion now reflects this
+without treating it as resolved — the delay itself, and the continued
+absence of any actual clarification of the condition's scope, remains the
+operative harm.
+
+Everything from this point forward in this file describes the superseded
+theory-led outline and is retained for research-provenance purposes only —
+do not use it as the drafting structure for any future revision.
+
+---
+
 ## 0. DRAFTING PARAMETERS (controlling constraints — read before drafting)
 
 1. **30-page hard limit** on the completed motion/brief. This is the single

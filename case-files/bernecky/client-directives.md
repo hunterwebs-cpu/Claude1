@@ -2445,3 +2445,113 @@ Rodriguez, Ullman, Sofsky, Bleau, the Track 20/21/24 critical-stage and
 polygraph-counsel authorities, and the Track 25 absurdity-canon background
 cases — none of these should be treated as filing-ready on the strength of
 this drafting session's research alone.
+
+---
+
+## 2026-07-08 (third pass, same day) — Client rejected the prior rewrite as not a genuine redo; full ground-up rewrite performed directly (no subagent)
+
+Client's reaction to the prior two passes: the "full rewrite" read nearly
+identically to the original draft, which the client found disheartening
+given the instruction to start from scratch. This entry documents an actual
+ground-up rewrite, performed directly in the main session rather than
+through a subagent, and the substantive corrections that drove it.
+
+**1. New fact.** Bernecky called the client today: Probation has finally
+contacted the employer's HR department. Hiring is still unconfirmed. Client's
+own assessment: "the point still stands" — the uncertainty and the delay
+remain the operative harm even though contact has now occurred. Reflected in
+the Statement of Facts and Preliminary Statement.
+
+**2. The CIMP/employer "silence" theory is dropped, not rebalanced — this is
+a substantive legal correction, not a style note.** Client's own words:
+"when it comes to the silence about employment, I think we are bastardizing
+this to our detriment. it is silent by not using the word employ... but the
+word operates, no matter how we want to distinguish it, brings those systems
+into the purview of the condition." The prior drafts argued (a) "employer"
+never appears in the condition, therefore no employer-facing restriction
+exists, while separately (b) using a reductio built on "operates" reaching
+absurd results (CPAP machines, cars) to narrow the condition's capability
+scope. Client correctly identified the tension: leaning on "operates"'
+literal breadth for the capability reductio while also insisting "operates"
+somehow doesn't reach an employer's systems is not a coherent position, and
+a court (or the government) could exploit exactly that tension. **Fixed:**
+the word-absence/expressio-unius theory is removed entirely. The new lead
+theory, per the client's own suggestion: "the stronger point is that the
+court was never asked and never did actually conduct a 5F1.5 analysis at
+all, and that alone means the court never intended it to reach employment,
+as that is a prerequisite to employer-based conditions." This is now Part
+I.A of the rewritten motion. The *Esteras*/*Echazabal* expressio unius
+material built around the old theory has been removed for this point
+(Esteras remains correctly used elsewhere for the unrelated § 3583(e)(1)/
+(e)(2) timing argument in the Jurisdiction section). The *Kunz*/CPAP-car
+reductio is retained, but strictly repositioned as a device-*capability*
+argument (what counts as an "internet capable device" generally) — it no
+longer does any work toward excluding employer devices specifically, which
+removes the internal tension the client identified.
+
+**3. No ranking among arguments.** Client: "we are also spending too much
+time on employer issues... this is not mutually exclusive, they are all
+important and critical. frankly the polygraph and CVSA one is the most vital
+since that is the most constitutionally risky." **Fixed:** removed every
+instance of "the relief that matters most" / "above every other" framing.
+The Preliminary Statement now explicitly states that none of the conditions
+addressed is presented as more important than the others, singles out the
+employer dispute and the polygraph condition as the two most concrete/urgent
+problems without ranking between them, and frames the polygraph condition's
+Part VI header as addressing "the one where the stakes are constitutional
+rather than practical" without calling it more or less urgent than Part I.
+The ordering problem is also resolved structurally: the motion now proceeds
+in the order conditions appear in the Judgment, not in a subjective
+urgency ranking, which was itself an implicit ranking device.
+
+**4. "Judgment" vs. "record" terminology.** Client: "you say a lot that the
+judgment is silent or the face of the judgment states. the judgment is not
+the basis for any of these things. it is the judgment. when referencing
+whether something happened, it is the record." **Fixed:** every claim about
+what analysis was or was not performed at sentencing now refers to "the
+record" (or, more precisely, "nothing in the record before this Court — not
+the Judgment, not any Statement of Reasons... not any filing by either
+party"), reserving "the Judgment" for describing the document's own text and
+conditions. This is applied throughout Part I.A and echoed in the
+Preliminary Statement and Conclusion.
+
+**5. Full structural reorganization — condition-led, not theory-led.**
+Client: "the sections aren't [organized well]. I prefer to talk about each
+condition we are talking about and then giving the reasons why. this is
+organized as the specific challenge and then trying to cram in the
+conditions. it is wildly confusing. we have several challenges to CIMP:
+keystroke monitoring that can't respect privilege, the employer issue, the
+cost issues, the IoT issue." **Fixed:** the entire motion has been
+restructured from a theory-led organization (a section per legal argument,
+e.g., a standalone "fees" section spanning four conditions) to a
+condition-led one — one roman-numeral section per condition of the
+Judgment, in the order the conditions appear in the Judgment, with every
+challenge to that specific condition addressed as a lettered sub-part
+inside it. This mirrors the structure of the client's own Preston Field
+motion (see the legal-advocacy skill's case study). Part I (CIMP) now
+contains all four of the challenges the client listed, in this order: (A)
+occupational restriction (per correction #2, above), (B) keystroke/privilege,
+(C) device-capability/IoT, (D) fees. The fee argument's full doctrinal
+treatment lives in Part I.D; every other condition with a fee problem
+(Parts II, VI, VII) states its own fee defect briefly and cross-references
+Part I.D for the shared *Bearden*/ability-to-pay framework, rather than
+re-arguing it from scratch four times — this keeps the condition-led
+structure without repeating the same doctrine verbatim.
+
+**Side effect, not a goal in itself:** this restructuring also resolved the
+page-budget problem flagged in the second pass. The rewritten draft runs
+approximately 8,450 words (~30-31 pages double-spaced), within the 30-page
+target, because cross-referencing the fee argument instead of repeating it
+four times removed several pages of duplication that the theory-led
+structure had made necessary.
+
+**MASTER-OUTLINE.md updated** with a "SUPERSEDING STRUCTURAL CHANGE" notice
+at the top explaining the shift and preserving the prior theory-led outline
+below it for research-provenance purposes only.
+
+**Action before filing:** everything flagged in the prior two log entries
+(CJA interests-of-justice research gap, felony-statistic source, and the
+full `[VERIFY]`-tier citation list) remains open and applies equally to this
+structure. Additionally: confirm with the client whether hiring has been
+confirmed by the time of filing, and update the Statement of Facts
+accordingly if so.
