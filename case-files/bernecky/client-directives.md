@@ -2182,3 +2182,150 @@ walked one by one. See summary/action-item recap at end of this document.
 
 *(Additional conditions to be logged here as the interview proceeds — any
 others as raised.)*
+
+---
+
+## 2026-07-08 — FULL MOTION REWRITE: Track 25 integrated; complete
+front-to-back redraft per the legal-advocacy skill and the Preston Field
+case study
+
+**Context:** With all 25 research tracks, the full client-directive record
+above, MASTER-OUTLINE.md, and the newly-written `.claude/skills/legal-
+advocacy/SKILL.md` (plus its `reference/preston-field-case-study.md`) all in
+hand, `case-files/bernecky/MOTION-DRAFT.md` was rewritten from scratch —
+not patched — into a single coherent pass. This entry documents what
+changed structurally and rhetorically from the prior draft, and why.
+
+**1. Track 25 now integrated into the motion (previously only logged in
+part25 and this file's own "ubiquitous device" directive, above — not yet
+reflected in MOTION-DRAFT.md, MASTER-OUTLINE.md, or CITATIONS-TO-VERIFY.md
+until this pass):**
+- Part A.4 of the motion is restructured to lead with *United States v.
+  Kunz*, 68 F.4th 748, 754-55, 763, 764-65, 772 (2d Cir. 2023), as the
+  central interpretive-methodology citation — Kunz's own "sensible
+  reading"/"would be absurd to interpret" language, construing this exact
+  WDNY CIMP condition family, replaces the never-confirmed (and now
+  affirmatively disconfirmed) *Browder* attribution for the "common sense
+  reading" doctrine.
+- The CPAP-machine/vehicle reductio passage drafted in part25 is inserted
+  into Part A.4 in full, adapted to the motion's register: the employer's
+  own confusion is used as Exhibit A for the absurdity of the broadest
+  literal reading, then extended outward to a CPAP machine (internet-
+  connected, zero image-display capability) and a car (the paradigmatic
+  thing a person "operates," per *State v. Henderson*, 907 N.W.2d 623
+  (Minn. 2018), cited strictly as ordinary-usage confirmation).
+- *United States v. Mike*, 632 F.3d 686 (10th Cir. 2011) (quoting *United
+  States v. Brigham*, 569 F.3d 220 (5th Cir. 2009)), is NOT cited anywhere
+  in the motion for the "common sense reading" doctrine — it remains cited,
+  correctly, only for the separate ownership-vagueness/employer-reach point
+  in Part A.3, consistent with part25's and part19's findings that these
+  are two different, non-conflated uses of the same case.
+- MASTER-OUTLINE.md's Section 7 (A.4) has been rewritten to reflect this
+  restructuring, and its Section 2 page-budget table has been reconciled
+  against the actual filed draft.
+- CITATIONS-TO-VERIFY.md has a new "TRACK 25" section adding Kunz's
+  confirmed pincites, flagging *Public Citizen*, *Bock Laundry*, *Griffin*,
+  and *Henderson* as [VERIFY] (WebSearch-sourced only, consistent with this
+  file's existing verification-tier convention), and expressly noting that
+  *Mike*/*Brigham* must not be cited for the "common sense reading"
+  doctrine specifically. RESEARCH-STATUS.md's tracker is updated to mark
+  Track 25 as researched **and now integrated**, not merely researched.
+
+**2. Structural and rhetorical changes from the prior draft, and why:**
+- **Preliminary Statement and Conclusion rewritten as genuine rhetorical
+  bookends**, per the legal-advocacy skill's § 2 (Preliminary
+  Statement/Conclusion-as-opening-and-closing-argument guidance). The prior
+  draft's Preliminary Statement opened with a flat scheduling fact ("Mr.
+  Bernecky's ten-year term... is scheduled to commence"); the new version
+  opens on the concrete stakes ("One dispute in this motion already has a
+  face, a name, and a closing window") and ends by telling the Court
+  exactly what is being asked and why. The Conclusion now echoes that same
+  register and imagery ("An assurance is not a clarification, and a shrug
+  is not a standard... The Court should resolve these questions while
+  resolving them can still keep a job intact...") rather than flattening
+  into "for the foregoing reasons."
+- **Part A.1's expressio unius argument is now actually explained, not
+  merely asserted** — the documented "bare conclusion" defect in the prior
+  draft. The new version walks through *Esteras v. United States*, 145 S.
+  Ct. 2031 (2025) (Congress's omission of one of ten § 3553(a) factors as a
+  "[c]onspicuously missing" signal of exclusion), applies that reasoning to
+  the Judgment's own itemized CIMP text and its use of "employ-" language
+  twice elsewhere in the same document, and then affirmatively distinguishes
+  *Chevron U.S.A. Inc. v. Echazabal*, 536 U.S. 73, 80-81 (2002) (canon
+  rejected on facts involving illustrative "may include" language) from
+  Bernecky's closed, itemized condition (no such illustrative language).
+  *Maiorana* is demoted to a footnote a fortiori point only, consistent
+  with the client's controlling correction, logged above, that it governs
+  condition *formation*, not the *interpretation* of an already-imposed
+  condition's scope.
+- **No employer-consent "Path 2" fallback anywhere in the motion.** Per
+  legal-advocacy skill § 8's own worked example (which is this exact fact
+  pattern), the requested relief in Part A.5 is limited to: (i) a
+  declaration that there is no employer monitoring under Special Condition
+  (a), period; (ii) a device-scope clarification; and (iii) a prohibition
+  on using another person's device. This supersedes the earlier "Path
+  1/Path 2 either-or" language that had been logged as a controlling
+  correction above — that structure has itself been superseded by this
+  final, no-fallback instruction, and MASTER-OUTLINE.md's A.5 has been
+  updated to show both the final relief and the superseded language it
+  replaces, so the history is not lost.
+- **No revocation-implying paragraph anywhere in the motion**, including in
+  the Jurisdiction/Standard of Review section. Track 22's "why litigate now
+  vs. defer to a revocation proceeding" judicial-economy argument — fully
+  researched and confirmed sound — was deliberately NOT incorporated into
+  this draft, because its entire structure requires discussing what happens
+  at a hypothetical future revocation/violation proceeding, which risks
+  reading as though Bernecky is expected to violate his conditions. This is
+  a judgment call: Track 22's research is not wasted (it remains in
+  part22/CITATIONS-TO-VERIFY.md if a future draft's framing can incorporate
+  it without that implication), but it is omitted from this filed draft.
+- **Family-contact section (Part E) reframed around the *de facto*
+  family-event-ban theory**, not a narrower "wants contact with specific
+  nieces/nephews" framing, using the client's own Christmas/mother's-house
+  and unannounced-grandchildren examples directly, per the controlling
+  correction logged above.
+- **Full candor about Mr. Bernecky's own record preserved** in Parts E and
+  F: the motion states plainly, without euphemism, that this is at least
+  his second child-pornography-related conviction, that his record is not
+  *Bleau*'s clean-record case, and that this motion does not ask the Court
+  to overlook that — consistent with the legal-advocacy skill's "never hide
+  bad facts about your own client" principle.
+- **Critical-stage argument (Part F.3) reframed per the client's *Cobb*-is-
+  not-the-barrier correction**, logged above: leads with the point that
+  *Cobb*'s offense-specific attachment rule targets a *different* offense,
+  not the *same* case's ongoing supervision, before confronting *Finley*/
+  *Gagnon*/*Morrissey* directly as the actual adverse authority, using
+  *Estelle v. Smith*'s still-pending-proceeding logic as the affirmative
+  analogy.
+- **Section lettering confirmed final as A through K**, matching this
+  file's own settled structure: A (occupational/CIMP), B (keystroke), C
+  (treatment-provider delegation + thought-control framing), D (alcohol —
+  *Betts*), E (family contact), F (polygraph), G (PSR/*Charmer*), H (fees),
+  I (financial disclosure d/i), J (felons), K (risk notification/*Boles*).
+  A full front-to-back holistic re-read (per skill §4) confirmed all
+  eleven sections are actually present in the finished draft, all
+  cross-references (Part letters, condition letters/numbers) are internally
+  consistent, all hedging "ambiguous" language has been purged in favor of
+  the definitive silence/expressio-unius framing (with the sole remaining
+  use of the word being an explicit negation — "not an ambiguous one, none
+  at all"), all Latin/French terms are italicized, no pepper-spray mention
+  survives, and no ghostwriting-disclosure language was added.
+
+**3. Length:** the rewritten draft runs approximately 9,270 words
+(roughly 33-34 pages double-spaced at ~275 words/page), against the
+30-page hard limit MASTER-OUTLINE.md sets. A trimming pass was performed
+(Jurisdiction section's closing paragraph, the A.3 standing and
+third-party-premises paragraphs, the CPAP/car passage, the F.1/F.3
+polygraph paragraphs, the Section H fee paragraph, and the Section E family
+paragraph were all tightened), but the draft still runs several pages over
+budget, primarily because Section A grew to accommodate the Track 25
+restructuring, the CPAP/car reductio, and the now fully-explained (rather
+than merely asserted) expressio unius argument — all additions this pass
+was specifically directed to make. This is flagged for a human trim-or-
+accept decision before filing; further compression risks cutting into
+content this file's own directives require be kept.
+
+**Action: none outstanding from this pass.** The next drafting session
+should (a) decide whether to accept the current length or direct a further
+trim, and (b) run the [VERIFY]-tier citations (see CITATIONS-TO-VERIFY.md)
+against Westlaw/Lexis/PACER before the motion is actually filed.

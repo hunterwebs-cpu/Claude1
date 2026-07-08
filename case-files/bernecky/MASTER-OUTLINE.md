@@ -41,8 +41,11 @@ and internal cross-references below will not appear in the filed motion.
 2. Introduction / Preliminary Statement
 3. Jurisdiction and Standard of Review
 4. Statement of Facts / Procedural History
-5. Argument (organized into consolidated sections A–L below, not one section
-   per condition — see Section 2 for why)
+5. Argument (organized into consolidated sections A–K in the filed motion —
+   see Section 2 for why; this outline's internal section numbers below run
+   higher than the letter count because Section 8A restores a previously
+   missing alcohol section, and Section 17's weapons/pepper-spray section
+   was cut entirely rather than lettered)
 6. Conclusion / Prayer for Relief
 7. Certificate of Service
 8. (Consider) Proposed Order, as a separate attached document rather than
@@ -51,35 +54,31 @@ and internal cross-references below will not appear in the filed motion.
 
 ---
 
-## 2. PAGE BUDGET (working allocation — several decisions now final)
+## 2. PAGE BUDGET (working allocation — reconciled against the actual filed
+draft; final letter scheme is A–K, matching client-directives.md)
 
-| Section | Pages (draft budget) | Priority if cutting |
+| Section | Pages (actual, ~275 wpp double-spaced) | Notes |
 |---|---|---|
-| Introduction | 1.5 | Keep — this is the reader's first impression |
-| Jurisdiction/Standard of Review | 1.5 | Keep, tight |
-| Statement of Facts | 2.5 | Keep — the CIMP/employment crisis facts do real work |
-| A. No occupational restriction / CIMP-employer (flagship) | 7 | Keep full — strongest, most urgent argument |
-| B. Keystroke logging (Track 18) | 3.5 | Trim candidate — could compress to 2.5 |
-| C. Treatment-provider delegation (Special (b)) | 2.5 | Keep |
-| D. Family contact (Special (c)) | 2.5 | Keep |
-| E. Polygraph/CVSA (Special (g)) | 4 | **Grew since original budget** — now carries counsel-presence framing, the critical-stage argument, and the § 3006A appointment point (Section 10, items 1a-1c) on top of the original (I)-(IV) framework. Trim candidate — tight list format, not prose paragraphs, for all of it. |
-| F. PSR disclosure/registration (Special (e)) | 1.25 | Keep, already efficient |
-| G. Consolidated fee/ability-to-pay | 2 | Keep |
-| H. Financial disclosure vacatur (Special (d), (i)) | 1.25 | Keep, already efficient |
-| I. Third-party/employer premises (Standard 5, 6) | 1 | **Cut candidate — fold entirely into Section A as a sub-point rather than a separate heading; saves ~0.75 page** |
-| J. No-communication-with-felons (Standard 8) | 1.75 | Trim candidate — could compress to 1.25 |
-| K. Risk notification (Standard 12/*Boles*) | 0.25 | **FINAL — simple statement asking the existing standing order be applied, plus a one-line footnote objecting to any "private tribunal" process. No merits briefing.** |
-| L. Weapons/pepper spray (Standard 10) | 0 (cut) | **FINAL — dumped entirely, no footnote, no mention.** |
-| Conclusion/Prayer for Relief | 1 | Keep |
-| **Running total (current draft)** | **~33.5** | **still needs ~3.5-4.5 pages of trims — K's savings are now banked, but E grew by a roughly offsetting amount** |
+| Introduction | ~1.4 | Rewritten as genuine rhetorical bookend per skill §2; echoes Conclusion |
+| Jurisdiction/Standard of Review | ~1.1 | Tightened; no revocation/violation-proceeding discussion per controlling client instruction |
+| Statement of Facts | ~1.4 | Transition sentence added before the family-contact fact per client correction |
+| A. No occupational restriction / CIMP-employer (flagship) | ~10 | Restructured per Track 25 to lead A.4 with *Kunz*; CPAP/car reductio inserted; A.1 expressio unius fully explained (*Esteras*/*Echazabal*), not asserted; no Path 1/Path 2 fallback |
+| B. Keystroke logging (Track 18) | ~1.3 | Kept tight |
+| C. Treatment-provider delegation (Special (b)) | ~1.4 | Kept |
+| D. Alcohol-abstinence physician-gating (Special (h)) — **RESTORED, see 8A below** | ~1.6 | Previously missing from an earlier outline pass; confirmed present in the filed draft |
+| E. Family contact (Special (c)) | ~2.4 | *De facto*-ban reframe; sister's children as *Lussier* changed circumstance |
+| F. Polygraph/CVSA (Special (g)) | ~3.8 | Tight list format for (I)-(IV); critical-stage corrected per client's *Cobb*-is-not-the-barrier point |
+| G. PSR disclosure/registration (Special (e)) | ~0.8 | Kept efficient |
+| H. Consolidated fee/ability-to-pay | ~1.1 | Kept |
+| I. Financial disclosure narrowing/vacatur (Special (d), (i)) | ~0.7 | Kept |
+| Standard 5/6 (employer premises) | (folded into A) | Not a separate heading, per trim plan |
+| J. No-communication-with-felons (Standard 8) | ~1.1 | Kept, candid about the circuit gap |
+| K. Risk notification (Standard 12/*Boles*) | ~0.3 | Simple statement + footnote only, as finalized |
+| L. Weapons/pepper spray (Standard 10) | 0 (cut) | **FINAL — dumped entirely, no footnote, no mention.** Confirmed absent from the filed draft. |
+| Conclusion/Prayer for Relief | ~1.9 | Rewritten as genuine rhetorical bookend echoing the Preliminary Statement, per skill §2 |
+| **Total (filed draft, ~9,270 words)** | **~33-34 pages** | **Runs roughly 3-4 pages over the 30-page target**, primarily because Section A grew to accommodate the Track-25-mandated *Kunz* restructuring, the CPAP/car reductio, and the fully-explained (not asserted) expressio unius argument — all client-directed additions. A trimming pass was performed (see below); further cuts risk losing substantive content the client has directed be kept. Flag for a final human trim-or-accept decision before filing. |
 
-**Remaining trims to hit 30 (in order of preference, least damaging first):**
-1. Fold Section I into Section A as a sub-point (not a separate heading) — saves ~0.75 page of headers/transitions.
-2. Compress Section E (polygraph) into tight list format for all of (I)-(IV) plus the new counsel-presence/critical-stage/CJA material — this is now the biggest lever, since the section grew.
-3. Compress Section B (keystroke) similarly — saves ~0.5-1 page.
-4. Compress Section J (felon communication) — saves ~0.5 page.
-
-That gets to roughly 30. **This is a proposed allocation — flag if a different section should be prioritized for space instead.**
+**Trims already performed in the filed draft:** tightened the Jurisdiction section's closing paragraph; shortened the A.3 standing paragraph and third-party-premises paragraph; tightened the CPAP/car passage without dropping either example; shortened the F.1 and F.3 polygraph paragraphs; tightened the Section H fee paragraph; tightened the Section E family paragraph. Further compression of Section A (still the single biggest lever) was not pursued further given the risk of cutting into the newly-mandated *Kunz*/CPAP/expressio-unius content — flag for the next revision pass if the 30-page limit must be hit exactly.
 
 ---
 
@@ -104,8 +103,12 @@ scope of certain conditions in light of (1) intervening changes in law since
 2018, and (2) the Judgment's own silence on questions (like occupational
 restrictions) it never actually addressed.
 
-**Roadmap:** one sentence per major argument (A through H below), in
-descending order of urgency/strength.
+**Roadmap:** one sentence per major argument (A through K below), in
+descending order of urgency/strength. **Note (post-drafting): the filed
+Preliminary Statement was written as a genuine rhetorical bookend per
+legal-advocacy skill §2, not a flat roadmap — it opens on the employer/CPAP
+dispute's concrete stakes and closes with a one-sentence statement of what
+should happen and why, echoed again in the Conclusion.**
 
 ---
 
@@ -345,7 +348,42 @@ interpretation of an existing one's scope.**
   link between this sub-section and A.2 above — cite it in both places,
   cross-referenced.
 
-### A.4 Place/device-capability tailoring (Track 19)
+### A.4 *Kunz*-led interpretive methodology, restructured per Track 25, plus
+place/device-capability tailoring (Track 19)
+
+**SUPERSEDING UPDATE (Track 25, part25-common-sense-absurdity-doctrine.md):**
+this sub-section's lead authority is now ***United States v. Kunz***, 68
+F.4th 748, 754-55, 764-65, 772 (2d Cir. 2023) — NOT *Browder*, which was
+never confirmed (and is now affirmatively confirmed absent) as the source of
+the "common sense reading" doctrine the client recalled. Kunz repeatedly
+resolves overbreadth/delegation challenges to this identical WDNY CIMP
+condition family by adopting a "sensible reading" of the text, and expressly
+holds it "would be absurd to interpret" the condition to require
+pre-approval every time the supervisee visits an ordinary "https" website or
+uses encrypted messaging. *Id.* at 764-65. This is binding, in-circuit,
+condition-specific authority for the exact interpretive move needed here —
+a stronger foundation than the general absurdity canon alone. Cite the
+general canon (***Public Citizen v. U.S. Dep't of Justice***, 491 U.S. 440,
+454-55 (1989); ***Green v. Bock Laundry Mach. Co.***, 490 U.S. 504, 509
+(1989); ***Griffin v. Oceanic Contractors, Inc.***, 458 U.S. 564, 571
+(1982)) as background, not as the centerpiece — all three are [VERIFY],
+WebSearch-sourced only.
+
+**Do not cite *United States v. Mike*, 632 F.3d 686, 696 (10th Cir. 2011)
+(quoting *United States v. Brigham*, 569 F.3d 220, 234 (5th Cir. 2009)) for
+the "common sense reading" doctrine itself** — that is Tenth/Fifth Circuit
+authority about the scope of a sexually-explicit-materials possession ban, a
+different condition type; Kunz supersedes it entirely for this specific
+point. *Mike* remains good, separately-cited authority for the
+ownership-vagueness/employer-reach point in A.3, above (per Track 19) — the
+two uses of *Mike* are not in tension, but must not be conflated.
+
+**Insert the CPAP-machine/vehicle reductio passage (drafted in full in
+part25) here**, built on the "operate" vs. "use" linguistic distinction,
+with ***State v. Henderson***, 907 N.W.2d 623 (Minn. 2018) (Minnesota
+Supreme Court, construing "operate" a motor vehicle) as a persuasive,
+non-binding, ordinary-usage hook only — [VERIFY], and flag clearly if used
+that it is not circuit-relevant or supervised-release authority.
 
 - Bernecky's own condition already opens with an "internet capable device"
   threshold qualifier — but the separate monitoring-authorization clause
@@ -355,16 +393,15 @@ interpretation of an existing one's scope.**
   importing a foreign concept.**
 - Capability-based device scoping (vs. "any connected device") is an
   accepted, multi-circuit drafting convention: ***United States v.
-  Granger***, 117 F. App'x 247 (4th Cir. 2004) (unpublished) [VERIFY];
-  ***United States v. Rath***, 2015 WL 3559160 (5th Cir. 2015) [VERIFY];
+  Rath***, 2015 WL 3559160 (5th Cir. 2015) [VERIFY];
   ***United States v. Ullman***, 2015 WL 3559221 (10th Cir. 2015) [VERIFY];
-  ***United States v. Fletcher***, 435 F. App'x 578 (8th Cir. 2011)
-  (unpublished) [VERIFY]; ***United States v. Phillips***, 370 F. App'x 610
-  (6th Cir. 2010) (unpublished) [VERIFY].
+  ***United States v. Granger***, 117 F. App'x 247 (4th Cir. 2004)
+  (unpublished) [VERIFY]; ***United States v. Fletcher***, 435 F. App'x 578
+  (8th Cir. 2011) (unpublished) [VERIFY]; ***United States v. Phillips***,
+  370 F. App'x 610 (6th Cir. 2010) (unpublished) [VERIFY].
 - **Forbid-rather-than-monitor structure for third-party/borrowed devices:**
   a clean prohibition on using another person's personal device achieves
-  the government's interest with zero reach into non-party property —
-  cleaner than even the employer-veto "Path 2" language (see A.5), since it
+  the government's interest with zero reach into non-party property, and
   needs no third-party cooperation at all. First-impression synthesis of
   the least-restrictive-means (§ 3583(d)(2)), ultra vires, and standing
   doctrine already built above — present candidly as synthesis, not as
@@ -372,24 +409,30 @@ interpretation of an existing one's scope.**
 
 ### A.5 Requested relief (draft modification language)
 
-**Either/or structure, not cumulative (per client's controlling
-correction):**
-- **Path 1 — Notification, if Bernecky consents:** voluntary disclosure of
+**CONTROLLING, FINAL INSTRUCTION — no fallback, no "Path 2" (supersedes the
+earlier either/or Path 1/Path 2 draft language below, which is retained
+here only to show what was rejected and why):** the client was explicit that
+Bernecky should never have to choose between notification and asking for
+employer monitoring consent. Do NOT draft an alternative employer-consent-
+to-monitoring fallback into the requested relief — presenting an unwanted
+fallback risks the court reading it as the outer bound of what is being
+asked (skill § 8). **The only relief requested is: (i) a declaration that
+there is no employer monitoring under this condition, period; (ii) a
+device-scope clarification limited to owned, image-capable devices; and
+(iii) an outright prohibition on using another person's device, in lieu of
+monitoring it.** No employer-veto/"Path 2" structure appears in the filed
+motion's Part A.5.
+
+~~**Either/or structure, not cumulative (per an earlier, superseded client
+correction — see above):**~~
+~~- **Path 1 — Notification, if Bernecky consents:** voluntary disclosure of
   the conviction (and computer-facilitated nature, where relevant) to the
   employer satisfies the condition on its own; no further employer-
-  permission showing required. Bernecky has already done this.
-- **Path 2 — Employer veto, independent of notification:** modeled on
+  permission showing required. Bernecky has already done this.~~
+~~- **Path 2 — Employer veto, independent of notification:** modeled on
   *Brown*'s own "as permitted by the employer" structure — monitoring of
   employer-owned/operated systems is authorized only if the employer
-  permits it; refusal ends the inquiry.
-- **Protective features applicable to both paths:** an employer's refusal
-  is not a violation by Bernecky, does not bar his employment there, and
-  does not authorize Probation to substitute a capability-parity demand in
-  place of simple permission-or-refusal.
-- **Device-scope clarification:** monitored devices are limited to those
-  Bernecky owns and keeps/brings to his residence that are capable of
-  accessing, storing, or displaying image content; use of another person's
-  personal device is prohibited outright rather than subject to monitoring.
+  permits it; refusal ends the inquiry.~~
 
 ### A.6 Fold in here (not a separate heading, per page-budget trim):
 Standard Condition 7's mandatory-employment requirement as the concrete,
@@ -482,7 +525,53 @@ THE COURT'S ORDER (Special Condition (b) — ~2.5 pages)
 
 ---
 
-## 9. ARGUMENT SECTION D — FAMILY CONTACT (Special Condition (c) —
+## 8A. ARGUMENT SECTION D — ALCOHOL-ABSTINENCE REQUIREMENT SHOULD BE
+PHYSICIAN-GATED (Special Condition (h) — ~1.5 pages)
+
+**RESTORED SECTION — this section was previously omitted from an earlier
+pass of this outline by mistake (client-directives.md's "FINAL DECISIONS"
+log and part9 both confirm the argument was fully researched) and had to be
+re-inserted before drafting. Do not drop it again on any future revision —
+a holistic front-to-back check against this outline is the only reliable
+way to catch a silently-missing section.**
+
+1. **Lead authority:** ***United States v. Betts***, 886 F.3d 198 (2d Cir.
+   2018) — vacates a total alcohol ban as "not reasonably related to any of
+   the factors outlined in Section 5D1.3(b)" where neither the offense nor
+   any violation conduct involved alcohol and no abuse evidence was in the
+   record; remanded for individualized reconsideration. Reinforced by
+   ***United States v. Rodriguez***, No. 22-1820-cr (2d Cir. Dec. 7, 2023)
+   (summary order) — applies the identical rule to a materially
+   indistinguishable "abstain from alcohol during treatment" clause.
+2. **Textual argument, independent of case law:** the condition's own
+   disjunctive structure ("while in treatment **or** taking psychotropic
+   medication") sweeps in talk-therapy-only periods with zero medication
+   involved — a circumstance with no possible interaction rationale even in
+   principle. Within the medication branch, alcohol-interaction risk varies
+   sharply by drug class (MAOIs carry a specific risk; many others do not),
+   so treating "psychotropic medication" as one uniform risk category does
+   not track clinical reality.
+3. **Browder's role, correctly calibrated (per independent Track 9
+   research):** *Browder* is a delegation case, not an individualized/
+   medical-predicate case, and does not itself compel physician-gating —
+   but it does confirm this exact condition template (including the
+   identical alcohol clause) is the district's own standard-form
+   mental-health condition adopted in the wake of the W.D.N.Y.'s own
+   *Browder* remand, not a Bernecky-specific finding. Cite for that factual
+   point, not as delegation-doctrine authority for physician-gating itself.
+4. **Requested relief:** the alcohol-abstinence requirement should apply
+   only when, and for as long as, a treating physician determines alcohol
+   use is contraindicated by a specific medication or treatment then being
+   received — not as a categorical rule. **Honest limiting note (per
+   part9): no case squarely compels physician-gating as the remedy; it is
+   presented as the sensible, clinically-grounded fix flowing from the
+   individualized-assessment defect, by analogy to existing federal
+   supervision practice (medication-management judgment calls are already
+   routed to the prescribing physician), not as case-mandated relief.**
+
+---
+
+## 9. ARGUMENT SECTION E — FAMILY CONTACT (Special Condition (c) —
 ~2.5 pages)
 
 1. **Illusory carve-out + new changed-circumstances fact:** the only
@@ -520,7 +609,7 @@ THE COURT'S ORDER (Special Condition (b) — ~2.5 pages)
 
 ---
 
-## 10. ARGUMENT SECTION E — POLYGRAPH / CVSA (Special Condition (g) —
+## 10. ARGUMENT SECTION F — POLYGRAPH / CVSA (Special Condition (g) —
 ~3 pages after trim)
 
 1. **Categorical invocation framework, stated as a tight numbered list**
@@ -658,7 +747,7 @@ THE COURT'S ORDER (Special Condition (b) — ~2.5 pages)
 
 ---
 
-## 11. ARGUMENT SECTION F — PSR DISCLOSURE / REGISTRATION (Special
+## 11. ARGUMENT SECTION G — PSR DISCLOSURE / REGISTRATION (Special
 Condition (e) — ~1.25 pages)
 
 1. ***United States v. Charmer Indus., Inc.***, 711 F.2d 1164 (2d Cir.
@@ -675,7 +764,7 @@ Condition (e) — ~1.25 pages)
 
 ---
 
-## 12. ARGUMENT SECTION G — CONSOLIDATED FEE / ABILITY-TO-PAY ARGUMENT
+## 12. ARGUMENT SECTION H — CONSOLIDATED FEE / ABILITY-TO-PAY ARGUMENT
 (Special (a), (b), (g), (h) — ~2 pages)
 
 1. **Structural due-process/fair-notice defect, not a dollar-amount
@@ -700,7 +789,7 @@ Condition (e) — ~1.25 pages)
 
 ---
 
-## 13. ARGUMENT SECTION H — VACATUR OF FINANCIAL-DISCLOSURE CONDITIONS NO
+## 13. ARGUMENT SECTION I — VACATUR OF FINANCIAL-DISCLOSURE CONDITIONS NO
 LONGER NECESSARY (Special (d), (i) — ~1.25 pages)
 
 1. **Special Condition (d):** Bernecky has never been alleged to have

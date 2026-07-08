@@ -96,16 +96,18 @@ below.**
 9. **Track 22 — judicial-economy timing argument: DONE.** (`research-output/part22-timing-judicial-economy.md`). Confirms client's premise: a post-revocation § 3583(h) term is a fresh, freely-appealable sentencing act (confirmed via § 3583(e)(3)/(h) text + *Betts*, read in full, Bernecky's own district); no diminished-scrutiny doctrine found for reimposed-unchanged conditions. No case names the "resolve now vs. later" rule directly, but assembles from Rule 32.1(c)'s purpose, the Nov. 2025 Guidelines timing, *Kunz* fn. 8, and *Carlineo*'s "avoid a violation proceeding" vagueness language (best find — already binding, in-circuit). **Traficante confirmed distinguishable, not in tension: press CIMP's merits now, keep Standard Condition 12 as a brief preservation paragraph — existing strategic allocation reinforced, not disturbed.**
 10. **Track 23 — identify unnamed Track 18 cases: DONE.** (`research-output/part23-unnamed-cases-identification.md`). Both identified: *United States v. Blair*, 933 F.3d 1271 (10th Cir. 2019); *United States v. Becerra*, 977 F.3d 373 (5th Cir. 2020). Holdings confirmed matching the original descriptions via multiple independent secondary sources.
 11. **Track 24 — critical-stage argument + CJA § 3006A: DONE.** (`research-output/part24-cja-critical-stage.md`). Critical-stage argument has a real structural problem (Sixth Amendment attachment doctrine — *Kirby*/*McNeil*/*Cobb* — forecloses reaching new-offense risk at all, not just unfavorably weighed); best affirmative analogy is *Estelle v. Smith*, honestly limited. Adverse: *J.B. v. New Jersey* again. **§ 3006A(a)(2) "interests of justice" confirmed NOT a general catch-all — narrow, two enumerated categories only, doesn't reach this fact pattern.** Genuinely useful independent find: § 3006A(a)(1)(E) already lists supervised-release modification proceedings as a mandatory appointment category — may entitle Bernecky to CJA counsel for this very motion, regardless of the polygraph theory's outcome.
+12. **Track 25 — "common sense reading"/absurdity-doctrine attribution + CPAP/vehicle reductio: DONE, and NOW INTEGRATED INTO THE FILED MOTION.** (`research-output/part25-common-sense-absurdity-doctrine.md`). Resolves the long-open gap (unresolved since part1): the doctrine the client attributed to *Browder* is confirmed **absent** from that opinion; the actual, binding, in-circuit source is **United States v. Kunz, 68 F.4th 748, 754-55, 763, 764-65, 772 (2d Cir. 2023)**, which repeatedly rejects literal/expansive readings of this identical WDNY CIMP condition family as "absurd" in favor of a "sensible reading." *United States v. Mike*, 632 F.3d 686, 696 (10th Cir. 2011) (quoting *United States v. Brigham*, 569 F.3d 220, 234 (5th Cir. 2009)), is confirmed as the wrong lineage for this specific doctrinal point (different circuits, different condition type — a possession-ban scope question, not CIMP vagueness) and must not be cited for it, though *Mike* remains separately good authority for the ownership-vagueness/employer-reach point elsewhere in the motion (Part A.3). General Supreme Court absurdity-canon background (*Public Citizen*, *Bock Laundry*, *Griffin*) and the persuasive, ordinary-usage-only "operate" vs. "use" hook (*State v. Henderson*, Minn. 2018) are all [VERIFY], WebSearch-sourced only. The CPAP-machine/vehicle reductio passage drafted in part25 has been inserted into the filed motion's Part A.4, which now leads with *Kunz* as its central interpretive-methodology citation. **This integration is reflected in the current motion draft (case-files/bernecky/MOTION-DRAFT.md, Part A.4), in MASTER-OUTLINE.md's Section 7/A.4, and in CITATIONS-TO-VERIFY.md's new Track 25 section.**
 
-## ALL RESEARCH TRACKS NOW COMPLETE (Tracks 1-20)
+## ALL RESEARCH TRACKS NOW COMPLETE (Tracks 1-25)
 
 Every condition, every client-directed theory (including the two late
-additions — place/device tailoring and freedom of thought), and both
-post-research-phase corrections (Maiorana demotion, § 5D1.4 statutory
-reframing) have now been researched, corrected where needed, and logged.
-**Next step: pull all of this together into a single master argument
-outline**, reconciling the multiple iterations on Special Condition (a) (six
-original theories + Track 18's keystroke/privilege layer + Track 19's
-place/capability layer) and Special Condition (b) (Matta/Kunz/Carlineo/
-Browder delegation + Track 20's freedom-of-thought framing), before moving
-to drafting the motion itself.
+additions — place/device tailoring and freedom of thought — and the
+post-drafting Track 25 follow-up), and every post-research-phase correction
+(Maiorana demotion, § 5D1.4 statutory reframing, the *Browder*→*Kunz*
+absurdity-doctrine correction) has now been researched, corrected where
+needed, logged, and **integrated into a complete rewritten motion draft**
+(case-files/bernecky/MOTION-DRAFT.md, dated 2026-07-08). The master argument
+outline (MASTER-OUTLINE.md) has been reconciled against the filed draft's
+actual final section lettering (A–K, with a previously-missing alcohol
+section restored as new Section 8A/Part D) and against Track 25's
+CIMP-restructuring recommendation.
