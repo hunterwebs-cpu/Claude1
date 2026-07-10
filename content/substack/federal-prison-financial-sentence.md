@@ -13,7 +13,7 @@ At Fort Dix East, a book of stamps is worth ten dollars.
 
 Not at the post office. On the compound. A flat book — twenty stamps — trades for ten dollars' worth of commissary, services, or debt settlement. A mackerel fillet is worth a dollar. These are the currencies that run the informal economy inside this facility, backed by the same thing any currency is backed by: the confidence of the people using them.
 
-Family money enters through commissary accounts. From there, the extraction begins.
+Family money enters through commissary accounts. From there, every service carries a price.
 
 ---
 
@@ -89,7 +89,7 @@ If you have concerns about where money is going, you are allowed to say no. You 
 
 The stamp is worth ten dollars here because it is the most stable currency on the compound — easier to carry than a mackerel, harder to seize than a commissary balance. That tells you something about how much confidence people place in the official systems.
 
-Money comes in through the gate. It gets marked up at the commissary. It gets taxed at the phone. It pays for a tablet system that costs $135 and still doesn't have Khan Academy. It moves through the economy of the compound in stamps and fish until it is gone.
+Money comes in through the gate. It goes into a commissary account. It gets spent on items marked up 30 to 40 percent. Phone calls cost six cents a minute. The tablet costs $135. Every service has a price, and the prices have been going up. The money moves through the economy of the compound in stamps and fish until it is gone.
 
 The sentence in the judgment is one number. What it costs the people who love you is another, and no one on either side of that gate is required to add it up.
 
