@@ -10,6 +10,20 @@ This skill governs every article written for Bilal Khan's guest column on Doug P
 
 ---
 
+## ENTRY BEHAVIOR — What to do when /substack is invoked
+
+**If the user says `/substack` with no topic specified:**
+1. Read `content/substack/topic-pipeline.md`
+2. Check whether "## THIS WEEK'S RESEARCH RESULTS" contains actual research entries (not just the placeholder text)
+3. **If fresh research results exist:** Present them as a numbered list and ask Bilal to pick one. Then go to Phase 2.
+4. **If no results yet (placeholder only):** Immediately spawn the Phase 1 research subagent (instructions below). Do NOT list the committed pipeline topics as choices — those are already assigned and are not for selection.
+
+**If the user specifies a topic:** Skip Phase 1, go directly to Phase 2.
+
+**If the user arrives with a story they just witnessed:** Skip Phases 1 and 2, go to Phase 3 with story sourcing.
+
+---
+
 ## THE PIPELINE — 4 PHASES
 
 ```
@@ -31,17 +45,13 @@ PHASE 4: Write & Deliver    → main agent writes, checks, generates .docx, deli
 
 **To start an article:** Open a new Claude Code session, type `/substack`, and tell Claude which topic from `content/substack/topic-pipeline.md` you want to develop.
 
-**Skip rules:**
-- If Bilal arrives with a topic already chosen: skip Phase 1, begin at Phase 2.
-- If Bilal arrives with a story he just witnessed from inside: skip Phases 1 and 2, begin at Phase 3 with story sourcing.
-
 **The Routine prompt lives at:** `content/substack/routine-prompt.md` — paste this into the Routine's prompt field at `claude.ai/code/routines`.
 
 ---
 
 ## PHASE 1 — Topic Discovery
 
-**When to run:** When no topic has been assigned or chosen. Goal: surface what the audience is actively searching for so articles meet real demand, not just assumed interest.
+**When to run:** When `/substack` is invoked with no topic AND the pipeline file has no fresh research results. Goal: surface what the audience is actively searching for so articles meet real demand, not just assumed interest.
 
 **Spawn a general-purpose research subagent** with this brief:
 
