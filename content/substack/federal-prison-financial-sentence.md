@@ -13,7 +13,7 @@ At Fort Dix East, a book of stamps is worth ten dollars.
 
 Not at the post office. On the compound. A flat book — twenty stamps — trades for ten dollars' worth of commissary, services, or debt settlement. A mackerel fillet is worth a dollar. These are the currencies that run the informal economy inside this facility, backed by the same thing any currency is backed by: the confidence of the people using them.
 
-Your family sends real money in. By the time it reaches me, it has passed through several hands.
+Family money enters through commissary accounts. From there, the extraction begins.
 
 ---
 
@@ -81,15 +81,17 @@ The person inside appreciates what you send. That is almost universally true.
 
 But if your loved one is asking you to send money to another person's account — or through Cash App, Venmo, or any platform other than the official inmate commissary account — pay close attention to that.
 
-Drug and gambling debts are real inside federal facilities. An inmate in debt will sometimes call home asking for money to go elsewhere, because what they owe belongs to someone on the compound. The cycle ends in a limited number of ways, and none of them are good. You are allowed to limit what you send, and when. That is not abandonment.
+Drug and gambling debts are real inside federal facilities. An inmate in debt will sometimes call home asking for money to go to another person's account, or through Cash App, or somewhere other than their commissary. That is usually not a random request.
 
-WARNING: IF YOUR LOVED ONE ASKS YOU TO SEND MONEY TO ANOTHER PERSON OR THROUGH A PAYMENT APP RATHER THAN DIRECTLY TO THEIR COMMISSARY ACCOUNT, DO NOT SEND ANYTHING BEFORE HAVING A DIRECT CONVERSATION ABOUT WHERE IT IS GOING AND WHY.
+If you have concerns about where money is going, you are allowed to say no. You are allowed to limit what you send and when you send it. That is not abandonment. It may be the most useful thing you do.
 
 ---
 
-A book of stamps is worth ten dollars on Fort Dix East. A mackerel is worth a dollar. For ten years, real money has come through that gate from families who love someone inside, and at every step of the way, the system has taken its percentage.
+The stamp is worth ten dollars here because it is the most stable currency on the compound — easier to carry than a mackerel, harder to seize than a commissary balance. That tells you something about how much confidence people place in the official systems.
 
-The sentence in the judgment is one number. What it actually costs your family is another, and nobody is required to tell them what that number is.
+Money comes in through the gate. It gets marked up at the commissary. It gets taxed at the phone. It pays for a tablet system that costs $135 and still doesn't have Khan Academy. It moves through the economy of the compound in stamps and fish until it is gone.
+
+The sentence in the judgment is one number. What it costs the people who love you is another, and no one on either side of that gate is required to add it up.
 
 ---
 
