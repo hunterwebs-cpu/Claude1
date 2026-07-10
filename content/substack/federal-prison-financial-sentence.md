@@ -1,6 +1,6 @@
 ---
 title: "I Watched $180 Fill Two Bags When I Got Here. Today It Fills One."
-subtitle: "What your family's money buys, and where the rest goes."
+subtitle: "What your family's money buys, and what life costs inside."
 column: "Surviving the Feds: Dispatches from the Inside"
 ---
 
@@ -9,93 +9,85 @@ By Bilal Khan
 
 ---
 
-At Fort Dix East, a book of stamps is worth ten dollars.
+At Fort Dix, a book of stamps is worth ten dollars.
 
-Not at the post office. On the compound. A flat book — twenty stamps — trades for ten dollars' worth of commissary, services, or debt settlement. A mackerel fillet is worth a dollar. These are the currencies that run the informal economy inside this facility, backed by the same thing any currency is backed by: the confidence of the people using them.
+Not at the post office. On the compound. A flat book — twenty stamps — trades for ten dollars' worth of commissary goods, services, or unpaid debts. A mackerel fillet runs a dollar. These are the currencies of daily life here, and they work because everybody agrees they work.
 
-Family money enters through commissary accounts. From there, every service carries a price.
+This is the inmate economy. It has existed in some form in every facility I have been through. It is not a secret and it is not a scandal.
+
+It is what happens when a group of people live together with limited official means. Guys who have nothing hustle for stamps — do a favor, carry a bag, help somebody out. They trade those stamps for soups, chips, ice cream, whatever they need from commissary that they could not otherwise get.
+
+Without that economy, guys who have nothing would really have nothing.
+
+Does the same economy fund some of the illegal activity on the compound? Yes. But you have to put it in perspective. It is first and foremost a survival system.
 
 ---
 
-When I arrived at Fort Dix in August 2016, $180 filled two large laundry bags.
+Understanding what life costs here matters if someone you love is inside.
 
-That is the spending limit here: $180 every two weeks. The bags were full — soups, hygiene, food, whatever I needed. Ten years later, I spend the same $180 and go home with one bag.
+When I arrived at Fort Dix in August 2016, $180 filled two large laundry bags. That is the spending limit here: $180 every two weeks. The bags were full. Ten years later, I spend the same $180 and go home with one bag.
 
-The BOP marks up every item sold to inmates 30 to 40 percent above what the institution pays its suppliers. The official policy says 25 percent. What I have observed over a decade is higher.
+The BOP marks up every item sold to inmates 30 to 40 percent above what the institution pays its suppliers. The official policy says 25 percent. What I have observed over a decade is higher. The markup structure also creates an incentive for vendors to charge the BOP more than they would charge other wholesale customers, because they know the cost gets passed to a captive buyer with nowhere else to go.
 
-The markup structure creates a perverse incentive. Vendors charge the BOP more than they would charge other wholesale customers, because they know the cost gets passed to a captive audience with nowhere else to shop.
-
-The money from those markups is supposed to come back to us — sports equipment, musical instruments, exercise equipment, televisions. Fort Dix operates the largest commissary in the federal system. Roughly 4,000 inmates, $460 a month in purchasing limit per person. I have never seen an accounting of what the profits actually bought. There is no inmate input into the purchasing decisions. There is no audit that anyone here can see.
-
-Families sending money in should know: it is supposed to circle back. Nobody keeps the receipt.
+The money from those markups is supposed to come back to the population — sports equipment, musical instruments, televisions, exercise gear. Fort Dix runs the largest commissary in the federal system: roughly 4,000 inmates, $460 a month in spending limit per person. I have never seen an accounting of what the profits actually bought. There is no inmate input into those decisions and no audit that anyone here can see.
 
 ---
 
 The phone system is better than it used to be.
 
-When I got here, a call cost roughly three dollars unless you qualified for a local number — a geographically restricted rate covering a confined area around the facility. Now the standard rate is six cents a minute. Through the First Step Act's incentive structure, I receive 300 free minutes per month and can purchase 200 more. For me, the math works.
+When I got here, a call cost roughly three dollars unless you qualified for a local number — a geographically restricted rate covering a narrow area around the facility. The standard rate is now six cents a minute. Through the First Step Act's incentive structure, I receive 300 free minutes a month and can purchase 200 more. For me, the phone works in a way it never used to.
 
 For a lot of people in my housing unit, it does not.
 
-The free minutes are tied to something called an EBRR program — Evidence-Based Recidivism Reduction. Not an ACE class. Not Productive Activity. Specifically EBRR, and specifically being on a waiting list for one. That waiting list is supposed to generate a monthly report sent to a private contractor who credits the minutes. When the minutes do not show up — and they often do not — no one can tell you why.
+The free minutes are tied to an EBRR program — Evidence-Based Recidivism Reduction. Not an ACE class. Not Productive Activity. Specifically EBRR, and specifically being on the waiting list for one. That list is supposed to generate a monthly report sent to a private contractor who credits the minutes. When the minutes do not appear — and they often do not — no one can say why.
 
-Go to Reentry Affairs, which the program statement identifies as the FSA contact. They send you to Unit Team. Unit Team sends you to Trust Fund. Eventually some guidance trickled down telling case managers to email someone when there is a problem. Who that someone is remains unclear to the people on the ground.
+Go to Reentry Affairs, which the program statement names as the FSA contact. They send you to Unit Team. Unit Team sends you to Trust Fund. Eventually some guidance filtered down telling case managers to email someone. Who that someone is remains unclear to everyone on the ground.
 
-Most guys say fuck it. Asking questions feels like making waves. So they pay six cents a minute out of the same commissary account their family funded.
+Most guys say fuck it. Asking questions feels like making waves. So they pay.
 
-And there are inmates at Fort Dix earning early release time credits under the First Step Act — credits that will move their release date forward — who are not receiving the free phone minutes that are supposed to come with those same credits. The Bureau is giving them time. It is not giving them minutes.
+There are inmates at Fort Dix earning early release time credits under the First Step Act — credits that will move their release date — who are not receiving the free phone minutes that are supposed to come with those same credits. The Bureau is giving them time. It is not giving them minutes.
 
-There are eight phones for 340 people in my housing unit. They break. Access is restricted by time and count.
-
----
-
-The email system costs five cents per minute — charged while you read, while you compose, while the screen sits idle. The interface is antiquated enough that many families on the outside cannot figure out how to navigate it. Messages take hours to arrive on either end.
-
-This is part of why illegal cell phones exist in federal facilities. It is not a mystery.
-
-The BOP's answer to all of this is the Keefe tablet. Inmates at Fort Dix can purchase one for $135. According to documents I have reviewed, the Trust Fund paid well over $50 million to implement the Keefe system — inmate money, from commissary markups — and then each inmate purchases the device on top of that.
-
-Movie rentals run between three and ninety-six units depending on the title. Games are twenty to seventy-five units, and many are knockoffs of commercial products — one of them is a direct copy of Angry Birds with the birds replaced by bunnies. Music runs about thirty-one units per song. Nothing is provided for free.
-
-Keefe's marketing materials advertised Khan Academy programming on the system. The Khan Academy content is not on the system.
-
-The BOP is currently negotiating a contract with a new tablet provider. The new system will reportedly include messaging and video services. What those will cost has not been announced.
+Eight phones serve 340 people in my housing unit. They break. Access is restricted by count and time.
 
 ---
 
-For inmates with no family support, the math is simple.
+Email costs five cents a minute — charged while you read, while you compose, while you think. The interface is old enough and confusing enough that many families on the outside struggle to use it. Messages can take hours to arrive on either end.
 
-The BOP provides an indigent bag each month: a couple of bottles of liquid soap that last about a week, four rolls of toilet paper, a cheap toothbrush, and toothpaste so thick I have personally used it to seal a wall closed. That is the full package. No stamps. No phone credits. No food beyond what the chow hall provides.
+The Keefe tablet is the BOP's answer. An inmate at Fort Dix can buy one for $135. According to documents I have reviewed, the Trust Fund paid well over $50 million to implement the Keefe system — money that came from commissary markups — and then each inmate buys the device on top of that. Movie rentals run three to ninety-six units. Games cost twenty to seventy-five units; many are knockoffs of commercial products. Music runs about thirty-one units per song. Nothing is pre-loaded. Nothing is free.
 
-Some people find ways. Carrying commissary bags for other inmates at a dollar a trip. Working in UNICOR or Facilities for better wages. Selling their commissary limit to a store guy in exchange for what they immediately need.
+Keefe advertised Khan Academy content on the system. The Khan Academy content is not on the system.
 
-Selling your limit has a cost. If you owe restitution or fines, transactions into your account trigger obligations under the Inmate Financial Responsibility Program. The BOP requires a minimum of $25 per quarter, and demands more based on what is deposited. The Department of Justice proposed, at one point, claiming 75 percent of all incoming deposits.
-
-The proposal was tabled. I do not believe it is gone.
+The BOP is negotiating a new tablet contract. The announcement says the new system will include messaging and video. No pricing has been released.
 
 ---
 
-I want to say something directly to families.
+For inmates with no outside support, the informal economy is the only economy.
 
-The person inside appreciates what you send. That is almost universally true.
+The BOP's indigent bag covers a month's basics: a couple of bottles of liquid soap, four rolls of toilet paper, a comb, a cheap toothbrush, and toothpaste so thick I have personally used it to seal a wall. No stamps. No phone credits. No food beyond the chow hall.
 
-But if your loved one is asking you to send money to another person's account — or through Cash App, Venmo, or any platform other than the official inmate commissary account — pay close attention to that.
+So people work. They carry commissary bags at a dollar a trip. They get assigned to UNICOR or Facilities, which pay better than most institutional jobs. Some sell their commissary limit to a store guy in exchange for what they need right now.
 
-Drug and gambling debts are real inside federal facilities. An inmate in debt will sometimes call home asking for money to go to another person's account, or through Cash App, or somewhere other than their commissary. That is usually not a random request.
-
-If you have concerns about where money is going, you are allowed to say no. You are allowed to limit what you send and when you send it. That is not abandonment. It may be the most useful thing you do.
+Selling your limit carries risk. If you owe restitution or fines, money coming into your account triggers the Inmate Financial Responsibility Program. The BOP requires a minimum of $25 per quarter and demands more based on what is deposited. The Department of Justice proposed at one point claiming 75 percent of all incoming deposits. The proposal was tabled. I do not believe it is gone.
 
 ---
 
-The stamp is worth ten dollars here because it is the most stable currency on the compound — easier to carry than a mackerel, harder to seize than a commissary balance. That tells you something about how much confidence people place in the official systems.
+A word to families.
 
-Money comes in through the gate. It goes into a commissary account. It gets spent on items marked up 30 to 40 percent. Phone calls cost six cents a minute. The tablet costs $135. Every service has a price, and the prices have been going up. The money moves through the economy of the compound in stamps and fish until it is gone.
+The person inside appreciates what you send. That is almost always true.
 
-The sentence in the judgment is one number. What it costs the people who love you is another, and no one on either side of that gate is required to add it up.
+But if your loved one is asking you to send money to another person's account — or through a payment app rather than directly to their commissary account — pay attention to that. Drug and gambling debts are real here. An inmate in debt will sometimes ask for money to go elsewhere because the obligation belongs to someone else on the compound.
+
+You are allowed to say no. You are allowed to set limits on what you send and when. That is not abandonment.
 
 ---
 
-*If your family member is federally incarcerated — what do you know about where your money goes, and what have you never been told? Leave it in the comments.*
+The BOP seizes books of stamps regularly — they are among the most commonly confiscated items on any federal compound. They keep circulating anyway. People need a way to make things work, and they find one.
+
+The money families send in is part of what makes things work. Knowing how it moves, what it buys, and what to watch for does not mean you should send less. It means you send it with your eyes open.
+
+---
+
+*If your family member is federally incarcerated — what have you figured out about how the money works, and what do you wish someone had told you earlier? Leave it in the comments.*
 
 ---
 
