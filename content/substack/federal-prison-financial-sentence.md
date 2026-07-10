@@ -25,7 +25,7 @@ Does the same economy fund some of the illegal activity on the compound? Yes. Bu
 
 Understanding what life costs here matters if someone you love is inside.
 
-When I arrived at Fort Dix in August 2016, $180 filled two large laundry bags. That is the spending limit here: $180 every two weeks. The bags were full. Ten years later, I spend the same $180 and go home with one bag.
+When I arrived at Fort Dix in August 2016, $180 filled two large laundry bags. The national spending limit was $360 a month then — Fort Dix ran it as $180 every two weeks. The bags were full. The national limit is now $460 a month, $230 every two weeks. But the number that tells the real story is the same $180: what filled two bags then fills one today.
 
 The BOP marks up every item sold to inmates 30 to 40 percent above what the institution pays its suppliers. The official policy says 25 percent. What I have observed over a decade is higher. The markup structure also creates an incentive for vendors to charge the BOP more than they would charge other wholesale customers, because they know the cost gets passed to a captive buyer with nowhere else to go.
 
