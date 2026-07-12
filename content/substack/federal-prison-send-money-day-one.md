@@ -1,6 +1,6 @@
 ---
 title: "I Am Going to Tell You Exactly When and How to Put Money on Their Books."
-subtitle: "From day one, at any BOP facility."
+subtitle: "From day one, at any BOP institution."
 column: "Surviving the Feds: Dispatches from the Inside"
 ---
 
@@ -9,56 +9,34 @@ By Bilal Khan
 
 ---
 
-Commissary is not a luxury.
+Commissary is not a luxury. It is how an inmate survives the gap between what the institution provides and what a person actually needs to function. Soap. Shampoo. Food beyond the chow hall. The ability to make a phone call home. The BOP provides the bare minimum. Commissary covers the rest.
 
-I want to say that plainly because most families assume it is. They picture their loved one shopping for snacks while serving time, and they hesitate. That hesitation costs their person.
+Here is the first thing most families do not know: you do not need to wait until your loved one reaches their permanent facility to send money.
 
-Commissary is how an inmate survives the gap between what the institution provides and what a person actually needs to function. Soap. Shampoo. Food that isn't the chow hall. The ability to make a phone call home. These are not extras. The BOP gives you the bare minimum. Commissary covers everything else.
+The moment they are in a Bureau of Prisons institution — an actual BOP facility, where the signs say BOP and the officers are in BOP uniforms — you can deposit money into their account. That means from the first stop. FDC Philadelphia. MDC Brooklyn. FTC Oklahoma City. The moment they walk through those doors, the account is active and ready.
 
----
+The second thing to know is that the BOP is one connected system. If your person gets transferred three months later, the money goes with them. Same account. Nothing is lost and nothing needs to be resent. You put money into the BOP system and it stays with them wherever they go.
 
-Here is the first thing nobody tells families: you do not need to wait until your loved one reaches their permanent facility to send money.
+The reason to move fast is simple: the phone. As soon as someone hits the yard, the first thing they need is money to call you. An empty account means no call.
 
-The moment they arrive at any Bureau of Prisons institution — a federal detention center, a transit facility, a county jail under contract, a holdover stop in Oklahoma City — you can put money on their account. It does not matter where they land first. FDC Philadelphia. MCC Chicago. MDC Brooklyn. FTC Oklahoma City. All of these are BOP facilities on the same system. Whatever you deposit is there for them.
+To send money you need their eight-digit BOP Register Number. You will get that number once they are in federal custody. The BOP uses Western Union Quick Collect. You can do it in person at any Western Union location, online at westernunion.com, or by phone at 1-800-634-3422 (press option 2 — have a credit or debit card ready).
 
-And here is the second thing: the BOP is one connected system. If they get transferred six months later, the money goes with them. Same account. Nothing lost. There is no re-enrolling, no re-sending. You put money in the system, it stays in the system.
+In all three cases, here is what you enter:
 
-The reason to do it immediately is the phone. As soon as your loved one hits the yard, the first thing they need is money to call you. If the account is empty, that call does not happen.
-
----
-
-To make a deposit, you need one thing: their eight-digit BOP Register Number. You will receive this once they are in federal custody. Do not send money before they are physically in a BOP facility — the system cannot process it yet. But the moment they arrive, you can.
-
-The BOP uses Western Union Quick Collect. You have three ways to send:
-
-**In person** — Go to any Western Union location. Ask for Quick Collect.
-
-**Online** — Go to westernunion.com. Select Quick Collect.
-
-**By phone** — Call 1-800-634-3422. Select option 2. Have a credit or debit card ready.
-
-In all three cases, here is exactly what you enter:
-
-- **Account Number:** their eight-digit Register Number, no spaces, no dashes, followed immediately by their last name — no space between. It looks like this: 12345678KHAN
-- **Attention Line:** their full committed name — the name on their BOP paperwork
+- **Account Number:** eight-digit Register Number, no spaces or dashes, followed immediately by their last name. Example: 12345678KHAN
+- **Attention Line:** their full committed name
 - **Code City:** FBOP
 - **State:** DC
 
-The code city is always FBOP, DC. It does not change based on which facility they are at. That is how the system routes your payment to their account regardless of where they are housed.
+The code city is always FBOP, DC — it does not change regardless of which facility they are at. Money sent between 7 a.m. and 9 p.m. Eastern posts within two to four hours. After 9 p.m. it posts at 7 a.m. the next morning. Western Union runs this seven days a week, including holidays.
 
-Money sent between 7 a.m. and 9 p.m. Eastern posts to their account within two to four hours. Money sent after 9 p.m. Eastern posts at 7 a.m. the next morning. Western Union processes this seven days a week, including holidays.
+One more thing: most BOP facilities have a first-time shopper benefit for new arrivals. As soon as money hits the account, they may be able to shop before their housing unit's regular commissary day. It varies by institution, but it is worth knowing — and it only helps if there is something there to spend.
 
----
-
-One more thing worth knowing: most BOP facilities offer a first-time shopper benefit for new arrivals. As soon as money hits their account, they may be able to shop before their housing unit's regular commissary day. This varies by facility. But the benefit only exists if there is something in the account to spend.
-
-The national BOP spending limit is $460 a month. Not all of it needs to be there at once. Even a small amount on day one means your person can make a call, pick up soap, and know that someone on the outside is paying attention.
-
-Commissary is not a reward. It is how people get through the day in here.
+The national BOP spending limit is $460 a month. It does not all need to arrive at once. Even a small amount on day one means a phone call, a bar of soap, and the knowledge that someone on the outside has not forgotten them.
 
 ---
 
-*If your family member just entered federal custody — what do you wish someone had told you in the first week? Leave it in the comments.*
+*Your family member just arrived at a federal facility — what is the first question you have? Leave it in the comments.*
 
 ---
 
