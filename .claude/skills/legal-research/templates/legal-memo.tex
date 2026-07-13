@@ -28,18 +28,18 @@
 \definecolor{quoteBar}{RGB}{100,100,100}
 \definecolor{verifyAmber}{RGB}{180,100,0}
 
-%% Hyperref metadata
+%% Hyperref metadata — all matter-specific, no hardcoded case/party names
 \hypersetup{
-  pdftitle={Internal Legal Research Memorandum — In re Mell},
-  pdfauthor={Legal Team},
-  pdfsubject={Opposition to Motion to Dismiss, 26-16834-EJO},
-  pdfkeywords={bankruptcy, attorney work product, privileged}
+  pdftitle={$pdf-title$},
+  pdfauthor={$pdf-author$},
+  pdfsubject={$pdf-subject$},
+  pdfkeywords={$pdf-keywords$}
 }
 
 %% Header and footer
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[C]{\small\textbf{\textcolor{confRed}{ATTORNEY WORK PRODUCT — PRIVILEGED AND CONFIDENTIAL}}}
+\fancyhead[C]{\small\textbf{\textcolor{confRed}{$header-banner$}}}
 \fancyhead[R]{\small\textcolor{headerGray}{$case-number$}}
 \fancyfoot[C]{\small\thepage}
 \fancyfoot[L]{\small\textit{\textcolor{headerGray}{$case-name-short$}}}
@@ -50,7 +50,7 @@
 %% Plain style for TOC / TOA pages
 \fancypagestyle{frontmatter}{%
   \fancyhf{}
-  \fancyhead[C]{\small\textbf{\textcolor{confRed}{ATTORNEY WORK PRODUCT — PRIVILEGED AND CONFIDENTIAL}}}
+  \fancyhead[C]{\small\textbf{\textcolor{confRed}{$header-banner$}}}
   \fancyfoot[C]{\small\thepage}
   \renewcommand{\headrulewidth}{0.5pt}
 }
@@ -144,6 +144,9 @@ $endif$
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% COVER PAGE
+%% All caption fields ($doc-title-line1$, $cover-details$, etc.) are
+%% injected by gen_pdf.py from a matter dict — nothing case-specific
+%% is hardcoded here, so the same template serves any practice area.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{titlepage}
 \thispagestyle{empty}
@@ -151,32 +154,23 @@ $endif$
 
 \vspace*{0.6in}
 
-{\Large\bfseries\textcolor{confRed}{ATTORNEY WORK PRODUCT}}\\[0.2em]
-{\Large\bfseries\textcolor{confRed}{PRIVILEGED AND CONFIDENTIAL}}\\[0.2em]
-{\normalsize\textcolor{confRed}{DO NOT DISTRIBUTE WITHOUT COUNSEL AUTHORIZATION}}
+{\Large\bfseries\textcolor{confRed}{$banner-line1$}}\\[0.2em]
+{\Large\bfseries\textcolor{confRed}{$banner-line2$}}\\[0.2em]
+{\normalsize\textcolor{confRed}{$banner-notice$}}
 
 \vspace{0.4in}
 {\color{ruleColor}\rule{5in}{1.5pt}}
 \vspace{0.4in}
 
-{\Huge\bfseries INTERNAL LEGAL}\\[0.15em]
-{\Huge\bfseries RESEARCH MEMORANDUM}
+{\Huge\bfseries $doc-title-line1$}\\[0.15em]
+{\Huge\bfseries $doc-title-line2$}
 
 \vspace{0.4in}
 {\color{ruleColor}\rule{5in}{0.4pt}}
 \vspace{0.4in}
 
 \begin{tabular}{@{}ll@{}}
-\textbf{IN RE:} & \textit{S. Bradley Mell} \\[0.4em]
-\textbf{Case No.:} & 26-16834-EJO \\[0.4em]
-\textbf{Court:} & United States Bankruptcy Court \\
-               & District of New Jersey \\[0.4em]
-\textbf{Hearing:} & July 16, 2026 \\[0.4em]
-\textbf{Before:} & Hon. Eamonn J. O'Hagan \\[0.8em]
-\textbf{Subject:} & Opposition to Motion to Dismiss (Doc.~8); \\
-                  & Automatic Stay Relief; Mandatory Abstention \\[0.8em]
-\textbf{Date:} & $date$ \\[0.4em]
-\textbf{Distribution:} & Legal Team --- INTERNAL USE ONLY \\
+$cover-details$
 \end{tabular}
 
 \vspace{0.4in}
@@ -185,11 +179,7 @@ $endif$
 
 \begin{minipage}{4.5in}
 \small\itshape
-This memorandum constitutes attorney work product and is protected by
-the attorney-client privilege and work product doctrine. It is prepared
-solely for the use of counsel representing S.~Bradley Mell in
-Case No.~26-16834-EJO. Unauthorized disclosure or distribution is
-strictly prohibited.
+$footer-disclaimer$
 \end{minipage}
 
 \end{center}

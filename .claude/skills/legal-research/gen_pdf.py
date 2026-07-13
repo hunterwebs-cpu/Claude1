@@ -4,15 +4,26 @@ gen_pdf.py — Legal Memo PDF Generator
 Part of .claude/skills/legal-research
 
 Usage:
-    python3 gen_pdf.py <input.md> [output.pdf]
+    python3 gen_pdf.py <input.md> [output.pdf] [matter.json]
 
 Reads a FINAL-MEMO.md produced by the legal-research skill workflow,
 extracts citations for a Table of Authorities, pre-processes the
 markdown, and produces a professional PDF via pandoc + pdflatex.
 
+The cover page (matter caption, banner text, footer disclaimer, PDF
+metadata) is fully data-driven — nothing about a specific case, agency,
+or practice area is hardcoded in the LaTeX template. Supply a matter
+dict (see DEFAULT_MATTER below for the full key list) either:
+  - programmatically, by importing generate_pdf() and passing matter=,
+  - or via a JSON file: pass its path as a 3rd CLI arg, or place a
+    "<input-stem>.matter.json" file next to the input markdown and it
+    will be picked up automatically.
+Any keys you omit fall back to generic placeholders.
+
 Output defaults to <input>.pdf in the same directory.
 """
 
+import json
 import re
 import sys
 import subprocess
@@ -29,6 +40,63 @@ from datetime import date
 
 SKILL_DIR = Path(__file__).parent
 TEMPLATE = SKILL_DIR / "templates" / "legal-memo.tex"
+
+
+# ---------------------------------------------------------------------------
+# Matter (cover page) defaults — override per matter, see module docstring
+# ---------------------------------------------------------------------------
+
+DEFAULT_MATTER = {
+    "doc_title_line1": "LEGAL",
+    "doc_title_line2": "RESEARCH MEMORANDUM",
+    "banner_line1": "ATTORNEY WORK PRODUCT",
+    "banner_line2": "PRIVILEGED AND CONFIDENTIAL",
+    "banner_notice": "DO NOT DISTRIBUTE WITHOUT AUTHORIZATION",
+    "header_banner": "ATTORNEY WORK PRODUCT — PRIVILEGED AND CONFIDENTIAL",
+    "matter_label": "MATTER:",
+    "matter_name": "[Matter name — edit matter.json]",
+    "forum_label": "Forum:",
+    "forum": "[Court / Agency]",
+    "hearing_label": "",
+    "hearing": "",
+    "presiding_label": "",
+    "presiding": "",
+    "subject_label": "Subject:",
+    "subject": "[Subject of memo]",
+    "distribution_label": "Distribution:",
+    "distribution": "Legal Team — INTERNAL USE ONLY",
+    "footer_disclaimer": (
+        "This memorandum constitutes attorney work product prepared for "
+        "internal use. Unauthorized disclosure or distribution is "
+        "strictly prohibited."
+    ),
+    "case_number": "N/A",
+    "case_name_short": "Matter",
+    "pdf_title": "Legal Research Memorandum",
+    "pdf_author": "Legal Team",
+    "pdf_subject": "Legal Research Memorandum",
+    "pdf_keywords": "legal research, attorney work product",
+}
+
+
+def load_matter(matter_json: Path | None, input_md: Path) -> dict:
+    """Merge DEFAULT_MATTER with an optional JSON override file."""
+    matter = dict(DEFAULT_MATTER)
+
+    candidate = matter_json
+    if candidate is None:
+        sidecar = input_md.with_suffix("").with_suffix(".matter.json")
+        if sidecar.exists():
+            candidate = sidecar
+
+    if candidate is not None:
+        if not candidate.exists():
+            print(f"[gen_pdf] WARNING: matter file not found, using defaults: {candidate}")
+        else:
+            overrides = json.loads(candidate.read_text(encoding="utf-8"))
+            matter.update(overrides)
+
+    return matter
 
 
 # ---------------------------------------------------------------------------
@@ -67,11 +135,12 @@ def extract_cases(text: str) -> list[str]:
 
 
 def extract_statutes(text: str) -> list[str]:
-    """Extract statute citations. Returns deduplicated sorted list."""
+    """Extract statute/regulation citations. Returns deduplicated sorted list."""
     raw = set()
 
     patterns = [
         r'\d+ U\.S\.C\. §+\s*[\d\w\(\)\-]+(?:\([^\)]{1,30}\))?',
+        r'\d+ C\.F\.R\. §+\s*[\d\w\.\(\)\-]+(?:\([^\)]{1,30}\))?',
         r'N\.J\.S\.A\. [\dA-Z:a-z\-]+',
         r'N\.J\.S\.A\. \d+[A-Za-z]?:\d+[A-Za-z]?-\d+',
     ]
@@ -91,7 +160,7 @@ def extract_rules(text: str) -> list[str]:
 
     patterns = [
         r'Fed\. R\. Bankr\. P\. \d+(?:\(\w\)(?:\(\d+\))?)?',
-        r'Fed\. R\. (?:Civ\.|Evid\.) P\. \d+(?:\(\w\))?',
+        r'Fed\. R\. (?:Civ\.|Crim\.|Evid\.|App\.) P\. \d+(?:\(\w\))?',
         r'N\.J\. (?:Ct\. R\.|R\.) \d+:\d+[-\d]*(?:\([a-z]\)(?:\(\d+\))?)?',
         r'N\.J\. RPC \d+\.\d+(?:\([a-z]\))?',
         r'Bankr\. R\. \d+',
@@ -107,7 +176,7 @@ def extract_rules(text: str) -> list[str]:
 
 
 # ---------------------------------------------------------------------------
-# TOA LaTeX builder
+# LaTeX helpers
 # ---------------------------------------------------------------------------
 
 def escape_latex(s: str) -> str:
@@ -129,17 +198,24 @@ def escape_latex(s: str) -> str:
     return s
 
 
+def format_cell(value: str) -> str:
+    """Escape a cover-page field value; supports \\n for multi-line cells."""
+    lines = [escape_latex(line) for line in value.split('\n')]
+    if len(lines) == 1:
+        return lines[0]
+    return r'\shortstack[l]{' + r'\\'.join(lines) + '}'
+
+
 def build_toa_latex(cases: list[str], statutes: list[str], rules: list[str]) -> str:
     """Build the Table of Authorities as a LaTeX string for the $toa$ variable."""
     lines = []
     lines.append(r'\thispagestyle{frontmatter}')
     lines.append(r'\section*{TABLE OF AUTHORITIES}')
     lines.append(
-        r'\textit{Binding Third Circuit and Supreme Court authorities are '
-        r'marked \textbf{(BINDING)}. All other federal circuit authority '
-        r'is marked \textbf{(PERSUASIVE)}. Citations marked '
-        r'\textcolor{verifyAmber}{\textbf{[VERIFY]}} require Westlaw or '
-        r'PACER confirmation before filing.}'
+        r'\textit{Binding authority is marked \textbf{(BINDING)}; all other '
+        r'authority is marked \textbf{(PERSUASIVE)}. Citations marked '
+        r'\textcolor{verifyAmber}{\textbf{[VERIFY]}} require Westlaw, PACER, '
+        r'or agency-record confirmation before filing.}'
     )
     lines.append(r'\vspace{0.5em}')
 
@@ -157,12 +233,38 @@ def build_toa_latex(cases: list[str], statutes: list[str], rules: list[str]) -> 
     if cases:
         lines.extend(authority_table(cases, 'CASES'))
     if statutes:
-        lines.extend(authority_table(statutes, 'STATUTES'))
+        lines.extend(authority_table(statutes, 'STATUTES AND REGULATIONS'))
     if rules:
-        lines.extend(authority_table(rules, 'RULES AND REGULATIONS'))
+        lines.extend(authority_table(rules, 'RULES'))
 
     lines.append(r'\newpage')
     return '\n'.join(lines)
+
+
+def build_cover_details_latex(matter: dict) -> str:
+    """Build the cover-page caption tabular from a matter dict. Rows whose
+    label or value is empty are omitted, so practice areas that don't have
+    e.g. a hearing date or a presiding judge (most FOIA/transactional work)
+    simply don't render that row."""
+    rows = []
+
+    def add_row(label_key: str, value_key: str, spacing: str = "0.4em") -> None:
+        label = matter.get(label_key, "")
+        value = matter.get(value_key, "")
+        if label and value:
+            rows.append(
+                r'\textbf{' + escape_latex(label) + '} & ' + format_cell(value) +
+                r' \\[' + spacing + ']'
+            )
+
+    add_row('matter_label', 'matter_name')
+    add_row('forum_label', 'forum')
+    add_row('hearing_label', 'hearing')
+    add_row('presiding_label', 'presiding')
+    add_row('subject_label', 'subject', spacing="0.8em")
+    add_row('distribution_label', 'distribution')
+
+    return '\n'.join(rows)
 
 
 # ---------------------------------------------------------------------------
@@ -197,7 +299,7 @@ UNICODE_SUBSTITUTIONS = [
     ('®', r'\textregistered{}'),
     ('™', r'\texttrademark{}'),
     # Misc
-    (' ', ' '),       # non-breaking space
+    (' ', ' '),       # non-breaking space
     ('•', r'\textbullet{}'),  # bullet
 ]
 
@@ -228,7 +330,7 @@ def preprocess_markdown(text: str) -> str:
         # Skip the initial H1 and classification lines (already on cover page)
         if skip_header_block:
             if line.startswith('# ') or line.startswith('**Classification:**') or \
-               line.startswith('**Compiled:**') or line.startswith('**24-Hour'):
+               line.startswith('**Compiled:**') or re.match(r'^\*\*.*Hour.*Deadline', line):
                 i += 1
                 continue
             elif line.strip() == '---' and i < 15:
@@ -261,13 +363,22 @@ def preprocess_markdown(text: str) -> str:
 def generate_pdf(
     input_md: Path,
     output_pdf: Path,
-    case_number: str = "26-16834-EJO",
-    case_name_short: str = "In re Mell",
+    matter: dict | None = None,
     memo_date: str = None,
 ) -> None:
     """
-    Full pipeline: extract citations → build TOA → pre-process markdown → pandoc → PDF.
+    Full pipeline: extract citations → build TOA + cover page →
+    pre-process markdown → pandoc → PDF.
+
+    `matter` overrides DEFAULT_MATTER; see module docstring for keys.
     """
+    if matter is None:
+        matter = dict(DEFAULT_MATTER)
+    else:
+        merged = dict(DEFAULT_MATTER)
+        merged.update(matter)
+        matter = merged
+
     if memo_date is None:
         memo_date = date.today().strftime("%B %d, %Y")
 
@@ -279,10 +390,12 @@ def generate_pdf(
     cases = extract_cases(raw_text)
     statutes = extract_statutes(raw_text)
     rules = extract_rules(raw_text)
-    print(f"          Cases: {len(cases)}  |  Statutes: {len(statutes)}  |  Rules: {len(rules)}")
+    print(f"          Cases: {len(cases)}  |  Statutes/Regs: {len(statutes)}  |  Rules: {len(rules)}")
 
-    # Build TOA LaTeX (uses raw citation strings; escape_latex handles special chars)
+    # Build TOA and cover-page LaTeX (uses raw/escaped strings; escape_latex handles special chars)
     toa_latex = build_toa_latex(cases, statutes, rules)
+    cover_details_latex = build_cover_details_latex(matter)
+    footer_disclaimer_latex = escape_latex(matter["footer_disclaimer"])
 
     # Normalize Unicode for pandoc/pdflatex compatibility
     text = normalize_unicode(raw_text)
@@ -302,9 +415,32 @@ def generate_pdf(
         tpl_tmp = tmp / "legal-memo.tex"
         shutil.copy(TEMPLATE, tpl_tmp)
 
-        # Write TOA to a file that pandoc includes via variable
+        # Write TOA / cover-details / footer-disclaimer to files included via \input
         toa_tmp = tmp / "toa.tex"
         toa_tmp.write_text(toa_latex, encoding='utf-8')
+
+        cover_tmp = tmp / "cover-details.tex"
+        cover_tmp.write_text(cover_details_latex, encoding='utf-8')
+
+        footer_tmp = tmp / "footer-disclaimer.tex"
+        footer_tmp.write_text(footer_disclaimer_latex, encoding='utf-8')
+
+        # Simple string variables — escape for LaTeX before handing to pandoc
+        string_vars = {
+            "date": memo_date,
+            "case-number": matter["case_number"],
+            "case-name-short": matter["case_name_short"],
+            "doc-title-line1": matter["doc_title_line1"],
+            "doc-title-line2": matter["doc_title_line2"],
+            "banner-line1": matter["banner_line1"],
+            "banner-line2": matter["banner_line2"],
+            "banner-notice": matter["banner_notice"],
+            "header-banner": matter["header_banner"],
+            "pdf-title": matter["pdf_title"],
+            "pdf-author": matter["pdf_author"],
+            "pdf-subject": matter["pdf_subject"],
+            "pdf-keywords": matter["pdf_keywords"],
+        }
 
         # Build pandoc command
         cmd = [
@@ -316,10 +452,13 @@ def generate_pdf(
             "--toc",
             "--toc-depth=2",
             "--from", "markdown+pipe_tables+task_lists+fenced_code_blocks+raw_tex",
-            "--variable", f"date={memo_date}",
-            "--variable", f"case-number={case_number}",
-            "--variable", f"case-name-short={case_name_short}",
             "--variable", f"toa=\\input{{{toa_tmp}}}",
+            "--variable", f"cover-details=\\input{{{cover_tmp}}}",
+            "--variable", f"footer-disclaimer=\\input{{{footer_tmp}}}",
+        ]
+        for key, value in string_vars.items():
+            cmd += ["--variable", f"{key}={escape_latex(value)}"]
+        cmd += [
             "--pdf-engine-opt", "-interaction=nonstopmode",
             "--pdf-engine-opt", f"-output-directory={tmpdir}",
             "--output", str(tmp / "output.pdf"),
@@ -376,12 +515,11 @@ def main():
         print(f"[gen_pdf] ERROR: Input file not found: {input_md}")
         sys.exit(1)
 
-    if len(sys.argv) >= 3:
-        output_pdf = Path(sys.argv[2]).resolve()
-    else:
-        output_pdf = input_md.with_suffix('.pdf')
+    output_pdf = Path(sys.argv[2]).resolve() if len(sys.argv) >= 3 else input_md.with_suffix('.pdf')
+    matter_json = Path(sys.argv[3]).resolve() if len(sys.argv) >= 4 else None
 
-    generate_pdf(input_md, output_pdf)
+    matter = load_matter(matter_json, input_md)
+    generate_pdf(input_md, output_pdf, matter=matter)
 
 
 if __name__ == "__main__":
