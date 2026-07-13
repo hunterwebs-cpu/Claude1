@@ -25,11 +25,11 @@ The reason to move fast is simple: the phone. As soon as someone hits the yard, 
 
 To send money you need their eight-digit BOP Register Number. You can find it two ways. Search the BOP inmate locator at bop.gov — once they are in the system, they will appear there. Or, if your loved one received a Presentence Report to review before sentencing, their number is already on it, listed as USM Number (United States Marshal Number). Same number. Write it down when you see it.
 
-Once you have the number, you have several ways to send:
+Once you have the number, you have two routes: electronic or mail.
 
-The easiest is the Send2Corrections app — search "Send2Corrections" in the Apple App Store or Google Play. You can also go to www.send2corrections.com. Both run on Western Union on the back end. If you want a Western Union agent location, call 1-800-325-6000 to find the nearest one. By phone, call 1-800-634-3422 and press option 2 — have a credit or debit card ready. People also report that MoneyGram works, and the BOP lists regular mail as an option as well.
+For electronic, the easiest is the Send2Corrections app — search "Send2Corrections" in the Apple App Store or Google Play. You can also go to www.send2corrections.com. Both run on Western Union on the back end. If you want a Western Union agent location, call 1-800-325-6000 to find the nearest one. By phone, call 1-800-634-3422 and press option 2 — have a credit or debit card ready. People also report that MoneyGram works.
 
-However you send, here is what you enter:
+For all electronic methods, here is what you enter:
 
 - **Account Number:** eight-digit Register Number, no spaces or dashes, followed immediately by their last name. Example: 12345678KHAN
 - **Attention Line:** their full committed name
@@ -37,6 +37,20 @@ However you send, here is what you enter:
 - **State:** DC
 
 The code city is always FBOP, DC — it does not change regardless of which facility they are at. Money sent between 7 a.m. and 9 p.m. Eastern posts within two to four hours. After 9 p.m. it posts at 7 a.m. the next morning. Seven days a week, including holidays.
+
+For the mail route, use a US Postal Money Order — specifically postal, not any other kind. The BOP places a 15-day hold on non-postal money orders before the funds become usable. US Postal Money Orders have no hold. They are also tracked and refundable if something goes wrong.
+
+Mail it to:
+
+Federal Bureau of Prisons
+[Inmate Full Committed Name]
+[8-Digit Register Number]
+PO Box 474701
+Des Moines, Iowa 50947-0001
+
+Write the inmate's full committed name and register number on the money order itself. Put your return address in the upper left corner of the envelope. Do not put anything else in the envelope — no letter, no photo, nothing. Anything besides the money order gets returned to you.
+
+WARNING: DO NOT SEND MONEY DIRECTLY TO THE PRISON FACILITY. THE BOP DOES NOT ACCEPT DEPOSITS THAT WAY. IT IS EITHER ONE OF THE ELECTRONIC SERVICES ABOVE, OR THE DES MOINES LOCKBOX. THOSE ARE THE ONLY TWO ROUTES.
 
 One more thing: most BOP facilities have a first-time shopper benefit for new arrivals. As soon as money hits the account, they may be able to shop before their housing unit's regular commissary day. It varies by institution, but it is worth knowing — and it only helps if there is something there to spend.
 
