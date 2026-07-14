@@ -1,5 +1,5 @@
 ---
-title: "I Am Going to Tell You Exactly When and How to Put Money on Their Books."
+title: "How to Put Money on a Federal Inmate's Books"
 subtitle: "From day one, at any BOP institution."
 column: "Surviving the Feds: Dispatches from the Inside"
 ---

@@ -106,43 +106,38 @@ def add_inline(paragraph, text, font_size=11):
         run.font.size = Pt(font_size)
 
 
-def build_cover_note(doc, fm):
-    add_shaded_line(doc, 'PUBLISHER CHECKLIST — NOT PART OF ARTICLE',
-                    bold=True, size=10, text_hex='1F3D99', fill_hex='D6E4FF',
-                    space_before=2, space_after=2)
+def build_clean_header(doc, fm):
+    title = fm.get('title', '')
+    subtitle = fm.get('subtitle', '')
+    column = fm.get('column', '')
 
-    add_shaded_line(doc, '', fill_hex='EEF4FF')
+    if title:
+        p = doc.add_paragraph()
+        p.paragraph_format.space_before = Pt(0)
+        p.paragraph_format.space_after = Pt(6)
+        run = p.add_run(title)
+        run.font.name = 'Calibri'
+        run.font.size = Pt(22)
+        run.font.bold = True
 
-    add_shaded_line(doc, 'TITLE  —  paste into Substack title field',
-                    bold=True, size=9, text_hex='555555', fill_hex='EEF4FF')
-    add_shaded_line(doc, fm.get('title', ''),
-                    bold=False, size=11, text_hex='111111', fill_hex='EEF4FF',
-                    space_before=1, space_after=4)
+    if subtitle:
+        p = doc.add_paragraph()
+        p.paragraph_format.space_before = Pt(0)
+        p.paragraph_format.space_after = Pt(4)
+        run = p.add_run(subtitle)
+        run.font.name = 'Calibri'
+        run.font.size = Pt(13)
+        run.font.italic = True
+        run.font.color.rgb = hex_rgb('444444')
 
-    add_shaded_line(doc, 'SUBTITLE / EMAIL PREVIEW  —  paste into Substack subtitle field',
-                    bold=True, size=9, text_hex='555555', fill_hex='EEF4FF')
-    add_shaded_line(doc, fm.get('subtitle', ''),
-                    bold=False, size=11, text_hex='111111', fill_hex='EEF4FF',
-                    space_before=1, space_after=4)
-
-    add_shaded_line(doc, 'COLUMN TAG  —  apply in Substack tags field',
-                    bold=True, size=9, text_hex='555555', fill_hex='EEF4FF')
-    add_shaded_line(doc, fm.get('column', 'Surviving the Feds: Dispatches from the Inside'),
-                    bold=False, size=11, text_hex='111111', fill_hex='EEF4FF',
-                    space_before=1, space_after=4)
-
-    add_shaded_line(doc, 'GUEST AUTHOR  —  add via the author field in the Substack editor',
-                    bold=True, size=9, text_hex='555555', fill_hex='EEF4FF')
-    add_shaded_line(doc, 'Bilal Khan  —  [add Bilal’s Substack handle or email to complete byline]',
-                    bold=False, size=11, text_hex='111111', fill_hex='EEF4FF',
-                    space_before=1, space_after=4)
-
-    add_shaded_line(doc, '─' * 52 + '  ARTICLE BEGINS BELOW',
-                    bold=True, size=9, text_hex='1F3D99', fill_hex='D6E4FF',
-                    space_before=2, space_after=2)
-
-    # Spacer before article
-    doc.add_paragraph().paragraph_format.space_after = Pt(4)
+    if column:
+        p = doc.add_paragraph()
+        p.paragraph_format.space_before = Pt(0)
+        p.paragraph_format.space_after = Pt(12)
+        run = p.add_run(column)
+        run.font.name = 'Calibri'
+        run.font.size = Pt(10)
+        run.font.color.rgb = hex_rgb('888888')
 
 
 def build_docx(md_path, output_path):
@@ -163,7 +158,7 @@ def build_docx(md_path, output_path):
         sec.left_margin = Inches(1.25)
         sec.right_margin = Inches(1.25)
 
-    build_cover_note(doc, fm)
+    build_clean_header(doc, fm)
 
     # Process line by line — each non-blank line is its own paragraph
     for line in body.split('\n'):
@@ -209,6 +204,15 @@ def build_docx(md_path, output_path):
             run.font.name = 'Calibri'
             run.font.size = Pt(13)
             run.font.bold = True
+            continue
+
+        # Bullet list item
+        if stripped.startswith('- '):
+            p = doc.add_paragraph(style='List Bullet')
+            p.paragraph_format.space_after = Pt(4)
+            p.paragraph_format.space_before = Pt(0)
+            p.paragraph_format.left_indent = Inches(0.25)
+            add_inline(p, stripped[2:])
             continue
 
         # Regular paragraph (handles inline **bold** and *italic*)
