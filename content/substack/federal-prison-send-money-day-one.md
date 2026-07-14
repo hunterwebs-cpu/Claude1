@@ -19,7 +19,7 @@ The moment they are in a Bureau of Prisons institution — an actual BOP facilit
 
 If they are still sitting in a county jail under a contract, the BOP system will not accept a deposit. It has to be a real BOP facility.
 
-The second thing to know is that the BOP is one connected system. If your person gets transferred three months later, the money goes with them. Same account. Nothing is lost and nothing needs to be resent. You put money into the BOP system and it stays with them wherever they go.
+The second thing to know is that the BOP is one connected system. If your loved one gets transferred three months later, the money goes with them. Same account. Nothing is lost and nothing needs to be resent. You put money into the BOP system and it stays with them wherever they go.
 
 The reason to move fast is simple: the phone. As soon as someone hits the yard, the first thing they need is money to call you. An empty account means no call.
 
@@ -67,5 +67,4 @@ Be Well, Stay Safe, and Survive the Feds,
 
 ---
 
-*Bilal Khan has been incarcerated in the federal system since May 2012.
-He is a United States Marine Corps veteran and the author of* Surviving Pretrial *and* The 2255 Motion Handbook*, both available on Amazon under the Surviving the Feds Series. This column reflects personal experience and is not legal advice.*
+*Bilal Khan has been incarcerated in the federal system since May 2012. He is a United States Marine Corps veteran and the author of* Surviving Pretrial *and* The 2255 Motion Handbook*, both available on Amazon under the Surviving the Feds Series. This column reflects personal experience and is not legal advice.*
