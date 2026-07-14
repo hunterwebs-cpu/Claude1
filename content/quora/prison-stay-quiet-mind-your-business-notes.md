@@ -1,7 +1,7 @@
 ---
 question: "If you stay quiet, mind your business, are polite, and do not interfere, will other inmates leave you alone? Will they still mess with you, beat you up, etc.?"
 type: personal
-status: interview-in-progress
+status: interview-complete
 date: 2026-07-14
 ---
 
@@ -49,18 +49,48 @@ in the eye when you talk to them — while being respectful and not paying any
 attention to what they're doing unless it involves or directly affects you —
 and you'll be fine.
 
-## Notes for follow-up when we resume
+## Round 3 — answers to the follow-ups (raw)
 
-- ~~What do you actually call it~~ → answered: "stay in your lane."
-- ~~Asset vs. liability~~ → partially answered (minor rule-breaking builds
-  trust; total abstainers get side-eyed as snitch risks). Could still ask what
-  makes someone a clear "asset" in a more active sense (not just "not a
-  snitch risk").
-- Still need a **concrete example**: a specific time someone minded their
-  business/stayed quiet and still got roped into something. This is what
-  actually proves the "part wrong" half of his opening line.
-- Still need: does this hold the same across security levels — camp vs. low
-  vs. medium vs. USP? He's been at a range of facilities (Fort Dix, Big
-  Spring, Lewisburg, county jails) — worth knowing if the calculus shifts.
-- Sourcing check: is the "stay in your lane" framing something he was taught
-  early on, something he figured out the hard way, or both?
+**"Roped in" examples:**
+- The dragnet/shank example: cellmate keeps a shank in the vent in a common
+  area. Officer finds it. If the cellie doesn't affirmatively claim it, both
+  cellmates can get an incident report ("a shot") and get sent to the SHU.
+  Directly affects you even though you did nothing. Fixes are situational and
+  limited: talk to the cellie about it (may not go well), move cells (only
+  possible at some facilities), go through your "car" leader — "but there are
+  times you are just fucked."
+- The cake-seller / sex offender: new guy in his first unit starts making and
+  selling cakes. He's a sex offender and LOOKS like an easy target (turns out
+  he wasn't). An opportunist tells him to hand over all the cake money. Guy
+  refuses, stands his ground. Gets viciously assaulted with a padlock —
+  hospital, then months in the SHU for his own protection. Bilal's read: did
+  the guy "stay in his lane"? Maybe not — he started selling cakes right off
+  the rip without getting a lay of the land first, in a building with a high
+  rate of violent offenders who targeted sex offenders. Point: visible success
+  while others have nothing can itself become the trigger. Prison has
+  criminals, and jealous ones at that.
+- The nurse/orderly: guy who was a nurse outside gets a job as an orderly in
+  health services. Asked who took a box of gloves, he instantly answers —
+  didn't think twice about it, but he'd effectively snitched. The inmate who
+  lost his job over it came to the building with a knife demanding payment. A
+  friend of Bilal's diffused it, but the nurse was in real danger and had to
+  check in for protection. Point: you can violate "stay in your lane" by
+  reflex, without any intent to snitch.
+
+**Security level:**
+- Bilal has only been in low-security BOP environments.
+- The 4.5 years he spent fighting his case in county was "very political and
+  violent." He's never been in a fight there or since — "but I'm not a pushover
+  either."
+- Being a highly effective jailhouse lawyer makes him an asset in other
+  people's eyes, which lets him move and speak freely across different groups
+  — but he still stays in his lane.
+
+**Origin story:**
+- Day one, very green, in county jail: standing around while two guys talked
+  about their case. He wasn't looking at them, just in earshot. One of them
+  walked up and said "Can I help you?" — unfriendly posture. That told him to
+  turn off his hearing. Now he says he could walk past a 10-man gang rape in a
+  prison hallway and be "pretty oblivious to it."
+
+## Status: interview complete — ready to write
