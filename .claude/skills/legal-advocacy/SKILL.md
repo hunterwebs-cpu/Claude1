@@ -306,6 +306,21 @@ papered over with confident prose.
   contradicted by a primary-source read. Keep it in the tracking file specifically so
   it does not get silently reintroduced later.
 
+### Pincite conventions when pagination is uncertain
+Don't silently drop a pincite because the source you have doesn't show page numbers
+(e.g., a plain-text Google Scholar export of an unpublished opinion). Instead:
+- Mark the missing pincite visibly in the draft with a placeholder like `at *___`, so
+  it's obvious at a glance that a real page number still needs to go there — never
+  leave it looking like a finished, verified cite.
+- If the source is a slip opinion pulled from PACER, the correct citation form is
+  `slip op. at [page]`, using the slip opinion's own physical page number — not a
+  Westlaw/Lexis star-pagination number, which only exists in the Westlaw/Lexis
+  database version of the document.
+- If nothing in hand has any pagination at all (no reporter, no slip opinion, no
+  Lexis/Westlaw pull), say so directly to the client rather than guessing or quietly
+  omitting the pincite — that's the trigger for them to go pull the slip opinion from
+  PACER themselves, or provide the paginated version.
+
 ### Honest-gap disclosure
 When no case addresses the precise question (a common and *fine* outcome — most
 sharp arguments are partly synthesis), say so explicitly rather than implying a
