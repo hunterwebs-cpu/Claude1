@@ -560,6 +560,14 @@ implementation (cover page, Table of Authorities, Unicode-safe LaTeX substitutio
 formatting decisions table). Adapt the cover-page fields and citation-extraction
 regexes for the new matter rather than rebuilding the pipeline from scratch.
 
+**Footnotes render as true footnotes, not endnotes.** Markdown `[^1]` definitions
+live at the end of the source file as a drafting convenience only — that placement
+has no bearing on the final document. In both the docx and PDF pipelines, footnotes
+must appear at the bottom of the page where the reference mark occurs, the way real
+court filings do it, never collected into an endnotes section at the back. Verify
+this explicitly in the generated output (check that a footnote lands on the same
+page as its in-text marker) rather than assuming the converter's default is correct.
+
 ---
 
 ## 12. Scanned-Document OCR Workflow
