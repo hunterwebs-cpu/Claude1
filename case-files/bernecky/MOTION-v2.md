@@ -263,6 +263,7 @@ Respectfully submitted,
 
 _______________________________
 Jeffrey Bernecky
+
 Defendant, *Pro Se*
 
 
