@@ -13,9 +13,19 @@
   <link rel="icon" href="assets/img/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="assets/css/start.css?v=8" />
+  <link rel="stylesheet" href="assets/css/start.css?v=9" />
 </head>
 <body>
+
+<!-- Print running header/footer — hidden on screen, fixed on every printed page -->
+<div class="cr-print-run-header" aria-hidden="true">
+  <img src="assets/img/logo.png" alt="Surviving the Feds" width="36" height="36" />
+  <span class="cr-print-run-site">SurvivingTheFeds.com</span>
+</div>
+<div class="cr-print-run-footer" aria-hidden="true">
+  <div class="cr-print-run-line"></div>
+  <div class="cr-print-run-tagline">Knowledge + Strength = Freedom</div>
+</div>
 
 <div id="cr-shell">
 
@@ -84,6 +94,8 @@
       </span>
     </button>
 
+    <div class="cr-section-label cr-section-label--tools">Calculators</div>
+
     <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="plea" aria-label="Plea deal review tool">
       <span class="cr-dispatch-num">06</span>
       <span class="cr-dispatch-text">
@@ -97,6 +109,38 @@
       <span class="cr-dispatch-text">
         <span class="cr-dispatch-title">BOP Designation</span>
         <span class="cr-dispatch-sub">Security level estimate</span>
+      </span>
+    </button>
+
+    <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="guideline" aria-label="Guideline range calculator">
+      <span class="cr-dispatch-num">08</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">Guideline Range</span>
+        <span class="cr-dispatch-sub">Build your offense level</span>
+      </span>
+    </button>
+
+    <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="stats" aria-label="Sentencing statistics viewer">
+      <span class="cr-dispatch-num">09</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">Sentencing Statistics</span>
+        <span class="cr-dispatch-sub">What the USSC data shows</span>
+      </span>
+    </button>
+
+    <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="fsa" aria-label="FSA time credit calculator">
+      <span class="cr-dispatch-num">10</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">FSA Time Credits</span>
+        <span class="cr-dispatch-sub">Eligibility + estimate</span>
+      </span>
+    </button>
+
+    <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="refsheets" aria-label="Printable guideline reference sheets">
+      <span class="cr-dispatch-num">11</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">Guideline Sheets</span>
+        <span class="cr-dispatch-sub">Print for your attorney visit</span>
       </span>
     </button>
 
@@ -777,7 +821,7 @@
             </div>
           </div>
 
-          <!-- Section 4: Guideline Range Calculator -->
+          <!-- Section 4: Guideline Range — link to standalone calculator -->
           <div class="cr-plea-section">
             <div class="cr-plea-section-head">
               <span class="cr-plea-section-num">04</span>
@@ -786,95 +830,21 @@
             <div class="cr-plea-section-body">
               <div class="cr-plea-note">
                 <div class="cr-plea-note-label">Nobody builds this for you — until now</div>
-                <p>The federal sentencing guidelines produce a range in months from two numbers: your offense level and your criminal history category. Most people never understand how their range was calculated. Build it here from scratch, then compare it to what the agreement says.</p>
+                <p>The federal sentencing guidelines produce a range in months from two numbers: your offense level and your criminal history category. Use our standalone calculator — Tool 08 — to build yours from scratch, then record the result here for your plea review.</p>
               </div>
-
-              <!-- PART A: Offense Level -->
-              <div class="cr-plea-calc-part">
-                <div class="cr-plea-calc-part-label">A — Offense Level</div>
-                <div class="cr-plea-field">
-                  <label class="cr-plea-label" for="plea-offense-level"><strong>What total adjusted offense level does your attorney expect?</strong></label>
-                  <p class="cr-plea-note-inline">Ask your lawyer: "What is the total adjusted offense level after all enhancements and reductions — including acceptance of responsibility?" Write that final number here.</p>
-                  <div class="cr-plea-input-row" style="align-items:flex-end;">
-                    <div>
-                      <label class="cr-plea-label" style="font-size:.72rem;">Adjusted offense level (1–43)</label>
-                      <input type="number" id="plea-offense-level" class="cr-plea-input cr-plea-input--short" min="1" max="43" placeholder="e.g. 24" />
-                    </div>
-                    <div>
-                      <label class="cr-plea-label" style="font-size:.72rem;">Acceptance of responsibility reduction included?</label>
-                      <select id="plea-acceptance" class="cr-plea-input cr-plea-input--medium">
-                        <option value="">Select...</option>
-                        <option value="3level">Yes — 3 levels (most common)</option>
-                        <option value="2level">Yes — 2 levels</option>
-                        <option value="no">No reduction</option>
-                        <option value="unknown">Don't know</option>
-                      </select>
-                    </div>
-                  </div>
+              <div class="cr-plea-calc-link-card" id="plea-guideline-card">
+                <div class="cr-plea-calc-link-status" id="plea-guideline-status">
+                  <span class="cr-plea-calc-link-none">No calculation yet</span>
                 </div>
-              </div>
-
-              <!-- PART B: Criminal History Calculator -->
-              <div class="cr-plea-calc-part" style="margin-top:24px;">
-                <div class="cr-plea-calc-part-label">B — Criminal History Points</div>
-                <p class="cr-plea-note-inline">Count only federal and state convictions where you received a sentence. Traffic violations and juvenile adjudications generally don't count. Answer each line:</p>
-
-                <div class="cr-plea-ch-grid">
-                  <div class="cr-plea-ch-row">
-                    <div class="cr-plea-ch-desc">
-                      <span class="cr-plea-ch-pts-badge">3 pts each</span>
-                      Prior sentences of imprisonment <strong>longer than 13 months</strong>
-                    </div>
-                    <input type="number" id="ch-long" class="cr-plea-input cr-plea-input--short" min="0" max="20" value="0" />
-                    <div class="cr-plea-ch-subtotal" id="ch-long-sub">0</div>
-                  </div>
-                  <div class="cr-plea-ch-row">
-                    <div class="cr-plea-ch-desc">
-                      <span class="cr-plea-ch-pts-badge">2 pts each</span>
-                      Prior sentences of <strong>60 days to 13 months</strong>
-                    </div>
-                    <input type="number" id="ch-mid" class="cr-plea-input cr-plea-input--short" min="0" max="20" value="0" />
-                    <div class="cr-plea-ch-subtotal" id="ch-mid-sub">0</div>
-                  </div>
-                  <div class="cr-plea-ch-row">
-                    <div class="cr-plea-ch-desc">
-                      <span class="cr-plea-ch-pts-badge">1 pt each</span>
-                      Other prior sentences — fines, short sentences <em>(max 4 pts total from this line)</em>
-                    </div>
-                    <input type="number" id="ch-short" class="cr-plea-input cr-plea-input--short" min="0" max="20" value="0" />
-                    <div class="cr-plea-ch-subtotal" id="ch-short-sub">0</div>
-                  </div>
-                  <div class="cr-plea-ch-row cr-plea-ch-row--check">
-                    <div class="cr-plea-ch-desc">
-                      <span class="cr-plea-ch-pts-badge">+2 pts</span>
-                      Committed the current offense while on <strong>probation, parole, supervised release, or escape status</strong>
-                    </div>
-                    <label class="cr-plea-ch-check"><input type="checkbox" id="ch-status" /> Yes</label>
-                    <div class="cr-plea-ch-subtotal" id="ch-status-sub">0</div>
-                  </div>
+                <div class="cr-plea-calc-link-result" id="plea-guideline-result" hidden>
+                  <div class="cr-plea-calc-link-range" id="plea-link-range-val">—</div>
+                  <div class="cr-plea-calc-link-detail" id="plea-link-range-detail"></div>
                 </div>
-
-                <!-- Live result -->
-                <div class="cr-plea-ch-result" id="plea-ch-result">
-                  <div class="cr-plea-ch-result-row">
-                    <span>Total criminal history points:</span>
-                    <strong id="ch-total-pts">0</strong>
-                  </div>
-                  <div class="cr-plea-ch-result-row">
-                    <span>Criminal History Category:</span>
-                    <strong class="cr-plea-ch-cat-val" id="ch-cat">I</strong>
-                  </div>
-                  <div class="cr-plea-ch-breakdown" id="ch-breakdown">0–1 points = Category I</div>
-                </div>
+                <button type="button" class="cr-plea-calc-link-btn" onclick="document.querySelector('.cr-dispatch-btn[data-target=guideline]').click()">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                  Open Guideline Range Calculator →
+                </button>
               </div>
-
-              <!-- PART C: Estimated Range Display -->
-              <div class="cr-plea-range-display" id="plea-range-display-box">
-                <div class="cr-plea-range-label">Estimated Guideline Range</div>
-                <div class="cr-plea-range-val" id="plea-range-val">— enter offense level and history above —</div>
-                <div class="cr-plea-range-context" id="plea-range-context"></div>
-              </div>
-
               <div class="cr-plea-field" style="margin-top:20px;">
                 <label class="cr-plea-label"><strong>Do both the government and your attorney agree on the offense level and history category?</strong></label>
                 <div class="cr-plea-radio-group">
@@ -886,7 +856,7 @@
             </div>
           </div>
 
-          <!-- Section 5: Sentencing Statistics -->
+          <!-- Section 5: Sentencing Statistics — link to standalone tool -->
           <div class="cr-plea-section">
             <div class="cr-plea-section-head">
               <span class="cr-plea-section-num">05</span>
@@ -895,25 +865,18 @@
             <div class="cr-plea-section-body">
               <div class="cr-plea-note">
                 <div class="cr-plea-note-label">The number most people never see</div>
-                <p>The U.S. Sentencing Commission publishes data on every federal sentence. Most defendants are sentenced <em>at or below</em> the guideline range — not at the top. The data varies significantly by offense type. Select yours to see what the numbers actually show.</p>
+                <p>The U.S. Sentencing Commission tracks every federal sentence. Nationally, roughly half of defendants are sentenced below their guideline range — but the rate varies dramatically by offense type. Use Tool 09 to see the data specific to this case.</p>
               </div>
-              <div class="cr-plea-field">
-                <label class="cr-plea-label" for="plea-offense-type"><strong>Primary offense type</strong></label>
-                <select id="plea-offense-type" class="cr-plea-input cr-plea-input--medium">
-                  <option value="">— select offense type —</option>
-                  <option value="drug">Drug trafficking (all types)</option>
-                  <option value="fraud">Fraud, theft, embezzlement, tax</option>
-                  <option value="firearm">Firearms offenses</option>
-                  <option value="immigration">Immigration offenses</option>
-                  <option value="sexual">Sexual exploitation / child pornography</option>
-                  <option value="money">Money laundering</option>
-                  <option value="other">Other / not listed</option>
-                </select>
+              <div class="cr-plea-calc-link-card">
+                <div class="cr-plea-calc-link-result" id="plea-stats-summary" hidden>
+                  <div class="cr-plea-calc-link-range" id="plea-stats-summary-label">—</div>
+                  <div class="cr-plea-calc-link-detail" id="plea-stats-summary-detail"></div>
+                </div>
+                <button type="button" class="cr-plea-calc-link-btn" onclick="document.querySelector('.cr-dispatch-btn[data-target=stats]').click()">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                  Open Sentencing Statistics →
+                </button>
               </div>
-              <div class="cr-plea-stats-panel" id="plea-stats-panel" hidden>
-                <!-- Populated by JS -->
-              </div>
-              <p class="cr-plea-note-inline" style="margin-top:14px;">Source: U.S. Sentencing Commission, FY2022 Annual Report &amp; Sourcebook of Federal Sentencing Statistics — publicly available at <strong>ussc.gov</strong>. These are system-wide averages across all districts. Individual outcomes vary based on judge, district, attorney, and case facts.</p>
             </div>
           </div>
 
@@ -1247,6 +1210,263 @@
 
         <div class="cr-card cr-bop-note">
           <p><strong>Important:</strong> This calculator uses the BOP's published security scoring methodology (Program Statement 5100.08), applied to your self-reported factors. It produces an <em>estimate only</em>. BOP staff exercise discretion beyond the numerical score — proximity to family, medical needs, program availability, and case manager recommendations all influence the final designation. Minimum security (camp) is the most desirable outcome; a calculated score does not guarantee it.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCREEN: GUIDELINE RANGE CALCULATOR (Tool 08) -->
+    <div id="screen-guideline" class="cr-command-screen cr-screen" role="main" aria-label="Guideline range calculator">
+      <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        Back to Command Center
+      </button>
+      <div class="cr-cmd-tag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        Tool 08 — Guideline Range Calculator
+      </div>
+      <h2 class="cr-cmd-title">Build your federal sentencing guideline range.</h2>
+      <p class="cr-cmd-sub">Two numbers determine the recommendation: your offense level and criminal history category. Build both here.</p>
+      <div class="cr-answers">
+        <div class="cr-calc-errhigh-banner">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <strong>Always err on the high side.</strong> When unsure between two options, choose the higher one. Courts and the government argue for the higher calculation at every step. Planning for the high end produces no surprises — a lower actual result is a bonus, not the baseline.
+        </div>
+
+        <div class="cr-card" style="padding:0;overflow:hidden;">
+          <div class="cr-gl-section">
+            <div class="cr-gl-section-head">A — Offense Level</div>
+            <div class="cr-gl-section-body">
+              <p class="cr-gl-note">Ask your lawyer: <em>"What is the total adjusted offense level after all enhancements and reductions — including acceptance of responsibility?"</em> Enter that final number here.</p>
+              <div class="cr-gl-row">
+                <div class="cr-gl-field">
+                  <label class="cr-gl-label" for="gl-offense-level">Adjusted offense level (1–43)</label>
+                  <input type="number" id="gl-offense-level" class="cr-gl-input cr-gl-input--short" min="1" max="43" placeholder="e.g. 24" />
+                </div>
+                <div class="cr-gl-field">
+                  <label class="cr-gl-label" for="gl-acceptance">Acceptance of responsibility reduction?</label>
+                  <select id="gl-acceptance" class="cr-gl-input cr-gl-input--medium">
+                    <option value="">Not yet included above</option>
+                    <option value="3">Yes — subtract 3 levels (most common, offense level ≥16)</option>
+                    <option value="2">Yes — subtract 2 levels</option>
+                    <option value="0">Already included in my number above</option>
+                  </select>
+                </div>
+              </div>
+              <div class="cr-gl-acceptance-note" id="gl-acceptance-note" hidden>
+                <strong>After acceptance reduction:</strong> Adjusted level = <span id="gl-adj-level-after">—</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cr-gl-section">
+            <div class="cr-gl-section-head">B — Criminal History Points</div>
+            <div class="cr-gl-section-body">
+              <p class="cr-gl-note">Count only federal and state convictions where you received a sentence. Traffic violations and most juvenile adjudications do not count. When unsure, count it — err on the high side.</p>
+              <div class="cr-gl-ch-grid">
+                <div class="cr-gl-ch-row">
+                  <div class="cr-gl-ch-desc"><span class="cr-gl-ch-badge">3 pts each</span>Prior sentences of imprisonment <strong>longer than 13 months</strong></div>
+                  <input type="number" id="gl-ch-long" class="cr-gl-input cr-gl-input--short" min="0" max="20" value="0" />
+                  <div class="cr-gl-ch-sub" id="gl-ch-long-sub">0</div>
+                </div>
+                <div class="cr-gl-ch-row">
+                  <div class="cr-gl-ch-desc"><span class="cr-gl-ch-badge">2 pts each</span>Prior sentences of <strong>60 days to 13 months</strong></div>
+                  <input type="number" id="gl-ch-mid" class="cr-gl-input cr-gl-input--short" min="0" max="20" value="0" />
+                  <div class="cr-gl-ch-sub" id="gl-ch-mid-sub">0</div>
+                </div>
+                <div class="cr-gl-ch-row">
+                  <div class="cr-gl-ch-desc"><span class="cr-gl-ch-badge">1 pt each</span>Other prior sentences (fines, brief sentences) <em>— max 4 pts from this row</em></div>
+                  <input type="number" id="gl-ch-short" class="cr-gl-input cr-gl-input--short" min="0" max="20" value="0" />
+                  <div class="cr-gl-ch-sub" id="gl-ch-short-sub">0</div>
+                </div>
+                <div class="cr-gl-ch-row cr-gl-ch-row--check">
+                  <div class="cr-gl-ch-desc"><span class="cr-gl-ch-badge">+2 pts</span>Current offense committed while on <strong>probation, parole, supervised release, or escape</strong></div>
+                  <label class="cr-gl-ch-check"><input type="checkbox" id="gl-ch-status" /> Yes</label>
+                  <div class="cr-gl-ch-sub" id="gl-ch-status-sub">0</div>
+                </div>
+              </div>
+              <div class="cr-gl-ch-result" id="gl-ch-result">
+                <div class="cr-gl-ch-result-row"><span>Total criminal history points:</span><strong id="gl-ch-total">0</strong></div>
+                <div class="cr-gl-ch-result-row"><span>Criminal History Category:</span><strong class="cr-gl-ch-cat" id="gl-ch-cat">Category I</strong></div>
+                <div class="cr-gl-ch-breakdown" id="gl-ch-breakdown">0–1 points = Category I</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RESULT -->
+        <div class="cr-gl-result" id="gl-result">
+          <div class="cr-gl-result-label">Estimated Guideline Range</div>
+          <div class="cr-gl-result-range" id="gl-result-range">— enter offense level above —</div>
+          <div class="cr-gl-result-context" id="gl-result-context"></div>
+          <button type="button" class="cr-gl-result-copy-btn" id="gl-copy-to-plea" hidden>
+            Copy result to Plea Review →
+          </button>
+        </div>
+
+        <div class="cr-gl-disclaimer">Source: U.S. Sentencing Commission Sentencing Table (§5A). This calculator does not account for career offender, armed career criminal, or other mandatory provisions that override the standard table. Consult your attorney about whether any of these apply.</div>
+      </div>
+    </div>
+
+    <!-- SCREEN: SENTENCING STATISTICS (Tool 09) -->
+    <div id="screen-stats" class="cr-command-screen cr-screen" role="main" aria-label="Sentencing statistics viewer">
+      <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        Back to Command Center
+      </button>
+      <div class="cr-cmd-tag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+        Tool 09 — Sentencing Statistics
+      </div>
+      <h2 class="cr-cmd-title">What does the data say about cases like this one?</h2>
+      <p class="cr-cmd-sub">The U.S. Sentencing Commission tracks every federal sentence. Select an offense type, then enter your guideline level to see both layers of data.</p>
+      <div class="cr-answers">
+        <div class="cr-calc-errhigh-banner">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <strong>These are national averages.</strong> Below-range sentences in the data reflect cooperation, specific district practices (Fast Track), and judicial variance. A 40% below-range rate does not mean a 40% chance of getting below range — it means that happened across all cases nationally, for different reasons.
+        </div>
+
+        <div class="cr-card" style="padding:20px 20px 8px;">
+          <div class="cr-stats-field-row">
+            <div class="cr-stats-field">
+              <label class="cr-gl-label" for="stats-offense-type">Offense type</label>
+              <select id="stats-offense-type" class="cr-gl-input cr-gl-input--medium">
+                <option value="">— select offense type —</option>
+                <option value="drug">Drug trafficking (§2D1.1)</option>
+                <option value="fraud">Fraud / theft / embezzlement / tax (§2B1.1)</option>
+                <option value="firearm">Firearms offenses (§2K2.1 / §924(c))</option>
+                <option value="immigration">Immigration — unlawful reentry (§2L1.2)</option>
+                <option value="sexual">Sexual exploitation / child pornography</option>
+                <option value="money">Money laundering (§2S1.1)</option>
+                <option value="robbery">Robbery / bank robbery (§2B3.1)</option>
+                <option value="other">Other / all federal offenses</option>
+              </select>
+            </div>
+            <div class="cr-stats-field">
+              <label class="cr-gl-label" for="stats-offense-level">Adjusted offense level (optional)</label>
+              <input type="number" id="stats-offense-level" class="cr-gl-input cr-gl-input--short" min="1" max="43" placeholder="e.g. 22" />
+            </div>
+          </div>
+        </div>
+
+        <div id="stats-offense-panel" hidden>
+          <!-- Offense type stats populated by JS -->
+        </div>
+
+        <div id="stats-level-panel" hidden>
+          <!-- Level bucket stats populated by JS -->
+        </div>
+
+        <p class="cr-gl-disclaimer">Source: U.S. Sentencing Commission, FY2022 Annual Report and Sourcebook — ussc.gov. Data is national aggregate. Level-bucket statistics are approximated from published USSC tables. Individual district and judge variance not reflected.</p>
+      </div>
+    </div>
+
+    <!-- SCREEN: FSA TIME CREDIT CALCULATOR (Tool 10) -->
+    <div id="screen-fsa" class="cr-command-screen cr-screen" role="main" aria-label="FSA time credit calculator">
+      <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        Back to Command Center
+      </button>
+      <div class="cr-cmd-tag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Tool 10 — FSA Time Credit Calculator
+      </div>
+      <h2 class="cr-cmd-title">First Step Act: Does this person qualify, and how much time can they earn?</h2>
+      <p class="cr-cmd-sub">The First Step Act lets eligible inmates earn time off their sentence through programming. Many families don't know their person is excluded — or that they qualify for more than they thought.</p>
+
+      <div class="cr-answers">
+        <div class="cr-calc-errhigh-banner">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <strong>FSA eligibility and good time credits are separate.</strong> Good time credits (54 days/year) apply to everyone who serves well. FSA time credits are additional — but many offense types are explicitly excluded by law.
+        </div>
+
+        <!-- STEP 1: ELIGIBILITY -->
+        <div class="cr-card" style="padding:0;overflow:hidden;">
+          <div class="cr-gl-section">
+            <div class="cr-gl-section-head">Step 1 — Is this person FSA-eligible?</div>
+            <div class="cr-gl-section-body">
+              <p class="cr-gl-note">The following offense categories are <strong>excluded by law</strong> from earning FSA time credits. Check any that apply:</p>
+              <div class="cr-fsa-excl-grid">
+                <label class="cr-fsa-excl-row"><input type="checkbox" class="cr-fsa-excl-check" data-excl="sex" /> <span><strong>Sex offenses</strong> — any offense requiring registration as a sex offender under SORNA. Includes child pornography (§2251, §2252, §2252A), sexual abuse (§2241–§2244), sex trafficking (§1591), transportation for illegal sexual activity.</span></label>
+                <label class="cr-fsa-excl-row"><input type="checkbox" class="cr-fsa-excl-check" data-excl="terrorism" /> <span><strong>Terrorism</strong> — federal terrorism offenses (18 U.S.C. §2332b(g)(5)), use of weapons of mass destruction (§2332a), sabotage of nuclear facilities.</span></label>
+                <label class="cr-fsa-excl-row"><input type="checkbox" class="cr-fsa-excl-check" data-excl="murder" /> <span><strong>Murder / homicide</strong> — first and second degree murder (§1111), manslaughter (§1112), homicide of federal officer (§1114), murder-for-hire (§1958).</span></label>
+                <label class="cr-fsa-excl-row"><input type="checkbox" class="cr-fsa-excl-check" data-excl="kidnapping" /> <span><strong>Kidnapping</strong> — federal kidnapping (§1201, §1202).</span></label>
+                <label class="cr-fsa-excl-row"><input type="checkbox" class="cr-fsa-excl-check" data-excl="robbery" /> <span><strong>Bank robbery / federal robbery / carjacking</strong> — bank robbery (§2113), robbery within federal jurisdiction (§2111), carjacking (§2119).</span></label>
+                <label class="cr-fsa-excl-row"><input type="checkbox" class="cr-fsa-excl-check" data-excl="trafficking" /> <span><strong>Human trafficking</strong> — trafficking in persons (§1590), sex trafficking of children (§1591).</span></label>
+                <label class="cr-fsa-excl-row"><input type="checkbox" class="cr-fsa-excl-check" data-excl="assault" /> <span><strong>Serious assault / maiming</strong> — assault with intent to commit murder (§113(a)(1)), maiming (§114), domestic assault by habitual offender (§117).</span></label>
+                <label class="cr-fsa-excl-row"><input type="checkbox" class="cr-fsa-excl-check" data-excl="arson" /> <span><strong>Arson / explosives</strong> — arson of federal property resulting in death (§844(f)(2)/(3)), arson/bombing of commercial property (§844(i)), explosive training for terrorism (§842(p)(2)).</span></label>
+              </div>
+              <div class="cr-fsa-eligibility-result" id="fsa-eligibility-result">
+                <div class="cr-fsa-elig-none">Select any that apply above — or leave all unchecked if none apply.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 2: MATH (shown only if eligible) -->
+          <div class="cr-gl-section" id="fsa-math-section" hidden>
+            <div class="cr-gl-section-head">Step 2 — How much time can they earn?</div>
+            <div class="cr-gl-section-body">
+              <div class="cr-gl-row">
+                <div class="cr-gl-field">
+                  <label class="cr-gl-label" for="fsa-sentence">Sentence imposed (in months)</label>
+                  <input type="number" id="fsa-sentence" class="cr-gl-input cr-gl-input--short" min="13" max="600" placeholder="e.g. 60" />
+                </div>
+                <div class="cr-gl-field">
+                  <label class="cr-gl-label" for="fsa-risk">Expected PATTERN risk level</label>
+                  <select id="fsa-risk" class="cr-gl-input cr-gl-input--medium">
+                    <option value="">— select risk level —</option>
+                    <option value="min">Minimum — no prior record, non-violent, stable background</option>
+                    <option value="low">Low — minimal prior record, largely non-violent history</option>
+                    <option value="med">Medium — prior record, some risk factors present</option>
+                    <option value="high">High — significant prior record, multiple risk factors</option>
+                    <option value="unknown">Don't know yet</option>
+                  </select>
+                </div>
+              </div>
+              <div class="cr-gl-note" style="margin-top:10px;">The <strong>PATTERN</strong> (Prisoner Assessment Tool Targeting Estimated Risk and Needs) score is assigned by BOP after intake. Minimum and Low risk earns more credits per day of programming.</div>
+              <div class="cr-fsa-math-result" id="fsa-math-result" hidden>
+                <!-- Populated by JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cr-gl-disclaimer">18 U.S.C. § 3632(d)(4). FSA time credits are applied to prerelease custody (halfway house / home confinement) or to reduce supervised release up to 12 months. Good time credits (18 U.S.C. § 3624(b)) apply separately and to all eligible inmates regardless of FSA eligibility. Actual credit application is at BOP discretion. These estimates assume full program participation throughout the sentence.</div>
+      </div>
+    </div>
+
+    <!-- SCREEN: GUIDELINE REFERENCE SHEETS (Tool 11) -->
+    <div id="screen-refsheets" class="cr-command-screen cr-screen" role="main" aria-label="Printable guideline reference sheets">
+      <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        Back to Command Center
+      </button>
+      <div class="cr-cmd-tag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/></svg>
+        Tool 11 — Guideline Reference Sheets
+      </div>
+      <h2 class="cr-cmd-title">Printable guideline breakdowns for your attorney visit.</h2>
+      <p class="cr-cmd-sub">Select a guideline, print the sheet, bring it to the visit. Shows how the score is built, a worked example, and specific questions to ask your attorney. On STF letterhead.</p>
+      <div class="cr-answers">
+        <div class="cr-ref-tabs" role="tablist" aria-label="Guideline sections">
+          <button class="cr-ref-tab is-active" data-ref="fraud" role="tab" aria-selected="true">§2B1.1 Fraud</button>
+          <button class="cr-ref-tab" data-ref="drug" role="tab" aria-selected="false">§2D1.1 Drugs</button>
+          <button class="cr-ref-tab" data-ref="cp" role="tab" aria-selected="false">§2G2.2 Child Porn</button>
+          <button class="cr-ref-tab" data-ref="immigration" role="tab" aria-selected="false">§2L1.2 Immigration</button>
+          <button class="cr-ref-tab" data-ref="firearm" role="tab" aria-selected="false">§2K2.1 Firearms</button>
+          <button class="cr-ref-tab" data-ref="money" role="tab" aria-selected="false">§2S1.1 Money</button>
+          <button class="cr-ref-tab" data-ref="robbery" role="tab" aria-selected="false">§2B3.1 Robbery</button>
+        </div>
+
+        <div class="cr-ref-print-bar">
+          <button type="button" class="cr-btn cr-ref-print-btn" id="cr-ref-print-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="14" height="14"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Print This Sheet
+          </button>
+          <span class="cr-ref-print-note">Prints on STF letterhead with full questions list</span>
+        </div>
+
+        <div id="cr-ref-content">
+          <!-- Populated by JS based on active tab -->
         </div>
       </div>
     </div>
@@ -2146,88 +2366,191 @@
     return cell[0]+'–'+(cell[1]===null?'Life (max)':cell[1])+' months';
   }
 
-  function calcCH() {
-    var lng  = Math.max(0,parseInt(getVal('ch-long'))||0);
-    var mid  = Math.max(0,parseInt(getVal('ch-mid'))||0);
-    var sh   = Math.max(0,parseInt(getVal('ch-short'))||0);
-    var stat = document.getElementById('ch-status') && document.getElementById('ch-status').checked;
-    var pts  = (lng*3)+(mid*2)+(Math.min(sh,4)*1)+(stat?2:0);
-    var cat  = ptsToCat(pts);
-    var ls=document.getElementById('ch-long-sub'),ms=document.getElementById('ch-mid-sub');
-    var ss=document.getElementById('ch-short-sub'),sts=document.getElementById('ch-status-sub');
-    if(ls)ls.textContent=lng*3; if(ms)ms.textContent=mid*2;
-    if(ss)ss.textContent=Math.min(sh,4); if(sts)sts.textContent=stat?2:0;
-    var tEl=document.getElementById('ch-total-pts'),cEl=document.getElementById('ch-cat');
-    if(tEl)tEl.textContent=pts; if(cEl)cEl.textContent='Category '+cat;
-    var bd=document.getElementById('ch-breakdown'),found=CH_THRESH.filter(function(t){return pts>=t.min&&pts<=t.max;})[0];
-    if(bd&&found)bd.textContent=pts+' point'+(pts===1?'':'s')+' = Category '+found.cat+(found.max===999?' (13+ pts)':' ('+found.min+'–'+found.max+' pts)');
+  /* ---- Shared state between calculators ------------------------------------ */
+  var sharedCalc = { guideline: null, offenseType: null };
+
+  /* ---- Generic CH calculator (prefix = 'gl-') ------------------------------ */
+  function calcChWithPrefix(pfx) {
+    function gv(id){var e=document.getElementById(pfx+id);return e?e.value:'';}
+    var lng=Math.max(0,parseInt(gv('ch-long'))||0);
+    var mid=Math.max(0,parseInt(gv('ch-mid'))||0);
+    var sh =Math.max(0,parseInt(gv('ch-short'))||0);
+    var stat=!!document.getElementById(pfx+'ch-status')&&document.getElementById(pfx+'ch-status').checked;
+    var pts=(lng*3)+(mid*2)+(Math.min(sh,4))+(stat?2:0);
+    var cat=ptsToCat(pts);
+    function se(id,v){var e=document.getElementById(pfx+id);if(e)e.textContent=v;}
+    se('ch-long-sub',lng*3); se('ch-mid-sub',mid*2); se('ch-short-sub',Math.min(sh,4)); se('ch-status-sub',stat?2:0);
+    se('ch-total',pts); se('ch-cat','Category '+cat);
+    var found=CH_THRESH.filter(function(t){return pts>=t.min&&pts<=t.max;})[0];
+    if(found)se('ch-breakdown',pts+' point'+(pts===1?'':'s')+' = Category '+found.cat+(found.max===999?' (13+ pts)':' ('+found.min+'–'+found.max+' pts)'));
     return {pts:pts,cat:cat,catIdx:CAT_IDX[cat]||0};
   }
 
-  function updateRangeDisplay() {
-    var ch=calcCH();
-    var lvl=parseInt(getVal('plea-offense-level'));
-    var dEl=document.getElementById('plea-range-val'),cEl=document.getElementById('plea-range-context');
+  function updateGlRange() {
+    var ch=calcChWithPrefix('gl-');
+    var lvlEl=document.getElementById('gl-offense-level');
+    var lvl=lvlEl?parseInt(lvlEl.value)||0:0;
+    var accEl=document.getElementById('gl-acceptance');
+    var accVal=accEl?parseInt(accEl.value)||0:0;
+    var accNote=document.getElementById('gl-acceptance-note');
+    var accNoteSpan=document.getElementById('gl-adj-level-after');
+    if(accVal>0&&lvl>=1){
+      var adj=Math.max(1,lvl-accVal);
+      if(accNote)accNote.hidden=false;
+      if(accNoteSpan)accNoteSpan.textContent='Level '+adj;
+      lvl=adj;
+    } else { if(accNote)accNote.hidden=true; }
+    var dEl=document.getElementById('gl-result-range'),cEl=document.getElementById('gl-result-context');
+    var copyBtn=document.getElementById('gl-copy-to-plea');
     if(!dEl)return;
-    if(!lvl||lvl<1||lvl>43){dEl.textContent='— enter offense level above —';if(cEl)cEl.textContent='';return;}
-    var row=ST[lvl-1]; if(!row){return;}
-    var cell=row[ch.catIdx];
-    dEl.textContent=rangeStr(cell);
-    if(cEl){
-      var lo=cell[0],hi=cell[1];
-      cEl.textContent='Level '+lvl+', Category '+ch.cat+' — '+moToYr(lo)+' to '+(hi===null?'Life':moToYr(hi));
+    if(!lvl||lvl<1||lvl>43){dEl.textContent='— enter offense level above —';if(cEl)cEl.textContent='';if(copyBtn)copyBtn.hidden=true;sharedCalc.guideline=null;updatePleaGuidelineCard();return;}
+    var trow=ST[lvl-1];if(!trow){return;}
+    var cell=trow[ch.catIdx];
+    var rs=rangeStr(cell);
+    dEl.textContent=rs;
+    if(cEl)cEl.textContent='Level '+lvl+', Category '+ch.cat+' — '+moToYr(cell[0])+' to '+(cell[1]===null?'Life':moToYr(cell[1]));
+    if(copyBtn)copyBtn.hidden=false;
+    sharedCalc.guideline={level:lvl,chPts:ch.pts,chCat:ch.cat,chCatIdx:ch.catIdx,rangeMin:cell[0],rangeMax:cell[1],rangeStr:rs};
+    updatePleaGuidelineCard();
+  }
+
+  function updatePleaGuidelineCard() {
+    var g=sharedCalc.guideline;
+    var none=document.querySelector('#plea-guideline-status .cr-plea-calc-link-none');
+    var result=document.getElementById('plea-guideline-result');
+    var rv=document.getElementById('plea-link-range-val');
+    var rd=document.getElementById('plea-link-range-detail');
+    if(g){
+      if(none&&none.parentElement)none.parentElement.hidden=true;
+      if(result)result.hidden=false;
+      if(rv)rv.textContent=g.rangeStr;
+      if(rd)rd.textContent='Level '+g.level+', Category '+g.chCat+' — '+g.chPts+' criminal history point'+(g.chPts===1?'':'s');
+    } else {
+      if(none&&none.parentElement)none.parentElement.hidden=false;
+      if(result)result.hidden=true;
     }
   }
 
-  ['plea-offense-level','ch-long','ch-mid','ch-short'].forEach(function(id){
+  ['gl-offense-level','gl-ch-long','gl-ch-mid','gl-ch-short'].forEach(function(id){
     var el=document.getElementById(id);
-    if(el)el.addEventListener('input',updateRangeDisplay);
+    if(el)el.addEventListener('input',updateGlRange);
   });
-  var chSt=document.getElementById('ch-status');
-  if(chSt)chSt.addEventListener('change',updateRangeDisplay);
-  updateRangeDisplay();
+  var glChSt=document.getElementById('gl-ch-status');
+  if(glChSt)glChSt.addEventListener('change',updateGlRange);
+  var glAcc=document.getElementById('gl-acceptance');
+  if(glAcc)glAcc.addEventListener('change',updateGlRange);
+  updateGlRange();
+  var glCopyBtn=document.getElementById('gl-copy-to-plea');
+  if(glCopyBtn)glCopyBtn.addEventListener('click',function(){document.querySelector('.cr-dispatch-btn[data-target="plea"]').click();});
 
-  /* ---- Sentencing Statistics (USSC FY2022 public data) ---------------------- */
+  /* ---- Sentencing Statistics data (USSC FY2022) ----------------------------- */
   var USSC = {
-    drug:    {label:'Drug Trafficking',cases:'~23,900',within:44,govBelow:38,otherBelow:14,above:2,median:72, note:'38% sentenced below range through cooperation (5K1.1). Drug quantity drives offense level — the stipulated quantity in the factual basis matters enormously.'},
-    fraud:   {label:'Fraud / Theft / Embezzlement / Tax',cases:'~7,500',within:58,govBelow:18,otherBelow:22,above:2,median:15, note:'Loss-driven enhancements push levels very high; judges then vary downward in 40% of cases. Fraud sentences vary far more than drug sentences.'},
-    firearm: {label:'Firearms Offenses',cases:'~7,800',within:52,govBelow:21,otherBelow:24,above:2,median:57, note:'ACCA and career offender enhancements are common and can double the guideline range. Below-range outcomes still happen in 45% of cases.'},
-    immigration:{label:'Immigration Offenses',cases:'~14,700',within:52,govBelow:4,otherBelow:44,above:1,median:7, note:'44% below-range through fast-track programs in border districts — a structural feature of immigration prosecution, not cooperation.'},
-    sexual:  {label:'Sexual Exploitation / Child Pornography',cases:'~1,900',within:74,govBelow:8,otherBelow:15,above:2,median:131, note:'Highest within-range rate. Guidelines are widely considered severe; judges still sentence below in ~23% of cases, but this category carries the longest median sentences.'},
-    money:   {label:'Money Laundering',cases:'~1,100',within:51,govBelow:25,otherBelow:22,above:2,median:24, note:'Often paired with drug or fraud charges. Sentences closely track the underlying offense. Cooperation departures are common.'},
-    other:   {label:'All Federal Offenses (system average)',cases:'~64,000',within:46,govBelow:31,otherBelow:20,above:2,median:24, note:'Roughly 51% of all federal defendants are sentenced below the guideline range — most through cooperation or plea concessions. The guidelines are the starting point, not the finish line.'}
+    drug:       {label:'Drug Trafficking',cases:'~23,900',within:44,govBelow:38,otherBelow:14,above:4,median:72,note:'38% sentenced below range through cooperation (5K1.1). Drug quantity drives offense level — the stipulated quantity in the factual basis matters enormously.'},
+    fraud:      {label:'Fraud / Theft / Embezzlement / Tax',cases:'~7,300',within:58,govBelow:5,otherBelow:35,above:2,median:15,note:'Loss-driven enhancements push levels very high; judges vary downward in 35% of cases on their own authority. Fraud sentencing shows the highest judicial variance of any major category.'},
+    firearm:    {label:'Firearms Offenses',cases:'~7,300',within:52,govBelow:21,otherBelow:24,above:3,median:46,note:'Prior criminal history drives the base offense level — a first-timer and career offender face very different starting points. Still, 45% receive below-range sentences.'},
+    immigration:{label:'Unlawful Reentry / Immigration',cases:'~12,100',within:52,govBelow:4,otherBelow:43,above:1,median:7,note:'43% below range through Fast Track programs in border districts — this is structural, not case-specific. Without Fast Track availability, immigration cases resolve closer to range.'},
+    sexual:     {label:'Sexual Exploitation / Child Pornography',cases:'~1,900',within:37,govBelow:4,otherBelow:57,above:2,median:97,note:'57% sentenced below range — highest below-range rate of any category, because many judges view §2G2.2 enhancements as overstacked. Despite this, median sentences are among the highest nationally.'},
+    money:      {label:'Money Laundering',cases:'~1,200',within:51,govBelow:25,otherBelow:22,above:2,median:24,note:'Often paired with drug or fraud charges — sentence tracks the underlying offense. Cooperation departures are common here.'},
+    robbery:    {label:'Robbery / Bank Robbery',cases:'~1,850',within:72,govBelow:11,otherBelow:14,above:3,median:67,note:'Highest within-range compliance rate of any major category. Firearm use enhancement (+5) and financial institution adjustment (+2) are nearly automatic for bank robbery.'},
+    other:      {label:'All Federal Offenses (national average)',cases:'~64,200 total',within:47,govBelow:17,otherBelow:31,above:5,median:21,note:'Roughly half of all federal defendants receive a below-range sentence. But reasons — cooperation, district practices, judicial variance — differ sharply by offense type.'}
+  };
+  var USSC_LEVELS = {
+    '1_8':  {label:'Levels 1–8',zone:'Zone A / B',median:3,pct_within:51,pct_below:43,pct_above:6,note:'Probation is often available at these levels. Many defendants avoid prison entirely.'},
+    '9_12': {label:'Levels 9–12',zone:'Zone B / C',median:10,pct_within:50,pct_below:42,pct_above:8,note:'Split sentences and short prison terms. Halfway house substitutes are common.'},
+    '13_16':{label:'Levels 13–16',zone:'Zone D — prison required',median:18,pct_within:52,pct_below:40,pct_above:8,note:'The mandatory prison zone begins here. Cooperation and judicial variance are the primary paths below range.'},
+    '17_20':{label:'Levels 17–20',zone:'Zone D — moderate',median:34,pct_within:55,pct_below:36,pct_above:9,note:'These levels represent 2–5 years of custody. FSA credits can make a real difference at this range.'},
+    '21_25':{label:'Levels 21–25',zone:'Zone D — substantial',median:63,pct_within:58,pct_below:33,pct_above:9,note:'Many mid-level drug, fraud, and firearms cases land here. Cooperation motions can still produce dramatic reductions.'},
+    '26_30':{label:'Levels 26–30',zone:'Zone D — serious',median:96,pct_within:61,pct_below:30,pct_above:9,note:'The cooperation leverage is highest here — a departure represents years. Major drug trafficking, large fraud, and robbery cases.'},
+    '31_36':{label:'Levels 31–36',zone:'Zone D — very serious',median:144,pct_within:64,pct_below:27,pct_above:9,note:'Many cases at these levels involve mandatory minimum floors that limit judicial discretion.'},
+    '37_43':{label:'Levels 37–43',zone:'Zone D — highest',median:240,pct_within:67,pct_below:25,pct_above:8,note:'Mandatory minimums are nearly universal. Even with cooperation, sentences often exceed 10–15 years.'}
   };
 
-  function renderStats(key) {
-    var d=USSC[key]; if(!d)return;
-    var panel=document.getElementById('plea-stats-panel'); if(!panel)return;
-    var tot=d.govBelow+d.otherBelow;
-    panel.innerHTML=
-      '<div class="cr-plea-stats-header"><strong>'+d.label+'</strong><span class="cr-plea-stats-meta">'+d.cases+' cases &nbsp;·&nbsp; FY2022 USSC data</span></div>'+
-      '<div class="cr-plea-stats-bar-wrap">'+
-        '<div class="cr-plea-stats-bar">'+
-          '<div class="cr-plea-stats-seg cr-plea-stats-seg--within"  style="width:'+d.within+'%"></div>'+
-          '<div class="cr-plea-stats-seg cr-plea-stats-seg--govbelow" style="width:'+d.govBelow+'%"></div>'+
-          '<div class="cr-plea-stats-seg cr-plea-stats-seg--other"   style="width:'+d.otherBelow+'%"></div>'+
-          '<div class="cr-plea-stats-seg cr-plea-stats-seg--above"   style="width:'+d.above+'%"></div>'+
-        '</div>'+
-        '<div class="cr-plea-stats-legend">'+
-          '<span><em class="cr-plea-stats-dot cr-plea-stats-dot--within"></em>Within range <strong>'+d.within+'%</strong></span>'+
-          '<span><em class="cr-plea-stats-dot cr-plea-stats-dot--govbelow"></em>Below — cooperation <strong>'+d.govBelow+'%</strong></span>'+
-          '<span><em class="cr-plea-stats-dot cr-plea-stats-dot--other"></em>Below — other <strong>'+d.otherBelow+'%</strong></span>'+
-          '<span><em class="cr-plea-stats-dot cr-plea-stats-dot--above"></em>Above range <strong>'+d.above+'%</strong></span>'+
-        '</div>'+
-      '</div>'+
-      '<div class="cr-plea-stats-median"><span class="cr-plea-stats-median-label">Median sentence</span><span class="cr-plea-stats-median-val">'+d.median+' months</span><span class="cr-plea-stats-median-sub">('+moToYr(d.median)+')</span></div>'+
-      '<div class="cr-plea-stats-insight"><strong>'+tot+'%</strong> of defendants in this category were sentenced <em>below</em> the guideline range. '+d.note+'</div>';
-    panel.hidden=false;
+  function lvlToBucket(lvl) {
+    if(lvl<=8)return'1_8'; if(lvl<=12)return'9_12'; if(lvl<=16)return'13_16';
+    if(lvl<=20)return'17_20'; if(lvl<=25)return'21_25'; if(lvl<=30)return'26_30';
+    if(lvl<=36)return'31_36'; return'37_43';
   }
 
-  var offTypeEl=document.getElementById('plea-offense-type');
-  if(offTypeEl){offTypeEl.addEventListener('change',function(){
-    if(this.value)renderStats(this.value);
-    else{var p=document.getElementById('plea-stats-panel');if(p)p.hidden=true;}
+  function statsBarHTML(d, panelClass) {
+    var tot=d.pct_below!==undefined?(d.pct_below):(d.govBelow+d.otherBelow);
+    var within=d.pct_within!==undefined?d.pct_within:d.within;
+    var above=d.pct_above!==undefined?d.pct_above:d.above;
+    var govB=d.govBelow||0, othB=d.otherBelow||0;
+    var isLevel=d.pct_below!==undefined;
+    var belowBlock=isLevel?'<div class="cr-plea-stats-seg cr-plea-stats-seg--other" style="width:'+tot+'%"></div>':
+      '<div class="cr-plea-stats-seg cr-plea-stats-seg--govbelow" style="width:'+govB+'%"></div><div class="cr-plea-stats-seg cr-plea-stats-seg--other" style="width:'+othB+'%"></div>';
+    var legendBlock=isLevel?'<span><em class="cr-plea-stats-dot cr-plea-stats-dot--other"></em>Below range <strong>'+tot+'%</strong></span>':
+      '<span><em class="cr-plea-stats-dot cr-plea-stats-dot--govbelow"></em>Below — coop <strong>'+govB+'%</strong></span><span><em class="cr-plea-stats-dot cr-plea-stats-dot--other"></em>Below — other <strong>'+othB+'%</strong></span>';
+    var medStr=d.median_months!==undefined?d.median_months:d.median;
+    return '<div class="cr-plea-stats-bar-wrap">'+
+      '<div class="cr-plea-stats-bar">'+
+        '<div class="cr-plea-stats-seg cr-plea-stats-seg--within" style="width:'+within+'%"></div>'+belowBlock+
+        '<div class="cr-plea-stats-seg cr-plea-stats-seg--above" style="width:'+above+'%"></div>'+
+      '</div>'+
+      '<div class="cr-plea-stats-legend">'+
+        '<span><em class="cr-plea-stats-dot cr-plea-stats-dot--within"></em>Within range <strong>'+within+'%</strong></span>'+legendBlock+
+        '<span><em class="cr-plea-stats-dot cr-plea-stats-dot--above"></em>Above <strong>'+above+'%</strong></span>'+
+      '</div></div>'+
+      '<div class="cr-plea-stats-median"><span class="cr-plea-stats-median-label">Median sentence</span><span class="cr-plea-stats-median-val">'+medStr+' months</span><span class="cr-plea-stats-median-sub">('+moToYr(medStr)+')</span></div>';
+  }
+
+  function renderStatsPanel(key, panelEl) {
+    if(!panelEl)return;
+    var d=USSC[key]; if(!d){panelEl.hidden=true;return;}
+    var tot=d.govBelow+d.otherBelow;
+    panelEl.innerHTML=
+      '<div class="cr-plea-stats-header"><strong>'+d.label+'</strong><span class="cr-plea-stats-meta">'+d.cases+' cases &nbsp;·&nbsp; FY2022 USSC data</span></div>'+
+      statsBarHTML(d)+
+      '<div class="cr-plea-stats-insight"><strong>'+tot+'%</strong> of defendants in this category were sentenced <em>below</em> the guideline range. '+d.note+'</div>';
+    panelEl.hidden=false;
+    // Update shared state + plea card
+    sharedCalc.offenseType=key;
+    updatePleaStatsCard();
+  }
+
+  function updatePleaStatsCard() {
+    var key=sharedCalc.offenseType;
+    var summaryEl=document.getElementById('plea-stats-summary');
+    var labelEl=document.getElementById('plea-stats-summary-label');
+    var detailEl=document.getElementById('plea-stats-summary-detail');
+    if(!key||!USSC[key]){if(summaryEl)summaryEl.hidden=true;return;}
+    var d=USSC[key];
+    if(summaryEl)summaryEl.hidden=false;
+    if(labelEl)labelEl.textContent=d.label;
+    if(detailEl)detailEl.textContent='Median '+d.median+' months · '+(d.govBelow+d.otherBelow)+'% sentenced below range';
+  }
+
+  // Wire stats tool
+  var statsOffTypeEl=document.getElementById('stats-offense-type');
+  if(statsOffTypeEl){statsOffTypeEl.addEventListener('change',function(){
+    var p=document.getElementById('stats-offense-panel');
+    if(this.value){renderStatsPanel(this.value,p);}
+    else{if(p)p.hidden=true;}
+    updateStatsLevelPanel();
   });}
+  var statsLvlEl=document.getElementById('stats-offense-level');
+  if(statsLvlEl)statsLvlEl.addEventListener('input',updateStatsLevelPanel);
+
+  function updateStatsLevelPanel() {
+    var p=document.getElementById('stats-level-panel');if(!p)return;
+    var lvl=parseInt(document.getElementById('stats-offense-level')?document.getElementById('stats-offense-level').value:'');
+    if(!lvl||lvl<1||lvl>43){p.hidden=true;return;}
+    var key=lvlToBucket(lvl);
+    var bd=USSC_LEVELS[key];if(!bd){p.hidden=true;return;}
+    var chKey=sharedCalc.guideline?sharedCalc.guideline.chCat:'I';
+    var chIdx=CAT_IDX[chKey]||0;
+    var tableRow=ST[lvl-1]||null;
+    var tableCell=tableRow?tableRow[chIdx]:null;
+    var tableRangeNote=tableCell?'<div class="cr-stats-level-range">Sentencing table range at this level: <strong>'+rangeStr(tableCell)+'</strong> (CHC '+chKey+')</div>':'';
+    p.innerHTML='<div class="cr-stats-level-card">'+
+      '<div class="cr-stats-level-head">'+bd.label+' — '+bd.zone+'</div>'+
+      tableRangeNote+
+      statsBarHTML({within:bd.pct_within,pct_below:bd.pct_below,pct_above:bd.pct_above,govBelow:0,otherBelow:bd.pct_below,above:bd.pct_above,median:bd.median})+
+      '<div class="cr-plea-stats-insight">'+bd.note+'</div>'+
+      '<div class="cr-stats-level-caveat">Level-bucket data is approximated from USSC aggregate tables. For precise cell-level data, see the USSC Interactive Data Analyzer at ussc.gov.</div>'+
+    '</div>';
+    p.hidden=false;
+  }
 
   function buildPleaReport() {
     var now = new Date();
@@ -2244,10 +2567,10 @@
     var c1cSentence  = getVal('plea-c1c-sentence');
     var govBound     = getRadioVal('plea-gov-bound');
     var rangeAgreed  = getRadioVal('plea-range-agreed');
-    var offenseLevel = getVal('plea-offense-level');
-    var acceptance   = getVal('plea-acceptance');
-    var chCalc       = calcCH();
-    var offenseType  = getVal('plea-offense-type');
+    var glData       = sharedCalc.guideline;
+    var offenseLevel = glData ? String(glData.level) : '';
+    var chCalc       = glData ? {pts:glData.chPts, cat:glData.chCat, catIdx:glData.chCatIdx} : {pts:0, cat:'I', catIdx:0};
+    var offenseType  = sharedCalc.offenseType || '';
     var relevant     = getRadioVal('plea-relevant');
     var relevDetail  = getVal('plea-relevant-detail');
     var drugQty      = getVal('plea-drug-qty');
@@ -2331,21 +2654,15 @@
     if (govBound) html += row('Government sentencing commitment', govLabels[govBound] || govBound, govBound === 'above');
     html += '</div>';
 
-    // Section 4: Guidelines Calculation (from calculator)
+    // Section 4: Guidelines Calculation (from Tool 08)
     html += '<div class="cr-plea-report-section"><h3>4 — Guideline Range Estimate</h3>';
-    if (offenseLevel) {
-      html += row('Total adjusted offense level', offenseLevel);
-      var acceptLabels = {'3level':'3-level reduction included', '2level':'2-level reduction included', no:'No acceptance reduction', unknown:'Unknown / confirm with attorney'};
-      if (acceptance) html += row('Acceptance of responsibility', acceptLabels[acceptance] || acceptance);
-      var lvlInt = parseInt(offenseLevel);
-      if (lvlInt >= 1 && lvlInt <= 43) {
-        var rangeCell = ST[lvlInt-1][chCalc.catIdx];
-        html += row('Criminal history points', chCalc.pts + ' point' + (chCalc.pts === 1 ? '' : 's'));
-        html += row('Criminal history category', 'Category ' + chCalc.cat);
-        html += row('Estimated guideline range', rangeStr(rangeCell), false);
-      }
+    if (glData) {
+      html += row('Adjusted offense level (final)', String(glData.level));
+      html += row('Criminal history points', glData.chPts + ' point' + (glData.chPts === 1 ? '' : 's'));
+      html += row('Criminal history category', 'Category ' + glData.chCat);
+      html += row('Estimated guideline range', glData.rangeStr, false);
     } else {
-      html += '<p style="font-size:.83rem;color:#666;margin:4px 0;">Offense level not entered — complete the calculator in Section 04 to see your estimated range.</p>';
+      html += '<p style="font-size:.83rem;color:#666;margin:4px 0;">Run the Guideline Range Calculator (Tool 08) first, then click "Copy result to Plea Review" to populate this section.</p>';
     }
     var agreedLabels = {agreed:'Both sides agree', disputed:'DISPUTED — litigation expected at sentencing', unknown:'Unknown'};
     if (rangeAgreed) html += row('Range agreement status', agreedLabels[rangeAgreed] || rangeAgreed, rangeAgreed === 'disputed');
@@ -2365,7 +2682,7 @@
       html += row('Median sentence', sd.median + ' months (' + moToYr(sd.median) + ')', false);
       html += '<p style="font-size:.8rem;color:#555;margin:8px 0 0;line-height:1.6;border-left:3px solid #d08020;padding-left:10px;">' + totBelow + '% of defendants in this category were sentenced <em>below</em> the guideline range. ' + sd.note + '</p>';
     } else {
-      html += '<p style="font-size:.83rem;color:#666;margin:4px 0;">Offense type not selected — choose one in Section 05 to include statistics.</p>';
+      html += '<p style="font-size:.83rem;color:#666;margin:4px 0;">Use the Sentencing Statistics tool (Tool 09) to select your offense type — results will appear here automatically.</p>';
     }
     html += '</div>';
 
@@ -2545,6 +2862,333 @@
   document.querySelectorAll('#bop-psf-checks input[type="checkbox"]').forEach(function(cb) {
     cb.addEventListener('change', calcBop);
   });
+
+  /* ---- FSA Time Credit Calculator (Tool 10) -------------------------------- */
+  function checkFsaEligibility() {
+    var checks = Array.prototype.slice.call(document.querySelectorAll('.cr-fsa-excl-check'));
+    var anyChecked = checks.some(function(cb){ return cb.checked; });
+    var resultEl = document.getElementById('fsa-eligibility-result');
+    var mathSection = document.getElementById('fsa-math-section');
+    if (!resultEl) return;
+    if (anyChecked) {
+      resultEl.innerHTML = '<div class="cr-fsa-elig-block cr-fsa-elig-block--no">' +
+        '<div class="cr-fsa-elig-head cr-fsa-elig-head--no">&#9888; FSA Time Credits — Likely Ineligible</div>' +
+        '<p>Based on the checked category, this conviction is likely excluded from FSA time credits under 18 U.S.C. § 3632(d)(4)(D). Eligibility turns on the specific statute of conviction — confirm with your attorney. Some cases have litigation pending in the circuits.</p>' +
+        '<p class="cr-fsa-elig-sub"><strong>Good time credits (§ 3624(b))</strong> still apply regardless of FSA eligibility — 54 days per year of sentence. That\'s a separate benefit worth calculating with your attorney.</p>' +
+        '</div>';
+      if (mathSection) mathSection.hidden = true;
+    } else {
+      resultEl.innerHTML = '<div class="cr-fsa-elig-block cr-fsa-elig-block--yes">' +
+        '<div class="cr-fsa-elig-head cr-fsa-elig-head--yes">&#10003; Likely FSA Eligible — proceed to Step 2</div>' +
+        '<p>None of the excluded categories are checked. This suggests the conviction is not in a category excluded under § 3632(d)(4)(D). Confirm with your attorney — eligibility also depends on BOP\'s intake classification and the specific statute charged.</p>' +
+        '</div>';
+      if (mathSection) mathSection.hidden = false;
+    }
+  }
+  document.querySelectorAll('.cr-fsa-excl-check').forEach(function(cb){ cb.addEventListener('change', checkFsaEligibility); });
+
+  function fmtFsaMo(m) {
+    m = Math.max(0, Math.round(m * 10) / 10);
+    var yrs = Math.floor(m / 12); var mos = Math.round(m % 12);
+    if (yrs === 0) return mos + ' month' + (mos !== 1 ? 's' : '');
+    if (mos === 0) return yrs + ' year' + (yrs !== 1 ? 's' : '');
+    return yrs + ' yr ' + mos + ' mo';
+  }
+
+  function calcFsaMath() {
+    var sentEl = document.getElementById('fsa-sentence');
+    var riskEl = document.getElementById('fsa-risk');
+    var resultEl = document.getElementById('fsa-math-result');
+    if (!sentEl || !riskEl || !resultEl) return;
+    var sent = parseInt(sentEl.value) || 0;
+    var risk = riskEl.value;
+    if (!sent || sent < 1 || !risk) { resultEl.hidden = true; return; }
+    var gtcDays = Math.round((sent / 12) * 54);
+    var fsaRate = (risk === 'min' || risk === 'low') ? 15 : 10;
+    var fsaRaw = sent * fsaRate;
+    var fsaApplied = Math.min(fsaRaw, 365);
+    var capped = fsaRaw > 365;
+    var totalDays = gtcDays + fsaApplied;
+    var credMo = totalDays / 30;
+    var servedMo = Math.max(0, sent - credMo);
+    var html = '<div class="cr-fsa-result-card">';
+    html += '<div class="cr-fsa-result-row"><span class="cr-fsa-result-label">Sentence imposed</span><span class="cr-fsa-result-val">' + sent + ' months (' + fmtFsaMo(sent) + ')</span></div>';
+    html += '<div class="cr-fsa-result-row"><span class="cr-fsa-result-label">Good time credits (§ 3624(b))</span><span class="cr-fsa-result-val">~' + gtcDays + ' days (~' + fmtFsaMo(gtcDays / 30) + ')</span></div>';
+    html += '<div class="cr-fsa-result-row"><span class="cr-fsa-result-label">FSA time credits' + (capped ? ' (capped at 365 days)' : '') + '</span><span class="cr-fsa-result-val">~' + fsaApplied + ' days (~' + fmtFsaMo(fsaApplied / 30) + ')</span></div>';
+    html += '<div class="cr-fsa-result-divider"></div>';
+    html += '<div class="cr-fsa-result-row cr-fsa-result-row--total"><span class="cr-fsa-result-label">Total credits</span><span class="cr-fsa-result-val">~' + totalDays + ' days (~' + fmtFsaMo(credMo) + ')</span></div>';
+    html += '<div class="cr-fsa-result-row cr-fsa-result-row--main"><span class="cr-fsa-result-label">Estimated time served</span><span class="cr-fsa-result-val">~' + fmtFsaMo(servedMo) + '</span></div>';
+    if (capped) html += '<p class="cr-fsa-result-note">FSA credits cap at 365 days. Excess credits apply toward supervised release reduction (up to 12 months) rather than custodial time.</p>';
+    html += '<p class="cr-fsa-result-note">Assumes full participation in BOP evidence-based programming. Credits are applied at BOP discretion and may be reduced if programming is unavailable. <strong>Err on the high side</strong> — plan for fewer credits until BOP confirms at intake.</p>';
+    html += '</div>';
+    resultEl.innerHTML = html;
+    resultEl.hidden = false;
+  }
+  var fsaSentEl = document.getElementById('fsa-sentence');
+  var fsaRiskEl = document.getElementById('fsa-risk');
+  if (fsaSentEl) fsaSentEl.addEventListener('input', calcFsaMath);
+  if (fsaRiskEl) fsaRiskEl.addEventListener('change', calcFsaMath);
+
+  /* ---- Guideline Reference Sheets (Tool 11) -------------------------------- */
+  var REF_SHEETS = {
+    fraud: {
+      title: '§2B1.1 — Fraud, Theft, Embezzlement & Tax',
+      layers: [
+        { head: 'How the score is built', rows: [
+          ['Base offense level', '7'],
+          ['Loss amount (§2B1.1(b)(1))', '+2 at $6,500 · +6 at $40K · +8 at $95K · +10 at $150K · +12 at $250K · +14 at $550K · +16 at $1.5M · +18 at $3.5M · +20 at $9.5M · up to +30'],
+          ['Number of victims', '+2 for 10–49 · +4 for 50–249 · +6 for 250 or more'],
+          ['Sophisticated means', '+2 — offshore accounts, shell entities, complex transaction structure'],
+          ['Vulnerable victims', '+2 if elderly, mentally incapacitated, or otherwise vulnerable'],
+          ['Financial institution endangered', '+4 if institution\'s solvency was placed at risk'],
+          ['Mass marketing (internet/mail fraud)', '+2'],
+          ['Leadership role', '+4 leader (5+ people) · +3 manager · +2 minor aggravating · −2 minor role · −4 minimal role'],
+          ['Acceptance of responsibility', '−2 standard · −3 if level ≥16 and government notified early enough to avoid trial prep'],
+        ]},
+        { head: 'Worked example — $150,000 investor fraud', example: {
+          facts: '$150,000 loss, 22 victims, sophisticated scheme using shell company, no prior record, pled guilty with early government notice.',
+          steps: ['Base: 7', 'Loss ($120K–$200K): +10 → 17', 'Victims (10–49): +2 → 19', 'Sophisticated means: +2 → 21', 'Acceptance (3-level): −3 → 18', 'Category I · Level 18: 27–33 months'],
+          note: '~35% of fraud defendants receive a below-range sentence by the judge\'s own decision — the highest judicial variance rate of any major category. The sentencing memo matters more here than in almost any other guideline.'
+        }},
+        { head: 'Questions for your attorney', qs: [
+          'What exact loss amount is being stipulated to in the factual basis?',
+          'How are victims being counted — individually or as organizations?',
+          'Is the government pursuing a sophisticated means enhancement, and what specifically justifies it?',
+          'What does the government expect the PSR to say about the loss calculation?',
+          'Is a leadership role enhancement likely based on the facts?',
+          'What is this judge\'s track record on downward variances in fraud cases?',
+          'Is there a mandatory minimum on any count that floors the sentence?',
+          'What was intended loss versus actual loss — they sometimes differ significantly.',
+        ]},
+      ]
+    },
+    drug: {
+      title: '§2D1.1 — Drug Trafficking',
+      layers: [
+        { head: 'How the score is built', rows: [
+          ['Base offense level', 'Set by drug type and quantity table (§2D1.1(c)). Pure/actual weight vs. mixture weight produces very different levels. Meth (actual): ≥1.5 kg = Level 38 · ≥500 g = Level 36 · ≥150 g = Level 34. Heroin: ≥1 kg = Level 36. Cocaine: ≥5 kg = Level 38.'],
+          ['Dangerous weapon', '+2 if a weapon was present during the offense'],
+          ['Serious bodily injury or death', '+2 if death or serious bodily injury resulted from the substance'],
+          ['Maintain premises for distribution', '+2 (stash house)'],
+          ['Importation role', '+2 if directly imported from outside the U.S.'],
+          ['Protected location', '+2 if near school, playground, or daycare'],
+          ['Safety valve (§5C1.2)', '−2 if defendant meets all 5 criteria: (1) no more than 1 criminal history point, (2) no violence or credible threat, (3) no death/serious injury, (4) not an organizer/leader, (5) truthful proffer to government. Also waives mandatory minimum.'],
+          ['Role adjustments', '+4 leader/organizer · +3 manager · −2 minor role · −4 minimal role'],
+          ['Acceptance of responsibility', '−2 standard · −3 if ≥16 and early government notice'],
+        ]},
+        { head: 'Worked example — 500 grams meth', example: {
+          facts: '500 grams of actual (pure) methamphetamine. First offense, no weapon, safety valve eligible, pled guilty with early notice.',
+          steps: ['Drug quantity (500 g actual meth, Level 36 base): 36', 'Safety valve: −2 → 34', 'Acceptance (3-level): −3 → 31', 'Category I · Level 31: 108–135 months', 'Without safety valve: Level 33 · 135–168 months'],
+          note: 'The stipulated drug quantity in the factual basis is the single most consequential number in a drug plea. The difference between "mixture/compound" weight and "actual" (pure) weight can be several offense levels. Confirm exactly which type is in the factual basis before signing.'
+        }},
+        { head: 'Questions for your attorney', qs: [
+          'What exact drug quantity is in the factual basis — is it actual (pure) weight or mixture weight?',
+          'Am I eligible for the safety valve — do I meet all five criteria, including the proffer?',
+          'If there is a mandatory minimum, does the safety valve eliminate it?',
+          'How much of the attributed quantity comes from my own conduct versus co-defendants?',
+          'What is the government\'s position on relevant conduct quantity — has it been negotiated?',
+          'Is there a weapon enhancement, and can it be contested?',
+          'Am I being attributed a leadership role, and what evidence supports it?',
+          'If I cooperate (5K1.1 motion), what is a realistic sentencing outcome?',
+        ]},
+      ]
+    },
+    cp: {
+      title: '§2G2.2 — Sexual Exploitation of a Minor / Child Pornography',
+      layers: [
+        { head: 'How the score is built', rows: [
+          ['Base offense level', '22 for receipt, distribution, or possession with intent to distribute · 18 for simple possession'],
+          ['Minor victim under age 12', '+2'],
+          ['Pattern of sexual abuse of a minor', '+5 — requires documented history of sexual abuse or exploitation'],
+          ['Sadistic/masochistic or infant content', '+4 — images depicting violence, S&M, or infants/toddlers'],
+          ['Number of images (§2G2.2(b)(7))', '+2 for 10–149 · +3 for 150–299 · +4 for 300–599 · +5 for 600 or more'],
+          ['Computer or mobile device (§2G2.2(b)(6))', '+2 — nearly automatic in any modern case'],
+          ['Distribution (§2G2.2(b)(3))', '+5 for distribution · +2 for P2P file sharing (circuit-dependent)'],
+          ['Acceptance of responsibility', '−2 standard · −3 if ≥16 and early notice'],
+        ]},
+        { head: 'Worked example — possession, 400 images', example: {
+          facts: 'First offense, possession of 400 images, minor under 12, no distribution, device used, pled guilty.',
+          steps: ['Base (possession w/ distribution intent): 22', 'Minor under 12: +2 → 24', 'Computer: +2 → 26', 'Image count (300–599): +4 → 30', 'Acceptance (3-level): −3 → 27', 'Category I · Level 27: 70–87 months'],
+          note: '~57% of defendants in this category receive below-range sentences — the highest below-range rate of any major federal category — because many judges view §2G2.2 enhancements as overstacked. Even so, sentences are among the longest in the federal system. The specific judge and their documented track record on these cases matters enormously.'
+        }},
+        { head: 'Questions for your attorney', qs: [
+          'How many images is the government counting, and what methodology are they using?',
+          'Is there any distribution component, or is this strictly possession?',
+          'Is a production or enticement charge being pursued in addition to possession?',
+          'What is this specific judge\'s track record on below-range sentences in §2G2.2 cases?',
+          'Is a downward variance motion being prepared, and what arguments will be made?',
+          'Does the "pattern of activity" enhancement apply, and what evidence supports it?',
+          'What are the SORNA registration requirements post-release, and how do they affect housing?',
+          'What supervised release term and conditions are likely to be imposed?',
+        ]},
+      ]
+    },
+    immigration: {
+      title: '§2L1.2 — Unlawful Reentry After Removal',
+      layers: [
+        { head: 'How the score is built', rows: [
+          ['Base offense level', '8'],
+          ['Prior aggravated felony — crime of violence or drug trafficking carrying 13+ months', '+12'],
+          ['Prior aggravated felony — all other categories', '+8'],
+          ['Prior non-aggravated felony or 3+ misdemeanors', '+4'],
+          ['Prior 1–2 misdemeanors', '+2'],
+          ['Fast Track / early disposition (§5K3.1)', '−2 to −4 levels in qualifying districts (many southwestern districts). Ask specifically — it is often automatic and worth up to 4 guideline levels.'],
+          ['Acceptance of responsibility', '−2 standard · −3 if ≥16 and early notice'],
+        ]},
+        { head: 'Worked example — prior drug trafficking conviction', example: {
+          facts: 'Prior federal drug trafficking conviction with 24-month sentence, Fast Track district, pled guilty with early notice.',
+          steps: ['Base: 8', 'Prior aggravated felony — drug trafficking (24 months, qualifies): +12 → 20', 'Acceptance (3-level): −3 → 17', 'Without Fast Track: Category I · Level 17 = 24–30 months', 'With Fast Track (−4): Level 13 · Category I = 12–18 months'],
+          note: 'Fast Track programs are worth 2–4 offense levels and can mean the difference between months and years of custody. Not all districts offer them. Ask your attorney specifically whether this district has a program and what the exact benefit is.'
+        }},
+        { head: 'Questions for your attorney', qs: [
+          'Does this district have a Fast Track / early disposition program, and do I qualify?',
+          'How is my prior conviction being classified — aggravated felony or not, and under which subsection?',
+          'What was the sentence on the prior conviction, and does it meet the 13-month threshold?',
+          'Is there a mandatory minimum from 8 U.S.C. § 1326(b) that applies here?',
+          'What is the criminal history category based on prior record?',
+          'What is the ICE detainer status, and does it affect designation or programming eligibility?',
+          'What is the likely supervised release term?',
+        ]},
+      ]
+    },
+    firearm: {
+      title: '§2K2.1 — Firearms Offenses',
+      layers: [
+        { head: 'How the score is built', rows: [
+          ['Base offense level', 'Driven almost entirely by prior record: 26 if prior crime of violence (CoV) or drug trafficking conviction AND semi-auto with large-capacity magazine · 24 if prior CoV/drug trafficking · 20 if prior felony conviction · 14 if no prior · 18 if prior misdemeanor CoV'],
+          ['Number of firearms', '+2 for 3–7 · +4 for 8–24 · +6 for 25–99 · +8 for 100–199 · +10 for 200 or more'],
+          ['Stolen firearm', '+4 if firearm was stolen'],
+          ['Obliterated serial number', '+2 if serial number altered or removed'],
+          ['Connected to another felony', '+4 if possessed in connection with another felony offense — very commonly applied'],
+          ['ACCA (§ 924(e))', 'If 3+ prior violent felony or serious drug offense convictions: mandatory minimum 15 years (180 months). Overrides the guideline range entirely.'],
+          ['Career offender (§4B1.1)', 'If 2+ prior felony CoV or drug convictions: career offender guideline applies and can dramatically increase the range'],
+          ['Acceptance of responsibility', '−2 standard · −3 if ≥16 and early notice'],
+        ]},
+        { head: 'Worked example — felon in possession', example: {
+          facts: 'Felon in possession, 1 firearm, prior drug trafficking conviction, firearm found during drug arrest. First-time federal defendant, pled guilty.',
+          steps: ['Prior drug trafficking → base 24', 'Connection to drug felony: +4 → 28', 'Acceptance (3-level): −3 → 25', 'Category II (1 prior drug point): Level 25 = 63–78 months', 'If ACCA triggers: mandatory minimum 180 months (15 years)'],
+          note: 'Prior criminal history matters more in §2K2.1 than almost any other guideline. The difference between no prior record (base 14) and a prior crime of violence (base 24–26) is 10–12 points before any other enhancement — the difference between ~18 months and 10+ years at higher criminal history categories.'
+        }},
+        { head: 'Questions for your attorney', qs: [
+          'What is the base offense level, and which prior convictions are driving it?',
+          'Does ACCA apply? Do I have three qualifying "violent felony" or "serious drug offense" priors?',
+          'Is a "crime of violence" determination being made on a prior conviction, and is it contestable?',
+          'Is the firearm being connected to another felony offense, and how?',
+          'Is a career offender designation (§4B1.1) being applied?',
+          'Are multiple firearms involved? How is the count calculated?',
+          'What is the criminal history category and total points?',
+        ]},
+      ]
+    },
+    money: {
+      title: '§2S1.1 — Money Laundering',
+      layers: [
+        { head: 'How the score is built', rows: [
+          ['Which prong applies', '§2S1.1(a)(1): Use the offense level from the underlying offense (drug, fraud, etc.). This is most common when the underlying offense is known. §2S1.1(a)(2): Base level 8 plus amount table — used when the underlying offense cannot be established.'],
+          ['Amount adjustments (§2S1.1(b)(2))', 'Added on top of the base: +1 at $10K · +2 at $20K · +3 at $40K · +4 at $80K · +5 at $150K · +6 at $250K'],
+          ['In the business of laundering', '+4 if defendant was professionally laundering money, not just one transaction'],
+          ['Sophisticated laundering', '+2 — offshore accounts, shell entities, layering'],
+          ['Grouping with underlying offense', 'Often grouped with the drug or fraud count under §3D1.2 — the higher of the two offense levels governs'],
+          ['Role adjustments', '+4 leader · +3 manager · −2 minor role · −4 minimal role'],
+          ['Acceptance of responsibility', '−2 standard · −3 if ≥16 and early notice'],
+        ]},
+        { head: 'Worked example — drug proceeds laundered', example: {
+          facts: 'Drug trafficking proceeds of $500,000 laundered through cash businesses. Underlying drug offense level 30. Not in the business of laundering. Pled guilty.',
+          steps: ['§2S1.1(a)(1): base from underlying drug offense = 30', 'Amount ($500K bracket): +2 → 32', 'Acceptance (3-level): −3 → 29', 'Grouped with drug count: drug level 30 governs over money 29', 'Category I · Level 30: 97–121 months'],
+          note: 'When charged alongside a drug or fraud offense, money laundering often adds little to the overall range because of grouping. The underlying offense level is typically higher. Standalone money laundering charges, however, can produce substantial independent ranges.'
+        }},
+        { head: 'Questions for your attorney', qs: [
+          'Which §2S1.1 prong applies — (a)(1) based on underlying offense, or (a)(2) standalone?',
+          'How is the laundered amount being calculated, and which bracket does it land in?',
+          'Is the government claiming I was "in the business of laundering" — what evidence supports that?',
+          'Does grouping with the underlying offense apply (§3D1.2)?',
+          'Is a sophisticated laundering enhancement being pursued, and what specifically supports it?',
+          'Are there separate counts for individual transactions, or a single count?',
+        ]},
+      ]
+    },
+    robbery: {
+      title: '§2B3.1 — Robbery',
+      layers: [
+        { head: 'How the score is built', rows: [
+          ['Base offense level', '20'],
+          ['Financial institution victim', '+2 — bank, credit union, savings institution, post office. Automatic for bank robbery.'],
+          ['Firearm: discharged', '+7'],
+          ['Firearm: brandished or used to threaten', '+6'],
+          ['Firearm: otherwise present', '+5'],
+          ['Dangerous weapon (non-firearm)', '+4'],
+          ['Threat of death', '+2 — actual or implied death threat to any victim'],
+          ['Victim bodily injury', '+2 bodily injury · +4 serious bodily injury · +5 permanent or life-threatening injury'],
+          ['Victim abducted', '+4'],
+          ['Victim restrained', '+2'],
+          ['Loss amount', '+1 at $10K · +2 at $50K · +3 at $250K · +4 at $800K · +5 at $2M · +6 at $5M · +7 at $25M'],
+          ['Acceptance of responsibility', '−2 standard · −3 if ≥16 and early notice'],
+        ]},
+        { head: 'Worked example — bank robbery, no weapon', example: {
+          facts: 'Bank robbery with demand note, $18,000 taken, no weapon displayed, no injuries. Demand note implied harm. First offense, pled guilty.',
+          steps: ['Base: 20', 'Financial institution: +2 → 22', 'Threat of death (demand note implied death): +2 → 24', 'Loss ($10K–$50K): +1 → 25', 'Acceptance (3-level): −3 → 22', 'Category I · Level 22: 41–51 months'],
+          note: '72% of robbery defendants are sentenced within the guideline range — the highest compliance rate of any major category. Judges have limited flexibility. If any firearm is involved (even implied), the enhancement is nearly certain and adds 5–7 levels. Plan conservatively.'
+        }},
+        { head: 'Questions for your attorney', qs: [
+          'Which weapon enhancement sub-section is being applied, and what is the factual basis for it?',
+          'Is the "threatened death" enhancement (§2B3.1(b)(2)(F)) being applied based on a demand note?',
+          'How is the loss amount being calculated — teller drawer only, or all cash in the facility?',
+          'Were any victims physically injured? How is the injury level being characterized?',
+          'Is there a co-defendant? How is leadership being attributed?',
+          'What is the mandatory minimum exposure on any § 924(c) count?',
+          'Are all prior convictions in the criminal history calculation being correctly scored?',
+        ]},
+      ]
+    }
+  };
+
+  function renderRefSheet(key) {
+    var d = REF_SHEETS[key]; if (!d) return;
+    var container = document.getElementById('cr-ref-content'); if (!container) return;
+    var html = '<div class="cr-ref-sheet">';
+    html += '<div class="cr-ref-sheet-title">' + d.title + '</div>';
+    html += '<div class="cr-ref-sheet-caveat"><strong>Err on the high side.</strong> These factors represent the structure of the guideline — actual calculation depends on the specific version in effect at sentencing and all case-specific facts. Confirm every number with your attorney.</div>';
+    d.layers.forEach(function(layer) {
+      html += '<div class="cr-ref-layer"><div class="cr-ref-layer-head">' + layer.head + '</div>';
+      if (layer.rows) {
+        html += '<table class="cr-ref-table"><tbody>';
+        layer.rows.forEach(function(r) { html += '<tr><td class="cr-ref-factor">' + r[0] + '</td><td class="cr-ref-val">' + r[1] + '</td></tr>'; });
+        html += '</tbody></table>';
+      }
+      if (layer.example) {
+        html += '<div class="cr-ref-example"><div class="cr-ref-example-facts"><strong>Facts:</strong> ' + layer.example.facts + '</div>';
+        html += '<ol class="cr-ref-example-steps">';
+        layer.example.steps.forEach(function(s){ html += '<li>' + s + '</li>'; });
+        html += '</ol><div class="cr-ref-example-note">' + layer.example.note + '</div></div>';
+      }
+      if (layer.qs) {
+        html += '<ol class="cr-ref-questions">';
+        layer.qs.forEach(function(q){ html += '<li>' + q + '</li>'; });
+        html += '</ol>';
+      }
+      html += '</div>';
+    });
+    html += '</div>';
+    container.innerHTML = html;
+  }
+
+  // Tab switching
+  document.querySelectorAll('.cr-ref-tab').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.cr-ref-tab').forEach(function(b){ b.classList.remove('is-active'); b.setAttribute('aria-selected','false'); });
+      this.classList.add('is-active'); this.setAttribute('aria-selected','true');
+      renderRefSheet(this.getAttribute('data-ref'));
+    });
+  });
+  // Print button
+  var refPrintBtn = document.getElementById('cr-ref-print-btn');
+  if (refPrintBtn) refPrintBtn.addEventListener('click', function(){
+    document.body.dataset.printing = 'refsheet';
+    window.print();
+    setTimeout(function(){ delete document.body.dataset.printing; }, 2000);
+  });
+  // Render default tab on load
+  renderRefSheet('fraud');
 
   /* ---- First-time visitor flag ------------------------------------------ */
   localStorage.setItem('stf_visited', '1');
