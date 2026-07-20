@@ -1,0 +1,52 @@
+# sp.survivingthefeds.com
+
+RewriteEngine On
+
+# This folder is served both as sp.survivingthefeds.com (docroot) and as
+# survivingthefeds.com/sp/ (inside the main site's public_html). Canonical
+# home is the subdomain — redirect any other host there to prevent duplicates.
+RewriteCond %{HTTP_HOST} !^sp\.survivingthefeds\.com$ [NC]
+RewriteRule ^(.*)$ https://sp.survivingthefeds.com/$1 [L,R=301]
+
+# Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# No directory listings; block dotfiles and git
+Options -Indexes
+RedirectMatch 404 /\.git
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>
+
+# Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/javascript application/json image/svg+xml
+</IfModule>
+
+# Caching: HTML always fresh; fingerprinted (?v=) static assets long-lived
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js|webp|jpg|svg|woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  # NOTE: if you ever add a Content-Security-Policy, frame-src MUST include
+  # https://read.amazon.com or the embedded Kindle preview silently breaks.
+</IfModule>
+
+AddType font/woff2 .woff2
