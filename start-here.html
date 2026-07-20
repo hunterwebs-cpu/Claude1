@@ -13,7 +13,7 @@
   <link rel="icon" href="assets/img/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="assets/css/start.css?v=4" />
+  <link rel="stylesheet" href="assets/css/start.css?v=5" />
 </head>
 <body>
 
@@ -85,6 +85,14 @@
         </span>
       </button>
 
+      <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="plea" aria-label="Plea deal review tool">
+        <span class="cr-dispatch-num">06</span>
+        <span class="cr-dispatch-text">
+          <span class="cr-dispatch-title">Before the Plea</span>
+          <span class="cr-dispatch-sub">Read this first</span>
+        </span>
+      </button>
+
       <!-- Mobile FILES tab — hidden on desktop -->
       <button id="cr-files-tab" class="cr-dispatch-btn" aria-label="Open status and resources" aria-expanded="false" aria-controls="cr-drawer">
         <span class="cr-dispatch-num" style="font-size:.9rem; opacity:.5;">&#43;</span>
@@ -152,6 +160,15 @@
           <li class="cr-rstep"><span class="cr-rstep-dot" aria-hidden="true"></span>Contact facility + attorney</li>
           <li class="cr-rstep"><span class="cr-rstep-dot" aria-hidden="true"></span>Formal complaint process</li>
           <li class="cr-rstep"><span class="cr-rstep-dot" aria-hidden="true"></span>Escalation if needed</li>
+        </ol>
+
+        <!-- Plea tool steps -->
+        <ol id="steps-plea" class="cr-steps-set">
+          <li class="cr-rstep"><span class="cr-rstep-dot" aria-hidden="true"></span>Arrest &amp; charges</li>
+          <li class="cr-rstep"><span class="cr-rstep-dot" aria-hidden="true"></span>Attorney engaged</li>
+          <li class="cr-rstep is-now"><span class="cr-rstep-dot" aria-hidden="true"></span>Plea offer on the table</li>
+          <li class="cr-rstep"><span class="cr-rstep-dot" aria-hidden="true"></span>Review every term</li>
+          <li class="cr-rstep"><span class="cr-rstep-dot" aria-hidden="true"></span>Decision — &amp; you decide</li>
         </ol>
       </div>
 
@@ -616,6 +633,414 @@
           <a class="cr-btn" href="books.html">See the Book <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           <a class="cr-btn cr-btn--ghost" href="blog.html">Free Articles</a>
         </div>
+      </div>
+    </div>
+
+    <!-- SCREEN: PLEA REVIEW TOOL -->
+    <div id="screen-plea" class="cr-screen" role="main" aria-label="Before the plea — review tool">
+      <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        Choose a different situation
+      </button>
+      <div class="cr-cmd-tag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Plea Review Tool
+      </div>
+      <h2 class="cr-cmd-title">Before you sign that plea deal.</h2>
+      <p class="cr-cmd-sub">Read this first. Fill it out. Then make your decision.</p>
+
+      <div class="cr-answers">
+
+        <!-- DISCLAIMER: Nobody can make you -->
+        <div class="cr-plea-disclaimer">
+          <div class="cr-plea-disclaimer-title">Understand this before anything else</div>
+          <p><strong>Nobody can make you plead guilty.</strong> You have until the moment you are standing in front of the judge. Even if you told your lawyer you want the deal. Even if the hearing is already scheduled and everyone in the room is expecting you to say yes — you can say no. Walk in ready to sign and change your mind at the podium. Your lawyer and the prosecutor will be angry. That is their problem, not yours. This is your life.</p>
+          <p><strong>Once you say guilty, it follows you everywhere.</strong> The Bureau of Prisons, other inmates, your family, the news, and every court you set foot in for the rest of your life will treat you as someone who did exactly what that count says. If you are innocent and unwilling to live that way, trial is a real option. No one can take it off the table for you.</p>
+          <p><strong>The flip side is real too.</strong> Rejecting the plea may mean there is no second offer. Doing a limited amount of time versus a lifetime is a real calculation that only you can make. But make it with clear eyes — your lawyer's prediction of what happens at trial is an estimate, not a guarantee. That's why people like Doug Passon and the team at Sentencing Stats exist.</p>
+        </div>
+
+        <!-- DISCLAIMER: Frye tactic -->
+        <div class="cr-plea-disclaimer cr-plea-disclaimer--neutral">
+          <div class="cr-plea-disclaimer-title">If you feel rushed — here's what to do</div>
+          <p>Tell your lawyer you want the deal and have them schedule a <strong>Frye hearing</strong> — a hearing to place the plea offer on the court record. Then when you are in court and the judge asks if you want to accept, say:</p>
+          <p><em>"Judge, I am very interested, but my counsel hasn't had the opportunity to bring me the written agreement so I could read each line and ask questions. If I could do that now, before I officially accept, I would appreciate that."</em></p>
+          <p><strong>No judge is going to deny you that.</strong> Your lawyer and the prosecutor's day will be shot. Who cares. This is your life, not theirs. A full breakdown of Frye hearings is in <a href="books.html" style="color:var(--cr-accent);">Surviving Pretrial</a>.</p>
+        </div>
+
+        <!-- THE FORM -->
+        <p class="cr-voice" style="margin:4px 0 20px;">Fill this out using the actual agreement document. When complete, generate a printable review you can study, share with a specialist, or mail to the person inside.</p>
+
+        <form id="cr-plea-form" novalidate autocomplete="off">
+
+          <!-- Section 1: The Counts -->
+          <div class="cr-plea-section">
+            <div class="cr-plea-section-head">
+              <span class="cr-plea-section-num">01</span>
+              <span class="cr-plea-section-title">The Charges vs. The Plea</span>
+            </div>
+            <div class="cr-plea-section-body">
+              <div class="cr-plea-field">
+                <label class="cr-plea-label" for="plea-counts-charged"><strong>How many counts were you originally charged with?</strong>The specific number from the indictment or complaint.</label>
+                <input type="number" id="plea-counts-charged" class="cr-plea-input cr-plea-input--short" min="1" placeholder="e.g. 8" />
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label" for="plea-counts-plea"><strong>How many counts does this agreement require you to plead guilty to?</strong></label>
+                <input type="number" id="plea-counts-plea" class="cr-plea-input cr-plea-input--short" min="1" placeholder="e.g. 2" />
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label" for="plea-count-names"><strong>List the count(s) you are pleading to and the charge name for each.</strong>Example: Count 1 — Wire Fraud (18 U.S.C. § 1343)</label>
+                <textarea id="plea-count-names" class="cr-plea-input" rows="3" placeholder="Count 1 — &#10;Count 2 — "></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 2: Mandatory Minimums -->
+          <div class="cr-plea-section">
+            <div class="cr-plea-section-head">
+              <span class="cr-plea-section-num">02</span>
+              <span class="cr-plea-section-title">Mandatory Minimums</span>
+            </div>
+            <div class="cr-plea-section-body">
+              <div class="cr-plea-note">
+                <div class="cr-plea-note-label">What this means</div>
+                <p>A mandatory minimum is the floor — the absolute shortest sentence the judge can legally impose for that specific count, regardless of cooperation, your background, or anything else. It is not the same as the guidelines range. The guidelines range operates above this floor. The judge cannot go below it under any circumstances.</p>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Do any of the counts you are pleading guilty to carry a mandatory minimum sentence?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-mandatory" value="yes" /> Yes</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-mandatory" value="no" /> No</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-mandatory" value="unknown" /> I don't know</label>
+                </div>
+              </div>
+              <div id="plea-mandatory-conditional" class="cr-plea-conditional">
+                <div class="cr-plea-field">
+                  <label class="cr-plea-label" for="plea-mandatory-detail"><strong>For each count with a mandatory minimum — what is the minimum sentence?</strong></label>
+                  <textarea id="plea-mandatory-detail" class="cr-plea-input" rows="2" placeholder="Count 1 — 5 years mandatory&#10;Count 2 — 10 years mandatory"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 3: Rule 11(c)(1)(C) -->
+          <div class="cr-plea-section">
+            <div class="cr-plea-section-head">
+              <span class="cr-plea-section-num">03</span>
+              <span class="cr-plea-section-title">Is the Sentence Binding? — Rule 11(c)(1)(C)</span>
+            </div>
+            <div class="cr-plea-section-body">
+              <div class="cr-plea-note">
+                <div class="cr-plea-note-label">What this means</div>
+                <p>A Rule 11(c)(1)(C) agreement means both sides agreed to a specific sentence and the judge is bound to it — cannot go above or below. If the judge rejects it, you may withdraw your plea. Without this provision, the guidelines range is advisory and the judge can sentence to anything they consider appropriate — including above or below the range.</p>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Does the agreement contain language stating this is a Rule 11(c)(1)(C) agreement — or say something like "the parties agree the sentence shall be" a specific term?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-c1c" value="yes" /> Yes — it's binding</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-c1c" value="no" /> No — advisory</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-c1c" value="unknown" /> I don't know</label>
+                </div>
+              </div>
+              <div id="plea-c1c-conditional" class="cr-plea-conditional">
+                <div class="cr-plea-field">
+                  <label class="cr-plea-label" for="plea-c1c-sentence"><strong>What specific sentence does the agreement state?</strong></label>
+                  <input type="text" id="plea-c1c-sentence" class="cr-plea-input cr-plea-input--medium" placeholder="e.g. 60 months (5 years)" />
+                </div>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>If this is NOT a binding agreement — is the government committed to recommend within the guidelines range, or can they argue above it?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-gov-bound" value="bound" /> Bound to the range</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-gov-bound" value="above" /> Can argue above range</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-gov-bound" value="unknown" /> Don't know</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-gov-bound" value="na" /> N/A — binding agreement</label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 4: Guidelines -->
+          <div class="cr-plea-section">
+            <div class="cr-plea-section-head">
+              <span class="cr-plea-section-num">04</span>
+              <span class="cr-plea-section-title">The Guidelines Calculation</span>
+            </div>
+            <div class="cr-plea-section-body">
+              <div class="cr-plea-note">
+                <div class="cr-plea-note-label">What this means</div>
+                <p>The federal guidelines produce a range in months based on two numbers: your total offense level and your criminal history category. The range is advisory — the judge can go above or below — but it anchors the sentence in most cases. Acceptance of responsibility reduces the offense level by 2 or 3 points, which can mean years of difference in the range.</p>
+              </div>
+              <div class="cr-plea-input-row">
+                <div>
+                  <label class="cr-plea-label" for="plea-range-low"><strong>Guidelines range</strong>Low (months)</label>
+                  <input type="number" id="plea-range-low" class="cr-plea-input cr-plea-input--short" placeholder="e.g. 63" />
+                </div>
+                <div>
+                  <label class="cr-plea-label" for="plea-range-high">High (months)</label>
+                  <input type="number" id="plea-range-high" class="cr-plea-input cr-plea-input--short" placeholder="e.g. 78" />
+                </div>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Is the guidelines range agreed upon, or disputed between the parties?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-range-agreed" value="agreed" /> Both sides agree</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-range-agreed" value="disputed" /> Disputed</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-range-agreed" value="unknown" /> Don't know</label>
+                </div>
+              </div>
+              <div class="cr-plea-input-row">
+                <div>
+                  <label class="cr-plea-label" for="plea-offense-level"><strong>Offense level</strong></label>
+                  <input type="number" id="plea-offense-level" class="cr-plea-input cr-plea-input--short" min="1" max="43" placeholder="e.g. 24" />
+                </div>
+                <div>
+                  <label class="cr-plea-label" for="plea-criminal-history"><strong>Criminal history category</strong></label>
+                  <select id="plea-criminal-history" class="cr-plea-input cr-plea-input--medium">
+                    <option value="">Select...</option>
+                    <option value="I">I — 0 to 1 points</option>
+                    <option value="II">II — 2 to 3 points</option>
+                    <option value="III">III — 4 to 6 points</option>
+                    <option value="IV">IV — 7 to 9 points</option>
+                    <option value="V">V — 10 to 12 points</option>
+                    <option value="VI">VI — 13 or more points</option>
+                    <option value="unknown">I don't know</option>
+                  </select>
+                </div>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Does the agreement include an acceptance of responsibility reduction?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-acceptance" value="3level" /> Yes — 3 levels</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-acceptance" value="2level" /> Yes — 2 levels</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-acceptance" value="no" /> No</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-acceptance" value="unknown" /> Don't know</label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 5: Relevant Conduct -->
+          <div class="cr-plea-section">
+            <div class="cr-plea-section-head">
+              <span class="cr-plea-section-num">05</span>
+              <span class="cr-plea-section-title">Relevant Conduct — Drug Quantity / Loss Amount</span>
+            </div>
+            <div class="cr-plea-section-body">
+              <div class="cr-plea-note">
+                <div class="cr-plea-note-label">Read this carefully</div>
+                <p>Relevant conduct is one of the most consequential and least understood parts of a federal plea. You may plead guilty to one count and still be sentenced as if convicted of far more, because the guidelines calculate from all relevant conduct — including uncharged conduct, the conduct of co-defendants, and acts the government claims occurred. In drug cases, the drug quantity drives everything. In fraud cases, the loss amount does. The number in the factual basis of your plea is not a formality.</p>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Does the agreement hold you responsible for conduct beyond the specific count you are pleading to?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-relevant" value="yes" /> Yes</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-relevant" value="no" /> No — only the specific count</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-relevant" value="unknown" /> Don't know</label>
+                </div>
+              </div>
+              <div id="plea-relevant-conditional" class="cr-plea-conditional">
+                <div class="cr-plea-field">
+                  <label class="cr-plea-label" for="plea-relevant-detail"><strong>What additional conduct is included?</strong></label>
+                  <textarea id="plea-relevant-detail" class="cr-plea-input" rows="2" placeholder="e.g. All transactions 2019–2022, conduct attributed to co-defendant Smith..."></textarea>
+                </div>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label" for="plea-drug-qty"><strong>Drug cases: What drug quantity is stipulated in the factual basis?</strong>Leave blank if not a drug case.</label>
+                <input type="text" id="plea-drug-qty" class="cr-plea-input cr-plea-input--medium" placeholder="e.g. 500 grams cocaine, 2 kg methamphetamine" />
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label" for="plea-loss-amt"><strong>Fraud / financial cases: What loss amount is stipulated?</strong>Leave blank if not applicable.</label>
+                <input type="text" id="plea-loss-amt" class="cr-plea-input cr-plea-input--medium" placeholder="e.g. $2,400,000" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 6: Cooperation -->
+          <div class="cr-plea-section">
+            <div class="cr-plea-section-head">
+              <span class="cr-plea-section-num">06</span>
+              <span class="cr-plea-section-title">Cooperation</span>
+            </div>
+            <div class="cr-plea-section-body">
+              <div class="cr-plea-note">
+                <div class="cr-plea-note-label">What this means</div>
+                <p>A 5K1.1 motion — the government's motion for a downward departure based on substantial assistance — is not guaranteed. The government decides what counts as substantial. They may promise to "consider" filing the motion, which means nothing. Understand exactly what you are agreeing to provide, and what the government is actually committed to in return.</p>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Does the agreement include a cooperation component?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-coop" value="yes" /> Yes</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-coop" value="no" /> No</label>
+                </div>
+              </div>
+              <div id="plea-coop-conditional" class="cr-plea-conditional">
+                <div class="cr-plea-field">
+                  <label class="cr-plea-label" for="plea-coop-obligation"><strong>What does the agreement define as your cooperation obligation?</strong></label>
+                  <textarea id="plea-coop-obligation" class="cr-plea-input" rows="2" placeholder="e.g. Testify truthfully, provide information about co-conspirators..."></textarea>
+                </div>
+                <div class="cr-plea-field">
+                  <label class="cr-plea-label" for="plea-coop-return"><strong>What has the government agreed to do in return?</strong>Be specific — "consider filing" is not the same as "will file."</label>
+                  <textarea id="plea-coop-return" class="cr-plea-input" rows="2" placeholder="e.g. Will file 5K1.1 motion if U.S. Attorney determines assistance was substantial..."></textarea>
+                </div>
+                <div class="cr-plea-field">
+                  <label class="cr-plea-label"><strong>Who makes the determination of whether your cooperation was "substantial"?</strong></label>
+                  <div class="cr-plea-radio-group">
+                    <label class="cr-plea-radio-btn"><input type="radio" name="plea-coop-decider" value="gov" /> The government</label>
+                    <label class="cr-plea-radio-btn"><input type="radio" name="plea-coop-decider" value="court" /> The court</label>
+                    <label class="cr-plea-radio-btn"><input type="radio" name="plea-coop-decider" value="unspecified" /> Not specified</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 7: Waivers -->
+          <div class="cr-plea-section">
+            <div class="cr-plea-section-head">
+              <span class="cr-plea-section-num">07</span>
+              <span class="cr-plea-section-title">What You Are Waiving</span>
+            </div>
+            <div class="cr-plea-section-body">
+              <div class="cr-plea-note">
+                <div class="cr-plea-note-label">Most people miss this — read the last few pages</div>
+                <p>Federal plea agreements almost always include waivers. The most significant: your right to appeal the sentence, and sometimes your right to file a 2255 motion after conviction. A 2255 is the post-conviction motion that lets you challenge your sentence or conviction — including on the grounds that your attorney failed you. If you waive it, your options after sentencing become extremely narrow. These waivers are usually buried in the final pages of the agreement.</p>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Does the agreement include a waiver of your right to appeal the sentence?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-appeal-waiver" value="yes" /> Yes — waived</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-appeal-waiver" value="no" /> No</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-appeal-waiver" value="unknown" /> Haven't found it</label>
+                </div>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Does the agreement include a waiver of the right to file a 2255 motion?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-2255-waiver" value="yes" /> Yes — waived</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-2255-waiver" value="no" /> No</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-2255-waiver" value="unknown" /> Haven't found it</label>
+                </div>
+              </div>
+              <div id="plea-2255-conditional" class="cr-plea-conditional">
+                <div class="cr-plea-field">
+                  <label class="cr-plea-label" for="plea-2255-exceptions"><strong>Are any exceptions to the 2255 waiver listed in the agreement?</strong>Common exceptions: ineffective assistance of counsel, prosecutorial misconduct.</label>
+                  <textarea id="plea-2255-exceptions" class="cr-plea-input" rows="2" placeholder="List any exceptions stated..."></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 8: Financial -->
+          <div class="cr-plea-section">
+            <div class="cr-plea-section-head">
+              <span class="cr-plea-section-num">08</span>
+              <span class="cr-plea-section-title">Financial Consequences</span>
+            </div>
+            <div class="cr-plea-section-body">
+              <div class="cr-plea-note">
+                <div class="cr-plea-note-label">What this means</div>
+                <p>Restitution does not end at release. It is not dischargeable in bankruptcy. It follows someone for decades — affecting employment, credit, banking, and supervised release conditions. Know the exact number and how it was calculated before you agree to it.</p>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Is there an agreed restitution amount?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-restitution" value="yes" /> Yes — agreed amount</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-restitution" value="tbd" /> To be determined</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-restitution" value="no" /> No restitution</label>
+                </div>
+              </div>
+              <div id="plea-restitution-conditional" class="cr-plea-conditional">
+                <div class="cr-plea-field">
+                  <label class="cr-plea-label" for="plea-restitution-amt"><strong>Agreed restitution amount</strong></label>
+                  <input type="text" id="plea-restitution-amt" class="cr-plea-input cr-plea-input--medium" placeholder="e.g. $840,000" />
+                </div>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label" for="plea-forfeiture"><strong>Is there a forfeiture component? If yes, what is being surrendered?</strong>Leave blank if none.</label>
+                <input type="text" id="plea-forfeiture" class="cr-plea-input" placeholder="e.g. $50,000 cash, 2019 BMW M3..." />
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label" for="plea-fine"><strong>Is there an agreed fine?</strong>Leave blank if none.</label>
+                <input type="text" id="plea-fine" class="cr-plea-input cr-plea-input--medium" placeholder="e.g. $10,000" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 9: Concurrent vs Consecutive -->
+          <div class="cr-plea-section">
+            <div class="cr-plea-section-head">
+              <span class="cr-plea-section-num">09</span>
+              <span class="cr-plea-section-title">Concurrent or Consecutive Sentences?</span>
+            </div>
+            <div class="cr-plea-section-body">
+              <div class="cr-plea-note">
+                <div class="cr-plea-note-label">What this means</div>
+                <p>Concurrent sentences run at the same time — two 5-year concurrent sentences means 5 years served. Consecutive sentences stack — two 5-year consecutive sentences means 10 years. When the agreement is silent on this, the judge decides, and they can impose consecutive sentences even when the guidelines recommend concurrent. Know what the agreement says before you sign.</p>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>If pleading to multiple counts — does the agreement specify how sentences run?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-concurrent" value="concurrent" /> Concurrent (same time)</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-concurrent" value="consecutive" /> Consecutive (stacked)</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-concurrent" value="silent" /> Agreement is silent</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-concurrent" value="one" /> Only one count</label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 10: Gut Check -->
+          <div class="cr-plea-section">
+            <div class="cr-plea-section-head">
+              <span class="cr-plea-section-num">10</span>
+              <span class="cr-plea-section-title">The Gut Check</span>
+            </div>
+            <div class="cr-plea-section-body">
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Has your attorney walked through every paragraph of this agreement with you?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-atty-review" value="yes" /> Yes — every paragraph</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-atty-review" value="partial" /> Partially</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-atty-review" value="no" /> No</label>
+                </div>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Has your attorney explained the guidelines calculation step by step?</strong></label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-guidelines-explained" value="yes" /> Yes</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-guidelines-explained" value="no" /> No</label>
+                </div>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label"><strong>Have you spoken with a sentencing specialist about this agreement before signing?</strong>Doug Passon Law (800) 846-3909 · Sentencing Stats (855) 778-8654 — both work directly with existing counsel.</label>
+                <div class="cr-plea-radio-group">
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-specialist" value="yes" /> Yes</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-specialist" value="no" /> Not yet</label>
+                </div>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label" for="plea-notes"><strong>Anything else to document — questions, things that don't add up, concerns.</strong></label>
+                <textarea id="plea-notes" class="cr-plea-input" rows="3" placeholder="Use this space for anything you want in the printed document..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="cr-plea-generate-btn" id="cr-plea-gen-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            Generate Plea Review Document
+          </button>
+
+        </form>
+
+        <!-- OUTPUT -->
+        <div id="cr-plea-output">
+          <div class="cr-report-print-bar">
+            <p>Study this. Share it with a specialist. Print it and mail it inside.</p>
+            <button class="cr-btn" onclick="document.body.dataset.printing='plea'; window.print(); setTimeout(function(){ delete document.body.dataset.printing; }, 2000);">Print / Save PDF</button>
+          </div>
+          <div id="cr-plea-report-html"></div>
+        </div>
+
       </div>
     </div>
 
@@ -1248,6 +1673,237 @@
   if (drawerOverlay) {
     drawerOverlay.addEventListener('click', closeDrawer);
   }
+
+  /* ---- Plea Review Form ---------------------------------------------------- */
+
+  // Conditional field toggling
+  function watchRadio(name, triggerVal, conditionalId) {
+    document.querySelectorAll('input[name="' + name + '"]').forEach(function (radio) {
+      radio.addEventListener('change', function () {
+        var cond = document.getElementById(conditionalId);
+        if (cond) {
+          if (this.value === triggerVal) { cond.classList.add('is-shown'); }
+          else { cond.classList.remove('is-shown'); }
+        }
+      });
+    });
+  }
+
+  watchRadio('plea-mandatory',    'yes',  'plea-mandatory-conditional');
+  watchRadio('plea-c1c',          'yes',  'plea-c1c-conditional');
+  watchRadio('plea-relevant',     'yes',  'plea-relevant-conditional');
+  watchRadio('plea-coop',         'yes',  'plea-coop-conditional');
+  watchRadio('plea-2255-waiver',  'yes',  'plea-2255-conditional');
+  watchRadio('plea-restitution',  'yes',  'plea-restitution-conditional');
+
+  function getRadioVal(name) {
+    var el = document.querySelector('input[name="' + name + '"]:checked');
+    return el ? el.value : '';
+  }
+  function getVal(id) {
+    var el = document.getElementById(id);
+    return el ? el.value.trim() : '';
+  }
+
+  function buildPleaReport() {
+    var now = new Date();
+    var months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+    var dateStr = months[now.getMonth()] + ' ' + now.getDate() + ', ' + now.getFullYear();
+
+    // Gather values
+    var charged      = getVal('plea-counts-charged');
+    var pleaTo       = getVal('plea-counts-plea');
+    var countNames   = getVal('plea-count-names');
+    var mandatory    = getRadioVal('plea-mandatory');
+    var mandDetail   = getVal('plea-mandatory-detail');
+    var c1c          = getRadioVal('plea-c1c');
+    var c1cSentence  = getVal('plea-c1c-sentence');
+    var govBound     = getRadioVal('plea-gov-bound');
+    var rangeLow     = getVal('plea-range-low');
+    var rangeHigh    = getVal('plea-range-high');
+    var rangeAgreed  = getRadioVal('plea-range-agreed');
+    var offenseLevel = getVal('plea-offense-level');
+    var crimHistory  = getVal('plea-criminal-history');
+    var acceptance   = getRadioVal('plea-acceptance');
+    var relevant     = getRadioVal('plea-relevant');
+    var relevDetail  = getVal('plea-relevant-detail');
+    var drugQty      = getVal('plea-drug-qty');
+    var lossAmt      = getVal('plea-loss-amt');
+    var coop         = getRadioVal('plea-coop');
+    var coopObligation = getVal('plea-coop-obligation');
+    var coopReturn   = getVal('plea-coop-return');
+    var coopDecider  = getRadioVal('plea-coop-decider');
+    var appealWaiver = getRadioVal('plea-appeal-waiver');
+    var w2255        = getRadioVal('plea-2255-waiver');
+    var exceptions2255 = getVal('plea-2255-exceptions');
+    var restitution  = getRadioVal('plea-restitution');
+    var restAmt      = getVal('plea-restitution-amt');
+    var forfeiture   = getVal('plea-forfeiture');
+    var fine         = getVal('plea-fine');
+    var concurrent   = getRadioVal('plea-concurrent');
+    var attyReview   = getRadioVal('plea-atty-review');
+    var guidelinesExplained = getRadioVal('plea-guidelines-explained');
+    var specialist   = getRadioVal('plea-specialist');
+    var notes        = getVal('plea-notes');
+
+    // Build flags
+    var flags = [];
+    if (mandatory === 'yes')          flags.push('MANDATORY MINIMUM PRESENT — the judge cannot go below this number, regardless of any other factor.');
+    if (mandatory === 'unknown')      flags.push('MANDATORY MINIMUM — unknown. Confirm with your attorney before signing.');
+    if (w2255 === 'yes')              flags.push('2255 WAIVER PRESENT — you are waiving post-conviction relief rights. Check what exceptions apply.');
+    if (w2255 === 'unknown')          flags.push('2255 WAIVER — not confirmed. Read the final pages of the agreement before signing.');
+    if (appealWaiver === 'yes')       flags.push('APPELLATE WAIVER PRESENT — your right to appeal the sentence is being waived.');
+    if (concurrent === 'consecutive') flags.push('CONSECUTIVE SENTENCES — counts stack, not run concurrently. Total time is additive.');
+    if (concurrent === 'silent')      flags.push('AGREEMENT SILENT ON SENTENCING STRUCTURE — judge retains full discretion to impose consecutive sentences.');
+    if (rangeAgreed === 'disputed')   flags.push('GUIDELINES RANGE DISPUTED — there will be litigation at sentencing about the correct range.');
+    if (govBound === 'above')         flags.push('GOVERNMENT NOT BOUND TO GUIDELINES RANGE — they can argue above range at sentencing.');
+    if (coop === 'yes' && coopDecider === 'gov') flags.push('COOPERATION: GOVERNMENT DECIDES SUBSTANTIAL ASSISTANCE — they have sole discretion. A 5K1.1 motion is not guaranteed.');
+    if (attyReview !== 'yes')         flags.push('ATTORNEY REVIEW INCOMPLETE — do not sign until your attorney has walked through every paragraph with you.');
+    if (specialist === 'no')          flags.push('NO SPECIALIST CONSULTED — consider calling Doug Passon Law (800) 846-3909 or Sentencing Stats (855) 778-8654 before signing.');
+
+    var html = '<div class="cr-plea-report">';
+
+    // Masthead
+    html += '<div class="cr-plea-report-masthead">';
+    html += '<div><div class="cr-plea-report-eyebrow">Surviving the Feds &nbsp;·&nbsp; survivingthefeds.com</div>';
+    html += '<div class="cr-plea-report-title">Plea Agreement Review</div></div>';
+    html += '<div class="cr-plea-report-date">Generated: ' + dateStr + '<br>For personal review only</div>';
+    html += '</div>';
+
+    // Flags
+    if (flags.length > 0) {
+      html += '<div class="cr-plea-report-flags">';
+      flags.forEach(function (f) { html += '<div class="cr-plea-report-flag">' + f + '</div>'; });
+      html += '</div>';
+    }
+
+    function row(label, val, isFlag) {
+      if (!val) return '';
+      return '<div class="cr-plea-report-row"><span class="cr-plea-report-row-label">' + label + '</span><span class="cr-plea-report-row-val' + (isFlag ? ' cr-plea-report-val--flag' : '') + '">' + val + '</span></div>';
+    }
+
+    // Section 1: Counts
+    html += '<div class="cr-plea-report-section"><h3>1 — The Charges vs. The Plea</h3>';
+    html += row('Counts charged with', charged || '—');
+    html += row('Counts pleading guilty to', pleaTo || '—');
+    if (charged && pleaTo && Number(pleaTo) < Number(charged)) {
+      html += row('Count reduction', (Number(charged) - Number(pleaTo)) + ' count(s) not included in plea');
+    }
+    if (countNames) html += '<div class="cr-plea-report-row" style="flex-direction:column;gap:4px;"><span class="cr-plea-report-row-label">Counts pleading to:</span><span style="font-family:\'Courier Prime\',monospace;font-size:.83rem;white-space:pre-line;">' + countNames.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</span></div>';
+    html += '</div>';
+
+    // Section 2: Mandatory
+    html += '<div class="cr-plea-report-section"><h3>2 — Mandatory Minimums</h3>';
+    var mandLabel = mandatory === 'yes' ? 'YES — mandatory minimum applies' : mandatory === 'no' ? 'No mandatory minimum' : 'UNKNOWN — confirm before signing';
+    html += row('Mandatory minimum present', mandLabel, mandatory === 'yes' || mandatory === 'unknown');
+    if (mandatory === 'yes' && mandDetail) html += row('Mandatory minimum detail', mandDetail, true);
+    html += '</div>';
+
+    // Section 3: Binding
+    html += '<div class="cr-plea-report-section"><h3>3 — Is the Sentence Binding?</h3>';
+    var c1cLabel = c1c === 'yes' ? 'YES — Rule 11(c)(1)(C) binding agreement' : c1c === 'no' ? 'No — advisory (judge can deviate)' : 'Unknown';
+    html += row('Binding sentence', c1cLabel, c1c === 'yes');
+    if (c1c === 'yes' && c1cSentence) html += row('Agreed sentence', c1cSentence, true);
+    var govLabels = {bound:'Bound to guidelines range', above:'Can argue ABOVE range', unknown:'Unknown', na:'N/A (binding agreement)'};
+    if (govBound) html += row('Government sentencing commitment', govLabels[govBound] || govBound, govBound === 'above');
+    html += '</div>';
+
+    // Section 4: Guidelines
+    html += '<div class="cr-plea-report-section"><h3>4 — Guidelines Calculation</h3>';
+    if (rangeLow || rangeHigh) html += row('Guidelines range', (rangeLow || '?') + ' to ' + (rangeHigh || '?') + ' months');
+    var agreedLabels = {agreed:'Both sides agree', disputed:'DISPUTED — litigation expected', unknown:'Unknown'};
+    if (rangeAgreed) html += row('Range status', agreedLabels[rangeAgreed] || rangeAgreed, rangeAgreed === 'disputed');
+    if (offenseLevel) html += row('Total offense level', offenseLevel);
+    if (crimHistory && crimHistory !== 'unknown') html += row('Criminal history category', 'Category ' + crimHistory);
+    var acceptLabels = {'3level':'3-level reduction included', '2level':'2-level reduction included', no:'No acceptance reduction', unknown:'Unknown'};
+    if (acceptance) html += row('Acceptance of responsibility', acceptLabels[acceptance] || acceptance);
+    html += '</div>';
+
+    // Section 5: Relevant Conduct
+    html += '<div class="cr-plea-report-section"><h3>5 — Relevant Conduct</h3>';
+    var relLabel = relevant === 'yes' ? 'YES — additional conduct included' : relevant === 'no' ? 'No — limited to specific count' : 'Unknown';
+    html += row('Relevant conduct beyond count', relLabel, relevant === 'yes');
+    if (relevant === 'yes' && relevDetail) html += row('Conduct included', relevDetail, true);
+    if (drugQty) html += row('Drug quantity stipulated', drugQty, true);
+    if (lossAmt) html += row('Loss amount stipulated', lossAmt, true);
+    html += '</div>';
+
+    // Section 6: Cooperation
+    if (coop) {
+      html += '<div class="cr-plea-report-section"><h3>6 — Cooperation</h3>';
+      html += row('Cooperation component', coop === 'yes' ? 'YES — cooperation required' : 'No', coop === 'yes');
+      if (coop === 'yes') {
+        if (coopObligation) html += row('Your obligation', coopObligation);
+        if (coopReturn) html += row('Government commitment', coopReturn);
+        var deciderLabels = {gov:'GOVERNMENT (sole discretion)', court:'The court', unspecified:'Not specified'};
+        if (coopDecider) html += row('Who decides "substantial"', deciderLabels[coopDecider] || coopDecider, coopDecider === 'gov');
+      }
+      html += '</div>';
+    }
+
+    // Section 7: Waivers
+    html += '<div class="cr-plea-report-section"><h3>7 — What You Are Waiving</h3>';
+    var awLabels = {yes:'YES — appellate rights waived', no:'No waiver', unknown:'NOT CONFIRMED — read final pages'};
+    if (appealWaiver) html += row('Appellate waiver', awLabels[appealWaiver] || appealWaiver, appealWaiver === 'yes' || appealWaiver === 'unknown');
+    var wLabels = {yes:'YES — 2255 rights waived', no:'No waiver', unknown:'NOT CONFIRMED — read final pages'};
+    if (w2255) html += row('2255 motion waiver', wLabels[w2255] || w2255, w2255 === 'yes' || w2255 === 'unknown');
+    if (w2255 === 'yes' && exceptions2255) html += row('2255 waiver exceptions', exceptions2255);
+    html += '</div>';
+
+    // Section 8: Financial
+    html += '<div class="cr-plea-report-section"><h3>8 — Financial Consequences</h3>';
+    var restLabels = {yes:'Agreed amount', tbd:'To be determined at sentencing', no:'No restitution'};
+    if (restitution) html += row('Restitution', restLabels[restitution] || restitution, restitution === 'tbd');
+    if (restitution === 'yes' && restAmt) html += row('Restitution amount', restAmt, true);
+    if (forfeiture) html += row('Forfeiture', forfeiture, true);
+    if (fine) html += row('Fine', fine);
+    html += '</div>';
+
+    // Section 9: Concurrent/Consecutive
+    html += '<div class="cr-plea-report-section"><h3>9 — Concurrent or Consecutive</h3>';
+    var concLabels = {concurrent:'Concurrent (same time)', consecutive:'CONSECUTIVE — sentences stack', silent:'SILENT — judge decides', one:'Single count'};
+    if (concurrent) html += row('Sentence structure', concLabels[concurrent] || concurrent, concurrent === 'consecutive' || concurrent === 'silent');
+    html += '</div>';
+
+    // Section 10: Gut Check
+    html += '<div class="cr-plea-report-section"><h3>10 — The Gut Check</h3>';
+    var attyLabels = {yes:'Yes — full review', partial:'PARTIAL only', no:'NO — do not sign yet'};
+    if (attyReview) html += row('Attorney walked through agreement', attyLabels[attyReview] || attyReview, attyReview !== 'yes');
+    var geLabels = {yes:'Yes', no:'NO — insist on this before signing'};
+    if (guidelinesExplained) html += row('Guidelines explained step by step', geLabels[guidelinesExplained] || guidelinesExplained, guidelinesExplained === 'no');
+    var spLabels = {yes:'Yes', no:'Not yet — recommended before signing'};
+    if (specialist) html += row('Specialist consulted', spLabels[specialist] || specialist, specialist === 'no');
+    if (notes) html += '<div style="margin-top:10px;"><span class="cr-plea-report-row-label">Notes &amp; concerns:</span><p style="font-size:.85rem;line-height:1.65;margin:6px 0 0;white-space:pre-line;">' + notes.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</p></div>';
+    html += '</div>';
+
+    // Matrix
+    html += '<div class="cr-plea-report-matrix">';
+    html += '<h2>Reference — Terms Explained</h2>';
+    html += '<dl>';
+    html += '<dt>Mandatory Minimum</dt><dd>The absolute floor for a sentence on a specific count. Set by Congress, not the guidelines. A judge cannot go below it regardless of cooperation, history, or circumstances. If the count carries a 5-year mandatory minimum, 5 years is the starting point — not a recommendation.</dd>';
+    html += '<dt>Guidelines Range</dt><dd>The sentencing range produced by the federal sentencing guidelines — a two-variable calculation using your total offense level and your criminal history category. The range is advisory: the judge can go above or below it, but must explain any departure in writing. Most sentences land within or near the range.</dd>';
+    html += '<dt>Rule 11(c)(1)(C)</dt><dd>A plea agreement provision in which both sides agree to a specific sentence. If this language is in the agreement, the judge is bound to impose that sentence — they cannot deviate. If the judge rejects the agreement, the defendant may withdraw the guilty plea.</dd>';
+    html += '<dt>Relevant Conduct</dt><dd>All conduct the government attributes to the defendant for sentencing purposes — including conduct beyond the charged count, uncharged conduct, and conduct of co-defendants in some cases. A defendant may plead guilty to one count and still be sentenced based on a much larger scope of activity because of relevant conduct. The numbers in the factual basis of the plea — drug quantity, loss amount — directly control this calculation.</dd>';
+    html += '<dt>Factual Basis</dt><dd>The section of the plea agreement where the defendant admits in writing to specific facts. These admissions become part of the permanent record and directly drive the sentencing guidelines calculation. Every number and every fact in this section matters.</dd>';
+    html += '<dt>Acceptance of Responsibility</dt><dd>A reduction in offense level — typically 2 or 3 points — for accepting responsibility for the offense. A 3-point reduction is available when the defendant notifies the government early enough to allow them to avoid preparing for trial. Each point on the offense level can mean months or years of difference in the guidelines range.</dd>';
+    html += '<dt>5K1.1 / Substantial Assistance</dt><dd>A motion filed by the government asking the judge to depart below the guidelines range based on the defendant\'s substantial assistance to law enforcement. The government — not the defendant, not the judge — decides whether assistance qualifies. A promise to "consider" filing the motion is not a commitment to file it.</dd>';
+    html += '<dt>Concurrent vs. Consecutive</dt><dd>Concurrent sentences run simultaneously — if you have two 5-year concurrent sentences, you serve 5 years total. Consecutive sentences stack — two 5-year consecutive sentences means 10 years. When the plea agreement is silent on this, the judge has full discretion to impose consecutive sentences even when the guidelines recommend concurrent.</dd>';
+    html += '<dt>2255 Motion</dt><dd>The primary post-conviction legal remedy in the federal system. Filed after a sentence is final, a 2255 allows a defendant to challenge the conviction or sentence on constitutional grounds — including ineffective assistance of counsel. Many plea agreements include a waiver of the right to file a 2255. Read the agreement. If a waiver is present, understand exactly what exceptions apply.</dd>';
+    html += '<dt>Appellate Waiver</dt><dd>A provision waiving the right to appeal the sentence to a circuit court. Common in federal plea agreements, often limited to sentences within or below the agreed range. Review the exact scope — some waivers are broader than they appear.</dd>';
+    html += '</dl>';
+    html += '<p style="font-size:.78rem;color:#555;margin-top:18px;line-height:1.65;border-top:1px solid #ccc;padding-top:12px;">This document was generated free at SurvivingTheFeds.com. It is for personal reference only and does not constitute legal advice. Every federal case is different. An attorney familiar with your specific case is essential before any decision is made.</p>';
+    html += '</div>';
+
+    html += '</div>'; // .cr-plea-report
+
+    document.getElementById('cr-plea-report-html').innerHTML = html;
+    var output = document.getElementById('cr-plea-output');
+    output.classList.add('is-visible');
+    output.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  var pleaGenBtn = document.getElementById('cr-plea-gen-btn');
+  if (pleaGenBtn) pleaGenBtn.addEventListener('click', buildPleaReport);
 
   /* ---- First-time visitor flag ------------------------------------------ */
   localStorage.setItem('stf_visited', '1');

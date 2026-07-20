@@ -1358,27 +1358,361 @@ body::before {
 }
 
 /* ============================================================================
+   PLEA REVIEW FORM
+   ========================================================================== */
+.cr-plea-disclaimer {
+  background: rgba(232,119,34,.07);
+  border-left: 3px solid var(--cr-accent);
+  border-radius: 0 6px 6px 0;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+}
+.cr-plea-disclaimer--neutral {
+  background: rgba(255,255,255,.025);
+  border-left-color: var(--cr-border);
+}
+.cr-plea-disclaimer-title {
+  font-family: var(--cr-font-mono);
+  font-size: .68rem;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  color: var(--cr-accent);
+  margin-bottom: 10px;
+}
+.cr-plea-disclaimer--neutral .cr-plea-disclaimer-title { color: var(--cr-muted); }
+.cr-plea-disclaimer p {
+  font-size: .92rem;
+  color: var(--cr-text-soft);
+  line-height: 1.75;
+  margin-bottom: 10px;
+}
+.cr-plea-disclaimer p:last-child { margin-bottom: 0; }
+.cr-plea-disclaimer strong { color: var(--cr-text); }
+.cr-plea-disclaimer em { font-style: italic; color: var(--cr-text); }
+
+.cr-plea-section {
+  margin-bottom: 24px;
+  border: 1px solid var(--cr-border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.cr-plea-section-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--cr-surface-hi);
+  padding: 13px 18px;
+  border-bottom: 1px solid var(--cr-border);
+}
+.cr-plea-section-num {
+  font-family: var(--cr-font-mono);
+  font-size: 1rem;
+  color: var(--cr-accent);
+  opacity: .65;
+  flex-shrink: 0;
+  min-width: 26px;
+}
+.cr-plea-section-title {
+  font-family: var(--cr-font-serif);
+  font-size: .93rem;
+  font-weight: 600;
+  color: var(--cr-text);
+}
+.cr-plea-section-body {
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.cr-plea-field { display: flex; flex-direction: column; gap: 6px; }
+.cr-plea-label {
+  font-family: var(--cr-font-mono);
+  font-size: .73rem;
+  color: var(--cr-muted);
+  line-height: 1.55;
+}
+.cr-plea-label strong {
+  color: var(--cr-text-soft);
+  font-family: var(--cr-font-serif);
+  font-size: .88rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 3px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.cr-plea-input {
+  background: var(--cr-canvas);
+  border: 1px solid var(--cr-border);
+  border-radius: 4px;
+  padding: 9px 12px;
+  font-family: var(--cr-font-mono);
+  font-size: .88rem;
+  color: var(--cr-text);
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color .15s;
+  resize: vertical;
+}
+.cr-plea-input:focus { outline: none; border-color: var(--cr-accent); }
+.cr-plea-input--short { max-width: 130px; }
+.cr-plea-input--medium { max-width: 280px; }
+.cr-plea-input-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.cr-plea-input-row > div { display: flex; flex-direction: column; gap: 5px; }
+
+.cr-plea-radio-group { display: flex; flex-wrap: wrap; gap: 8px; }
+.cr-plea-radio-btn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 14px;
+  background: var(--cr-canvas);
+  border: 1px solid var(--cr-border);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--cr-font-mono);
+  font-size: .8rem;
+  color: var(--cr-text-soft);
+  transition: all .15s;
+  user-select: none;
+  line-height: 1;
+}
+.cr-plea-radio-btn:hover { border-color: var(--cr-accent-dim); color: var(--cr-text); }
+.cr-plea-radio-btn input[type="radio"] { accent-color: var(--cr-accent); }
+.cr-plea-radio-btn:has(input:checked) {
+  border-color: var(--cr-accent);
+  background: rgba(232,119,34,.1);
+  color: var(--cr-text);
+}
+
+.cr-plea-note {
+  background: rgba(255,255,255,.03);
+  border-left: 2px solid var(--cr-border);
+  padding: 11px 14px;
+}
+.cr-plea-note-label {
+  font-family: var(--cr-font-mono);
+  font-size: .63rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--cr-accent);
+  opacity: .7;
+  margin-bottom: 6px;
+}
+.cr-plea-note p {
+  font-size: .83rem;
+  color: var(--cr-muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.cr-plea-conditional {
+  display: none;
+  flex-direction: column;
+  gap: 14px;
+  padding: 14px;
+  background: rgba(255,255,255,.02);
+  border: 1px dashed var(--cr-border);
+  border-radius: 4px;
+}
+.cr-plea-conditional.is-shown { display: flex; }
+
+.cr-plea-generate-btn {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  background: var(--cr-accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 24px;
+  font-family: var(--cr-font-mono);
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: opacity .18s;
+}
+.cr-plea-generate-btn:hover { opacity: .85; }
+
+/* Plea report output */
+#cr-plea-output { display: none; }
+#cr-plea-output.is-visible { display: block; }
+.cr-plea-report {
+  background: var(--cr-parchment);
+  border-radius: 6px;
+  padding: 32px;
+  max-width: 680px;
+  color: #1a1a1a;
+}
+.cr-plea-report-masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 2px solid #222;
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+}
+.cr-plea-report-eyebrow {
+  font-family: var(--cr-font-mono);
+  font-size: .62rem;
+  color: #666;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.cr-plea-report-title {
+  font-family: var(--cr-font-serif);
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: #111;
+}
+.cr-plea-report-date {
+  font-family: var(--cr-font-mono);
+  font-size: .7rem;
+  color: #666;
+  text-align: right;
+  line-height: 1.7;
+}
+.cr-plea-report-flags {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.cr-plea-report-flag {
+  background: #fff3cd;
+  border: 1px solid #d4900a;
+  border-radius: 4px;
+  padding: 9px 13px;
+  font-family: var(--cr-font-mono);
+  font-size: .78rem;
+  color: #7a4f00;
+  line-height: 1.5;
+}
+.cr-plea-report-flag::before { content: '\26A0\0020 '; }
+.cr-plea-report-section { margin-bottom: 20px; }
+.cr-plea-report-section h3 {
+  font-family: var(--cr-font-mono);
+  font-size: .65rem;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  color: #555;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
+.cr-plea-report-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 7px;
+  font-size: .86rem;
+  line-height: 1.5;
+  align-items: flex-start;
+}
+.cr-plea-report-row-label {
+  font-family: var(--cr-font-mono);
+  font-size: .73rem;
+  color: #555;
+  min-width: 190px;
+  flex-shrink: 0;
+  padding-top: 1px;
+}
+.cr-plea-report-row-val {
+  font-family: var(--cr-font-serif);
+  color: #111;
+  font-weight: 500;
+}
+.cr-plea-report-val--flag { color: #7a4f00; font-weight: 700; }
+
+.cr-plea-report-matrix {
+  margin-top: 28px;
+  border-top: 2px solid #222;
+  padding-top: 18px;
+  page-break-before: always;
+}
+.cr-plea-report-matrix h2 {
+  font-family: var(--cr-font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.cr-plea-report-matrix dl { margin: 0; }
+.cr-plea-report-matrix dt {
+  font-family: var(--cr-font-mono);
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #222;
+  font-weight: 700;
+  margin-top: 14px;
+  margin-bottom: 3px;
+}
+.cr-plea-report-matrix dt:first-child { margin-top: 0; }
+.cr-plea-report-matrix dd {
+  font-size: .85rem;
+  color: #333;
+  line-height: 1.7;
+  margin: 0;
+  padding-left: 12px;
+  border-left: 2px solid #ccc;
+}
+
+/* 6th dispatch button — hide on mobile tab strip */
+.cr-dispatch-btn--tool { display: flex; }
+@media (max-width: 768px) {
+  .cr-dispatch-btn--tool { display: none; }
+}
+
+/* ============================================================================
    PRINT — report output only
    ========================================================================== */
 @media print {
   body > *:not(#cr-shell) { display: none !important; }
   #cr-shell > *:not(#cr-panel) { display: none !important; }
-  #cr-panel > .cr-screen:not(#screen-report) { display: none !important; }
-  #screen-report { display: block !important; padding: 0 !important; }
-  .cr-wizard-back, .cr-wizard-header, .cr-wizard-progress,
-  .cr-wizard-step, .cr-wizard-nav-row, .cr-report-print-bar { display: none !important; }
-  #cr-report-output { display: block !important; }
   body { background: #fff; color: #000; overflow: visible; }
   #cr-panel { overflow: visible; }
-  .cr-report {
-    background: #fff !important;
-    border-radius: 0;
-    padding: 0;
-    max-width: none;
-  }
+  @page { margin: 0.75in; }
+
+  /* Case brief print mode (default) */
+  body:not([data-printing="plea"]) #cr-panel > .cr-screen:not(#screen-report) { display: none !important; }
+  body:not([data-printing="plea"]) #screen-report { display: block !important; padding: 0 !important; }
+  body:not([data-printing="plea"]) .cr-wizard-back,
+  body:not([data-printing="plea"]) .cr-wizard-header,
+  body:not([data-printing="plea"]) .cr-wizard-progress,
+  body:not([data-printing="plea"]) .cr-wizard-step,
+  body:not([data-printing="plea"]) .cr-wizard-nav-row,
+  body:not([data-printing="plea"]) .cr-report-print-bar { display: none !important; }
+  body:not([data-printing="plea"]) #cr-report-output { display: block !important; }
+  .cr-report { background: #fff !important; border-radius: 0; padding: 0; max-width: none; }
   .cr-report-title { color: #000; }
   .cr-report-stat-val { color: #000; }
-  @page { margin: 0.75in; }
+
+  /* Plea review print mode */
+  body[data-printing="plea"] #cr-panel > .cr-screen:not(#screen-plea) { display: none !important; }
+  body[data-printing="plea"] #screen-plea { display: block !important; padding: 0 !important; }
+  body[data-printing="plea"] .cr-cmd-back,
+  body[data-printing="plea"] .cr-cmd-tag,
+  body[data-printing="plea"] .cr-cmd-title,
+  body[data-printing="plea"] .cr-cmd-sub,
+  body[data-printing="plea"] .cr-plea-disclaimer,
+  body[data-printing="plea"] .cr-plea-form,
+  body[data-printing="plea"] .cr-report-print-bar { display: none !important; }
+  body[data-printing="plea"] #cr-plea-output { display: block !important; }
+  .cr-plea-report { background: #fff !important; border-radius: 0; max-width: none; padding: 0; }
 }
 
 /* ============================================================================
