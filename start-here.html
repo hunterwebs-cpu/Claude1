@@ -13,7 +13,7 @@
   <link rel="icon" href="assets/img/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="assets/css/start.css?v=7" />
+  <link rel="stylesheet" href="assets/css/start.css?v=8" />
 </head>
 <body>
 
@@ -89,6 +89,14 @@
       <span class="cr-dispatch-text">
         <span class="cr-dispatch-title">Before the Plea</span>
         <span class="cr-dispatch-sub">Read this first</span>
+      </span>
+    </button>
+
+    <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="bop" aria-label="BOP security designation calculator">
+      <span class="cr-dispatch-num">07</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">BOP Designation</span>
+        <span class="cr-dispatch-sub">Security level estimate</span>
       </span>
     </button>
 
@@ -172,7 +180,7 @@
 
       <button class="cr-generate-btn" id="cr-gen-btn" aria-label="Generate personalized case action brief">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-        Generate Case Report
+        Get My Report
       </button>
     </div>
 
@@ -294,6 +302,18 @@
         <div class="cr-await-pulse" aria-hidden="true"></div>
         <p class="cr-await-label">Awaiting Situation Input</p>
         <p class="cr-await-sub">Select your situation from the dispatch panel on the left.</p>
+      </div>
+      <div class="cr-await-divider">or</div>
+      <div class="cr-await-report-card">
+        <div class="cr-await-report-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        </div>
+        <div class="cr-await-report-heading">Get a Personalized Report of Next Steps and Intel</div>
+        <p class="cr-await-report-desc">Answer six quick questions. We build a situation-specific action plan you can print and mail inside — names, contacts, red flags, a cover page, and a journal section for documenting everything. Takes 90 seconds. Free.</p>
+        <button class="cr-await-report-btn" id="cr-gen-btn-await">
+          Build My Report
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
       </div>
     </div>
 
@@ -1122,6 +1142,115 @@
       </div>
     </div>
 
+    <!-- SCREEN: BOP DESIGNATION CALCULATOR -->
+    <div id="screen-bop" class="cr-command-screen cr-screen" role="main" aria-label="BOP security designation calculator">
+      <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        Choose a different tool
+      </button>
+      <div class="cr-cmd-tag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        Tool 07 — BOP Designation Estimator
+      </div>
+      <h2 class="cr-cmd-title">What security level is the Bureau of Prisons likely to assign?</h2>
+      <p class="cr-cmd-sub">BOP uses a point system to determine whether someone goes to a Minimum, Low, Medium, or High security facility. Know your number before you get there. <strong>Results are estimates only</strong> — BOP has discretion beyond the score.</p>
+      <div class="cr-answers">
+        <div class="cr-card" style="padding:0;overflow:hidden;">
+          <form class="cr-bop-form" id="cr-bop-form" onsubmit="return false;">
+
+            <div class="cr-bop-field">
+              <label class="cr-bop-label">Severity of current offense (the federal offense being sentenced for)</label>
+              <div class="cr-bop-opts" data-bop-key="offense">
+                <button type="button" class="cr-bop-opt" data-pts="7">Greatest — murder, terrorism, sex trafficking, kidnapping</button>
+                <button type="button" class="cr-bop-opt" data-pts="5">High — armed robbery, bank robbery, large drug quantity, child exploitation</button>
+                <button type="button" class="cr-bop-opt" data-pts="3">Moderate — drug trafficking, fraud &gt;$250K, weapons, immigration reentry</button>
+                <button type="button" class="cr-bop-opt" data-pts="1">Low — minor drug, small fraud, misdemeanor-level conduct</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">Lowest — simple possession, minor regulatory violation</button>
+              </div>
+            </div>
+
+            <div class="cr-bop-field">
+              <label class="cr-bop-label">History of violence in prior criminal record</label>
+              <div class="cr-bop-opts" data-bop-key="violence">
+                <button type="button" class="cr-bop-opt" data-pts="7">Greatest — prior homicide, kidnapping, or torture conviction</button>
+                <button type="button" class="cr-bop-opt" data-pts="5">Serious violence within last 10 years</button>
+                <button type="button" class="cr-bop-opt" data-pts="3">Serious violence more than 10 years ago</button>
+                <button type="button" class="cr-bop-opt" data-pts="1">Minor violence (assault, domestic) more than 10 years ago</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">No history of violence</button>
+              </div>
+            </div>
+
+            <div class="cr-bop-field">
+              <label class="cr-bop-label">Criminal history points (from PSR or our guideline calculator)</label>
+              <div class="cr-bop-opts" data-bop-key="history">
+                <button type="button" class="cr-bop-opt" data-pts="10">13 or more points</button>
+                <button type="button" class="cr-bop-opt" data-pts="8">10–12 points</button>
+                <button type="button" class="cr-bop-opt" data-pts="6">7–9 points</button>
+                <button type="button" class="cr-bop-opt" data-pts="4">4–6 points</button>
+                <button type="button" class="cr-bop-opt" data-pts="2">2–3 points</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">0–1 points (little or no prior record)</button>
+              </div>
+            </div>
+
+            <div class="cr-bop-field">
+              <label class="cr-bop-label">Detainer — outstanding charge or hold from another jurisdiction</label>
+              <div class="cr-bop-opts" data-bop-key="detainer">
+                <button type="button" class="cr-bop-opt" data-pts="7" data-psf="deportable">Immigration detainer (ICE) — I am a deportable alien</button>
+                <button type="button" class="cr-bop-opt" data-pts="3">Criminal detainer — pending charges in another state or federal case</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">No detainer</button>
+              </div>
+            </div>
+
+            <div class="cr-bop-field">
+              <label class="cr-bop-label">History of escape or walkaway from custody</label>
+              <div class="cr-bop-opts" data-bop-key="escape">
+                <button type="button" class="cr-bop-opt" data-pts="7">Escape or escape attempt within the last 5 years</button>
+                <button type="button" class="cr-bop-opt" data-pts="3">Escape or attempt 5–10 years ago, or walkaway within 5 years</button>
+                <button type="button" class="cr-bop-opt" data-pts="1">Walkaway from a minimum facility more than 5 years ago</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">No escape history</button>
+              </div>
+            </div>
+
+            <div class="cr-bop-field">
+              <label class="cr-bop-label">Voluntary surrender — did you turn yourself in to begin the sentence?</label>
+              <div class="cr-bop-opts" data-bop-key="surrender">
+                <button type="button" class="cr-bop-opt" data-pts="-3">Yes — I surrendered voluntarily (−3 points)</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">No / Not sentenced yet / Taken into custody by arrest</button>
+              </div>
+            </div>
+
+            <div class="cr-bop-field">
+              <label class="cr-bop-label">Age at sentencing</label>
+              <div class="cr-bop-opts" data-bop-key="age">
+                <button type="button" class="cr-bop-opt" data-pts="5">Under 24 (+5 points)</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">24–55 (no adjustment)</button>
+                <button type="button" class="cr-bop-opt" data-pts="-5">56 or older (−5 points)</button>
+              </div>
+            </div>
+
+            <div class="cr-bop-field">
+              <label class="cr-bop-label">Public Safety Factors (select all that apply — any of these blocks Minimum security regardless of score)</label>
+              <div class="cr-bop-checks" id="bop-psf-checks">
+                <label class="cr-bop-check-row"><input type="checkbox" id="psf-sex" /> Current offense involves sex crime or child exploitation</label>
+                <label class="cr-bop-check-row"><input type="checkbox" id="psf-sentence" /> Likely sentence is 10 or more years total</label>
+                <label class="cr-bop-check-row"><input type="checkbox" id="psf-gang" /> Member of a Security Threat Group (gang) on BOP's list</label>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- Live Result -->
+        <div class="cr-bop-result" id="cr-bop-result">
+          <div class="cr-bop-result-waiting">Select responses above to calculate your estimated designation level.</div>
+        </div>
+
+        <div class="cr-card cr-bop-note">
+          <p><strong>Important:</strong> This calculator uses the BOP's published security scoring methodology (Program Statement 5100.08), applied to your self-reported factors. It produces an <em>estimate only</em>. BOP staff exercise discretion beyond the numerical score — proximity to family, medical needs, program availability, and case manager recommendations all influence the final designation. Minimum security (camp) is the most desirable outcome; a calculated score does not guarantee it.</p>
+        </div>
+      </div>
+    </div>
+
     <!-- SCREEN: REPORT WIZARD -->
     <div id="screen-report" class="cr-screen" role="main" aria-label="Case report generator">
       <button class="cr-wizard-back" id="wizard-back-btn">
@@ -1135,12 +1264,13 @@
         <p>Answer five questions. We'll build a brief you can print and mail to the person inside — free.</p>
       </div>
 
-      <div class="cr-wizard-progress" id="wizard-progress" aria-label="Progress through 5 questions">
+      <div class="cr-wizard-progress" id="wizard-progress" aria-label="Progress through 6 steps">
         <div class="cr-wizard-pip" data-pip="0"></div>
         <div class="cr-wizard-pip" data-pip="1"></div>
         <div class="cr-wizard-pip" data-pip="2"></div>
         <div class="cr-wizard-pip" data-pip="3"></div>
         <div class="cr-wizard-pip" data-pip="4"></div>
+        <div class="cr-wizard-pip" data-pip="5"></div>
       </div>
 
       <!-- Step 1 -->
@@ -1212,9 +1342,56 @@
           <button class="cr-wizard-opt" data-val="none"><span class="cr-wizard-opt-dot"></span>None of the above</button>
         </div>
         <div class="cr-wizard-nav-row">
-          <button class="cr-wizard-next" data-next disabled>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/></svg>
-            Generate Report
+          <button class="cr-wizard-next" data-next disabled>Next →</button>
+          <button class="cr-wizard-prev-btn" data-prev>← Back</button>
+        </div>
+      </div>
+
+      <!-- Step 6 — Intake form -->
+      <div class="cr-wizard-step" data-step="5" data-intake="true">
+        <p class="cr-wizard-q">A few details to personalize your report. <small style="font-size:.75em;opacity:.6;font-weight:400;">(all optional)</small></p>
+        <div class="cr-wizard-intake">
+          <div class="cr-wizard-intake-row">
+            <div class="cr-wizard-intake-field">
+              <label class="cr-wizard-intake-label" for="wizard-def-name">Defendant's full name</label>
+              <input type="text" id="wizard-def-name" class="cr-wizard-intake-input" placeholder="e.g. John A. Smith" autocomplete="off" />
+            </div>
+            <div class="cr-wizard-intake-field">
+              <label class="cr-wizard-intake-label" for="wizard-atty-name">Attorney of record</label>
+              <input type="text" id="wizard-atty-name" class="cr-wizard-intake-input" placeholder="e.g. Jane Doe, Esq." autocomplete="off" />
+            </div>
+          </div>
+          <div class="cr-wizard-intake-row">
+            <div class="cr-wizard-intake-field">
+              <label class="cr-wizard-intake-label" for="wizard-arrest-date">Date of arrest</label>
+              <input type="date" id="wizard-arrest-date" class="cr-wizard-intake-input" />
+            </div>
+            <div class="cr-wizard-intake-field">
+              <label class="cr-wizard-intake-label" for="wizard-booking">Where were they booked / held?</label>
+              <input type="text" id="wizard-booking" class="cr-wizard-intake-input" placeholder="e.g. MDC Brooklyn, or county name" autocomplete="off" />
+            </div>
+          </div>
+          <div class="cr-wizard-intake-row">
+            <div class="cr-wizard-intake-field">
+              <label class="cr-wizard-intake-label" for="wizard-dob">Defendant's date of birth</label>
+              <input type="date" id="wizard-dob" class="cr-wizard-intake-input" />
+            </div>
+          </div>
+          <div class="cr-wizard-intake-field" style="margin-top:10px;">
+            <label class="cr-wizard-intake-label">How many times has the attorney met directly with THE DEFENDANT — not family, not calls with others — face to face or by legal video?</label>
+            <div class="cr-wizard-intake-opts" id="wizard-meetings-opts">
+              <button type="button" class="cr-wizard-intake-opt" data-meetings="0">Never — has not met yet</button>
+              <button type="button" class="cr-wizard-intake-opt" data-meetings="1">Once (1 time)</button>
+              <button type="button" class="cr-wizard-intake-opt" data-meetings="2">2–4 times</button>
+              <button type="button" class="cr-wizard-intake-opt" data-meetings="5">5–9 times</button>
+              <button type="button" class="cr-wizard-intake-opt" data-meetings="10">10 or more times</button>
+            </div>
+          </div>
+        </div>
+        <div class="cr-wizard-nav-row">
+          <button class="cr-wizard-next" data-next>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            Generate My Report
           </button>
           <button class="cr-wizard-prev-btn" data-prev>← Back</button>
         </div>
@@ -1476,7 +1653,8 @@
   /* ---- Report wizard ---------------------------------------------------- */
   var wizardAnswers = {};
   var wizardStep = 0;
-  var TOTAL_STEPS = 5;
+  var TOTAL_STEPS = 6;
+  var wizardMeetings = null; // set by intake step opt buttons
 
   function updateProgress() {
     document.querySelectorAll('.cr-wizard-pip').forEach(function (pip, i) {
@@ -1551,12 +1729,58 @@
     var today = new Date();
     var dateStr = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 
+    // Intake fields
+    var defName     = (document.getElementById('wizard-def-name')   || {value:''}).value.trim();
+    var attyName    = (document.getElementById('wizard-atty-name')  || {value:''}).value.trim();
+    var wizArrDate  = (document.getElementById('wizard-arrest-date')|| {value:''}).value;
+    var booking     = (document.getElementById('wizard-booking')    || {value:''}).value.trim();
+    var dob         = (document.getElementById('wizard-dob')        || {value:''}).value;
+
+    // Sync wizard arrest date to status console if provided
+    if (wizArrDate) {
+      var adEl = document.getElementById('arrest-date');
+      if (adEl && !adEl.value) { adEl.value = wizArrDate; adEl.dispatchEvent(new Event('change')); }
+    }
+
     var arrestDateEl = document.getElementById('arrest-date');
     var daysStr = 'NOT ENTERED';
+    var daysNum = null;
+    var arrestDateStr = '';
     if (arrestDateEl && arrestDateEl.value) {
       var arrest = new Date(arrestDateEl.value + 'T00:00:00');
-      var days = Math.floor((today - arrest) / (1000 * 60 * 60 * 24));
-      daysStr = days + ' DAY' + (days === 1 ? '' : 'S');
+      daysNum = Math.floor((today - arrest) / (1000 * 60 * 60 * 24));
+      daysStr = daysNum + ' DAY' + (daysNum === 1 ? '' : 'S');
+      arrestDateStr = arrest.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    }
+
+    // DOB → age
+    var ageStr = '';
+    if (dob) {
+      var dobDate = new Date(dob + 'T00:00:00');
+      var ageYrs = Math.floor((today - dobDate) / (1000 * 60 * 60 * 24 * 365.25));
+      ageStr = ageYrs + ' years old';
+    }
+
+    // Lawyer contact analysis
+    var meetingsVal = wizardMeetings; // null if not selected
+    var lawyerFlag = null, lawyerNote = '';
+    if (meetingsVal !== null && daysNum !== null) {
+      var monthsIn = daysNum / 30;
+      if (meetingsVal === 0) {
+        lawyerFlag = 'CRITICAL';
+        lawyerNote = 'The attorney has never met with the defendant directly. After ' + daysNum + ' days in custody, zero attorney contact is a serious problem and a potential ineffective assistance claim. This needs to be addressed immediately.';
+      } else if (monthsIn > 1 && meetingsVal / monthsIn < 0.5) {
+        lawyerFlag = 'LOW';
+        lawyerNote = meetingsVal + ' meeting' + (meetingsVal === 1 ? '' : 's') + ' in ' + Math.round(monthsIn) + ' months (' + (meetingsVal/monthsIn).toFixed(1) + '/month). Below the expected contact rate for an active federal case. Even court-appointed defenders should be meeting with clients monthly.';
+      } else if (meetingsVal / Math.max(1, monthsIn) >= 1) {
+        lawyerFlag = 'OK';
+        lawyerNote = meetingsVal + ' direct contact' + (meetingsVal === 1 ? '' : 's') + ' with the defendant in approximately ' + Math.round(monthsIn) + ' month' + (Math.round(monthsIn) === 1 ? '' : 's') + '. Contact frequency appears adequate.';
+      } else {
+        lawyerNote = meetingsVal + ' direct contact' + (meetingsVal === 1 ? '' : 's') + ' with the defendant. Track all contacts by date and duration.';
+      }
+    } else if (meetingsVal === 0) {
+      lawyerFlag = 'CRITICAL';
+      lawyerNote = 'The attorney has never met with the defendant directly. This needs to be addressed immediately.';
     }
 
     var sitLabels = {
@@ -1658,10 +1882,31 @@
     }
 
     var html = '<div class="cr-report">';
+
+    // ---- COVER PAGE ----
+    html += '<div class="cr-report-cover">';
+    html += '<div class="cr-report-cover-logo"><img src="assets/img/logo.png" alt="Surviving the Feds" width="64" height="64" /></div>';
+    html += '<div class="cr-report-cover-brand">Surviving the Feds &nbsp;·&nbsp; SurvivingTheFeds.com</div>';
+    html += '<div class="cr-report-cover-confidential">CONFIDENTIAL</div>';
+    html += '<div class="cr-report-cover-type">Defense Action Plan</div>';
+    if (defName) html += '<div class="cr-report-cover-forname">Prepared for: ' + defName.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</div>';
+    html += '<div class="cr-report-cover-details">';
+    if (attyName) html += '<div class="cr-report-cover-detail"><span>Attorney of Record:</span> ' + attyName.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</div>';
+    if (arrestDateStr) html += '<div class="cr-report-cover-detail"><span>Date of Arrest:</span> ' + arrestDateStr + '</div>';
+    if (booking) html += '<div class="cr-report-cover-detail"><span>Booking Facility:</span> ' + booking.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</div>';
+    if (ageStr) html += '<div class="cr-report-cover-detail"><span>Defendant Age:</span> ' + ageStr + '</div>';
+    if (daysNum !== null) html += '<div class="cr-report-cover-detail"><span>Days in Custody:</span> ' + daysNum + ' days as of ' + dateStr + '</div>';
+    html += '<div class="cr-report-cover-detail"><span>Report Date:</span> ' + dateStr + '</div>';
+    html += '</div>';
+    html += '<div class="cr-report-cover-footer">This document was generated free at SurvivingTheFeds.com. For personal use only. Not legal advice.</div>';
+    html += '</div>';
+
+    // ---- MAIN REPORT ----
     html += '<div class="cr-report-masthead">';
     html += '<div class="cr-report-title-block">';
     html += '<div class="cr-report-eyebrow">Surviving the Feds &nbsp;·&nbsp; survivingthefeds.com</div>';
     html += '<div class="cr-report-title">CASE ACTION BRIEF</div>';
+    if (defName) html += '<div class="cr-report-eyebrow" style="margin-top:4px;">Prepared for: ' + defName.replace(/</g,'&lt;') + '</div>';
     html += '</div>';
     html += '<div class="cr-report-meta-block">Generated: ' + dateStr + '<br>Free to print &amp; share</div>';
     html += '</div>';
@@ -1670,7 +1915,21 @@
     html += '<div class="cr-report-stat"><div class="cr-report-stat-label">Situation</div><div class="cr-report-stat-val">' + (sitLabels[a.situation] || 'General') + '</div></div>';
     html += '<div class="cr-report-stat"><div class="cr-report-stat-label">Days Elapsed</div><div class="cr-report-stat-val">' + daysStr + '</div></div>';
     html += '<div class="cr-report-stat"><div class="cr-report-stat-label">Attorney</div><div class="cr-report-stat-val">' + (attyLabels[a.attorney] || '—') + '</div></div>';
+    if (attyName) html += '<div class="cr-report-stat"><div class="cr-report-stat-label">Attorney Name</div><div class="cr-report-stat-val">' + attyName.replace(/</g,'&lt;') + '</div></div>';
     html += '</div>';
+
+    // Lawyer contact analysis section
+    if (lawyerNote) {
+      var flagClass = lawyerFlag === 'CRITICAL' ? 'cr-report-lawyer-flag cr-report-lawyer-flag--critical' :
+                     lawyerFlag === 'LOW'      ? 'cr-report-lawyer-flag cr-report-lawyer-flag--low' :
+                     lawyerFlag === 'OK'       ? 'cr-report-lawyer-flag cr-report-lawyer-flag--ok' : 'cr-report-lawyer-flag';
+      html += '<div class="' + flagClass + '">';
+      if (lawyerFlag === 'CRITICAL') html += '<strong>&#9888; RED FLAG — Attorney Contact</strong> ';
+      else if (lawyerFlag === 'LOW') html += '<strong>&#9888; LOW CONTACT — Attorney Contact</strong> ';
+      else if (lawyerFlag === 'OK') html += '<strong>&#10003; Attorney Contact</strong> ';
+      else html += '<strong>Attorney Contact</strong> ';
+      html += lawyerNote + '</div>';
+    }
 
     html += '<div class="cr-report-section"><h3>Immediate Actions — Do This Now</h3><ol>';
     actions.forEach(function (item) { html += '<li>' + item + '</li>'; });
@@ -1692,7 +1951,25 @@
     html += '</ul></div>';
 
     html += '<div class="cr-report-footer-note">This brief was generated free at SurvivingTheFeds.com &mdash; print it and mail it to the person inside. This is general information, not legal advice. Every federal case is different. An attorney is essential.</div>';
-    html += '</div>';
+
+    // ---- JOURNAL PAGES ----
+    var journalName = defName ? defName.replace(/</g,'&lt;') + ' — ' : '';
+    var journalLines = '';
+    for (var jl = 0; jl < 18; jl++) { journalLines += '<div class="cr-report-journal-line"></div>'; }
+
+    for (var jp = 1; jp <= 3; jp++) {
+      html += '<div class="cr-report-journal-page">';
+      html += '<div class="cr-report-journal-header">';
+      html += '<div class="cr-report-journal-heading">' + journalName + 'Case Journal — Page ' + jp + ' of 3</div>';
+      html += '<div class="cr-report-journal-sub">SurvivingTheFeds.com &nbsp;·&nbsp; Document every attorney contact, court event, and facility issue with the date. Dated entries may support future legal claims.</div>';
+      html += '</div>';
+      html += '<div class="cr-report-journal-date-row"><span class="cr-report-journal-field-label">Date:</span><div class="cr-report-journal-date-line"></div><span class="cr-report-journal-field-label" style="margin-left:20px;">Topic / Event:</span><div class="cr-report-journal-event-line"></div></div>';
+      html += '<div class="cr-report-journal-lines">' + journalLines + '</div>';
+      html += '<div class="cr-report-journal-footer">Each attorney visit: note the date, duration, and what was discussed. Each court date: note what happened and what was said. Medical: note symptoms, requests, and responses.</div>';
+      html += '</div>';
+    }
+
+    html += '</div>'; // .cr-report
 
     document.getElementById('cr-report-html').innerHTML = html;
     var output = document.getElementById('cr-report-output');
@@ -1702,6 +1979,25 @@
     document.querySelector('.cr-wizard-header h2').textContent = 'Case Brief Ready';
     document.querySelector('.cr-wizard-header p').textContent = 'Print this and mail it to the person inside. Free.';
     output.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  /* ---- Intake step: meetings buttons ------------------------------------ */
+  var meetingsOpts = document.querySelectorAll('#wizard-meetings-opts .cr-wizard-intake-opt');
+  meetingsOpts.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      meetingsOpts.forEach(function(b) { b.classList.remove('selected'); });
+      this.classList.add('selected');
+      wizardMeetings = parseInt(this.getAttribute('data-meetings'));
+    });
+  });
+
+  /* ---- Sync wizard arrest date → status console ------------------------ */
+  var wizardArrestInput = document.getElementById('wizard-arrest-date');
+  if (wizardArrestInput) {
+    wizardArrestInput.addEventListener('change', function() {
+      var d = document.getElementById('arrest-date');
+      if (d) { d.value = this.value; d.dispatchEvent(new Event('change')); }
+    });
   }
 
   updateProgress();
@@ -1731,6 +2027,8 @@
   if (genBtn) genBtn.addEventListener('click', openReportWizard);
   var genBtnM = document.getElementById('cr-gen-btn-m');
   if (genBtnM) genBtnM.addEventListener('click', openReportWizard);
+  var genBtnAwait = document.getElementById('cr-gen-btn-await');
+  if (genBtnAwait) genBtnAwait.addEventListener('click', openReportWizard);
 
   var wizardBackBtn = document.getElementById('wizard-back-btn');
   if (wizardBackBtn) {
@@ -2156,6 +2454,97 @@
 
   var pleaGenBtn = document.getElementById('cr-plea-gen-btn');
   if (pleaGenBtn) pleaGenBtn.addEventListener('click', buildPleaReport);
+
+  /* ---- BOP Security Designation Calculator --------------------------------- */
+  var bopScores = {};
+  var bopPSF = [];
+
+  function calcBop() {
+    var total = 0;
+    var psfs = [];
+    Object.keys(bopScores).forEach(function(k) { total += bopScores[k]; });
+    // Immigration detainer is also a PSF
+    if (bopScores.detainer_psf) psfs.push('Deportable alien (immigration detainer)');
+    if (document.getElementById('psf-sex')      && document.getElementById('psf-sex').checked)      psfs.push('Sex offender (current offense)');
+    if (document.getElementById('psf-sentence') && document.getElementById('psf-sentence').checked) psfs.push('Sentence of 10 or more years');
+    if (document.getElementById('psf-gang')     && document.getElementById('psf-gang').checked)     psfs.push('Security Threat Group / gang affiliation');
+
+    var answered = Object.keys(bopScores).length;
+    var totalFields = 7; // offense, violence, history, detainer, escape, surrender, age
+    if (answered < 2) {
+      document.getElementById('cr-bop-result').innerHTML = '<div class="cr-bop-result-waiting">Select responses above to calculate your estimated designation level.</div>';
+      return;
+    }
+
+    var level, levelClass, levelDesc;
+    if (total <= 11 && psfs.length === 0) {
+      level = 'MINIMUM'; levelClass = 'min';
+      levelDesc = 'A Minimum security prison camp (FPC). The most favorable designation. Typically open dormitory housing, lower supervision, work programs, and often located adjacent to a Low or Medium facility. Eligibility for home confinement and halfway house placement may come sooner.';
+    } else if (total <= 11 && psfs.length > 0) {
+      level = 'LOW'; levelClass = 'low';
+      levelDesc = 'Your score qualifies for Minimum, but one or more Public Safety Factors prevent that designation. The likely outcome is a Low security Federal Correctional Institution (FCI). If the PSF can be addressed (e.g., an ICE detainer resolved), re-designation is possible.';
+    } else if (total <= 15) {
+      level = 'LOW'; levelClass = 'low';
+      levelDesc = 'A Low security Federal Correctional Institution (FCI). Dormitory or cubicle housing, perimeter fencing, work and programming available. The population at Low security facilities varies significantly — location matters.';
+    } else if (total <= 23) {
+      level = 'MEDIUM'; levelClass = 'med';
+      levelDesc = 'A Medium security Federal Correctional Institution (FCI). More restrictive than Low — cell or room housing, perimeter fencing with detection systems. Programming and work assignments are available but more regimented.';
+    } else {
+      level = 'HIGH'; levelClass = 'high';
+      levelDesc = 'A High security United States Penitentiary (USP). Cell housing, armed perimeter, restricted movement, limited programming. Points above 24 generally result in a USP designation unless other factors reduce classification upon review.';
+    }
+
+    var html = '<div class="cr-bop-level cr-bop-level--' + levelClass + '">';
+    html += '<div class="cr-bop-level-label">Estimated Security Level</div>';
+    html += '<div class="cr-bop-level-val">' + level + '</div>';
+    html += '<div class="cr-bop-level-pts">Total points: ' + total + ' of ' + totalFields + ' categories answered</div>';
+    html += '</div>';
+    html += '<div class="cr-bop-level-desc">' + levelDesc + '</div>';
+
+    if (psfs.length > 0) {
+      html += '<div class="cr-bop-psf-warn">';
+      html += '<strong>&#9888; Public Safety Factors present — cannot be designated Minimum:</strong>';
+      html += '<ul>';
+      psfs.forEach(function(p) { html += '<li>' + p + '</li>'; });
+      html += '</ul></div>';
+    }
+
+    if (answered < totalFields) {
+      html += '<div class="cr-bop-partial">Note: ' + (totalFields - answered) + ' factor(s) not yet answered — complete all sections for a full estimate.</div>';
+    }
+
+    html += '<div class="cr-bop-factors">';
+    html += '<strong>What can reduce your score after designation:</strong>';
+    html += '<ul>';
+    html += '<li>Participating in RDAP (drug program) can earn up to 12 months off the sentence and opens doors for camp placement.</li>';
+    html += '<li>Clear conduct record — no disciplinary incidents after intake — supports lower security re-designation after 18 months.</li>';
+    html += '<li>Completing educational or vocational programs adds to your Reentry record.</li>';
+    html += '<li>If an ICE detainer applies, working with an immigration attorney to resolve it before BOP intake may allow a lower designation.</li>';
+    html += '</ul></div>';
+
+    document.getElementById('cr-bop-result').innerHTML = html;
+  }
+
+  // Wire up BOP option buttons
+  document.querySelectorAll('.cr-bop-opts').forEach(function(group) {
+    var key = group.getAttribute('data-bop-key');
+    group.querySelectorAll('.cr-bop-opt').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        group.querySelectorAll('.cr-bop-opt').forEach(function(b) { b.classList.remove('selected'); });
+        this.classList.add('selected');
+        bopScores[key] = parseInt(this.getAttribute('data-pts'));
+        // Immigration detainer PSF flag
+        if (key === 'detainer') {
+          if (this.getAttribute('data-psf') === 'deportable') bopScores['detainer_psf'] = 1;
+          else delete bopScores['detainer_psf'];
+        }
+        calcBop();
+      });
+    });
+  });
+  document.querySelectorAll('#bop-psf-checks input[type="checkbox"]').forEach(function(cb) {
+    cb.addEventListener('change', calcBop);
+  });
 
   /* ---- First-time visitor flag ------------------------------------------ */
   localStorage.setItem('stf_visited', '1');
