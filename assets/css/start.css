@@ -1671,11 +1671,8 @@ body::before {
   border-left: 2px solid #ccc;
 }
 
-/* 6th dispatch button — hide on mobile tab strip */
+/* 6th dispatch button — visible everywhere; mobile strip scrolls */
 .cr-dispatch-btn--tool { display: flex; }
-@media (max-width: 768px) {
-  .cr-dispatch-btn--tool { display: none; }
-}
 
 /* ============================================================================
    PRINT — report output only
@@ -1698,8 +1695,16 @@ body::before {
   body:not([data-printing="plea"]) .cr-report-print-bar { display: none !important; }
   body:not([data-printing="plea"]) #cr-report-output { display: block !important; }
   .cr-report { background: #fff !important; border-radius: 0; padding: 0; max-width: none; }
-  .cr-report-title { color: #000; }
-  .cr-report-stat-val { color: #000; }
+  /* Force all text in case brief to dark — CSS vars stay light without this */
+  body:not([data-printing="plea"]) #cr-report-html { color: #111 !important; }
+  body:not([data-printing="plea"]) #cr-report-html * { color: inherit !important; background: transparent !important; }
+  body:not([data-printing="plea"]) #cr-report-html .cr-report { background: #fff !important; color: #111 !important; }
+  body:not([data-printing="plea"]) #cr-report-html .cr-report-eyebrow,
+  body:not([data-printing="plea"]) #cr-report-html .cr-report-footer-note { color: #555 !important; }
+  body:not([data-printing="plea"]) #cr-report-html .cr-report-stat-label { color: #666 !important; }
+  body:not([data-printing="plea"]) #cr-report-html .cr-report-masthead { border-bottom: 1px solid #ccc !important; background: transparent !important; }
+  body:not([data-printing="plea"]) #cr-report-html .cr-report-status-bar { background: #f4f4f4 !important; border: 1px solid #ddd !important; }
+  body:not([data-printing="plea"]) #cr-report-html .cr-report-section { border-bottom: 1px solid #eee !important; }
 
   /* Plea review print mode */
   body[data-printing="plea"] #cr-panel > .cr-screen:not(#screen-plea) { display: none !important; }
@@ -1713,6 +1718,18 @@ body::before {
   body[data-printing="plea"] .cr-report-print-bar { display: none !important; }
   body[data-printing="plea"] #cr-plea-output { display: block !important; }
   .cr-plea-report { background: #fff !important; border-radius: 0; max-width: none; padding: 0; }
+  /* Force all text in plea review to dark */
+  body[data-printing="plea"] #cr-plea-report-html { color: #111 !important; }
+  body[data-printing="plea"] #cr-plea-report-html * { color: inherit !important; background: transparent !important; }
+  body[data-printing="plea"] #cr-plea-report-html .cr-plea-report { background: #fff !important; color: #111 !important; }
+  body[data-printing="plea"] #cr-plea-report-html .cr-plea-report-masthead { border-bottom: 2px solid #222 !important; background: transparent !important; }
+  body[data-printing="plea"] #cr-plea-report-html .cr-plea-report-flag { color: #000 !important; background: #fff8f0 !important; border: 1px solid #e07000 !important; }
+  body[data-printing="plea"] #cr-plea-report-html .cr-plea-report-flag::before { color: #e07000 !important; }
+  body[data-printing="plea"] #cr-plea-report-html .cr-plea-report-row-label { color: #444 !important; }
+  body[data-printing="plea"] #cr-plea-report-html .cr-plea-report-val--flag { color: #c05000 !important; font-weight: 700 !important; }
+  body[data-printing="plea"] #cr-plea-report-html .cr-plea-report-matrix { background: #f8f8f8 !important; border: 1px solid #ddd !important; }
+  body[data-printing="plea"] #cr-plea-report-html dt { color: #000 !important; }
+  body[data-printing="plea"] #cr-plea-report-html dd { color: #333 !important; }
 }
 
 /* ============================================================================
