@@ -1,0 +1,2557 @@
+# Client Directives — Condition-by-Condition Interview Log
+
+Working log of client's pass/argument decisions, condition by condition, per the
+client's explicit instruction: go condition by condition first, group afterward for
+drafting. Do not treat this as legal argument yet — this is client instruction capture.
+
+---
+
+## Special Condition (a) — CIMP / Computer & Internet Monitoring
+
+**Verbatim (Sheet 3B):** "The defendant shall not use or possess any computer, data
+storage device, or any internet capable device unless the defendant participates in
+the Computer and Internet Monitoring Program (CIMP)... The U.S. Probation Office is
+authorized to install any application as necessary to surveil all activity on
+computer(s) or connected device(s) owned or operated by the defendant. The defendant
+will be required to pay the cost of monitoring services..."
+
+**Confirmed: the word "employ"/"employer"/"employment" does NOT appear anywhere in
+this condition's text** (verified against the source PDF directly, not just the
+intake transcription). "Employ-" only appears in Standard Condition 7 (full-time
+employment requirement) and the sex-offender-registration special condition
+(register wherever employed) — neither is the CIMP condition.
+
+**Note on the condition's opening operative word:** the condition begins "The
+defendant shall not **USE** or possess any computer..." — the operative verb is
+USE (and possess), not merely "own" or "access." Relevant to the employer
+scenario: Bernecky told the employer he would not need to *use* the shared
+computers for his job duties — the condition's own opening verb is arguably not
+even triggered by an internal, non-web account he doesn't personally use for
+anything but incidental login purposes. Flag for the drafting/research phase.
+
+**Attribution correction:** "like kind and degree" is the **client's own
+characterization** of the PO's monitoring-parity statement, not a verbatim
+quote from the probation officer. Do not treat it as PO's exact words in any
+drafting — get the PO's actual language (or lack of a fixed formulation) from
+the client before citing it as a quote.
+
+### Fact pattern — employer/occupational effect
+- Bernecky in BOP community custody; temp-service placement led to a real hiring
+  opportunity at a contact lens manufacturer.
+- Fully disclosed conviction/supervision status to employer.
+- Employer raised Fourth Amendment concerns about CIMP reaching their business
+  systems and wants judicial assurance their rights won't be implicated.
+- Bernecky authorized PO to contact HR; PO said she would call — during that same
+  conversation (explaining to Bernecky what would/wouldn't create a problem), the
+  PO stated the employer would need to independently demonstrate "like kind and
+  degree" monitoring capability, including keystroke-level logging. **Correction:**
+  this was said at the time of that explanatory conversation, not as a new demand
+  made "now." PO has not yet followed up with HR after more than a week.
+- Bernecky told the employer he would not need to access shared computers for his
+  job. Employer nonetheless offered a mitigation: give him an internal-only
+  account, disable internet/public web access on that account.
+- Job is effectively suspended pending resolution. Bernecky just signed a lease;
+  financially precarious.
+- **Client's assessment: even if this specific job is salvaged, this problem is
+  structural and will recur with any future employer** — this needs to be resolved
+  as a matter of the condition's scope/application, not just this one job.
+
+### MAJOR FACT-PATTERN CORRECTION (given after reviewing the first motion
+draft) — it was the employer, not Probation, that first read the condition
+broadly
+
+**The causal sequence above was wrong in a way that mattered to the drafted
+argument, and it needed fixing before anything else.** Corrected sequence,
+in the client's own words and account:
+
+1. **The employer** — not Probation — read the CIMP condition's text on its
+   own and got worried about its own systems being reached. This is the
+   origin of the concern; Probation did not initiate a demand.
+2. Bernecky then called the PO himself to try to clear the ambiguity up.
+   **The PO's actual comment was informal and non-committal: "it should be
+   fine so long as they have a way to monitor him."** This is not a formal
+   "like kind and degree"/keystroke-parity demand — that characterization,
+   already flagged once before as the client's own paraphrase rather than a
+   verbatim PO quote, should not be used at all going forward. Use the PO's
+   actual words above instead.
+3. **Since then, Probation has done nothing to resolve it.** Bernecky has
+   separately reached out to both the company's HR department and to
+   Probation. **HR says Probation has never contacted them at all** —
+   confirming the PO never followed through on the "would call" she
+   mentioned. **The PO has not returned any of Bernecky's emails either.**
+4. Bernecky does not believe the employer will hold the job much longer.
+   He may become unemployed at the exact moment of transition from RRC
+   placement into supervision — which he describes as "the complete
+   opposite of the purpose of the Second Chance Act and supervised
+   release." This framing point (Second Chance Act/rehabilitative purpose)
+   should be used rhetorically in the motion's introduction/statement of
+   facts.
+
+**Legal consequence of this correction:** the "ultra vires demand" framing
+in Part A.3 of the draft (Probation exceeding its authority via an
+affirmative demand) is not accurate as the lead characterization — no
+formal demand was ever actually made by Probation. **The more accurate, and
+arguably stronger, framing is a vagueness/ambiguity argument reinforced by
+real-world confirmation:** a sophisticated third party (the employer),
+reading the condition's text independently and without any prompting from
+Probation, construed it as potentially reaching its own systems. That is
+not a hypothetical, argued-from-first-principles vagueness claim — it is
+direct, contemporaneous, real-world proof that the condition's text is
+genuinely ambiguous and reasonably susceptible to the overbroad reading,
+exactly the kind of confirmation *United States v. Mike*'s vagueness
+holding was built on (there, the court held a condition vague because a
+probation officer *could* reasonably read it broadly; here, a third party
+actually did, unprompted). Separately and additionally, Probation's total
+non-responsiveness since then — no follow-up with HR, no response to
+Bernecky's emails — is itself part of the harm: the ambiguity remains
+completely unresolved while the job evaporates in real time.
+
+**Action: rewrite the Preliminary Statement, Statement of Facts, and
+Argument Part A.3 of the motion draft to reflect this corrected sequence.
+Not yet done as of this entry — flagged as the next task.**
+
+### CLIENT PUSHBACK (round 2, after reviewing the corrected draft) — three
+more corrections
+
+1. **Don't hedge the CIMP/employer argument as "ambiguity."** Client's
+   controlling instruction: the word "employer" does not appear in the
+   condition at all — therefore there is no employer-facing condition,
+   period, not merely an "ambiguous" one that might or might not reach
+   employer systems. **All Bernecky needs is a clarifying order confirming
+   the condition does not apply to employer systems — which is exactly
+   what the employer itself wants.** The vagueness/*Mike* material should
+   not be presented as the operative legal conclusion ("the text is
+   genuinely ambiguous") — it should, if used at all, support only the
+   *remedy* (a clarifying order, the same remedy *Mike* itself ordered),
+   not the premise that the law is unsettled. Lead with the certain,
+   affirmative argument: silence as to "employer" means no employer
+   authority was ever granted.
+2. **The Statement of Facts jumps abruptly from the employer issue to
+   "his sister had children" with no transition** — reads as confusing,
+   not as two clearly separated topics. Needs an actual transition sentence
+   introducing the family-contact issue as a distinct topic before diving
+   into the sister/niece-nephew fact.
+3. **The family-contact argument itself was mischaracterized.** It is
+   **not** about Bernecky wanting specific access to see his sister's
+   children. The real point: because the condition's only carve-out
+   ("excluding his biological or adopted children") is a null set, and
+   because no individualized danger finding was ever made as to *any*
+   family member, the condition functions as a **de facto ban on being
+   present at family gatherings or events at all** — since any minor
+   family member might unpredictably be there. **Client's own illustrative
+   examples, to be used directly:** stopping by his mother's house for
+   Christmas and his sister arriving with her kids; grandchildren stopping
+   by unexpectedly. This — being forced to avoid ordinary family life
+   because of who *might* show up, with no finding he is a danger to
+   anyone — is precisely the level of familial association the
+   Constitution protects. Rewrite Part D around this framing, not around a
+   narrower "wants contact with specific nieces/nephews" framing.
+4. **Argument Part A.1, as drafted, "meant nothing" to the client — too
+   abstract, doesn't explain what's actually going on.** Needs to be
+   grounded and concrete: plainly state that "employer" never appears in
+   the condition, connect that directly back to the real dispute (this is
+   why a clarifying order is needed now, so Probation and the employer
+   both know for certain the condition does not reach the employer's
+   systems), rather than reading as free-floating delegation-doctrine
+   discussion.
+
+**Action: rewrite Preliminary Statement/A.1/A.3 (definitive framing, not
+ambiguity-hedged), Statement of Facts (add transition), and Part D (de
+facto family-event-ban framing with client's own illustrative examples).**
+
+### Theories identified so far (employer/occupational context)
+1. **§ 5F1.5 / §§ 3563(b)(5), 3583(d) procedural failure** — no two-part
+   occupational-restriction finding was ever made; nothing on the face of the
+   Judgment shows one was intended.
+2. **Ultra vires / no personal jurisdiction over the employer** — the PO's
+   "like kind and degree" / keystroke-parity demand directed at a non-party
+   employer has **zero textual basis** in the condition (condition never mentions
+   employers or third-party systems at all) and exceeds any authority the court
+   or Probation has over a non-party.
+3. **Limits of the "common sense reading" doctrine** — client flags that the
+   Second Circuit routinely resolves overbreadth/vagueness challenges to
+   supervised-release conditions by construing them "in a common sense manner"
+   (punting on facial challenges). Client's position: that interpretive tool
+   cannot be used to bind a non-consenting third party's Fourth Amendment
+   interests just because the court assumes reasonable administration — a
+   third party's rights aren't satisfied by the government's assurance it will
+   be "reasonable" about violating them. **Research task: identify the 2d Cir
+   cases that invoke this "common sense" resolution (candidates already in the
+   Drive folder: Browder, Lifshitz, Boles-adjacent standing order) and assess
+   whether any circuit authority addresses conditions as applied to a
+   non-consenting third party's own property/systems.**
+
+### Personal-life theories — expanded (client confirms theories 1–3
+employer/occupational track settled; discussion below continues theories 4–6)
+
+**Keystroke monitoring specifically:** client has a strong objection to
+keystroke-level logging distinct from general computer/internet monitoring, and
+believes case law has limited this specific practice considerably (as opposed
+to monitoring generally, e.g., URL/website-history-level review). **Research
+task: find the case law distinguishing keystroke-level logging from lower-
+intrusion monitoring methods and any limits circuits have placed on keystroke
+logging as a supervision tool.** Starting candidates to check: *United States
+v. Lifshitz*, 369 F.3d 173 (2d Cir. 2004) (already in Drive folder as
+`United States v. Lifshitz_ Warrantless Computer Monitoring and th.pdf`) —
+**[VERIFY whether Lifshitz itself addresses keystroke logging specifically or
+only monitoring/search generally, and find any more targeted authority].**
+
+**Per-device cost structure — new sub-theory:** the CIMP condition's "pay the
+cost of monitoring services" is charged **per device**, not as a flat fee. This
+has two compounding problems:
+1. **Financial impossibility of full compliance:** with monitoring costs
+   multiplying per device (phone, computer, television, etc.), full compliance
+   across every qualifying device in an ordinary household is not
+   realistically affordable — forcing Bernecky into an artificial choice of
+   which single device to monitor/keep and which to forgo, which is not what
+   the condition contemplates on its face (it does not say "choose one").
+2. **Does not address IoT devices at all:** smart/connected devices (the
+   client's earlier example: a networked refrigerator) may fall within
+   "connected device" by the condition's broad text, but there may be no
+   commercially available CIMP-compatible monitoring software for such
+   devices — making compliance not just expensive but technically impossible
+   for a growing category of ordinary consumer electronics.
+
+**Cross-reference:** this per-device cost problem is a CIMP-specific instance
+of the broader fee-transparency/undisclosed-cost problem already flagged for
+the fee group generally (see Section 8(d) of the original intake) — tie
+together at drafting.
+
+### Theories identified so far (personal-life application — same condition,
+separate track — client says "we'll talk more about this," flagged not resolved)
+4. **Vagueness/overbreadth of "operated by the defendant"** as applied to
+   everyday devices in ordinary civilian life — banking terminals/ATMs, library
+   computers, smart appliances/IoT devices (client's example: a networked
+   refrigerator), and similar shared/ambient technology no one could reasonably
+   read the condition to reach.
+5. **First Amendment right-to-petition chilling effect** — keystroke-level
+   monitoring would capture, e.g., correspondence to a member of Congress
+   advocating for changes to probation's supervisory authority — a core
+   petition-clause-protected activity, chilled by the surveillance itself.
+6. **Right to counsel / privileged communications chilling effect** — keystroke
+   monitoring would capture communications with an attorney "for any reason
+   whatsoever," raising access-to-courts and attorney-client privilege concerns
+   independent of the offense conduct being supervised.
+
+**Status: CONDITION (a) CLOSED.** Theories 1–3 (employer/occupational) and 4–6
+(personal-life, incl. keystroke case-law flag and per-device cost sub-theory)
+fully captured. Ready for research phase.
+
+### REOPENED — keystroke monitoring elimination argument (client's "final
+question," post-research-phase)
+
+Client is not asking to eliminate CIMP monitoring generally — **"he is fine
+with monitoring"** — but specifically wants to get rid of **keystroke-level**
+logging, on two combined grounds:
+
+1. **No protection for attorney-client and other legally protected contact.**
+   Keystroke logging captures privileged/protected communications (attorney-
+   client, and by extension theories 5–6 above: petition-clause correspondence,
+   access-to-courts material) with no carve-out, filter, or minimization
+   procedure in the condition as currently administered.
+2. **Nexus/narrow-tailoring theory (new): the offense is "entirely pictorial."**
+   Bernecky's underlying offense conduct is image-based (child pornography
+   possession), not text- or communication-based. Client's theory: there is no
+   legitimate offense-based justification for monitoring all typed text/
+   keystrokes system-wide when the offense conduct being supervised is
+   exclusively about image content, not written communication. A narrower,
+   content/image-focused monitoring approach (matching what CIMP software
+   actually needs to catch — image files, image-sharing traffic, image-hosting
+   site visits) would be reasonably related to the offense; blanket keystroke
+   logging of all typed text is broader than that and should fail § 3583(d)'s
+   reasonably-related/no-greater-deprivation-than-necessary test as applied to
+   this defendant's specific offense conduct.
+
+**This connects to, but goes beyond, the already-logged theories 4–6 above
+and the Lifshitz footnote 10 finding** (Track 5: keystroke monitoring named as
+the paradigm most-intrusive monitoring method) — those theories flagged
+keystroke monitoring as a problem; this directive asks specifically for the
+affirmative argument and remedy (eliminate/narrow keystroke logging while
+retaining other CIMP monitoring).
+
+**Research task (not yet performed as of this entry):** (a) case law
+protecting attorney-client privileged communications from broad supervised-
+release/probation monitoring conditions — is there a recognized carve-out or
+minimization requirement, and has any court required one as a condition of
+upholding computer-monitoring conditions; (b) case law or § 3553(a)/3583(d)
+narrow-tailoring analysis distinguishing content-type-specific offense
+conduct (image-based) from communication-type monitoring (text/keystroke) —
+i.e., authority for the proposition that a monitoring condition must be
+tailored to the *type* of conduct that produced the offense, not just to the
+general instrumentality (a computer) used to commit it.
+
+**Status: RESEARCHED (Track 18, part18-keystroke-monitoring.md). Summary below.**
+
+**Key finding — framing correction needed:** Bernecky's own Judgment's CIMP
+condition already contains a privilege-avoidance clause ("designed to avoid,
+as much as possible, reading any privileged information or any private
+material that is not illegal"). *United States v. Kunz*, 68 F.4th 748,
+766-67 (2d Cir. 2023), construes this **identical, word-for-word** WDNY
+boilerplate clause and holds it is a **real, judicially enforceable
+constraint on Probation** — not surplusage. **This means the motion should
+NOT claim "no privilege carve-out exists" (that overstates it and is an
+easily-exploited weakness) — the correct, stronger argument is that
+keystroke-level logging, as a category, cannot be reconciled with a clause
+already in the Judgment requiring Probation to avoid reading privileged
+material.** This is an as-applied/as-administered theory built on Bernecky's
+own existing condition text plus a directly-on-point Second Circuit
+construction of it — not a request for the court to invent new law.
+
+**Pictorial-nexus theory:** well-supported by analogy but not squarely
+decided. *United States v. Sofsky*, 287 F.3d 122, 126-27 (2d Cir. 2002)
+(same offense type — image-based CP), quoted in both *Lifshitz* and *Kunz*,
+holds a "more focused restriction, limited to pornography sites and images"
+is an adequate narrower alternative to a computer/internet ban. *Lifshitz*'s
+own footnote 11 separately approves keyword/phrase-triggered monitoring (a
+text-based, not image-based, narrowing example) as a narrower alternative to
+"recording all varieties of computer-related activity" — i.e., to what
+keystroke logging does. Neither case holds that offense-conduct type
+(image vs. text) is itself the doctrinal limit on monitoring scope — that is
+Bernecky's own sound extension of the "reasonably related to the offense" /
+"no greater deprivation than necessary" framework both cases already apply.
+
+**Honest gaps, confirmed (not overclaimed):** no case anywhere uses the words
+"attorney-client privilege" in the computer-monitoring-condition context; no
+case addresses whether automated capture/storage of privileged material
+(before any human reviews it) violates a clause phrased in terms of avoiding
+"reading" it — this remains a genuinely open question, favorable in that
+nothing forecloses it, but meaning the argument needs a factual/technical
+showing (how CIMP software actually captures/stores/reviews data) rather than
+a case squarely deciding the point; no circuit split or trend narrows
+keystroke logging specifically as opposed to monitoring generally.
+
+**Recommended relief (Kunz's own preferred remedial approach — construe
+rather than invalidate):** ask the court for a clarifying/modifying order
+holding that the existing privilege clause requires Probation to implement
+CIMP using a method that does not indiscriminately capture privileged
+content (e.g., website/domain-level review, image-file/hash scanning, or
+keyword-triggered flagging of the kind *Lifshitz* footnote 11 itself
+approved), rather than full keystroke capture — not a facial attack on
+keystroke logging as categorically unlawful.
+
+**Action: fold this into the master outline for Special Condition (a) as a
+distinct sub-argument (privilege-clause-as-applied, layered with the
+pictorial-nexus extension); revise the "no carve-out exists" framing
+throughout to "the existing carve-out cannot be honored by keystroke
+logging."**
+
+### NEW THEORY (7) — place/device-capability tailoring: the offense happens
+in one place, on one class of device
+
+Client's theory: nearly all offenses of this kind occur in the same physical
+setting — **a private residence/bedroom** — using devices with the specific
+technical capability to locate, retrieve, and display image content. **"The
+crime is not committed at a coffee shop or while walking in the grocery
+store."** Monitoring should be tailored to that reality rather than to a
+blanket "any device the defendant operates" standard that sweeps in
+employer systems, public terminals, borrowed third-party devices, and IoT
+devices with no image-display capability at all.
+
+**Proposed structure:**
+- **Forbid, rather than monitor:** it is perfectly acceptable to prohibit
+  Bernecky from *using* another person's personal device — a clean,
+  easily-enforced behavioral restriction that requires no monitoring
+  authority over a non-party's property at all, and sidesteps the
+  ultra vires/third-party-reach problem (Special Condition (a) theory 2)
+  entirely.
+- **Monitor only what he owns and brings home, and only if it's capable of
+  the relevant conduct:** the devices actually subject to monitoring should
+  be defined functionally — devices Bernecky owns and keeps/brings back to
+  his residence that are **capable of locating, accessing, storing, or
+  displaying illegal images** — not every "connected device" the current
+  condition's text sweeps in (client's recurring networked-refrigerator/IoT
+  example, already flagged under theory 4).
+- **This is not a computer-fraud case:** unlike an offense where the
+  *content of communications or keystrokes themselves* is legally
+  significant (fraud, threats, extortion — cases where what was typed is
+  the crime), Bernecky's offense is defined entirely by image content.
+  Monitoring authority should track that distinction.
+
+**Note: this ties together, and gives a unifying doctrinal frame to, three
+existing theories** — the employer/ultra vires theory (theory 2), the
+"operated by the defendant" vagueness theory (theory 4), and the
+pictorial-nexus/keystroke theory (Track 18) — around a single organizing
+principle: **nexus should be keyed to place (private residence, not public
+spaces or third-party systems) and device capability (image-capable devices
+he owns, not every connected object), not to a blanket "any device,
+anywhere, operated in any way" standard.**
+
+**Research task: find case law tying the scope of a computer/device
+monitoring condition to (a) the location where the offense conduct actually
+occurred (private residence vs. public/third-party spaces), and (b) the
+technical capability of a device to be relevant to the offense conduct, as
+opposed to blanket "any connected device" language. Cross-reference already-
+confirmed *Lifshitz*/*Sofsky* narrow-tailoring framework and § 5F1.5's
+"conduct relevant to the offense of conviction" analogy (Track 18) for the
+doctrinal hook.**
+
+### NEW THEORY (8) — freedom of thought: monitoring has become an
+instrument of ideological/psychological reformation, not crime prevention
+
+Client's concern, in his own words: **"this monitoring has gone from crime
+prevention to trying to control the supervisee's personal thoughts, an act
+abhorrent to our constitutional order (the [courts] have held that
+gover[nment] can't tell you how to think)."** The mechanism: CIMP data
+captured by Probation is provided to a treatment provider ("therapist"), who
+uses it to try to shape a specific thought process through CBT. Client is
+explicit that **CBT itself is legitimate and valuable** — the objection is
+to this specific application of it: using continuous, comprehensive
+surveillance data as an input for compelling or molding a person's internal
+thought process, which client believes exceeds what CBT is supposed to be
+used for and crosses into government-directed thought control.
+
+**This is an ambitious, novel constitutional theory — flag as such, not as
+settled law. Known doctrinal terrain to research carefully, honestly, and
+without overclaiming:**
+- **Likely favorable anchors to check:** *West Virginia State Bd. of Educ.
+  v. Barnette*, 319 U.S. 624 (1943) ("no official ... can prescribe what
+  shall be orthodox in politics, nationalism, religion, or other matters of
+  opinion") — closest fit to client's own phrasing; *Stanley v. Georgia*,
+  394 U.S. 557 (1969) (right to possess/read materials privately in the
+  home free of government control over the content of one's thoughts).
+- **Likely adverse authority that MUST be confronted head-on, not avoided:**
+  *Osborne v. Ohio*, 495 U.S. 103 (1990), expressly held *Stanley* does
+  **not** extend to child-pornography possession, given the harm to actual
+  children depicted and the state's interest in destroying the market for
+  such material — this is the government's obvious, powerful rejoinder to
+  any *Stanley*-based argument here, and must be researched and either
+  honestly distinguished (the argument is not about a right to possess CP,
+  but about the propriety of an ongoing *surveillance-into-treatment*
+  mechanism aimed at reshaping thought, which is analytically distinct from
+  criminalizing possession itself) or the theory's scope narrowed
+  accordingly.
+- **Also check:** any sex-offender-specific-conditions case law addressing
+  limits on mandatory treatment/"cognitive distortion" programs, compelled-
+  admission-of-guilt-as-treatment-precondition cases (already adjacent to
+  the Fifth Amendment polygraph research, Track 2), and *Turner v. Safley*-
+  style reasonableness review where it has been imported into supervised-
+  release-conditions review generally.
+
+**Client's own caveat should be preserved verbatim in any drafting:** the
+objection is not to treatment or to monitoring as such, but to the specific
+combination — comprehensive, real-time data capture feeding into a
+provider's effort to reshape a specific thought pattern — as an
+unconstitutional overreach beyond crime prevention and into thought control.
+
+**Research task: dedicated, careful pass on freedom-of-thought/compelled-
+ideological-conformity doctrine as applied (if ever) to supervised-release
+treatment/monitoring conditions, confronting *Osborne* honestly rather than
+citing *Stanley* without addressing it. Report candidly if no case has ever
+applied this theory in this specific context — this may be genuinely
+unbriefed territory, which should be disclosed as such, not disguised as an
+established argument.**
+
+**Status: BOTH THEORIES RESEARCHED. Theory 7 — Track 19,
+part19-place-device-tailoring.md (summary follows Theory 8's summary
+below). Theory 8 — Track 20, part20-freedom-of-thought.md.**
+
+### TRACK 19 RESULT — Theory 7 (place/device-capability tailoring):
+credible synthesis argument, one strong out-of-circuit holding doing real
+work
+
+**Bottom line: no case squarely ties monitoring's geographic/ownership
+scope to where the offense occurred as a named doctrine — a genuine gap —
+but a real, on-point (if out-of-circuit) primary-source holding reaches
+functionally the same result, and device-capability-based scoping turns out
+to be an established, multi-circuit drafting convention.**
+
+- **Strongest new find:** *United States v. Mike*, 632 F.3d 686 (10th Cir.
+  2011) (read in full), applying *United States v. Matteson*, 327 F. App'x
+  791 (10th Cir. 2009) — held a computer-monitoring condition
+  **unconstitutionally vague** where it could be read to reach devices the
+  defendant doesn't own, **expressly including his employer's computers**,
+  and remanded to narrow it to owned devices. The government there argued
+  the condition "cannot fairly be read" to reach employer computers — the
+  Tenth Circuit rejected that argument. **Directly parallel to Bernecky's
+  own fact pattern** (Probation already reading "owned or operated by the
+  defendant" to reach the employer's systems). Out-of-circuit, persuasive
+  only, but the single strongest building block for "monitor only what he
+  owns."
+- **Capability-based device definitions are an accepted multi-circuit
+  convention**, not a novel ask — several circuits already define
+  restricted-device categories by Internet-*capability* rather than blanket
+  "any device" language (*Granger*, *Rath*, *Ullman*, *Fletcher*,
+  *Phillips* — all FJC Guide-sourced, [VERIFY] against reporters).
+  Bernecky's proposed image-capability threshold is a one-step, modest
+  extension of this existing convention.
+- **Genuinely useful textual hook found in Bernecky's own condition:** the
+  CIMP condition already opens with "any **internet capable** device" as a
+  threshold qualifier — but the separate monitoring-authorization clause
+  ("surveil all activity on computer(s) or connected device(s) owned or
+  operated by the defendant") drops that capability qualifier entirely.
+  **The argument is to restore internal consistency to the condition's own
+  drafting logic**, recalibrated to image-capability given this offense —
+  not to import a foreign concept.
+- **No case anywhere addresses IoT/smart-appliance overbreadth
+  specifically** (the networked-refrigerator example) — confirmed gap, must
+  be argued from first principles plus the *Ullman* gaming-console
+  analogy.
+- **"Forbid rather than monitor" third-party devices** — no case addresses
+  this structure directly; it's a sound, first-impression synthesis of this
+  case's own already-built least-restrictive-means (Lifshitz/Sofsky),
+  ultra vires (part1), and standing (part13, *Bond*) doctrine — actually a
+  *cleaner* alternative than even the employer-veto "Path 2" language
+  already proposed, since it needs no third-party cooperation at all.
+- **Broader reinforcing find:** a genuine, multi-circuit "simple possession"
+  vs. "child pornography plus" (solicitation/chat/contact) doctrine
+  generalizes, and independently reinforces, Track 18's Sofsky/Lifshitz
+  image-vs-text finding — a related but analytically distinct basis for the
+  same conclusion; cite both, don't merge them.
+- **Kunz footnote 8** already flags an adjacent employer/VPN tension within
+  this exact condition family and treats a § 3583(e)(2) modification motion
+  as the correct vehicle — useful procedural confirmation that this is the
+  right posture, though it doesn't resolve the substantive standard.
+
+**Recommendation (adopted): file Theory 7 as a modification request
+grounded in restoring internal consistency to the condition's own
+capability-based drafting logic, reinforced by *Mike*/*Matteson*'s
+ownership-vagueness holding, the multi-circuit "CP-plus" doctrine, and the
+already-built least-restrictive-means/ultra vires/standing framework for the
+forbid-rather-than-monitor component. Do not represent that any court has
+already tied scope to place-of-offense, addressed IoT overbreadth, or
+blessed the forbid-vs-monitor structure directly — none has; this is a
+synthesis argument, candidly presented as such.**
+
+**Action: fold into the master outline for Special Condition (a) as a
+distinct sub-argument (capability-restoration + Mike/Matteson + forbid-not-
+monitor structure), cross-referenced to theories 2, 4, and Track 18.**
+
+### TRACK 20 RESULT — Theory 8 (freedom of thought): candid, negative-leaning
+recommendation
+
+**Bottom line: no case anywhere applies *Stanley*, *Barnette*, or any
+freedom-of-thought doctrine to a supervised-release monitoring-into-treatment
+mechanism, or to mandatory CBT generally — genuinely unbriefed territory,
+disclosed as such rather than dressed up as settled law.**
+
+- ***Osborne v. Ohio*, confronted directly:** its holding is narrow (only
+  decides whether *possessing* CP can be criminalized) and does not foreclose
+  this theory as a matter of stare decisis — but its *reasoning*
+  ("the State does not rely on a paternalistic interest in regulating [the]
+  mind... it hopes to destroy a market for the exploitative use of children")
+  hands the government a ready template to recast CIMP-fed CBT as legitimate
+  risk-reduction rather than mind control. Must be met head-on, not avoided.
+- ***Stanley*'s "control men's minds" quote is real and accurately
+  remembered** — almost certainly the source of the client's own phrasing —
+  but Osborne already cabined it specifically for this offense category, so
+  it cannot be used without distinguishing Osborne in the same breath.
+- ***Barnette*'s quote is accurate**, and its principle has been imported
+  into one Second Circuit corrections case (*Burns v. Martuscello*, 890 F.3d
+  77 (2d Cir. 2018)) — but only for a right *not to speak* (compelled
+  speech/right not to inform), not for a right against treatment-driven
+  belief reshaping. No case bridges that gap.
+- **Adverse-flavored authority that must be disclosed, not omitted:**
+  *McKune v. Lile*, 536 U.S. 24 (2002), upheld government-mandated
+  admission-of-responsibility/sexual-history treatment content against a
+  Fifth Amendment challenge with no freedom-of-thought concern recognized —
+  cuts against this theory by analogy.
+- **New, previously unflagged find:** *Chiles v. Salazar*, 607 U.S. ___
+  (2026) (Mar. 31, 2026) — SCOTUS held 8-1 that government regulation of
+  therapy content triggers First Amendment scrutiny. Conceptually exciting
+  but protects the *therapist's* speech against a *restriction*, not a
+  *client's* mind against a *directive* — an analogical, non-controlling,
+  very recent data point, not load-bearing authority.
+- **Where courts actually have limited specific treatment techniques**
+  (*United States v. Weber*, 451 F.3d 552 (9th Cir. 2006); *Harrington v.
+  Almy*, 977 F.2d 37 (1st Cir. 1992), both re: penile plethysmography), they
+  did it through the existing § 3583(d) liberty-deprivation/proportionality
+  framework and substantive due process — not a First Amendment
+  thought-control theory.
+
+**Recommendation (adopted): do NOT plead this as a freestanding First
+Amendment "freedom of thought" claim** — no supporting authority exists and
+Osborne/McKune supply real adverse material that would cost credibility if
+the claim were filed as if it were settled law. Instead:
+1. **Use the client's own words as rhetorical/moral framing** in the
+   motion's introduction to the Special Condition (b) discussion — explicitly
+   labeled as argument from principle, not controlling law — quoting Barnette
+   and Stanley candidly as principle, with Osborne distinguished in the same
+   breath.
+2. **Carry the actual legal weight through the already-developed Special
+   Condition (b) delegation theory** (part11: *Matta*/*Kunz*/*Carlineo*/
+   *Browder*): reframe "the government is controlling my mind" into "no
+   court ever authorized this specific surveillance-to-treatment mechanism"
+   — a real, addressable ultra vires/delegation defect under doctrine this
+   case already relies on, not a novel constitutional right requiring
+   invention. This is the same reframing move that worked for the keystroke-
+   logging/privilege theory in Track 18.
+
+**Action: adopt this recommendation for drafting — Theory 8 becomes framing
+language plus an added layer to the Special Condition (b) delegation
+argument, not a standalone constitutional count.**
+
+---
+
+## Special Condition (g) — Polygraph / CVSA
+
+**Verbatim (Sheet 3B):** "The defendant shall submit to polygraph, computerized
+voice stress analyzer or other such testing, not to exceed twice in a calendar
+year, and an additional two re-tests per year, as needed... The defendant shall
+answer the questions posed during the examination, subject to the defendant's
+right to challenge in a court of law the use of such statements as violations of
+the defendant's Fifth Amendment rights. In this regard, the defendant shall be
+deemed not to have waived the defendant's Fifth Amendment rights by making any
+such statements... The defendant is required to contribute to the cost of
+services rendered."
+
+The Judgment's own model is **"answer now, invoke/challenge later"** — answer at
+the exam, preserve a later court challenge to use of the statement. Client's
+position: this does not satisfy the Fifth Amendment, which requires the ability
+to invoke *before* answering, not simply to complain about it afterward.
+
+### Client's requested relief — categorical invocation pending four protections
+
+Client is **categorically invoking the Fifth Amendment right to remain silent as
+to any polygraph/quasi-scientific exam question**, until and unless each of the
+following is in place:
+
+**(I)** Appointed counsel to represent him before, during, and after all
+polygraph or other quasi-scientific exams.
+
+**(II)** Counsel given ample time, per question, to research and form a legal
+opinion on whether invocation is justified as to that specific question — client's
+rationale: whether the Fifth Amendment privilege applies to a given question is a
+**pure question of law**, which a layman cannot be expected to correctly determine
+in real time during an exam.
+
+**(III)** The credentials of any polygraph examiner proven to a degree counsel
+deems sufficient to support a **Daubert challenge/analysis**.
+
+**(IV)** A prohibition on disclosure of any polygraph-derived information by the
+examiner, any treatment provider, or probation to anyone (e.g., local police
+agencies, mandatory-reporting agencies) without leave of court.
+
+### Legal grounding cited by client
+- **10th Circuit, *United States v. Von Behren*** — cited by client as the source
+  of this framework; contrasted favorably against the **2nd Circuit's "answer
+  now, invoke later" approach** (which the client says fails to satisfy the Fifth
+  Amendment). **[VERIFY BEFORE FILING: full citation, holding, and precise scope
+  of what Von Behren required.]**
+- Supreme Court authority (client's characterization, to verify): the Fifth
+  Amendment protects not only statements that directly confess a crime, but any
+  answer that could furnish a **"link in the chain of evidence"** needed to
+  prosecute — likely referencing *Hoffman v. United States*, 341 U.S. 479 (1951).
+  **[VERIFY]**
+- Client's practical point: polygraph exams can and do elicit **propensity
+  evidence**; a federal court has no power to suppress use of such evidence in a
+  **state court** proceeding, and "you can't unring a bell" once disclosed —
+  argues for prophylactic protection on the front end rather than a post hoc
+  suppression remedy.
+- Client states the **Federal Defender's office for the N.D.N.Y.**, post-*Von
+  Behren*, explicitly advises defendants to demand counsel and invoke across the
+  board on polygraph conditions. **[VERIFY — locate this guidance if it exists;
+  may be a practice advisory, not a filed document.]**
+- Folder already contains two directly relevant pre-gathered research documents:
+  `Constitutional Challenge to Polygraph Condition.pdf` and `Polygraph Immunity
+  and Counsel Rights.pdf` — starting point for the research subagent, not a
+  substitute for independent verification.
+
+### CVSA-specific theory
+- **CVSA (computerized voice stress analyzer) is junk science** — client's
+  position is that CVSA should be challenged/excluded as unreliable outright,
+  independent of the procedural protections sought for polygraph generally.
+  (Note: protection (III) above — Daubert-level credential proof — and the
+  general Daubert-challenge framing already reach CVSA as one of the "quasi
+  scientific exams" covered by (I)–(IV), but client is also flagging CVSA as
+  weaker/more vulnerable to a standalone reliability challenge than polygraph.)
+
+### No-nexus / merits theory (independent of the procedural-protection framework)
+- Client's separate, independent argument: **there is no indication whatsoever
+  that this defendant is a liar** — he has never been accused of lying (in
+  treatment, in supervision, or otherwise).
+- Client's point on the origin/purpose of polygraph conditions: their stated
+  purpose is largely to verify truthfulness in sex-offense treatment. But the
+  **first principle of treatment** — mental health or medical — is that "the
+  patient is to be believed until proven otherwise." A condition premised on
+  presumed dishonesty, absent any actual instance of dishonesty, lacks the
+  factual nexus required to justify it as "reasonably related" and not a
+  greater deprivation than necessary under § 3583(d).
+
+### Client's stated strategy
+Client has "no illusion" that probation/the court will agree to eliminate the
+polygraph condition outright. The strategic goal in requesting protections
+(I)–(IV) is to make compliance so procedurally burdensome that the practical
+effect is abandonment of the condition — i.e., the procedural-protections
+request is intentionally maximalist/a pressure tactic, filed alongside (not
+instead of) the independent no-nexus merits argument for elimination.
+
+### Cost issue (polygraph-specific; cross-reference fee group (d) below)
+Client raises unresolved questions about the polygraph "contribute to the cost
+of services rendered" language:
+- What are these costs in dollar terms?
+- Who sets the rate — probation's unilateral discretion, or a "prevailing rate"
+  standard?
+- What happens if the defendant cannot pay?
+No answers to any of these appear in the Judgment or elsewhere in the file
+(consistent with the broader fee-transparency gap already flagged in intake).
+
+**Status: CONDITION (g) CLOSED.** Procedural-protection framework (I–IV) +
+Von Behren/link-in-the-chain grounding, CVSA-specific reliability challenge,
+no-nexus merits argument, and cost/ability-to-pay issue all fully captured.
+Ready for research phase.
+
+### CLIENT PUSHBACK ON TRACK 2 RESEARCH (post-research correction — controlling)
+
+Track 2 research (part2-fifth-amendment-polygraph.md) concluded that *United
+States v. Johnson*, 446 F.3d 272 (2d Cir. 2006), forecloses a facial challenge
+because it already approved the Judgment's "answer now, preserve a later
+challenge, no waiver" model. **Client rejects this as the final word and has
+identified specific, substantive reasons Johnson does not resolve this case —
+these must control the next research pass:**
+
+1. **Johnson did not grapple with the right-to-counsel-for-invocation
+   question.** Client's position (I)–(IV) is not just "may I challenge use of
+   my answer later" (what Johnson approved) — it is that a layperson cannot be
+   expected to correctly determine, in real time, whether a specific question
+   is privileged, because that determination is a **pure question of law**.
+   Johnson's "preserve a later challenge" mechanism does not solve this: by the
+   time a later challenge is litigated, the defendant has already had to make
+   an unassisted legal judgment call in the room, under pressure, without
+   counsel. Client's position is that Johnson simply never addressed this
+   distinct problem.
+2. **Bernecky is not doing what Johnson's defendant did — he is issuing a
+   blanket, prospective, categorical invocation now, before any exam occurs.**
+   Johnson's model (answer, then preserve a challenge to use of that specific
+   answer) presupposes the defendant answers. It does not address, and per
+   client's reading did not need to address, a defendant who refuses to answer
+   *any* polygraph question *at all* unless/until the four protections are in
+   place. Client's position: this is a materially different posture that
+   Johnson's holding does not reach.
+3. **Client's characterization of Johnson: it functions more like a
+   "we are not deciding this broader question right now" holding** than a
+   comprehensive resolution of every Fifth Amendment issue a polygraph
+   condition can raise — i.e., client believes Johnson's actual scope is
+   narrower than the Track 2 memo credited it with, and wants this verified
+   directly against the opinion, not assumed from secondary-source
+   reconstruction (which is all Track 2 had, due to the WebFetch failure).
+4. **Reframing of the Von Behren point:** client is not simply arguing Von
+   Behren's specific fact pattern controls. Client's position is a broader,
+   affirmative claim: **the "answer now, invoke/challenge later" structure is
+   itself unconstitutional** and does not comply with Supreme Court
+   Fifth Amendment jurisprudence (Murphy's "classic penalty situation"
+   doctrine) when refusal to participate in the exam *at all* triggers
+   revocation — not merely when specific overbroad questions are asked. Client
+   wants this argued as a structural/facial defect, using Von Behren as the
+   illustrative lesson in how courts have applied Murphy, not as a citation
+   whose narrow holding must be conceded as the ceiling of the argument.
+5. **Three simultaneous theories requested, not a single unified theory:**
+   (a) a **facial** challenge (the answer-now-invoke-later structure itself is
+   unconstitutional as applied to a blanket, prospective invocation backed by
+   a revocation threat); (b) an **as-applied** challenge (Bernecky's specific
+   posture — categorical invocation, plus his documented history — takes this
+   outside anything Johnson or Brown-type cases resolved); and (c) a
+   **factual-distinguishing** argument (Johnson's defendant and posture are
+   factually different from Bernecky's in the respects listed above).
+6. **The N.D.N.Y./Federal Defender guidance article is non-negotiable —
+   client insists it exists and must be located,** not just the SDNY/EDNY
+   "Federal Defenders of New York" blog post Track 2 found as a partial
+   substitute. Do not settle for the partial-match source; search further.
+7. **New elevated-stakes fact:** client states Bernecky **already has two
+   prior sex offense convictions** (in addition to/inclusive of the instant
+   offense — exact count/configuration needs reconciliation against the
+   intake's confirmed record, which shows one explicit prior CP conviction
+   referenced in the offense title plus a related state SORA Level 2
+   adjudication) — **[VERIFY BEFORE FILING: confirm exact number and nature of
+   prior sex-offense convictions against the record before asserting "two
+   priors" in the motion]**. Client's point: given this record, Bernecky
+   "cannot risk anything further" — any additional disclosure elicited by
+   polygraph carries materially higher stakes than an ordinary first-time
+   offender, which should weigh heavily in favor of the requested procedural
+   protections and against compelling participation without them.
+
+**Action: a follow-up, deeper research pass on Special Condition (g) is
+required, built around these seven points, before the polygraph section of
+the motion is drafted.**
+
+### SUPPLEMENTAL VERIFICATION (2026-07-06) — Von Behren and Murphy read in
+full (client caught a stale note — both were actually uploaded to the Drive
+folder on 7/5, after the original research passes ran)
+
+Both now confirmed via direct, full-text primary-source read:
+
+- ***Von Behren***'s actual holding is stronger than earlier passes
+  credited: applying Murphy's "classic penalty situation" doctrine to a
+  supervised-release sex-offender polygraph, the panel held the
+  government's threat to seek remand to prison for refusing incriminating
+  sexual-history questions **was** unconstitutional compulsion — real,
+  on-point (out-of-circuit) authority, not merely an illustrative gloss.
+- **Important limiting principle, confirmed (Von Behren fn. 9), needs to be
+  addressed head-on in drafting:** the result would differ if the question
+  were relevant only to supervised-release status, didn't risk
+  incrimination, or immunity were given. Bernecky's own Judgment already
+  has a savings clause (preserved right to challenge use later; no
+  waiver) — Von Behren's facts (bare refusal, no savings clause at all)
+  don't themselves resolve whether that "answer now, challenge use later"
+  structure is sufficient. That remains exactly the client's own separately
+  -argued point above (paragraph 4 — the Johnson-distinguishing argument),
+  not something Von Behren answers for us.
+- Confirmed, as before: Von Behren does not address counsel-for-invocation,
+  per-question research time, Daubert credentialing, or a disclosure
+  prohibition — the (I)-(IV) framework remains Bernecky's own construction.
+- **New, useful cross-reference:** Von Behren distinguishes *McKune v.
+  Lile*, 536 U.S. 24 (2002) (via Justice O'Connor's controlling
+  concurrence), as governing only the prison context — not probation/
+  supervised release. Useful to blunt McKune's adverse use in the Track 20
+  (freedom-of-thought) discussion under Special Condition (b).
+- ***Murphy***'s "classic penalty situation" quote (465 U.S. at 435) is now
+  confirmed word-for-word.
+
+**Action: MASTER-OUTLINE.md's polygraph section and citation list updated
+accordingly.**
+
+### CLIENT PUSHBACK — counsel-invocation theory: argue critical-stage
+affirmatively, and add an independent CJA "interests of justice" ground
+
+In response to being told the Sixth Amendment "critical stage" doctrine is
+likely a headwind (no pending prosecution at the time of a supervised-
+release polygraph), client pushes back with two points, both to be
+researched, not conceded away:
+
+1. **Argue affirmatively that this IS a critical stage.** Client wants the
+   critical-stage argument made head-on, not abandoned in favor of the
+   safer "discretionary condition-crafting" framing alone. Both should be
+   presented — critical-stage as the more ambitious lead theory, discretionary
+   crafting as the fallback if critical-stage is rejected.
+2. **Independent ground: the Criminal Justice Act, 18 U.S.C. § 3006A,
+   already permits appointment "in the interests of justice" regardless of
+   critical-stage status.** Client's theory: ensuring a supervisee's
+   Fifth Amendment rights remain fully protected during a polygraph
+   examination — where privilege determinations are pure questions of law a
+   layperson cannot reliably make in real time — is squarely the kind of
+   thing the "interests of justice" standard is meant to reach, independent
+   of whether the exam is formally a "critical stage" requiring counsel as
+   of constitutional right. **This needs real verification of § 3006A's
+   actual text and structure** (which categories of proceedings it lists as
+   of-right versus its more general interests-of-justice catch-all
+   provision) before being relied on — do not cite subsections from memory.
+
+**Action: dedicated research task launched (Track 21, already in progress)
+to be supplemented with these two points if not already covered by its
+original scope; a follow-up pass on § 3006A specifically is being launched
+separately since the original Track 21 prompt did not include it.**
+
+### TRACK 21 RESULT — counsel presence for real-time privilege calls:
+your instinct that this is unprecedented was correct, but there's real
+adverse authority to confront, and a clear safe path forward
+
+**Bottom line: no federal case anywhere grants, or was even squarely asked
+to grant, counsel's physical presence during a probation/supervised-release
+polygraph for real-time privilege calls — but the one genuinely on-point
+case found is adverse and must be confronted, not left for the government
+to surface first.**
+
+- ***J.B. v. New Jersey State Parole Board*** (N.J. 2017) — a parolee's
+  claim to counsel's presence during a sex-offender polygraph was rejected:
+  the exam is a "routine interview," not custodial, so no Miranda-derived
+  right attaches. State law, not binding — but exactly the collision the
+  Murphy custodial/non-custodial line predicts, and the government will
+  likely find and cite this if we don't get there first.
+- **The good news: Bernecky's actual theory (privilege determinations are a
+  "pure question of law" a layperson can't reliably apply in real time) is
+  not a Miranda/custodial theory at all** — it doesn't depend on the exam
+  being "custodial," so it sidesteps the Murphy/*J.B.* collision entirely
+  rather than needing to win it.
+- **New, non-AI-generated, citable support for the underlying premise:**
+  the Guide to Judiciary Policy, Vol. 8E § 190.45, already directs a
+  probation officer facing an uncertain invocation to **refer the question
+  to the court** rather than decide it unilaterally — i.e., federal
+  supervision policy already treats this determination as too legally
+  delicate for a layperson (the officer) to resolve alone. Short step from
+  there to "the defendant shouldn't have to decide this alone either."
+- **Three real analogies, none controlling:** the grand jury "step outside
+  to consult counsel" practice (constitutionally unresolved per
+  *Mandujano*, but an accepted practical model); Fed. R. Crim. P. 32
+  PSR-interview practice and *United States v. Herrera-Figueroa*, 918 F.2d
+  1430 (9th Cir. 1990) (counsel's presence required via the court's
+  supervisory power, expressly NOT decided as a critical-stage holding —
+  exactly the kind of vehicle we want); *Estelle v. Smith*, 451 U.S. 454
+  (1981) (right to consult counsel before a consequential court-ordered
+  psychiatric exam).
+- **Honest practical objection disclosed:** in-room presence may distort
+  polygraph physiological readings; examiners often resist it on that
+  ground. Recommended fix: present relief as a menu (in-room presence →
+  consultation breaks → advance written question review with unresolved
+  questions referred to the court), not an all-or-nothing demand.
+
+**Recommendation (adopted): frame as a discretionary § 3583(d) request for
+a protective condition, explicitly NOT arguing the exam is "custodial" and
+NOT trying to distinguish or limit Murphy at all** — that fight is
+unnecessary and likely losing per *J.B.* Argue instead that this court
+(which *Johnson* already confirms has authority to craft safeguards into
+this exact condition) should exercise that same authority here given the
+legal complexity of real-time privilege calls.
+
+**Action: fold into the master outline's polygraph section as the framing
+for protections (I)/(II); coordinate with Track 24's § 3006A/critical-stage
+findings once that returns.**
+
+### CLIENT PUSHBACK — Track 18's "unnamed" Tenth/Fifth Circuit cases are
+not usable as cited and need to be actually identified
+
+Client correctly flagged that Track 18's citation list includes "Unnamed
+Tenth Circuit case (complete computer/internet ban discretion vacated)" and
+"unnamed Fifth Circuit case (ten-year total internet/device ban found
+unreasonable)" — these came from law-firm/practitioner commentary that
+described case outcomes without ever surfacing the actual case name or
+citation. **This is not a usable research product as-is — a case that
+cannot be named cannot be verified, checked, or cited at all.** Correct
+characterization: this is an unfinished research thread, not a completed
+one flagged for later confirmation — the case names themselves still need
+to be found.
+
+**Action: dedicated research task launched to identify the actual
+case names/citations behind these two described outcomes, or confirm they
+cannot be identified and should be dropped entirely rather than described
+vaguely in any future memo.**
+
+### CLIENT PUSHBACK ON TRACK 6 (Brown/Love) — controlling corrections
+
+1. **Jurisdiction correction:** Bernecky is **W.D.N.Y., not N.D.N.Y.** — client
+   confirms the earlier "N.D.N.Y." reference was their own misstatement; the
+   polygraph blog PDF is, as confirmed, the SDNY/EDNY Federal Defenders piece.
+   No further search for N.D.N.Y.-specific guidance is needed — it was never
+   actually applicable to begin with.
+2. **Carlineo may not fit well for Special Condition (b).** Client finds
+   Carlineo "wildly distinguished" and is skeptical it applies. Carlineo's
+   vice was a *totally undefined* program ("Partners in Restorative
+   Initiatives") that no one — not even the sentencing court — could describe
+   in any concrete terms. Bernecky's condition names a real, recognized
+   program *category* ("sex offense-specific treatment") with established
+   professional content; only the specific provider's rules are undefined.
+   This is a meaningfully different vice than Carlineo's. **Action: reassess
+   whether Carlineo is the right fit, or whether a different/refined
+   delegation theory is needed for Special Condition (b).**
+3. **The "as permitted by the employer" clause in Brown's condition is
+   significant and was underused in Track 6's analysis.** Client's point:
+   this language means Brown's own condition already gives the employer a
+   built-in veto — the employer can simply decline permission, and the
+   condition's own text accommodates that refusal. This is a real textual
+   distinction from Bernecky's situation, where no such consent-gate exists
+   in the condition at all, yet the PO is demanding the employer prove
+   monitoring-capability parity as a precondition to employment proceeding.
+   **Action: build this into an affirmative distinguishing point.**
+4. **Client disputes that Brown's § 5F1.5 holding is a true "categorical
+   rule" independent of facts, and questions whether it was substantively
+   analyzed at all ("summarily dealt with") — also questions whether a
+   summarily-treated portion of an otherwise-published opinion carries full
+   precedential weight.** Action: re-read the actual § 5F1.5 passage in full,
+   assess its length/depth and whether it references Brown's individual
+   facts, and address the precedential-weight question directly (published
+   2d Cir. opinions are precedential in full regardless of brevity of any one
+   section's discussion — but the brevity may still matter for how narrowly
+   the holding should be read/argued).
+5. **Client believes Brown's appellate counsel's Rule 28(j) letter comparing
+   the case to Love was weak and "got the comparison wrong."** Client does
+   not want our motion's Love argument to lean on "even Brown's own counsel
+   flagged Love and the panel ignored it" as if that proves the point — if
+   counsel's own comparison was flawed, the panel's silence proves less than
+   Track 6 suggested. **Action: build an independent, better Love-Bernecky
+   comparison from scratch, not derivative of appellate counsel's framing,
+   and separately assess/report what specifically was weak about counsel's
+   version.**
+
+**Action: a follow-up verification/refinement pass on Track 6 is required,
+addressing all four numbered points above, before the occupational-restriction
+argument is finalized for drafting.**
+
+### CLIENT PUSHBACK ON TRACK 7 — plain-error/precedential-effect question and Brown's actual theory of harm
+
+Two further points raised after Track 7, requiring dedicated re-verification:
+
+1. **Plain-error review and precedential effect.** Client questions whether
+   Brown's occupational-restriction holding can be "precedential" at all,
+   given it was decided on **plain-error review** (Brown did not object to
+   the condition at sentencing). Client's position: plain-error review, by
+   its nature, may not be capable of producing binding precedent on the
+   underlying legal question, and just because part of an opinion is
+   precedential does not make the whole opinion precedential. **Action:
+   research the general federal-appellate doctrine on whether/how a
+   plain-error affirmance's statement of the governing legal rule carries
+   precedential weight for future (including de novo-postured) cases, versus
+   situations where a plain-error panel merely holds an issue was "not
+   plainly wrong" without committing to an affirmative rule — and apply that
+   doctrine specifically to the exact wording of Brown's Part III.B holding.**
+2. **Brown's actual theory of harm was different in kind from Bernecky's.**
+   Client's point: Brown did not frame his challenge as an attack on the
+   monitoring condition itself — he argued the condition functioned as a
+   **de facto employer-notification requirement**, and that being forced to
+   notify was the occupational restriction. Bernecky's situation is
+   different: **Bernecky does not object to notifying his employer at all —
+   he already did so voluntarily, and affirmatively granted the probation
+   officer permission to speak candidly with HR.** Bernecky's actual
+   complaint is not about compelled disclosure; it is about Probation's
+   separate, additional demand that the employer prove monitoring-capability
+   parity as a precondition to his employment continuing, imposed *after*
+   voluntary disclosure already occurred and was accepted by the employer.
+   **Action: re-confirm exactly how Brown's claim was pled (review his
+   appellant brief again for this specific framing), and assess whether
+   Brown's holding — keyed specifically to the "de facto notification"
+   theory — even applies to a claim that isn't about compelled notification
+   at all, potentially taking Bernecky's theory outside Brown's holding's
+   frame entirely, independent of the distinguishing arguments already
+   developed.**
+
+**Action: launch a dedicated re-verification pass addressing both points
+before finalizing the Brown-distinguishing argument.**
+
+### ADDITIONAL CLIENT POINT — a fortiori strengthening of the Love/Jenkins/Ruff analogy
+
+Client's further point, to be folded into the integrated argument once the
+Track 6 re-examination (above) returns:
+
+1. **The real-world operation here is that Bernecky is being prohibited from
+   working at a job because the job wants to keep its own (business/Fourth
+   Amendment) rights intact** — the employer's own resistance to submitting
+   its systems to government monitoring is the proximate cause of the
+   suspension, not any conduct or condition-text restriction on Bernecky
+   himself.
+2. **A fortiori point on the Love/Jenkins/Ruff line:** those cases found a
+   mandatory *notification* condition (requiring the defendant to tell his
+   employer of the conviction and that it was computer-facilitated) to
+   function as a de facto occupational restriction requiring § 5F1.5
+   findings. Bernecky's own condition does not even contain a notification
+   requirement — he volunteered that disclosure to the employer himself,
+   going further than the condition legally required. If a *mandatory*
+   notification clause is enough to trigger § 5F1.5 in Love/Jenkins/Ruff,
+   then the PO's freestanding, extra-textual demand here — requiring the
+   employer to affirmatively *prove monitoring-capability parity*, a
+   materially more burdensome ask than mere notification, imposed with zero
+   textual basis at all — is at least as strong a candidate for the same
+   treatment, if not stronger.
+3. **Proportionality/nexus point specific to this job:** the contact-lens
+   manufacturer position does not require public internet access at all —
+   the employer already proposed an internal-only account with internet
+   access disabled (see Special Condition (a) employer fact pattern, above).
+   The government's own stated interest behind CIMP (monitoring
+   internet-facilitated risk) has minimal-to-no application to a job that by
+   its nature involves no public internet use, yet Bernecky remains
+   suspended anyway. This sharpens the "no greater deprivation than
+   reasonably necessary" / lack-of-nexus argument independent of the
+   occupational-restriction theory.
+
+**Action: integrate these three points into the final occupational-
+restriction argument once Track 6's re-examination is complete.**
+
+### CONTROLLING STRATEGIC DIRECTIVE — post-Lussier framing (given after Track
+14/15 confirmed Lussier excludes illegality claims from § 3583(e)(2))
+
+1. **Post-2018 case law/Guidelines changes ARE "changed circumstances."**
+   Client confirms: for every argument resting on a legal development that
+   postdates the June 2018 sentencing (*Boles* 2019, *Betts* 2018, *Carlineo*
+   2021, *Kunz* 2023, *Burnash*/*Gorychka* 2024, *Love* 2025, *Brown* 2026,
+   the November 2025 U.S.S.G. §§ 5D1.3/5D1.4 amendments), the intervening
+   change in law itself IS a changed circumstance supporting modification
+   under *Lussier*'s own "general punishment goals" framing — this is the
+   safe, Lussier-compliant vehicle, not an illegality claim about 2018.
+   **Every condition-specific argument should lead with whichever post-2018
+   legal development applies to it (see the Track 14 synthesis table) as the
+   changed-circumstances hook, before any legality-flavored material.**
+
+2. **KEY REFRAME for the CIMP/occupational track — likely the single most
+   valuable framing in the entire motion:** rather than arguing the CIMP
+   condition (or Probation's administration of it) is *illegal* because no
+   § 5F1.5 finding was made, argue instead that **the sentencing court's
+   total silence on employment/occupation is itself the best evidence of
+   what the court actually intended — i.e., no occupational restriction at
+   all.** Under this framing, Bernecky is not asking the court to invalidate
+   anything or to rule on the legality of a 2018 finding that was never made
+   — he is asking for a **simple clarification** that the condition means
+   what its silence already shows: no employer-facing authority was ever
+   granted. This sidesteps *Lussier*'s illegality-exclusion problem entirely,
+   since a clarification of the condition's own original scope is squarely
+   within the ordinary "modify... conditions" power under § 3583(e)(2) — it
+   is not a claim that the 2018 judgment was invalid, only a request that the
+   court say plainly what it already (implicitly) held by never addressing
+   employment at all. **This should be the LEAD framing for Special
+   Condition (a)'s employer/occupational theories, ahead of the § 5F1.5/
+   ultra vires distinguishing-Brown material (which remains available as
+   reinforcing, alternative argument).**
+
+3. **New factual development for Special Condition (c) — family carve-out:**
+   client confirms that while Bernecky was incarcerated (i.e., after the June
+   2018 sentencing), **his sister had children** — meaning the specific
+   nieces/nephews at issue in the family-contact dispute **did not exist at
+   the time of sentencing.** This sharpens and factually grounds the
+   "illusory carve-out" argument in two ways: (a) it is not merely a
+   structural/logical point that the "biological or adopted children"
+   exception was a null set in 2018 — there are now real, specific family
+   members the sentencing court could not possibly have made any
+   individualized danger finding about, since they were not yet born; and
+   (b) this is a clean, genuine "changed circumstances" showing under
+   *Lussier*'s own terms (new family members born after sentencing),
+   independent of any legality argument, supporting present-tense
+   reassessment of the family-contact condition's scope as applied to these
+   specific children.
+
+**Action: these three directives control the final drafting approach for
+Special Condition (a) and (c) and should be incorporated into the master
+outline as controlling framing, not just as one argument among several.**
+
+### NEW CROSS-CUTTING ARGUMENT — the "why litigate this now vs. later"
+judicial-economy point (applies to the Jurisdiction/Standard-of-Review
+section and the motion's framing generally)
+
+Client's point, in his own words: "It makes no sense that the courts are
+loathe to fix these [conditions] at any time given that a violation
+[proceeding] would require a reimposition which would allow objection on
+all grounds and even an appeal." The theory: if the court is reluctant to
+resolve a conditions dispute now via a § 3583(e)(2) modification motion, the
+practical alternative is that the dispute simply gets deferred until an
+actual violation occurs — at which point a revocation proceeding leads to
+reimposition of supervised release conditions under § 3583(e)(3)/(h), and
+*that* reimposition would itself be freshly objectionable and appealable on
+every ground, including the very same grounds raised in this motion. If the
+court will have to confront these same legal questions eventually regardless
+(and in a much higher-stakes posture — after a violation, with revocation
+and possible incarceration already on the table), there is no sound judicial-
+economy reason to decline to resolve them now, on a clean prophylactic
+record, before any violation has occurred. Litigating now is the lower-cost,
+lower-stakes forum for the exact same legal questions the court would
+otherwise have to resolve later anyway.
+
+**This is a genuinely new, cross-cutting framing argument — not tied to any
+one condition — and should be woven into the Jurisdiction/Standard-of-Review
+section as an affirmative reason for the court to reach the merits now,** and
+potentially also bears on the *Traficante*/*Boles* ripeness strategy question
+already flagged for Standard Condition 12 (does this argument support
+pressing that condition's merits now too, or is *Traficante* meaningfully
+different because no risk-determination has actually been made yet, unlike
+CIMP which is already being actively administered in a disputed way?).
+
+**Research task (not yet performed):** (1) confirm the actual statutory/
+procedural mechanics of revocation and reimposition — 18 U.S.C.
+§ 3583(e)(3) (revocation) and § 3583(h) (supervised release following
+revocation) — and whether reimposed conditions (including ones identical to
+previously unobjected-to conditions) are treated as a fresh sentencing
+act subject to full objection and appellate review, or whether courts treat
+mere continuation of an already-final, unappealed condition differently
+(e.g., law-of-the-case/no-fresh-appeal-right for unchanged terms); (2) any
+case law recognizing a judicial-economy/avoid-piecemeal-litigation rationale
+favoring proactive, pre-violation resolution of conditions disputes over
+deferral to a revocation proceeding; (3) whether void-for-vagueness/fair-
+notice doctrine's own rationale (a defendant should not have to guess at a
+condition's meaning under threat of penalty to find out what it requires) is
+a useful reinforcing analogy for this point, since it rests on the same
+underlying logic; (4) assess how this argument interacts with *Traficante*'s
+ripeness holding for Standard Condition 12 specifically — does it strengthen
+pressing that condition's merits now, or is *Traficante* distinguishable.
+
+**Status: RESEARCHED (Track 22, part22-timing-judicial-economy.md). Summary
+below.**
+
+### TRACK 22 RESULT — judicial-economy timing argument: premise confirmed,
+and it explains rather than conflicts with Traficante
+
+**Bottom line: your premise is correct, and better-supported than you
+framed it — the reimposed-condition analysis is a fresh sentencing act,
+freely appealable, with no diminished-scrutiny doctrine anywhere found.**
+
+- **Confirmed directly from § 3583(e)(3)/(h)'s own text plus *United States
+  v. Betts*, 886 F.3d 198 (2d Cir. 2018) (read in full — Bernecky's own
+  district):** a post-revocation § 3583(h) term is not an automatic
+  continuation of the 2018 judgment — it's a new, freestanding
+  authorization the court decides whether to impose at all, and *Betts*
+  itself shows a revocation court's newly-imposed conditions freely
+  reviewed and partly vacated on ordinary appeal, no forfeiture penalty
+  traced back to the original sentencing.
+- **No "law of the case"/diminished-scrutiny doctrine found anywhere** for
+  a condition merely carried forward unchanged — and *Maiorana*'s own
+  "contemporaneous opportunity to object" logic (used differently here than
+  the demoted CIMP-silence use) cuts the other way: it applies to every
+  sentencing event imposing a non-mandatory condition, revocation
+  resentencing included.
+- **No case names the "resolve now vs. defer to revocation" judicial-economy
+  rule directly** — honest gap — but real building blocks assemble into a
+  synthesis: Rule 32.1(c)'s own responsive, present-tense purpose (part14);
+  the Nov. 2025 Guidelines amendment's commencement-of-supervision timing
+  (part14); *Kunz* footnote 8's own characterization of a § 3583(e)(2)
+  motion as the "simple," correct, proactive tool for this exact condition
+  family (part19); and general ripeness doctrine (*Abbott Laboratories v.
+  Gardner*, 387 U.S. 136 (1967)).
+- **Best find: *United States v. Carlineo*, 998 F.3d 533 (2d Cir. 2021)
+  (already read in full elsewhere in this case) independently held the
+  challenged condition vague because it "fail[ed] to inform Carlineo what
+  he must do... to avoid a violation proceeding"** — binding, in-circuit
+  language stating your exact point in the Second Circuit's own words. Use
+  as the section's rhetorical/doctrinal capstone.
+- **Direct answer on Traficante: no tension — it explains rather than
+  undercuts your point.** *Traficante* failed ripeness's ordinary two-factor
+  test (no risk-determination existed yet; no concrete harm). Bernecky's
+  CIMP dispute satisfies both factors *Traficante*'s claim failed
+  (live, current administration + concrete ongoing harm). **Recommendation:
+  press Special Condition (a)/CIMP's merits in full now; keep Standard
+  Condition 12/Boles as a brief, conditionally-worded preservation
+  paragraph — this new argument reinforces, not disturbs, that existing
+  page-budget allocation.**
+
+**Action: fold into the Jurisdiction/Standard-of-Review section of the
+master outline, structured as: (1) statutory mechanics/Betts, (2) Rule
+32.1(c)/Guidelines-timing/Kunz-fn.8 synthesis, (3) Carlineo capstone quote,
+(4) a short Traficante-distinguishing footnote only — not an expansion of
+the Standard Condition 12 treatment.**
+
+### TRACK 24 RESULT — critical-stage argument and CJA § 3006A: honest
+limits, but a genuinely useful practical find
+
+**Bottom line: the affirmative critical-stage argument has a real,
+structural problem (not just unfavorable case law), the "interests of
+justice" provision doesn't reach this fact pattern as written — but § 3006A
+may already entitle Bernecky to appointed counsel for this very motion,
+independent of the polygraph theory entirely.**
+
+- **Critical-stage doctrine is two-step (*Rothgery v. Gillespie County*,
+  554 U.S. 191 (2008)): attachment first (offense-specific — *Kirby*,
+  *McNeil*, *Cobb*), then critical-stage second.** For the scenario that
+  actually worries you most — a polygraph answer eliciting an admission to
+  an **uncharged** offense — the right hasn't attached to that offense at
+  all, so critical-stage analysis is structurally premature, not just
+  unfavorably weighed. For the offense of conviction itself, mainstream
+  doctrine treats post-conviction supervision matters as due process
+  territory (*Gagnon v. Scarpelli*, *Morrissey v. Brewer*), not Sixth
+  Amendment critical-stage territory, and *Pennsylvania v. Finley* treats
+  direct appeal as the ordinary outer boundary.
+- **Adverse authority confirmed and must be disclosed:** *J.B. v. New
+  Jersey State Parole Board*, 229 N.J. 21 (2017), squarely rejected a
+  right-to-counsel-at-polygraph claim (same case Track 21 found).
+- **Best affirmative analogy: *Estelle v. Smith*, 451 U.S. 454 (1981)**
+  (compelled psychiatric exam held a critical stage because tied to a
+  still-pending capital sentencing) — real doctrinal DNA, but tied to a
+  still-pending same-case proceeding, so it doesn't resolve the
+  new-offense attachment problem and has never been extended to a
+  supervision-phase exam.
+- **§ 3006A(a)(1)(E) — significant, independently useful find:** already
+  lists "faces modification... of a condition... of a term of supervised
+  release" as a **mandatory** appointment category. **This may already
+  entitle Bernecky to CJA counsel for this very § 3583(e)(2) motion,
+  regardless of the critical-stage or Fifth Amendment merits.** Real
+  ambiguity flagged: unclear whether this reaches a defendant-initiated,
+  defendant-favorable modification (a pending bill, the Safer Supervision
+  Act of 2025, suggests current practice may not treat it that way) — but
+  worth raising with the court directly regardless.
+- **§ 3006A(a)(2) "interests of justice" is NOT a general catch-all** —
+  confirmed limited to exactly two categories (Class B/C misdemeanants/
+  infraction defendants; § 2241/2254/2255 habeas petitioners). **Your
+  proposed reading is a sound policy intuition but not a sound reading of
+  the actual statutory text — do not present it as an independent ground;
+  that risks the same overclaiming cost already flagged elsewhere in this
+  case.**
+
+**Recommendation (adopted): make the critical-stage argument affirmatively
+but honestly (lead with *Estelle*, disclose *J.B.*/*Gagnon*/*Finley*
+directly, be explicit the new-offense scenario hits a structural attachment
+wall) — but keep the discretionary condition-crafting theory (Track 21) as
+the load-bearing fallback. Use § 3006A(a)(1)(E)'s mandatory
+modification-proceeding category — not the interests-of-justice
+provision — as the practical CJA-appointment hook for this motion itself.**
+
+**Action: fold into the master outline's polygraph section; separately
+consider raising § 3006A(a)(1)(E) as a request for appointed counsel for
+this motion, independent of the polygraph-condition merits.**
+
+### CLIENT PUSHBACK ON TRACK 24 — Cobb's offense-specific attachment rule
+targets *different* charges, not the ongoing supervision of the *same* case
+
+Client's point: *Cobb*'s offense-specific limitation is about whether the
+Sixth Amendment right extends to a **different** (even if factually
+related) uncharged offense — it does not speak to whether the right
+persists through the **ongoing supervision phase of the very case** in
+which it already attached at indictment. Supervision is not a new offense;
+it is a continuing consequence of the same conviction and the same case.
+
+**This is a fair, non-frivolous correction, and it's worth being precise
+about exactly what it does and doesn't fix:** *Cobb*/*McNeil*'s
+offense-specific rule genuinely is *not* the right barrier for the
+same-offense-continuation theory — the client is correct that *Cobb* is
+answering a different question (does the right reach a *different*
+offense) than "does the right persist through supervision of *this*
+offense." **But that does not clear the doctrinal path — it just
+identifies the correct adversary.** The real, harder obstacle to the
+same-offense-continuation theory is the *Gagnon v. Scarpelli*/*Morrissey v.
+Brewer*/*Pennsylvania v. Finley* line (already flagged in part24), which
+treats post-conviction proceedings — probation/parole revocation hearings,
+and by extension ordinary supervision-compliance interactions — under a
+due-process framework, not a Sixth Amendment critical-stage framework, and
+*Finley* specifically holds there is no Sixth Amendment right in
+"proceedings attacking a conviction that has become final upon exhaustion
+of the appellate process" — which is exactly Bernecky's posture (a final,
+appeal-exhausted conviction, now in the post-sentence supervision phase).
+*Estelle v. Smith* remains the best affirmative analogy for the
+same-case-continuation theory (tied to a still-pending proceeding within
+the same case), precisely because it never had to grapple with *Finley*'s
+finality problem (Estelle's capital sentencing was still pending, not
+final).
+
+**Corrected framing for drafting: lead with the client's own point — this
+is the same case, not a new offense, so *Cobb*'s rule is not the obstacle —
+but candidly confront *Finley*'s finality/post-appeal cutoff as the actual
+adverse authority, using *Estelle*'s "still bears directly on a liberty
+determination" logic to argue supervision is different in kind from an
+ordinary final, closed conviction because the sentencing court retains live,
+ongoing jurisdiction over it (which is itself the premise of this entire
+§ 3583(e)(2) motion).** This is a stronger, more accurate version of the
+argument than the original Track 24 framing, not a retreat from it.
+
+**Status: client's overall assessment — "in any event, I think we are all
+set." No further research requested; incorporate this corrected framing
+into the master outline's critical-stage section.**
+
+### FINAL DECISIONS — pepper spray, Standard Condition 12, ghostwriting
+
+1. **Pepper spray (Standard Condition 10): DUMP ENTIRELY.** Confirmed cut,
+   no footnote, no mention.
+2. **Standard Condition 12 / *Boles*: simplified final approach.** The
+   motion's main request is a **simple statement asking the court to direct
+   that the existing WDNY standing order actually be applied to Bernecky**
+   (per the intake finding that Probation's own pre-release "expected
+   conditions" document lists this condition in its pre-*Boles*/unmodified
+   form — i.e., Probation is not currently even applying the district's own
+   corrective order to his case). **Separately, in a footnote only:**
+   Bernecky preemptively objects to any "private tribunal" process — a
+   closed-door determination between the officer and the court with no
+   defendant participation — and requests proper process/an opportunity to
+   be heard if and when any risk-determination is actually made as to him.
+   This replaces the earlier "brief preservation paragraph" plan with
+   something even lighter: a request to apply existing relief, plus a
+   footnoted objection preserved for later, not a merits argument about
+   *Boles*/*Traficante* at all.
+3. **Ghostwriting disclosure: drop entirely — not a concern.** Bernecky is
+   filing pro se. No further research or flagging needed on this point.
+
+**Action: MASTER-OUTLINE.md updated accordingly — Section 17 (pepper spray)
+confirmed cut, Section 16 (Standard Condition 12) simplified to match, and
+Section 0.2/Section 21's ghostwriting-disclosure item removed.**
+
+### CLIENT DIRECTIVE — advocacy philosophy, and a new "ubiquitous device"
+reductio argument (round 3 of feedback)
+
+Client created a Google Drive folder ("Advocacy," under "active cases,"
+folder ID `1IIsu13oLrp1cM1ea_q2pd0hZFQxTzaDn`) containing prior briefs to
+model advocacy style. Contents include a directly relevant document:
+**`Bernecky_Employer_Letter_FINAL_copy.pdf`** (Drive ID
+`1c28f_OPX5DJRLVaNldXiajSS0ks98GPF`) — an actual letter already sent to
+Bernecky's employer, dated June 7, 2026, signed "Bilal Khan, Inmate
+Advocate & Paralegal, Inmate Legal Assistance Center." **This establishes
+the client's own name/persona and organization for context.** The letter
+already deploys, on the exact "operated by the defendant" issue, the
+precise advocacy technique the client now wants built out further:
+
+> "To read the condition otherwise would produce an unworkable result:
+> every computer Mr. Bernecky touches would fall within its scope — a
+> grocery store checkout terminal, an ATM, a shared workstation — systems
+> over which he exercises no dominion, ownership, or control whatsoever.
+> That cannot be what the condition means, and we do not believe any court
+> would read it that way."
+
+**Client's articulated advocacy philosophy (verbatim, condensed):** citing
+authority for every conclusion is necessary but not sufficient. Advocacy
+also means affirmatively advancing the client's position — attacking when
+justified, not just defending. "This is a game of chess not checkers": the
+opening brief should be positioned to withstand an eventual attack from the
+opposition, and to steer that attack in a direction that helps the client
+either immediately or on reply. **This should inform tone and structure
+throughout the motion, not just the CIMP argument specifically.**
+
+**New argument to build out — extend the reductio beyond the employer to
+ubiquitous, modern "internet capable" devices:** the CIMP condition's
+literal text would also sweep in ordinary modern devices that are
+unquestionably internet-connected today but have no meaningful capability
+to access, store, or display the kind of image content at issue in this
+case. Client's own examples: **CPAP machines** (sleep-apnea therapy
+devices, now commonly cellular/Wi-Fi connected to transmit compliance data
+to manufacturers/physicians — a pure medical-telemetry device with no
+capability resembling image access at all) and **cars** (modern vehicles
+routinely have cellular telematics connectivity, making them unambiguously
+"internet capable devices"). **Analytical insight worth preserving:** the
+condition's chosen verb is "operated" — and in ordinary English, the
+paradigmatic thing a person "operates" is a vehicle or machinery, not a
+laptop or phone (one "uses" a laptop; one "operates" a car). This makes a
+car the single sharpest reductio example for the word "operated" taken at
+face value — if the condition's broadest possible literal reading is
+adopted, the paradigmatic "operated" device is swept in, yet no one would
+seriously argue Bernecky's car needs CIMP enrollment. This is not a
+concession — it's a trap: the government/Probation must either accept an
+absurd result (monitor the car, the CPAP machine) or concede that the
+real operative test is functional capability/nexus to the offense conduct
+(image access/storage/display), which is exactly the narrowing this case
+already argues for (Track 19).
+
+**Action: dedicated research task launched (Track 25) to (1) finally
+resolve the long-open "common sense reading" doctrine attribution gap
+(never confirmed to be *Browder*, flagged repeatedly since part1 without
+resolution); (2) find real authority for a general "avoid absurd results"
+interpretive canon; (3) build out the CPAP/car reductio argument in
+ready-to-use advocacy prose for insertion into Part A.4. Client is
+separately locating a supervised-release argument made in W.D.N.Y. with
+"large success several years ago" that may be directly on point — awaiting
+that document before further motion redrafting.**
+
+**Status: drafting paused pending (1) Track 25's return and (2) the
+client's incoming WDNY brief. Do not re-edit MOTION-DRAFT.md until both are
+in hand and reconciled together.**
+
+### FACTUAL LIMITATION — sentencing transcript unavailable for now
+
+Client confirms the June 2018 sentencing transcript **cannot presently be
+ordered — Bernecky lacks the funds**, and obtaining it will have to wait for
+either government counsel's cooperation or CJA counsel appointment at a
+later stage of this proceeding. **Client is not concerned this is fatal to
+the *Maiorana*/oral-pronouncement argument** — given the CIMP condition's
+verbatim match to the district's own standard post-*Browder* template (already
+confirmed in prior research), there is no realistic basis to believe an
+occupational/employment restriction was orally discussed and simply omitted
+from the written judgment; the inference of silence rests independently on
+the closed-list, fully-itemized structure of the written Judgment itself,
+which does not depend on the transcript. **Action: draft the *Maiorana*/
+silence argument as resting on the written record (already in hand) as the
+primary basis, note the transcript as unavailable at this time due to cost,
+and flag it as something to be confirmed later if/when CJA counsel is
+appointed or the government provides it — not as a precondition to filing.**
+
+### CORRECTION — *Maiorana* demoted; do not lead the silence/clarification
+argument with it
+
+Client pushed back sharply on framing *United States v. Maiorana* as directly
+supporting the "court's silence on employment means no occupational
+restriction was intended" argument (Directive 2 above): **"how is maiorana
+like berneckys case. that doesnt even remotely sound like what we are talking
+about."** Correct, on reflection: *Maiorana* (overruling *Truscello*'s oral-
+pronouncement rule) is about the formalities required to **create** a new
+condition of supervised release — whether an unpronounced condition can
+nonetheless bind a defendant. Bernecky's CIMP condition is not that situation
+at all: the condition **was** validly pronounced and imposed; the dispute is
+about the **scope** of an existing, validly-imposed condition — specifically,
+whether "computer and internet monitoring" was ever intended to reach
+employer-facing/occupational restrictions given the Judgment's total silence
+on employment. Those are different doctrinal questions (formation vs.
+interpretation), and *Maiorana* does not control the second one.
+
+**Corrected approach:** demote *Maiorana*/oral-pronouncement material to a
+narrow, clearly-labeled a fortiori footnote only ("if an unpronounced
+condition cannot bind a defendant at all, still less can a pronounced
+condition be stretched by silent inference to cover territory — employment —
+it never addressed"). **Lead the silence/clarification argument instead with
+the *Browder*/*Matta*/*Kunz* "power to impose special conditions... vested
+exclusively in the district court" / "plainly without power to impose"
+line** — the closer doctrinal fit, since Bernecky's real complaint is that
+Probation (not the court) has effectively expanded the condition's reach into
+occupational territory the sentencing court never addressed, which is
+precisely the delegation problem that line of cases targets.
+
+**Action: rewrite the Special Condition (a) silence/clarification section
+(part16) to reflect this demotion before it goes into the master outline —
+not yet done as of this entry.**
+
+### CORRECTION — § 5D1.4(a)/(b) expressio unius argument rests on the
+statute, not on independent Guidelines drafting
+
+Client's caution (mid-message): "5D1.4 expressio unis[sic] ... subsection (b)
+only brings in the statutory language that says such consideration may only
+be given at 1 year" — i.e., be careful that § 5D1.4(b)'s one-year figure may
+just restate an existing statutory rule rather than reflect an independent
+choice by the Sentencing Commission to include a time-trigger in (b) while
+omitting one from (a).
+
+**Confirmed correct, on checking the primary text already in hand (part14,
+Part 6(a), quoting 18 U.S.C. § 3583(e) directly from the Drive folder's LII
+copy):**
+- **18 U.S.C. § 3583(e)(1)** (early termination) itself contains the one-year
+  figure: termination is available "at any time after the expiration of one
+  year of supervised release ... if it is satisfied that such action is
+  warranted by the conduct of the defendant ... and the interest of justice."
+- **18 U.S.C. § 3583(e)(2)** (modification — the provision actually at issue
+  in this motion) contains **no** analogous time-trigger at all; modification
+  is available "at any time prior to the expiration or termination of the
+  term of supervised release."
+- § 5D1.4(b)'s own text (part17) expressly cross-cites "See 18 U.S.C.
+  § 3583(e)(1)" for its one-year figure, and § 5D1.4(a)'s text expressly
+  cross-cites "See 18 U.S.C. § 3583(e)(2)" for its no-time-trigger rule. The
+  Guidelines are tracking, not independently creating, the statutory
+  distinction.
+
+**Correction to the argument (control for drafting): do NOT frame this as
+"the Sentencing Commission chose to include a one-year trigger in (b) but
+omit one from (a)" — that overstates the Commission's role and is the
+vulnerable version client flagged.** The accurate and actually stronger
+framing is a **statutory** expressio unius: **Congress itself** imposed a
+one-year floor on early termination under § 3583(e)(1) but attached no
+analogous temporal floor to modification under § 3583(e)(2), and the November
+2025 Guidelines amendment (§ 5D1.4(a)/(b)) simply implements and confirms
+that pre-existing statutory distinction rather than creating a new one. This
+is a more authoritative version of the same point (a statutory-text argument
+rather than an inference about Guidelines drafting choices), and it survives
+the client's caution intact — it just needs to be pinned to §§ 3583(e)(1)/
+(e)(2) as the source, with § 5D1.4 cited as confirming secondary authority,
+not as the origin of the distinction.
+
+**Action: correct this framing wherever it appears in part16/part17 and in
+any future outline draft — before drafting.**
+
+### STANDING — client wants ironclad authority that Bernecky may raise the
+ultra vires/no-authority-over-non-party theory at all
+
+Client's concern: the ultra vires theory (Probation's demand on the employer
+exceeds any authority the condition or the court has delegated) needs
+"ironclad authority" establishing that **Bernecky himself has standing to
+raise this claim** — as opposed to it being framed as asserting the
+employer's own rights (which would trigger ordinary third-party-standing
+limits under Article III/prudential doctrine, e.g. the "close relationship
++ hindrance" test). Client's instinct: this should be something a court can
+always address regardless, since it concerns the scope of the court's/
+Probation's own authority over Bernecky's own supervision — but wants this
+confirmed with real authority, not assumed.
+
+**Action: dedicated research task —** (1) confirm/distinguish that this is
+not a third-party-standing problem at all, because Bernecky's own injury
+(lost employment, personal exposure to a violation/revocation risk from an
+unauthorized demand, burden on his own liberty) is direct and personal, not
+derivative of the employer's separate Fourth Amendment interest — i.e., this
+is an ordinary challenge to the scope of authority being exercised over
+Bernecky's own supervision (the same posture as Matta/Kunz/Carlineo/Peterson/
+Browder, none of which required special third-party-standing analysis); (2)
+find case law squarely confirming a supervisee's standing to challenge an
+ultra vires/unauthorized exercise of supervisory authority even where the
+mechanism of that overreach involves a third party or non-party's
+cooperation; (3) as a backstop, research the third-party standing doctrine
+itself (Singleton v. Wulff; Powers v. Ohio; Kowalski v. Tesmer) in case a
+court frames this differently than expected, so the argument is prepared
+either way.
+
+### PROPOSED REMEDY / MODIFICATION LANGUAGE — employer-veto provision
+
+**CORRECTION (controlling): this is an EITHER/OR structure, not a cumulative
+one.** The modification should offer two independent, alternative paths to
+compliance — satisfying either one is sufficient; the condition must not
+require both a notification AND a separate employer-permission showing
+stacked together, which would be more burdensome than either the
+Love/Jenkins/Ruff notification-only line of cases or Brown's veto-only
+structure standing alone.
+
+**Path 1 — Notification, if Bernecky consents:** if Bernecky voluntarily
+notifies the employer of the nature of the conviction (and, where relevant,
+that it was computer-facilitated), that notification alone satisfies the
+condition — no further employer-permission showing required. **Bernecky has
+already done this in the present case** — he disclosed to the contact lens
+manufacturer employer voluntarily, going beyond anything the condition's text
+required of him.
+
+**Path 2 — Employer veto, independent of notification:** modeled on Brown's
+own "as permitted by the employer" structure — monitoring of employer-owned/
+operated systems is authorized only as/if the employer permits it. If the
+employer does not permit it, that ends the inquiry; no notification is a
+separate precondition to this path working.
+
+**The essential protective feature, applicable to both paths:** the
+condition must make explicit, on its face, that (i) an employer's refusal to
+permit monitoring is not a violation by Bernecky, (ii) does not itself bar
+his employment there, and (iii) does not authorize Probation to impose a
+substitute demand (like the "like kind and degree" capability-parity
+requirement) in place of simple permission-or-refusal under either path.
+
+**Application to Bernecky's actual facts:** he already satisfied Path 1
+(voluntary notification). The argument is that this alone should have been
+sufficient, and the PO's additional demand for capability-parity proof is
+unauthorized surplus regardless of which path the court adopts going forward.
+
+**Action: draft actual proposed modification language along these lines for
+the motion's requested-relief section, once the Track 6 re-examination
+returns and the final argument structure is settled.**
+
+---
+
+## Standard Condition 4 — "Answer truthfully"
+
+**Verbatim:** "You must answer truthfully the questions asked by your probation
+officer."
+
+**Client flag (research, not yet a final position):** condition compels
+truthfulness *if* an answer is given, but does not, on its face, compel that an
+answer be given at all. Client's instinct: this leaves room for a Fifth
+Amendment right to decline to answer in the first instance, unlike the polygraph
+condition (Special Condition (g)), which contains an explicit Fifth Amendment
+savings clause. Client wants this researched before deciding whether to seek
+express clarifying/savings language on this condition too, or to pass.
+
+**Research task:** survey whether an implicit Fifth Amendment privilege survives
+a standard "answer truthfully" condition absent an express savings clause, and
+whether courts read one in regardless. Starting point: *Minnesota v. Murphy*,
+465 U.S. 420 (1984) (probationer's compelled-answer/"penalty situation"
+doctrine) — **[VERIFY citation and current circuit treatment, esp. 2d Cir.]**
+Also check whether the 2016-era AO 245B standard-conditions revision (used in
+this Judgment) was intended to already build in an implicit privilege, or
+whether the absence of express language (contrasted with the polygraph
+condition's express clause) is meaningful.
+
+**Status: flagged for research phase — no client decision yet (not a pass, not
+a final argument).**
+
+---
+
+## Standard Condition 5 — Residence approval
+
+**Verbatim:** "You must live at a place approved by the probation officer. If you
+plan to change where you live or anything about your living arrangements (such
+as the people you live with), you must notify the probation officer at least 10
+days before the change..."
+
+**Client's concern (research flag):** ambiguity in what "approved by" actually
+authorizes. Two readings:
+1. A verification-only function — Probation confirms he actually resides at the
+   stated address (administrative/monitoring function), or
+2. A substantive veto — Probation can affirmatively reject a residence choice
+   for reasons untethered to any stated standard, even though client's
+   understanding is that he is otherwise free to live anywhere in the district.
+
+Client's position: if reading (2) is correct, this is potentially an
+**impermissible/standardless delegation** of a judicial function to probation
+absent express statutory or Guidelines direction cabining that discretion — not
+yet a final argument, but flagged for research before deciding whether to seek
+clarifying language.
+
+**Research task:** survey case law on the scope of "residence approved by the
+probation officer" conditions — is it read as location-verification only, or as
+a substantive approval/denial power, and if the latter, what if any standard
+constrains it and what case law limits/permits it as a delegation matter.
+Cross-reference the delegation-doctrine authority already gathered in the Drive
+folder (*Matta*, *Mayhew*, *Kunz* — same doctrinal family flagged for the CIMP
+delegation argument at Special Condition (a)/theory 2) since this may be the
+same underlying delegation problem recurring across multiple conditions.
+
+**Status: flagged for research phase — no final client position yet.**
+
+---
+
+## Standard Condition 6 — Home visits / plain-view seizure
+
+**Verbatim:** "You must allow the probation officer to visit you at any time at
+your home or elsewhere, and you must permit the probation officer to take any
+items prohibited by the conditions of your supervision that he or she observes
+in plain view."
+
+**Client's argument — employer/third-party-premises problem only (recurring
+theme with Special Condition (a)/CIMP):**
+
+1. **"Or elsewhere" reaching the workplace:** if probation attempts to visit
+   Bernecky at a locked manufacturing plant, the employer may lawfully bar entry
+   under its own security regulations, insurance requirements, or company
+   policy — a constraint entirely outside Bernecky's control and not addressed
+   by the condition's text.
+2. **Plain-view seizure authority presumes possessory control Bernecky doesn't
+   have at a workplace:** the condition obligates Bernecky to "permit" the
+   officer to take prohibited items observed in plain view — but at a location
+   he does not own, lease, or otherwise hold possessory/authority rights in
+   (his employer's plant), he has no legal power to consent to a search or
+   seizure of the premises or others' property in the first place. He cannot
+   "permit" what isn't his to permit.
+
+**Same recurring structural problem as Special Condition (a) theories 1–3:** a
+condition drafted around Bernecky's own home/property is being read (or could be
+read) to reach third-party employer premises/property where neither Bernecky
+nor, derivatively, Probation has any independent authority — the employer's own
+rights and regulatory/contractual obligations are not addressed anywhere in the
+Judgment. Flag for the drafting phase: this may belong in a single consolidated
+argument about the Judgment's general failure to account for third-party
+(especially employer) premises and property across multiple conditions, rather
+than as fully separate arguments per condition.
+
+**Status: argument captured — cross-referenced to the CIMP employer theme
+for possible consolidation at drafting stage.**
+
+---
+
+## Standard Condition 7 — Full-time employment requirement
+
+**Verbatim:** "You must work full time (at least 30 hours per week) at a lawful
+type of employment, unless the probation officer excuses you from doing so..."
+
+**Client's disposition: PASS on the condition itself, but use as rhetorical
+anchor/refrain in drafting.** Client's point: this condition *mandates*
+full-time employment, while the CIMP condition (Special Condition (a)), as
+already being administratively applied through the PO's employer-facing
+demands (see Special Condition (a) log above), is the very thing preventing
+Bernecky from obtaining/keeping that employment — **before supervision has even
+formally started.** This creates an impossible-compliance / Catch-22 structure:
+he is required to work, yet the government's own administration of a different
+condition is the operative obstacle to his working. Use this juxtaposition
+(mandatory-employment condition vs. CIMP-driven de facto occupational bar) as a
+framing device in the motion to demonstrate concrete, non-speculative,
+already-occurring harm — not a hypothetical future problem.
+
+**Status: condition itself passed; flagged as a drafting/framing note tied to
+the Special Condition (a) employer arguments.**
+
+---
+
+## Standard Condition 8 — No communication/interaction with felons or those engaged in criminal activity
+
+**Verbatim:** "You must not communicate or interact with someone you know is
+engaged in criminal activity. If you know someone has been convicted of a
+felony, you must not knowingly communicate or interact with that person without
+first getting the permission of the probation officer."
+
+**Client's argument — multiple independent grounds:**
+
+1. **Structural housing conflict:** sex offenders are systematically pushed to
+   the margins of available housing (residency restrictions, landlord
+   reluctance) and routinely end up living among/near other felons and
+   registered sex offenders as a direct result. The condition, as written,
+   makes compliance with ordinary neighborly contact itself a violation absent
+   advance PO permission — a conflict baked into the reality of where
+   Bernecky can even find housing, not a hypothetical.
+2. **Direct conflict with Special Condition (b) (sex-offense treatment):**
+   Bernecky is separately *ordered* to participate in sex-offense-specific
+   group treatment, where fellow participants are presumably also convicted
+   felons. One condition compels group contact with felons; this condition
+   bans it without prior permission. The Judgment does not reconcile this.
+3. **Workplace scenario:** if Bernecky learns a coworker has a felony
+   conviction, the literal text requires him to stop communicating with that
+   coworker (or preemptively seek PO permission) — an unworkable standard for
+   ordinary workplace functioning, and one he cannot always anticipate before
+   the fact (he doesn't necessarily know a coworker's record until it comes up
+   incidentally).
+4. **This is a communication ban, not merely an association-restriction** —
+   textually broader than a "no association" or "no cohabitation" condition.
+   Client's position: this reaches core First Amendment-protected speech
+   itself, not just relationships/association. Client's illustrative
+   hypotheticals: asking a celebrity with a felony conviction for an autograph
+   (client named Robert Downey Jr. and Wesley Snipes as examples of famous
+   convicted felons); attending a political rally where formerly incarcerated
+   people advocate for felon voting-rights restoration (core political speech/
+   petition-clause activity); writing a letter to a public figure who happens
+   to have a felony conviction. These are all one-off, incidental,
+   non-culpable contacts swept in by literal "communicate or interact... must
+   not" text with no de minimis, incidental-contact, or knowledge-timing
+   carve-out beyond the bare "without first getting permission" mechanism.
+5. **Overbreadth by the numbers:** client's estimate is that roughly 20% of the
+   U.S. adult population has a felony conviction. **[VERIFY BEFORE FILING —
+   source this statistic properly; likely from BJS/Sentencing Project data on
+   the population with a felony record, not necessarily 20% precisely.]** If
+   accurate or even roughly so, a blanket communication ban of this breadth
+   restricts an enormous swath of ordinary civic and social life.
+6. **Possible narrower alternative (client gestures at this, not yet a final
+   request):** distinguish a condition restricting *cohabitation/harboring*
+   felons in his home from a blanket ban on *communication* — client's
+   suggestion is that the former might be a legitimate, narrowly tailored
+   condition where the latter is not. Flag as a possible proposed
+   narrowing/replacement condition for the drafting phase rather than pure
+   elimination.
+
+**Research task:** survey 2d Cir. and other circuit case law narrowing/striking
+"no association/communication with felons" conditions for vagueness/overbreadth
+and First Amendment concerns, and whether courts distinguish "association" from
+"communication" bans. Starting candidate: *United States v. Reeves*, 591 F.3d 77
+(2d Cir. 2010) (narrowing an association condition to require knowledge +
+sustained relationship). **[VERIFY citation, holding, and whether it's the
+right lead case or whether better-fitting authority exists.]**
+
+**Status: argument fully captured across multiple grounds — not yet resolved
+whether requested relief is elimination, a knowledge/timing carve-out, or
+narrowing to cohabitation-only.**
+
+---
+
+## Standard Condition 10 — Weapons
+
+**Verbatim:** "You must not own, possess, or have access to a firearm,
+ammunition, destructive device, or dangerous weapon (i.e., anything that was
+designed, or was modified for, the specific purpose of causing bodily injury or
+death to another person such as nunchakus or tasers)."
+
+**Client's disposition:** pass on firearms/ammunition/destructive
+devices/weapons generally — not contested. **Low-priority research flag only**
+(client's own characterization: "may be academic and not worth pursuing"): does
+the condition's definition of "dangerous weapon" (designed/modified for the
+specific purpose of causing bodily injury or death) reach non-lethal defensive
+items like pepper spray/OC spray, given the documented real-world risk of
+vigilante violence against registered sex offenders? Client wants this
+researched only if low-effort; not a priority track.
+
+**Research task (low priority):** whether pepper spray/OC spray falls within
+"dangerous weapon" as defined in standard supervised-release conditions, and
+whether any court has addressed a self-defense/personal-safety accommodation
+for a supervisee in a documented elevated-threat category. Do not over-invest
+research time here relative to the four priority tracks (occupational/CIMP,
+polygraph, fees, and any others yet to come) unless something surfaces quickly.
+
+**Status: passed on firearms; pepper spray flagged as a minor/optional research
+item.**
+
+---
+
+## Standard Condition 12 — Risk notification to third parties
+
+**Verbatim:** "If the probation officer determines that you pose a risk to
+another person (including an organization), the probation officer may require
+you to notify the person about the risk and you must comply with that
+instruction. The probation officer may contact the person and confirm that you
+have notified the person about the risk."
+
+**Client's argument:**
+
+1. This condition must be adjusted to conform to the **Second Circuit's
+   decision in *United States v. Boles*** — **[VERIFY citation/holding
+   precisely: candidate is 914 F.3d 95 (2d Cir. 2019); confirm exact procedural
+   requirements Boles imposed on risk-notification conditions before relying
+   on it].**
+2. **W.D.N.Y. has already issued a standing order** addressing risk-
+   notification conditions post-*Boles* — a copy already sits in the Drive
+   folder (`wdny standing order re risk notification boles.pdf`, noted in
+   intake as present in 3 copies). Need to pull its full text once Drive
+   tools are available again.
+3. **Probation's own pre-release "expected conditions" document already
+   presented to Bernecky lists this condition in its pre-*Boles* / unmodified
+   form** — i.e., Probation is not even applying the district's own
+   corrective standing order to Bernecky's case. **[ACTION: locate this
+   "expected conditions" document in the Drive folder — not yet identified in
+   the original intake; may be a separate document from the Judgment. Need a
+   follow-up Drive search/read once tools reconnect.]**
+4. **Substantive problem with the standing order itself, independent of
+   Probation's noncompliance with it:** the standing order provides that the
+   probation officer acts "in consultation with the court" — but establishes
+   **no procedure for Bernecky to participate, be heard, or have counsel
+   involved** before a risk-notification determination is made or acted on.
+   Client's characterization: this recreates the "ancient condemned practice
+   of private tribunals" — a closed-door determination between the officer and
+   the court, outside any adversarial process. Client's position: merely
+   routing the decision through the court does not cure the *Boles* problem if
+   Bernecky has no opportunity to contest the risk determination, or the scope/
+   content of any required notification, before it issues or before it's acted
+   upon by contacting the third party.
+
+**Research task:** (a) confirm *Boles* citation and precise holding/required
+procedure; (b) obtain and analyze the full text of the WDNY standing order
+(already in Drive folder — re-pull once Drive access is back); (c) locate
+Probation's "expected conditions" document referenced by client and compare its
+Condition 12 language against both the Judgment and the standing order; (d)
+assess whether the standing order's "consultation with the court" mechanism, as
+written, satisfies *Boles* given the absence of any defendant participation/
+counsel procedure.
+
+**Status: argument captured; two documents still need to be located/pulled
+(standing order full text, Probation's expected-conditions document) before
+this can be finalized for drafting.**
+
+---
+
+## Special Condition (b) — Sex-offense-specific treatment
+
+**Verbatim:** "The defendant must participate in a sex offense-specific
+treatment program and follow the rules and regulations of that program. The
+probation officer will supervise the details of the defendant's participation
+in the program, including the selection of a provider and schedule. The
+defendant is not to leave treatment until complete or as ordered by the Court.
+The defendant is required to contribute to the cost of services rendered."
+
+**Client's argument — non-delegation problem in "follow the rules and
+regulations of the program":**
+
+Only the sentencing **court** may impose restrictions on Bernecky's liberty as
+conditions of supervised release — that authority cannot be delegated
+wholesale to a private treatment provider. As written, this condition
+automatically incorporates whatever rules a treatment provider unilaterally
+adopts as binding, enforceable conditions of supervision, with no court
+involvement in setting those specific rules. Client recalls a case on point
+(case name not recalled, believes it starts with "B"). **[VERIFY — leading
+candidate: *United States v. Balon*, 384 F.3d 38 (2d Cir. 2004), which
+addressed delegation of authority over sex-offense treatment/testing
+conditions to probation/providers; confirm this is the right case and its
+exact holding before relying on it. Distinct from the *Matta*/*Mayhew*/*Kunz*
+delegation authority already flagged for the CIMP condition, but likely the
+same doctrinal family — cross-reference at drafting.]**
+
+**Requested relief:** clarifying language establishing that Bernecky cannot be
+found in violation of supervised release (revocation/violation proceedings)
+for declining to comply with a treatment-provider rule that exceeds the scope
+of what the court itself ordered — i.e., if the provider goes "above and
+beyond" the court's own conditions and Bernecky says no to that
+provider-specific rule, that refusal alone cannot be a violation.
+
+**Research task:** confirm the correct case (Balon or otherwise), its holding
+on delegation to treatment providers specifically, and survey whether courts
+require express carve-out language of the kind requested here, or whether the
+non-delegation principle is instead enforced by voiding the provider rule
+itself when challenged.
+
+**Status: argument captured — case citation needs verification.**
+
+### CORRECTION — Browder belongs here, not at the alcohol clause
+
+Client clarifies a mix-up: the instruction to research *United States v.
+Browder* was intended for **this condition** (Special Condition (b) —
+"follow the rules and regulations of that program"), not for Special
+Condition (h)'s alcohol clause. Browder's actual holding is squarely on
+point here: Browder refused to sign a treatment provider's ("Mid-Erie")
+participant agreement because its own "General Conditions" required him to
+obtain permission before *any* contact with minors, including his own
+children — exceeding the court's actual sentence, which expressly excluded
+his own children from that restriction. The Second Circuit held the
+provider's rule could not be enforced against him: **"Because such a
+requirement... would contradict, rather than execute, Browder's sentence,
+the Probation Office was plainly without power to impose it, as Browder
+correctly argued."** 866 F.3d at 514. This is a closer factual match than
+Matta or Carlineo — it is specifically about a treatment *provider's own
+rules* exceeding a court's order, exactly Bernecky's concern about
+unwritten, unknown provider rules. **Action: integrate Browder as leading
+(or co-leading with Matta) authority for this condition's argument,
+demoting Carlineo further.**
+
+---
+
+## Special Condition (c) — Contact with minors / loitering
+
+**Verbatim:** "The defendant shall not have deliberate contact with any child
+under 18 years of age, excluding his biological or adopted children, unless
+approved by the probation officer or by the Court. The defendant shall not
+loiter within 100 feet of school yards, playgrounds, arcades or other places
+primarily used by children under the age of 18. The Probation Office has the
+discretion to authorize the defendant to pick up his children from school or
+other functions; however, authorization must be obtained in advance from the
+Probation Office or alternatively from the Court."
+
+**Client's argument:**
+
+1. **Family carve-out is illusory and too narrow:** the only exception is for
+   his own biological/adopted children — **which he does not have.** It does
+   not extend to any other family member: cousins, cousins' children, nieces,
+   nephews, etc. As applied, there is effectively no family carve-out at all.
+2. **Familial association rights implicated, no balancing test performed:**
+   this condition burdens the constitutionally protected right to familial
+   association, and the sentencing court never conducted the required
+   balancing analysis before imposing a restriction this broad on family
+   contact.
+3. **No nexus finding:** there is no basis in the record to believe Bernecky
+   poses a physical danger to anyone — no such finding was made.
+4. **Proposed narrower alternative:** client would accept a condition that
+   permits contact with minors when in the presence of an adult with knowledge
+   of his conviction — e.g., his mother, father, or sister, who already know —
+   without requiring advance case-by-case approval. Client's illustrative
+   example: if he's at his mother's house for Christmas and his sister arrives
+   with her kids, he should not have to leave immediately ("evacuate like
+   there's a fire") for lack of prior approval.
+5. **Employability clarification requested — ties to the recurring
+   occupational-restriction theme (see Special Condition (a) and Standard
+   Condition 7 above):** client wants it expressly clarified that this
+   condition creates **no occupational restriction whatsoever.** Ordinary,
+   incidental workplace contact — a coworker who is 17, or a minor customer
+   standing in front of him in the course of his job duties — must not be read
+   as "deliberate contact" requiring pre-approval or removal from the
+   situation.
+
+**Cross-cutting note for drafting:** this is now the **third** condition
+(alongside CIMP/Special Condition (a) and the Standard Condition 7 framing
+note) where an implied occupational restriction keeps surfacing without the
+court ever having performed the § 5F1.5 two-part analysis anywhere in the
+Judgment. Consider a dedicated, consolidated "no condition in this Judgment may
+be read to impose an occupational restriction absent an express § 5F1.5
+finding" argument/section, in addition to addressing each condition
+individually.
+
+**Status: argument captured — family-association and employability angles
+both flagged.**
+
+---
+
+## Special Condition (d) — Financial monitoring (anti-CP-purchase)
+
+**Verbatim:** "In order to monitor the defendant's compliance with not buying
+or subscribing to online services that provide child pornography, the
+defendant shall provide the U.S. Probation Office with access to any requested
+personal and/or business financial information."
+
+**Client's argument:** Bernecky has **never been alleged to have purchased**
+child pornography — the offense of conviction is possession, not purchase or
+distribution for consideration. A condition granting blanket, standing access
+to all personal/business financial information, premised on monitoring a
+purchasing behavior with no factual basis anywhere in the record, is
+disproportionate to the actual offense conduct. Client would accept a version
+of this condition **cabined by a reasonable-suspicion trigger** — i.e.,
+financial-information access only upon some articulated basis for suspicion,
+rather than unconditional/standing access.
+
+**Research task:** survey the standard for financial-disclosure conditions
+tied to monitoring a specific type of prohibited transaction — is a nexus/
+factual-basis requirement generally imposed, and is a reasonable-suspicion
+gating mechanism (as opposed to blanket standing access) a recognized/accepted
+narrowing in this circuit or others.
+
+**Cross-reference:** likely overlaps with Special Condition (i) (general
+financial-disclosure/asset-restraint condition, tied to restitution
+collection) — same "blanket financial access absent nexus" structural
+problem; consider consolidating at drafting.
+
+**Status: argument captured — research needed before finalizing scope of
+requested relief.**
+
+---
+
+## Special Condition (e) — Sex offender registration / PSR disclosure
+
+**Verbatim:** "The defendant shall register with the state sex offender
+registration agency in any state where the defendant resides, is employed,
+carries on a vocation, or is a student, and shall provide proof of
+registration to the probation officer. The probation office is authorized to
+release the defendant's presentence report to the New York State Board of
+Examiners of Sex Offenders. Further disclosure to the county court and to the
+parties involved in the determination of the defendant's final classification
+level is also authorized."
+
+**Client's argument:**
+
+1. **PSR disclosure outright violates *United States v. Charmer Industries*,
+   711 F.2d 1164 (2d Cir. 1983)** — the controlling Second Circuit standard
+   governing confidentiality of and third-party disclosure standards for
+   presentence reports. This is the same case already cited in the client's
+   own pro se filings in the Drive folder (`jb_courtpack.pdf` and related,
+   re: the January 2026 emergency TRO motion challenging this exact
+   disclosure). **[VERIFY — confirm Charmer Industries' precise holding/
+   standard and whether a blanket, Judgment-level pre-authorization of PSR
+   disclosure to a state licensing/classification board satisfies or
+   violates it.]**
+2. **Registration clause is redundant** — Mandatory Condition 6 already
+   imposes SORNA registration (34 U.S.C. § 20901 et seq.). This special
+   condition's "register with the state sex offender registration agency..."
+   language duplicates that requirement and adds nothing independent (a
+   surplusage/clean-up point, not a rights violation).
+
+**Note:** this dovetails directly with the client's own pending pro se
+emergency motion in the folder (Section 10 of intake) objecting to this exact
+PSR disclosure — that motion and its cited authority (Charmer Industries;
+also *People v. Mingo*, 12 N.Y.3d 563 (2009), cited in `Jeff_Motions.pdf`)
+should be reviewed as part of the research phase rather than researched from
+scratch.
+
+**Status: argument captured — Charmer Industries citation to be verified;
+registration redundancy noted as a drafting clean-up item.**
+
+---
+
+## Special Condition (h) — Mental health treatment
+
+**Verbatim:** "The defendant is to participate in a mental health treatment
+program, including a mental health evaluation and any treatment recommended...
+While in treatment or taking psychotropic medication, the defendant shall
+abstain from the use of alcohol. The defendant is required to contribute to
+the cost of services rendered."
+
+**Client's arguments:**
+
+1. **Alcohol abstinence should be physician-gated, not a blanket court rule:**
+   client is fine with the treatment condition generally, but argues the
+   alcohol-abstinence clause should apply only if/when a treating physician
+   determines alcohol should not be taken (e.g., due to a specific medication
+   interaction) — not as a categorical rule imposed by the court, which is not
+   in a position to make that medical determination independent of an actual
+   physician's judgment.
+2. **"Contribute to the cost of services rendered" needs definition** — see
+   consolidated fee thread below.
+
+**Status: alcohol-abstinence argument captured (physician-gating); cost
+question folded into the cross-cutting fee thread.**
+
+---
+
+## CROSS-CUTTING: Fee Structure ("contribute to the cost" / "pay the cost of
+monitoring services")
+
+Consistent with client's original framing (compounding, undisclosed fee
+responsibilities) and now recurring across every fee-bearing condition, client
+raises the same unresolved questions each time — consolidating here rather
+than re-deriving per condition:
+
+**Conditions carrying a fee obligation:** CIMP monitoring (Special Condition
+(a)), sex-offense treatment (Special Condition (b)), polygraph (Special
+Condition (g)), mental health treatment (Special Condition (h)) — plus the
+10%-of-gross-income restitution garnishment (Sheet 5) as a related but
+separate obligation.
+
+**Client's unresolved questions, applicable across all four:**
+1. Is there any **ability-to-pay/indigency analysis** performed before
+   requiring "contribution," or is the obligation imposed regardless of
+   ability to pay?
+2. Does **insurance** apply first, with the defendant only responsible for
+   any gap, or is he exposed to the full cost regardless of coverage?
+3. **Medicaid interaction:** if Bernecky is Medicaid-eligible, federal/state
+   Medicaid rules generally **prohibit providers from balance-billing
+   Medicaid beneficiaries** beyond permitted cost-sharing for covered
+   services. A condition requiring him to "contribute to the cost of services
+   rendered" could directly conflict with that prohibition if the services are
+   Medicaid-covered — **[VERIFY: confirm Medicaid balance-billing prohibition
+   scope/citation and whether it would actually apply to
+   treatment/polygraph/monitoring services of this kind].**
+4. No dollar figures, rate-setting methodology, or payment procedure are
+   specified anywhere in the Judgment for any of these four conditions (already
+   confirmed at intake — no CIMP program agreement, fee schedule, or billing
+   document exists in the case file).
+
+**Research task:** survey the standard for fee-bearing supervision conditions
+generally — is an ability-to-pay finding constitutionally/statutorily required
+before imposing a "contribute to cost" obligation (cross-reference *United
+States v. Leone*, already gathered in the Drive folder per intake, re:
+ability-to-pay case law), how courts have handled the insurance/Medicaid
+interaction, and whether the total absence of quantification/rate-setting
+procedure across four separate conditions is itself a due process/vagueness
+problem (fair notice of the actual scope of the obligation).
+
+**Status: consolidated fee thread established — will be addressed once, across
+all four conditions, at drafting rather than four separate arguments.**
+
+### GAP IDENTIFIED, THEN CORRECTED — the dollar amounts are not the point
+
+Client initially noted that research to date only produced a real fee
+schedule for CIMP monitoring (RemoteCOM: $35/device/month), with no figures
+for treatment (Special Condition (b)) or polygraph (Special Condition (g))
+costs. **Client then clarified: the actual dollar amounts are irrelevant.**
+Even a low per-unit cost (client's example: $10/device, $10/session)
+compounds rapidly into a prohibitive burden across four separate fee-bearing
+conditions. **The real defect is structural, not a quantum question:
+nothing in the Judgment gives Probation (or Bernecky) any guidance on how
+much he is expected to pay, whether there is a sliding scale tied to
+ability to pay, or what happens if he genuinely cannot afford it** — is
+inability to pay itself treated as a violation, i.e., is he "just screwed"?
+
+**Action (redirected): focus the fee research on (1) the total absence of
+any payment methodology/ability-to-pay mechanism in the condition text
+itself (a due-process/fair-notice defect, not a dollar-amount question), and
+(2) whether failure to pay a supervision cost-contribution obligation,
+standing alone, can be treated as a violation without an inquiry into
+willfulness vs. genuine inability to pay — starting point: *Bearden v.
+Georgia*, 461 U.S. 660 (1983) (revocation for nonpayment requires a
+willfulness/indigency inquiry and consideration of alternatives), and
+whether/how courts have extended that principle beyond fines/restitution to
+supervision-cost "contribute to the cost of services" conditions
+specifically.**
+
+---
+
+## Special Condition (i) — General financial disclosure / asset restraint
+
+**Verbatim:** "The defendant shall provide the U.S. Probation Office with
+access to any requested personal and/or business financial information...
+authorized to release pre-sentence and post-sentence financial information...
+for use in the collection of any unpaid fine or restitution. If restitution or
+a fine is owed, the defendant shall notify the U.S. Probation Office of any
+assets received and shall not disburse his interest in any assets... without
+the approval of the U.S. Probation Office."
+
+**Client's argument:** this condition is expressly tied to **collection of
+unpaid fine or restitution.** Client believes Bernecky has **paid the $500
+restitution in full**, meaning there is no longer any unpaid fine or
+restitution for this condition to serve. **Requested relief: vacatur — the
+condition is no longer necessary** once its predicate (an outstanding
+balance) no longer exists.
+
+**[VERIFY BEFORE FILING — confirm actual payment status with documentation:
+BOP Inmate Financial Responsibility Program payment history, court financial
+records, or probation confirmation that the $500 restitution balance is paid
+in full. This is a factual verification task, not a legal research task —
+must be nailed down before asserting it in the motion.]**
+
+**Status: argument captured — contingent on factual confirmation of payment in
+full.**
+
+---
+
+## Special Condition (j) — No child pornography (last condition)
+
+**Verbatim:** "The defendant shall not possess or have in his control any
+child pornography."
+
+**Client's disposition:** PASS. Noted as redundant with Mandatory Condition 1
+("must not commit another federal, state or local crime") but client is fine
+with the language remaining as is.
+
+**Status: passed.**
+
+---
+
+# INTERVIEW COMPLETE — 30/30 conditions reviewed
+
+All Mandatory (1–7), Standard (1–13), and Special (a)–(j) conditions have been
+walked one by one. See summary/action-item recap at end of this document.
+
+## Outstanding action items before/during research phase
+1. Pull full text of WDNY standing order re: risk notification (*Boles*) from
+   Drive folder (Standard Condition 12).
+2. Locate and review Probation's "expected conditions" document presented to
+   Bernecky pre-release (referenced re: Standard Condition 12; not yet
+   identified as a distinct file).
+3. Confirm restitution payment-in-full status with documentation (Special
+   Condition (i)).
+4. Verify all case citations flagged `[VERIFY]` throughout this document
+   (Von Behren, Hoffman, Murphy, Reeves, Balon, Charmer Industries, Boles,
+   Leone) before relying on any of them in drafting.
+
+*(Additional conditions to be logged here as the interview proceeds — any
+others as raised.)*
+
+---
+
+## 2026-07-08 — FULL MOTION REWRITE: Track 25 integrated; complete
+front-to-back redraft per the legal-advocacy skill and the Preston Field
+case study
+
+**Context:** With all 25 research tracks, the full client-directive record
+above, MASTER-OUTLINE.md, and the newly-written `.claude/skills/legal-
+advocacy/SKILL.md` (plus its `reference/preston-field-case-study.md`) all in
+hand, `case-files/bernecky/MOTION-DRAFT.md` was rewritten from scratch —
+not patched — into a single coherent pass. This entry documents what
+changed structurally and rhetorically from the prior draft, and why.
+
+**1. Track 25 now integrated into the motion (previously only logged in
+part25 and this file's own "ubiquitous device" directive, above — not yet
+reflected in MOTION-DRAFT.md, MASTER-OUTLINE.md, or CITATIONS-TO-VERIFY.md
+until this pass):**
+- Part A.4 of the motion is restructured to lead with *United States v.
+  Kunz*, 68 F.4th 748, 754-55, 763, 764-65, 772 (2d Cir. 2023), as the
+  central interpretive-methodology citation — Kunz's own "sensible
+  reading"/"would be absurd to interpret" language, construing this exact
+  WDNY CIMP condition family, replaces the never-confirmed (and now
+  affirmatively disconfirmed) *Browder* attribution for the "common sense
+  reading" doctrine.
+- The CPAP-machine/vehicle reductio passage drafted in part25 is inserted
+  into Part A.4 in full, adapted to the motion's register: the employer's
+  own confusion is used as Exhibit A for the absurdity of the broadest
+  literal reading, then extended outward to a CPAP machine (internet-
+  connected, zero image-display capability) and a car (the paradigmatic
+  thing a person "operates," per *State v. Henderson*, 907 N.W.2d 623
+  (Minn. 2018), cited strictly as ordinary-usage confirmation).
+- *United States v. Mike*, 632 F.3d 686 (10th Cir. 2011) (quoting *United
+  States v. Brigham*, 569 F.3d 220 (5th Cir. 2009)), is NOT cited anywhere
+  in the motion for the "common sense reading" doctrine — it remains cited,
+  correctly, only for the separate ownership-vagueness/employer-reach point
+  in Part A.3, consistent with part25's and part19's findings that these
+  are two different, non-conflated uses of the same case.
+- MASTER-OUTLINE.md's Section 7 (A.4) has been rewritten to reflect this
+  restructuring, and its Section 2 page-budget table has been reconciled
+  against the actual filed draft.
+- CITATIONS-TO-VERIFY.md has a new "TRACK 25" section adding Kunz's
+  confirmed pincites, flagging *Public Citizen*, *Bock Laundry*, *Griffin*,
+  and *Henderson* as [VERIFY] (WebSearch-sourced only, consistent with this
+  file's existing verification-tier convention), and expressly noting that
+  *Mike*/*Brigham* must not be cited for the "common sense reading"
+  doctrine specifically. RESEARCH-STATUS.md's tracker is updated to mark
+  Track 25 as researched **and now integrated**, not merely researched.
+
+**2. Structural and rhetorical changes from the prior draft, and why:**
+- **Preliminary Statement and Conclusion rewritten as genuine rhetorical
+  bookends**, per the legal-advocacy skill's § 2 (Preliminary
+  Statement/Conclusion-as-opening-and-closing-argument guidance). The prior
+  draft's Preliminary Statement opened with a flat scheduling fact ("Mr.
+  Bernecky's ten-year term... is scheduled to commence"); the new version
+  opens on the concrete stakes ("One dispute in this motion already has a
+  face, a name, and a closing window") and ends by telling the Court
+  exactly what is being asked and why. The Conclusion now echoes that same
+  register and imagery ("An assurance is not a clarification, and a shrug
+  is not a standard... The Court should resolve these questions while
+  resolving them can still keep a job intact...") rather than flattening
+  into "for the foregoing reasons."
+- **Part A.1's expressio unius argument is now actually explained, not
+  merely asserted** — the documented "bare conclusion" defect in the prior
+  draft. The new version walks through *Esteras v. United States*, 145 S.
+  Ct. 2031 (2025) (Congress's omission of one of ten § 3553(a) factors as a
+  "[c]onspicuously missing" signal of exclusion), applies that reasoning to
+  the Judgment's own itemized CIMP text and its use of "employ-" language
+  twice elsewhere in the same document, and then affirmatively distinguishes
+  *Chevron U.S.A. Inc. v. Echazabal*, 536 U.S. 73, 80-81 (2002) (canon
+  rejected on facts involving illustrative "may include" language) from
+  Bernecky's closed, itemized condition (no such illustrative language).
+  *Maiorana* is demoted to a footnote a fortiori point only, consistent
+  with the client's controlling correction, logged above, that it governs
+  condition *formation*, not the *interpretation* of an already-imposed
+  condition's scope.
+- **No employer-consent "Path 2" fallback anywhere in the motion.** Per
+  legal-advocacy skill § 8's own worked example (which is this exact fact
+  pattern), the requested relief in Part A.5 is limited to: (i) a
+  declaration that there is no employer monitoring under Special Condition
+  (a), period; (ii) a device-scope clarification; and (iii) a prohibition
+  on using another person's device. This supersedes the earlier "Path
+  1/Path 2 either-or" language that had been logged as a controlling
+  correction above — that structure has itself been superseded by this
+  final, no-fallback instruction, and MASTER-OUTLINE.md's A.5 has been
+  updated to show both the final relief and the superseded language it
+  replaces, so the history is not lost.
+- **No revocation-implying paragraph anywhere in the motion**, including in
+  the Jurisdiction/Standard of Review section. Track 22's "why litigate now
+  vs. defer to a revocation proceeding" judicial-economy argument — fully
+  researched and confirmed sound — was deliberately NOT incorporated into
+  this draft, because its entire structure requires discussing what happens
+  at a hypothetical future revocation/violation proceeding, which risks
+  reading as though Bernecky is expected to violate his conditions. This is
+  a judgment call: Track 22's research is not wasted (it remains in
+  part22/CITATIONS-TO-VERIFY.md if a future draft's framing can incorporate
+  it without that implication), but it is omitted from this filed draft.
+- **Family-contact section (Part E) reframed around the *de facto*
+  family-event-ban theory**, not a narrower "wants contact with specific
+  nieces/nephews" framing, using the client's own Christmas/mother's-house
+  and unannounced-grandchildren examples directly, per the controlling
+  correction logged above.
+- **Full candor about Mr. Bernecky's own record preserved** in Parts E and
+  F: the motion states plainly, without euphemism, that this is at least
+  his second child-pornography-related conviction, that his record is not
+  *Bleau*'s clean-record case, and that this motion does not ask the Court
+  to overlook that — consistent with the legal-advocacy skill's "never hide
+  bad facts about your own client" principle.
+- **Critical-stage argument (Part F.3) reframed per the client's *Cobb*-is-
+  not-the-barrier correction**, logged above: leads with the point that
+  *Cobb*'s offense-specific attachment rule targets a *different* offense,
+  not the *same* case's ongoing supervision, before confronting *Finley*/
+  *Gagnon*/*Morrissey* directly as the actual adverse authority, using
+  *Estelle v. Smith*'s still-pending-proceeding logic as the affirmative
+  analogy.
+- **Section lettering confirmed final as A through K**, matching this
+  file's own settled structure: A (occupational/CIMP), B (keystroke), C
+  (treatment-provider delegation + thought-control framing), D (alcohol —
+  *Betts*), E (family contact), F (polygraph), G (PSR/*Charmer*), H (fees),
+  I (financial disclosure d/i), J (felons), K (risk notification/*Boles*).
+  A full front-to-back holistic re-read (per skill §4) confirmed all
+  eleven sections are actually present in the finished draft, all
+  cross-references (Part letters, condition letters/numbers) are internally
+  consistent, all hedging "ambiguous" language has been purged in favor of
+  the definitive silence/expressio-unius framing (with the sole remaining
+  use of the word being an explicit negation — "not an ambiguous one, none
+  at all"), all Latin/French terms are italicized, no pepper-spray mention
+  survives, and no ghostwriting-disclosure language was added.
+
+**3. Length:** the rewritten draft runs approximately 9,270 words
+(roughly 33-34 pages double-spaced at ~275 words/page), against the
+30-page hard limit MASTER-OUTLINE.md sets. A trimming pass was performed
+(Jurisdiction section's closing paragraph, the A.3 standing and
+third-party-premises paragraphs, the CPAP/car passage, the F.1/F.3
+polygraph paragraphs, the Section H fee paragraph, and the Section E family
+paragraph were all tightened), but the draft still runs several pages over
+budget, primarily because Section A grew to accommodate the Track 25
+restructuring, the CPAP/car reductio, and the now fully-explained (rather
+than merely asserted) expressio unius argument — all additions this pass
+was specifically directed to make. This is flagged for a human trim-or-
+accept decision before filing; further compression risks cutting into
+content this file's own directives require be kept.
+
+**Action: none outstanding from this pass.** The next drafting session
+should (a) decide whether to accept the current length or direct a further
+trim, and (b) run the [VERIFY]-tier citations (see CITATIONS-TO-VERIFY.md)
+against Westlaw/Lexis/PACER before the motion is actually filed.
+
+---
+
+## 2026-07-08 (same day, second pass) — Client review of the full rewrite: six corrections applied directly
+
+Client reviewed the full rewrite and flagged six problems, all fixed directly
+in MOTION-DRAFT.md (no subagent used for this pass — precision edits made
+in the main session):
+
+1. **Factual error — Bernecky does not own a CPAP machine.** The CPAP
+   example in Part A.4 was drawn from the client's own earlier "even CPAP
+   machines and cars have internet access" advocacy point (logged above,
+   "advocacy philosophy" entry) — a generic illustration of IoT ubiquity,
+   never a fact about Bernecky personally. The prior rewrite pass
+   mistakenly wrote it as "Mr. Bernecky's CPAP machine," asserting personal
+   ownership of a device with no factual support in the case file. **Fixed:**
+   Part A.4 now uses a set of ubiquitous, unattributed IoT examples (a
+   refrigerator, a video doorbell, a fitness tracker, a CPAP machine, all
+   introduced generically, not as Bernecky's own possessions) per the
+   client's instruction to use "more ubiquitous internet of things examples"
+   rather than a single personalized device. The car example was also
+   revised to stop asserting personal ownership ("a family car" rather than
+   "Mr. Bernecky's car"), for the same reason, out of caution.
+2. **Citation working against its own argument.** The device-capability-
+   threshold citation to *United States v. Rath* (5th Cir.) quoted language
+   permitting a "school or work" device only "as long as . . . not capable
+   of Internet access" — which, read carefully, concedes that an
+   internet-capable work device WOULD be within the condition's reach,
+   directly undercutting Part A's flagship position that employer/third-
+   party systems are outside the condition's reach entirely, regardless of
+   capability. **Fixed:** Rath removed from Part A.4; *Ullman* (a general,
+   non-work-specific capability-threshold citation) kept alone, with an
+   added sentence clarifying the capability threshold governs only
+   Bernecky's own devices and concedes nothing about third-party/employer
+   devices.
+3. **Polygraph section (Part F) was choppy and under-motivated.** Client
+   flagged the numbered-subsection structure as fragmented (some
+   subsections one or two sentences) and noted the section dove straight
+   into case law without first stating Bernecky's actual bottom-line
+   position. **Fixed:** added an unnumbered lead paragraph stating plainly,
+   before any doctrine, that Bernecky will not answer any polygraph/CVSA
+   question without counsel present to advise him in real time; folded the
+   former standalone one-line F.5 (no factual predicate of dishonesty) into
+   the end of F.1 as a closing point rather than an orphaned subsection, so
+   F now runs four substantive parts instead of five, with none reduced to
+   a single throwaway sentence.
+4. **CJA counsel request "made zero sense."** The prior F.4 asked for
+   counsel "for purposes of this motion, independent of how the
+   polygraph-specific request above is resolved" — framing appointment as
+   disconnected from the actual polygraph relief, which is what made it
+   confusing. Client's correction: this is not a hedge — either the Court
+   appoints counsel to help Bernecky navigate the examinations, or, absent
+   that, Bernecky will invoke the Fifth Amendment categorically as to any
+   and all such examinations going forward. Client also directed that the
+   CJA's "interests of justice"/constitutional-rights-protection function
+   supports appointment, not merely the 18 U.S.C. § 3006A(a)(1)(E)
+   modification-proceeding category already used. **Fixed:** F.4 rewritten
+   to frame the appointment request as squarely in service of resolving the
+   polygraph protections sought in this very motion (not a separate,
+   independent ask), to state the binary consequence explicitly, and to
+   argue the interests-of-justice/constitutional-protection point as
+   additional support layered onto the (a)(1)(E) hook. **Open research
+   flag, not yet resolved:** Track 24 previously found that § 3006A(a)(2)'s
+   "interests of justice" language is NOT a general catch-all and is limited
+   to two enumerated categories that do not reach this fact pattern. The
+   interests-of-justice argument now in F.4 is framed as a persuasive point
+   about what the (a)(1)(E) appointment authority should be used to
+   accomplish, not as an independent citation to (a)(2) or any other specific
+   subsection — this needs a citation-verification pass before filing to
+   confirm there is a clean statutory or case-law hook for a freestanding
+   "interests of justice"/constitutional-protection appointment argument, or
+   whether it should remain framed only as persuasive gloss on (a)(1)(E).
+5. **Missing felony-conviction-prevalence statistic in Part J.** Client
+   directed that Part J was missing the point that a meaningful share of the
+   U.S. population — client's figure: approximately 5% — has a felony
+   conviction, which matters to the overbreadth argument (a "communicate or
+   interact with any felon" ban reaches an unremarkable share of the general
+   public, not a narrow class). **Fixed:** added to Part J's opening
+   paragraph. **This supersedes, and corrects, the file's own earlier
+   unsupported "~20%" figure** (flagged in CITATIONS-TO-VERIFY.md's LOW
+   PRIORITY section) — the 5% figure is the client's own number, not yet
+   independently sourced either, and is flagged `[VERIFY BEFORE FILING]` in
+   CITATIONS-TO-VERIFY.md pending a real BJS/Sentencing Project citation.
+6. **Two leftover "full stop" instances and one "de novo review" error.**
+   The phrase "full stop" had leaked from this drafting session's own
+   internal instructions (used there as emphasis/register guidance to the
+   drafter, not as text meant to appear in the filed document) into the
+   actual motion text in three places — a register error, since "full stop"
+   is a casual interjection with no place in formal motion practice. All
+   three removed. Separately, Part A.2's comparison to *Brown* mischaracterized
+   this motion's posture as inviting "de novo consideration" — but "de novo
+   review" is an appellate standard-of-review concept, and this is an
+   original district court motion under § 3583(e)(2), not an appeal from any
+   prior ruling; there is no "review" of anything happening here at all,
+   let alone de novo review. **Fixed:** replaced with an accurate
+   description — Brown's plain-error posture is inapposite because this
+   Court is exercising its own § 3583(e)(2) discretion in the first
+   instance, not reviewing a prior decision under any standard.
+
+**Also added per this pass:** a Track 9 section in CITATIONS-TO-VERIFY.md
+flagging *United States v. Rodriguez* (2d Cir. 2023) — cited in Part D,
+sourced from part9's pre-existing research, but never previously logged in
+the master verification checklist. This was caught during the commit review
+of the prior rewrite pass, before the client's own review comments arrived,
+and is a separate, already-fixed item (see the git history for the commit
+titled "Full from-scratch rewrite... integrating Track 25 and the
+legal-advocacy skill").
+
+**Action before filing:** resolve the open CJA interests-of-justice research
+flag (item 4, above); find or confirm a real source for the felony-
+conviction-prevalence statistic (item 5); and run every `[VERIFY]`-tier
+citation in CITATIONS-TO-VERIFY.md against Westlaw/Lexis/PACER, including
+Rodriguez, Ullman, Sofsky, Bleau, the Track 20/21/24 critical-stage and
+polygraph-counsel authorities, and the Track 25 absurdity-canon background
+cases — none of these should be treated as filing-ready on the strength of
+this drafting session's research alone.
+
+---
+
+## 2026-07-08 (third pass, same day) — Client rejected the prior rewrite as not a genuine redo; full ground-up rewrite performed directly (no subagent)
+
+Client's reaction to the prior two passes: the "full rewrite" read nearly
+identically to the original draft, which the client found disheartening
+given the instruction to start from scratch. This entry documents an actual
+ground-up rewrite, performed directly in the main session rather than
+through a subagent, and the substantive corrections that drove it.
+
+**1. New fact.** Bernecky called the client today: Probation has finally
+contacted the employer's HR department. Hiring is still unconfirmed. Client's
+own assessment: "the point still stands" — the uncertainty and the delay
+remain the operative harm even though contact has now occurred. Reflected in
+the Statement of Facts and Preliminary Statement.
+
+**2. The CIMP/employer "silence" theory is dropped, not rebalanced — this is
+a substantive legal correction, not a style note.** Client's own words:
+"when it comes to the silence about employment, I think we are bastardizing
+this to our detriment. it is silent by not using the word employ... but the
+word operates, no matter how we want to distinguish it, brings those systems
+into the purview of the condition." The prior drafts argued (a) "employer"
+never appears in the condition, therefore no employer-facing restriction
+exists, while separately (b) using a reductio built on "operates" reaching
+absurd results (CPAP machines, cars) to narrow the condition's capability
+scope. Client correctly identified the tension: leaning on "operates"'
+literal breadth for the capability reductio while also insisting "operates"
+somehow doesn't reach an employer's systems is not a coherent position, and
+a court (or the government) could exploit exactly that tension. **Fixed:**
+the word-absence/expressio-unius theory is removed entirely. The new lead
+theory, per the client's own suggestion: "the stronger point is that the
+court was never asked and never did actually conduct a 5F1.5 analysis at
+all, and that alone means the court never intended it to reach employment,
+as that is a prerequisite to employer-based conditions." This is now Part
+I.A of the rewritten motion. The *Esteras*/*Echazabal* expressio unius
+material built around the old theory has been removed for this point
+(Esteras remains correctly used elsewhere for the unrelated § 3583(e)(1)/
+(e)(2) timing argument in the Jurisdiction section). The *Kunz*/CPAP-car
+reductio is retained, but strictly repositioned as a device-*capability*
+argument (what counts as an "internet capable device" generally) — it no
+longer does any work toward excluding employer devices specifically, which
+removes the internal tension the client identified.
+
+**3. No ranking among arguments.** Client: "we are also spending too much
+time on employer issues... this is not mutually exclusive, they are all
+important and critical. frankly the polygraph and CVSA one is the most vital
+since that is the most constitutionally risky." **Fixed:** removed every
+instance of "the relief that matters most" / "above every other" framing.
+The Preliminary Statement now explicitly states that none of the conditions
+addressed is presented as more important than the others, singles out the
+employer dispute and the polygraph condition as the two most concrete/urgent
+problems without ranking between them, and frames the polygraph condition's
+Part VI header as addressing "the one where the stakes are constitutional
+rather than practical" without calling it more or less urgent than Part I.
+The ordering problem is also resolved structurally: the motion now proceeds
+in the order conditions appear in the Judgment, not in a subjective
+urgency ranking, which was itself an implicit ranking device.
+
+**4. "Judgment" vs. "record" terminology.** Client: "you say a lot that the
+judgment is silent or the face of the judgment states. the judgment is not
+the basis for any of these things. it is the judgment. when referencing
+whether something happened, it is the record." **Fixed:** every claim about
+what analysis was or was not performed at sentencing now refers to "the
+record" (or, more precisely, "nothing in the record before this Court — not
+the Judgment, not any Statement of Reasons... not any filing by either
+party"), reserving "the Judgment" for describing the document's own text and
+conditions. This is applied throughout Part I.A and echoed in the
+Preliminary Statement and Conclusion.
+
+**5. Full structural reorganization — condition-led, not theory-led.**
+Client: "the sections aren't [organized well]. I prefer to talk about each
+condition we are talking about and then giving the reasons why. this is
+organized as the specific challenge and then trying to cram in the
+conditions. it is wildly confusing. we have several challenges to CIMP:
+keystroke monitoring that can't respect privilege, the employer issue, the
+cost issues, the IoT issue." **Fixed:** the entire motion has been
+restructured from a theory-led organization (a section per legal argument,
+e.g., a standalone "fees" section spanning four conditions) to a
+condition-led one — one roman-numeral section per condition of the
+Judgment, in the order the conditions appear in the Judgment, with every
+challenge to that specific condition addressed as a lettered sub-part
+inside it. This mirrors the structure of the client's own Preston Field
+motion (see the legal-advocacy skill's case study). Part I (CIMP) now
+contains all four of the challenges the client listed, in this order: (A)
+occupational restriction (per correction #2, above), (B) keystroke/privilege,
+(C) device-capability/IoT, (D) fees. The fee argument's full doctrinal
+treatment lives in Part I.D; every other condition with a fee problem
+(Parts II, VI, VII) states its own fee defect briefly and cross-references
+Part I.D for the shared *Bearden*/ability-to-pay framework, rather than
+re-arguing it from scratch four times — this keeps the condition-led
+structure without repeating the same doctrine verbatim.
+
+**Side effect, not a goal in itself:** this restructuring also resolved the
+page-budget problem flagged in the second pass. The rewritten draft runs
+approximately 8,450 words (~30-31 pages double-spaced), within the 30-page
+target, because cross-referencing the fee argument instead of repeating it
+four times removed several pages of duplication that the theory-led
+structure had made necessary.
+
+**MASTER-OUTLINE.md updated** with a "SUPERSEDING STRUCTURAL CHANGE" notice
+at the top explaining the shift and preserving the prior theory-led outline
+below it for research-provenance purposes only.
+
+**Action before filing:** everything flagged in the prior two log entries
+(CJA interests-of-justice research gap, felony-statistic source, and the
+full `[VERIFY]`-tier citation list) remains open and applies equally to this
+structure. Additionally: confirm with the client whether hiring has been
+confirmed by the time of filing, and update the Statement of Facts
+accordingly if so.
