@@ -13,7 +13,7 @@
   <link rel="icon" href="assets/img/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="assets/css/start.css?v=6" />
+  <link rel="stylesheet" href="assets/css/start.css?v=7" />
 </head>
 <body>
 
@@ -757,70 +757,150 @@
             </div>
           </div>
 
-          <!-- Section 4: Guidelines -->
+          <!-- Section 4: Guideline Range Calculator -->
           <div class="cr-plea-section">
             <div class="cr-plea-section-head">
               <span class="cr-plea-section-num">04</span>
-              <span class="cr-plea-section-title">The Guidelines Calculation</span>
+              <span class="cr-plea-section-title">Build Your Guideline Range</span>
             </div>
             <div class="cr-plea-section-body">
               <div class="cr-plea-note">
-                <div class="cr-plea-note-label">What this means</div>
-                <p>The federal guidelines produce a range in months based on two numbers: your total offense level and your criminal history category. The range is advisory — the judge can go above or below — but it anchors the sentence in most cases. Acceptance of responsibility reduces the offense level by 2 or 3 points, which can mean years of difference in the range.</p>
+                <div class="cr-plea-note-label">Nobody builds this for you — until now</div>
+                <p>The federal sentencing guidelines produce a range in months from two numbers: your offense level and your criminal history category. Most people never understand how their range was calculated. Build it here from scratch, then compare it to what the agreement says.</p>
               </div>
-              <div class="cr-plea-input-row">
-                <div>
-                  <label class="cr-plea-label" for="plea-range-low"><strong>Guidelines range</strong>Low (months)</label>
-                  <input type="number" id="plea-range-low" class="cr-plea-input cr-plea-input--short" placeholder="e.g. 63" />
-                </div>
-                <div>
-                  <label class="cr-plea-label" for="plea-range-high">High (months)</label>
-                  <input type="number" id="plea-range-high" class="cr-plea-input cr-plea-input--short" placeholder="e.g. 78" />
+
+              <!-- PART A: Offense Level -->
+              <div class="cr-plea-calc-part">
+                <div class="cr-plea-calc-part-label">A — Offense Level</div>
+                <div class="cr-plea-field">
+                  <label class="cr-plea-label" for="plea-offense-level"><strong>What total adjusted offense level does your attorney expect?</strong></label>
+                  <p class="cr-plea-note-inline">Ask your lawyer: "What is the total adjusted offense level after all enhancements and reductions — including acceptance of responsibility?" Write that final number here.</p>
+                  <div class="cr-plea-input-row" style="align-items:flex-end;">
+                    <div>
+                      <label class="cr-plea-label" style="font-size:.72rem;">Adjusted offense level (1–43)</label>
+                      <input type="number" id="plea-offense-level" class="cr-plea-input cr-plea-input--short" min="1" max="43" placeholder="e.g. 24" />
+                    </div>
+                    <div>
+                      <label class="cr-plea-label" style="font-size:.72rem;">Acceptance of responsibility reduction included?</label>
+                      <select id="plea-acceptance" class="cr-plea-input cr-plea-input--medium">
+                        <option value="">Select...</option>
+                        <option value="3level">Yes — 3 levels (most common)</option>
+                        <option value="2level">Yes — 2 levels</option>
+                        <option value="no">No reduction</option>
+                        <option value="unknown">Don't know</option>
+                      </select>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="cr-plea-field">
-                <label class="cr-plea-label"><strong>Is the guidelines range agreed upon, or disputed between the parties?</strong></label>
+
+              <!-- PART B: Criminal History Calculator -->
+              <div class="cr-plea-calc-part" style="margin-top:24px;">
+                <div class="cr-plea-calc-part-label">B — Criminal History Points</div>
+                <p class="cr-plea-note-inline">Count only federal and state convictions where you received a sentence. Traffic violations and juvenile adjudications generally don't count. Answer each line:</p>
+
+                <div class="cr-plea-ch-grid">
+                  <div class="cr-plea-ch-row">
+                    <div class="cr-plea-ch-desc">
+                      <span class="cr-plea-ch-pts-badge">3 pts each</span>
+                      Prior sentences of imprisonment <strong>longer than 13 months</strong>
+                    </div>
+                    <input type="number" id="ch-long" class="cr-plea-input cr-plea-input--short" min="0" max="20" value="0" />
+                    <div class="cr-plea-ch-subtotal" id="ch-long-sub">0</div>
+                  </div>
+                  <div class="cr-plea-ch-row">
+                    <div class="cr-plea-ch-desc">
+                      <span class="cr-plea-ch-pts-badge">2 pts each</span>
+                      Prior sentences of <strong>60 days to 13 months</strong>
+                    </div>
+                    <input type="number" id="ch-mid" class="cr-plea-input cr-plea-input--short" min="0" max="20" value="0" />
+                    <div class="cr-plea-ch-subtotal" id="ch-mid-sub">0</div>
+                  </div>
+                  <div class="cr-plea-ch-row">
+                    <div class="cr-plea-ch-desc">
+                      <span class="cr-plea-ch-pts-badge">1 pt each</span>
+                      Other prior sentences — fines, short sentences <em>(max 4 pts total from this line)</em>
+                    </div>
+                    <input type="number" id="ch-short" class="cr-plea-input cr-plea-input--short" min="0" max="20" value="0" />
+                    <div class="cr-plea-ch-subtotal" id="ch-short-sub">0</div>
+                  </div>
+                  <div class="cr-plea-ch-row cr-plea-ch-row--check">
+                    <div class="cr-plea-ch-desc">
+                      <span class="cr-plea-ch-pts-badge">+2 pts</span>
+                      Committed the current offense while on <strong>probation, parole, supervised release, or escape status</strong>
+                    </div>
+                    <label class="cr-plea-ch-check"><input type="checkbox" id="ch-status" /> Yes</label>
+                    <div class="cr-plea-ch-subtotal" id="ch-status-sub">0</div>
+                  </div>
+                </div>
+
+                <!-- Live result -->
+                <div class="cr-plea-ch-result" id="plea-ch-result">
+                  <div class="cr-plea-ch-result-row">
+                    <span>Total criminal history points:</span>
+                    <strong id="ch-total-pts">0</strong>
+                  </div>
+                  <div class="cr-plea-ch-result-row">
+                    <span>Criminal History Category:</span>
+                    <strong class="cr-plea-ch-cat-val" id="ch-cat">I</strong>
+                  </div>
+                  <div class="cr-plea-ch-breakdown" id="ch-breakdown">0–1 points = Category I</div>
+                </div>
+              </div>
+
+              <!-- PART C: Estimated Range Display -->
+              <div class="cr-plea-range-display" id="plea-range-display-box">
+                <div class="cr-plea-range-label">Estimated Guideline Range</div>
+                <div class="cr-plea-range-val" id="plea-range-val">— enter offense level and history above —</div>
+                <div class="cr-plea-range-context" id="plea-range-context"></div>
+              </div>
+
+              <div class="cr-plea-field" style="margin-top:20px;">
+                <label class="cr-plea-label"><strong>Do both the government and your attorney agree on the offense level and history category?</strong></label>
                 <div class="cr-plea-radio-group">
-                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-range-agreed" value="agreed" /> Both sides agree</label>
-                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-range-agreed" value="disputed" /> Disputed</label>
-                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-range-agreed" value="unknown" /> Don't know</label>
-                </div>
-              </div>
-              <div class="cr-plea-input-row">
-                <div>
-                  <label class="cr-plea-label" for="plea-offense-level"><strong>Offense level</strong></label>
-                  <input type="number" id="plea-offense-level" class="cr-plea-input cr-plea-input--short" min="1" max="43" placeholder="e.g. 24" />
-                </div>
-                <div>
-                  <label class="cr-plea-label" for="plea-criminal-history"><strong>Criminal history category</strong></label>
-                  <select id="plea-criminal-history" class="cr-plea-input cr-plea-input--medium">
-                    <option value="">Select...</option>
-                    <option value="I">I — 0 to 1 points</option>
-                    <option value="II">II — 2 to 3 points</option>
-                    <option value="III">III — 4 to 6 points</option>
-                    <option value="IV">IV — 7 to 9 points</option>
-                    <option value="V">V — 10 to 12 points</option>
-                    <option value="VI">VI — 13 or more points</option>
-                    <option value="unknown">I don't know</option>
-                  </select>
-                </div>
-              </div>
-              <div class="cr-plea-field">
-                <label class="cr-plea-label"><strong>Does the agreement include an acceptance of responsibility reduction?</strong></label>
-                <div class="cr-plea-radio-group">
-                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-acceptance" value="3level" /> Yes — 3 levels</label>
-                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-acceptance" value="2level" /> Yes — 2 levels</label>
-                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-acceptance" value="no" /> No</label>
-                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-acceptance" value="unknown" /> Don't know</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-range-agreed" value="agreed" /> Yes — both sides agree</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-range-agreed" value="disputed" /> Disputed — government calculates higher</label>
+                  <label class="cr-plea-radio-btn"><input type="radio" name="plea-range-agreed" value="unknown" /> Don't know yet</label>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Section 5: Relevant Conduct -->
+          <!-- Section 5: Sentencing Statistics -->
           <div class="cr-plea-section">
             <div class="cr-plea-section-head">
               <span class="cr-plea-section-num">05</span>
+              <span class="cr-plea-section-title">What the Sentencing Data Shows</span>
+            </div>
+            <div class="cr-plea-section-body">
+              <div class="cr-plea-note">
+                <div class="cr-plea-note-label">The number most people never see</div>
+                <p>The U.S. Sentencing Commission publishes data on every federal sentence. Most defendants are sentenced <em>at or below</em> the guideline range — not at the top. The data varies significantly by offense type. Select yours to see what the numbers actually show.</p>
+              </div>
+              <div class="cr-plea-field">
+                <label class="cr-plea-label" for="plea-offense-type"><strong>Primary offense type</strong></label>
+                <select id="plea-offense-type" class="cr-plea-input cr-plea-input--medium">
+                  <option value="">— select offense type —</option>
+                  <option value="drug">Drug trafficking (all types)</option>
+                  <option value="fraud">Fraud, theft, embezzlement, tax</option>
+                  <option value="firearm">Firearms offenses</option>
+                  <option value="immigration">Immigration offenses</option>
+                  <option value="sexual">Sexual exploitation / child pornography</option>
+                  <option value="money">Money laundering</option>
+                  <option value="other">Other / not listed</option>
+                </select>
+              </div>
+              <div class="cr-plea-stats-panel" id="plea-stats-panel" hidden>
+                <!-- Populated by JS -->
+              </div>
+              <p class="cr-plea-note-inline" style="margin-top:14px;">Source: U.S. Sentencing Commission, FY2022 Annual Report &amp; Sourcebook of Federal Sentencing Statistics — publicly available at <strong>ussc.gov</strong>. These are system-wide averages across all districts. Individual outcomes vary based on judge, district, attorney, and case facts.</p>
+            </div>
+          </div>
+
+          <!-- Section 6: Relevant Conduct -->
+          <div class="cr-plea-section">
+            <div class="cr-plea-section-head">
+              <span class="cr-plea-section-num">06</span>
               <span class="cr-plea-section-title">Relevant Conduct — Drug Quantity / Loss Amount</span>
             </div>
             <div class="cr-plea-section-body">
@@ -853,10 +933,10 @@
             </div>
           </div>
 
-          <!-- Section 6: Cooperation -->
+          <!-- Section 7: Cooperation -->
           <div class="cr-plea-section">
             <div class="cr-plea-section-head">
-              <span class="cr-plea-section-num">06</span>
+              <span class="cr-plea-section-num">07</span>
               <span class="cr-plea-section-title">Cooperation</span>
             </div>
             <div class="cr-plea-section-body">
@@ -892,10 +972,10 @@
             </div>
           </div>
 
-          <!-- Section 7: Waivers -->
+          <!-- Section 8: Waivers -->
           <div class="cr-plea-section">
             <div class="cr-plea-section-head">
-              <span class="cr-plea-section-num">07</span>
+              <span class="cr-plea-section-num">08</span>
               <span class="cr-plea-section-title">What You Are Waiving</span>
             </div>
             <div class="cr-plea-section-body">
@@ -928,10 +1008,10 @@
             </div>
           </div>
 
-          <!-- Section 8: Financial -->
+          <!-- Section 9: Financial -->
           <div class="cr-plea-section">
             <div class="cr-plea-section-head">
-              <span class="cr-plea-section-num">08</span>
+              <span class="cr-plea-section-num">09</span>
               <span class="cr-plea-section-title">Financial Consequences</span>
             </div>
             <div class="cr-plea-section-body">
@@ -964,10 +1044,10 @@
             </div>
           </div>
 
-          <!-- Section 9: Concurrent vs Consecutive -->
+          <!-- Section 10: Concurrent vs Consecutive -->
           <div class="cr-plea-section">
             <div class="cr-plea-section-head">
-              <span class="cr-plea-section-num">09</span>
+              <span class="cr-plea-section-num">10</span>
               <span class="cr-plea-section-title">Concurrent or Consecutive Sentences?</span>
             </div>
             <div class="cr-plea-section-body">
@@ -987,10 +1067,10 @@
             </div>
           </div>
 
-          <!-- Section 10: Gut Check -->
+          <!-- Section 11: Gut Check -->
           <div class="cr-plea-section">
             <div class="cr-plea-section-head">
-              <span class="cr-plea-section-num">10</span>
+              <span class="cr-plea-section-num">11</span>
               <span class="cr-plea-section-title">The Gut Check</span>
             </div>
             <div class="cr-plea-section-body">
@@ -1726,6 +1806,131 @@
     return el ? el.value.trim() : '';
   }
 
+  /* ---- Sentencing Table (USSC Guidelines 2023) ------------------------------ */
+  var ST = [
+    [[0,6],[0,6],[0,6],[0,6],[0,6],[0,6]],[[0,6],[0,6],[0,6],[0,6],[0,6],[1,7]],
+    [[0,6],[0,6],[0,6],[0,6],[2,8],[3,9]],[[0,6],[0,6],[0,6],[2,8],[4,10],[6,12]],
+    [[0,6],[0,6],[1,7],[4,10],[6,12],[9,15]],[[0,6],[1,7],[2,8],[6,12],[9,15],[12,18]],
+    [[0,6],[2,8],[4,10],[8,14],[12,18],[15,21]],[[0,6],[4,10],[6,12],[10,16],[15,21],[18,24]],
+    [[4,10],[6,12],[8,14],[12,18],[18,24],[21,27]],[[6,12],[8,14],[10,16],[15,21],[21,27],[24,30]],
+    [[8,14],[10,16],[12,18],[18,24],[24,30],[27,33]],[[10,16],[12,18],[15,21],[21,27],[27,33],[30,37]],
+    [[12,18],[15,21],[18,24],[24,30],[30,37],[33,41]],[[15,21],[18,24],[21,27],[27,33],[33,41],[37,46]],
+    [[18,24],[21,27],[24,30],[30,37],[37,46],[41,51]],[[21,27],[24,30],[27,33],[33,41],[41,51],[46,57]],
+    [[24,30],[27,33],[30,37],[37,46],[46,57],[51,63]],[[27,33],[30,37],[33,41],[41,51],[51,63],[57,71]],
+    [[30,37],[33,41],[37,46],[46,57],[57,71],[63,78]],[[33,41],[37,46],[41,51],[51,63],[63,78],[70,87]],
+    [[37,46],[41,51],[46,57],[57,71],[70,87],[77,96]],[[41,51],[46,57],[51,63],[63,78],[77,96],[84,105]],
+    [[46,57],[51,63],[57,71],[70,87],[84,105],[92,115]],[[51,63],[57,71],[63,78],[77,96],[92,115],[100,125]],
+    [[57,71],[63,78],[70,87],[84,105],[100,125],[110,137]],[[63,78],[70,87],[78,97],[92,115],[110,137],[120,150]],
+    [[70,87],[78,97],[87,108],[100,125],[120,150],[130,162]],[[78,97],[87,108],[97,121],[110,137],[130,162],[140,175]],
+    [[87,108],[97,121],[108,135],[121,151],[140,175],[151,188]],[[97,121],[108,135],[121,151],[135,168],[151,188],[168,210]],
+    [[108,135],[121,151],[135,168],[151,188],[168,210],[188,235]],[[121,151],[135,168],[151,188],[168,210],[188,235],[210,262]],
+    [[135,168],[151,188],[168,210],[188,235],[210,262],[235,293]],[[151,188],[168,210],[188,235],[210,262],[235,293],[262,327]],
+    [[168,210],[188,235],[210,262],[235,293],[262,327],[292,365]],[[188,235],[210,262],[235,293],[262,327],[292,365],[324,405]],
+    [[210,262],[235,293],[262,327],[292,365],[324,405],[360,null]],[[235,293],[262,327],[292,365],[324,405],[360,null],[360,null]],
+    [[262,327],[292,365],[324,405],[360,null],[360,null],[360,null]],[[292,365],[324,405],[360,null],[360,null],[360,null],[360,null]],
+    [[324,405],[360,null],[360,null],[360,null],[360,null],[360,null]],[[360,null],[360,null],[360,null],[360,null],[360,null],[360,null]],
+    [[null,null],[null,null],[null,null],[null,null],[null,null],[null,null]]
+  ];
+  var CH_THRESH = [{min:0,max:1,cat:'I'},{min:2,max:3,cat:'II'},{min:4,max:6,cat:'III'},{min:7,max:9,cat:'IV'},{min:10,max:12,cat:'V'},{min:13,max:999,cat:'VI'}];
+  var CAT_IDX = {I:0,II:1,III:2,IV:3,V:4,VI:5};
+
+  function ptsToCat(p) { for(var i=0;i<CH_THRESH.length;i++){if(p>=CH_THRESH[i].min&&p<=CH_THRESH[i].max)return CH_THRESH[i].cat;}return 'VI'; }
+
+  function moToYr(m) {
+    if(m===null)return 'Life';
+    var y=Math.floor(m/12),mo=m%12;
+    if(y===0)return m+'mo';
+    return y+'yr'+(mo?(' '+mo+'mo'):'');
+  }
+
+  function rangeStr(cell) {
+    if(!cell||cell[0]===null)return 'Life';
+    return cell[0]+'–'+(cell[1]===null?'Life (max)':cell[1])+' months';
+  }
+
+  function calcCH() {
+    var lng  = Math.max(0,parseInt(getVal('ch-long'))||0);
+    var mid  = Math.max(0,parseInt(getVal('ch-mid'))||0);
+    var sh   = Math.max(0,parseInt(getVal('ch-short'))||0);
+    var stat = document.getElementById('ch-status') && document.getElementById('ch-status').checked;
+    var pts  = (lng*3)+(mid*2)+(Math.min(sh,4)*1)+(stat?2:0);
+    var cat  = ptsToCat(pts);
+    var ls=document.getElementById('ch-long-sub'),ms=document.getElementById('ch-mid-sub');
+    var ss=document.getElementById('ch-short-sub'),sts=document.getElementById('ch-status-sub');
+    if(ls)ls.textContent=lng*3; if(ms)ms.textContent=mid*2;
+    if(ss)ss.textContent=Math.min(sh,4); if(sts)sts.textContent=stat?2:0;
+    var tEl=document.getElementById('ch-total-pts'),cEl=document.getElementById('ch-cat');
+    if(tEl)tEl.textContent=pts; if(cEl)cEl.textContent='Category '+cat;
+    var bd=document.getElementById('ch-breakdown'),found=CH_THRESH.filter(function(t){return pts>=t.min&&pts<=t.max;})[0];
+    if(bd&&found)bd.textContent=pts+' point'+(pts===1?'':'s')+' = Category '+found.cat+(found.max===999?' (13+ pts)':' ('+found.min+'–'+found.max+' pts)');
+    return {pts:pts,cat:cat,catIdx:CAT_IDX[cat]||0};
+  }
+
+  function updateRangeDisplay() {
+    var ch=calcCH();
+    var lvl=parseInt(getVal('plea-offense-level'));
+    var dEl=document.getElementById('plea-range-val'),cEl=document.getElementById('plea-range-context');
+    if(!dEl)return;
+    if(!lvl||lvl<1||lvl>43){dEl.textContent='— enter offense level above —';if(cEl)cEl.textContent='';return;}
+    var row=ST[lvl-1]; if(!row){return;}
+    var cell=row[ch.catIdx];
+    dEl.textContent=rangeStr(cell);
+    if(cEl){
+      var lo=cell[0],hi=cell[1];
+      cEl.textContent='Level '+lvl+', Category '+ch.cat+' — '+moToYr(lo)+' to '+(hi===null?'Life':moToYr(hi));
+    }
+  }
+
+  ['plea-offense-level','ch-long','ch-mid','ch-short'].forEach(function(id){
+    var el=document.getElementById(id);
+    if(el)el.addEventListener('input',updateRangeDisplay);
+  });
+  var chSt=document.getElementById('ch-status');
+  if(chSt)chSt.addEventListener('change',updateRangeDisplay);
+  updateRangeDisplay();
+
+  /* ---- Sentencing Statistics (USSC FY2022 public data) ---------------------- */
+  var USSC = {
+    drug:    {label:'Drug Trafficking',cases:'~23,900',within:44,govBelow:38,otherBelow:14,above:2,median:72, note:'38% sentenced below range through cooperation (5K1.1). Drug quantity drives offense level — the stipulated quantity in the factual basis matters enormously.'},
+    fraud:   {label:'Fraud / Theft / Embezzlement / Tax',cases:'~7,500',within:58,govBelow:18,otherBelow:22,above:2,median:15, note:'Loss-driven enhancements push levels very high; judges then vary downward in 40% of cases. Fraud sentences vary far more than drug sentences.'},
+    firearm: {label:'Firearms Offenses',cases:'~7,800',within:52,govBelow:21,otherBelow:24,above:2,median:57, note:'ACCA and career offender enhancements are common and can double the guideline range. Below-range outcomes still happen in 45% of cases.'},
+    immigration:{label:'Immigration Offenses',cases:'~14,700',within:52,govBelow:4,otherBelow:44,above:1,median:7, note:'44% below-range through fast-track programs in border districts — a structural feature of immigration prosecution, not cooperation.'},
+    sexual:  {label:'Sexual Exploitation / Child Pornography',cases:'~1,900',within:74,govBelow:8,otherBelow:15,above:2,median:131, note:'Highest within-range rate. Guidelines are widely considered severe; judges still sentence below in ~23% of cases, but this category carries the longest median sentences.'},
+    money:   {label:'Money Laundering',cases:'~1,100',within:51,govBelow:25,otherBelow:22,above:2,median:24, note:'Often paired with drug or fraud charges. Sentences closely track the underlying offense. Cooperation departures are common.'},
+    other:   {label:'All Federal Offenses (system average)',cases:'~64,000',within:46,govBelow:31,otherBelow:20,above:2,median:24, note:'Roughly 51% of all federal defendants are sentenced below the guideline range — most through cooperation or plea concessions. The guidelines are the starting point, not the finish line.'}
+  };
+
+  function renderStats(key) {
+    var d=USSC[key]; if(!d)return;
+    var panel=document.getElementById('plea-stats-panel'); if(!panel)return;
+    var tot=d.govBelow+d.otherBelow;
+    panel.innerHTML=
+      '<div class="cr-plea-stats-header"><strong>'+d.label+'</strong><span class="cr-plea-stats-meta">'+d.cases+' cases &nbsp;·&nbsp; FY2022 USSC data</span></div>'+
+      '<div class="cr-plea-stats-bar-wrap">'+
+        '<div class="cr-plea-stats-bar">'+
+          '<div class="cr-plea-stats-seg cr-plea-stats-seg--within"  style="width:'+d.within+'%"></div>'+
+          '<div class="cr-plea-stats-seg cr-plea-stats-seg--govbelow" style="width:'+d.govBelow+'%"></div>'+
+          '<div class="cr-plea-stats-seg cr-plea-stats-seg--other"   style="width:'+d.otherBelow+'%"></div>'+
+          '<div class="cr-plea-stats-seg cr-plea-stats-seg--above"   style="width:'+d.above+'%"></div>'+
+        '</div>'+
+        '<div class="cr-plea-stats-legend">'+
+          '<span><em class="cr-plea-stats-dot cr-plea-stats-dot--within"></em>Within range <strong>'+d.within+'%</strong></span>'+
+          '<span><em class="cr-plea-stats-dot cr-plea-stats-dot--govbelow"></em>Below — cooperation <strong>'+d.govBelow+'%</strong></span>'+
+          '<span><em class="cr-plea-stats-dot cr-plea-stats-dot--other"></em>Below — other <strong>'+d.otherBelow+'%</strong></span>'+
+          '<span><em class="cr-plea-stats-dot cr-plea-stats-dot--above"></em>Above range <strong>'+d.above+'%</strong></span>'+
+        '</div>'+
+      '</div>'+
+      '<div class="cr-plea-stats-median"><span class="cr-plea-stats-median-label">Median sentence</span><span class="cr-plea-stats-median-val">'+d.median+' months</span><span class="cr-plea-stats-median-sub">('+moToYr(d.median)+')</span></div>'+
+      '<div class="cr-plea-stats-insight"><strong>'+tot+'%</strong> of defendants in this category were sentenced <em>below</em> the guideline range. '+d.note+'</div>';
+    panel.hidden=false;
+  }
+
+  var offTypeEl=document.getElementById('plea-offense-type');
+  if(offTypeEl){offTypeEl.addEventListener('change',function(){
+    if(this.value)renderStats(this.value);
+    else{var p=document.getElementById('plea-stats-panel');if(p)p.hidden=true;}
+  });}
+
   function buildPleaReport() {
     var now = new Date();
     var months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
@@ -1740,12 +1945,11 @@
     var c1c          = getRadioVal('plea-c1c');
     var c1cSentence  = getVal('plea-c1c-sentence');
     var govBound     = getRadioVal('plea-gov-bound');
-    var rangeLow     = getVal('plea-range-low');
-    var rangeHigh    = getVal('plea-range-high');
     var rangeAgreed  = getRadioVal('plea-range-agreed');
     var offenseLevel = getVal('plea-offense-level');
-    var crimHistory  = getVal('plea-criminal-history');
-    var acceptance   = getRadioVal('plea-acceptance');
+    var acceptance   = getVal('plea-acceptance');
+    var chCalc       = calcCH();
+    var offenseType  = getVal('plea-offense-type');
     var relevant     = getRadioVal('plea-relevant');
     var relevDetail  = getVal('plea-relevant-detail');
     var drugQty      = getVal('plea-drug-qty');
@@ -1829,19 +2033,46 @@
     if (govBound) html += row('Government sentencing commitment', govLabels[govBound] || govBound, govBound === 'above');
     html += '</div>';
 
-    // Section 4: Guidelines
-    html += '<div class="cr-plea-report-section"><h3>4 — Guidelines Calculation</h3>';
-    if (rangeLow || rangeHigh) html += row('Guidelines range', (rangeLow || '?') + ' to ' + (rangeHigh || '?') + ' months');
-    var agreedLabels = {agreed:'Both sides agree', disputed:'DISPUTED — litigation expected', unknown:'Unknown'};
-    if (rangeAgreed) html += row('Range status', agreedLabels[rangeAgreed] || rangeAgreed, rangeAgreed === 'disputed');
-    if (offenseLevel) html += row('Total offense level', offenseLevel);
-    if (crimHistory && crimHistory !== 'unknown') html += row('Criminal history category', 'Category ' + crimHistory);
-    var acceptLabels = {'3level':'3-level reduction included', '2level':'2-level reduction included', no:'No acceptance reduction', unknown:'Unknown'};
-    if (acceptance) html += row('Acceptance of responsibility', acceptLabels[acceptance] || acceptance);
+    // Section 4: Guidelines Calculation (from calculator)
+    html += '<div class="cr-plea-report-section"><h3>4 — Guideline Range Estimate</h3>';
+    if (offenseLevel) {
+      html += row('Total adjusted offense level', offenseLevel);
+      var acceptLabels = {'3level':'3-level reduction included', '2level':'2-level reduction included', no:'No acceptance reduction', unknown:'Unknown / confirm with attorney'};
+      if (acceptance) html += row('Acceptance of responsibility', acceptLabels[acceptance] || acceptance);
+      var lvlInt = parseInt(offenseLevel);
+      if (lvlInt >= 1 && lvlInt <= 43) {
+        var rangeCell = ST[lvlInt-1][chCalc.catIdx];
+        html += row('Criminal history points', chCalc.pts + ' point' + (chCalc.pts === 1 ? '' : 's'));
+        html += row('Criminal history category', 'Category ' + chCalc.cat);
+        html += row('Estimated guideline range', rangeStr(rangeCell), false);
+      }
+    } else {
+      html += '<p style="font-size:.83rem;color:#666;margin:4px 0;">Offense level not entered — complete the calculator in Section 04 to see your estimated range.</p>';
+    }
+    var agreedLabels = {agreed:'Both sides agree', disputed:'DISPUTED — litigation expected at sentencing', unknown:'Unknown'};
+    if (rangeAgreed) html += row('Range agreement status', agreedLabels[rangeAgreed] || rangeAgreed, rangeAgreed === 'disputed');
     html += '</div>';
 
-    // Section 5: Relevant Conduct
-    html += '<div class="cr-plea-report-section"><h3>5 — Relevant Conduct</h3>';
+    // Section 5: Sentencing Statistics
+    html += '<div class="cr-plea-report-section"><h3>5 — Sentencing Statistics (FY2022 USSC Data)</h3>';
+    if (offenseType && USSC[offenseType]) {
+      var sd = USSC[offenseType];
+      var totBelow = sd.govBelow + sd.otherBelow;
+      html += row('Offense category', sd.label);
+      html += row('Cases in dataset', sd.cases + ' (FY2022)');
+      html += row('Sentenced within range', sd.within + '%');
+      html += row('Sentenced below — cooperation', sd.govBelow + '%');
+      html += row('Sentenced below — other', sd.otherBelow + '%');
+      html += row('Sentenced above range', sd.above + '%');
+      html += row('Median sentence', sd.median + ' months (' + moToYr(sd.median) + ')', false);
+      html += '<p style="font-size:.8rem;color:#555;margin:8px 0 0;line-height:1.6;border-left:3px solid #d08020;padding-left:10px;">' + totBelow + '% of defendants in this category were sentenced <em>below</em> the guideline range. ' + sd.note + '</p>';
+    } else {
+      html += '<p style="font-size:.83rem;color:#666;margin:4px 0;">Offense type not selected — choose one in Section 05 to include statistics.</p>';
+    }
+    html += '</div>';
+
+    // Section 6: Relevant Conduct
+    html += '<div class="cr-plea-report-section"><h3>6 — Relevant Conduct</h3>';
     var relLabel = relevant === 'yes' ? 'YES — additional conduct included' : relevant === 'no' ? 'No — limited to specific count' : 'Unknown';
     html += row('Relevant conduct beyond count', relLabel, relevant === 'yes');
     if (relevant === 'yes' && relevDetail) html += row('Conduct included', relevDetail, true);
@@ -1849,9 +2080,9 @@
     if (lossAmt) html += row('Loss amount stipulated', lossAmt, true);
     html += '</div>';
 
-    // Section 6: Cooperation
+    // Section 7: Cooperation
     if (coop) {
-      html += '<div class="cr-plea-report-section"><h3>6 — Cooperation</h3>';
+      html += '<div class="cr-plea-report-section"><h3>7 — Cooperation</h3>';
       html += row('Cooperation component', coop === 'yes' ? 'YES — cooperation required' : 'No', coop === 'yes');
       if (coop === 'yes') {
         if (coopObligation) html += row('Your obligation', coopObligation);
@@ -1862,8 +2093,8 @@
       html += '</div>';
     }
 
-    // Section 7: Waivers
-    html += '<div class="cr-plea-report-section"><h3>7 — What You Are Waiving</h3>';
+    // Section 8: Waivers
+    html += '<div class="cr-plea-report-section"><h3>8 — What You Are Waiving</h3>';
     var awLabels = {yes:'YES — appellate rights waived', no:'No waiver', unknown:'NOT CONFIRMED — read final pages'};
     if (appealWaiver) html += row('Appellate waiver', awLabels[appealWaiver] || appealWaiver, appealWaiver === 'yes' || appealWaiver === 'unknown');
     var wLabels = {yes:'YES — 2255 rights waived', no:'No waiver', unknown:'NOT CONFIRMED — read final pages'};
@@ -1871,8 +2102,8 @@
     if (w2255 === 'yes' && exceptions2255) html += row('2255 waiver exceptions', exceptions2255);
     html += '</div>';
 
-    // Section 8: Financial
-    html += '<div class="cr-plea-report-section"><h3>8 — Financial Consequences</h3>';
+    // Section 9: Financial
+    html += '<div class="cr-plea-report-section"><h3>9 — Financial Consequences</h3>';
     var restLabels = {yes:'Agreed amount', tbd:'To be determined at sentencing', no:'No restitution'};
     if (restitution) html += row('Restitution', restLabels[restitution] || restitution, restitution === 'tbd');
     if (restitution === 'yes' && restAmt) html += row('Restitution amount', restAmt, true);
@@ -1880,14 +2111,14 @@
     if (fine) html += row('Fine', fine);
     html += '</div>';
 
-    // Section 9: Concurrent/Consecutive
-    html += '<div class="cr-plea-report-section"><h3>9 — Concurrent or Consecutive</h3>';
+    // Section 10: Concurrent/Consecutive
+    html += '<div class="cr-plea-report-section"><h3>10 — Concurrent or Consecutive</h3>';
     var concLabels = {concurrent:'Concurrent (same time)', consecutive:'CONSECUTIVE — sentences stack', silent:'SILENT — judge decides', one:'Single count'};
     if (concurrent) html += row('Sentence structure', concLabels[concurrent] || concurrent, concurrent === 'consecutive' || concurrent === 'silent');
     html += '</div>';
 
-    // Section 10: Gut Check
-    html += '<div class="cr-plea-report-section"><h3>10 — The Gut Check</h3>';
+    // Section 11: Gut Check
+    html += '<div class="cr-plea-report-section"><h3>11 — The Gut Check</h3>';
     var attyLabels = {yes:'Yes — full review', partial:'PARTIAL only', no:'NO — do not sign yet'};
     if (attyReview) html += row('Attorney walked through agreement', attyLabels[attyReview] || attyReview, attyReview !== 'yes');
     var geLabels = {yes:'Yes', no:'NO — insist on this before signing'};
