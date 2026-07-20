@@ -1442,25 +1442,19 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   opacity: 0; /* JS sets to 1 before splitting chars */
 }
 
-/* "can" — larger, orange, warm glow via child .tw-char */
-.hl-can {
-  color: var(--accent);
-  font-size: 1.22em;
-  font-style: normal;
-}
-
-.hl-can .tw-char {
-  text-shadow:
-    0 0 26px rgba(232,119,34,.75),
-    0 0 58px rgba(232,119,34,.3);
-}
-
-/* "get through this." — italic gradient, descender-safe */
+/* "can get through this." — own line, italic gradient.
+   NOT char-split by JS: keeping text as a direct child of .hl-em
+   preserves background-clip:text. Instead the whole element reveals
+   left→right via clip-path steps, matching the char-per-step timing. */
 .hl-em {
   font-style: italic;
   display: inline-block;
   padding-bottom: 0.22em;
   margin-bottom: -0.22em;
+  clip-path: inset(0 100% -0.35em 0);
+  /* "But you" = 7 chars × 42ms + 580ms start + 195ms BR pause = 1.069s */
+  /* "can get through this." = 22 chars × 42ms = 924ms duration */
+  animation: hl-em-reveal 0.924s steps(22, end) 1.069s forwards;
 }
 
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
@@ -1470,8 +1464,14 @@ body.theme-light .lead.deck { color: var(--text-soft); }
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: hl-shimmer 7s ease-in-out 2.5s infinite;
+    animation:
+      hl-em-reveal 0.924s steps(22, end) 1.069s forwards,
+      hl-shimmer 7s ease-in-out 2.1s infinite;
   }
+}
+
+@keyframes hl-em-reveal {
+  to { clip-path: inset(0 0% -0.35em 0); }
 }
 
 /* Individual character spans injected by initTypewriter() in main.js */
@@ -1529,6 +1529,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   .hero-eyebrow,
   .hsl-dim,
   .hsl-bright,
+  .hl-em,
   .tw-char,
   .hero-statement-deck,
   .hero-statement-actions,
