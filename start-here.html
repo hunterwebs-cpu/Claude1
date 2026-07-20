@@ -13,7 +13,7 @@
   <link rel="icon" href="assets/img/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="assets/css/start.css?v=5" />
+  <link rel="stylesheet" href="assets/css/start.css?v=6" />
 </head>
 <body>
 
@@ -41,66 +41,64 @@
   <!-- ======================================================= LEFT RAIL -->
   <nav id="cr-rail" aria-label="Situation dispatch">
 
-    <!-- DISPATCH -->
-    <div class="cr-rail-section">
-      <div class="cr-section-label">Situation Dispatch</div>
+    <!-- DISPATCH BUTTONS — direct children of #cr-rail so they survive .cr-rail-section { display:none } on mobile -->
+    <div class="cr-section-label">Situation Dispatch</div>
 
-      <button class="cr-dispatch-btn" data-target="1" aria-label="Situation 1: I was just arrested">
-        <span class="cr-dispatch-num">01</span>
-        <span class="cr-dispatch-text">
-          <span class="cr-dispatch-title">I was just arrested</span>
-          <span class="cr-dispatch-sub">First 24–48 hrs</span>
-        </span>
-      </button>
+    <button class="cr-dispatch-btn" data-target="1" aria-label="Situation 1: I was just arrested">
+      <span class="cr-dispatch-num">01</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">I was just arrested</span>
+        <span class="cr-dispatch-sub">First 24–48 hrs</span>
+      </span>
+    </button>
 
-      <button class="cr-dispatch-btn" data-target="2" aria-label="Situation 2: Someone I love was just arrested">
-        <span class="cr-dispatch-num">02</span>
-        <span class="cr-dispatch-text">
-          <span class="cr-dispatch-title">My loved one was arrested</span>
-          <span class="cr-dispatch-sub">Find &amp; support them</span>
-        </span>
-      </button>
+    <button class="cr-dispatch-btn" data-target="2" aria-label="Situation 2: Someone I love was just arrested">
+      <span class="cr-dispatch-num">02</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">My loved one was arrested</span>
+        <span class="cr-dispatch-sub">Find &amp; support them</span>
+      </span>
+    </button>
 
-      <button class="cr-dispatch-btn" data-target="3" aria-label="Situation 3: Charges may be coming">
-        <span class="cr-dispatch-num">03</span>
-        <span class="cr-dispatch-text">
-          <span class="cr-dispatch-title">Charges may be coming</span>
-          <span class="cr-dispatch-sub">Under investigation</span>
-        </span>
-      </button>
+    <button class="cr-dispatch-btn" data-target="3" aria-label="Situation 3: Charges may be coming">
+      <span class="cr-dispatch-num">03</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">Charges may be coming</span>
+        <span class="cr-dispatch-sub">Under investigation</span>
+      </span>
+    </button>
 
-      <button class="cr-dispatch-btn" data-target="4" aria-label="Situation 4: Past the arrest">
-        <span class="cr-dispatch-num">04</span>
-        <span class="cr-dispatch-text">
-          <span class="cr-dispatch-title">Past the arrest</span>
-          <span class="cr-dispatch-sub">Need a map of what's next</span>
-        </span>
-      </button>
+    <button class="cr-dispatch-btn" data-target="4" aria-label="Situation 4: Past the arrest">
+      <span class="cr-dispatch-num">04</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">Past the arrest</span>
+        <span class="cr-dispatch-sub">Need a map of what's next</span>
+      </span>
+    </button>
 
-      <button class="cr-dispatch-btn" data-target="5" aria-label="Situation 5: Jail not providing care">
-        <span class="cr-dispatch-num">05</span>
-        <span class="cr-dispatch-text">
-          <span class="cr-dispatch-title">Jail isn't caring for them</span>
-          <span class="cr-dispatch-sub">Facility problems</span>
-        </span>
-      </button>
+    <button class="cr-dispatch-btn" data-target="5" aria-label="Situation 5: Jail not providing care">
+      <span class="cr-dispatch-num">05</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">Jail isn't caring for them</span>
+        <span class="cr-dispatch-sub">Facility problems</span>
+      </span>
+    </button>
 
-      <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="plea" aria-label="Plea deal review tool">
-        <span class="cr-dispatch-num">06</span>
-        <span class="cr-dispatch-text">
-          <span class="cr-dispatch-title">Before the Plea</span>
-          <span class="cr-dispatch-sub">Read this first</span>
-        </span>
-      </button>
+    <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="plea" aria-label="Plea deal review tool">
+      <span class="cr-dispatch-num">06</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">Before the Plea</span>
+        <span class="cr-dispatch-sub">Read this first</span>
+      </span>
+    </button>
 
-      <!-- Mobile FILES tab — hidden on desktop -->
-      <button id="cr-files-tab" class="cr-dispatch-btn" aria-label="Open status and resources" aria-expanded="false" aria-controls="cr-drawer">
-        <span class="cr-dispatch-num" style="font-size:.9rem; opacity:.5;">&#43;</span>
-        <span class="cr-dispatch-text">
-          <span class="cr-dispatch-title">FILES</span>
-        </span>
-      </button>
-    </div>
+    <!-- Mobile FILES tab — hidden on desktop -->
+    <button id="cr-files-tab" class="cr-dispatch-btn" aria-label="Open status and resources" aria-expanded="false" aria-controls="cr-drawer">
+      <span class="cr-dispatch-num" style="font-size:.9rem; opacity:.5;">&#43;</span>
+      <span class="cr-dispatch-text">
+        <span class="cr-dispatch-title">FILES</span>
+      </span>
+    </button>
 
     <!-- STATUS CONSOLE -->
     <div class="cr-rail-section">
@@ -1124,9 +1122,9 @@
         </div>
       </div>
 
-      <!-- Step 5 -->
-      <div class="cr-wizard-step" data-step="4">
-        <p class="cr-wizard-q">Any special circumstances?</p>
+      <!-- Step 5 — multi-select: any or all may apply -->
+      <div class="cr-wizard-step" data-step="4" data-multiselect="true">
+        <p class="cr-wizard-q">Any special circumstances? <small style="font-size:.75em;opacity:.6;font-weight:400;">(select all that apply)</small></p>
         <div class="cr-wizard-options">
           <button class="cr-wizard-opt" data-val="medical"><span class="cr-wizard-opt-dot"></span>Medical or mental health needs</button>
           <button class="cr-wizard-opt" data-val="language"><span class="cr-wizard-opt-dot"></span>Language barriers</button>
@@ -1419,15 +1417,34 @@
   document.querySelectorAll('.cr-wizard-step').forEach(function (step) {
     var stepIndex = parseInt(step.getAttribute('data-step'));
     var nextBtn = step.querySelector('[data-next]');
+    var isMulti = step.getAttribute('data-multiselect') === 'true';
+    var keys = ['who', 'situation', 'custody', 'attorney', 'special'];
 
     step.querySelectorAll('.cr-wizard-opt').forEach(function (opt) {
       opt.addEventListener('click', function () {
-        step.querySelectorAll('.cr-wizard-opt').forEach(function (o) { o.classList.remove('selected'); });
-        this.classList.add('selected');
-        if (nextBtn) nextBtn.removeAttribute('disabled');
-
-        var keys = ['who', 'situation', 'custody', 'attorney', 'special'];
-        wizardAnswers[keys[stepIndex]] = this.getAttribute('data-val');
+        if (isMulti) {
+          var clickedVal = this.getAttribute('data-val');
+          if (clickedVal === 'none') {
+            step.querySelectorAll('.cr-wizard-opt').forEach(function (o) { o.classList.remove('selected'); });
+            this.classList.add('selected');
+          } else {
+            step.querySelectorAll('.cr-wizard-opt[data-val="none"]').forEach(function (o) { o.classList.remove('selected'); });
+            this.classList.toggle('selected');
+          }
+          var anySelected = step.querySelector('.cr-wizard-opt.selected');
+          if (nextBtn) {
+            if (anySelected) nextBtn.removeAttribute('disabled');
+            else nextBtn.setAttribute('disabled', '');
+          }
+          var selected = [];
+          step.querySelectorAll('.cr-wizard-opt.selected').forEach(function (o) { selected.push(o.getAttribute('data-val')); });
+          wizardAnswers[keys[stepIndex]] = selected;
+        } else {
+          step.querySelectorAll('.cr-wizard-opt').forEach(function (o) { o.classList.remove('selected'); });
+          this.classList.add('selected');
+          if (nextBtn) nextBtn.removeAttribute('disabled');
+          wizardAnswers[keys[stepIndex]] = this.getAttribute('data-val');
+        }
       });
     });
 
@@ -1549,11 +1566,15 @@
     if (a.attorney === 'none' || a.attorney === 'waiting') {
       actions.unshift('Secure legal representation immediately. Court-appointed defenders are assigned at the initial appearance — but a private attorney engaged now can make a critical difference.');
     }
-    if (a.special === 'medical') {
+    var specials = Array.isArray(a.special) ? a.special : (a.special ? [a.special] : []);
+    if (specials.indexOf('medical') !== -1) {
       actions.push('Notify the facility medical department in writing of any chronic condition or medication need. Keep a copy of everything submitted.');
     }
-    if (a.special === 'language') {
+    if (specials.indexOf('language') !== -1) {
       actions.push('Request a court interpreter at every hearing. This is a right, not a favor. The attorney must ensure this is arranged in advance.');
+    }
+    if (specials.indexOf('children') !== -1) {
+      actions.push('Document the impact on minor children for the record — this is relevant to detention decisions, bond arguments, and ultimately sentencing mitigation.');
     }
 
     var html = '<div class="cr-report">';
