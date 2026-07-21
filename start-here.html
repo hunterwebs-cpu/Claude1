@@ -3190,6 +3190,16 @@
   // Render default tab on load
   renderRefSheet('fraud');
 
+  /* ---- Hash-based deep-linking ------------------------------------------- */
+  // Allows calculators.html and index.html to link directly to tool screens
+  // e.g. start-here.html#guideline → opens guideline calculator immediately
+  (function(){
+    var hash = window.location.hash.slice(1);
+    if (!hash) return;
+    var btn = document.querySelector('.cr-dispatch-btn[data-target="' + hash + '"]');
+    if (btn) btn.click();
+  })();
+
   /* ---- First-time visitor flag ------------------------------------------ */
   localStorage.setItem('stf_visited', '1');
 

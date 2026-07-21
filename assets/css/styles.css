@@ -1745,6 +1745,204 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   font-size: .74rem;
 }
 
+/* ---- Calculator tool cards (calculators.html) --------------------------- */
+.calc-tool-card {
+  display: flex;
+  gap: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+
+.calc-tool-card + .calc-tool-card { margin-top: 0; }
+
+.calc-tool-num {
+  flex: 0 0 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-label);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(232, 119, 34, .06);
+  border-right: 1px solid var(--border);
+  letter-spacing: .04em;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  padding: 24px 0;
+  min-height: 160px;
+}
+
+.calc-tool-body {
+  flex: 1;
+  padding: 28px 32px;
+  min-width: 0;
+}
+
+.calc-tool-head {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-bottom: 14px;
+}
+
+.calc-tool-title {
+  font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.25;
+  flex: 1 1 260px;
+}
+
+.calc-tool-tag {
+  flex: 0 0 auto;
+  font-family: var(--font-label);
+  font-size: .72rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(232, 119, 34, .1);
+  border: 1px solid rgba(232, 119, 34, .25);
+  border-radius: 4px;
+  padding: 3px 10px;
+  white-space: nowrap;
+  align-self: center;
+}
+
+.calc-tool-desc {
+  color: var(--text-soft);
+  font-size: .97rem;
+  line-height: 1.72;
+  margin-bottom: 18px;
+}
+
+.calc-tool-answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 20px;
+  margin-bottom: 20px;
+}
+
+.calc-tool-q {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: .88rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.calc-q-mark {
+  flex: 0 0 18px;
+  height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(232, 119, 34, .15);
+  color: var(--accent);
+  font-family: var(--font-label);
+  font-size: .72rem;
+  font-weight: 700;
+  border-radius: 3px;
+  margin-top: 2px;
+}
+
+.calc-tool-note {
+  background: rgba(255, 255, 255, .03);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  padding: 14px 18px;
+  font-size: .88rem;
+  color: var(--muted);
+  line-height: 1.65;
+  margin-bottom: 22px;
+}
+
+.calc-tool-note strong {
+  color: var(--text-soft);
+}
+
+.calc-tool-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 640px) {
+  .calc-tool-card { flex-direction: column; }
+  .calc-tool-num {
+    writing-mode: horizontal-tb;
+    transform: none;
+    flex: 0 0 auto;
+    min-height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 14px 24px;
+    justify-content: flex-start;
+    font-size: 1.1rem;
+  }
+  .calc-tool-body { padding: 20px 20px 24px; }
+  .calc-tool-answers { grid-template-columns: 1fr; }
+}
+
+/* ---- Homepage calculator strip ------------------------------------------ */
+.calc-strip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 36px;
+}
+
+.calc-strip-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color .2s var(--ease), background .2s var(--ease);
+  cursor: pointer;
+}
+
+.calc-strip-link:hover {
+  border-color: var(--accent);
+  background: var(--surface-2);
+}
+
+.calc-strip-num {
+  font-family: var(--font-label);
+  font-size: .78rem;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: .1em;
+  flex: 0 0 auto;
+}
+
+.calc-strip-text strong {
+  display: block;
+  font-size: .95rem;
+  font-family: var(--font-display);
+  margin-bottom: 3px;
+  color: var(--text);
+}
+
+.calc-strip-text span {
+  font-size: .8rem;
+  color: var(--muted);
+  font-family: var(--font-label);
+  letter-spacing: .06em;
+}
+
 /* ---- Reduced motion ----------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
