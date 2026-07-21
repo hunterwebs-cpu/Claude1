@@ -32,7 +32,12 @@
   <!-- ======================================================= TOP BAR -->
   <header id="cr-topbar">
     <a class="cr-top-logo" href="index.html" aria-label="Surviving the Feds home">
-      <img src="assets/img/logo.png" alt="SF Shield" />
+      <video class="cr-top-logo-video" autoplay muted loop playsinline
+             poster="assets/img/sf-shield-loop-poster.jpg"
+             width="28" height="28" aria-label="SF Shield">
+        <source src="assets/video/sf-shield-loop.webm" type="video/webm">
+        <source src="assets/video/sf-shield-loop.mp4"  type="video/mp4">
+      </video>
       <span class="cr-top-wordmark">Surviving the Feds</span>
     </a>
     <span class="cr-top-title">Case Command Center</span>
@@ -51,46 +56,27 @@
   <!-- ======================================================= LEFT RAIL -->
   <nav id="cr-rail" aria-label="Situation dispatch">
 
-    <!-- DISPATCH BUTTONS — direct children of #cr-rail so they survive .cr-rail-section { display:none } on mobile -->
-    <div class="cr-section-label">Situation Dispatch</div>
+    <!-- EVALUATE MY SITUATION — replaces situation dispatch buttons -->
+    <div class="cr-section-label">Defense Report</div>
+    <div class="cr-intake-rail-desc">Let's evaluate exactly where you are and what needs to happen next.</div>
 
-    <button class="cr-dispatch-btn" data-target="1" aria-label="Situation 1: I was just arrested">
-      <span class="cr-dispatch-num">01</span>
+    <button class="cr-dispatch-btn cr-dispatch-btn--primary" data-target="intake" aria-label="Start situation evaluation">
+      <span class="cr-dispatch-num" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+      </span>
       <span class="cr-dispatch-text">
-        <span class="cr-dispatch-title">I was just arrested</span>
-        <span class="cr-dispatch-sub">First 24–48 hrs</span>
+        <span class="cr-dispatch-title">Evaluate My Situation</span>
+        <span class="cr-dispatch-sub">Get my personalized report</span>
       </span>
     </button>
 
-    <button class="cr-dispatch-btn" data-target="2" aria-label="Situation 2: Someone I love was just arrested">
-      <span class="cr-dispatch-num">02</span>
-      <span class="cr-dispatch-text">
-        <span class="cr-dispatch-title">My loved one was arrested</span>
-        <span class="cr-dispatch-sub">Find &amp; support them</span>
+    <button class="cr-dispatch-btn" id="cr-my-report-btn" data-target="defense-report" aria-label="View my defense report" style="display:none">
+      <span class="cr-dispatch-num" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
       </span>
-    </button>
-
-    <button class="cr-dispatch-btn" data-target="3" aria-label="Situation 3: Charges may be coming">
-      <span class="cr-dispatch-num">03</span>
       <span class="cr-dispatch-text">
-        <span class="cr-dispatch-title">Charges may be coming</span>
-        <span class="cr-dispatch-sub">Under investigation</span>
-      </span>
-    </button>
-
-    <button class="cr-dispatch-btn" data-target="4" aria-label="Situation 4: Past the arrest">
-      <span class="cr-dispatch-num">04</span>
-      <span class="cr-dispatch-text">
-        <span class="cr-dispatch-title">Past the arrest</span>
-        <span class="cr-dispatch-sub">Need a map of what's next</span>
-      </span>
-    </button>
-
-    <button class="cr-dispatch-btn" data-target="5" aria-label="Situation 5: Jail not providing care">
-      <span class="cr-dispatch-num">05</span>
-      <span class="cr-dispatch-text">
-        <span class="cr-dispatch-title">Jail isn't caring for them</span>
-        <span class="cr-dispatch-sub">Facility problems</span>
+        <span class="cr-dispatch-title">My Report</span>
+        <span class="cr-dispatch-sub">View or download PDF</span>
       </span>
     </button>
 
@@ -222,9 +208,9 @@
         </ol>
       </div>
 
-      <button class="cr-generate-btn" id="cr-gen-btn" aria-label="Generate personalized case action brief">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-        Get My Report
+      <button class="cr-generate-btn" id="cr-gen-btn" data-target="intake" aria-label="Start situation evaluation interview">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+        Evaluate My Situation
       </button>
     </div>
 
@@ -325,8 +311,48 @@
   <!-- ======================================================= RIGHT PANEL -->
   <main id="cr-panel" tabindex="-1">
 
-    <!-- SCREEN: LETTER (default) -->
-    <div id="screen-letter" class="cr-screen is-active" role="main" aria-label="Welcome letter from Bilal Khan">
+    <!-- SCREEN: INTAKE (default) -->
+    <div id="screen-intake" class="cr-screen is-active" role="main" aria-label="Defense situation evaluation">
+      <div class="cr-itv-wrap">
+        <div class="cr-itv-progress-track" aria-hidden="true">
+          <div class="cr-itv-progress-fill" id="cr-itv-progress"></div>
+        </div>
+        <div class="cr-itv-meta">
+          <span class="cr-itv-section-lbl" id="cr-itv-section"></span>
+          <span class="cr-itv-counter" id="cr-itv-stepcount"></span>
+        </div>
+        <div class="cr-itv-body" id="cr-itv-body">
+          <!-- Rendered by ITV.render() on page load -->
+        </div>
+        <div class="cr-itv-footer">
+          <button class="cr-itv-btn cr-itv-btn--back" id="cr-itv-back" type="button">← Back</button>
+          <button class="cr-itv-btn cr-itv-btn--next" id="cr-itv-next" type="button">Continue →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCREEN: DEFENSE REPORT -->
+    <div id="screen-defense-report" class="cr-screen" role="main" aria-label="Defense situation report">
+      <div class="cr-dreport-toolbar">
+        <button class="cr-dreport-back-btn" id="cr-dreport-back-btn" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          Back to Interview
+        </button>
+        <div class="cr-dreport-toolbar-right">
+          <span class="cr-dreport-privacy-note">Not saved. Download before closing.</span>
+          <button class="cr-dreport-print-btn" id="cr-dreport-print-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6,9 6,2 18,2 18,9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Print / Save PDF
+          </button>
+        </div>
+      </div>
+      <div class="cr-dreport-scroll" id="cr-dreport-content">
+        <!-- Generated by buildDefenseReport() -->
+      </div>
+    </div>
+
+    <!-- SCREEN: LETTER (accessible via letter link) -->
+    <div id="screen-letter" class="cr-screen" role="main" aria-label="Welcome letter from Bilal Khan">
       <div class="cr-parchment">
         <div class="cr-letter-hook">I got you.<br>I've been there.</div>
         <div class="cr-letter-body">
@@ -3191,8 +3217,6 @@
   renderRefSheet('fraud');
 
   /* ---- Hash-based deep-linking ------------------------------------------- */
-  // Allows calculators.html and index.html to link directly to tool screens
-  // e.g. start-here.html#guideline → opens guideline calculator immediately
   (function(){
     var hash = window.location.hash.slice(1);
     if (!hash) return;
@@ -3202,6 +3226,1059 @@
 
   /* ---- First-time visitor flag ------------------------------------------ */
   localStorage.setItem('stf_visited', '1');
+
+  /* ---- Reduced-motion: pause logo video --------------------------------- */
+  (function(){
+    var vid = document.querySelector('.cr-top-logo-video');
+    if (!vid) return;
+    var mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    function applyRM(){ if (mq.matches) vid.pause(); else vid.play && vid.play().catch(function(){}); }
+    applyRM();
+    mq.addEventListener ? mq.addEventListener('change', applyRM) : mq.addListener && mq.addListener(applyRM);
+  })();
+
+  /* ==========================================================================
+     FEDERAL DISTRICTS DATA
+     ======================================================================= */
+  var FEDERAL_DISTRICTS = {
+    'Alabama': [
+      { name: 'Northern District', divisions: ['Birmingham','Anniston','Decatur','Florence','Gadsden','Jasper'] },
+      { name: 'Middle District', divisions: ['Montgomery','Dothan','Opelika'] },
+      { name: 'Southern District', divisions: ['Mobile','Selma'] }
+    ],
+    'Alaska': [{ name: 'District of Alaska', divisions: ['Anchorage','Fairbanks','Juneau','Ketchikan','Nome'] }],
+    'Arizona': [{ name: 'District of Arizona', divisions: ['Phoenix','Tucson','Flagstaff','Prescott','Yuma'] }],
+    'Arkansas': [
+      { name: 'Eastern District', divisions: ['Little Rock','Batesville','El Dorado','Fayetteville','Fort Smith','Helena','Jonesboro','Pine Bluff','Texarkana'] },
+      { name: 'Western District', divisions: ['Fort Smith','El Dorado','Fayetteville','Harrison','Hot Springs','Texarkana'] }
+    ],
+    'California': [
+      { name: 'Northern District', divisions: ['San Francisco','Eureka','Oakland','San Jose','Santa Rosa'] },
+      { name: 'Eastern District', divisions: ['Sacramento','Fresno','Bakersfield','Redding'] },
+      { name: 'Central District', divisions: ['Los Angeles','Riverside','Santa Ana'] },
+      { name: 'Southern District', divisions: ['San Diego','El Centro'] }
+    ],
+    'Colorado': [{ name: 'District of Colorado', divisions: ['Denver'] }],
+    'Connecticut': [{ name: 'District of Connecticut', divisions: ['New Haven','Bridgeport','Hartford','Waterbury'] }],
+    'Delaware': [{ name: 'District of Delaware', divisions: ['Wilmington'] }],
+    'District of Columbia': [{ name: 'District of Columbia', divisions: ['Washington, D.C.'] }],
+    'Florida': [
+      { name: 'Northern District', divisions: ['Tallahassee','Gainesville','Panama City','Pensacola'] },
+      { name: 'Middle District', divisions: ['Tampa','Fort Myers','Jacksonville','Ocala','Orlando'] },
+      { name: 'Southern District', divisions: ['Miami','Fort Lauderdale','Key West','West Palm Beach'] }
+    ],
+    'Georgia': [
+      { name: 'Northern District', divisions: ['Atlanta','Gainesville','Newnan','Rome'] },
+      { name: 'Middle District', divisions: ['Macon','Albany','Athens','Columbus','Thomasville','Valdosta'] },
+      { name: 'Southern District', divisions: ['Savannah','Augusta','Brunswick','Dublin','Statesboro','Waycross'] }
+    ],
+    'Guam': [{ name: 'District of Guam', divisions: ['Hagåtña'] }],
+    'Hawaii': [{ name: 'District of Hawaii', divisions: ['Honolulu'] }],
+    'Idaho': [{ name: 'District of Idaho', divisions: ['Boise',"Coeur d'Alene",'Moscow','Pocatello'] }],
+    'Illinois': [
+      { name: 'Northern District', divisions: ['Chicago','Rockford'] },
+      { name: 'Central District', divisions: ['Springfield','Peoria','Rock Island','Urbana'] },
+      { name: 'Southern District', divisions: ['East St. Louis','Benton'] }
+    ],
+    'Indiana': [
+      { name: 'Northern District', divisions: ['Fort Wayne','Hammond','Lafayette','South Bend'] },
+      { name: 'Southern District', divisions: ['Indianapolis','Evansville','New Albany','Terre Haute'] }
+    ],
+    'Iowa': [
+      { name: 'Northern District', divisions: ['Cedar Rapids','Dubuque','Fort Dodge','Mason City','Sioux City','Waterloo'] },
+      { name: 'Southern District', divisions: ['Des Moines','Council Bluffs','Davenport'] }
+    ],
+    'Kansas': [{ name: 'District of Kansas', divisions: ['Wichita','Kansas City','Topeka'] }],
+    'Kentucky': [
+      { name: 'Eastern District', divisions: ['Lexington','Ashland','Covington','Frankfort','London','Pikeville'] },
+      { name: 'Western District', divisions: ['Louisville','Bowling Green','Owensboro','Paducah'] }
+    ],
+    'Louisiana': [
+      { name: 'Eastern District', divisions: ['New Orleans'] },
+      { name: 'Middle District', divisions: ['Baton Rouge'] },
+      { name: 'Western District', divisions: ['Shreveport','Alexandria','Lafayette','Lake Charles','Monroe','Opelousas'] }
+    ],
+    'Maine': [{ name: 'District of Maine', divisions: ['Portland','Bangor'] }],
+    'Maryland': [{ name: 'District of Maryland', divisions: ['Baltimore','Greenbelt'] }],
+    'Massachusetts': [{ name: 'District of Massachusetts', divisions: ['Boston','Springfield','Worcester'] }],
+    'Michigan': [
+      { name: 'Eastern District', divisions: ['Detroit','Ann Arbor','Bay City','Flint','Port Huron'] },
+      { name: 'Western District', divisions: ['Grand Rapids','Kalamazoo','Lansing','Marquette'] }
+    ],
+    'Minnesota': [{ name: 'District of Minnesota', divisions: ['Minneapolis','Duluth','Fergus Falls','St. Paul'] }],
+    'Mississippi': [
+      { name: 'Northern District', divisions: ['Oxford','Aberdeen','Clarksdale','Greenville'] },
+      { name: 'Southern District', divisions: ['Jackson','Biloxi','Gulfport','Hattiesburg','McComb','Natchez'] }
+    ],
+    'Missouri': [
+      { name: 'Eastern District', divisions: ['St. Louis','Cape Girardeau','Hannibal'] },
+      { name: 'Western District', divisions: ['Kansas City','Jefferson City','Joplin','Springfield','St. Joseph'] }
+    ],
+    'Montana': [{ name: 'District of Montana', divisions: ['Billings','Butte','Great Falls','Helena','Missoula'] }],
+    'Nebraska': [{ name: 'District of Nebraska', divisions: ['Omaha','Lincoln','North Platte'] }],
+    'Nevada': [{ name: 'District of Nevada', divisions: ['Las Vegas','Reno'] }],
+    'New Hampshire': [{ name: 'District of New Hampshire', divisions: ['Concord'] }],
+    'New Jersey': [{ name: 'District of New Jersey', divisions: ['Newark','Camden','Trenton'] }],
+    'New Mexico': [{ name: 'District of New Mexico', divisions: ['Albuquerque','Las Cruces','Roswell','Santa Fe'] }],
+    'New York': [
+      { name: 'Northern District', divisions: ['Syracuse','Albany','Binghamton','Plattsburgh','Utica'] },
+      { name: 'Eastern District', divisions: ['Brooklyn','Central Islip'] },
+      { name: 'Southern District', divisions: ['New York (Manhattan)','White Plains'] },
+      { name: 'Western District', divisions: ['Buffalo','Rochester'] }
+    ],
+    'North Carolina': [
+      { name: 'Eastern District', divisions: ['Raleigh','Elizabeth City','Fayetteville','Greenville','New Bern','Wilmington','Wilson'] },
+      { name: 'Middle District', divisions: ['Greensboro','Durham','Winston-Salem'] },
+      { name: 'Western District', divisions: ['Charlotte','Asheville','Bryson City','Statesville'] }
+    ],
+    'North Dakota': [{ name: 'District of North Dakota', divisions: ['Bismarck','Fargo','Grand Forks','Minot'] }],
+    'Northern Mariana Islands': [{ name: 'District of the Northern Mariana Islands', divisions: ['Saipan'] }],
+    'Ohio': [
+      { name: 'Northern District', divisions: ['Cleveland','Akron','Toledo','Youngstown'] },
+      { name: 'Southern District', divisions: ['Columbus','Cincinnati','Dayton'] }
+    ],
+    'Oklahoma': [
+      { name: 'Northern District', divisions: ['Tulsa'] },
+      { name: 'Eastern District', divisions: ['Muskogee'] },
+      { name: 'Western District', divisions: ['Oklahoma City'] }
+    ],
+    'Oregon': [{ name: 'District of Oregon', divisions: ['Portland','Eugene','Medford','Pendleton'] }],
+    'Pennsylvania': [
+      { name: 'Eastern District', divisions: ['Philadelphia','Allentown','Reading'] },
+      { name: 'Middle District', divisions: ['Scranton','Harrisburg','Williamsport'] },
+      { name: 'Western District', divisions: ['Pittsburgh','Erie','Johnstown'] }
+    ],
+    'Puerto Rico': [{ name: 'District of Puerto Rico', divisions: ['San Juan','Ponce'] }],
+    'Rhode Island': [{ name: 'District of Rhode Island', divisions: ['Providence'] }],
+    'South Carolina': [{ name: 'District of South Carolina', divisions: ['Columbia','Aiken','Anderson','Beaufort','Charleston','Conway','Florence','Greenville','Greenwood','Orangeburg','Rock Hill','Spartanburg'] }],
+    'South Dakota': [{ name: 'District of South Dakota', divisions: ['Sioux Falls','Aberdeen','Pierre','Rapid City'] }],
+    'Tennessee': [
+      { name: 'Eastern District', divisions: ['Knoxville','Chattanooga','Greeneville','Winchester'] },
+      { name: 'Middle District', divisions: ['Nashville','Columbia','Cookeville'] },
+      { name: 'Western District', divisions: ['Memphis','Jackson'] }
+    ],
+    'Texas': [
+      { name: 'Northern District', divisions: ['Dallas','Abilene','Amarillo','Fort Worth','Lubbock','San Angelo','Wichita Falls'] },
+      { name: 'Southern District', divisions: ['Houston','Brownsville','Corpus Christi','Galveston','Laredo','McAllen','Victoria'] },
+      { name: 'Eastern District', divisions: ['Tyler','Beaumont','Lufkin','Marshall','Sherman','Texarkana'] },
+      { name: 'Western District', divisions: ['San Antonio','Austin','Del Rio','El Paso','Midland','Pecos','Waco'] }
+    ],
+    'Utah': [{ name: 'District of Utah', divisions: ['Salt Lake City','St. George'] }],
+    'Vermont': [{ name: 'District of Vermont', divisions: ['Burlington','Brattleboro','Rutland'] }],
+    'U.S. Virgin Islands': [{ name: 'District of the Virgin Islands', divisions: ['Charlotte Amalie (St. Thomas)','Christiansted (St. Croix)'] }],
+    'Virginia': [
+      { name: 'Eastern District', divisions: ['Alexandria','Newport News','Norfolk','Richmond'] },
+      { name: 'Western District', divisions: ['Roanoke','Abingdon','Charlottesville','Danville','Harrisonburg','Lynchburg'] }
+    ],
+    'Washington': [
+      { name: 'Eastern District', divisions: ['Spokane','Richland','Yakima'] },
+      { name: 'Western District', divisions: ['Seattle','Bellingham','Tacoma'] }
+    ],
+    'West Virginia': [
+      { name: 'Northern District', divisions: ['Clarksburg','Elkins','Martinsburg','Wheeling'] },
+      { name: 'Southern District', divisions: ['Charleston','Beckley','Bluefield','Huntington','Lewisburg','Parkersburg'] }
+    ],
+    'Wisconsin': [
+      { name: 'Eastern District', divisions: ['Milwaukee','Green Bay'] },
+      { name: 'Western District', divisions: ['Madison','Eau Claire','La Crosse'] }
+    ],
+    'Wyoming': [{ name: 'District of Wyoming', divisions: ['Cheyenne','Casper','Lander','Mammoth','Rock Springs'] }]
+  };
+
+  /* ==========================================================================
+     INTERVIEW ENGINE (ITV)
+     ======================================================================= */
+  var ITV = (function(){
+    var answers = {};
+    var steps = [];
+    var idx = 0;
+
+    /* Helper: all state names sorted */
+    var STATE_NAMES = Object.keys(FEDERAL_DISTRICTS).sort();
+
+    /* ---- Step definitions ------------------------------------------------ */
+    function buildSteps(ans) {
+      var s = [];
+      var isForMe = ans.role === 'supporter' && ans.report_for === 'me';
+
+      /* SECTION: About This Report */
+      s.push({ id: 'privacy', type: 'privacy', section: 'About This Report' });
+
+      if (!isForMe) {
+        /* SECTION: Who We're Evaluating */
+        s.push({
+          id: 'role', type: 'choice', section: 'Getting Started',
+          q: 'Are you the defendant, or are you a family member or supporter?',
+          sub: 'This helps us ask the right questions.',
+          choices: [
+            { val: 'defendant', label: 'I am the defendant' },
+            { val: 'supporter', label: 'I am a family member or supporter' }
+          ]
+        });
+
+        if (ans.role === 'supporter') {
+          s.push({
+            id: 'report_for', type: 'choice', section: 'Getting Started',
+            q: 'Who is this report for?',
+            sub: 'We\'ll adjust the questions depending on your answer.',
+            choices: [
+              { val: 'defendant', label: 'For the defendant — I want to help them understand their situation' },
+              { val: 'me', label: 'For me — I want to understand what I should and shouldn\'t do' }
+            ]
+          });
+        }
+      }
+
+      /* ---- Supporter-for-self path --------------------------------------- */
+      if (isForMe) {
+        s.push({ id: 'role', type: 'hidden', val: 'supporter' });
+        s.push({ id: 'report_for', type: 'hidden', val: 'me' });
+        s.push({
+          id: 'sfm_calls', type: 'choice', section: 'Communications',
+          q: 'Do you communicate with the defendant by phone or video call from jail or prison?',
+          sub: 'All calls from federal facilities are recorded and monitored. This is important.',
+          choices: [
+            { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }, { val: 'dk', label: "Don't know" }
+          ]
+        });
+        s.push({
+          id: 'sfm_case_talk', type: 'choice', section: 'Communications',
+          q: 'Have you or others discussed the case, specific facts, or anything about what happened during those calls?',
+          sub: 'Including what you know, what witnesses might say, or anything about the events leading to the arrest.',
+          choices: [
+            { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }, { val: 'dk', label: "Don't know" }
+          ]
+        });
+        s.push({
+          id: 'sfm_visits', type: 'choice', section: 'Communications',
+          q: 'Have you visited the defendant in person at a detention facility?',
+          sub: 'In-person jail visits are also monitored and may be recorded.',
+          choices: [
+            { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }
+          ]
+        });
+        s.push({
+          id: 'sfm_social', type: 'choice', section: 'Communications',
+          q: 'Have you posted anything on social media about the case, the arrest, or the defendant\'s situation?',
+          choices: [
+            { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }, { val: 'dk', label: "Don't know" }
+          ]
+        });
+        s.push({
+          id: 'sfm_documents', type: 'choice', section: 'Case Documents',
+          q: 'Has anyone shared legal documents from the case with you — such as the indictment, complaint, or discovery?',
+          sub: 'Discovery is the evidence the government has shared with the defense. It should stay within the defense team.',
+          choices: [
+            { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }, { val: 'dk', label: "Don't know" }
+          ]
+        });
+        s.push({
+          id: 'sfm_attorney', type: 'choice', section: 'The Defense',
+          q: 'Do you know who the defense attorney is?',
+          choices: [
+            { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }
+          ]
+        });
+        s.push({
+          id: 'sfm_fundraise', type: 'choice', section: 'The Defense',
+          q: 'Are you or your family considering fundraising to help pay for legal fees?',
+          choices: [
+            { val: 'yes', label: 'Yes, or already doing it' },
+            { val: 'no', label: 'No' },
+            { val: 'dk', label: "Don't know yet" }
+          ]
+        });
+        return s;
+      }
+
+      /* ---- Defendant / supporter-for-defendant path --------------------- */
+
+      /* SECTION: The Arrest */
+      s.push({
+        id: 'arrest_date', type: 'date_or_dk', section: 'The Arrest',
+        q: 'What was the arrest date?',
+        sub: 'Approximate is fine. This helps us calculate how much time has elapsed.'
+      });
+      s.push({
+        id: 'search_warrant', type: 'choice', section: 'The Arrest',
+        q: 'Was a search warrant executed at any location — the home, car, office, or devices?',
+        choices: [
+          { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }, { val: 'dk', label: "Don't know" }
+        ]
+      });
+      if (ans.search_warrant === 'yes') {
+        s.push({
+          id: 'warrant_docs', type: 'choice', section: 'The Arrest',
+          q: 'Has the defendant seen the search warrant, the supporting affidavit, and the receipt of seized items?',
+          sub: 'These three documents are critical. The affidavit explains what law enforcement told a judge to get permission to search.',
+          choices: [
+            { val: 'all', label: 'Yes, seen all three' },
+            { val: 'some', label: 'Some of them' },
+            { val: 'none', label: 'No — haven\'t seen any of them' },
+            { val: 'dk', label: "Don't know" }
+          ],
+          bookPlug: true
+        });
+      }
+
+      /* SECTION: Charges & Court */
+      s.push({
+        id: 'charged', type: 'choice', section: 'Charges & Court',
+        q: 'Has the defendant been formally charged?',
+        sub: 'A formal charge means a criminal complaint, information, or indictment has been filed.',
+        choices: [
+          { val: 'yes', label: 'Yes, charged' },
+          { val: 'no', label: 'No, not yet charged' },
+          { val: 'dk', label: "Don't know" }
+        ]
+      });
+      if (ans.charged === 'dk') {
+        s.push({
+          id: 'court_appearances', type: 'choice', section: 'Charges & Court',
+          q: 'Has the defendant had any court appearances — such as an initial appearance or arraignment?',
+          sub: 'If they have appeared before a judge after arrest, they have almost certainly been charged in some form.',
+          choices: [
+            { val: 'yes', label: 'Yes, appeared in court' },
+            { val: 'no', label: 'No court appearances yet' },
+            { val: 'dk', label: "Don't know" }
+          ]
+        });
+        if (ans.court_appearances === 'yes' || ans.court_appearances === 'dk') {
+          s.push({
+            id: 'court_type', type: 'choice', section: 'Charges & Court',
+            q: 'Was that a state court or a federal court?',
+            sub: 'Federal courts are called the United States District Court. State courts use state names (e.g., "Superior Court of California").',
+            choices: [
+              { val: 'federal', label: 'Federal court (U.S. District Court)' },
+              { val: 'state', label: 'State court' },
+              { val: 'dk', label: "Don't know" }
+            ]
+          });
+          if (ans.court_type === 'federal' || ans.court_type === 'dk') {
+            s.push({
+              id: 'court_state', type: 'select_state', section: 'Charges & Court',
+              q: 'Which state or territory is the court located in?',
+              sub: 'Select to see the federal districts in that location.',
+              showPacer: ans.court_type === 'dk'
+            });
+            if (ans.court_state) {
+              s.push({
+                id: 'court_district', type: 'select_district', section: 'Charges & Court',
+                q: 'Which federal district?',
+                state: ans.court_state
+              });
+            }
+            if (ans.court_district) {
+              s.push({
+                id: 'court_division', type: 'select_division', section: 'Charges & Court',
+                q: 'Which division or courthouse location?',
+                state: ans.court_state,
+                district: ans.court_district
+              });
+            }
+            s.push({
+              id: 'pacer_referral', type: 'info', section: 'Charges & Court',
+              q: 'How to look up the case on PACER',
+              sub: 'PACER (Public Access to Court Electronic Records) lists all federal cases. You can search by defendant name or case number.',
+              content: '<p>Go to <a href="https://pacer.uscourts.gov" target="_blank" rel="noopener">pacer.uscourts.gov</a> and create a free account. Search the district you identified above by defendant name. Each case has a docket that lists every filing.</p><p>The case number format for federal cases is typically: <strong>2:24-cr-00123</strong> (year : case type : number).</p>'
+            });
+          }
+        }
+      }
+
+      s.push({
+        id: 'charge_type', type: 'choice', section: 'Charges & Court',
+        q: 'What type of charges? (Select the best match)',
+        choices: [
+          { val: 'federal', label: 'Federal charges (U.S. District Court)' },
+          { val: 'state', label: 'State charges' },
+          { val: 'both', label: 'Both federal and state' },
+          { val: 'dk', label: "Don't know" }
+        ]
+      });
+
+      /* SECTION: Key Documents */
+      s.push({
+        id: 'criminal_complaint', type: 'choice', section: 'Key Documents',
+        q: 'Has the defendant read the criminal complaint, including the affidavit attached to it?',
+        sub: 'The complaint is the initial charging document. The affidavit is the agent\'s written statement of facts that persuaded a judge to authorize the arrest. If you haven\'t read these, your attorney needs to get them to you.',
+        choices: [
+          { val: 'yes', label: 'Yes, read both' },
+          { val: 'complaint_only', label: 'Read the complaint but not the affidavit' },
+          { val: 'no', label: 'No — haven\'t seen them' },
+          { val: 'dk', label: "Don't know" }
+        ],
+        bookPlug: true
+      });
+      s.push({
+        id: 'indictment', type: 'choice', section: 'Key Documents',
+        q: 'Has the defendant received and reviewed the indictment or information?',
+        sub: 'The indictment (or information, if no grand jury) is the formal charging document. It lists every count.',
+        choices: [
+          { val: 'yes', label: 'Yes' },
+          { val: 'no', label: 'No' },
+          { val: 'not_yet', label: 'Not indicted yet' },
+          { val: 'dk', label: "Don't know" }
+        ]
+      });
+      s.push({
+        id: 'discovery', type: 'choice', section: 'Key Documents',
+        q: 'Has the attorney received and reviewed discovery with the defendant?',
+        sub: 'Discovery is the evidence the government has against the defendant — documents, recordings, reports. It must be reviewed before any decisions about the case are made.',
+        choices: [
+          { val: 'yes', label: 'Yes, reviewed together' },
+          { val: 'received_not_reviewed', label: 'Attorney has it but hasn\'t reviewed it with the defendant' },
+          { val: 'no', label: 'No discovery yet' },
+          { val: 'dk', label: "Don't know" }
+        ]
+      });
+
+      /* SECTION: Counsel */
+      s.push({
+        id: 'has_attorney', type: 'choice', section: 'Defense Counsel',
+        q: 'Does the defendant have an attorney?',
+        choices: [
+          { val: 'retained', label: 'Yes — private attorney (retained)' },
+          { val: 'fd', label: 'Yes — federal public defender' },
+          { val: 'cja', label: 'Yes — CJA panel attorney (court-appointed)' },
+          { val: 'no', label: 'No attorney yet' },
+          { val: 'dk', label: "Don't know" }
+        ]
+      });
+      s.push({
+        id: 'attorney_contact', type: 'choice', section: 'Defense Counsel',
+        q: 'Has the defendant been able to meet with or speak to their attorney about the case?',
+        choices: [
+          { val: 'yes_regularly', label: 'Yes, regularly and substantively' },
+          { val: 'yes_briefly', label: 'Yes, but only briefly or once' },
+          { val: 'no', label: 'No real communication yet' },
+          { val: 'dk', label: "Don't know" }
+        ]
+      });
+      s.push({
+        id: 'plea_pressure', type: 'choice', section: 'Defense Counsel',
+        q: 'Is the attorney pushing or strongly recommending a guilty plea?',
+        sub: 'Note: The decision to plead guilty is the defendant\'s decision alone.',
+        choices: [
+          { val: 'yes', label: 'Yes — pushing a plea offer' },
+          { val: 'no', label: 'No' },
+          { val: 'offer_exists', label: 'A plea offer exists but no pressure yet' },
+          { val: 'dk', label: "Don't know" }
+        ]
+      });
+
+      /* SECTION: Custody & Hearings */
+      s.push({
+        id: 'custody_status', type: 'choice', section: 'Custody & Hearings',
+        q: 'What is the defendant\'s custody status?',
+        choices: [
+          { val: 'detained', label: 'In custody / detained (no bail)' },
+          { val: 'released', label: 'Released — on bond or pretrial conditions' },
+          { val: 'dk', label: "Don't know" }
+        ]
+      });
+      s.push({
+        id: 'detention_hearing', type: 'choice', section: 'Custody & Hearings',
+        q: 'Was there a detention hearing?',
+        sub: 'A detention hearing is where a judge decides whether to detain or release the defendant before trial.',
+        choices: [
+          { val: 'yes_detained', label: 'Yes — judge ordered detention' },
+          { val: 'yes_released', label: 'Yes — judge released with conditions' },
+          { val: 'waived', label: 'Hearing was waived' },
+          { val: 'pending', label: 'Hearing hasn\'t happened yet' },
+          { val: 'dk', label: "Don't know" }
+        ],
+        bookPlug: true
+      });
+      s.push({
+        id: 'speedy_trial', type: 'choice', section: 'Custody & Hearings',
+        q: 'Does the defendant want a speedy trial?',
+        sub: 'The Speedy Trial Act requires trial to begin within 70 days of indictment. Most defense attorneys waive this to have more time to prepare — but it\'s the defendant\'s right to assert it.',
+        choices: [
+          { val: 'yes', label: 'Yes — want to go to trial quickly' },
+          { val: 'no', label: 'No — prefer more preparation time' },
+          { val: 'dk', label: "Don't know / haven't decided" }
+        ]
+      });
+      s.push({
+        id: 'speedy_invoked', type: 'choice', section: 'Custody & Hearings',
+        q: 'Has anyone told the judge the defendant is invoking the right to a speedy trial?',
+        choices: [
+          { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }, { val: 'dk', label: "Don't know" }
+        ]
+      });
+      s.push({
+        id: 'motions_deadline', type: 'choice', section: 'Custody & Hearings',
+        q: 'Does the defendant know the deadline for filing pretrial motions?',
+        sub: 'Motions deadlines are set by the court and missing them can waive critical rights.',
+        choices: [
+          { val: 'yes', label: 'Yes, know the date' },
+          { val: 'no', label: 'No, don\'t know the date' },
+          { val: 'dk', label: "Don't know / not there yet" }
+        ]
+      });
+
+      /* SECTION: Plea */
+      s.push({
+        id: 'plea_decision', type: 'choice', section: 'Plea & Trial',
+        q: 'Has the defendant decided whether to plead guilty or go to trial?',
+        choices: [
+          { val: 'plea', label: 'Leaning toward or decided to plead guilty' },
+          { val: 'trial', label: 'Leaning toward or decided to go to trial' },
+          { val: 'undecided', label: 'No decision yet' },
+          { val: 'dk', label: "Don't know" }
+        ]
+      });
+
+      return s;
+    }
+
+    /* ---- Render a step -------------------------------------------------- */
+    function renderStepHTML(step, ans) {
+      if (step.type === 'hidden') return '';
+
+      var html = '';
+      var privBadge = '<div class="cr-itv-privacy-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Private Session</div>';
+
+      if (step.type === 'privacy') {
+        html += '<div class="cr-itv-q">';
+        html += '<div class="cr-itv-q-label">A few minutes to understand your situation</div>';
+        html += '</div>';
+        html += '<div class="cr-itv-info-card">';
+        html += privBadge;
+        html += '<p>Nothing you enter here will be saved. You will not be asked to provide case specifics — only general information about where things stand.</p>';
+        html += '<p>This report exists in your browser only. When you close this window, it is gone. <strong>Download or print your report before closing.</strong></p>';
+        html += '<p>You will not be asked whether the defendant is guilty. Do not share this report with anyone outside the defense team.</p>';
+        html += '<p>The information we are gathering is what your lawyer needs and what answers the most common questions you have right now. <strong>Discuss all specifics with your attorney.</strong></p>';
+        html += '</div>';
+        return html;
+      }
+
+      if (step.type === 'info') {
+        html += '<div class="cr-itv-q">';
+        html += '<div class="cr-itv-q-label">' + esc(step.q) + '</div>';
+        if (step.sub) html += '<div class="cr-itv-q-sub">' + step.sub + '</div>';
+        html += '</div>';
+        html += '<div class="cr-itv-info-card">' + (step.content || '') + '</div>';
+        if (step.showPacer) {
+          html += '<div class="cr-itv-pacer-box">If you still can\'t identify the court, search PACER at <a href="https://pacer.uscourts.gov" target="_blank" rel="noopener">pacer.uscourts.gov</a> by the defendant\'s name to find any federal case.</div>';
+        }
+        return html;
+      }
+
+      html += '<div class="cr-itv-q">';
+      html += '<div class="cr-itv-q-label">' + esc(step.q) + '</div>';
+      if (step.sub) html += '<div class="cr-itv-q-sub">' + step.sub + '</div>';
+      html += '</div>';
+
+      if (step.type === 'choice') {
+        html += '<div class="cr-itv-choices">';
+        step.choices.forEach(function(c) {
+          var isDk = c.val === 'dk';
+          var sel = ans[step.id] === c.val ? ' is-selected' : '';
+          html += '<button class="cr-itv-choice' + (isDk ? ' cr-itv-choice--dk' : '') + sel + '" data-field="' + esc(step.id) + '" data-val="' + esc(c.val) + '" type="button">' + esc(c.label) + '</button>';
+        });
+        html += '</div>';
+      }
+
+      if (step.type === 'date_or_dk') {
+        var dateVal = (ans[step.id] && ans[step.id] !== 'dk') ? ans[step.id] : '';
+        var dkSel = ans[step.id] === 'dk' ? ' is-selected' : '';
+        html += '<div class="cr-itv-choices">';
+        html += '<input type="date" class="cr-itv-date" id="itv-date-input" value="' + esc(dateVal) + '" data-field="' + esc(step.id) + '" />';
+        html += '</div>';
+        html += '<div class="cr-itv-choices" style="margin-top:10px;">';
+        html += '<button class="cr-itv-choice cr-itv-choice--dk' + dkSel + '" data-field="' + esc(step.id) + '" data-val="dk" type="button">Don\'t know / prefer not to say</button>';
+        html += '</div>';
+      }
+
+      if (step.type === 'select_state') {
+        var curState = ans[step.id] || '';
+        html += '<select class="cr-itv-select" id="itv-state-select" data-field="' + esc(step.id) + '"><option value="">— Select state or territory —</option>';
+        STATE_NAMES.forEach(function(st) {
+          html += '<option value="' + esc(st) + '"' + (curState === st ? ' selected' : '') + '>' + esc(st) + '</option>';
+        });
+        html += '</select>';
+        if (step.showPacer) {
+          html += '<div class="cr-itv-pacer-box" style="margin-top:14px;">If you can\'t identify the state, search <a href="https://pacer.uscourts.gov" target="_blank" rel="noopener">PACER</a> by defendant name to locate the federal case.</div>';
+        }
+      }
+
+      if (step.type === 'select_district') {
+        var districts = (FEDERAL_DISTRICTS[step.state] || []);
+        var curDist = ans[step.id] || '';
+        html += '<select class="cr-itv-select" id="itv-district-select" data-field="' + esc(step.id) + '"><option value="">— Select district —</option>';
+        districts.forEach(function(d) {
+          html += '<option value="' + esc(d.name) + '"' + (curDist === d.name ? ' selected' : '') + '>' + esc(d.name) + '</option>';
+        });
+        html += '</select>';
+      }
+
+      if (step.type === 'select_division') {
+        var districtData = null;
+        (FEDERAL_DISTRICTS[step.state] || []).forEach(function(d){ if(d.name === step.district) districtData = d; });
+        var divisions = districtData ? districtData.divisions : [];
+        var curDiv = ans[step.id] || '';
+        html += '<select class="cr-itv-select" id="itv-division-select" data-field="' + esc(step.id) + '"><option value="">— Select courthouse location —</option>';
+        divisions.forEach(function(dv) {
+          html += '<option value="' + esc(dv) + '"' + (curDiv === dv ? ' selected' : '') + '>' + esc(dv) + '</option>';
+        });
+        html += '</select>';
+      }
+
+      if (step.bookPlug) {
+        html += '<div class="cr-itv-book-plug">';
+        html += '<svg class="cr-itv-book-plug-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>';
+        html += '<div class="cr-itv-book-plug-text">If these documents are confusing, <em>Surviving Pretrial</em> walks through each one in plain language — what it means, what to look for, and what to ask your attorney. <a href="https://survivingthefeds.com" target="_blank" rel="noopener">Order it today.</a></div>';
+        html += '</div>';
+      }
+
+      return html;
+    }
+
+    /* ---- Escape helper -------------------------------------------------- */
+    function esc(s) {
+      return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    /* ---- Render current step -------------------------------------------- */
+    function render() {
+      steps = buildSteps(answers);
+      /* skip hidden steps */
+      while (idx < steps.length && steps[idx].type === 'hidden') {
+        if (steps[idx].val !== undefined) answers[steps[idx].id] = steps[idx].val;
+        idx++;
+      }
+      if (idx >= steps.length) { generateReport(); return; }
+
+      var step = steps[idx];
+      var body = document.getElementById('cr-itv-body');
+      if (body) body.innerHTML = renderStepHTML(step, answers);
+      bindStepEvents(step);
+      updateMeta();
+    }
+
+    /* ---- Bind events for current step ----------------------------------- */
+    function bindStepEvents(step) {
+      if (!step) return;
+      var body = document.getElementById('cr-itv-body');
+      if (!body) return;
+
+      body.querySelectorAll('.cr-itv-choice').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var field = this.getAttribute('data-field');
+          var val = this.getAttribute('data-val');
+          answers[field] = val;
+          body.querySelectorAll('.cr-itv-choice[data-field="' + field + '"]').forEach(function(b){ b.classList.remove('is-selected'); });
+          this.classList.add('is-selected');
+          updateNext();
+        });
+      });
+
+      var dateInput = body.querySelector('.cr-itv-date');
+      if (dateInput) {
+        dateInput.addEventListener('change', function() {
+          if (this.value) {
+            answers[step.id] = this.value;
+            body.querySelectorAll('.cr-itv-choice--dk').forEach(function(b){ b.classList.remove('is-selected'); });
+          }
+          updateNext();
+        });
+      }
+
+      var stateSelect = body.querySelector('#itv-state-select');
+      if (stateSelect) {
+        stateSelect.addEventListener('change', function() {
+          if (this.value) answers[step.id] = this.value;
+          else delete answers[step.id];
+          updateNext();
+        });
+      }
+      var districtSelect = body.querySelector('#itv-district-select');
+      if (districtSelect) {
+        districtSelect.addEventListener('change', function() {
+          if (this.value) answers[step.id] = this.value;
+          else delete answers[step.id];
+          updateNext();
+        });
+      }
+      var divisionSelect = body.querySelector('#itv-division-select');
+      if (divisionSelect) {
+        divisionSelect.addEventListener('change', function() {
+          if (this.value) answers[step.id] = this.value;
+          else delete answers[step.id];
+          updateNext();
+        });
+      }
+
+      updateNext();
+    }
+
+    /* ---- Can continue? -------------------------------------------------- */
+    function canContinue() {
+      var step = steps[idx];
+      if (!step) return false;
+      if (step.type === 'privacy' || step.type === 'info') return true;
+      if (step.type === 'date_or_dk') return !!answers[step.id];
+      if (step.type === 'select_state') return !!answers[step.id];
+      if (step.type === 'select_district') return !!answers[step.id];
+      if (step.type === 'select_division') return !!answers[step.id];
+      if (step.type === 'choice') return !!answers[step.id];
+      return true;
+    }
+
+    /* ---- Update next button state --------------------------------------- */
+    function updateNext() {
+      var nextBtn = document.getElementById('cr-itv-next');
+      if (nextBtn) {
+        if (canContinue()) nextBtn.removeAttribute('disabled');
+        else nextBtn.setAttribute('disabled', '');
+      }
+    }
+
+    /* ---- Update progress / meta ----------------------------------------- */
+    function updateMeta() {
+      /* Count only real (non-hidden) steps */
+      var realSteps = steps.filter(function(s){ return s.type !== 'hidden'; });
+      var realIdx = 0;
+      for (var i = 0; i <= idx && i < steps.length; i++) {
+        if (steps[i].type !== 'hidden') realIdx++;
+      }
+      var pct = realSteps.length > 0 ? Math.min(100, Math.round((realIdx / realSteps.length) * 100)) : 0;
+      var fill = document.getElementById('cr-itv-progress');
+      if (fill) fill.style.width = pct + '%';
+      var sectionEl = document.getElementById('cr-itv-section');
+      if (sectionEl) sectionEl.textContent = (steps[idx] && steps[idx].section) || '';
+      var counterEl = document.getElementById('cr-itv-stepcount');
+      if (counterEl) counterEl.textContent = realIdx + ' / ' + realSteps.length;
+      var backBtn = document.getElementById('cr-itv-back');
+      if (backBtn) backBtn.style.visibility = idx > 0 ? 'visible' : 'hidden';
+      var nextBtn = document.getElementById('cr-itv-next');
+      if (nextBtn) {
+        var isLast = idx >= steps.length - 1;
+        nextBtn.textContent = isLast ? 'Generate Report' : 'Continue →';
+      }
+    }
+
+    /* ---- Navigation ----------------------------------------------------- */
+    function next() {
+      if (!canContinue()) return;
+      idx++;
+      /* skip hidden */
+      while (idx < steps.length && steps[idx].type === 'hidden') {
+        if (steps[idx].val !== undefined) answers[steps[idx].id] = steps[idx].val;
+        idx++;
+      }
+      if (idx >= steps.length) { generateReport(); return; }
+      /* rebuild steps with new answers to handle branching */
+      steps = buildSteps(answers);
+      /* skip hidden again after rebuild */
+      while (idx < steps.length && steps[idx].type === 'hidden') {
+        if (steps[idx].val !== undefined) answers[steps[idx].id] = steps[idx].val;
+        idx++;
+      }
+      if (idx >= steps.length) { generateReport(); return; }
+      render();
+    }
+
+    function back() {
+      if (idx <= 0) return;
+      idx--;
+      while (idx > 0 && steps[idx].type === 'hidden') idx--;
+      render();
+    }
+
+    /* ---- Generate & show report ----------------------------------------- */
+    function generateReport() {
+      var content = document.getElementById('cr-dreport-content');
+      if (content) content.innerHTML = buildDefenseReport(answers);
+      /* Show "My Report" rail button */
+      var rb = document.getElementById('cr-my-report-btn');
+      if (rb) rb.style.display = '';
+      showScreen('screen-defense-report');
+    }
+
+    /* ---- Public API ----------------------------------------------------- */
+    return {
+      init: function() {
+        answers = {};
+        idx = 0;
+        steps = buildSteps(answers);
+        render();
+      },
+      next: next,
+      back: back,
+      answers: answers
+    };
+  })();
+
+  /* ==========================================================================
+     DEFENSE REPORT BUILDER
+     ======================================================================= */
+  function buildDefenseReport(ans) {
+    var isForMe = ans.role === 'supporter' && ans.report_for === 'me';
+    var now = new Date();
+    var dateStr = now.toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
+    var html = '';
+
+    /* Header */
+    html += '<div class="cr-dreport-header">';
+    html += '<div class="cr-dreport-eyebrow">Surviving the Feds &mdash; Case Command Center</div>';
+    html += '<div class="cr-dreport-title">' + (isForMe ? 'Supporter Situation Report' : 'Defense Situation Report') + '</div>';
+    html += '<div class="cr-dreport-subtitle">' + (isForMe ? 'Prepared for a family member or supporter' : 'Prepared for the defense team') + '</div>';
+    html += '<div class="cr-dreport-meta"><span class="cr-dreport-meta-item">Generated: <strong>' + dateStr + '</strong></span><span class="cr-dreport-meta-item">Not saved &mdash; print or download to keep</span></div>';
+    html += '</div>';
+
+    if (isForMe) {
+      return html + buildSupporterReport(ans);
+    }
+
+    /* ---- FLAGS ---------------------------------------------------------- */
+    var flags = [];
+    if (ans.plea_pressure === 'yes' && ans.discovery !== 'yes') {
+      flags.push({ type: 'flag', text: '<strong>Red Flag: Plea pressure without discovery review.</strong> The attorney is pushing a plea but discovery has not been fully reviewed. This is a serious red flag — see the Plea section below.' });
+    }
+    if (ans.has_attorney === 'no') {
+      flags.push({ type: 'flag', text: '<strong>No attorney.</strong> Every defendant needs a lawyer. If you cannot afford one, federal public defenders are available.' });
+    }
+    if (ans.attorney_contact === 'no') {
+      flags.push({ type: 'warn', text: '<strong>Limited attorney contact.</strong> Minimal communication with counsel at this stage is a concern.' });
+    }
+    if (ans.warrant_docs === 'none' && ans.search_warrant === 'yes') {
+      flags.push({ type: 'warn', text: '<strong>Search warrant documents not reviewed.</strong> The warrant, affidavit, and receipt of seized items have not been seen.' });
+    }
+    if (ans.motions_deadline === 'no') {
+      flags.push({ type: 'warn', text: '<strong>Pretrial motions deadline unknown.</strong> Missing this date can permanently waive important rights.' });
+    }
+    if (ans.criminal_complaint === 'no') {
+      flags.push({ type: 'warn', text: '<strong>Criminal complaint not reviewed.</strong> The defendant needs to read the complaint and the agent affidavit.' });
+    }
+    if (ans.discovery === 'received_not_reviewed') {
+      flags.push({ type: 'warn', text: '<strong>Discovery received but not reviewed.</strong> Attorney has discovery but has not reviewed it with the defendant.' });
+    }
+    if (flags.length === 0) {
+      flags.push({ type: 'ok', text: 'No critical flags identified based on the information provided.' });
+    }
+
+    html += '<div class="cr-dreport-flags">';
+    html += '<div class="cr-dreport-flags-title">Priority Flags</div>';
+    flags.forEach(function(f) {
+      var cls = f.type === 'flag' ? '' : (f.type === 'warn' ? ' cr-dreport-flag--warn' : ' cr-dreport-flag--ok');
+      var iconColor = f.type === 'flag' ? '#dc3545' : (f.type === 'warn' ? '#ffc107' : '#5cb85c');
+      var iconPath = f.type === 'ok'
+        ? '<path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/>'
+        : '<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>';
+      html += '<div class="cr-dreport-flag' + cls + '">';
+      html += '<svg class="cr-dreport-flag-icon" viewBox="0 0 24 24" fill="none" stroke="' + iconColor + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' + iconPath + '</svg>';
+      html += '<div class="cr-dreport-flag-text">' + f.text + '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+
+    /* ---- PLEA RED FLAG BOX --------------------------------------------- */
+    if (ans.plea_pressure === 'yes' && ans.discovery !== 'yes') {
+      html += '<div class="cr-dreport-redflag">';
+      html += '<div class="cr-dreport-redflag-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>Serious Red Flag: Plea Pressure Without Discovery</div>';
+      html += '<div class="cr-dreport-redflag-text">';
+      html += '<p>If an attorney is pushing a defendant to plead guilty but has not reviewed the discovery with them, this is a serious red flag. Discovery is the evidence the government has. No informed decision about a plea can be made without reading it.</p>';
+      html += '<p>The decision to plead guilty is the defendant\'s — and only the defendant\'s — regardless of who is paying for the attorney. No attorney can make this decision. A defendant may not plead guilty simply because they are told to, or because it is easier.</p>';
+      html += '<p>Before any plea decision is made: <strong>demand a full discovery review with your attorney.</strong></p>';
+      html += '</div></div>';
+    }
+
+    /* ---- PRIORITY ACTIONS ---------------------------------------------- */
+    var actions = [];
+    if (ans.has_attorney === 'no') actions.push({ text: 'Obtain legal representation immediately.', note: 'If you cannot afford an attorney, apply for a federal public defender at your first appearance.' });
+    if (ans.criminal_complaint !== 'yes') actions.push({ text: 'Obtain and read the criminal complaint and the agent affidavit.', note: 'Your attorney must provide these. Ask in writing.' });
+    if (ans.search_warrant === 'yes' && ans.warrant_docs !== 'all') actions.push({ text: 'Obtain the search warrant, supporting affidavit, and receipt of seized items.', note: 'Request these from your attorney immediately if you don\'t have them.' });
+    if (ans.discovery === 'received_not_reviewed' || ans.discovery === 'no') actions.push({ text: 'Schedule a discovery review session with your attorney.', note: 'Discovery must be reviewed before any decisions — especially about a plea — are made.' });
+    if (ans.motions_deadline === 'no') actions.push({ text: 'Ask your attorney for the pretrial motions deadline in writing.', note: 'Missing this date permanently waives rights that could help your case.' });
+    if (ans.attorney_contact === 'no' || ans.attorney_contact === 'yes_briefly') actions.push({ text: 'Request a substantive meeting with your attorney.', note: 'A brief hallway conversation is not enough. You are entitled to real communication.' });
+    if (ans.speedy_trial === 'yes' && ans.speedy_invoked !== 'yes') actions.push({ text: 'Tell your attorney you want to invoke your speedy trial right.', note: 'If this is what you want, it must be communicated to the court promptly.' });
+    if (actions.length === 0) actions.push({ text: 'Continue working closely with your defense attorney.', note: 'Based on the information provided, no urgent gaps were identified.' });
+
+    html += '<div class="cr-dreport-section cr-dreport-actions">';
+    html += '<div class="cr-dreport-section-head">Priority Action List</div>';
+    actions.forEach(function(a, i) {
+      html += '<div class="cr-dreport-action-item"><span class="cr-dreport-action-num">' + (i+1) + '</span><div class="cr-dreport-action-text">' + esc(a.text) + (a.note ? '<em>' + esc(a.note) + '</em>' : '') + '</div></div>';
+    });
+    html += '</div>';
+
+    /* ---- CASE STATUS SECTION ------------------------------------------- */
+    html += '<div class="cr-dreport-section">';
+    html += '<div class="cr-dreport-section-head">Case Status</div>';
+    html += rptRow('Defendant Status', ans.role === 'supporter' ? 'Supporter providing report for defendant' : 'Defendant', 'ok');
+    html += rptRow('Arrest Date', ans.arrest_date && ans.arrest_date !== 'dk' ? ans.arrest_date : 'Not provided', ans.arrest_date && ans.arrest_date !== 'dk' ? 'ok' : 'dk', ans.arrest_date === 'dk' ? 'Track this — days since arrest affect several deadlines.' : '');
+    html += rptRow('Formal Charges', formatAnswerLabel(ans.charged, { yes:'Charged', no:'Not yet charged', dk:"Don't know" }), ans.charged === 'yes' ? 'ok' : (ans.charged === 'no' ? 'warn' : 'dk'));
+    if (ans.charge_type) html += rptRow('Court Type', formatAnswerLabel(ans.charge_type, { federal:'Federal (U.S. District Court)', state:'State court', both:'Both federal and state', dk:"Don't know" }), ans.charge_type === 'dk' ? 'dk' : 'ok');
+    if (ans.court_state) html += rptRow('Federal District', (ans.court_district || 'District not specified') + (ans.court_state ? ' — ' + ans.court_state : ''), 'ok');
+    html += rptRow('Custody Status', formatAnswerLabel(ans.custody_status, { detained:'In custody / detained', released:'Released on bond/conditions', dk:"Don't know" }), ans.custody_status === 'detained' ? 'warn' : (ans.custody_status === 'released' ? 'ok' : 'dk'));
+    html += '</div>';
+
+    /* ---- DOCUMENTS SECTION --------------------------------------------- */
+    html += '<div class="cr-dreport-section">';
+    html += '<div class="cr-dreport-section-head">Key Documents</div>';
+    html += rptRow('Criminal Complaint / Affidavit', formatAnswerLabel(ans.criminal_complaint, { yes:'Read both', complaint_only:'Complaint only — need affidavit', no:'Not seen — get from attorney', dk:"Don't know" }), ans.criminal_complaint === 'yes' ? 'ok' : (ans.criminal_complaint === 'no' ? 'flag' : 'warn'), ans.criminal_complaint !== 'yes' ? 'You must get this document. Ask your attorney in writing.' : '');
+    html += rptRow('Indictment / Information', formatAnswerLabel(ans.indictment, { yes:'Reviewed', no:'Not received — follow up', not_yet:'Not indicted yet', dk:"Don't know" }), ans.indictment === 'yes' ? 'ok' : (ans.indictment === 'no' ? 'warn' : 'dk'));
+    html += rptRow('Discovery', formatAnswerLabel(ans.discovery, { yes:'Reviewed with attorney', received_not_reviewed:'Received but not reviewed — urgent', no:'Not received yet', dk:"Don't know" }), ans.discovery === 'yes' ? 'ok' : (ans.discovery === 'received_not_reviewed' ? 'flag' : 'warn'), ans.discovery !== 'yes' ? 'No plea decision should be made before discovery is reviewed.' : '');
+    if (ans.search_warrant === 'yes') {
+      html += rptRow('Search Warrant Docs', formatAnswerLabel(ans.warrant_docs, { all:'All three reviewed', some:'Partial — get remaining', none:'None seen — urgent', dk:"Don't know" }), ans.warrant_docs === 'all' ? 'ok' : (ans.warrant_docs === 'none' ? 'flag' : 'warn'));
+    }
+    html += '</div>';
+
+    /* ---- COUNSEL SECTION ----------------------------------------------- */
+    html += '<div class="cr-dreport-section">';
+    html += '<div class="cr-dreport-section-head">Defense Counsel</div>';
+    html += rptRow('Attorney Status', formatAnswerLabel(ans.has_attorney, { retained:'Private attorney (retained)', fd:'Federal public defender', cja:'CJA panel attorney (court-appointed)', no:'No attorney — urgent', dk:"Don't know" }), ans.has_attorney === 'no' ? 'flag' : (ans.has_attorney === 'dk' ? 'dk' : 'ok'));
+    html += rptRow('Attorney Communication', formatAnswerLabel(ans.attorney_contact, { yes_regularly:'Regular, substantive communication', yes_briefly:'Brief contact only', no:'No real communication yet', dk:"Don't know" }), ans.attorney_contact === 'yes_regularly' ? 'ok' : (ans.attorney_contact === 'no' ? 'flag' : 'warn'));
+    html += rptRow('Plea Pressure', formatAnswerLabel(ans.plea_pressure, { yes:'Attorney pushing a plea', no:'No pressure', offer_exists:'Offer exists, no pressure yet', dk:"Don't know" }), ans.plea_pressure === 'yes' ? (ans.discovery !== 'yes' ? 'flag' : 'warn') : 'ok');
+    html += '</div>';
+
+    /* ---- HEARINGS SECTION ---------------------------------------------- */
+    html += '<div class="cr-dreport-section">';
+    html += '<div class="cr-dreport-section-head">Hearings &amp; Deadlines</div>';
+    html += rptRow('Detention Hearing', formatAnswerLabel(ans.detention_hearing, { yes_detained:'Held — detention ordered', yes_released:'Held — released with conditions', waived:'Waived', pending:'Not yet held', dk:"Don't know" }), ans.detention_hearing === 'yes_detained' ? 'warn' : (ans.detention_hearing === 'yes_released' ? 'ok' : 'dk'));
+    html += rptRow('Speedy Trial', formatAnswerLabel(ans.speedy_trial, { yes:'Wants speedy trial', no:'Waiving — more prep time', dk:"Undecided" }), 'dk', 'The right to a speedy trial (70 days) is the defendant\'s to assert or waive. This must be communicated to the attorney.');
+    if (ans.speedy_trial === 'yes') {
+      html += rptRow('Speedy Trial Invoked', formatAnswerLabel(ans.speedy_invoked, { yes:'Yes — judge notified', no:'Not yet — needs to happen', dk:"Don't know" }), ans.speedy_invoked === 'yes' ? 'ok' : 'flag');
+    }
+    html += rptRow('Motions Deadline', formatAnswerLabel(ans.motions_deadline, { yes:'Known', no:'Unknown — get from attorney now', dk:"Not yet applicable" }), ans.motions_deadline === 'yes' ? 'ok' : (ans.motions_deadline === 'no' ? 'flag' : 'dk'), ans.motions_deadline === 'no' ? 'Missing pretrial motion deadlines permanently waives key rights.' : '');
+    html += '</div>';
+
+    /* ---- PLEA SECTION -------------------------------------------------- */
+    html += '<div class="cr-dreport-section">';
+    html += '<div class="cr-dreport-section-head">Plea &amp; Trial</div>';
+    html += rptRow('Current Direction', formatAnswerLabel(ans.plea_decision, { plea:'Leaning toward guilty plea', trial:'Leaning toward trial', undecided:'No decision yet', dk:"Don't know" }), 'dk');
+    html += '<div class="cr-dreport-row" style="display:block; padding: 14px 0;">';
+    html += '<div class="cr-dreport-row-label" style="font-size:.78rem; line-height:1.7; color:var(--cr-text);"><strong>Important:</strong> The decision to plead guilty is the defendant\'s alone — not the attorney\'s, not the family\'s, not anyone paying for the attorney. No guilty plea should ever be entered before discovery has been fully reviewed. If you are being pressured to plead without reviewing discovery, that is a serious problem.</div>';
+    html += '</div>';
+    html += '</div>';
+
+    /* ---- DISCLOSURE ---------------------------------------------------- */
+    html += '<div class="cr-dreport-disclosure">';
+    html += 'This report is generated from the answers you provided and is for informational purposes only. It is not legal advice. Nothing here creates an attorney-client relationship. Do not share this report with anyone outside your defense team. Surviving the Feds is an educational resource — consult your attorney for legal guidance specific to your case.';
+    html += '</div>';
+
+    return html;
+  }
+
+  /* ---- Supporter-for-self report --------------------------------------- */
+  function buildSupporterReport(ans) {
+    var html = '';
+    var flags = [];
+
+    if (ans.sfm_case_talk === 'yes') {
+      flags.push({ type: 'flag', text: '<strong>Case discussed on monitored calls.</strong> All calls from federal facilities are recorded. Anything discussed on those calls could be used as evidence.' });
+    }
+    if (ans.sfm_social === 'yes') {
+      flags.push({ type: 'flag', text: '<strong>Social media posts about the case.</strong> Prosecutors regularly review social media. Anything posted may be used as evidence or to impeach witnesses.' });
+    }
+    if (flags.length === 0) {
+      flags.push({ type: 'ok', text: 'No critical communications flags identified based on your answers.' });
+    }
+
+    html += '<div class="cr-dreport-flags">';
+    html += '<div class="cr-dreport-flags-title">Priority Flags</div>';
+    flags.forEach(function(f) {
+      var cls = f.type === 'flag' ? '' : (f.type === 'warn' ? ' cr-dreport-flag--warn' : ' cr-dreport-flag--ok');
+      var iconColor = f.type === 'flag' ? '#dc3545' : (f.type === 'warn' ? '#ffc107' : '#5cb85c');
+      var iconPath = f.type === 'ok'
+        ? '<path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/>'
+        : '<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>';
+      html += '<div class="cr-dreport-flag' + cls + '">';
+      html += '<svg class="cr-dreport-flag-icon" viewBox="0 0 24 24" fill="none" stroke="' + iconColor + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' + iconPath + '</svg>';
+      html += '<div class="cr-dreport-flag-text">' + f.text + '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+
+    html += '<div class="cr-dreport-section">';
+    html += '<div class="cr-dreport-section-head">Communications</div>';
+    html += rptRow('Calls / Video from Facility', formatAnswerLabel(ans.sfm_calls, { yes:'Yes — all monitored and recorded', no:'No', dk:"Don't know" }), ans.sfm_calls === 'yes' ? 'warn' : 'ok', 'Never discuss the case, facts, or strategy on any monitored call.');
+    html += rptRow('Case Discussed on Calls', formatAnswerLabel(ans.sfm_case_talk, { yes:'Yes — stop immediately', no:'No', dk:"Don't know" }), ans.sfm_case_talk === 'yes' ? 'flag' : 'ok', 'Anything said on a recorded call can be used as evidence against the defendant.');
+    html += rptRow('In-Person Jail Visits', formatAnswerLabel(ans.sfm_visits, { yes:'Yes — also monitored', no:'No' }), 'warn', 'In-person visits at federal facilities are monitored. Do not discuss the case during visits.');
+    html += rptRow('Social Media Activity', formatAnswerLabel(ans.sfm_social, { yes:'Yes — stop immediately', no:'No', dk:"Don't know" }), ans.sfm_social === 'yes' ? 'flag' : 'ok', 'Do not post anything about the case, the arrest, or the defendant on any platform.');
+    html += '</div>';
+
+    html += '<div class="cr-dreport-section">';
+    html += '<div class="cr-dreport-section-head">Case Documents</div>';
+    html += rptRow('Legal Documents Shared with You', formatAnswerLabel(ans.sfm_documents, { yes:'Yes', no:'No', dk:"Don't know" }), ans.sfm_documents === 'yes' ? 'warn' : 'ok', 'Discovery and case documents should remain within the defense team. Do not share them further or discuss their contents with others.');
+    html += '</div>';
+
+    html += '<div class="cr-dreport-section">';
+    html += '<div class="cr-dreport-section-head">The Defense</div>';
+    html += rptRow('Know the Attorney', formatAnswerLabel(ans.sfm_attorney, { yes:'Yes', no:'No' }), ans.sfm_attorney === 'yes' ? 'ok' : 'warn', ans.sfm_attorney === 'no' ? 'Ask the defendant for their attorney\'s contact information. All communications about the case should go through counsel.' : '');
+    html += rptRow('Fundraising for Legal Fees', formatAnswerLabel(ans.sfm_fundraise, { yes:'Yes, or planning to', no:'No', dk:"Undecided" }), 'warn', 'If fundraising publicly, consult with the defense attorney first. Public fundraising can sometimes be used against the defendant at trial or sentencing.');
+    html += '</div>';
+
+    html += '<div class="cr-dreport-disclosure">';
+    html += 'This report is generated from the answers you provided and is for informational purposes only. It is not legal advice. Surviving the Feds is an educational resource — consult the defense attorney for guidance specific to this case.';
+    html += '</div>';
+    return html;
+  }
+
+  /* ---- Report helpers --------------------------------------------------- */
+  function rptRow(label, value, status, note) {
+    var statusLabels = { ok:'OK', flag:'FLAG', warn:'REVIEW', dk:'UNKNOWN' };
+    var st = status || 'dk';
+    var html = '<div class="cr-dreport-row">';
+    html += '<div class="cr-dreport-row-label"><strong>' + esc(label) + '</strong>' + esc(value) + (note ? '<div class="cr-dreport-row-note">' + esc(note) + '</div>' : '') + '</div>';
+    html += '<span class="cr-dreport-status cr-dreport-status--' + st + '">' + (statusLabels[st] || st.toUpperCase()) + '</span>';
+    html += '</div>';
+    return html;
+  }
+
+  function formatAnswerLabel(val, map) {
+    if (!val) return 'Not answered';
+    return map[val] || val;
+  }
+
+  function esc(s) {
+    return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  /* ==========================================================================
+     INTERVIEW EVENT HANDLERS
+     ======================================================================= */
+  /* Next / Back buttons */
+  var itvNext = document.getElementById('cr-itv-next');
+  var itvBack = document.getElementById('cr-itv-back');
+  if (itvNext) itvNext.addEventListener('click', function(){ ITV.next(); });
+  if (itvBack) itvBack.addEventListener('click', function(){ ITV.back(); });
+
+  /* Keyboard: Enter advances, Backspace/Left goes back */
+  document.addEventListener('keydown', function(e) {
+    if (currentScreen !== 'screen-intake') return;
+    if (e.key === 'Enter' && !e.shiftKey) {
+      var nb = document.getElementById('cr-itv-next');
+      if (nb && !nb.disabled) { e.preventDefault(); ITV.next(); }
+    }
+    if (e.key === 'ArrowLeft') { ITV.back(); }
+  });
+
+  /* Back to interview button on report screen */
+  var dreportBack = document.getElementById('cr-dreport-back-btn');
+  if (dreportBack) dreportBack.addEventListener('click', function(){
+    showScreen('screen-intake');
+  });
+
+  /* Print report button */
+  var dreportPrint = document.getElementById('cr-dreport-print-btn');
+  if (dreportPrint) dreportPrint.addEventListener('click', function(){
+    document.body.dataset.printing = 'dreport';
+    window.print();
+    setTimeout(function(){ delete document.body.dataset.printing; }, 3000);
+  });
+
+  /* Reset interview when "Evaluate My Situation" is clicked (dispatch btn) */
+  document.querySelectorAll('.cr-dispatch-btn[data-target="intake"]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      setTimeout(function(){ ITV.init(); }, 0);
+    });
+  });
+
+  /* Initialize interview on page load */
+  ITV.init();
 
 })();
 </script>
