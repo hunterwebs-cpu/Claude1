@@ -1,0 +1,128 @@
+{
+  "fy": 2018,
+  "total_cases": 69425,
+  "by_offense": {
+    "drug": {
+      "cases": 18747,
+      "within": 36.2,
+      "govBelow": 38.2,
+      "otherBelow": 24.0,
+      "above": 1.6,
+      "median": 61
+    },
+    "fraud": {
+      "cases": 6620,
+      "within": 47.0,
+      "govBelow": 23.4,
+      "otherBelow": 27.4,
+      "above": 2.2,
+      "median": 24
+    },
+    "firearm": {
+      "cases": 7512,
+      "within": 55.7,
+      "govBelow": 15.3,
+      "otherBelow": 23.8,
+      "above": 5.2,
+      "median": 46
+    },
+    "immigration": {
+      "cases": 23883,
+      "within": 65.1,
+      "govBelow": 23.0,
+      "otherBelow": 9.9,
+      "above": 2.0,
+      "median": 12
+    },
+    "sexual": {
+      "cases": 2483,
+      "within": 33.5,
+      "govBelow": 24.4,
+      "otherBelow": 39.3,
+      "above": 2.7,
+      "median": 120
+    },
+    "money": {
+      "cases": 1297,
+      "within": 25.1,
+      "govBelow": 46.1,
+      "otherBelow": 27.6,
+      "above": 1.2,
+      "median": 48
+    },
+    "robbery": {
+      "cases": 1720,
+      "within": 38.5,
+      "govBelow": 26.1,
+      "otherBelow": 29.0,
+      "above": 6.4,
+      "median": 92
+    },
+    "other": {
+      "cases": 7163,
+      "within": 55.3,
+      "govBelow": 19.2,
+      "otherBelow": 21.0,
+      "above": 4.5,
+      "median": 21
+    }
+  },
+  "by_level": {
+    "1_8": {
+      "cases": 14877,
+      "median": 6,
+      "pct_within": 92.1,
+      "pct_below": 5.4,
+      "pct_above": 2.5
+    },
+    "9_12": {
+      "cases": 11369,
+      "median": 12,
+      "pct_within": 47.7,
+      "pct_below": 49.1,
+      "pct_above": 3.2
+    },
+    "13_16": {
+      "cases": 9535,
+      "median": 18,
+      "pct_within": 40.1,
+      "pct_below": 57.0,
+      "pct_above": 2.9
+    },
+    "17_20": {
+      "cases": 7267,
+      "median": 30,
+      "pct_within": 41.8,
+      "pct_below": 54.7,
+      "pct_above": 3.4
+    },
+    "21_25": {
+      "cases": 9934,
+      "median": 51,
+      "pct_within": 40.8,
+      "pct_below": 56.3,
+      "pct_above": 3.0
+    },
+    "26_30": {
+      "cases": 7413,
+      "median": 77,
+      "pct_within": 32.3,
+      "pct_below": 65.8,
+      "pct_above": 1.9
+    },
+    "31_36": {
+      "cases": 5818,
+      "median": 120,
+      "pct_within": 28.2,
+      "pct_below": 70.8,
+      "pct_above": 1.0
+    },
+    "37_43": {
+      "cases": 2126,
+      "median": 216,
+      "pct_within": 27.3,
+      "pct_below": 72.2,
+      "pct_above": 0.5
+    }
+  }
+}
