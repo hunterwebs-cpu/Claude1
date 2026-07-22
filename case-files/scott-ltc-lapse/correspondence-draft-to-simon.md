@@ -94,32 +94,102 @@ worse path before we've even established she qualifies for the better one. I wan
 the facts first, then approach John Hancock with a specific, deliberate request — not an
 open-ended "please reinstate us" that they get to interpret however is cheapest for them.
 
-**What I need from you, in two categories:**
+**Since you already have account access and a relationship with the company, you should stay
+the point of contact for now — I don't need to insert myself between you and John Hancock for
+a records request.** Below is exactly what to send them, and separately, a checklist of what
+to gather on the medical/factual side. Send the records request in writing (email through the
+portal or a letter, not just a phone call) so there's a dated, written record of what you
+asked for and when.
 
-*1. From John Hancock directly (they are legally required to provide their complete file on
-request; I can send a formal document request under my letterhead if it's easier than you
-calling):*
-- The original 2000 application/underwriting file, specifically any form where she named a
-  third-party designee, or signed a waiver declining to name one
-- Every "reminder of your right to change your designee" notice sent between 2000 and 2022
-- The actual written notice of lapse/termination sent in early-to-mid 2022, and any proof it
-  was mailed (John Hancock's internal mailing log, if they'll produce it)
-- Any internal claims or customer-service notes from around that period — anything showing
-  what your mother, or anyone else, communicated to them before or around the lapse
-- The worksheet showing exactly how they calculated the $70,845.71 paid-up value
+---
 
-*2. Medical and factual records, focused specifically on the window from roughly late 2021
-through the end of 2022:*
-- Any primary care, neurology, or memory-clinic records from that period, including any
-  cognitive testing (MMSE, MoCA, or similar) or formal diagnosis
-- Prescription history for that window (medications like donepezil or memantine, if
-  applicable, are a strong marker)
-- Any caregiver, home health aide, or facility notes from that time
-- Your own and your brother's recollection, in writing, of specific incidents or observations
-  from that period that reflect her cognitive state — dates matter as much as substance
-- If there was any earlier medical documentation tied to your stepfather's claim that also
-  happens to reference your mother's condition at the time (sometimes joint appointments,
-  family notes, or facility records do), that's worth pulling too
+**What to send John Hancock — you can copy this directly, adjust the bracketed details, and
+send it through the policyholder portal, by email, or by mail:**
+
+> To: Long-Term Care Policyholder Services, John Hancock Life Insurance Company (U.S.A.)
+> Re: Policy Number 9372314 — Pamela Vandeveer Jeanes
+>
+> To Whom It May Concern:
+>
+> I am [Simon Scott], [son] of Pamela Vandeveer Jeanes, the insured under the above-referenced
+> long-term care policy. I now have authorized access to her account [attach or reference any
+> power of attorney, authorized-user, or account-access documentation John Hancock already has
+> on file for you]. I am writing to request a complete copy of the following from the policy
+> file, in writing, as soon as your records department is able to provide it:
+>
+> 1. The complete original application and underwriting file from the policy's issuance in
+>    January 2000, specifically including any form on which a third-party designee was named
+>    to receive lapse/termination notices, or any signed waiver declining to name one.
+> 2. Copies of every notice sent to the insured regarding her right to name or change a
+>    third-party designee, for the full life of the policy (2000 to present).
+> 3. The specific written notice of lapse or termination for nonpayment of premium that was
+>    sent in connection with the 2022 lapse, together with any proof or record of mailing
+>    (e.g., a mailing log or certificate of mailing).
+> 4. Any internal claims notes, customer service notes, or call logs from January 2022 through
+>    December 2022 relating to this policy.
+> 5. The complete calculation worksheet or documentation showing how the current paid-up
+>    Policy Limit of $70,845.71 was calculated, and the effective date on which the policy
+>    converted to paid-up status.
+> 6. A current, complete copy of the policy and all attached riders/endorsements as they
+>    stand today.
+> 7. Confirmation of the policy's current status, current Policy Limit, current daily benefit,
+>    and any benefits paid to date under the policy (if any).
+> 8. Any record of the policy's "Restoration of Coverage" or "Added Protection Against Lapse"
+>    provision having been offered, discussed, or applied for in connection with the 2022
+>    lapse — including whether this option was ever presented to the insured or her family.
+>
+> Please send these records in writing to [Simon's mailing address / email]. If any part of
+> this request requires a specific authorization form on your end, please send that form and
+> I will return it promptly. Thank you for your help.
+>
+> [Simon Scott]
+> [phone / email / mailing address]
+
+A few notes on using this:
+- If your brother also has authorized account access, it may be worth both of you being named
+  on the request, or having him send a parallel one — insurers sometimes respond faster to
+  redundant requests than people expect.
+- If John Hancock asks you to fill out their own records-request or authorization form instead
+  of accepting this letter, that's fine — just make sure the same eight items above end up on
+  whatever form they give you.
+- Keep a copy of whatever you send and note the date. If you don't get a substantive response
+  within 2–3 weeks, let me know — that's a good trigger point for me to get more directly
+  involved.
+- If anything comes back from them, forward it to me as soon as you get it rather than waiting
+  to collect everything first.
+
+---
+
+**Checklist — medical and factual records to gather, to determine whether the memory decline
+was already underway before the 2022 lapse:**
+
+The window that matters most is roughly **June 2021 through December 2022** (the further back
+before that as a baseline, and the closer to today after that, the better — but that middle
+window is the one the whole case turns on). Please gather what you can of the following:
+
+- [ ] Primary care physician records/visit notes for that window, especially any note
+      mentioning memory, confusion, forgetfulness, or cognitive concerns
+- [ ] Any neurology, geriatrician, or memory-clinic evaluation, referral, or diagnosis from
+      that window (e.g., mild cognitive impairment, dementia, Alzheimer's)
+- [ ] Any formal cognitive testing results and dates/scores (MMSE, MoCA, SLUMS, or similar)
+- [ ] Pharmacy/prescription records showing the start date of any cognitive-related
+      medication (e.g., donepezil, memantine, rivastigmine, galantamine)
+- [ ] Any home health aide, private caregiver, or facility notes or logs from that period
+- [ ] A written timeline from you and your brother of specific, dated incidents or
+      observations reflecting her cognitive state during that window — the more specific and
+      dated, the more useful (e.g., "missed her granddaughter's birthday for the first time in
+      March 2022," "found the stove left on twice in the spring of 2022," "repeatedly asked
+      the same question within a single conversation starting around ___")
+- [ ] Bank or financial statements showing whether other bills or payments were also being
+      missed or mishandled around the same time — this helps corroborate a broader pattern of
+      declining financial capacity, not just this one policy
+- [ ] Anything from your stepfather's care records or appointments during that same window
+      that happens to reference your mother's condition (family visits, joint appointments,
+      and facility notes sometimes do)
+- [ ] The exact date the January 2022 premium was due and the date the grace period actually
+      ended — I have this roughly from the billing notices already, but if John Hancock's
+      records (item 3 above) show something more precise, that matters for lining up against
+      the medical timeline
 
 One more thing, unrelated to the urgency above but worth mentioning: I understand your
 stepfather had his own John Hancock policy that paid out for his care. I don't see anything in
@@ -131,14 +201,16 @@ missing.
 **Where this leaves us.** The paid-up $70,845.71 benefit is real and should be formally
 claimed regardless of anything else. The larger question — full reinstatement — depends
 almost entirely on what the medical records from 2022 show, and John Hancock's own file will
-tell us whether they cut corners on notice. Once I have both, I'll know whether the right move
-is a direct written demand, a complaint to the New Jersey Department of Banking and Insurance
-(which costs nothing and can force John Hancock to produce records even before anything is
-filed), or both together. I'd rather build this properly over the next few weeks than make a
-phone call today that forecloses the better option.
+tell us whether they cut corners on notice. Once we have both, I'll know whether the right
+move is a direct written demand, a complaint to the New Jersey Department of Banking and
+Insurance (which costs nothing and can force John Hancock to produce records even before
+anything is filed), or both together. I'd rather build this properly over the next few weeks
+than make a phone call today that forecloses the better option.
 
-Let me know if you have questions, and please don't reach out to John Hancock about
-reinstatement in the meantime — happy to jump on a call if that's easier than email.
+Let me know if you have questions, and please hold off on requesting reinstatement or offering
+to pay back premiums with John Hancock in the meantime — the records request above is fine to
+send whenever you're ready, that part doesn't risk anything. Happy to jump on a call if that's
+easier than email.
 
 Best,
 Hunter
