@@ -1,7 +1,3 @@
-**DRAFT — attorney review before sending. Placeholder signature block at bottom.**
-
----
-
 Subject: Your mother's John Hancock LTC policy — what I found, and what we do next
 
 Simon,
