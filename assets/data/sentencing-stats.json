@@ -1,225 +1,1008 @@
 {
-  "meta": {
-    "source": "U.S. Sentencing Commission, FY2022 Annual Report and Sourcebook of Federal Sentencing Statistics",
-    "url": "https://www.ussc.gov/research/sourcebook/2022",
-    "note": "Figures represent national aggregates across all federal districts and judges. Individual outcomes vary significantly by district, judge, attorney, and case-specific facts. Percentages may not sum to 100 due to rounding.",
-    "placeholder": true
-  },
-
+  "years": [
+    {
+      "fy": 2018,
+      "total_cases": 69425
+    },
+    {
+      "fy": 2019,
+      "total_cases": 76538
+    },
+    {
+      "fy": 2020,
+      "total_cases": 64565
+    },
+    {
+      "fy": 2021,
+      "total_cases": 44676
+    },
+    {
+      "fy": 2022,
+      "total_cases": 48220
+    },
+    {
+      "fy": 2023,
+      "total_cases": 48634
+    },
+    {
+      "fy": 2024,
+      "total_cases": 61678
+    },
+    {
+      "fy": 2025,
+      "total_cases": 66662
+    }
+  ],
   "by_offense": {
     "drug": {
-      "label": "Drug Trafficking",
-      "guideline": "§2D1.1 and related",
-      "n": 23846,
-      "n_display": "~23,900",
-      "median_months": 72,
-      "mean_months": 91,
-      "pct_within": 44,
-      "pct_below_gov": 38,
-      "pct_below_other": 14,
-      "pct_above": 4,
-      "note": "Drug quantity drives offense level and therefore sentence length. Methamphetamine cases average significantly higher (~100+ months). The 38% cooperation rate reflects extensive 5K1.1 use in drug prosecutions. Stipulated quantity in the factual basis is the single most consequential number in a drug plea.",
-      "high_insight": "38% were sentenced below range through government cooperation (5K1.1) — but that requires substantial assistance to the government. Without cooperation, most drug defendants land within or above their guideline range."
+      "2018": {
+        "cases": 18747,
+        "within": 36.2,
+        "govBelow": 38.2,
+        "otherBelow": 24.0,
+        "above": 1.6,
+        "median": 61
+      },
+      "2019": {
+        "cases": 19830,
+        "within": 34.0,
+        "govBelow": 37.9,
+        "otherBelow": 26.4,
+        "above": 1.7,
+        "median": 64
+      },
+      "2020": {
+        "cases": 16390,
+        "within": 32.4,
+        "govBelow": 38.5,
+        "otherBelow": 27.4,
+        "above": 1.7,
+        "median": 66
+      },
+      "2021": {
+        "cases": 13886,
+        "within": 29.1,
+        "govBelow": 33.0,
+        "otherBelow": 36.2,
+        "above": 1.7,
+        "median": 66
+      },
+      "2022": {
+        "cases": 15242,
+        "within": 28.7,
+        "govBelow": 36.2,
+        "otherBelow": 33.5,
+        "above": 1.6,
+        "median": 70
+      },
+      "2023": {
+        "cases": 14373,
+        "within": 26.7,
+        "govBelow": 38.3,
+        "otherBelow": 33.3,
+        "above": 1.7,
+        "median": 72
+      },
+      "2024": {
+        "cases": 18172,
+        "within": 28.5,
+        "govBelow": 43.4,
+        "otherBelow": 26.2,
+        "above": 1.9,
+        "median": 72
+      },
+      "2025": {
+        "cases": 16222,
+        "within": 29.0,
+        "govBelow": 42.7,
+        "otherBelow": 26.4,
+        "above": 1.9,
+        "median": 78
+      }
     },
     "fraud": {
-      "label": "Fraud / Theft / Embezzlement / Tax",
-      "guideline": "§2B1.1 and related",
-      "n": 7284,
-      "n_display": "~7,300",
-      "median_months": 15,
-      "mean_months": 30,
-      "pct_within": 58,
-      "pct_below_gov": 5,
-      "pct_below_other": 35,
-      "pct_above": 2,
-      "note": "Loss-driven enhancements often push guideline levels very high; judges then vary downward in 35–40% of cases. Fraud sentences show the widest variance of any major category. A loss amount of $250K is the threshold where enhancements begin stacking aggressively.",
-      "high_insight": "35% were sentenced below range by the judge's own decision — the highest judicial variance rate of any major category. This means the defense attorney's sentencing memo and the judge's individual philosophy matter more in fraud cases than almost anywhere else."
+      "2018": {
+        "cases": 6620,
+        "within": 47.0,
+        "govBelow": 23.4,
+        "otherBelow": 27.4,
+        "above": 2.2,
+        "median": 24
+      },
+      "2019": {
+        "cases": 6390,
+        "within": 47.7,
+        "govBelow": 23.2,
+        "otherBelow": 27.1,
+        "above": 2.0,
+        "median": 24
+      },
+      "2020": {
+        "cases": 4823,
+        "within": 47.4,
+        "govBelow": 20.9,
+        "otherBelow": 29.1,
+        "above": 2.7,
+        "median": 24
+      },
+      "2021": {
+        "cases": 4174,
+        "within": 40.7,
+        "govBelow": 25.5,
+        "otherBelow": 30.6,
+        "above": 3.1,
+        "median": 24
+      },
+      "2022": {
+        "cases": 4829,
+        "within": 38.2,
+        "govBelow": 26.8,
+        "otherBelow": 31.4,
+        "above": 3.5,
+        "median": 24
+      },
+      "2023": {
+        "cases": 4670,
+        "within": 35.6,
+        "govBelow": 28.9,
+        "otherBelow": 33.4,
+        "above": 2.2,
+        "median": 24
+      },
+      "2024": {
+        "cases": 5312,
+        "within": 43.1,
+        "govBelow": 26.3,
+        "otherBelow": 28.3,
+        "above": 2.3,
+        "median": 24
+      },
+      "2025": {
+        "cases": 5080,
+        "within": 42.4,
+        "govBelow": 26.9,
+        "otherBelow": 28.1,
+        "above": 2.6,
+        "median": 25
+      }
     },
     "firearm": {
-      "label": "Firearms Offenses",
-      "guideline": "§2K2.1 and §924(c)",
-      "n": 7291,
-      "n_display": "~7,300",
-      "median_months": 46,
-      "mean_months": 57,
-      "pct_within": 52,
-      "pct_below_gov": 21,
-      "pct_below_other": 24,
-      "pct_above": 3,
-      "note": "Prior criminal history drives the base offense level, creating large differences between first-time and repeat defendants. ACCA (Armed Career Criminal Act) and career offender enhancements can dramatically increase ranges. Still, 45% of defendants are sentenced below range.",
-      "high_insight": "Prior criminal history matters more here than in almost any other category — the base offense level is determined largely by what's on the prior record. A first-timer and a career offender face completely different starting points."
+      "2018": {
+        "cases": 7512,
+        "within": 55.7,
+        "govBelow": 15.3,
+        "otherBelow": 23.8,
+        "above": 5.2,
+        "median": 46
+      },
+      "2019": {
+        "cases": 8481,
+        "within": 54.5,
+        "govBelow": 15.5,
+        "otherBelow": 25.7,
+        "above": 4.3,
+        "median": 46
+      },
+      "2020": {
+        "cases": 7539,
+        "within": 51.8,
+        "govBelow": 15.7,
+        "otherBelow": 27.6,
+        "above": 4.9,
+        "median": 42
+      },
+      "2021": {
+        "cases": 6456,
+        "within": 50.8,
+        "govBelow": 17.8,
+        "otherBelow": 26.0,
+        "above": 5.3,
+        "median": 44
+      },
+      "2022": {
+        "cases": 6987,
+        "within": 50.4,
+        "govBelow": 18.0,
+        "otherBelow": 26.0,
+        "above": 5.5,
+        "median": 46
+      },
+      "2023": {
+        "cases": 6735,
+        "within": 49.9,
+        "govBelow": 18.7,
+        "otherBelow": 25.7,
+        "above": 5.7,
+        "median": 46
+      },
+      "2024": {
+        "cases": 8131,
+        "within": 50.8,
+        "govBelow": 18.5,
+        "otherBelow": 24.3,
+        "above": 6.5,
+        "median": 46
+      },
+      "2025": {
+        "cases": 8041,
+        "within": 50.0,
+        "govBelow": 17.8,
+        "otherBelow": 25.7,
+        "above": 6.5,
+        "median": 46
+      }
     },
     "immigration": {
-      "label": "Unlawful Reentry / Immigration Offenses",
-      "guideline": "§2L1.2",
-      "n": 12104,
-      "n_display": "~12,100",
-      "median_months": 7,
-      "mean_months": 10,
-      "pct_within": 52,
-      "pct_below_gov": 4,
-      "pct_below_other": 43,
-      "pct_above": 1,
-      "note": "43% below range through Fast Track programs in border districts — this is structural, not case-specific. Fast Track offers up to 4-level reductions for early acceptance of responsibility. Without Fast Track, immigration reentry cases typically resolve close to or within range.",
-      "high_insight": "Ask your attorney whether the district has a Fast Track program. In many southwestern districts it is automatic and worth up to 4 guideline levels — the difference between months and years."
+      "2018": {
+        "cases": 23883,
+        "within": 65.1,
+        "govBelow": 23.0,
+        "otherBelow": 9.9,
+        "above": 2.0,
+        "median": 12
+      },
+      "2019": {
+        "cases": 29354,
+        "within": 65.6,
+        "govBelow": 23.1,
+        "otherBelow": 9.8,
+        "above": 1.5,
+        "median": 12
+      },
+      "2020": {
+        "cases": 26561,
+        "within": 63.6,
+        "govBelow": 24.3,
+        "otherBelow": 11.1,
+        "above": 1.1,
+        "median": 12
+      },
+      "2021": {
+        "cases": 13202,
+        "within": 53.9,
+        "govBelow": 3.9,
+        "otherBelow": 40.8,
+        "above": 1.3,
+        "median": 15
+      },
+      "2022": {
+        "cases": 13297,
+        "within": 53.8,
+        "govBelow": 4.1,
+        "otherBelow": 40.5,
+        "above": 1.7,
+        "median": 15
+      },
+      "2023": {
+        "cases": 14687,
+        "within": 57.3,
+        "govBelow": 3.9,
+        "otherBelow": 35.5,
+        "above": 3.3,
+        "median": 15
+      },
+      "2024": {
+        "cases": 18492,
+        "within": 62.7,
+        "govBelow": 22.6,
+        "otherBelow": 10.2,
+        "above": 4.5,
+        "median": 14
+      },
+      "2025": {
+        "cases": 25119,
+        "within": 69.8,
+        "govBelow": 16.5,
+        "otherBelow": 7.0,
+        "above": 6.6,
+        "median": 13
+      }
     },
     "sexual": {
-      "label": "Sexual Exploitation / Child Pornography",
-      "guideline": "§2G2.2, §2A3.x",
-      "n": 1872,
-      "n_display": "~1,900",
-      "median_months": 97,
-      "mean_months": 101,
-      "pct_within": 37,
-      "pct_below_gov": 4,
-      "pct_below_other": 57,
-      "pct_above": 2,
-      "note": "57% sentenced below the guideline range — the highest below-range rate of any major category. Many judges consider §2G2.2 enhancements to be overstacked and outdated. However, sentences are still among the longest of any offense category. The USSC has acknowledged the guideline may not reflect current sentencing practice.",
-      "high_insight": "Despite ~57% below-range, this category still has the highest median sentences. Below-range does not mean light — it means below an extreme level. The specific judge and their track record on these cases matters enormously."
+      "2018": {
+        "cases": 2483,
+        "within": 33.5,
+        "govBelow": 24.4,
+        "otherBelow": 39.3,
+        "above": 2.7,
+        "median": 120
+      },
+      "2019": {
+        "cases": 2533,
+        "within": 34.4,
+        "govBelow": 25.2,
+        "otherBelow": 37.2,
+        "above": 3.2,
+        "median": 120
+      },
+      "2020": {
+        "cases": 1904,
+        "within": 36.0,
+        "govBelow": 24.8,
+        "otherBelow": 35.4,
+        "above": 3.7,
+        "median": 120
+      },
+      "2021": {
+        "cases": 2144,
+        "within": 38.5,
+        "govBelow": 26.4,
+        "otherBelow": 30.1,
+        "above": 4.9,
+        "median": 120
+      },
+      "2022": {
+        "cases": 2521,
+        "within": 38.8,
+        "govBelow": 26.5,
+        "otherBelow": 30.1,
+        "above": 4.7,
+        "median": 120
+      },
+      "2023": {
+        "cases": 2428,
+        "within": 38.3,
+        "govBelow": 24.7,
+        "otherBelow": 31.8,
+        "above": 5.1,
+        "median": 120
+      },
+      "2024": {
+        "cases": 2805,
+        "within": 39.9,
+        "govBelow": 25.9,
+        "otherBelow": 29.6,
+        "above": 4.6,
+        "median": 128
+      },
+      "2025": {
+        "cases": 2841,
+        "within": 40.4,
+        "govBelow": 25.7,
+        "otherBelow": 29.6,
+        "above": 4.2,
+        "median": 135
+      }
     },
     "money": {
-      "label": "Money Laundering",
-      "guideline": "§2S1.1",
-      "n": 1198,
-      "n_display": "~1,200",
-      "median_months": 24,
-      "mean_months": 48,
-      "pct_within": 51,
-      "pct_below_gov": 25,
-      "pct_below_other": 22,
-      "pct_above": 2,
-      "note": "Money laundering is often charged alongside drug or fraud offenses. When §2S1.1(a)(1) applies — using the underlying offense level — the sentence tracks the drug or fraud guidelines closely. When charged standalone with large amounts, it can produce high offense levels. Cooperation departures are common.",
-      "high_insight": "If charged alongside another offense, the guidelines will likely be driven by that offense's level. Ask your attorney which §2S1.1 prong applies and why."
+      "2018": {
+        "cases": 1297,
+        "within": 25.1,
+        "govBelow": 46.1,
+        "otherBelow": 27.6,
+        "above": 1.2,
+        "median": 48
+      },
+      "2019": {
+        "cases": 1177,
+        "within": 24.6,
+        "govBelow": 41.7,
+        "otherBelow": 32.5,
+        "above": 1.2,
+        "median": 48
+      },
+      "2020": {
+        "cases": 880,
+        "within": 23.1,
+        "govBelow": 46.9,
+        "otherBelow": 27.6,
+        "above": 2.4,
+        "median": 53
+      },
+      "2021": {
+        "cases": 803,
+        "within": 22.9,
+        "govBelow": 40.1,
+        "otherBelow": 34.6,
+        "above": 2.4,
+        "median": 46
+      },
+      "2022": {
+        "cases": 906,
+        "within": 26.6,
+        "govBelow": 41.9,
+        "otherBelow": 29.1,
+        "above": 2.4,
+        "median": 54
+      },
+      "2023": {
+        "cases": 1012,
+        "within": 23.8,
+        "govBelow": 42.8,
+        "otherBelow": 31.8,
+        "above": 1.6,
+        "median": 51
+      },
+      "2024": {
+        "cases": 1289,
+        "within": 23.9,
+        "govBelow": 46.5,
+        "otherBelow": 27.6,
+        "above": 1.9,
+        "median": 48
+      },
+      "2025": {
+        "cases": 1368,
+        "within": 27.8,
+        "govBelow": 41.4,
+        "otherBelow": 28.7,
+        "above": 2.1,
+        "median": 48
+      }
     },
     "robbery": {
-      "label": "Robbery / Bank Robbery / Extortion",
-      "guideline": "§2B3.1",
-      "n": 1847,
-      "n_display": "~1,850",
-      "median_months": 67,
-      "mean_months": 80,
-      "pct_within": 72,
-      "pct_below_gov": 11,
-      "pct_below_other": 14,
-      "pct_above": 3,
-      "note": "Robbery guidelines produce relatively low variance — 72% sentenced within range, among the highest compliance rates. Firearm use enhancements (+5) and financial institution enhancement (+2) are nearly automatic for bank robbery cases.",
-      "high_insight": "72% within range — judges have less flexibility here than in fraud or drug cases. If there's a firearm involved, that is almost certain to add 5 levels on top of the base offense level."
+      "2018": {
+        "cases": 1720,
+        "within": 38.5,
+        "govBelow": 26.1,
+        "otherBelow": 29.0,
+        "above": 6.4,
+        "median": 92
+      },
+      "2019": {
+        "cases": 1825,
+        "within": 39.0,
+        "govBelow": 26.1,
+        "otherBelow": 27.9,
+        "above": 7.0,
+        "median": 96
+      },
+      "2020": {
+        "cases": 1316,
+        "within": 42.1,
+        "govBelow": 25.9,
+        "otherBelow": 26.9,
+        "above": 5.0,
+        "median": 90
+      },
+      "2021": {
+        "cases": 990,
+        "within": 39.4,
+        "govBelow": 28.4,
+        "otherBelow": 28.1,
+        "above": 4.1,
+        "median": 94
+      },
+      "2022": {
+        "cases": 1080,
+        "within": 36.9,
+        "govBelow": 29.5,
+        "otherBelow": 27.4,
+        "above": 6.2,
+        "median": 100
+      },
+      "2023": {
+        "cases": 1148,
+        "within": 39.5,
+        "govBelow": 27.6,
+        "otherBelow": 26.8,
+        "above": 6.1,
+        "median": 100
+      },
+      "2024": {
+        "cases": 1323,
+        "within": 40.0,
+        "govBelow": 25.5,
+        "otherBelow": 27.6,
+        "above": 6.8,
+        "median": 96
+      },
+      "2025": {
+        "cases": 1249,
+        "within": 40.5,
+        "govBelow": 26.4,
+        "otherBelow": 27.2,
+        "above": 5.8,
+        "median": 96
+      }
     },
     "other": {
-      "label": "Other / All Federal Offenses (National Average)",
-      "guideline": "All guidelines",
-      "n": 64162,
-      "n_display": "~64,200 total",
-      "median_months": 21,
-      "mean_months": 48,
-      "pct_within": 47,
-      "pct_below_gov": 17,
-      "pct_below_other": 31,
-      "pct_above": 5,
-      "note": "National aggregate across all offense types. Individual offense categories vary significantly from these averages. This figure is only useful as a general baseline — look at the specific offense type for a meaningful comparison.",
-      "high_insight": "The national average shows that roughly half of federal defendants are sentenced below their guideline range. But the reasons (cooperation, judicial variance, mandatory minimums) vary enormously by offense type."
+      "2018": {
+        "cases": 7163,
+        "within": 55.3,
+        "govBelow": 19.2,
+        "otherBelow": 21.0,
+        "above": 4.5,
+        "median": 21
+      },
+      "2019": {
+        "cases": 6948,
+        "within": 54.8,
+        "govBelow": 18.7,
+        "otherBelow": 21.9,
+        "above": 4.6,
+        "median": 24
+      },
+      "2020": {
+        "cases": 5152,
+        "within": 52.7,
+        "govBelow": 19.5,
+        "otherBelow": 23.5,
+        "above": 4.3,
+        "median": 24
+      },
+      "2021": {
+        "cases": 3021,
+        "within": 57.2,
+        "govBelow": 19.4,
+        "otherBelow": 18.4,
+        "above": 5.0,
+        "median": 30
+      },
+      "2022": {
+        "cases": 3358,
+        "within": 52.7,
+        "govBelow": 22.4,
+        "otherBelow": 18.9,
+        "above": 6.0,
+        "median": 39
+      },
+      "2023": {
+        "cases": 3581,
+        "within": 50.8,
+        "govBelow": 21.8,
+        "otherBelow": 18.4,
+        "above": 9.0,
+        "median": 37
+      },
+      "2024": {
+        "cases": 6154,
+        "within": 50.0,
+        "govBelow": 21.7,
+        "otherBelow": 22.2,
+        "above": 6.1,
+        "median": 30
+      },
+      "2025": {
+        "cases": 6742,
+        "within": 57.7,
+        "govBelow": 18.5,
+        "otherBelow": 18.9,
+        "above": 4.8,
+        "median": 30
+      }
     }
   },
-
   "by_level": {
     "1_8": {
-      "label": "Offense Levels 1–8",
-      "zone": "Zone A / Zone B",
-      "zone_note": "Probation is often available. Short sentences, fines, and community supervision are common outcomes.",
-      "n_approx": 3800,
-      "median_months": 3,
-      "pct_within": 51,
-      "pct_below": 43,
-      "pct_above": 6,
-      "note": "At these levels, probation and non-incarceration sentences are frequently imposed. Many defendants in this range avoid prison entirely. Judges have maximum discretion."
+      "2018": {
+        "cases": 14877,
+        "median": 6,
+        "pct_within": 92.1,
+        "pct_below": 5.4,
+        "pct_above": 2.5
+      },
+      "2019": {
+        "cases": 18467,
+        "median": 6,
+        "pct_within": 92.2,
+        "pct_below": 5.9,
+        "pct_above": 2.0
+      },
+      "2020": {
+        "cases": 16668,
+        "median": 6,
+        "pct_within": 91.5,
+        "pct_below": 6.8,
+        "pct_above": 1.8
+      },
+      "2021": {
+        "median": 6,
+        "pct_within": 88.9,
+        "pct_below": 8.0,
+        "pct_above": 3.1
+      },
+      "2022": {
+        "median": 8,
+        "pct_within": 89.4,
+        "pct_below": 6.3,
+        "pct_above": 4.3
+      },
+      "2023": {
+        "median": 8,
+        "pct_within": 87.2,
+        "pct_below": 5.9,
+        "pct_above": 7.0
+      },
+      "2024": {
+        "cases": 9633,
+        "median": 8,
+        "pct_within": 90.0,
+        "pct_below": 4.1,
+        "pct_above": 5.9
+      },
+      "2025": {
+        "cases": 16722,
+        "median": 7,
+        "pct_within": 91.5,
+        "pct_below": 2.6,
+        "pct_above": 5.8
+      }
     },
     "9_12": {
-      "label": "Offense Levels 9–12",
-      "zone": "Zone B / Zone C",
-      "zone_note": "Split sentences (prison + community supervision) become common. Short prison terms.",
-      "n_approx": 4200,
-      "median_months": 10,
-      "pct_within": 50,
-      "pct_below": 42,
-      "pct_above": 8,
-      "note": "Sentences in this range often allow halfway house time and home confinement as substitutes for full incarceration. Many judges still vary significantly below the recommended range."
+      "2018": {
+        "cases": 11369,
+        "median": 12,
+        "pct_within": 47.7,
+        "pct_below": 49.1,
+        "pct_above": 3.2
+      },
+      "2019": {
+        "cases": 12693,
+        "median": 12,
+        "pct_within": 45.1,
+        "pct_below": 52.1,
+        "pct_above": 2.7
+      },
+      "2020": {
+        "cases": 11430,
+        "median": 12,
+        "pct_within": 39.8,
+        "pct_below": 57.7,
+        "pct_above": 2.5
+      },
+      "2021": {
+        "median": 12,
+        "pct_within": 44.9,
+        "pct_below": 52.0,
+        "pct_above": 3.1
+      },
+      "2022": {
+        "median": 12,
+        "pct_within": 44.5,
+        "pct_below": 52.4,
+        "pct_above": 3.1
+      },
+      "2023": {
+        "median": 12,
+        "pct_within": 45.4,
+        "pct_below": 50.8,
+        "pct_above": 3.9
+      },
+      "2024": {
+        "cases": 8731,
+        "median": 12,
+        "pct_within": 48.5,
+        "pct_below": 46.9,
+        "pct_above": 4.5
+      },
+      "2025": {
+        "cases": 9048,
+        "median": 12,
+        "pct_within": 46.9,
+        "pct_below": 46.4,
+        "pct_above": 6.8
+      }
     },
     "13_16": {
-      "label": "Offense Levels 13–16",
-      "zone": "Zone D (imprisonment required)",
-      "zone_note": "Prison terms of 12–37 months. Probation is no longer available.",
-      "n_approx": 6800,
-      "median_months": 18,
-      "pct_within": 52,
-      "pct_below": 40,
-      "pct_above": 8,
-      "note": "The mandatory prison zone starts here. Cooperation and guideline variances are the primary paths below range. These sentence lengths translate to early prerelease custody eligibility."
+      "2018": {
+        "cases": 9535,
+        "median": 18,
+        "pct_within": 40.1,
+        "pct_below": 57.0,
+        "pct_above": 2.9
+      },
+      "2019": {
+        "cases": 10149,
+        "median": 18,
+        "pct_within": 38.3,
+        "pct_below": 59.0,
+        "pct_above": 2.7
+      },
+      "2020": {
+        "cases": 8310,
+        "median": 18,
+        "pct_within": 34.9,
+        "pct_below": 62.7,
+        "pct_above": 2.4
+      },
+      "2021": {
+        "median": 18,
+        "pct_within": 38.5,
+        "pct_below": 58.5,
+        "pct_above": 3.0
+      },
+      "2022": {
+        "median": 18,
+        "pct_within": 35.7,
+        "pct_below": 61.2,
+        "pct_above": 3.1
+      },
+      "2023": {
+        "median": 18,
+        "pct_within": 38.4,
+        "pct_below": 58.1,
+        "pct_above": 3.6
+      },
+      "2024": {
+        "cases": 8281,
+        "median": 18,
+        "pct_within": 39.3,
+        "pct_below": 56.4,
+        "pct_above": 4.4
+      },
+      "2025": {
+        "cases": 7805,
+        "median": 18,
+        "pct_within": 40.6,
+        "pct_below": 53.8,
+        "pct_above": 5.6
+      }
     },
     "17_20": {
-      "label": "Offense Levels 17–20",
-      "zone": "Zone D — Moderate sentences",
-      "zone_note": "Prison terms of 24–63 months. First-time offenders begin to feel the full weight of the guidelines.",
-      "n_approx": 9400,
-      "median_months": 34,
-      "pct_within": 55,
-      "pct_below": 36,
-      "pct_above": 9,
-      "note": "These levels represent a significant amount of actual prison time. At 24–63 months, defendants serve 20–53 months accounting for good time credits. FSA credits can make a material difference here."
+      "2018": {
+        "cases": 7267,
+        "median": 30,
+        "pct_within": 41.8,
+        "pct_below": 54.7,
+        "pct_above": 3.4
+      },
+      "2019": {
+        "cases": 7628,
+        "median": 30,
+        "pct_within": 41.5,
+        "pct_below": 55.2,
+        "pct_above": 3.3
+      },
+      "2020": {
+        "cases": 6197,
+        "median": 32,
+        "pct_within": 38.7,
+        "pct_below": 57.8,
+        "pct_above": 3.5
+      },
+      "2021": {
+        "median": 33,
+        "pct_within": 39.2,
+        "pct_below": 57.6,
+        "pct_above": 3.2
+      },
+      "2022": {
+        "median": 33,
+        "pct_within": 38.3,
+        "pct_below": 57.6,
+        "pct_above": 4.0
+      },
+      "2023": {
+        "median": 33,
+        "pct_within": 39.4,
+        "pct_below": 56.9,
+        "pct_above": 3.8
+      },
+      "2024": {
+        "cases": 7265,
+        "median": 30,
+        "pct_within": 40.9,
+        "pct_below": 54.8,
+        "pct_above": 4.3
+      },
+      "2025": {
+        "cases": 6706,
+        "median": 30,
+        "pct_within": 39.9,
+        "pct_below": 54.8,
+        "pct_above": 5.3
+      }
     },
     "21_25": {
-      "label": "Offense Levels 21–25",
-      "zone": "Zone D — Substantial sentences",
-      "zone_note": "Prison terms of 41–100 months. Represents 3.5–8.5 years of recommended custody.",
-      "n_approx": 10100,
-      "median_months": 63,
-      "pct_within": 58,
-      "pct_below": 33,
-      "pct_above": 9,
-      "note": "This range covers many mid-level drug, fraud, and firearm cases. Cooperation motions have large impact — a 5K1.1 departure can still bring a 25-level defendant down to single-digit prison years."
+      "2018": {
+        "cases": 9934,
+        "median": 51,
+        "pct_within": 40.8,
+        "pct_below": 56.3,
+        "pct_above": 3.0
+      },
+      "2019": {
+        "cases": 10173,
+        "median": 51,
+        "pct_within": 39.6,
+        "pct_below": 57.6,
+        "pct_above": 2.9
+      },
+      "2020": {
+        "cases": 8191,
+        "median": 54,
+        "pct_within": 39.0,
+        "pct_below": 58.5,
+        "pct_above": 2.6
+      },
+      "2021": {
+        "median": 51,
+        "pct_within": 35.2,
+        "pct_below": 61.7,
+        "pct_above": 3.2
+      },
+      "2022": {
+        "median": 51,
+        "pct_within": 36.0,
+        "pct_below": 60.8,
+        "pct_above": 3.2
+      },
+      "2023": {
+        "median": 51,
+        "pct_within": 35.8,
+        "pct_below": 60.6,
+        "pct_above": 3.6
+      },
+      "2024": {
+        "cases": 10398,
+        "median": 48,
+        "pct_within": 35.3,
+        "pct_below": 60.9,
+        "pct_above": 3.9
+      },
+      "2025": {
+        "cases": 9675,
+        "median": 50,
+        "pct_within": 37.0,
+        "pct_below": 59.0,
+        "pct_above": 4.1
+      }
     },
     "26_30": {
-      "label": "Offense Levels 26–30",
-      "zone": "Zone D — Serious sentences",
-      "zone_note": "Prison terms of 63–168 months. 5–14 years recommended.",
-      "n_approx": 10600,
-      "median_months": 96,
-      "pct_within": 61,
-      "pct_below": 30,
-      "pct_above": 9,
-      "note": "The cooperation leverage is highest here — a below-range departure represents years off a sentence. Many major drug trafficking, large fraud, and robbery cases land in this range."
+      "2018": {
+        "cases": 7413,
+        "median": 77,
+        "pct_within": 32.3,
+        "pct_below": 65.8,
+        "pct_above": 1.9
+      },
+      "2019": {
+        "cases": 7843,
+        "median": 76,
+        "pct_within": 31.0,
+        "pct_below": 67.3,
+        "pct_above": 1.7
+      },
+      "2020": {
+        "cases": 6320,
+        "median": 72,
+        "pct_within": 31.0,
+        "pct_below": 66.9,
+        "pct_above": 2.1
+      },
+      "2021": {
+        "median": 72,
+        "pct_within": 26.9,
+        "pct_below": 71.3,
+        "pct_above": 1.8
+      },
+      "2022": {
+        "median": 72,
+        "pct_within": 29.4,
+        "pct_below": 68.6,
+        "pct_above": 2.0
+      },
+      "2023": {
+        "median": 72,
+        "pct_within": 28.3,
+        "pct_below": 69.9,
+        "pct_above": 1.8
+      },
+      "2024": {
+        "cases": 7305,
+        "median": 80,
+        "pct_within": 33.5,
+        "pct_below": 63.8,
+        "pct_above": 2.7
+      },
+      "2025": {
+        "cases": 6559,
+        "median": 84,
+        "pct_within": 35.3,
+        "pct_below": 62.0,
+        "pct_above": 2.7
+      }
     },
     "31_36": {
-      "label": "Offense Levels 31–36",
-      "zone": "Zone D — Very serious sentences",
-      "zone_note": "Prison terms of 108–292 months. 9–24 years recommended.",
-      "n_approx": 9100,
-      "median_months": 144,
-      "pct_within": 64,
-      "pct_below": 27,
-      "pct_above": 9,
-      "note": "Many cases at these levels involve mandatory minimum floors that limit judicial discretion. Large drug quantities, leadership roles in trafficking, and organized crime cases are common here."
+      "2018": {
+        "cases": 5818,
+        "median": 120,
+        "pct_within": 28.2,
+        "pct_below": 70.8,
+        "pct_above": 1.0
+      },
+      "2019": {
+        "cases": 6079,
+        "median": 120,
+        "pct_within": 27.1,
+        "pct_below": 71.6,
+        "pct_above": 1.3
+      },
+      "2020": {
+        "cases": 4800,
+        "median": 120,
+        "pct_within": 25.5,
+        "pct_below": 73.4,
+        "pct_above": 1.1
+      },
+      "2021": {
+        "median": 120,
+        "pct_within": 24.6,
+        "pct_below": 74.2,
+        "pct_above": 1.2
+      },
+      "2022": {
+        "median": 120,
+        "pct_within": 24.9,
+        "pct_below": 74.2,
+        "pct_above": 1.0
+      },
+      "2023": {
+        "median": 120,
+        "pct_within": 22.7,
+        "pct_below": 75.4,
+        "pct_above": 1.8
+      },
+      "2024": {
+        "cases": 6311,
+        "median": 120,
+        "pct_within": 26.2,
+        "pct_below": 72.0,
+        "pct_above": 1.8
+      },
+      "2025": {
+        "cases": 6105,
+        "median": 121,
+        "pct_within": 26.8,
+        "pct_below": 71.4,
+        "pct_above": 1.9
+      }
     },
     "37_43": {
-      "label": "Offense Levels 37–43",
-      "zone": "Zone D — Highest sentences",
-      "zone_note": "Prison terms of 210 months to Life. 17.5 years to Life recommended.",
-      "n_approx": 5700,
-      "median_months": 240,
-      "pct_within": 67,
-      "pct_below": 25,
-      "pct_above": 8,
-      "note": "Mandatory minimums are nearly universal at these levels. Many involve life-eligible offenses. Even with cooperation, sentences at these levels often exceed 10–15 years. The % below range is the national average — actual outcomes depend heavily on mandatory minimum applicability."
+      "2018": {
+        "cases": 2126,
+        "median": 216,
+        "pct_within": 27.3,
+        "pct_below": 72.2,
+        "pct_above": 0.5
+      },
+      "2019": {
+        "cases": 2344,
+        "median": 235,
+        "pct_within": 26.7,
+        "pct_below": 72.8,
+        "pct_above": 0.4
+      },
+      "2020": {
+        "cases": 1858,
+        "median": 216,
+        "pct_within": 26.5,
+        "pct_below": 72.7,
+        "pct_above": 0.8
+      },
+      "2021": {
+        "median": 216,
+        "pct_within": 24.7,
+        "pct_below": 74.8,
+        "pct_above": 0.5
+      },
+      "2022": {
+        "median": 222,
+        "pct_within": 25.5,
+        "pct_below": 73.6,
+        "pct_above": 0.8
+      },
+      "2023": {
+        "median": 240,
+        "pct_within": 27.5,
+        "pct_below": 71.5,
+        "pct_above": 1.1
+      },
+      "2024": {
+        "cases": 3004,
+        "median": 235,
+        "pct_within": 26.7,
+        "pct_below": 72.1,
+        "pct_above": 1.2
+      },
+      "2025": {
+        "cases": 3060,
+        "median": 235,
+        "pct_within": 25.0,
+        "pct_below": 74.1,
+        "pct_above": 0.9
+      }
     }
-  },
-
-  "fsa_ineligible_offenses": [
-    { "code": "sex_offenses", "label": "Any sex offense requiring SORNA registration", "examples": "Child pornography (§2251, §2252, §2252A), sexual abuse (§2241-§2244), sex trafficking (§1591), transportation for illegal sexual activity (§2421-§2428)" },
-    { "code": "terrorism", "label": "Federal terrorism offenses", "examples": "18 U.S.C. §2332b(g)(5)(B), use of WMD (§2332a), sabotage of nuclear facilities (§2284)" },
-    { "code": "murder", "label": "Murder, homicide, murder-for-hire", "examples": "First and second degree murder (§1111), voluntary manslaughter (§1112), homicide of federal officer (§1114), murder-for-hire (§1958)" },
-    { "code": "kidnapping", "label": "Kidnapping", "examples": "Federal kidnapping (§1201, §1202)" },
-    { "code": "robbery", "label": "Bank robbery and federal robbery", "examples": "Bank robbery (§2113), robbery within federal jurisdiction (§2111), carjacking (§2119)" },
-    { "code": "trafficking", "label": "Human trafficking", "examples": "Trafficking in persons (§1590), sex trafficking of children by force, fraud, or coercion (§1591)" },
-    { "code": "assault", "label": "Serious assault and maiming", "examples": "Assault with intent to commit murder (§113(a)(1)), maiming (§114), domestic assault habitual offender (§117)" },
-    { "code": "arson_explosives", "label": "Arson and explosives offenses", "examples": "Arson of federal property (§844(f)), explosives training for terrorism (§842(p)(2)), arson of property in commerce (§844(i))" }
-  ]
+  }
 }

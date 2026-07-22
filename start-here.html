@@ -1368,6 +1368,19 @@
               </select>
             </div>
             <div class="cr-stats-field">
+              <label class="cr-gl-label" for="stats-fy">Fiscal year</label>
+              <select id="stats-fy" class="cr-gl-input cr-gl-input--short">
+                <option value="2025">FY2025</option>
+                <option value="2024">FY2024</option>
+                <option value="2023">FY2023</option>
+                <option value="2022" selected>FY2022</option>
+                <option value="2021">FY2021</option>
+                <option value="2020">FY2020</option>
+                <option value="2019">FY2019</option>
+                <option value="2018">FY2018</option>
+              </select>
+            </div>
+            <div class="cr-stats-field">
               <label class="cr-gl-label" for="stats-offense-level">Adjusted offense level (optional)</label>
               <input type="number" id="stats-offense-level" class="cr-gl-input cr-gl-input--short" min="1" max="43" placeholder="e.g. 22" />
             </div>
@@ -1382,7 +1395,7 @@
           <!-- Level bucket stats populated by JS -->
         </div>
 
-        <p class="cr-gl-disclaimer">Source: U.S. Sentencing Commission, FY2022 Annual Report and Sourcebook — ussc.gov. Data is national aggregate. Level-bucket statistics are approximated from published USSC tables. Individual district and judge variance not reflected.</p>
+        <p class="cr-gl-disclaimer" id="stats-disclaimer">Source: U.S. Sentencing Commission individual-level NID dataset, FY2022 — ussc.gov. Data is national aggregate from <span id="stats-fy-case-count"></span> sentenced defendants. Individual district and judge variance not reflected.</p>
       </div>
     </div>
 
@@ -2469,27 +2482,94 @@
   var glCopyBtn=document.getElementById('gl-copy-to-plea');
   if(glCopyBtn)glCopyBtn.addEventListener('click',function(){document.querySelector('.cr-dispatch-btn[data-target="plea"]').click();});
 
-  /* ---- Sentencing Statistics data (USSC FY2022) ----------------------------- */
-  var USSC = {
-    drug:       {label:'Drug Trafficking',cases:'~23,900',within:44,govBelow:38,otherBelow:14,above:4,median:72,note:'38% sentenced below range through cooperation (5K1.1). Drug quantity drives offense level — the stipulated quantity in the factual basis matters enormously.'},
-    fraud:      {label:'Fraud / Theft / Embezzlement / Tax',cases:'~7,300',within:58,govBelow:5,otherBelow:35,above:2,median:15,note:'Loss-driven enhancements push levels very high; judges vary downward in 35% of cases on their own authority. Fraud sentencing shows the highest judicial variance of any major category.'},
-    firearm:    {label:'Firearms Offenses',cases:'~7,300',within:52,govBelow:21,otherBelow:24,above:3,median:46,note:'Prior criminal history drives the base offense level — a first-timer and career offender face very different starting points. Still, 45% receive below-range sentences.'},
-    immigration:{label:'Unlawful Reentry / Immigration',cases:'~12,100',within:52,govBelow:4,otherBelow:43,above:1,median:7,note:'43% below range through Fast Track programs in border districts — this is structural, not case-specific. Without Fast Track availability, immigration cases resolve closer to range.'},
-    sexual:     {label:'Sexual Exploitation / Child Pornography',cases:'~1,900',within:37,govBelow:4,otherBelow:57,above:2,median:97,note:'57% sentenced below range — highest below-range rate of any category, because many judges view §2G2.2 enhancements as overstacked. Despite this, median sentences are among the highest nationally.'},
-    money:      {label:'Money Laundering',cases:'~1,200',within:51,govBelow:25,otherBelow:22,above:2,median:24,note:'Often paired with drug or fraud charges — sentence tracks the underlying offense. Cooperation departures are common here.'},
-    robbery:    {label:'Robbery / Bank Robbery',cases:'~1,850',within:72,govBelow:11,otherBelow:14,above:3,median:67,note:'Highest within-range compliance rate of any major category. Firearm use enhancement (+5) and financial institution adjustment (+2) are nearly automatic for bank robbery.'},
-    other:      {label:'All Federal Offenses (national average)',cases:'~64,200 total',within:47,govBelow:17,otherBelow:31,above:5,median:21,note:'Roughly half of all federal defendants receive a below-range sentence. But reasons — cooperation, district practices, judicial variance — differ sharply by offense type.'}
+  /* ---- Sentencing Statistics — live multi-year data from USSC NID files ---- */
+  var STATS_DATA = null; // loaded from sentencing-stats.json
+  var STATS_FY = '2022';
+
+  var USSC_LABELS = {
+    drug:       {label:'Drug Trafficking',note:'Drug quantity drives offense level — the stipulated quantity in the factual basis matters enormously. Below-range sentences largely reflect cooperation (§5K1.1) and Fast Track programs.'},
+    fraud:      {label:'Fraud / Theft / Embezzlement / Tax',note:'Loss-driven enhancements push levels very high; judges vary downward frequently on their own authority. Fraud sentencing shows significant judicial variance.'},
+    firearm:    {label:'Firearms Offenses',note:'Prior criminal history drives the base offense level — a first-timer and career offender face very different starting points.'},
+    immigration:{label:'Unlawful Reentry / Immigration',note:'Many below-range sentences reflect Fast Track programs in border districts — this is structural, not case-specific. Without Fast Track, immigration cases resolve closer to range.'},
+    sexual:     {label:'Sexual Exploitation / Child Pornography',note:'Many judges view §2G2.2 enhancements as overstacked and vary downward frequently. Despite this, median sentences are among the highest nationally.'},
+    money:      {label:'Money Laundering',note:'Often paired with drug or fraud charges — the sentence tracks the underlying offense. Cooperation departures are common.'},
+    robbery:    {label:'Robbery / Bank Robbery',note:'Firearm use enhancement (+5) and financial institution adjustment (+2) are nearly automatic for bank robbery. Robbery historically has the highest within-range rate of any major category.'},
+    other:      {label:'All Federal Offenses (national average)',note:'Roughly half of all federal defendants receive a below-range sentence. But reasons — cooperation, district practices, judicial variance — differ sharply by offense type.'}
   };
-  var USSC_LEVELS = {
-    '1_8':  {label:'Levels 1–8',zone:'Zone A / B',median:3,pct_within:51,pct_below:43,pct_above:6,note:'Probation is often available at these levels. Many defendants avoid prison entirely.'},
-    '9_12': {label:'Levels 9–12',zone:'Zone B / C',median:10,pct_within:50,pct_below:42,pct_above:8,note:'Split sentences and short prison terms. Halfway house substitutes are common.'},
-    '13_16':{label:'Levels 13–16',zone:'Zone D — prison required',median:18,pct_within:52,pct_below:40,pct_above:8,note:'The mandatory prison zone begins here. Cooperation and judicial variance are the primary paths below range.'},
-    '17_20':{label:'Levels 17–20',zone:'Zone D — moderate',median:34,pct_within:55,pct_below:36,pct_above:9,note:'These levels represent 2–5 years of custody. FSA credits can make a real difference at this range.'},
-    '21_25':{label:'Levels 21–25',zone:'Zone D — substantial',median:63,pct_within:58,pct_below:33,pct_above:9,note:'Many mid-level drug, fraud, and firearms cases land here. Cooperation motions can still produce dramatic reductions.'},
-    '26_30':{label:'Levels 26–30',zone:'Zone D — serious',median:96,pct_within:61,pct_below:30,pct_above:9,note:'The cooperation leverage is highest here — a departure represents years. Major drug trafficking, large fraud, and robbery cases.'},
-    '31_36':{label:'Levels 31–36',zone:'Zone D — very serious',median:144,pct_within:64,pct_below:27,pct_above:9,note:'Many cases at these levels involve mandatory minimum floors that limit judicial discretion.'},
-    '37_43':{label:'Levels 37–43',zone:'Zone D — highest',median:240,pct_within:67,pct_below:25,pct_above:8,note:'Mandatory minimums are nearly universal. Even with cooperation, sentences often exceed 10–15 years.'}
+  var USSC_LEVEL_LABELS = {
+    '1_8':  {label:'Levels 1–8',zone:'Zone A / B',note:'Probation is often available at these levels. Many defendants avoid prison entirely.'},
+    '9_12': {label:'Levels 9–12',zone:'Zone B / C',note:'Split sentences and short prison terms. Halfway house substitutes are common.'},
+    '13_16':{label:'Levels 13–16',zone:'Zone D — prison required',note:'The mandatory prison zone begins here. Cooperation and judicial variance are the primary paths below range.'},
+    '17_20':{label:'Levels 17–20',zone:'Zone D — moderate',note:'These levels represent 2–5 years of custody. FSA credits can make a real difference at this range.'},
+    '21_25':{label:'Levels 21–25',zone:'Zone D — substantial',note:'Many mid-level drug, fraud, and firearms cases land here. Cooperation motions can still produce dramatic reductions.'},
+    '26_30':{label:'Levels 26–30',zone:'Zone D — serious',note:'The cooperation leverage is highest here — a departure represents years. Major drug trafficking, large fraud, and robbery cases.'},
+    '31_36':{label:'Levels 31–36',zone:'Zone D — very serious',note:'Many cases at these levels involve mandatory minimum floors that limit judicial discretion.'},
+    '37_43':{label:'Levels 37–43',zone:'Zone D — highest',note:'Mandatory minimums are nearly universal. Even with cooperation, sentences often exceed 10–15 years.'}
   };
+
+  function getStatsForFY(fy) {
+    if (!STATS_DATA) return null;
+    var fyStr = String(fy || STATS_FY);
+    var result = { by_offense: {}, by_level: {} };
+    Object.keys(STATS_DATA.by_offense || {}).forEach(function(k) {
+      var d = (STATS_DATA.by_offense[k] || {})[fyStr] || {};
+      var lbl = USSC_LABELS[k] || {};
+      var totalCases = 0;
+      STATS_DATA.years.forEach(function(y){ if(String(y.fy)===fyStr) totalCases = y.total_cases; });
+      result.by_offense[k] = Object.assign({}, d, {
+        label: lbl.label || k,
+        note: lbl.note || '',
+        cases: d.cases ? d.cases.toLocaleString() : '—'
+      });
+    });
+    Object.keys(STATS_DATA.by_level || {}).forEach(function(k) {
+      var d = (STATS_DATA.by_level[k] || {})[fyStr] || {};
+      var lbl = USSC_LEVEL_LABELS[k] || {};
+      result.by_level[k] = Object.assign({}, d, {
+        label: lbl.label || k,
+        zone: lbl.zone || '',
+        note: lbl.note || ''
+      });
+    });
+    return result;
+  }
+
+  // Backwards-compat shims used by existing render functions
+  function getUSCC(key) {
+    var s = getStatsForFY(STATS_FY);
+    return s ? s.by_offense[key] : null;
+  }
+  function getUSCCLevel(key) {
+    var s = getStatsForFY(STATS_FY);
+    return s ? s.by_level[key] : null;
+  }
+
+  fetch('assets/data/sentencing-stats.json')
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      STATS_DATA = data;
+      updateStatsDisclaimer();
+      // Re-render stats if screen is visible
+      var offEl = document.getElementById('stats-offense-type');
+      if (offEl && offEl.value) {
+        var p = document.getElementById('stats-offense-panel');
+        if (p && !p.hidden) renderStatsPanel(offEl.value, p);
+      }
+      updateStatsLevelPanel();
+    })
+    .catch(function(){ /* graceful — hardcoded labels still show */ });
+
+  function updateStatsDisclaimer() {
+    var fyStr = STATS_FY;
+    var totalCases = 0;
+    if (STATS_DATA) {
+      STATS_DATA.years.forEach(function(y){ if(String(y.fy)===fyStr) totalCases = y.total_cases; });
+    }
+    var countEl = document.getElementById('stats-fy-case-count');
+    if (countEl) countEl.textContent = totalCases ? totalCases.toLocaleString() : '—';
+    var disc = document.getElementById('stats-disclaimer');
+    if (disc) disc.innerHTML = disc.innerHTML.replace(/FY\d{4}/g, 'FY' + fyStr);
+  }
 
   function lvlToBucket(lvl) {
     if(lvl<=8)return'1_8'; if(lvl<=12)return'9_12'; if(lvl<=16)return'13_16';
@@ -2522,14 +2602,14 @@
 
   function renderStatsPanel(key, panelEl) {
     if(!panelEl)return;
-    var d=USSC[key]; if(!d){panelEl.hidden=true;return;}
-    var tot=d.govBelow+d.otherBelow;
+    var d = getUSCC(key) || USSC_LABELS[key];
+    if(!d){panelEl.hidden=true;return;}
+    var tot = ((d.govBelow||0) + (d.otherBelow||0));
     panelEl.innerHTML=
-      '<div class="cr-plea-stats-header"><strong>'+d.label+'</strong><span class="cr-plea-stats-meta">'+d.cases+' cases &nbsp;·&nbsp; FY2022 USSC data</span></div>'+
+      '<div class="cr-plea-stats-header"><strong>'+(d.label||key)+'</strong><span class="cr-plea-stats-meta">'+(d.cases||'—')+' cases &nbsp;·&nbsp; FY'+STATS_FY+' USSC data</span></div>'+
       statsBarHTML(d)+
-      '<div class="cr-plea-stats-insight"><strong>'+tot+'%</strong> of defendants in this category were sentenced <em>below</em> the guideline range. '+d.note+'</div>';
+      '<div class="cr-plea-stats-insight"><strong>'+tot+'%</strong> of defendants in this category were sentenced <em>below</em> the guideline range. '+(d.note||'')+'</div>';
     panelEl.hidden=false;
-    // Update shared state + plea card
     sharedCalc.offenseType=key;
     updatePleaStatsCard();
   }
@@ -2539,11 +2619,11 @@
     var summaryEl=document.getElementById('plea-stats-summary');
     var labelEl=document.getElementById('plea-stats-summary-label');
     var detailEl=document.getElementById('plea-stats-summary-detail');
-    if(!key||!USSC[key]){if(summaryEl)summaryEl.hidden=true;return;}
-    var d=USSC[key];
+    var d = getUSCC(key) || USSC_LABELS[key];
+    if(!key||!d){if(summaryEl)summaryEl.hidden=true;return;}
     if(summaryEl)summaryEl.hidden=false;
-    if(labelEl)labelEl.textContent=d.label;
-    if(detailEl)detailEl.textContent='Median '+d.median+' months · '+(d.govBelow+d.otherBelow)+'% sentenced below range';
+    if(labelEl)labelEl.textContent=d.label||key;
+    if(detailEl)detailEl.textContent='Median '+(d.median||'—')+' months · '+((d.govBelow||0)+(d.otherBelow||0))+'% sentenced below range';
   }
 
   // Wire stats tool
@@ -2554,6 +2634,16 @@
     else{if(p)p.hidden=true;}
     updateStatsLevelPanel();
   });}
+  var statsFyEl=document.getElementById('stats-fy');
+  if(statsFyEl){statsFyEl.addEventListener('change',function(){
+    STATS_FY=this.value;
+    updateStatsDisclaimer();
+    var offEl=document.getElementById('stats-offense-type');
+    var p=document.getElementById('stats-offense-panel');
+    if(offEl&&offEl.value&&p){renderStatsPanel(offEl.value,p);}
+    else if(p){p.hidden=true;}
+    updateStatsLevelPanel();
+  });}
   var statsLvlEl=document.getElementById('stats-offense-level');
   if(statsLvlEl)statsLvlEl.addEventListener('input',updateStatsLevelPanel);
 
@@ -2562,7 +2652,7 @@
     var lvl=parseInt(document.getElementById('stats-offense-level')?document.getElementById('stats-offense-level').value:'');
     if(!lvl||lvl<1||lvl>43){p.hidden=true;return;}
     var key=lvlToBucket(lvl);
-    var bd=USSC_LEVELS[key];if(!bd){p.hidden=true;return;}
+    var bd=getUSCCLevel(key)||USSC_LEVEL_LABELS[key];if(!bd){p.hidden=true;return;}
     var chKey=sharedCalc.guideline?sharedCalc.guideline.chCat:'I';
     var chIdx=CAT_IDX[chKey]||0;
     var tableRow=ST[lvl-1]||null;
@@ -2573,7 +2663,7 @@
       tableRangeNote+
       statsBarHTML({within:bd.pct_within,pct_below:bd.pct_below,pct_above:bd.pct_above,govBelow:0,otherBelow:bd.pct_below,above:bd.pct_above,median:bd.median})+
       '<div class="cr-plea-stats-insight">'+bd.note+'</div>'+
-      '<div class="cr-stats-level-caveat">Level-bucket data is approximated from USSC aggregate tables. For precise cell-level data, see the USSC Interactive Data Analyzer at ussc.gov.</div>'+
+      '<div class="cr-stats-level-caveat">Source: USSC individual-level NID dataset, FY'+STATS_FY+'. For cell-level data and additional breakdowns, see the USSC Interactive Data Analyzer at ussc.gov.</div>'+
     '</div>';
     p.hidden=false;
   }
@@ -2695,18 +2785,18 @@
     html += '</div>';
 
     // Section 5: Sentencing Statistics
-    html += '<div class="cr-plea-report-section"><h3>5 — Sentencing Statistics (FY2022 USSC Data)</h3>';
-    if (offenseType && USSC[offenseType]) {
-      var sd = USSC[offenseType];
-      var totBelow = sd.govBelow + sd.otherBelow;
-      html += row('Offense category', sd.label);
-      html += row('Cases in dataset', sd.cases + ' (FY2022)');
-      html += row('Sentenced within range', sd.within + '%');
-      html += row('Sentenced below — cooperation', sd.govBelow + '%');
-      html += row('Sentenced below — other', sd.otherBelow + '%');
-      html += row('Sentenced above range', sd.above + '%');
-      html += row('Median sentence', sd.median + ' months (' + moToYr(sd.median) + ')', false);
-      html += '<p style="font-size:.8rem;color:#555;margin:8px 0 0;line-height:1.6;border-left:3px solid #d08020;padding-left:10px;">' + totBelow + '% of defendants in this category were sentenced <em>below</em> the guideline range. ' + sd.note + '</p>';
+    var _sd = getUSCC(offenseType) || (USSC_LABELS[offenseType] ? Object.assign({}, USSC_LABELS[offenseType]) : null);
+    html += '<div class="cr-plea-report-section"><h3>5 — Sentencing Statistics (FY'+STATS_FY+' USSC Data)</h3>';
+    if (offenseType && _sd && _sd.within !== undefined) {
+      var totBelow = (_sd.govBelow||0) + (_sd.otherBelow||0);
+      html += row('Offense category', _sd.label||offenseType);
+      html += row('Cases in dataset', (_sd.cases||'—') + ' (FY'+STATS_FY+')');
+      html += row('Sentenced within range', (_sd.within||0) + '%');
+      html += row('Sentenced below — cooperation', (_sd.govBelow||0) + '%');
+      html += row('Sentenced below — other', (_sd.otherBelow||0) + '%');
+      html += row('Sentenced above range', (_sd.above||0) + '%');
+      html += row('Median sentence', (_sd.median||'—') + ' months (' + moToYr(_sd.median) + ')', false);
+      html += '<p style="font-size:.8rem;color:#555;margin:8px 0 0;line-height:1.6;border-left:3px solid #d08020;padding-left:10px;">' + totBelow + '% of defendants in this category were sentenced <em>below</em> the guideline range. ' + (_sd.note||'') + '</p>';
     } else {
       html += '<p style="font-size:.83rem;color:#666;margin:4px 0;">Use the Sentencing Statistics tool (Tool 09) to select your offense type — results will appear here automatically.</p>';
     }
