@@ -1,90 +1,90 @@
-Subject: Your mother's John Hancock LTC policy — what I found, and what we do next
+Subject: Your mother's John Hancock LTC policy - what I found, and what we do next
 
 Simon,
 
-Thank you for tracking down full account access and sending over the policy and the Annual Client Statement — that was the missing piece, and it confirms the direction I'd already started down after reviewing everything else in the file. I want to walk you through what I found in some detail, because the situation is better than "the policy lapsed and we need to beg for it back," but it's also more delicate than "just pay the back premiums," and I want you to understand why before either of us talks to John Hancock again.
+Thank you for tracking down full account access and sending over the policy and the Annual Client Statement - that was the missing piece, and it confirms the direction I'd already started down after reviewing everything else in the file. I want to walk you through what I found in some detail, because the situation is better than "the policy lapsed and we need to beg for it back," but it's also more delicate than "just pay the back premiums," and I want you to understand why before either of us talks to John Hancock again.
 
 THE MOST IMPORTANT THING FIRST: THE POLICY IS NOT CANCELED.
 
-I know that's not how it was described to you, and I understand why — "your policy lapsed" is what people hear when a payment is missed, and John Hancock's own language to you probably used a word like that. But look at what their own Annual Statements have said every year since 2023, including the most recent one you sent me: the policy is "currently in a paid-up status with reduced benefits. Premiums are no longer due." That is not the same thing as canceled.
+I know that's not how it was described to you, and I understand why - "your policy lapsed" is what people hear when a payment is missed, and John Hancock's own language to you probably used a word like that. But look at what their own Annual Statements have said every year since 2023, including the most recent one you sent me: the policy is "currently in a paid-up status with reduced benefits. Premiums are no longer due." That is not the same thing as canceled.
 
-Here's what actually happened. Your mother's policy had a built-in feature — John Hancock calls it the "Contingent Nonforfeiture Benefit" — that a lot of long-term care policies from that era carry, precisely to prevent exactly what people fear will happen if a payment gets missed after years of paying in. When she didn't pay the January 2022 premium (after a string of rate increases John Hancock had been phasing in since 2020), instead of the policy simply evaporating, this provision automatically converted it to a paid-up policy — no more premiums ever due — worth $70,845.71 in total lifetime benefits, at the same $525/day benefit rate as before. That is real money that is sitting there right now, confirmed as recently as this January. Whatever else we do, that benefit should be formally claimed and preserved. It is not contingent on anything I describe below.
+Here's what actually happened. Your mother's policy had a built-in feature - John Hancock calls it the "Contingent Nonforfeiture Benefit" - that a lot of long-term care policies from that era carry, precisely to prevent exactly what people fear will happen if a payment gets missed after years of paying in. When she didn't pay the January 2022 premium (after a string of rate increases John Hancock had been phasing in since 2020), instead of the policy simply evaporating, this provision automatically converted it to a paid-up policy - no more premiums ever due - worth $70,845.71 in total lifetime benefits, at the same $525/day benefit rate as before. That is real money that is sitting there right now, confirmed as recently as this January. Whatever else we do, that benefit should be formally claimed and preserved. It is not contingent on anything I describe below.
 
 BUT THERE'S A SECOND, MUCH BIGGER QUESTION, AND IT'S THE ONE THAT MATTERS MOST.
 
-The original policy — before the lapse — had a $1,149,750 lifetime benefit on a 6-year benefit period. The $70,845.71 she has now is about 6% of that. The policy itself contains a separate clause (I'll call it the "hardship reinstatement" clause) that lets a lapsed policy be restored to its full, original value — not just the reduced paid-up amount — if the policyholder was already sick enough, or impaired enough, to qualify for benefits on the date the policy actually terminated. New Jersey law requires every long-term care policy sold in the state to contain a version of this same protection, specifically for policyholders who missed a payment because of cognitive impairment or loss of functional capacity.
+The original policy - before the lapse - had a $1,149,750 lifetime benefit on a 6-year benefit period. The $70,845.71 she has now is about 6% of that. The policy itself contains a separate clause (I'll call it the "hardship reinstatement" clause) that lets a lapsed policy be restored to its full, original value - not just the reduced paid-up amount - if the policyholder was already sick enough, or impaired enough, to qualify for benefits on the date the policy actually terminated. New Jersey law requires every long-term care policy sold in the state to contain a version of this same protection, specifically for policyholders who missed a payment because of cognitive impairment or loss of functional capacity.
 
-You told me your mother "forgot to pay her annual fee" and that her health — primarily her memory — has been declining. If that decline was already underway around the time of the missed payment in early 2022, that is not just an unfortunate detail. That is potentially the legal basis for restoring the full policy, not the reduced one. This is the central question the whole case turns on, and it's why I need your help gathering specific records (list below).
+You told me your mother "forgot to pay her annual fee" and that her health - primarily her memory - has been declining. If that decline was already underway around the time of the missed payment in early 2022, that is not just an unfortunate detail. That is potentially the legal basis for restoring the full policy, not the reduced one. This is the central question the whole case turns on, and it's why I need your help gathering specific records (list below).
 
 A SECOND PROBLEM, INDEPENDENT OF THE MEDICAL QUESTION: I DON'T THINK JOHN HANCOCK FOLLOWED ITS OWN RULES WHEN IT PROCESSED THE LAPSE.
 
 Both the policy itself and New Jersey insurance regulations require the insurance company to do two specific things before a long-term care policy can be allowed to lapse for nonpayment:
 
-1. Get your mother, at the time she bought the policy in 2000, to either name someone else (a "third-party designee") who would also be notified if a premium ever went unpaid, or sign a written waiver declining to do so — and then remind her of that right periodically (once she passed age 62½, New Jersey requires that reminder every year, not just every two years).
+1. Get your mother, at the time she bought the policy in 2000, to either name someone else (a "third-party designee") who would also be notified if a premium ever went unpaid, or sign a written waiver declining to do so - and then remind her of that right periodically (once she passed age 62 1/2, New Jersey requires that reminder every year, not just every two years).
 
 2. Give both her and any designated third party 30 days' written notice, by mail, before the policy is actually allowed to lapse.
 
-Every single billing notice in the file — going back to 2020 — shows "NO DESIGNEE SELECTED." I don't yet know whether that's because she declined in writing in 2000 (which is allowed) or because John Hancock simply never did what it was supposed to do. I also haven't seen a copy of the actual notice that would have had to go out in early-to-mid 2022 before the policy could lawfully lapse. Under a controlling 1986 New Jersey Supreme Court case, Meier v. New Jersey Life Insurance Co., the burden is on the insurance company — not on us — to prove it gave that notice properly. If they can't produce it, that is an independent problem for them, separate from and in addition to the medical question above.
+Every single billing notice in the file - going back to 2020 - shows "NO DESIGNEE SELECTED." I don't yet know whether that's because she declined in writing in 2000 (which is allowed) or because John Hancock simply never did what it was supposed to do. I also haven't seen a copy of the actual notice that would have had to go out in early-to-mid 2022 before the policy could lawfully lapse. Under a controlling 1986 New Jersey Supreme Court case, Meier v. New Jersey Life Insurance Co., the burden is on the insurance company - not on us - to prove it gave that notice properly. If they can't produce it, that is an independent problem for them, separate from and in addition to the medical question above.
 
 WHY I'M ASKING YOU TO HOLD OFF ON CALLING JOHN HANCOCK AND SIMPLY OFFERING TO "PAY THE PAST FEES."
 
-I understand the instinct — it feels like the direct, simple fix. But the policy actually has two different paths back to coverage, and they are not equivalent:
+I understand the instinct - it feels like the direct, simple fix. But the policy actually has two different paths back to coverage, and they are not equivalent:
 
-- Ordinary reinstatement (apply, pay back premiums, John Hancock approves or denies) — this is what "pay the past fees" describes. But the policy's own language says a policy reinstated this way "will cover only loss due to an injury sustained or physical or mental condition which begins after the date of reinstatement." If your mother's memory issues already existed before we go down this road, this path could get us a technically-reinstated policy that still won't pay for the exact condition we're trying to cover — because memory/cognitive decline that predates the reinstatement date would be excluded as a pre-existing condition.
+- Ordinary reinstatement (apply, pay back premiums, John Hancock approves or denies) - this is what "pay the past fees" describes. But the policy's own language says a policy reinstated this way "will cover only loss due to an injury sustained or physical or mental condition which begins after the date of reinstatement." If your mother's memory issues already existed before we go down this road, this path could get us a technically-reinstated policy that still won't pay for the exact condition we're trying to cover - because memory/cognitive decline that predates the reinstatement date would be excluded as a pre-existing condition.
 
-- The hardship reinstatement path described above — no such exclusion, and restores the original full benefit, not just whatever's paid back.
+- The hardship reinstatement path described above - no such exclusion, and restores the original full benefit, not just whatever's paid back.
 
-If we call and simply ask to reinstate and pay back premiums, we risk locking her into the worse path before we've even established she qualifies for the better one. I want to gather the facts first, then approach John Hancock with a specific, deliberate request — not an open-ended "please reinstate us" that they get to interpret however is cheapest for them.
+If we call and simply ask to reinstate and pay back premiums, we risk locking her into the worse path before we've even established she qualifies for the better one. I want to gather the facts first, then approach John Hancock with a specific, deliberate request - not an open-ended "please reinstate us" that they get to interpret however is cheapest for them.
 
-Since you already have account access and a relationship with the company, you should stay the point of contact for now — I don't need to insert myself between you and John Hancock for a records request. Below is exactly what to send them, and separately, a checklist of what to gather on the medical/factual side. Send the records request in writing (email through the portal or a letter, not just a phone call) so there's a dated, written record of what you asked for and when.
+Since you already have account access and a relationship with the company, you should stay the point of contact for now - I don't need to insert myself between you and John Hancock for a records request. Below is exactly what to send them, and separately, a checklist of what to gather on the medical/factual side. Send the records request in writing (email through the portal or a letter, not just a phone call) so there's a dated, written record of what you asked for and when.
 
 -----
 
-WHAT TO SEND JOHN HANCOCK — you can copy this directly, adjust the bracketed details, and send it through the policyholder portal, by email, or by mail:
+WHAT TO SEND JOHN HANCOCK - you can copy this directly, adjust the bracketed details, and send it through the policyholder portal, by email, or by mail:
 
-    To: Long-Term Care Policyholder Services, John Hancock Life Insurance Company (U.S.A.)
-    Re: Policy Number 9372314 — Pamela Vandeveer Jeanes
+ To: Long-Term Care Policyholder Services, John Hancock Life Insurance Company (U.S.A.)
+ Re: Policy Number 9372314 - Pamela Vandeveer Jeanes
 
-    To Whom It May Concern:
+ To Whom It May Concern:
 
-    I am [Simon Scott], [son] of Pamela Vandeveer Jeanes, the insured under the above-referenced long-term care policy. I now have authorized access to her account [attach or reference any power of attorney, authorized-user, or account-access documentation John Hancock already has on file for you]. I am writing to request a complete copy of the following from the policy file, in writing, as soon as your records department is able to provide it:
+ I am [Simon Scott], [son] of Pamela Vandeveer Jeanes, the insured under the above-referenced long-term care policy. I now have authorized access to her account [attach or reference any power of attorney, authorized-user, or account-access documentation John Hancock already has on file for you]. I am writing to request a complete copy of the following from the policy file, in writing, as soon as your records department is able to provide it:
 
-    1. The complete original application and underwriting file from the policy's issuance in January 2000, specifically including any form on which a third-party designee was named to receive lapse/termination notices, or any signed waiver declining to name one.
+ 1. The complete original application and underwriting file from the policy's issuance in January 2000, specifically including any form on which a third-party designee was named to receive lapse/termination notices, or any signed waiver declining to name one.
 
-    2. Copies of every notice sent to the insured regarding her right to name or change a third-party designee, for the full life of the policy (2000 to present).
+ 2. Copies of every notice sent to the insured regarding her right to name or change a third-party designee, for the full life of the policy (2000 to present).
 
-    3. The specific written notice of lapse or termination for nonpayment of premium that was sent in connection with the 2022 lapse, together with any proof or record of mailing (e.g., a mailing log or certificate of mailing).
+ 3. The specific written notice of lapse or termination for nonpayment of premium that was sent in connection with the 2022 lapse, together with any proof or record of mailing (e.g., a mailing log or certificate of mailing).
 
-    4. Any internal claims notes, customer service notes, or call logs from January 2022 through December 2022 relating to this policy.
+ 4. Any internal claims notes, customer service notes, or call logs from January 2022 through December 2022 relating to this policy.
 
-    5. The complete calculation worksheet or documentation showing how the current paid-up Policy Limit of $70,845.71 was calculated, and the effective date on which the policy converted to paid-up status.
+ 5. The complete calculation worksheet or documentation showing how the current paid-up Policy Limit of $70,845.71 was calculated, and the effective date on which the policy converted to paid-up status.
 
-    6. A current, complete copy of the policy and all attached riders/endorsements as they stand today.
+ 6. A current, complete copy of the policy and all attached riders/endorsements as they stand today.
 
-    7. Confirmation of the policy's current status, current Policy Limit, current daily benefit, and any benefits paid to date under the policy (if any).
+ 7. Confirmation of the policy's current status, current Policy Limit, current daily benefit, and any benefits paid to date under the policy (if any).
 
-    8. Any record of the policy's "Restoration of Coverage" or "Added Protection Against Lapse" provision having been offered, discussed, or applied for in connection with the 2022 lapse — including whether this option was ever presented to the insured or her family.
+ 8. Any record of the policy's "Restoration of Coverage" or "Added Protection Against Lapse" provision having been offered, discussed, or applied for in connection with the 2022 lapse - including whether this option was ever presented to the insured or her family.
 
-    Please send these records in writing to [Simon's mailing address / email]. If any part of this request requires a specific authorization form on your end, please send that form and I will return it promptly. Thank you for your help.
+ Please send these records in writing to [Simon's mailing address / email]. If any part of this request requires a specific authorization form on your end, please send that form and I will return it promptly. Thank you for your help.
 
-    [Simon Scott]
-    [phone / email / mailing address]
+ [Simon Scott]
+ [phone / email / mailing address]
 
 A few notes on using this:
 
-- If your brother also has authorized account access, it may be worth both of you being named on the request, or having him send a parallel one — insurers sometimes respond faster to redundant requests than people expect.
+- If your brother also has authorized account access, it may be worth both of you being named on the request, or having him send a parallel one - insurers sometimes respond faster to redundant requests than people expect.
 
-- If John Hancock asks you to fill out their own records-request or authorization form instead of accepting this letter, that's fine — just make sure the same eight items above end up on whatever form they give you.
+- If John Hancock asks you to fill out their own records-request or authorization form instead of accepting this letter, that's fine - just make sure the same eight items above end up on whatever form they give you.
 
-- Keep a copy of whatever you send and note the date. If you don't get a substantive response within 2–3 weeks, let me know — that's a good trigger point for me to get more directly involved.
+- Keep a copy of whatever you send and note the date. If you don't get a substantive response within 2-3 weeks, let me know - that's a good trigger point for me to get more directly involved.
 
 - If anything comes back from them, forward it to me as soon as you get it rather than waiting to collect everything first.
 
 -----
 
-CHECKLIST — medical and factual records to gather, to determine whether the memory decline was already underway before the 2022 lapse:
+CHECKLIST - medical and factual records to gather, to determine whether the memory decline was already underway before the 2022 lapse:
 
-The window that matters most is roughly June 2021 through December 2022 (the further back before that as a baseline, and the closer to today after that, the better — but that middle window is the one the whole case turns on). Please gather what you can of the following:
+The window that matters most is roughly June 2021 through December 2022 (the further back before that as a baseline, and the closer to today after that, the better - but that middle window is the one the whole case turns on). Please gather what you can of the following:
 
 - Primary care physician records/visit notes for that window, especially any note mentioning memory, confusion, forgetfulness, or cognitive concerns
 
@@ -96,19 +96,19 @@ The window that matters most is roughly June 2021 through December 2022 (the fur
 
 - Any home health aide, private caregiver, or facility notes or logs from that period
 
-- A written timeline from you and your brother of specific, dated incidents or observations reflecting her cognitive state during that window — the more specific and dated, the more useful (e.g., "missed her granddaughter's birthday for the first time in March 2022," "found the stove left on twice in the spring of 2022," "repeatedly asked the same question within a single conversation starting around ___")
+- A written timeline from you and your brother of specific, dated incidents or observations reflecting her cognitive state during that window - the more specific and dated, the more useful (e.g., "missed her granddaughter's birthday for the first time in March 2022," "found the stove left on twice in the spring of 2022," "repeatedly asked the same question within a single conversation starting around ___")
 
-- Bank or financial statements showing whether other bills or payments were also being missed or mishandled around the same time — this helps corroborate a broader pattern of declining financial capacity, not just this one policy
+- Bank or financial statements showing whether other bills or payments were also being missed or mishandled around the same time - this helps corroborate a broader pattern of declining financial capacity, not just this one policy
 
 - Anything from your stepfather's care records or appointments during that same window that happens to reference your mother's condition (family visits, joint appointments, and facility notes sometimes do)
 
-- The exact date the January 2022 premium was due and the date the grace period actually ended — I have this roughly from the billing notices already, but if John Hancock's records (item 3 above) show something more precise, that matters for lining up against the medical timeline
+- The exact date the January 2022 premium was due and the date the grace period actually ended - I have this roughly from the billing notices already, but if John Hancock's records (item 3 above) show something more precise, that matters for lining up against the medical timeline
 
-One more thing, unrelated to the urgency above but worth mentioning: I understand your stepfather had his own John Hancock policy that paid out for his care. I don't see anything in your mother's policy tying the two together (no shared or spousal benefit provision), so I believe they were always two entirely separate contracts — but if you have his policy number or file handy, it's worth me taking a quick look, mostly just to rule out anything I might be missing.
+One more thing, unrelated to the urgency above but worth mentioning: I understand your stepfather had his own John Hancock policy that paid out for his care. I don't see anything in your mother's policy tying the two together (no shared or spousal benefit provision), so I believe they were always two entirely separate contracts - but if you have his policy number or file handy, it's worth me taking a quick look, mostly just to rule out anything I might be missing.
 
-WHERE THIS LEAVES US. The paid-up $70,845.71 benefit is real and should be formally claimed regardless of anything else. The larger question — full reinstatement — depends almost entirely on what the medical records from 2022 show, and John Hancock's own file will tell us whether they cut corners on notice. Once we have both, I'll know whether the right move is a direct written demand, a complaint to the New Jersey Department of Banking and Insurance (which costs nothing and can force John Hancock to produce records even before anything is filed), or both together. I'd rather build this properly over the next few weeks than make a phone call today that forecloses the better option.
+WHERE THIS LEAVES US. The paid-up $70,845.71 benefit is real and should be formally claimed regardless of anything else. The larger question - full reinstatement - depends almost entirely on what the medical records from 2022 show, and John Hancock's own file will tell us whether they cut corners on notice. Once we have both, I'll know whether the right move is a direct written demand, a complaint to the New Jersey Department of Banking and Insurance (which costs nothing and can force John Hancock to produce records even before anything is filed), or both together. I'd rather build this properly over the next few weeks than make a phone call today that forecloses the better option.
 
-Let me know if you have questions, and please hold off on requesting reinstatement or offering to pay back premiums with John Hancock in the meantime — the records request above is fine to send whenever you're ready, that part doesn't risk anything. Happy to jump on a call if that's easier than email.
+Let me know if you have questions, and please hold off on requesting reinstatement or offering to pay back premiums with John Hancock in the meantime - the records request above is fine to send whenever you're ready, that part doesn't risk anything. Happy to jump on a call if that's easier than email.
 
 Best,
 Hunter
