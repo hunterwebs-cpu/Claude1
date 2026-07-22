@@ -93,27 +93,24 @@
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  /* ---- Hero typewriter (line 2 only — "But you can / get through this.")
-         Line 1 is static. JS splits line 2 into .tw-char spans so each
-         character appears individually with a CSS animation keyed to
-         --tw-delay. Preserves nested .hl-can and .hl-em elements. ------- */
+  /* ---- Hero typewriter ("But you" only — char by char)
+         "can get through this." is in .hl-em and revealed by CSS clip-path
+         so background-clip:text stays intact. Only text nodes and <br>
+         directly inside .hsl-bright are processed here. --------------- */
   (function initTypewriter() {
     var line = document.querySelector('.hsl-bright');
     if (!line) return;
 
-    if (reduceMotion) {
-      line.style.opacity = '1';
-      return;
-    }
+    if (reduceMotion) { line.style.opacity = '1'; return; }
 
-    line.style.opacity = '1'; // container visible; individual chars start hidden
+    line.style.opacity = '1';
 
-    var delay = 580;   // ms before first char (line 1 has settled)
-    var charMs = 42;   // ms between characters
-    var brPause = 195; // extra pause at the <br> between the two lines
+    var delay = 580;   // ms before first char
+    var charMs = 42;   // ms per character
+    var brPause = 195; // pause at the line break
 
-    function processNode(node) {
-      if (node.nodeType === 3) { // text node
+    Array.from(line.childNodes).forEach(function (node) {
+      if (node.nodeType === 3) { // text node ("But you")
         var chars = Array.from(node.textContent);
         if (!chars.length) return;
         var frag = document.createDocumentFragment();
@@ -126,14 +123,11 @@
           frag.appendChild(s);
         });
         node.parentNode.replaceChild(frag, node);
-      } else if (node.nodeType === 1) { // element node
-        if (node.tagName === 'BR') { delay += brPause; return; }
-        // Recurse into .hl-can and .hl-em, preserving their styling
-        Array.from(node.childNodes).forEach(processNode);
+      } else if (node.nodeType === 1 && node.tagName === 'BR') {
+        delay += brPause; // .hl-em clip-path uses CSS timing, not delay var
       }
-    }
-
-    processNode(line);
+      // .hl-em is left untouched — CSS handles its reveal
+    });
   }());
 
   /* ---- Magnetic hover on primary buttons (subtle) ---------------------- */
