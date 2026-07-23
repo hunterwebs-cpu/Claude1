@@ -3763,12 +3763,32 @@
       });
       s.push({
         id: 'plea_pressure', type: 'choice', section: 'Defense Counsel',
-        q: 'Is the attorney pushing or strongly recommending a guilty plea?',
-        sub: 'Note: The decision to plead guilty is ' + P.poss + ' decision alone — not the attorney\'s.',
+        q: 'Is the attorney strongly or regularly pushing ' + P.them + ' to plead guilty?',
         choices: [
-          { val: 'yes', label: 'Yes — pushing a plea offer' },
+          { val: 'yes', label: 'Yes — pushing for a plea' },
           { val: 'no', label: 'No' },
-          { val: 'offer_exists', label: 'A plea offer exists but no pressure yet' },
+          { val: 'dk', label: "Don't know" }
+        ]
+      });
+      if (ans.plea_pressure === 'yes') {
+        s.push({
+          id: 'plea_investigation', type: 'choice', section: 'Defense Counsel',
+          q: 'Has the attorney reviewed the facts of the case, evaluated the discovery, and had a detailed conversation with ' + P.them + ' about potential trial defenses?',
+          sub: 'A lawyer cannot responsibly advise a guilty plea without doing this work first.',
+          choices: [
+            { val: 'yes', label: 'Yes — all of the above' },
+            { val: 'partial', label: 'Partially — not all of it' },
+            { val: 'no', label: 'No — not that we know of' },
+            { val: 'dk', label: "Don't know" }
+          ]
+        });
+      }
+      s.push({
+        id: 'plea_offer', type: 'choice', section: 'Defense Counsel',
+        q: 'Is there a plea offer currently on the table?',
+        choices: [
+          { val: 'yes', label: 'Yes — an offer has been made' },
+          { val: 'no', label: 'No offer yet' },
           { val: 'dk', label: "Don't know" }
         ]
       });
@@ -4141,7 +4161,9 @@
 
     /* ---- FLAGS ---------------------------------------------------------- */
     var flags = [];
-    if (ans.plea_pressure === 'yes' && ans.discovery !== 'yes') {
+    if (ans.plea_pressure === 'yes' && (ans.plea_investigation === 'no' || ans.plea_investigation === 'partial')) {
+      flags.push({ type: 'flag', text: '<strong>Red Flag: Plea pressure without proper investigation.</strong> The attorney is pushing a plea without first completing a reasonable investigation into the facts, discovery, and potential trial defenses. This may be bad advice.' });
+    } else if (ans.plea_pressure === 'yes' && ans.discovery !== 'yes') {
       flags.push({ type: 'flag', text: '<strong>Red Flag: Plea pressure without discovery review.</strong> The attorney is pushing a plea but discovery has not been fully reviewed. This is a serious red flag — see the Plea section below.' });
     }
     if (ans.has_attorney === 'no') {
@@ -4182,13 +4204,20 @@
     html += '</div>';
 
     /* ---- PLEA RED FLAG BOX --------------------------------------------- */
-    if (ans.plea_pressure === 'yes' && ans.discovery !== 'yes') {
+    if (ans.plea_pressure === 'yes' && (ans.plea_investigation === 'no' || ans.plea_investigation === 'partial')) {
+      html += '<div class="cr-dreport-redflag">';
+      html += '<div class="cr-dreport-redflag-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>Serious Red Flag: Plea Push Without Reasonable Investigation</div>';
+      html += '<div class="cr-dreport-redflag-text">';
+      html += '<p>An attorney who is pushing a defendant to plead guilty without first conducting a reasonable investigation — reviewing the facts, evaluating the discovery, and having a real conversation about trial defenses — may be giving bad advice. A lawyer cannot responsibly recommend a plea without doing this work.</p>';
+      html += '<p>This is separate from whether a plea offer exists. The problem is not the offer. The problem is being pressured to accept it before anyone has done the work to know whether it makes sense.</p>';
+      html += '<p>The decision to plead guilty is the defendant\'s — and only the defendant\'s — regardless of who is paying for the attorney. <strong>Do not plead guilty until discovery has been fully reviewed and trial defenses have been seriously considered.</strong></p>';
+      html += '</div></div>';
+    } else if (ans.plea_pressure === 'yes' && ans.discovery !== 'yes') {
       html += '<div class="cr-dreport-redflag">';
       html += '<div class="cr-dreport-redflag-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>Serious Red Flag: Plea Pressure Without Discovery</div>';
       html += '<div class="cr-dreport-redflag-text">';
-      html += '<p>If an attorney is pushing a defendant to plead guilty but has not reviewed the discovery with them, this is a serious red flag. Discovery is the evidence the government has. No informed decision about a plea can be made without reading it.</p>';
-      html += '<p>The decision to plead guilty is the defendant\'s — and only the defendant\'s — regardless of who is paying for the attorney. No attorney can make this decision. A defendant may not plead guilty simply because they are told to, or because it is easier.</p>';
-      html += '<p>Before any plea decision is made: <strong>demand a full discovery review with your attorney.</strong></p>';
+      html += '<p>The attorney is pushing for a plea but discovery has not been fully reviewed. No informed decision about pleading guilty can be made without first reading the government\'s evidence.</p>';
+      html += '<p>The decision to plead guilty is the defendant\'s — and only the defendant\'s — regardless of who is paying for the attorney. No attorney can make this decision. <strong>Before any plea decision is made: demand a full discovery review.</strong></p>';
       html += '</div></div>';
     }
 
@@ -4237,7 +4266,12 @@
     html += '<div class="cr-dreport-section-head">Defense Counsel</div>';
     html += rptRow('Attorney Status', formatAnswerLabel(ans.has_attorney, { retained:'Private attorney (retained)', fd:'Federal public defender', cja:'CJA panel attorney (court-appointed)', no:'No attorney — urgent', dk:"Don't know" }), ans.has_attorney === 'no' ? 'flag' : (ans.has_attorney === 'dk' ? 'dk' : 'ok'));
     html += rptRow('Attorney Communication', formatAnswerLabel(ans.attorney_contact, { yes_regularly:'Regular, substantive communication', yes_briefly:'Brief contact only', no:'No real communication yet', dk:"Don't know" }), ans.attorney_contact === 'yes_regularly' ? 'ok' : (ans.attorney_contact === 'no' ? 'flag' : 'warn'));
-    html += rptRow('Plea Pressure', formatAnswerLabel(ans.plea_pressure, { yes:'Attorney pushing a plea', no:'No pressure', offer_exists:'Offer exists, no pressure yet', dk:"Don't know" }), ans.plea_pressure === 'yes' ? (ans.discovery !== 'yes' ? 'flag' : 'warn') : 'ok');
+    html += rptRow('Plea Push', formatAnswerLabel(ans.plea_pressure, { yes:'Attorney pushing for a plea', no:'No pressure', dk:"Don't know" }), ans.plea_pressure === 'yes' ? 'warn' : 'ok');
+    if (ans.plea_pressure === 'yes') {
+      var invStatus = ans.plea_investigation;
+      html += rptRow('Investigation Before Push', formatAnswerLabel(invStatus, { yes:'Yes — facts, discovery &amp; defenses reviewed', partial:'Partial only', no:'No — work not done', dk:"Don't know" }), invStatus === 'yes' ? 'ok' : (invStatus === 'no' ? 'flag' : 'warn'), invStatus !== 'yes' ? 'Pushing a plea before completing a reasonable investigation may be bad legal advice.' : '');
+    }
+    html += rptRow('Plea Offer on Table', formatAnswerLabel(ans.plea_offer, { yes:'Yes — offer has been made', no:'No offer yet', dk:"Don't know" }), 'dk');
     html += '</div>';
 
     /* ---- HEARINGS SECTION ---------------------------------------------- */

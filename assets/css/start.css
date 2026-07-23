@@ -2020,7 +2020,7 @@ body::before {
 .cr-itv-counter {
   font-family: var(--cr-font-mono);
   font-size: .68rem;
-  color: var(--cr-muted);
+  color: #9DA3B2;
   letter-spacing: .06em;
 }
 .cr-itv-body {
@@ -2049,7 +2049,7 @@ body::before {
   transition: background .15s, color .15s, opacity .15s;
   border: 1px solid var(--cr-border);
   background: transparent;
-  color: var(--cr-muted);
+  color: #9DA3B2;
 }
 .cr-itv-btn:hover { background: rgba(255,255,255,.06); color: var(--cr-text); }
 .cr-itv-btn--next {
@@ -2083,7 +2083,7 @@ body::before {
 .cr-itv-q-sub {
   font-family: var(--cr-font-mono);
   font-size: .74rem;
-  color: var(--cr-muted);
+  color: #B0B6C4;
   line-height: 1.6;
   margin-bottom: 16px;
 }
@@ -2121,9 +2121,9 @@ body::before {
   opacity: .75;
 }
 .cr-itv-choice--dk.is-selected {
-  background: rgba(255,255,255,.06);
-  border-color: var(--cr-muted);
-  color: var(--cr-muted);
+  background: rgba(232,119,34,.15);
+  border-color: var(--cr-accent);
+  color: var(--cr-accent);
   opacity: 1;
 }
 
