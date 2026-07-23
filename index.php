@@ -107,7 +107,7 @@
 
         <div class="tool-rows" data-reveal data-delay="1">
 
-          <a class="tool-row" href="calculators.php#tool-guideline">
+          <a class="tool-row tool-row--guideline" href="calculators.php#tool-guideline">
             <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3L3 9v12h18V9L12 3z"/><path d="M9 21V12h6v9"/></svg>
             <div class="tool-row-body">
               <strong>Federal Sentencing Guideline Range Calculator</strong>
@@ -116,7 +116,7 @@
             <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
 
-          <a class="tool-row" href="calculators.php#tool-fsa">
+          <a class="tool-row tool-row--fsa" href="calculators.php#tool-fsa">
             <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 3.5"/></svg>
             <div class="tool-row-body">
               <strong>First Step Act Time Credits Calculator (FSA)</strong>
@@ -125,7 +125,7 @@
             <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
 
-          <a class="tool-row" href="calculators.php#tool-bop">
+          <a class="tool-row tool-row--bop" href="calculators.php#tool-bop">
             <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             <div class="tool-row-body">
               <strong>BOP Security Level Calculator — Federal Prison Designation</strong>
@@ -134,7 +134,7 @@
             <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
 
-          <a class="tool-row" href="calculators.php#tool-stats">
+          <a class="tool-row tool-row--stats" href="calculators.php#tool-stats">
             <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="12" width="4" height="9"/><rect x="10" y="7" width="4" height="14"/><rect x="17" y="3" width="4" height="18"/></svg>
             <div class="tool-row-body">
               <strong>Federal Sentencing Statistics — USSC National Data</strong>
@@ -143,7 +143,7 @@
             <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
 
-          <a class="tool-row" href="calculators.php#tool-refsheets">
+          <a class="tool-row tool-row--refsheets" href="calculators.php#tool-refsheets">
             <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
             <div class="tool-row-body">
               <strong>Federal Sentencing Reference Sheets — 7 Major Guidelines</strong>

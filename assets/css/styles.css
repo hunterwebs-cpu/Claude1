@@ -1717,19 +1717,43 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   border-bottom: 1px solid var(--border);
   text-decoration: none;
   color: inherit;
-  transition: background .22s;
+  position: relative;
+  overflow: hidden;
+  transition: padding .22s var(--ease), margin .22s var(--ease), border-color .22s;
 }
+
+/* Photo layer */
+.tool-row::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.13;
+  transition: opacity .4s;
+  z-index: 0;
+}
+
+/* Per-tool background images */
+.tool-row--guideline::before { background-image: url('../img/tool-guideline.jpg'); }
+.tool-row--fsa::before       { background-image: url('../img/tool-fsa.jpg'); }
+.tool-row--bop::before       { background-image: url('../img/tool-bop.jpg'); }
+.tool-row--stats::before     { background-image: url('../img/tool-stats.jpg'); }
+.tool-row--refsheets::before { background-image: url('../img/tool-refsheets.jpg'); }
+
+/* Lift content above photo layer */
+.tool-row > * { position: relative; z-index: 1; }
 
 .tool-row:first-child { border-top: 1px solid var(--border); }
 
 .tool-row:hover {
-  background: rgba(255,140,0,.04);
   padding-left: 16px; padding-right: 16px;
   margin-left: -16px; margin-right: -16px;
   border-radius: var(--radius-sm);
   border-color: transparent;
-  transition: background .22s, padding .22s var(--ease), margin .22s var(--ease);
 }
+
+.tool-row:hover::before { opacity: 0.32; }
 
 .tool-row-icon {
   width: 28px; height: 28px;
