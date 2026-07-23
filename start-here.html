@@ -4157,6 +4157,13 @@
     var dateStr = now.toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
     var html = '';
 
+    /* Calculate days since arrest */
+    var daysSinceArrest = null;
+    if (ans.arrest_date && ans.arrest_date !== 'dk') {
+      var ad = new Date(ans.arrest_date + 'T12:00:00');
+      if (!isNaN(ad.getTime())) daysSinceArrest = Math.floor((now - ad) / 86400000);
+    }
+
     /* Header */
     html += '<div class="cr-dreport-header">';
     html += '<div class="cr-dreport-eyebrow">Surviving the Feds &mdash; Case Command Center</div>';
@@ -4174,25 +4181,25 @@
     if (ans.plea_pressure === 'yes' && (ans.plea_investigation === 'no' || ans.plea_investigation === 'partial')) {
       flags.push({ type: 'flag', text: '<strong>Red Flag: Plea pressure without proper investigation.</strong> The attorney is pushing a plea without first completing a reasonable investigation into the facts, discovery, and potential trial defenses. This may be bad advice.' });
     } else if (ans.plea_pressure === 'yes' && ans.discovery !== 'yes') {
-      flags.push({ type: 'flag', text: '<strong>Red Flag: Plea pressure without discovery review.</strong> The attorney is pushing a plea but discovery has not been fully reviewed. This is a serious red flag — see the Plea section below.' });
+      flags.push({ type: 'flag', text: '<strong>Red Flag: Plea pressure without discovery review.</strong> The attorney is pushing a plea but discovery has not been fully reviewed. This is a serious red flag.' });
     }
     if (ans.has_attorney === 'no') {
-      flags.push({ type: 'flag', text: '<strong>No attorney.</strong> Every defendant needs a lawyer. If you cannot afford one, federal public defenders are available.' });
+      flags.push({ type: 'flag', text: '<strong>No attorney.</strong> Every federal defendant needs a lawyer. If you cannot afford one, federal public defenders are available and experienced.' });
     }
     if (ans.attorney_contact === 'no') {
-      flags.push({ type: 'warn', text: '<strong>Limited attorney contact.</strong> Minimal communication with counsel at this stage is a concern.' });
+      flags.push({ type: 'warn', text: '<strong>No real attorney contact.</strong> Minimal communication with counsel at this stage is a serious concern. See the Defense Counsel section below.' });
     }
     if (ans.warrant_docs === 'none' && ans.search_warrant === 'yes') {
-      flags.push({ type: 'warn', text: '<strong>Search warrant documents not reviewed.</strong> The warrant, affidavit, and receipt of seized items have not been seen.' });
+      flags.push({ type: 'warn', text: '<strong>Search warrant documents not reviewed.</strong> The warrant, affidavit, and receipt of seized items have not been seen. These documents matter — see the Key Documents section.' });
     }
     if (ans.motions_deadline === 'no') {
-      flags.push({ type: 'warn', text: '<strong>Pretrial motions deadline unknown.</strong> Missing this date can permanently waive important rights.' });
+      flags.push({ type: 'warn', text: '<strong>Pretrial motions deadline unknown.</strong> Missing this court-set deadline permanently waives rights that cannot be recovered.' });
     }
     if (ans.criminal_complaint === 'no') {
-      flags.push({ type: 'warn', text: '<strong>Criminal complaint not reviewed.</strong> The defendant needs to read the complaint and the agent affidavit.' });
+      flags.push({ type: 'warn', text: '<strong>Criminal complaint not reviewed.</strong> The complaint and agent affidavit are the foundation documents. They must be obtained from your attorney immediately.' });
     }
     if (ans.discovery === 'received_not_reviewed') {
-      flags.push({ type: 'warn', text: '<strong>Discovery received but not reviewed.</strong> Attorney has discovery but has not reviewed it with the defendant.' });
+      flags.push({ type: 'warn', text: '<strong>Discovery received but not reviewed with you.</strong> Your attorney has the government\'s evidence — but you haven\'t been through it together. No plea decision should be made before this happens.' });
     }
     if (flags.length === 0) {
       flags.push({ type: 'ok', text: 'No critical flags identified based on the information provided.' });
@@ -4218,16 +4225,14 @@
       html += '<div class="cr-dreport-redflag">';
       html += '<div class="cr-dreport-redflag-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>Serious Red Flag: Plea Push Without Reasonable Investigation</div>';
       html += '<div class="cr-dreport-redflag-text">';
-      html += '<p>An attorney who is pushing a defendant to plead guilty without first conducting a reasonable investigation — reviewing the facts, evaluating the discovery, and having a real conversation about trial defenses — may be giving bad advice. A lawyer cannot responsibly recommend a plea without doing this work.</p>';
-      html += '<p>This is separate from whether a plea offer exists. The problem is not the offer. The problem is being pressured to accept it before anyone has done the work to know whether it makes sense.</p>';
-      html += '<p>The decision to plead guilty is the defendant\'s — and only the defendant\'s — regardless of who is paying for the attorney. <strong>Do not plead guilty until discovery has been fully reviewed and trial defenses have been seriously considered.</strong></p>';
+      html += '<p>An attorney who is pushing a guilty plea without first conducting a reasonable investigation — reviewing the facts, evaluating the discovery, and having a real conversation about trial defenses — may be giving bad advice. A lawyer cannot responsibly recommend a plea without doing this work. The problem is not the offer; the problem is being pressured to accept it before anyone has evaluated whether it makes sense.</p>';
+      html += '<p>The decision to plead guilty is yours and yours alone — not the attorney\'s, not the family\'s, not whoever is paying the fees. <strong>Do not plead guilty until discovery has been fully reviewed and trial defenses have been seriously considered.</strong></p>';
       html += '</div></div>';
     } else if (ans.plea_pressure === 'yes' && ans.discovery !== 'yes') {
       html += '<div class="cr-dreport-redflag">';
       html += '<div class="cr-dreport-redflag-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>Serious Red Flag: Plea Pressure Without Discovery</div>';
       html += '<div class="cr-dreport-redflag-text">';
-      html += '<p>The attorney is pushing for a plea but discovery has not been fully reviewed. No informed decision about pleading guilty can be made without first reading the government\'s evidence.</p>';
-      html += '<p>The decision to plead guilty is the defendant\'s — and only the defendant\'s — regardless of who is paying for the attorney. No attorney can make this decision. <strong>Before any plea decision is made: demand a full discovery review.</strong></p>';
+      html += '<p>The attorney is pushing for a plea but discovery has not been fully reviewed. No informed decision about pleading guilty can be made without reading the government\'s evidence. <strong>Before any plea decision is made: demand a full discovery review.</strong></p>';
       html += '</div></div>';
     }
 
@@ -4237,9 +4242,9 @@
     if (ans.criminal_complaint !== 'yes') actions.push({ text: 'Obtain and read the criminal complaint and the agent affidavit.', note: 'Your attorney must provide these. Ask in writing.' });
     if (ans.search_warrant === 'yes' && ans.warrant_docs !== 'all') actions.push({ text: 'Obtain the search warrant, supporting affidavit, and receipt of seized items.', note: 'Request these from your attorney immediately if you don\'t have them.' });
     if (ans.discovery === 'received_not_reviewed' || ans.discovery === 'no') actions.push({ text: 'Schedule a discovery review session with your attorney.', note: 'Discovery must be reviewed before any decisions — especially about a plea — are made.' });
-    if (ans.motions_deadline === 'no') actions.push({ text: 'Ask your attorney for the pretrial motions deadline in writing.', note: 'Missing this date permanently waives rights that could help your case.' });
-    if (ans.attorney_contact === 'no' || ans.attorney_contact === 'yes_briefly') actions.push({ text: 'Request a substantive meeting with your attorney.', note: 'A brief hallway conversation is not enough. You are entitled to real communication.' });
-    if (ans.speedy_trial === 'yes' && ans.speedy_invoked !== 'yes') actions.push({ text: 'Assert the right to a speedy trial on the record in front of a judge.', note: 'Speedy trial is waived through silence. A private conversation with counsel is not enough — it must be stated on the record in open court.' });
+    if (ans.motions_deadline === 'no') actions.push({ text: 'Ask your attorney for the pretrial motions deadline in writing.', note: 'Missing this date permanently waives rights that could affect your case.' });
+    if (ans.attorney_contact === 'no' || ans.attorney_contact === 'yes_briefly') actions.push({ text: 'Request a substantive meeting with your attorney.', note: 'You are entitled to real communication about your case — not just brief check-ins.' });
+    if (ans.speedy_trial === 'yes' && ans.speedy_invoked !== 'yes') actions.push({ text: 'Assert the right to a speedy trial on the record in front of a judge.', note: 'Speedy trial is waived through silence. A private conversation with counsel is not enough.' });
     if (actions.length === 0) actions.push({ text: 'Continue working closely with your defense attorney.', note: 'Based on the information provided, no urgent gaps were identified.' });
 
     html += '<div class="cr-dreport-section cr-dreport-actions">';
@@ -4252,55 +4257,177 @@
     /* ---- CASE STATUS SECTION ------------------------------------------- */
     html += '<div class="cr-dreport-section">';
     html += '<div class="cr-dreport-section-head">Case Status</div>';
-    html += rptRow('Defendant Status', ans.role === 'supporter' ? 'Supporter providing report for defendant' : 'Defendant', 'ok');
-    html += rptRow('Arrest Date', ans.arrest_date && ans.arrest_date !== 'dk' ? ans.arrest_date : 'Not provided', ans.arrest_date && ans.arrest_date !== 'dk' ? 'ok' : 'dk', ans.arrest_date === 'dk' ? 'Track this — days since arrest affect several deadlines.' : '');
-    html += rptRow('Formal Charges', formatAnswerLabel(ans.charged, { yes:'Charged', no:'Not yet charged', dk:"Don't know" }), ans.charged === 'yes' ? 'ok' : (ans.charged === 'no' ? 'warn' : 'dk'));
-    if (ans.charge_type) html += rptRow('Court Type', formatAnswerLabel(ans.charge_type, { federal:'Federal (U.S. District Court)', state:'State court', both:'Both federal and state', dk:"Don't know" }), ans.charge_type === 'dk' ? 'dk' : 'ok');
-    if (ans.court_state) html += rptRow('Federal District', (ans.court_district || 'District not specified') + (ans.court_state ? ' — ' + ans.court_state : ''), 'ok');
-    html += rptRow('Custody Status', formatAnswerLabel(ans.custody_status, { detained:'In custody / detained', released:'Released on bond/conditions', dk:"Don't know" }), ans.custody_status === 'detained' ? 'warn' : (ans.custody_status === 'released' ? 'ok' : 'dk'));
+    if (daysSinceArrest !== null) {
+      html += rptRow('Days in Case', daysSinceArrest + ' days (arrested ' + ans.arrest_date + ')', 'ok');
+    } else {
+      html += rptRow('Arrest Date', 'Not provided', 'dk');
+    }
+    html += rptRow('Formal Charges', formatAnswerLabel(ans.charged, { yes:'Formally charged', no:'Not yet charged', dk:"Don't know" }), ans.charged === 'yes' ? 'ok' : (ans.charged === 'no' ? 'warn' : 'dk'));
+    if (ans.charge_type) html += rptRow('Court', formatAnswerLabel(ans.charge_type, { federal:'Federal — U.S. District Court', state:'State court', both:'Both federal and state', dk:"Don't know" }), ans.charge_type === 'dk' ? 'dk' : 'ok');
+    if (ans.court_state) html += rptRow('Federal District', (ans.court_district || 'Not specified') + (ans.court_state ? ', ' + ans.court_state : ''), 'ok');
+    html += rptRow('Custody', formatAnswerLabel(ans.custody_status, { detained:'In federal custody', released:'Released — on bond or conditions', dk:"Don't know" }), ans.custody_status === 'detained' ? 'warn' : (ans.custody_status === 'released' ? 'ok' : 'dk'));
+
+    html += '<div class="cr-dreport-intel">';
+    /* Days in custody narrative */
+    if (daysSinceArrest !== null) {
+      if (ans.custody_status === 'detained') {
+        html += '<p><strong>' + daysSinceArrest + ' days in federal pretrial custody.</strong> ';
+        if (daysSinceArrest < 21) {
+          html += 'You are still in the earliest phase of this case. The first few weeks are usually consumed by the initial appearance, the detention hearing, attorney assignment, and possible transfer to a different facility. Things can feel chaotic and then suddenly stall — that is normal. Your attorney is evaluating the charging documents and beginning to assess what the government has.';
+        } else if (daysSinceArrest < 90) {
+          html += 'The case is in its early stage. Discovery is likely beginning to arrive. Your attorney should be in contact with the prosecutor, and a defense strategy should be taking shape. This is the time to get fully informed on what the government is alleging and what evidence they claim to have.';
+        } else if (daysSinceArrest < 180) {
+          html += 'Several months in, the case is entering its litigation phase. Discovery should be substantially complete. If pretrial motions are going to be filed — to suppress evidence, to challenge the indictment, to demand Brady material — the court-set deadline for those is likely approaching. Missing that deadline permanently waives those rights.';
+        } else {
+          html += 'More than six months in. Federal cases routinely run 12 to 24 months from arrest to resolution. At this stage, discovery should be complete, and the case is likely in active motion practice, plea negotiations, or trial preparation. The end of the pretrial phase is in sight.';
+        }
+        html += ' <strong>Every day in pretrial custody counts toward any eventual sentence — federal courts are required to credit all time served.</strong></p>';
+      } else if (ans.custody_status === 'released') {
+        html += '<p><strong>' + daysSinceArrest + ' days since arrest, currently on release.</strong> Federal pretrial release almost always comes with conditions — regular check-ins with a pretrial services officer, travel restrictions, drug testing, electronic monitoring, or some combination. Take every condition seriously. A bond violation, even a seemingly minor one, can result in immediate remand (return to custody) pending trial. If any condition is becoming unworkable due to employment, family, or medical circumstances, have your attorney move the court to modify it — do not violate it.</p>';
+      }
+    } else if (ans.custody_status === 'detained') {
+      html += '<p><strong>Currently in federal pretrial custody.</strong> Pretrial detention is typically served in a county jail contracted by the U.S. Marshals Service or a federal detention center — not a federal prison. Programming is limited and conditions are often more restrictive than at a federal prison. All phone calls and mail are monitored and recorded, except attorney-client calls designated as privileged. Every day served in pretrial custody counts toward any eventual sentence. If circumstances change — new financial information, changed health or family situation, or new legal arguments — your attorney can file a motion to reconsider detention.</p>';
+    }
+
+    /* Charges narrative */
+    if (ans.charged === 'no') {
+      html += '<p><strong>Not yet formally charged.</strong> Under the Speedy Trial Act, if you were arrested on a federal criminal complaint, the government generally has 30 days to obtain a grand jury indictment (or you can agree to an information). If charges are not brought in time, the complaint can be dismissed — though the government can refile. This window can be leverage. Your attorney should be monitoring this closely and discussing whether the delay is an opportunity.</p>';
+    } else if (ans.charged === 'yes' && ans.charge_type === 'federal') {
+      html += '<p><strong>Federal indictments are returned by a grand jury</strong> — 23 citizens who heard only the government\'s version of events, without you or your attorney present. The indictment controls the case: every count listed, every statutory citation. Read every word carefully. Counts can be added or dropped through superseding indictments, which the government can file at almost any point before trial.</p>';
+    } else if (ans.charged === 'yes' && ans.charge_type === 'both') {
+      html += '<p><strong>Both federal and state charges require careful coordination.</strong> The two prosecutions are legally separate and can proceed simultaneously. Federal sentences are served in federal prison (BOP); state sentences in state prison. The order in which cases proceed, and whether one jurisdiction will defer to the other, is a critical strategic question your defense team must be actively addressing.</p>';
+    }
+    html += '</div>';
     html += '</div>';
 
     /* ---- DOCUMENTS SECTION --------------------------------------------- */
     html += '<div class="cr-dreport-section">';
     html += '<div class="cr-dreport-section-head">Key Documents</div>';
-    html += rptRow('Criminal Complaint / Affidavit', formatAnswerLabel(ans.criminal_complaint, { yes:'Read both', complaint_only:'Complaint only — need affidavit', no:'Not seen — get from attorney', dk:"Don't know" }), ans.criminal_complaint === 'yes' ? 'ok' : (ans.criminal_complaint === 'no' ? 'flag' : 'warn'), ans.criminal_complaint !== 'yes' ? 'You must get this document. Ask your attorney in writing.' : '');
+    html += rptRow('Criminal Complaint / Affidavit', formatAnswerLabel(ans.criminal_complaint, { yes:'Read both', complaint_only:'Complaint only — affidavit not seen', no:'Not seen — get from attorney now', dk:"Don't know" }), ans.criminal_complaint === 'yes' ? 'ok' : (ans.criminal_complaint === 'no' ? 'flag' : 'warn'));
     html += rptRow('Indictment / Information', formatAnswerLabel(ans.indictment, { yes:'Reviewed', no:'Not received — follow up', not_yet:'Not indicted yet', dk:"Don't know" }), ans.indictment === 'yes' ? 'ok' : (ans.indictment === 'no' ? 'warn' : 'dk'));
-    html += rptRow('Discovery', formatAnswerLabel(ans.discovery, { yes:'Reviewed with attorney', received_not_reviewed:'Received but not reviewed — urgent', no:'Not received yet', dk:"Don't know" }), ans.discovery === 'yes' ? 'ok' : (ans.discovery === 'received_not_reviewed' ? 'flag' : 'warn'), ans.discovery !== 'yes' ? 'No plea decision should be made before discovery is reviewed.' : '');
+    html += rptRow('Discovery', formatAnswerLabel(ans.discovery, { yes:'Reviewed with attorney', received_not_reviewed:'Received but not reviewed — urgent', no:'Not received yet', dk:"Don't know" }), ans.discovery === 'yes' ? 'ok' : (ans.discovery === 'received_not_reviewed' ? 'flag' : 'warn'));
     if (ans.search_warrant === 'yes') {
-      html += rptRow('Search Warrant Docs', formatAnswerLabel(ans.warrant_docs, { all:'All three reviewed', some:'Partial — get remaining', none:'None seen — urgent', dk:"Don't know" }), ans.warrant_docs === 'all' ? 'ok' : (ans.warrant_docs === 'none' ? 'flag' : 'warn'));
+      html += rptRow('Search Warrant Documents', formatAnswerLabel(ans.warrant_docs, { all:'All three documents reviewed', some:'Partial — get the rest', none:'None seen — get from attorney now', dk:"Don't know" }), ans.warrant_docs === 'all' ? 'ok' : (ans.warrant_docs === 'none' ? 'flag' : 'warn'));
     }
+
+    html += '<div class="cr-dreport-intel">';
+    if (ans.criminal_complaint !== 'yes') {
+      html += '<p><strong>The criminal complaint and agent affidavit are the most important documents to read first.</strong> The complaint is the initial charging document. The affidavit is the agent\'s sworn statement — what law enforcement told a federal judge in order to get an arrest warrant. It often contains the government\'s full theory of the case, the witnesses they relied on, and the facts they believe support the charges. Discrepancies between the affidavit and later charging documents, or between the affidavit and the actual evidence, can be valuable. Your attorney must provide these documents. Ask in writing and keep a record of the request.</p>';
+    } else {
+      html += '<p>The complaint and affidavit have been reviewed — a critical foundation. When reading the indictment alongside the complaint, look for changes: counts added or dropped, facts stated differently, a change in the alleged dates or dollar amounts. Superseding indictments can expand exposure significantly.</p>';
+    }
+
+    if (ans.discovery === 'yes') {
+      html += '<p><strong>Discovery has been reviewed with your attorney</strong> — this is a significant milestone. Federal discovery often includes law enforcement reports, agent interview summaries (called 302s in federal cases), financial records, recorded communications, electronic data, and potential cooperating witness information. Now that the evidence is on the table: your attorney should be identifying the government\'s strongest pieces, what can be challenged or suppressed, what Brady material (exculpatory evidence) or Giglio material (witness credibility issues) the government is still required to produce, and what a trial would actually look like.</p>';
+    } else if (ans.discovery === 'received_not_reviewed') {
+      html += '<p><strong>Discovery has arrived but has not been reviewed with you — this is urgent.</strong> You should be in the room, or at minimum your attorney should provide you with a written summary of what is in the discovery. Discovery is the government\'s roadmap of its case. No informed decision about a plea, about strategy, or about anything else can be made without reading it together. Push your attorney to schedule this session now.</p>';
+    } else if (ans.discovery === 'no') {
+      html += '<p><strong>Discovery has not been received yet.</strong> Under Brady v. Maryland, the government is constitutionally required to turn over all material exculpatory evidence. Under the Jencks Act, witness statements must be produced before trial. Depending on the complexity of the case, discovery can be thousands or hundreds of thousands of pages. Your attorney should already be pushing for production. If the government is slow, a motion to compel is available.</p>';
+    }
+
+    if (ans.search_warrant === 'yes') {
+      if (ans.warrant_docs !== 'all') {
+        html += '<p><strong>A search warrant was executed and the documents have not been fully reviewed.</strong> You are entitled to three things: the warrant itself (what the judge authorized to be searched and seized), the supporting affidavit (what the agent told the judge to justify the search), and the inventory/receipt of items seized. The affidavit is particularly important — if it contains misrepresentations or omissions, there may be grounds for a motion under Franks v. Delaware to suppress the evidence obtained. Your attorney must get these documents to you.</p>';
+      } else {
+        html += '<p>All three search warrant documents have been reviewed. The next step is evaluating whether there are grounds to challenge the search — whether the warrant was overbroad, whether the affidavit contained misrepresentations, whether the search exceeded what the warrant authorized, or whether the good-faith exception would apply. These challenges belong in a pretrial motion to suppress.</p>';
+      }
+    }
+    html += '</div>';
     html += '</div>';
 
     /* ---- COUNSEL SECTION ----------------------------------------------- */
     html += '<div class="cr-dreport-section">';
     html += '<div class="cr-dreport-section-head">Defense Counsel</div>';
-    html += rptRow('Attorney Status', formatAnswerLabel(ans.has_attorney, { retained:'Private attorney (retained)', fd:'Federal public defender', cja:'CJA panel attorney (court-appointed)', no:'No attorney — urgent', dk:"Don't know" }), ans.has_attorney === 'no' ? 'flag' : (ans.has_attorney === 'dk' ? 'dk' : 'ok'));
-    html += rptRow('Attorney Communication', formatAnswerLabel(ans.attorney_contact, { yes_regularly:'Regular, substantive communication', yes_briefly:'Brief contact only', no:'No real communication yet', dk:"Don't know" }), ans.attorney_contact === 'yes_regularly' ? 'ok' : (ans.attorney_contact === 'no' ? 'flag' : 'warn'));
-    html += rptRow('Plea Push', formatAnswerLabel(ans.plea_pressure, { yes:'Attorney pushing for a plea', no:'No pressure', dk:"Don't know" }), ans.plea_pressure === 'yes' ? 'warn' : 'ok');
+    html += rptRow('Attorney', formatAnswerLabel(ans.has_attorney, { retained:'Private attorney (retained)', fd:'Federal public defender', cja:'CJA panel attorney (court-appointed)', no:'No attorney — urgent', dk:"Don't know" }), ans.has_attorney === 'no' ? 'flag' : (ans.has_attorney === 'dk' ? 'dk' : 'ok'));
+    html += rptRow('Communication', formatAnswerLabel(ans.attorney_contact, { yes_regularly:'Regular, substantive communication', yes_briefly:'Brief contact only', no:'No real communication yet', dk:"Don't know" }), ans.attorney_contact === 'yes_regularly' ? 'ok' : (ans.attorney_contact === 'no' ? 'flag' : 'warn'));
+    html += rptRow('Plea Push', formatAnswerLabel(ans.plea_pressure, { yes:'Attorney pushing for a plea', no:'No pressure reported', dk:"Don't know" }), ans.plea_pressure === 'yes' ? 'warn' : 'ok');
     if (ans.plea_pressure === 'yes') {
-      var invStatus = ans.plea_investigation;
-      html += rptRow('Investigation Before Push', formatAnswerLabel(invStatus, { yes:'Yes — facts, discovery &amp; defenses reviewed', partial:'Partial only', no:'No — work not done', dk:"Don't know" }), invStatus === 'yes' ? 'ok' : (invStatus === 'no' ? 'flag' : 'warn'), invStatus !== 'yes' ? 'Pushing a plea before completing a reasonable investigation may be bad legal advice.' : '');
+      html += rptRow('Investigation Done First', formatAnswerLabel(ans.plea_investigation, { yes:'Yes — facts, discovery and defenses reviewed', partial:'Partial only', no:'No — work not done before push', dk:"Don't know" }), ans.plea_investigation === 'yes' ? 'ok' : (ans.plea_investigation === 'no' ? 'flag' : 'warn'));
     }
     html += rptRow('Plea Offer on Table', formatAnswerLabel(ans.plea_offer, { yes:'Yes — offer has been made', no:'No offer yet', dk:"Don't know" }), 'dk');
+
+    html += '<div class="cr-dreport-intel">';
+    if (ans.has_attorney === 'no') {
+      html += '<p><strong>No attorney is the single most urgent gap in this case.</strong> Federal court is not a place to represent yourself. The rules of evidence, the sentencing guidelines, the procedural requirements, and the consequences of any misstep are all dramatically different from state court — and from what anyone learns from television. If you cannot afford a private attorney, you have a constitutional right to appointed counsel. Request a federal public defender at your next court appearance. Do not waive this right.</p>';
+    } else if (ans.has_attorney === 'fd') {
+      html += '<p><strong>Federal Public Defenders are often among the most experienced federal criminal defense attorneys in any district.</strong> Many have spent decades handling federal cases exclusively. The legitimate concern is not quality — it is caseload. Public defenders typically carry large caseloads, which means your case may not get daily attention. Regular, substantive communication is your right. If you feel your case is not getting the attention it needs, document it, and if necessary raise it with the court.</p>';
+    } else if (ans.has_attorney === 'cja') {
+      html += '<p><strong>CJA panel attorneys are private attorneys appointed by the court</strong> when someone qualifies financially. They are paid at a federally set rate that is below market, which can affect workload. Quality varies significantly by attorney. Your right to communication and competent representation is the same regardless of who is paying. If you have concerns about your attorney\'s engagement, raise them in writing.</p>';
+    } else if (ans.has_attorney === 'retained') {
+      html += '<p><strong>A retained private attorney works for you.</strong> You have the right to know what is happening in your case at every stage — the strategy, the timeline, the state of the evidence, what the attorney is communicating to the government. A good retained attorney should be in regular contact, explaining every development, and making decisions with you, not for you.</p>';
+    }
+
+    if (ans.attorney_contact === 'no') {
+      html += '<p><strong>No real attorney communication is a serious problem.</strong> You have a Sixth Amendment right to effective assistance of counsel — and effectiveness requires communication. You cannot make informed decisions about your case without knowing what your attorney knows. Document every attempt to reach your attorney with dates and methods. In extreme cases, inadequate representation can support a post-conviction ineffective assistance claim, but the time to fix this is now, not after a conviction.</p>';
+    } else if (ans.attorney_contact === 'yes_briefly') {
+      html += '<p><strong>Brief contact is a yellow flag.</strong> Federal cases require real, substantive conversations — about strategy, evidence, the government\'s position, pretrial motions, and what happens at each stage. If your interactions have been limited to short updates or hallway conversations, request a formal meeting focused specifically on case strategy. Put the request in writing. You are entitled to this.</p>';
+    }
+
+    if (ans.plea_pressure === 'yes' && ans.plea_investigation !== 'yes') {
+      html += '<p><strong>An attorney pushing a plea without completing a reasonable investigation is a red flag.</strong> Before any responsible recommendation to plead guilty, a defense attorney must have reviewed the facts, evaluated the discovery, and had a genuine conversation about what trial would look like and what defenses exist. That is not optional work — it is the minimum. If the push for a plea is coming before that work is done, it is worth asking why, and worth considering whether a second opinion from another attorney is warranted.</p>';
+    }
+
+    if (ans.plea_offer === 'yes') {
+      html += '<p><strong>A plea offer is on the table.</strong> Before deciding whether to accept it, the following must happen: (1) a full review of discovery to understand what the government actually has; (2) a guidelines calculation under the plea terms, so you understand what the sentencing range would be; (3) a serious conversation about what trial would realistically look like; and (4) a clear understanding of what facts you would be admitting in the factual basis — because those facts are locked in at the moment of the plea and drive the guidelines calculation at sentencing. The moment before a plea is signed is one of the last opportunities to shape the outcome.</p>';
+    }
+    html += '</div>';
     html += '</div>';
 
     /* ---- HEARINGS SECTION ---------------------------------------------- */
     html += '<div class="cr-dreport-section">';
     html += '<div class="cr-dreport-section-head">Hearings &amp; Deadlines</div>';
-    html += rptRow('Detention Hearing', formatAnswerLabel(ans.detention_hearing, { yes_detained:'Held — detention ordered', yes_released:'Held — released with conditions', waived:'Waived', pending:'Not yet held', dk:"Don't know" }), ans.detention_hearing === 'yes_detained' ? 'warn' : (ans.detention_hearing === 'yes_released' ? 'ok' : 'dk'));
-    html += rptRow('Speedy Trial', formatAnswerLabel(ans.speedy_trial, { yes:'Invoking — 70-day clock running', no:'Waiving — more preparation time', dk:"Undecided" }), 'dk', 'Speedy trial is a strategic right, not just a timeline preference. Invoking it can limit the government\'s time to strengthen the case. It is waived through silence — it must be asserted on the record.');
+    html += rptRow('Detention Hearing', formatAnswerLabel(ans.detention_hearing, { yes_detained:'Held — detention ordered', yes_released:'Held — released with conditions', waived:'Hearing waived', pending:'Not yet held', dk:"Don't know" }), ans.detention_hearing === 'yes_detained' ? 'warn' : (ans.detention_hearing === 'yes_released' ? 'ok' : 'dk'));
+    html += rptRow('Speedy Trial', formatAnswerLabel(ans.speedy_trial, { yes:'Invoking — 70-day clock running', no:'Waiving — more preparation time', dk:"Not yet decided" }), 'dk');
     if (ans.speedy_trial === 'yes') {
-      html += rptRow('Invoked on the Record', formatAnswerLabel(ans.speedy_invoked, { yes:'Yes — stated on record / attorney confirmed', no:'No — must happen before court', dk:"Don't know" }), ans.speedy_invoked === 'yes' ? 'ok' : 'flag', ans.speedy_invoked !== 'yes' ? 'Speedy trial must be stated on the record in front of a judge. A private conversation with counsel is not enough.' : '');
+      html += rptRow('Invoked on the Record', formatAnswerLabel(ans.speedy_invoked, { yes:'Yes — stated on record / attorney confirmed', no:'No — must be done', dk:"Don't know" }), ans.speedy_invoked === 'yes' ? 'ok' : 'flag');
     }
-    html += rptRow('Motions Deadline', formatAnswerLabel(ans.motions_deadline, { yes:'Known', no:'Unknown — get from attorney now', dk:"Not yet applicable" }), ans.motions_deadline === 'yes' ? 'ok' : (ans.motions_deadline === 'no' ? 'flag' : 'dk'), ans.motions_deadline === 'no' ? 'Missing pretrial motion deadlines permanently waives key rights.' : '');
+    html += rptRow('Pretrial Motions Deadline', formatAnswerLabel(ans.motions_deadline, { yes:'Known', no:'Unknown — get from attorney now', dk:"Not yet applicable" }), ans.motions_deadline === 'yes' ? 'ok' : (ans.motions_deadline === 'no' ? 'flag' : 'dk'));
+
+    html += '<div class="cr-dreport-intel">';
+    if (ans.detention_hearing === 'yes_detained') {
+      html += '<p><strong>A judge determined that no conditions of release would reasonably assure appearance at trial or the safety of the community.</strong> In federal court, the two grounds for detention are flight risk and danger to the community. If you believe that determination was wrong — or if circumstances have changed significantly since the hearing — your attorney can file a motion to reconsider detention, or appeal to the district judge if the hearing was held by a magistrate. Changed circumstances that can support reconsideration: new family caretaking obligations, a changed health situation, a change in financial circumstances, or new evidence that undercuts the flight risk finding.</p>';
+    } else if (ans.detention_hearing === 'yes_released') {
+      html += '<p><strong>Release on bond is a significant advantage in building a defense.</strong> You have access to your attorney, to your records, and to your support system. Take every condition of release seriously — violations can result in immediate remand. If any condition is unworkable (job requirements conflict with check-in times, travel restrictions affect family care, etc.), move to modify the condition through the court rather than violating it.</p>';
+    } else if (ans.detention_hearing === 'waived') {
+      html += '<p><strong>The detention hearing was waived.</strong> This often means the defense attorney believed detention was likely and chose not to fight it, or agreed to detention in exchange for some other concession. If circumstances have changed, a motion to revisit conditions of release can be filed at any time.</p>';
+    } else if (ans.detention_hearing === 'pending') {
+      html += '<p><strong>The detention hearing has not happened yet.</strong> This is one of the most important early hearings. At the detention hearing, the government argues you are either a flight risk or a danger to the community. Your attorney argues the opposite. The result — detained or released — significantly affects the rest of the case. Prepare to give your attorney as much information as possible about ties to the community, stable residence, employment, family, financial condition, and the absence of a flight risk.</p>';
+    }
+
+    if (ans.speedy_trial === 'yes') {
+      if (ans.speedy_invoked !== 'yes') {
+        html += '<p><strong>Invoking speedy trial requires action on the record.</strong> A private conversation with counsel is not enough. The invocation must be stated in open court, in front of a judge, with the statement on the court record. Until that happens, the right has not been asserted. At the next court date, this must be addressed.</p>';
+      } else {
+        html += '<p><strong>Speedy trial has been asserted on the record.</strong> The Speedy Trial Act clock is running. The government now has 70 days from the later of indictment, arraignment, or first appearance to bring the case to trial — subject to excludable delays (motions, continuances, complexity findings). The government cannot spend those days building a more complete case or adding charges without cost. Monitor the timeline with your attorney.</p>';
+      }
+    } else if (ans.speedy_trial === 'no') {
+      html += '<p><strong>Waiving speedy trial is the most common path in federal cases.</strong> It gives your attorney time to fully review discovery, file and litigate pretrial motions, consult experts, and negotiate if a plea is ultimately the direction. Federal cases that go to trial typically take 12 to 24 months from arrest. That time is mostly used by the defense to build the best possible position — but only if it is being used well. Ask your attorney what is specifically happening during this period.</p>';
+    } else {
+      html += '<p><strong>The speedy trial decision has not been made yet.</strong> It is strategic and time-sensitive, and it should be discussed with your attorney before the next court date. The right is waived through silence — if it is not asserted, it is automatically given up for that period.</p>';
+    }
+
+    if (ans.motions_deadline === 'no') {
+      html += '<p><strong>Not knowing the pretrial motions deadline is a serious gap.</strong> Courts set a specific date by which all pretrial motions must be filed. Miss it and those motions are permanently waived — challenges to the search, challenges to statements made during arrest, Brady requests, everything. Your attorney must have this date, and you should have it too. Ask in writing today.</p>';
+    } else if (ans.motions_deadline === 'yes') {
+      html += '<p>The pretrial motions deadline is known — make sure both you and your attorney have a clear plan for what motions will be filed, by whom, and on what schedule. Pretrial motions are one of the most powerful tools available: to suppress illegally obtained evidence, to challenge the sufficiency of the indictment, to compel missing discovery, or to address constitutional violations. They must be filed before the deadline, not after.</p>';
+    }
+    html += '</div>';
     html += '</div>';
 
     /* ---- PLEA SECTION -------------------------------------------------- */
     html += '<div class="cr-dreport-section">';
-    html += '<div class="cr-dreport-section-head">Plea &amp; Trial</div>';
-    html += rptRow('Current Direction', formatAnswerLabel(ans.plea_decision, { plea:'Leaning toward guilty plea', trial:'Leaning toward trial', undecided:'No decision yet', dk:"Don't know" }), 'dk');
-    html += '<div class="cr-dreport-row" style="display:block; padding: 14px 0;">';
-    html += '<div class="cr-dreport-row-label" style="font-size:.78rem; line-height:1.7; color:var(--cr-text);"><strong>Important:</strong> The decision to plead guilty is the defendant\'s alone — not the attorney\'s, not the family\'s, not anyone paying for the attorney. No guilty plea should ever be entered before discovery has been fully reviewed. If you are being pressured to plead without reviewing discovery, that is a serious problem.</div>';
+    html += '<div class="cr-dreport-section-head">Plea &amp; Trial Direction</div>';
+    html += rptRow('Current Direction', formatAnswerLabel(ans.plea_decision, { plea:'Leaning toward a guilty plea', trial:'Leaning toward trial', undecided:'No decision yet', dk:"Don't know" }), 'dk');
+
+    html += '<div class="cr-dreport-intel">';
+    if (ans.plea_decision === 'plea') {
+      html += '<p><strong>Leaning toward a guilty plea.</strong> More than 97% of federal convictions come from guilty pleas — but that number does not make any individual plea the right choice. What determines whether a plea is right: (1) how strong is the government\'s evidence if you go to trial; (2) what is the sentencing guidelines range under the plea terms versus what a trial conviction would produce; (3) what cooperation, if any, is being discussed and what it would require you to do; and (4) what facts you are agreeing to in the factual basis — those facts are locked in when you sign and drive the guidelines calculation at sentencing. <strong>The moment before a plea is signed is one of the last real opportunities to shape what happens at sentencing.</strong> Sentencing preparation belongs before the plea, not after.</p>';
+    } else if (ans.plea_decision === 'trial') {
+      html += '<p><strong>Leaning toward trial.</strong> Trial in federal court is a different environment from state court. Federal judges, federal rules of evidence, and federal juries all operate differently. Acquittal rates at federal trial are low — but the right case, with the right defense, and prepared by the right attorney, can and does result in acquittals. Discovery is the foundation of trial preparation. Before committing to trial, make sure the following are in place: all discovery has been reviewed and every piece of evidence identified; a defense theory has been developed that can withstand cross-examination; any suppression motions have been filed and argued; and expert witnesses, if needed, have been identified and retained early.</p>';
+    } else {
+      html += '<p><strong>No plea or trial decision has been made yet.</strong> That is a legitimate position, especially early in a case. The right answer depends on the strength of the government\'s evidence, the guidelines calculation under a plea versus a trial conviction, and factors only you can weigh. The decision should not be made under time pressure — but it also should not be postponed indefinitely. Discovery review is the essential first step before any meaningful evaluation of options can happen.</p>';
+    }
+    html += '<p>The decision to plead guilty is yours alone — not the attorney\'s, not the family\'s, not anyone paying for the attorney. No one can make this decision for you. No guilty plea should ever be entered before discovery has been fully reviewed.</p>';
     html += '</div>';
     html += '</div>';
 
