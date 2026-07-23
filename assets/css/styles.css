@@ -1870,8 +1870,9 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 
 .hero-statement-bg {
   position: absolute; inset: 0; z-index: 0;
+  /* Photo: courthouse exterior — swap via --hero-photo in :root */
   background-color: var(--bg);
-  background-image: url('../img/hero-bg.webp');
+  background-image: var(--hero-photo, none);
   background-size: cover;
   background-position: center top;
 }
