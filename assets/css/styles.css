@@ -50,9 +50,9 @@
 
   /* Brand accents — matched to the official Surviving the Feds logo
      (black + orange + silver). Change --accent to re-skin the whole site. */
-  --accent:      #E87722;  /* brand orange (CTAs, energy, highlights) */
-  --accent-deep: #B85A14;
-  --accent-glow: rgba(232,119,34,.42);
+  --accent:      #FF8C00;  /* brand orange (CTAs, energy, highlights) */
+  --accent-deep: #CC6F00;
+  --accent-glow: rgba(255,140,0,.42);
   --gold:        #C9D0D8;  /* brand silver/steel — used sparingly (metallic accents) */
 
   /* Typography families */

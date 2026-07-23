@@ -46,7 +46,7 @@
       <div class="container">
         <div class="hero-inner">
 
-          <span class="eyebrow hero-eyebrow">For the families fighting back</span>
+          <span class="eyebrow hero-eyebrow">For the defendant. For the family. For what they never wanted you to know.</span>
 
           <h1 class="hero-statement-h1">
             <span class="hsl-dim">It isn't<br>easy.</span>
