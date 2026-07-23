@@ -74,6 +74,9 @@
   --z-nav: 100;
   --z-overlay: 200;
   --z-top: 300;
+
+  /* Hero photo slot — swap image here to update hero background */
+  --hero-photo: url('../img/hero-bg.jpg');
 }
 
 /* ---- Reset -------------------------------------------------------------- */
@@ -1460,13 +1463,42 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 /* Line 2 — hidden until JS types each character in */
 .hsl-bright {
   color: var(--accent);
+  font-style: italic;
   opacity: 0; /* JS sets to 1 before splitting chars */
 }
 
-/* "can get through this." — own line, italic gradient.
-   NOT char-split by JS: keeping text as a direct child of .hl-em
-   preserves background-clip:text. Instead the whole element reveals
-   left→right via clip-path steps, matching the char-per-step timing. */
+/* "survive" — left-to-right shimmer, starts after the word is typed in */
+.word-survive {
+  display: inline;
+  opacity: 0;
+  background: linear-gradient(
+    90deg,
+    var(--accent)  0%,
+    var(--accent) 28%,
+    #fff6df       47%,
+    #ffe9a8       53%,
+    var(--accent) 72%,
+    var(--accent) 100%
+  );
+  background-size: 300% 100%;
+  background-position: 100% center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation:
+    word-appear 0.04s step-start 1.08s         forwards,
+    word-shine  3s    ease-in-out 2s    infinite;
+}
+
+@keyframes word-appear { to { opacity: 1; } }
+
+@keyframes word-shine {
+  0%   { background-position: 100% center; }
+  35%  { background-position:   0% center; }
+  100% { background-position:   0% center; }
+}
+
+/* Dead code from old .hl-em approach — kept for reference */
 .hl-em {
   font-family: var(--font-display);
   font-style: italic;
@@ -1553,6 +1585,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   .hsl-bright,
   .hl-em,
   .tw-char,
+  .word-survive,
   .hero-statement-deck,
   .hero-statement-actions,
   .hero-statement-sub {
@@ -1560,6 +1593,10 @@ body.theme-light .lead.deck { color: var(--text-soft); }
     animation: none;
     transform: none;
     clip-path: none;
+  }
+  .word-survive {
+    -webkit-text-fill-color: var(--accent);
+    background: none;
   }
 }
 

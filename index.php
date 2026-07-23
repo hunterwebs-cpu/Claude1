@@ -50,7 +50,7 @@
 
           <h1 class="hero-statement-h1">
             <span class="hsl-dim">It isn't<br>easy.</span>
-            <span class="hsl-bright">But you can get<br>through this.</span>
+            <em class="hsl-bright">But you can <span class="word-survive">survive</span> this.</em>
           </h1>
 
           <p class="hero-statement-deck">
