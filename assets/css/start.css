@@ -2220,10 +2220,59 @@ body::before {
 .cr-itv-book-plug-text {
   font-family: var(--cr-font-mono);
   font-size: .74rem;
-  color: var(--cr-muted);
+  color: #B0B6C4;
   line-height: 1.65;
 }
 .cr-itv-book-plug-text a { color: var(--cr-accent); text-decoration: underline; }
+
+/* Bottom book panel — shown when step has bookPlug:true */
+.cr-itv-book-panel {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 20px;
+  padding: 16px 18px;
+  background: rgba(232,119,34,.06);
+  border: 1px solid rgba(232,119,34,.22);
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+.cr-itv-book-panel[hidden] { display: none; }
+.cr-itv-book-panel-cover {
+  flex-shrink: 0;
+  width: 54px;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.45);
+}
+.cr-itv-book-panel-text {
+  flex: 1;
+  min-width: 0;
+}
+.cr-itv-book-panel-title {
+  font-family: var(--cr-font-serif);
+  font-size: .82rem;
+  font-weight: 700;
+  color: var(--cr-accent);
+  margin-bottom: 5px;
+  letter-spacing: .01em;
+}
+.cr-itv-book-panel-text p {
+  font-family: var(--cr-font-mono);
+  font-size: .72rem;
+  color: #B0B6C4;
+  line-height: 1.6;
+  margin: 0 0 8px;
+}
+.cr-itv-book-panel-link {
+  font-family: var(--cr-font-mono);
+  font-size: .72rem;
+  font-weight: 700;
+  color: var(--cr-accent);
+  text-decoration: none;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.cr-itv-book-panel-link:hover { text-decoration: underline; }
 
 /* PACER referral box */
 .cr-itv-pacer-box {
