@@ -2457,16 +2457,31 @@ body::before {
 .cr-dreport-row-label {
   font-family: var(--cr-font-mono);
   font-size: .76rem;
-  color: var(--cr-muted);
+  color: #B0B6C4;
   line-height: 1.5;
 }
 .cr-dreport-row-label strong { color: var(--cr-text); display: block; font-size: .82rem; margin-bottom: 2px; }
 .cr-dreport-row-note {
   font-size: .72rem;
-  color: var(--cr-muted);
+  color: #9DA3B2;
   font-style: italic;
   margin-top: 4px;
 }
+/* Substantive intelligence paragraphs within each report section */
+.cr-dreport-intel {
+  padding: 16px 0 4px;
+  border-top: 1px solid rgba(255,255,255,.06);
+  margin-top: 4px;
+}
+.cr-dreport-intel p {
+  font-family: var(--cr-font-mono);
+  font-size: .78rem;
+  color: var(--cr-text);
+  line-height: 1.8;
+  margin: 0 0 12px;
+}
+.cr-dreport-intel p:last-child { margin-bottom: 0; }
+.cr-dreport-intel strong { color: var(--cr-accent); font-weight: 600; }
 .cr-dreport-status {
   font-family: var(--cr-font-mono);
   font-size: .68rem;
