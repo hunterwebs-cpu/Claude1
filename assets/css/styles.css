@@ -193,6 +193,7 @@ h3 { font-size: clamp(1.3rem, 2.2vw, 1.7rem); }
   background: var(--gold);
   color: var(--accent);
   border-color: var(--gold);
+  font-weight: 700;
 }
 .btn--ghost:hover { background: #dde3ea; border-color: #dde3ea; color: var(--accent); transform: translateY(-3px); }
 
