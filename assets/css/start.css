@@ -3423,6 +3423,32 @@ body::before {
   border-top: 1px solid var(--cr-border);
 }
 
+/* ---- Personal endorsement block ----------------------------------------- */
+.cr-stats-endorsement {
+  margin-bottom: 14px;
+  padding: 18px 20px;
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--cr-border-hi);
+  border-left: 3px solid var(--cr-accent);
+  border-radius: 0 6px 6px 0;
+}
+.cr-stats-endorsement-body p {
+  font-family: var(--cr-font-mono);
+  font-size: .76rem;
+  color: var(--cr-text-soft);
+  line-height: 1.75;
+  margin: 0 0 10px;
+}
+.cr-stats-endorsement-body p:last-child { margin-bottom: 0; }
+.cr-stats-endorsement-body strong { color: var(--cr-text); font-weight: 600; }
+.cr-stats-endorsement-sig {
+  font-style: normal;
+  color: var(--cr-accent) !important;
+  font-weight: 600 !important;
+  font-size: .73rem !important;
+}
+.cr-stats-endorsement-sig a { color: var(--cr-accent); }
+
 /* ---- Plea vs. Trial comparison table ------------------------------------ */
 .cr-stats-plea-trial {
   margin: 16px 0;

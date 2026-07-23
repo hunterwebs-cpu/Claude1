@@ -1746,6 +1746,70 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 }
 
 /* ---- Calculator tool cards (calculators.html) --------------------------- */
+/* ---- Calculator hero quick-access grid ---------------------------------- */
+.calc-hero-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 680px;
+}
+.calc-hero-tool {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color .18s, background .18s;
+  cursor: pointer;
+}
+.calc-hero-tool:hover {
+  border-color: var(--accent);
+  background: var(--surface-hi, var(--surface));
+}
+.calc-hero-num {
+  flex-shrink: 0;
+  font-family: var(--font-label);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: var(--accent);
+  width: 26px;
+  text-align: center;
+}
+.calc-hero-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.calc-hero-info strong {
+  font-family: var(--font-label);
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.calc-hero-info span {
+  font-size: .78rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.calc-hero-arrow {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  stroke: var(--muted);
+  transition: stroke .18s, transform .18s;
+}
+.calc-hero-tool:hover .calc-hero-arrow {
+  stroke: var(--accent);
+  transform: translateX(3px);
+}
+
+/* ---- Calculator tool cards ---------------------------------------------- */
 .calc-tool-card {
   display: flex;
   gap: 0;
