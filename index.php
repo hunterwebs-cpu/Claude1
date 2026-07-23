@@ -125,11 +125,29 @@
             <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
 
+          <a class="tool-row" href="calculators.php#tool-bop">
+            <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <div class="tool-row-body">
+              <strong>BOP Security Level Calculator — Federal Prison Designation</strong>
+              <span>Score the BP-337 custody factors. Find out what security level you're likely designated to.</span>
+            </div>
+            <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+
           <a class="tool-row" href="calculators.php#tool-stats">
             <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="12" width="4" height="9"/><rect x="10" y="7" width="4" height="14"/><rect x="17" y="3" width="4" height="18"/></svg>
             <div class="tool-row-body">
               <strong>Federal Sentencing Statistics — USSC National Data</strong>
               <span>Data from 480,000+ federal cases. See what defendants with your charges actually received.</span>
+            </div>
+            <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+
+          <a class="tool-row" href="calculators.php#tool-refsheets">
+            <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            <div class="tool-row-body">
+              <strong>Federal Sentencing Reference Sheets — 7 Major Guidelines</strong>
+              <span>Printable quick-reference cards for the most common federal offense guidelines.</span>
             </div>
             <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
@@ -217,62 +235,6 @@
         <div class="center" style="margin-top:48px;" data-reveal>
           <a class="btn btn--primary" href="books.php">
             See both books
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ================================================ CALCULATOR STRIP -->
-    <section class="section section--alt" id="calculators">
-      <div class="container">
-        <div class="sec-head split-head" data-reveal>
-          <div class="sh-head">
-            <span class="eyebrow">Free Sentencing Tools</span>
-            <h2>The numbers that decide everything — now you can run them yourself.</h2>
-          </div>
-          <p class="lead">Five free federal sentencing calculators: guideline range, FSA time credits, BOP security level, USSC sentencing statistics, and printable reference sheets. No login. No charge.</p>
-        </div>
-        <div class="calc-strip-grid" data-reveal data-delay="1">
-          <a class="calc-strip-link" href="calculators.php#tool-guideline">
-            <svg class="calc-strip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3L3 9v12h18V9L12 3z"/><path d="M9 21V12h6v9"/></svg>
-            <div class="calc-strip-text">
-              <strong>Guideline Range</strong>
-              <span>§5A Sentencing Table</span>
-            </div>
-          </a>
-          <a class="calc-strip-link" href="calculators.php#tool-stats">
-            <svg class="calc-strip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="12" width="4" height="9"/><rect x="10" y="7" width="4" height="14"/><rect x="17" y="3" width="4" height="18"/></svg>
-            <div class="calc-strip-text">
-              <strong>Sentencing Statistics</strong>
-              <span>USSC FY Data</span>
-            </div>
-          </a>
-          <a class="calc-strip-link" href="calculators.php#tool-fsa">
-            <svg class="calc-strip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 3.5"/></svg>
-            <div class="calc-strip-text">
-              <strong>FSA Time Credits</strong>
-              <span>First Step Act</span>
-            </div>
-          </a>
-          <a class="calc-strip-link" href="calculators.php#tool-bop">
-            <svg class="calc-strip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            <div class="calc-strip-text">
-              <strong>BOP Security Level</strong>
-              <span>BP-337 Designation</span>
-            </div>
-          </a>
-          <a class="calc-strip-link" href="calculators.php#tool-refsheets">
-            <svg class="calc-strip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            <div class="calc-strip-text">
-              <strong>Reference Sheets</strong>
-              <span>7 Major Guidelines</span>
-            </div>
-          </a>
-        </div>
-        <div class="center" style="margin-top:36px;" data-reveal>
-          <a class="btn btn--ghost" href="calculators.php">
-            See all calculators
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
         </div>
