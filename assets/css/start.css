@@ -3611,6 +3611,83 @@ body::before {
 }
 .cr-fsa-result-note strong { color: var(--cr-text-soft); }
 
+/* FSA — category labels & not-excluded note */
+.cr-fsa-cat-label {
+  font-family: var(--cr-font-mono);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--cr-accent);
+  padding: 10px 0 4px;
+  margin-top: 4px;
+  border-top: 1px solid var(--cr-border);
+}
+.cr-fsa-cat-label:first-of-type { border-top: none; margin-top: 0; padding-top: 0; }
+.cr-fsa-cite {
+  font-family: var(--cr-font-mono);
+  font-size: .72em;
+  color: var(--cr-muted);
+  margin-left: 4px;
+}
+.cr-fsa-not-excl-note {
+  background: rgba(30,100,180,.07);
+  border: 1px solid rgba(30,100,180,.22);
+  border-radius: 5px;
+  padding: 10px 14px;
+  font-size: .78rem;
+  color: var(--cr-text-soft);
+  line-height: 1.6;
+  margin: 10px 0 4px;
+}
+.cr-fsa-not-excl-note strong { color: var(--cr-text); }
+.cr-fsa-not-excl-note em { color: var(--cr-accent); font-style: normal; font-weight: 600; }
+
+/* FSA — PATTERN result block */
+.cr-pattern-result-block {
+  border-radius: 7px;
+  padding: 14px 18px;
+  font-size: .84rem;
+  line-height: 1.6;
+  margin-top: 14px;
+}
+.cr-pattern-result-block p { color: var(--cr-text-soft); margin-bottom: 6px; }
+.cr-pattern-result-block p:last-child { margin-bottom: 0; }
+.cr-pattern-result-label {
+  font-family: var(--cr-font-mono);
+  font-size: .8rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--cr-text);
+}
+.cr-pattern-caveat { font-size: .76rem; color: var(--cr-muted) !important; }
+.cr-pattern-min { background: rgba(30,140,60,.08);  border: 1px solid rgba(30,140,60,.25); }
+.cr-pattern-low { background: rgba(30,120,80,.07);  border: 1px solid rgba(30,120,80,.22); }
+.cr-pattern-med { background: rgba(180,120,30,.07); border: 1px solid rgba(180,120,30,.22); }
+.cr-pattern-high{ background: rgba(180,30,30,.08);  border: 1px solid rgba(180,30,30,.25); }
+.cr-pattern-min .cr-pattern-result-label { color: #1a8040; }
+.cr-pattern-low .cr-pattern-result-label { color: #228050; }
+.cr-pattern-med .cr-pattern-result-label { color: #a07820; }
+.cr-pattern-high .cr-pattern-result-label{ color: #c04040; }
+
+/* FSA — risk badge (replaces dropdown) */
+.cr-fsa-risk-badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-family: var(--cr-font-mono);
+  font-size: .78rem;
+  font-weight: 600;
+  background: var(--cr-surface-hi);
+  color: var(--cr-muted);
+  border: 1px solid var(--cr-border);
+  margin-top: 4px;
+}
+.cr-fsa-risk-badge.cr-pattern-min { background: rgba(30,140,60,.08);  color: #1a8040; border-color: rgba(30,140,60,.25); }
+.cr-fsa-risk-badge.cr-pattern-low { background: rgba(30,120,80,.07);  color: #228050; border-color: rgba(30,120,80,.22); }
+.cr-fsa-risk-badge.cr-pattern-med { background: rgba(180,120,30,.07); color: #a07820; border-color: rgba(180,120,30,.22); }
+.cr-fsa-risk-badge.cr-pattern-high{ background: rgba(180,30,30,.08);  color: #c04040; border-color: rgba(180,30,30,.25); }
+
 /* ============================================================================
    GUIDELINE REFERENCE SHEETS (Tool 11)
    ========================================================================== */
