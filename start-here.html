@@ -328,6 +328,14 @@
           <button class="cr-itv-btn cr-itv-btn--back" id="cr-itv-back" type="button">← Back</button>
           <button class="cr-itv-btn cr-itv-btn--next" id="cr-itv-next" type="button">Continue →</button>
         </div>
+        <div class="cr-itv-book-panel" id="cr-itv-book-panel" hidden>
+          <img class="cr-itv-book-panel-cover" src="assets/img/cover-pretrial.jpg" alt="Surviving Pretrial book cover" />
+          <div class="cr-itv-book-panel-text">
+            <div class="cr-itv-book-panel-title">Surviving Pretrial</div>
+            <p>Every question in this evaluation is covered in full detail in <em>Surviving Pretrial</em> — written for the defendant and the family navigating the federal system for the first time.</p>
+            <a class="cr-itv-book-panel-link" href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8" target="_blank" rel="noopener">Order on Amazon →</a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -3818,21 +3826,26 @@
       });
       s.push({
         id: 'speedy_trial', type: 'choice', section: 'Custody & Hearings',
-        q: P.do + ' want a speedy trial?',
-        sub: 'The Speedy Trial Act requires trial to begin within 70 days of indictment. Most defense attorneys waive this to have more time to prepare — but it\'s ' + P.poss + ' right to assert it.',
+        q: P.do + ' want to invoke the right to a speedy trial?',
+        sub: 'Invoking a speedy trial — requiring the government to bring the case to trial within 70 days — can be a real strategic move. It limits the government\'s time to build a stronger case, lock down witnesses, and add charges. This is worth considering even if ' + P.theyre + ' leaning toward a plea. Speedy trial is ' + P.poss + ' right to assert — and it is waived through silence. All strategy should be discussed with counsel.',
         choices: [
-          { val: 'yes', label: 'Yes — want to go to trial quickly' },
-          { val: 'no', label: 'No — prefer more preparation time' },
+          { val: 'yes', label: 'Yes — invoking the right to a speedy trial' },
+          { val: 'no', label: 'No — waiving for more preparation time' },
           { val: 'dk', label: "Don't know / haven't decided" }
         ]
       });
-      s.push({
-        id: 'speedy_invoked', type: 'choice', section: 'Custody & Hearings',
-        q: 'Has anyone told the judge ' + (isD ? 'you are' : P.they + ' is') + ' invoking the right to a speedy trial?',
-        choices: [
-          { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }, { val: 'dk', label: "Don't know" }
-        ]
-      });
+      if (ans.speedy_trial === 'yes') {
+        s.push({
+          id: 'speedy_invoked', type: 'choice', section: 'Custody & Hearings',
+          q: (isD ? 'Have you personally stated on the record — in front of a judge — that you are invoking the right to a speedy trial, or has your attorney verified they did exactly that?' : 'Has your loved one stated this on the record in front of a judge, or has the attorney verified they did exactly that?'),
+          sub: 'Speedy trial must be asserted on the record. A private conversation with counsel is not enough. If it was not said in court, it has not been invoked.',
+          choices: [
+            { val: 'yes', label: 'Yes — stated on the record / attorney confirmed' },
+            { val: 'no', label: 'No — not yet done' },
+            { val: 'dk', label: "Don't know" }
+          ]
+        });
+      }
       s.push({
         id: 'motions_deadline', type: 'choice', section: 'Custody & Hearings',
         q: P.do + ' know the deadline for filing pretrial motions?',
@@ -3952,12 +3965,7 @@
         html += '</select>';
       }
 
-      if (step.bookPlug) {
-        html += '<div class="cr-itv-book-plug">';
-        html += '<svg class="cr-itv-book-plug-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>';
-        html += '<div class="cr-itv-book-plug-text">If these documents are confusing, <em>Surviving Pretrial</em> walks through each one in plain language — what it means, what to look for, and what to ask your attorney. <a href="https://survivingthefeds.com" target="_blank" rel="noopener">Order it today.</a></div>';
-        html += '</div>';
-      }
+      /* book panel visibility is toggled in render(), not inline */
 
       return html;
     }
@@ -3980,6 +3988,8 @@
       var step = steps[idx];
       var body = document.getElementById('cr-itv-body');
       if (body) body.innerHTML = renderStepHTML(step, answers);
+      var bookPanel = document.getElementById('cr-itv-book-panel');
+      if (bookPanel) bookPanel.hidden = !step.bookPlug;
       bindStepEvents(step);
       updateMeta();
     }
@@ -4229,7 +4239,7 @@
     if (ans.discovery === 'received_not_reviewed' || ans.discovery === 'no') actions.push({ text: 'Schedule a discovery review session with your attorney.', note: 'Discovery must be reviewed before any decisions — especially about a plea — are made.' });
     if (ans.motions_deadline === 'no') actions.push({ text: 'Ask your attorney for the pretrial motions deadline in writing.', note: 'Missing this date permanently waives rights that could help your case.' });
     if (ans.attorney_contact === 'no' || ans.attorney_contact === 'yes_briefly') actions.push({ text: 'Request a substantive meeting with your attorney.', note: 'A brief hallway conversation is not enough. You are entitled to real communication.' });
-    if (ans.speedy_trial === 'yes' && ans.speedy_invoked !== 'yes') actions.push({ text: 'Tell your attorney you want to invoke your speedy trial right.', note: 'If this is what you want, it must be communicated to the court promptly.' });
+    if (ans.speedy_trial === 'yes' && ans.speedy_invoked !== 'yes') actions.push({ text: 'Assert the right to a speedy trial on the record in front of a judge.', note: 'Speedy trial is waived through silence. A private conversation with counsel is not enough — it must be stated on the record in open court.' });
     if (actions.length === 0) actions.push({ text: 'Continue working closely with your defense attorney.', note: 'Based on the information provided, no urgent gaps were identified.' });
 
     html += '<div class="cr-dreport-section cr-dreport-actions">';
@@ -4278,9 +4288,9 @@
     html += '<div class="cr-dreport-section">';
     html += '<div class="cr-dreport-section-head">Hearings &amp; Deadlines</div>';
     html += rptRow('Detention Hearing', formatAnswerLabel(ans.detention_hearing, { yes_detained:'Held — detention ordered', yes_released:'Held — released with conditions', waived:'Waived', pending:'Not yet held', dk:"Don't know" }), ans.detention_hearing === 'yes_detained' ? 'warn' : (ans.detention_hearing === 'yes_released' ? 'ok' : 'dk'));
-    html += rptRow('Speedy Trial', formatAnswerLabel(ans.speedy_trial, { yes:'Wants speedy trial', no:'Waiving — more prep time', dk:"Undecided" }), 'dk', 'The right to a speedy trial (70 days) is the defendant\'s to assert or waive. This must be communicated to the attorney.');
+    html += rptRow('Speedy Trial', formatAnswerLabel(ans.speedy_trial, { yes:'Invoking — 70-day clock running', no:'Waiving — more preparation time', dk:"Undecided" }), 'dk', 'Speedy trial is a strategic right, not just a timeline preference. Invoking it can limit the government\'s time to strengthen the case. It is waived through silence — it must be asserted on the record.');
     if (ans.speedy_trial === 'yes') {
-      html += rptRow('Speedy Trial Invoked', formatAnswerLabel(ans.speedy_invoked, { yes:'Yes — judge notified', no:'Not yet — needs to happen', dk:"Don't know" }), ans.speedy_invoked === 'yes' ? 'ok' : 'flag');
+      html += rptRow('Invoked on the Record', formatAnswerLabel(ans.speedy_invoked, { yes:'Yes — stated on record / attorney confirmed', no:'No — must happen before court', dk:"Don't know" }), ans.speedy_invoked === 'yes' ? 'ok' : 'flag', ans.speedy_invoked !== 'yes' ? 'Speedy trial must be stated on the record in front of a judge. A private conversation with counsel is not enough.' : '');
     }
     html += rptRow('Motions Deadline', formatAnswerLabel(ans.motions_deadline, { yes:'Known', no:'Unknown — get from attorney now', dk:"Not yet applicable" }), ans.motions_deadline === 'yes' ? 'ok' : (ans.motions_deadline === 'no' ? 'flag' : 'dk'), ans.motions_deadline === 'no' ? 'Missing pretrial motion deadlines permanently waives key rights.' : '');
     html += '</div>';
