@@ -1434,6 +1434,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 .hero-eyebrow {
   opacity: 0;
   animation: hero-fade-up .7s var(--ease-out) .15s forwards;
+  color: var(--gold);
 }
 
 .hero-statement-h1 {
