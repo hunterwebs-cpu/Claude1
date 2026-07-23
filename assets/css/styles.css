@@ -46,7 +46,7 @@
   --text:      #F3F4F6;
   --text-soft: #D3D7DD;
   --muted:     #9AA2AC;
-  --faint:     #5B626D;
+  --faint:     #8A929C;
 
   /* Brand accents — matched to the official Surviving the Feds logo
      (black + orange + silver). Change --accent to re-skin the whole site. */
@@ -1403,9 +1403,8 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 
 .hero-statement-bg {
   position: absolute; inset: 0; z-index: 0;
-  /* Photo slot: drop hero-bg.jpg here when ready */
   background-color: var(--bg);
-  background-image: var(--hero-photo, none);
+  background-image: url('../img/hero-bg.jpg');
   background-size: cover;
   background-position: center top;
 }
@@ -1415,8 +1414,8 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   content: "";
   position: absolute; inset: 0;
   background:
-    linear-gradient(170deg, rgba(8,9,12,.94) 0%, rgba(20,10,2,.88) 50%, rgba(8,9,12,.96) 100%),
-    radial-gradient(900px 700px at 65% -10%, rgba(255,140,0,.12), transparent 55%),
+    linear-gradient(170deg, rgba(8,9,12,.72) 0%, rgba(20,10,2,.58) 50%, rgba(8,9,12,.74) 100%),
+    radial-gradient(900px 700px at 65% -10%, rgba(255,140,0,.10), transparent 55%),
     radial-gradient(600px 500px at -5% 110%, rgba(201,208,216,.04), transparent 60%);
 }
 
@@ -1486,8 +1485,8 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation:
-    word-appear 0.04s step-start 1.08s         forwards,
-    word-shine  3s    ease-in-out 2s    infinite;
+    word-appear 0.04s step-start var(--ws-delay, 1.08s)                          forwards,
+    word-shine  5s    ease-in-out calc(var(--ws-delay, 1.08s) + 0.6s)   infinite;
 }
 
 @keyframes word-appear { to { opacity: 1; } }
@@ -1569,7 +1568,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   font-size: .78rem;
   letter-spacing: .22em;
   text-transform: uppercase;
-  color: var(--faint);
+  color: var(--gold);
   opacity: 0;
   animation: hero-fade-up .7s var(--ease-out) 2.7s forwards;
 }

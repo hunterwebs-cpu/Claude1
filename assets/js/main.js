@@ -124,9 +124,13 @@
         });
         node.parentNode.replaceChild(frag, node);
       } else if (node.nodeType === 1 && node.tagName === 'BR') {
-        delay += brPause; // .hl-em clip-path uses CSS timing, not delay var
+        delay += brPause;
+      } else if (node.nodeType === 1 && node.classList && node.classList.contains('word-survive')) {
+        // Tell CSS when to reveal this word, then advance delay past it
+        node.style.setProperty('--ws-delay', delay + 'ms');
+        delay += Array.from(node.textContent).length * charMs;
       }
-      // .hl-em is left untouched — CSS handles its reveal
+      // other elements left untouched
     });
   }());
 
