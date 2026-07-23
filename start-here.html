@@ -80,15 +80,16 @@
       </span>
     </button>
 
-    <div class="cr-section-label cr-section-label--tools">Calculators</div>
+    <div class="cr-section-label cr-section-label--tools">Pre-Plea Guide</div>
 
-    <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="plea" aria-label="Plea deal review tool">
-      <span class="cr-dispatch-num">06</span>
-      <span class="cr-dispatch-text">
+    <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="plea" aria-label="Before the plea — read this first">
+      <span class="cr-dispatch-text" style="padding-left:4px;">
         <span class="cr-dispatch-title">Before the Plea</span>
-        <span class="cr-dispatch-sub">Read this first</span>
+        <span class="cr-dispatch-sub">Read before signing anything</span>
       </span>
     </button>
+
+    <div class="cr-section-label cr-section-label--tools">Calculators</div>
 
     <button class="cr-dispatch-btn cr-dispatch-btn--tool" data-target="bop" aria-label="BOP security designation calculator">
       <span class="cr-dispatch-num">07</span>
@@ -1143,94 +1144,114 @@
     <div id="screen-bop" class="cr-command-screen cr-screen" role="main" aria-label="BOP security designation calculator">
       <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
-        Choose a different tool
+        Back to Command Center
       </button>
       <div class="cr-cmd-tag">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-        Tool 07 — BOP Designation Estimator
+        Tool 07 — BOP Security Designation
       </div>
-      <h2 class="cr-cmd-title">What security level is the Bureau of Prisons likely to assign?</h2>
-      <p class="cr-cmd-sub">BOP uses a point system to determine whether someone goes to a Minimum, Low, Medium, or High security facility. Know your number before you get there. <strong>Results are estimates only</strong> — BOP has discretion beyond the score.</p>
+      <h2 class="cr-cmd-title">What security level will the Bureau of Prisons assign?</h2>
+      <p class="cr-cmd-sub">BOP uses a written point system — Program Statement 5100.08 — to score each person and place them at Minimum, Low, Medium, or High security. <strong>This calculator estimates that score based on factors you control or can verify now.</strong> Know your number before you get there.</p>
+
       <div class="cr-answers">
+
+        <div class="cr-calc-errhigh-banner">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <div><strong>Err on the side of caution with every question.</strong> BOP staff make these scoring calls — not you. When you are unsure whether something counts, assume it does. A lower actual score than you calculated is a bonus. A higher actual score than you expected is a housing surprise you do not want.</div>
+        </div>
+
         <div class="cr-card" style="padding:0;overflow:hidden;">
           <form class="cr-bop-form" id="cr-bop-form" onsubmit="return false;">
 
             <div class="cr-bop-field">
-              <label class="cr-bop-label">Severity of current offense (the federal offense being sentenced for)</label>
+              <label class="cr-bop-label">1. Severity of the current federal offense</label>
+              <p class="cr-bop-explain">BOP rates your offense on their own internal scale, which may differ from how the guidelines classified it. If you are unsure, choose the higher option — BOP routinely rates offenses at a higher severity than defendants expect. Drug quantities matter here: large quantities push severity up significantly.</p>
               <div class="cr-bop-opts" data-bop-key="offense">
-                <button type="button" class="cr-bop-opt" data-pts="7">Greatest — murder, terrorism, sex trafficking, kidnapping</button>
-                <button type="button" class="cr-bop-opt" data-pts="5">High — armed robbery, bank robbery, large drug quantity, child exploitation</button>
-                <button type="button" class="cr-bop-opt" data-pts="3">Moderate — drug trafficking, fraud &gt;$250K, weapons, immigration reentry</button>
-                <button type="button" class="cr-bop-opt" data-pts="1">Low — minor drug, small fraud, misdemeanor-level conduct</button>
+                <button type="button" class="cr-bop-opt" data-pts="7">Greatest — murder, terrorism, kidnapping, sex trafficking, RICO leadership, mass financial fraud</button>
+                <button type="button" class="cr-bop-opt" data-pts="5">High — armed robbery, bank robbery, large drug quantity, child exploitation, large-scale money laundering</button>
+                <button type="button" class="cr-bop-opt" data-pts="3">Moderate — drug distribution (not large quantity), fraud over $250K, firearms offense, immigration reentry</button>
+                <button type="button" class="cr-bop-opt" data-pts="1">Low — minor drug offense, small fraud, misdemeanor-level conduct elevated to federal</button>
                 <button type="button" class="cr-bop-opt" data-pts="0">Lowest — simple possession, minor regulatory violation</button>
               </div>
             </div>
 
             <div class="cr-bop-field">
-              <label class="cr-bop-label">History of violence in prior criminal record</label>
+              <label class="cr-bop-label">2. History of violence in prior criminal record</label>
+              <p class="cr-bop-explain"><strong>BOP's definition of violence is much broader than most people expect.</strong> Under Program Statement 5100.08, violence includes: assault (including simple assault), domestic violence of any kind, reckless endangerment, DUI or vehicular offense where someone was injured, resisting arrest with physical force, brandishing a weapon during any offense, robbery, battery, and any offense where a court found the defendant used, attempted to use, or threatened physical force. A prior DUI where someone was hurt can be — and frequently is — scored as violent by BOP. If you are unsure whether a prior conviction counts, assume it does. If it is a toss-up, BOP will count it against you.</p>
               <div class="cr-bop-opts" data-bop-key="violence">
-                <button type="button" class="cr-bop-opt" data-pts="7">Greatest — prior homicide, kidnapping, or torture conviction</button>
-                <button type="button" class="cr-bop-opt" data-pts="5">Serious violence within last 10 years</button>
+                <button type="button" class="cr-bop-opt" data-pts="7">Greatest — prior conviction for murder, attempted murder, kidnapping, torture, or rape</button>
+                <button type="button" class="cr-bop-opt" data-pts="5">Serious violence within the last 10 years — armed robbery, aggravated assault, serious battery</button>
                 <button type="button" class="cr-bop-opt" data-pts="3">Serious violence more than 10 years ago</button>
-                <button type="button" class="cr-bop-opt" data-pts="1">Minor violence (assault, domestic) more than 10 years ago</button>
-                <button type="button" class="cr-bop-opt" data-pts="0">No history of violence</button>
+                <button type="button" class="cr-bop-opt" data-pts="1">Minor violence — simple assault, domestic violence, DUI with injury, reckless endangerment (any time frame)</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">No history of violence in prior record</button>
               </div>
             </div>
 
             <div class="cr-bop-field">
-              <label class="cr-bop-label">Criminal history points (from PSR or our guideline calculator)</label>
+              <label class="cr-bop-label">3. Federal sentencing criminal history points</label>
+              <p class="cr-bop-explain">These are the criminal history points from the federal sentencing guidelines — the ones calculated in your Presentence Report (PSR). They are not the same as state prior record levels. If you haven't received your PSR yet, use Tool 08 (Guideline Range Calculator) to estimate, or ask your attorney. When in doubt, count every prior conviction.</p>
               <div class="cr-bop-opts" data-bop-key="history">
                 <button type="button" class="cr-bop-opt" data-pts="10">13 or more points</button>
                 <button type="button" class="cr-bop-opt" data-pts="8">10–12 points</button>
                 <button type="button" class="cr-bop-opt" data-pts="6">7–9 points</button>
                 <button type="button" class="cr-bop-opt" data-pts="4">4–6 points</button>
                 <button type="button" class="cr-bop-opt" data-pts="2">2–3 points</button>
-                <button type="button" class="cr-bop-opt" data-pts="0">0–1 points (little or no prior record)</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">0–1 points — little or no prior record</button>
               </div>
             </div>
 
             <div class="cr-bop-field">
-              <label class="cr-bop-label">Detainer — outstanding charge or hold from another jurisdiction</label>
+              <label class="cr-bop-label">4. Outstanding detainer from another jurisdiction</label>
+              <p class="cr-bop-explain">A detainer is a legal hold placed by another agency. An immigration detainer (ICE) means you have been flagged as a deportable alien — this is a Public Safety Factor that automatically blocks placement at minimum security, regardless of your score. A criminal detainer means another state or federal court has a pending case or a sentence you must serve after this one ends.</p>
               <div class="cr-bop-opts" data-bop-key="detainer">
-                <button type="button" class="cr-bop-opt" data-pts="7" data-psf="deportable">Immigration detainer (ICE) — I am a deportable alien</button>
-                <button type="button" class="cr-bop-opt" data-pts="3">Criminal detainer — pending charges in another state or federal case</button>
+                <button type="button" class="cr-bop-opt" data-pts="7" data-psf="deportable">Immigration detainer — ICE has flagged me as a deportable alien (also a PSF — blocks Minimum security)</button>
+                <button type="button" class="cr-bop-opt" data-pts="3">Criminal detainer — another jurisdiction has a pending case or sentence</button>
                 <button type="button" class="cr-bop-opt" data-pts="0">No detainer</button>
               </div>
             </div>
 
             <div class="cr-bop-field">
-              <label class="cr-bop-label">History of escape or walkaway from custody</label>
+              <label class="cr-bop-label">5. History of escape or walkaway from custody</label>
+              <p class="cr-bop-explain">This covers any attempt to leave custody without authorization — from a jail, prison, halfway house, or work release program. A "walkaway" from a minimum-security facility counts differently from a full escape attempt but still adds points. Even older incidents are scored.</p>
               <div class="cr-bop-opts" data-bop-key="escape">
                 <button type="button" class="cr-bop-opt" data-pts="7">Escape or escape attempt within the last 5 years</button>
-                <button type="button" class="cr-bop-opt" data-pts="3">Escape or attempt 5–10 years ago, or walkaway within 5 years</button>
-                <button type="button" class="cr-bop-opt" data-pts="1">Walkaway from a minimum facility more than 5 years ago</button>
-                <button type="button" class="cr-bop-opt" data-pts="0">No escape history</button>
+                <button type="button" class="cr-bop-opt" data-pts="3">Escape or attempt 5–10 years ago, or walkaway within the last 5 years</button>
+                <button type="button" class="cr-bop-opt" data-pts="1">Walkaway from a minimum-security facility more than 5 years ago</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">No history of escape or walkaway</button>
               </div>
             </div>
 
             <div class="cr-bop-field">
-              <label class="cr-bop-label">Voluntary surrender — did you turn yourself in to begin the sentence?</label>
+              <label class="cr-bop-label">6. Voluntary surrender to begin the sentence</label>
+              <p class="cr-bop-explain">If a judge gives you a "report date" and you show up to a BOP facility voluntarily on that date, BOP subtracts 3 points from your score. This only applies if you surrendered voluntarily — not if the judge remanded you immediately at sentencing, not if you were transferred from pretrial custody, and not if you were arrested for a violation.</p>
               <div class="cr-bop-opts" data-bop-key="surrender">
-                <button type="button" class="cr-bop-opt" data-pts="-3">Yes — I surrendered voluntarily (−3 points)</button>
-                <button type="button" class="cr-bop-opt" data-pts="0">No / Not sentenced yet / Taken into custody by arrest</button>
+                <button type="button" class="cr-bop-opt" data-pts="-3">Yes — I received a report date and surrendered voluntarily (−3 points)</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">No — remanded at sentencing, currently in custody, or not yet sentenced</button>
               </div>
             </div>
 
             <div class="cr-bop-field">
-              <label class="cr-bop-label">Age at sentencing</label>
+              <label class="cr-bop-label">7. Age at the time of sentencing</label>
+              <p class="cr-bop-explain">Younger defendants receive additional points (higher security risk in BOP's model). Defendants 56 and older receive a deduction. This is based on your age at sentencing, not your current age.</p>
               <div class="cr-bop-opts" data-bop-key="age">
-                <button type="button" class="cr-bop-opt" data-pts="5">Under 24 (+5 points)</button>
-                <button type="button" class="cr-bop-opt" data-pts="0">24–55 (no adjustment)</button>
-                <button type="button" class="cr-bop-opt" data-pts="-5">56 or older (−5 points)</button>
+                <button type="button" class="cr-bop-opt" data-pts="5">Under 24 at sentencing (+5 points)</button>
+                <button type="button" class="cr-bop-opt" data-pts="0">Age 24–55 at sentencing (no adjustment)</button>
+                <button type="button" class="cr-bop-opt" data-pts="-5">Age 56 or older at sentencing (−5 points)</button>
               </div>
             </div>
 
             <div class="cr-bop-field">
-              <label class="cr-bop-label">Public Safety Factors (select all that apply — any of these blocks Minimum security regardless of score)</label>
+              <label class="cr-bop-label">8. Public Safety Factors — check everything that applies</label>
+              <p class="cr-bop-explain"><strong>Public Safety Factors (PSFs) override the point score entirely.</strong> Even a score of zero does not guarantee minimum security if a PSF applies. Any PSF blocks placement at a minimum-security facility (camp). Some PSFs — particularly life sentences, sentences over 30 years, and murder convictions — require High security (USP or FCI High) regardless of score. Check every box that applies. If you are unsure, check it.</p>
               <div class="cr-bop-checks" id="bop-psf-checks">
-                <label class="cr-bop-check-row"><input type="checkbox" id="psf-sex" /> Current offense involves sex crime or child exploitation</label>
-                <label class="cr-bop-check-row"><input type="checkbox" id="psf-sentence" /> Likely sentence is 10 or more years total</label>
-                <label class="cr-bop-check-row"><input type="checkbox" id="psf-gang" /> Member of a Security Threat Group (gang) on BOP's list</label>
+                <label class="cr-bop-check-row"><input type="checkbox" id="psf-life" /> <span><strong>Life sentence or sentence of 30 or more years</strong> — this requires High security placement (USP or FCI High) and blocks all lower levels regardless of point score</span></label>
+                <label class="cr-bop-check-row"><input type="checkbox" id="psf-murder" /> <span><strong>Current or prior conviction for murder, attempted murder, or voluntary manslaughter</strong> — typically results in USP or FCI High placement</span></label>
+                <label class="cr-bop-check-row"><input type="checkbox" id="psf-sex" /> <span><strong>Current offense involves a sex crime or child exploitation</strong> — blocks Minimum security</span></label>
+                <label class="cr-bop-check-row"><input type="checkbox" id="psf-threat" /> <span><strong>Threatened a federal judge, prosecutor, law enforcement officer, or government official</strong> — blocks Minimum security</span></label>
+                <label class="cr-bop-check-row"><input type="checkbox" id="psf-sentence" /> <span><strong>Sentence of 10 or more years</strong> (if not already covered by life/30+ above) — blocks Minimum security during the early portion of the sentence</span></label>
+                <label class="cr-bop-check-row"><input type="checkbox" id="psf-gang" /> <span><strong>Member of a Security Threat Group (STG/gang) on BOP's active list</strong> — blocks Minimum security</span></label>
+                <label class="cr-bop-check-row"><input type="checkbox" id="psf-juvviol" /> <span><strong>Violence or serious misconduct while in a juvenile facility</strong> — blocks Minimum security</span></label>
+                <label class="cr-bop-check-row"><input type="checkbox" id="psf-escape2" /> <span><strong>Serious escape history (if not already reflected in scoring above)</strong> — also functions as a PSF blocking Minimum security</span></label>
               </div>
             </div>
 
@@ -1239,11 +1260,13 @@
 
         <!-- Live Result -->
         <div class="cr-bop-result" id="cr-bop-result">
-          <div class="cr-bop-result-waiting">Select responses above to calculate your estimated designation level.</div>
+          <div class="cr-bop-result-waiting">Answer the questions above to calculate your estimated designation level.</div>
         </div>
 
+        <!-- Custody Score Explanation -->
         <div class="cr-card cr-bop-note">
-          <p><strong>Important:</strong> This calculator uses the BOP's published security scoring methodology (Program Statement 5100.08), applied to your self-reported factors. It produces an <em>estimate only</em>. BOP staff exercise discretion beyond the numerical score — proximity to family, medical needs, program availability, and case manager recommendations all influence the final designation. Minimum security (camp) is the most desirable outcome; a calculated score does not guarantee it.</p>
+          <p><strong>This is your Base Score — not your final designation.</strong> The point system above produces what BOP calls a "Security Designation Score." But there is a second score: the <strong>Custody Score</strong>, which BOP calculates after you have been in a facility for approximately six months. The Custody Score looks at your conduct, program participation, and institutional adjustment inside the facility. It can raise or lower your designation level. A person who scored at Low may earn down to Minimum through good custody behavior. A person who scored at Minimum may be raised to Low through misconduct. Both scores matter — managing your behavior inside the facility is as important as knowing your initial score.</p>
+          <p style="margin-top:10px;"><strong>BOP has discretion beyond the score.</strong> Staff can designate above or below the calculated level based on factors not captured here: proximity to family, medical needs, program availability, population caps at specific facilities, and case manager recommendations. An estimated designation is not a guarantee. The score gives you the baseline; BOP makes the final call.</p>
         </div>
       </div>
     </div>
@@ -1352,16 +1375,16 @@
         Tool 09 — Sentencing Statistics
       </div>
       <h2 class="cr-cmd-title">What does the data say about cases like this one?</h2>
-      <p class="cr-cmd-sub">The U.S. Sentencing Commission tracks every federal sentence. Select an offense type, then enter your guideline level to see both layers of data.</p>
+      <p class="cr-cmd-sub">Select an offense type to see national sentencing data from 480,398 federal cases across FY2018–2025. For a full analysis of your specific judge, contact <a href="https://sentencingstats.com" target="_blank" rel="noopener" style="color:var(--cr-accent);">sentencingstats.com</a>.</p>
       <div class="cr-answers">
         <div class="cr-calc-errhigh-banner">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-          <strong>These are national averages.</strong> Below-range sentences in the data reflect cooperation, specific district practices (Fast Track), and judicial variance. A 40% below-range rate does not mean a 40% chance of getting below range — it means that happened across all cases nationally, for different reasons.
+          <strong>National averages only.</strong> Below-range sentences reflect cooperation, district Fast Track programs, and judicial variance — not just the facts of the case. These numbers describe what happened nationally, not what will happen here. Your judge's specific sentencing patterns matter enormously. Contact <strong>sentencingstats.com</strong> (855-778-8654) for a judge-specific analysis.
         </div>
 
         <div class="cr-card" style="padding:20px 20px 8px;">
           <div class="cr-stats-field-row">
-            <div class="cr-stats-field">
+            <div class="cr-stats-field" style="flex:2;">
               <label class="cr-gl-label" for="stats-offense-type">Offense type</label>
               <select id="stats-offense-type" class="cr-gl-input cr-gl-input--medium">
                 <option value="">— select offense type —</option>
@@ -1376,20 +1399,7 @@
               </select>
             </div>
             <div class="cr-stats-field">
-              <label class="cr-gl-label" for="stats-fy">Fiscal year</label>
-              <select id="stats-fy" class="cr-gl-input cr-gl-input--short">
-                <option value="2025">FY2025</option>
-                <option value="2024">FY2024</option>
-                <option value="2023">FY2023</option>
-                <option value="2022" selected>FY2022</option>
-                <option value="2021">FY2021</option>
-                <option value="2020">FY2020</option>
-                <option value="2019">FY2019</option>
-                <option value="2018">FY2018</option>
-              </select>
-            </div>
-            <div class="cr-stats-field">
-              <label class="cr-gl-label" for="stats-offense-level">Adjusted offense level (optional)</label>
+              <label class="cr-gl-label" for="stats-offense-level">Offense level (optional)</label>
               <input type="number" id="stats-offense-level" class="cr-gl-input cr-gl-input--short" min="1" max="43" placeholder="e.g. 22" />
             </div>
           </div>
@@ -1403,7 +1413,7 @@
           <!-- Level bucket stats populated by JS -->
         </div>
 
-        <p class="cr-gl-disclaimer" id="stats-disclaimer">Source: U.S. Sentencing Commission individual-level NID dataset, FY2022 — ussc.gov. Data is national aggregate from <span id="stats-fy-case-count"></span> sentenced defendants. Individual district and judge variance not reflected.</p>
+        <p class="cr-gl-disclaimer" id="stats-disclaimer">Source: U.S. Sentencing Commission individual-level NID dataset, FY2018–FY2025 — ussc.gov. Aggregate of 480,398 sentenced defendants nationally. Plea/trial medians are national USSC averages. Individual district and judge variance not reflected — contact sentencingstats.com (855-778-8654) for judge-specific data.</p>
       </div>
     </div>
 
@@ -2492,7 +2502,6 @@
 
   /* ---- Sentencing Statistics — live multi-year data from USSC NID files ---- */
   var STATS_DATA = null; // loaded from sentencing-stats.json
-  var STATS_FY = '2022';
 
   var USSC_LABELS = {
     drug:       {label:'Drug Trafficking',note:'Drug quantity drives offense level — the stipulated quantity in the factual basis matters enormously. Below-range sentences largely reflect cooperation (§5K1.1) and Fast Track programs.'},
@@ -2515,48 +2524,50 @@
     '37_43':{label:'Levels 37–43',zone:'Zone D — highest',note:'Mandatory minimums are nearly universal. Even with cooperation, sentences often exceed 10–15 years.'}
   };
 
-  function getStatsForFY(fy) {
-    if (!STATS_DATA) return null;
-    var fyStr = String(fy || STATS_FY);
-    var result = { by_offense: {}, by_level: {} };
-    Object.keys(STATS_DATA.by_offense || {}).forEach(function(k) {
-      var d = (STATS_DATA.by_offense[k] || {})[fyStr] || {};
-      var lbl = USSC_LABELS[k] || {};
-      var totalCases = 0;
-      STATS_DATA.years.forEach(function(y){ if(String(y.fy)===fyStr) totalCases = y.total_cases; });
-      result.by_offense[k] = Object.assign({}, d, {
-        label: lbl.label || k,
-        note: lbl.note || '',
-        cases: d.cases ? d.cases.toLocaleString() : '—'
-      });
+  function getAggregateOffense(key) {
+    if (!STATS_DATA || !STATS_DATA.aggregate) return null;
+    var d = (STATS_DATA.aggregate.by_offense || {})[key];
+    if (!d) return null;
+    var lbl = USSC_LABELS[key] || {};
+    return Object.assign({}, d, {
+      label: lbl.label || d.label || key,
+      note: lbl.note || '',
+      cases: d.cases ? d.cases.toLocaleString() : '—'
     });
-    Object.keys(STATS_DATA.by_level || {}).forEach(function(k) {
-      var d = (STATS_DATA.by_level[k] || {})[fyStr] || {};
-      var lbl = USSC_LEVEL_LABELS[k] || {};
-      result.by_level[k] = Object.assign({}, d, {
-        label: lbl.label || k,
-        zone: lbl.zone || '',
-        note: lbl.note || ''
-      });
-    });
-    return result;
   }
 
-  // Backwards-compat shims used by existing render functions
-  function getUSCC(key) {
-    var s = getStatsForFY(STATS_FY);
-    return s ? s.by_offense[key] : null;
-  }
+  // getUSCC now returns aggregate data
+  function getUSCC(key) { return getAggregateOffense(key); }
+
   function getUSCCLevel(key) {
-    var s = getStatsForFY(STATS_FY);
-    return s ? s.by_level[key] : null;
+    if (!STATS_DATA || !STATS_DATA.by_level) return null;
+    // Aggregate level data: weighted average across all years
+    var allYearData = STATS_DATA.by_level[key];
+    if (!allYearData) return null;
+    var years = Object.values(allYearData);
+    var totalCases = years.reduce(function(s,y){ return s + (y.cases||0); }, 0);
+    if (!totalCases) return null;
+    var wMedian = years.reduce(function(s,y){ return s + (y.median||0)*(y.cases||0); }, 0) / totalCases;
+    var wWithin = years.reduce(function(s,y){ return s + (y.pct_within||0)*(y.cases||0); }, 0) / totalCases;
+    var wBelow  = years.reduce(function(s,y){ return s + (y.pct_below||0)*(y.cases||0); }, 0) / totalCases;
+    var wAbove  = years.reduce(function(s,y){ return s + (y.pct_above||0)*(y.cases||0); }, 0) / totalCases;
+    var lbl = USSC_LEVEL_LABELS[key] || {};
+    return {
+      label: lbl.label || key,
+      zone: lbl.zone || '',
+      note: lbl.note || '',
+      cases: totalCases,
+      median: Math.round(wMedian),
+      pct_within: Math.round(wWithin * 10) / 10,
+      pct_below: Math.round(wBelow * 10) / 10,
+      pct_above: Math.round(wAbove * 10) / 10
+    };
   }
 
   fetch('assets/data/sentencing-stats.json')
     .then(function(r){ return r.json(); })
     .then(function(data){
       STATS_DATA = data;
-      updateStatsDisclaimer();
       // Re-render stats if screen is visible
       var offEl = document.getElementById('stats-offense-type');
       if (offEl && offEl.value) {
@@ -2566,18 +2577,6 @@
       updateStatsLevelPanel();
     })
     .catch(function(){ /* graceful — hardcoded labels still show */ });
-
-  function updateStatsDisclaimer() {
-    var fyStr = STATS_FY;
-    var totalCases = 0;
-    if (STATS_DATA) {
-      STATS_DATA.years.forEach(function(y){ if(String(y.fy)===fyStr) totalCases = y.total_cases; });
-    }
-    var countEl = document.getElementById('stats-fy-case-count');
-    if (countEl) countEl.textContent = totalCases ? totalCases.toLocaleString() : '—';
-    var disc = document.getElementById('stats-disclaimer');
-    if (disc) disc.innerHTML = disc.innerHTML.replace(/FY\d{4}/g, 'FY' + fyStr);
-  }
 
   function lvlToBucket(lvl) {
     if(lvl<=8)return'1_8'; if(lvl<=12)return'9_12'; if(lvl<=16)return'13_16';
@@ -2608,14 +2607,40 @@
       '<div class="cr-plea-stats-median"><span class="cr-plea-stats-median-label">Median sentence</span><span class="cr-plea-stats-median-val">'+medStr+' months</span><span class="cr-plea-stats-median-sub">('+moToYr(medStr)+')</span></div>';
   }
 
+  function moToYrStr(m) { if(!m&&m!==0)return'—'; return moToYr(m); }
+
   function renderStatsPanel(key, panelEl) {
     if(!panelEl)return;
     var d = getUSCC(key) || USSC_LABELS[key];
     if(!d){panelEl.hidden=true;return;}
     var tot = ((d.govBelow||0) + (d.otherBelow||0));
+    var casesNote = d.cases ? d.cases + ' cases' : '';
+    // Plea / trial sentence comparison table
+    var hasPleaTrial = d.plea_median && d.trial_median;
+    var pleaTrialHTML = '';
+    if (hasPleaTrial) {
+      pleaTrialHTML =
+        '<div class="cr-stats-plea-trial">'+
+        '<div class="cr-stats-pt-label">Sentence comparison — Plea vs. Trial</div>'+
+        '<div class="cr-stats-pt-grid">'+
+          '<div class="cr-stats-pt-col cr-stats-pt-col--plea">'+
+            '<div class="cr-stats-pt-head">PLEA</div>'+
+            '<div class="cr-stats-pt-row"><span>Median</span><strong>'+d.plea_median+' mo</strong><em>('+moToYrStr(d.plea_median)+')</em></div>'+
+            '<div class="cr-stats-pt-row"><span>Mean</span><strong>'+d.plea_mean+' mo</strong><em>('+moToYrStr(d.plea_mean)+')</em></div>'+
+          '</div>'+
+          '<div class="cr-stats-pt-col cr-stats-pt-col--trial">'+
+            '<div class="cr-stats-pt-head">TRIAL</div>'+
+            '<div class="cr-stats-pt-row"><span>Median</span><strong>'+d.trial_median+' mo</strong><em>('+moToYrStr(d.trial_median)+')</em></div>'+
+            '<div class="cr-stats-pt-row"><span>Mean</span><strong>'+d.trial_mean+' mo</strong><em>('+moToYrStr(d.trial_mean)+')</em></div>'+
+          '</div>'+
+        '</div>'+
+        '<p class="cr-stats-pt-note">National USSC averages, FY2018–2025. The gap between plea and trial reflects the trial penalty — defendants convicted at trial typically face significantly longer sentences. These are aggregate figures; the actual outcome depends heavily on your judge\'s record. For a complete analysis, contact <a href="https://sentencingstats.com" target="_blank" rel="noopener" style="color:var(--cr-accent)">sentencingstats.com</a> (855-778-8654).</p>'+
+        '</div>';
+    }
     panelEl.innerHTML=
-      '<div class="cr-plea-stats-header"><strong>'+(d.label||key)+'</strong><span class="cr-plea-stats-meta">'+(d.cases||'—')+' cases &nbsp;·&nbsp; FY'+STATS_FY+' USSC data</span></div>'+
+      '<div class="cr-plea-stats-header"><strong>'+(d.label||key)+'</strong><span class="cr-plea-stats-meta">'+casesNote+' &nbsp;·&nbsp; FY2018–2025 USSC data</span></div>'+
       statsBarHTML(d)+
+      pleaTrialHTML+
       '<div class="cr-plea-stats-insight"><strong>'+tot+'%</strong> of defendants in this category were sentenced <em>below</em> the guideline range. '+(d.note||'')+'</div>';
     panelEl.hidden=false;
     sharedCalc.offenseType=key;
@@ -2642,16 +2667,6 @@
     else{if(p)p.hidden=true;}
     updateStatsLevelPanel();
   });}
-  var statsFyEl=document.getElementById('stats-fy');
-  if(statsFyEl){statsFyEl.addEventListener('change',function(){
-    STATS_FY=this.value;
-    updateStatsDisclaimer();
-    var offEl=document.getElementById('stats-offense-type');
-    var p=document.getElementById('stats-offense-panel');
-    if(offEl&&offEl.value&&p){renderStatsPanel(offEl.value,p);}
-    else if(p){p.hidden=true;}
-    updateStatsLevelPanel();
-  });}
   var statsLvlEl=document.getElementById('stats-offense-level');
   if(statsLvlEl)statsLvlEl.addEventListener('input',updateStatsLevelPanel);
 
@@ -2671,7 +2686,7 @@
       tableRangeNote+
       statsBarHTML({within:bd.pct_within,pct_below:bd.pct_below,pct_above:bd.pct_above,govBelow:0,otherBelow:bd.pct_below,above:bd.pct_above,median:bd.median})+
       '<div class="cr-plea-stats-insight">'+bd.note+'</div>'+
-      '<div class="cr-stats-level-caveat">Source: USSC individual-level NID dataset, FY'+STATS_FY+'. For cell-level data and additional breakdowns, see the USSC Interactive Data Analyzer at ussc.gov.</div>'+
+      '<div class="cr-stats-level-caveat">Source: USSC individual-level NID dataset, FY2018–2025 aggregate. For cell-level data and judge-specific breakdowns, contact <a href="https://sentencingstats.com" target="_blank" rel="noopener">sentencingstats.com</a> (855-778-8654).</div>'+
     '</div>';
     p.hidden=false;
   }
@@ -2794,17 +2809,18 @@
 
     // Section 5: Sentencing Statistics
     var _sd = getUSCC(offenseType) || (USSC_LABELS[offenseType] ? Object.assign({}, USSC_LABELS[offenseType]) : null);
-    html += '<div class="cr-plea-report-section"><h3>5 — Sentencing Statistics (FY'+STATS_FY+' USSC Data)</h3>';
+    html += '<div class="cr-plea-report-section"><h3>5 — Sentencing Statistics (FY2018–2025 USSC Data)</h3>';
     if (offenseType && _sd && _sd.within !== undefined) {
       var totBelow = (_sd.govBelow||0) + (_sd.otherBelow||0);
       html += row('Offense category', _sd.label||offenseType);
-      html += row('Cases in dataset', (_sd.cases||'—') + ' (FY'+STATS_FY+')');
+      html += row('Cases in dataset', (_sd.cases||'—') + ' (FY2018–2025)');
       html += row('Sentenced within range', (_sd.within||0) + '%');
       html += row('Sentenced below — cooperation', (_sd.govBelow||0) + '%');
       html += row('Sentenced below — other', (_sd.otherBelow||0) + '%');
       html += row('Sentenced above range', (_sd.above||0) + '%');
-      html += row('Median sentence', (_sd.median||'—') + ' months (' + moToYr(_sd.median) + ')', false);
-      html += '<p style="font-size:.8rem;color:#555;margin:8px 0 0;line-height:1.6;border-left:3px solid #d08020;padding-left:10px;">' + totBelow + '% of defendants in this category were sentenced <em>below</em> the guideline range. ' + (_sd.note||'') + '</p>';
+      html += row('Plea — median / mean', (_sd.plea_median||'—') + ' / ' + (_sd.plea_mean||'—') + ' months');
+      html += row('Trial — median / mean', (_sd.trial_median||'—') + ' / ' + (_sd.trial_mean||'—') + ' months', false);
+      html += '<p style="font-size:.8rem;color:#555;margin:8px 0 0;line-height:1.6;border-left:3px solid #d08020;padding-left:10px;">' + totBelow + '% of defendants in this category were sentenced <em>below</em> the guideline range. ' + (_sd.note||'') + ' For judge-specific analysis contact <strong>sentencingstats.com</strong> (855-778-8654).</p>';
     } else {
       html += '<p style="font-size:.83rem;color:#666;margin:4px 0;">Use the Sentencing Statistics tool (Tool 09) to select your offense type — results will appear here automatically.</p>';
     }
@@ -2902,13 +2918,27 @@
 
   function calcBop() {
     var total = 0;
-    var psfs = [];
+    var psfsHigh = []; // PSFs that force HIGH security (USP)
+    var psfsMin  = []; // PSFs that block Minimum only
     Object.keys(bopScores).forEach(function(k) { total += bopScores[k]; });
-    // Immigration detainer is also a PSF
-    if (bopScores.detainer_psf) psfs.push('Deportable alien (immigration detainer)');
-    if (document.getElementById('psf-sex')      && document.getElementById('psf-sex').checked)      psfs.push('Sex offender (current offense)');
-    if (document.getElementById('psf-sentence') && document.getElementById('psf-sentence').checked) psfs.push('Sentence of 10 or more years');
-    if (document.getElementById('psf-gang')     && document.getElementById('psf-gang').checked)     psfs.push('Security Threat Group / gang affiliation');
+
+    // Immigration detainer (answered via button, not checkbox) — blocks Minimum
+    if (bopScores.detainer_psf) psfsMin.push('Deportable alien (immigration detainer)');
+
+    // Checkbox PSFs — HIGH-forcing
+    function cbChecked(id) { var el = document.getElementById(id); return el && el.checked; }
+    if (cbChecked('psf-life'))    psfsHigh.push('Life sentence or sentence of 30+ years — requires High security (USP/FCI High)');
+    if (cbChecked('psf-murder'))  psfsHigh.push('Murder / attempted murder / voluntary manslaughter conviction — typically USP or FCI High');
+
+    // Checkbox PSFs — Minimum-blocking
+    if (cbChecked('psf-sex'))     psfsMin.push('Sex offender (current offense)');
+    if (cbChecked('psf-threat'))  psfsMin.push('Threatened a federal judge, prosecutor, law enforcement, or government official');
+    if (cbChecked('psf-sentence'))psfsMin.push('Sentence of 10 or more years');
+    if (cbChecked('psf-gang'))    psfsMin.push('Security Threat Group / gang affiliation');
+    if (cbChecked('psf-juvviol')) psfsMin.push('Violence or serious misconduct in a juvenile facility');
+    if (cbChecked('psf-escape2')) psfsMin.push('Serious escape history');
+
+    var allPsfs = psfsHigh.concat(psfsMin);
 
     var answered = Object.keys(bopScores).length;
     var totalFields = 7; // offense, violence, history, detainer, escape, surrender, age
@@ -2918,10 +2948,14 @@
     }
 
     var level, levelClass, levelDesc;
-    if (total <= 11 && psfs.length === 0) {
+    // HIGH-forcing PSFs override the point score entirely
+    if (psfsHigh.length > 0) {
+      level = 'HIGH'; levelClass = 'high';
+      levelDesc = 'One or more Public Safety Factors require High security placement regardless of your point score. This typically means a United States Penitentiary (USP) or FCI High. Point totals do not change this outcome — the PSF overrides the score.';
+    } else if (total <= 11 && psfsMin.length === 0) {
       level = 'MINIMUM'; levelClass = 'min';
       levelDesc = 'A Minimum security prison camp (FPC). The most favorable designation. Typically open dormitory housing, lower supervision, work programs, and often located adjacent to a Low or Medium facility. Eligibility for home confinement and halfway house placement may come sooner.';
-    } else if (total <= 11 && psfs.length > 0) {
+    } else if (total <= 11 && psfsMin.length > 0) {
       level = 'LOW'; levelClass = 'low';
       levelDesc = 'Your score qualifies for Minimum, but one or more Public Safety Factors prevent that designation. The likely outcome is a Low security Federal Correctional Institution (FCI). If the PSF can be addressed (e.g., an ICE detainer resolved), re-designation is possible.';
     } else if (total <= 15) {
@@ -2942,11 +2976,18 @@
     html += '</div>';
     html += '<div class="cr-bop-level-desc">' + levelDesc + '</div>';
 
-    if (psfs.length > 0) {
-      html += '<div class="cr-bop-psf-warn">';
-      html += '<strong>&#9888; Public Safety Factors present — cannot be designated Minimum:</strong>';
+    if (psfsHigh.length > 0) {
+      html += '<div class="cr-bop-psf-warn cr-bop-psf-warn--high">';
+      html += '<strong>&#9888; High Security Required — PSF overrides point score:</strong>';
       html += '<ul>';
-      psfs.forEach(function(p) { html += '<li>' + p + '</li>'; });
+      psfsHigh.forEach(function(p) { html += '<li>' + p + '</li>'; });
+      html += '</ul></div>';
+    }
+    if (psfsMin.length > 0) {
+      html += '<div class="cr-bop-psf-warn">';
+      html += '<strong>&#9888; Public Safety Factor(s) present — Minimum security blocked:</strong>';
+      html += '<ul>';
+      psfsMin.forEach(function(p) { html += '<li>' + p + '</li>'; });
       html += '</ul></div>';
     }
 

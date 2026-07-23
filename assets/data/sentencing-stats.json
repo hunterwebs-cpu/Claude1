@@ -1004,5 +1004,125 @@
         "pct_above": 0.9
       }
     }
+  },
+  "aggregate": {
+    "total_cases": 480398,
+    "period": "FY2018–FY2025",
+    "source": "U.S. Sentencing Commission individual-level NID dataset",
+    "note": "Weighted aggregate across 8 fiscal years. Plea/trial medians are national USSC averages. For judge-specific analysis and case-specific projections, contact sentencingstats.com.",
+    "by_offense": {
+      "drug": {
+        "label": "Drug Trafficking (§2D1.1)",
+        "cases": 132862,
+        "median": 68,
+        "mean": 88,
+        "plea_median": 58,
+        "plea_mean": 74,
+        "trial_median": 135,
+        "trial_mean": 162,
+        "within": 30.8,
+        "govBelow": 38.7,
+        "otherBelow": 28.7,
+        "above": 1.7
+      },
+      "fraud": {
+        "label": "Fraud / Theft / Embezzlement / Tax (§2B1.1)",
+        "cases": 41898,
+        "median": 24,
+        "mean": 38,
+        "plea_median": 20,
+        "plea_mean": 32,
+        "trial_median": 54,
+        "trial_mean": 78,
+        "within": 43.2,
+        "govBelow": 25.1,
+        "otherBelow": 29.2,
+        "above": 2.5
+      },
+      "firearm": {
+        "label": "Firearms Offenses (§2K2.1 / §924(c))",
+        "cases": 59882,
+        "median": 45,
+        "mean": 57,
+        "plea_median": 40,
+        "plea_mean": 50,
+        "trial_median": 92,
+        "trial_mean": 112,
+        "within": 51.8,
+        "govBelow": 17.1,
+        "otherBelow": 25.6,
+        "above": 5.5
+      },
+      "immigration": {
+        "label": "Unlawful Reentry / Immigration (§2L1.2)",
+        "cases": 164595,
+        "median": 13,
+        "mean": 16,
+        "plea_median": 12,
+        "plea_mean": 14,
+        "trial_median": 22,
+        "trial_mean": 28,
+        "within": 62.9,
+        "govBelow": 17.4,
+        "otherBelow": 16.9,
+        "above": 2.8
+      },
+      "sexual": {
+        "label": "Sexual Exploitation / Child Pornography",
+        "cases": 19659,
+        "median": 123,
+        "mean": 145,
+        "plea_median": 105,
+        "plea_mean": 124,
+        "trial_median": 188,
+        "trial_mean": 215,
+        "within": 37.6,
+        "govBelow": 25.5,
+        "otherBelow": 32.8,
+        "above": 4.1
+      },
+      "money": {
+        "label": "Money Laundering (§2S1.1)",
+        "cases": 8732,
+        "median": 49,
+        "mean": 65,
+        "plea_median": 42,
+        "plea_mean": 56,
+        "trial_median": 90,
+        "trial_mean": 118,
+        "within": 24.9,
+        "govBelow": 43.5,
+        "otherBelow": 29.7,
+        "above": 1.8
+      },
+      "robbery": {
+        "label": "Robbery / Bank Robbery (§2B3.1)",
+        "cases": 10651,
+        "median": 95,
+        "mean": 110,
+        "plea_median": 80,
+        "plea_mean": 94,
+        "trial_median": 132,
+        "trial_mean": 155,
+        "within": 39.5,
+        "govBelow": 26.8,
+        "otherBelow": 27.7,
+        "above": 6.0
+      },
+      "other": {
+        "label": "All Federal Offenses (national average)",
+        "cases": 480398,
+        "median": 24,
+        "mean": 38,
+        "plea_median": 20,
+        "plea_mean": 32,
+        "trial_median": 65,
+        "trial_mean": 88,
+        "within": 47.8,
+        "govBelow": 24.6,
+        "otherBelow": 23.8,
+        "above": 3.8
+      }
+    }
   }
 }
