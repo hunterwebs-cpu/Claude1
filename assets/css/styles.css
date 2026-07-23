@@ -418,8 +418,12 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
   text-transform: uppercase;
   display: flex; flex-direction: column; align-items: center; gap: 10px;
 }
-.scroll-cue .line { width: 1px; height: 40px; background: linear-gradient(var(--accent), transparent); animation: cue 2s var(--ease) infinite; }
-@keyframes cue { 0%{transform:scaleY(0);transform-origin:top} 40%{transform:scaleY(1);transform-origin:top} 60%{transform:scaleY(1);transform-origin:bottom} 100%{transform:scaleY(0);transform-origin:bottom} }
+.scroll-cue .line { display: none; }
+.scroll-cue span:first-child { animation: scroll-pulse 2.5s ease-in-out infinite; }
+@keyframes scroll-pulse {
+  0%, 100% { color: var(--muted); }
+  50%       { color: var(--accent); }
+}
 
 /* ---- Marquee ------------------------------------------------------------ */
 .marquee {
