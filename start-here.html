@@ -4658,6 +4658,53 @@
     html += '</div>';
     html += '</div>';
 
+    /* ---- STATISTICS EDUCATION ------------------------------------------ */
+    var _stKey = sharedCalc.offenseType || '';
+    var _stD = _stKey ? (getUSCC(_stKey) || (USSC_LABELS[_stKey] ? Object.assign({}, USSC_LABELS[_stKey]) : null)) : null;
+    html += '<div class="cr-dreport-section">';
+    html += '<div class="cr-dreport-section-head">Understanding the Sentencing Data</div>';
+    html += '<div class="cr-dreport-intel">';
+    html += '<p><strong>The median.</strong> The median sentence is the midpoint of all cases in the dataset — exactly half of all sentenced defendants received <em>more</em> than the median, and exactly half received <em>less</em>. If the median is 36 months, that means 50% of people in that category received more than 36 months and 50% received less. The median is not pulled by a handful of extreme outliers. When looking at sentencing data, the median is the single most reliable number to anchor expectations on.</p>';
+    html += '<p><strong>The mean (average).</strong> The mean is calculated by adding every sentence in the dataset and dividing by the total number of cases. Because it includes every data point equally, the mean is pulled upward by extreme outliers — a handful of defendants who received 30- or 40-year sentences will push the average well above what most defendants experience. This is why the mean consistently runs higher than the median in federal sentencing data: the distribution has a long tail on the high end.</p>';
+    html += '<div class="cr-dreport-bell-wrap">';
+    html += '<svg class="cr-dreport-bell-svg" viewBox="0 0 420 185" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">';
+    html += '<path d="M108,165 C128,165 150,46 210,45 C270,45 292,165 312,165 Z" fill="rgba(60,110,200,0.12)"/>';
+    html += '<path d="M20,165 C50,165 80,162 108,153 C140,142 162,78 185,53 C193,46 200,44 210,44 C220,44 227,46 235,53 C258,78 280,142 312,153 C340,162 370,165 400,165" fill="none" stroke="#3a70c8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>';
+    html += '<line x1="20" y1="165" x2="400" y2="165" stroke="#bbb" stroke-width="1"/>';
+    html += '<line x1="210" y1="38" x2="210" y2="167" stroke="#c04010" stroke-width="1.5" stroke-dasharray="5,3"/>';
+    html += '<line x1="238" y1="60" x2="238" y2="167" stroke="#777" stroke-width="1.2" stroke-dasharray="3,3"/>';
+    html += '<text x="210" y="32" text-anchor="middle" font-size="11" fill="#c04010" font-family="Arial,sans-serif" font-weight="bold">MEDIAN</text>';
+    html += '<text x="242" y="56" text-anchor="start" font-size="10" fill="#666" font-family="Arial,sans-serif">MEAN</text>';
+    html += '<text x="210" y="115" text-anchor="middle" font-size="14" fill="#2a5caa" font-family="Arial,sans-serif" font-weight="bold">68%</text>';
+    html += '<text x="210" y="132" text-anchor="middle" font-size="10" fill="#2a5caa" font-family="Arial,sans-serif">of cases cluster here</text>';
+    html += '<text x="60" y="158" text-anchor="middle" font-size="9" fill="#aaa" font-family="Arial,sans-serif">← shorter sentences</text>';
+    html += '<text x="355" y="158" text-anchor="middle" font-size="9" fill="#aaa" font-family="Arial,sans-serif">longer sentences →</text>';
+    html += '</svg>';
+    html += '<p class="cr-dreport-bell-caption">A theoretical normal (bell) distribution shown for illustration. Most cases cluster around the median — 68% fall within one standard deviation of the center. As you move further in either direction, the number of cases drops sharply. In federal court, the curve actually skews <em>left</em> (toward shorter sentences) because cooperation and judicial variances pull the median below the midpoint of the guideline range.</p>';
+    html += '</div>';
+    html += '<p><strong>What the data actually shows in federal court.</strong> Federal sentencing data does not follow a perfect bell curve. It skews toward <em>below</em>-range sentences. Two mechanisms drive this: (1) cooperation departures — §5K1.1 motions filed by the government when a defendant provides substantial assistance, which can authorize sentences dramatically below the guideline floor; and (2) non-cooperation downward variances at the judge\'s discretion under 18 U.S.C. § 3553(a). Because of these forces, the median sentence in most federal offense categories falls <em>below</em> the midpoint of the guideline range. Sentences above the range are statistically rare across nearly all offense categories nationally.</p>';
+    if (_stKey && _stD && _stD.within !== undefined) {
+      var _stTotBelow = pct((_stD.govBelow||0) + (_stD.otherBelow||0));
+      var _stMed = _stD.plea_median !== undefined ? _stD.plea_median : _stD.median;
+      var _stMean = _stD.plea_mean !== undefined ? _stD.plea_mean : _stD.mean;
+      html += '<div class="cr-dreport-stats-snapshot">';
+      html += '<div class="cr-dreport-stats-snapshot-head">' + (_stD.label||_stKey) + ' &nbsp;·&nbsp; FY2018–2025 USSC Data</div>';
+      html += '<div class="cr-dreport-stats-snap-grid">';
+      html += '<div class="cr-dreport-stats-snap-item"><div class="cr-dreport-stats-snap-val">' + pct(_stD.within||0) + '%</div><div class="cr-dreport-stats-snap-lbl">Sentenced within guideline range</div></div>';
+      html += '<div class="cr-dreport-stats-snap-item"><div class="cr-dreport-stats-snap-val">' + _stTotBelow + '%</div><div class="cr-dreport-stats-snap-lbl">Sentenced below guideline range</div></div>';
+      html += '<div class="cr-dreport-stats-snap-item"><div class="cr-dreport-stats-snap-val">' + pct(_stD.above||0) + '%</div><div class="cr-dreport-stats-snap-lbl">Sentenced above guideline range</div></div>';
+      if (_stMed !== undefined && _stMed !== null) html += '<div class="cr-dreport-stats-snap-item"><div class="cr-dreport-stats-snap-val">' + _stMed + ' mo.</div><div class="cr-dreport-stats-snap-lbl">Median sentence (plea)</div></div>';
+      if (_stMean !== undefined && _stMean !== null) html += '<div class="cr-dreport-stats-snap-item"><div class="cr-dreport-stats-snap-val">' + _stMean + ' mo.</div><div class="cr-dreport-stats-snap-lbl">Mean sentence (plea)</div></div>';
+      html += '</div>';
+      if (_stD.note) html += '<div class="cr-dreport-stats-snap-note">' + _stD.note + '</div>';
+      html += '</div>';
+    } else {
+      html += '<div class="cr-dreport-stats-snapshot cr-dreport-stats-snapshot--empty"><p>Offense-specific statistics are not loaded in this report. Use the Sentencing Statistics tool (Tool 09) and select your offense type before generating the report — the data will populate this section automatically.</p></div>';
+    }
+    html += '<p class="cr-dreport-stats-source">Source: U.S. Sentencing Commission individual-level Non-Identified Dataset (NID), fiscal years 2018–2025. National aggregate across all judges and districts. For judge-specific analysis, district comparisons, and individualized statistical modeling: <strong>sentencingstats.com</strong> / (855) 778-8654.</p>';
+    html += '</div>';
+    html += '</div>';
+
     /* ---- DISCLOSURE ---------------------------------------------------- */
     html += '<div class="cr-dreport-disclosure">';
     html += 'This report is generated from the answers you provided and is for informational purposes only. It is not legal advice. Nothing here creates an attorney-client relationship. Do not share this report with anyone outside your defense team. Surviving the Feds is an educational resource — consult your attorney for legal guidance specific to your case.';

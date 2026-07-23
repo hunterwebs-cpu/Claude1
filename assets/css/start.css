@@ -2558,6 +2558,91 @@ body::before {
 .cr-dreport-redflag-text p { margin: 0 0 10px; }
 .cr-dreport-redflag-text p:last-child { margin-bottom: 0; }
 
+/* Statistics education section */
+.cr-dreport-bell-wrap {
+  margin: 16px 0;
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--cr-border);
+  border-radius: 6px;
+  padding: 16px;
+}
+.cr-dreport-bell-svg {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto 10px;
+}
+.cr-dreport-bell-caption {
+  font-size: .76rem;
+  color: var(--cr-muted);
+  line-height: 1.6;
+  margin: 0;
+  text-align: center;
+}
+.cr-dreport-stats-snapshot {
+  background: rgba(60,110,200,.06);
+  border: 1px solid rgba(60,110,200,.18);
+  border-radius: 6px;
+  padding: 14px 16px;
+  margin: 14px 0;
+}
+.cr-dreport-stats-snapshot--empty {
+  background: rgba(255,255,255,.03);
+  border-color: var(--cr-border);
+}
+.cr-dreport-stats-snapshot--empty p {
+  font-size: .78rem;
+  color: var(--cr-muted);
+  margin: 0;
+}
+.cr-dreport-stats-snapshot-head {
+  font-family: var(--cr-font-mono);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--cr-accent);
+  margin-bottom: 10px;
+}
+.cr-dreport-stats-snap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 10px;
+}
+.cr-dreport-stats-snap-item {
+  padding: 8px 10px;
+  background: rgba(255,255,255,.04);
+  border-radius: 4px;
+}
+.cr-dreport-stats-snap-val {
+  font-family: var(--cr-font-mono);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--cr-text);
+  line-height: 1.1;
+  margin-bottom: 3px;
+}
+.cr-dreport-stats-snap-lbl {
+  font-size: .68rem;
+  color: var(--cr-muted);
+  line-height: 1.35;
+}
+.cr-dreport-stats-snap-note {
+  font-size: .74rem;
+  color: var(--cr-muted);
+  line-height: 1.55;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,.06);
+}
+.cr-dreport-stats-source {
+  font-size: .72rem;
+  color: var(--cr-muted);
+  line-height: 1.6;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
 /* Disclosure footer */
 .cr-dreport-disclosure {
   margin-top: 40px;
@@ -2572,13 +2657,19 @@ body::before {
 
 /* Print styles for defense report */
 @media print {
-  body[data-printing="dreport"] #cr-rail,
-  body[data-printing="dreport"] #cr-topbar,
-  body[data-printing="dreport"] #cr-drawer,
+  /* ---- Global layout reset — breaks the 100dvh grid for ALL print modes ---- */
+  html, body { height: auto !important; overflow: visible !important; background: #fff !important; }
+  body > *:not(#cr-shell) { display: none !important; }
+  #cr-shell { display: block !important; height: auto !important; width: 100% !important; overflow: visible !important; }
+  #cr-shell > *:not(#cr-panel) { display: none !important; }
+  #cr-panel { display: block !important; overflow: visible !important; height: auto !important; width: 100% !important; }
+  @page { margin: 0.75in; }
+
+  /* ---- Defense Report print mode ------------------------------------------ */
+  body[data-printing="dreport"] #cr-panel > .cr-screen:not(#screen-defense-report) { display: none !important; }
+  body[data-printing="dreport"] #screen-defense-report { display: block !important; overflow: visible !important; height: auto !important; }
   body[data-printing="dreport"] .cr-dreport-toolbar { display: none !important; }
-  body[data-printing="dreport"] #cr-panel { overflow: visible !important; height: auto !important; }
-  body[data-printing="dreport"] #screen-defense-report { display: block !important; overflow: visible !important; }
-  body[data-printing="dreport"] .cr-dreport-scroll { overflow: visible !important; padding: 0 !important; }
+  body[data-printing="dreport"] .cr-dreport-scroll { overflow: visible !important; padding: 0 !important; height: auto !important; }
 }
 
 /* ============================================================================
@@ -3082,35 +3173,58 @@ body::before {
 .cr-bop-note em { font-style: italic; }
 
 @media print {
-  body > *:not(#cr-shell) { display: none !important; }
-  #cr-shell > *:not(#cr-panel) { display: none !important; }
-  /* Break out of the full-screen grid so pages actually render */
-  body { background: #fff; color: #000; overflow: visible; height: auto; width: auto; }
-  #cr-shell { display: block; height: auto; width: 100%; overflow: visible; }
-  #cr-panel { overflow: visible; height: auto; width: 100%; }
-  @page { margin: 0.75in; }
+  /* Defense report — force all text to dark for print */
+  body[data-printing="dreport"] .cr-dreport-scroll { color: #111 !important; }
+  body[data-printing="dreport"] .cr-dreport-scroll * { color: inherit !important; background: transparent !important; }
+  body[data-printing="dreport"] .cr-dreport-header { background: #fff !important; border-bottom: 2px solid #333 !important; }
+  body[data-printing="dreport"] .cr-dreport-eyebrow { color: #555 !important; }
+  body[data-printing="dreport"] .cr-dreport-section { border-bottom: 1px solid #ddd !important; }
+  body[data-printing="dreport"] .cr-dreport-section-head { color: #000 !important; background: #f4f4f4 !important; border-left: 3px solid #c06010 !important; }
+  body[data-printing="dreport"] .cr-dreport-row { border-bottom: 1px solid #eee !important; }
+  body[data-printing="dreport"] .cr-dreport-row-label { color: #222 !important; }
+  body[data-printing="dreport"] .cr-dreport-row-note { color: #555 !important; }
+  body[data-printing="dreport"] .cr-dreport-status--ok { background: #e8f5e9 !important; color: #1b5e20 !important; border: 1px solid #a5d6a7 !important; }
+  body[data-printing="dreport"] .cr-dreport-status--flag { background: #ffebee !important; color: #b71c1c !important; border: 1px solid #ef9a9a !important; }
+  body[data-printing="dreport"] .cr-dreport-status--warn { background: #fff8e1 !important; color: #e65100 !important; border: 1px solid #ffe082 !important; }
+  body[data-printing="dreport"] .cr-dreport-flag-block { background: #fff3e0 !important; border: 1px solid #e07000 !important; }
+  body[data-printing="dreport"] .cr-dreport-disclosure { color: #555 !important; border-top: 1px solid #ccc !important; }
+  body[data-printing="dreport"] .cr-dreport-actions { background: #fffaf5 !important; border: 1px solid #f0c060 !important; }
+  body[data-printing="dreport"] .cr-dreport-action-item { border-bottom: 1px solid #f0e0c0 !important; color: #222 !important; }
+  body[data-printing="dreport"] .cr-print-stats-box { background: #f8f8f8 !important; border: 1px solid #ddd !important; color: #111 !important; }
+  body[data-printing="dreport"] .cr-print-stats-box * { color: inherit !important; }
+  body[data-printing="dreport"] .cr-dreport-bell-wrap { background: #f8f8f8 !important; border: 1px solid #ddd !important; }
+  body[data-printing="dreport"] .cr-dreport-bell-svg path[fill] { fill: rgba(60,110,200,0.10) !important; }
+  body[data-printing="dreport"] .cr-dreport-bell-caption { color: #555 !important; }
+  body[data-printing="dreport"] .cr-dreport-stats-snapshot { background: #f0f4ff !important; border: 1px solid #b0c0e0 !important; }
+  body[data-printing="dreport"] .cr-dreport-stats-snapshot--empty { background: #f8f8f8 !important; border: 1px solid #ddd !important; }
+  body[data-printing="dreport"] .cr-dreport-stats-snapshot-head { color: #c04010 !important; }
+  body[data-printing="dreport"] .cr-dreport-stats-snap-item { background: #fff !important; border: 1px solid #e0e0e0 !important; }
+  body[data-printing="dreport"] .cr-dreport-stats-snap-val { color: #111 !important; }
+  body[data-printing="dreport"] .cr-dreport-stats-snap-lbl { color: #555 !important; }
+  body[data-printing="dreport"] .cr-dreport-stats-snap-note { color: #555 !important; border-top-color: #ddd !important; }
+  body[data-printing="dreport"] .cr-dreport-stats-source { color: #666 !important; }
 
-  /* Case brief print mode (default — not plea, not refsheet) */
-  body:not([data-printing="plea"]):not([data-printing="refsheet"]) #cr-panel > .cr-screen:not(#screen-report) { display: none !important; }
-  body:not([data-printing="plea"]):not([data-printing="refsheet"]) #screen-report { display: block !important; padding: 0 !important; }
-  body:not([data-printing="plea"]):not([data-printing="refsheet"]) .cr-wizard-back,
-  body:not([data-printing="plea"]):not([data-printing="refsheet"]) .cr-wizard-header,
-  body:not([data-printing="plea"]):not([data-printing="refsheet"]) .cr-wizard-progress,
-  body:not([data-printing="plea"]):not([data-printing="refsheet"]) .cr-wizard-step,
-  body:not([data-printing="plea"]):not([data-printing="refsheet"]) .cr-wizard-nav-row,
-  body:not([data-printing="plea"]):not([data-printing="refsheet"]) .cr-report-print-bar { display: none !important; }
-  body:not([data-printing="plea"]):not([data-printing="refsheet"]) #cr-report-output { display: block !important; }
+  /* Case brief print mode (default — not plea, not refsheet, not dreport) */
+  body:not([data-printing="plea"]):not([data-printing="refsheet"]):not([data-printing="dreport"]) #cr-panel > .cr-screen:not(#screen-report) { display: none !important; }
+  body:not([data-printing="plea"]):not([data-printing="refsheet"]):not([data-printing="dreport"]) #screen-report { display: block !important; padding: 0 !important; }
+  body:not([data-printing="plea"]):not([data-printing="refsheet"]):not([data-printing="dreport"]) .cr-wizard-back,
+  body:not([data-printing="plea"]):not([data-printing="refsheet"]):not([data-printing="dreport"]) .cr-wizard-header,
+  body:not([data-printing="plea"]):not([data-printing="refsheet"]):not([data-printing="dreport"]) .cr-wizard-progress,
+  body:not([data-printing="plea"]):not([data-printing="refsheet"]):not([data-printing="dreport"]) .cr-wizard-step,
+  body:not([data-printing="plea"]):not([data-printing="refsheet"]):not([data-printing="dreport"]) .cr-wizard-nav-row,
+  body:not([data-printing="plea"]):not([data-printing="refsheet"]):not([data-printing="dreport"]) .cr-report-print-bar { display: none !important; }
+  body:not([data-printing="plea"]):not([data-printing="refsheet"]):not([data-printing="dreport"]) #cr-report-output { display: block !important; }
   .cr-report { background: #fff !important; border-radius: 0; padding: 0; max-width: none; }
   /* Force all text in case brief to dark — CSS vars stay light without this */
-  body:not([data-printing="plea"]) #cr-report-html { color: #111 !important; }
-  body:not([data-printing="plea"]) #cr-report-html * { color: inherit !important; background: transparent !important; }
-  body:not([data-printing="plea"]) #cr-report-html .cr-report { background: #fff !important; color: #111 !important; }
+  body:not([data-printing="plea"]):not([data-printing="dreport"]) #cr-report-html { color: #111 !important; }
+  body:not([data-printing="plea"]):not([data-printing="dreport"]) #cr-report-html * { color: inherit !important; background: transparent !important; }
+  body:not([data-printing="plea"]):not([data-printing="dreport"]) #cr-report-html .cr-report { background: #fff !important; color: #111 !important; }
   body:not([data-printing="plea"]) #cr-report-html .cr-report-eyebrow,
-  body:not([data-printing="plea"]) #cr-report-html .cr-report-footer-note { color: #555 !important; }
-  body:not([data-printing="plea"]) #cr-report-html .cr-report-stat-label { color: #666 !important; }
-  body:not([data-printing="plea"]) #cr-report-html .cr-report-masthead { border-bottom: 1px solid #ccc !important; background: transparent !important; }
-  body:not([data-printing="plea"]) #cr-report-html .cr-report-status-bar { background: #f4f4f4 !important; border: 1px solid #ddd !important; }
-  body:not([data-printing="plea"]) #cr-report-html .cr-report-section { border-bottom: 1px solid #eee !important; }
+  body:not([data-printing="plea"]):not([data-printing="dreport"]) #cr-report-html .cr-report-footer-note { color: #555 !important; }
+  body:not([data-printing="plea"]):not([data-printing="dreport"]) #cr-report-html .cr-report-stat-label { color: #666 !important; }
+  body:not([data-printing="plea"]):not([data-printing="dreport"]) #cr-report-html .cr-report-masthead { border-bottom: 1px solid #ccc !important; background: transparent !important; }
+  body:not([data-printing="plea"]):not([data-printing="dreport"]) #cr-report-html .cr-report-status-bar { background: #f4f4f4 !important; border: 1px solid #ddd !important; }
+  body:not([data-printing="plea"]):not([data-printing="dreport"]) #cr-report-html .cr-report-section { border-bottom: 1px solid #eee !important; }
 
   /* Plea review print mode */
   body[data-printing="plea"] #cr-panel > .cr-screen:not(#screen-plea) { display: none !important; }
