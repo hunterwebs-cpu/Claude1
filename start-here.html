@@ -3491,11 +3491,27 @@
       var s = [];
       var isForMe = ans.role === 'supporter' && ans.report_for === 'me';
 
+      /* Pronoun helpers — resolved after role is answered */
+      var isD = ans.role !== 'supporter'; /* default to "you" until supporter is selected */
+      var P = {
+        they:   isD ? 'you'          : 'your loved one',
+        They:   isD ? 'You'          : 'Your loved one',
+        their:  isD ? 'your'         : 'their',
+        Their:  isD ? 'Your'         : 'Their',
+        them:   isD ? 'you'          : 'them',
+        poss:   isD ? 'your'         : "your loved one's",
+        have:   isD ? 'Have you'     : 'Has your loved one',
+        do:     isD ? 'Do you'       : 'Does your loved one',
+        are:    isD ? 'Are you'      : 'Is your loved one',
+        were:   isD ? 'Were you'     : 'Was your loved one',
+        havent: isD ? "you haven't"  : "they haven't",
+        theyre: isD ? "you're"       : "they're"
+      };
+
       /* SECTION: About This Report */
       s.push({ id: 'privacy', type: 'privacy', section: 'About This Report' });
 
       if (!isForMe) {
-        /* SECTION: Who We're Evaluating */
         s.push({
           id: 'role', type: 'choice', section: 'Getting Started',
           q: 'Are you the defendant, or are you a family member or supporter?',
@@ -3510,9 +3526,9 @@
           s.push({
             id: 'report_for', type: 'choice', section: 'Getting Started',
             q: 'Who is this report for?',
-            sub: 'We\'ll adjust the questions depending on your answer.',
+            sub: "We'll adjust the questions depending on your answer.",
             choices: [
-              { val: 'defendant', label: 'For the defendant — I want to help them understand their situation' },
+              { val: 'defendant', label: 'For my loved one — I want to help them understand their situation' },
               { val: 'me', label: 'For me — I want to understand what I should and shouldn\'t do' }
             ]
           });
@@ -3525,7 +3541,7 @@
         s.push({ id: 'report_for', type: 'hidden', val: 'me' });
         s.push({
           id: 'sfm_calls', type: 'choice', section: 'Communications',
-          q: 'Do you communicate with the defendant by phone or video call from jail or prison?',
+          q: 'Do you communicate with your loved one by phone or video call from jail or prison?',
           sub: 'All calls from federal facilities are recorded and monitored. This is important.',
           choices: [
             { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }, { val: 'dk', label: "Don't know" }
@@ -3541,7 +3557,7 @@
         });
         s.push({
           id: 'sfm_visits', type: 'choice', section: 'Communications',
-          q: 'Have you visited the defendant in person at a detention facility?',
+          q: 'Have you visited your loved one in person at a detention facility?',
           sub: 'In-person jail visits are also monitored and may be recorded.',
           choices: [
             { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }
@@ -3549,7 +3565,7 @@
         });
         s.push({
           id: 'sfm_social', type: 'choice', section: 'Communications',
-          q: 'Have you posted anything on social media about the case, the arrest, or the defendant\'s situation?',
+          q: "Have you posted anything on social media about the case, the arrest, or your loved one's situation?",
           choices: [
             { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }, { val: 'dk', label: "Don't know" }
           ]
@@ -3591,7 +3607,7 @@
       });
       s.push({
         id: 'search_warrant', type: 'choice', section: 'The Arrest',
-        q: 'Was a search warrant executed at any location — the home, car, office, or devices?',
+        q: 'Was a search warrant executed at any location — ' + P.their + ' home, car, office, or devices?',
         choices: [
           { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }, { val: 'dk', label: "Don't know" }
         ]
@@ -3599,12 +3615,12 @@
       if (ans.search_warrant === 'yes') {
         s.push({
           id: 'warrant_docs', type: 'choice', section: 'The Arrest',
-          q: 'Has the defendant seen the search warrant, the supporting affidavit, and the receipt of seized items?',
+          q: P.have + ' seen the search warrant, the supporting affidavit, and the receipt of seized items?',
           sub: 'These three documents are critical. The affidavit explains what law enforcement told a judge to get permission to search.',
           choices: [
             { val: 'all', label: 'Yes, seen all three' },
             { val: 'some', label: 'Some of them' },
-            { val: 'none', label: 'No — haven\'t seen any of them' },
+            { val: 'none', label: "No — haven't seen any of them" },
             { val: 'dk', label: "Don't know" }
           ],
           bookPlug: true
@@ -3614,7 +3630,7 @@
       /* SECTION: Charges & Court */
       s.push({
         id: 'charged', type: 'choice', section: 'Charges & Court',
-        q: 'Has the defendant been formally charged?',
+        q: P.have + ' been formally charged?',
         sub: 'A formal charge means a criminal complaint, information, or indictment has been filed.',
         choices: [
           { val: 'yes', label: 'Yes, charged' },
@@ -3625,8 +3641,8 @@
       if (ans.charged === 'dk') {
         s.push({
           id: 'court_appearances', type: 'choice', section: 'Charges & Court',
-          q: 'Has the defendant had any court appearances — such as an initial appearance or arraignment?',
-          sub: 'If they have appeared before a judge after arrest, they have almost certainly been charged in some form.',
+          q: P.have + ' had any court appearances — such as an initial appearance or arraignment?',
+          sub: (isD ? 'If you have' : 'If they have') + ' appeared before a judge after arrest, ' + (isD ? 'you have' : 'they have') + ' almost certainly been charged in some form.',
           choices: [
             { val: 'yes', label: 'Yes, appeared in court' },
             { val: 'no', label: 'No court appearances yet' },
@@ -3669,8 +3685,8 @@
             s.push({
               id: 'pacer_referral', type: 'info', section: 'Charges & Court',
               q: 'How to look up the case on PACER',
-              sub: 'PACER (Public Access to Court Electronic Records) lists all federal cases. You can search by defendant name or case number.',
-              content: '<p>Go to <a href="https://pacer.uscourts.gov" target="_blank" rel="noopener">pacer.uscourts.gov</a> and create a free account. Search the district you identified above by defendant name. Each case has a docket that lists every filing.</p><p>The case number format for federal cases is typically: <strong>2:24-cr-00123</strong> (year : case type : number).</p>'
+              sub: 'PACER (Public Access to Court Electronic Records) lists all federal cases. You can search by name or case number.',
+              content: '<p>Go to <a href="https://pacer.uscourts.gov" target="_blank" rel="noopener">pacer.uscourts.gov</a> and create a free account. Search the district you identified above by ' + (isD ? 'your name' : "your loved one's name") + '. Each case has a docket that lists every filing.</p><p>The case number format for federal cases is typically: <strong>2:24-cr-00123</strong> (year : case type : number).</p>'
             });
           }
         }
@@ -3690,19 +3706,19 @@
       /* SECTION: Key Documents */
       s.push({
         id: 'criminal_complaint', type: 'choice', section: 'Key Documents',
-        q: 'Has the defendant read the criminal complaint, including the affidavit attached to it?',
-        sub: 'The complaint is the initial charging document. The affidavit is the agent\'s written statement of facts that persuaded a judge to authorize the arrest. If you haven\'t read these, your attorney needs to get them to you.',
+        q: P.have + ' read the criminal complaint, including the affidavit attached to it?',
+        sub: 'The complaint is the initial charging document. The affidavit is the agent\'s written statement of facts that persuaded a judge to authorize the arrest. If ' + P.havent + ' read these, ' + P.their + ' attorney needs to get them to ' + P.them + '.',
         choices: [
           { val: 'yes', label: 'Yes, read both' },
           { val: 'complaint_only', label: 'Read the complaint but not the affidavit' },
-          { val: 'no', label: 'No — haven\'t seen them' },
+          { val: 'no', label: "No — haven't seen them" },
           { val: 'dk', label: "Don't know" }
         ],
         bookPlug: true
       });
       s.push({
         id: 'indictment', type: 'choice', section: 'Key Documents',
-        q: 'Has the defendant received and reviewed the indictment or information?',
+        q: P.have + ' received and reviewed the indictment or information?',
         sub: 'The indictment (or information, if no grand jury) is the formal charging document. It lists every count.',
         choices: [
           { val: 'yes', label: 'Yes' },
@@ -3713,11 +3729,11 @@
       });
       s.push({
         id: 'discovery', type: 'choice', section: 'Key Documents',
-        q: 'Has the attorney received and reviewed discovery with the defendant?',
-        sub: 'Discovery is the evidence the government has against the defendant — documents, recordings, reports. It must be reviewed before any decisions about the case are made.',
+        q: 'Has the attorney reviewed discovery with ' + P.them + '?',
+        sub: 'Discovery is the evidence the government has — documents, recordings, reports. It must be reviewed before any decisions about the case are made.',
         choices: [
           { val: 'yes', label: 'Yes, reviewed together' },
-          { val: 'received_not_reviewed', label: 'Attorney has it but hasn\'t reviewed it with the defendant' },
+          { val: 'received_not_reviewed', label: "Attorney has it but hasn't reviewed it yet" },
           { val: 'no', label: 'No discovery yet' },
           { val: 'dk', label: "Don't know" }
         ]
@@ -3726,7 +3742,7 @@
       /* SECTION: Counsel */
       s.push({
         id: 'has_attorney', type: 'choice', section: 'Defense Counsel',
-        q: 'Does the defendant have an attorney?',
+        q: P.do + ' have an attorney?',
         choices: [
           { val: 'retained', label: 'Yes — private attorney (retained)' },
           { val: 'fd', label: 'Yes — federal public defender' },
@@ -3737,7 +3753,7 @@
       });
       s.push({
         id: 'attorney_contact', type: 'choice', section: 'Defense Counsel',
-        q: 'Has the defendant been able to meet with or speak to their attorney about the case?',
+        q: P.have + ' been able to meet with or speak to ' + P.their + ' attorney about the case?',
         choices: [
           { val: 'yes_regularly', label: 'Yes, regularly and substantively' },
           { val: 'yes_briefly', label: 'Yes, but only briefly or once' },
@@ -3748,7 +3764,7 @@
       s.push({
         id: 'plea_pressure', type: 'choice', section: 'Defense Counsel',
         q: 'Is the attorney pushing or strongly recommending a guilty plea?',
-        sub: 'Note: The decision to plead guilty is the defendant\'s decision alone.',
+        sub: 'Note: The decision to plead guilty is ' + P.poss + ' decision alone — not the attorney\'s.',
         choices: [
           { val: 'yes', label: 'Yes — pushing a plea offer' },
           { val: 'no', label: 'No' },
@@ -3760,7 +3776,7 @@
       /* SECTION: Custody & Hearings */
       s.push({
         id: 'custody_status', type: 'choice', section: 'Custody & Hearings',
-        q: 'What is the defendant\'s custody status?',
+        q: P.are + ' currently in custody or out on bond?',
         choices: [
           { val: 'detained', label: 'In custody / detained (no bail)' },
           { val: 'released', label: 'Released — on bond or pretrial conditions' },
@@ -3770,20 +3786,20 @@
       s.push({
         id: 'detention_hearing', type: 'choice', section: 'Custody & Hearings',
         q: 'Was there a detention hearing?',
-        sub: 'A detention hearing is where a judge decides whether to detain or release the defendant before trial.',
+        sub: 'A detention hearing is where a judge decides whether to detain or release ' + P.them + ' before trial.',
         choices: [
           { val: 'yes_detained', label: 'Yes — judge ordered detention' },
           { val: 'yes_released', label: 'Yes — judge released with conditions' },
           { val: 'waived', label: 'Hearing was waived' },
-          { val: 'pending', label: 'Hearing hasn\'t happened yet' },
+          { val: 'pending', label: "Hearing hasn't happened yet" },
           { val: 'dk', label: "Don't know" }
         ],
         bookPlug: true
       });
       s.push({
         id: 'speedy_trial', type: 'choice', section: 'Custody & Hearings',
-        q: 'Does the defendant want a speedy trial?',
-        sub: 'The Speedy Trial Act requires trial to begin within 70 days of indictment. Most defense attorneys waive this to have more time to prepare — but it\'s the defendant\'s right to assert it.',
+        q: P.do + ' want a speedy trial?',
+        sub: 'The Speedy Trial Act requires trial to begin within 70 days of indictment. Most defense attorneys waive this to have more time to prepare — but it\'s ' + P.poss + ' right to assert it.',
         choices: [
           { val: 'yes', label: 'Yes — want to go to trial quickly' },
           { val: 'no', label: 'No — prefer more preparation time' },
@@ -3792,18 +3808,18 @@
       });
       s.push({
         id: 'speedy_invoked', type: 'choice', section: 'Custody & Hearings',
-        q: 'Has anyone told the judge the defendant is invoking the right to a speedy trial?',
+        q: 'Has anyone told the judge ' + (isD ? 'you are' : P.they + ' is') + ' invoking the right to a speedy trial?',
         choices: [
           { val: 'yes', label: 'Yes' }, { val: 'no', label: 'No' }, { val: 'dk', label: "Don't know" }
         ]
       });
       s.push({
         id: 'motions_deadline', type: 'choice', section: 'Custody & Hearings',
-        q: 'Does the defendant know the deadline for filing pretrial motions?',
+        q: P.do + ' know the deadline for filing pretrial motions?',
         sub: 'Motions deadlines are set by the court and missing them can waive critical rights.',
         choices: [
           { val: 'yes', label: 'Yes, know the date' },
-          { val: 'no', label: 'No, don\'t know the date' },
+          { val: 'no', label: "No, don't know the date" },
           { val: 'dk', label: "Don't know / not there yet" }
         ]
       });
@@ -3811,7 +3827,7 @@
       /* SECTION: Plea */
       s.push({
         id: 'plea_decision', type: 'choice', section: 'Plea & Trial',
-        q: 'Has the defendant decided whether to plead guilty or go to trial?',
+        q: P.have + ' decided whether to plead guilty or go to trial?',
         choices: [
           { val: 'plea', label: 'Leaning toward or decided to plead guilty' },
           { val: 'trial', label: 'Leaning toward or decided to go to trial' },
