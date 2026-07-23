@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Is My Lawyer Any Good? — Surviving the Feds</title>
+  <meta name="description" content="How to tell whether your federal defense attorney is actually prepared to fight — a checklist from Surviving Pretrial, plus the Set for Sentencing podcast episode." />
+  <meta name="theme-color" content="#0A0B0E" />  <?php require '_head.php'; ?>
+</head>
+<body>
+
+<?php $stf_page = 'legal'; require '_nav.php'; ?>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="ph-bg" style="background-image:url('assets/img/photos/courtroom.jpg')"></div>
+      <div class="ph-scrim"></div>
+      <div class="container">
+        <span class="eyebrow" data-reveal>Free Resource</span>
+        <h1 data-reveal data-delay="1">Is My Lawyer Any Good?</h1>
+        <p class="ph-sub" data-reveal data-delay="2">How to tell if your federal defense attorney is actually ready to fight.</p>
+      </div>
+    </section>
+
+    <!-- INTRO + IMPORTANT NOTE -->
+    <section class="section" style="padding-bottom:0;">
+      <div class="container narrow">
+        <p class="lead deck" data-reveal>It's said you should hire a lawyer to watch your lawyer. Almost no one can afford that — so you need to know what to look for yourself. The difference between a prepared federal attorney and a coasting one can be measured in years of someone's life.</p>
+        <div class="callout" data-reveal data-delay="1" style="margin-top:32px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+          <p><strong>From Surviving Pretrial —</strong> "A lot of lawyers will tell their potential client that they are 'federal lawyers.' Or the prospective client will hear that the lawyer is the best in the area. Don't let such nonsense cloud your judgment. Assume the lawyer sitting in front of you has no idea how federal criminal law works and let him prove otherwise. If your gut says to leave, then leave."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PODCAST -->
+    <section class="section">
+      <div class="container narrow">
+        <div class="podcast-card" data-reveal>
+          <div class="pc-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4M8 23h8"/></svg>
+          </div>
+          <div class="pc-body">
+            <div class="pc-label">Set for Sentencing · Featured Episode</div>
+            <h3>"Is My Lawyer Any Good?" — Surviving Pretrial</h3>
+            <p>Bilal Khan breaks down how families can tell whether their attorney is truly prepared to fight a federal case — and the warning signs when they're not.</p>
+          </div>
+          <a class="btn btn--primary" href="https://setforsentencing.com/podcast/surviving-pretrial-vol-1-is-my-lawyer-any-good/" target="_blank" rel="noopener">
+            Listen Free
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHECKLIST -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="sec-head split-head" data-reveal>
+          <div class="sh-head">
+            <span class="eyebrow">The Checklist</span>
+            <h2>Six things to watch for.</h2>
+          </div>
+          <p class="lead">Drawn from the lawyer chapters of <em>Surviving Pretrial</em>. Use it before you hire, and keep using it after.</p>
+        </div>
+
+        <ul class="checklist" data-reveal data-delay="1">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            <div><strong>Make them prove they know federal law.</strong><span>Assume the lawyer in front of you has no idea how federal criminal law works — and let them prove otherwise. "I'm a federal lawyer" and "best in the area" are sales lines, not proof.</span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            <div><strong>Trust your gut.</strong><span>If your gut says to leave, then leave. You're choosing who holds your life in their hands.</span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            <div><strong>Never hire sight unseen.</strong><span>It's common to let family find and hire the lawyer — but you need to be able to speak with that attorney candidly yourself before committing.</span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            <div><strong>Don't hire out of obligation.</strong><span>If your family already dropped tens of thousands on a retainer, you'll feel pressure to stay. A paid retainer is not a reason to keep a lawyer who isn't right.</span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            <div><strong>Slow down — there's time.</strong><span>Finding a lawyer feels like the most urgent thing in the world. It isn't. You'll be appointed counsel no matter what — even with money — so don't panic-hire.</span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            <div><strong>Know your three options.</strong><span>Appointed counsel, privately retained counsel, or going it alone (pro se). Understand the trade-offs before you decide — the book breaks down all three.</span></div>
+          </li>
+        </ul>
+
+        <p style="color:var(--faint); font-size:.85rem; margin-top:22px; max-width:65ch;" data-reveal>
+          This checklist is condensed from <em>Surviving Pretrial</em> for quick reference and is not legal advice. The book covers each point in full.
+        </p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-band">
+      <div class="container">
+        <div data-reveal>
+          <span class="eyebrow center">Go deeper</span>
+          <h2>The full lawyer playbook is in the book.</h2>
+          <p class="lead center">Interview questions, the three types of lawyers, and what to do when you can't reach yours.</p>
+          <div class="hero-actions" style="justify-content:center;">
+            <a class="btn btn--primary" href="books.php">
+              Get Surviving Pretrial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+
+<?php require '_footer.php'; ?>
+
+</body>
+</html>

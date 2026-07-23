@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Books — Surviving the Feds</title>
+  <meta name="description" content="The Surviving the Feds book series by Bilal Khan. Surviving Pretrial and The 2255 Motion Handbook — available in paperback and eBook on Amazon." />
+  <meta name="theme-color" content="#0A0B0E" />  <?php require '_head.php'; ?>
+</head>
+<body>
+
+<?php $stf_page = 'books'; require '_nav.php'; ?>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="section" style="padding-top:170px; padding-bottom:40px;">
+      <div class="container">
+        <div class="sec-head" data-reveal style="margin-bottom:0;">
+          <span class="eyebrow">The Surviving the Feds Series</span>
+          <h2>The books that hand you the map.</h2>
+          <p class="lead deck">Written by Bilal Khan — not from a law library, but from inside the system. Each volume is available in <strong>paperback and eBook</strong>. (County jails and prisons often won't accept hardcover, so every title ships in formats your loved one can actually receive.)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOK 1 -->
+    <section class="section book-section" style="padding-top:30px;">
+      <div class="book-section-bg" style="background-image:url('assets/img/photos/courtroom.jpg')"></div>
+      <div class="container">
+        <article class="book">
+          <div class="book-cover-shell" data-reveal>
+            <img class="book-photo" src="assets/img/cover-pretrial.jpg" alt="Surviving Pretrial book cover by Bilal Khan" />
+          </div>
+          <div class="book-meta" data-reveal data-delay="1">
+            <div class="vol">Volume 1 · The Flagship</div>
+            <h3>Surviving Pretrial</h3>
+            <p class="subtitle">The Ultimate Survival Guide to Being Busted &amp; Prosecuted by the Feds</p>
+            <p>The moment federal charges land, everything changes overnight — and the pretrial phase quietly decides much of what follows. This is the guide written for the family at the kitchen table and the defendant in the holding cell: how to evaluate your attorney, what detention and bond really look like, how federal charges differ from state, what never to say on a recorded call, and how cooperation and plea deals actually work. No legalese. No false hope. Just the truth.</p>
+            <div class="formats">
+              <span class="format-pill">Paperback</span>
+              <span class="format-pill">Kindle eBook</span>
+            </div>
+            <div class="book-actions">
+              <a class="btn btn--primary" href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8" target="_blank" rel="noopener">
+                Paperback on Amazon
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+              <a class="btn btn--ghost" href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted-ebook/dp/B0BTCDLWN8" target="_blank" rel="noopener">Kindle Edition</a>
+            </div>
+            <div class="book-quote" data-reveal data-delay="2">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p>"More detailed, more updated, and more usable against persecution in today's environment — from an author who clearly knows the subject matter."</p>
+              <span class="bq-cite">— Kevin Sr., Verified Purchase on Amazon</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- BOOK 2 -->
+    <section class="section book-section">
+      <div class="book-section-bg" style="background-image:url('assets/img/photos/guard-tower.jpg')"></div>
+      <div class="container">
+        <article class="book">
+          <div class="book-cover-shell" data-reveal>
+            <img class="book-photo" src="assets/img/cover-2255.jpg" alt="The 2255 Motion Handbook book cover by Bilal Khan" />
+          </div>
+          <div class="book-meta" data-reveal data-delay="1">
+            <div class="vol">Volume 2 · Post-Conviction</div>
+            <h3>The 2255 Motion Handbook</h3>
+            <p class="subtitle">A Post-Conviction Relief Guide for Federal Inmates</p>
+            <p>Conviction is not the end of the fight. A 28 U.S.C. § 2255 motion is one of the most powerful — and most misunderstood — tools a federal inmate has. The first guide of its kind, this handbook walks you through the exact steps to file, argue, and fight for your freedom: grounds for relief, deadlines that can sink a case, ineffective-assistance claims, and how to give your motion its best possible shot. Written so a non-lawyer can actually use it.</p>
+            <div class="formats">
+              <span class="format-pill">Paperback</span>
+              <span class="format-pill">Kindle eBook</span>
+            </div>
+            <div class="book-actions">
+              <a class="btn btn--primary" href="https://www.amazon.com/2255-Motion-Handbook-Post-Conviction-Surviving/dp/B0D8HQRJN8" target="_blank" rel="noopener">
+                Paperback on Amazon
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+              <a class="btn btn--ghost" href="https://www.amazon.com/2255-Motion-Handbook-Post-Conviction-Surviving-ebook/dp/B0D9FXJHZZ" target="_blank" rel="noopener">Kindle Edition</a>
+            </div>
+            <div class="book-quote" data-reveal data-delay="2">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p>"It explains each step of the process, breaks down the forms, and even includes the full briefing for two cases that prevailed. A must for anyone in federal custody."</p>
+              <span class="bq-cite">— Matthew Clem, Verified review on Amazon</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- DISCLAIMER CALLOUT -->
+    <section class="section" style="padding-top:0;">
+      <div class="container narrow">
+        <div class="callout" data-reveal>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+          <p>These books are educational resources written from personal experience. They are not legal advice and do not create an attorney-client relationship. Always consult a licensed attorney about your specific case.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <section class="section cta-band">
+      <div class="container">
+        <div data-reveal>
+          <span class="eyebrow center">The Series</span>
+          <h2>Read the whole series.</h2>
+          <p class="lead center">Browse every Surviving the Feds title, format, and edition on Amazon.</p>
+          <div class="hero-actions" style="justify-content:center;">
+            <a class="btn btn--primary" href="https://www.amazon.com/dp/B0D471H5Z9" target="_blank" rel="noopener">
+              View the Series on Amazon
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+
+<?php require '_footer.php'; ?>
+
+</body>
+</html>

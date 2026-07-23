@@ -17,7 +17,7 @@ $_p = $stf_page ?? '';
     <div class="container">
       <nav class="nav" aria-label="Primary">
         <a class="brand" href="index.php" aria-label="Surviving the Feds home">
-          <img src="assets/img/logo.png" alt="Surviving the Feds" />
+          <img src="assets/img/logo-gold.png" alt="Surviving the Feds" />
         </a>
         <div class="nav-links">
           <a class="nav-link" href="index.php"<?= _stf_cur($_p,'home') ?>>Home</a>
@@ -42,17 +42,15 @@ $_p = $stf_page ?? '';
   <!-- Full-screen overlay mega-menu -->
   <div class="nav-overlay" id="mega-menu">
     <div class="overlay-menu">
-      <a href="index.php"><span class="idx">01</span>Home</a>
-      <a href="start-here.php"><span class="idx">02</span>Command Center</a>
-      <a href="calculators.php"><span class="idx">03</span>Free Tools</a>
-      <a href="books.php"><span class="idx">04</span>The Books</a>
-      <a href="blog.php"><span class="idx">05</span>The Journal</a>
-      <a href="about.php"><span class="idx">06</span>About</a>
+      <a href="index.php">Home</a>
+      <a href="start-here.php">Command Center</a>
+      <a href="calculators.php">Free Tools</a>
+      <a href="books.php">The Books</a>
+      <a href="blog.php">The Journal</a>
+      <a href="about.php">About</a>
     </div>
     <aside class="overlay-aside">
       <p class="eyebrow">Knowledge + Strength = Freedom</p>
       <p class="tagline-mini">We make sure the world has the information it needs to fight for its freedom.</p>
-      <p class="contact-line">For inquiries:</p>
-      <p class="contact-line"><a href="mailto:contact@survivingthefeds.com">contact@survivingthefeds.com</a></p>
     </aside>
   </div>

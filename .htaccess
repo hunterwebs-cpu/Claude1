@@ -2,31 +2,46 @@
 # Surviving the Feds — Apache config (Hostinger)
 # ============================================================================
 
-# Default document
-DirectoryIndex index.html
+# Default document — PHP first, HTML fallback
+DirectoryIndex index.php index.html
 
-# --- Security: never serve the .git directory -------------------------------
+# --- Security: block direct access to PHP include partials ------------------
 RedirectMatch 404 /\.git(/|$)
+<FilesMatch "^_">
+  Require all denied
+</FilesMatch>
+
+# --- URL rewrites ------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Redirect .html → .php (301 permanent for SEO)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.+)\.html$ /$1.php [R=301,L]
+
+  # Bare URL (no extension) → .php if the file exists
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.php -f
+  RewriteRule ^(.+)$ /$1.php [L]
+</IfModule>
 
 # --- Caching -----------------------------------------------------------------
 <IfModule mod_headers.c>
-  # HTML: always revalidate so site updates appear immediately (no stale pages)
-  <FilesMatch "\.(html)$">
+  # PHP/HTML pages: always revalidate
+  <FilesMatch "\.(php|html)$">
     Header set Cache-Control "no-cache, must-revalidate, max-age=0"
   </FilesMatch>
 
-  # Static assets: cache long-term. We bust them with ?v= when they change.
+  # Static assets: long-term cache — filemtime ?v= query busts on change
   <FilesMatch "\.(css|js|jpg|jpeg|png|gif|svg|webp|ico|woff|woff2)$">
     Header set Cache-Control "public, max-age=2592000"
   </FilesMatch>
 </IfModule>
 
-# --- Correct MIME types (just in case) --------------------------------------
+# --- Correct MIME types ------------------------------------------------------
 <IfModule mod_mime.c>
   AddType image/svg+xml .svg
   AddType text/css .css
   AddType application/javascript .js
 </IfModule>
-
-# --- Pretty 404 (optional) ---------------------------------------------------
-# ErrorDocument 404 /index.html

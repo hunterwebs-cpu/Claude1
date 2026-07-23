@@ -4,7 +4,7 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="assets/img/logo.png" alt="Surviving the Feds" />
+          <img src="assets/img/logo-silver.png" alt="Surviving the Feds" />
           <p>Knowledge + Strength = Freedom. Real answers about the federal system, from someone who lived it.</p>
         </div>
         <div class="footer-col">
@@ -31,10 +31,6 @@
           <a href="https://www.amazon.com/2255-Motion-Handbook-Post-Conviction-Surviving/dp/B0D8HQRJN8" target="_blank" rel="noopener">The 2255 Motion Handbook</a>
           <a href="https://www.amazon.com/dp/B0D471H5Z9" target="_blank" rel="noopener">The Series on Amazon</a>
         </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <a href="mailto:contact@survivingthefeds.com">contact@survivingthefeds.com</a>
-        </div>
       </div>
       <div class="footer-bottom">
         <span>© <span id="year"><?= date('Y') ?></span> Surviving the Feds. All rights reserved.</span>
@@ -42,3 +38,5 @@
       </div>
     </div>
   </footer>
+
+  <script src="assets/js/main.js?v=<?= filemtime(__DIR__ . '/assets/js/main.js') ?>" defer></script>
