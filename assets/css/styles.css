@@ -327,14 +327,7 @@ body.menu-open .nav-overlay { opacity: 1; visibility: visible; }
   transition: color .3s, transform .5s var(--ease), opacity .5s var(--ease);
 }
 .overlay-menu a:hover { color: var(--accent); }
-.overlay-menu a .idx {
-  font-family: var(--font-label);
-  font-size: .9rem;
-  color: var(--accent);
-  vertical-align: super;
-  margin-right: 14px;
-  letter-spacing: .1em;
-}
+
 body.menu-open .overlay-menu a { transform: translateY(0); opacity: 1; }
 body.menu-open .overlay-menu a:nth-child(1) { transition-delay: .12s; }
 body.menu-open .overlay-menu a:nth-child(2) { transition-delay: .19s; }
@@ -1830,6 +1823,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   gap: 0;
   background: var(--surface);
   border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
   border-radius: var(--radius);
   overflow: hidden;
   margin-bottom: 28px;
@@ -1874,7 +1868,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   font-size: clamp(1.15rem, 2.2vw, 1.45rem);
   font-family: var(--font-display);
   font-weight: 600;
-  color: var(--text);
+  color: var(--accent);
   line-height: 1.25;
   flex: 1 1 260px;
 }
