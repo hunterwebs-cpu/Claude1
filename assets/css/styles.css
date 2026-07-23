@@ -74,6 +74,9 @@
   --z-nav: 100;
   --z-overlay: 200;
   --z-top: 300;
+
+  /* Hero photo slot — swap image here to update hero background */
+  --hero-photo: url('../img/hero-bg.jpg');
 }
 
 /* ---- Reset -------------------------------------------------------------- */
@@ -1407,10 +1410,11 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 
 .hero-statement-bg {
   position: absolute; inset: 0; z-index: 0;
-  background:
-    radial-gradient(900px 700px at 65% -10%, rgba(232,119,34,.14), transparent 55%),
-    radial-gradient(600px 500px at -5% 110%, rgba(201,208,216,.05), transparent 60%),
-    var(--bg);
+  /* Photo: courthouse exterior — swap via --hero-photo in :root */
+  background-color: var(--bg);
+  background-image: var(--hero-photo, none);
+  background-size: cover;
+  background-position: center top;
 }
 
 .hero-statement-bg::before {
