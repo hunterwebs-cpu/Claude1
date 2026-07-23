@@ -196,6 +196,21 @@ h3 { font-size: clamp(1.3rem, 2.2vw, 1.7rem); }
 .btn--gold { background: var(--gold); color: #14181d; box-shadow: 0 10px 36px -8px rgba(201,208,216,.35); }
 .btn--gold:hover { transform: translateY(-3px); }
 
+/* ---- Site announcement bar --------------------------------------------- */
+.site-announce {
+  background: rgba(232, 119, 34, .10);
+  border-bottom: 1px solid rgba(232, 119, 34, .22);
+  padding: 9px 20px;
+  text-align: center;
+  font-family: var(--font-label);
+  font-size: .72rem;
+  letter-spacing: .04em;
+  color: #c8a27a;
+  position: relative;
+  z-index: calc(var(--z-nav) + 1);
+}
+.site-announce strong { color: #e8ad82; }
+
 /* ---- Header / Navigation ------------------------------------------------ */
 .site-header {
   position: fixed;
