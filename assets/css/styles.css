@@ -1692,6 +1692,86 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 }
 
 /* ---- Credibility strip -------------------------------------------------- */
+/* ---- Eyebrow modifier: no decorative dash -------------------------------- */
+.eyebrow--clean::before { display: none; }
+
+/* ---- Homepage tools / SEO hub (replaces routing section) ----------------- */
+.section--tools {
+  background: var(--bg-2);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.tool-rows {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}
+
+.tool-row {
+  display: grid;
+  grid-template-columns: 44px 1fr 28px;
+  gap: 28px;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  transition: background .22s;
+}
+
+.tool-row:first-child { border-top: 1px solid var(--border); }
+
+.tool-row:hover {
+  background: rgba(255,140,0,.04);
+  padding-left: 16px; padding-right: 16px;
+  margin-left: -16px; margin-right: -16px;
+  border-radius: var(--radius-sm);
+  border-color: transparent;
+  transition: background .22s, padding .22s var(--ease), margin .22s var(--ease);
+}
+
+.tool-row-icon {
+  width: 28px; height: 28px;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.tool-row-body strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: clamp(1.05rem, 2vw, 1.4rem);
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+  transition: color .22s;
+}
+
+.tool-row:hover .tool-row-body strong { color: var(--accent); }
+
+.tool-row-body span {
+  display: block;
+  color: var(--muted);
+  font-size: .92rem;
+  line-height: 1.65;
+  max-width: 60ch;
+}
+
+.tool-row:hover .route-arrow {
+  color: var(--accent);
+  transform: translateX(5px);
+}
+
+@media (max-width: 580px) {
+  .tool-row {
+    grid-template-columns: 32px 1fr 22px;
+    gap: 16px;
+    padding: 24px 0;
+  }
+  .tool-row:hover { padding-left: 10px; padding-right: 10px; margin-left: -10px; margin-right: -10px; }
+}
+
+/* -------------------------------------------------------------------------- */
 .cred-strip {
   padding: clamp(72px, 10vw, 136px) 0;
   background:

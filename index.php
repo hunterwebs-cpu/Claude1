@@ -95,40 +95,55 @@
       </div>
     </div>
 
-    <!-- ===================================================== WHERE TO START -->
-    <section class="section section--routing">
+    <!-- ===================================================== TOOLS / SEO HUB -->
+    <section class="section section--tools">
       <div class="container">
-        <span class="eyebrow">Where do you start?</span>
-        <div class="routing-paths">
 
-          <a class="route-path" href="start-here.php" data-reveal>
-            <span class="route-num">01</span>
-            <div class="route-body">
-              <strong>Someone was just arrested</strong>
-              <span>The Emergency Room. Everything you need in the first 72 hours — before a costly mistake gets made.</span>
+        <div class="sec-head" data-reveal>
+          <span class="eyebrow eyebrow--clean">Federal Sentencing Tools</span>
+          <h2>Free Federal Sentencing Calculators</h2>
+          <p class="lead" style="margin-top:18px; max-width:62ch;">Five tools built from the data the government already has — guideline range, FSA time credits, BOP security level, national sentencing statistics, and printable reference sheets. No login. No charge.</p>
+        </div>
+
+        <div class="tool-rows" data-reveal data-delay="1">
+
+          <a class="tool-row" href="calculators.php#tool-guideline">
+            <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3L3 9v12h18V9L12 3z"/><path d="M9 21V12h6v9"/></svg>
+            <div class="tool-row-body">
+              <strong>Federal Sentencing Guideline Range Calculator</strong>
+              <span>Enter offense level and criminal history category. See the §5A sentencing table range immediately.</span>
             </div>
-            <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
 
-          <a class="route-path" href="blog.php" data-reveal data-delay="1">
-            <span class="route-num">02</span>
-            <div class="route-body">
-              <strong>I need to understand the process</strong>
-              <span>Free guides on detention, attorneys, sentencing, and every decision that shapes the outcome — in plain language.</span>
+          <a class="tool-row" href="calculators.php#tool-fsa">
+            <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 3.5"/></svg>
+            <div class="tool-row-body">
+              <strong>First Step Act Time Credits Calculator (FSA)</strong>
+              <span>Estimate earned time credits and projected release date. Every eligible day matters.</span>
             </div>
-            <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
 
-          <a class="route-path" href="books.php" data-reveal data-delay="2">
-            <span class="route-num">03</span>
-            <div class="route-body">
-              <strong>I want the complete picture</strong>
-              <span>Two books. Everything learned from inside. The full map — pretrial to post-conviction — on Amazon.</span>
+          <a class="tool-row" href="calculators.php#tool-stats">
+            <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="12" width="4" height="9"/><rect x="10" y="7" width="4" height="14"/><rect x="17" y="3" width="4" height="18"/></svg>
+            <div class="tool-row-body">
+              <strong>Federal Sentencing Statistics — USSC National Data</strong>
+              <span>Data from 480,000+ federal cases. See what defendants with your charges actually received.</span>
             </div>
-            <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
 
         </div>
+
+        <div class="center" style="margin-top:48px;" data-reveal data-delay="2">
+          <a class="btn btn--primary" href="calculators.php">
+            Build a Custom Defense Report
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="calculators.php">All five free tools</a>
+        </div>
+
       </div>
     </section>
 
