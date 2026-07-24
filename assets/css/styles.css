@@ -76,7 +76,7 @@
   --z-top: 300;
 
   /* Hero photo slot — swap image here to update hero background */
-  --hero-photo: url('../img/hero-bg.jpg');
+  --hero-photo: url('../img/hero-bg.webp');
 }
 
 /* ---- Reset -------------------------------------------------------------- */
@@ -1409,7 +1409,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 .hero-statement-bg {
   position: absolute; inset: 0; z-index: 0;
   background-color: var(--bg);
-  background-image: url('../img/hero-bg.jpg');
+  background-image: url('../img/hero-bg.webp');
   background-size: cover;
   background-position: center top;
 }
@@ -1736,11 +1736,11 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 }
 
 /* Per-tool background images */
-.tool-row--guideline::before { background-image: url('../img/tool-guideline.jpg'); }
-.tool-row--fsa::before       { background-image: url('../img/tool-fsa.jpg'); }
-.tool-row--bop::before       { background-image: url('../img/tool-bop.jpg'); }
-.tool-row--stats::before     { background-image: url('../img/tool-stats.jpg'); }
-.tool-row--refsheets::before { background-image: url('../img/tool-refsheets.jpg'); }
+.tool-row--guideline::before { background-image: url('../img/tool-guideline-federal-sentencing-range-calculator.webp'); }
+.tool-row--fsa::before       { background-image: url('../img/tool-fsa-first-step-act-time-credits-calculator.webp'); }
+.tool-row--bop::before       { background-image: url('../img/tool-bop-security-level-federal-prison-calculator.webp'); }
+.tool-row--stats::before     { background-image: url('../img/tool-stats-ussc-national-sentencing-statistics.webp'); }
+.tool-row--refsheets::before { background-image: url('../img/tool-refsheets-federal-sentencing-reference-sheets.webp'); }
 
 /* Lift content above photo layer */
 .tool-row > * { position: relative; z-index: 1; }
@@ -1807,56 +1807,20 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   position: relative;
 }
 
-.cred-stats {
-  display: flex;
-  gap: clamp(32px, 8vw, 96px);
-  margin-bottom: clamp(48px, 7vw, 88px);
-  flex-wrap: wrap;
-  align-items: flex-end;
+.cred-infographic {
+  width: 100%;
 }
 
-.cred-stat {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.cred-number {
-  font-family: var(--font-display);
-  font-size: clamp(3.8rem, 8.5vw, 8rem);
-  font-weight: 700;
-  line-height: .88;
-  letter-spacing: -.04em;
-  color: transparent;
-  -webkit-text-stroke: 2px var(--accent);
+.cred-infographic-img {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
   display: block;
-  user-select: none;
+  border-radius: var(--radius);
 }
 
-.cred-stat-label {
-  font-family: var(--font-label);
-  font-size: .9rem;
-  letter-spacing: .22em;
-  text-transform: uppercase;
-  color: var(--accent);
-}
-
-.cred-narrative p {
-  font-family: var(--font-display);
-  font-size: clamp(1.05rem, 2.2vw, 1.65rem);
-  font-weight: 300;
-  line-height: 1.65;
-  color: var(--text-soft);
-  max-width: 54ch;
-  margin-bottom: 20px;
-}
-
-.cred-narrative strong { color: var(--text); font-weight: 600; }
-.cred-narrative .btn { margin-top: 12px; }
-
-@media (max-width: 600px) {
-  .cred-stats { gap: 28px; }
-  .cred-number { font-size: clamp(3rem, 18vw, 5rem); }
+.cred-infographic-cta {
+  margin-top: 36px;
 }
 
 /* ---- Single testimonial ------------------------------------------------- */
