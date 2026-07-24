@@ -34,7 +34,6 @@
             </div>
           </div>
           <div class="book-meta" data-reveal data-delay="1">
-            <div class="vol">Volume 1 · The Flagship</div>
             <h3>Surviving Pretrial</h3>
             <p class="subtitle">The Ultimate Survival Guide to Being Busted &amp; Prosecuted by the Feds</p>
             <p>The moment federal charges land, everything changes overnight — and the pretrial phase quietly decides much of what follows. This is the guide written for the family at the kitchen table and the defendant in the holding cell: how to evaluate your attorney, what detention and bond really look like, how federal charges differ from state, what never to say on a recorded call, and how cooperation and plea deals actually work. No legalese. No false hope. Just the truth.</p>
@@ -122,7 +121,6 @@
             </div>
           </div>
           <div class="book-meta" data-reveal data-delay="1">
-            <div class="vol">Volume 2 · Post-Conviction</div>
             <h3>The 2255 Motion Handbook</h3>
             <p class="subtitle">A Post-Conviction Relief Guide for Federal Inmates</p>
             <p>Conviction is not the end of the fight. A 28 U.S.C. § 2255 motion is one of the most powerful — and most misunderstood — tools a federal inmate has. The first guide of its kind, this handbook walks you through the exact steps to file, argue, and fight for your freedom: grounds for relief, deadlines that can sink a case, ineffective-assistance claims, and how to give your motion its best possible shot. Written so a non-lawyer can actually use it.</p>

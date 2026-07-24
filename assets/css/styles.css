@@ -1320,8 +1320,18 @@ body.journal-page {
   font-size: .8rem;
   letter-spacing: .12em;
   text-transform: uppercase;
-  color: var(--gold);
   margin-bottom: 8px;
+  color: var(--accent);
+  background: linear-gradient(90deg, var(--accent) 0%, #ffbe7a 50%, var(--accent) 100%);
+  background-size: 200% 100%;
+  background-position: 100% center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: review-title-shine 6s ease-in-out 1.2s infinite;
+}
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) {
+  .bfr-title { color: var(--accent); }
 }
 .book-feature-review p:last-of-type {
   font-family: var(--font-display);
@@ -1336,7 +1346,7 @@ body.journal-page {
   font-size: .78rem;
   letter-spacing: .08em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--text-soft);
   font-style: normal;
 }
 
@@ -1388,9 +1398,33 @@ body.journal-page {
 /* ---- Per-book pull review (Books page) --------------------------------- */
 .book-quote { margin-top: 28px; border-left: 3px solid var(--accent); padding: 4px 0 4px 22px; }
 .book-quote .stars { color: var(--accent); letter-spacing: 3px; font-size: .85rem; margin-bottom: 8px; }
-.book-quote .bq-title { font-family: var(--font-label); font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); font-style: normal; margin-bottom: 10px; }
+.book-quote .bq-title {
+  font-family: var(--font-label);
+  font-size: .82rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  font-style: normal;
+  margin-bottom: 10px;
+  color: var(--accent);
+  background: linear-gradient(90deg, var(--accent) 0%, #ffbe7a 50%, var(--accent) 100%);
+  background-size: 200% 100%;
+  background-position: 100% center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: review-title-shine 6s ease-in-out 1.5s infinite;
+}
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) {
+  .book-quote .bq-title { color: var(--accent); }
+}
 .book-quote p { font-family: var(--font-display); font-style: italic; color: var(--text); font-size: 1.08rem; line-height: 1.5; margin-bottom: 8px; max-width: 60ch; }
-.book-quote .bq-cite { font-family: var(--font-label); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.book-quote .bq-cite { font-family: var(--font-label); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--text-soft); }
+
+@keyframes review-title-shine {
+  0%   { background-position: 100% center; }
+  40%  { background-position:   0% center; }
+  100% { background-position:   0% center; }
+}
 
 /* ---- Books page: subtle photographic context per book ------------------ */
 .book-section { position: relative; overflow: hidden; }

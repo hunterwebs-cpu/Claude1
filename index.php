@@ -226,7 +226,6 @@
             </a>
           </div>
           <div class="book-feature-text">
-            <div class="vol-label">Volume 1 · Pretrial</div>
             <h3>Surviving Pretrial</h3>
             <p>The map most families never get — arrest, detention, attorneys, and the decisions that define everything that follows. Written from inside the system, not a law library.</p>
             <blockquote class="book-feature-review">
@@ -251,7 +250,6 @@
             </a>
           </div>
           <div class="book-feature-text">
-            <div class="vol-label">Volume 2 · Post-Conviction</div>
             <h3>The 2255 Motion Handbook</h3>
             <p>Conviction is not the end of the fight. The first guide of its kind on 28 U.S.C. § 2255 — exact steps to file, argue, and fight for freedom after sentencing. Written so a non-lawyer can actually use it.</p>
             <blockquote class="book-feature-review">
