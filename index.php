@@ -168,16 +168,32 @@
     <!-- ================================================ CREDIBILITY STRIP -->
     <section class="cred-strip">
       <div class="container">
-        <div class="cred-inner" data-reveal>
-          <span class="cred-number" aria-hidden="true">20</span>
-          <div class="cred-text">
-            <p>Bilal Khan was sentenced to <strong>20 years</strong> in federal prison. He learned the system from inside it — and built this so you don't walk in blind, the way he once did.</p>
-            <a class="btn btn--ghost" href="about.php">
-              His story
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
+
+        <div class="cred-stats" data-reveal>
+          <div class="cred-stat">
+            <span class="cred-number" aria-hidden="true">4.5</span>
+            <span class="cred-stat-label">yrs pretrial</span>
+          </div>
+          <div class="cred-stat">
+            <span class="cred-number" aria-hidden="true">$1.3M</span>
+            <span class="cred-stat-label">family spent</span>
+          </div>
+          <div class="cred-stat">
+            <span class="cred-number" aria-hidden="true">80</span>
+            <span class="cred-stat-label">yrs once facing</span>
           </div>
         </div>
+
+        <div class="cred-narrative" data-reveal data-delay="1">
+          <p>At one point, eighty years was on the table. My family spent $1.3 million on my defense — a third of it gone to lawyers I had to fire, another third cleaning up their mistakes.</p>
+          <p>In year two of pretrial I stopped trusting and started reading. The jails I was in had no law libraries, so my family shipped me whatever they could find — cases, statutes, anything I could get my hands on. Correspondence courses. Then I started helping people around me with their legal issues, and I got good at it.</p>
+          <p>This site is what I built from that place.</p>
+          <a class="btn btn--ghost" href="about.php">
+            The full story
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
       </div>
     </section>
 

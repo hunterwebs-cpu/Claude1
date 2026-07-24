@@ -1807,61 +1807,56 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   position: relative;
 }
 
-.cred-inner {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: clamp(28px, 6vw, 96px);
-  align-items: center;
-  max-width: 960px;
+.cred-stats {
+  display: flex;
+  gap: clamp(32px, 8vw, 96px);
+  margin-bottom: clamp(48px, 7vw, 88px);
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.cred-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .cred-number {
   font-family: var(--font-display);
-  font-size: clamp(8rem, 18vw, 16rem);
+  font-size: clamp(3.8rem, 8.5vw, 8rem);
   font-weight: 700;
   line-height: .88;
-  letter-spacing: -.05em;
+  letter-spacing: -.04em;
   color: transparent;
   -webkit-text-stroke: 2px var(--accent);
   display: block;
-  flex-shrink: 0;
-  position: relative;
   user-select: none;
 }
 
-.cred-number::after {
-  content: "years";
-  position: absolute;
-  bottom: .12em;
-  left: .06em;
+.cred-stat-label {
   font-family: var(--font-label);
-  font-size: .11em;
+  font-size: .7rem;
   letter-spacing: .28em;
   text-transform: uppercase;
   color: var(--accent);
-  -webkit-text-stroke: 0;
 }
 
-.cred-text p {
+.cred-narrative p {
   font-family: var(--font-display);
-  font-size: clamp(1.15rem, 2.4vw, 1.9rem);
+  font-size: clamp(1.05rem, 2.2vw, 1.65rem);
   font-weight: 300;
-  line-height: 1.55;
+  line-height: 1.65;
   color: var(--text-soft);
-  margin-bottom: 32px;
-  max-width: 44ch;
+  max-width: 54ch;
+  margin-bottom: 20px;
 }
 
-.cred-text strong { color: var(--text); font-weight: 600; }
+.cred-narrative strong { color: var(--text); font-weight: 600; }
+.cred-narrative .btn { margin-top: 12px; }
 
-@media (max-width: 680px) {
-  .cred-inner {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    text-align: center;
-  }
-  .cred-number { font-size: clamp(7rem, 28vw, 10rem); margin: 0 auto; }
-  .cred-number::after { left: 50%; transform: translateX(-50%); }
+@media (max-width: 600px) {
+  .cred-stats { gap: 28px; }
+  .cred-number { font-size: clamp(3rem, 18vw, 5rem); }
 }
 
 /* ---- Single testimonial ------------------------------------------------- */
