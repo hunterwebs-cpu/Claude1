@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Books — Surviving the Feds</title>
+  <title>Books — Surviving the Feds</title>
   <meta name="description" content="The Surviving the Feds book series by Bilal Khan. Surviving Pretrial and The 2255 Motion Handbook — available in paperback and eBook on Amazon." />
   <meta name="theme-color" content="#0A0B0E" />  <?php require '_head.php'; ?>
 </head>
@@ -16,8 +16,8 @@
     <section class="section" style="padding-top:170px; padding-bottom:40px;">
       <div class="container">
         <div class="sec-head" data-reveal style="margin-bottom:0;">
-          <span class="eyebrow">The Surviving the Feds Series</span>
-          <h2>The books that hand you the map.</h2>
+          <span class="eyebrow eyebrow--clean">Surviving the Feds Series</span>
+          <h2>Books that hand you the map.</h2>
           <p class="lead deck">Written by Bilal Khan — not from a law library, but from inside the system. Each volume is available in <strong>paperback and eBook</strong>. (County jails and prisons often won't accept hardcover, so every title ships in formats your loved one can actually receive.)</p>
         </div>
       </div>
@@ -25,7 +25,7 @@
 
     <!-- BOOK 1 -->
     <section class="section book-section" style="padding-top:30px;">
-      <div class="book-section-bg" style="background-image:url('assets/img/photos/courtroom.jpg')"></div>
+      <div class="book-section-bg" style="background-image:url('assets/img/book-scene-surviving-pretrial.webp')"></div>
       <div class="container">
         <article class="book">
           <div class="book-cover-shell" data-reveal>
@@ -49,8 +49,9 @@
             </div>
             <div class="book-quote" data-reveal data-delay="2">
               <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <p>"More detailed, more updated, and more usable against persecution in today's environment — from an author who clearly knows the subject matter."</p>
-              <span class="bq-cite">— Kevin Sr., Verified Purchase on Amazon</span>
+              <p class="bq-title">Much Better Than Busted By the Feds</p>
+              <p>"I've ordered both this title and the Busted By the Feds title for my son who was targeted by the government and is in detention as I write this. He and all those in the detention center have told me that Surviving Pretrial is more detailed, more updated, and more usable against persecution in today's environment. The book contains a plethora of information and advice from an author who clearly knows the subject matter. Thanks for a great book."</p>
+              <span class="bq-cite">— Kevin Sr., Verified Purchase · Amazon, February 6, 2023</span>
             </div>
           </div>
         </article>
@@ -61,7 +62,7 @@
 
     <!-- BOOK 2 -->
     <section class="section book-section">
-      <div class="book-section-bg" style="background-image:url('assets/img/photos/guard-tower.jpg')"></div>
+      <div class="book-section-bg" style="background-image:url('assets/img/book-scene-2255-motion-handbook.webp')"></div>
       <div class="container">
         <article class="book">
           <div class="book-cover-shell" data-reveal>

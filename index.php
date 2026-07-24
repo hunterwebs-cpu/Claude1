@@ -208,49 +208,67 @@
       </div>
     </section>
 
-    <!-- ======================================================= THE BOOKS -->
-    <section class="section section--alt">
+    <!-- ======================================================= BOOKS -->
+    <section class="section home-books-section">
       <div class="container">
+
         <div class="sec-head" data-reveal>
           <span class="eyebrow eyebrow--clean">Books</span>
           <h2>They have a playbook.<br><em class="display-italic">Now so do you.</em></h2>
-          <p class="lead" style="margin-top:18px;">Two volumes in the <em>Surviving the Feds</em> series. Paperback and eBook on Amazon. Written for the person sitting at the kitchen table at midnight, trying to understand what just happened to their life.</p>
         </div>
 
-        <div class="grid grid-2">
-          <!-- Book 1 -->
-          <article class="card home-book-card" data-reveal data-delay="1" style="display:flex; gap:28px; align-items:center;">
-            <a class="book-cover-shell" href="books.php" style="flex:0 0 132px;" aria-label="Surviving Pretrial — view details">
-              <img class="cover-img" src="assets/img/cover-pretrial.jpg" alt="Surviving Pretrial book cover by Bilal Khan" loading="lazy" />
+        <!-- Book 1: Surviving Pretrial -->
+        <article class="book-feature" data-reveal>
+          <div class="book-feature-scene" style="background-image:url('assets/img/book-scene-surviving-pretrial.webp')"></div>
+          <a class="book-feature-cover" href="books.php" aria-label="Surviving Pretrial — view details">
+            <img src="assets/img/cover-pretrial.jpg" alt="Surviving Pretrial book cover by Bilal Khan" loading="lazy" />
+          </a>
+          <div class="book-feature-text">
+            <div class="vol-label">Volume 1 · Pretrial</div>
+            <h3>Surviving Pretrial</h3>
+            <p>The map most families never get — arrest, detention, attorneys, and the decisions that define everything that follows. Written from inside the system, not a law library.</p>
+            <blockquote class="book-feature-review">
+              <div class="bfr-stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p class="bfr-title">Much Better Than Busted By the Feds</p>
+              <p>"Surviving Pretrial is more detailed, more updated, and more usable against persecution in today's environment."</p>
+              <cite>— Kevin Sr., Verified Purchase · Amazon</cite>
+            </blockquote>
+            <a class="btn btn--ghost" href="books.php">
+              See the book
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <div>
-              <div class="bc-series" style="color:var(--accent); font-family:var(--font-label); letter-spacing:.18em; text-transform:uppercase; font-size:.72rem; margin-bottom:8px;">Volume 1</div>
-              <h3 style="font-size:1.35rem;">Surviving Pretrial</h3>
-              <p style="color:var(--muted); font-size:.95rem; margin:10px 0 18px;">The map most families never get — arrest, detention, attorneys, and the decisions that shape everything that follows.</p>
-              <a class="nav-link" style="padding-left:0; color:var(--accent);" href="books.php">Read more →</a>
-            </div>
-          </article>
+          </div>
+        </article>
 
-          <!-- Book 2 -->
-          <article class="card home-book-card" data-reveal data-delay="2" style="display:flex; gap:28px; align-items:center;">
-            <a class="book-cover-shell" href="books.php" style="flex:0 0 132px;" aria-label="The 2255 Motion Handbook — view details">
-              <img class="cover-img" src="assets/img/cover-2255.jpg" alt="The 2255 Motion Handbook book cover by Bilal Khan" loading="lazy" />
+        <!-- Book 2: 2255 Motion Handbook -->
+        <article class="book-feature book-feature--flip" data-reveal data-delay="1">
+          <div class="book-feature-scene" style="background-image:url('assets/img/book-scene-2255-motion-handbook.webp')"></div>
+          <a class="book-feature-cover" href="books.php" aria-label="The 2255 Motion Handbook — view details">
+            <img src="assets/img/cover-2255.jpg" alt="The 2255 Motion Handbook book cover by Bilal Khan" loading="lazy" />
+          </a>
+          <div class="book-feature-text">
+            <div class="vol-label">Volume 2 · Post-Conviction</div>
+            <h3>The 2255 Motion Handbook</h3>
+            <p>Conviction is not the end of the fight. The first guide of its kind on 28 U.S.C. § 2255 — exact steps to file, argue, and fight for freedom after sentencing. Written so a non-lawyer can actually use it.</p>
+            <blockquote class="book-feature-review">
+              <div class="bfr-stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p>"It explains each step of the process, breaks down the forms, and includes full briefing for two cases that prevailed."</p>
+              <cite>— Matthew Clem, Verified Purchase · Amazon</cite>
+            </blockquote>
+            <a class="btn btn--ghost" href="books.php">
+              See the book
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <div>
-              <div class="bc-series" style="color:var(--accent); font-family:var(--font-label); letter-spacing:.18em; text-transform:uppercase; font-size:.72rem; margin-bottom:8px;">Volume 2</div>
-              <h3 style="font-size:1.35rem;">The 2255 Motion Handbook</h3>
-              <p style="color:var(--muted); font-size:.95rem; margin:10px 0 18px;">The first guide of its kind — the exact steps to file, argue, and fight for your freedom after conviction.</p>
-              <a class="nav-link" style="padding-left:0; color:var(--accent);" href="books.php">Read more →</a>
-            </div>
-          </article>
-        </div>
+          </div>
+        </article>
 
-        <div class="center" style="margin-top:48px;" data-reveal>
+        <div class="center" style="margin-top:56px;" data-reveal>
           <a class="btn btn--primary" href="books.php">
             See both books
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
         </div>
+
       </div>
     </section>
 
