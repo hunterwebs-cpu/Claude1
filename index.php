@@ -169,19 +169,26 @@
     <section class="cred-strip">
       <div class="container">
 
-        <div class="cred-infographic" data-reveal>
-          <img
-            src="assets/img/cred-infographic.webp"
-            alt="Bilal Khan's case timeline: 4.5 years pretrial, $1.3M family spent, 80 years once facing — built this instead"
-            class="cred-infographic-img"
-            loading="lazy"
-          />
-          <div class="cred-infographic-cta" data-reveal data-delay="1">
+        <div class="cred-inner">
+
+          <div class="cred-graphic" data-reveal>
+            <img
+              src="assets/img/cred-infographic.webp"
+              alt="Bilal Khan's case timeline: 4.5 years pretrial, $1.3M family spent, 80 years once facing — built this instead"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="cred-text" data-reveal data-delay="1">
+            <p>At one point, eighty years was on the table. My family spent $1.3 million on my defense — a third of it gone to lawyers I had to fire, another third cleaning up their mistakes.</p>
+            <p>In year two of pretrial I stopped trusting and started reading. The jails I was in had no law libraries, so my family shipped me whatever they could find — cases, statutes, anything I could get my hands on. Correspondence courses. Then I started helping people around me with their legal issues, and I got good at it.</p>
+            <p>This site is what I built from that place.</p>
             <a class="btn btn--ghost" href="about.php">
               The full story
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>
+
         </div>
 
       </div>
