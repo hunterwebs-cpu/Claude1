@@ -38,10 +38,7 @@
             <h3>Surviving Pretrial</h3>
             <p class="subtitle">The Ultimate Survival Guide to Being Busted &amp; Prosecuted by the Feds</p>
             <p>The moment federal charges land, everything changes overnight — and the pretrial phase quietly decides much of what follows. This is the guide written for the family at the kitchen table and the defendant in the holding cell: how to evaluate your attorney, what detention and bond really look like, how federal charges differ from state, what never to say on a recorded call, and how cooperation and plea deals actually work. No legalese. No false hope. Just the truth.</p>
-            <div class="formats">
-              <span class="format-pill">Paperback</span>
-              <span class="format-pill">Kindle eBook</span>
-            </div>
+            <p class="book-format-note">Available in paperback.</p>
             <div class="book-actions">
               <a class="btn btn--primary" href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8" target="_blank" rel="noopener">
                 Paperback on Amazon
@@ -129,10 +126,7 @@
             <h3>The 2255 Motion Handbook</h3>
             <p class="subtitle">A Post-Conviction Relief Guide for Federal Inmates</p>
             <p>Conviction is not the end of the fight. A 28 U.S.C. § 2255 motion is one of the most powerful — and most misunderstood — tools a federal inmate has. The first guide of its kind, this handbook walks you through the exact steps to file, argue, and fight for your freedom: grounds for relief, deadlines that can sink a case, ineffective-assistance claims, and how to give your motion its best possible shot. Written so a non-lawyer can actually use it.</p>
-            <div class="formats">
-              <span class="format-pill">Paperback</span>
-              <span class="format-pill">Kindle eBook</span>
-            </div>
+            <p class="book-format-note">Available in paperback.</p>
             <div class="book-actions">
               <a class="btn btn--primary" href="https://www.amazon.com/2255-Motion-Handbook-Post-Conviction-Surviving/dp/B0D8HQRJN8" target="_blank" rel="noopener">
                 Paperback on Amazon
@@ -142,8 +136,9 @@
             </div>
             <div class="book-quote" data-reveal data-delay="2">
               <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <p>"It explains each step of the process, breaks down the forms, and even includes the full briefing for two cases that prevailed. A must for anyone in federal custody."</p>
-              <span class="bq-cite">— Matthew Clem, Verified review on Amazon</span>
+              <p class="bq-title">Great Info. VERY helpful.</p>
+              <p>"This book really answered all of our questions on how to keep fighting after the case ended. Just like his first book, Khan provides information from a very helpful perspective: someone who has been there. If you are going to be claiming ineffective assistance of counsel then you need this book before you file."</p>
+              <span class="bq-cite">— Jason, Verified Purchase · Amazon, April 28, 2025</span>
             </div>
           </div>
         </article>
