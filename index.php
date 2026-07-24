@@ -212,7 +212,7 @@
     <section class="section section--alt">
       <div class="container">
         <div class="sec-head" data-reveal>
-          <span class="eyebrow">The Books</span>
+          <span class="eyebrow eyebrow--clean">Books</span>
           <h2>They have a playbook.<br><em class="display-italic">Now so do you.</em></h2>
           <p class="lead" style="margin-top:18px;">Two volumes in the <em>Surviving the Feds</em> series. Paperback and eBook on Amazon. Written for the person sitting at the kitchen table at midnight, trying to understand what just happened to their life.</p>
         </div>
