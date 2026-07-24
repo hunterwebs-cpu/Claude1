@@ -21,9 +21,9 @@ $_p = $stf_page ?? '';
         </a>
         <div class="nav-links">
           <a class="nav-link" href="index.php"<?= _stf_cur($_p,'home') ?>>Home</a>
-          <a class="nav-link" href="calculators.php"<?= _stf_cur($_p,'calculators') ?>>Free Tools</a>
-          <a class="nav-link" href="books.php"<?= _stf_cur($_p,'books') ?>>The Books</a>
-          <a class="nav-link" href="blog.php"<?= _stf_cur($_p,'blog') ?>>The Journal</a>
+          <a class="nav-link" href="calculators.php"<?= _stf_cur($_p,'calculators') ?>>Calculators</a>
+          <a class="nav-link" href="books.php"<?= _stf_cur($_p,'books') ?>>Books</a>
+          <a class="nav-link" href="blog.php"<?= _stf_cur($_p,'blog') ?>>Journal</a>
           <a class="nav-link" href="about.php"<?= _stf_cur($_p,'about') ?>>About</a>
         </div>
         <div class="nav-cta">
@@ -44,9 +44,9 @@ $_p = $stf_page ?? '';
     <div class="overlay-menu">
       <a href="index.php">Home</a>
       <a href="start-here.php">Command Center</a>
-      <a href="calculators.php">Free Tools</a>
-      <a href="books.php">The Books</a>
-      <a href="blog.php">The Journal</a>
+      <a href="calculators.php">Calculators</a>
+      <a href="books.php">Books</a>
+      <a href="blog.php">Journal</a>
       <a href="about.php">About</a>
     </div>
     <aside class="overlay-aside">
