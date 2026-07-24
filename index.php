@@ -111,7 +111,7 @@
             <svg class="tool-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3L3 9v12h18V9L12 3z"/><path d="M9 21V12h6v9"/></svg>
             <div class="tool-row-body">
               <strong>Federal Sentencing Guideline Range Calculator</strong>
-              <span>Enter offense level and criminal history category. See the §5A sentencing table range immediately.</span>
+              <span>Enter offense level and criminal history category. See your recommended sentencing range immediately.</span>
             </div>
             <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>

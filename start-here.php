@@ -1356,7 +1356,7 @@
           </button>
         </div>
 
-        <div class="cr-gl-disclaimer">Source: U.S. Sentencing Commission Sentencing Table (§5A). This calculator does not account for career offender, armed career criminal, or other mandatory provisions that override the standard table. Consult your attorney about whether any of these apply.</div>
+        <div class="cr-gl-disclaimer">This calculator shows the recommended sentencing range based on your inputs. It does not account for career offender, armed career criminal, or other mandatory provisions. Consult your attorney about whether any of these apply.</div>
       </div>
     </div>
 

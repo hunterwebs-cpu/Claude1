@@ -130,9 +130,9 @@
           <div class="calc-tool-body">
             <div class="calc-tool-head">
               <h2 class="calc-tool-title">Federal Sentencing Guideline Range Calculator</h2>
-              <span class="calc-tool-tag">§5A Sentencing Table</span>
+              <span class="calc-tool-tag">Guideline Range</span>
             </div>
-            <p class="calc-tool-desc">The U.S. Sentencing Commission publishes a 43×6 table that every federal judge starts with. Your offense level (1–43) on one axis, your criminal history category (I–VI) on the other — the intersection is your guideline range in months. This calculator does that lookup instantly.</p>
+            <p class="calc-tool-desc">Enter your offense level (1–43) and criminal history category (I–VI). The calculator instantly shows your recommended sentencing range in months — the same starting point every federal judge uses.</p>
             <div class="calc-tool-answers">
               <div class="calc-tool-q"><span class="calc-q-mark">?</span> What is my guideline range in months?</div>
               <div class="calc-tool-q"><span class="calc-q-mark">?</span> How many criminal history points do I have?</div>
@@ -248,7 +248,7 @@
         <div class="narrow" style="margin: 0 auto;" data-reveal>
           <span class="eyebrow">Before you use these tools</span>
           <h2 style="font-size: 1.8rem; margin: 16px 0 20px;">These calculators are informational. Your attorney does the official calculation.</h2>
-          <p class="lead">The guideline range calculator uses the official U.S. Sentencing Commission sentencing table — the same table your attorney and the judge will use. But the actual calculation for your specific case depends on case-specific facts that only your attorney knows: what the factual basis says, how the PSR calculates the offense level, whether any departures or variances apply, and what enhancements the government is pursuing.</p>
+          <p class="lead">The guideline range calculator gives you the recommended sentencing range — the same starting point your attorney and the judge will use. But the actual calculation for your specific case depends on case-specific facts that only your attorney knows: what the factual basis says, how the PSR calculates the offense level, whether any departures or variances apply, and what enhancements the government is pursuing.</p>
           <p style="color: var(--muted); margin-top: 18px; font-size: 1rem; line-height: 1.75;">Use these tools to understand the system and ask better questions — not to predict your outcome. The number that matters most is the one in the plea agreement and the PSR, confirmed by your attorney. <strong style="color: var(--text);">Always err on the high side when estimating.</strong></p>
         </div>
       </div>
