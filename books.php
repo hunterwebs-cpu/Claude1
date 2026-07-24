@@ -18,7 +18,7 @@
         <div class="sec-head" data-reveal style="margin-bottom:0;">
           <span class="eyebrow eyebrow--clean">Surviving the Feds Series</span>
           <h2>Books that hand you the map.</h2>
-          <p class="lead deck">Written by Bilal Khan — not from a law library, but from inside the system. Each volume is available in <strong>paperback and eBook</strong>. (County jails and prisons often won't accept hardcover, so every title ships in formats your loved one can actually receive.)</p>
+          <p class="lead deck">Written by Bilal Khan — not from a law library, but from inside the system. Available in paperback.</p>
         </div>
       </div>
     </section>
