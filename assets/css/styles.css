@@ -1455,7 +1455,7 @@ body.journal-page {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(10,11,14,.58);
+  background: rgba(10,11,14,.28);
   z-index: 1;
   pointer-events: none;
 }
