@@ -167,11 +167,9 @@
 
           <p>And lost. Looking back, it was unsurprising.</p>
 
-          <p>It took months to understand my biggest mistake: I had put too much in. Too many claims. A petition buried under its own weight is one the court can dismiss on procedural grounds before it ever reaches the merits.</p>
+          <p>It took months to understand my biggest mistake: I had put too much in. Too many claims. I had one extremely strong argument buried in the pile — one that may have actually moved a judge. But the kitchen sink approach never works. The judge sees volume, not clarity. After years of helping others navigate post-conviction and reading books like the <em>Rule 32 Handbook</em>, I understand now what good lawyers have always known: they won't file every argument you give them. Not because they're lazy. Because they know that throwing everything at the wall signals you have nothing worth throwing.</p>
 
-          <p>What taught me that wasn't another resource on what grounds to raise. It was a collateral state case I was fighting in Arizona. I needed to file under Rule 32, and I found a book called the <em>Rule 32 Handbook</em> by Cedric Hopkins. That book did something I hadn't seen anywhere for federal § 2255 relief: it explained the actual procedure, step by step, in plain language.</p>
-
-          <p>The procedure turned out to matter more than the claims.</p>
+          <p>The lesson wasn't a resource on what grounds to raise. It was a collateral state case I was fighting in Arizona. I needed to file under Rule 32, and I found a book called the <em>Rule 32 Handbook</em> by Cedric Hopkins. That book did something I hadn't seen anywhere for federal § 2255 relief: it explained the actual procedure, step by step, in plain language. Discipline. Focus. One strong claim presented clearly beats ten weak ones every time.</p>
 
           <h3 class="be-subhead">What's missing from every other book.</h3>
 
