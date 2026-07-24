@@ -207,7 +207,7 @@ h3 { font-size: clamp(1.3rem, 2.2vw, 1.7rem); }
   padding: 9px 20px;
   text-align: center;
   font-family: var(--font-label);
-  font-size: .72rem;
+  font-size: .8rem;
   letter-spacing: .04em;
   color: #c8a27a;
   position: relative;
@@ -414,7 +414,7 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
   z-index: 3;
   color: var(--muted);
   font-family: var(--font-label);
-  font-size: .72rem;
+  font-size: .8rem;
   letter-spacing: .25em;
   text-transform: uppercase;
   display: flex; flex-direction: column; align-items: center; gap: 10px;
@@ -546,7 +546,7 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
 .soon-tag {
   display: inline-block;
   font-family: var(--font-label);
-  font-size: .68rem;
+  font-size: .78rem;
   letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--gold);
@@ -588,11 +588,11 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
   background: linear-gradient(90deg, rgba(0,0,0,.55), transparent);
 }
 .book-cover-shell:hover .book-cover { transform: rotateY(-4deg) rotateX(1deg) translateY(-6px); }
-.book-cover .bc-series { font-family: var(--font-label); font-size: .62rem; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); }
+.book-cover .bc-series { font-family: var(--font-label); font-size: .78rem; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); }
 .book-cover .bc-title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; line-height: 1.12; color: #fff; }
 .book-cover .bc-rule { width: 44px; height: 3px; background: var(--accent); margin: 14px 0; }
 .book-cover .bc-sub { font-size: .76rem; color: var(--text-soft); line-height: 1.45; }
-.book-cover .bc-author { font-family: var(--font-label); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.book-cover .bc-author { font-family: var(--font-label); font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
 .book-cover img { width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0; border-radius: inherit; }
 
 .book-meta .vol { font-family: var(--font-label); letter-spacing: .2em; text-transform: uppercase; font-size: .78rem; color: var(--accent); margin-bottom: 14px; }
@@ -632,7 +632,7 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
 .post-thumb .ph-mark { font-family: var(--font-display); font-size: 2.4rem; color: var(--border-2); position: relative; z-index: 1; }
 .post-thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .post-body { padding: 26px 26px 30px; display: flex; flex-direction: column; flex: 1; }
-.post-cat { font-family: var(--font-label); font-size: .72rem; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+.post-cat { font-family: var(--font-label); font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
 .post-card h3 { font-size: 1.3rem; margin-bottom: 12px; }
 .post-card p { color: var(--text-soft); font-size: .95rem; line-height: 1.65; flex: 1; }
 .post-date { color: var(--faint); font-size: .82rem; margin-top: 18px; font-family: var(--font-label); letter-spacing: .08em; }
@@ -739,7 +739,7 @@ body.journal-page {
 .journal-item-cat {
   display: block;
   font-family: var(--font-label);
-  font-size: .68rem;
+  font-size: .78rem;
   letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--accent);
@@ -1250,13 +1250,13 @@ body.journal-page {
 .author-testimonial { margin-top: 28px; background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 22px 26px; }
 .author-testimonial .stars { color: var(--accent); letter-spacing: 3px; font-size: .85rem; margin-bottom: 10px; }
 .author-testimonial p { font-family: var(--font-display); font-style: italic; color: var(--text); font-size: 1.06rem; line-height: 1.5; margin-bottom: 10px; }
-.author-testimonial .at-cite { font-family: var(--font-label); font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.author-testimonial .at-cite { font-family: var(--font-label); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 
 /* ---- Per-book pull review (Books page) --------------------------------- */
 .book-quote { margin-top: 28px; border-left: 3px solid var(--accent); padding: 4px 0 4px 22px; }
 .book-quote .stars { color: var(--accent); letter-spacing: 3px; font-size: .85rem; margin-bottom: 8px; }
 .book-quote p { font-family: var(--font-display); font-style: italic; color: var(--text); font-size: 1.08rem; line-height: 1.5; margin-bottom: 8px; max-width: 60ch; }
-.book-quote .bq-cite { font-family: var(--font-label); font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.book-quote .bq-cite { font-family: var(--font-label); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 
 /* ---- Books page: subtle photographic context per book ------------------ */
 .book-section { position: relative; overflow: hidden; }
@@ -1283,7 +1283,7 @@ body.journal-page {
 .podcast-card .pc-icon { width: 64px; height: 64px; flex-shrink: 0; display: grid; place-items: center; border-radius: 16px; background: rgba(232,119,34,.12); border: 1px solid rgba(232,119,34,.28); color: var(--accent); }
 .podcast-card .pc-icon svg { width: 30px; height: 30px; }
 .podcast-card .pc-body { flex: 1; min-width: 240px; }
-.podcast-card .pc-label { font-family: var(--font-label); font-size: .74rem; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+.podcast-card .pc-label { font-family: var(--font-label); font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
 .podcast-card h3 { margin-bottom: 8px; }
 .podcast-card p { color: var(--muted); font-size: .95rem; }
 
@@ -1380,7 +1380,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 .myth-row .myth, .myth-row .fact { border-radius: var(--radius); padding: 22px 24px; border: 1px solid var(--border); }
 .myth-row .myth { background: #F8ECE7; border-color: #EFD8CE; }
 .myth-row .fact { background: var(--surface); border-left: 3px solid var(--accent); }
-.mf-tag { display: inline-block; font-family: var(--font-label); letter-spacing: .14em; text-transform: uppercase; font-size: .68rem; margin-bottom: 9px; }
+.mf-tag { display: inline-block; font-family: var(--font-label); letter-spacing: .14em; text-transform: uppercase; font-size: .78rem; margin-bottom: 9px; }
 .myth .mf-tag { color: #B0492E; }
 .fact .mf-tag { color: var(--accent-deep); }
 .myth p { color: #74605A; font-style: italic; }
@@ -1835,8 +1835,8 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 
 .cred-stat-label {
   font-family: var(--font-label);
-  font-size: .7rem;
-  letter-spacing: .28em;
+  font-size: .9rem;
+  letter-spacing: .22em;
   text-transform: uppercase;
   color: var(--accent);
 }
@@ -1902,7 +1902,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   display: block;
   margin-top: 5px;
   color: var(--faint);
-  font-size: .74rem;
+  font-size: .8rem;
 }
 
 /* ---- Calculator tool cards (calculators.html) --------------------------- */
@@ -1933,7 +1933,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 .calc-hero-num {
   flex-shrink: 0;
   font-family: var(--font-label);
-  font-size: .68rem;
+  font-size: .78rem;
   font-weight: 700;
   letter-spacing: .1em;
   color: var(--accent);
@@ -2028,7 +2028,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 .calc-tool-tag {
   flex: 0 0 auto;
   font-family: var(--font-label);
-  font-size: .72rem;
+  font-size: .8rem;
   letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--accent);
@@ -2072,7 +2072,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
   background: rgba(232, 119, 34, .15);
   color: var(--accent);
   font-family: var(--font-label);
-  font-size: .72rem;
+  font-size: .8rem;
   font-weight: 700;
   border-radius: 3px;
   margin-top: 2px;
