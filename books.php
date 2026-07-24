@@ -60,6 +60,58 @@
       </div>
     </section>
 
+    <!-- EDITORIAL: THE BLADE -->
+    <section class="section book-editorial">
+      <div class="container narrow">
+
+        <h2 class="be-headline" data-reveal>The blade of prosecutorial power is only sharpened through ignorance.</h2>
+
+        <div class="be-body" data-reveal data-delay="1">
+
+          <p>When I fell, there wasn't much out there. <em>Busted by the Feds</em> — written by Larry Fassler — was one of the only resources a defendant or their family could actually find. He understood what this felt like from the inside. He saw the gap and filled it. His book was excellent at showing how the sentencing guidelines actually worked, and the anecdotes throughout gave me something real to learn from when I had almost nothing else. I used it. I'm grateful it existed.</p>
+
+          <p>Larry Fassler passed away. From what I understand, the book hasn't been updated since. The system he wrote about — the guidelines, the procedures, the policies — kept moving without him. That's not a criticism of his work. It's the nature of the thing he was trying to document.</p>
+
+          <p><em>Surviving Pretrial</em> is not a replacement. It's a continuation.</p>
+
+          <h3 class="be-subhead">What I felt was missing.</h3>
+
+          <p>Busted covered finding a lawyer. What it didn't cover — what nobody covered — was what to do when your lawyer turns on you.</p>
+
+          <p>My original attorneys and I had a falling out. A serious one. The U.S. Marshals had to physically separate us. And then came the threat: <em>if you don't do what we tell you, we are withdrawing.</em></p>
+
+          <p>I thought that meant I would be standing in that courtroom alone. So I shut up. I became a beaten dog — complying, saying nothing, going along. I did not know I had another option.</p>
+
+          <p>My mother intervened. She found new attorneys. And it was through them that I learned something no one had ever told me: I could have walked into that courtroom at any point and petitioned the judge to relieve my attorneys and appoint a public defender. That's not a loophole. That's a right — a documented, available, procedural right — and I did not know it existed.</p>
+
+          <p>Nobody should ever have to suffer that fear in silence. That chapter is in this book.</p>
+
+          <h3 class="be-subhead">The discovery trick.</h3>
+
+          <p>My original lawyers came to visit me and brought boxes. Not folders. Eight full cases of paper — stacked up, overwhelming. They told me it was all my discovery.</p>
+
+          <p>My new attorneys explained what had actually happened: nobody prints computer dumps. That's the only way you arrive at that volume. The substantive discovery — what actually mattered — while still significant, fit into two large three-ring binders. That's it. Two binders. Not eight cases.</p>
+
+          <p>They buried me in paper so I would feel the weight of it. So I would believe the evidence was insurmountable. So I would comply.</p>
+
+          <h3 class="be-subhead">The blade.</h3>
+
+          <p>The first time you stand before a federal judge, the bench is so far away and so high up that you feel like you are standing in judgment before God. That feeling is not an accident. It is the architecture.</p>
+
+          <p>The blade of prosecutorial power is only sharpened through ignorance — through defendants who don't know their rights, who don't understand criminal procedure, who have no idea what their attorney is supposed to be doing. Every right you learn dulls that blade. Every strategy you understand forces your attorney to actually do the work. They cannot fake it when you know what they are supposed to be doing.</p>
+
+          <p>That is what this book is. Not legal advice. Information — the kind that prosecutors and their system pray you never find.</p>
+
+          <div class="be-price" data-reveal>
+            <p><em>Busted by the Feds</em> currently runs $150 to $200 on Amazon. Sometimes more, for a used copy.</p>
+            <p><em>Surviving Pretrial</em> is $74.95.</p>
+            <p class="be-price-note">I spent four and a half years in pretrial detention. I know what it costs — financially and every other way — to fight a federal case. I priced this book so that cost wouldn't be one more thing standing between a family and the information they need.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <hr class="divider" />
 
     <!-- BOOK 2 -->

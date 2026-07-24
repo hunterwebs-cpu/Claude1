@@ -1396,6 +1396,67 @@ body.journal-page {
 .book-section-bg { position: absolute; inset: 0; z-index: 0; background-size: cover; background-position: center; opacity: .08; }
 .book-section .container { position: relative; z-index: 1; }
 
+/* ---- Books page: editorial section ------------------------------------- */
+.book-editorial {
+  background:
+    radial-gradient(800px 500px at 30% 50%, rgba(232,119,34,.05), transparent 60%),
+    var(--bg-2);
+  border-bottom: 1px solid var(--border);
+}
+
+.be-headline {
+  font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+  line-height: 1.15;
+  max-width: 24ch;
+  margin-bottom: 52px;
+  color: var(--text);
+}
+
+.be-body p {
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
+  line-height: 1.85;
+  color: var(--text-soft);
+  margin-bottom: 24px;
+  max-width: 70ch;
+}
+
+.be-body p em { color: var(--text); font-style: italic; }
+
+.be-subhead {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 48px 0 16px;
+  padding-left: 18px;
+  border-left: 3px solid var(--accent);
+}
+
+.be-price {
+  margin-top: 52px;
+  padding: 32px 36px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  background: rgba(255,255,255,.02);
+}
+
+.be-price p {
+  font-family: var(--font-display);
+  font-size: 1.15rem !important;
+  color: var(--text) !important;
+  margin-bottom: 8px !important;
+  line-height: 1.5 !important;
+}
+
+.be-price-note {
+  font-family: var(--font-body) !important;
+  font-size: .95rem !important;
+  color: var(--text-soft) !important;
+  margin-top: 18px !important;
+  font-style: normal !important;
+}
+
 /* ---- Rules (Start Here page) ------------------------------------------- */
 .rule { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 36px 34px; }
 .rule + .rule { margin-top: 24px; }
