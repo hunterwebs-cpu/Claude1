@@ -1433,10 +1433,36 @@ body.journal-page {
 
 /* ---- Books page: editorial section ------------------------------------- */
 .book-editorial {
-  background:
-    radial-gradient(800px 500px at 30% 50%, rgba(232,119,34,.05), transparent 60%),
-    var(--bg-2);
+  background: var(--bg-2);
   border-bottom: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+/* courtroom image at 25% */
+.book-editorial::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('../img/editorial-bg-federal-courtroom-judges-bench.webp') center/cover no-repeat;
+  opacity: .25;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* dark veil over image so text stays readable */
+.book-editorial::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(10,11,14,.58);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.book-editorial .container {
+  position: relative;
+  z-index: 2;
 }
 
 .be-headline {
@@ -1445,17 +1471,20 @@ body.journal-page {
   max-width: 24ch;
   margin-bottom: 52px;
   color: var(--text);
+  text-shadow: 0 2px 16px rgba(0,0,0,.95);
 }
 
 .be-body p {
   font-size: clamp(1rem, 1.5vw, 1.1rem);
   line-height: 1.85;
-  color: var(--text-soft);
+  color: var(--text);
+  font-weight: 400;
   margin-bottom: 24px;
   max-width: 70ch;
+  text-shadow: 0 1px 8px rgba(0,0,0,.9);
 }
 
-.be-body p em { color: var(--text); font-style: italic; }
+.be-body p em { color: #fff; font-style: italic; }
 
 .be-subhead {
   font-family: var(--font-display);
@@ -1465,6 +1494,7 @@ body.journal-page {
   margin: 48px 0 16px;
   padding-left: 18px;
   border-left: 3px solid var(--accent);
+  text-shadow: 0 1px 10px rgba(0,0,0,.95);
 }
 
 .be-price {
