@@ -25,11 +25,13 @@
 
     <!-- BOOK 1 -->
     <section class="section book-section" style="padding-top:30px;">
-      <div class="book-section-bg" style="background-image:url('assets/img/book-scene-surviving-pretrial.webp')"></div>
       <div class="container">
         <article class="book">
-          <div class="book-cover-shell" data-reveal>
-            <img class="book-photo" src="assets/img/cover-pretrial.jpg" alt="Surviving Pretrial book cover by Bilal Khan" />
+          <div class="book-visual-panel" data-reveal>
+            <img class="bvp-scene" src="assets/img/book-scene-surviving-pretrial.webp" alt="" loading="lazy" aria-hidden="true" />
+            <div class="book-cover-shell">
+              <img class="book-photo" src="assets/img/cover-pretrial.jpg" alt="Surviving Pretrial book cover by Bilal Khan" />
+            </div>
           </div>
           <div class="book-meta" data-reveal data-delay="1">
             <div class="vol">Volume 1 · The Flagship</div>
@@ -62,11 +64,13 @@
 
     <!-- BOOK 2 -->
     <section class="section book-section">
-      <div class="book-section-bg" style="background-image:url('assets/img/book-scene-2255-motion-handbook.webp')"></div>
       <div class="container">
         <article class="book">
-          <div class="book-cover-shell" data-reveal>
-            <img class="book-photo" src="assets/img/cover-2255.jpg" alt="The 2255 Motion Handbook book cover by Bilal Khan" />
+          <div class="book-visual-panel" data-reveal>
+            <img class="bvp-scene" src="assets/img/book-scene-2255-motion-handbook.webp" alt="" loading="lazy" aria-hidden="true" />
+            <div class="book-cover-shell">
+              <img class="book-photo" src="assets/img/cover-2255.jpg" alt="The 2255 Motion Handbook book cover by Bilal Khan" />
+            </div>
           </div>
           <div class="book-meta" data-reveal data-delay="1">
             <div class="vol">Volume 2 · Post-Conviction</div>

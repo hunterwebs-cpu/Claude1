@@ -219,10 +219,12 @@
 
         <!-- Book 1: Surviving Pretrial -->
         <article class="book-feature" data-reveal>
-          <div class="book-feature-scene" style="background-image:url('assets/img/book-scene-surviving-pretrial.webp')"></div>
-          <a class="book-feature-cover" href="books.php" aria-label="Surviving Pretrial — view details">
-            <img src="assets/img/cover-pretrial.jpg" alt="Surviving Pretrial book cover by Bilal Khan" loading="lazy" />
-          </a>
+          <div class="book-feature-visual">
+            <img class="bfv-scene" src="assets/img/book-scene-surviving-pretrial.webp" alt="" loading="lazy" aria-hidden="true" />
+            <a class="bfv-cover" href="books.php" aria-label="Surviving Pretrial — view details">
+              <img src="assets/img/cover-pretrial.jpg" alt="Surviving Pretrial book cover by Bilal Khan" loading="lazy" />
+            </a>
+          </div>
           <div class="book-feature-text">
             <div class="vol-label">Volume 1 · Pretrial</div>
             <h3>Surviving Pretrial</h3>
@@ -242,10 +244,12 @@
 
         <!-- Book 2: 2255 Motion Handbook -->
         <article class="book-feature book-feature--flip" data-reveal data-delay="1">
-          <div class="book-feature-scene" style="background-image:url('assets/img/book-scene-2255-motion-handbook.webp')"></div>
-          <a class="book-feature-cover" href="books.php" aria-label="The 2255 Motion Handbook — view details">
-            <img src="assets/img/cover-2255.jpg" alt="The 2255 Motion Handbook book cover by Bilal Khan" loading="lazy" />
-          </a>
+          <div class="book-feature-visual">
+            <img class="bfv-scene" src="assets/img/book-scene-2255-motion-handbook.webp" alt="" loading="lazy" aria-hidden="true" />
+            <a class="bfv-cover" href="books.php" aria-label="The 2255 Motion Handbook — view details">
+              <img src="assets/img/cover-2255.jpg" alt="The 2255 Motion Handbook book cover by Bilal Khan" loading="lazy" />
+            </a>
+          </div>
           <div class="book-feature-text">
             <div class="vol-label">Volume 2 · Post-Conviction</div>
             <h3>The 2255 Motion Handbook</h3>
