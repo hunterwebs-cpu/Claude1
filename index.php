@@ -266,7 +266,7 @@
       <div class="container">
         <div class="sec-head split-head" data-reveal>
           <div class="sh-head">
-            <span class="eyebrow">The Journal</span>
+            <span class="eyebrow eyebrow--clean"><s>The</s> Journal</span>
             <h2>Straight answers to the questions keeping you up at night.</h2>
           </div>
           <p class="lead">Free guides and articles on federal procedure, defense strategy, and surviving the process — written in plain language. Every article is printable to mail inside.</p>

@@ -314,7 +314,7 @@
     renderJournal();
   } else {
     render('post-list', 0);
-    render('home-posts', 3);
+    render('home-posts', 4);
   }
 
 })();

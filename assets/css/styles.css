@@ -1592,6 +1592,14 @@ body.journal-page {
   .bqn-link { padding: 14px 0; }
 }
 
+/* ---- Homepage journal grid: 4 columns ---------------------------------- */
+#home-posts { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 980px) { #home-posts { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) { #home-posts { grid-template-columns: 1fr; } }
+
+/* Eyebrow strikethrough — intentional, muted */
+.eyebrow s { text-decoration-color: rgba(255,255,255,.35); color: var(--text-muted, var(--muted)); }
+
 /* ---- Rules (Start Here page) ------------------------------------------- */
 .rule { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 36px 34px; }
 .rule + .rule { margin-top: 24px; }
