@@ -194,19 +194,6 @@
       </div>
     </section>
 
-    <!-- ================================================= SINGLE TESTIMONIAL -->
-    <section class="section testimonial-section">
-      <div class="container">
-        <blockquote class="testimonial-single" data-reveal>
-          <div class="ts-stars" aria-label="5 out of 5 stars">★★★★★</div>
-          <p>"I read this and sent it to my cousin who's just starting in the federal system. For the first time, we feel like there's a light at the end of the tunnel."</p>
-          <cite>
-            Matthew Clem
-            <span>— Verified review · Surviving Pretrial</span>
-          </cite>
-        </blockquote>
-      </div>
-    </section>
 
     <!-- ======================================================= BOOKS -->
     <section class="section home-books-section">
