@@ -37,6 +37,8 @@ TEMPLATE = SKILL_DIR / "templates" / "legal-memo.tex"
 
 def extract_cases(text: str) -> list[str]:
     """Extract case citations. Returns deduplicated sorted list."""
+    # Strip markdown emphasis markers so italicized case names still match
+    text = text.replace('*', '')
     raw = set()
 
     # Pattern 1: "In re Name, Vol Rep Page (Court Year)"
