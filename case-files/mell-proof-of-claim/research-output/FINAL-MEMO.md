@@ -3,7 +3,7 @@
 **ATTORNEY WORK PRODUCT — PRIVILEGED AND CONFIDENTIAL**
 
 **Matter:** In re S. Bradley Mell, Case No. 26-16834-EJO (Bankr. D.N.J.)
-**Re:** Whether Courtney Mell (claim of approximately $200,000) and Diane Mell (claim of
+**Re:** Whether Courtney Mell (claim of approximately $200,000) and Diana Mell (claim of
 approximately $80,000) must file proofs of claim to protect their rights
 **Date:** July 28, 2026
 
@@ -12,7 +12,7 @@ approximately $80,000) must file proofs of claim to protect their rights
 ## EXECUTIVE SUMMARY
 
 **Bottom line: the trustee is correct, and both attorneys are partially correct.** In a
-chapter 7 case designated no-asset, neither Courtney Mell nor Diane Mell needs to file a
+chapter 7 case designated no-asset, neither Courtney Mell nor Diana Mell needs to file a
 proof of claim now — the official court notice (Official Form 309A) affirmatively
 instructs creditors *not* to file one. Their right to share in any future distribution is
 protected automatically: if the trustee ever locates distributable assets, Fed. R. Bankr.
@@ -39,11 +39,11 @@ Three qualifications matter, and they are where the real risk lives:
    imminent or already run — **check the docket immediately**. `[VERIFY ON DOCKET: first
    date set for § 341 meeting]`
 
-3. **Diane Mell is a statutory insider** (the debtor's mother, a "relative" under
+3. **Diana Mell is a statutory insider** (the debtor's mother, a "relative" under
    § 101(31)(A)(i)). Any payments she received from the debtor within **one year** before
    the petition are within the insider preference reach-back of § 547(b)(4)(B). If she
    files a proof of claim, *Langenkamp* would strip her jury right in any such avoidance
-   action. `[VERIFY FACTS: transfers to Diane Mell within one year pre-petition]`
+   action. `[VERIFY FACTS: transfers to Diana Mell within one year pre-petition]`
 
 ---
 
@@ -118,7 +118,7 @@ Fed. R. Bankr. P. 3002(c)(5) (verbatim):
 > appears possible."
 
 The word is "must" — the notice is mandatory, and the window is a minimum of 90 days.
-Because Courtney and Diane are both scheduled creditors, they are on the mailing matrix
+Because Courtney and Diana are both scheduled creditors, they are on the mailing matrix
 and will receive it. Even in the failure-of-notice scenario, § 726(a)(2)(C) protects a
 tardily filed claim where "the creditor that holds such claim did not have notice or
 actual knowledge of the case in time for timely filing" — though creditors who *did*
@@ -150,7 +150,7 @@ creditor matrix. Fed. R. Bankr. P. 2002(g) lets a creditor file a notice designa
 mailing address. If either creditor moves, or if the scheduled address is wrong, the
 90-day safety net can fail silently. **Action item:** confirm both creditors' addresses
 on the matrix now; file a Rule 2002(g) designation if anything is off. `[VERIFY ON
-DOCKET: matrix addresses for Courtney Mell and Diane Mell]`
+DOCKET: matrix addresses for Courtney Mell and Diana Mell]`
 
 ### C. Why a "Protective" Filing Now Is Not Costless
 
@@ -164,13 +164,13 @@ an avoidance defendant. *Id.* at 45.
 
 This is directly relevant here:
 
-1. **Diane Mell** is the debtor's mother and therefore an insider. § 101(31)(A)(i).
+1. **Diana Mell** is the debtor's mother and therefore an insider. § 101(31)(A)(i).
    Payments to insiders within one year pre-petition are avoidable preferences under
-   § 547(b)(4)(B) (versus 90 days for non-insiders). If Diane received any repayments,
+   § 547(b)(4)(B) (versus 90 days for non-insiders). If Diana received any repayments,
    gifts back, or transfers from the debtor in the year before filing, a proof of claim
    filed now would (a) waive her jury right in any avoidance suit and (b) invite trustee
    scrutiny that a silent scheduled claim does not. `[VERIFY FACTS: any transfers from
-   debtor to Diane Mell within one year pre-petition]`
+   debtor to Diana Mell within one year pre-petition]`
 
 2. **Courtney Mell** has litigation history with the debtor. If any pre-petition
    transfers between them could be characterized as preferential or fraudulent, the same
@@ -180,7 +180,7 @@ This is directly relevant here:
 
 Because a protective filing yields **zero** distribution advantage in a no-asset posture
 (the 3002(c)(5) notice guarantees a future window regardless), the cost-benefit runs
-against filing now for both creditors — and decisively so for Diane.
+against filing now for both creditors — and decisively so for Diana.
 
 ### D. What a Proof of Claim Does NOT Protect: Dischargeability
 
@@ -233,7 +233,7 @@ debtor after discharge*. Those are governed by entirely different mechanisms:
 ## PART III: RECOMMENDATIONS
 
 1. **Do not file proofs of claim now.** Follow the Form 309A instruction. Nothing is
-   lost; a *Langenkamp* jury waiver (and, for Diane, insider-preference exposure
+   lost; a *Langenkamp* jury waiver (and, for Diana, insider-preference exposure
    spotlighting) is avoided.
 
 2. **Verify the creditor matrix addresses today** for both creditors; file Rule 2002(g)
@@ -274,14 +274,14 @@ debtor after discharge*. Those are governed by entirely different mechanisms:
 
 ### Confirmed by D. Perrotta email (July 28, 2026, with Notice attached)
 - Form 309A (no-asset notice / "no proof of claim deadline") issued in 26-16834-EJO
-- Courtney Mell and Diane Mell were listed as creditors on the petition
+- Courtney Mell and Diana Mell were listed as creditors on the petition
 
 ### To Verify on the Docket / Facts `[VERIFY BEFORE ADVISING]`
 - First date set for the § 341(a) meeting → compute Rule 4007(c) 60-day deadline
 - Both creditors' addresses on the creditor matrix (notice mechanism depends on them)
 - Whether the case trustee has filed a report of no distribution (NDR) or flagged assets
 - Legal source/character of Courtney Mell's ~$200,000 claim (divorce-related?)
-- Any transfers from the debtor to Diane Mell within one year pre-petition
+- Any transfers from the debtor to Diana Mell within one year pre-petition
 
 ---
 

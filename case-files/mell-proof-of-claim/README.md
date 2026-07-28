@@ -1,7 +1,7 @@
 # In re S. Bradley Mell — Proof of Claim Research
 
 **Matter:** In re S. Bradley Mell, Case No. 26-16834-EJO (Bankr. D.N.J.)
-**Question:** Whether creditors Courtney Mell (~$200,000) and Diane Mell (~$80,000)
+**Question:** Whether creditors Courtney Mell (~$200,000) and Diana Mell (~$80,000)
 must file proofs of claim to protect their rights, where the chapter 7 trustee has
 designated the case a no-asset case and stated no claim form is necessary.
 
