@@ -97,23 +97,4 @@ Send me a copy of her power of attorney and I'll check whether there's a mechani
 it allowing you to transfer agent authority to someone else — some instruments include an
 express delegation or successor-agent provision, and if hers does, this is straightforward.
 
-If it doesn't, we're not stuck. We can still prepare our position on this for the trustee —
-documenting that you identified the conflict yourself and moved to cure it counts for
-something even if the mechanics take longer. And we can ask the bankruptcy court to grant
-Courtney a limited appointment to act for your mother in this case. That relief does exist:
-the bankruptcy rules pull in Federal Rule of Civil Procedure 17(c), which provides that a
-person who is incompetent and has no duly appointed representative "may sue by a next friend
-or by a guardian ad litem," and that the court "must appoint a guardian ad litem — or issue
-another appropriate order — to protect" that person. So incapacity isn't a barrier to the
-relief; it's the very condition the rule is written for. The court can appoint Courtney as
-guardian ad litem or next friend for the limited purpose of your mother's claim.
-
-Two honest caveats. The rule's clearest application is to someone who is a party to
-litigation, and a creditor sitting passively in a no-asset case isn't quite that — so the
-cleanest path is to raise it if and when there's an actual contested matter, or to frame the
-request as the "other appropriate order" the rule authorizes. And separately, a proof of
-claim can be signed by "the creditor's agent," so if all we need is a signature on her form,
-your existing authority technically covers it — which is exactly why I'd rather have someone
-else hold that authority before we file anything on her behalf.
-
 Happy to talk any of this through.
