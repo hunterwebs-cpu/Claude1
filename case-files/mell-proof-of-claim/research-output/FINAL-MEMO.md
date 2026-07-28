@@ -99,9 +99,13 @@ Chapter 7 Bankruptcy Case — No Proof of Claim Deadline), states verbatim:
 > the clerk will send you another notice telling you that you may file a proof of claim
 > and stating the deadline."
 
-This is what the trustee/administrator was describing: in a no-asset case there is no
-claims bar date at all. There is no deadline to miss, because none has been set.
-`[VERIFY ON DOCKET: confirm Form 309A no-asset notice actually issued in 26-16834]`
+This is precisely what the trustee administrator at debtor's counsel's office (D.
+Perrotta, MSBNJ, email of July 28, 2026) described, and her email attached the operative
+document itself — the court-issued Notice of Chapter 7 Bankruptcy Case. **CONFIRMED:**
+the Form 309A no-asset notice issued in Case No. 26-16834-EJO, so no claims bar date
+exists. There is no deadline to miss, because none has been set. Note the designation
+comes from the court's own notice, not merely a staff opinion — the notice is the
+authority.
 
 ### C. The Safety Net If Assets Surface: A Mandatory 90-Day Notice
 
@@ -267,11 +271,14 @@ debtor after discharge*. Those are governed by entirely different mechanisms:
 - *Langenkamp v. Culp*, 498 U.S. 42 (1990) — holding confirmed (Justia/FindLaw)
 - *Judd v. Wolfe*, 78 F.3d 110 (3d Cir. 1996) — holding confirmed (FindLaw)
 
+### Confirmed by D. Perrotta email (July 28, 2026, with Notice attached)
+- Form 309A (no-asset notice / "no proof of claim deadline") issued in 26-16834-EJO
+- Courtney Mell and Diane Mell were listed as creditors on the petition
+
 ### To Verify on the Docket / Facts `[VERIFY BEFORE ADVISING]`
 - First date set for the § 341(a) meeting → compute Rule 4007(c) 60-day deadline
-- Confirmation that Form 309A (no-asset notice) issued in Case No. 26-16834-EJO
-- Both creditors' addresses on the creditor matrix
-- Whether the trustee has filed a report of no distribution (NDR) or has flagged assets
+- Both creditors' addresses on the creditor matrix (notice mechanism depends on them)
+- Whether the case trustee has filed a report of no distribution (NDR) or flagged assets
 - Legal source/character of Courtney Mell's ~$200,000 claim (divorce-related?)
 - Any transfers from the debtor to Diane Mell within one year pre-petition
 
