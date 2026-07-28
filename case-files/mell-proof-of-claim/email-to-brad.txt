@@ -1,0 +1,55 @@
+Subject: Proof of claim question — nothing due now, but let's get the forms built
+
+Brad,
+
+I looked into your question about whether Courtney and your mother need to file claim forms. Short answer: nothing is due from either of them right now, and there is no deadline running. But it costs us nothing to have the paperwork built and sitting ready, and I'd like to do that — more on what I need from you below.
+
+WHY THE TWO ANSWERS YOU GOT SOUNDED LIKE THEY CONFLICTED
+
+The attorney who said they can file a claim form was right that filing is permitted — the Bankruptcy Code says a creditor "may" file a proof of claim, and that option is always open. But Diane Perrotta's answer is the one that governs what should actually happen, and it's better sourced than an opinion: it comes from the court's own notice.
+
+When the petition was filed, the clerk issued the standard Notice of Chapter 7 Bankruptcy Case, and it's the version used for no-asset cases. It tells creditors, in the court's own words: "No property appears to be available to pay creditors. Therefore, please do not file a proof of claim now. If it later appears that assets are available to pay creditors, the clerk will send you another notice telling you that you may file a proof of claim and stating the deadline."
+
+So there is no claim deadline in the case — not a distant one, none at all. There is nothing for either of them to miss.
+
+WHY THE COURT CALLED IT A "NO ASSET" CASE DESPITE THE TRUST ACCOUNT
+
+This is the part that seems backwards, but it isn't a finding that you have no assets. The designation is generated automatically from the schedules at the moment of filing, before anyone has investigated anything. It answers one narrow question: is there money the trustee can collect and distribute to creditors today?
+
+Funds that are disputed and tied up in litigation — like the money in the trust account caught in the state court matter — are not presently distributable. The estate may have a claim to those funds, but a claim is not a dividend. Until the trustee actually recovers them, there is nothing to divide among creditors. Nearly every individual Chapter 7 case opens this way. It's the default administrative setting, not a ruling about what you own.
+
+WHAT PROTECTS COURTNEY AND YOUR MOTHER IN THE MEANTIME
+
+Being listed as creditors on the petition — which Diane confirmed they are. That puts them on the court's mailing list, and that is the whole protection mechanism.
+
+If the trust funds ever come into the estate and a distribution becomes possible, the trustee notifies the court, and the clerk is then required to mail every listed creditor a notice setting a claim deadline of at least 90 days. That is not discretionary. Cases convert from "no asset" to "asset" routinely, sometimes years later, and cases can even be reopened after closing if assets surface. Nobody loses their place in line for having waited — claims aren't first-come, first-served, and filing early buys no advantage in the distribution.
+
+WHAT I NEED FROM YOU — LET'S BUILD THE FORMS NOW
+
+None of that is a reason to sit on our hands. Filing early gains nothing, but being ready to file the day a deadline is set costs nothing and is worth doing while records are fresh and memories are good.
+
+Please send me everything you have documenting the loans for each of them — Courtney's roughly $200,000 and your mother's roughly $80,000. That means:
+
+- promissory notes, loan agreements, or any signed writing
+- bank records, wire confirmations, or cancelled checks showing the money actually moving
+- any repayment history or running ledger
+- emails or texts discussing the loans, the amounts, or repayment terms
+- any judgments, settlements, or written acknowledgments of the debt
+
+Send whatever exists, even if it's incomplete or informal — gaps are easier to work around when I can see the whole picture early. I'll assemble the proof of claim forms for both of them and hold them complete, so if the case converts to an asset case we file immediately and cleanly instead of scrambling inside a 90-day window.
+
+A SEPARATE ITEM WORTH THINKING HARD ABOUT — YOUR MOTHER'S POWER OF ATTORNEY
+
+Because of your mother's dementia you hold her power of attorney and effectively manage her affairs. That's the right arrangement for her generally, but it creates an awkward optic in this specific setting: you are the debtor, she is a creditor, and right now the debtor controls the creditor's decisions about his own bankruptcy. Even handled perfectly, that is precisely the kind of arrangement the other side points at when arguing insider dealing.
+
+I think you should seriously consider carving out a limited power of attorney to Courtney covering the bankruptcy matter only — her proof of claim, any distribution she receives, and communications with the trustee — while everything else stays with you. Nothing about her medical care, her housing, her finances generally, or anything unrelated to this case moves.
+
+Two reasons. The practical one is that it removes the conflict cleanly: no one can say you were on both sides of her claim. The more important one is what it signals. A debtor who voluntarily gives up control over his mother's interest in his own case, so that someone independent handles it for her, is not a debtor who is managing his mother's claim for his own benefit. Judges and trustees notice that kind of thing, and it reads as protecting her rather than yourself — which is exactly the record we want.
+
+Send me a copy of her power of attorney and I'll check whether there's a mechanism built into it allowing you to transfer agent authority to someone else — some instruments include an express delegation or successor-agent provision, and if hers does, this is straightforward.
+
+If it doesn't, we're not stuck. We can still prepare our position on this for the trustee — documenting that you identified the conflict yourself and moved to cure it counts for something even if the mechanics take longer. And we can ask the bankruptcy court to grant Courtney a limited appointment to act for your mother in this case. That relief does exist: the bankruptcy rules pull in Federal Rule of Civil Procedure 17(c), which provides that a person who is incompetent and has no duly appointed representative "may sue by a next friend or by a guardian ad litem," and that the court "must appoint a guardian ad litem — or issue another appropriate order — to protect" that person. So incapacity isn't a barrier to the relief; it's the very condition the rule is written for. The court can appoint Courtney as guardian ad litem or next friend for the limited purpose of your mother's claim.
+
+Two honest caveats. The rule's clearest application is to someone who is a party to litigation, and a creditor sitting passively in a no-asset case isn't quite that — so the cleanest path is to raise it if and when there's an actual contested matter, or to frame the request as the "other appropriate order" the rule authorizes. And separately, a proof of claim can be signed by "the creditor's agent," so if all we need is a signature on her form, your existing authority technically covers it — which is exactly why I'd rather have someone else hold that authority before we file anything on her behalf.
+
+Happy to talk any of this through.
