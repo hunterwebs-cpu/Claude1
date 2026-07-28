@@ -244,14 +244,15 @@ debtor after discharge*. Those are governed by entirely different mechanisms:
    (minimum 90 days). Filing at that point is simple: Official Form 410, with supporting
    documentation of the $200,000 and $80,000 obligations (notes, judgments, ledgers).
 
-4. **Determine the Rule 4007(c) deadline immediately** (60 days after the first date set
-   for the § 341 meeting). If either creditor contends her debt is nondischargeable
-   under § 523(a)(2), (4), or (6) and the window is still open, the choice is: file the
-   adversary complaint, file a motion to extend *before* expiry, or accept discharge of
-   the debt. A claim form is irrelevant to this.
+4. **Rule 4007(c) nondischargeability — NOT APPLICABLE (resolved).** Counsel has assessed
+   both claims and discerns no § 523(a)(2), (4), or (6) grounds; neither creditor intends
+   to contest dischargeability. The 60-day adversary deadline therefore requires no action.
+   Retained here only to document that the issue was considered and closed.
 
-5. **Characterize Courtney's claim.** If any portion is a § 523(a)(5)/(a)(15) domestic
-   obligation, it survives discharge automatically and the analysis changes.
+5. **Jury-waiver / equitable jurisdiction (*Langenkamp*) — accepted risk.** Counsel advises
+   both creditors have no objection to submitting to the bankruptcy court's jurisdiction.
+   This removes the principal strategic argument against filing, leaving the timing
+   question governed purely by the absence of any bar date.
 
 6. **Document the debts now** while records are fresh — even though filing waits. If a
    3002(c)(5) notice issues years from now (no-asset cases are sometimes reopened when

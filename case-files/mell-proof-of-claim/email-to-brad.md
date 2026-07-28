@@ -1,29 +1,29 @@
 # Draft Email — to S. Bradley Mell
 
-**Subject:** Proof of claim question — no action needed from Courtney or your mother right now
+**Subject:** Proof of claim question — nothing due now, but let's get the forms built
 
 ---
 
 Brad,
 
-I looked into the question you raised about whether Courtney and your mother need to file
-claim forms in the bankruptcy. Short answer: no, neither of them needs to do anything right
-now, and waiting is genuinely the better course for them — not just an acceptable one.
-Here's the whole picture, including why the two answers you got sounded like they conflicted.
+I looked into your question about whether Courtney and your mother need to file claim forms.
+Short answer: nothing is due from either of them right now, and there is no deadline running.
+But it costs us nothing to have the paperwork built and sitting ready, and I'd like to do
+that — more on what I need from you below.
 
-## Why both answers you got were technically right
+## Why the two answers you got sounded like they conflicted
 
-The attorney who said they can file a claim form was correct that filing is *permitted* —
-the Bankruptcy Code says a creditor "may" file a proof of claim, and that option is always
-open. But Diane Perrotta's answer is the one that governs what should actually happen, and
-it's better sourced than an opinion: it comes from the court's own notice.
+The attorney who said they can file a claim form was right that filing is *permitted* — the
+Bankruptcy Code says a creditor "may" file a proof of claim, and that option is always open.
+But Diane Perrotta's answer is the one that governs what should actually happen, and it's
+better sourced than an opinion: it comes from the court's own notice.
 
 When the petition was filed, the clerk issued the standard Notice of Chapter 7 Bankruptcy
 Case, and it's the version used for no-asset cases. It tells creditors, in the court's own
 words: *"No property appears to be available to pay creditors. Therefore, please do not file
 a proof of claim now. If it later appears that assets are available to pay creditors, the
-clerk will send you another notice telling you that you may file a proof of claim and
-stating the deadline."*
+clerk will send you another notice telling you that you may file a proof of claim and stating
+the deadline."*
 
 So there is no claim deadline in the case — not a distant one, none at all. There is nothing
 for either of them to miss.
@@ -35,48 +35,67 @@ designation is generated automatically from the schedules at the moment of filin
 anyone has investigated anything. It answers one narrow question: is there money the trustee
 can collect and distribute to creditors *today*?
 
-Funds that are disputed and tied up in litigation — like the money in the trust account
-caught in the state court matter — are not presently distributable. The estate may have a
-claim to those funds, but a claim is not a dividend. Until the trustee actually recovers
-them, there is nothing to divide among creditors. Nearly every individual Chapter 7 case
-opens this way. It's the default administrative setting, not a ruling about what you own.
+Funds that are disputed and tied up in litigation — like the money in the trust account caught
+in the state court matter — are not presently distributable. The estate may have a claim to
+those funds, but a claim is not a dividend. Until the trustee actually recovers them, there is
+nothing to divide among creditors. Nearly every individual Chapter 7 case opens this way. It's
+the default administrative setting, not a ruling about what you own.
 
-## What actually protects Courtney and your mother
+## What protects Courtney and your mother in the meantime
 
-Being listed as creditors on the petition — which Diane confirmed they are. That puts them
-on the court's mailing list, and that is the whole protection mechanism.
+Being listed as creditors on the petition — which Diane confirmed they are. That puts them on
+the court's mailing list, and that is the whole protection mechanism.
 
 If the trust funds ever come into the estate and a distribution becomes possible, the trustee
 notifies the court, and the clerk is then **required** to mail every listed creditor a notice
 setting a claim deadline of **at least 90 days**. That is not discretionary. Cases convert
 from "no asset" to "asset" routinely, sometimes years later, and cases can even be reopened
-after closing if assets surface. Nobody loses their place in line for having waited — it
-isn't first-come, first-served.
+after closing if assets surface. Nobody loses their place in line for having waited — claims
+aren't first-come, first-served, and filing early buys no advantage in the distribution.
 
-## Why waiting is affirmatively better, not just safe
+## What I need from you — let's build the forms now
 
-Filing now would not advance either of them one position or increase what they'd eventually
-receive. But filing a proof of claim does carry a real cost: it submits the creditor to the
-bankruptcy court's jurisdiction over matters connected to the claim, and it gives up the
-right to a jury trial on disputes tied to the claims process. Given the litigation in the
-background, there is no reason for either of them to take on that exposure in order to
-accomplish something the court's mailing list already accomplishes for free.
+None of that is a reason to sit on our hands. Filing early gains nothing, but being *ready*
+to file the day a deadline is set costs nothing and is worth doing while records are fresh
+and memories are good.
 
-The sensible posture is ready, not early:
+Please send me everything you have documenting the loans for each of them — Courtney's
+roughly $200,000 and your mother's roughly $80,000. That means:
 
-1. Keep the blank claim form Diane sent, so it's on hand if the notice ever arrives.
-2. Make sure the court has current mailing addresses for both of them. The entire safety net
-   runs through a mailed notice, so a stale address is the one way this could actually go wrong.
-3. Have the documentation for their debts organized now — the notes, judgments, ledgers or
-   other records backing the roughly $200,000 and $80,000 — so a claim can be filed quickly
-   and cleanly whenever it's called for.
+- promissory notes, loan agreements, or any signed writing
+- bank records, wire confirmations, or cancelled checks showing the money actually moving
+- any repayment history or running ledger
+- emails or texts discussing the loans, the amounts, or repayment terms
+- any judgments, settlements, or written acknowledgments of the debt
 
-## One separate deadline worth confirming
+Send whatever exists, even if it's incomplete or informal — gaps are easier to work around
+when I can see the whole picture early. I'll assemble the proof of claim forms for both of
+them and hold them complete, so if the case converts to an asset case we file immediately and
+cleanly instead of scrambling inside a 90-day window.
 
-There is a different deadline that a claim form has nothing to do with: the deadline for a
-creditor to argue that a particular debt should *not* be wiped out by the discharge. That one
-runs 60 days from the first scheduled meeting of creditors, and it requires filing a lawsuit,
-not a form. It only matters if either of them intends to make that argument. Worth asking
-counsel to confirm that date so everyone knows where it stands rather than assuming.
+## A separate item worth thinking hard about — your mother's power of attorney
+
+Because of your mother's dementia you hold her power of attorney and effectively manage her
+affairs. That's the right arrangement for her generally, but it creates an awkward optic in
+this specific setting: you are the debtor, she is a creditor, and right now the debtor
+controls the creditor's decisions about his own bankruptcy. Even handled perfectly, that is
+precisely the kind of arrangement the other side points at when arguing insider dealing.
+
+I think you should seriously consider carving out a limited power of attorney to Courtney
+covering the bankruptcy matter only — her proof of claim, any distribution she receives, and
+communications with the trustee — while everything else stays with you. Nothing about her
+medical care, her housing, her finances generally, or anything unrelated to this case moves.
+
+Two reasons. The practical one is that it removes the conflict cleanly: no one can say you
+were on both sides of her claim. The more important one is what it signals. A debtor who
+voluntarily gives up control over his mother's interest in his own case, so that someone
+independent handles it for her, is not a debtor who is managing his mother's claim for his
+own benefit. Judges and trustees notice that kind of thing, and it reads as protecting her
+rather than yourself — which is exactly the record we want.
+
+Two practical questions for counsel before anything is signed: whether the existing power of
+attorney permits you to delegate authority at all (many don't), and whether your mother
+retains sufficient capacity to execute a new limited instrument. If neither is available,
+there are other routes, but we should know which one we're on before we plan around it.
 
 Happy to talk any of this through.
