@@ -132,6 +132,30 @@ Because no written fee agreement existed before 5/22/26, the firm cannot charge 
 - The client's rejection of the hourly deal is itself affirmative evidence (RPC 1.5 / *Cohen* reasonable-client) that he **never agreed to pay hourly** for this work; the firm cannot recover at hourly rates by invoice what it could not obtain by agreement.
 - Net: the **only executed engagements are B ($5,000 flat, paid) and C ($20k MTD, 6/25).** Nothing on Invoice 264503 is properly billable as hourly on top of the paid flat fee except, at most, genuine post-6/25 MTD work under C — of which the invoice shows none. Cleanly owed: the **$338.40 disbursement.**
 
+## V-C. THE SMOKING GUN — MS&B's OWN FORM 2030 CONTRADICTS THE INVOICE
+
+On **June 24, 2026**, Sodono **certified to the U.S. Bankruptcy Court** (Official Form 2030, "Disclosure of Compensation of Attorney for Debtor," under 11 U.S.C. § 329(a) / Rule 2016(b); filed as **Doc. 11, 6/25/26**) the following about the *same* representation:
+
+- **The fee and scope:** "For preparing and filing the bankruptcy petition, schedules, and statement of financial affairs and appearing at the 341(a) Meeting of Creditors, [MS&B] **received a $5,000 retainer.**"
+- **Amount received / balance:** "Prior to the filing of this statement I have received **$5,000**. **Balance Due** _[blank — none stated]._"
+- **Services included for that fee (§5):** "**a. Analysis of the debtor's financial situation, and rendering advice to the debtor in determining whether to file a petition in bankruptcy;** b. Preparation and filing of any petition, schedules, statement of affairs and plan…; c. Representation of the debtor at the meeting of creditors and confirmation hearing, and any adjourned hearings…."
+- **The ONLY exclusion (§6):** "the above-disclosed fee **does not include**… **Addressing any motions or adversary proceedings**; such representation will be pursuant to the Retainer Agreement."
+- **Certification:** "the foregoing is a **complete statement** of any agreement or arrangement for payment."
+
+**One month later**, Invoice 264503 (7/24/26) bills **$7,658.40 hourly** for that same filing-and-analysis work and demands a **$2,658.40 balance due.**
+
+### Why this is dispositive
+1. **The invoice contradicts a sworn court filing.** The firm told the federal court the filing work was a **$5,000 retainer, fully received, no balance due**. The invoice bills the identical work hourly with a balance owing. The firm cannot simultaneously hold both positions.
+2. **§5(a) destroys the "pre-engagement / workout" theory.** MS&B certified that the $5,000 fee **includes** "analysis of the debtor's financial situation, and rendering advice… in determining whether to file" — i.e., exactly the February/March nondischargeability and whether-to-file work (invoice #1–#2). Per the firm's own court filing, that work is **inside the flat $5,000**, not separately billable, and not "workout" hourly.
+3. **§6 confirms the client's reading verbatim.** The firm certified that the **only** thing outside the $5,000 is **"motions or adversary proceedings"** (the separate $20k MTD retainer). Not the workout, not meetings, not trustee/schedule work. This is the three-bucket structure in the firm's own words, filed under certification.
+4. **§ 329(b) / Rule 2016 exposure.** Charging compensation beyond what was disclosed — for services the disclosure says are covered — is precisely what § 329(b) polices; the court "may cancel any such agreement, or order the return of any such payment, to the extent excessive." Inaccurate or incomplete Rule 2016(b) disclosure can independently lead to **denial or disgorgement of fees** and is a candor concern. Either the Form 2030 is accurate (and the invoice is wrong) or the invoice reflects the real deal (and the certified "complete statement" was not) — a dilemma entirely of the firm's making.
+
+### Collateral facts fixed by the 2030
+- **Execution date certified as May 26, 2026** (not 5/22) — still well after all Feb–May 21 billing.
+- **Payer:** the $5,000 was paid by **Peter (Courtney) Mell, the debtor's brother** — a third-party payer, which § 329 also requires be disclosed and whose funds § 329(b) can order returned "to… the entity that made such payment."
+
+**Net:** the firm's own § 329 certification independently establishes that the $5,000 flat covered all of the filing-and-analysis work with no balance due, and that only motions/adversary work (separately retained) sits outside it. Under the firm's own court filing, the correct balance on Invoice 264503 approaches **$0** (the $338.40 filing-fee disbursement being the only even-arguable add-on).
+
 ## VI. OPEN FACTS THAT WOULD SHARPEN THIS
 - Did the client **sign/return** the retainer, and did he **pay** the $5,000? (Determines flat-fee-vs-deposit and whether any written hourly term exists.)
 - **Petition filing date** (Schedules/SOFA e-filed 6/25/26 as Doc. No. 11 → case filed on/around then).

@@ -220,4 +220,23 @@ Timekeeper initials: **AS1** = Anthony Sodono, III ($775/hr); **SBP** = Sari B. 
 ## ERISA email (May 27, 2026)
 
 **Source:** "ERISA A_C @ BNY.pdf" — Mell → Sodono/Placona, 5/27/26 2:17 PM.
-- Re: two Pershing/BNY retirement accounts (Gulfstream CM, LLC Profit Sharing Plan; Cash Balance Plan). Mell states they are "**ERISA-qualified plan assets… excludable from the bankruptcy estate under 11 U.S.C. § 541(c)(2) and should be claimed as exempt on Schedule C.**" Asks how to reflect them in the schedules. → Confirms invoice #10 is **exemption/Schedule work = CH7‑FLAT** (no asset-protection-vs-judgment issue).
+- Re: two Pershing/BNY retirement accounts (Gulfstream CM, LLC Profit Sharing Plan; Cash Balance Plan). Mell states they are "ERISA-qualified plan assets… excludable from the bankruptcy estate under 11 U.S.C. § 541(c)(2) and should be claimed as exempt on Schedule C." → Confirms invoice #10 is exemption/Schedule work = CH7‑FLAT.
+
+## Form 2030 — Disclosure of Compensation of Attorney for Debtor (FILED WITH THE COURT)
+
+**Source:** Filed petition packet ("118171049370.pdf"), **Case 26-16834-EJO, Doc. 11, filed 06/25/26**, page 41 of 41. Official Form B2030 (12/25). Certified/signed **/s/ Anthony Sodono, III, dated June 24, 2026.** Verbatim key text:
+
+> "1. Pursuant to 11 U.S.C. § 329(a) and Fed. Bankr. P. 2016(b), I certify that I am the attorney for the above named debtor(s) and that compensation paid to me within one year before the filing of the petition in bankruptcy, or agreed to be paid to me, for services rendered or to be rendered on behalf of the debtor(s) in contemplation of or in connection with the bankruptcy case is as follows:
+> For legal services, I have agreed to accept **For preparing and filing the bankruptcy petition, schedules, and statement of financial affairs and appearing at the 341(a) Meeting of Creditors, McManimon, Scotland & Baumann, LLC ('MS&B'), received a $5,000 retainer.** If additional representation is required, payment will be as detailed in a retainer agreement **executed by Debtor on May 26, 2026** ('Retainer Agreement').
+> Prior to the filing of this statement I have received **$5,000**
+> Balance Due _[no amount stated]_"
+
+> "2. The source of the compensation paid to me was: … Other (specify): **Debtor's brother, Courtney (a/k/a Peter) Mell**"
+
+> "5. … in return for the above-disclosed fee, I have agreed to render legal service for the following aspects of the bankruptcy case…: a. **Analysis of the debtor's financial situation, and rendering advice to the debtor in determining whether to file a petition in bankruptcy;** b. Preparation and filing of any petition, schedules, statement of affairs and plan…; c. Representation of the debtor at the meeting of creditors and confirmation hearing, and any adjourned hearings thereof; d. … As described above."
+
+> "6. By agreement with the debtor(s), the above-disclosed fee **does not include** the following service: **Addressing any motions or adversary proceedings; such representation will be pursuant to the Retainer Agreement.**"
+
+> "CERTIFICATION — I certify that the foregoing is a **complete statement** of any agreement or arrangement for payment to me for representation of the debtor(s) in this bankruptcy proceeding."
+
+**Significance (see ASSESSMENT § V-C):** Certified to the court on 6/24/26 — $5,000 received, **no balance due**; the fee **includes** pre-petition financial analysis and whether-to-file advice (§5(a)) and all petition/schedules/SOFA/341 work; the **only** exclusion is **motions/adversary proceedings** (§6). One month later Invoice 264503 (7/24/26) bills $7,658.40 hourly for that same work with a $2,658.40 balance due. Also fixes the execution date at **May 26, 2026** and identifies the payer as **Peter (Courtney) Mell**, the debtor's brother.
