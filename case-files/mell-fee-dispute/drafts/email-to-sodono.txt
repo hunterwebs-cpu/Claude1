@@ -1,0 +1,67 @@
+To: Anthony Sodono, III <ASodono@MSBNJ.COM>
+Cc: Sari B. Placona <SPlacona@MSBNJ.COM>
+Subject: Invoice No. 264503
+
+Tony,
+
+I received Invoice No. 264503 (July 24, 2026) and wanted to raise it with you directly. You and your team have been doing good work, and I want to keep our focus there -- which is why I'd rather sort this out now, early, than let it sit. I believe the bill has a number of problems, and they all point to the same thing: it was not drawn against our actual fee agreement.
+
+Our engagement is in two parts. The Chapter 7 itself is a flat fee: under the retainer, the $5,000 is "for preparing and filing the bankruptcy petition, schedules, and statement of financial affairs as well as preparing [me] for a 341(a) Meeting of Creditors and attendance at such meeting." (Retainer Agreement, May 22, 2026, at 1.) Only work beyond that -- "addressing any motions or adversary proceedings," such as Nagel's motion to dismiss -- is hourly, under its own separate retainer. (Id.; Retainer Agreement, June 25, 2026, at 1.)
+
+You certified that same division to the court. In the Disclosure of Compensation certified June 24, MS&B states that "[f]or preparing and filing the bankruptcy petition, schedules, and statement of financial affairs and appearing at the 341(a) Meeting of Creditors," it "received a $5,000 retainer"; that "[p]rior to the filing of this statement I have received $5,000"; and it lists no balance due. It further certifies that the only work the fee "does not include" is "[a]ddressing any motions or adversary proceedings." (ECF No. 11 at 41 (Disclosure of Compensation of Att'y for Debtor (Official Form 2030), certified June 24, 2026).)
+
+I can't imagine you walking back, a month later, a certification you made to the court -- which is exactly why I'm confident this is an administrative error rather than a change in our arrangement. My best guess is that your team recorded their time as they ordinarily would and the invoice was assembled by an administrative biller unfamiliar with the precise terms of the engagement. To make it straightforward to correct, here specifically are the charges I object to, and why.
+
+Objection 1 -- Flat-fee work billed hourly ($1,952.50). Each of these entries is for preparing and filing the petition, schedules, and SOFA, or for the Section 341 meeting -- the work the retainer and the Form 2030 both say the $5,000 covers:
+
+  - 5/27 -- "Review ERISA email from client" -- 0.20 hr -- $110.00
+  - 6/03 -- "begin initial draft of petition, schedules, and SOFA" -- 1.10 hr -- $137.50
+  - 6/09 -- update file re "additional information for Ch. 7" -- 0.20 hr -- $25.00
+  - 6/11 -- "Review client's responses for petition" -- 0.30 hr -- $37.50
+  - 6/11 -- "Revise petition, schedules and SOFA" -- 0.50 hr -- $62.50
+  - 6/12 -- "Review bare bones petition" -- 0.20 hr -- $110.00
+  - 6/15 -- update file re "Trustee's email and forms/requirements for meeting of creditors" -- 0.20 hr -- $25.00
+  - 6/18 -- "Meeting with client... re[:] schedules and SOFA" -- 1.60 hr -- $200.00
+  - 6/18 -- "Meeting with A. Sodono, D. Perrotta, and client" (re: schedules and SOFA) -- 1.90 hr -- $1,045.00
+  - 6/24 -- "documents requested by Trustee... further review Schedules and Statement of Financial Affairs" -- 0.70 hr -- $87.50
+  - 6/25 -- "comments/corrections to Schedules/SOFA... revise Schedules" -- 0.40 hr -- $50.00
+  - 6/25 -- "further revisions to Sch A/B" -- 0.20 hr -- $25.00
+  - 6/25 -- "Revise, finalize and e-file Schedules, SOFA and other required documents" -- 0.30 hr -- $37.50
+
+(Invoice No. 264503, at 2-3.) The 5/27 ERISA entry is schedule work on its face: that email asked you to "advise how you would like these accounts reflected in the schedules... before we file," and explained the accounts "should be claimed as exempt on Schedule C." (Email, S.B. Mell to A. Sodono, May 27, 2026 ("ERISA A/C @ BNY").)
+
+Objection 2 -- Time billed before I retained the firm ($4,957.50). I did not sign the retainer until late May. Everything before that was the period in which I was still deciding whether to hire the firm at all -- the initial referral, our first meetings, and my back-and-forth with you over the fee. It would not have occurred to me that I was running up an hourly bill while I was deciding whether to engage you, and I did not agree to anything of the kind. The February 26 entry shows the problem plainly: it bills 1.10 hours in part to "Communicate with S. Weiner" -- Sam Weiner is the attorney who referred me to you in the first place. (Email, S.B. Mell to A. Sodono, Feb. 23, 2026 ("Sam Weiner referal").) I cannot imagine any client agreeing to pay for the referral call that brings them in the door, and I do not believe anyone would sign an agreement that said so. The May 21 entry is stranger still: it bills 0.30 hours to "Prepare retainer agreement for Ch. 7" -- charging me for the time spent drafting the very agreement that engaged the firm. Setting aside that it predates my signature, I cannot conceive of a client who would knowingly agree to be billed for the preparation of his own retainer, or a lawyer who would propose it. Entries like these are what convince me the invoice was assembled mechanically, from raw time records, rather than against the terms of our deal. The remaining entries are of the same character -- consultations and internal preparation during that period, before any agreement was in place:
+
+  - 2/26 -- "Communicate with S. Weiner; analyze financial information and nondischargeability issues" -- 1.10 hr -- $852.50
+  - 3/05 -- "Research nondischargeability issues" -- 1.40 hr -- $1,085.00
+  - 5/12 -- "Review memo on status of case and background" -- 0.30 hr -- $165.00
+  - 5/13 -- "Attend meeting with client" -- 1.40 hr -- $1,085.00
+  - 5/13 -- "Prepare for meeting with client; analyze memo from client and case law" -- 1.10 hr -- $852.50
+  - 5/13 -- "Review of file; prepare for meeting with client" -- 0.40 hr -- $220.00
+  - 5/13 -- "Meeting with client and A. Sodono re: strategy" -- 1.00 hr -- $550.00
+  - 5/18 -- "Review emails from client re: status of hearings" -- 0.20 hr -- $110.00
+  - 5/21 -- "Prepare retainer agreement for Ch. 7" -- 0.30 hr -- $37.50
+
+(Invoice No. 264503, at 2.)
+
+That is what I dispute. As for the rest:
+
+The only proper charges on this invoice are the disbursements -- the $338.00 court filing fee and $0.40 in PACER research, for a total of $338.40 -- and a check in that amount is forthcoming. (Invoice No. 264503, at 3.)
+
+There is also one set of time charges I am not disputing: the work on the B.B./Nagel litigation. That is legitimate hourly work -- it simply belongs under the $20,000 motion-to-dismiss retainer I paid for that exact purpose, not on the flat-fee Chapter 7 invoice, and I ask that it be applied there:
+
+  - 6/15 -- "Call with M. Paragano re: state court hearing" -- 0.10 hr -- $55.00
+  - 6/17 -- "Review state court order of disposition" -- 0.20 hr -- $110.00
+  - 6/22 -- "Review client emails re: email from J. Rice office" -- 0.10 hr -- $55.00
+  - 6/23 -- "Notice of Appearance by B. Nagel; prepare service list" -- 0.20 hr -- $25.00
+  - 6/23 -- "Review client memo" -- 0.30 hr -- $165.00
+
+(Invoice No. 264503, at 2-3.) I treat this time differently from the pre-engagement charges in Objection 2 for a specific reason. By the time this work was performed in mid-to-late June, a retainer agreement was already in place, and it expressly provided that work on motions or adversary matters would be handled hourly -- so it fits squarely within the hourly, adversary-side representation the agreement already contemplated, even though the separate motion-to-dismiss retainer had not yet been signed. The Objection 2 charges are different in kind: they predate any representation agreement at all, flat or hourly, so there was no agreement under which they could be charged to me.
+
+In short, please reissue a corrected Chapter 7 invoice showing only the $338.40 in disbursements, and move the litigation time to the motion-to-dismiss retainer. If it is easier to talk it through, I am glad to jump on a call, so we can keep our attention on the motion to dismiss.
+
+Thanks,
+
+Brad
+
+S. Bradley Mell
