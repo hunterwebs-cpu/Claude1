@@ -58,7 +58,11 @@ I can't imagine you walking back, a month later, a certification you made to the
 
 **Objection 5 — The remittance page overstates the balance.** The remittance page states a balance due of $7,658.40 — the full total, without the $5,000 credit reflected on the first page (which would leave $2,658.40). At a minimum, the two pages do not agree. (Invoice No. 264503, at 1, 4.)
 
-Taken together, the $5,000 Chapter 7 flat fee is paid in full — as the Form 2030 certifies — and nothing further is owed on it. The only time I do not dispute is the adversary/motion work in Objection 4, which I would simply ask be moved to the motion-to-dismiss retainer and drawn from that balance. Could someone reissue a corrected Chapter 7 invoice on that basis, and re-bill the Objection 4 time to the MTD retainer? If it is easier to talk it through, I am glad to jump on a call, so we can keep our attention on the motion to dismiss.
+Taken together, the $5,000 Chapter 7 flat fee is paid in full — as the Form 2030 certifies — and nothing further is owed on it in fees. To be clear about what I do owe: the only proper charges on this invoice are the disbursements — the $338.00 court filing fee and $0.40 in PACER research, for a total of $338.40 — and a check in that amount is forthcoming. (Invoice No. 264503, at 3.)
+
+I am not asking that the adversary/motion time in Objection 4 be written off. I am asking that it be applied against the $20,000 retainer I paid for that exact purpose. I want to explain why I treat that time differently from the pre-engagement charges I dispute in Objection 2, because the distinction is the whole point. By the time the Objection 4 work was performed in mid-to-late June, a retainer agreement was already in place, and it expressly provided that work on motions or adversary matters would be handled hourly. That work therefore meets the definition of the adversary-side, hourly representation the agreement already contemplated — even though the separate motion-to-dismiss retainer had not yet been signed — so it is properly chargeable, just to the right account. The Objection 2 charges are different in kind: they predate any representation agreement at all, flat or hourly, so there was no agreement under which they could be charged to me.
+
+Could someone reissue a corrected Chapter 7 invoice reflecting only the $338.40 in disbursements, and move the Objection 4 time to the motion-to-dismiss retainer? If it is easier to talk it through, I am glad to jump on a call, so we can keep our attention on the motion to dismiss.
 
 Thanks,
 
