@@ -193,3 +193,31 @@ Timekeeper initials: **AS1** = Anthony Sodono, III ($775/hr); **SBP** = Sari B. 
 **NOTE — Remittance vs. Summary discrepancy:** The page-1 Invoice Summary shows Balance Due of **$2,658.40** (after the $-5,000.00 retainer credit), while the page-4 Remittance page states "BALANCE DUE THIS INVOICE **$7,658.40**" (the full invoice total, i.e., the retainer credit is NOT reflected on the remittance page).
 
 **NOTE — Paralegal rate discrepancy:** The engagement letter (page 2) lists the paralegal/assistant rate as **$275**; the invoice bills Diane Perrotta (DP) at **$125/hr**. (Individual DP line amounts confirm $125/hr, e.g., .30 hrs = $37.50, .20 hrs = $25.00.)
+
+---
+
+## March 6, 2026 Retainer — the "Workout" engagement (hourly, $20,000, UNSIGNED)
+
+**Source:** "MS&B Retianer Mar 6, 2026.pdf" — MS&B engagement letter, A. Sodono, dated March 6, 2026. Engagement-letter pages scanned; transcribed via rendered images (source-docs/mar6-p1.png, mar6-p2.png). Verbatim key terms:
+
+> "The scope of our representation shall be for **a workout and negotiation of potential nondischargeable debt.** … **This retainer agreement is not for a bankruptcy filing. It is understood that if it is later determined you will file for bankruptcy protection, we will enter into a separate retainer agreement and request an additional retainer at that time.**"
+
+> "The initial retainer requested in this matter is **$20,000** (the 'Retainer'). **The amount of the retainer is not a 'flat fee'** for this representation. The actual fees may be higher or lower … The bills will be paid in regular intervals from the retainer account as fees are earned…"
+
+- Hourly rates: Sodono/Placona/paralegals = **$775 / $550 / $275**.
+- **Client signature block: BLANK — signature line above "STEVEN BRADLEY MELL" empty; "Dated: March ___, 2026" (day blank).** Firm side: "/s/ Anthony Sodono, III." → No completed client execution on this copy.
+
+**Significance:** This is a SEPARATE, earlier engagement from the $5,000 flat Ch. 7 (May 22). Its scope is the pre-bankruptcy **workout / nondischargeable-debt negotiation**, hourly, $20k retainer — and it **expressly excludes the bankruptcy filing**, stating the filing would require a *separate* agreement (which became the $5,000 flat). The invoice's **"RE: Workout"** caption ties INV 264503 to *this* matter.
+
+## Sam Weiner referral email chain (Feb 23–27, 2026)
+
+**Source:** "RE_ Sam Weiner referral.pdf" — email thread, EEW Enterprises (Brad Mell, eew.enterprises@protonmail.com) ↔ Anthony Sodono / Diane Perrotta (MS&B).
+- **2/23/26 8:05 PM — Mell → Sodono, "Sam Weiner referal":** "Sam Weiner suggested I reach out concerning my potential need to file bankruptcy due to my colossal mental breakdown… I have to pick up the pieces and try to move forward… I will be returning to NJ Saturday and would like to follow up to discuss what my real options might be."
+- 2/25–2/27 — scheduling exchange; **initial meeting set for Thursday, March 5, 2026, 11:00 a.m.** (Diane Perrotta, "Trustee Administrator," confirms).
+- **S. Weiner = Sam Weiner, the referring attorney** (matches invoice line #1's "Communicate with S. Weiner").
+- Timeline: referral 2/23 → intake billing 2/26 ($852.50) → **first consult 3/05** ($1,085 billed) → **$20k workout proposal sent 3/06** (day after the consult). The 2/26 and 3/05 charges thus predate any fee proposal — pure intake/consult.
+
+## ERISA email (May 27, 2026)
+
+**Source:** "ERISA A_C @ BNY.pdf" — Mell → Sodono/Placona, 5/27/26 2:17 PM.
+- Re: two Pershing/BNY retirement accounts (Gulfstream CM, LLC Profit Sharing Plan; Cash Balance Plan). Mell states they are "**ERISA-qualified plan assets… excludable from the bankruptcy estate under 11 U.S.C. § 541(c)(2) and should be claimed as exempt on Schedule C.**" Asks how to reflect them in the schedules. → Confirms invoice #10 is **exemption/Schedule work = CH7‑FLAT** (no asset-protection-vs-judgment issue).

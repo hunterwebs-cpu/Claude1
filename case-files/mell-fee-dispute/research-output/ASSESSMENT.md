@@ -106,6 +106,29 @@ Because no written fee agreement existed before 5/22/26, the firm cannot charge 
 
 **Net:** the firm's realistic quantum-meruit recovery on the $4,957.50 pre-agreement block rounds toward **zero**, and in no event reaches its hourly contract rate.
 
+## V-B. THE MARCH 6 "WORKOUT" AGREEMENT — AND THE 5/12 ACTIVATION QUESTION
+
+**New fact:** On **March 6, 2026** MS&B sent a **separate, earlier** engagement letter whose scope was *"a workout and negotiation of potential nondischargeable debt"* — hourly, **$20,000 retainer, "not a 'flat fee'."** It states in terms: *"**This retainer agreement is not for a bankruptcy filing.** It is understood that if it is later determined you will file for bankruptcy protection, **we will enter into a separate retainer agreement**…."* The client-signature block is **blank/undated** on the copy of record. Per the client, this proposal was **too expensive**, was **revised at the 5/12–5/13 meeting** down to the **$5,000 flat Ch. 7** deal (with a separate $20k reserved for a contest), and the flat agreement was executed 5/22.
+
+### There are now three distinct engagements
+| # | Date | Scope | Fee | Status |
+|---|------|-------|-----|--------|
+| A | 3/6/26 | Workout / negotiation of nondischargeable debt — **expressly NOT the bankruptcy filing** | $20k hourly | **Unsigned; superseded** |
+| B | 5/22/26 | **File the Chapter 7** (petition/schedules/SOFA + §341) | **$5,000 flat** | **Executed & paid** |
+| C | 6/25/26 | **B.B. MTD** opposition (Nagel & Rice) | $20k hourly | Executed |
+
+### What March 6 does to the invoice
+1. **It is the firm's own written admission that the bankruptcy filing is a separate, flat-fee engagement.** By its own terms, the filing work (petition/schedules/SOFA/§341) belongs to engagement **B (the $5,000 flat)** — so billing that work **hourly** on Invoice 264503 contradicts the firm's own division of the matters.
+2. **The "RE: Workout" caption is a smoking gun.** INV 264503 is billed against engagement **A (the hourly workout)**, yet it (a) contains engagement-B flat-fee filing work and (b) credits the $5,000 engagement-B flat fee. The firm merged three engagements it had itself papered as separate.
+3. **Engagement A appears never executed or funded** (unsigned copy; the invoice credits only $5,000, not a $20,000 workout retainer). If so, the hourly workout/nondischargeability work (items 1–2, and the strategy cluster) has **no accepted contract** behind it → quantum meruit only, which fails per § V-A.
+4. **Intake timing.** Items #1 (2/26) and #2 (3/05) were billed **before the 3/6 fee proposal even existed** and around the **first consult (3/5)** — textbook pre-engagement pitch/consult work.
+
+### Does treating the contract as "active as of 5/12" change anything? — **No (and it slightly helps), IF you activate the right contract.**
+- **Activate engagement B (the $5,000 flat) as of 5/12:** harmless and mildly favorable. All petition/schedules/SOFA/§341 work from 5/12 on is then **flat-covered (not separately billable)**, and the 5/12–5/13 meeting cluster (items 3–7, $2,872.50) folds into the flat fee instead of being separately QM-recoverable. It creates **no hourly liability**, because engagement B's only hourly bucket is "adversary settlement discussions," of which the invoice shows ≈$0. Net collectible stays ≈ **$338.40 disbursements**. Only items #1–#2 (2/26, 3/05, $1,937.50) remain pre-contract → QM → fails.
+- **Do NOT activate engagement A (the $20k hourly workout) as of 5/12.** That is the *only* thing that would let the firm bill the nondischargeability/workout/meeting work hourly. It is unsigned, superseded, and even it excludes the filing. Frame any concession precisely: *"the flat $5,000 Chapter 7 representation was effectively in place from the May 12 meeting"* — never "the March 6 hourly agreement was active."
+
+**Caveat / pivotal fact:** the firm's *best* remaining argument is that the 2/26–5/21 workout/nondischargeability work was hourly under engagement A. That argument lives or dies on **whether Brad ever signed the March 6 letter or paid any retainer under it.** If no signature and no $20k paid (as the unsigned copy and the $5,000-only credit suggest), engagement A never took effect and that argument collapses.
+
 ## VI. OPEN FACTS THAT WOULD SHARPEN THIS
 - Did the client **sign/return** the retainer, and did he **pay** the $5,000? (Determines flat-fee-vs-deposit and whether any written hourly term exists.)
 - **Petition filing date** (Schedules/SOFA e-filed 6/25/26 as Doc. No. 11 → case filed on/around then).
