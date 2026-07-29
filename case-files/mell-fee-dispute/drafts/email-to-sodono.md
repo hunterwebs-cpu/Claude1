@@ -4,17 +4,61 @@
 
 Tony,
 
-I received Invoice No. 264503 (July 24, 2026) and wanted to raise it with you directly. You and your team have been doing good work, and I want to keep our focus there — which is why I'd rather sort this out now, early, than let it sit. I think the bill has a number of problems, and they all point to the same thing: it wasn't drawn against our actual fee agreement.
+I received Invoice No. 264503 (July 24, 2026) and wanted to raise it with you directly. You and your team have been doing good work, and I want to keep our focus there — which is why I'd rather sort this out now, early, than let it sit. I believe the bill has a number of problems, and they all point to the same thing: it was not drawn against our actual fee agreement.
 
 Our engagement is in two parts. The Chapter 7 itself is a flat fee: under the retainer, the $5,000 is "for preparing and filing the bankruptcy petition, schedules, and statement of financial affairs as well as preparing [me] for a 341(a) Meeting of Creditors and attendance at such meeting." (Retainer Agreement, May 22, 2026, at 1.) Only work beyond that — "addressing any motions or adversary proceedings," such as Nagel's motion to dismiss — is hourly, under its own separate retainer. (Id.; Retainer Agreement, June 25, 2026, at 1.)
 
-The firm confirmed that same division to the court. In the Disclosure of Compensation you certified on June 24, MS&B states that "[f]or preparing and filing the bankruptcy petition, schedules, and statement of financial affairs and appearing at the 341(a) Meeting of Creditors," it "received a $5,000 retainer"; that "[p]rior to the filing of this statement I have received $5,000"; and it lists no balance due. It further certifies that the only work the fee "does not include" is "[a]ddressing any motions or adversary proceedings." (ECF No. 11 at 41 (Disclosure of Compensation of Att'y for Debtor (Official Form 2030), certified June 24, 2026).)
+You certified that same division to the court. In the Disclosure of Compensation certified June 24, MS&B states that "[f]or preparing and filing the bankruptcy petition, schedules, and statement of financial affairs and appearing at the 341(a) Meeting of Creditors," it "received a $5,000 retainer"; that "[p]rior to the filing of this statement I have received $5,000"; and it lists no balance due. It further certifies that the only work the fee "does not include" is "[a]ddressing any motions or adversary proceedings." (ECF No. 11 at 41 (Disclosure of Compensation of Att'y for Debtor (Official Form 2030), certified June 24, 2026).)
 
-The invoice nonetheless bills that flat-fee work by the hour. On June 3 it charges 1.10 hours to "begin initial draft of petition, schedules, and SOFA," and on June 25, 0.30 hours to "[r]evise, finalize and e-file Schedules, SOFA and other required documents" — the exact "preparing and filing [of the] petition, schedules, and statement of financial affairs" the disclosure says the $5,000 covers — and then credits the $5,000 and shows a balance still owing. (Invoice No. 264503, July 24, 2026, at 2–3.) The same is true of the May 27 charge to "[r]eview ERISA email from client": that email asked you to "advise how you would like these accounts reflected in the schedules and whether any additional documentation from BNY Pershing is needed before we file," and explained that the accounts "should be claimed as exempt on Schedule C." (Email, S.B. Mell to A. Sodono, May 27, 2026 ("ERISA A/C @ BNY").) That is schedule preparation — squarely within the flat fee.
+I can't imagine you walking back, a month later, a certification you made to the court — which is exactly why I'm confident this is a billing error rather than a change in our arrangement. My best guess is that the timekeepers logged their hours as they ordinarily would and the invoice was assembled without our flat-fee agreement being applied. To make it straightforward to correct, here specifically are the entries we object to, and why.
 
-I can't imagine the firm walking back, a month later, a certification it made to the court — which is exactly why I'm confident this is a billing error rather than a change in our arrangement. My best guess is that the timekeepers logged their hours as they ordinarily would and the invoice was assembled without our flat-fee agreement being applied. Other entries fit that explanation: the bill reaches back to February and March, before we had any agreement, and even charges 0.30 hours on May 21 to "[p]repare retainer agreement for Ch. 7"; and the remittance page shows $7,658.40 due — the full total, without the $5,000 credit that appears on the first page. (Invoice No. 264503, at 1, 2, 4.)
+**Objection 1 — Flat-fee work billed hourly ($1,952.50).** Each of these entries is for preparing and filing the petition, schedules, and SOFA, or for the §341 meeting — the work the retainer and the Form 2030 both say the $5,000 covers:
 
-Could someone take another look and reissue a corrected invoice consistent with the flat-fee agreement and the Form 2030 disclosure? If it is easier to talk it through, I am glad to jump on a call. I would like to get this squared away so we can keep our attention on the motion to dismiss.
+- 5/27 — "Review ERISA email from client" — 0.20 hr — $110.00
+- 6/03 — "begin initial draft of petition, schedules, and SOFA" — 1.10 hr — $137.50
+- 6/09 — update file re "additional information for Ch. 7" — 0.20 hr — $25.00
+- 6/11 — "Review client's responses for petition" — 0.30 hr — $37.50
+- 6/11 — "Revise petition, schedules and SOFA" — 0.50 hr — $62.50
+- 6/12 — "Review bare bones petition" — 0.20 hr — $110.00
+- 6/15 — update file re "Trustee's email and forms/requirements for meeting of creditors" — 0.20 hr — $25.00
+- 6/18 — "Meeting with client... re[:] schedules and SOFA" — 1.60 hr — $200.00
+- 6/18 — "Meeting with A. Sodono, D. Perrotta, and client" (re: schedules and SOFA) — 1.90 hr — $1,045.00
+- 6/24 — "documents requested by Trustee... further review Schedules and Statement of Financial Affairs" — 0.70 hr — $87.50
+- 6/25 — "comments/corrections to Schedules/SOFA... revise Schedules" — 0.40 hr — $50.00
+- 6/25 — "further revisions to Sch A/B" — 0.20 hr — $25.00
+- 6/25 — "Revise, finalize and e-file Schedules, SOFA and other required documents" — 0.30 hr — $37.50
+
+(Invoice No. 264503, at 2–3.) The 5/27 ERISA entry is schedule work on its face: that email asked you to "advise how you would like these accounts reflected in the schedules... before we file," and explained the accounts "should be claimed as exempt on Schedule C." (Email, S.B. Mell to A. Sodono, May 27, 2026 ("ERISA A/C @ BNY").)
+
+**Objection 2 — Time billed before we had any agreement ($4,957.50).** The retainer was not executed until late May, yet the invoice bills for work going back to February:
+
+- 2/26 — "Communicate with S. Weiner; analyze financial information and nondischargeability issues" — 1.10 hr — $852.50
+- 3/05 — "Research nondischargeability issues" — 1.40 hr — $1,085.00
+- 5/12 — "Review memo on status of case and background" — 0.30 hr — $165.00
+- 5/13 — "Attend meeting with client" — 1.40 hr — $1,085.00
+- 5/13 — "Prepare for meeting with client; analyze memo from client and case law" — 1.10 hr — $852.50
+- 5/13 — "Review of file; prepare for meeting with client" — 0.40 hr — $220.00
+- 5/13 — "Meeting with client and A. Sodono re: strategy" — 1.00 hr — $550.00
+- 5/18 — "Review emails from client re: status of hearings" — 0.20 hr — $110.00
+- 5/21 — "Prepare retainer agreement for Ch. 7" — 0.30 hr — $37.50
+
+(Invoice No. 264503, at 2.)
+
+**Objection 3 — The charge to prepare the retainer itself ($37.50).** This is the May 21 entry listed above. Independent of its date, I don't believe I should be billed for the time spent preparing the agreement that engaged the firm.
+
+**Objection 4 — Litigation/motion time billed to the Chapter 7 ($410.00).** These entries concern the B.B./Nagel litigation — the separate motion/adversary work — not the flat-fee Chapter 7, and they predate the June 25 motion-to-dismiss retainer as well:
+
+- 6/15 — "Call with M. Paragano re: state court hearing" — 0.10 hr — $55.00
+- 6/17 — "Review state court order of disposition" — 0.20 hr — $110.00
+- 6/22 — "Review client emails re: email from J. Rice office" — 0.10 hr — $55.00
+- 6/23 — "Notice of Appearance by B. Nagel; prepare service list" — 0.20 hr — $25.00
+- 6/23 — "Review client memo" — 0.30 hr — $165.00
+
+(Invoice No. 264503, at 2–3.)
+
+**Objection 5 — The remittance page overstates the balance.** The remittance page states a balance due of $7,658.40 — the full total, without the $5,000 credit reflected on the first page (which would leave $2,658.40). At a minimum, the two pages do not agree. (Invoice No. 264503, at 1, 4.)
+
+Taken together, the $5,000 Chapter 7 flat fee is paid in full — as the Form 2030 certifies — and nothing further is owed on it. If there is genuine motion or adversary time, it should be presented under the separate retainer, not this invoice. Could someone reissue a corrected invoice on that basis? If it is easier to talk it through, I am glad to jump on a call, so we can keep our attention on the motion to dismiss.
 
 Thanks,
 
