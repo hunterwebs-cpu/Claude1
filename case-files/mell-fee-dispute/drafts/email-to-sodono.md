@@ -46,7 +46,7 @@ I can't imagine you walking back, a month later, a certification you made to the
 
 **Objection 3 — The charge to prepare the retainer itself ($37.50).** This is the May 21 entry listed above. Independent of its date, I don't believe I should be billed for the time spent preparing the agreement that engaged the firm.
 
-**Objection 4 — Litigation/motion time billed to the Chapter 7 ($410.00).** These entries concern the B.B./Nagel litigation — the separate motion/adversary work — not the flat-fee Chapter 7, and they predate the June 25 motion-to-dismiss retainer as well:
+**Objection 4 — Adversary/motion time billed to the wrong matter ($410.00).** I do not dispute these entries — they concern the B.B./Nagel litigation, which we agreed would be handled hourly. My only point is that they belong under the separate motion-to-dismiss retainer, not the flat-fee Chapter 7 invoice. Although they predate the June 25 retainer, I am content to have them applied against that retainer's balance:
 
 - 6/15 — "Call with M. Paragano re: state court hearing" — 0.10 hr — $55.00
 - 6/17 — "Review state court order of disposition" — 0.20 hr — $110.00
@@ -58,7 +58,7 @@ I can't imagine you walking back, a month later, a certification you made to the
 
 **Objection 5 — The remittance page overstates the balance.** The remittance page states a balance due of $7,658.40 — the full total, without the $5,000 credit reflected on the first page (which would leave $2,658.40). At a minimum, the two pages do not agree. (Invoice No. 264503, at 1, 4.)
 
-Taken together, the $5,000 Chapter 7 flat fee is paid in full — as the Form 2030 certifies — and nothing further is owed on it. If there is genuine motion or adversary time, it should be presented under the separate retainer, not this invoice. Could someone reissue a corrected invoice on that basis? If it is easier to talk it through, I am glad to jump on a call, so we can keep our attention on the motion to dismiss.
+Taken together, the $5,000 Chapter 7 flat fee is paid in full — as the Form 2030 certifies — and nothing further is owed on it. The only time I do not dispute is the adversary/motion work in Objection 4, which I would simply ask be moved to the motion-to-dismiss retainer and drawn from that balance. Could someone reissue a corrected Chapter 7 invoice on that basis, and re-bill the Objection 4 time to the MTD retainer? If it is easier to talk it through, I am glad to jump on a call, so we can keep our attention on the motion to dismiss.
 
 Thanks,
 
