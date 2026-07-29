@@ -976,7 +976,46 @@ body.journal-page {
 /* ---- Footer ------------------------------------------------------------- */
 .site-footer { background: #07080a; border-top: 1px solid var(--border); padding: 72px 0 36px; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 48px; }
-.footer-brand img { height: 76px; margin-bottom: 20px; }
+
+/* Logo metallic sheen */
+.footer-logo { position: relative; display: inline-block; overflow: hidden; margin-bottom: 20px; }
+.footer-logo img { height: 76px; display: block; }
+.footer-logo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 25%, rgba(255,255,255,.55) 50%, transparent 75%);
+  transform: translateX(-140%);
+  animation: logo-sheen 5s ease-in-out 1s infinite;
+  pointer-events: none;
+}
+@keyframes logo-sheen {
+  0%   { transform: translateX(-140%); }
+  35%  { transform: translateX(140%); }
+  100% { transform: translateX(140%); }
+}
+
+/* Catchphrase orange sweep */
+.footer-catchphrase {
+  font-size: .92rem;
+  max-width: 34ch;
+  font-weight: 600;
+  margin-bottom: 8px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--accent) 50%, var(--muted) 50%);
+  background-size: 200% 100%;
+  background-position: 100% center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: catchphrase-sweep 6s ease-in-out 2s infinite;
+}
+@keyframes catchphrase-sweep {
+  0%   { background-position: 100% center; }
+  35%  { background-position:   0% center; }
+  65%  { background-position:   0% center; }
+  100% { background-position: 100% center; }
+}
+
 .footer-brand p { color: var(--muted); font-size: .92rem; max-width: 34ch; }
 .footer-col h4 { font-family: var(--font-label); font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; color: var(--text); margin-bottom: 18px; }
 .footer-col a { display: block; color: var(--muted); font-size: .92rem; padding: 6px 0; transition: color .2s; }
