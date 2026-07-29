@@ -10,7 +10,7 @@ Our engagement is in two parts. The Chapter 7 itself is a flat fee: under the re
 
 You certified that same division to the court. In the Disclosure of Compensation certified June 24, MS&B states that "[f]or preparing and filing the bankruptcy petition, schedules, and statement of financial affairs and appearing at the 341(a) Meeting of Creditors," it "received a $5,000 retainer"; that "[p]rior to the filing of this statement I have received $5,000"; and it lists no balance due. It further certifies that the only work the fee "does not include" is "[a]ddressing any motions or adversary proceedings." (ECF No. 11 at 41 (Disclosure of Compensation of Att'y for Debtor (Official Form 2030), certified June 24, 2026).)
 
-I can't imagine you walking back, a month later, a certification you made to the court — which is exactly why I'm confident this is an administrative error rather than a change in our arrangement. My best guess is that your team recorded their time as they ordinarily would and the invoice was assembled by an administrative biller unfamiliar with the precise terms of the engagement. To make it straightforward to correct, here specifically are the entries I object to, and why.
+I can't imagine you walking back, a month later, a certification you made to the court — which is exactly why I'm confident this is an administrative error rather than a change in our arrangement. My best guess is that your team recorded their time as they ordinarily would and the invoice was assembled by an administrative biller unfamiliar with the precise terms of the engagement. To make it straightforward to correct, here specifically are the charges I object to, and why.
 
 **Objection 1 — Flat-fee work billed hourly ($1,952.50).** Each of these entries is for preparing and filing the petition, schedules, and SOFA, or for the §341 meeting — the work the retainer and the Form 2030 both say the $5,000 covers:
 
@@ -46,7 +46,11 @@ I can't imagine you walking back, a month later, a certification you made to the
 
 **Objection 3 — The charge to prepare the retainer itself ($37.50).** This is the May 21 entry listed above. Independent of its date, I don't believe I should be billed for the time spent preparing the agreement that engaged the firm.
 
-**Objection 4 — Adversary/motion time billed to the wrong matter ($410.00).** I do not dispute these entries — they concern the B.B./Nagel litigation, which we agreed would be handled hourly. My only point is that they belong under the separate motion-to-dismiss retainer, not the flat-fee Chapter 7 invoice. Although they predate the June 25 retainer, I am content to have them applied against that retainer's balance:
+That is what I dispute. As for the rest:
+
+The only proper charges on this invoice are the disbursements — the $338.00 court filing fee and $0.40 in PACER research, for a total of $338.40 — and a check in that amount is forthcoming. (Invoice No. 264503, at 3.)
+
+There is also one set of time charges I am not disputing: the work on the B.B./Nagel litigation. That is legitimate hourly work — it simply belongs under the $20,000 motion-to-dismiss retainer I paid for that exact purpose, not on the flat-fee Chapter 7 invoice, and I ask that it be applied there:
 
 - 6/15 — "Call with M. Paragano re: state court hearing" — 0.10 hr — $55.00
 - 6/17 — "Review state court order of disposition" — 0.20 hr — $110.00
@@ -54,15 +58,9 @@ I can't imagine you walking back, a month later, a certification you made to the
 - 6/23 — "Notice of Appearance by B. Nagel; prepare service list" — 0.20 hr — $25.00
 - 6/23 — "Review client memo" — 0.30 hr — $165.00
 
-(Invoice No. 264503, at 2–3.)
+(Invoice No. 264503, at 2–3.) I treat this time differently from the pre-engagement charges in Objection 2 for a specific reason. By the time this work was performed in mid-to-late June, a retainer agreement was already in place, and it expressly provided that work on motions or adversary matters would be handled hourly — so it fits squarely within the hourly, adversary-side representation the agreement already contemplated, even though the separate motion-to-dismiss retainer had not yet been signed. The Objection 2 charges are different in kind: they predate any representation agreement at all, flat or hourly, so there was no agreement under which they could be charged to me.
 
-**Objection 5 — The remittance page overstates the balance.** The remittance page states a balance due of $7,658.40 — the full total, without the $5,000 credit reflected on the first page (which would leave $2,658.40). At a minimum, the two pages do not agree. (Invoice No. 264503, at 1, 4.)
-
-Taken together, the $5,000 Chapter 7 flat fee is paid in full — as the Form 2030 certifies — and nothing further is owed on it in fees. To be clear about what I do owe: the only proper charges on this invoice are the disbursements — the $338.00 court filing fee and $0.40 in PACER research, for a total of $338.40 — and a check in that amount is forthcoming. (Invoice No. 264503, at 3.)
-
-I am not asking that the adversary/motion time in Objection 4 be written off. I am asking that it be applied against the $20,000 retainer I paid for that exact purpose. I want to explain why I treat that time differently from the pre-engagement charges I dispute in Objection 2, because the distinction is the whole point. By the time the Objection 4 work was performed in mid-to-late June, a retainer agreement was already in place, and it expressly provided that work on motions or adversary matters would be handled hourly. That work therefore meets the definition of the adversary-side, hourly representation the agreement already contemplated — even though the separate motion-to-dismiss retainer had not yet been signed — so it is properly chargeable, just to the right account. The Objection 2 charges are different in kind: they predate any representation agreement at all, flat or hourly, so there was no agreement under which they could be charged to me.
-
-Could someone reissue a corrected Chapter 7 invoice reflecting only the $338.40 in disbursements, and move the Objection 4 time to the motion-to-dismiss retainer? If it is easier to talk it through, I am glad to jump on a call, so we can keep our attention on the motion to dismiss.
+In short, please reissue a corrected Chapter 7 invoice showing only the $338.40 in disbursements, and move the litigation time to the motion-to-dismiss retainer. If it is easier to talk it through, I am glad to jump on a call, so we can keep our attention on the motion to dismiss.
 
 Thanks,
 
