@@ -1,30 +1,27 @@
 **To:** Anthony Sodono, III <ASodono@MSBNJ.COM>
 **Cc:** Sari B. Placona <SPlacona@MSBNJ.COM>
-**Subject:** Invoice 264503 — a few questions before I pay
+**Subject:** Invoice No. 264503 — possible billing error
 
 Tony,
 
-First, thank you. This bankruptcy has been one of the hardest things I've been through, and through all of it — the petition, the schedules, getting me ready for the 341, and now dealing with Nagel's motion — you and your team have been responsive, professional, and genuinely good to me. I mean that. I want to be clear up front that this note is not about the quality of your work, which I've been very happy with.
+I received Invoice No. 264503 (July 24, 2026), and I wanted to flag it before it goes any further, because I believe it contains a billing error — the charges don't line up with our fee agreement or with what the firm disclosed to the court.
 
-That's exactly why Invoice 264503 (dated July 24) caught me off guard, and I'd rather raise it with you directly and honestly than let it sit and fester.
+In short, the invoice bills the Chapter 7 filing work by the hour, when we agreed that work would be handled on a flat fee:
 
-A few things have me concerned:
+1. **Our agreement is a flat fee for the filing.** We agreed on a $5,000 flat fee for the Chapter 7. The retainer says so in terms — the flat fee is "for preparing and filing the bankruptcy petition, schedules, and statement of financial affairs as well as preparing [me] for a 341(a) Meeting of Creditors and attendance at such meeting." (Retainer Agreement, May 22, 2026, at 1.)
 
-**1. The flat fee.** When we reworked our arrangement in the spring, we agreed on a **$5,000 flat fee** to handle the Chapter 7 filing. The retainer you drafted says it in so many words — the flat fee is "for preparing and filing the bankruptcy petition, schedules, and statement of financial affairs, as well as preparing [me] for a 341(a) Meeting of Creditors and attendance at such meeting." But the invoice bills that exact work — drafting and revising the petition and schedules, our meetings about the schedules, correcting them, even finalizing and e-filing them — by the hour, and then applies my $5,000 as a credit against the total. I had understood the $5,000 to *cover* that work, not to be a down payment on an hourly bill for it.
+2. **The firm certified the same thing to the court.** The Disclosure of Compensation filed in my case states that "[f]or preparing and filing the bankruptcy petition, schedules, and statement of financial affairs and appearing at the 341(a) Meeting of Creditors," MS&B "received a $5,000 retainer"; that the full $5,000 had been received; that no balance was due; and that the only work *not* covered was "addressing any motions or adversary proceedings." (ECF No. 11 at 41 (Disclosure of Compensation of Att'y for Debtor (Official Form 2030), certified June 24, 2026).)
 
-**2. The "Workout" billing.** The invoice is captioned "Workout," and a lot of it looks like it's billed under the original **$20,000 hourly arrangement from March** — the one I told you I simply couldn't afford, which is the whole reason we moved to the flat fee. My understanding was that the only scenario where a separate $20,000 hourly retainer would come into play was if Nagel/B.B. actually challenged the bankruptcy — and that's the separate retainer we signed in June for the motion to dismiss.
+3. **But the invoice bills that covered work hourly.** Invoice No. 264503 charges by the hour for the very tasks the flat fee — and the court disclosure — describe as included: analysis in determining whether to file, drafting and revising the petition and schedules, our meetings about the schedules, and finalizing and e-filing them. It then applies my $5,000 as a credit and shows a balance still due. (Invoice No. 264503, July 24, 2026, at 2–3.) For instance, the entry for reviewing my note on the ERISA retirement accounts is schedule/exemption work — "preparation and filing of… schedules" that the disclosure lists as included. (Email, S.B. Mell to A. Sodono, May 27, 2026 ("ERISA A/C @ BNY").)
 
-**3. Charges from before we had an agreement.** A number of the entries date to late February and early March — before we'd agreed on anything, and in some cases before the first retainer even went out. One line even bills me for preparing the retainer agreement itself. I'm honestly not sure how to square those with our arrangement.
+4. **Several things suggest the bill was generated off the wrong matter.** It is captioned "Workout" — the original hourly arrangement I declined in March (MS&B Retainer Agreement, Mar. 6, 2026, at 1), rather than the flat-fee Chapter 7 engagement. It includes time entries from February and March, before we had any agreement, including a line to "prepare retainer agreement for Ch. 7." (Invoice No. 264503, at 2.) And the remittance page shows a balance due of $7,658.40 — the full amount, without the $5,000 credit shown on the first page. (Id. at 1, 4.)
 
-**4. What's actually owed.** I also noticed the remittance page shows a balance due of **$7,658.40** — the full total, without the $5,000 credit that's reflected on the first page. I want to make sure we're even working from the same number.
+My honest guess is that the timekeepers logged their hours as they ordinarily would, and whoever assembled the invoice ran it under the old hourly "Workout" file instead of our flat-fee Chapter 7 agreement.
 
-I'll also admit I've been reading up a bit, and my understanding is that in a Chapter 7 the compensation of the debtor's attorney is disclosed to, and reviewable by, the bankruptcy court for reasonableness. I raise that not as a threat — truly not — but because I'd feel a lot better knowing our billing is consistent with what was disclosed to the court and with the flat-fee agreement we actually signed.
+Since we're at the start of this — and will be working together on the motion to dismiss — I'd like to get the billing straightened out now. Could someone take another look and reissue a corrected invoice consistent with the flat-fee agreement and the Form 2030 disclosure? If it's easier to walk through it, I'm glad to jump on a call.
 
-None of this is me trying to shortchange you. If there's context I'm missing, I genuinely want to understand it. But as it stands, I don't understand how the filing work I thought the flat fee covered ended up on an hourly bill, and I'd ask that we take another look at the invoice together — a revised bill that reflects our actual agreement, or a quick call to walk through it, whichever is easier for you.
+Thanks for taking a look.
 
-I value the relationship and want to keep working with you through the rest of this. Thank you for hearing me out.
-
-Be well,
 Brad
 
 S. Bradley Mell
