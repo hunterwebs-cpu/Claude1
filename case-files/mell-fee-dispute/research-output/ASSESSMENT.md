@@ -88,6 +88,24 @@ The firm will argue this was a *contested, litigation-heavy* Chapter 7 (adversar
 
 ---
 
+## V-A. QUANTUM MERUIT ON THE PRE-AGREEMENT WORK ($4,957.50) — WHY IT DOES NOT SAVE THE FIRM
+
+Because no written fee agreement existed before 5/22/26, the firm cannot charge its **contract hourly rate** for the Feb–May work. Its only theory is **quantum meruit** (reasonable value), and under *Starkey*, 172 N.J. at 68, **the firm bears the burden** on all four elements: (1) services performed in good faith; (2) acceptance of the services; (3) an **expectation of compensation**; and (4) the **reasonable value** of the services. The pre-agreement history defeats it on elements 3, 2, and 4:
+
+**Element 3 — expectation of compensation — fails for the "courtship" work.** Mell was **referred** to Sodono by a respected attorney; Mell emailed his issues/theories; the parties met; and Sodono did substantial preparation *for that pitch meeting*. Work a lawyer performs to **win a referred client's business** carries no expectation of separate compensation — it is recouped, if at all, through the fee **if the lawyer is retained**, not billed to the prospect as a line item. A reasonable client in Mell's position (*Cohen*, 146 N.J. at 156) would not understand a lawyer's pre-retention preparation as separately chargeable. This knocks out the 5/12–5/13 meeting/prep cluster (items 3, 4, 6, 7 = $2,020) and colors the February intake work.
+
+**Element 2 — acceptance as compensable services — is contested.** In a courtship/intake posture the client accepts the *pitch*, not a stream of billable services. Nothing communicated a fee basis until 5/22, so there was no meeting of the minds that this work was being purchased.
+
+**Element 4 — reasonable value — caps and shrinks any recovery.** Even if some sliver survives, recovery is limited to **reasonable value, not $775/hr** (*Glick*, 300 N.J. Super. at 310, 313), and the reasonable value of business-development/courtship effort is minimal-to-nil.
+
+**RPC 1.5(b) overlay.** The basis/rate was not communicated in writing "before or within a reasonable time after commencing" the Feb–May work; when it finally was (5/22), it was a **flat** fee for the filing — signaling the preliminary filing-related work folds into the $5,000, not a separate hourly charge. A firm "cannot benefit from failure to comply with … RPC 1.5." *Starkey*, 172 N.J. at 67 (quoting *Vaccaro*).
+
+**Nondischargeability research (items 1–2, $1,937.50).** This is §523/adversary work that the retainer says required a **separate** retainer. It cannot be swept into the flat fee *or* billed hourly on the Ch. 7 matter, and it predates any engagement by ~3 months. Quantum-meruit-only, firm's burden, reasonable value — and even then it belongs (if anywhere) against the later $20K adversary engagement.
+
+**The retainer-drafting charge (item 9, 5/21, $37.50) fails outright.** Preparing the firm's own fee agreement is not a service rendered *to the client for the client's benefit* (element 2) and carries no expectation of client compensation (element 3); it is the firm's cost of doing business. No New Jersey (or other) authority supports billing a client to draft the retainer that engages them. This is a clean strike and a credibility point on the whole invoice.
+
+**Net:** the firm's realistic quantum-meruit recovery on the $4,957.50 pre-agreement block rounds toward **zero**, and in no event reaches its hourly contract rate.
+
 ## VI. OPEN FACTS THAT WOULD SHARPEN THIS
 - Did the client **sign/return** the retainer, and did he **pay** the $5,000? (Determines flat-fee-vs-deposit and whether any written hourly term exists.)
 - **Petition filing date** (Schedules/SOFA e-filed 6/25/26 as Doc. No. 11 → case filed on/around then).

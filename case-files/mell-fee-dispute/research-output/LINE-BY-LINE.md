@@ -30,7 +30,7 @@
 | 7 | 5/13 | SBP | $550.00 | Meeting with client and A. Sodono **re: strategy** | **UNSPEC [PRE]** | General strategy; pre-retainer. |
 | 8 | 5/18 | SBP | $110.00 | Review emails from client re: **status of hearings** | **MTD/ADV [PRE]** | State-court hearings = litigation. Pre-retainer. |
 | 9 | 5/21 | DP | $37.50 | **Prepare retainer agreement for Ch. 7**; discuss w/ Sodono | **IMPROPER [PRE]** | Billing the client to draft the firm's own fee agreement. |
-| 10 | 5/27 | SBP | $110.00 | Review **ERISA** email from client | **CH7‑FLAT** *(arguable)* | If ERISA = exemption/asset for Schedules → filing-related (flat). If asset-protection advice re: B.B. judgment → ancillary. Needs the email. |
+| 10 | 5/27 | SBP | $110.00 | Review **ERISA** email from client | **CH7‑FLAT** | CONFIRMED (client): exemption analysis for the Schedules — filing-related. No asset-protection/judgment issue exists. |
 | 11 | 6/03 | DP | $137.50 | Review questionnaire/transcript; **begin draft of petition, schedules, SOFA**; list add'l info; email client draft | **CH7‑FLAT** | Core drafting. |
 | 12 | 6/09 | DP | $25.00 | Update file w/ response re **additional information for Ch. 7** + misc. litigation docs | **CH7‑FLAT** | Gathering filing info. |
 | 13 | 6/11 | DP | $37.50 | Review client's **responses for petition**; discuss w/ Sodono & Placona | **CH7‑FLAT** | Petition prep. |
@@ -43,25 +43,27 @@
 | 20 | 6/18 | SBP | $1,045.00 | Meeting w/ Sodono, Perrotta, and client *(same 6/18 mtg re schedules/SOFA)* | **CH7‑FLAT** | Same schedules/SOFA conference. Largest single charge; core flat work. |
 | 21 | 6/22 | SBP | $55.00 | Review client emails re: **email from J. Rice office** | **MTD/ADV** | Nagel & Rice = B.B.'s counsel/MTD movant. Predates 6/25 MTD retainer. |
 | 22 | 6/23 | DP | $25.00 | Update file w/ **Notice of Appearance by B. Nagel**; prepare service list | **MTD/ADV** *(service list arguably filing)* | Adversary appearance. |
-| 23 | 6/23 | SBP | $165.00 | Review client memo | **UNSPEC** | Too vague — need the memo to classify. |
+| 23 | 6/23 | SBP | $165.00 | Review client memo | **MTD/ADV** | CONFIRMED (client): 13-page memo w/ substantive exhibits re anticipated B.B. litigation ("before the fact"). Adversary-related → separate retainer. |
 | 24 | 6/24 | DP | $87.50 | Update file w/ **docs requested by Trustee** + litigation transcripts; **review Schedules/SOFA**; email client revised | **CH7‑FLAT** | Trustee document requests + schedules review. |
 | 25 | 6/25 | DP | $50.00 | Client **comments/corrections to Schedules/SOFA**; revise Schedules; email client | **CH7‑FLAT** | Correcting petition/schedule errors. |
 | 26 | 6/25 | DP | $25.00 | Client **further revisions to Sch A/B**; revise & return | **CH7‑FLAT** | Schedule corrections. |
 | 27 | 6/25 | DP | $37.50 | **Revise, finalize and e-file Schedules, SOFA** & required docs; email client filed Doc. No. 11 | **CH7‑FLAT** | Core filing act. |
 
-## Tally
+## Tally (updated with client confirmations on #10 and #23)
 
 | Category | Count | Fees |
 |---|---:|---:|
-| **CH7‑FLAT** (already covered by the $5,000; not separately billable) | 12 (+1 arguable) | **$1,842.50** (+$110 ERISA = $1,952.50) |
-| **MTD/ADV** (belongs on the separate $20K retainer; mostly predates it) | 6 | **$2,292.50** |
+| **CH7‑FLAT** (already covered by the $5,000; not separately billable) | 13 | **$1,952.50** |
+| **MTD/ADV** (belongs on the separate $20K retainer; mostly predates it) | 9 | **$3,310.00** |
+| **UNSPEC** — pre-retainer "courtship"/strategy cluster (items 3,4,6,7) | 4 | **$2,020.00** |
 | **IMPROPER** (billing to draft the retainer) | 1 | **$37.50** |
-| **UNSPEC** (need underlying doc to classify) | 4 | **$2,185.00** |
 | **Total professional services** | 27 | **$7,320.00** |
 | Disbursements (filing fee $338 + PACER $0.40) | — | $338.40 |
 | **Total invoice** | | **$7,658.40** |
 
 **Pre-execution (before 5/22/26):** items 1–9 = **$4,957.50** (68% of fees).
+
+> **Tally correction:** an earlier draft understated MTD/ADV as $2,292.50 (6 items); the correct figure is **$3,145.00 (8 items)** before the #23 reclassification, and **$3,310.00 (9 items)** after moving #23 (the 6/23 B.B.-litigation memo) into MTD/ADV. All categories now reconcile to $7,320.00.
 
 ## What this means for the $2,658.40 "balance due"
 - The **CH7‑FLAT** work ($1,842.50+) is the very filing work the paid $5,000 already bought — it should not appear as an hourly charge at all.
