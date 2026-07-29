@@ -1597,9 +1597,6 @@ body.journal-page {
 @media (max-width: 980px) { #home-posts { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 760px) { #home-posts { grid-template-columns: 1fr; } }
 
-/* Eyebrow strikethrough — intentional, muted */
-.eyebrow s { text-decoration-color: rgba(255,255,255,.35); color: var(--text-muted, var(--muted)); }
-
 /* ---- Rules (Start Here page) ------------------------------------------- */
 .rule { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 36px 34px; }
 .rule + .rule { margin-top: 24px; }
@@ -2031,7 +2028,16 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 
 /* ---- Credibility strip -------------------------------------------------- */
 /* ---- Eyebrow modifier: no decorative dash -------------------------------- */
-.eyebrow--clean::before { display: none; }
+.eyebrow--clean::before { display: none !important; }
+
+/* Eyebrow strikethrough on 'The' — visible, intentional */
+.eyebrow s {
+  text-decoration: line-through;
+  text-decoration-color: var(--accent);
+  -webkit-text-decoration-color: var(--accent);
+  color: var(--text-soft);
+  font-style: normal;
+}
 
 /* ---- Homepage tools / SEO hub (replaces routing section) ----------------- */
 .section--tools {
