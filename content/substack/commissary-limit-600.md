@@ -14,7 +14,7 @@ Starting August 10, the commissary spending limit goes up to $600 a month.
 
 Here's why that number stopped me. $360 was the limit for decades. Never moved. Six to twelve months ago it jumped to $460. Now, less than a year later, it's jumping again — to $600. Two increases in under a year, after decades of nothing. That's almost double where we started.
 
-I've been locked up since 2012, in eight different spots. I've never seen the Bureau move like this, and I've never seen a number jump that far, that fast.
+I've been surviving the feds for the last 14 years, and I've always known it as $360 a month. I've never seen the Bureau move like this, and I've never seen a number jump that far, that fast.
 
 ---
 
