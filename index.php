@@ -280,6 +280,35 @@
       </div>
     </section>
 
+    <!-- ============================================== S4S DISPATCHES -->
+    <section class="section section--dispatches">
+      <div class="container">
+        <div class="dispatch-wrap" data-reveal>
+
+          <div class="dispatch-context">
+            <span class="eyebrow">Contributing Author</span>
+            <h2>Writing for the lawyers fighting on your side.</h2>
+            <p>Bilal Khan contributes to <em>Set for Sentencing</em> — attorney Doug Passon's publication on sentencing advocacy, humanizing defendants through narrative, and autism-informed defense. Written for defense counsel. Readable by anyone who needs to understand what their lawyer should be doing.</p>
+          </div>
+
+          <div class="dispatch-articles">
+            <a class="dispatch-card" href="https://setforsentencing.substack.com/p/how-and-when-to-put-money-on-a-federal" target="_blank" rel="noopener">
+              <div class="dispatch-card-header">
+                <span class="dispatch-pub">Set for Sentencing</span>
+                <span class="dispatch-date">July 19, 2026</span>
+              </div>
+              <h3>How &amp; When to Put Money on a Federal Inmate's Books</h3>
+              <p>From day one at any BOP facility, families can deposit commissary funds — the same account follows the inmate through every transfer. What to do, how to do it, and what it actually means for the person inside.</p>
+              <span class="dispatch-read">Read on Substack
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- ============================================================ FOOTER -->

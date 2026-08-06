@@ -973,6 +973,94 @@ body.journal-page {
 .cta-band h2 { max-width: 18ch; margin: 0 auto 22px; }
 .cta-band .lead { margin: 0 auto 36px; }
 
+/* ---- S4S Dispatches section -------------------------------------------- */
+.section--dispatches {
+  background: var(--bg-2);
+  border-top: 1px solid var(--border);
+}
+
+.dispatch-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px, 6vw, 80px);
+  align-items: center;
+}
+
+.dispatch-context .eyebrow { margin-bottom: 18px; }
+.dispatch-context h2 { margin-bottom: 18px; }
+.dispatch-context p { color: var(--text-soft); max-width: 52ch; line-height: 1.75; }
+.dispatch-context p em { color: var(--text); font-style: normal; font-weight: 600; }
+
+.dispatch-card {
+  display: block;
+  text-decoration: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 32px 36px;
+  transition: border-color .25s var(--ease), transform .25s var(--ease);
+  cursor: pointer;
+}
+.dispatch-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.dispatch-card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.dispatch-pub {
+  font-family: var(--font-label);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.dispatch-date {
+  font-family: var(--font-label);
+  font-size: .78rem;
+  letter-spacing: .08em;
+  color: var(--muted);
+}
+
+.dispatch-card h3 {
+  font-size: 1.25rem;
+  color: var(--text);
+  margin-bottom: 12px;
+  line-height: 1.25;
+}
+
+.dispatch-card p {
+  color: var(--text-soft);
+  font-size: .95rem;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.dispatch-read {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-label);
+  font-size: .82rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.dispatch-read svg { width: 16px; height: 16px; }
+
+@media (max-width: 900px) {
+  .dispatch-wrap { grid-template-columns: 1fr; gap: 36px; }
+}
+
 /* ---- Footer ------------------------------------------------------------- */
 .site-footer { background: #07080a; border-top: 1px solid var(--border); padding: 72px 0 36px; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 48px; }
