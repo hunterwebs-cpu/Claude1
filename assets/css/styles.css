@@ -1010,10 +1010,11 @@ body.journal-page {
   animation: catchphrase-sweep 6s ease-in-out 2s infinite;
 }
 @keyframes catchphrase-sweep {
-  0%   { background-position: 100% center; }
-  35%  { background-position:   0% center; }
-  65%  { background-position:   0% center; }
-  100% { background-position: 100% center; }
+  0%    { background-position: 100% center; } /* silver */
+  35%   { background-position:   0% center; } /* orange — sweep in L→R */
+  70%   { background-position:   0% center; } /* hold orange */
+  70.1% { background-position: 100% center; } /* instant snap back to silver */
+  100%  { background-position: 100% center; } /* pause silver before next cycle */
 }
 
 .footer-brand p { color: var(--muted); font-size: .92rem; max-width: 34ch; }
