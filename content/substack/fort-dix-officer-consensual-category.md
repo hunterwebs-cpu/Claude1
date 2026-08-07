@@ -61,7 +61,7 @@ Neither is a story about bad people. Both are about a rule that treats every pri
 
 Watch the asymmetry.
 
-He went to the SHU months before anyone knew why. She went on paid administrative leave and came back inside the perimeter for a while. Federal data bears the pattern out — in substantiated staff misconduct cases, sixteen percent of the men the law calls victims end up in segregation, eleven percent transferred.
+He went to the SHU. She kept working. Federal data bears the pattern out — in substantiated staff misconduct cases, sixteen percent of the men the law calls victims end up in segregation, eleven percent transferred.
 
 And he could not sue. The Third Circuit ruled in 2024, in a case about a man raped three times at Fort Dix, that there is no damages remedy when federal staff fail to protect you.
 
