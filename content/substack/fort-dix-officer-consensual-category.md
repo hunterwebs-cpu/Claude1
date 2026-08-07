@@ -59,7 +59,11 @@ The rule that voids a prisoner's consent does not stop the coercion. It punishes
 
 In 2018 I convinced a young man who had been sexually assaulted **at another prison** to report it. He asked the psychologist first whether reporting would get him moved. She told him he would stay put. Twenty minutes after he made the report he was told to pack his property and haul it a quarter mile to another building — because somebody decided people at risk of victimization should be housed away from people at risk of victimizing.
 
-The practical effect was that a twenty-five-year-old who had just reported a sexual assault got moved into a unit populated largely by sex offenders, a number of whom had a direct interest in someone who looked like him. Nobody would have dared touch him in there. He still felt like he got thrown to the wolves. That is why men do not report.
+That is 28 C.F.R. § 115.42 working exactly as written — housing assigned "with the goal of keeping separate those inmates at high risk of being sexually victimized from those at high risk of being sexually abusive."
+
+Here is what that means in practice. He went to a unit designated for men at high risk of victimization. That is not a sex offender unit, but it fills up with sex offenders, because they are the ones who get flagged as vulnerable — most of them will not fight to defend themselves. The only men the designation keeps out are the ones flagged as risks to perpetrate.
+
+So a twenty-five-year-old who had just reported a sexual assault was housed among a great many men with a direct interest in someone who looked like him, and the Bureau called that protection. Nobody in there would have dared touch him. He still felt like he got thrown to the wolves. That is why men do not report.
 
 And it runs the other way too. I have watched a relationship between two men end badly, and watched the wronged party have sex with the other one deliberately and then run out of the unit screaming rape. We never saw that man again. When consent is legally impossible, an accusation is a weapon anybody can pick up.
 
