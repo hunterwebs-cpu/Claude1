@@ -9,7 +9,7 @@ By Bilal Khan
 
 She walked into my pickleball game.
 
-Not to break it up. To play. A housing unit officer stepped onto the court in the gym at FCI Fort Dix, picked up a paddle, and hit the ball back and forth with us while she vaped.
+Not to supervise. To play. A housing unit officer stepped onto the court in the gym at FCI Fort Dix, picked up a paddle, and hit the ball back and forth with us while she vaped.
 
 ---
 
@@ -21,7 +21,7 @@ For months the compound talked about her and one particular man — that they we
 
 And what did any of us do? Nothing. It is none of my business what she and a grown man decide to do with each other. That is the code in here.
 
-Then he came off the compound. Months later she was moved outside the perimeter, then brought back inside, and we figured nobody had snitched and the investigation had cleared her. Then she went out again. A few weeks later she was charged.
+Then he was taken to the SHU. Months later she was moved outside the perimeter, then brought back inside, and we figured nobody had snitched and the investigation had cleared her. Then she went out again. A few weeks later she was charged.
 
 ---
 
@@ -49,7 +49,7 @@ The rule that voids a prisoner's consent does not stop the coercion. It punishes
 
 In 2018 I convinced a young man who had been sexually assaulted at another prison to report it. He asked the psychologist first whether reporting would get him moved. She said he would stay put. Twenty minutes later he was told to pack his property and haul it a quarter mile to another building.
 
-He went to a unit designated for men at high risk of victimization. That is not a sex offender unit, but it fills with them, because they are the ones flagged as vulnerable — most will not fight to defend themselves. The only men it keeps out are those flagged as risks to perpetrate.
+He went to a unit designated for men at high risk of victimization, which in practice means a unit heavy with sex offenders. They are the ones flagged as vulnerable, because most will not fight to defend themselves.
 
 So a twenty-five-year-old who had just reported a sexual assault was housed among many men with a direct interest in someone who looked like him, and the Bureau called it protection. Nobody in there would have dared touch him. He still felt thrown to the wolves. It is because of shit like that men do not report.
 
@@ -61,7 +61,7 @@ Neither is a story about bad people. Both are about a rule that treats every pri
 
 Watch the asymmetry.
 
-He came off the compound months before anyone knew why. She went on paid administrative leave and came back inside the perimeter for a while. Federal data bears the pattern out — in substantiated staff misconduct cases, sixteen percent of the men the law calls victims end up in segregation, eleven percent transferred.
+He went to the SHU months before anyone knew why. She went on paid administrative leave and came back inside the perimeter for a while. Federal data bears the pattern out — in substantiated staff misconduct cases, sixteen percent of the men the law calls victims end up in segregation, eleven percent transferred.
 
 And he could not sue. The Third Circuit ruled in 2024, in a case about a man raped three times at Fort Dix, that there is no damages remedy when federal staff fail to protect you.
 
