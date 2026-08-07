@@ -29,6 +29,25 @@ These are already in the pipeline and do not need to be researched:
 3. 🔜 **The Retaliatory Transfer** — Bilal's full story; the TRO, settlement, return
 4. 🔜 **Administrative Remedies: Your Only Real Power** — BP-8 through BP-11
 5. 🔜 **The First Step Act: What You're Actually Getting** — Credits, halfway house trap
+6. 🔜 **The Registry Follows You** — Sex offender registration as a portable, effectively
+   permanent obligation. Split off from the Fort Dix officer dispatch (too big to be a
+   subsection). Research already banked: SORNA tiers under 34 U.S.C. § 20911 and the
+   § 20911(5)(C) custodial-authority carve-out; the 15-year federal floor under § 20915
+   vs. state schemes that run for life; N.J.S.A. 2C:7-2(b)(3) reaching federal
+   convictions "similar to" state offenses, and the 2C:7-2(f) petition (15 offense-free
+   years, judge's discretion, clock restarts on any new offense) with 2C:7-2(g)
+   permanent bars; 34 U.S.C. § 20913(a),(c) — register in every jurisdiction of
+   residence/work/school, 3 business days to update; 28 C.F.R. Part 72 (2021 DOJ rule,
+   eff. Jan. 7, 2022) — the federal duty applies regardless of whether a state has
+   implemented SORNA or will accept the registration; 18 U.S.C. § 2250(a)(2)(A) — a
+   prior federal sex offense is its own jurisdictional hook, no interstate travel
+   needed, 10-year max. **The thesis:** relief in one state binds no other state, so
+   moving can convert a 15-year obligation into a lifetime one, and the federal duty
+   never lapses in between.
+7. 🔜 **Contraband Phones: BOP Fights Them, Then Prosecutes With Them** — Bilal's
+   proposal: monitored phones sold by BOP would be safer, more transparent, and
+   profitable. Raised during the Fort Dix officer interview; he flagged it as its own
+   dispatch.
 
 ---
 
