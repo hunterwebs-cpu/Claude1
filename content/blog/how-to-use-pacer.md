@@ -5,6 +5,7 @@ date: "2026-06-20"
 category: "Defense Strategy"
 author: "Bilal Khan"
 excerpt: "PACER contains every filing in your federal case. If you're inside, you can't touch it — but your family can. Here is exactly what to do with it."
+cover: "assets/img/cover-pacer.webp"
 ---
 
 <!-- PRINT: [LOGO: Surviving the Feds — upper left] -->

@@ -4,6 +4,7 @@ date: "2026-06-04"
 category: "Defense Strategy"
 author: "Bilal Khan"
 excerpt: "Most families hire a federal defense attorney while terrified and in the dark. Here are seven questions that separate a fighter from an expensive disappointment."
+cover: "assets/img/cover-lawyer-quality.webp"
 ---
 
 People say you should hire a lawyer to watch your lawyer. Almost nobody can afford that. So the next best thing is knowing what to look for yourself — because in federal court, the gap between a prepared attorney and a coasting one can be measured in years of someone's life.

@@ -4,6 +4,7 @@ date: "2026-06-16"
 category: "Pretrial"
 author: "Bilal Khan"
 excerpt: "More than 97 percent of federal convictions come from guilty pleas, not trials. Understanding what you're really agreeing to — before you sign — can be the difference between a fair outcome and a catastrophic one."
+cover: "assets/img/cover-plea-deal.webp"
 ---
 
 More than 97 percent of federal convictions don't come from a jury — they come from a signature on a plea agreement. That number should make clear how central the plea is to the federal system. And yet most families don't fully understand what a plea agreement actually is, what it costs, and what it doesn't fix — until after the deal is done.

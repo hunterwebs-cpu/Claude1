@@ -5,6 +5,7 @@ date: "2026-06-20"
 category: "Sentencing"
 author: "Bilal Khan"
 excerpt: "Congress passed the First Step Act in 2018. Most people in the federal system have heard of it. Very few understand what it actually does to their time — and almost no one is told the catch."
+cover: "assets/img/cover-first-step-act.webp"
 ---
 
 # The First Step Act: What It Actually Gets You

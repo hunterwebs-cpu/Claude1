@@ -4,6 +4,7 @@ date: "2026-06-07"
 category: "Family Support"
 author: "Bilal Khan"
 excerpt: "Every call is recorded. Every letter may be read. Here is the complete, practical guide to communicating with a family member in federal custody — and what never to say on any of those lines."
+cover: "assets/img/cover-staying-connected.webp"
 ---
 
 One of the hardest parts of a federal case for families is the communication — not just how little of it there is, but the constant awareness that every word is being monitored. This isn't paranoia. It's the law, and it's the practice. Understanding how each channel works — and where the limits are — lets you stay close without accidentally making things worse.
