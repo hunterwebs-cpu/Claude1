@@ -203,7 +203,9 @@ Full spec in `docs/VOICE.md`. Dispatch adaptations:
 
 **Earned profanity.** Marks the exact moment of institutional failure or life-altering stakes. Not decoration. Not removed for squeamishness.
 
-**ALL CAPS: once per article maximum.** The one procedural point that, if missed, causes irreversible harm. Format: `WARNING: [STATEMENT IN FULL CAPS]`
+**ALL CAPS: once per article maximum, and only if earned.** The one procedural point that, if missed, causes irreversible harm. Format: `WARNING: [STATEMENT IN FULL CAPS]`
+
+**This slot is optional. If no verified do-or-die fact exists, leave it out.** An empty slot in a template is not a prompt to invent something to fill it. A fabricated warning in a piece families rely on is worse than no warning at all. Both drafts of the Fort Dix officer dispatch failed here: one asserted that a PREA allegation dies on transfer, the other that a man moved for his protection never gets moved back. Neither is true. Neither came from Bilal or from any source. Both were written because the template had a hole in it.
 
 **Specificity is the credibility.** Name the facilities, the forms, the laws, the program statements. Abstract claims land nowhere. Specific ones land everywhere.
 
@@ -225,6 +227,47 @@ Do not invent or extrapolate beyond these facts.
 - Taught BOP case managers to correctly calculate First Step Act credits.
 - Author: *Surviving Pretrial* and *The 2255 Motion Handbook* (Surviving the Feds Series, Amazon).
 - **Do not reference offense type or case charges — ever.**
+
+---
+
+### THE SOURCING RULE — read this before writing a single sentence
+
+Every factual sentence in a dispatch must trace to one of exactly two places:
+
+1. **Bilal said it** in the interview, or
+2. **A verified source** confirmed it — statute, regulation, published opinion, agency report, or news reporting you actually read.
+
+**If a sentence traces to neither, cut it.** Not soften it, not hedge it — cut it. There is no third category. "It follows logically," "this is how prisons work," and "any reader would assume" are not sources.
+
+This is the failure mode that has cost the most rework, and it is seductive because invented claims are usually *plausible* and always *convenient*. They arrive precisely when a paragraph needs a beat, a warning slot needs filling, or a contrast needs sharpening. Real examples from the Fort Dix officer dispatch, each caught by Bilal after it was written:
+
+| Invented | Reality |
+|---|---|
+| "If he is transferred before he files, he has lost it." | 28 C.F.R. § 115.63 — the receiving facility must notify within 72 hours and the original facility must investigate. Transfer waives nothing. |
+| "She went on **paid** administrative leave." | No source said paid. Bilal watched her keep working, moved away from inmates. |
+| "ONCE HE IS MOVED, HE DOES NOT GET MOVED BACK." | Invented outright. Contradicted Bilal's own account that the institution later began asking men first. |
+| "That is not a sex offender unit, but…" | Rebutting a question no reader asked. Describe what a thing *is*. |
+
+**A specific trap: institutional practice.** Claims about what BOP "always" or "never" does, how staff "typically" respond, or what "happens next" are the easiest things to invent and the hardest for a reader to check. Bilal is the source for those. Ask him; do not reason your way to them.
+
+**A second trap: sharpening a contrast.** When an asymmetry is the point, there is pressure to make each side more extreme than the record supports. "He went to the SHU, she kept working" is true and devastating. "Paid administrative leave" was neither.
+
+### Handling Bilal's raw text
+
+He writes fast, on a monitored prison email system, with no ability to revise comfortably. His messages contain typos, dropped words, and phonetic mangling.
+
+- **Never render a transcription artifact as prose.** A draft once published the phrase "others will be far the otherwise" verbatim. It is not a sentence. He meant officers who go far in the *other* direction — extremely nice, trying to please.
+- **When a phrase is unclear, ask him.** Do not guess at meaning and do not quietly drop the sentence. One question costs a minute; a wrong guess costs his credibility.
+- **Preserve his diction, fix his typing.** "Give a shit," "thrown to the wolves," "a shot" for an incident report — keep. Misspellings and dropped words — fix silently.
+
+### Writing about named living people
+
+Dispatches often turn on a real person facing real charges.
+
+- Anything about a charged person traces to **published reporting** or **Bilal's direct observation** — never to inference, and never to compound rumor presented as fact.
+- **Keep consequences conditional.** "A conviction makes her a registered sex offender," not "she will register."
+- **Never merge two people.** If the material contains a man whose hair was braided and a different man in the case, they are two men. A title once implied they were the same person.
+- Bilal decides whether to name anyone. Ask; do not assume public reporting settles it.
 
 ---
 
@@ -250,7 +293,8 @@ By Bilal Khan
 
 [ACTIONABLE SECTION — **What you can actually do about this**]
 [Specific procedures, form numbers, deadlines, program statements]
-[WARNING: ALL CAPS DEADLINE OR CRITICAL POINT]
+[OPTIONAL — WARNING: ALL CAPS DEADLINE OR CRITICAL POINT]
+[Include ONLY if a verified do-or-die fact exists. Never invent one to fill this line.]
 
 ---
 
@@ -278,6 +322,16 @@ and is not legal advice.*
 
 ### Quality Checklist — Gate Before Generating .docx
 
+**Run the sourcing audit first. It gates everything below.**
+
+- [ ] **Every factual sentence traces to Bilal or to a verified source.** Walk the draft line by line and name the source for each claim out loud. Any sentence you cannot source gets cut, not hedged.
+- [ ] **No invented institutional practice** — nothing about what BOP "always," "never," or "typically" does that Bilal did not say
+- [ ] **The ALL CAPS warning, if present, states a verified fact** — and is absent entirely if no such fact exists
+- [ ] **No transcription artifacts from Bilal's raw text** rendered as prose
+- [ ] **Two different people are never merged into one**, in the title or the body
+- [ ] **Consequences for charged people stated conditionally** ("a conviction makes her…")
+- [ ] **Word count verified by script, not estimated** — run the counter and read the number
+
 - [ ] Title: first-person, 13–17 words, no question mark
 - [ ] Subtitle: 6–10 words, adds urgency beyond the title
 - [ ] Opening: single scene, no preamble, lands in the first sentence
@@ -304,6 +358,7 @@ and is not legal advice.*
 
 **Step 2:** Generate .docx
 ```bash
+python3 scripts/dispatch_wordcount.py content/substack/[slug].md   # gate: must PASS
 python3 scripts/substack_to_docx.py content/substack/[slug].md
 ```
 
