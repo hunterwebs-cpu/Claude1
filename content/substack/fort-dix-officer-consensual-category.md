@@ -49,7 +49,7 @@ That is a **code 205** under 28 C.F.R. § 541.3, "engaging in sexual acts." Not 
 
 Force and non-consent already have their own codes — 114 and 229. Which means 205 is the code for sex nobody says was coerced. Two consenting adults can lose a month of their liberty for it. Kissing and embracing is a 409, the bottom tier. So between a kiss and sex, the Bureau of Prisons has placed the distance between the lowest rung and the second-highest.
 
-Officers walk past it and do not write it. I think a lot of that is shock — they hear men in here trash the idea of homosexuality all day, and then they find out.
+Officers stumble onto it every so often and do not always write it up. I think that is shock. They spend their shifts listening to men in here trash homosexuality at full volume, and then they open a door and find two of those same men behind it. Some of them just close the door.
 
 ---
 
