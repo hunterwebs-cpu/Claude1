@@ -21,7 +21,9 @@ For months the compound talked about her and one particular man — that they we
 
 And what did any of us do? Nothing. It is none of my business what she and a grown man decide to do with each other. That is the code in here.
 
-Then he was taken to the SHU. Months later she was moved outside the perimeter, then brought back inside, and we figured nobody had snitched and the investigation had cleared her. Then she went out again. A few weeks later she was charged.
+I saw all of that before June 2025, when I was transferred out of Fort Dix for four months. The sex the government actually charged happened in January 2026, and the phones that made its case were seized months before that. This had been going on a long time.
+
+Then he was taken to the SHU. She was moved outside the perimeter, then brought back inside, and we figured nobody had snitched and the investigation had cleared her. Then she went out again. A few weeks later she was charged.
 
 ---
 
