@@ -4,6 +4,7 @@ date: "2026-06-10"
 category: "Pretrial"
 author: "Bilal Khan"
 excerpt: "The decisions made in the first two days of a federal case can echo for years. Here is what to do — and what to never do — when the feds come."
+cover: "assets/img/cover-first-48-hours.webp"
 ---
 
 When the federal government arrests someone, the clock doesn't wait for you to catch your breath. The first 48 hours feel like chaos, but they are not random. There is a process, and the people running it do this every single day. You don't have to. That asymmetry is exactly why knowledge matters more in the beginning than at almost any other point in the case.

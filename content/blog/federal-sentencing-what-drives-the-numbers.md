@@ -4,6 +4,7 @@ date: "2026-06-13"
 category: "Sentencing"
 author: "Bilal Khan"
 excerpt: "The sentence is often decided long before anyone walks into a courtroom. Here's how the federal sentencing guidelines work, what the Presentence Report actually does, and what families need to understand before that day comes."
+cover: "assets/img/cover-sentencing-numbers.webp"
 ---
 
 The sentencing hearing is often the moment a family is most afraid of — and the moment they are least prepared for. Here's the uncomfortable truth: by the time that hearing happens, most of the heavy lifting is already done. The sentence was largely shaped months earlier, by calculations that followed a specific set of rules. Understanding those rules is the difference between watching sentencing happen to you and participating in it.

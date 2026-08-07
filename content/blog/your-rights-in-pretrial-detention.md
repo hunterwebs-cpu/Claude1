@@ -5,6 +5,7 @@ date: "2026-06-20"
 category: "Pretrial"
 author: "Bilal Khan"
 excerpt: "You have not been convicted. The government cannot punish you. Here is what they owe you inside that facility — and how to make them deliver it."
+cover: "assets/img/cover-pretrial-rights.webp"
 ---
 
 [LOGO: Surviving the Feds — upper left]

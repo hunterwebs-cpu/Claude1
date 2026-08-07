@@ -4,6 +4,7 @@ date: "2026-05-27"
 category: "Post-Conviction"
 author: "Bilal Khan"
 excerpt: "Conviction is not always the end of the road. A § 2255 motion is one of the most powerful — and most misunderstood — tools a federal inmate has. Here's the plain-language primer."
+cover: "assets/img/cover-2255-motion.webp"
 ---
 
 A federal conviction feels final. Often it isn't — not completely. One of the most important tools available afterward is a motion under **28 U.S.C. § 2255**, and most people have never heard of it until they desperately need it. This is a plain-language introduction to what it is, who it's for, and why the deadlines will quietly destroy a good claim if you let them.
