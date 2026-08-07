@@ -31,8 +31,6 @@ Consensual. In the same document announcing a felony carrying up to fifteen year
 
 When that got read on the compound, the reaction was *duh*. She did not force anybody. She was a young, good-looking woman working twelve-hour shifts in a building with three hundred forty men and one officer. What did you think was going to happen?
 
-She is charged, not convicted — by complaint, no indictment, out on bond. All of it remains allegation.
-
 But the charge does not care about that word. Under federal law, consent is not an element of this offense and not a defense. Force is not required. Injury is not required. The entire crime is that one person had custodial authority over the other.
 
 ---
