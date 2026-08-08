@@ -1159,6 +1159,13 @@ body.journal-page {
 /* ---- Print / Save-as-PDF utilities ------------------------------------- */
 .print-only { display: none; }
 
+/* Print sheet wrapper: a real <table> only when printing (see @media print),
+   flattened to plain blocks on screen so the web layout is untouched. */
+.print-sheet,
+.print-sheet > tbody,
+.print-sheet > tbody > tr,
+.print-sheet > tbody > tr > td { display: block; width: 100%; padding: 0; margin: 0; border: 0; }
+
 /* ---- Print layout (article → mailable PDF) ----------------------------- */
 @media print {
   /* Reset to clean black-on-white, drop all chrome */
@@ -1173,9 +1180,9 @@ body.journal-page {
   .screen-only { display: none !important; }
   .print-only { display: block !important; }
 
-  /* 1in (25.4mm) bottom margin. Body text stops at that line; the running
-     footer/logo live BELOW it, inside the margin strip (see negative bottom). */
-  @page { margin: 18mm 16mm 25.4mm; }
+  /* Paper margin. The repeating <tfoot> adds ~15mm of reserved footer space on
+     top of this, so body copy stops roughly 1in from the bottom of the sheet. */
+  @page { margin: 18mm 16mm 12mm; }
 
   /* Logo, upper-left */
   .print-brand { margin-bottom: 14pt; }
@@ -1207,37 +1214,41 @@ body.journal-page {
   .print-link { font-size: 11pt; }
   .print-disclaimer { font-size: 8.5pt; color: #444; margin-top: 10pt; font-style: italic; }
 
-  /* Running footer elements.
-     In paged media, `position: fixed` is measured from the PAGE AREA — the box
-     inside the @page margins — so `bottom: 0` sits on the 1in margin line, level
-     with the last line of body text. Negative offsets drop these below that line
-     into the margin strip, where they can never collide with the text. */
+  /* Running footer — repeats at the bottom of every printed page.
+     Using <tfoot display:table-footer-group> instead of position:fixed: the
+     browser reserves the footer's height on EVERY page and flows body copy
+     above it, so text can never print on top of the logo or the catch line. */
+  .print-sheet { display: table; width: 100%; border-collapse: collapse; }
+  .print-sheet > tbody { display: table-row-group; }
+  .print-sheet > tfoot { display: table-footer-group !important; }
+  .print-sheet > tbody > tr > td,
+  .print-sheet > tfoot > tr > td { padding: 0; vertical-align: top; }
 
-  /* Logo: bottom-right, inside the margin strip */
-  .print-logo-running {
-    position: fixed;
-    bottom: -16mm;
-    right: 0;
-    width: auto;
-    line-height: 0;
+  .print-foot-inner {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 10pt;
+    margin-top: 10pt;
+    padding: 6pt 0 2pt;
+    border-top: 1px solid #bbb;
   }
-  .print-logo-running img {
-    height: 30px;
-    width: auto;
-    opacity: 0.8;
-  }
-
-  /* Catch-phrase: centered on the same baseline, inside the margin strip */
-  .print-running-foot {
-    position: fixed;
-    bottom: -12mm; left: 0; right: 0;
-    text-align: center;
+  .print-foot-tag {
+    grid-column: 2;
     font-family: var(--font-label);
     letter-spacing: .12em;
     text-transform: uppercase;
     font-size: 8.5pt;
     line-height: 1;
     color: #000;
+    white-space: nowrap;
+  }
+  .print-foot-logo {
+    grid-column: 3;
+    justify-self: end;
+    height: 26px;
+    width: auto;
+    opacity: .8;
   }
 }
 

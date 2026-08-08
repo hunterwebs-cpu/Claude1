@@ -14,14 +14,22 @@
   <main>
     <article class="article" id="article-root">
       <div class="container">
+      <!-- Print sheet: <tfoot> repeats at the bottom of every printed page and
+           reserves its own space, so body copy can never flow underneath it. -->
+      <table class="print-sheet">
+        <tfoot class="print-sheet-foot print-only">
+          <tr><td>
+            <div class="print-foot-inner">
+              <span></span>
+              <span class="print-foot-tag">Knowledge&nbsp;+&nbsp;Strength&nbsp;=&nbsp;Freedom&nbsp;&nbsp;·&nbsp;&nbsp;survivingthefeds.com</span>
+              <img class="print-foot-logo" src="assets/img/logo-silver.png" alt="" />
+            </div>
+          </td></tr>
+        </tfoot>
+        <tbody><tr><td>
         <!-- Logo: upper-left of the printed / saved PDF page -->
         <div class="print-brand print-only">
           <img src="assets/img/logo-silver.png" alt="Surviving the Feds" />
-        </div>
-
-        <!-- Running logo: fixed bottom-right on every printed page -->
-        <div class="print-logo-running print-only" aria-hidden="true">
-          <img src="assets/img/logo-silver.png" alt="" />
         </div>
 
         <header class="article-header">
@@ -61,15 +69,12 @@
           <p class="print-disclaimer">Informational only — not legal advice. Always consult a licensed attorney about a specific case.</p>
         </aside>
 
-        <!-- Catch phrase: centered running footer on every printed page -->
-        <div class="print-running-foot print-only" aria-hidden="true">
-          Knowledge&nbsp;+&nbsp;Strength&nbsp;=&nbsp;Freedom&nbsp;&nbsp;·&nbsp;&nbsp;survivingthefeds.com
-        </div>
-
         <div class="center screen-only" style="margin-top:56px; display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
           <a class="btn btn--ghost" href="blog.php">← Back to the Journal</a>
           <button class="btn btn--ghost" type="button" data-print>Download / Print PDF</button>
         </div>
+        </td></tr></tbody>
+      </table>
       </div>
     </article>
 
