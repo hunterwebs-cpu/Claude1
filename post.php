@@ -16,7 +16,7 @@
       <div class="container">
         <!-- Logo: upper-left of the printed / saved PDF page -->
         <div class="print-brand print-only">
-          <img src="assets/img/logo-print.png" alt="Surviving the Feds" />
+          <img src="assets/img/logo-silver.png" alt="Surviving the Feds" />
         </div>
 
         <header class="article-header">
