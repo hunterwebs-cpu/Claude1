@@ -1173,7 +1173,7 @@ body.journal-page {
   .screen-only { display: none !important; }
   .print-only { display: block !important; }
 
-  @page { margin: 18mm 16mm 22mm; }
+  @page { margin: 18mm 16mm 28mm; }
 
   /* Logo, upper-left */
   .print-brand { margin-bottom: 14pt; }
@@ -1186,8 +1186,8 @@ body.journal-page {
   #a-title { font-size: 24pt !important; margin: 6pt 0 10pt; color: #000; }
   .article-meta { color: #333 !important; font-size: 9pt; }
 
-  /* Body copy */
-  .prose { max-width: none; font-size: 12pt; line-height: 1.55; color: #000; }
+  /* Body copy — padding-bottom keeps content clear of the fixed running foot */
+  .prose { max-width: none; font-size: 12pt; line-height: 1.55; color: #000; padding-bottom: 18mm; }
   .prose h2 { font-size: 15pt; margin: 18pt 0 6pt; color:#000; }
   .prose h3 { font-size: 13pt; margin: 14pt 0 5pt; color:#000; }
   .prose p, .prose li { color: #000; margin-bottom: 9pt; }
@@ -1209,7 +1209,7 @@ body.journal-page {
   /* Catch-phrase running footer, centered at the bottom of every page */
   .print-running-foot {
     position: fixed;
-    bottom: 6mm; left: 0; right: 0;
+    bottom: 8mm; left: 0; right: 0;
     text-align: center;
     font-family: var(--font-label);
     letter-spacing: .12em;
