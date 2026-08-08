@@ -18,9 +18,9 @@ This skill governs every article written for Bilal Khan's guest column on Doug P
 3. **If fresh research results exist:** Present them as a numbered list and ask Bilal to pick one. Then go to Phase 2.
 4. **If no results yet (placeholder only):** Immediately spawn the Phase 1 research subagent (instructions below). Do NOT list the committed pipeline topics as choices — those are already assigned and are not for selection.
 
-**If the user specifies a topic:** Skip Phase 1, go directly to Phase 2.
+**If the user specifies a topic, or arrives with something he witnessed:** Skip Phase 1 entirely. Go straight to Phase 2 and ask him to tell you what happened. Do not research first. Do not present him with a brief. Let him talk.
 
-**If the user arrives with a story they just witnessed:** Skip Phases 1 and 2, go to Phase 3 with story sourcing.
+**The default assumption is that Bilal already knows this subject.** Ask whether he wants research before running any. On most topics the honest answer is no.
 
 ---
 
@@ -28,20 +28,26 @@ This skill governs every article written for Bilal Khan's guest column on Doug P
 
 ```
 PHASE 1: Topic Discovery    → AUTOMATED (weekly Routine, runs headlessly, no human present)
-         Researches what people are searching for, saves ranked report to
-         content/substack/topic-pipeline.md, commits, pushes, STOPS.
-         Bilal reads the report and picks a topic.
+         Only used when Bilal has no story in hand. Saves a ranked report
+         to content/substack/topic-pipeline.md, commits, pushes, STOPS.
          ↓
-PHASE 2: Topic Deep Dive    → subagent researches that topic thoroughly
-         Returns research brief + targeted interview questions
+PHASE 2: The Account        → Bilal tells what happened. This is the article.
+         ONE round of follow-ups, maximum. Nothing else happens first.
          ↓
-PHASE 3: Targeted Interview → main agent interviews Bilal using the research brief
-         Bilal adds, corrects, or deletes based on what the research found
+PHASE 3: Verification       → runs SILENTLY in the background, narrow scope:
+         confirm names/dates/citations, and confirm any rule a family
+         would act on. Bilal never has to read this.
          ↓
-PHASE 4: Write & Deliver    → main agent writes, checks, generates .docx, delivers
+PHASE 4: Write & Deliver    → write from his account, one redline, .docx, deliver
 ```
 
-**The clean split:** Phase 1 runs automatically every week via a Claude Code Routine — no session, no human, fully autonomous. Phases 2–4 run interactively when Bilal is ready to write. The Routine produces a report. Bilal picks a topic. A new session handles the rest.
+**The center of gravity is Bilal's account, not the research.** The column exists to give readers a glimpse of life inside a low-security federal prison, told through events, with practical tips for getting settled. The scene is the product. Law and data are seasoning, and a dispatch can carry very little of either and still be excellent.
+
+**Do NOT open with a research phase.** An earlier version of this skill researched first and then interviewed Bilal about the findings. The result was a legal argument with his story bolted on, and it cost six rounds of him stripping out citations, severity tables, and procedural posture he had never asked for. If a draft reads like a law review article with anecdotes, the pipeline ran backwards.
+
+**Deep research is CONDITIONAL.** Run it only when Bilal says he does not know a subject well, or when the piece turns on a rule he has not worked with. He has fourteen years inside and litigates from his cell — on most topics he is the better source, and research merely catches up to him. Ask before spending a phase on it.
+
+**If the article takes more than one redline from Bilal, the process failed, not the draft.** He should talk once and correct once. Anything more means the writing started from the wrong material.
 
 **To start an article:** Open a new Claude Code session, type `/substack`, and tell Claude which topic from `content/substack/topic-pipeline.md` you want to develop.
 
@@ -77,9 +83,13 @@ PHASE 4: Write & Deliver    → main agent writes, checks, generates .docx, deli
 
 ---
 
-## PHASE 2 — Topic Deep Dive
+## OPTIONAL — Deep Research (only when Bilal doesn't know the subject)
 
-**When to run:** After a topic is selected. Goal: understand what's already out there so the article fills a real gap, and generate targeted interview questions that only Bilal can answer.
+**When to run:** Only when Bilal says he is not well versed in the topic, or the piece turns on a rule he has not personally worked with. **Ask him first.** Do not run this by default and do not run it before he has told you the story.
+
+**When NOT to run it:** Anything drawn from what he has lived — how a unit runs, what staff actually do, how men behave, what happens after a report. He is the primary source. Research on those topics produces a brief that mostly gets thrown away and an article that argues instead of showing.
+
+If you do run it, the brief below is heavy. Cut it down to the two or three questions that actually matter for this piece.
 
 **Spawn a general-purpose research subagent** with this brief (fill in [TOPIC]):
 
@@ -111,9 +121,26 @@ PHASE 4: Write & Deliver    → main agent writes, checks, generates .docx, deli
 
 ---
 
-## PHASE 3 — Targeted Interview
+## PHASE 2 — The Account
 
-**When to run:** After Phase 2 research brief is in hand. Goal: have Bilal fill the gaps, correct the record, and add what only he can add.
+**When to run:** First. Before research, before any brief, before you have an angle. Goal: get the event out of Bilal's head in his own words. This is the article; everything after it is support.
+
+**Open with the story, not with questions.** "Tell me what happened — what you saw, what it looked like, what people did." Then get out of the way and let him write.
+
+**Then ONE round of follow-ups. One.** Only ask what you genuinely cannot get anywhere else:
+
+- Sequence — what happened first, and what came after
+- Sensory detail — what it looked like, sounded like, who was standing where
+- Who did what, and how he knows (saw it himself / compound talk / staff said it / read it)
+- What the tips are — see below
+
+**Do not ask him to react to statistics.** Do not ask him to confirm a research finding. Do not send twelve questions. He is typing on a monitored prison email system where every message costs him real effort; a long question list is expensive and mostly produces material that never runs.
+
+**Where the tips come from: him.** He is a litigator with fourteen years inside who has watched families make every mistake there is. Ask directly — "what do you tell someone whose son is dealing with this?" — and take the answer as the section. Much of it will not be verifiable, and that is expected. Write it as his experience (see THE SOURCING RULE). Verify only the pieces a reader would act on as a rule: a citation, a deadline, a form, a right.
+
+**Sourcing questions to always ask:**
+- How do you know this — saw it, heard it, read it?
+- Anything you cannot or should not include, given where you are?
 
 **The interview is conversational and conducted inline — not delegated to a subagent.** It requires follow-up based on Bilal's answers.
 
@@ -238,6 +265,18 @@ Every factual sentence in a dispatch must trace to one of exactly two places:
 2. **A verified source** confirmed it — statute, regulation, published opinion, agency report, or news reporting you actually read.
 
 **If a sentence traces to neither, cut it.** Not soften it, not hedge it — cut it. There is no third category. "It follows logically," "this is how prisons work," and "any reader would assume" are not sources.
+
+**The rule is about attribution, not verifiability.** Most of what makes this column worth reading is Bilal's experience, and most of that cannot be cited to anything. That is fine — it is the product. What matters is that each kind of claim is written as what it is:
+
+| Kind of claim | How it must be written |
+|---|---|
+| What Bilal watched, did, or concluded over fourteen years | First person, as his experience. "What I have watched happen is…" "They will tell you X. What actually happens is Y." |
+| What compound talk says | Named as rumor, explicitly. |
+| A rule, right, deadline, form, or citation a family will act on | Verified against the source, or it does not go in. |
+
+**The failure is never "Bilal said something I could not verify."** The failure is a writer *inventing* a claim, or taking lived experience and dressing it up as a rule. "In my experience the SHU is where they put you first and sort it out later" is publishable. "Protective segregation is permanent" is a fabricated rule wearing a fact's clothes.
+
+When Bilal's experience contradicts the regulation, **print both** — that gap is frequently the whole point of the piece. Do not resolve it by deleting his half.
 
 This is the failure mode that has cost the most rework, and it is seductive because invented claims are usually *plausible* and always *convenient*. They arrive precisely when a paragraph needs a beat, a warning slot needs filling, or a contrast needs sharpening. Real examples from the Fort Dix officer dispatch, each caught by Bilal after it was written:
 
@@ -398,11 +437,12 @@ Doug's workflow: open → read checklist → paste → done.
 
 | Task | Who does it | Notes |
 |---|---|---|
-| Topic discovery | General-purpose subagent | Phase 1; use full prompt in §Phase 1 |
-| Topic deep dive | General-purpose subagent | Phase 2; use full prompt in §Phase 2 |
-| Interview | Main agent, inline | Conversational; cannot be delegated |
-| Fact verification | General-purpose subagent | Spin up only for specific disputed claims |
+| Topic discovery | General-purpose subagent | Phase 1; only when Bilal has no story in hand |
+| The account | Main agent, inline | Phase 2; cannot be delegated. Comes FIRST. |
+| Deep research | General-purpose subagent | Optional. Only when Bilal says he doesn't know the subject — ask him. |
+| Verification | General-purpose subagent | Phase 3; runs silently in background. Names, dates, and any rule a reader would act on. Bilal never reads it. |
 | Writing | Main agent | No writing subagent |
+| Word-count gate | Bash tool, inline | `scripts/dispatch_wordcount.py` — must PASS before .docx |
 | .docx generation | Bash tool, inline | `scripts/substack_to_docx.py` |
 
 Do NOT re-research Substack platform mechanics — that is baked into this document. Only re-research if Substack announces significant format or algorithm changes.
