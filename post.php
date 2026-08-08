@@ -19,6 +19,11 @@
           <img src="assets/img/logo-silver.png" alt="Surviving the Feds" />
         </div>
 
+        <!-- Running logo: fixed bottom-right on every printed page -->
+        <div class="print-logo-running print-only" aria-hidden="true">
+          <img src="assets/img/logo-silver.png" alt="" />
+        </div>
+
         <header class="article-header">
           <span class="eyebrow center" id="a-cat">The Journal</span>
           <h1 id="a-title">Loading…</h1>

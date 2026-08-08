@@ -1206,6 +1206,19 @@ body.journal-page {
   .print-link { font-size: 11pt; }
   .print-disclaimer { font-size: 8.5pt; color: #444; margin-top: 10pt; font-style: italic; }
 
+  /* Running logo: fixed bottom-right on every page */
+  .print-logo-running {
+    position: fixed;
+    bottom: 10mm;
+    right: 16mm;
+    width: auto;
+  }
+  .print-logo-running img {
+    height: 36px;
+    width: auto;
+    opacity: 0.75;
+  }
+
   /* Catch-phrase running footer, centered at the bottom of every page */
   .print-running-foot {
     position: fixed;
