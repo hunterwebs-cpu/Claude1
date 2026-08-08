@@ -303,6 +303,23 @@ He writes fast, on a monitored prison email system, with no ability to revise co
 - **When a phrase is unclear, ask him.** Do not guess at meaning and do not quietly drop the sentence. One question costs a minute; a wrong guess costs his credibility.
 - **Preserve his diction, fix his typing.** "Give a shit," "thrown to the wolves," "a shot" for an incident report — keep. Misspellings and dropped words — fix silently.
 
+### Handling Bilal's corrections
+
+**A correction updates your understanding. It is not copy.**
+
+When Bilal says "that's not right," the job is to go back and describe the thing correctly — not to write his correction into the draft. He is talking to the writer, not dictating a sentence.
+
+The clearest example: told that a housing unit was "not a sex offender unit," a draft printed *"That is not a sex offender unit, but it fills with them…"* The reader never thought it was a sex offender unit. Nobody asked. The article ended up rebutting a claim it had invented in order to rebut. What he actually meant was that the unit is designated for men at high risk of victimization — which in practice fills it with sex offenders, because they are the ones flagged as vulnerable. **That is a positive description, and it is what should have been written.**
+
+**Describe what a thing is. Do not describe what it isn't.**
+
+The one exception: negate when the *reader* genuinely arrives holding the false belief. "There is no Ombudsman" is a necessary negation, because families are told one exists. "This is not a sex offender unit" is not, because nobody said it was.
+
+**Two related traps in the same family:**
+
+- **Rejection is not reversal.** If Bilal cuts a claim, the answer is silence on the point, not the opposite claim.
+- **Do not write the correction's scaffolding.** Phrases like "contrary to what you might think," "it is not the case that," and "this is not X, but Y" are usually the writer's revision process leaking onto the page. Cut them and state the thing plainly.
+
 ### Writing about named living people
 
 Dispatches often turn on a real person facing real charges.
@@ -372,6 +389,7 @@ and is not legal advice.*
 - [ ] **The ALL CAPS warning, if present, states a verified fact** — and is absent entirely if no such fact exists
 - [ ] **No transcription artifacts from Bilal's raw text** rendered as prose
 - [ ] **Two different people are never merged into one**, in the title or the body
+- [ ] **No correction of Bilal's has been printed as prose** — things are described positively, not by what they are not
 - [ ] **Consequences for charged people stated conditionally** ("a conviction makes her…")
 - [ ] **Word count verified by script, not estimated** — run the counter and read the number
 
