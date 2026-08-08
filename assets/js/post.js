@@ -8,6 +8,35 @@
 
   var CONTENT_BASE = 'content/blog/';
 
+  /* Strip print/layout markers and unresolved editor notes */
+  function stripMarkers(md) {
+    return md
+      /* Whole-line print markers (logo, rule, headshot, etc.) */
+      .replace(/^\[LOGO:[^\]]*\]\s*$/gm, '')
+      .replace(/^\[ORANGE RULE LINE[^\]]*\]\s*$/gm, '')
+      .replace(/^\[HEADSHOT:[^\]]*\]\s*$/gm, '')
+      .replace(/^\[SIGNATURE IMAGE[^\]]*\]\s*$/gm, '')
+      .replace(/^\[TWO-BOOK FOOTER[^\]]*\]\s*$/gm, '')
+      .replace(/^\[PRINT:[^\]]*\]\s*$/gm, '')
+      /* Blockquote lines that are only a [VERIFY] note — strip the whole line */
+      .replace(/^>?\s*\[VERIFY:[^\]]*\]\s*$/gm, '')
+      /* Footnote definitions whose entire content is a [VERIFY] — strip line */
+      .replace(/^\[\^\d+\]:\s*\[VERIFY[^\]]*\]\s*$/gm, '')
+      /* Inline [VERIFY] and [VERIFY: ...] anywhere else */
+      .replace(/\[VERIFY:[^\]]*\]/g, '')
+      .replace(/\[VERIFY\]/g, '')
+      /* Inline fallbacks for any surviving instances */
+      .replace(/\[LOGO:[^\]]*\]/g, '')
+      .replace(/\[ORANGE RULE LINE[^\]]*\]/g, '')
+      .replace(/\[HEADSHOT:[^\]]*\]/g, '')
+      .replace(/\[SIGNATURE IMAGE[^\]]*\]/g, '')
+      .replace(/\[TWO-BOOK FOOTER\]/g, '')
+      /* Image filename markers like [2255_handbook_cover.png] */
+      .replace(/^\[[^\]]*\.(png|jpg|jpeg|webp|gif)\]\s*$/gim, '')
+      /* Collapse 3+ blank lines left by removed blocks to 2 */
+      .replace(/\n{4,}/g, '\n\n\n');
+  }
+
   function parseFrontmatter(raw) {
     var meta = {}, body = raw;
     var m = raw.match(/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/);
@@ -92,7 +121,10 @@
         byline.textContent = [meta.author, fmtDate(meta.date)].filter(Boolean).join('  ·  ');
       }
       if (prose) {
-        prose.innerHTML = (window.marked ? window.marked.parse(meta.body) : meta.body);
+        var bodyText = stripMarkers(meta.body);
+        prose.innerHTML = window.marked
+          ? window.marked.parse(bodyText)
+          : '<pre style="white-space:pre-wrap">' + bodyText + '</pre>';
       }
     })
     .catch(function () {

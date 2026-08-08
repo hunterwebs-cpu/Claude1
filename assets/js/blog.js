@@ -44,14 +44,26 @@
     });
   }
 
-  /* Strip print/layout markers left in Markdown source */
+  /* Strip print/layout markers and unresolved editor notes */
   function stripMarkers(md) {
     return md
+      .replace(/^\[LOGO:[^\]]*\]\s*$/gm, '')
+      .replace(/^\[ORANGE RULE LINE[^\]]*\]\s*$/gm, '')
+      .replace(/^\[HEADSHOT:[^\]]*\]\s*$/gm, '')
+      .replace(/^\[SIGNATURE IMAGE[^\]]*\]\s*$/gm, '')
+      .replace(/^\[TWO-BOOK FOOTER[^\]]*\]\s*$/gm, '')
+      .replace(/^\[PRINT:[^\]]*\]\s*$/gm, '')
+      .replace(/^>?\s*\[VERIFY:[^\]]*\]\s*$/gm, '')
+      .replace(/^\[\^\d+\]:\s*\[VERIFY[^\]]*\]\s*$/gm, '')
+      .replace(/\[VERIFY:[^\]]*\]/g, '')
+      .replace(/\[VERIFY\]/g, '')
       .replace(/\[LOGO:[^\]]*\]/g, '')
       .replace(/\[ORANGE RULE LINE[^\]]*\]/g, '')
       .replace(/\[HEADSHOT:[^\]]*\]/g, '')
       .replace(/\[SIGNATURE IMAGE[^\]]*\]/g, '')
-      .replace(/\[TWO-BOOK FOOTER\]/g, '');
+      .replace(/\[TWO-BOOK FOOTER\]/g, '')
+      .replace(/^\[[^\]]*\.(png|jpg|jpeg|webp|gif)\]\s*$/gim, '')
+      .replace(/\n{4,}/g, '\n\n\n');
   }
 
   /* Fetch slug list (PHP auto-index preferred, JSON fallback) */

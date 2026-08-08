@@ -91,6 +91,7 @@
 <?php require '_footer.php'; ?>
 
   <!-- Markdown renderer -->
-  <script src="assets/js/post.js?v=15" defer></script>
+  <script src="assets/js/marked.min.js"></script>
+  <script src="assets/js/post.js?v=16" defer></script>
 </body>
 </html>
