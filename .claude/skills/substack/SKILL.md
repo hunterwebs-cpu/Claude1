@@ -1,12 +1,16 @@
 ---
 name: substack
-description: Write and deliver a "Surviving the Feds: Dispatches from the Inside" Substack article for Bilal Khan's column on Doug Passon's Substack. Full 4-phase pipeline — topic discovery, deep research, targeted interview, write and deliver. Invoke with /substack.
+description: Write and deliver a "Surviving the Feds: Dispatches from the Inside" Substack article for Bilal Khan's column on Doug Passon's Substack. Starts from Bilal's own account of an event; research is optional and verification runs silently. Invoke with /substack.
 ---
 
 # Substack Dispatch Skill
 ## Surviving the Feds: Dispatches from the Inside
 
-This skill governs every article written for Bilal Khan's guest column on Doug Passon's Substack. Follow the phases in order. Do not skip research. Do not begin writing until the interview is complete. Do not deliver until the .docx is generated and verified.
+This skill governs every article written for Bilal Khan's guest column on Doug Passon's Substack.
+
+**The column exists to show readers what life inside a low-security federal prison is actually like** — through events that happened, with practical tips for getting settled. Bilal's account is the article. Research supports it; it does not drive it.
+
+Start with his story. Do not deliver until the word-count gate passes and the .docx is generated and verified.
 
 ---
 
