@@ -998,13 +998,32 @@ body.journal-page {
   border: 1px solid var(--border);
   border-left: 3px solid var(--accent);
   border-radius: var(--radius);
-  padding: 32px 36px;
+  padding: 0;
+  overflow: hidden;
   transition: border-color .25s var(--ease), transform .25s var(--ease);
   cursor: pointer;
 }
 .dispatch-card:hover {
   border-color: var(--accent);
   transform: translateY(-4px);
+}
+.dispatch-card-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+.dispatch-card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .4s var(--ease);
+}
+.dispatch-card:hover .dispatch-card-thumb img {
+  transform: scale(1.03);
+}
+.dispatch-card-body {
+  padding: 32px 36px;
 }
 
 .dispatch-card-header {

@@ -293,15 +293,20 @@
 
           <div class="dispatch-articles">
             <a class="dispatch-card" href="https://setforsentencing.substack.com/p/how-and-when-to-put-money-on-a-federal" target="_blank" rel="noopener">
-              <div class="dispatch-card-header">
-                <span class="dispatch-pub">Set for Sentencing</span>
-                <span class="dispatch-date">July 19, 2026</span>
+              <div class="dispatch-card-thumb">
+                <img src="assets/img/s4s-money-on-books.webp" alt="Money order on a post office counter — putting money on a federal inmate's books" loading="lazy" />
               </div>
-              <h3>How &amp; When to Put Money on a Federal Inmate's Books</h3>
-              <p>From day one at any BOP facility, families can deposit commissary funds — the same account follows the inmate through every transfer. What to do, how to do it, and what it actually means for the person inside.</p>
-              <span class="dispatch-read">Read on Substack
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-              </span>
+              <div class="dispatch-card-body">
+                <div class="dispatch-card-header">
+                  <span class="dispatch-pub">Set for Sentencing</span>
+                  <span class="dispatch-date">July 19, 2026</span>
+                </div>
+                <h3>How &amp; When to Put Money on a Federal Inmate's Books</h3>
+                <p>From day one at any BOP facility, families can deposit commissary funds — the same account follows the inmate through every transfer. What to do, how to do it, and what it actually means for the person inside.</p>
+                <span class="dispatch-read">Read on Substack
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </span>
+              </div>
             </a>
           </div>
 
