@@ -25,6 +25,11 @@ Each week the Routine researches what people are actively searching for and aski
 These are already in the pipeline and do not need to be researched:
 
 1. ✅ **Infrastructure — Fort Dix** — *Complete. Published.*
+1a. ✅ **First Day on the Yard** — *Complete. Submitted Aug 2026.*
+   `first-minutes-on-the-yard.md` — arrival, cars, staying in your lane, what to do first.
+1b. 📝 **The Fort Dix Officer / Consensual Sex in Prison** — *Drafted, not submitted.*
+   `fort-dix-officer-consensual-category.md` — 1,363 words. Bilal set it aside; a second
+   from-scratch draft exists at scratchpad/dispatch-fresh.md. Decide or drop.
 2. 🔜 **BOP Disability Accommodations Program Statement** — Teased in article #1
 3. 🔜 **The Retaliatory Transfer** — Bilal's full story; the TRO, settlement, return
 4. 🔜 **Administrative Remedies: Your Only Real Power** — BP-8 through BP-11
