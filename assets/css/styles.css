@@ -1250,6 +1250,16 @@ body.journal-page {
     width: auto;
     opacity: .8;
   }
+  /* Copyright + free-distribution permission, second row of the running footer */
+  .print-foot-legal {
+    grid-column: 1 / -1;
+    margin: 4pt auto 0;
+    max-width: 150mm;
+    text-align: center;
+    font-size: 6.8pt;
+    line-height: 1.35;
+    color: #555;
+  }
 }
 
 /* ============================================================================

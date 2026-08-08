@@ -23,6 +23,9 @@
               <span></span>
               <span class="print-foot-tag">Knowledge&nbsp;+&nbsp;Strength&nbsp;=&nbsp;Freedom&nbsp;&nbsp;·&nbsp;&nbsp;survivingthefeds.com</span>
               <img class="print-foot-logo" src="assets/img/logo-silver.png" alt="" />
+              <p class="print-foot-legal">
+                &copy; 2026 Surviving the Feds. You may print and share this document free of charge with anyone confined in any jail or prison. Charging money for it is not authorized.
+              </p>
             </div>
           </td></tr>
         </tfoot>
