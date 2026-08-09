@@ -3,42 +3,88 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Surviving the Feds — Knowledge + Strength = Freedom</title>
+  <title>Federal Sentencing Calculators &amp; Survival Guides — Surviving the Feds</title>
   <meta name="description" content="When the federal government comes for someone you love, knowledge is the first line of defense. Free guides, books, and real answers from someone who served 20 years in federal prison." />
   <meta name="theme-color" content="#0A0B0E" />
 
+  <link rel="canonical" href="https://survivingthefeds.com/" />
+
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://survivingthefeds.com/" />
+  <meta property="og:site_name" content="Surviving the Feds" />
+  <meta property="og:locale" content="en_US" />
   <meta property="og:title" content="Surviving the Feds — Knowledge + Strength = Freedom" />
   <meta property="og:description" content="Real answers about the federal system, from someone who lived it. Built for families. Free, because you deserve it." />
-  <meta property="og:image" content="https://survivingthefeds.com/assets/img/logo.png" />
+  <meta property="og:image" content="https://survivingthefeds.com/assets/img/og-home.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Surviving the Feds — Knowledge + Strength = Freedom" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Surviving the Feds — Knowledge + Strength = Freedom" />
+  <meta name="twitter:description" content="Real answers about the federal system, from someone who lived it. Built for families. Free, because you deserve it." />
+  <meta name="twitter:image" content="https://survivingthefeds.com/assets/img/og-home.jpg" />
 
   <!-- Structured data — helps AI search engines cite this site -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Surviving the Feds",
-    "url": "https://survivingthefeds.com",
-    "description": "Real-world knowledge about the federal criminal system, from someone who served 20 years in federal prison. Free guides, books, and resources for federal defendants and their families.",
-    "founder": { "@type": "Person", "name": "Bilal Khan" },
-    "sameAs": []
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://survivingthefeds.com/#website",
+        "url": "https://survivingthefeds.com/",
+        "name": "Surviving the Feds",
+        "inLanguage": "en-US",
+        "publisher": { "@id": "https://survivingthefeds.com/#org" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://survivingthefeds.com/#org",
+        "name": "Surviving the Feds",
+        "url": "https://survivingthefeds.com/",
+        "slogan": "Knowledge + Strength = Freedom",
+        "description": "Real-world knowledge about the federal criminal system, from someone who served 20 years in federal prison. Free guides, books, and resources for federal defendants and their families.",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://survivingthefeds.com/assets/img/logo-silver.png",
+          "width": 228,
+          "height": 228
+        },
+        "founder": { "@id": "https://survivingthefeds.com/#bilal" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://survivingthefeds.com/#bilal",
+        "name": "Bilal Khan",
+        "description": "Author and federal system educator who served 20 years in federal prison. Writes on pretrial procedure, sentencing, and post-conviction relief for defendants and their families.",
+        "knowsAbout": [
+          "Federal sentencing guidelines",
+          "28 U.S.C. § 2255 post-conviction relief",
+          "First Step Act time credits",
+          "Federal Bureau of Prisons designation",
+          "Federal pretrial detention"
+        ],
+        "sameAs": [
+          "https://setforsentencing.substack.com/"
+        ]
+      }
+    ]
   }
   </script>
-  <!-- First-time visitor routing: send new visitors to the Command Center -->
-  <script>
-    if (!localStorage.getItem('stf_visited')) {
-      localStorage.setItem('stf_visited', '1');
-      window.location.replace('start-here.php');
-    }
-  </script>
+
+  <!-- LCP hero image: preloaded so it isn't stuck behind the stylesheet parse -->
+  <link rel="preload" as="image" href="assets/img/hero-bg-1920.webp" fetchpriority="high" media="(min-width: 901px)" />
+  <link rel="preload" as="image" href="assets/img/hero-bg-1100.webp" fetchpriority="high" media="(max-width: 900px)" />
   <?php require '_head.php'; ?>
 </head>
 <body>
 
 <?php $stf_page = 'home'; require '_nav.php'; ?>
 
-  <main>
+  <main id="main" tabindex="-1">
 
     <!-- ========================================================= HERO -->
     <section class="hero hero--statement">
@@ -77,8 +123,9 @@
     </section>
 
     <!-- ======================================================= MARQUEE -->
-    <div class="marquee" aria-hidden="true">
-      <div class="marquee-track">
+    <div class="marquee">
+      <button class="marquee-pause" type="button" aria-label="Pause scrolling text">Pause</button>
+      <div class="marquee-track" aria-hidden="true">
         <span class="marquee-item">No judgment here</span>
         <span class="marquee-item">You found the right place</span>
         <span class="marquee-item">The truth from inside</span>
@@ -175,7 +222,8 @@
             <img
               src="assets/img/cred-infographic.webp"
               alt="Bilal Khan's case timeline: 4.5 years pretrial, $1.3M family spent, 80 years once facing — built this instead"
-              loading="lazy"
+              width="1200" height="672"
+              loading="lazy" decoding="async"
             />
           </div>
 
@@ -207,16 +255,16 @@
         <!-- Book 1: Surviving Pretrial -->
         <article class="book-feature" data-reveal>
           <div class="book-feature-visual">
-            <img class="bfv-scene" src="assets/img/book-scene-surviving-pretrial.webp" alt="" loading="lazy" aria-hidden="true" />
+            <img class="bfv-scene" src="assets/img/book-scene-surviving-pretrial.webp" alt="" width="760" height="424" loading="lazy" decoding="async" aria-hidden="true" />
             <a class="bfv-cover" href="books.php" aria-label="Surviving Pretrial — view details">
-              <img src="assets/img/cover-pretrial.jpg" alt="Surviving Pretrial book cover by Bilal Khan" loading="lazy" />
+              <img src="assets/img/cover-pretrial.jpg" alt="Surviving Pretrial book cover by Bilal Khan" width="330" height="514" loading="lazy" decoding="async" />
             </a>
           </div>
           <div class="book-feature-text">
             <h3>Surviving Pretrial</h3>
             <p>The map most families never get — arrest, detention, attorneys, and the decisions that define everything that follows. Written from inside the system, not a law library.</p>
             <blockquote class="book-feature-review">
-              <div class="bfr-stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <div class="bfr-stars" role="img" aria-label="Rated 5 out of 5 stars">★★★★★</div>
               <p class="bfr-title">Much Better Than Busted By the Feds</p>
               <p>"Surviving Pretrial is more detailed, more updated, and more usable against persecution in today's environment."</p>
               <cite>— Kevin Sr., Verified Purchase · Amazon</cite>
@@ -231,16 +279,16 @@
         <!-- Book 2: 2255 Motion Handbook -->
         <article class="book-feature book-feature--flip" data-reveal data-delay="1">
           <div class="book-feature-visual">
-            <img class="bfv-scene" src="assets/img/book-scene-2255-motion-handbook.webp" alt="" loading="lazy" aria-hidden="true" />
+            <img class="bfv-scene" src="assets/img/book-scene-2255-motion-handbook.webp" alt="" width="760" height="424" loading="lazy" decoding="async" aria-hidden="true" />
             <a class="bfv-cover" href="books.php" aria-label="The 2255 Motion Handbook — view details">
-              <img src="assets/img/cover-2255.jpg" alt="The 2255 Motion Handbook book cover by Bilal Khan" loading="lazy" />
+              <img src="assets/img/cover-2255.jpg" alt="The 2255 Motion Handbook book cover by Bilal Khan" width="330" height="508" loading="lazy" decoding="async" />
             </a>
           </div>
           <div class="book-feature-text">
             <h3>The 2255 Motion Handbook</h3>
             <p>Conviction is not the end of the fight. The first guide of its kind on 28 U.S.C. § 2255 — exact steps to file, argue, and fight for freedom after sentencing. Written so a non-lawyer can actually use it.</p>
             <blockquote class="book-feature-review">
-              <div class="bfr-stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <div class="bfr-stars" role="img" aria-label="Rated 5 out of 5 stars">★★★★★</div>
               <p>"It explains each step of the process, breaks down the forms, and includes full briefing for two cases that prevailed."</p>
               <cite>— Matthew Clem, Verified Purchase · Amazon</cite>
             </blockquote>
@@ -294,7 +342,7 @@
           <div class="dispatch-articles">
             <a class="dispatch-card" href="https://setforsentencing.substack.com/p/how-and-when-to-put-money-on-a-federal" target="_blank" rel="noopener">
               <div class="dispatch-card-thumb">
-                <img src="assets/img/s4s-money-on-books.webp" alt="Money order on a post office counter — putting money on a federal inmate's books" loading="lazy" />
+                <img src="assets/img/s4s-money-on-books.webp" alt="Money order on a post office counter — putting money on a federal inmate's books" width="1120" height="625" loading="lazy" decoding="async" />
               </div>
               <div class="dispatch-card-body">
                 <div class="dispatch-card-header">

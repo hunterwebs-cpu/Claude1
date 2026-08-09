@@ -9,15 +9,17 @@ function _stf_cur(string $page, string $current): string {
 }
 $_p = $stf_page ?? '';
 ?>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
   <!-- ========================================================= ANNOUNCEMENT -->
-  <div class="site-announce">This site is always being improved. <strong>Check back regularly</strong> for new tools, guides, and updates.</div>
+  <div class="site-announce"><span class="announce-long">This site is always being improved. <strong>Check back regularly</strong> for new tools, guides, and updates.</span><span class="announce-short">Updated regularly. <strong>Check back often.</strong></span></div>
 
   <!-- ============================================================ HEADER -->
   <header class="site-header">
     <div class="container">
       <nav class="nav" aria-label="Primary">
         <a class="brand" href="index.php" aria-label="Surviving the Feds home">
-          <img src="assets/img/logo-gold.png" alt="Surviving the Feds" />
+          <img src="assets/img/logo-gold.png" alt="Surviving the Feds" width="192" height="192" />
         </a>
         <div class="nav-links">
           <a class="nav-link" href="index.php"<?= _stf_cur($_p,'home') ?>>Home</a>
@@ -41,14 +43,14 @@ $_p = $stf_page ?? '';
 
   <!-- Full-screen overlay mega-menu -->
   <div class="nav-overlay" id="mega-menu">
-    <div class="overlay-menu">
+    <nav class="overlay-menu" aria-label="Site menu">
       <a href="index.php">Home</a>
       <a href="start-here.php">Command Center</a>
       <a href="calculators.php">Calculators</a>
       <a href="books.php">Books</a>
       <a href="blog.php">Journal</a>
       <a href="about.php">About</a>
-    </div>
+    </nav>
     <aside class="overlay-aside">
       <p class="eyebrow">Knowledge + Strength = Freedom</p>
       <p class="tagline-mini">We make sure the world has the information it needs to fight for its freedom.</p>

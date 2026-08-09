@@ -66,45 +66,47 @@
       .replace(/\n{4,}/g, '\n\n\n');
   }
 
-  /* Fetch slug list (PHP auto-index preferred, JSON fallback) */
-  function getSlugs() {
+  /* Legacy path: fetch every .md in full to read its frontmatter.
+     Only used when posts.php is unavailable and we fall back to posts.json. */
+  function loadPostsLegacy(slugs) {
+    return Promise.all(slugs.map(function (slug) {
+      return fetch(CONTENT_BASE + slug + '.md')
+        .then(function (r) { return r.ok ? r.text() : ''; })
+        .then(function (raw) {
+          if (!raw) return null;
+          var meta = parseFrontmatter(raw);
+          meta.slug = slug;
+          return meta;
+        })
+        .catch(function () { return null; });
+    })).then(function (posts) {
+      return posts
+        .filter(Boolean)
+        .sort(function (a, b) { return (b.date || '').localeCompare(a.date || ''); });
+    });
+  }
+
+  /* Load all posts. posts.php now returns frontmatter directly, so the common
+     case is ONE request (~3.7KB) instead of one per article (~112KB). */
+  function loadPosts() {
     return fetch(AUTO_INDEX)
       .then(function (r) {
         if (!r.ok) throw new Error('no php');
         return r.json();
       })
-      .then(function (slugs) {
-        if (Array.isArray(slugs) && slugs.length) return slugs;
-        throw new Error('empty');
+      .then(function (posts) {
+        if (!Array.isArray(posts) || !posts.length) throw new Error('empty');
+        /* Legacy shape: an array of slug strings rather than objects */
+        if (typeof posts[0] === 'string') return loadPostsLegacy(posts);
+        return posts;
       })
       .catch(function () {
-        return fetch(MANIFEST).then(function (r) {
-          if (!r.ok) throw new Error('manifest');
-          return r.json();
-        });
-      });
-  }
-
-  /* Load and parse all posts */
-  function loadPosts() {
-    return getSlugs()
-      .then(function (slugs) {
-        return Promise.all(slugs.map(function (slug) {
-          return fetch(CONTENT_BASE + slug + '.md')
-            .then(function (r) { return r.ok ? r.text() : ''; })
-            .then(function (raw) {
-              if (!raw) return null;
-              var meta = parseFrontmatter(raw);
-              meta.slug = slug;
-              return meta;
-            })
-            .catch(function () { return null; });
-        }));
-      })
-      .then(function (posts) {
-        return posts
-          .filter(Boolean)
-          .sort(function (a, b) { return (b.date || '').localeCompare(a.date || ''); });
+        return fetch(MANIFEST)
+          .then(function (r) {
+            if (!r.ok) throw new Error('manifest');
+            return r.json();
+          })
+          .then(loadPostsLegacy);
       });
   }
 
@@ -115,7 +117,7 @@
       ? '<img src="' + esc(post.cover) + '" alt="" loading="lazy" />'
       : '<span class="ph-mark" aria-hidden="true">§</span>';
     return '' +
-      '<a class="post-card" href="post.html?slug=' + encodeURIComponent(post.slug) + '">' +
+      '<a class="post-card" href="post.php?slug=' + encodeURIComponent(post.slug) + '">' +
         '<div class="post-thumb">' + thumb + '</div>' +
         '<div class="post-body">' +
           '<span class="post-cat">' + esc(post.category || 'Article') + '</span>' +

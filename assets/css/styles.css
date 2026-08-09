@@ -30,7 +30,8 @@
 }
 
 /* ---- Fonts -------------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+/* Requested via <link> in _head.php so the preload scanner finds them early.
+   Do NOT re-add @import here — it recreates a render-blocking serial chain. */
 
 /* ---- Design tokens ------------------------------------------------------ */
 :root {
@@ -76,8 +77,30 @@
   --z-top: 300;
 
   /* Hero photo slot — swap image here to update hero background */
-  --hero-photo: url('../img/hero-bg.webp');
+  --hero-photo: url('../img/hero-bg-1920.webp');
 }
+
+@media (max-width: 900px) {
+  :root { --hero-photo: url('../img/hero-bg-1100.webp'); }
+}
+
+/* ---- Skip link (WCAG 2.4.1) -------------------------------------------- */
+.skip-link {
+  position: absolute;
+  left: 8px; top: -60px;
+  z-index: calc(var(--z-top) + 1);
+  background: var(--accent);
+  color: #1A1000;
+  font-family: var(--font-label);
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border-radius: var(--radius-sm);
+  transition: top .18s var(--ease);
+}
+.skip-link:focus { top: 8px; }
 
 /* ---- Reset -------------------------------------------------------------- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -98,9 +121,17 @@ body {
   position: relative;
 }
 
-img, svg { max-width: 100%; display: block; }
+/* height:auto is required now that <img> carries width/height attributes —
+   without it the HTML height wins wherever CSS sets only the width. */
+img, svg { max-width: 100%; height: auto; display: block; }
 a { color: inherit; text-decoration: none; }
 button { font-family: inherit; cursor: pointer; }
+
+/* Focus ring — browser default is near-invisible on this dark palette */
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.btn--ghost:focus-visible, .btn--gold:focus-visible { outline-color: #873F00; }
+.overlay-menu a:focus-visible { outline-offset: 6px; }
+main:focus { outline: none; }
 ::selection { background: var(--accent); color: #fff; }
 
 /* Film-grain / noise overlay for cinematic depth */
@@ -184,18 +215,18 @@ h3 { font-size: clamp(1.3rem, 2.2vw, 1.7rem); }
 
 .btn--primary {
   background: var(--accent);
-  color: #fff;
+  color: #1A1000;                 /* was #fff = 2.33:1. Now 8.05:1 */
   box-shadow: 0 10px 36px -8px var(--accent-glow);
 }
 .btn--primary:hover { transform: translateY(-3px); box-shadow: 0 18px 48px -10px var(--accent-glow); }
 
 .btn--ghost {
   background: var(--gold);
-  color: var(--accent);
+  color: #873F00;                 /* was var(--accent) = 1.50:1. Now 4.92:1 */
   border-color: var(--gold);
   font-weight: 800;
 }
-.btn--ghost:hover { background: #dde3ea; border-color: #dde3ea; color: var(--accent); transform: translateY(-3px); }
+.btn--ghost:hover { background: #dde3ea; border-color: #dde3ea; color: #873F00; transform: translateY(-3px); }
 
 .btn--gold { background: var(--gold); color: #14181d; box-shadow: 0 10px 36px -8px rgba(201,208,216,.35); }
 .btn--gold:hover { transform: translateY(-3px); }
@@ -214,6 +245,14 @@ h3 { font-size: clamp(1.3rem, 2.2vw, 1.7rem); }
   z-index: calc(var(--z-nav) + 1);
 }
 .site-announce strong { color: #e8ad82; }
+/* The header is position:fixed over this bar, so the bar must stay one line —
+   when it wraps, the nav row lands on top of it. Short copy on narrow screens. */
+.announce-short { display: none; }
+@media (max-width: 760px) {
+  .site-announce { font-size: .72rem; padding: 8px 14px; }
+  .announce-long  { display: none; }
+  .announce-short { display: inline; }
+}
 
 /* ---- Header / Navigation ------------------------------------------------ */
 .site-header {
@@ -428,6 +467,7 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
 
 /* ---- Marquee ------------------------------------------------------------ */
 .marquee {
+  position: relative;
   overflow: hidden;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -440,7 +480,20 @@ body.menu-open .overlay-menu a:nth-child(4) { transition-delay: .33s; }
   width: max-content;
   animation: marquee 32s linear infinite;
 }
-.marquee:hover .marquee-track { animation-play-state: paused; }
+.marquee:hover .marquee-track,
+body.marquee-paused .marquee-track { animation-play-state: paused; }
+
+/* Pause control — 2.2.2 requires an in-page mechanism, not hover-only */
+.marquee-pause {
+  position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+  z-index: 2;
+  background: var(--surface); color: var(--text-soft);
+  border: 1px solid var(--border-2); border-radius: 50px;
+  font-family: var(--font-label); font-size: .68rem; letter-spacing: .1em;
+  text-transform: uppercase; padding: 6px 14px;
+  transition: color .2s var(--ease), border-color .2s var(--ease);
+}
+.marquee-pause:hover { color: var(--text); border-color: var(--muted); }
 .marquee-item {
   font-family: var(--font-display);
   font-style: italic;
@@ -1086,7 +1139,7 @@ body.journal-page {
 
 /* Logo metallic sheen */
 .footer-logo { position: relative; display: inline-block; overflow: hidden; margin-bottom: 20px; }
-.footer-logo img { height: 76px; display: block; }
+.footer-logo img { height: 76px; width: auto; display: block; }
 .footer-logo::after {
   content: '';
   position: absolute;
@@ -1132,9 +1185,18 @@ body.journal-page {
 .footer-bottom a { color: var(--faint); }
 .footer-bottom a:hover { color: var(--muted); }
 
+body.menu-open { overflow: hidden; }
+
 /* ---- Scroll reveal ------------------------------------------------------ */
-[data-reveal] { opacity: 0; transform: translateY(28px); transition: opacity .7s var(--ease-out), transform .7s var(--ease-out); }
-[data-reveal].in { opacity: 1; transform: none; }
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity .7s var(--ease-out), transform .7s var(--ease-out);
+  /* Failsafe: if main.js never runs, reveal anyway rather than leave the page blank */
+  animation: reveal-failsafe .01s linear 4s forwards;
+}
+[data-reveal].in { opacity: 1; transform: none; animation: none; }
+@keyframes reveal-failsafe { to { opacity: 1; transform: none; } }
 [data-reveal][data-delay="1"] { transition-delay: .08s; }
 [data-reveal][data-delay="2"] { transition-delay: .16s; }
 [data-reveal][data-delay="3"] { transition-delay: .24s; }
@@ -1148,12 +1210,28 @@ body.journal-page {
   .nav-overlay { grid-template-columns: 1fr; }
   .overlay-aside { display: none; }
 }
+@media (max-width: 359px) { .nav-cta .btn { display: none; } }
+
 @media (max-width: 760px) {
-  .nav-links, .nav-cta .btn { display: none; }
+  .nav-links { display: none; }
+  .nav-cta { gap: 14px; }
+  .nav-cta .btn { padding: 11px 16px; font-size: .74rem; }
   .nav-toggle { display: block; }
   .grid-3, .grid-2, .post-grid, .stats { grid-template-columns: 1fr; }
   .stats { gap: 16px; }
   .hero { padding-top: 120px; }
+  /* Footer kept 4 rigid columns and overflowed the viewport */
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px 24px; }
+  /* Button rows must wrap instead of pushing past the right edge */
+  .center, .hero-actions { flex-wrap: wrap; }
+  .btn { max-width: 100%; }
+}
+@media (max-width: 420px) {
+  /* white-space:nowrap forces long CTA labels past the viewport on small phones */
+  .btn { white-space: normal; text-align: center; padding: 14px 22px; font-size: .85rem; }
+}
+@media (max-width: 480px) {
+  .footer-grid { grid-template-columns: 1fr; gap: 30px; }
 }
 
 /* ---- Print / Save-as-PDF utilities ------------------------------------- */
@@ -1783,9 +1861,9 @@ body.journal-page {
 }
 
 /* ---- Homepage journal grid: 4 columns ---------------------------------- */
-#home-posts { grid-template-columns: repeat(4, 1fr); }
-@media (max-width: 980px) { #home-posts { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 760px) { #home-posts { grid-template-columns: 1fr; } }
+#home-posts { grid-template-columns: repeat(4, 1fr); min-height: 420px; }
+@media (max-width: 980px) { #home-posts { grid-template-columns: repeat(2, 1fr); min-height: 860px; } }
+@media (max-width: 760px) { #home-posts { grid-template-columns: 1fr; min-height: 1680px; } }
 
 /* ---- Rules (Start Here page) ------------------------------------------- */
 .rule { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 36px 34px; }
@@ -1993,8 +2071,11 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 .hsl-bright {
   color: var(--accent);
   font-style: italic;
-  opacity: 0; /* JS sets to 1 before splitting chars */
+  opacity: 0; /* JS sets inline opacity:1 before splitting chars */
+  /* Failsafe: if the typewriter never runs, show the line rather than hide half the H1 */
+  animation: hero-line-failsafe .01s linear 2.6s forwards;
 }
+@keyframes hero-line-failsafe { to { opacity: 1; } }
 
 /* "survive" — left-to-right shimmer, starts after the word is typed in */
 .word-survive {
@@ -2198,7 +2279,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 
 .route-arrow {
   width: 22px; height: 22px;
-  color: var(--border-2);
+  color: #5A6472;                 /* was var(--border-2) = 1.71:1. Now 3.17:1 */
   flex-shrink: 0;
   transition: color .22s, transform .3s var(--ease);
 }
@@ -2381,7 +2462,7 @@ body.theme-light .lead.deck { color: var(--text-soft); }
 .cred-text p {
   font-size: clamp(1rem, 1.6vw, 1.1rem);
   line-height: 1.75;
-  color: var(--text-muted);
+  color: var(--text-soft);
   margin: 0;
 }
 

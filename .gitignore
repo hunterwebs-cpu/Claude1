@@ -12,3 +12,4 @@ node_modules/
 # Python bytecache
 __pycache__/
 *.pyc
+_src/

@@ -6,6 +6,13 @@
 (function () {
   'use strict';
 
+  /* NodeList.forEach is missing on older Android/Safari. Without this shim the
+     first .forEach() below throws, the whole IIFE aborts, and every
+     [data-reveal] section stays hidden — i.e. a blank page below the hero. */
+  if (window.NodeList && !NodeList.prototype.forEach) {
+    NodeList.prototype.forEach = Array.prototype.forEach;
+  }
+
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   /* ---- Sticky header state --------------------------------------------- */
@@ -18,26 +25,78 @@
   onScroll();
 
   /* ---- Full-screen overlay menu ---------------------------------------- */
-  var toggle = document.querySelector('.nav-toggle');
+  var toggle  = document.querySelector('.nav-toggle');
   var overlay = document.querySelector('.nav-overlay');
-  function closeMenu() {
+  var mainEl  = document.querySelector('main');
+  var footEl  = document.querySelector('.site-footer');
+
+  /* Make the page behind the overlay unreachable by tab and screen readers */
+  function setInert(on) {
+    [mainEl, footEl].forEach(function (el) {
+      if (!el) return;
+      if (on) { el.setAttribute('inert', ''); } else { el.removeAttribute('inert'); }
+    });
+  }
+
+  function openMenu() {
+    document.body.classList.add('menu-open');
+    if (toggle) toggle.setAttribute('aria-expanded', 'true');
+    setInert(true);
+    /* The overlay animates from visibility:hidden; focus() is a no-op until it
+       is actually visible, so wait for the transition before moving focus. */
+    var first = overlay && overlay.querySelector('a');
+    if (!first) return;
+    var done = false;
+    function grab() {
+      if (done) return;
+      done = true;
+      first.focus();
+    }
+    overlay.addEventListener('transitionend', grab, { once: true });
+    setTimeout(grab, 450); /* fallback if transitionend never fires */
+  }
+
+  function closeMenu(returnFocus) {
+    if (!document.body.classList.contains('menu-open')) return;
     document.body.classList.remove('menu-open');
     if (toggle) toggle.setAttribute('aria-expanded', 'false');
+    setInert(false);
+    if (returnFocus && toggle) toggle.focus();
   }
+
   if (toggle) {
     toggle.addEventListener('click', function () {
-      var open = document.body.classList.toggle('menu-open');
-      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (document.body.classList.contains('menu-open')) { closeMenu(true); }
+      else { openMenu(); }
     });
   }
   if (overlay) {
     overlay.querySelectorAll('a').forEach(function (a) {
-      a.addEventListener('click', closeMenu);
+      a.addEventListener('click', function () { closeMenu(false); });
+    });
+    /* Trap Tab inside the overlay while it is open */
+    overlay.addEventListener('keydown', function (e) {
+      if (e.key !== 'Tab') return;
+      var items = overlay.querySelectorAll('a');
+      if (!items.length) return;
+      var first = items[0], last = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
     });
   }
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') closeMenu();
+    if (e.key === 'Escape') closeMenu(true);
   });
+
+  /* ---- Marquee pause control (WCAG 2.2.2) ------------------------------- */
+  var mqBtn = document.querySelector('.marquee-pause');
+  if (mqBtn) {
+    mqBtn.addEventListener('click', function () {
+      var paused = document.body.classList.toggle('marquee-paused');
+      mqBtn.textContent = paused ? 'Play' : 'Pause';
+      mqBtn.setAttribute('aria-label', paused ? 'Resume scrolling text' : 'Pause scrolling text');
+    });
+  }
 
   /* ---- Scroll reveal --------------------------------------------------- */
   var revealEls = document.querySelectorAll('[data-reveal]');

@@ -5,7 +5,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="footer-logo">
-            <img src="assets/img/logo-silver.png" alt="Surviving the Feds" />
+            <img src="assets/img/logo-silver.png" alt="Surviving the Feds" width="228" height="228" />
           </div>
           <p class="footer-catchphrase">Knowledge + Strength = Freedom</p>
           <p>Real answers about the federal system, from someone who lived it.</p>
@@ -19,14 +19,15 @@
           <a href="books.php">Books</a>
           <a href="blog.php">The Journal</a>
           <a href="is-my-lawyer-any-good.php">Is My Lawyer Any Good?</a>
+          <a href="glossary.php">Federal Terms Glossary</a>
         </div>
         <div class="footer-col">
           <h4>Calculators</h4>
-          <a href="start-here.php#guideline">Guideline Range</a>
-          <a href="start-here.php#stats">Sentencing Statistics</a>
-          <a href="start-here.php#fsa">FSA Time Credits</a>
-          <a href="start-here.php#bop">BOP Security Level</a>
-          <a href="start-here.php#refsheets">Reference Sheets</a>
+          <a href="calculators.php#tool-guideline">Guideline Range</a>
+          <a href="calculators.php#tool-stats">Sentencing Statistics</a>
+          <a href="calculators.php#tool-fsa">FSA Time Credits</a>
+          <a href="calculators.php#tool-bop">BOP Security Level</a>
+          <a href="calculators.php#tool-refsheets">Reference Sheets</a>
         </div>
         <div class="footer-col">
           <h4>Books</h4>
