@@ -206,7 +206,6 @@
             Build a Custom Defense Report
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
-          <a class="btn btn--ghost" href="calculators.php">All five free tools</a>
         </div>
 
       </div>
@@ -314,7 +313,7 @@
       <div class="container">
         <div class="sec-head split-head" data-reveal>
           <div class="sh-head">
-            <span class="eyebrow eyebrow--clean">The Journal</span>
+            <span class="eyebrow eyebrow--clean">Journal</span>
             <h2>Straight answers to the questions keeping you up at night.</h2>
           </div>
           <p class="lead">Free guides and articles on federal procedure, defense strategy, and surviving the process — written in plain language. Every article is printable to mail inside.</p>

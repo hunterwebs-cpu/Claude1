@@ -105,6 +105,7 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
           <a class="btn btn--ghost" href="blog.php">Read the Journal</a>
+          <a class="btn btn--ghost" href="calculators.php">Free Calculators</a>
         </div>
       </div>
     </section>
