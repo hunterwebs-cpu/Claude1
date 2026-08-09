@@ -17,9 +17,12 @@
 
   /* ---- Sticky header state --------------------------------------------- */
   var header = document.querySelector('.site-header');
+  var announce = document.querySelector('.site-announce');
   function onScroll() {
     if (!header) return;
-    header.classList.toggle('scrolled', window.scrollY > 40);
+    /* Snap the header to the top exactly as the announcement bar scrolls away */
+    var threshold = announce ? announce.offsetHeight - 6 : 40;
+    header.classList.toggle('scrolled', window.scrollY > threshold);
   }
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();

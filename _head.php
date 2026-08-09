@@ -8,7 +8,10 @@
 
   <link rel="stylesheet" href="assets/css/styles.css?v=<?= filemtime(__DIR__ . '/assets/css/styles.css') ?>" />
 
-  <link rel="icon" href="assets/img/favicon-48.png" sizes="48x48" />
+  <!-- Tab icon — gold SF shield -->
+  <link rel="icon" href="assets/img/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="assets/img/favicon-32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="assets/img/favicon-48.png" sizes="48x48" />
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon-180.png" />
 
   <!-- Google Analytics — last, so it never competes with CSS for bandwidth -->

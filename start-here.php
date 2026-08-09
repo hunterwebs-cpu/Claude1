@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Command Center — Surviving the Feds</title>
   <meta name="description" content="You landed in the right place. This is where people in the first hours, days, and weeks of a federal criminal case get real answers — free, no judgment, no money required." />
-  <meta name="theme-color" content="#0C0F15" />
+  <meta name="theme-color" content="#0A0B0E" />
   <meta property="og:title" content="Start Here — Surviving the Feds" />
   <meta property="og:description" content="Pick your situation. Get the answers nobody else is giving you — free, no money, no judgment." />
   <meta property="og:image" content="https://survivingthefeds.com/assets/img/logo.png" />
