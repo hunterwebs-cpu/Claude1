@@ -3,7 +3,7 @@
 *Whether you get in depends on who's working the door.*
 
 By Bilal Khan
-*Surviving the Feds: Dispatches from the Inside*
+*Intel From The Inside — A Surviving the Feds Exclusive*
 
 ---
 

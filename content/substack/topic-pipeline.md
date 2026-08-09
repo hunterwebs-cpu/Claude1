@@ -1,5 +1,5 @@
 # Substack Topic Pipeline
-## Surviving the Feds: Dispatches from the Inside
+## Intel From The Inside — A Surviving the Feds Exclusive
 
 *This file is updated automatically each week by the Substack Topic Discovery Routine.*
 *Last run: [date will be updated automatically]*

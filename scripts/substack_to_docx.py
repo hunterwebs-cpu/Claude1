@@ -121,7 +121,7 @@ def build_header(doc, title, subtitle, graphic):
     byline = doc.add_paragraph()
     byline.add_run("By Bilal Khan")
     column = doc.add_paragraph()
-    column.add_run("Surviving the Feds: Dispatches from the Inside").italic = True
+    column.add_run("Intel From The Inside — A Surviving the Feds Exclusive").italic = True
 
     horizontal_rule(doc)
 

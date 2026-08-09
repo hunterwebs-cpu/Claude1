@@ -3,7 +3,7 @@
 *Fourteen years in. What to do when the door opens.*
 
 By Bilal Khan
-*Surviving the Feds: Dispatches from the Inside*
+*Intel From The Inside — A Surviving the Feds Exclusive*
 
 ---
 

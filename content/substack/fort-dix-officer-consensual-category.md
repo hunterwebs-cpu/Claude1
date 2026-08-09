@@ -3,7 +3,7 @@
 *Fourteen years inside. What the law calls impossible happens daily.*
 
 By Bilal Khan
-*Surviving the Feds: Dispatches from the Inside*
+*Intel From The Inside — A Surviving the Feds Exclusive*
 
 ---
 

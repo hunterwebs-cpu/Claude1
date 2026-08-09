@@ -14,7 +14,7 @@ import re
 import sys
 from pathlib import Path
 
-COLUMN_TAG = "*Surviving the Feds: Dispatches from the Inside*"
+COLUMN_TAG = "*Intel From The Inside — A Surviving the Feds Exclusive*"
 SIGN_OFF = "Be Well, Stay Safe, and Survive the Feds,"
 
 

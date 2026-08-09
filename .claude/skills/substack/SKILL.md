@@ -1,10 +1,10 @@
 ---
 name: substack
-description: Write and deliver a "Surviving the Feds: Dispatches from the Inside" Substack article for Bilal Khan's column on Doug Passon's Substack. Starts from Bilal's own account of an event; research is optional and verification runs silently. Invoke with /substack.
+description: Write and deliver a "Intel From The Inside — A Surviving the Feds Exclusive" Substack article for Bilal Khan's column on Doug Passon's Substack. Starts from Bilal's own account of an event; research is optional and verification runs silently. Invoke with /substack.
 ---
 
 # Substack Dispatch Skill
-## Surviving the Feds: Dispatches from the Inside
+## Intel From The Inside — A Surviving the Feds Exclusive
 
 This skill governs every article written for Bilal Khan's guest column on Doug Passon's Substack.
 
@@ -65,7 +65,7 @@ PHASE 4: Write & Deliver    → write from his account, one redline, .docx, deli
 
 **Spawn a general-purpose research subagent** with this brief:
 
-> Research what people are actively searching for and asking about in the federal prison and federal criminal justice space. This is for a Substack column called "Surviving the Feds: Dispatches from the Inside" — first-person dispatches by a federal prison veteran currently incarcerated at FCI Fort Dix, writing for families of federal defendants and people navigating the federal system.
+> Research what people are actively searching for and asking about in the federal prison and federal criminal justice space. This is for a Substack column called "Intel From The Inside — A Surviving the Feds Exclusive" — first-person dispatches by a federal prison veteran currently incarcerated at FCI Fort Dix, writing for families of federal defendants and people navigating the federal system.
 >
 > Search across:
 > - Reddit (r/legaladvice, r/federal, r/WhiteCollarCrime, r/Prison, r/AskLawyers) — what questions are families and defendants actually asking?
@@ -195,7 +195,7 @@ These apply regardless of topic:
 ### Column Identity
 
 **Publication:** Doug Passon's Substack (guest column)
-**Column name:** Surviving the Feds: Dispatches from the Inside
+**Column name:** Intel From The Inside — A Surviving the Feds Exclusive
 **Author:** Bilal Khan
 **Voice:** First-person, written FROM inside FCI Fort Dix
 **Audience:** Family members of federal defendants, people navigating or anticipating the federal system, engaged citizens following criminal justice issues
@@ -352,7 +352,7 @@ Dispatches often turn on a real person facing real charges.
 [SUBTITLE — 6–10 words, adds urgency the title couldn't carry]
 
 By Bilal Khan
-*Surviving the Feds: Dispatches from the Inside*
+*Intel From The Inside — A Surviving the Feds Exclusive*
 
 ---
 

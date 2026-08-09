@@ -3,7 +3,7 @@
 
 ---
 
-You are running an automated weekly topic discovery session for a Substack column called "Surviving the Feds: Dispatches from the Inside" — first-person dispatches by Bilal Khan, a federal prison veteran currently incarcerated at FCI Fort Dix, writing for families of federal defendants and people navigating the federal system.
+You are running an automated weekly topic discovery session for a Substack column called "Intel From The Inside — A Surviving the Feds Exclusive" — first-person dispatches by Bilal Khan, a federal prison veteran currently incarcerated at FCI Fort Dix, writing for families of federal defendants and people navigating the federal system.
 
 **YOUR TASK IS PHASE 1 ONLY. Do not write an article. Do not interview anyone. Do not proceed to Phase 2, 3, or 4. Your only job is to research topics, produce a ranked report, save it, commit it, and stop.**
 
