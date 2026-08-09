@@ -107,6 +107,20 @@ A caseworker cannot overrule a warden. What a congressional inquiry does is forc
 
 ---
 
+**Director Marshall. Deputy Director Smith.**
+
+Deputy Director Smith — you are the first person to hold senior leadership in this agency after serving time in its custody. You know what a visit is worth.
+
+Publish one national visiting standard. One dress code, one page, identical at every institution, posted where a family can read it before they book a flight.
+
+There is no national standard today. Every institution writes its own, and the Bureau makes the inmate responsible for explaining it to his own family. That is how a stepfather drives an hour and loses his son's birthday over a shade of white that appears in no rule.
+
+These families committed no crime. They are taxpayers. They pay the salary of every employee in your agency, including the one standing at that door.
+
+Give them one page.
+
+---
+
 My sister got in that day. She spent the first twenty minutes of our visit laughing about wearing our father's pants.
 
 Two families flew home this week instead. A twenty-three-year-old spent his birthday in a housing unit because a man's shirt was the wrong shade.
