@@ -63,7 +63,7 @@ Now hold that against what Fort Dix actually publishes. The rule bans clothing t
 
 A combination. Not a white shirt.
 
-I have always believed the dress code was a national standard. It isn't. There is no national visitor dress code — every institution writes its own, and the Bureau puts the burden on the inmate to tell his own family what it says. I have been in here fourteen years, I litigate from my cell, and I had that wrong.
+I have always believed the dress code was a national standard. It isn't. There is no national visitor dress code — every institution writes its own, and the Bureau puts the burden on the inmate to tell his own family what it says. I have been in the Bureau of Prisons since 2016, I litigate from my room, and I had that wrong.
 
 If I had it wrong, what chance does a stepfather from Philadelphia have?
 

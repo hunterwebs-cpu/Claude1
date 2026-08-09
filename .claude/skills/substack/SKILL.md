@@ -49,7 +49,7 @@ PHASE 4: Write & Deliver    → write from his account, one redline, .docx, deli
 
 **Do NOT open with a research phase.** An earlier version of this skill researched first and then interviewed Bilal about the findings. The result was a legal argument with his story bolted on, and it cost six rounds of him stripping out citations, severity tables, and procedural posture he had never asked for. If a draft reads like a law review article with anecdotes, the pipeline ran backwards.
 
-**Deep research is CONDITIONAL.** Run it only when Bilal says he does not know a subject well, or when the piece turns on a rule he has not worked with. He has fourteen years inside and litigates from his cell — on most topics he is the better source, and research merely catches up to him. Ask before spending a phase on it.
+**Deep research is CONDITIONAL.** Run it only when Bilal says he does not know a subject well, or when the piece turns on a rule he has not worked with. He has been incarcerated since 2012 and litigates from his room — on most topics he is the better source, and research merely catches up to him. Ask before spending a phase on it.
 
 **If the article takes more than one redline from Bilal, the process failed, not the draft.** He should talk once and correct once. Anything more means the writing started from the wrong material.
 
@@ -249,6 +249,8 @@ Full spec in `docs/VOICE.md`. Dispatch adaptations:
 Do not invent or extrapolate beyond these facts.
 
 - Incarcerated May 9, 2012 — present. FCI Fort Dix. Projected release July 2028.
+- **Two different clocks — do not conflate them.** He has been *incarcerated* since 2012, but the first four and a half years were county jails. He has been *in the Bureau of Prisons* since 2016. Any claim about BOP policy, culture, or practice rests on the shorter clock. Write "since 2012" for incarceration and "since 2016" for the BOP, and never attach "fourteen years" to a statement about the Bureau.
+- **He does not live in a cell.** Fort Dix is low security; men live in rooms. "From my cell" is wrong and it is the kind of wrong that tells a reader the writer has never been inside. Watch for the same reflex elsewhere — default prison imagery (bars, cellmates, chow-hall trays, guard towers) does not describe a low, and this column exists precisely to correct that picture.
 - United States Marine Corps veteran.
 - Facilities in order: Doña Ana County (Las Cruces, NM) → Torrance County/CoreCivic (Estancia, NM) → Otero County (days) → FTC Oklahoma City → FDC Philadelphia → FCI Fort Dix (Aug 2016) → Lower Buckeye Jail/Maricopa County (Dec 2016–Jun 2017, Arpaio's jails, state IAD writ) → FCI Fort Dix (Jun 2017–May 2025) → FCI Big Spring TX → USP Lewisburg + FTC Oklahoma City (transit, twice) → FCI Fort Dix (Oct 2025–present).
 - *Khan v. Barela* — 10th Circuit; pretrial detention rights; settled.
