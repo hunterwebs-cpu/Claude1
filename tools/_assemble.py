@@ -23,8 +23,15 @@ DISCLAIMER = ("Reference data transcribed from the United States Sentencing "
               "must not be relied on to make a decision about a case. Talk to a "
               "lawyer.")
 
+# Must match language about the defendant's RECORD, never about the offense of
+# conviction. A bare "convicted of" matches "the defendant is convicted of
+# 18 U.S.C. § 2252(a)(4)" — which identifies the instant offense, not a prior —
+# and wrongly flagged §2G2.2, §2B1.1, §2D1.1, §2A6.1 and §2H4.1 as depending on
+# criminal record. §2G2.2's base offense level turns on possession versus
+# distribution/receipt; §2B1.1's turns on the statutory maximum.
 PRIOR_RECORD_RE = re.compile(
-    r"felony convictions?|prior conviction|convicted of|criminal history|"
+    r"prior convictions?|previously (?:been )?convicted|"
+    r"felony convictions?|criminal history|"
     r"sustaining (?:at least )?(?:one|two)", re.I)
 OTHER_GUIDELINE_RE = re.compile(r"§2[A-Z]\d+\.\d+")
 

@@ -2068,7 +2068,6 @@
     "base_offense_level_computable_from_this_file": true,
     "handoff_to_attorney": true,
     "handoff_reasons": [
-     "The base offense level depends on prior convictions, which requires legal judgement about what those convictions count as.",
      "A cross reference can move the case to a different guideline entirely, which can change the level substantially."
     ],
     "references_other_guidelines": []
@@ -2624,7 +2623,6 @@
     "base_offense_level_computable_from_this_file": true,
     "handoff_to_attorney": true,
     "handoff_reasons": [
-     "The base offense level depends on prior convictions, which requires legal judgement about what those convictions count as.",
      "A cross reference can move the case to a different guideline entirely, which can change the level substantially."
     ],
     "references_other_guidelines": []
@@ -4769,7 +4767,6 @@
     "handoff_to_attorney": true,
     "handoff_reasons": [
      "At least one base offense level is derived from another guideline or from a table, not printed as a number.",
-     "The base offense level depends on prior convictions, which requires legal judgement about what those convictions count as.",
      "Several base offense levels compete and the manual directs applying the greatest.",
      "A cross reference can move the case to a different guideline entirely, which can change the level substantially."
     ],
@@ -6964,7 +6961,6 @@
     "base_offense_level_computable_from_this_file": true,
     "handoff_to_attorney": true,
     "handoff_reasons": [
-     "The base offense level depends on prior convictions, which requires legal judgement about what those convictions count as.",
      "A cross reference can move the case to a different guideline entirely, which can change the level substantially."
     ],
     "references_other_guidelines": []
@@ -7763,7 +7759,6 @@
     "base_offense_level_computable_from_this_file": true,
     "handoff_to_attorney": true,
     "handoff_reasons": [
-     "The base offense level depends on prior convictions, which requires legal judgement about what those convictions count as.",
      "These specific offense characteristics do not reduce to a fixed adjustment: (b)(4)."
     ],
     "references_other_guidelines": []
