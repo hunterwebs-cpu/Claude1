@@ -68,6 +68,7 @@
           "Federal pretrial detention"
         ],
         "sameAs": [
+          "https://www.amazon.com/stores/author/B0BT42HHBS",
           "https://setforsentencing.substack.com/"
         ]
       }
