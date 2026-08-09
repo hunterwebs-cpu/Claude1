@@ -43,7 +43,7 @@ So the failure today was not the computer. There are two documented fallbacks an
 
 You would figure the public-facing part of the Bureau of Prisons would be flawless. This is the one place where taxpaying citizens who have committed no crime walk in and see the agency up close.
 
-It's like a shitty parent when CPS shows up. Put on a show, at least. The Bureau never got that memo.
+Even a shitty parent cleans the house before the caseworker arrives. The Bureau doesn't bother.
 
 ---
 
