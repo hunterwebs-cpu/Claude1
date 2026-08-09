@@ -305,6 +305,18 @@ He writes fast, on a monitored prison email system, with no ability to revise co
 - **When a phrase is unclear, ask him.** Do not guess at meaning and do not quietly drop the sentence. One question costs a minute; a wrong guess costs his credibility.
 - **Preserve his diction, fix his typing.** "Give a shit," "thrown to the wolves," "a shot" for an incident report — keep. Misspellings and dropped words — fix silently.
 
+### On paper vs. in operation
+
+**A statute that creates something is not evidence the thing exists.** Research agents reliably conflate the two, because the sources they find are press releases and explainers written at the moment of passage, describing what a law *will* do in the present tense.
+
+The live example: a verification pass reported that the Federal Prison Oversight Act "created a DOJ Ombudsman with a hotline and online complaint form explicitly open to family members," and recommended it as the best channel for a family. Bilal said flatly that there is no Ombudsman. **Bilal was right.** The Act conditions its own effective date on appropriations that Congress has not made; what passed in July 2025 was committee language *directing* implementation, not money. USAGov's own page on complaining about a federal prison lists three channels and none of them is an ombudsman.
+
+**Before putting any remedy in an actionable section, confirm it operates.** Not that it was authorized — that a family can use it today. Look for the thing itself: a phone number, a named official, an office in the agency's own contact directory, a form. A press release from the signing ceremony proves nothing.
+
+**When Bilal contradicts a research finding about whether something works, he is the better source and the default is to believe him.** He lives in the system the finding describes. Verify to settle it, but start from his answer, not the document's.
+
+This gap is the column's subject matter. Laws that exist without existing, rights with no mechanism, forms nobody processes — a dispatch that reports the paper version as reality has written the opposite of the piece.
+
 ### Handling Bilal's corrections
 
 **A correction updates your understanding. It is not copy.**
@@ -388,6 +400,7 @@ and is not legal advice.*
 
 - [ ] **Every factual sentence traces to Bilal or to a verified source.** Walk the draft line by line and name the source for each claim out loud. Any sentence you cannot source gets cut, not hedged.
 - [ ] **No invented institutional practice** — nothing about what BOP "always," "never," or "typically" does that Bilal did not say
+- [ ] **Every remedy in the actionable section actually operates today** — a number, a form, a named office. Authorized is not the same as existing.
 - [ ] **The ALL CAPS warning, if present, states a verified fact** — and is absent entirely if no such fact exists
 - [ ] **No transcription artifacts from Bilal's raw text** rendered as prose
 - [ ] **Two different people are never merged into one**, in the title or the body
