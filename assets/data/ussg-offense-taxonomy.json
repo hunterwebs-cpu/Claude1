@@ -1,0 +1,4378 @@
+{
+ "manual_edition": "November 1, 2024",
+ "source": "United States Sentencing Commission, Guidelines Manual, effective November 1, 2024",
+ "source_document": "USSC Guidelines Manual (November 1, 2024), 620pp PDF",
+ "generated_by": "tools/ in this repository; see tools/_verify.py for the verification that accompanies each build",
+ "disclaimer": "Reference data transcribed from the United States Sentencing Guidelines Manual. It is not legal advice, it does not account for Chapter Three or Chapter Four adjustments, criminal history, statutory mandatory minimums, or departures and variances, and it must not be relied on to make a decision about a case. Talk to a lawyer.",
+ "part": "Plain-English offense taxonomy for the calculator's two dropdowns",
+ "authorship": "Crime type and offense term labels and descriptions are written for a lay reader. Every statute-to-guideline mapping is copied from Appendix A.",
+ "counts": {
+  "crime_types": 19,
+  "offense_terms": 93,
+  "terms_with_multiple_guidelines": 35
+ },
+ "unresolved": [],
+ "crime_types": [
+  {
+   "id": "drugs",
+   "label": "Drug offenses",
+   "description": "Selling, moving, making, or holding controlled substances.",
+   "chapter2_parts": [
+    "D"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING DRUGS AND NARCO -TERRORISM"
+   ],
+   "guidelines": [
+    "2D1.1",
+    "2D1.10",
+    "2D1.11",
+    "2D1.12",
+    "2D1.13",
+    "2D1.14",
+    "2D1.2",
+    "2D1.3",
+    "2D1.4",
+    "2D1.5",
+    "2D1.6",
+    "2D1.7",
+    "2D1.8",
+    "2D1.9",
+    "2D2.1",
+    "2D2.2",
+    "2D2.3",
+    "2D3.1",
+    "2D3.2",
+    "2D3.3",
+    "2D3.4",
+    "2D3.5"
+   ]
+  },
+  {
+   "id": "firearms",
+   "label": "Gun and weapon offenses",
+   "description": "Having, selling, or using a firearm when the law says you cannot, and offenses involving explosives.",
+   "chapter2_parts": [
+    "K"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING PUBLIC SAFETY"
+   ],
+   "guidelines": [
+    "2K1.1",
+    "2K1.2",
+    "2K1.3",
+    "2K1.4",
+    "2K1.5",
+    "2K1.6",
+    "2K1.7",
+    "2K2.1",
+    "2K2.2",
+    "2K2.3",
+    "2K2.4",
+    "2K2.5",
+    "2K2.6",
+    "2K3.1",
+    "2K3.2"
+   ]
+  },
+  {
+   "id": "fraud-theft",
+   "label": "Fraud, theft, and money offenses",
+   "description": "Taking money or property by deception or without permission, including most white-collar charges.",
+   "chapter2_parts": [
+    "B"
+   ],
+   "chapter2_part_titles": [
+    "BASIC ECONOMIC OFFENSES"
+   ],
+   "guidelines": [
+    "2B1.1",
+    "2B1.2",
+    "2B1.3",
+    "2B1.4",
+    "2B1.5",
+    "2B1.6",
+    "2B2.1",
+    "2B2.2",
+    "2B2.3",
+    "2B4.1",
+    "2B5.1",
+    "2B5.2",
+    "2B5.3",
+    "2B5.4",
+    "2B6.1"
+   ]
+  },
+  {
+   "id": "violent",
+   "label": "Violent offenses",
+   "description": "Charges involving death, injury, force, or the threat of force, including robbery and carjacking.",
+   "chapter2_parts": [
+    "A",
+    "B"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES AGAINST THE PERSON",
+    "BASIC ECONOMIC OFFENSES"
+   ],
+   "guidelines": [
+    "2A1.1",
+    "2A1.2",
+    "2A1.3",
+    "2A1.4",
+    "2A1.5",
+    "2A2.1",
+    "2A2.2",
+    "2A2.3",
+    "2A2.4",
+    "2A4.1",
+    "2A4.2",
+    "2A5.1",
+    "2A5.2",
+    "2A5.3",
+    "2A6.1",
+    "2A6.2",
+    "2B3.1",
+    "2B3.2",
+    "2B3.3"
+   ]
+  },
+  {
+   "id": "sex-offenses",
+   "label": "Sex offenses",
+   "description": "Charges involving sexual conduct, commercial sex, or the sex offender registry.",
+   "chapter2_parts": [
+    "A",
+    "G"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES AGAINST THE PERSON",
+    "OFFENSES INVOLVING COMMERCIAL SEX ACTS, SEXUAL EXPLOITATION OF MINORS, AND OBSCENITY"
+   ],
+   "guidelines": [
+    "2A3.1",
+    "2A3.2",
+    "2A3.3",
+    "2A3.4",
+    "2A3.5",
+    "2A3.6",
+    "2G1.1",
+    "2G1.2",
+    "2G1.3",
+    "2G3.1",
+    "2G3.2"
+   ]
+  },
+  {
+   "id": "child-pornography",
+   "label": "Child pornography offenses",
+   "description": "Charges involving sexual images of minors, including receiving, sending, keeping, or producing them.",
+   "chapter2_parts": [
+    "G"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING COMMERCIAL SEX ACTS, SEXUAL EXPLOITATION OF MINORS, AND OBSCENITY"
+   ],
+   "guidelines": [
+    "2G2.1",
+    "2G2.2",
+    "2G2.3",
+    "2G2.4",
+    "2G2.5",
+    "2G2.6"
+   ]
+  },
+  {
+   "id": "immigration",
+   "label": "Immigration offenses",
+   "description": "Entering or staying in the country unlawfully, bringing others in, and offenses involving papers and passports.",
+   "chapter2_parts": [
+    "L"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING IMMIGRATION, NATURALIZATION, AND PASSPORTS"
+   ],
+   "guidelines": [
+    "2L1.1",
+    "2L1.2",
+    "2L1.3",
+    "2L2.1",
+    "2L2.2",
+    "2L2.3",
+    "2L2.4",
+    "2L2.5"
+   ]
+  },
+  {
+   "id": "money-laundering",
+   "label": "Money laundering and cash reporting",
+   "description": "Moving or hiding money that came from a crime, and offenses about reporting cash.",
+   "chapter2_parts": [
+    "S"
+   ],
+   "chapter2_part_titles": [
+    "MONEY LAUNDERING AND MONETARY TRANSACTION REPORTING"
+   ],
+   "guidelines": [
+    "2S1.1",
+    "2S1.2",
+    "2S1.3",
+    "2S1.4"
+   ]
+  },
+  {
+   "id": "racketeering",
+   "label": "Racketeering and organized crime",
+   "description": "RICO charges, criminal organizations, loansharking, and illegal gambling businesses.",
+   "chapter2_parts": [
+    "E"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING CRIMINAL ENTERPRISES AND RACKETEERING"
+   ],
+   "guidelines": [
+    "2E1.1",
+    "2E1.2",
+    "2E1.3",
+    "2E1.4",
+    "2E1.5",
+    "2E2.1",
+    "2E3.1",
+    "2E3.2",
+    "2E3.3",
+    "2E4.1",
+    "2E5.1",
+    "2E5.2",
+    "2E5.3",
+    "2E5.4",
+    "2E5.5",
+    "2E5.6"
+   ]
+  },
+  {
+   "id": "obstruction",
+   "label": "Obstruction, perjury, and lying to the government",
+   "description": "Interfering with an investigation or a case, and lying under oath or to federal agents.",
+   "chapter2_parts": [
+    "J"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING THE ADMINISTRATION OF JUSTICE"
+   ],
+   "guidelines": [
+    "2J1.1",
+    "2J1.2",
+    "2J1.3",
+    "2J1.4",
+    "2J1.5",
+    "2J1.6",
+    "2J1.7",
+    "2J1.8",
+    "2J1.9"
+   ]
+  },
+  {
+   "id": "tax",
+   "label": "Tax offenses",
+   "description": "Not paying, underreporting, or lying about taxes.",
+   "chapter2_parts": [
+    "T"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING TAXATION"
+   ],
+   "guidelines": [
+    "2T1.1",
+    "2T1.2",
+    "2T1.3",
+    "2T1.4",
+    "2T1.5",
+    "2T1.6",
+    "2T1.7",
+    "2T1.8",
+    "2T1.9",
+    "2T2.1",
+    "2T2.2",
+    "2T3.1",
+    "2T3.2",
+    "2T4.1"
+   ]
+  },
+  {
+   "id": "public-corruption",
+   "label": "Bribery and public corruption",
+   "description": "Paying off or being paid off as a public official, and election law offenses.",
+   "chapter2_parts": [
+    "C"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING PUBLIC OFFICIALS AND VIOLATIONS OF FEDERAL ELECTION CAMPAIGN LAWS"
+   ],
+   "guidelines": [
+    "2C1.1",
+    "2C1.2",
+    "2C1.3",
+    "2C1.4",
+    "2C1.5",
+    "2C1.6",
+    "2C1.7",
+    "2C1.8"
+   ]
+  },
+  {
+   "id": "civil-rights",
+   "label": "Civil rights and forced labor offenses",
+   "description": "Offenses against a person's rights, including hate crimes, forced labor, and human trafficking for work.",
+   "chapter2_parts": [
+    "H"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING INDIVIDUAL RIGHTS"
+   ],
+   "guidelines": [
+    "2H1.1",
+    "2H1.2",
+    "2H1.3",
+    "2H1.4",
+    "2H1.5",
+    "2H2.1",
+    "2H3.1",
+    "2H3.2",
+    "2H3.3",
+    "2H4.1",
+    "2H4.2"
+   ]
+  },
+  {
+   "id": "national-security",
+   "label": "National security and export offenses",
+   "description": "Espionage, terrorism support, sanctions and export violations, and weapons of mass destruction.",
+   "chapter2_parts": [
+    "M"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING NATIONAL DEFENSE AND WEAPONS OF MASS DESTRUCTION"
+   ],
+   "guidelines": [
+    "2M1.1",
+    "2M2.1",
+    "2M2.2",
+    "2M2.3",
+    "2M2.4",
+    "2M3.1",
+    "2M3.2",
+    "2M3.3",
+    "2M3.4",
+    "2M3.5",
+    "2M3.6",
+    "2M3.7",
+    "2M3.8",
+    "2M3.9",
+    "2M4.1",
+    "2M5.1",
+    "2M5.2",
+    "2M5.3",
+    "2M6.1",
+    "2M6.2"
+   ]
+  },
+  {
+   "id": "environment",
+   "label": "Environmental and wildlife offenses",
+   "description": "Pollution, hazardous waste, and offenses involving protected animals, plants, and fish.",
+   "chapter2_parts": [
+    "Q"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING THE ENVIRONMENT"
+   ],
+   "guidelines": [
+    "2Q1.1",
+    "2Q1.2",
+    "2Q1.3",
+    "2Q1.4",
+    "2Q1.5",
+    "2Q1.6",
+    "2Q2.1",
+    "2Q2.2"
+   ]
+  },
+  {
+   "id": "prison",
+   "label": "Prison offenses",
+   "description": "Escape, contraband in a prison, and related charges.",
+   "chapter2_parts": [
+    "P"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING PRISONS AND CORRECTIONAL FACILITIES"
+   ],
+   "guidelines": [
+    "2P1.1",
+    "2P1.2",
+    "2P1.3",
+    "2P1.4"
+   ]
+  },
+  {
+   "id": "consumer-products",
+   "label": "Food, drug, and consumer product offenses",
+   "description": "Tampering with products, and offenses about food, medicine, farm products, and odometers.",
+   "chapter2_parts": [
+    "N"
+   ],
+   "chapter2_part_titles": [
+    "OFFENSES INVOLVING FOOD, DRUGS, AGRICULTURAL PRODUCTS, CONSUMER PRODUCTS, AND ODOMETER LAWS"
+   ],
+   "guidelines": [
+    "2N1.1",
+    "2N1.2",
+    "2N1.3",
+    "2N2.1",
+    "2N3.1"
+   ]
+  },
+  {
+   "id": "antitrust",
+   "label": "Antitrust offenses",
+   "description": "Price fixing, bid rigging, and market allocation.",
+   "chapter2_parts": [
+    "R"
+   ],
+   "chapter2_part_titles": [
+    "ANTITRUST OFFENSES"
+   ],
+   "guidelines": [
+    "2R1.1"
+   ]
+  },
+  {
+   "id": "other",
+   "label": "Attempt, conspiracy, and other offenses",
+   "description": "Charges for planning or helping with a crime, and offenses the guidelines do not cover elsewhere.",
+   "chapter2_parts": [
+    "X"
+   ],
+   "chapter2_part_titles": [
+    "OTHER OFFENSES"
+   ],
+   "guidelines": [
+    "2X1.1",
+    "2X2.1",
+    "2X3.1",
+    "2X4.1",
+    "2X5.1",
+    "2X5.2",
+    "2X6.1",
+    "2X7.1",
+    "2X7.2"
+   ]
+  }
+ ],
+ "offense_terms": [
+  {
+   "id": "distribution",
+   "crime_type": "drugs",
+   "label": "Selling or delivering drugs",
+   "also_called": [
+    "distribution",
+    "trafficking",
+    "selling drugs",
+    "delivery"
+   ],
+   "description": "Handing drugs to someone else, selling them, or sharing them -- whether or not money changed hands.",
+   "statutes": [
+    {
+     "citation": "21 U.S.C. § 841(a)",
+     "guidelines": [
+      "2D1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.1"
+      }
+     ],
+     "pdf_page": 591
+    },
+    {
+     "citation": "21 U.S.C. § 841(b)(1)–(3)",
+     "guidelines": [
+      "2D1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.1"
+      }
+     ],
+     "pdf_page": 591
+    }
+   ],
+   "guidelines": [
+    "2D1.1"
+   ],
+   "guideline_titles": {
+    "2D1.1": "Unlawful Manufacturing, Importing, Exporting, or Trafficking (Including Possession with Intent to Commit These Offenses); Attempt or Conspiracy"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "possession-with-intent",
+   "crime_type": "drugs",
+   "label": "Having drugs meant for sale",
+   "also_called": [
+    "possession with intent",
+    "PWID",
+    "possession with intent to distribute"
+   ],
+   "description": "Holding a quantity of drugs that the government says was meant to be sold rather than used personally.",
+   "statutes": [
+    {
+     "citation": "21 U.S.C. § 841(a)",
+     "guidelines": [
+      "2D1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.1"
+      }
+     ],
+     "pdf_page": 591
+    },
+    {
+     "citation": "21 U.S.C. § 841(b)(1)–(3)",
+     "guidelines": [
+      "2D1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.1"
+      }
+     ],
+     "pdf_page": 591
+    }
+   ],
+   "guidelines": [
+    "2D1.1"
+   ],
+   "guideline_titles": {
+    "2D1.1": "Unlawful Manufacturing, Importing, Exporting, or Trafficking (Including Possession with Intent to Commit These Offenses); Attempt or Conspiracy"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "drug-conspiracy",
+   "crime_type": "drugs",
+   "label": "Agreeing with others to deal drugs",
+   "also_called": [
+    "conspiracy",
+    "drug conspiracy",
+    "846 conspiracy"
+   ],
+   "description": "An agreement between two or more people to break a drug law. You can be charged even if no drugs were ever found.",
+   "statutes": [
+    {
+     "citation": "21 U.S.C. § 846",
+     "guidelines": [
+      "2D1.1",
+      "2D1.2",
+      "2D1.5",
+      "2D1.6",
+      "2D1.7",
+      "2D1.8",
+      "2D1.9",
+      "2D1.10",
+      "2D1.11",
+      "2D1.12",
+      "2D1.13",
+      "2D2.1",
+      "2D2.2",
+      "2D3.1",
+      "2D3.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.1"
+      },
+      {
+       "guideline": "2D1.2"
+      },
+      {
+       "guideline": "2D1.5"
+      },
+      {
+       "guideline": "2D1.6"
+      },
+      {
+       "guideline": "2D1.7"
+      },
+      {
+       "guideline": "2D1.8"
+      },
+      {
+       "guideline": "2D1.9"
+      },
+      {
+       "guideline": "2D1.10"
+      },
+      {
+       "guideline": "2D1.11"
+      },
+      {
+       "guideline": "2D1.12"
+      },
+      {
+       "guideline": "2D1.13"
+      },
+      {
+       "guideline": "2D2.1"
+      },
+      {
+       "guideline": "2D2.2"
+      },
+      {
+       "guideline": "2D3.1"
+      },
+      {
+       "guideline": "2D3.2"
+      }
+     ],
+     "pdf_page": 592
+    }
+   ],
+   "guidelines": [
+    "2D1.1",
+    "2D1.2",
+    "2D1.5",
+    "2D1.6",
+    "2D1.7",
+    "2D1.8",
+    "2D1.9",
+    "2D1.10",
+    "2D1.11",
+    "2D1.12",
+    "2D1.13",
+    "2D2.1",
+    "2D2.2",
+    "2D3.1",
+    "2D3.2"
+   ],
+   "guideline_titles": {
+    "2D1.1": "Unlawful Manufacturing, Importing, Exporting, or Trafficking (Including Possession with Intent to Commit These Offenses); Attempt or Conspiracy",
+    "2D1.2": "Drug Offenses Occurring Near Protected Locations or Involving Underage or Pregnant Individuals; Attempt or Conspiracy",
+    "2D1.5": "Continuing Criminal Enterprise; Attempt or Conspiracy",
+    "2D1.6": "Use of Communication Facility in Committing Drug Offense; Attempt or Conspiracy",
+    "2D1.7": "Unlawful Sale or Transportation of Drug Paraphernalia; Attempt or Conspiracy",
+    "2D1.8": "Renting or Managing a Drug Establishment; Attempt or Conspiracy",
+    "2D1.9": "Placing or Maintaining Dangerous Devices on Federal Property to Protect the Unlawful Production of Controlled Substances; Attempt or Conspiracy",
+    "2D1.10": "Endangering Human Life While Illegally Manufacturing a Controlled Substance; Attempt or Conspiracy",
+    "2D1.11": "Unlawfully Distributing, Importing, Exporting or Possessing a Listed Chemical; Attempt or Conspiracy",
+    "2D1.12": "Unlawful Possession, Manufacture, Distribution, Transportation, Exportation, or Importation of Prohibited Flask, Equipment, Chemical, Product, or Material; Attempt or Conspiracy",
+    "2D1.13": "Structuring Chemical Transactions or Creating a Chemical Mixture to Evade Reporting or Recordkeeping Requirements; Presenting False or Fraudulent Identification to Obtain a Listed Chemical; Attempt or Conspiracy",
+    "2D2.1": "Unlawful Possession; Attempt or Conspiracy",
+    "2D2.2": "Acquiring a Controlled Substance by Forgery, Fraud, Deception, or Subterfuge; Attempt or Conspiracy",
+    "2D3.1": "Regulatory Offenses Involving Registration Numbers; Unlawful Advertising Relating to Scheduled Substances; Attempt or Conspiracy",
+    "2D3.2": "Regulatory Offenses Involving Controlled Substances or Listed Chemicals; Attempt or Conspiracy"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "drug-importation",
+   "crime_type": "drugs",
+   "label": "Bringing drugs into the country",
+   "also_called": [
+    "importation",
+    "smuggling drugs",
+    "international"
+   ],
+   "description": "Moving drugs across the border into the United States.",
+   "statutes": [
+    {
+     "citation": "21 U.S.C. § 952",
+     "guidelines": [
+      "2D1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.1"
+      }
+     ],
+     "pdf_page": 592
+    },
+    {
+     "citation": "21 U.S.C. § 960(a),(b)",
+     "guidelines": [
+      "2D1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.1"
+      }
+     ],
+     "pdf_page": 592
+    }
+   ],
+   "guidelines": [
+    "2D1.1"
+   ],
+   "guideline_titles": {
+    "2D1.1": "Unlawful Manufacturing, Importing, Exporting, or Trafficking (Including Possession with Intent to Commit These Offenses); Attempt or Conspiracy"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "simple-possession",
+   "crime_type": "drugs",
+   "label": "Having drugs for personal use",
+   "also_called": [
+    "simple possession",
+    "possession"
+   ],
+   "description": "Holding a small amount of a controlled substance for yourself.",
+   "statutes": [
+    {
+     "citation": "21 U.S.C. § 844(a)",
+     "guidelines": [
+      "2D2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D2.1"
+      }
+     ],
+     "pdf_page": 592
+    }
+   ],
+   "guidelines": [
+    "2D2.1"
+   ],
+   "guideline_titles": {
+    "2D2.1": "Unlawful Possession; Attempt or Conspiracy"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "manufacturing",
+   "crime_type": "drugs",
+   "label": "Making or growing drugs",
+   "also_called": [
+    "manufacturing",
+    "cooking",
+    "growing",
+    "cultivation"
+   ],
+   "description": "Producing drugs, including running a lab or growing plants.",
+   "statutes": [
+    {
+     "citation": "21 U.S.C. § 841(a)",
+     "guidelines": [
+      "2D1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.1"
+      }
+     ],
+     "pdf_page": 591
+    }
+   ],
+   "guidelines": [
+    "2D1.1"
+   ],
+   "guideline_titles": {
+    "2D1.1": "Unlawful Manufacturing, Importing, Exporting, or Trafficking (Including Possession with Intent to Commit These Offenses); Attempt or Conspiracy"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "drug-premises",
+   "crime_type": "drugs",
+   "label": "Letting a place be used for drugs",
+   "also_called": [
+    "stash house",
+    "crack house",
+    "maintaining a premises"
+   ],
+   "description": "Owning, renting, or running a place where drugs are made, stored, or sold.",
+   "statutes": [
+    {
+     "citation": "21 U.S.C. § 856",
+     "guidelines": [
+      "2D1.8"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.8"
+      }
+     ],
+     "pdf_page": 592
+    }
+   ],
+   "guidelines": [
+    "2D1.8"
+   ],
+   "guideline_titles": {
+    "2D1.8": "Renting or Managing a Drug Establishment; Attempt or Conspiracy"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "drug-phone",
+   "crime_type": "drugs",
+   "label": "Using a phone to set up a drug deal",
+   "also_called": [
+    "telephone count",
+    "communication facility"
+   ],
+   "description": "Using a phone, text, or the internet to arrange a drug transaction. Often charged alongside a bigger count.",
+   "statutes": [
+    {
+     "citation": "21 U.S.C. § 843(b)",
+     "guidelines": [
+      "2D1.6"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.6"
+      }
+     ],
+     "pdf_page": 592
+    }
+   ],
+   "guidelines": [
+    "2D1.6"
+   ],
+   "guideline_titles": {
+    "2D1.6": "Use of Communication Facility in Committing Drug Offense; Attempt or Conspiracy"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "drug-kingpin",
+   "crime_type": "drugs",
+   "label": "Running a large drug organization",
+   "also_called": [
+    "CCE",
+    "kingpin",
+    "continuing criminal enterprise"
+   ],
+   "description": "Leading an ongoing drug operation with several people under you.",
+   "statutes": [
+    {
+     "citation": "21 U.S.C. § 848(a)",
+     "guidelines": [
+      "2D1.5"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.5"
+      }
+     ],
+     "pdf_page": 592
+    },
+    {
+     "citation": "21 U.S.C. § 848(b)",
+     "guidelines": [
+      "2D1.5"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.5"
+      }
+     ],
+     "pdf_page": 592
+    }
+   ],
+   "guidelines": [
+    "2D1.5"
+   ],
+   "guideline_titles": {
+    "2D1.5": "Continuing Criminal Enterprise; Attempt or Conspiracy"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "drug-near-school",
+   "crime_type": "drugs",
+   "label": "Drugs near a school or involving a minor",
+   "also_called": [
+    "schoolyard",
+    "protected location",
+    "using a minor"
+   ],
+   "description": "A drug offense that happened near a school or playground, or that involved someone under 18.",
+   "statutes": [
+    {
+     "citation": "21 U.S.C. § 860",
+     "guidelines": [
+      "2D1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.2"
+      }
+     ],
+     "pdf_page": 592
+    }
+   ],
+   "guidelines": [
+    "2D1.2"
+   ],
+   "guideline_titles": {
+    "2D1.2": "Drug Offenses Occurring Near Protected Locations or Involving Underage or Pregnant Individuals; Attempt or Conspiracy"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "precursor-chemicals",
+   "crime_type": "drugs",
+   "label": "Chemicals used to make drugs",
+   "also_called": [
+    "listed chemicals",
+    "precursors",
+    "pseudoephedrine"
+   ],
+   "description": "Buying, selling, or moving the ingredients used to manufacture drugs.",
+   "statutes": [
+    {
+     "citation": "21 U.S.C. § 841(c)(1),(2)",
+     "guidelines": [
+      "2D1.11"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.11"
+      }
+     ],
+     "pdf_page": 591
+    },
+    {
+     "citation": "21 U.S.C. § 960(d)(1),(2)",
+     "guidelines": [
+      "2D1.11"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2D1.11"
+      }
+     ],
+     "pdf_page": 592
+    }
+   ],
+   "guidelines": [
+    "2D1.11"
+   ],
+   "guideline_titles": {
+    "2D1.11": "Unlawfully Distributing, Importing, Exporting or Possessing a Listed Chemical; Attempt or Conspiracy"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "felon-in-possession",
+   "crime_type": "firearms",
+   "label": "Having a gun after a felony conviction",
+   "also_called": [
+    "felon in possession",
+    "922(g)",
+    "prohibited person"
+   ],
+   "description": "Owning or holding a firearm or ammunition when a past conviction or your status makes that illegal.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 922(a)–(p)",
+     "guidelines": [
+      "2K2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2K2.1"
+      }
+     ],
+     "pdf_page": 582
+    }
+   ],
+   "guidelines": [
+    "2K2.1"
+   ],
+   "guideline_titles": {
+    "2K2.1": "Unlawful Receipt, Possession, or Transportation of Firearms or Ammunition; Prohibited Transactions Involving Firearms or Ammunition"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "gun-during-crime",
+   "crime_type": "firearms",
+   "label": "Carrying or using a gun during another crime",
+   "also_called": [
+    "924(c)",
+    "gun count",
+    "brandishing"
+   ],
+   "description": "Having a firearm connected to a drug offense or a violent offense. This count usually carries its own mandatory time stacked on top.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 924(c)",
+     "guidelines": [
+      "2K2.4"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2K2.4"
+      }
+     ],
+     "pdf_page": 582
+    }
+   ],
+   "guidelines": [
+    "2K2.4"
+   ],
+   "guideline_titles": {
+    "2K2.4": "Use of Firearm, Armor-Piercing Ammunition, or Explosive During or in Relation to Certain Crimes"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "armed-career-criminal",
+   "crime_type": "firearms",
+   "label": "Gun charge with three prior serious convictions",
+   "also_called": [
+    "ACCA",
+    "armed career criminal",
+    "924(e)"
+   ],
+   "description": "A firearm charge where the government says three earlier convictions trigger a much longer mandatory sentence.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 924(e)",
+     "guidelines": [
+      "2K2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2K2.1",
+       "condition": "see also 4B1.4"
+      }
+     ],
+     "pdf_page": 582
+    }
+   ],
+   "guidelines": [
+    "2K2.1"
+   ],
+   "guideline_titles": {
+    "2K2.1": "Unlawful Receipt, Possession, or Transportation of Firearms or Ammunition; Prohibited Transactions Involving Firearms or Ammunition"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "straw-purchase",
+   "crime_type": "firearms",
+   "label": "Buying a gun for someone else",
+   "also_called": [
+    "straw purchase",
+    "lying on the form",
+    "4473"
+   ],
+   "description": "Buying a firearm for a person who cannot buy one, or lying on the purchase paperwork.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 922(a)–(p)",
+     "guidelines": [
+      "2K2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2K2.1"
+      }
+     ],
+     "pdf_page": 582
+    },
+    {
+     "citation": "18 U.S.C. § 924(a)",
+     "guidelines": [
+      "2K2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2K2.1"
+      }
+     ],
+     "pdf_page": 582
+    }
+   ],
+   "guidelines": [
+    "2K2.1"
+   ],
+   "guideline_titles": {
+    "2K2.1": "Unlawful Receipt, Possession, or Transportation of Firearms or Ammunition; Prohibited Transactions Involving Firearms or Ammunition"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "unregistered-firearm",
+   "crime_type": "firearms",
+   "label": "Having an unregistered or illegal weapon",
+   "also_called": [
+    "NFA",
+    "machine gun",
+    "silencer",
+    "short barrel",
+    "sawed off"
+   ],
+   "description": "Possessing a weapon that federal law requires to be registered, such as a machine gun, silencer, or short-barreled shotgun.",
+   "statutes": [
+    {
+     "citation": "26 U.S.C. § 5861(a)–(l)",
+     "guidelines": [
+      "2K2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2K2.1"
+      }
+     ],
+     "pdf_page": 593
+    }
+   ],
+   "guidelines": [
+    "2K2.1"
+   ],
+   "guideline_titles": {
+    "2K2.1": "Unlawful Receipt, Possession, or Transportation of Firearms or Ammunition; Prohibited Transactions Involving Firearms or Ammunition"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "gun-trafficking",
+   "crime_type": "firearms",
+   "label": "Selling guns without a license",
+   "also_called": [
+    "gun trafficking",
+    "dealing without a license"
+   ],
+   "description": "Selling firearms as a business without a federal license, or moving guns across state lines to sell.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 922(a)–(p)",
+     "guidelines": [
+      "2K2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2K2.1"
+      }
+     ],
+     "pdf_page": 582
+    }
+   ],
+   "guidelines": [
+    "2K2.1"
+   ],
+   "guideline_titles": {
+    "2K2.1": "Unlawful Receipt, Possession, or Transportation of Firearms or Ammunition; Prohibited Transactions Involving Firearms or Ammunition"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "arson",
+   "crime_type": "firearms",
+   "label": "Setting a fire or using explosives",
+   "also_called": [
+    "arson",
+    "explosives",
+    "bombing"
+   ],
+   "description": "Burning or blowing up property, or having explosives illegally.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 844(f)",
+     "guidelines": [
+      "2K1.4",
+      "2X1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2K1.4"
+      },
+      {
+       "guideline": "2X1.1"
+      }
+     ],
+     "pdf_page": 581
+    },
+    {
+     "citation": "18 U.S.C. § 844(i)",
+     "guidelines": [
+      "2K1.4"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2K1.4"
+      }
+     ],
+     "pdf_page": 581
+    },
+    {
+     "citation": "18 U.S.C. § 844(d)",
+     "guidelines": [
+      "2K1.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2K1.3"
+      }
+     ],
+     "pdf_page": 581
+    }
+   ],
+   "guidelines": [
+    "2K1.4",
+    "2X1.1",
+    "2K1.3"
+   ],
+   "guideline_titles": {
+    "2K1.4": "Arson; Property Damage by Use of Explosives",
+    "2X1.1": "Attempt, Solicitation, or Conspiracy (Not Covered by a Specific Offense Guideline)",
+    "2K1.3": "Unlawful Receipt, Possession, or Transportation of Explosive Materials; Prohibited Transactions Involving Explosive Materials"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "wire-fraud",
+   "crime_type": "fraud-theft",
+   "label": "Fraud using phone, email, or the internet",
+   "also_called": [
+    "wire fraud",
+    "1343"
+   ],
+   "description": "A scheme to get money or property by lying, where a phone call, email, text, or transfer crossed state lines.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1343",
+     "guidelines": [
+      "2B1.1",
+      "2C1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2C1.1"
+      }
+     ],
+     "pdf_page": 584
+    }
+   ],
+   "guidelines": [
+    "2B1.1",
+    "2C1.1"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States",
+    "2C1.1": "Offering, Giving, Soliciting, or Receiving a Bribe; Extortion Under Color of Official Right; Fraud Involving the Deprivation of the Intangible Right to Honest Services of Public Officials; Conspiracy to Defraud by Interference with Governmental Functions"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "mail-fraud",
+   "crime_type": "fraud-theft",
+   "label": "Fraud using the mail or a delivery service",
+   "also_called": [
+    "mail fraud",
+    "1341"
+   ],
+   "description": "A scheme to get money or property by lying, where something was sent by mail or a carrier like FedEx.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1341",
+     "guidelines": [
+      "2B1.1",
+      "2C1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2C1.1"
+      }
+     ],
+     "pdf_page": 584
+    }
+   ],
+   "guidelines": [
+    "2B1.1",
+    "2C1.1"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States",
+    "2C1.1": "Offering, Giving, Soliciting, or Receiving a Bribe; Extortion Under Color of Official Right; Fraud Involving the Deprivation of the Intangible Right to Honest Services of Public Officials; Conspiracy to Defraud by Interference with Governmental Functions"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "bank-fraud",
+   "crime_type": "fraud-theft",
+   "label": "Fraud against a bank",
+   "also_called": [
+    "bank fraud",
+    "1344"
+   ],
+   "description": "A scheme to get money from a bank by lying, including bad checks and false loan applications.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1344",
+     "guidelines": [
+      "2B1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      }
+     ],
+     "pdf_page": 584
+    }
+   ],
+   "guidelines": [
+    "2B1.1"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "health-care-fraud",
+   "crime_type": "fraud-theft",
+   "label": "Billing fraud in health care",
+   "also_called": [
+    "health care fraud",
+    "Medicare fraud",
+    "Medicaid fraud"
+   ],
+   "description": "Billing an insurer or a government health program for care that was not given, not needed, or not as described.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1347",
+     "guidelines": [
+      "2B1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      }
+     ],
+     "pdf_page": 584
+    }
+   ],
+   "guidelines": [
+    "2B1.1"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "securities-fraud",
+   "crime_type": "fraud-theft",
+   "label": "Investment and securities fraud",
+   "also_called": [
+    "securities fraud",
+    "investment fraud",
+    "Ponzi"
+   ],
+   "description": "Lying to investors, manipulating a stock, or running an investment scheme that pays old investors with new money.",
+   "statutes": [
+    {
+     "citation": "15 U.S.C. § 78j",
+     "guidelines": [
+      "2B1.1",
+      "2B1.4"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2B1.4"
+      }
+     ],
+     "pdf_page": 575
+    },
+    {
+     "citation": "15 U.S.C. § 78ff",
+     "guidelines": [
+      "2B1.1",
+      "2C1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2C1.1"
+      }
+     ],
+     "pdf_page": 575
+    }
+   ],
+   "guidelines": [
+    "2B1.1",
+    "2B1.4",
+    "2C1.1"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States",
+    "2B1.4": "Insider Trading",
+    "2C1.1": "Offering, Giving, Soliciting, or Receiving a Bribe; Extortion Under Color of Official Right; Fraud Involving the Deprivation of the Intangible Right to Honest Services of Public Officials; Conspiracy to Defraud by Interference with Governmental Functions"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "insider-trading",
+   "crime_type": "fraud-theft",
+   "label": "Trading on secret company information",
+   "also_called": [
+    "insider trading"
+   ],
+   "description": "Buying or selling stock using confidential information, or passing that information to someone who trades on it.",
+   "statutes": [
+    {
+     "citation": "15 U.S.C. § 78j",
+     "guidelines": [
+      "2B1.1",
+      "2B1.4"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2B1.4"
+      }
+     ],
+     "pdf_page": 575
+    }
+   ],
+   "guidelines": [
+    "2B1.1",
+    "2B1.4"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States",
+    "2B1.4": "Insider Trading"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "identity-theft",
+   "crime_type": "fraud-theft",
+   "label": "Using someone else's identity",
+   "also_called": [
+    "identity theft",
+    "ID theft",
+    "1028"
+   ],
+   "description": "Using another person's name, Social Security number, or documents without permission.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1028",
+     "guidelines": [
+      "2B1.1",
+      "2L2.1",
+      "2L2.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2L2.1"
+      },
+      {
+       "guideline": "2L2.2"
+      }
+     ],
+     "pdf_page": 583
+    }
+   ],
+   "guidelines": [
+    "2B1.1",
+    "2L2.1",
+    "2L2.2"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States",
+    "2L2.1": "Trafficking in a Document Relating to Naturalization, Citizenship, or Legal Resident Status, or a United States Passport; False Statement in Respect to the Citizenship or Immigration Status of Another; Fraudulent Marriage to Assist Alien to Evade Immigration Law",
+    "2L2.2": "Fraudulently Acquiring Documents Relating to Naturalization, Citizenship, or Legal Resident Status for Own Use; False Personation or Fraudulent Marriage by Alien to Evade Immigration Law; Fraudulently Acquiring or Improperly Using a United States Passport"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "aggravated-identity-theft",
+   "crime_type": "fraud-theft",
+   "label": "Identity theft added to another charge",
+   "also_called": [
+    "aggravated identity theft",
+    "1028A",
+    "two-year count"
+   ],
+   "description": "A separate count that adds a fixed, mandatory term on top of the underlying fraud sentence.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1028A",
+     "guidelines": [
+      "2B1.6"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.6"
+      }
+     ],
+     "pdf_page": 583
+    }
+   ],
+   "guidelines": [
+    "2B1.6"
+   ],
+   "guideline_titles": {
+    "2B1.6": "Aggravated Identity Theft"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "credit-card-fraud",
+   "crime_type": "fraud-theft",
+   "label": "Credit card and access device fraud",
+   "also_called": [
+    "credit card fraud",
+    "access device",
+    "1029",
+    "skimming"
+   ],
+   "description": "Using stolen card numbers, account numbers, or card-making equipment.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1029",
+     "guidelines": [
+      "2B1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      }
+     ],
+     "pdf_page": 583
+    }
+   ],
+   "guidelines": [
+    "2B1.1"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "computer-fraud",
+   "crime_type": "fraud-theft",
+   "label": "Hacking and computer offenses",
+   "also_called": [
+    "hacking",
+    "computer fraud",
+    "CFAA",
+    "1030"
+   ],
+   "description": "Getting into a computer or account without permission, or damaging one.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1030(a)(2)",
+     "guidelines": [
+      "2B1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      }
+     ],
+     "pdf_page": 583
+    },
+    {
+     "citation": "18 U.S.C. § 1030(a)(4)",
+     "guidelines": [
+      "2B1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      }
+     ],
+     "pdf_page": 583
+    },
+    {
+     "citation": "18 U.S.C. § 1030(a)(5)",
+     "guidelines": [
+      "2B1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      }
+     ],
+     "pdf_page": 583
+    }
+   ],
+   "guidelines": [
+    "2B1.1"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "theft-government-property",
+   "crime_type": "fraud-theft",
+   "label": "Stealing government money or property",
+   "also_called": [
+    "theft of government property",
+    "641",
+    "benefits fraud"
+   ],
+   "description": "Taking money or property belonging to the federal government, including benefits you were not entitled to.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 641",
+     "guidelines": [
+      "2B1.1",
+      "2B1.5"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2B1.5"
+      }
+     ],
+     "pdf_page": 580
+    }
+   ],
+   "guidelines": [
+    "2B1.1",
+    "2B1.5"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States",
+    "2B1.5": "Theft of, Damage to, or Destruction of, Cultural Heritage Resources or Paleontological Resources; Unlawful Sale, Purchase, Exchange, Transportation, or Receipt of Cultural Heritage Resources or Paleontological Resources"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "embezzlement",
+   "crime_type": "fraud-theft",
+   "label": "Taking money you were trusted with",
+   "also_called": [
+    "embezzlement",
+    "misapplication"
+   ],
+   "description": "Using money or property for yourself when your job was to look after it.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 656",
+     "guidelines": [
+      "2B1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      }
+     ],
+     "pdf_page": 580
+    }
+   ],
+   "guidelines": [
+    "2B1.1"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "counterfeiting",
+   "crime_type": "fraud-theft",
+   "label": "Counterfeit money or documents",
+   "also_called": [
+    "counterfeiting",
+    "fake money",
+    "forgery"
+   ],
+   "description": "Making or passing fake currency, checks, or government documents.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 471",
+     "guidelines": [
+      "2B1.1",
+      "2B5.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2B5.1"
+      }
+     ],
+     "pdf_page": 579
+    },
+    {
+     "citation": "18 U.S.C. § 472",
+     "guidelines": [
+      "2B1.1",
+      "2B5.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2B5.1"
+      }
+     ],
+     "pdf_page": 579
+    }
+   ],
+   "guidelines": [
+    "2B1.1",
+    "2B5.1"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States",
+    "2B5.1": "Offenses Involving Counterfeit Bearer Obligations of the United States"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "program-bribery-theft",
+   "crime_type": "fraud-theft",
+   "label": "Theft from a program that gets federal money",
+   "also_called": [
+    "666",
+    "federal program theft"
+   ],
+   "description": "Stealing from an organization, state, or local agency that receives federal funding.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 666(a)(1)(A)",
+     "guidelines": [
+      "2B1.1",
+      "2B1.5"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2B1.5"
+      }
+     ],
+     "pdf_page": 580
+    }
+   ],
+   "guidelines": [
+    "2B1.1",
+    "2B1.5"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States",
+    "2B1.5": "Theft of, Damage to, or Destruction of, Cultural Heritage Resources or Paleontological Resources; Unlawful Sale, Purchase, Exchange, Transportation, or Receipt of Cultural Heritage Resources or Paleontological Resources"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "fraud-conspiracy",
+   "crime_type": "fraud-theft",
+   "label": "Agreeing with others to commit fraud",
+   "also_called": [
+    "conspiracy to commit fraud",
+    "1349"
+   ],
+   "description": "An agreement between two or more people to carry out a fraud scheme.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1349",
+     "guidelines": [
+      "2X1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2X1.1"
+      }
+     ],
+     "pdf_page": 584
+    }
+   ],
+   "guidelines": [
+    "2X1.1"
+   ],
+   "guideline_titles": {
+    "2X1.1": "Attempt, Solicitation, or Conspiracy (Not Covered by a Specific Offense Guideline)"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "robbery",
+   "crime_type": "violent",
+   "label": "Robbery",
+   "also_called": [
+    "robbery",
+    "Hobbs Act",
+    "1951",
+    "armed robbery"
+   ],
+   "description": "Taking property from a person by force or by threatening them.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1951",
+     "guidelines": [
+      "2B3.1",
+      "2B3.2",
+      "2B3.3",
+      "2C1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B3.1"
+      },
+      {
+       "guideline": "2B3.2"
+      },
+      {
+       "guideline": "2B3.3"
+      },
+      {
+       "guideline": "2C1.1"
+      }
+     ],
+     "pdf_page": 586
+    }
+   ],
+   "guidelines": [
+    "2B3.1",
+    "2B3.2",
+    "2B3.3",
+    "2C1.1"
+   ],
+   "guideline_titles": {
+    "2B3.1": "Robbery",
+    "2B3.2": "Extortion by Force or Threat of Injury or Serious Damage",
+    "2B3.3": "Blackmail and Similar Forms of Extortion",
+    "2C1.1": "Offering, Giving, Soliciting, or Receiving a Bribe; Extortion Under Color of Official Right; Fraud Involving the Deprivation of the Intangible Right to Honest Services of Public Officials; Conspiracy to Defraud by Interference with Governmental Functions"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "bank-robbery",
+   "crime_type": "violent",
+   "label": "Bank robbery",
+   "also_called": [
+    "bank robbery",
+    "2113"
+   ],
+   "description": "Taking or trying to take money from a bank by force, threat, or intimidation.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 2113(a)",
+     "guidelines": [
+      "2B1.1",
+      "2B2.1",
+      "2B3.1",
+      "2B3.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2B2.1"
+      },
+      {
+       "guideline": "2B3.1"
+      },
+      {
+       "guideline": "2B3.2"
+      }
+     ],
+     "pdf_page": 587
+    },
+    {
+     "citation": "18 U.S.C. § 2113(d)",
+     "guidelines": [
+      "2B3.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B3.1"
+      }
+     ],
+     "pdf_page": 587
+    },
+    {
+     "citation": "18 U.S.C. § 2113(e)",
+     "guidelines": [
+      "2A1.1",
+      "2B3.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A1.1"
+      },
+      {
+       "guideline": "2B3.1"
+      }
+     ],
+     "pdf_page": 587
+    }
+   ],
+   "guidelines": [
+    "2B1.1",
+    "2B2.1",
+    "2B3.1",
+    "2B3.2",
+    "2A1.1"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States",
+    "2B2.1": "Burglary of a Residence or a Structure Other than a Residence",
+    "2B3.1": "Robbery",
+    "2B3.2": "Extortion by Force or Threat of Injury or Serious Damage",
+    "2A1.1": "First Degree Murder"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "carjacking",
+   "crime_type": "violent",
+   "label": "Carjacking",
+   "also_called": [
+    "carjacking",
+    "2119"
+   ],
+   "description": "Taking a vehicle from someone by force or threat.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 2119",
+     "guidelines": [
+      "2B3.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B3.1"
+      }
+     ],
+     "pdf_page": 587
+    }
+   ],
+   "guidelines": [
+    "2B3.1"
+   ],
+   "guideline_titles": {
+    "2B3.1": "Robbery"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "assault-federal-officer",
+   "crime_type": "violent",
+   "label": "Assaulting a federal officer",
+   "also_called": [
+    "assault on a federal officer",
+    "111"
+   ],
+   "description": "Hitting, resisting, or interfering with a federal officer or employee doing their job.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 111",
+     "guidelines": [
+      "2A2.2",
+      "2A2.4"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A2.2"
+      },
+      {
+       "guideline": "2A2.4"
+      }
+     ],
+     "pdf_page": 577
+    }
+   ],
+   "guidelines": [
+    "2A2.2",
+    "2A2.4"
+   ],
+   "guideline_titles": {
+    "2A2.2": "Aggravated Assault",
+    "2A2.4": "Obstructing or Impeding Officers"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "assault",
+   "crime_type": "violent",
+   "label": "Assault",
+   "also_called": [
+    "assault",
+    "aggravated assault",
+    "113"
+   ],
+   "description": "Hurting someone, or trying to, on federal land or in federal jurisdiction.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 113(a)(2)",
+     "guidelines": [
+      "2A2.2",
+      "2A3.2",
+      "2A3.3",
+      "2A3.4"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A2.2"
+      },
+      {
+       "guideline": "2A3.2"
+      },
+      {
+       "guideline": "2A3.3"
+      },
+      {
+       "guideline": "2A3.4"
+      }
+     ],
+     "pdf_page": 577
+    },
+    {
+     "citation": "18 U.S.C. § 113(a)(3)",
+     "guidelines": [
+      "2A2.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A2.2"
+      }
+     ],
+     "pdf_page": 577
+    },
+    {
+     "citation": "18 U.S.C. § 113(a)(4)",
+     "guidelines": [
+      "2A2.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A2.3"
+      }
+     ],
+     "pdf_page": 577
+    }
+   ],
+   "guidelines": [
+    "2A2.2",
+    "2A3.2",
+    "2A3.3",
+    "2A3.4",
+    "2A2.3"
+   ],
+   "guideline_titles": {
+    "2A2.2": "Aggravated Assault",
+    "2A3.2": "Criminal Sexual Abuse of a Minor Under the Age of Sixteen Years (Statutory Rape) or Attempt to Commit Such Acts",
+    "2A3.3": "Criminal Sexual Abuse of a Ward or Attempt to Commit Such Acts; Criminal Sexual Abuse of an Individual in Federal Custody",
+    "2A3.4": "Abusive Sexual Contact or Attempt to Commit Abusive Sexual Contact",
+    "2A2.3": "Assault"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "murder",
+   "crime_type": "violent",
+   "label": "Murder or killing",
+   "also_called": [
+    "murder",
+    "homicide",
+    "manslaughter",
+    "1111"
+   ],
+   "description": "Causing someone's death. The guideline depends heavily on intent and circumstances.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1111(a)",
+     "guidelines": [
+      "2A1.1",
+      "2A1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A1.1"
+      },
+      {
+       "guideline": "2A1.2"
+      }
+     ],
+     "pdf_page": 583
+    }
+   ],
+   "guidelines": [
+    "2A1.1",
+    "2A1.2"
+   ],
+   "guideline_titles": {
+    "2A1.1": "First Degree Murder",
+    "2A1.2": "Second Degree Murder"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "kidnapping",
+   "crime_type": "violent",
+   "label": "Kidnapping",
+   "also_called": [
+    "kidnapping",
+    "abduction",
+    "1201"
+   ],
+   "description": "Holding, moving, or hiding a person against their will.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1201(a)",
+     "guidelines": [
+      "2A4.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A4.1"
+      }
+     ],
+     "pdf_page": 584
+    }
+   ],
+   "guidelines": [
+    "2A4.1"
+   ],
+   "guideline_titles": {
+    "2A4.1": "Kidnapping, Abduction, Unlawful Restraint"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "threats",
+   "crime_type": "violent",
+   "label": "Threatening someone",
+   "also_called": [
+    "threats",
+    "875",
+    "threatening communication"
+   ],
+   "description": "Sending a threat to hurt someone by phone, text, mail, or online.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 875(c)",
+     "guidelines": [
+      "2A6.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A6.1"
+      }
+     ],
+     "pdf_page": 581
+    }
+   ],
+   "guidelines": [
+    "2A6.1"
+   ],
+   "guideline_titles": {
+    "2A6.1": "Threatening or Harassing Communications; Hoaxes; False Liens"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "stalking",
+   "crime_type": "violent",
+   "label": "Stalking or domestic violence",
+   "also_called": [
+    "stalking",
+    "domestic violence",
+    "2261A"
+   ],
+   "description": "Following, watching, or harassing a person across state lines, or hurting a partner or family member.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 2261A",
+     "guidelines": [
+      "2A6.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A6.2"
+      }
+     ],
+     "pdf_page": 588
+    }
+   ],
+   "guidelines": [
+    "2A6.2"
+   ],
+   "guideline_titles": {
+    "2A6.2": "Stalking or Domestic Violence"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "sex-trafficking",
+   "crime_type": "sex-offenses",
+   "label": "Sex trafficking",
+   "also_called": [
+    "sex trafficking",
+    "1591",
+    "trafficking a minor"
+   ],
+   "description": "Causing someone to perform a commercial sex act by force, fraud, threat, or because they are under 18.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1591",
+     "guidelines": [
+      "2G1.1",
+      "2G1.3",
+      "2G2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G1.1"
+      },
+      {
+       "guideline": "2G1.3"
+      },
+      {
+       "guideline": "2G2.1"
+      }
+     ],
+     "pdf_page": 585
+    }
+   ],
+   "guidelines": [
+    "2G1.1",
+    "2G1.3",
+    "2G2.1"
+   ],
+   "guideline_titles": {
+    "2G1.1": "Promoting a Commercial Sex Act or Prohibited Sexual Conduct with an Individual Other than a Minor",
+    "2G1.3": "Promoting a Commercial Sex Act or Prohibited Sexual Conduct with a Minor; Transportation of Minors to Engage in a Commercial Sex Act or Prohibited Sexual Conduct; Travel to Engage in Commercial Sex Act or Prohibited Sexual Conduct with a Minor; Sex Trafficking of Children; Use of Interstate Facilities to Transport Information about a Minor",
+    "2G2.1": "Sexually Exploiting a Minor by Production of Sexually Explicit Visual or Printed Material; Custodian Permitting Minor to Engage in Sexually Explicit Conduct; Advertisement for Minors to Engage in Production"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "enticement",
+   "crime_type": "sex-offenses",
+   "label": "Trying to meet a minor for sex",
+   "also_called": [
+    "enticement",
+    "2422",
+    "online sting",
+    "coercion of a minor"
+   ],
+   "description": "Using the phone or internet to persuade someone under 18 to meet for sexual activity. Many of these cases begin as an online sting.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 2422",
+     "guidelines": [
+      "2G1.1",
+      "2G1.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G1.1"
+      },
+      {
+       "guideline": "2G1.3"
+      }
+     ],
+     "pdf_page": 590
+    }
+   ],
+   "guidelines": [
+    "2G1.1",
+    "2G1.3"
+   ],
+   "guideline_titles": {
+    "2G1.1": "Promoting a Commercial Sex Act or Prohibited Sexual Conduct with an Individual Other than a Minor",
+    "2G1.3": "Promoting a Commercial Sex Act or Prohibited Sexual Conduct with a Minor; Transportation of Minors to Engage in a Commercial Sex Act or Prohibited Sexual Conduct; Travel to Engage in Commercial Sex Act or Prohibited Sexual Conduct with a Minor; Sex Trafficking of Children; Use of Interstate Facilities to Transport Information about a Minor"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "transportation-for-sex",
+   "crime_type": "sex-offenses",
+   "label": "Moving someone across state lines for sex",
+   "also_called": [
+    "Mann Act",
+    "transportation",
+    "2421",
+    "2423"
+   ],
+   "description": "Taking a person across state lines or into the country for commercial sex or unlawful sexual activity.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 2421",
+     "guidelines": [
+      "2G1.1",
+      "2G1.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G1.1"
+      },
+      {
+       "guideline": "2G1.3"
+      }
+     ],
+     "pdf_page": 590
+    },
+    {
+     "citation": "18 U.S.C. § 2423(a)–(d)",
+     "guidelines": [
+      "2G1.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G1.3"
+      }
+     ],
+     "pdf_page": 590
+    }
+   ],
+   "guidelines": [
+    "2G1.1",
+    "2G1.3"
+   ],
+   "guideline_titles": {
+    "2G1.1": "Promoting a Commercial Sex Act or Prohibited Sexual Conduct with an Individual Other than a Minor",
+    "2G1.3": "Promoting a Commercial Sex Act or Prohibited Sexual Conduct with a Minor; Transportation of Minors to Engage in a Commercial Sex Act or Prohibited Sexual Conduct; Travel to Engage in Commercial Sex Act or Prohibited Sexual Conduct with a Minor; Sex Trafficking of Children; Use of Interstate Facilities to Transport Information about a Minor"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "sexual-abuse",
+   "crime_type": "sex-offenses",
+   "label": "Sexual abuse or assault",
+   "also_called": [
+    "sexual abuse",
+    "criminal sexual abuse",
+    "2241",
+    "2242"
+   ],
+   "description": "A sexual act committed by force, threat, or where the person could not consent.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 2241",
+     "guidelines": [
+      "2A3.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A3.1"
+      }
+     ],
+     "pdf_page": 588
+    },
+    {
+     "citation": "18 U.S.C. § 2242",
+     "guidelines": [
+      "2A3.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A3.1"
+      }
+     ],
+     "pdf_page": 588
+    }
+   ],
+   "guidelines": [
+    "2A3.1"
+   ],
+   "guideline_titles": {
+    "2A3.1": "Criminal Sexual Abuse; Attempt to Commit Criminal Sexual Abuse"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "failure-to-register",
+   "crime_type": "sex-offenses",
+   "label": "Not registering as a sex offender",
+   "also_called": [
+    "failure to register",
+    "SORNA",
+    "2250"
+   ],
+   "description": "Not signing up, or not keeping your information current, on the sex offender registry.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 2250(a), (b)",
+     "guidelines": [
+      "2A3.5"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A3.5"
+      }
+     ],
+     "pdf_page": 588
+    }
+   ],
+   "guidelines": [
+    "2A3.5"
+   ],
+   "guideline_titles": {
+    "2A3.5": "Failure to Register as a Sex Offender"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "obscenity",
+   "crime_type": "sex-offenses",
+   "label": "Obscenity offenses",
+   "also_called": [
+    "obscenity",
+    "obscene material"
+   ],
+   "description": "Sending, selling, or importing obscene material.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1462",
+     "guidelines": [
+      "2G3.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G3.1"
+      }
+     ],
+     "pdf_page": 584
+    },
+    {
+     "citation": "18 U.S.C. § 1465",
+     "guidelines": [
+      "2G3.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G3.1"
+      }
+     ],
+     "pdf_page": 584
+    }
+   ],
+   "guidelines": [
+    "2G3.1"
+   ],
+   "guideline_titles": {
+    "2G3.1": "Importing, Mailing, or Transporting Obscene Matter; Transferring Obscene Matter to a Minor; Misleading Domain Names"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "cp-possession-receipt",
+   "crime_type": "child-pornography",
+   "label": "Having or receiving sexual images of children",
+   "also_called": [
+    "possession",
+    "receipt",
+    "2252",
+    "2252A"
+   ],
+   "description": "Downloading, keeping, or receiving images or videos showing a minor in sexual conduct.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 2252",
+     "guidelines": [
+      "2G2.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G2.2"
+      }
+     ],
+     "pdf_page": 588
+    },
+    {
+     "citation": "18 U.S.C. § 2252A(a),(b)",
+     "guidelines": [
+      "2G2.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G2.2"
+      }
+     ],
+     "pdf_page": 588
+    }
+   ],
+   "guidelines": [
+    "2G2.2"
+   ],
+   "guideline_titles": {
+    "2G2.2": "Trafficking in Material Involving the Sexual Exploitation of a Minor; Receiving, Transporting, Shipping, Soliciting, or Advertising Material Involving the Sexual Exploitation of a Minor; Possessing Material Involving the Sexual Exploitation of a Minor with Intent to Traffic; Possessing Material Involving the Sexual Exploitation of a Minor"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "cp-distribution",
+   "crime_type": "child-pornography",
+   "label": "Sending or sharing sexual images of children",
+   "also_called": [
+    "distribution",
+    "sharing",
+    "file sharing",
+    "trading"
+   ],
+   "description": "Sending images to another person, or making them available through a file-sharing program.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 2252",
+     "guidelines": [
+      "2G2.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G2.2"
+      }
+     ],
+     "pdf_page": 588
+    },
+    {
+     "citation": "18 U.S.C. § 2252A(a),(b)",
+     "guidelines": [
+      "2G2.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G2.2"
+      }
+     ],
+     "pdf_page": 588
+    }
+   ],
+   "guidelines": [
+    "2G2.2"
+   ],
+   "guideline_titles": {
+    "2G2.2": "Trafficking in Material Involving the Sexual Exploitation of a Minor; Receiving, Transporting, Shipping, Soliciting, or Advertising Material Involving the Sexual Exploitation of a Minor; Possessing Material Involving the Sexual Exploitation of a Minor with Intent to Traffic; Possessing Material Involving the Sexual Exploitation of a Minor"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "cp-production",
+   "crime_type": "child-pornography",
+   "label": "Producing sexual images of a child",
+   "also_called": [
+    "production",
+    "2251",
+    "manufacturing"
+   ],
+   "description": "Making, or trying to make, sexual images of a minor. This carries the highest penalties in this group.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 2251(a), (b)",
+     "guidelines": [
+      "2G2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G2.1"
+      }
+     ],
+     "pdf_page": 588
+    },
+    {
+     "citation": "18 U.S.C. § 2251(c)",
+     "guidelines": [
+      "2G2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2G2.1"
+      }
+     ],
+     "pdf_page": 588
+    }
+   ],
+   "guidelines": [
+    "2G2.1"
+   ],
+   "guideline_titles": {
+    "2G2.1": "Sexually Exploiting a Minor by Production of Sexually Explicit Visual or Printed Material; Custodian Permitting Minor to Engage in Sexually Explicit Conduct; Advertisement for Minors to Engage in Production"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "illegal-reentry",
+   "crime_type": "immigration",
+   "label": "Coming back after being deported",
+   "also_called": [
+    "illegal reentry",
+    "1326",
+    "reentry after deportation"
+   ],
+   "description": "Entering or being found in the United States after an earlier removal.",
+   "statutes": [
+    {
+     "citation": "8 U.S.C. § 1326",
+     "guidelines": [
+      "2L1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2L1.2"
+      }
+     ],
+     "pdf_page": 574
+    }
+   ],
+   "guidelines": [
+    "2L1.2"
+   ],
+   "guideline_titles": {
+    "2L1.2": "Unlawfully Entering or Remaining in the United States"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "illegal-entry",
+   "crime_type": "immigration",
+   "label": "Entering the country unlawfully",
+   "also_called": [
+    "illegal entry",
+    "improper entry",
+    "1325"
+   ],
+   "description": "Crossing into the United States outside an official port of entry.",
+   "statutes": [
+    {
+     "citation": "8 U.S.C. § 1325(a)",
+     "guidelines": [
+      "2L1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2L1.2"
+      }
+     ],
+     "pdf_page": 574
+    }
+   ],
+   "guidelines": [
+    "2L1.2"
+   ],
+   "guideline_titles": {
+    "2L1.2": "Unlawfully Entering or Remaining in the United States"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "alien-smuggling",
+   "crime_type": "immigration",
+   "label": "Bringing or moving people across the border",
+   "also_called": [
+    "alien smuggling",
+    "1324",
+    "transporting",
+    "harboring"
+   ],
+   "description": "Bringing people into the country unlawfully, moving them once inside, or hiding them.",
+   "statutes": [
+    {
+     "citation": "8 U.S.C. § 1324(a)",
+     "guidelines": [
+      "2L1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2L1.1"
+      }
+     ],
+     "pdf_page": 574
+    }
+   ],
+   "guidelines": [
+    "2L1.1"
+   ],
+   "guideline_titles": {
+    "2L1.1": "Smuggling, Transporting, or Harboring an Unlawful Alien"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "document-fraud",
+   "crime_type": "immigration",
+   "label": "False immigration documents",
+   "also_called": [
+    "document fraud",
+    "1546",
+    "fake papers",
+    "visa fraud"
+   ],
+   "description": "Making, using, or possessing false visas, permits, or other immigration papers.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1546",
+     "guidelines": [
+      "2L2.1",
+      "2L2.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2L2.1"
+      },
+      {
+       "guideline": "2L2.2"
+      }
+     ],
+     "pdf_page": 585
+    }
+   ],
+   "guidelines": [
+    "2L2.1",
+    "2L2.2"
+   ],
+   "guideline_titles": {
+    "2L2.1": "Trafficking in a Document Relating to Naturalization, Citizenship, or Legal Resident Status, or a United States Passport; False Statement in Respect to the Citizenship or Immigration Status of Another; Fraudulent Marriage to Assist Alien to Evade Immigration Law",
+    "2L2.2": "Fraudulently Acquiring Documents Relating to Naturalization, Citizenship, or Legal Resident Status for Own Use; False Personation or Fraudulent Marriage by Alien to Evade Immigration Law; Fraudulently Acquiring or Improperly Using a United States Passport"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "marriage-fraud",
+   "crime_type": "immigration",
+   "label": "Marriage or naturalization fraud",
+   "also_called": [
+    "marriage fraud",
+    "naturalization fraud"
+   ],
+   "description": "A marriage entered into to get immigration status, or lying to become a citizen.",
+   "statutes": [
+    {
+     "citation": "8 U.S.C. § 1325(c)",
+     "guidelines": [
+      "2L2.1",
+      "2L2.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2L2.1"
+      },
+      {
+       "guideline": "2L2.2"
+      }
+     ],
+     "pdf_page": 574
+    }
+   ],
+   "guidelines": [
+    "2L2.1",
+    "2L2.2"
+   ],
+   "guideline_titles": {
+    "2L2.1": "Trafficking in a Document Relating to Naturalization, Citizenship, or Legal Resident Status, or a United States Passport; False Statement in Respect to the Citizenship or Immigration Status of Another; Fraudulent Marriage to Assist Alien to Evade Immigration Law",
+    "2L2.2": "Fraudulently Acquiring Documents Relating to Naturalization, Citizenship, or Legal Resident Status for Own Use; False Personation or Fraudulent Marriage by Alien to Evade Immigration Law; Fraudulently Acquiring or Improperly Using a United States Passport"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "money-laundering",
+   "crime_type": "money-laundering",
+   "label": "Money laundering",
+   "also_called": [
+    "money laundering",
+    "1956",
+    "washing money"
+   ],
+   "description": "Moving money that came from a crime in a way meant to hide where it came from.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1956",
+     "guidelines": [
+      "2S1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2S1.1"
+      }
+     ],
+     "pdf_page": 587
+    }
+   ],
+   "guidelines": [
+    "2S1.1"
+   ],
+   "guideline_titles": {
+    "2S1.1": "Laundering of Monetary Instruments; Engaging in Monetary Transactions in Property Derived from Unlawful Activity"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "monetary-transaction",
+   "crime_type": "money-laundering",
+   "label": "Spending criminal proceeds",
+   "also_called": [
+    "1957",
+    "monetary transaction",
+    "spending"
+   ],
+   "description": "Making a transaction over $10,000 with money you knew came from a crime.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1957",
+     "guidelines": [
+      "2S1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2S1.1"
+      }
+     ],
+     "pdf_page": 587
+    }
+   ],
+   "guidelines": [
+    "2S1.1"
+   ],
+   "guideline_titles": {
+    "2S1.1": "Laundering of Monetary Instruments; Engaging in Monetary Transactions in Property Derived from Unlawful Activity"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "structuring",
+   "crime_type": "money-laundering",
+   "label": "Breaking up cash deposits",
+   "also_called": [
+    "structuring",
+    "smurfing",
+    "5324"
+   ],
+   "description": "Splitting cash into smaller deposits to avoid the bank filing a report.",
+   "statutes": [
+    {
+     "citation": "31 U.S.C. § 5324",
+     "guidelines": [
+      "2S1.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2S1.3"
+      }
+     ],
+     "pdf_page": 594
+    }
+   ],
+   "guidelines": [
+    "2S1.3"
+   ],
+   "guideline_titles": {
+    "2S1.3": "Structuring Transactions to Evade Reporting Requirements; Failure to Report Cash or Monetary Transactions; Failure to File Currency and Monetary Instrument Report; Knowingly Filing False Reports; Bulk Cash Smuggling; Establishing or Maintaining Prohibited Accounts"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "rico",
+   "crime_type": "racketeering",
+   "label": "RICO",
+   "also_called": [
+    "RICO",
+    "racketeering",
+    "1962",
+    "enterprise"
+   ],
+   "description": "Running or helping run an organization through a pattern of criminal activity.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1962",
+     "guidelines": [
+      "2E1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2E1.1"
+      }
+     ],
+     "pdf_page": 587
+    }
+   ],
+   "guidelines": [
+    "2E1.1"
+   ],
+   "guideline_titles": {
+    "2E1.1": "Unlawful Conduct Relating to Racketeer Influenced and Corrupt Organizations"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "vicar",
+   "crime_type": "racketeering",
+   "label": "Violence for a criminal organization",
+   "also_called": [
+    "VICAR",
+    "1959",
+    "violent crime in aid of racketeering"
+   ],
+   "description": "A violent act committed to join, keep position in, or help a criminal enterprise.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1959",
+     "guidelines": [
+      "2E1.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2E1.3"
+      }
+     ],
+     "pdf_page": 587
+    }
+   ],
+   "guidelines": [
+    "2E1.3"
+   ],
+   "guideline_titles": {
+    "2E1.3": "Violent Crimes in Aid of Racketeering Activity"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "gambling-business",
+   "crime_type": "racketeering",
+   "label": "Running an illegal gambling business",
+   "also_called": [
+    "illegal gambling",
+    "bookmaking",
+    "1955"
+   ],
+   "description": "Operating a betting or gambling operation that state law prohibits.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1955",
+     "guidelines": [
+      "2E3.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2E3.1"
+      }
+     ],
+     "pdf_page": 587
+    }
+   ],
+   "guidelines": [
+    "2E3.1"
+   ],
+   "guideline_titles": {
+    "2E3.1": "Gambling Offenses; Animal Fighting Offenses"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "loansharking",
+   "crime_type": "racketeering",
+   "label": "Loansharking and collecting by threat",
+   "also_called": [
+    "loansharking",
+    "extortionate credit",
+    "894"
+   ],
+   "description": "Lending money at illegal rates, or collecting a debt by threatening someone.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 892",
+     "guidelines": [
+      "2E2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2E2.1"
+      }
+     ],
+     "pdf_page": 582
+    },
+    {
+     "citation": "18 U.S.C. § 894",
+     "guidelines": [
+      "2E2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2E2.1"
+      }
+     ],
+     "pdf_page": 582
+    }
+   ],
+   "guidelines": [
+    "2E2.1"
+   ],
+   "guideline_titles": {
+    "2E2.1": "Making or Financing an Extortionate Extension of Credit; Collecting an Extension of Credit by Extortionate Means"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "obstruction-of-justice",
+   "crime_type": "obstruction",
+   "label": "Interfering with an investigation or case",
+   "also_called": [
+    "obstruction",
+    "1503",
+    "1512",
+    "tampering"
+   ],
+   "description": "Trying to influence, block, or interfere with a case, a witness, or evidence.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1503",
+     "guidelines": [
+      "2J1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2J1.2"
+      }
+     ],
+     "pdf_page": 585
+    },
+    {
+     "citation": "18 U.S.C. § 1512(b)",
+     "guidelines": [
+      "2J1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2J1.2"
+      }
+     ],
+     "pdf_page": 585
+    },
+    {
+     "citation": "18 U.S.C. § 1512(c)",
+     "guidelines": [
+      "2J1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2J1.2"
+      }
+     ],
+     "pdf_page": 585
+    }
+   ],
+   "guidelines": [
+    "2J1.2"
+   ],
+   "guideline_titles": {
+    "2J1.2": "Obstruction of Justice"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "witness-tampering",
+   "crime_type": "obstruction",
+   "label": "Pressuring or threatening a witness",
+   "also_called": [
+    "witness tampering",
+    "1512"
+   ],
+   "description": "Trying to stop someone from testifying or reporting, or to change what they say.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1512(a)",
+     "guidelines": [
+      "2A1.1",
+      "2A1.2",
+      "2A1.3",
+      "2A2.1",
+      "2A2.2",
+      "2A2.3",
+      "2J1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A1.1"
+      },
+      {
+       "guideline": "2A1.2"
+      },
+      {
+       "guideline": "2A1.3"
+      },
+      {
+       "guideline": "2A2.1"
+      },
+      {
+       "guideline": "2A2.2"
+      },
+      {
+       "guideline": "2A2.3"
+      },
+      {
+       "guideline": "2J1.2"
+      }
+     ],
+     "pdf_page": 585
+    },
+    {
+     "citation": "18 U.S.C. § 1512(b)",
+     "guidelines": [
+      "2J1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2J1.2"
+      }
+     ],
+     "pdf_page": 585
+    },
+    {
+     "citation": "18 U.S.C. § 1512(d)",
+     "guidelines": [
+      "2J1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2J1.2"
+      }
+     ],
+     "pdf_page": 585
+    }
+   ],
+   "guidelines": [
+    "2A1.1",
+    "2A1.2",
+    "2A1.3",
+    "2A2.1",
+    "2A2.2",
+    "2A2.3",
+    "2J1.2"
+   ],
+   "guideline_titles": {
+    "2A1.1": "First Degree Murder",
+    "2A1.2": "Second Degree Murder",
+    "2A1.3": "Voluntary Manslaughter",
+    "2A2.1": "Assault with Intent to Commit Murder; Attempted Murder",
+    "2A2.2": "Aggravated Assault",
+    "2A2.3": "Assault",
+    "2J1.2": "Obstruction of Justice"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "perjury",
+   "crime_type": "obstruction",
+   "label": "Lying under oath",
+   "also_called": [
+    "perjury",
+    "1621",
+    "1623",
+    "false testimony"
+   ],
+   "description": "Giving false testimony after swearing to tell the truth.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1621",
+     "guidelines": [
+      "2J1.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2J1.3"
+      }
+     ],
+     "pdf_page": 585
+    },
+    {
+     "citation": "18 U.S.C. § 1623",
+     "guidelines": [
+      "2J1.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2J1.3"
+      }
+     ],
+     "pdf_page": 585
+    }
+   ],
+   "guidelines": [
+    "2J1.3"
+   ],
+   "guideline_titles": {
+    "2J1.3": "Perjury or Subornation of Perjury; Bribery of Witness"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "false-statements",
+   "crime_type": "obstruction",
+   "label": "Lying to a federal agent or agency",
+   "also_called": [
+    "false statements",
+    "1001",
+    "lying to the FBI"
+   ],
+   "description": "Making a false statement to a federal agency or investigator, even when you were not under oath.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1001",
+     "guidelines": [
+      "2B1.1",
+      "2J1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B1.1"
+      },
+      {
+       "guideline": "2J1.2",
+       "condition": "when the statutory maximum term of eight years’ imprisonment applies because the matter relates to international terrorism or domestic terrorism, or to sex offenses under 18 U.S.C. § 1591 or chapters 109A, 109B, 110, or 117 of title 18, United States Code"
+      }
+     ],
+     "pdf_page": 582
+    }
+   ],
+   "guidelines": [
+    "2B1.1",
+    "2J1.2"
+   ],
+   "guideline_titles": {
+    "2B1.1": "Larceny, Embezzlement, and Other Forms of Theft; Offenses Involving Stolen Property; Property Damage or Destruction; Fraud and Deceit; Forgery; Offenses Involving Altered or Counterfeit Instruments Other than Counterfeit Bearer Obligations of the United States",
+    "2J1.2": "Obstruction of Justice"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "failure-to-appear",
+   "crime_type": "obstruction",
+   "label": "Not showing up in court",
+   "also_called": [
+    "failure to appear",
+    "bail jumping",
+    "3146"
+   ],
+   "description": "Missing a required court date or violating release conditions.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 3146(b)(1)(A)",
+     "guidelines": [
+      "2J1.6"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2J1.6"
+      }
+     ],
+     "pdf_page": 590
+    },
+    {
+     "citation": "18 U.S.C. § 3146(b)(1)(B)",
+     "guidelines": [
+      "2J1.5"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2J1.5"
+      }
+     ],
+     "pdf_page": 590
+    }
+   ],
+   "guidelines": [
+    "2J1.6",
+    "2J1.5"
+   ],
+   "guideline_titles": {
+    "2J1.6": "Failure to Appear by Defendant",
+    "2J1.5": "Failure to Appear by Material Witness"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "tax-evasion",
+   "crime_type": "tax",
+   "label": "Tax evasion",
+   "also_called": [
+    "tax evasion",
+    "7201"
+   ],
+   "description": "Taking steps to avoid paying tax you owed.",
+   "statutes": [
+    {
+     "citation": "26 U.S.C. § 7201",
+     "guidelines": [
+      "2T1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2T1.1"
+      }
+     ],
+     "pdf_page": 593
+    }
+   ],
+   "guidelines": [
+    "2T1.1"
+   ],
+   "guideline_titles": {
+    "2T1.1": "Tax Evasion; Willful Failure to File Return, Supply Information, or Pay Tax; Fraudulent or False Returns, Statements, or Other Documents"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "false-return",
+   "crime_type": "tax",
+   "label": "Filing a false return",
+   "also_called": [
+    "false return",
+    "7206",
+    "filing a false tax return"
+   ],
+   "description": "Signing and filing a return you knew was wrong in a way that mattered.",
+   "statutes": [
+    {
+     "citation": "26 U.S.C. § 7206(1),(3),(4),(5)",
+     "guidelines": [
+      "2S1.3",
+      "2T1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2S1.3"
+      },
+      {
+       "guideline": "2T1.1"
+      }
+     ],
+     "pdf_page": 593
+    }
+   ],
+   "guidelines": [
+    "2S1.3",
+    "2T1.1"
+   ],
+   "guideline_titles": {
+    "2S1.3": "Structuring Transactions to Evade Reporting Requirements; Failure to Report Cash or Monetary Transactions; Failure to File Currency and Monetary Instrument Report; Knowingly Filing False Reports; Bulk Cash Smuggling; Establishing or Maintaining Prohibited Accounts",
+    "2T1.1": "Tax Evasion; Willful Failure to File Return, Supply Information, or Pay Tax; Fraudulent or False Returns, Statements, or Other Documents"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "preparer-fraud",
+   "crime_type": "tax",
+   "label": "Preparing false returns for others",
+   "also_called": [
+    "preparer fraud",
+    "7206(2)"
+   ],
+   "description": "Helping someone else file a return you knew was false.",
+   "statutes": [
+    {
+     "citation": "26 U.S.C. § 7206(2)",
+     "guidelines": [
+      "2S1.3",
+      "2T1.4"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2S1.3"
+      },
+      {
+       "guideline": "2T1.4"
+      }
+     ],
+     "pdf_page": 593
+    }
+   ],
+   "guidelines": [
+    "2S1.3",
+    "2T1.4"
+   ],
+   "guideline_titles": {
+    "2S1.3": "Structuring Transactions to Evade Reporting Requirements; Failure to Report Cash or Monetary Transactions; Failure to File Currency and Monetary Instrument Report; Knowingly Filing False Reports; Bulk Cash Smuggling; Establishing or Maintaining Prohibited Accounts",
+    "2T1.4": "Aiding, Assisting, Procuring, Counseling, or Advising Tax Fraud"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "failure-to-file",
+   "crime_type": "tax",
+   "label": "Not filing or not paying",
+   "also_called": [
+    "failure to file",
+    "7203"
+   ],
+   "description": "Not filing a required return, or not paying tax that was due.",
+   "statutes": [
+    {
+     "citation": "26 U.S.C. § 7203",
+     "guidelines": [
+      "2S1.3",
+      "2T1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2S1.3"
+      },
+      {
+       "guideline": "2T1.1"
+      }
+     ],
+     "pdf_page": 593
+    }
+   ],
+   "guidelines": [
+    "2S1.3",
+    "2T1.1"
+   ],
+   "guideline_titles": {
+    "2S1.3": "Structuring Transactions to Evade Reporting Requirements; Failure to Report Cash or Monetary Transactions; Failure to File Currency and Monetary Instrument Report; Knowingly Filing False Reports; Bulk Cash Smuggling; Establishing or Maintaining Prohibited Accounts",
+    "2T1.1": "Tax Evasion; Willful Failure to File Return, Supply Information, or Pay Tax; Fraudulent or False Returns, Statements, or Other Documents"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "payroll-tax",
+   "crime_type": "tax",
+   "label": "Not turning over payroll taxes",
+   "also_called": [
+    "payroll tax",
+    "trust fund",
+    "7202"
+   ],
+   "description": "Withholding tax from employees' pay and not sending it to the government.",
+   "statutes": [
+    {
+     "citation": "26 U.S.C. § 7202",
+     "guidelines": [
+      "2T1.6"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2T1.6"
+      }
+     ],
+     "pdf_page": 593
+    }
+   ],
+   "guidelines": [
+    "2T1.6"
+   ],
+   "guideline_titles": {
+    "2T1.6": "Failing to Collect or Truthfully Account for and Pay Over Tax"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "bribery",
+   "crime_type": "public-corruption",
+   "label": "Bribery of a public official",
+   "also_called": [
+    "bribery",
+    "201",
+    "payoff"
+   ],
+   "description": "Giving or taking something of value to influence an official act.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 201(b)(1)",
+     "guidelines": [
+      "2C1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2C1.1"
+      }
+     ],
+     "pdf_page": 578
+    },
+    {
+     "citation": "18 U.S.C. § 201(b)(2)",
+     "guidelines": [
+      "2C1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2C1.1"
+      }
+     ],
+     "pdf_page": 578
+    }
+   ],
+   "guidelines": [
+    "2C1.1"
+   ],
+   "guideline_titles": {
+    "2C1.1": "Offering, Giving, Soliciting, or Receiving a Bribe; Extortion Under Color of Official Right; Fraud Involving the Deprivation of the Intangible Right to Honest Services of Public Officials; Conspiracy to Defraud by Interference with Governmental Functions"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "gratuity",
+   "crime_type": "public-corruption",
+   "label": "Illegal gift to an official",
+   "also_called": [
+    "gratuity",
+    "201(c)"
+   ],
+   "description": "Giving or taking a gift because of an official act, without a full bribery agreement.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 201(c)(1)",
+     "guidelines": [
+      "2C1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2C1.2"
+      }
+     ],
+     "pdf_page": 578
+    }
+   ],
+   "guidelines": [
+    "2C1.2"
+   ],
+   "guideline_titles": {
+    "2C1.2": "Offering, Giving, Soliciting, or Receiving a Gratuity"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "program-bribery",
+   "crime_type": "public-corruption",
+   "label": "Bribery involving federal funds",
+   "also_called": [
+    "666",
+    "program bribery",
+    "kickback"
+   ],
+   "description": "Paying or taking a bribe at an organization or agency that gets federal money.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 666(a)(1)(B)",
+     "guidelines": [
+      "2C1.1",
+      "2C1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2C1.1"
+      },
+      {
+       "guideline": "2C1.2"
+      }
+     ],
+     "pdf_page": 580
+    },
+    {
+     "citation": "18 U.S.C. § 666(a)(2)",
+     "guidelines": [
+      "2C1.1",
+      "2C1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2C1.1"
+      },
+      {
+       "guideline": "2C1.2"
+      }
+     ],
+     "pdf_page": 580
+    }
+   ],
+   "guidelines": [
+    "2C1.1",
+    "2C1.2"
+   ],
+   "guideline_titles": {
+    "2C1.1": "Offering, Giving, Soliciting, or Receiving a Bribe; Extortion Under Color of Official Right; Fraud Involving the Deprivation of the Intangible Right to Honest Services of Public Officials; Conspiracy to Defraud by Interference with Governmental Functions",
+    "2C1.2": "Offering, Giving, Soliciting, or Receiving a Gratuity"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "extortion-under-color",
+   "crime_type": "public-corruption",
+   "label": "Extortion by an official",
+   "also_called": [
+    "extortion under color of official right",
+    "Hobbs Act extortion"
+   ],
+   "description": "A public official demanding payment in exchange for official action.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1951",
+     "guidelines": [
+      "2B3.1",
+      "2B3.2",
+      "2B3.3",
+      "2C1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2B3.1"
+      },
+      {
+       "guideline": "2B3.2"
+      },
+      {
+       "guideline": "2B3.3"
+      },
+      {
+       "guideline": "2C1.1"
+      }
+     ],
+     "pdf_page": 586
+    }
+   ],
+   "guidelines": [
+    "2B3.1",
+    "2B3.2",
+    "2B3.3",
+    "2C1.1"
+   ],
+   "guideline_titles": {
+    "2B3.1": "Robbery",
+    "2B3.2": "Extortion by Force or Threat of Injury or Serious Damage",
+    "2B3.3": "Blackmail and Similar Forms of Extortion",
+    "2C1.1": "Offering, Giving, Soliciting, or Receiving a Bribe; Extortion Under Color of Official Right; Fraud Involving the Deprivation of the Intangible Right to Honest Services of Public Officials; Conspiracy to Defraud by Interference with Governmental Functions"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "general-conspiracy",
+   "crime_type": "other",
+   "label": "Agreeing with others to commit a federal crime",
+   "also_called": [
+    "conspiracy",
+    "371",
+    "agreement"
+   ],
+   "description": "An agreement between two or more people to break a federal law, or to defraud the United States, with at least one step taken toward it.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 371",
+     "guidelines": [
+      "2A1.5",
+      "2C1.1",
+      "2K2.1",
+      "2T1.9",
+      "2X1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2A1.5"
+      },
+      {
+       "guideline": "2C1.1",
+       "condition": "if conspiracy to defraud by interference with governmental functions"
+      },
+      {
+       "guideline": "2K2.1",
+       "condition": "if a conspiracy to violate 18 U.S.C. § 924(c)"
+      },
+      {
+       "guideline": "2T1.9"
+      },
+      {
+       "guideline": "2X1.1"
+      }
+     ],
+     "pdf_page": 579
+    }
+   ],
+   "guidelines": [
+    "2A1.5",
+    "2C1.1",
+    "2K2.1",
+    "2T1.9",
+    "2X1.1"
+   ],
+   "guideline_titles": {
+    "2A1.5": "Conspiracy or Solicitation to Commit Murder",
+    "2C1.1": "Offering, Giving, Soliciting, or Receiving a Bribe; Extortion Under Color of Official Right; Fraud Involving the Deprivation of the Intangible Right to Honest Services of Public Officials; Conspiracy to Defraud by Interference with Governmental Functions",
+    "2K2.1": "Unlawful Receipt, Possession, or Transportation of Firearms or Ammunition; Prohibited Transactions Involving Firearms or Ammunition",
+    "2T1.9": "Conspiracy to Impede, Impair, Obstruct, or Defeat Tax",
+    "2X1.1": "Attempt, Solicitation, or Conspiracy (Not Covered by a Specific Offense Guideline)"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "attempt",
+   "crime_type": "other",
+   "label": "Trying to commit a crime",
+   "also_called": [
+    "attempt",
+    "solicitation"
+   ],
+   "description": "Taking real steps toward a crime that was not completed.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1349",
+     "guidelines": [
+      "2X1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2X1.1"
+      }
+     ],
+     "pdf_page": 584
+    }
+   ],
+   "guidelines": [
+    "2X1.1"
+   ],
+   "guideline_titles": {
+    "2X1.1": "Attempt, Solicitation, or Conspiracy (Not Covered by a Specific Offense Guideline)"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "accessory-after-the-fact",
+   "crime_type": "other",
+   "label": "Helping someone after their crime",
+   "also_called": [
+    "accessory after the fact",
+    "3"
+   ],
+   "description": "Helping a person avoid arrest or punishment after they committed an offense.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 3",
+     "guidelines": [
+      "2X3.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2X3.1"
+      }
+     ],
+     "pdf_page": 577
+    }
+   ],
+   "guidelines": [
+    "2X3.1"
+   ],
+   "guideline_titles": {
+    "2X3.1": "Accessory After the Fact"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "misprision",
+   "crime_type": "other",
+   "label": "Hiding a crime from the authorities",
+   "also_called": [
+    "misprision of felony",
+    "4"
+   ],
+   "description": "Knowing about a felony and actively concealing it.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 4",
+     "guidelines": [
+      "2X4.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2X4.1"
+      }
+     ],
+     "pdf_page": 577
+    }
+   ],
+   "guidelines": [
+    "2X4.1"
+   ],
+   "guideline_titles": {
+    "2X4.1": "Misprision of Felony"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "escape",
+   "crime_type": "prison",
+   "label": "Escape or walking away from custody",
+   "also_called": [
+    "escape",
+    "751",
+    "walkaway",
+    "failure to return"
+   ],
+   "description": "Leaving a prison, halfway house, or custody without permission, or not coming back when you were supposed to.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 751",
+     "guidelines": [
+      "2P1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2P1.1"
+      }
+     ],
+     "pdf_page": 581
+    }
+   ],
+   "guidelines": [
+    "2P1.1"
+   ],
+   "guideline_titles": {
+    "2P1.1": "Escape, Instigating or Assisting Escape"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "prison-contraband",
+   "crime_type": "prison",
+   "label": "Contraband in a prison",
+   "also_called": [
+    "contraband",
+    "1791",
+    "phone in prison"
+   ],
+   "description": "Bringing in, having, or passing items that are not allowed inside a correctional facility, such as a phone, drugs, or a weapon.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1791",
+     "guidelines": [
+      "2P1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2P1.2"
+      }
+     ],
+     "pdf_page": 586
+    }
+   ],
+   "guidelines": [
+    "2P1.2"
+   ],
+   "guideline_titles": {
+    "2P1.2": "Providing or Possessing Contraband in Prison"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "hate-crime",
+   "crime_type": "civil-rights",
+   "label": "Hate crime",
+   "also_called": [
+    "hate crime",
+    "249",
+    "bias crime"
+   ],
+   "description": "Hurting someone, or trying to, because of their race, religion, national origin, gender, sexual orientation, gender identity, or disability.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 249",
+     "guidelines": [
+      "2H1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2H1.1"
+      }
+     ],
+     "pdf_page": 578
+    }
+   ],
+   "guidelines": [
+    "2H1.1"
+   ],
+   "guideline_titles": {
+    "2H1.1": "Offenses Involving Individual Rights"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "civil-rights-conspiracy",
+   "crime_type": "civil-rights",
+   "label": "Conspiring against someone's rights",
+   "also_called": [
+    "241",
+    "242",
+    "color of law",
+    "deprivation of rights"
+   ],
+   "description": "Agreeing with others to interfere with a person's legal rights, or doing so while acting as an official.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 241",
+     "guidelines": [
+      "2H1.1",
+      "2H2.1",
+      "2H4.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2H1.1"
+      },
+      {
+       "guideline": "2H2.1"
+      },
+      {
+       "guideline": "2H4.1"
+      }
+     ],
+     "pdf_page": 578
+    },
+    {
+     "citation": "18 U.S.C. § 242",
+     "guidelines": [
+      "2H1.1",
+      "2H2.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2H1.1"
+      },
+      {
+       "guideline": "2H2.1"
+      }
+     ],
+     "pdf_page": 578
+    }
+   ],
+   "guidelines": [
+    "2H1.1",
+    "2H2.1",
+    "2H4.1"
+   ],
+   "guideline_titles": {
+    "2H1.1": "Offenses Involving Individual Rights",
+    "2H2.1": "Obstructing an Election or Registration",
+    "2H4.1": "Peonage, Involuntary Servitude, Slave Trade, and Child Soldiers"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "forced-labor",
+   "crime_type": "civil-rights",
+   "label": "Forced labor or involuntary servitude",
+   "also_called": [
+    "forced labor",
+    "1589",
+    "labor trafficking",
+    "peonage"
+   ],
+   "description": "Making someone work through force, threats, or by holding their documents or debt over them.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1589",
+     "guidelines": [
+      "2H4.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2H4.1"
+      }
+     ],
+     "pdf_page": 585
+    },
+    {
+     "citation": "18 U.S.C. § 1590",
+     "guidelines": [
+      "2H4.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2H4.1"
+      }
+     ],
+     "pdf_page": 585
+    }
+   ],
+   "guidelines": [
+    "2H4.1"
+   ],
+   "guideline_titles": {
+    "2H4.1": "Peonage, Involuntary Servitude, Slave Trade, and Child Soldiers"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "sanctions-export",
+   "crime_type": "national-security",
+   "label": "Sanctions and export violations",
+   "also_called": [
+    "IEEPA",
+    "sanctions",
+    "export violation",
+    "1705"
+   ],
+   "description": "Sending goods, technology, or money to a country, group, or person that United States law puts off limits.",
+   "statutes": [
+    {
+     "citation": "50 U.S.C. § 1705",
+     "guidelines": [
+      "2M5.1",
+      "2M5.2",
+      "2M5.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2M5.1"
+      },
+      {
+       "guideline": "2M5.2"
+      },
+      {
+       "guideline": "2M5.3"
+      }
+     ],
+     "pdf_page": 597
+    }
+   ],
+   "guidelines": [
+    "2M5.1",
+    "2M5.2",
+    "2M5.3"
+   ],
+   "guideline_titles": {
+    "2M5.1": "Evasion of Export Controls; Financial Transactions with Countries Supporting International Terrorism",
+    "2M5.2": "Exportation of Arms, Munitions, or Military Equipment or Services Without Required Validated Export License",
+    "2M5.3": "Providing Material Support or Resources to Designated Foreign Terrorist Organizations or Specially Designated Global Terrorists, or For a Terrorist Purpose"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "material-support",
+   "crime_type": "national-security",
+   "label": "Material support to a terrorist group",
+   "also_called": [
+    "material support",
+    "2339B",
+    "terrorism"
+   ],
+   "description": "Giving money, goods, services, or personnel to a designated terrorist organization.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 2339B",
+     "guidelines": [
+      "2M5.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2M5.3"
+      }
+     ],
+     "pdf_page": 589
+    }
+   ],
+   "guidelines": [
+    "2M5.3"
+   ],
+   "guideline_titles": {
+    "2M5.3": "Providing Material Support or Resources to Designated Foreign Terrorist Organizations or Specially Designated Global Terrorists, or For a Terrorist Purpose"
+   },
+   "multiple_guidelines": false
+  },
+  {
+   "id": "espionage",
+   "crime_type": "national-security",
+   "label": "Espionage or mishandling national defense information",
+   "also_called": [
+    "espionage",
+    "793",
+    "classified information",
+    "leaking"
+   ],
+   "description": "Gathering, keeping, or passing along national defense or classified information.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 793(a)–(c)",
+     "guidelines": [
+      "2M3.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2M3.2"
+      }
+     ],
+     "pdf_page": 581
+    },
+    {
+     "citation": "18 U.S.C. § 793(d),(e)",
+     "guidelines": [
+      "2M3.2",
+      "2M3.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2M3.2"
+      },
+      {
+       "guideline": "2M3.3"
+      }
+     ],
+     "pdf_page": 581
+    },
+    {
+     "citation": "18 U.S.C. § 793(f)",
+     "guidelines": [
+      "2M3.4"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2M3.4"
+      }
+     ],
+     "pdf_page": 581
+    }
+   ],
+   "guidelines": [
+    "2M3.2",
+    "2M3.3",
+    "2M3.4"
+   ],
+   "guideline_titles": {
+    "2M3.2": "Gathering National Defense Information",
+    "2M3.3": "Transmitting National Defense Information; Disclosure of Classified Cryptographic Information; Unauthorized Disclosure to a Foreign Government or a Communist Organization of Classified Information by Government Employee; Unauthorized Receipt of Classified Information",
+    "2M3.4": "Losing National Defense Information"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "water-pollution",
+   "crime_type": "environment",
+   "label": "Water pollution",
+   "also_called": [
+    "Clean Water Act",
+    "1319",
+    "discharge",
+    "dumping"
+   ],
+   "description": "Discharging pollutants into water without a permit or outside what a permit allowed.",
+   "statutes": [
+    {
+     "citation": "33 U.S.C. § 1319(c)(1),(2),(4)",
+     "guidelines": [
+      "2Q1.2",
+      "2Q1.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2Q1.2"
+      },
+      {
+       "guideline": "2Q1.3"
+      }
+     ],
+     "pdf_page": 594
+    },
+    {
+     "citation": "33 U.S.C. § 1319(c)(3)",
+     "guidelines": [
+      "2Q1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2Q1.1"
+      }
+     ],
+     "pdf_page": 594
+    }
+   ],
+   "guidelines": [
+    "2Q1.2",
+    "2Q1.3",
+    "2Q1.1"
+   ],
+   "guideline_titles": {
+    "2Q1.2": "Mishandling of Hazardous or Toxic Substances or Pesticides; Recordkeeping, Tampering, and Falsification; Unlawfully Transporting Hazardous Materials in Commerce",
+    "2Q1.3": "Mishandling of Other Environmental Pollutants; Recordkeeping, Tampering, and Falsification",
+    "2Q1.1": "Knowing Endangerment Resulting From Mishandling Hazardous or Toxic Substances, Pesticides or Other Pollutants"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "hazardous-waste",
+   "crime_type": "environment",
+   "label": "Hazardous waste offenses",
+   "also_called": [
+    "RCRA",
+    "6928",
+    "hazardous waste",
+    "illegal disposal"
+   ],
+   "description": "Storing, moving, or getting rid of hazardous waste outside the rules.",
+   "statutes": [
+    {
+     "citation": "42 U.S.C. § 6928(d)",
+     "guidelines": [
+      "2Q1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2Q1.2"
+      }
+     ],
+     "pdf_page": 595
+    },
+    {
+     "citation": "42 U.S.C. § 6928(e)",
+     "guidelines": [
+      "2Q1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2Q1.1"
+      }
+     ],
+     "pdf_page": 595
+    }
+   ],
+   "guidelines": [
+    "2Q1.2",
+    "2Q1.1"
+   ],
+   "guideline_titles": {
+    "2Q1.2": "Mishandling of Hazardous or Toxic Substances or Pesticides; Recordkeeping, Tampering, and Falsification; Unlawfully Transporting Hazardous Materials in Commerce",
+    "2Q1.1": "Knowing Endangerment Resulting From Mishandling Hazardous or Toxic Substances, Pesticides or Other Pollutants"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "product-tampering",
+   "crime_type": "consumer-products",
+   "label": "Tampering with a consumer product",
+   "also_called": [
+    "tampering",
+    "1365",
+    "product tampering"
+   ],
+   "description": "Interfering with food, medicine, or another consumer product, or threatening to.",
+   "statutes": [
+    {
+     "citation": "18 U.S.C. § 1365(a)",
+     "guidelines": [
+      "2N1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2N1.1"
+      }
+     ],
+     "pdf_page": 584
+    },
+    {
+     "citation": "18 U.S.C. § 1365(b)",
+     "guidelines": [
+      "2N1.3"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2N1.3"
+      }
+     ],
+     "pdf_page": 584
+    },
+    {
+     "citation": "18 U.S.C. § 1365(c)",
+     "guidelines": [
+      "2N1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2N1.2"
+      }
+     ],
+     "pdf_page": 584
+    },
+    {
+     "citation": "18 U.S.C. § 1365(d)",
+     "guidelines": [
+      "2N1.2"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2N1.2"
+      }
+     ],
+     "pdf_page": 584
+    },
+    {
+     "citation": "18 U.S.C. § 1365(e)",
+     "guidelines": [
+      "2N1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2N1.1"
+      }
+     ],
+     "pdf_page": 584
+    }
+   ],
+   "guidelines": [
+    "2N1.1",
+    "2N1.3",
+    "2N1.2"
+   ],
+   "guideline_titles": {
+    "2N1.1": "Tampering or Attempting to Tamper Involving Risk of Death or Bodily Injury",
+    "2N1.3": "Tampering With Intent to Injure Business",
+    "2N1.2": "Providing False Information or Threatening to Tamper with Consumer Products"
+   },
+   "multiple_guidelines": true
+  },
+  {
+   "id": "price-fixing",
+   "crime_type": "antitrust",
+   "label": "Price fixing or bid rigging",
+   "also_called": [
+    "price fixing",
+    "bid rigging",
+    "Sherman Act",
+    "market allocation"
+   ],
+   "description": "Agreeing with competitors to set prices, split up customers or territory, or decide who wins a bid.",
+   "statutes": [
+    {
+     "citation": "15 U.S.C. § 1",
+     "guidelines": [
+      "2R1.1"
+     ],
+     "guideline_refs": [
+      {
+       "guideline": "2R1.1"
+      }
+     ],
+     "pdf_page": 574
+    }
+   ],
+   "guidelines": [
+    "2R1.1"
+   ],
+   "guideline_titles": {
+    "2R1.1": "Bid-Rigging, Price -Fixing or Market -Allocation Agreements Among Competitors"
+   },
+   "multiple_guidelines": false
+  }
+ ]
+}

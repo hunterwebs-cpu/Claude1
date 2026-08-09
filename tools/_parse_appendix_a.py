@@ -8,7 +8,7 @@ introduction as well as the first index entries.
 Every field is transcribed from the PDF. Nothing is inferred. Blocks that do not
 match the expected shape are emitted to the `unparsed` list rather than guessed at.
 
-Usage: python3 tools/parse_appendix_a.py <pagedump_dir> <out.json>
+Usage: python3 tools/_parse_appendix_a.py <pagedump_dir> <out.json>
 """
 import sys, os, json, re
 

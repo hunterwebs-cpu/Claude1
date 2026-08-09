@@ -1,0 +1,5576 @@
+{
+ "manual_edition": "November 1, 2024",
+ "source": "United States Sentencing Commission, Guidelines Manual, effective November 1, 2024",
+ "source_document": "USSC Guidelines Manual (November 1, 2024), 620pp PDF",
+ "generated_by": "tools/ in this repository; see tools/_verify.py for the verification that accompanies each build",
+ "disclaimer": "Reference data transcribed from the United States Sentencing Guidelines Manual. It is not legal advice, it does not account for Chapter Three or Chapter Four adjustments, criminal history, statutory mandatory minimums, or departures and variances, and it must not be relied on to make a decision about a case. Talk to a lawyer.",
+ "part": "§2D1.1(c) Drug Quantity Table and §2D1.1 comment. (n.8(D)) Drug Conversion Tables",
+ "counts": {
+  "quantity_table_levels": 17,
+  "quantity_table_rows": 258,
+  "quantity_table_measures": 314,
+  "quantity_table_substances": 23,
+  "conversion_tables": 15,
+  "conversion_rows": 84,
+  "conversion_substances": 84
+ },
+ "not_in_the_quantity_table": {
+  "note": "The Drug Quantity Table does not name these substances. They are handled by converting to Converted Drug Weight using the conversion tables, and then reading the Converted Drug Weight row of the quantity table.",
+  "examples": [
+   "Oxycodone",
+   "Hydrocodone",
+   "MDMA / ecstasy",
+   "Morphine",
+   "Codeine",
+   "Methadone",
+   "Psilocybin mushrooms",
+   "GHB",
+   "Synthetic cannabinoids"
+  ]
+ },
+ "drug_quantity_table": {
+  "guideline": "2D1.1",
+  "subsection": "(c)",
+  "pdf_pages": [
+   160,
+   166
+  ],
+  "levels": [
+   {
+    "group": 1,
+    "level": 38,
+    "pdf_page": 160,
+    "rows": [
+     {
+      "printed": "90 KG or more of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "90 KG or more of Heroin",
+        "min": "90",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 90000.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "450 KG or more of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "450 KG or more of Cocaine",
+        "min": "450",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 450000.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "25.2 KG or more of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "25.2 KG or more of Cocaine Base",
+        "min": "25.2",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 25200.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "90 KG or more of PCP, or 9 KG or more of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "90 KG or more of PCP",
+        "min": "90",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 90000.0,
+        "max_grams": null
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "9 KG or more of PCP (actual)",
+        "min": "9",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 9000.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "45 KG or more of Methamphetamine, or 4.5 KG or more of Methamphetamine (actual), or 4.5 KG or more of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "45 KG or more of Methamphetamine",
+        "min": "45",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 45000.0,
+        "max_grams": null
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "4.5 KG or more of Methamphetamine (actual)",
+        "min": "4.5",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 4500.0,
+        "max_grams": null
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "4.5 KG or more of “Ice”",
+        "min": "4.5",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 4500.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "45 KG or more of Amphetamine, or 4.5 KG or more of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "45 KG or more of Amphetamine",
+        "min": "45",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 45000.0,
+        "max_grams": null
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "4.5 KG or more of Amphetamine (actual)",
+        "min": "4.5",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 4500.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "900 G or more of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "900 G or more of LSD",
+        "min": "900",
+        "min_unit": "G",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 900.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "36 KG or more of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "36 KG or more of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "36",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 36000.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "9 KG or more of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "9 KG or more of a Fentanyl Analogue",
+        "min": "9",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 9000.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "90,000 KG or more of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "90,000 KG or more of Marihuana",
+        "min": "90,000",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 90000000.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "18,000 KG or more of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "18,000 KG or more of Hashish",
+        "min": "18,000",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 18000000.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "1,800 KG or more of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "1,800 KG or more of Hashish Oil",
+        "min": "1,800",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 1800000.0,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "90,000,000 units or more of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "90,000,000 units or more of Ketamine",
+        "min": "90,000,000",
+        "min_unit": "units",
+        "max": null,
+        "max_unit": null,
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "90,000,000 units or more of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "90,000,000 units or more of Schedule I or II Depressants",
+        "min": "90,000,000",
+        "min_unit": "units",
+        "max": null,
+        "max_unit": null,
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "5,625,000 units or more of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "5,625,000 units or more of Flunitrazepam",
+        "min": "5,625,000",
+        "min_unit": "units",
+        "max": null,
+        "max_unit": null,
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "90,000 KG or more of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "90,000 KG or more of Converted Drug Weight",
+        "min": "90,000",
+        "min_unit": "KG",
+        "max": null,
+        "max_unit": null,
+        "min_grams": 90000000.0,
+        "max_grams": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 2,
+    "level": 36,
+    "pdf_page": 160,
+    "rows": [
+     {
+      "printed": "At least 30 KG but less than 90 KG of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 30 KG but less than 90 KG of Heroin",
+        "min": "30",
+        "min_unit": "KG",
+        "max": "90",
+        "max_unit": "KG",
+        "min_grams": 30000.0,
+        "max_grams": 90000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 150 KG but less than 450 KG of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 150 KG but less than 450 KG of Cocaine",
+        "min": "150",
+        "min_unit": "KG",
+        "max": "450",
+        "max_unit": "KG",
+        "min_grams": 150000.0,
+        "max_grams": 450000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 8.4 KG but less than 25.2 KG of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 8.4 KG but less than 25.2 KG of Cocaine Base",
+        "min": "8.4",
+        "min_unit": "KG",
+        "max": "25.2",
+        "max_unit": "KG",
+        "min_grams": 8400.0,
+        "max_grams": 25200.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 30 KG but less than 90 KG of PCP, or at least 3 KG but less than 9 KG of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 30 KG but less than 90 KG of PCP",
+        "min": "30",
+        "min_unit": "KG",
+        "max": "90",
+        "max_unit": "KG",
+        "min_grams": 30000.0,
+        "max_grams": 90000.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 3 KG but less than 9 KG of PCP (actual)",
+        "min": "3",
+        "min_unit": "KG",
+        "max": "9",
+        "max_unit": "KG",
+        "min_grams": 3000.0,
+        "max_grams": 9000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 15 KG but less than 45 KG of Methamphetamine, or at least 1.5 KG but less than 4.5 KG of Methamphetamine (actual), or at least 1.5 KG but less than 4.5 KG of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 15 KG but less than 45 KG of Methamphetamine",
+        "min": "15",
+        "min_unit": "KG",
+        "max": "45",
+        "max_unit": "KG",
+        "min_grams": 15000.0,
+        "max_grams": 45000.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 1.5 KG but less than 4.5 KG of Methamphetamine (actual)",
+        "min": "1.5",
+        "min_unit": "KG",
+        "max": "4.5",
+        "max_unit": "KG",
+        "min_grams": 1500.0,
+        "max_grams": 4500.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 1.5 KG but less than 4.5 KG of “Ice”",
+        "min": "1.5",
+        "min_unit": "KG",
+        "max": "4.5",
+        "max_unit": "KG",
+        "min_grams": 1500.0,
+        "max_grams": 4500.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 15 KG but less than 45 KG of Amphetamine, or at least 1.5 KG but less than 4.5 KG of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 15 KG but less than 45 KG of Amphetamine",
+        "min": "15",
+        "min_unit": "KG",
+        "max": "45",
+        "max_unit": "KG",
+        "min_grams": 15000.0,
+        "max_grams": 45000.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 1.5 KG but less than 4.5 KG of Amphetamine (actual)",
+        "min": "1.5",
+        "min_unit": "KG",
+        "max": "4.5",
+        "max_unit": "KG",
+        "min_grams": 1500.0,
+        "max_grams": 4500.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 300 G but less than 900 G of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 300 G but less than 900 G of LSD",
+        "min": "300",
+        "min_unit": "G",
+        "max": "900",
+        "max_unit": "G",
+        "min_grams": 300.0,
+        "max_grams": 900.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 12 KG but less than 36 KG of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 12 KG but less than 36 KG of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "12",
+        "min_unit": "KG",
+        "max": "36",
+        "max_unit": "KG",
+        "min_grams": 12000.0,
+        "max_grams": 36000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 3 KG but less than 9 KG of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 3 KG but less than 9 KG of a Fentanyl Analogue",
+        "min": "3",
+        "min_unit": "KG",
+        "max": "9",
+        "max_unit": "KG",
+        "min_grams": 3000.0,
+        "max_grams": 9000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 30,000 KG but less than 90,000 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 30,000 KG but less than 90,000 KG of Marihuana",
+        "min": "30,000",
+        "min_unit": "KG",
+        "max": "90,000",
+        "max_unit": "KG",
+        "min_grams": 30000000.0,
+        "max_grams": 90000000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 6,000 KG but less than 18,000 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 6,000 KG but less than 18,000 KG of Hashish",
+        "min": "6,000",
+        "min_unit": "KG",
+        "max": "18,000",
+        "max_unit": "KG",
+        "min_grams": 6000000.0,
+        "max_grams": 18000000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 600 KG but less than 1,800 KG of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 600 KG but less than 1,800 KG of Hashish Oil",
+        "min": "600",
+        "min_unit": "KG",
+        "max": "1,800",
+        "max_unit": "KG",
+        "min_grams": 600000.0,
+        "max_grams": 1800000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 30,000,000 units but less than 90,000,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 30,000,000 units but less than 90,000,000 units of Ketamine",
+        "min": "30,000,000",
+        "min_unit": "units",
+        "max": "90,000,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 30,000,000 units but less than 90,000,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 30,000,000 units but less than 90,000,000 units of Schedule I or II Depressants",
+        "min": "30,000,000",
+        "min_unit": "units",
+        "max": "90,000,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 1,875,000 units but less than 5,625,000 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 1,875,000 units but less than 5,625,000 units of Flunitrazepam",
+        "min": "1,875,000",
+        "min_unit": "units",
+        "max": "5,625,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 30,000 KG but less than 90,000 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 30,000 KG but less than 90,000 KG of Converted Drug Weight",
+        "min": "30,000",
+        "min_unit": "KG",
+        "max": "90,000",
+        "max_unit": "KG",
+        "min_grams": 30000000.0,
+        "max_grams": 90000000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 3,
+    "level": 34,
+    "pdf_page": 160,
+    "rows": [
+     {
+      "printed": "At least 10 KG but less than 30 KG of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 10 KG but less than 30 KG of Heroin",
+        "min": "10",
+        "min_unit": "KG",
+        "max": "30",
+        "max_unit": "KG",
+        "min_grams": 10000.0,
+        "max_grams": 30000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 50 KG but less than 150 KG of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 50 KG but less than 150 KG of Cocaine",
+        "min": "50",
+        "min_unit": "KG",
+        "max": "150",
+        "max_unit": "KG",
+        "min_grams": 50000.0,
+        "max_grams": 150000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 2.8 KG but less than 8.4 KG of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 2.8 KG but less than 8.4 KG of Cocaine Base",
+        "min": "2.8",
+        "min_unit": "KG",
+        "max": "8.4",
+        "max_unit": "KG",
+        "min_grams": 2800.0,
+        "max_grams": 8400.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 10 KG but less than 30 KG of PCP, or at least 1 KG but less than 3 KG of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 10 KG but less than 30 KG of PCP",
+        "min": "10",
+        "min_unit": "KG",
+        "max": "30",
+        "max_unit": "KG",
+        "min_grams": 10000.0,
+        "max_grams": 30000.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 1 KG but less than 3 KG of PCP (actual)",
+        "min": "1",
+        "min_unit": "KG",
+        "max": "3",
+        "max_unit": "KG",
+        "min_grams": 1000.0,
+        "max_grams": 3000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 5 KG but less than 15 KG of Methamphetamine, or at least 500 G but less than 1.5 KG of Methamphetamine (actual), or at least 500 G but less than 1.5 KG of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 5 KG but less than 15 KG of Methamphetamine",
+        "min": "5",
+        "min_unit": "KG",
+        "max": "15",
+        "max_unit": "KG",
+        "min_grams": 5000.0,
+        "max_grams": 15000.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 500 G but less than 1.5 KG of Methamphetamine (actual)",
+        "min": "500",
+        "min_unit": "G",
+        "max": "1.5",
+        "max_unit": "KG",
+        "min_grams": 500.0,
+        "max_grams": 1500.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 500 G but less than 1.5 KG of “Ice”",
+        "min": "500",
+        "min_unit": "G",
+        "max": "1.5",
+        "max_unit": "KG",
+        "min_grams": 500.0,
+        "max_grams": 1500.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 5 KG but less than 15 KG of Amphetamine, or at least 500 G but less than 1.5 KG of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 5 KG but less than 15 KG of Amphetamine",
+        "min": "5",
+        "min_unit": "KG",
+        "max": "15",
+        "max_unit": "KG",
+        "min_grams": 5000.0,
+        "max_grams": 15000.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 500 G but less than 1.5 KG of Amphetamine (actual)",
+        "min": "500",
+        "min_unit": "G",
+        "max": "1.5",
+        "max_unit": "KG",
+        "min_grams": 500.0,
+        "max_grams": 1500.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 100 G but less than 300 G of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 100 G but less than 300 G of LSD",
+        "min": "100",
+        "min_unit": "G",
+        "max": "300",
+        "max_unit": "G",
+        "min_grams": 100.0,
+        "max_grams": 300.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 4 KG but less than 12 KG of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 4 KG but less than 12 KG of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "4",
+        "min_unit": "KG",
+        "max": "12",
+        "max_unit": "KG",
+        "min_grams": 4000.0,
+        "max_grams": 12000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1 KG but less than 3 KG of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 1 KG but less than 3 KG of a Fentanyl Analogue",
+        "min": "1",
+        "min_unit": "KG",
+        "max": "3",
+        "max_unit": "KG",
+        "min_grams": 1000.0,
+        "max_grams": 3000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 10,000 KG but less than 30,000 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 10,000 KG but less than 30,000 KG of Marihuana",
+        "min": "10,000",
+        "min_unit": "KG",
+        "max": "30,000",
+        "max_unit": "KG",
+        "min_grams": 10000000.0,
+        "max_grams": 30000000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 2,000 KG but less than 6,000 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 2,000 KG but less than 6,000 KG of Hashish",
+        "min": "2,000",
+        "min_unit": "KG",
+        "max": "6,000",
+        "max_unit": "KG",
+        "min_grams": 2000000.0,
+        "max_grams": 6000000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 200 KG but less than 600 KG of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 200 KG but less than 600 KG of Hashish Oil",
+        "min": "200",
+        "min_unit": "KG",
+        "max": "600",
+        "max_unit": "KG",
+        "min_grams": 200000.0,
+        "max_grams": 600000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 10,000,000 but less than 30,000,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 10,000,000 but less than 30,000,000 units of Ketamine",
+        "min": "10,000,000",
+        "min_unit": "units",
+        "max": "30,000,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 10,000,000 but less than 30,000,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 10,000,000 but less than 30,000,000 units of Schedule I or II Depressants",
+        "min": "10,000,000",
+        "min_unit": "units",
+        "max": "30,000,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 625,000 but less than 1,875,000 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 625,000 but less than 1,875,000 units of Flunitrazepam",
+        "min": "625,000",
+        "min_unit": "units",
+        "max": "1,875,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 10,000 KG but less than 30,000 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 10,000 KG but less than 30,000 KG of Converted Drug Weight",
+        "min": "10,000",
+        "min_unit": "KG",
+        "max": "30,000",
+        "max_unit": "KG",
+        "min_grams": 10000000.0,
+        "max_grams": 30000000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 4,
+    "level": 32,
+    "pdf_page": 161,
+    "rows": [
+     {
+      "printed": "At least 3 KG but less than 10 KG of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 3 KG but less than 10 KG of Heroin",
+        "min": "3",
+        "min_unit": "KG",
+        "max": "10",
+        "max_unit": "KG",
+        "min_grams": 3000.0,
+        "max_grams": 10000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 15 KG but less than 50 KG of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 15 KG but less than 50 KG of Cocaine",
+        "min": "15",
+        "min_unit": "KG",
+        "max": "50",
+        "max_unit": "KG",
+        "min_grams": 15000.0,
+        "max_grams": 50000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 840 G but less than 2.8 KG of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 840 G but less than 2.8 KG of Cocaine Base",
+        "min": "840",
+        "min_unit": "G",
+        "max": "2.8",
+        "max_unit": "KG",
+        "min_grams": 840.0,
+        "max_grams": 2800.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 3 KG but less than 10 KG of PCP, or at least 300 G but less than 1 KG of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 3 KG but less than 10 KG of PCP",
+        "min": "3",
+        "min_unit": "KG",
+        "max": "10",
+        "max_unit": "KG",
+        "min_grams": 3000.0,
+        "max_grams": 10000.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 300 G but less than 1 KG of PCP (actual)",
+        "min": "300",
+        "min_unit": "G",
+        "max": "1",
+        "max_unit": "KG",
+        "min_grams": 300.0,
+        "max_grams": 1000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1.5 KG but less than 5 KG of Methamphetamine, or at least 150 G but less than 500 G of Methamphetamine (actual), or at least 150 G but less than 500 G of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 1.5 KG but less than 5 KG of Methamphetamine",
+        "min": "1.5",
+        "min_unit": "KG",
+        "max": "5",
+        "max_unit": "KG",
+        "min_grams": 1500.0,
+        "max_grams": 5000.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 150 G but less than 500 G of Methamphetamine (actual)",
+        "min": "150",
+        "min_unit": "G",
+        "max": "500",
+        "max_unit": "G",
+        "min_grams": 150.0,
+        "max_grams": 500.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 150 G but less than 500 G of “Ice”",
+        "min": "150",
+        "min_unit": "G",
+        "max": "500",
+        "max_unit": "G",
+        "min_grams": 150.0,
+        "max_grams": 500.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1.5 KG but less than 5 KG of Amphetamine, or at least 150 G but less than 500 G of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 1.5 KG but less than 5 KG of Amphetamine",
+        "min": "1.5",
+        "min_unit": "KG",
+        "max": "5",
+        "max_unit": "KG",
+        "min_grams": 1500.0,
+        "max_grams": 5000.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 150 G but less than 500 G of Amphetamine (actual)",
+        "min": "150",
+        "min_unit": "G",
+        "max": "500",
+        "max_unit": "G",
+        "min_grams": 150.0,
+        "max_grams": 500.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 30 G but less than 100 G of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 30 G but less than 100 G of LSD",
+        "min": "30",
+        "min_unit": "G",
+        "max": "100",
+        "max_unit": "G",
+        "min_grams": 30.0,
+        "max_grams": 100.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1.2 KG but less than 4 KG of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 1.2 KG but less than 4 KG of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "1.2",
+        "min_unit": "KG",
+        "max": "4",
+        "max_unit": "KG",
+        "min_grams": 1200.0,
+        "max_grams": 4000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 300 G but less than 1 KG of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 300 G but less than 1 KG of a Fentanyl Analogue",
+        "min": "300",
+        "min_unit": "G",
+        "max": "1",
+        "max_unit": "KG",
+        "min_grams": 300.0,
+        "max_grams": 1000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 3,000 KG but less than 10,000 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 3,000 KG but less than 10,000 KG of Marihuana",
+        "min": "3,000",
+        "min_unit": "KG",
+        "max": "10,000",
+        "max_unit": "KG",
+        "min_grams": 3000000.0,
+        "max_grams": 10000000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 600 KG but less than 2,000 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 600 KG but less than 2,000 KG of Hashish",
+        "min": "600",
+        "min_unit": "KG",
+        "max": "2,000",
+        "max_unit": "KG",
+        "min_grams": 600000.0,
+        "max_grams": 2000000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 60 KG but less than 200 KG of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 60 KG but less than 200 KG of Hashish Oil",
+        "min": "60",
+        "min_unit": "KG",
+        "max": "200",
+        "max_unit": "KG",
+        "min_grams": 60000.0,
+        "max_grams": 200000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 3,000,000 but less than 10,000,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 3,000,000 but less than 10,000,000 units of Ketamine",
+        "min": "3,000,000",
+        "min_unit": "units",
+        "max": "10,000,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 3,000,000 but less than 10,000,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 3,000,000 but less than 10,000,000 units of Schedule I or II Depressants",
+        "min": "3,000,000",
+        "min_unit": "units",
+        "max": "10,000,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 187,500 but less than 625,000 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 187,500 but less than 625,000 units of Flunitrazepam",
+        "min": "187,500",
+        "min_unit": "units",
+        "max": "625,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 3,000 KG but less than 10,000 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 3,000 KG but less than 10,000 KG of Converted Drug Weight",
+        "min": "3,000",
+        "min_unit": "KG",
+        "max": "10,000",
+        "max_unit": "KG",
+        "min_grams": 3000000.0,
+        "max_grams": 10000000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 5,
+    "level": 30,
+    "pdf_page": 161,
+    "rows": [
+     {
+      "printed": "At least 1 KG but less than 3 KG of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 1 KG but less than 3 KG of Heroin",
+        "min": "1",
+        "min_unit": "KG",
+        "max": "3",
+        "max_unit": "KG",
+        "min_grams": 1000.0,
+        "max_grams": 3000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 5 KG but less than 15 KG of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 5 KG but less than 15 KG of Cocaine",
+        "min": "5",
+        "min_unit": "KG",
+        "max": "15",
+        "max_unit": "KG",
+        "min_grams": 5000.0,
+        "max_grams": 15000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 280 G but less than 840 G of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 280 G but less than 840 G of Cocaine Base",
+        "min": "280",
+        "min_unit": "G",
+        "max": "840",
+        "max_unit": "G",
+        "min_grams": 280.0,
+        "max_grams": 840.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1 KG but less than 3 KG of PCP, or at least 100 G but less than 300 G of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 1 KG but less than 3 KG of PCP",
+        "min": "1",
+        "min_unit": "KG",
+        "max": "3",
+        "max_unit": "KG",
+        "min_grams": 1000.0,
+        "max_grams": 3000.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 100 G but less than 300 G of PCP (actual)",
+        "min": "100",
+        "min_unit": "G",
+        "max": "300",
+        "max_unit": "G",
+        "min_grams": 100.0,
+        "max_grams": 300.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 500 G but less than 1.5 KG of Methamphetamine, or at least 50 G but less than 150 G of Methamphetamine (actual), or at least 50 G but less than 150 G of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 500 G but less than 1.5 KG of Methamphetamine",
+        "min": "500",
+        "min_unit": "G",
+        "max": "1.5",
+        "max_unit": "KG",
+        "min_grams": 500.0,
+        "max_grams": 1500.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 50 G but less than 150 G of Methamphetamine (actual)",
+        "min": "50",
+        "min_unit": "G",
+        "max": "150",
+        "max_unit": "G",
+        "min_grams": 50.0,
+        "max_grams": 150.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 50 G but less than 150 G of “Ice”",
+        "min": "50",
+        "min_unit": "G",
+        "max": "150",
+        "max_unit": "G",
+        "min_grams": 50.0,
+        "max_grams": 150.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 500 G but less than 1.5 KG of Amphetamine, or at least 50 G but less than 150 G of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 500 G but less than 1.5 KG of Amphetamine",
+        "min": "500",
+        "min_unit": "G",
+        "max": "1.5",
+        "max_unit": "KG",
+        "min_grams": 500.0,
+        "max_grams": 1500.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 50 G but less than 150 G of Amphetamine (actual)",
+        "min": "50",
+        "min_unit": "G",
+        "max": "150",
+        "max_unit": "G",
+        "min_grams": 50.0,
+        "max_grams": 150.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 10 G but less than 30 G of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 10 G but less than 30 G of LSD",
+        "min": "10",
+        "min_unit": "G",
+        "max": "30",
+        "max_unit": "G",
+        "min_grams": 10.0,
+        "max_grams": 30.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 400 G but less than 1.2 KG of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 400 G but less than 1.2 KG of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "400",
+        "min_unit": "G",
+        "max": "1.2",
+        "max_unit": "KG",
+        "min_grams": 400.0,
+        "max_grams": 1200.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 100 G but less than 300 G of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 100 G but less than 300 G of a Fentanyl Analogue",
+        "min": "100",
+        "min_unit": "G",
+        "max": "300",
+        "max_unit": "G",
+        "min_grams": 100.0,
+        "max_grams": 300.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1,000 KG but less than 3,000 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 1,000 KG but less than 3,000 KG of Marihuana",
+        "min": "1,000",
+        "min_unit": "KG",
+        "max": "3,000",
+        "max_unit": "KG",
+        "min_grams": 1000000.0,
+        "max_grams": 3000000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 200 KG but less than 600 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 200 KG but less than 600 KG of Hashish",
+        "min": "200",
+        "min_unit": "KG",
+        "max": "600",
+        "max_unit": "KG",
+        "min_grams": 200000.0,
+        "max_grams": 600000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 20 KG but less than 60 KG of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 20 KG but less than 60 KG of Hashish Oil",
+        "min": "20",
+        "min_unit": "KG",
+        "max": "60",
+        "max_unit": "KG",
+        "min_grams": 20000.0,
+        "max_grams": 60000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1,000,000 but less than 3,000,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 1,000,000 but less than 3,000,000 units of Ketamine",
+        "min": "1,000,000",
+        "min_unit": "units",
+        "max": "3,000,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 1,000,000 but less than 3,000,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 1,000,000 but less than 3,000,000 units of Schedule I or II Depressants",
+        "min": "1,000,000",
+        "min_unit": "units",
+        "max": "3,000,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 62,500 but less than 187,500 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 62,500 but less than 187,500 units of Flunitrazepam",
+        "min": "62,500",
+        "min_unit": "units",
+        "max": "187,500",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 1,000 KG but less than 3,000 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 1,000 KG but less than 3,000 KG of Converted Drug Weight",
+        "min": "1,000",
+        "min_unit": "KG",
+        "max": "3,000",
+        "max_unit": "KG",
+        "min_grams": 1000000.0,
+        "max_grams": 3000000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 6,
+    "level": 28,
+    "pdf_page": 162,
+    "rows": [
+     {
+      "printed": "At least 700 G but less than 1 KG of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 700 G but less than 1 KG of Heroin",
+        "min": "700",
+        "min_unit": "G",
+        "max": "1",
+        "max_unit": "KG",
+        "min_grams": 700.0,
+        "max_grams": 1000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 3.5 KG but less than 5 KG of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 3.5 KG but less than 5 KG of Cocaine",
+        "min": "3.5",
+        "min_unit": "KG",
+        "max": "5",
+        "max_unit": "KG",
+        "min_grams": 3500.0,
+        "max_grams": 5000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 196 G but less than 280 G of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 196 G but less than 280 G of Cocaine Base",
+        "min": "196",
+        "min_unit": "G",
+        "max": "280",
+        "max_unit": "G",
+        "min_grams": 196.0,
+        "max_grams": 280.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 700 G but less than 1 KG of PCP, or at least 70 G but less than 100 G of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 700 G but less than 1 KG of PCP",
+        "min": "700",
+        "min_unit": "G",
+        "max": "1",
+        "max_unit": "KG",
+        "min_grams": 700.0,
+        "max_grams": 1000.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 70 G but less than 100 G of PCP (actual)",
+        "min": "70",
+        "min_unit": "G",
+        "max": "100",
+        "max_unit": "G",
+        "min_grams": 70.0,
+        "max_grams": 100.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 350 G but less than 500 G of Methamphetamine, or at least 35 G but less than 50 G of Methamphetamine (actual), or at least 35 G but less than 50 G of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 350 G but less than 500 G of Methamphetamine",
+        "min": "350",
+        "min_unit": "G",
+        "max": "500",
+        "max_unit": "G",
+        "min_grams": 350.0,
+        "max_grams": 500.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 35 G but less than 50 G of Methamphetamine (actual)",
+        "min": "35",
+        "min_unit": "G",
+        "max": "50",
+        "max_unit": "G",
+        "min_grams": 35.0,
+        "max_grams": 50.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 35 G but less than 50 G of “Ice”",
+        "min": "35",
+        "min_unit": "G",
+        "max": "50",
+        "max_unit": "G",
+        "min_grams": 35.0,
+        "max_grams": 50.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 350 G but less than 500 G of Amphetamine, or at least 35 G but less than 50 G of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 350 G but less than 500 G of Amphetamine",
+        "min": "350",
+        "min_unit": "G",
+        "max": "500",
+        "max_unit": "G",
+        "min_grams": 350.0,
+        "max_grams": 500.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 35 G but less than 50 G of Amphetamine (actual)",
+        "min": "35",
+        "min_unit": "G",
+        "max": "50",
+        "max_unit": "G",
+        "min_grams": 35.0,
+        "max_grams": 50.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 7 G but less than 10 G of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 7 G but less than 10 G of LSD",
+        "min": "7",
+        "min_unit": "G",
+        "max": "10",
+        "max_unit": "G",
+        "min_grams": 7.0,
+        "max_grams": 10.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 280 G but less than 400 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 280 G but less than 400 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "280",
+        "min_unit": "G",
+        "max": "400",
+        "max_unit": "G",
+        "min_grams": 280.0,
+        "max_grams": 400.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 70 G but less than 100 G of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 70 G but less than 100 G of a Fentanyl Analogue",
+        "min": "70",
+        "min_unit": "G",
+        "max": "100",
+        "max_unit": "G",
+        "min_grams": 70.0,
+        "max_grams": 100.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 700 KG but less than 1,000 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 700 KG but less than 1,000 KG of Marihuana",
+        "min": "700",
+        "min_unit": "KG",
+        "max": "1,000",
+        "max_unit": "KG",
+        "min_grams": 700000.0,
+        "max_grams": 1000000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 140 KG but less than 200 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 140 KG but less than 200 KG of Hashish",
+        "min": "140",
+        "min_unit": "KG",
+        "max": "200",
+        "max_unit": "KG",
+        "min_grams": 140000.0,
+        "max_grams": 200000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 14 KG but less than 20 KG of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 14 KG but less than 20 KG of Hashish Oil",
+        "min": "14",
+        "min_unit": "KG",
+        "max": "20",
+        "max_unit": "KG",
+        "min_grams": 14000.0,
+        "max_grams": 20000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 700,000 but less than 1,000,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 700,000 but less than 1,000,000 units of Ketamine",
+        "min": "700,000",
+        "min_unit": "units",
+        "max": "1,000,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 700,000 but less than 1,000,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 700,000 but less than 1,000,000 units of Schedule I or II Depressants",
+        "min": "700,000",
+        "min_unit": "units",
+        "max": "1,000,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 43,750 but less than 62,500 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 43,750 but less than 62,500 units of Flunitrazepam",
+        "min": "43,750",
+        "min_unit": "units",
+        "max": "62,500",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 700 KG but less than 1,000 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 700 KG but less than 1,000 KG of Converted Drug Weight",
+        "min": "700",
+        "min_unit": "KG",
+        "max": "1,000",
+        "max_unit": "KG",
+        "min_grams": 700000.0,
+        "max_grams": 1000000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 7,
+    "level": 26,
+    "pdf_page": 162,
+    "rows": [
+     {
+      "printed": "At least 400 G but less than 700 G of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 400 G but less than 700 G of Heroin",
+        "min": "400",
+        "min_unit": "G",
+        "max": "700",
+        "max_unit": "G",
+        "min_grams": 400.0,
+        "max_grams": 700.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 2 KG but less than 3.5 KG of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 2 KG but less than 3.5 KG of Cocaine",
+        "min": "2",
+        "min_unit": "KG",
+        "max": "3.5",
+        "max_unit": "KG",
+        "min_grams": 2000.0,
+        "max_grams": 3500.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 112 G but less than 196 G of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 112 G but less than 196 G of Cocaine Base",
+        "min": "112",
+        "min_unit": "G",
+        "max": "196",
+        "max_unit": "G",
+        "min_grams": 112.0,
+        "max_grams": 196.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 400 G but less than 700 G of PCP, or at least 40 G but less than 70 G of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 400 G but less than 700 G of PCP",
+        "min": "400",
+        "min_unit": "G",
+        "max": "700",
+        "max_unit": "G",
+        "min_grams": 400.0,
+        "max_grams": 700.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 40 G but less than 70 G of PCP (actual)",
+        "min": "40",
+        "min_unit": "G",
+        "max": "70",
+        "max_unit": "G",
+        "min_grams": 40.0,
+        "max_grams": 70.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 200 G but less than 350 G of Methamphetamine, or at least 20 G but less than 35 G of Methamphetamine (actual), or at least 20 G but less than 35 G of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 200 G but less than 350 G of Methamphetamine",
+        "min": "200",
+        "min_unit": "G",
+        "max": "350",
+        "max_unit": "G",
+        "min_grams": 200.0,
+        "max_grams": 350.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 20 G but less than 35 G of Methamphetamine (actual)",
+        "min": "20",
+        "min_unit": "G",
+        "max": "35",
+        "max_unit": "G",
+        "min_grams": 20.0,
+        "max_grams": 35.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 20 G but less than 35 G of “Ice”",
+        "min": "20",
+        "min_unit": "G",
+        "max": "35",
+        "max_unit": "G",
+        "min_grams": 20.0,
+        "max_grams": 35.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 200 G but less than 350 G of Amphetamine, or at least 20 G but less than 35 G of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 200 G but less than 350 G of Amphetamine",
+        "min": "200",
+        "min_unit": "G",
+        "max": "350",
+        "max_unit": "G",
+        "min_grams": 200.0,
+        "max_grams": 350.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 20 G but less than 35 G of Amphetamine (actual)",
+        "min": "20",
+        "min_unit": "G",
+        "max": "35",
+        "max_unit": "G",
+        "min_grams": 20.0,
+        "max_grams": 35.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 4 G but less than 7 G of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 4 G but less than 7 G of LSD",
+        "min": "4",
+        "min_unit": "G",
+        "max": "7",
+        "max_unit": "G",
+        "min_grams": 4.0,
+        "max_grams": 7.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 160 G but less than 280 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 160 G but less than 280 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "160",
+        "min_unit": "G",
+        "max": "280",
+        "max_unit": "G",
+        "min_grams": 160.0,
+        "max_grams": 280.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 40 G but less than 70 G of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 40 G but less than 70 G of a Fentanyl Analogue",
+        "min": "40",
+        "min_unit": "G",
+        "max": "70",
+        "max_unit": "G",
+        "min_grams": 40.0,
+        "max_grams": 70.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 400 KG but less than 700 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 400 KG but less than 700 KG of Marihuana",
+        "min": "400",
+        "min_unit": "KG",
+        "max": "700",
+        "max_unit": "KG",
+        "min_grams": 400000.0,
+        "max_grams": 700000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 80 KG but less than 140 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 80 KG but less than 140 KG of Hashish",
+        "min": "80",
+        "min_unit": "KG",
+        "max": "140",
+        "max_unit": "KG",
+        "min_grams": 80000.0,
+        "max_grams": 140000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 8 KG but less than 14 KG of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 8 KG but less than 14 KG of Hashish Oil",
+        "min": "8",
+        "min_unit": "KG",
+        "max": "14",
+        "max_unit": "KG",
+        "min_grams": 8000.0,
+        "max_grams": 14000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 400,000 but less than 700,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 400,000 but less than 700,000 units of Ketamine",
+        "min": "400,000",
+        "min_unit": "units",
+        "max": "700,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 400,000 but less than 700,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 400,000 but less than 700,000 units of Schedule I or II Depressants",
+        "min": "400,000",
+        "min_unit": "units",
+        "max": "700,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 25,000 but less than 43,750 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 25,000 but less than 43,750 units of Flunitrazepam",
+        "min": "25,000",
+        "min_unit": "units",
+        "max": "43,750",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 400 KG but less than 700 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 400 KG but less than 700 KG of Converted Drug Weight",
+        "min": "400",
+        "min_unit": "KG",
+        "max": "700",
+        "max_unit": "KG",
+        "min_grams": 400000.0,
+        "max_grams": 700000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 8,
+    "level": 24,
+    "pdf_page": 163,
+    "rows": [
+     {
+      "printed": "At least 100 G but less than 400 G of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 100 G but less than 400 G of Heroin",
+        "min": "100",
+        "min_unit": "G",
+        "max": "400",
+        "max_unit": "G",
+        "min_grams": 100.0,
+        "max_grams": 400.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 500 G but less than 2 KG of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 500 G but less than 2 KG of Cocaine",
+        "min": "500",
+        "min_unit": "G",
+        "max": "2",
+        "max_unit": "KG",
+        "min_grams": 500.0,
+        "max_grams": 2000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 28 G but less than 112 G of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 28 G but less than 112 G of Cocaine Base",
+        "min": "28",
+        "min_unit": "G",
+        "max": "112",
+        "max_unit": "G",
+        "min_grams": 28.0,
+        "max_grams": 112.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 100 G but less than 400 G of PCP, or at least 10 G but less than 40 G of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 100 G but less than 400 G of PCP",
+        "min": "100",
+        "min_unit": "G",
+        "max": "400",
+        "max_unit": "G",
+        "min_grams": 100.0,
+        "max_grams": 400.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 10 G but less than 40 G of PCP (actual)",
+        "min": "10",
+        "min_unit": "G",
+        "max": "40",
+        "max_unit": "G",
+        "min_grams": 10.0,
+        "max_grams": 40.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 50 G but less than 200 G of Methamphetamine, or at least 5 G but less than 20 G of Methamphetamine (actual), or at least 5 G but less than 20 G of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 50 G but less than 200 G of Methamphetamine",
+        "min": "50",
+        "min_unit": "G",
+        "max": "200",
+        "max_unit": "G",
+        "min_grams": 50.0,
+        "max_grams": 200.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 5 G but less than 20 G of Methamphetamine (actual)",
+        "min": "5",
+        "min_unit": "G",
+        "max": "20",
+        "max_unit": "G",
+        "min_grams": 5.0,
+        "max_grams": 20.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 5 G but less than 20 G of “Ice”",
+        "min": "5",
+        "min_unit": "G",
+        "max": "20",
+        "max_unit": "G",
+        "min_grams": 5.0,
+        "max_grams": 20.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 50 G but less than 200 G of Amphetamine, or at least 5 G but less than 20 G of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 50 G but less than 200 G of Amphetamine",
+        "min": "50",
+        "min_unit": "G",
+        "max": "200",
+        "max_unit": "G",
+        "min_grams": 50.0,
+        "max_grams": 200.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 5 G but less than 20 G of Amphetamine (actual)",
+        "min": "5",
+        "min_unit": "G",
+        "max": "20",
+        "max_unit": "G",
+        "min_grams": 5.0,
+        "max_grams": 20.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1 G but less than 4 G of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 1 G but less than 4 G of LSD",
+        "min": "1",
+        "min_unit": "G",
+        "max": "4",
+        "max_unit": "G",
+        "min_grams": 1.0,
+        "max_grams": 4.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 40 G but less than 160 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 40 G but less than 160 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "40",
+        "min_unit": "G",
+        "max": "160",
+        "max_unit": "G",
+        "min_grams": 40.0,
+        "max_grams": 160.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 10 G but less than 40 G of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 10 G but less than 40 G of a Fentanyl Analogue",
+        "min": "10",
+        "min_unit": "G",
+        "max": "40",
+        "max_unit": "G",
+        "min_grams": 10.0,
+        "max_grams": 40.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 100 KG but less than 400 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 100 KG but less than 400 KG of Marihuana",
+        "min": "100",
+        "min_unit": "KG",
+        "max": "400",
+        "max_unit": "KG",
+        "min_grams": 100000.0,
+        "max_grams": 400000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 20 KG but less than 80 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 20 KG but less than 80 KG of Hashish",
+        "min": "20",
+        "min_unit": "KG",
+        "max": "80",
+        "max_unit": "KG",
+        "min_grams": 20000.0,
+        "max_grams": 80000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 2 KG but less than 8 KG of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 2 KG but less than 8 KG of Hashish Oil",
+        "min": "2",
+        "min_unit": "KG",
+        "max": "8",
+        "max_unit": "KG",
+        "min_grams": 2000.0,
+        "max_grams": 8000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 100,000 but less than 400,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 100,000 but less than 400,000 units of Ketamine",
+        "min": "100,000",
+        "min_unit": "units",
+        "max": "400,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 100,000 but less than 400,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 100,000 but less than 400,000 units of Schedule I or II Depressants",
+        "min": "100,000",
+        "min_unit": "units",
+        "max": "400,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 6,250 but less than 25,000 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 6,250 but less than 25,000 units of Flunitrazepam",
+        "min": "6,250",
+        "min_unit": "units",
+        "max": "25,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 100 KG but less than 400 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 100 KG but less than 400 KG of Converted Drug Weight",
+        "min": "100",
+        "min_unit": "KG",
+        "max": "400",
+        "max_unit": "KG",
+        "min_grams": 100000.0,
+        "max_grams": 400000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 9,
+    "level": 22,
+    "pdf_page": 163,
+    "rows": [
+     {
+      "printed": "At least 80 G but less than 100 G of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 80 G but less than 100 G of Heroin",
+        "min": "80",
+        "min_unit": "G",
+        "max": "100",
+        "max_unit": "G",
+        "min_grams": 80.0,
+        "max_grams": 100.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 400 G but less than 500 G of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 400 G but less than 500 G of Cocaine",
+        "min": "400",
+        "min_unit": "G",
+        "max": "500",
+        "max_unit": "G",
+        "min_grams": 400.0,
+        "max_grams": 500.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 22.4 G but less than 28 G of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 22.4 G but less than 28 G of Cocaine Base",
+        "min": "22.4",
+        "min_unit": "G",
+        "max": "28",
+        "max_unit": "G",
+        "min_grams": 22.4,
+        "max_grams": 28.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 80 G but less than 100 G of PCP, or at least 8 G but less than 10 G of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 80 G but less than 100 G of PCP",
+        "min": "80",
+        "min_unit": "G",
+        "max": "100",
+        "max_unit": "G",
+        "min_grams": 80.0,
+        "max_grams": 100.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 8 G but less than 10 G of PCP (actual)",
+        "min": "8",
+        "min_unit": "G",
+        "max": "10",
+        "max_unit": "G",
+        "min_grams": 8.0,
+        "max_grams": 10.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 40 G but less than 50 G of Methamphetamine, or at least 4 G but less than 5 G of Methamphetamine (actual), or at least 4 G but less than 5 G of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 40 G but less than 50 G of Methamphetamine",
+        "min": "40",
+        "min_unit": "G",
+        "max": "50",
+        "max_unit": "G",
+        "min_grams": 40.0,
+        "max_grams": 50.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 4 G but less than 5 G of Methamphetamine (actual)",
+        "min": "4",
+        "min_unit": "G",
+        "max": "5",
+        "max_unit": "G",
+        "min_grams": 4.0,
+        "max_grams": 5.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 4 G but less than 5 G of “Ice”",
+        "min": "4",
+        "min_unit": "G",
+        "max": "5",
+        "max_unit": "G",
+        "min_grams": 4.0,
+        "max_grams": 5.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 40 G but less than 50 G of Amphetamine, or at least 4 G but less than 5 G of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 40 G but less than 50 G of Amphetamine",
+        "min": "40",
+        "min_unit": "G",
+        "max": "50",
+        "max_unit": "G",
+        "min_grams": 40.0,
+        "max_grams": 50.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 4 G but less than 5 G of Amphetamine (actual)",
+        "min": "4",
+        "min_unit": "G",
+        "max": "5",
+        "max_unit": "G",
+        "min_grams": 4.0,
+        "max_grams": 5.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 800 MG but less than 1 G of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 800 MG but less than 1 G of LSD",
+        "min": "800",
+        "min_unit": "MG",
+        "max": "1",
+        "max_unit": "G",
+        "min_grams": 0.8,
+        "max_grams": 1.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 32 G but less than 40 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 32 G but less than 40 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "32",
+        "min_unit": "G",
+        "max": "40",
+        "max_unit": "G",
+        "min_grams": 32.0,
+        "max_grams": 40.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 8 G but less than 10 G of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 8 G but less than 10 G of a Fentanyl Analogue",
+        "min": "8",
+        "min_unit": "G",
+        "max": "10",
+        "max_unit": "G",
+        "min_grams": 8.0,
+        "max_grams": 10.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 80 KG but less than 100 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 80 KG but less than 100 KG of Marihuana",
+        "min": "80",
+        "min_unit": "KG",
+        "max": "100",
+        "max_unit": "KG",
+        "min_grams": 80000.0,
+        "max_grams": 100000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 16 KG but less than 20 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 16 KG but less than 20 KG of Hashish",
+        "min": "16",
+        "min_unit": "KG",
+        "max": "20",
+        "max_unit": "KG",
+        "min_grams": 16000.0,
+        "max_grams": 20000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1.6 KG but less than 2 KG of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 1.6 KG but less than 2 KG of Hashish Oil",
+        "min": "1.6",
+        "min_unit": "KG",
+        "max": "2",
+        "max_unit": "KG",
+        "min_grams": 1600.0,
+        "max_grams": 2000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 80,000 but less than 100,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 80,000 but less than 100,000 units of Ketamine",
+        "min": "80,000",
+        "min_unit": "units",
+        "max": "100,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 80,000 but less than 100,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 80,000 but less than 100,000 units of Schedule I or II Depressants",
+        "min": "80,000",
+        "min_unit": "units",
+        "max": "100,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 5,000 but less than 6,250 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 5,000 but less than 6,250 units of Flunitrazepam",
+        "min": "5,000",
+        "min_unit": "units",
+        "max": "6,250",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 80 KG but less than 100 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 80 KG but less than 100 KG of Converted Drug Weight",
+        "min": "80",
+        "min_unit": "KG",
+        "max": "100",
+        "max_unit": "KG",
+        "min_grams": 80000.0,
+        "max_grams": 100000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 10,
+    "level": 20,
+    "pdf_page": 163,
+    "rows": [
+     {
+      "printed": "At least 60 G but less than 80 G of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 60 G but less than 80 G of Heroin",
+        "min": "60",
+        "min_unit": "G",
+        "max": "80",
+        "max_unit": "G",
+        "min_grams": 60.0,
+        "max_grams": 80.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 300 G but less than 400 G of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 300 G but less than 400 G of Cocaine",
+        "min": "300",
+        "min_unit": "G",
+        "max": "400",
+        "max_unit": "G",
+        "min_grams": 300.0,
+        "max_grams": 400.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 16.8 G but less than 22.4 G of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 16.8 G but less than 22.4 G of Cocaine Base",
+        "min": "16.8",
+        "min_unit": "G",
+        "max": "22.4",
+        "max_unit": "G",
+        "min_grams": 16.8,
+        "max_grams": 22.4
+       }
+      ]
+     },
+     {
+      "printed": "At least 60 G but less than 80 G of PCP, or at least 6 G but less than 8 G of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 60 G but less than 80 G of PCP",
+        "min": "60",
+        "min_unit": "G",
+        "max": "80",
+        "max_unit": "G",
+        "min_grams": 60.0,
+        "max_grams": 80.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 6 G but less than 8 G of PCP (actual)",
+        "min": "6",
+        "min_unit": "G",
+        "max": "8",
+        "max_unit": "G",
+        "min_grams": 6.0,
+        "max_grams": 8.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 30 G but less than 40 G of Methamphetamine, or at least 3 G but less than 4 G of Methamphetamine (actual), or at least 3 G but less than 4 G of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 30 G but less than 40 G of Methamphetamine",
+        "min": "30",
+        "min_unit": "G",
+        "max": "40",
+        "max_unit": "G",
+        "min_grams": 30.0,
+        "max_grams": 40.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 3 G but less than 4 G of Methamphetamine (actual)",
+        "min": "3",
+        "min_unit": "G",
+        "max": "4",
+        "max_unit": "G",
+        "min_grams": 3.0,
+        "max_grams": 4.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 3 G but less than 4 G of “Ice”",
+        "min": "3",
+        "min_unit": "G",
+        "max": "4",
+        "max_unit": "G",
+        "min_grams": 3.0,
+        "max_grams": 4.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 30 G but less than 40 G of Amphetamine, or at least 3 G but less than 4 G of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 30 G but less than 40 G of Amphetamine",
+        "min": "30",
+        "min_unit": "G",
+        "max": "40",
+        "max_unit": "G",
+        "min_grams": 30.0,
+        "max_grams": 40.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 3 G but less than 4 G of Amphetamine (actual)",
+        "min": "3",
+        "min_unit": "G",
+        "max": "4",
+        "max_unit": "G",
+        "min_grams": 3.0,
+        "max_grams": 4.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 600 MG but less than 800 MG of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 600 MG but less than 800 MG of LSD",
+        "min": "600",
+        "min_unit": "MG",
+        "max": "800",
+        "max_unit": "MG",
+        "min_grams": 0.6,
+        "max_grams": 0.8
+       }
+      ]
+     },
+     {
+      "printed": "At least 24 G but less than 32 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 24 G but less than 32 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "24",
+        "min_unit": "G",
+        "max": "32",
+        "max_unit": "G",
+        "min_grams": 24.0,
+        "max_grams": 32.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 6 G but less than 8 G of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 6 G but less than 8 G of a Fentanyl Analogue",
+        "min": "6",
+        "min_unit": "G",
+        "max": "8",
+        "max_unit": "G",
+        "min_grams": 6.0,
+        "max_grams": 8.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 60 KG but less than 80 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 60 KG but less than 80 KG of Marihuana",
+        "min": "60",
+        "min_unit": "KG",
+        "max": "80",
+        "max_unit": "KG",
+        "min_grams": 60000.0,
+        "max_grams": 80000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 12 KG but less than 16 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 12 KG but less than 16 KG of Hashish",
+        "min": "12",
+        "min_unit": "KG",
+        "max": "16",
+        "max_unit": "KG",
+        "min_grams": 12000.0,
+        "max_grams": 16000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1.2 KG but less than 1.6 KG of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 1.2 KG but less than 1.6 KG of Hashish Oil",
+        "min": "1.2",
+        "min_unit": "KG",
+        "max": "1.6",
+        "max_unit": "KG",
+        "min_grams": 1200.0,
+        "max_grams": 1600.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 60,000 but less than 80,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 60,000 but less than 80,000 units of Ketamine",
+        "min": "60,000",
+        "min_unit": "units",
+        "max": "80,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 60,000 but less than 80,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 60,000 but less than 80,000 units of Schedule I or II Depressants",
+        "min": "60,000",
+        "min_unit": "units",
+        "max": "80,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "60,000 units or more of Schedule III substances (except Ketamine)",
+      "measures": [
+       {
+        "substance": "Schedule III substances (except Ketamine)",
+        "printed": "60,000 units or more of Schedule III substances (except Ketamine)",
+        "min": "60,000",
+        "min_unit": "units",
+        "max": null,
+        "max_unit": null,
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 3,750 but less than 5,000 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 3,750 but less than 5,000 units of Flunitrazepam",
+        "min": "3,750",
+        "min_unit": "units",
+        "max": "5,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 60 KG but less than 80 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 60 KG but less than 80 KG of Converted Drug Weight",
+        "min": "60",
+        "min_unit": "KG",
+        "max": "80",
+        "max_unit": "KG",
+        "min_grams": 60000.0,
+        "max_grams": 80000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 11,
+    "level": 18,
+    "pdf_page": 164,
+    "rows": [
+     {
+      "printed": "At least 40 G but less than 60 G of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 40 G but less than 60 G of Heroin",
+        "min": "40",
+        "min_unit": "G",
+        "max": "60",
+        "max_unit": "G",
+        "min_grams": 40.0,
+        "max_grams": 60.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 200 G but less than 300 G of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 200 G but less than 300 G of Cocaine",
+        "min": "200",
+        "min_unit": "G",
+        "max": "300",
+        "max_unit": "G",
+        "min_grams": 200.0,
+        "max_grams": 300.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 11.2 G but less than 16.8 G of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 11.2 G but less than 16.8 G of Cocaine Base",
+        "min": "11.2",
+        "min_unit": "G",
+        "max": "16.8",
+        "max_unit": "G",
+        "min_grams": 11.2,
+        "max_grams": 16.8
+       }
+      ]
+     },
+     {
+      "printed": "At least 40 G but less than 60 G of PCP, or at least 4 G but less than 6 G of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 40 G but less than 60 G of PCP",
+        "min": "40",
+        "min_unit": "G",
+        "max": "60",
+        "max_unit": "G",
+        "min_grams": 40.0,
+        "max_grams": 60.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 4 G but less than 6 G of PCP (actual)",
+        "min": "4",
+        "min_unit": "G",
+        "max": "6",
+        "max_unit": "G",
+        "min_grams": 4.0,
+        "max_grams": 6.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 20 G but less than 30 G of Methamphetamine, or at least 2 G but less than 3 G of Methamphetamine (actual), or at least 2 G but less than 3 G of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 20 G but less than 30 G of Methamphetamine",
+        "min": "20",
+        "min_unit": "G",
+        "max": "30",
+        "max_unit": "G",
+        "min_grams": 20.0,
+        "max_grams": 30.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 2 G but less than 3 G of Methamphetamine (actual)",
+        "min": "2",
+        "min_unit": "G",
+        "max": "3",
+        "max_unit": "G",
+        "min_grams": 2.0,
+        "max_grams": 3.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 2 G but less than 3 G of “Ice”",
+        "min": "2",
+        "min_unit": "G",
+        "max": "3",
+        "max_unit": "G",
+        "min_grams": 2.0,
+        "max_grams": 3.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 20 G but less than 30 G of Amphetamine, or at least 2 G but less than 3 G of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 20 G but less than 30 G of Amphetamine",
+        "min": "20",
+        "min_unit": "G",
+        "max": "30",
+        "max_unit": "G",
+        "min_grams": 20.0,
+        "max_grams": 30.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 2 G but less than 3 G of Amphetamine (actual)",
+        "min": "2",
+        "min_unit": "G",
+        "max": "3",
+        "max_unit": "G",
+        "min_grams": 2.0,
+        "max_grams": 3.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 400 MG but less than 600 MG of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 400 MG but less than 600 MG of LSD",
+        "min": "400",
+        "min_unit": "MG",
+        "max": "600",
+        "max_unit": "MG",
+        "min_grams": 0.4,
+        "max_grams": 0.6
+       }
+      ]
+     },
+     {
+      "printed": "At least 16 G but less than 24 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 16 G but less than 24 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "16",
+        "min_unit": "G",
+        "max": "24",
+        "max_unit": "G",
+        "min_grams": 16.0,
+        "max_grams": 24.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 4 G but less than 6 G of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 4 G but less than 6 G of a Fentanyl Analogue",
+        "min": "4",
+        "min_unit": "G",
+        "max": "6",
+        "max_unit": "G",
+        "min_grams": 4.0,
+        "max_grams": 6.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 40 KG but less than 60 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 40 KG but less than 60 KG of Marihuana",
+        "min": "40",
+        "min_unit": "KG",
+        "max": "60",
+        "max_unit": "KG",
+        "min_grams": 40000.0,
+        "max_grams": 60000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 8 KG but less than 12 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 8 KG but less than 12 KG of Hashish",
+        "min": "8",
+        "min_unit": "KG",
+        "max": "12",
+        "max_unit": "KG",
+        "min_grams": 8000.0,
+        "max_grams": 12000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 800 G but less than 1.2 KG of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 800 G but less than 1.2 KG of Hashish Oil",
+        "min": "800",
+        "min_unit": "G",
+        "max": "1.2",
+        "max_unit": "KG",
+        "min_grams": 800.0,
+        "max_grams": 1200.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 40,000 but less than 60,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 40,000 but less than 60,000 units of Ketamine",
+        "min": "40,000",
+        "min_unit": "units",
+        "max": "60,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 40,000 but less than 60,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 40,000 but less than 60,000 units of Schedule I or II Depressants",
+        "min": "40,000",
+        "min_unit": "units",
+        "max": "60,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 40,000 but less than 60,000 units of Schedule III substances (except Ketamine)",
+      "measures": [
+       {
+        "substance": "Schedule III substances (except Ketamine)",
+        "printed": "At least 40,000 but less than 60,000 units of Schedule III substances (except Ketamine)",
+        "min": "40,000",
+        "min_unit": "units",
+        "max": "60,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 2,500 but less than 3,750 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 2,500 but less than 3,750 units of Flunitrazepam",
+        "min": "2,500",
+        "min_unit": "units",
+        "max": "3,750",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 40 KG but less than 60 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 40 KG but less than 60 KG of Converted Drug Weight",
+        "min": "40",
+        "min_unit": "KG",
+        "max": "60",
+        "max_unit": "KG",
+        "min_grams": 40000.0,
+        "max_grams": 60000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 12,
+    "level": 16,
+    "pdf_page": 164,
+    "rows": [
+     {
+      "printed": "At least 20 G but less than 40 G of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 20 G but less than 40 G of Heroin",
+        "min": "20",
+        "min_unit": "G",
+        "max": "40",
+        "max_unit": "G",
+        "min_grams": 20.0,
+        "max_grams": 40.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 100 G but less than 200 G of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 100 G but less than 200 G of Cocaine",
+        "min": "100",
+        "min_unit": "G",
+        "max": "200",
+        "max_unit": "G",
+        "min_grams": 100.0,
+        "max_grams": 200.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 5.6 G but less than 11.2 G of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 5.6 G but less than 11.2 G of Cocaine Base",
+        "min": "5.6",
+        "min_unit": "G",
+        "max": "11.2",
+        "max_unit": "G",
+        "min_grams": 5.6,
+        "max_grams": 11.2
+       }
+      ]
+     },
+     {
+      "printed": "At least 20 G but less than 40 G of PCP, or at least 2 G but less than 4 G of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 20 G but less than 40 G of PCP",
+        "min": "20",
+        "min_unit": "G",
+        "max": "40",
+        "max_unit": "G",
+        "min_grams": 20.0,
+        "max_grams": 40.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 2 G but less than 4 G of PCP (actual)",
+        "min": "2",
+        "min_unit": "G",
+        "max": "4",
+        "max_unit": "G",
+        "min_grams": 2.0,
+        "max_grams": 4.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 10 G but less than 20 G of Methamphetamine, or at least 1 G but less than 2 G of Methamphetamine (actual), or at least 1 G but less than 2 G of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 10 G but less than 20 G of Methamphetamine",
+        "min": "10",
+        "min_unit": "G",
+        "max": "20",
+        "max_unit": "G",
+        "min_grams": 10.0,
+        "max_grams": 20.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 1 G but less than 2 G of Methamphetamine (actual)",
+        "min": "1",
+        "min_unit": "G",
+        "max": "2",
+        "max_unit": "G",
+        "min_grams": 1.0,
+        "max_grams": 2.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 1 G but less than 2 G of “Ice”",
+        "min": "1",
+        "min_unit": "G",
+        "max": "2",
+        "max_unit": "G",
+        "min_grams": 1.0,
+        "max_grams": 2.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 10 G but less than 20 G of Amphetamine, or at least 1 G but less than 2 G of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 10 G but less than 20 G of Amphetamine",
+        "min": "10",
+        "min_unit": "G",
+        "max": "20",
+        "max_unit": "G",
+        "min_grams": 10.0,
+        "max_grams": 20.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 1 G but less than 2 G of Amphetamine (actual)",
+        "min": "1",
+        "min_unit": "G",
+        "max": "2",
+        "max_unit": "G",
+        "min_grams": 1.0,
+        "max_grams": 2.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 200 MG but less than 400 MG of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 200 MG but less than 400 MG of LSD",
+        "min": "200",
+        "min_unit": "MG",
+        "max": "400",
+        "max_unit": "MG",
+        "min_grams": 0.2,
+        "max_grams": 0.4
+       }
+      ]
+     },
+     {
+      "printed": "At least 8 G but less than 16 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 8 G but less than 16 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "8",
+        "min_unit": "G",
+        "max": "16",
+        "max_unit": "G",
+        "min_grams": 8.0,
+        "max_grams": 16.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 2 G but less than 4 G of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 2 G but less than 4 G of a Fentanyl Analogue",
+        "min": "2",
+        "min_unit": "G",
+        "max": "4",
+        "max_unit": "G",
+        "min_grams": 2.0,
+        "max_grams": 4.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 20 KG but less than 40 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 20 KG but less than 40 KG of Marihuana",
+        "min": "20",
+        "min_unit": "KG",
+        "max": "40",
+        "max_unit": "KG",
+        "min_grams": 20000.0,
+        "max_grams": 40000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 5 KG but less than 8 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 5 KG but less than 8 KG of Hashish",
+        "min": "5",
+        "min_unit": "KG",
+        "max": "8",
+        "max_unit": "KG",
+        "min_grams": 5000.0,
+        "max_grams": 8000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 500 G but less than 800 G of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 500 G but less than 800 G of Hashish Oil",
+        "min": "500",
+        "min_unit": "G",
+        "max": "800",
+        "max_unit": "G",
+        "min_grams": 500.0,
+        "max_grams": 800.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 20,000 but less than 40,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 20,000 but less than 40,000 units of Ketamine",
+        "min": "20,000",
+        "min_unit": "units",
+        "max": "40,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 20,000 but less than 40,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 20,000 but less than 40,000 units of Schedule I or II Depressants",
+        "min": "20,000",
+        "min_unit": "units",
+        "max": "40,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 20,000 but less than 40,000 units of Schedule III substances (except Ketamine)",
+      "measures": [
+       {
+        "substance": "Schedule III substances (except Ketamine)",
+        "printed": "At least 20,000 but less than 40,000 units of Schedule III substances (except Ketamine)",
+        "min": "20,000",
+        "min_unit": "units",
+        "max": "40,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 1,250 but less than 2,500 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 1,250 but less than 2,500 units of Flunitrazepam",
+        "min": "1,250",
+        "min_unit": "units",
+        "max": "2,500",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 20 KG but less than 40 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 20 KG but less than 40 KG of Converted Drug Weight",
+        "min": "20",
+        "min_unit": "KG",
+        "max": "40",
+        "max_unit": "KG",
+        "min_grams": 20000.0,
+        "max_grams": 40000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 13,
+    "level": 14,
+    "pdf_page": 165,
+    "rows": [
+     {
+      "printed": "At least 10 G but less than 20 G of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "At least 10 G but less than 20 G of Heroin",
+        "min": "10",
+        "min_unit": "G",
+        "max": "20",
+        "max_unit": "G",
+        "min_grams": 10.0,
+        "max_grams": 20.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 50 G but less than 100 G of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "At least 50 G but less than 100 G of Cocaine",
+        "min": "50",
+        "min_unit": "G",
+        "max": "100",
+        "max_unit": "G",
+        "min_grams": 50.0,
+        "max_grams": 100.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 2.8 G but less than 5.6 G of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "At least 2.8 G but less than 5.6 G of Cocaine Base",
+        "min": "2.8",
+        "min_unit": "G",
+        "max": "5.6",
+        "max_unit": "G",
+        "min_grams": 2.8,
+        "max_grams": 5.6
+       }
+      ]
+     },
+     {
+      "printed": "At least 10 G but less than 20 G of PCP, or at least 1 G but less than 2 G of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "At least 10 G but less than 20 G of PCP",
+        "min": "10",
+        "min_unit": "G",
+        "max": "20",
+        "max_unit": "G",
+        "min_grams": 10.0,
+        "max_grams": 20.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "at least 1 G but less than 2 G of PCP (actual)",
+        "min": "1",
+        "min_unit": "G",
+        "max": "2",
+        "max_unit": "G",
+        "min_grams": 1.0,
+        "max_grams": 2.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 5 G but less than 10 G of Methamphetamine, or at least 500 MG but less than 1 G of Methamphetamine (actual), or at least 500 MG but less than 1 G of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "At least 5 G but less than 10 G of Methamphetamine",
+        "min": "5",
+        "min_unit": "G",
+        "max": "10",
+        "max_unit": "G",
+        "min_grams": 5.0,
+        "max_grams": 10.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "at least 500 MG but less than 1 G of Methamphetamine (actual)",
+        "min": "500",
+        "min_unit": "MG",
+        "max": "1",
+        "max_unit": "G",
+        "min_grams": 0.5,
+        "max_grams": 1.0
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "at least 500 MG but less than 1 G of “Ice”",
+        "min": "500",
+        "min_unit": "MG",
+        "max": "1",
+        "max_unit": "G",
+        "min_grams": 0.5,
+        "max_grams": 1.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 5 G but less than 10 G of Amphetamine, or at least 500 MG but less than 1 G of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "At least 5 G but less than 10 G of Amphetamine",
+        "min": "5",
+        "min_unit": "G",
+        "max": "10",
+        "max_unit": "G",
+        "min_grams": 5.0,
+        "max_grams": 10.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "at least 500 MG but less than 1 G of Amphetamine (actual)",
+        "min": "500",
+        "min_unit": "MG",
+        "max": "1",
+        "max_unit": "G",
+        "min_grams": 0.5,
+        "max_grams": 1.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 100 MG but less than 200 MG of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "At least 100 MG but less than 200 MG of LSD",
+        "min": "100",
+        "min_unit": "MG",
+        "max": "200",
+        "max_unit": "MG",
+        "min_grams": 0.1,
+        "max_grams": 0.2
+       }
+      ]
+     },
+     {
+      "printed": "At least 4 G but less than 8 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "At least 4 G but less than 8 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": "4",
+        "min_unit": "G",
+        "max": "8",
+        "max_unit": "G",
+        "min_grams": 4.0,
+        "max_grams": 8.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1 G but less than 2 G of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "At least 1 G but less than 2 G of a Fentanyl Analogue",
+        "min": "1",
+        "min_unit": "G",
+        "max": "2",
+        "max_unit": "G",
+        "min_grams": 1.0,
+        "max_grams": 2.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 10 KG but less than 20 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 10 KG but less than 20 KG of Marihuana",
+        "min": "10",
+        "min_unit": "KG",
+        "max": "20",
+        "max_unit": "KG",
+        "min_grams": 10000.0,
+        "max_grams": 20000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 2 KG but less than 5 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 2 KG but less than 5 KG of Hashish",
+        "min": "2",
+        "min_unit": "KG",
+        "max": "5",
+        "max_unit": "KG",
+        "min_grams": 2000.0,
+        "max_grams": 5000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 200 G but less than 500 G of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 200 G but less than 500 G of Hashish Oil",
+        "min": "200",
+        "min_unit": "G",
+        "max": "500",
+        "max_unit": "G",
+        "min_grams": 200.0,
+        "max_grams": 500.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 10,000 but less than 20,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 10,000 but less than 20,000 units of Ketamine",
+        "min": "10,000",
+        "min_unit": "units",
+        "max": "20,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 10,000 but less than 20,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 10,000 but less than 20,000 units of Schedule I or II Depressants",
+        "min": "10,000",
+        "min_unit": "units",
+        "max": "20,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 10,000 but less than 20,000 units of Schedule III substances (except Ketamine)",
+      "measures": [
+       {
+        "substance": "Schedule III substances (except Ketamine)",
+        "printed": "At least 10,000 but less than 20,000 units of Schedule III substances (except Ketamine)",
+        "min": "10,000",
+        "min_unit": "units",
+        "max": "20,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 625 but less than 1,250 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 625 but less than 1,250 units of Flunitrazepam",
+        "min": "625",
+        "min_unit": "units",
+        "max": "1,250",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 10 KG but less than 20 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 10 KG but less than 20 KG of Converted Drug Weight",
+        "min": "10",
+        "min_unit": "KG",
+        "max": "20",
+        "max_unit": "KG",
+        "min_grams": 10000.0,
+        "max_grams": 20000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 14,
+    "level": 12,
+    "pdf_page": 165,
+    "rows": [
+     {
+      "printed": "Less than 10 G of Heroin",
+      "measures": [
+       {
+        "substance": "Heroin",
+        "printed": "Less than 10 G of Heroin",
+        "min": null,
+        "min_unit": null,
+        "max": "10",
+        "max_unit": "G",
+        "min_grams": null,
+        "max_grams": 10.0
+       }
+      ]
+     },
+     {
+      "printed": "Less than 50 G of Cocaine",
+      "measures": [
+       {
+        "substance": "Cocaine",
+        "printed": "Less than 50 G of Cocaine",
+        "min": null,
+        "min_unit": null,
+        "max": "50",
+        "max_unit": "G",
+        "min_grams": null,
+        "max_grams": 50.0
+       }
+      ]
+     },
+     {
+      "printed": "Less than 2.8 G of Cocaine Base",
+      "measures": [
+       {
+        "substance": "Cocaine Base",
+        "printed": "Less than 2.8 G of Cocaine Base",
+        "min": null,
+        "min_unit": null,
+        "max": "2.8",
+        "max_unit": "G",
+        "min_grams": null,
+        "max_grams": 2.8
+       }
+      ]
+     },
+     {
+      "printed": "Less than 10 G of PCP, or less than 1 G of PCP (actual)",
+      "measures": [
+       {
+        "substance": "PCP",
+        "printed": "Less than 10 G of PCP",
+        "min": null,
+        "min_unit": null,
+        "max": "10",
+        "max_unit": "G",
+        "min_grams": null,
+        "max_grams": 10.0
+       },
+       {
+        "substance": "PCP (actual)",
+        "printed": "less than 1 G of PCP (actual)",
+        "min": null,
+        "min_unit": null,
+        "max": "1",
+        "max_unit": "G",
+        "min_grams": null,
+        "max_grams": 1.0
+       }
+      ]
+     },
+     {
+      "printed": "Less than 5 G of Methamphetamine, or less than 500 MG of Methamphetamine (actual), or less than 500 MG of “Ice”",
+      "measures": [
+       {
+        "substance": "Methamphetamine",
+        "printed": "Less than 5 G of Methamphetamine",
+        "min": null,
+        "min_unit": null,
+        "max": "5",
+        "max_unit": "G",
+        "min_grams": null,
+        "max_grams": 5.0
+       },
+       {
+        "substance": "Methamphetamine (actual)",
+        "printed": "less than 500 MG of Methamphetamine (actual)",
+        "min": null,
+        "min_unit": null,
+        "max": "500",
+        "max_unit": "MG",
+        "min_grams": null,
+        "max_grams": 0.5
+       },
+       {
+        "substance": "“Ice”",
+        "printed": "less than 500 MG of “Ice”",
+        "min": null,
+        "min_unit": null,
+        "max": "500",
+        "max_unit": "MG",
+        "min_grams": null,
+        "max_grams": 0.5
+       }
+      ]
+     },
+     {
+      "printed": "Less than 5 G of Amphetamine, or less than 500 MG of Amphetamine (actual)",
+      "measures": [
+       {
+        "substance": "Amphetamine",
+        "printed": "Less than 5 G of Amphetamine",
+        "min": null,
+        "min_unit": null,
+        "max": "5",
+        "max_unit": "G",
+        "min_grams": null,
+        "max_grams": 5.0
+       },
+       {
+        "substance": "Amphetamine (actual)",
+        "printed": "less than 500 MG of Amphetamine (actual)",
+        "min": null,
+        "min_unit": null,
+        "max": "500",
+        "max_unit": "MG",
+        "min_grams": null,
+        "max_grams": 0.5
+       }
+      ]
+     },
+     {
+      "printed": "Less than 100 MG of LSD",
+      "measures": [
+       {
+        "substance": "LSD",
+        "printed": "Less than 100 MG of LSD",
+        "min": null,
+        "min_unit": null,
+        "max": "100",
+        "max_unit": "MG",
+        "min_grams": null,
+        "max_grams": 0.1
+       }
+      ]
+     },
+     {
+      "printed": "Less than 4 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "measures": [
+       {
+        "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "printed": "Less than 4 G of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+        "min": null,
+        "min_unit": null,
+        "max": "4",
+        "max_unit": "G",
+        "min_grams": null,
+        "max_grams": 4.0
+       }
+      ]
+     },
+     {
+      "printed": "Less than 1 G of a Fentanyl Analogue",
+      "measures": [
+       {
+        "substance": "a Fentanyl Analogue",
+        "printed": "Less than 1 G of a Fentanyl Analogue",
+        "min": null,
+        "min_unit": null,
+        "max": "1",
+        "max_unit": "G",
+        "min_grams": null,
+        "max_grams": 1.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 5 KG but less than 10 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 5 KG but less than 10 KG of Marihuana",
+        "min": "5",
+        "min_unit": "KG",
+        "max": "10",
+        "max_unit": "KG",
+        "min_grams": 5000.0,
+        "max_grams": 10000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1 KG but less than 2 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 1 KG but less than 2 KG of Hashish",
+        "min": "1",
+        "min_unit": "KG",
+        "max": "2",
+        "max_unit": "KG",
+        "min_grams": 1000.0,
+        "max_grams": 2000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 100 G but less than 200 G of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 100 G but less than 200 G of Hashish Oil",
+        "min": "100",
+        "min_unit": "G",
+        "max": "200",
+        "max_unit": "G",
+        "min_grams": 100.0,
+        "max_grams": 200.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 5,000 but less than 10,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 5,000 but less than 10,000 units of Ketamine",
+        "min": "5,000",
+        "min_unit": "units",
+        "max": "10,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 5,000 but less than 10,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 5,000 but less than 10,000 units of Schedule I or II Depressants",
+        "min": "5,000",
+        "min_unit": "units",
+        "max": "10,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 5,000 but less than 10,000 units of Schedule III substances (except Ketamine)",
+      "measures": [
+       {
+        "substance": "Schedule III substances (except Ketamine)",
+        "printed": "At least 5,000 but less than 10,000 units of Schedule III substances (except Ketamine)",
+        "min": "5,000",
+        "min_unit": "units",
+        "max": "10,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 312 but less than 625 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 312 but less than 625 units of Flunitrazepam",
+        "min": "312",
+        "min_unit": "units",
+        "max": "625",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "80,000 units or more of Schedule IV substances (except Flunitrazepam)",
+      "measures": [
+       {
+        "substance": "Schedule IV substances (except Flunitrazepam)",
+        "printed": "80,000 units or more of Schedule IV substances (except Flunitrazepam)",
+        "min": "80,000",
+        "min_unit": "units",
+        "max": null,
+        "max_unit": null,
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 5 KG but less than 10 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 5 KG but less than 10 KG of Converted Drug Weight",
+        "min": "5",
+        "min_unit": "KG",
+        "max": "10",
+        "max_unit": "KG",
+        "min_grams": 5000.0,
+        "max_grams": 10000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 15,
+    "level": 10,
+    "pdf_page": 166,
+    "rows": [
+     {
+      "printed": "At least 2.5 KG but less than 5 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 2.5 KG but less than 5 KG of Marihuana",
+        "min": "2.5",
+        "min_unit": "KG",
+        "max": "5",
+        "max_unit": "KG",
+        "min_grams": 2500.0,
+        "max_grams": 5000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 500 G but less than 1 KG of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 500 G but less than 1 KG of Hashish",
+        "min": "500",
+        "min_unit": "G",
+        "max": "1",
+        "max_unit": "KG",
+        "min_grams": 500.0,
+        "max_grams": 1000.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 50 G but less than 100 G of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 50 G but less than 100 G of Hashish Oil",
+        "min": "50",
+        "min_unit": "G",
+        "max": "100",
+        "max_unit": "G",
+        "min_grams": 50.0,
+        "max_grams": 100.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 2,500 but less than 5,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 2,500 but less than 5,000 units of Ketamine",
+        "min": "2,500",
+        "min_unit": "units",
+        "max": "5,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 2,500 but less than 5,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 2,500 but less than 5,000 units of Schedule I or II Depressants",
+        "min": "2,500",
+        "min_unit": "units",
+        "max": "5,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 2,500 but less than 5,000 units of Schedule III substances (except Ketamine)",
+      "measures": [
+       {
+        "substance": "Schedule III substances (except Ketamine)",
+        "printed": "At least 2,500 but less than 5,000 units of Schedule III substances (except Ketamine)",
+        "min": "2,500",
+        "min_unit": "units",
+        "max": "5,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 156 but less than 312 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "At least 156 but less than 312 units of Flunitrazepam",
+        "min": "156",
+        "min_unit": "units",
+        "max": "312",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 40,000 but less than 80,000 units of Schedule IV substances (except Flunitrazepam)",
+      "measures": [
+       {
+        "substance": "Schedule IV substances (except Flunitrazepam)",
+        "printed": "At least 40,000 but less than 80,000 units of Schedule IV substances (except Flunitrazepam)",
+        "min": "40,000",
+        "min_unit": "units",
+        "max": "80,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 2.5 KG but less than 5 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 2.5 KG but less than 5 KG of Converted Drug Weight",
+        "min": "2.5",
+        "min_unit": "KG",
+        "max": "5",
+        "max_unit": "KG",
+        "min_grams": 2500.0,
+        "max_grams": 5000.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 16,
+    "level": 8,
+    "pdf_page": 166,
+    "rows": [
+     {
+      "printed": "At least 1 KG but less than 2.5 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "At least 1 KG but less than 2.5 KG of Marihuana",
+        "min": "1",
+        "min_unit": "KG",
+        "max": "2.5",
+        "max_unit": "KG",
+        "min_grams": 1000.0,
+        "max_grams": 2500.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 200 G but less than 500 G of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "At least 200 G but less than 500 G of Hashish",
+        "min": "200",
+        "min_unit": "G",
+        "max": "500",
+        "max_unit": "G",
+        "min_grams": 200.0,
+        "max_grams": 500.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 20 G but less than 50 G of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "At least 20 G but less than 50 G of Hashish Oil",
+        "min": "20",
+        "min_unit": "G",
+        "max": "50",
+        "max_unit": "G",
+        "min_grams": 20.0,
+        "max_grams": 50.0
+       }
+      ]
+     },
+     {
+      "printed": "At least 1,000 but less than 2,500 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "At least 1,000 but less than 2,500 units of Ketamine",
+        "min": "1,000",
+        "min_unit": "units",
+        "max": "2,500",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 1,000 but less than 2,500 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "At least 1,000 but less than 2,500 units of Schedule I or II Depressants",
+        "min": "1,000",
+        "min_unit": "units",
+        "max": "2,500",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 1,000 but less than 2,500 units of Schedule III substances (except Ketamine)",
+      "measures": [
+       {
+        "substance": "Schedule III substances (except Ketamine)",
+        "printed": "At least 1,000 but less than 2,500 units of Schedule III substances (except Ketamine)",
+        "min": "1,000",
+        "min_unit": "units",
+        "max": "2,500",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "Less than 156 units of Flunitrazepam",
+      "measures": [
+       {
+        "substance": "Flunitrazepam",
+        "printed": "Less than 156 units of Flunitrazepam",
+        "min": null,
+        "min_unit": null,
+        "max": "156",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 16,000 but less than 40,000 units of Schedule IV substances (except Flunitrazepam)",
+      "measures": [
+       {
+        "substance": "Schedule IV substances (except Flunitrazepam)",
+        "printed": "At least 16,000 but less than 40,000 units of Schedule IV substances (except Flunitrazepam)",
+        "min": "16,000",
+        "min_unit": "units",
+        "max": "40,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "160,000 units or more of Schedule V substances",
+      "measures": [
+       {
+        "substance": "Schedule V substances",
+        "printed": "160,000 units or more of Schedule V substances",
+        "min": "160,000",
+        "min_unit": "units",
+        "max": null,
+        "max_unit": null,
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "At least 1 KG but less than 2.5 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "At least 1 KG but less than 2.5 KG of Converted Drug Weight",
+        "min": "1",
+        "min_unit": "KG",
+        "max": "2.5",
+        "max_unit": "KG",
+        "min_grams": 1000.0,
+        "max_grams": 2500.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "group": 17,
+    "level": 6,
+    "pdf_page": 166,
+    "rows": [
+     {
+      "printed": "Less than 1 KG of Marihuana",
+      "measures": [
+       {
+        "substance": "Marihuana",
+        "printed": "Less than 1 KG of Marihuana",
+        "min": null,
+        "min_unit": null,
+        "max": "1",
+        "max_unit": "KG",
+        "min_grams": null,
+        "max_grams": 1000.0
+       }
+      ]
+     },
+     {
+      "printed": "Less than 200 G of Hashish",
+      "measures": [
+       {
+        "substance": "Hashish",
+        "printed": "Less than 200 G of Hashish",
+        "min": null,
+        "min_unit": null,
+        "max": "200",
+        "max_unit": "G",
+        "min_grams": null,
+        "max_grams": 200.0
+       }
+      ]
+     },
+     {
+      "printed": "Less than 20 G of Hashish Oil",
+      "measures": [
+       {
+        "substance": "Hashish Oil",
+        "printed": "Less than 20 G of Hashish Oil",
+        "min": null,
+        "min_unit": null,
+        "max": "20",
+        "max_unit": "G",
+        "min_grams": null,
+        "max_grams": 20.0
+       }
+      ]
+     },
+     {
+      "printed": "Less than 1,000 units of Ketamine",
+      "measures": [
+       {
+        "substance": "Ketamine",
+        "printed": "Less than 1,000 units of Ketamine",
+        "min": null,
+        "min_unit": null,
+        "max": "1,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "Less than 1,000 units of Schedule I or II Depressants",
+      "measures": [
+       {
+        "substance": "Schedule I or II Depressants",
+        "printed": "Less than 1,000 units of Schedule I or II Depressants",
+        "min": null,
+        "min_unit": null,
+        "max": "1,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "Less than 1,000 units of Schedule III substances (except Ketamine)",
+      "measures": [
+       {
+        "substance": "Schedule III substances (except Ketamine)",
+        "printed": "Less than 1,000 units of Schedule III substances (except Ketamine)",
+        "min": null,
+        "min_unit": null,
+        "max": "1,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "Less than 16,000 units of Schedule IV substances (except Flunitrazepam)",
+      "measures": [
+       {
+        "substance": "Schedule IV substances (except Flunitrazepam)",
+        "printed": "Less than 16,000 units of Schedule IV substances (except Flunitrazepam)",
+        "min": null,
+        "min_unit": null,
+        "max": "16,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "Less than 160,000 units of Schedule V substances",
+      "measures": [
+       {
+        "substance": "Schedule V substances",
+        "printed": "Less than 160,000 units of Schedule V substances",
+        "min": null,
+        "min_unit": null,
+        "max": "160,000",
+        "max_unit": "units",
+        "min_grams": null,
+        "max_grams": null
+       }
+      ]
+     },
+     {
+      "printed": "Less than 1 KG of Converted Drug Weight",
+      "measures": [
+       {
+        "substance": "Converted Drug Weight",
+        "printed": "Less than 1 KG of Converted Drug Weight",
+        "min": null,
+        "min_unit": null,
+        "max": "1",
+        "max_unit": "KG",
+        "min_grams": null,
+        "max_grams": 1000.0
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "substances": [
+   "Amphetamine",
+   "Amphetamine (actual)",
+   "Cocaine",
+   "Cocaine Base",
+   "Converted Drug Weight",
+   "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+   "Flunitrazepam",
+   "Hashish",
+   "Hashish Oil",
+   "Heroin",
+   "Ketamine",
+   "LSD",
+   "Marihuana",
+   "Methamphetamine",
+   "Methamphetamine (actual)",
+   "PCP",
+   "PCP (actual)",
+   "Schedule I or II Depressants",
+   "Schedule III substances (except Ketamine)",
+   "Schedule IV substances (except Flunitrazepam)",
+   "Schedule V substances",
+   "a Fentanyl Analogue",
+   "“Ice”"
+  ]
+ },
+ "drug_conversion_tables": {
+  "guideline": "2D1.1",
+  "commentary": "Application Note 8(D)",
+  "pdf_pages": [
+   172,
+   175
+  ],
+  "tables": [
+   {
+    "category": "SCHEDULE I OR II OPIATES*",
+    "pdf_page": 172,
+    "rows": [
+     {
+      "printed": "1 gm of 1-(2-Phenylethyl)-4-phenyl-4-acetyloxypiperidine (PEPAP) = 700 gm",
+      "from_amount": "1 gm",
+      "substance": "1-(2-Phenylethyl)-4-phenyl-4-acetyloxypiperidine (PEPAP)",
+      "converted_amount": "700",
+      "converted_unit": "gm",
+      "converted_grams": 700.0
+     },
+     {
+      "printed": "1 gm of 1-Methyl-4-phenyl-4-propionoxypiperidine (MPPP) = 700 gm",
+      "from_amount": "1 gm",
+      "substance": "1-Methyl-4-phenyl-4-propionoxypiperidine (MPPP)",
+      "converted_amount": "700",
+      "converted_unit": "gm",
+      "converted_grams": 700.0
+     },
+     {
+      "printed": "1 gm of 6-Monoacetylmorphine = 1 kg",
+      "from_amount": "1 gm",
+      "substance": "6-Monoacetylmorphine",
+      "converted_amount": "1",
+      "converted_unit": "kg",
+      "converted_grams": 1000.0
+     },
+     {
+      "printed": "1 gm of Alphaprodine = 100 gm",
+      "from_amount": "1 gm",
+      "substance": "Alphaprodine",
+      "converted_amount": "100",
+      "converted_unit": "gm",
+      "converted_grams": 100.0
+     },
+     {
+      "printed": "1 gm of Codeine = 80 gm",
+      "from_amount": "1 gm",
+      "substance": "Codeine",
+      "converted_amount": "80",
+      "converted_unit": "gm",
+      "converted_grams": 80.0
+     },
+     {
+      "printed": "1 gm of Dextromoramide = 670 gm",
+      "from_amount": "1 gm",
+      "substance": "Dextromoramide",
+      "converted_amount": "670",
+      "converted_unit": "gm",
+      "converted_grams": 670.0
+     },
+     {
+      "printed": "1 gm of Dextropropoxyphene/Propoxyphene-Bulk = 50 gm",
+      "from_amount": "1 gm",
+      "substance": "Dextropropoxyphene/Propoxyphene-Bulk",
+      "converted_amount": "50",
+      "converted_unit": "gm",
+      "converted_grams": 50.0
+     },
+     {
+      "printed": "1 gm of Dipipanone = 250 gm",
+      "from_amount": "1 gm",
+      "substance": "Dipipanone",
+      "converted_amount": "250",
+      "converted_unit": "gm",
+      "converted_grams": 250.0
+     },
+     {
+      "printed": "1 gm of Ethylmorphine = 165 gm",
+      "from_amount": "1 gm",
+      "substance": "Ethylmorphine",
+      "converted_amount": "165",
+      "converted_unit": "gm",
+      "converted_grams": 165.0
+     },
+     {
+      "printed": "1 gm of Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide) = 2.5 kg",
+      "from_amount": "1 gm",
+      "substance": "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+      "converted_amount": "2.5",
+      "converted_unit": "kg",
+      "converted_grams": 2500.0
+     },
+     {
+      "printed": "1 gm of a Fentanyl Analogue = 10 kg",
+      "from_amount": "1 gm",
+      "substance": "a Fentanyl Analogue",
+      "converted_amount": "10",
+      "converted_unit": "kg",
+      "converted_grams": 10000.0
+     },
+     {
+      "printed": "1 gm of Heroin = 1 kg",
+      "from_amount": "1 gm",
+      "substance": "Heroin",
+      "converted_amount": "1",
+      "converted_unit": "kg",
+      "converted_grams": 1000.0
+     },
+     {
+      "printed": "1 gm of Hydrocodone (actual) = 6,700 gm",
+      "from_amount": "1 gm",
+      "substance": "Hydrocodone (actual)",
+      "converted_amount": "6,700",
+      "converted_unit": "gm",
+      "converted_grams": 6700.0
+     },
+     {
+      "printed": "1 gm of Hydromorphone/Dihydromorphinone = 2.5 kg",
+      "from_amount": "1 gm",
+      "substance": "Hydromorphone/Dihydromorphinone",
+      "converted_amount": "2.5",
+      "converted_unit": "kg",
+      "converted_grams": 2500.0
+     },
+     {
+      "printed": "1 gm of Levo-alpha-acetylmethadol (LAAM) = 3 kg",
+      "from_amount": "1 gm",
+      "substance": "Levo-alpha-acetylmethadol (LAAM)",
+      "converted_amount": "3",
+      "converted_unit": "kg",
+      "converted_grams": 3000.0
+     },
+     {
+      "printed": "1 gm of Levorphanol = 2.5 kg",
+      "from_amount": "1 gm",
+      "substance": "Levorphanol",
+      "converted_amount": "2.5",
+      "converted_unit": "kg",
+      "converted_grams": 2500.0
+     },
+     {
+      "printed": "1 gm of Meperidine/Pethidine = 50 gm",
+      "from_amount": "1 gm",
+      "substance": "Meperidine/Pethidine",
+      "converted_amount": "50",
+      "converted_unit": "gm",
+      "converted_grams": 50.0
+     },
+     {
+      "printed": "1 gm of Methadone = 500 gm",
+      "from_amount": "1 gm",
+      "substance": "Methadone",
+      "converted_amount": "500",
+      "converted_unit": "gm",
+      "converted_grams": 500.0
+     },
+     {
+      "printed": "1 gm of Mixed Alkaloids of Opium/Papaveretum = 250 gm",
+      "from_amount": "1 gm",
+      "substance": "Mixed Alkaloids of Opium/Papaveretum",
+      "converted_amount": "250",
+      "converted_unit": "gm",
+      "converted_grams": 250.0
+     },
+     {
+      "printed": "1 gm of Morphine = 500 gm",
+      "from_amount": "1 gm",
+      "substance": "Morphine",
+      "converted_amount": "500",
+      "converted_unit": "gm",
+      "converted_grams": 500.0
+     },
+     {
+      "printed": "1 gm of Opium = 50 gm",
+      "from_amount": "1 gm",
+      "substance": "Opium",
+      "converted_amount": "50",
+      "converted_unit": "gm",
+      "converted_grams": 50.0
+     },
+     {
+      "printed": "1 gm of Oxycodone (actual) = 6,700 gm",
+      "from_amount": "1 gm",
+      "substance": "Oxycodone (actual)",
+      "converted_amount": "6,700",
+      "converted_unit": "gm",
+      "converted_grams": 6700.0
+     },
+     {
+      "printed": "1 gm of Oxymorphone = 5 kg",
+      "from_amount": "1 gm",
+      "substance": "Oxymorphone",
+      "converted_amount": "5",
+      "converted_unit": "kg",
+      "converted_grams": 5000.0
+     },
+     {
+      "printed": "1 gm of Racemorphan = 800 gm",
+      "from_amount": "1 gm",
+      "substance": "Racemorphan",
+      "converted_amount": "800",
+      "converted_unit": "gm",
+      "converted_grams": 800.0
+     }
+    ],
+    "footnotes": [
+     "*Provided, that the minimum offense level from the Drug Quantity Table for any of these controlled substances individually, or in combination with another controlled substance, is level 12."
+    ]
+   },
+   {
+    "category": "COCAINE AND OTHER SCHEDULE I AND II STIMULANTS (AND THEIR IMMEDIATE PRECURSORS)*",
+    "pdf_page": 172,
+    "rows": [
+     {
+      "printed": "1 gm of 4-Methylaminorex (“Euphoria”) = 100 gm",
+      "from_amount": "1 gm",
+      "substance": "4-Methylaminorex (“Euphoria”)",
+      "converted_amount": "100",
+      "converted_unit": "gm",
+      "converted_grams": 100.0
+     },
+     {
+      "printed": "1 gm of Aminorex = 100 gm",
+      "from_amount": "1 gm",
+      "substance": "Aminorex",
+      "converted_amount": "100",
+      "converted_unit": "gm",
+      "converted_grams": 100.0
+     },
+     {
+      "printed": "1 gm of Amphetamine = 2 kg",
+      "from_amount": "1 gm",
+      "substance": "Amphetamine",
+      "converted_amount": "2",
+      "converted_unit": "kg",
+      "converted_grams": 2000.0
+     },
+     {
+      "printed": "1 gm of Amphetamine (actual) = 20 kg",
+      "from_amount": "1 gm",
+      "substance": "Amphetamine (actual)",
+      "converted_amount": "20",
+      "converted_unit": "kg",
+      "converted_grams": 20000.0
+     },
+     {
+      "printed": "1 gm of Cocaine = 200 gm",
+      "from_amount": "1 gm",
+      "substance": "Cocaine",
+      "converted_amount": "200",
+      "converted_unit": "gm",
+      "converted_grams": 200.0
+     },
+     {
+      "printed": "1 gm of Cocaine Base (“Crack”) = 3,571 gm",
+      "from_amount": "1 gm",
+      "substance": "Cocaine Base (“Crack”)",
+      "converted_amount": "3,571",
+      "converted_unit": "gm",
+      "converted_grams": 3571.0
+     },
+     {
+      "printed": "1 gm of Fenethylline = 40 gm",
+      "from_amount": "1 gm",
+      "substance": "Fenethylline",
+      "converted_amount": "40",
+      "converted_unit": "gm",
+      "converted_grams": 40.0
+     },
+     {
+      "printed": "1 gm of “Ice” = 20 kg",
+      "from_amount": "1 gm",
+      "substance": "“Ice”",
+      "converted_amount": "20",
+      "converted_unit": "kg",
+      "converted_grams": 20000.0
+     },
+     {
+      "printed": "1 gm of Khat = .01 gm",
+      "from_amount": "1 gm",
+      "substance": "Khat",
+      "converted_amount": ".01",
+      "converted_unit": "gm",
+      "converted_grams": 0.01
+     },
+     {
+      "printed": "1 gm of Methamphetamine = 2 kg",
+      "from_amount": "1 gm",
+      "substance": "Methamphetamine",
+      "converted_amount": "2",
+      "converted_unit": "kg",
+      "converted_grams": 2000.0
+     },
+     {
+      "printed": "1 gm of Methamphetamine (actual) = 20 kg",
+      "from_amount": "1 gm",
+      "substance": "Methamphetamine (actual)",
+      "converted_amount": "20",
+      "converted_unit": "kg",
+      "converted_grams": 20000.0
+     },
+     {
+      "printed": "1 gm of Methylphenidate (Ritalin) = 100 gm",
+      "from_amount": "1 gm",
+      "substance": "Methylphenidate (Ritalin)",
+      "converted_amount": "100",
+      "converted_unit": "gm",
+      "converted_grams": 100.0
+     },
+     {
+      "printed": "1 gm of N-Benzylpiperazine = 100 gm",
+      "from_amount": "1 gm",
+      "substance": "N-Benzylpiperazine",
+      "converted_amount": "100",
+      "converted_unit": "gm",
+      "converted_grams": 100.0
+     },
+     {
+      "printed": "1 gm of N-Ethylamphetamine = 80 gm",
+      "from_amount": "1 gm",
+      "substance": "N-Ethylamphetamine",
+      "converted_amount": "80",
+      "converted_unit": "gm",
+      "converted_grams": 80.0
+     },
+     {
+      "printed": "1 gm of N-N-Dimethylamphetamine = 40 gm",
+      "from_amount": "1 gm",
+      "substance": "N-N-Dimethylamphetamine",
+      "converted_amount": "40",
+      "converted_unit": "gm",
+      "converted_grams": 40.0
+     },
+     {
+      "printed": "1 gm of Phenmetrazine = 80 gm",
+      "from_amount": "1 gm",
+      "substance": "Phenmetrazine",
+      "converted_amount": "80",
+      "converted_unit": "gm",
+      "converted_grams": 80.0
+     },
+     {
+      "printed": "1 gm of Phenylacetone (P2P) (when possessed for the purpose of manufacturing methamphetamine) = 416 gm",
+      "from_amount": "1 gm",
+      "substance": "Phenylacetone (P2P) (when possessed for the purpose of manufacturing methamphetamine)",
+      "converted_amount": "416",
+      "converted_unit": "gm",
+      "converted_grams": 416.0
+     },
+     {
+      "printed": "1 gm of Phenylacetone (P2P) (in any other case) = 75 gm",
+      "from_amount": "1 gm",
+      "substance": "Phenylacetone (P2P) (in any other case)",
+      "converted_amount": "75",
+      "converted_unit": "gm",
+      "converted_grams": 75.0
+     }
+    ],
+    "footnotes": [
+     "*Provided, that the minimum offense level from the Drug Quantity Table for any of these controlled substances individually, or in combination with another controlled substance, is level 12."
+    ]
+   },
+   {
+    "category": "SYNTHETIC CATHINONES (EXCEPT SCHEDULE III, IV, AND V SUBSTANCES)*",
+    "pdf_page": 173,
+    "rows": [
+     {
+      "printed": "1 gm of a Synthetic Cathinone (except a Schedule III, IV, or V substance) = 380 gm",
+      "from_amount": "1 gm",
+      "substance": "a Synthetic Cathinone (except a Schedule III, IV, or V substance)",
+      "converted_amount": "380",
+      "converted_unit": "gm",
+      "converted_grams": 380.0
+     }
+    ],
+    "footnotes": [
+     "*Provided, that the minimum offense level from the Drug Quantity Table for any synthetic cathinone (except a Sched- ule III, IV, or V substance) individually, or in combination with another controlled substance, is level 12."
+    ]
+   },
+   {
+    "category": "LSD, PCP, AND OTHER SCHEDULE I AND II HALLUCINOGENS (AND THEIR IMMEDIATE PRECURSORS)*",
+    "pdf_page": 173,
+    "rows": [
+     {
+      "printed": "1 gm of 1-Piperidinocyclohexanecarbonitrile (PCC) = 680 gm",
+      "from_amount": "1 gm",
+      "substance": "1-Piperidinocyclohexanecarbonitrile (PCC)",
+      "converted_amount": "680",
+      "converted_unit": "gm",
+      "converted_grams": 680.0
+     },
+     {
+      "printed": "1 gm of 2,5-Dimethoxy-4-methylamphetamine (DOM) = 1.67 kg",
+      "from_amount": "1 gm",
+      "substance": "2,5-Dimethoxy-4-methylamphetamine (DOM)",
+      "converted_amount": "1.67",
+      "converted_unit": "kg",
+      "converted_grams": 1670.0
+     },
+     {
+      "printed": "1 gm of 3,4-Methylenedioxyamphetamine (MDA) = 500 gm",
+      "from_amount": "1 gm",
+      "substance": "3,4-Methylenedioxyamphetamine (MDA)",
+      "converted_amount": "500",
+      "converted_unit": "gm",
+      "converted_grams": 500.0
+     },
+     {
+      "printed": "1 gm of 3,4-Methylenedioxymethamphetamine (MDMA) = 500 gm",
+      "from_amount": "1 gm",
+      "substance": "3,4-Methylenedioxymethamphetamine (MDMA)",
+      "converted_amount": "500",
+      "converted_unit": "gm",
+      "converted_grams": 500.0
+     },
+     {
+      "printed": "1 gm of 3,4-Methylenedioxy-N-ethylamphetamine (MDEA) = 500 gm",
+      "from_amount": "1 gm",
+      "substance": "3,4-Methylenedioxy-N-ethylamphetamine (MDEA)",
+      "converted_amount": "500",
+      "converted_unit": "gm",
+      "converted_grams": 500.0
+     },
+     {
+      "printed": "1 gm of 4-Bromo-2,5-Dimethoxyamphetamine (DOB) = 2.5 kg",
+      "from_amount": "1 gm",
+      "substance": "4-Bromo-2,5-Dimethoxyamphetamine (DOB)",
+      "converted_amount": "2.5",
+      "converted_unit": "kg",
+      "converted_grams": 2500.0
+     },
+     {
+      "printed": "1 gm of Bufotenine = 70 gm",
+      "from_amount": "1 gm",
+      "substance": "Bufotenine",
+      "converted_amount": "70",
+      "converted_unit": "gm",
+      "converted_grams": 70.0
+     },
+     {
+      "printed": "1 gm of D-Lysergic Acid Diethylamide/Lysergide (LSD) = 100 kg",
+      "from_amount": "1 gm",
+      "substance": "D-Lysergic Acid Diethylamide/Lysergide (LSD)",
+      "converted_amount": "100",
+      "converted_unit": "kg",
+      "converted_grams": 100000.0
+     },
+     {
+      "printed": "1 gm of Diethyltryptamine (DET) = 80 gm",
+      "from_amount": "1 gm",
+      "substance": "Diethyltryptamine (DET)",
+      "converted_amount": "80",
+      "converted_unit": "gm",
+      "converted_grams": 80.0
+     },
+     {
+      "printed": "1 gm of Dimethyltryptamine (DM) = 100 gm",
+      "from_amount": "1 gm",
+      "substance": "Dimethyltryptamine (DM)",
+      "converted_amount": "100",
+      "converted_unit": "gm",
+      "converted_grams": 100.0
+     },
+     {
+      "printed": "1 gm of Mescaline = 10 gm",
+      "from_amount": "1 gm",
+      "substance": "Mescaline",
+      "converted_amount": "10",
+      "converted_unit": "gm",
+      "converted_grams": 10.0
+     },
+     {
+      "printed": "1 gm of Mushrooms containing Psilocin and/or Psilocybin (dry) = 1 gm",
+      "from_amount": "1 gm",
+      "substance": "Mushrooms containing Psilocin and/or Psilocybin (dry)",
+      "converted_amount": "1",
+      "converted_unit": "gm",
+      "converted_grams": 1.0
+     },
+     {
+      "printed": "1 gm of Mushrooms containing Psilocin and/or Psilocybin (wet) = 0.1 gm",
+      "from_amount": "1 gm",
+      "substance": "Mushrooms containing Psilocin and/or Psilocybin (wet)",
+      "converted_amount": "0.1",
+      "converted_unit": "gm",
+      "converted_grams": 0.1
+     },
+     {
+      "printed": "1 gm of N-ethyl-1-phenylcyclohexylamine (PCE) = 1 kg",
+      "from_amount": "1 gm",
+      "substance": "N-ethyl-1-phenylcyclohexylamine (PCE)",
+      "converted_amount": "1",
+      "converted_unit": "kg",
+      "converted_grams": 1000.0
+     },
+     {
+      "printed": "1 gm of Paramethoxymethamphetamine (PMA) = 500 gm",
+      "from_amount": "1 gm",
+      "substance": "Paramethoxymethamphetamine (PMA)",
+      "converted_amount": "500",
+      "converted_unit": "gm",
+      "converted_grams": 500.0
+     },
+     {
+      "printed": "1 gm of Peyote (dry) = 0.5 gm",
+      "from_amount": "1 gm",
+      "substance": "Peyote (dry)",
+      "converted_amount": "0.5",
+      "converted_unit": "gm",
+      "converted_grams": 0.5
+     },
+     {
+      "printed": "1 gm of Peyote (wet) = 0.05 gm",
+      "from_amount": "1 gm",
+      "substance": "Peyote (wet)",
+      "converted_amount": "0.05",
+      "converted_unit": "gm",
+      "converted_grams": 0.05
+     },
+     {
+      "printed": "1 gm of Phencyclidine (PCP) = 1 kg",
+      "from_amount": "1 gm",
+      "substance": "Phencyclidine (PCP)",
+      "converted_amount": "1",
+      "converted_unit": "kg",
+      "converted_grams": 1000.0
+     },
+     {
+      "printed": "1 gm of Phencyclidine (PCP) (actual) = 10 kg",
+      "from_amount": "1 gm",
+      "substance": "Phencyclidine (PCP) (actual)",
+      "converted_amount": "10",
+      "converted_unit": "kg",
+      "converted_grams": 10000.0
+     },
+     {
+      "printed": "1 gm of Psilocin = 500 gm",
+      "from_amount": "1 gm",
+      "substance": "Psilocin",
+      "converted_amount": "500",
+      "converted_unit": "gm",
+      "converted_grams": 500.0
+     },
+     {
+      "printed": "1 gm of Psilocybin = 500 gm",
+      "from_amount": "1 gm",
+      "substance": "Psilocybin",
+      "converted_amount": "500",
+      "converted_unit": "gm",
+      "converted_grams": 500.0
+     },
+     {
+      "printed": "1 gm of Pyrrolidine Analog of Phencyclidine (PHP) = 1 kg",
+      "from_amount": "1 gm",
+      "substance": "Pyrrolidine Analog of Phencyclidine (PHP)",
+      "converted_amount": "1",
+      "converted_unit": "kg",
+      "converted_grams": 1000.0
+     },
+     {
+      "printed": "1 gm of Thiophene Analog of Phencyclidine (TCP) = 1 kg",
+      "from_amount": "1 gm",
+      "substance": "Thiophene Analog of Phencyclidine (TCP)",
+      "converted_amount": "1",
+      "converted_unit": "kg",
+      "converted_grams": 1000.0
+     }
+    ],
+    "footnotes": [
+     "*Provided, that the minimum offense level from the Drug Quantity Table for any of these controlled substances individually, or in combination with another controlled substance, is level 12."
+    ]
+   },
+   {
+    "category": "SCHEDULE I MARIHUANA",
+    "pdf_page": 173,
+    "rows": [
+     {
+      "printed": "1 gm of Cannabis Resin or Hashish = 5 gm",
+      "from_amount": "1 gm",
+      "substance": "Cannabis Resin or Hashish",
+      "converted_amount": "5",
+      "converted_unit": "gm",
+      "converted_grams": 5.0
+     },
+     {
+      "printed": "1 gm of Hashish Oil = 50 gm",
+      "from_amount": "1 gm",
+      "substance": "Hashish Oil",
+      "converted_amount": "50",
+      "converted_unit": "gm",
+      "converted_grams": 50.0
+     },
+     {
+      "printed": "1 gm of Marihuana/Cannabis (granulated, powdered, etc.) = 1 gm",
+      "from_amount": "1 gm",
+      "substance": "Marihuana/Cannabis (granulated, powdered, etc.)",
+      "converted_amount": "1",
+      "converted_unit": "gm",
+      "converted_grams": 1.0
+     },
+     {
+      "printed": "1 gm of Tetrahydrocannabinol (organic) = 167 gm",
+      "from_amount": "1 gm",
+      "substance": "Tetrahydrocannabinol (organic)",
+      "converted_amount": "167",
+      "converted_unit": "gm",
+      "converted_grams": 167.0
+     },
+     {
+      "printed": "1 gm of Tetrahydrocannabinol (synthetic) = 167 gm",
+      "from_amount": "1 gm",
+      "substance": "Tetrahydrocannabinol (synthetic)",
+      "converted_amount": "167",
+      "converted_unit": "gm",
+      "converted_grams": 167.0
+     }
+    ],
+    "footnotes": []
+   },
+   {
+    "category": "SYNTHETIC CANNABINOIDS (EXCEPT SCHEDULE III, IV, AND V SUBSTANCES)*",
+    "pdf_page": 173,
+    "rows": [
+     {
+      "printed": "1 gm of a Synthetic Cannabinoid (except a Schedule III, IV, or V substance) = 167 gm",
+      "from_amount": "1 gm",
+      "substance": "a Synthetic Cannabinoid (except a Schedule III, IV, or V substance)",
+      "converted_amount": "167",
+      "converted_unit": "gm",
+      "converted_grams": 167.0
+     }
+    ],
+    "footnotes": [
+     "*Provided, that the minimum offense level from the Drug Quantity Table for any synthetic cannabinoid (except a Schedule III, IV, or V substance) individually, or in combination with another controlled substance, is level 12. “Synthetic Cannabinoid,” for purposes of this guideline, means any synthetic substance (other than synthetic tetra- hydrocannabinol) that binds to and activates type 1 cannabinoid receptors (CB1 receptors)."
+    ]
+   },
+   {
+    "category": "FLUNITRAZEPAM **",
+    "pdf_page": 174,
+    "rows": [
+     {
+      "printed": "1 unit of Flunitrazepam = 16 gm",
+      "from_amount": "1 unit",
+      "substance": "Flunitrazepam",
+      "converted_amount": "16",
+      "converted_unit": "gm",
+      "converted_grams": 16.0
+     }
+    ],
+    "footnotes": [
+     "**Provided, that the minimum offense level from the Drug Quantity Table for flunitrazepam individually, or in combination with any Schedule I or II depressants, Schedule III substances, Schedule IV substances, and Sched- ule V substances is level 8."
+    ]
+   },
+   {
+    "category": "SCHEDULE I OR II DEPRESSANTS (EXCEPT GAMMA-HYDROXYBUTYRIC ACID)",
+    "pdf_page": 174,
+    "rows": [
+     {
+      "printed": "1 unit of a Schedule I or II Depressant (except Gamma-hydroxybutyric Acid) = 1 gm",
+      "from_amount": "1 unit",
+      "substance": "a Schedule I or II Depressant (except Gamma-hydroxybutyric Acid)",
+      "converted_amount": "1",
+      "converted_unit": "gm",
+      "converted_grams": 1.0
+     }
+    ],
+    "footnotes": []
+   },
+   {
+    "category": "GAMMA-HYDROXYBUTYRIC ACID",
+    "pdf_page": 174,
+    "rows": [
+     {
+      "printed": "1 ml of Gamma-hydroxybutyric Acid = 8.8 gm",
+      "from_amount": "1 ml",
+      "substance": "Gamma-hydroxybutyric Acid",
+      "converted_amount": "8.8",
+      "converted_unit": "gm",
+      "converted_grams": 8.8
+     }
+    ],
+    "footnotes": []
+   },
+   {
+    "category": "SCHEDULE III SUBSTANCES (EXCEPT KETAMINE)***",
+    "pdf_page": 174,
+    "rows": [
+     {
+      "printed": "1 unit of a Schedule III Substance (except Ketamine) = 1 gm",
+      "from_amount": "1 unit",
+      "substance": "a Schedule III Substance (except Ketamine)",
+      "converted_amount": "1",
+      "converted_unit": "gm",
+      "converted_grams": 1.0
+     }
+    ],
+    "footnotes": [
+     "***Provided, that the combined converted weight of all Schedule III substances (except ketamine), Schedule IV substances (except flunitrazepam), and Schedule V substances shall not exceed 79.99 kilograms of converted drug weight."
+    ]
+   },
+   {
+    "category": "KETAMINE",
+    "pdf_page": 174,
+    "rows": [
+     {
+      "printed": "1 unit of Ketamine = 1 gm",
+      "from_amount": "1 unit",
+      "substance": "Ketamine",
+      "converted_amount": "1",
+      "converted_unit": "gm",
+      "converted_grams": 1.0
+     }
+    ],
+    "footnotes": []
+   },
+   {
+    "category": "SCHEDULE IV SUBSTANCES (EXCEPT FLUNITRAZEPAM)****",
+    "pdf_page": 174,
+    "rows": [
+     {
+      "printed": "1 unit of a Schedule IV Substance (except Flunitrazepam) = 0.0625 gm",
+      "from_amount": "1 unit",
+      "substance": "a Schedule IV Substance (except Flunitrazepam)",
+      "converted_amount": "0.0625",
+      "converted_unit": "gm",
+      "converted_grams": 0.0625
+     }
+    ],
+    "footnotes": [
+     "****Provided, that the combined converted weight of all Schedule IV (except flunitrazepam) and V substances shall not exceed 9.99 kilograms of converted drug weight."
+    ]
+   },
+   {
+    "category": "SCHEDULE V SUBSTANCES*****",
+    "pdf_page": 174,
+    "rows": [
+     {
+      "printed": "1 unit of a Schedule V Substance = 0.00625 gm",
+      "from_amount": "1 unit",
+      "substance": "a Schedule V Substance",
+      "converted_amount": "0.00625",
+      "converted_unit": "gm",
+      "converted_grams": 0.00625
+     }
+    ],
+    "footnotes": [
+     "*****Provided, that the combined converted weight of Schedule V s ubstances shall not exceed 2.49 kilograms of converted drug weight."
+    ]
+   },
+   {
+    "category": "LIST I CHEMICALS (RELATING TO THE MANUFACTURE OF AMPHETAMINE OR METHAMPHETAMINE)******",
+    "pdf_page": 174,
+    "rows": [
+     {
+      "printed": "1 gm of Ephedrine = 10 kg",
+      "from_amount": "1 gm",
+      "substance": "Ephedrine",
+      "converted_amount": "10",
+      "converted_unit": "kg",
+      "converted_grams": 10000.0
+     },
+     {
+      "printed": "1 gm of Phenylpropanolamine = 10 kg",
+      "from_amount": "1 gm",
+      "substance": "Phenylpropanolamine",
+      "converted_amount": "10",
+      "converted_unit": "kg",
+      "converted_grams": 10000.0
+     },
+     {
+      "printed": "1 gm of Pseudoephedrine = 10 kg",
+      "from_amount": "1 gm",
+      "substance": "Pseudoephedrine",
+      "converted_amount": "10",
+      "converted_unit": "kg",
+      "converted_grams": 10000.0
+     }
+    ],
+    "footnotes": [
+     "******Provided, that in a case involving ephedrine, pseudoephedrine, or phenylpropanolamine tablets, use the weight of the ephedrine, pseudoephedrine, or phenylpropanolamine contained in the tablets, not the weight of the entire tablets, in calculating the base offense level."
+    ]
+   },
+   {
+    "category": "DATE RAPE DRUGS (EXCEPT FLUNITRAZEPAM, GHB, OR KETAMINE)",
+    "pdf_page": 175,
+    "rows": [
+     {
+      "printed": "1 ml of 1,4-Butanediol = 8.8 gm",
+      "from_amount": "1 ml",
+      "substance": "1,4-Butanediol",
+      "converted_amount": "8.8",
+      "converted_unit": "gm",
+      "converted_grams": 8.8
+     },
+     {
+      "printed": "1 ml of Gamma Butyrolactone = 8.8 gm",
+      "from_amount": "1 ml",
+      "substance": "Gamma Butyrolactone",
+      "converted_amount": "8.8",
+      "converted_unit": "gm",
+      "converted_grams": 8.8
+     }
+    ],
+    "footnotes": []
+   }
+  ],
+  "substances": [
+   "1,4-Butanediol",
+   "1-(2-Phenylethyl)-4-phenyl-4-acetyloxypiperidine (PEPAP)",
+   "1-Methyl-4-phenyl-4-propionoxypiperidine (MPPP)",
+   "1-Piperidinocyclohexanecarbonitrile (PCC)",
+   "2,5-Dimethoxy-4-methylamphetamine (DOM)",
+   "3,4-Methylenedioxy-N-ethylamphetamine (MDEA)",
+   "3,4-Methylenedioxyamphetamine (MDA)",
+   "3,4-Methylenedioxymethamphetamine (MDMA)",
+   "4-Bromo-2,5-Dimethoxyamphetamine (DOB)",
+   "4-Methylaminorex (“Euphoria”)",
+   "6-Monoacetylmorphine",
+   "Alphaprodine",
+   "Aminorex",
+   "Amphetamine",
+   "Amphetamine (actual)",
+   "Bufotenine",
+   "Cannabis Resin or Hashish",
+   "Cocaine",
+   "Cocaine Base (“Crack”)",
+   "Codeine",
+   "D-Lysergic Acid Diethylamide/Lysergide (LSD)",
+   "Dextromoramide",
+   "Dextropropoxyphene/Propoxyphene-Bulk",
+   "Diethyltryptamine (DET)",
+   "Dimethyltryptamine (DM)",
+   "Dipipanone",
+   "Ephedrine",
+   "Ethylmorphine",
+   "Fenethylline",
+   "Fentanyl (N-phenyl-N-[1-(2-phenylethyl)-4-piperidinyl] Propanamide)",
+   "Flunitrazepam",
+   "Gamma Butyrolactone",
+   "Gamma-hydroxybutyric Acid",
+   "Hashish Oil",
+   "Heroin",
+   "Hydrocodone (actual)",
+   "Hydromorphone/Dihydromorphinone",
+   "Ketamine",
+   "Khat",
+   "Levo-alpha-acetylmethadol (LAAM)",
+   "Levorphanol",
+   "Marihuana/Cannabis (granulated, powdered, etc.)",
+   "Meperidine/Pethidine",
+   "Mescaline",
+   "Methadone",
+   "Methamphetamine",
+   "Methamphetamine (actual)",
+   "Methylphenidate (Ritalin)",
+   "Mixed Alkaloids of Opium/Papaveretum",
+   "Morphine",
+   "Mushrooms containing Psilocin and/or Psilocybin (dry)",
+   "Mushrooms containing Psilocin and/or Psilocybin (wet)",
+   "N-Benzylpiperazine",
+   "N-Ethylamphetamine",
+   "N-N-Dimethylamphetamine",
+   "N-ethyl-1-phenylcyclohexylamine (PCE)",
+   "Opium",
+   "Oxycodone (actual)",
+   "Oxymorphone",
+   "Paramethoxymethamphetamine (PMA)",
+   "Peyote (dry)",
+   "Peyote (wet)",
+   "Phencyclidine (PCP)",
+   "Phencyclidine (PCP) (actual)",
+   "Phenmetrazine",
+   "Phenylacetone (P2P) (in any other case)",
+   "Phenylacetone (P2P) (when possessed for the purpose of manufacturing methamphetamine)",
+   "Phenylpropanolamine",
+   "Pseudoephedrine",
+   "Psilocin",
+   "Psilocybin",
+   "Pyrrolidine Analog of Phencyclidine (PHP)",
+   "Racemorphan",
+   "Tetrahydrocannabinol (organic)",
+   "Tetrahydrocannabinol (synthetic)",
+   "Thiophene Analog of Phencyclidine (TCP)",
+   "a Fentanyl Analogue",
+   "a Schedule I or II Depressant (except Gamma-hydroxybutyric Acid)",
+   "a Schedule III Substance (except Ketamine)",
+   "a Schedule IV Substance (except Flunitrazepam)",
+   "a Schedule V Substance",
+   "a Synthetic Cannabinoid (except a Schedule III, IV, or V substance)",
+   "a Synthetic Cathinone (except a Schedule III, IV, or V substance)",
+   "“Ice”"
+  ],
+  "measurement_conversion_table": {
+   "heading": "To facilitate conversions to converted drug weight, the following table is provided:",
+   "rows": [
+    {
+     "printed": "1 oz = 28.35 gm",
+     "from": "1 oz",
+     "value": "28.35",
+     "unit": "gm"
+    },
+    {
+     "printed": "1 lb = 453.6 gm",
+     "from": "1 lb",
+     "value": "453.6",
+     "unit": "gm"
+    },
+    {
+     "printed": "1 lb = 0.4536 kg",
+     "from": "1 lb",
+     "value": "0.4536",
+     "unit": "kg"
+    },
+    {
+     "printed": "1 gal = 3.785 liters",
+     "from": "1 gal",
+     "value": "3.785",
+     "unit": "liters"
+    },
+    {
+     "printed": "1 qt = 0.946 liters",
+     "from": "1 qt",
+     "value": "0.946",
+     "unit": "liters"
+    },
+    {
+     "printed": "1 gm = 1 ml (liquid)",
+     "from": "1 gm",
+     "value": "1",
+     "unit": "ml"
+    },
+    {
+     "printed": "1 liter = 1,000 ml",
+     "from": "1 liter",
+     "value": "1,000",
+     "unit": "ml"
+    },
+    {
+     "printed": "1 kg = 1,000 gm",
+     "from": "1 kg",
+     "value": "1,000",
+     "unit": "gm"
+    },
+    {
+     "printed": "1 gm = 1,000 mg",
+     "from": "1 gm",
+     "value": "1,000",
+     "unit": "mg"
+    },
+    {
+     "printed": "1 grain = 64.8 mg.",
+     "from": "1 grain",
+     "value": "64.8",
+     "unit": "mg"
+    }
+   ],
+   "pdf_page": 175,
+   "title": "MEASUREMENT CONVERSION TABLE"
+  }
+ },
+ "unresolved": []
+}
