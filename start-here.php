@@ -309,7 +309,7 @@
   <main id="cr-panel" tabindex="-1">
 
     <!-- SCREEN: INTAKE (default) -->
-    <div id="screen-intake" class="cr-screen" role="main" aria-label="Defense situation evaluation">
+    <div id="screen-intake" class="cr-screen is-active" role="main" aria-label="Defense situation evaluation">
       <div class="cr-itv-wrap">
         <div class="cr-itv-progress-track" aria-hidden="true">
           <div class="cr-itv-progress-fill" id="cr-itv-progress"></div>
@@ -357,7 +357,7 @@
     </div>
 
     <!-- SCREEN: LETTER (accessible via letter link) -->
-    <div id="screen-letter" class="cr-screen is-active" role="main" aria-label="Welcome letter from Bilal Khan">
+    <div id="screen-letter" class="cr-screen" role="main" aria-label="Welcome letter from Bilal Khan">
       <div class="cr-parchment">
         <div class="cr-letter-hook">You're in the right place.<br>Here's how to use it.</div>
         <div class="cr-letter-body">
