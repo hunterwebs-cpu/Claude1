@@ -1,7 +1,7 @@
 <?php
 // Shared navigation partial — include after setting $stf_page.
 // Optional: $nav_cta_label, $nav_cta_href, $nav_cta_attrs for per-page CTA override.
-$_cta_label = $nav_cta_label ?? 'Command Center';
+$_cta_label = $nav_cta_label ?? 'Start Here';
 $_cta_href  = $nav_cta_href  ?? 'start-here.php';
 $_cta_attrs = $nav_cta_attrs ?? '';
 function _stf_cur(string $page, string $current): string {
@@ -45,7 +45,7 @@ $_p = $stf_page ?? '';
   <div class="nav-overlay" id="mega-menu">
     <nav class="overlay-menu" aria-label="Site menu">
       <a href="index.php">Home</a>
-      <a href="start-here.php">Command Center</a>
+      <a href="start-here.php">Start Here</a>
       <a href="calculators.php">Calculators</a>
       <a href="books.php">Books</a>
       <a href="blog.php">Journal</a>

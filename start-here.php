@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Command Center — Surviving the Feds</title>
+  <title>Start Here — Surviving the Feds</title>
   <meta name="description" content="You landed in the right place. This is where people in the first hours, days, and weeks of a federal criminal case get real answers — free, no judgment, no money required." />
   <meta name="theme-color" content="#0A0B0E" />
   <meta property="og:title" content="Start Here — Surviving the Feds" />
@@ -40,7 +40,7 @@
       </video>
       <span class="cr-top-wordmark">Surviving the Feds</span>
     </a>
-    <span class="cr-top-title">Case Command Center</span>
+    <span class="cr-top-title">Start Here</span>
     <div class="cr-top-right">
       <div class="cr-top-clock-block" aria-live="polite" aria-label="Current time">
         <span id="cr-clock">00:00:00</span>
@@ -309,7 +309,7 @@
   <main id="cr-panel" tabindex="-1">
 
     <!-- SCREEN: INTAKE (default) -->
-    <div id="screen-intake" class="cr-screen is-active" role="main" aria-label="Defense situation evaluation">
+    <div id="screen-intake" class="cr-screen" role="main" aria-label="Defense situation evaluation">
       <div class="cr-itv-wrap">
         <div class="cr-itv-progress-track" aria-hidden="true">
           <div class="cr-itv-progress-fill" id="cr-itv-progress"></div>
@@ -357,17 +357,19 @@
     </div>
 
     <!-- SCREEN: LETTER (accessible via letter link) -->
-    <div id="screen-letter" class="cr-screen" role="main" aria-label="Welcome letter from Bilal Khan">
+    <div id="screen-letter" class="cr-screen is-active" role="main" aria-label="Welcome letter from Bilal Khan">
       <div class="cr-parchment">
-        <div class="cr-letter-hook">I got you.<br>I've been there.</div>
+        <div class="cr-letter-hook">You're in the right place.<br>Here's how to use it.</div>
         <div class="cr-letter-body">
-          <p class="cr-letter-p">Before you do anything else — go make yourself something warm to drink. Coffee, tea, water. Whatever you need. Then come back and settle in.</p>
-          <p class="cr-letter-p">What you're about to find on this page isn't going anywhere. Neither am I.</p>
-          <p class="cr-letter-p">I built this because I've sat exactly where you are right now — nobody would give me a straight answer, the lawyer didn't have time, and the internet gave me fear and nothing else. That silence cost people I love dearly. It doesn't have to cost you the same.</p>
-          <p class="cr-letter-p">This page won't ask you for anything. No email address. No credit card. Just answers — starting right now.</p>
+          <p class="cr-letter-p">First — take a breath. Nothing on this page will rush you, ask you for money, or ask who you are.</p>
+          <p class="cr-letter-p">I built it around one idea: <strong>you shouldn't have to know the right legal term to get the right answer.</strong> Everything here starts from where you actually are, not from vocabulary you were never taught.</p>
+          <p class="cr-letter-p">Start with <strong>Evaluate My Situation</strong> on the left. A few questions, about ninety seconds, and you get a written plan for your case — where things stand, what happens next, the red flags to watch for, and the questions to ask your attorney. Nothing you type is saved or sent anywhere. It lives in your browser until you print it, so print or download it before you close the window.</p>
+          <p class="cr-letter-p">If a plea deal is on the table, read <strong>Before the Plea</strong> first. Most federal cases end in a plea, and most people sign one without being told what they're giving up.</p>
+          <p class="cr-letter-p">The calculators do the math the government has already done — your guideline range, the security level the BOP is likely to assign, First Step Act time credits, and what people charged like this actually received. They're estimates, not promises. But they turn guessing into numbers you can take to your lawyer, and the guideline sheets print out to bring to a visit.</p>
+          <p class="cr-letter-p">Read what helps. Print what you need. Ignore the rest. It will all still be here when you come back.</p>
         </div>
         <span class="cr-letter-sig" id="cr-letter-sig">— Bilal Khan</span>
-        <button class="cr-letter-cta" id="letter-cta">Choose your situation →</button>
+        <button class="cr-letter-cta" id="letter-cta">Start my evaluation →</button>
       </div>
     </div>
 
@@ -714,7 +716,7 @@
           <div class="cr-card-q">What can I actually send the person inside to help them?</div>
           <div class="cr-card-a">
             <p>Information is one of the most powerful things you can mail into a facility. Tom Root's <strong>LISA newsletter</strong> is a trusted legal information resource that federal inmates have come to rely on — practical, current, written specifically for people inside. You can print it and mail it. It costs nothing. <a href="https://lisa-legalinfo.com/newsletter-to-federal-prisoners/" target="_blank" rel="noopener noreferrer" style="color:var(--cr-accent);">lisa-legalinfo.com/newsletter-to-federal-prisoners</a></p>
-            <p>Other things worth mailing in: articles from The Journal on this site (every article is print-optimized), and the Case Action Brief generated by this Command Center — which is designed specifically to be mailed to the person inside.</p>
+            <p>Other things worth mailing in: articles from The Journal on this site (every article is print-optimized), and the Case Action Brief generated on this page — which is designed specifically to be mailed to the person inside.</p>
           </div>
         </div>
 
@@ -1140,7 +1142,7 @@
     <div id="screen-bop" class="cr-command-screen cr-screen" role="main" aria-label="BOP security designation calculator">
       <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
-        Back to Command Center
+        Back to Start Here
       </button>
       <div class="cr-cmd-tag">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
@@ -1271,7 +1273,7 @@
     <div id="screen-guideline" class="cr-command-screen cr-screen" role="main" aria-label="Guideline range calculator">
       <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
-        Back to Command Center
+        Back to Start Here
       </button>
       <div class="cr-cmd-tag">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
@@ -1364,7 +1366,7 @@
     <div id="screen-stats" class="cr-command-screen cr-screen" role="main" aria-label="Sentencing statistics viewer">
       <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
-        Back to Command Center
+        Back to Start Here
       </button>
       <div class="cr-cmd-tag">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
@@ -1424,7 +1426,7 @@
     <div id="screen-fsa" class="cr-command-screen cr-screen" role="main" aria-label="FSA time credit calculator">
       <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
-        Back to Command Center
+        Back to Start Here
       </button>
       <div class="cr-cmd-tag">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
@@ -1623,7 +1625,7 @@
     <div id="screen-refsheets" class="cr-command-screen cr-screen" role="main" aria-label="Printable guideline reference sheets">
       <button class="cr-cmd-back" data-back aria-label="Return to situation selection">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
-        Back to Command Center
+        Back to Start Here
       </button>
       <div class="cr-cmd-tag">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/></svg>
@@ -1982,22 +1984,23 @@
     var delay = 0;
     // Hook fades in via CSS animation (already set with animation-delay)
 
-    // Paragraphs reveal sequentially
+    // Paragraphs reveal sequentially. Kept brisk — the letter is longer now, and
+    // a scared reader should not be waiting on an animation to finish.
     paras.forEach(function (p, i) {
-      delay += (i === 0 ? 1100 : 750);
+      delay += (i === 0 ? 800 : 550);
       (function (el, d) {
         setTimeout(function () { el.classList.add('revealed'); }, d);
       })(p, delay);
     });
 
     // Sig
-    delay += 650;
+    delay += 600;
     setTimeout(function () {
       if (sig) sig.classList.add('revealed');
     }, delay);
 
     // CTA
-    delay += 500;
+    delay += 450;
     setTimeout(function () {
       if (cta) cta.classList.add('revealed');
     }, delay);
@@ -2007,20 +2010,15 @@
   var letterCta = document.getElementById('letter-cta');
   if (letterCta) {
     letterCta.addEventListener('click', function () {
-      showScreen('screen-await');
-      clearActiveDispatch();
-      // Pulse dispatch buttons briefly
-      document.querySelectorAll('.cr-dispatch-btn[data-target]').forEach(function (btn) {
-        btn.style.animation = 'none';
-        btn.offsetHeight; // reflow
-        btn.style.animation = '';
-      });
+      /* Route into the evaluation via the rail button so its own setup runs */
+      var intake = document.querySelector('.cr-dispatch-btn[data-target="intake"]');
+      if (intake) { intake.click(); } else { showScreen('screen-intake'); }
     });
   }
 
   // Escape key from letter
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && currentScreen === 'letter') {
+    if (e.key === 'Escape' && currentScreen === 'screen-letter') {
       if (letterCta) letterCta.click();
     }
   });
@@ -4388,7 +4386,7 @@
 
     /* Header */
     html += '<div class="cr-dreport-header">';
-    html += '<div class="cr-dreport-eyebrow">Surviving the Feds &mdash; Case Command Center</div>';
+    html += '<div class="cr-dreport-eyebrow">Surviving the Feds &mdash; Case Action Brief</div>';
     html += '<div class="cr-dreport-title">' + (isForMe ? 'Supporter Situation Report' : 'Defense Situation Report') + '</div>';
     html += '<div class="cr-dreport-subtitle">' + (isForMe ? 'Prepared for a family member or supporter' : 'Prepared for the defense team') + '</div>';
     html += '<div class="cr-dreport-meta"><span class="cr-dreport-meta-item">Generated: <strong>' + dateStr + '</strong></span><span class="cr-dreport-meta-item">Not saved &mdash; print or download to keep</span></div>';

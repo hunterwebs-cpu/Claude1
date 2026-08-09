@@ -13,7 +13,7 @@
         <div class="footer-col">
           <h4>Explore</h4>
           <a href="index.php">Home</a>
-          <a href="start-here.php">Command Center</a>
+          <a href="start-here.php">Start Here</a>
           <a href="calculators.php">Calculators</a>
           <a href="about.php">About</a>
           <a href="books.php">Books</a>
