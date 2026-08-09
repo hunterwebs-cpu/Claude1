@@ -334,9 +334,9 @@
         <div class="dispatch-wrap" data-reveal>
 
           <div class="dispatch-context">
-            <span class="eyebrow">Contributing Author</span>
+            <span class="eyebrow">Contributing Author &amp; Guest</span>
             <h2>Writing for the lawyers fighting on your side.</h2>
-            <p>Bilal Khan contributes to <em>Set for Sentencing</em> — attorney Doug Passon's publication on sentencing advocacy, humanizing defendants through narrative, and autism-informed defense. Written for defense counsel. Readable by anyone who needs to understand what their lawyer should be doing.</p>
+            <p>Bilal Khan writes for and appears on <em>Set for Sentencing</em> — attorney Doug Passon's publication and podcast on sentencing advocacy, humanizing defendants through narrative, and autism-informed defense. Made for defense counsel. Readable by anyone who needs to understand what their lawyer should be doing.</p>
           </div>
 
           <div class="dispatch-articles">
@@ -356,6 +356,37 @@
                 </span>
               </div>
             </a>
+
+            <span class="dispatch-pods-label">Podcast appearances</span>
+            <div class="dispatch-pods">
+
+              <a class="dispatch-pod" href="https://setforsentencing.com/podcast/bureau-of-prisons-bop-means-backwards-on-purpose/" target="_blank" rel="noopener">
+                <div class="dispatch-pod-thumb">
+                  <img src="assets/img/s4s-pod-bop-backwards-on-purpose.webp" alt="Set for Sentencing episode 70 — Bilal Khan on the Bureau of Prisons" width="1120" height="630" loading="lazy" decoding="async" />
+                </div>
+                <div class="dispatch-pod-body">
+                  <span class="dispatch-pod-meta">Episode 70</span>
+                  <h4>Bureau of Prisons Means &ldquo;Backwards, on Purpose&rdquo;</h4>
+                  <span class="dispatch-pod-cue">Listen
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                  </span>
+                </div>
+              </a>
+
+              <a class="dispatch-pod" href="https://youtu.be/WIOaOF5X43A" target="_blank" rel="noopener">
+                <div class="dispatch-pod-thumb">
+                  <img src="assets/img/s4s-pod-is-my-lawyer-any-good.webp" alt="Set for Sentencing episode 62 — Bilal Khan on evaluating your defense lawyer" width="1120" height="630" loading="lazy" decoding="async" />
+                </div>
+                <div class="dispatch-pod-body">
+                  <span class="dispatch-pod-meta">Episode 62</span>
+                  <h4>Surviving Pretrial: Is My Lawyer Any Good?</h4>
+                  <span class="dispatch-pod-cue">Watch
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                  </span>
+                </div>
+              </a>
+
+            </div>
           </div>
 
         </div>
