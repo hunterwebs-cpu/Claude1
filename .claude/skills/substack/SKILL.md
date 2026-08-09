@@ -462,11 +462,11 @@ git push
 
 ### What the .docx Gives Doug
 
-Doug opens one Word document:
-- **Shaded blue cover block** (NOT the article): title, subtitle, column tag, guest author instruction
-- **Article body** below the separator: bold, italic, horizontal rules, and WARNING text render correctly when pasted into Substack's editor
+Just the article — column graphic, title, subtitle, byline, body. Bold, italic, horizontal rules, and WARNING text survive a paste into Substack's editor.
 
-Doug's workflow: open → read checklist → paste → done.
+**No publisher notes, no checklist, no instructions.** Doug knows what he is doing; a cover block telling him how to publish is noise he has to scroll past.
+
+The column graphic is picked up automatically from `assets/img/substack-column-header.*`, or pass `--graphic <path>`.
 
 ---
 
