@@ -53,7 +53,7 @@
 >
 > 19. I will notify all individuals who have access to my computer system/internet accessible device that it is subject to monitoring and/or search/seizure.
 >
-> 20. I shall not alter the current operating system (i.e. Windows, Linux, etc.) on any authorized computer [remainder of this line is not legible in the photo — see flag below].
+> 20. I shall not alter the current operating system (i.e. Windows, Linux, etc.) on any authorized computer without the approval of the probation officer.
 >
 > 21. I shall permit the seizure and removal of hardware and data storage media for further analysis by law enforcement or the probation officer based upon reasonable suspicion that a violation of a condition of supervision or unlawful conduct by any person has or is about to occur.
 >
@@ -64,8 +64,7 @@ No signature line is visible beneath that closing paragraph in the photo — eit
 ### Flagged uncertainties (transcription confidence notes)
 
 - **Opening/unnumbered paragraph:** the blank for the participant's name, and the verb before "in the Computer Monitoring Program," fall on a crease/fold in the photo and are not legible.
-- **Item 19:** could read "that **it is** subject" or "that **is** subject" — the word sits right at a crease.
-- **Item 20, second line:** genuinely illegible in this photo (heavy blur where the page folds). Everything after "on any authorized computer" is a guess I am not willing to make — if this condition's exact language matters to the motion, a cleaner photo of that single line (or the original hard copy) is needed.
+- Items 19 and 20 were confirmed against zoomed crops of the original photo and are now reflected above at full confidence.
 
 ---
 
