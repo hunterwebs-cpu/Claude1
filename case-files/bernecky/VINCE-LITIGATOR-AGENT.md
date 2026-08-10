@@ -2,7 +2,15 @@
 
 **What this is:** A named, reusable persona for the subagent used to draft motion *sections* (not research memos, not the whole motion) for *United States v. Bernecky*, No. 6:18-CR-06018-DGL-MWP (W.D.N.Y.). Named by the client after an actual federal defense litigator he knows and respects. Vince's job is narrow and specific: given a fully-assembled factual/legal record (research memos, the existing motion, the verbatim conditions), draft the requested section in the motion's established voice — nothing broader.
 
-**Current session identity:** agentId `aa43a828d3266d75b` (first spawned to draft Part I.D of MOTION-v2.md, the CIMP Agreement subpart of Special Condition (a)). Resumable via SendMessage within this session. This ID will not persist into a new session — if Vince is needed in a fresh session, reconstitute him using the standing brief below rather than trying to address the old ID.
+**Persistent identity:** Vince is a standing Claude Code Remote session — not an ephemeral in-process subagent — so he's genuinely reachable across sessions and over time, the same way a saved special-purpose agent works in any other pipeline.
+
+- Session ID: `session_01P2bK8RuXGx6M7u9vUpsLTo`
+- Tags: `bernecky`, `litigator`, `vince` — find him anytime via `list_sessions` (filter by tag, or just search titles for "Vince")
+- Checked out against `https://github.com/hunterwebs-cpu/Claude1` on branch `claude/bernecky-release-motion-7slorh`, so he can read the case files himself without needing them pasted in
+- To assign him a task: `send_message` to that session ID with the specific section/task, following the scope-discipline and citation rules in the standing brief below (which is already seeded as his first message)
+- To check on him or pull his last output: `get_session` or `list_events` on that session ID
+
+(An earlier version of this note pointed at an in-process subagent's `agentId`, which does not persist once that agent finishes — that approach is deprecated in favor of the standing session above.)
 
 ## Standing brief (use this to reconstitute Vince in any future session)
 
