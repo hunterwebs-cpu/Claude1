@@ -59,7 +59,7 @@ So a kid who buried his mother this year sat in a housing unit on his twenty-thi
 
 ---
 
-Now hold that against what Fort Dix actually publishes. The rule bans clothing that resembles what inmates are issued, and gives the example of khaki clothing with a plain white or khaki shirt.
+Now hold that against what Fort Dix actually publishes. The rule bans clothing that resembles what inmates are issued, and gives one example: "khaki colored clothing *with* plain white or khaki shirt at the FCI."
 
 A combination. Not a white shirt.
 
