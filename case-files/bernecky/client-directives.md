@@ -2649,3 +2649,36 @@ it with facts that never end up doing any work in the argument. So: gather the
 facts needed to write the narrative prose itself now, but do not draft the
 standalone certification exhibit until the Part I.D fact section is finished
 and it's clear exactly what it cites to.
+
+---
+
+## PERMANENT PROCESS RULE (2026-08-12) — strict IFRAC, every section, every
+time; test on I.D alone before touching anything else
+
+Client, verbatim: "I'm not ready yet. I will kill this until we get it right. I
+want Vince to only wrote section d for now. I need to see of Vince is working
+right. I also thing doing a thru d in one rip is causing problems. but I want my
+flow followed. each section should follow ifrac and the entire motion follows
+ifrac. EVERY SINGLE TIME."
+
+Two rules, both controlling going forward:
+
+1. **One section at a time, not a multi-subsection sweep.** Rebuilding I.A
+   through I.D together in a single pass is diagnosed by the client as a likely
+   cause of the quality problems seen so far (rushed, diluted attention across
+   too much material at once). Until further notice: one subsection gets
+   rebuilt, reviewed, and approved before the next one starts. No more
+   "rebuild all of Part I" tasks.
+2. **Strict IFRAC — Issue, Facts, Rules utilized, Analysis, Conclusion — is a
+   permanent structural requirement, at the section level and for the motion as
+   a whole, without exception.** Not a loose approximation of that order — an
+   actual, deliberate, verifiable structure: state the issue, then the
+   record-cited facts, then the governing rules/law, then the analysis applying
+   the rules to the facts, then the conclusion/relief. Every section. Every
+   time. This is now a standing requirement for all future drafting in this
+   matter, not a one-off note for I.D.
+
+**Current status: testing this on Part I.D alone**, specifically to confirm
+Vince can actually execute this discipline correctly before any other section is
+touched. Nothing else should be rebuilt until the client reviews and approves
+this test.
