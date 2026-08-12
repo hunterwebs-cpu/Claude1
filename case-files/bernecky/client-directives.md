@@ -2638,3 +2638,14 @@ and under the belief that probation approved such TVs" — whether Probation
 told him this directly, he inferred it from Item 3's browsing-capability
 silence, or some other source, since a sworn certification needs the actual
 basis, not the most persuasive available phrasing.
+
+**Correction to the above (same day) — order of operations reversed.** Client's
+actual practice: write the fact-and-argument text first, using placeholder
+pincites ("Certification of Jeffrey Bernecky at ¶ *", "Ex. A ¶ *"), and only
+build the actual certification document afterward, once the text shows exactly
+which facts it actually needs. Reason given: "we dont want to inundate the
+court with irrelevant facts" — drafting the certification first risks loading
+it with facts that never end up doing any work in the argument. So: gather the
+facts needed to write the narrative prose itself now, but do not draft the
+standalone certification exhibit until the Part I.D fact section is finished
+and it's clear exactly what it cites to.
