@@ -1,0 +1,53 @@
+Subject: Fact Summary — Whalen's Asserted Claims (Doc. 23) vs. the Record
+
+Sodono —
+
+I went through Whalen's Doc. 23 (Certification and Exhibits 1–4) and compared each of her factual assertions against the MSA, my own schedules, and the rest of the record. Below, for each item: what she asserts (with citation), my answer, and what supports it. At the end I've listed what's referenced in her filing or in the MSA itself but was never produced.
+
+**1. The "$200,000" characterization**
+Assertion: Whalen's Certification, ¶4 n.1, characterizes my Opposition Certification (Doc. 22/22-2) as capping Kim's total claims at $200,000.
+My answer: That's not what I said. $200,000 is the amount I identified and scheduled as what remains owed under the MSA, characterized as a domestic support obligation — not a cap on the total value of every theory Kim is asserting.
+Support: My own Schedule E/F, item 2.2 ("Mell, Kimberly" — $200,000 — Domestic support obligations — "Pursuant to Marital Settlement Agreement").
+
+**2. W.H. Mell Capital Account**
+Assertion: Whalen's Crossclaims (Ex. 1, ¶11) value a combined Gulfstream-plus-Capital-Account shortfall at $175,000 total. Her later Statement of Material Facts (Ex. 3, ¶¶63–65) instead states the Capital Account was "as of July 28, 2018, valued at 1.625M," that Kim "was supposed to receive 60% of this asset (a value of $975,000.00)," but that "she would only ever receive $480,000" — implying a ~$495,000 shortfall on this item alone. These two figures, from the same law firm's filings, are inconsistent with each other by roughly $440,000.
+My answer: MSA §3.5(a) states the first $800,000 was already distributed 60/40, giving Kim $480,000 — which Whalen's own Ex. 3, ¶64 confirms she received. The MSA also records my April 2019 representation that "there are currently no remaining funds/balance in the Capital Account." Any further amount is gated on a review by forensic accountant Mark Bloomfield, then mediation, then binding arbitration — none of which appears anywhere in the record.
+Support: MSA §3.5(a); Whalen's own Ex. 3, ¶64.
+Note for the record: I recall paying Kim closer to $1,000,000 total from this account, not $480,000. I don't have documentation of that beyond my own memory. In my July 27, 2023 deposition in the B.B. matter (pp. 168–169), I testified "she got 60 percent of the capital account, which is roughly one-six, one-seven [i.e., $1.6–1.7M]... I'm 100 percent on that," but when shown an exhibit reflecting only $800,000 in recorded distributions (pp. 170–171), I could not reconcile the numbers or locate records. I want that inconsistency on the table, not hidden — I was working from memory without documents, having lost access to virtually all financial records during my incarceration.
+
+**3. Helicopter / WNFW**
+Assertion: Whalen's Crossclaims (Ex. 1, ¶¶21–24) state the helicopter (N109BM), sold January 5, 2021 for "approximately $1.8M," "was a marital asset," and that "all of or the majority of the helicopter sale proceeds... belong to her."
+My answer: WNFW LLC was assigned to me 100% as my sole and separate property under MSA Art. 4.1(a)(4), which also states "the liabilities exceed the assets of this entity" as of 2019. The actual closing statement for the sale shows only $36,708.52 in net proceeds reached WNFW after the $1,455,274.16 mortgage payoff and roughly $317,000 in commission, maintenance, and escrow costs.
+Support: MSA Art. 4.1(a)(4); Whalen's own later-filed Ex. 3, ¶¶76–77 ("At page 23 of the MSA, the parties deal with a company known as WFNW LLC... He was granted 100% of this company asset. Kim got zero."); January 5, 2021 AEROtitle closing statement.
+
+**4. Gulfstream Annual Net Profit**
+Assertion: Included, unbroken out, within Whalen's $175,000 combined figure (Ex. 1, ¶11).
+My answer: MSA Art. 4.1(a)(3)(ii) fixes this at $120,000, payable in quarterly $30,000 installments starting June 1, 2020.
+Support: MSA Art. 4.1(a)(3)(ii).
+Open question: I don't have records showing whether this was paid. Can you confirm status?
+
+**5. Indemnification / "contribution" (B.B. lawsuit)**
+Assertion: Whalen's Crossclaims (Ex. 1, ¶30) state I "promised and agreed to fully indemnify" Kim "from any and all legal expenses... incurred[] as a result of the misconduct alleged by [B.B.]." Her Certification, ¶6, separately describes this as "claims for contribution and indemnification, which was agreed upon in the Mell MSA."
+My answer: The MSA contains only an indemnification clause. §10.2(b) says I "agree to indemnify, defend and hold the Wife harmless from and against any and all actions, suits, debts, claims, demands, and obligations whatsoever, arising from... the Husband's conduct," with fee-shifting limited to costs "adjudicated by a Court." The word "contribution" does not appear anywhere in the MSA — the only place it appears in the record is Whalen's own Certification ¶6, not tied to any MSA section. Separately: upon information and belief, all of Kim's legal fees were paid by the SBM Trust (the trust's terms allow this — Kim is a listed beneficiary), not by Kim personally. §10.2(b) indemnifies "the Wife," not the trust. If Kim never personally paid anything, she has nothing to be indemnified for under that clause unless a specific personal payment is identified — and Whalen's filing doesn't identify one.
+Support: MSA §10.2(b) (verbatim quoted above — no "contribution" language anywhere in the document).
+Open question: Whalen's filing never discloses what Kim actually paid B.B., or in what amount. The Stipulation of Dismissal (Ex. 4) is silent on consideration. Nothing in the record shows I received notice of or was asked to consent to that settlement.
+
+**6. W.H. Mell & Associates business/going-concern value**
+Assertion: Whalen's Ex. 3, ¶66 states "the value of the Business, W.H. Mell & Associates, as a going concern, was not meaningfully dealt with in this MSA... Kim never received anything for that valuable asset." Her Crossclaims (Ex. 1, ¶¶25–29) allege the business's assets "were dissipated, transferred, and/or otherwise improperly diverted."
+My answer: W.H. Mell was not sold. Mountainside Securities absorbed it while I was incarcerated, and I did not receive any remuneration from that, legal or otherwise.
+Support: Whalen's own Ex. 1, ¶¶25–29 directs this theory at Mountainside Securities specifically, not at me individually. Separately, MSA Art. 9.1 (Discovery Waiver) states both parties "knowingly and willingly waive their respective rights to take any further discovery" and that "the property contained in this MSA represents the entire marital estate" — the MSA's preamble similarly recites that further discovery/valuation was "unnecessary." (Note: Art. 9.1 has a carve-out for assets "not disclosed" in the MSA — worth confirming the W.H. Mell business interest was in fact disclosed at MSA Art. 3.5 before we rely on the waiver for this item.)
+
+**7. Boat (2016 Regulator 41)**
+Assertion: Whalen's Crossclaims (Ex. 1, ¶¶19–20) assert, contingent on B.B. prevailing on a related theory, that "all of or the majority of the boat sale proceeds" belong to Kim.
+My answer: MSA §5.3 caps Kim's share at 60% of any true net remainder — after a ~$590,000 loan from the two family trusts is repaid first (70% KRMFT / 30% SBMFT) — not "all or the majority."
+Support: MSA §5.3.
+
+**8. Referenced but never produced**
+- The Bloomfield forensic report or arbitration outcome that MSA §3.5(a) requires before any further Capital Account amount becomes owed — not produced anywhere in the record I've seen.
+- The June 25, 2019 Post-Judgment Agreement — referenced in Whalen's Certification ¶9 and Crossclaims ¶6 — never attached.
+- Kim's June 24, 2020 Motion for Reimbursement — referenced — never attached.
+- The forensic accountant files and full financial discovery record from the divorce litigation. I requested these directly from opposing counsel several times as a pro se litigant and never received them. I don't believe I ever formally subpoenaed them. Whalen's own filing puts specific dollar figures on the Capital Account at issue (the $1.625M valuation, the $975,000/$480,000 comparison) without attaching any backup for those numbers — I think that puts us in a position to formally request the documentary basis for her own figures now. Can we do that, and should it be a subpoena or a Rule 2004 request?
+
+Let me know if you want to discuss.
+
+Brad
