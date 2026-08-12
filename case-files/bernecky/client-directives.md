@@ -2555,3 +2555,86 @@ full `[VERIFY]`-tier citation list) remains open and applies equally to this
 structure. Additionally: confirm with the client whether hiring has been
 confirmed by the time of filing, and update the Statement of Facts
 accordingly if so.
+
+---
+
+## NEW DRAFTING-METHOD DIRECTIVE (2026-08-12) — facts must be formally
+established, with record citations, before argument; controls all future
+drafting, not just this section
+
+Client flagged current drafting as skipping straight into legal argument with
+facts asserted inline (no formal citation to an exhibit or declaration) and gave
+a worked example of the structure he wants instead, using Part I.D as the test
+case. His own words: "this is how o write. issue, facts, rules utilized,
+analysis, conclusion" — IFRAC, but with the "facts" step meaning an actual,
+separately-stated, record-cited fact section, not facts woven into argument
+prose on the drafter's own unsupported assertion.
+
+**Client's worked example (his own draft, verbatim, showing the structure —
+not text to transcribe as-is; the actual prose is still Vince's to write once
+the facts and citations exist for him to cite to):**
+
+> At the start of Mr. Berneckys supervision he was presented with the districts
+> CIMP agreement which is attached as Exhibit ,__. At this juncture Mr Bernecky
+> is complying with the document in full but has a number of objections to
+> several of the terms as applied to him. In addition to the CIMP rules, a
+> couple of issues have arisen with the application of them that require
+> address.
+>
+> Mr Bernecky owns the following "internet capable devices" as that term is
+> defined in the CIMP agreement. Ex A, ¶*: (1) Roku Television, (2) Android
+> Smart Cell Phone. Certification of Jeffrey Bernecky at ¶ *. While Bernecky
+> purchased the TV before starting supervision, he immediately reported that he
+> had it at the start. In fact, he purchased that TV because he was informed and
+> under the belief that probation approved such TVs because they do not have
+> general web browsing capabilities. I'd. at ¶*. As for his cell phone, he owns
+> a [make/model] smart cell phone with service provided by US Mobile. I'd. In
+> full compliance with the CIMP instructions, Bernecky informed his probation
+> officer of the phone and further contacted the company ICCP to install the
+> necessary surveillance software.
+>
+> [facts about the PIN code, the ICCP setup, etc.]
+>
+> Thus, Bernecky argues that [N] of the terms of the CIMP, which was not
+> available to the Court or Bernecky at sentencing, violate federal law or the
+> judgment and should be stricken, modified or clarified, and further argues
+> that the actions in installing [monitoring software], when compared to the
+> condition mandating CIMP entry, exceed what the sentencing court ordered —
+> the Judgment itself authorizes only "surveillance." Judgment, ECF No. x at y.
+
+**The structural rule this establishes, going forward, for this matter and as
+a candidate addition to the `legal-advocacy` skill once proven out here:**
+
+1. Every fact section opens with how the document/obligation came to exist
+   (here: presented with the CIMP Agreement at the start of supervision),
+   states current compliance status plainly, and previews that objections
+   follow — before any argument begins.
+2. Every factual assertion the Argument later relies on needs a citation to an
+   actual piece of the record — an exhibit (the CIMP Agreement itself,
+   labeled and attached as Exhibit A) or a **Certification of Jeffrey
+   Bernecky** (a new document: a sworn declaration with numbered paragraphs,
+   ¶-cited the way a Statement of Facts cites a declaration in any properly
+   supported motion) — not asserted in the drafter's own voice with no record
+   support behind it. This is a real gap in the current draft: facts like the
+   phone lockscreen and the Roku parental lock are currently written as
+   "According to Mr. Bernecky" with nothing behind that phrase in the record.
+3. Only after the facts are established, cited, and complete does the
+   "Thus, Bernecky argues..." transition into legal argument happen — and
+   that transition sentence itself should name the anchor point precisely
+   (here: the Judgment's own operative word, "surveillance," pinned to its
+   actual ECF citation) so the reader sees exactly what the argument measures
+   the facts against before the doctrinal analysis begins.
+
+**Action needed before this can be built out:** draft an actual Certification
+of Jeffrey Bernecky exhibit with real numbered paragraphs. Missing facts,
+asked of the client directly (not fabricated): (a) the cell phone's make/model
+— checked the lockscreen photo directly, carrier "US Mobile" is visible in the
+status bar but no make/model is visible anywhere in that photo; need either
+the actual make/model or a second photo (e.g., Settings > About Phone, or the
+phone's back/branding) to identify it; (b) the PIN code fact pattern and the
+ICCP setup narrative the client referenced but did not yet write out; (c)
+confirmation of the actual basis for "purchased the TV because he was informed
+and under the belief that probation approved such TVs" — whether Probation
+told him this directly, he inferred it from Item 3's browsing-capability
+silence, or some other source, since a sworn certification needs the actual
+basis, not the most persuasive available phrasing.
