@@ -2682,3 +2682,42 @@ Two rules, both controlling going forward:
 Vince can actually execute this discipline correctly before any other section is
 touched. Nothing else should be rebuilt until the client reviews and approves
 this test.
+
+---
+
+## STRATEGIC REFRAMING — Parts I.A-I.C recast as as-applied/limiting-construction
+challenges, not illegality challenges (2026-08-13)
+
+Client, on the CIMP clean-slate and modification-authority memos' shared
+recommendation not to mount a frontal/facial challenge to Special Condition (a)
+itself: **largely adopted.** Direct quote: "as for the recommendation to not
+challenge the imposition of condition (a) it will be largely adopted."
+
+But Parts I.A, I.B, and I.C still make real claims, and the client wants those
+recast specifically: **"I am going to couch those as as applied challenges and
+seek the limiting construction (the court didnt specify that the condition
+applied to employment and given the state of the law requiring a highly
+specialized analysis before imposition, the rule that what was not said was never
+imposed must apply."**
+
+The controlling framework for this is Thread III of
+`MODIFICATION-AUTHORITY-THREE-THREADS-MEMO.md`: lead with the Second Circuit's own
+delegation doctrine (*Kunz*'s single-device holding; *Peterson*'s "court must
+determine, not Probation" rule) — not *Mike* alone, which has now failed
+independent verification twice — for the general principle that a sentencing
+court's silence on a subject means the condition does not reach it, because only
+the court, not Probation, may expand what a condition covers. Combine this with
+the point that where a highly specific, individualized analysis is legally
+required before a restriction of a given kind may be imposed at all (e.g., §
+5F1.5's two-part findings requirement for an occupational restriction), and no
+such analysis was ever undertaken, the correct inference is that the restriction
+was never imposed in the first place — not that it exists in some undetermined,
+ambiguous state Probation or a reviewing court may fill in.
+
+**Action needed:** apply this reframing across Part I.A (employer/occupational
+restriction — the clearest fit, already partly framed this way), Part I.B
+(monitoring method/keystroke logging — silence on method as not authorizing the
+harshest available method), and Part I.C ("operated"/"used" device scope — same
+silence-as-boundary logic). Not yet drafted as of this entry — client has not yet
+confirmed whether to dispatch this to the Writer now or hold for further
+research/planning.
