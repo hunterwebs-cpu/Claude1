@@ -1,5 +1,22 @@
 # Client Directives — Condition-by-Condition Interview Log
 
+## STATUS CORRECTION — "Jeff_Motions.pdf" letter was never sent (2026-08-13)
+
+A file titled `Jeff_Motions.pdf` sits in the root "USA v Jeff Bernecky" Drive
+folder — a drafted pro se letter, dated January 17, 2026, addressed to the NYS
+Board of Examiners of Sex Offenders, objecting to the Board's receipt/reliance on
+the federal PSR (citing *United States v. Charmer Industries, Inc.*, 711 F.2d 1164
+(2d Cir. 1983), and *People v. Mingo*, 12 N.Y.3d 563 (2009)), and referencing an
+"emergency motion for a TRO" purportedly filed in W.D.N.Y. the same day. **Per the
+client: this letter was never actually sent, and by clear implication nothing
+described in it (the TRO motion, the objection reaching the Board) was actually
+filed or transmitted.** Treat the entire document as an unsent draft only — not a
+procedural fact of record, not something opposing counsel or the Board has seen,
+and not something any research or drafting task should cite as having happened.
+If the underlying objection (PSR reliability/reliance) still has merit as a
+strategy, it needs to be evaluated and, if pursued, actually filed/sent through
+counsel — not assumed already in play because a draft exists in the file.
+
 Working log of client's pass/argument decisions, condition by condition, per the
 client's explicit instruction: go condition by condition first, group afterward for
 drafting. Do not treat this as legal argument yet — this is client instruction capture.
