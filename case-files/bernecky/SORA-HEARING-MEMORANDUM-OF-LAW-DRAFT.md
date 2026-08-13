@@ -1,0 +1,667 @@
+[COUNTY COURT OF THE STATE OF NEW YORK]
+[COUNTY OF MONROE]
+-----------------------------------------------------------X
+
+PEOPLE OF THE STATE OF NEW YORK,
+
+                                                                    Index No. [_______]
+
+        -against-                                                 MEMORANDUM OF LAW
+                                                                    IN SUPPORT OF
+JEFFREY BERNECKY,                                                  RESPONDENT'S
+                                                                    APPLICATION FOR A
+                                        Respondent.                DOWNWARD DEPARTURE
+
+-----------------------------------------------------------X
+
+                                                                    Before: Hon. [Karen Bailey Turner]
+
+                                                                    Hearing Date: September 11, 2026
+
+
+                    MEMORANDUM OF LAW IN SUPPORT OF RESPONDENT'S
+              APPLICATION FOR A DOWNWARD DEPARTURE TO RISK LEVEL TWO
+
+
+                                PRELIMINARY STATEMENT
+
+        The New York State Board of Examiners of Sex Offenders ("the Board") has
+recommended that Jeffrey Bernecky be classified a Risk Level Three sex offender.
+That recommendation does not rest on how the Board's own instrument scored his
+conduct. It rests entirely on a single override provision — Override 1, triggered
+by a prior felony sex-crime conviction — that the Board's Risk Assessment
+Guidelines treat as automatically producing a Level Three classification once the
+predicate conviction is shown, without regard to what the offender actually did or
+what an individualized risk assessment would otherwise show.
+
+        Respondent does not dispute that Override 1 applies as a technical matter:
+he has a qualifying 2012 federal felony conviction, and he does not contest that
+the Board has proven its existence. Nor does Respondent contest a Risk Level Two
+classification. What Respondent seeks is a downward departure from the presumptive
+Level Three to Level Two — the same relief New York courts have granted in
+comparable child-pornography cases, and the classification the Board's own
+scoring instrument would place him closer to than the one it recommends.
+
+        This memorandum presents that request on two independent grounds. First,
+and primarily, Respondent has met his burden under People v. Gillotti, 23 N.Y.3d
+841 (2014), to show by a preponderance of the evidence that a downward departure
+is warranted: both of Respondent's convictions are purely digital, image-based
+offenses with no contact-offense conduct charged or convicted in either one, his
+own Risk Assessment Instrument scores zero on every factor that measures
+contact-offense risk, and the Court of Appeals has directed SORA courts to give
+"particularly strong consideration" to exactly this kind of over-classification
+risk when a child-pornography offender seeks departure. Id. at 860.
+
+        Second, and in the alternative — should the Court conclude the first
+ground does not itself warrant departure — Respondent submits that Override 1
+cannot lawfully substitute for the individualized "threat to public safety"
+finding that Correction Law § 168-l(6) separately requires before any offender
+may be classified Level Three. The Board's own Case Summary makes the
+conflation explicit, treating the bare existence of a prior conviction as
+itself "compelling evidence" of a public-safety threat "not captured by scoring
+alone." That is not what the statute the Guidelines implement says, and it is
+not how New York treats comparably serious dangerousness findings in any
+analogous civil proceeding. This ground is preserved and argued in full below,
+independent of the departure analysis.
+
+        Both grounds ask for the same relief: a Risk Level Two classification.
+
+
+                                STATEMENT OF FACTS
+
+        Neither of Respondent's two convictions — the instant offense or the
+2012 predicate that triggers Override 1 — involves any contact offense. Both are
+federal child-pornography offenses prosecuted under 18 U.S.C. § 2252A; neither
+indictment charged, and neither conviction rests on, any allegation that
+Respondent touched, approached, or had any in-person sexual contact with a
+victim in connection with either crime. That fact frames everything that
+follows and is not disputed anywhere in the Board's own file.
+
+The Board's Recommendation
+
+        By letter dated July 30, 2026, the Monroe County Supreme & County Courts
+notified Respondent that a risk-level classification hearing had been scheduled
+for September 11, 2026, before this Court. Separately, by cover memorandum dated
+July 23, 2026, the Board forwarded its recommendation package, consisting of a
+Risk Assessment Instrument ("RAI"), a four-page Case Summary, and a Sex Offender
+Designation Form (collectively, "the Board's Recommendation Package," attached
+hereto as Ex. A).
+
+        The RAI scores Respondent's Total Risk Factor Score at 70 points,
+composed entirely of three factors: 30 points for the age of the children
+depicted in the instant offense (under 11), 30 points for the existence of the
+2012 prior felony sex-crime conviction, and 10 points for the recency of that
+prior conviction. RAI (Ex. A) at Parts I-II. Every other scorable factor on the
+instrument — including Factor 1 (use of violence or forcible compulsion),
+Factor 2 (sexual contact with the victim), Factor 3 (number of victims), Factor
+6 (other victim characteristics), Factor 7 (relationship with the victim),
+Factor 12 (acceptance of responsibility), and Factor 13 (conduct while confined
+or supervised) — is scored zero. Id. A raw score of 70 falls squarely within the
+RAI's own printed "Level 1 (low) = 0 to +70" band, and the Board's Case
+Summary itself acknowledges as much: "Mr. Bernecky is assessed as a Level I
+(Low) risk." Case Summary (Ex. A) at 3.
+
+        The RAI nonetheless marks "Override 1 — Offender has a prior felony
+conviction for a sex crime," which the form states makes the offender
+"presumptively a Level 3." RAI (Ex. A), Part A. The Departure section of the
+same instrument shows the Board considered and rejected a departure. Id., Part
+B. The Case Summary explains why: the prior conviction "automatically results
+in a presumptive Risk Level III, as this provides compelling evidence that he
+poses a serious risk to public safety that is not captured by scoring alone,"
+and "no departure is recommended as prior detection, sanction and treatment
+have not deterred his conduct." Case Summary (Ex. A) at 3. The Case Summary
+separately invokes a Board "Position Statement" dated June 1, 2012, for the
+proposition that Respondent "has demonstrated the inability to manage his
+sexual urges and returned to seeking out images of child pornography." Id.
+That statement, in fact, addresses only the scoring of RAI Factors 3 and 7 in
+child-pornography cases and a separate override for clinical mental-abnormality
+assessment — it says nothing about Override 1 and nothing about a general
+inability to manage sexual urges. Its citation for that proposition here does
+not reflect what the document actually says.
+
+        The Sex Offender Designation Form separately marks Respondent a
+"Predicate Sex Offender" under Correction Law § 168-a, based on his two
+qualifying federal child-pornography convictions. Designation Form (Ex. A) at
+2-3. That designation governs registration duration and is not disputed here;
+it is distinct from, and has no bearing on, the risk-level classification at
+issue in this application.
+
+The Instant Offense
+
+        Respondent was convicted by guilty plea in the United States District
+Court for the Western District of New York, on February 15, 2018, of possession
+of child pornography involving prepubescent minors following a prior conviction,
+in violation of 18 U.S.C. §§ 2252A(a)(5)(B) and 2252A(b)(2), and was sentenced
+to 120 months' imprisonment followed by 10 years of supervised release. Case
+Summary (Ex. A) at 1. The offense was detected on December 8, 2017, during a
+routine home inspection by Respondent's supervising probation officer, who
+found a cell phone Respondent had initially claimed belonged to a coworker.
+Respondent admitted the phone was his and admitted it contained child
+pornography he had downloaded from the Tor network. Id. A forensic review
+recovered approximately 200 images and 25 videos, including one depicting an
+approximately 8-year-old boy performing oral sex on an adult male and one
+depicting two approximately 10-year-old boys engaging in oral and anal sex with
+each other. Id. This conduct is squarely possession- and receipt-based. No
+count charged, and no fact in the record describes, any contact between
+Respondent and any child in connection with this offense.
+
+The 2012 Predicate Conviction
+
+        On January 17, 2012, in the same federal district, Respondent was
+convicted by guilty plea of distribution of child pornography and possession
+of child pornography, in violation of 18 U.S.C. §§ 2252A(a)(1) and
+2252A(a)(5)(B), and was sentenced to 60 months' imprisonment and 180 months'
+supervised release. Case Summary (Ex. A) at 2. That offense involved a
+considerably larger volume of material — approximately 62,000 shared files and
+8,811 videos, some depicting sadistic or masochistic content, obtained through
+peer-to-peer file sharing. Id. In a 2010 interview, Respondent admitted he
+"could not help what he was doing," that he viewed the material to masturbate,
+and that if he did not have images to view he "might be tempted" to seek
+contact with a child. Id. These are serious, aggravating admissions, and this
+memorandum does not minimize them. They are also, on their face, admissions
+about a compulsion toward image-based conduct — not an account of any actual
+contact offense. As with the instant offense, the 2012 conviction charged and
+rests entirely on distribution and possession, not contact.
+
+        Respondent's supervision on the 2012 conviction began July 7, 2016; he
+committed the instant offense less than two years later, which is why the RAI
+scores 10 points for recency. Id. That recency is a genuinely aggravating fact,
+addressed directly below. It is not, however, evidence of any contact offense.
+
+The 2018 SORA Classification of the Same 2012 Conduct
+
+        This is not the first time a court has been asked to classify
+Respondent's risk level based on this same 2012 conduct. In 2018, the Fourth
+Department affirmed a Monroe County classification of Respondent as a Risk
+Level Two offender on the 2012 conviction, reached through ordinary point
+scoring under RAI Factors 3 and 7 — no override was in play in that proceeding
+at all. People v. Bernecky, 161 A.D.3d 1540 (4th Dep't 2018), lv denied, 32
+N.Y.3d 901 (2018). The Fourth Department affirmed denial of a further departure
+to Level One, relying expressly on the fact that Respondent "possessed an
+extraordinary number of pornographic images, including depictions of sexual
+acts involving children, violence, and bestiality." Id. at 1541. That decision
+is addressed in full, and its significance to both grounds argued here is
+addressed candidly, in Point II below.
+
+Treatment Engagement and Post-Offense Conduct
+
+        Respondent was engaged in sex-offender treatment at Endeavor —
+weekly group sessions and monthly individual sessions — both before and during
+the instant offense; he was in "phase two" of that treatment when he committed
+it. Case Summary (Ex. A) at 2-3. A 2016 evaluation reports he denied any
+current attraction to children. Id. at 3. In May 2017, following an earlier
+failed sexual-history polygraph attributed to a misunderstanding about the
+scope of "sexual contact," Respondent underwent a polygraph re-test during
+which he disclosed two prior incidents: in 2005, at age 16, while working at a
+children's day camp, a 9-year-old sat on his lap on the camp bus, which he
+reported caused him to become sexually aroused; and in 2007, at age 18, while
+working at an after-school program, a 12-year-old sat on his back, with the
+same reported effect. Id. Neither incident resulted in a charge, an arrest, or
+a conviction, then or since. Neither involves any allegation that Respondent
+touched, undressed, or acted upon either child — the contact described was
+initiated by the child in an ordinary supervised setting, and what is recorded
+against Respondent is his own internal response, not an overt act. Following
+that disclosure, "no deception was indicated" on the re-test, and Respondent's
+counselor reported that he "took accountability for his actions and showed
+insight into his offending behavior." Id. The Board's own quantitative
+instrument did not score either incident: RAI Factors 2, 3, and 7 are all zero
+notwithstanding the Case Summary's narrative inclusion of this history. RAI
+(Ex. A), Part I.
+
+        The Case Summary describes Respondent's conduct while confined in the
+Bureau of Prisons and while residing at his current reentry facility as
+"satisfactory, absent any information to the contrary." Case Summary (Ex. A) at
+3. He submitted to five random drug screens while under supervision, all
+negative. Id. at 2.
+
+        With the record so framed — two convictions, both purely digital,
+neither involving contact conduct, the RAI's own instrument scoring zero on
+every contact-related factor, and a raw point total that the RAI's own printed
+table places in the "Level 1 (low)" band — Respondent turns to the legal
+argument for departure.
+
+
+                                     ARGUMENT
+
+POINT I: A DOWNWARD DEPARTURE TO RISK LEVEL TWO IS WARRANTED BECAUSE THIS
+RECORD PRESENTS, IN AS PURE A FORM AS IT CAN APPEAR, THE EXACT OVER-
+CLASSIFICATION RISK THE COURT OF APPEALS HAS DIRECTED SORA COURTS TO GUARD
+AGAINST
+
+        A. The Governing Standard
+
+        A defendant seeking a downward departure from a presumptive SORA risk
+level — including a departure from an automatic override — must first identify,
+as a matter of law, a mitigating factor of a kind or degree not already
+accounted for by the Guidelines. Gillotti, 23 N.Y.3d at 861. Only if
+that showing is made does the Court proceed to a discretionary weighing of
+aggravating and mitigating circumstances under the totality of the
+circumstances. Id. Gillotti resolved a prior split among the Appellate Division
+departments and fixed the defendant's burden at preponderance — not the higher
+clear-and-convincing standard the People bear in establishing the classification
+in the first instance. Id. at 863-64 ("we hold that a defendant must prove the
+existence of the mitigating circumstances upon which he or she relies in
+advocating for a departure by a mere preponderance of the evidence").
+
+        This standard governs override-based departures no less than
+points-based ones. The Court of Appeals has said so directly: in People v. Moss,
+43 N.Y.3d 584 (2025) — an override case arising, as this one does, from Monroe
+County — the Court observed that even where an override applies without
+dispute, departure remains "a discretionary remedy available under SORA," and
+that a SORA court "could properly consider" whether to depart from an
+offender's presumptive classification notwithstanding the override. Id. at 589
+(citing Gillotti, 23 N.Y.3d at 861). Departure, not a challenge to the
+override's validity, is the correct vehicle for an override-adjacent argument
+of the kind Respondent presents.
+
+        Respondent's raw point score cannot, standing alone, carry this
+showing. New York courts have squarely held that a pre-override point total
+below the presumptive level is not itself a valid mitigating factor, because
+an override "applies irrespective of the points scored on the risk assessment
+instrument." People v. Gunter, 217 A.D.3d 788, 790 (2d Dep't 2023) (quoting
+People v. Berry, 138 A.D.3d 945, 946 [2016]).
+Respondent does not ask this Court to depart on the strength of his 70-point
+score alone. He offers it, together with what that score is built from, as part
+of the totality of circumstances the departure inquiry requires the Court to
+weigh — and what it is built from is the heart of this argument.
+
+        B. Both Offenses Are Purely Digital, and New York's Highest Court Has
+        Recognized What That Means for Registration Built on a Contact-Offense
+        Model
+
+        The RAI scores zero on every factor that measures contact-offense
+conduct: no violence, no forcible compulsion, no sexual contact, no scored
+number of victims, no scored victim relationship. RAI (Ex. A), Part I. That is
+not defense argument. It is the Board's own instrument, applied by the Board's
+own examiner, to the Board's own record.
+
+        The Court of Appeals has recognized, specifically as to child-
+pornography offenders, that mechanically applying a risk instrument built
+around a contact-offense model can produce over-classification. In People v.
+Johnson, 11 N.Y.3d 416 (2008), the Court held that children depicted in child
+pornography are "victims" of sex offenses within SORA's meaning, and — as the
+Court of Appeals later explained in Gillotti — went on to hold that assigning
+points to a child-pornography offender under Factor 7 "may sometimes result in
+an excessive risk calculation in a manner not contemplated by the guidelines or
+the statute," such that a SORA court should account for that anomaly through
+discretionary downward departure. Gillotti, 23 N.Y.3d at 845 (discussing
+Johnson, 11 N.Y.3d at 420-421). Gillotti itself went further, directing that
+"in deciding a child pornography
+offender's application for a downward departure, a SORA court should, in the
+exercise of its discretion, give particularly strong consideration to the
+possibility that adjudicating the offender in accordance with the guidelines
+point score and without departing downward might lead to an excessive level of
+registration." 23 N.Y.3d at 860. The Court acknowledged, in the same passage,
+that "the relationship between an offender's child pornography offenses and
+the likelihood he or she will commit hands-on offenses is uncertain due to the
+continuing development of scientific research." Id. at 859. That is not a
+throwaway observation. It forecloses any suggestion by the Board or the People
+that Respondent's history of image-based offending can be treated as settled
+proof of a propensity toward hands-on offending; the Court of Appeals has said
+plainly that the science does not support that inference as a categorical
+matter.
+
+        The Fourth Department has put this principle into practice, in this
+Department, after Gillotti. In People v. Stagles, 222 A.D.3d 1341 (4th Dep't
+2023), the Court modified a Cayuga County order and reduced a child-
+pornography-possession offender from Level Two to Level One, holding that the
+lower court's 90-point assessment under Factors 3 and 7 overestimated his true
+risk, and expressly quoting Gillotti's holding that "scoring points under
+factors 3 and 7 may overestimate the risk of reoffense and danger to the
+public posed by quite a few child pornography offenders" and that a SORA court
+should "give particularly strong consideration to the possibility that
+adjudicating the offender in accordance with the guidelines point score and
+without departing downward might lead to an excessive level of registration."
+Id. at 1343 (quoting Gillotti, 23 N.Y.3d at 860). This memorandum does not overstate
+the comparison: Stagles had no prior conviction, never shared his images, and
+received a probationary sentence, none of which is true of Respondent.
+Stagles's value here is not as a factual match. It is as controlling-
+department confirmation that the excessive-registration principle Gillotti
+announced is a live, operative rule in the courts that will hear this case and
+any appeal from it — not a dissent-only aspiration.
+
+        The Third Department's decision in People v. Adams, 216 A.D.3d 1376
+(3d Dep't 2023), confirms the same principle at Level Two specifically, which
+is the relief Respondent seeks here. There, a defendant whose RAI score alone
+yielded a presumptive Level One was assessed up to a presumptive Level Three
+through Factor 3 and 7 scoring; the County Court departed downward to Level Two
+— crediting the absence of physical contact with any victim, the absence of a
+paid subscription, a low image volume, and "exceptional" treatment
+participation — and the Appellate Division affirmed. Id. Adams did not involve
+an override, and this memorandum does not present it as though it did. It is
+offered for a narrower and still important point: New York courts, applying
+Gillotti's framework to child-pornography offenders, have granted exactly the
+relief requested here — a Level Two classification — based substantially on
+the same categories of fact present in this record: no contact, no paid
+distribution for profit, and documented treatment engagement.
+
+        C. Respondent's Case Is, if Anything, a Stronger Candidate for This
+        Theory Than the Cases That Have Applied It, Because the Override Itself
+        Is Triggered by Digital Conduct
+
+        The Board and the People are likely to point to People v. Gunter,
+217 A.D.3d 788 (2d Dep't 2023), as the controlling override case, and this
+memorandum meets that authority directly rather than leaving it for reply.
+Gunter affirmed an Override 1 Level Three classification and rejected the
+defendant's proffered mitigating factors — his pre-override point total,
+unsupported family and housing evidence, a treatment response the court did
+not find exceptional, and unproven age and health claims — describing
+downward departures generally as "the exception... not the rule." Id. at
+789-90. That is real, adopted, on-point authority, and this Court should expect
+the Board to rely on it.
+
+        It is also genuinely distinguishable, on a fact that is not a matter of
+argument but of record: Gunter's override was triggered by a 1998 conviction
+for attempted rape in the first degree and sexual abuse in the first degree —
+contact offenses. Id. at 789. So was the override-triggering conviction in Moss,
+which arose from "course of sexual conduct against a child," 43 N.Y.3d at 586
+— also a contact offense. Neither court had occasion to consider, because
+neither record presented, an offender whose override-triggering prior
+conviction is itself a purely image-based offense with no contact element,
+paired with an instant offense that is likewise purely image-based. Respondent's
+record presents that fact pattern in as clean a form as it can appear: neither
+the conviction that triggers the override nor the instant offense driving this
+proceeding involves any charged or convicted contact conduct. Gunter's
+rejection of a generic treatment-response or family-support showing does not
+resolve whether the excessive-registration principle Gillotti and Stagles
+applied — a principle specific to the digital, non-contact nature of the
+offense itself, not to the offender's post-offense conduct — carries the same
+force against an override triggered by that same kind of offense. No case in
+the body of authority reviewed for this application decides that question
+either way. This Court would not be disregarding controlling
+authority in granting departure here; it would be applying Gillotti's own
+directive to a fact pattern its adverse override cases have not yet presented.
+
+        D. The Record's Hardest Fact — Reoffense During Treatment — Does Not
+        Defeat This Showing, and Should Not Be Minimized
+
+        The Case Summary states plainly that "no departure is recommended as
+prior detection, sanction and treatment have not deterred his conduct." Case
+Summary (Ex. A) at 3. That is a fair characterization of the record, and this
+memorandum does not dispute it: Respondent committed the instant offense while
+actively enrolled in sex-offender treatment and less than two years into
+supervision on the 2012 conviction. That fact belongs in this Court's weighing
+of the totality of the circumstances, and hiding from it would not serve
+Respondent's case.
+
+        It does not, however, answer the question this departure application
+actually asks. The Gillotti/Stagles line of authority is not built on a claim
+that Respondent's treatment history proves he will never reoffend; it is built
+on the proposition that the RAI, applied mechanically to an image-only offender,
+risks a classification that overstates his risk of committing a contact
+offense specifically — the risk SORA's notification scheme is centrally
+designed to address. Reoffending by viewing more images is a serious,
+documented risk in this record. It is not evidence of a risk of hands-on
+sexual contact, which is precisely the inferential leap Gillotti held the
+current science does not support. 23 N.Y.3d at 859. The record here, in fact,
+cuts the other way on the narrower question that matters: when Respondent was
+confronted, in the same 2017 disclosure that led directly to this proceeding,
+with two decades-old, self-reported incidents involving physical proximity to
+minors, he disclosed them voluntarily, and the ensuing polygraph found "no
+deception." Case Summary (Ex. A) at 3. An offender concealing a genuine risk of
+hands-on contact from his own treatment provider does not ordinarily volunteer
+that history unprompted and then pass a polygraph on it. None of this excuses
+the reoffense, and none of it is offered to. What it supports is narrower and
+more precise than what the Board's blanket "prior detection, sanction and
+treatment have not deterred his conduct" formulation allows for: a continued
+risk of viewing more images, not a demonstrated risk of contact offending —
+which is exactly the distinction Gillotti requires this Court to draw.
+
+        E. Conclusion as to Point I
+
+        Respondent's raw score places him in the RAI's own "Level 1" band. His
+override-triggering prior conviction and his instant offense are both
+image-based, with no contact-offense conduct charged or convicted in either.
+His own risk instrument scores zero on every factor measuring contact risk. The
+Court of Appeals has directed SORA courts to give "particularly strong
+consideration" to precisely this over-classification risk for child-
+pornography offenders, and the Fourth Department has granted departures on that
+reasoning after Gillotti. No adverse override case in this body of authority
+presents an offender whose triggering conviction is itself digital-only.
+Respondent has carried his burden by a preponderance of the evidence, and the
+totality of the circumstances — properly weighed, including the record's
+genuine aggravating facts — warrants a downward departure to Risk Level Two.
+
+
+POINT II: IN THE ALTERNATIVE, OVERRIDE 1 CANNOT LAWFULLY SUBSTITUTE FOR THE
+INDIVIDUALIZED "THREAT TO PUBLIC SAFETY" FINDING THAT CORRECTION LAW § 168-l(6)
+SEPARATELY REQUIRES
+
+        Should this Court conclude that Point I does not itself warrant
+departure, Respondent presents a second and independent ground for the same
+relief: Override 1, standing alone, cannot lawfully produce a Level Three
+classification, because the statute the Guidelines implement requires two
+separate findings that the override collapses into one.
+
+        A. The Statute Is Conjunctive, and Override 1 Answers Only Half of It
+
+        Correction Law § 168-l(6) provides that a Level Three designation is
+authorized only "if the risk of repeat offense is high and there exists a
+threat to the public safety." The Legislature's own delegation to the Board
+tracks that same two-part structure: § 168-l(5) directs the Board to "develop
+guidelines and procedures to assess the risk of a repeat offense by such sex
+offender and the threat posed to the public safety" — two distinct assessments,
+joined by "and," not one assessment described twice.
+
+        Override 1 is not statutory text. It is Guidelines language, reading:
+"[t]he offender has a prior felony conviction for a sex crime." Moss, 43
+N.Y.3d at 586 (quoting Guidelines, override 1). On its face, that inquiry asks
+only whether a qualifying conviction exists — a question about the fact of
+recidivism, not an individualized finding about whether this offender
+currently presents a threat to public safety. The Board's own Case Summary
+confirms that the override is doing exactly the work Respondent describes: it
+states that the prior conviction "automatically results in a presumptive Risk
+Level III, as this provides compelling evidence that he poses a serious risk
+to public safety that is not captured by scoring alone." Case Summary (Ex. A)
+at 3. That sentence is the clearest evidence in this record that the Board
+itself treats the bare, categorical fact of a prior conviction as
+self-executing proof of the public-safety element — not as one input into an
+individualized finding on it.
+
+        This Court should not expect to find a case squarely deciding this
+distinction, because none exists. Every override case reviewed in preparing
+this application — including Gunter and Moss — treats the applicability of a
+particular override as a single, unitary question resolved once the People
+prove the predicate conviction by clear and convincing evidence, with no
+separate discussion of the repeat-offense and public-safety clauses as
+independent requirements. See Gunter, 217 A.D.3d at 789 ("The People bear the
+burden of proving the applicability of a particular override by clear and
+convincing evidence," and once that burden is met, "a SORA court is not
+possessed of any discretion in determining whether to apply [an] override; the
+application of the override is automatic") (quoting People v. Lobello, 123
+A.D.3d 993, 994 [2d Dep't 2014], and People v. Johnson, 135 A.D.3d 720, 720-21
+[2d Dep't 2016]); Moss, 43 N.Y.3d at 590. That absence is not a weakness in
+this argument. It means no defendant has yet asked a New York court to confront
+the gap between what § 168-l(6) requires and what Override 1 actually finds.
+Respondent asks this Court to be the first to do so, not because the argument
+is untested, but because it has never had occasion to be tested — the Board has
+never before had to defend the conflation against a defendant whose entire
+record, on both convictions, consists of conduct with no contact element at
+all.
+
+        B. The Override Mechanism Is Vulnerable Under Boreali's Own Framework
+        — on the Factors That Actually Apply Here
+
+        In Boreali v. Axelrod, 71 N.Y.2d 1 (1987), the Court of Appeals held
+that an administrative agency exceeds its delegated authority when a
+combination of circumstances shows it has crossed from filling in legislative
+detail into making free-standing policy the Legislature never authorized. The
+Court identified four such circumstances, cautioning that "none of these
+circumstances, standing alone, is sufficient to warrant the conclusion" that an
+agency has exceeded its authority, but that the circumstances, "when viewed in
+combination, paint a portrait of an agency that has improperly assumed for
+itself" a legislative role. Id. at 11-12. Respondent does not overstate that
+combination here: of the
+four factors, two apply to Override 1 with real force, and two do not apply on
+this record at all. Both should be said plainly, because a court asked to
+credit an argument it can verify as candidly stated is more likely to credit
+the part of it that is genuinely strong.
+
+        The factors that support this argument. First, Boreali asked whether
+the agency "wrote on a clean slate" rather than merely filling in the details
+of a broader legislative scheme. Id. at 13. Override 1 does not fill in
+interstitial detail on how to find a threat to public safety — it replaces
+that finding entirely with a single categorical fact, leaving the SORA court,
+once the conviction is shown, "not possessed of any discretion" at all. Gunter,
+217 A.D.3d at 789. Nothing in § 168-l(5)'s text or its enumerated factors instructs the
+Board that a prior conviction should be treated as conclusively establishing
+current dangerousness regardless of its age, its nature, or what has happened
+since. That is closer to writing a new rule than interpreting an existing one.
+Second, Boreali asked whether the agency exercised any special expertise or
+technical competence in adopting the regulation. 71 N.Y.2d at 14. Override 1
+applies no clinical or actuarial judgment whatsoever; it is a records check for
+a qualifying conviction. That stands in real contrast to the RAI's individually
+scored factors, which at least purport to embody the Board's forensic-risk-
+assessment expertise, and to Override 4 — the Board's own clinical-
+mental-abnormality override — which does require an actual clinical finding.
+An instrument that asks only whether a conviction exists is not an exercise of
+technical competence in the sense Boreali requires.
+
+        The factors that do not support this argument, stated with equal
+candor. Boreali's fact-specific inquiry into whether the agency there had
+engaged in an unguided balancing of competing concerns rested on the finding
+that it had "not been given any legislative guidelines at all for determining
+how the competing concerns of public health and economic cost are to be
+weighed." Id. at 12-13. Nothing in the record here shows the Board weighing
+competing economic or social interests in adopting Override 1; it reads as a
+straightforward risk-weighting judgment, not a cost-benefit tradeoff between
+incommensurable values, and this memorandum does not contend otherwise.
+Boreali's finding of legislative stalemate rested on more than forty failed
+bills over a decade of public debate that the agency then resolved on its own.
+Id. at 7, 13-14. No comparable legislative history has been located
+showing the Legislature considered and rejected codifying an automatic
+override, and Respondent does not ask this Court to assume one exists. Of
+Boreali's four factors, two are present and two are not — a materially thinner
+Boreali record than Boreali itself presented. That does not make the argument
+frivolous; the "clean slate" factor in particular maps onto Override 1's
+structure unusually well, because the override does not merely interpret an
+ambiguous statutory term, it dispenses with an entire statutory element's
+individualized-finding requirement. It does mean this Court should weigh the
+argument for what the record actually shows, not for more than that.
+
+        This Court should also expect the Board to invoke the deference the
+Court of Appeals has extended to the Guidelines generally, including in Moss
+itself, which affords "careful consideration to the Board's interpretations of
+th[e] Guidelines, recognizing the Board's legislative mandate to promulgate
+them and the Board's subject matter expertise." 43 N.Y.3d at 588 (quoting
+People v. Cook, 29 N.Y.3d 121, 129 [2017]). That deference is real, and it is
+also not unlimited: deference to an agency's interpretation of its own
+guidelines is not the same as deference to a guideline that eliminates, rather
+than interprets, an element the Legislature itself wrote into the statute. The
+Court of Appeals has used the override mechanism repeatedly without ever being
+asked to test its validity against this specific argument; that institutional
+history counsels caution, not silence, and Respondent raises this ground to
+preserve it fully, whatever this Court concludes.
+
+        C. New York's Closest Analogous Dangerousness Proceeding Confirms That
+        a Bare Conviction Cannot Carry a Clear-and-Convincing Public-Safety
+        Finding
+
+        The proceeding structurally closest to what § 168-l(6)'s "threat to
+public safety" finding is actually supposed to represent is not SORA itself —
+it is civil management under Mental Hygiene Law Article 10, which asks the
+same underlying question: does this specific person's psychology and history
+make him currently dangerous. Article 10 answers that question only through a
+diagnosed clinical condition, established by a psychiatric examiner's report,
+Mental Hygiene Law § 10.05(g), and the Legislature wrote directly into the
+statute that a bare prior conviction is not enough: "the jury may not find
+solely on the basis of the respondent's commission of a sex offense that the
+respondent is a detained sex offender who suffers from a mental abnormality."
+Mental Hygiene Law § 10.07(d).
+
+        This is an analogy, not a citation to controlling SORA authority, and
+this memorandum presents it as exactly that. No SORA case has imported
+Article 10's evidentiary structure into the override context, and the
+existing override cases treat the People's clear-and-convincing burden as
+satisfied by proof of the qualifying conviction alone. The Board and the People
+may fairly respond that SORA classification and Article 10 civil management
+are different statutory schemes with different stakes, and that the
+Legislature knew how to write an Article 10-style clinical-evidence
+requirement into SORA and did not. That is a fair distinction, and this Court
+should weigh it. But the analogy still does real work: in the one place New
+York has actually legislated how to prove current sexual dangerousness by
+clear and convincing evidence, the Legislature expressly rejected the
+inference the Board draws here from a bare conviction standing alone. The
+Board's Case Summary offers no psychiatric examiner's report, no actuarial
+instrument, and no expert opinion of any kind on Respondent's current risk. It
+offers a narrative of past convictions and treatment records, presented as
+itself "compelling evidence" of a public-safety threat. Case Summary (Ex. A)
+at 3. Whatever else that showing accomplishes, it does not meet the standard
+New York's Legislature has set for an individualized dangerousness finding
+anywhere else in this state's law.
+
+        D. Respondent's Own 2018 Classification Illustrates the Gap This
+        Argument Identifies — and the Board's Most Likely Response Does Not
+        Close It
+
+        This same 2012 conduct has already been through one full,
+adversarial SORA classification. In 2018, the Fourth Department affirmed a
+Level Two classification of Respondent based on that conduct, reached without
+any override, through ordinary point scoring. People v. Bernecky, 161 A.D.3d
+1540 (4th Dep't 2018). That is the clearest illustration this record can
+produce of the gap Point II identifies: a court, after full individualized
+review of the very conduct now driving Override 1, found it supported a
+moderate — not a high — risk classification. Override 1 does not build on
+that prior individualized finding. It displaces it with a new categorical one,
+based on the same conviction, with no fresh finding that anything about
+Respondent's danger to public safety has changed.
+
+        The Board's most likely response to this comparison should be named
+here, not left for reply: the instant offense is a second child-pornography
+conviction, committed after the 2018 classification, while Respondent was
+under supervision and in active treatment on the first one. The Board will
+argue that reoffending after an already-completed classification is itself
+powerful, individualized evidence that the 2018 assessment underestimated him
+— and that this evidence, not the override's bare mechanics, is what supports
+Level Three here.
+
+        That response has real force, and Respondent does not pretend
+otherwise, but it answers a different question than the one Point II asks. If the
+recency and repetition of Respondent's conduct is what now supports a public-
+safety finding, then that is precisely the kind of case-specific, individualized
+showing § 168-l(6) requires — and the Board is free to make it. But that is not
+what Override 1 does, and it is not what the Board's Case Summary actually
+says: the Case Summary attributes the public-safety conclusion to "the fact
+that Mr. Bernecky has a prior felony sex crime conviction," full stop, not to
+any analysis of what has changed since 2018 or of the instant offense's own
+particulars. Case Summary (Ex. A) at 3. A court could uphold a Level Three
+classification on a properly developed recency-and-repetition record without
+ever relying on Override 1's automatic mechanics at all. That is not this
+record. The Board reached for the override instead of making that
+individualized case, and Point II asks this Court to hold it to the finding
+the statute actually requires rather than the categorical substitute the
+Guidelines supply in its place.
+
+        E. Conclusion as to Point II
+
+        Correction Law § 168-l(6) requires two findings. Override 1 makes one.
+The Board's own Case Summary demonstrates that conflation in its own words,
+and no New York court has yet been asked to resolve it. The Boreali factors
+that actually apply to this record — the absence of any interstitial guidance
+and the absence of any exercised expertise — support treating the override as
+exceeding what the Legislature delegated; the factors that do not apply are
+conceded, not concealed. Article 10's own statutory rejection of bare-
+conviction dangerousness findings confirms that New York does not otherwise
+accept the inference the Board draws here. And Respondent's own 2018
+classification on this same conduct shows precisely the individualized finding
+that is missing now. This ground independently supports departure to Risk
+Level Two, whatever this Court concludes as to Point I.
+
+
+                                    CONCLUSION
+
+        For the foregoing reasons, Respondent respectfully requests that this
+Court grant a downward departure from the presumptive Risk Level Three and
+classify Respondent a Risk Level Two sex offender.
+
+
+Dated: [_______________], 2026
+       Rochester, New York
+
+                                                Respectfully submitted,
+
+                                                _______________________________
+                                                [Attorney Name]
+                                                Attorney for Respondent
+                                                [Address]
+                                                [Bar Registration No.]
