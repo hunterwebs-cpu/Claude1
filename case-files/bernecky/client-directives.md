@@ -1,5 +1,35 @@
 # Client Directives — Condition-by-Condition Interview Log
 
+## SORA HEARING — procedural motions directed, and a refinement to the PSR-authorization theory (2026-08-14, later same day)
+
+Per client: the 2018 judgment's special condition authorizing PSR release to the
+Board is not necessarily equivalent to *Charmer*'s "authorization by the court" —
+*Charmer*'s authorization arose from an actual disclosure application, with the
+court weighing a compelling-need finding against that specific request; a
+boilerplate condition imposed as part of a standard supervised-release package,
+with no separate application or individualized finding on disclosure
+specifically, may not satisfy the same standard. Flagged for a targeted research
+follow-up — not yet accepted or rejected as correct. Per client: "the name of the
+game is reliability" — the *Mingo*/hearsay-reliability theory is the primary
+focus going forward, not the authorization theory, regardless of how that
+follow-up comes out.
+
+Client directed drafting of three procedural documents for the SORA hearing,
+independent of the merits memorandum:
+1. An application/motion to secure assignment of counsel (Correction Law §
+   168-n(3), County Law Article 18-B) — counsel status currently unknown; the
+   8/4/2026 counsel-status form deadline has passed with no confirmed outcome.
+2. A demand/subpoena for all records available to the Board (§ 168-n(3)'s
+   disclosure-and-subpoena mechanism) — everything the Board relied on: both
+   PSRs, the Case Summary's sourcing, the Position Statement, polygraph
+   materials, etc.
+3. A motion to adjourn the September 11, 2026 hearing — proposed by counsel
+   (not yet confirmed with client) as the natural third piece, grounded in §
+   168-n(3)'s own mandatory adjournment clause plus the *Eldridge* line of
+   discretion cases, to give newly assigned counsel time to review the
+   subpoenaed materials.
+
+
 ## SORA HEARING — additional strategic directives (2026-08-14)
 
 Per client instruction, the SORA hearing memorandum needs to expand to challenge
