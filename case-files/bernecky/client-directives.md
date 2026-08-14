@@ -1,5 +1,42 @@
 # Client Directives — Condition-by-Condition Interview Log
 
+## SORA HEARING — additional strategic directives (2026-08-14)
+
+Per client instruction, the SORA hearing memorandum needs to expand to challenge
+the Board's reliance on the federal PSR and to seek procedural relief, in
+addition to the departure/Boreali arguments already drafted:
+
+1. **PSR reliability.** The PSR is at least two levels removed from firsthand
+   fact (a police report, itself transcribed, further filtered through a
+   probation officer's summary rather than a verbatim transcript) and is
+   unreliable outside the federal sentencing context for which it was built.
+   Fed. R. Crim. P. 32 expressly permits a sentencing court to decline to
+   resolve a disputed PSR fact if it states the fact won't affect sentencing —
+   client's position is that the PSR can only properly be read together with,
+   and limited by, the sentencing transcript, and that facts left unresolved as
+   non-germane (client specifically identifies the disputed image count from
+   the 2012 case) cannot be treated as established fact in the SORA proceeding.
+2. **How the PSR reached the Board is unclear** and, per client, it was received
+   unlawfully — not the Board's fault, but a defect worth challenging. His
+   polygraph-related information presumably reached the Board the same way; he
+   disputes the accounts as recorded.
+3. **Full discovery should be demanded** — need to determine the actual
+   mechanism/rule for that in a NY SORA proceeding.
+4. **Adjournment.** Client wants to seek an adjournment so newly appointed
+   counsel can actually prepare — per client, appointed counsel historically
+   gets the case the day of the hearing with zero prep time (exactly what
+   happened in his 2018 case), and there is no prejudice to the People because
+   Bernecky is already registered and has maintained current registration even
+   while incarcerated, which he was not required to do.
+5. **CP-offenders-are-not-contact-offenders body of authority.** Client wants a
+   broader evidentiary/authority push on this point beyond Gillotti's
+   "scientific uncertainty" language already in the draft, including a
+   then-Judge Sotomayor Second Circuit quote client recalls beginning "an
+   inferential fallacy of ancient standing," from a warrant case — to be
+   independently verified against the primary source before use, not taken
+   from client's recollection alone.
+
+
 ## STATUS CORRECTION — "Jeff_Motions.pdf" letter was never sent (2026-08-13)
 
 A file titled `Jeff_Motions.pdf` sits in the root "USA v Jeff Bernecky" Drive
