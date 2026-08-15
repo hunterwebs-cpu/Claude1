@@ -1,5 +1,62 @@
 # Client Directives — Condition-by-Condition Interview Log
 
+## SORA — "no threat to public safety" rebuttal case, continued (2026-08-15, cont'd)
+
+Continuing the fact list for the Gillotti-rebuttal fallback (see prior entry
+above — "supervised by federal authorities... at least 10 years" was point
+one). Additional points, per client:
+
+2. Conditions imposed by the court reflect a level of seriousness; probation
+   is monitoring Jeff closely.
+3. Jeff is actively engaged in therapy.
+4. **Jeff now has a monitored cell phone with working CIMP software.**
+   Previously, on prior supervision, he could not afford the monitoring
+   software and it could not be installed — per client, that gap is what
+   created the risk of reoffense. Every keystroke is logged by a private
+   monitoring company and fully analyzed; the specific monitoring
+   intervals are not disclosed because that is treated as a security
+   matter. [NEEDS VERIFICATION before filing: the actual current CIMP
+   condition text (already confirmed elsewhere in this file) says
+   Probation may "install any application as necessary to surveil all
+   activity" and must be notified of "impermissible/suspicious activity or
+   communications" — this is consistent with, but not verbatim, "every
+   keystroke is logged." Confirm the specific vendor/practice against
+   `research-output/part27-cimp-monitoring-vendors.md` (federal-motion
+   research track) before asserting "every keystroke" as a stated fact in
+   a filing. Also confirm, if possible, whether the "previously couldn't
+   afford it" account is documented anywhere or is Jeff's own account for
+   his certification.]
+5. **On what Level 3 actually adds over Level 2** (already confirmed by
+   research: quarterly in-person verification vs. less frequent, and
+   employer-address disclosure): client's framing is that this heightened
+   notification/verification regime is "obviously geared toward sex
+   offenders who are a threat to the physical body of people, not passive
+   internet offenders," and that there is "simply no need to notify the
+   world about Jeff beyond the standard notification Level 2 has." Client
+   believes legislative history/committee reports/public comments on SORA
+   will show contact-risk offenders, not passive/digital offenders, were
+   what the enhanced Level 3 regime was built for — flagged for research
+   verification, not yet confirmed.
+6. **Registration compliance**: Jeff has never been alleged to be dishonest
+   about anything the registry requires and has always maintained his
+   registration — including, per client, while incarcerated in a facility
+   in New Jersey. [Still needs the same DCJS/registry-record documentation
+   already flagged as outstanding in the Adjournment memo — this is a new,
+   more specific version of that same previously-flagged fact (previously
+   just "voluntary registration during incarceration"; now specified as
+   New Jersey).]
+7. **Framing for the conclusion of this argument**: "We aren't worried that
+   Jeff is going to go underground. We aren't worried that he is going to
+   cruise some school and groom some boy. But to the extent the court is,
+   that is why we are requesting formal forensic analysis done to
+   determine his actual threat — a conclusion only a forensic psychologist
+   or neuropsychologist can opine on anyway." This directly ties the
+   departure/no-threat argument to the pending § 722-c forensic-evaluation
+   motion — the motion becomes the answer to whatever residual concern the
+   court has after the departure argument, not a separate, disconnected
+   request.
+
+
 ## SORA MEMORANDUM — restructure around three "big ideas," procedural leading (2026-08-15)
 
 Per client, this reusable writer skill (see below) will also be applied to
