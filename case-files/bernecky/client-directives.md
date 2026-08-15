@@ -1,5 +1,21 @@
 # Client Directives — Condition-by-Condition Interview Log
 
+## SORA HEARING — decision to proceed with § 722-c forensic evaluation despite risk (2026-08-15)
+
+Per client: acknowledges and accepts the risk that a forensic evaluation could
+find Jeff presents a threat to public safety, and that requesting funds means
+the fact an evaluation occurred may become known even if the substance is not
+disclosed — but believes the upside significantly outweighs the downside.
+Client's own assessment of Jeff, from personal knowledge: he is a shy adult
+who is "terrified of real romantic human connection" — offered as the
+client's own read on why an evaluation is unlikely to be a problem for him.
+Decision: proceed with the § 722-c motion. This personal insight should be
+folded into Jeff's own certification answers (Questionnaire, Questions 8-9)
+if he can speak to it in his own words — it directly supports the
+relapse-into-compulsive-substitute-behavior framing already in Point I.E of
+the main memorandum, rather than reading as generic mitigation.
+
+
 ## SORA HEARING — demand for full evidentiary hearing / strict proof (2026-08-15)
 
 Per client: the only fact proven on this record without any further submission
