@@ -1,5 +1,70 @@
 # Client Directives — Condition-by-Condition Interview Log
 
+## SORA MEMORANDUM — GRADED F, DELETED, FULL REBUILD DIRECTED (2026-08-15)
+
+Per client, the SORA-HEARING-MEMORANDUM-OF-LAW-DRAFT.md (all versions) has
+been deleted per explicit instruction. Specific, itemized failures the client
+identified, controlling the rebuild:
+
+1. **Case Summary facts were presented as adjudicated/uncontested when they
+   are not.** Client states Jeff disputes specific facts (e.g., he does not
+   believe he ever said he "can't control himself"). The rebuild must
+   present Board Case Summary content as the Board's allegations, not
+   established fact, wherever Jeff actually disputes it — and must quote his
+   actual words from primary sources, not the Board's paraphrase.
+2. **The 2018 conviction was largely an "assembly line" process** per the
+   client — no defense sentencing memorandum, no objections filed (client's
+   characterization; now partially corrected by newly found primary
+   documents — see below) — meaning unopposed does not mean accurate. This
+   needs to inform how "undisputed" PSR facts are characterized throughout.
+3. **Far too much hedging; this is a persuasive brief, not a research memo.**
+   Client's own words: "we aren't presenting that. we dont ask. I dont argue
+   like that ever. I expect ADVOCACY." Active voice, no hedges. Client's own
+   example for how the Sotomayor/Falso point should read: "Although Falso
+   concerned the validity of a search warrant, the fallacy Justice Sotomayor
+   presents is applicable across legal issues." — one confident sentence, not
+   a hedging paragraph. This is the calibration example for register
+   throughout the entire rebuild.
+4. **The PSR-reliability section was too hedged given what the actual rule
+   and case law say.** Client specifically flagged: Rule 32(i)(3) expressly
+   allows a judge to decline to rule on a disputed fact while leaving it in
+   the PSR — this should be stated as fact, not hedged. Client also asked
+   where a Charmer quote about PSR unreliability outside the sentencing
+   context went — confirmed by me directly from the primary Charmer opinion
+   (711 F.2d 1164, read in full from the Drive PDF) that extensive,
+   directly-on-point language exists and was never used: "the report may well
+   contain hearsay statements that are not subject to cross-examination...
+   or information bearing no relationship to the crime," 711 F.2d at 1171
+   (citing Fed. R. Evid. 1101(d)(3), confirming the Rules of Evidence don't
+   even apply to PSR content at sentencing); "No formal limitations inhibit
+   the collection of information for such reports. The reports frequently
+   contain hearsay and information not relevant to the crime charged," id. at
+   ~1175-76; the court "may, in its discretion, decline to hold an
+   evidentiary hearing" on a challenged PSR statement, and "even where the
+   defendant's challenge... has been 'successful'... the statement
+   nevertheless remains in the report," id.; and — closing the gap flagged as
+   weakest-sourced in the prior standard-of-proof memo — "there is no
+   requirement that the defendant voice his objection to any statement with
+   which he disagrees... in a significant number of cases, the defendant does
+   not even request disclosure," citing Fennell & Hall, 93 Harv. L. Rev. 1615,
+   1641 n.141 (1980), id. This must be the centerpiece of the rebuilt Point on
+   PSR reliability, quoted directly and without hedging on the rule/holding
+   itself (only on anything genuinely unconfirmed, like exact pincites).
+
+Client separately uploaded a new folder of actual federal docket filings from
+both the 2012 and 2018 cases to Google Drive — includes the government's
+2012 supplemental sentencing statement (with Bernecky's actual quoted words),
+a 2018 Amended Sentencing Statement filed by AFPD Mark Hosken objecting to
+specific PSR paragraphs (70, 79-81), and other primary documents not
+previously available to any prior research pass. A fact-verification pass
+against these documents is underway before the rebuild proceeds, specifically
+to resolve: (a) the exact wording of Bernecky's admissions, (b) an apparent
+discrepancy between the Case Summary's two-incident (2005/2007) YMCA
+narrative and the 2012 sentencing filing's apparent single-incident (age 17,
+pool) account, and (c) what defense counsel actually objected to in 2018 and
+whether the court ever ruled on it.
+
+
 ## SORA HEARING — decision to proceed with § 722-c forensic evaluation despite risk (2026-08-15)
 
 Per client: acknowledges and accepts the risk that a forensic evaluation could
