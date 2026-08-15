@@ -1,5 +1,52 @@
 # Client Directives — Condition-by-Condition Interview Log
 
+## SORA MEMORANDUM — restructure around three "big ideas," procedural leading (2026-08-15)
+
+Per client, this reusable writer skill (see below) will also be applied to
+Jeff's federal supervised-release modification motion, not just SORA. For the
+SORA memorandum specifically, client directs restructuring around three "big
+ideas" (Stark's Ch. 4 method) — two substantive, one procedural — with the
+**procedural issue leading**:
+
+**Procedural big idea (leads the memorandum):** "The Board relies on a
+federal presentence report which is not a reliable source of factual
+information given the rules under which such reports are created and the
+federal courts' own statements that, outside a federal sentencing context,
+such reports are not reliable." This is the Charmer-centered PSR-reliability
+argument already researched and confirmed — to be sharpened into this single
+thesis sentence and built around it directly.
+
+**Substantive big idea:** "Jeff Bernecky should not be classified as a Level
+3 Offender because there is no indication that he is a 'threat to public
+safety.'" Client's directed approach for building this argument — a
+significant reframing from the existing Boreali-centered override challenge:
+
+1. **Do not challenge the override's validity at all.** Instead, frame the
+   override for exactly what it is: a presumptive indicator of ONE thing —
+   recidivism/risk of reoffense (element 1 of the two-part Level 3 test).
+   That is the same element needed for a Level 2 classification, which Jeff
+   does not contest. Per the Board's own statements, the presumption is
+   based ENTIRELY AND ONLY on the prior conviction — nothing is presented on
+   whether Jeff is a threat to public safety specifically.
+2. **Statutory construction, stated as a formal canon**: recidivism and
+   threat to public safety cannot be synonymous, because courts must give
+   effect to every provision of a statute (surplusage canon) — if the two
+   terms meant the same thing, there would be no difference between a Level
+   2 and a Level 3 classification.
+3. **On the merits**: concede there is cause for concern that Jeff is high
+   risk to reoffend — but there is zero indication he will ever physically
+   harm any person. All of his offenses have been passive: anonymously
+   accessing images online through search engines, never any contact
+   conduct.
+4. **Fallback, if the override is nonetheless deemed to reach the
+   public-safety element too**: Gillotti has, in effect, created a
+   rebuttable procedure — show by a preponderance that there is no threat to
+   public safety. Client believes this burden can be carried. Facts
+   client is building toward this showing (list in progress, more expected):
+   - Jeff is supervised by federal authorities and will remain on
+     supervision for at least 10 years.
+
+
 ## SORA MEMORANDUM — GRADED F, DELETED, FULL REBUILD DIRECTED (2026-08-15)
 
 Per client, the SORA-HEARING-MEMORANDUM-OF-LAW-DRAFT.md (all versions) has
