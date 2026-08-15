@@ -26,6 +26,37 @@ one). Additional points, per client:
    a filing. Also confirm, if possible, whether the "previously couldn't
    afford it" account is documented anywhere or is Jeff's own account for
    his certification.]
+
+   **VERIFICATION RESULT (2026-08-15):** Checked against
+   `research-output/part27-cimp-monitoring-vendors.md`, the federal-motion
+   research track's vendor-landscape memo. Result: **"every keystroke is
+   logged" is NOT supported as a vendor-confirmed fact for Jeff's likely
+   vendor and should not be asserted as literal fact in the SORA filing.**
+   Specifics: the client independently identified WDNY's actual CIMP
+   vendor by phone with Jeff as **IPPC Technologies** ("Impulse Control").
+   IPPC's own public technical materials never use the word "keystroke" —
+   a full-text search of the vendor's site for "keystroke," "keylog,"
+   "real-time," and "screenshot" returned zero matches, and its core
+   monitoring product's mechanism is undocumented publicly. The best
+   available proxy (IPPC's probable second brand, "NCPTC," per its current
+   Privacy Policy) describes its own product as capturing **"internet
+   activity, email communications (through supported clients), screen
+   captures, and application usage data"** — and, for Android, SMS content
+   — never keystroke-by-keystroke capture. **Continuous, confirmed
+   keystroke logging is a documented feature of a different vendor,
+   RemoteCOM/SCOUT** (confirmed by four independent news outlets reporting
+   on a September 2025 data-breach leak of RemoteCOM's own internal
+   training manual) — a vendor with no confirmed connection to Jeff's
+   supervision. **Recommended filing-safe formulation:** describe the
+   monitoring as continuous, comprehensive, and privately administered
+   (internet activity, application usage, and — per the vendor's own
+   description — periodic screen captures and monitored email/messaging),
+   without using the word "keystroke" unless Jeff's own certification or
+   a probation-office admission specific to his case uses that word. The
+   "previously couldn't afford it" account remains Jeff's own account only
+   — no independent documentary source for it was located in this
+   research track; if used, it should be attributed to Jeff's own
+   statement, not presented as an adjudicated fact (Failure 6 discipline).
 5. **On what Level 3 actually adds over Level 2** (already confirmed by
    research: quarterly in-person verification vs. less frequent, and
    employer-address disclosure): client's framing is that this heightened
