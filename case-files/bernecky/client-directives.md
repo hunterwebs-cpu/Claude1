@@ -1,5 +1,24 @@
 # Client Directives — Condition-by-Condition Interview Log
 
+## SORA HEARING — standard-of-proof mismatch, PSR vs. clear-and-convincing (2026-08-14, later same day)
+
+Per client: federal PSR factual statements are affirmed at sentencing only by
+a preponderance standard, and only when expressly challenged — undisputed
+portions receive no evidentiary vetting at all (this matches Rule
+32(i)(3)(A), already confirmed verbatim: the court "may accept any undisputed
+portion of the presentence report as a finding of fact," no standard-of-proof
+language at all for that category). But Correction Law § 168-n(3) requires
+the People prove SORA determinations by clear and convincing evidence — a
+higher standard. Client's point: reconciling a document built at (at most)
+preponderance, often with zero vetting, with a clear-and-convincing burden in
+this proceeding may be structurally impossible without independent
+verification of every underlying source document the probation officer
+actually relied on. This is a new, additional theory (standard-of-proof
+mismatch) — distinct from, and potentially stronger than, the existing
+Mingo-familiarity distinction already in Point II. Flagged for research
+verification before drafting into the memorandum.
+
+
 ## SORA HEARING — strategy narrowing and standing format directive (2026-08-14, later same day)
 
 Per client:
