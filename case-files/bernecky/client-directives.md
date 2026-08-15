@@ -120,6 +120,30 @@ one). Additional points, per client:
    research files — dispatch to Researcher before this point is drafted
    into the memo.]
 
+   **VERIFIED (2026-08-15) — see `SORA-168-O-RECLASSIFICATION-MEMO.md`:**
+   Confirmed via direct read of the primary statutory text. § 168-o(3) lets
+   the DA petition to reclassify upward only on (a) a new conviction, or an
+   adjudicated violation of a conditional discharge/probation/parole/PRS
+   condition, **plus** (b) proof that the underlying conduct "indicates an
+   increased risk of a repeat sex offense" — clear and convincing evidence,
+   no mere reconsideration of facts already before the Court on 9/11.
+
+   **Client's refinement of this point (2026-08-15):** the DA can't seek an
+   upgrade absent a supervision violation (or new conviction) — but Jeff
+   will be on close federal supervision for at least 10 more years, so
+   **any** supervision violation during that period would itself supply
+   § 168-o(3)'s predicate. Client's directive: **push on this, don't
+   just mention it.** The point cuts in Respondent's favor precisely
+   because it is not remote or theoretical: the same intensive federal
+   supervision (CIMP monitoring, probation oversight, therapy engagement —
+   see facts above) that supports "not a threat to public safety" today is
+   also the mechanism that would immediately surface any future violation
+   and hand the DA a live, statutorily-clean path to seek Level 3 later.
+   The safety valve isn't hypothetical — it's wired directly into the same
+   supervision structure already keeping Jeff monitored. This ties the
+   § 168-o(3) point and the "closely supervised" fact together into one
+   argument rather than leaving them as two separate points.
+
 
 ## SORA MEMORANDUM — restructure around three "big ideas," procedural leading (2026-08-15)
 
