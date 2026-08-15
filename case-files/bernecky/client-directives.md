@@ -1,5 +1,19 @@
 # Client Directives — Condition-by-Condition Interview Log
 
+## SORA HEARING — forensic evaluation right + recidivism-conceded reframing (2026-08-15)
+
+Per client: (1) research whether any rule/statute grants a SORA respondent
+the right to request a forensic psychological evaluation on dangerousness,
+particularly funded for an indigent respondent (Jeff cannot afford one) —
+intended to reinforce Point III's public-safety-element argument, especially
+given Level 3 carries genuinely punitive-adjacent restrictions (movement,
+residency) that Level 2 does not. (2) Sharpen Point III's framing: the "risk
+of repeat offense" clause is effectively stipulated/uncontested (hence no
+objection to Level 2) — the entire live dispute is whether the independent
+"threat to public safety" clause is established for the jump from 2 to 3,
+since both clauses require effect under ordinary statutory construction.
+
+
 ## SORA HEARING — standard-of-proof mismatch, PSR vs. clear-and-convincing (2026-08-14, later same day)
 
 Per client: federal PSR factual statements are affirmed at sentencing only by
