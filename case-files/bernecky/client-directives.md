@@ -1,5 +1,23 @@
 # Client Directives — Condition-by-Condition Interview Log
 
+## SORA HEARING — demand for full evidentiary hearing / strict proof (2026-08-15)
+
+Per client: the only fact proven on this record without any further submission
+is the bare existence of the 2012 prior felony sex conviction. Everything else
+the Board relies on (image counts, "compelling evidence," "not deterred," the
+2010/2017 admissions, etc.) is currently only Board narrative/hearsay, never
+independently proven. Client directs demanding a full evidentiary hearing —
+forcing the People to actually prove, through live/admissible evidence, every
+fact they currently just assert. This ties directly into the Point III
+conjunctive-statute argument: the prior-conviction fact can, at most, satisfy
+the "risk of repeat offense" element; it cannot by itself satisfy the
+independent "threat to public safety" element, which requires its own proof.
+Client is realistic that this is likely to be denied at the trial level and
+will largely be an appellate issue, but wants the specific, correct request
+made and preserved on the record now, so preservation cannot later be
+disputed.
+
+
 ## SORA HEARING — forensic evaluation right + recidivism-conceded reframing (2026-08-15)
 
 Per client: (1) research whether any rule/statute grants a SORA respondent
