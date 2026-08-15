@@ -86,6 +86,39 @@ one). Additional points, per client:
    motion — the motion becomes the answer to whatever residual concern the
    court has after the departure argument, not a separate, disconnected
    request.
+8. **The reclassification safety valve, and a refinement of the presumption's
+   own logic.** If the State becomes legitimately concerned — on real,
+   post-classification evidence, not the bare fact of the prior conviction —
+   that Jeff is a threat to public safety, SORA is not a one-shot,
+   permanently-locked determination: the State can always seek
+   reclassification upward later. Denying Level 3 now does not foreclose it
+   forever if genuine cause later develops. Client is explicit this is not a
+   claim that a prior conviction can never fairly support a public-safety
+   presumption: "someone convicted of kidnapping and rape and then has a
+   second offense fr cp (or vice versa) probably should be presumed to
+   threaten public safety and would have an extremely high hurdle" to rebut
+   it. The client's point is narrower and conduct-specific: **the strength of
+   the presumption should track the nature of the underlying offense
+   conduct, not merely the existence of a qualifying prior conviction as a
+   category.** Where the entire criminal history — both the prior and the
+   instant offense — is passive/digital (no contact offense, no violence, no
+   physical proximity-driven conduct), the presumption of a threat to
+   physical/public safety has comparatively weak footing, because nothing in
+   that history has ever involved the kind of conduct the presumption is
+   meant to flag. This becomes an additional analytical layer within the
+   Gillotti-rebuttable-preponderance argument: not just "the fact list shows
+   low risk," but "the type of presumption Override 1 generates is itself
+   calibrated to the type of prior offense, and a prior/instant history that
+   is entirely passive generates the weakest version of that presumption" —
+   paired with the point that rejecting Level 3 now is not a permanent,
+   irreversible outcome, since reclassification remains available if the
+   State later develops real evidence of dangerousness. [NEEDS VERIFICATION
+   before filing: Correction Law § 168-o is the likely mechanism for a
+   later upward-modification petition (DA-initiated redetermination), but
+   the exact subsection, the standard/showing it requires, and any waiting
+   period have not yet been independently confirmed in this matter's
+   research files — dispatch to Researcher before this point is drafted
+   into the memo.]
 
 
 ## SORA MEMORANDUM — restructure around three "big ideas," procedural leading (2026-08-15)
