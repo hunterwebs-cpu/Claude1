@@ -1,5 +1,42 @@
 # Client Directives — Condition-by-Condition Interview Log
 
+## SORA HEARING — strategy narrowing and standing format directive (2026-08-14, later same day)
+
+Per client:
+1. **Counsel-status form status**: Jeff is mailing the counsel-status form in
+   himself (not yet received/processed as of this entry). Client anticipates
+   mail transit will take several days, further shrinking whatever time
+   newly-assigned counsel would have to actually consult with Jeff before
+   9/11/2026 — reinforces the adjournment motion's premise; the motion's
+   counsel-status paragraph should reflect this actual status rather than a
+   bare "CONFIRM" placeholder.
+2. **PSR authorization theory: leave it out.** Per client's explicit
+   instruction, following the follow-up memo's "toss-up, modest lean toward
+   the government" conclusion — do not lead with or include the *Charmer*
+   authorization/unauthorized-transmission theory in the main filing. This
+   does NOT mean abandoning the PSR fight generally: client wants the
+   *reliability* theory (distinguishing a federal PSR, filtered through the
+   Board's own third-layer paraphrase, from the in-state PSR/case-summary
+   practice *Mingo* actually addressed) argued hard ("slam reliance on the
+   document").
+3. **Mitigation/certification directive**: client asked what information is
+   needed from Jeff for a certification/declaration supporting downward
+   departure, and specifically raised a substantive framing idea — that CP
+   reoffense should be explained as *relapse* into compulsive
+   viewing/consumption behavior, analogous to a relapse in addiction recovery,
+   as distinct in kind from a contact offender's escalation toward physically
+   abusing a child. This is to be developed as an argument in the main filing
+   AND used to shape what's asked of Jeff in a certification.
+4. **"More zeal" directive**: client found the existing drafts good but wants
+   more forceful advocacy for Jeff's position added, specifically in the main
+   filing responding to the Board.
+5. **Standing format directive, going forward**: all Writer-produced documents
+   should be delivered in Word (.docx) format, formatted per New York state
+   trial court practice (caption, spacing, margins, font) for this case —
+   not just as Markdown drafts. Applies to future filings generally, not only
+   the current main memorandum.
+
+
 ## SORA HEARING — procedural motions directed, and a refinement to the PSR-authorization theory (2026-08-14, later same day)
 
 Per client: the 2018 judgment's special condition authorizing PSR release to the
