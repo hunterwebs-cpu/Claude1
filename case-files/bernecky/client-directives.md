@@ -3254,3 +3254,56 @@ the abstract, not only in the facts section as a disputed item to be "weighed."
 
 **Status: logging only, per client's ongoing review — do not dispatch the Writer
 or edit the draft until the client says to proceed.**
+
+## SORA MEMORANDUM — client disputes the "sexual contact" label for the 2005/2007 incidents and raises a new treatment-privilege theory to strike the statements entirely (2026-08-15, cont'd)
+
+Third flag from the same review pass, on the paragraph beginning "The 2017
+disclosure of 'sexual contact.'" Two distinct points, both substantial:
+
+1. **Same sourcing gap as the last two flags.** Where is the actual polygraph
+   recording and results? Who administered it? What was the context? A Case
+   Summary reference alone does not answer any of this.
+2. **The "sexual contact" label itself is disputed as an inaccurate
+   characterization — not merely unconfirmed, actively wrong.** Per client: "a
+   child trying to sit on someone's back during horseplay, or another child
+   trying to sit on a lap unprompted do not amount to sexual contact in any
+   way." This is a different objection than the coordinator's earlier note about
+   attributing the Case Summary's own word choice — client is not saying "don't
+   quote the label," client is saying the label the Case Summary/PSR applies to
+   this specific described conduct (a child climbing on someone during ordinary
+   camp-bus/after-school-program activity) is an inaccurate characterization of
+   what actually happened, and the document should say so affirmatively:
+   attribute the label to its source, then argue it does not fit the conduct
+   described.
+
+**New legal theory, not yet researched in this matter — needs verification
+before any drafting:** the 2017 polygraph was conducted "under the guise of
+treatment," per client, meaning it was a clinical/therapeutic polygraph
+administered as part of Jeff's sex-offender treatment program, not a
+law-enforcement investigative tool. Client's position:
+- Communications made in that treatment context are privileged.
+- Any waiver of that privilege for the purpose of federal probation-officer
+  access (the ordinary practice in treatment-program administration, where
+  patients typically waive confidentiality to the supervising officer/treatment
+  team) does not extend beyond that specific purpose — it was never waived for
+  any judicial purpose, and specifically not for a New York SORA proceeding.
+- Client believes New York law is "far more protective of these records" than
+  whatever federal treatment-program practice governs disclosure to a
+  supervising officer.
+- **Conclusion client wants tested:** the statements from this disclosure
+  should be stricken from the record on privilege grounds — independent of
+  whether they are also inaccurate. Client's own framing: "even if they were
+  true, which we believe is being taken out of context, the privilege should
+  slam shut this avenue."
+
+**This is a genuinely new legal theory for this matter and requires real
+research before it can be drafted** — the applicable NY privilege statute (e.g.,
+CPLR 4507 or an analogous counselor/treatment-provider privilege), whether SORA
+proceedings recognize or apply that privilege at all, whether a waiver executed
+for federal-supervision purposes can be read as scope-limited to that purpose
+alone, and whether any NY SORA case has addressed a comparable privilege
+argument. Not yet dispatched to Researcher — client is still reviewing the rest
+of the document.
+
+**Status: logging only — do not dispatch research, the Writer, or edit the draft
+until the client says to proceed.**
