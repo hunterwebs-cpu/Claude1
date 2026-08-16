@@ -3326,3 +3326,48 @@ the client's underlying objections are the same category.
 
 **Status: logging only — do not dispatch research, the Writer, or edit the draft
 until the client says to proceed.**
+
+## Researcher dispatched: treatment/polygraph privilege theory (2026-08-15, cont'd)
+
+Per client's explicit instruction ("we should launch a subagent researcher on
+the privilege issue for medical/mental health waiver"), a Researcher subagent
+was dispatched to test the treatment-privilege theory logged in the entry above
+(CPLR 4507/4508 or similar, scope of a limited-purpose waiver to a federal
+probation officer, whether SORA's reliable-hearsay standard overrides or
+coexists with a properly-invoked privilege, and whether any NY SORA case has
+addressed treatment-derived statements on privilege or confidentiality grounds).
+Saving to `SORA-TREATMENT-POLYGRAPH-PRIVILEGE-MEMO.md`. Not yet returned as of
+this entry.
+
+## SORA MEMORANDUM — release-status correction and exhibit-attachment requirement (2026-08-15, cont'd)
+
+Sixth flag from the same review pass, on the draft's future-tense framing
+("Upon his release from federal custody, Mr. Bernecky will begin a ten-year term
+of federal supervised release...") — this appears at least twice (the
+Supervision/treatment section of the facts, and again in Point II.C).
+
+**Factual correction: this is no longer accurate and is now outdated.**
+Mr. Bernecky has already been released from federal custody and has been on
+supervised release since July 31 (2026). Every passage in the draft using
+future-tense framing ("upon his release," "will begin," "will remain") needs to
+be corrected to present tense — he is currently on supervision now, not about to
+begin it. This affects the ten-year-term/CIMP-monitoring/probation-oversight
+description wherever it recurs (facts section and Point II.C at minimum — a full
+document sweep is needed since this framing may appear elsewhere too).
+
+**Separate, hard requirement, not just a flag: every primary-source filing the
+draft quotes or relies on must be attached as an exhibit to the actual SORA
+filing, with full pinpoint citations.** Specifically named by client in this
+context: the government's Supplemental Sentencing Statement (Doc. 24,
+6:11-CR-06045, filed 01/13/2012) — the source of the "can't help it. I wish I
+could change it" quote and the "6,200 files" figure. This applies equally to
+every other primary document the draft relies on for a specific quote or figure
+(the Amended Sentencing Statement objecting to PSR ¶¶ 79-81, the docket sheet,
+etc.) — none of these currently exist in the record before the Monroe County
+Court unless actually attached. The document cannot ask the Court to credit "the
+government's own filing says X" without placing that filing, or the relevant
+excerpt of it, before the Court as an exhibit, cited by pinpoint page (per this
+matter's own citation-discipline standard — Ex. A at 3, etc.).
+
+**Status: logging only — do not dispatch the Writer or edit the draft until the
+client says to proceed.**
