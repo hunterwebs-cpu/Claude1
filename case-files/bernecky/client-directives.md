@@ -3166,3 +3166,41 @@ harshest available method), and Part I.C ("operated"/"used" device scope — sam
 silence-as-boundary logic). Not yet drafted as of this entry — client has not yet
 confirmed whether to dispatch this to the Writer now or hold for further
 research/planning.
+
+
+## SORA MEMORANDUM — client review in progress, PSR-sourcing correction flagged (2026-08-15)
+
+Client is reading the current draft (`SORA-HEARING-MEMORANDUM-OF-LAW-DRAFT.md`) in
+full before any further editing. First flag, on the Preliminary Statement's line
+describing the Case Summary as "the Board's own narrative account of what a
+probation officer once summarized about a police report":
+
+That line is too narrow about where PSR content actually comes from. Per client:
+federal probation officers take in a large amount of information for a PSR, and
+by federal statute/practice there is no limit on what they may consider. A
+significant share does come from police/FBI reports, but in Jeff's case the PSR
+would also have drawn on supervision notes, statements from third parties
+(possibly), and other sources not otherwise identified. **The sources underlying
+any given PSR statement are, in practice, only disclosed if that statement is
+actually challenged** — and defense counsel may reasonably choose not to
+challenge a given PSR passage simply because it is irrelevant to the sentencing
+analysis at hand, not because it's conceded as accurate.
+
+Client's own explanation for why no defense objections were filed to certain PSR
+content in this case: it makes sense that no defense position statement and no
+objections were filed in the second case, because the parties had a **stipulated
+sentence at the statutory mandatory minimum** — there was no incentive to litigate
+disputed PSR content when the sentence itself was fixed by agreement regardless of
+the outcome of any objection. This is a fact/reasoning point for the Writer to
+fold in wherever the draft discusses why certain content went unchallenged — it is
+a straightforward explanation, not a gap in diligence.
+
+**Also flagged:** the government did file its own position statement in this
+case (Doc. 18, 6:18-CR-06018, "Government's Statement with Respect to Sentencing
+Factors," filed 04/24/2018 — already catalogued in the "Fed files" Drive folder
+per prior research). Client does not know whether the Writer actually reviewed
+this document's content when drafting. Needs to be checked.
+
+**Status: logging only.** Client is continuing to review the rest of the document
+before any edits are made — do not dispatch the Writer or make changes based on
+this entry until the client says to proceed.
