@@ -3,10 +3,7 @@ COUNTY COURT : COUNTY OF MONROE
 
 ------------------------------------------------------------
 
-In the Matter of the Application for a
-Risk Level Determination Pursuant to
-Article 6-C of the Correction Law
-(Sex Offender Registration Act) as to
+In the Matter of the Application for a Risk Level Determination Pursuant to Article 6-C of the Correction Law (Sex Offender Registration Act) as to
 
 JEFFREY BERNECKY,
 
@@ -25,46 +22,13 @@ MEMORANDUM OF LAW IN SUPPORT OF RESPONDENT'S POSITION
 
 PRELIMINARY STATEMENT
 
-This proceeding turns on a document nobody in this courtroom has read and a
-word the Board of Examiners of Sex Offenders has never proven. The document
-is Jeffrey Bernecky's federal presentence report - a report a federal
-probation officer was free to build from investigative records, supervision
-notes, third-party statements, and any other source federal rule and
-practice place no limit on, not merely a single police report. The Board did
-not offer this Court that report itself. It offered a Case Summary - the
-Board's own narrative account of what that report said, filtered again
-through the Board's own paraphrase, and now presented to this Court as
-though it were established fact. The word is "safety." Correction Law
-Section 168-l(6) does not authorize a Level Three classification because an
-offender might reoffend. It requires clear and convincing proof that he
-presently threatens public safety. The Board has never offered that proof.
-It has offered a single, fourteen-year-old prior conviction and called that
-conviction, by itself, "compelling evidence" of a threat the Board never
-independently examined.
+This proceeding turns on a document nobody in this courtroom has read and a word the Board of Examiners of Sex Offenders has never proven. The document is Jeffrey Bernecky's federal presentence report - a report a federal probation officer was free to build from investigative records, supervision notes, third-party statements, and any other source federal rule and practice place no limit on, not merely a single police report. The Board did not offer this Court that report itself. It offered a Case Summary - the Board's own narrative account of what that report said, filtered again through the Board's own paraphrase, and now presented to this Court as though it were established fact. The word is "safety." Correction Law Section 168-l(6) does not authorize a Level Three classification because an offender might reoffend. It requires clear and convincing proof that he presently threatens public safety. The Board has never offered that proof. It has offered a single, fourteen-year-old prior conviction and called that conviction, by itself, "compelling evidence" of a threat the Board never independently examined.
 
 Respondent asks this Court to do two things, in this order.
 
-First, decline to treat a federal presentence report - a document built
-under rules that expressly tolerate hearsay, that expressly permit a
-sentencing judge to leave disputed facts unresolved, and that this record
-now shows already contains real, checkable inaccuracies - as clear and
-convincing evidence of anything in a New York State courtroom, at a standard
-of proof the federal sentencing itself never applied. This is a threshold,
-document-reliability problem, and it should be resolved before the Court
-reaches anything else.
+First, decline to treat a federal presentence report - a document built under rules that expressly tolerate hearsay, that expressly permit a sentencing judge to leave disputed facts unresolved, and that this record now shows already contains real, checkable inaccuracies - as clear and convincing evidence of anything in a New York State courtroom, at a standard of proof the federal sentencing itself never applied. This is a threshold, document-reliability problem, and it should be resolved before the Court reaches anything else.
 
-Second, recognize what the Board's own numbers actually show. Mr. Bernecky's
-Risk Assessment Instrument score is 70 points - squarely within the
-Guidelines' own Level One range. He reaches a presumptive Level Three only
-because RAI Override 1 fires on the bare fact of his 2012 federal
-conviction. That override proves one thing: that Mr. Bernecky has a
-qualifying prior conviction, which is the same fact that would support a
-Level Two classification he does not contest. It does not prove, and the
-Board never separately tried to prove, that he is a danger to anyone's
-physical safety. Nothing in either of his two convictions - both entirely
-digital, both entirely non-contact - shows that. Level Two already accounts
-for the risk the record actually establishes. Level Three should be
-reserved for a risk the record does not.
+Second, recognize what the Board's own numbers actually show. Mr. Bernecky's Risk Assessment Instrument score is 70 points - squarely within the Guidelines' own Level One range. He reaches a presumptive Level Three only because RAI Override 1 fires on the bare fact of his 2012 federal conviction. That override proves one thing: that Mr. Bernecky has a qualifying prior conviction, which is the same fact that would support a Level Two classification he does not contest. It does not prove, and the Board never separately tried to prove, that he is a danger to anyone's physical safety. Nothing in either of his two convictions - both entirely digital, both entirely non-contact - shows that. Level Two already accounts for the risk the record actually establishes. Level Three should be reserved for a risk the record does not.
 
 ------------------------------------------------------------
 
@@ -72,233 +36,45 @@ STATEMENT OF FACTS
 
 The classification package, and what the Board's own numbers show
 
-By notice dated July 30, 2026, this Court scheduled a risk-level
-classification hearing for September 11, 2026, following the recommendation
-of the New York State Board of Examiners of Sex Offenders. The Board's
-recommendation package - a cover memorandum, a Risk Assessment Instrument
-("RAI"), a four-page narrative Case Summary, and a Sex Offender Designation
-Form, all dated July 23, 2026 - is the entirety of what has been disclosed
-to Respondent and, per the Board's own cover memorandum, the entirety of
-"all relevant information considered by the Board."
+By notice dated July 30, 2026, this Court scheduled a risk-level classification hearing for September 11, 2026, following the recommendation of the New York State Board of Examiners of Sex Offenders. The Board's recommendation package - a cover memorandum, a Risk Assessment Instrument ("RAI"), a four-page narrative Case Summary, and a Sex Offender Designation Form, all dated July 23, 2026 - is the entirety of what has been disclosed to Respondent and, per the Board's own cover memorandum, the entirety of "all relevant information considered by the Board."
 
-The RAI scores Mr. Bernecky at 70 points, built from exactly three factors:
-age of victim under 11 (+30), a prior violent felony or sex crime conviction
-(+30), and recency of that prior conviction, less than three years before
-the instant offense (+10). Every other scored category on the instrument -
-use of violence, forcible compulsion, sexual contact with a victim, number
-of victims, duration of offense conduct, relationship with the victim,
-acceptance of responsibility, and conduct while confined or supervised - is
-scored zero. The RAI's own printed table places Level One at 0 to 70 points.
-The Board's Case Summary states, in these words: "Mr. Bernecky is assessed
-as a Level I (Low) risk." On points alone, the Guidelines classify Mr.
-Bernecky at the lowest tier the instrument recognizes.
+The RAI scores Mr. Bernecky at 70 points, built from exactly three factors: age of victim under 11 (+30), a prior violent felony or sex crime conviction (+30), and recency of that prior conviction, less than three years before the instant offense (+10). Every other scored category on the instrument - use of violence, forcible compulsion, sexual contact with a victim, number of victims, duration of offense conduct, relationship with the victim, acceptance of responsibility, and conduct while confined or supervised - is scored zero. The RAI's own printed table places Level One at 0 to 70 points. The Board's Case Summary states, in these words: "Mr. Bernecky is assessed as a Level I (Low) risk." On points alone, the Guidelines classify Mr. Bernecky at the lowest tier the instrument recognizes.
 
-The only reason this proceeding concerns a Level Three classification at all
-is RAI Override 1 - "Offender has a prior felony conviction for a sex
-crime" - which the RAI's own text states makes an offender "presumptively a
-Level 3." The Case Summary explains the Board's reasoning for that override
-in a single sentence: the prior conviction "automatically results in a
-presumptive Risk Level III, as this provides compelling evidence that he
-poses a serious risk to public safety that is not captured by scoring
-alone." That sentence - nothing else - is the entire evidentiary basis in
-the Board's own package for the conclusion that Mr. Bernecky presently
-threatens public safety. The Case Summary also invokes a Board "Position
-Statement" dated June 1, 2012, for the proposition that Mr. Bernecky "has
-demonstrated the inability to manage his sexual urges." That document is
-referenced as "attached" to the Case Summary; it addresses, on its own face,
-only the scoring of RAI Factors 3 and 7 in child-pornography cases and a
-wholly separate override - Override 4, the clinical mental-abnormality
-override - which the Board has never invoked here. It says nothing about
-Override 1 and nothing about general dangerousness.
+The only reason this proceeding concerns a Level Three classification at all is RAI Override 1 - "Offender has a prior felony conviction for a sex crime" - which the RAI's own text states makes an offender "presumptively a Level 3." The Case Summary explains the Board's reasoning for that override in a single sentence: the prior conviction "automatically results in a presumptive Risk Level III, as this provides compelling evidence that he poses a serious risk to public safety that is not captured by scoring alone." That sentence - nothing else - is the entire evidentiary basis in the Board's own package for the conclusion that Mr. Bernecky presently threatens public safety. The Case Summary also invokes a Board "Position Statement" dated June 1, 2012, for the proposition that Mr. Bernecky "has demonstrated the inability to manage his sexual urges." That document is referenced as "attached" to the Case Summary; it addresses, on its own face, only the scoring of RAI Factors 3 and 7 in child-pornography cases and a wholly separate override - Override 4, the clinical mental-abnormality override - which the Board has never invoked here. It says nothing about Override 1 and nothing about general dangerousness.
 
 A record without violence, contact, or a weapon
 
-Mr. Bernecky's criminal history consists of two federal convictions, six
-years apart, both exclusively for possessing and distributing child
-pornography over the internet - 18 U.S.C. Sections 2252A(a)(1) and
-2252A(a)(5)(B) in 2012; 18 U.S.C. Sections 2252A(a)(5)(B) and 2252A(b)(2) in
-2018. Neither conviction charges or alleges any physical contact with a
-child, any use of force, any weapon, or any attempt to arrange or solicit
-contact with a minor. The instant offense was detected when a supervising
-federal probation officer found an unauthorized smartphone during a routine
-home visit; Mr. Bernecky, after initially misstating whose phone it was,
-admitted it was his and admitted what it contained. A forensic review
-recovered roughly 200 images and 25 videos. The RAI's own scoring reflects
-the same reality the Board's narrative describes: every factor that would
-register violence, forcible compulsion, or physical contact with a victim is
-scored zero.
+Mr. Bernecky's criminal history consists of two federal convictions, six years apart, both exclusively for possessing and distributing child pornography over the internet - 18 U.S.C. Sections 2252A(a)(1) and 2252A(a)(5)(B) in 2012; 18 U.S.C. Sections 2252A(a)(5)(B) and 2252A(b)(2) in 2018. Neither conviction charges or alleges any physical contact with a child, any use of force, any weapon, or any attempt to arrange or solicit contact with a minor. The instant offense was detected when a supervising federal probation officer found an unauthorized smartphone during a routine home visit; Mr. Bernecky, after initially misstating whose phone it was, admitted it was his and admitted what it contained. A forensic review recovered roughly 200 images and 25 videos. The RAI's own scoring reflects the same reality the Board's narrative describes: every factor that would register violence, forcible compulsion, or physical contact with a victim is scored zero.
 
 Respondent disputes three statements the Case Summary attributes to him
 
-Three statements in this record are attributed to Mr. Bernecky. Respondent
-disputes that he made the first, disputes the label the Case Summary applies
-to the second, and disputes both the reliability and the present-day
-significance of the third.
+Three statements in this record are attributed to Mr. Bernecky. Respondent disputes that he made the first, disputes the label the Case Summary applies to the second, and disputes both the reliability and the present-day significance of the third.
 
-The 2010 statement Mr. Bernecky disputes making. The Case Summary reports
-that, in a 2010 interview, Mr. Bernecky said he "used a desktop recorder to
-record children he viewed on webcam engaging in sexual acts," and separately
-said that if he "did not have something to look at (child pornography), he
-might be tempted to do something (have sexual contact with an actual
-child)." Mr. Bernecky disputes making this statement. Neither sentence
-appears, in any form, in the government's Supplemental Sentencing Statement
-(Ex. A) or in any other federal filing available to Respondent; the only
-source anywhere in this record for either sentence is the Board's own
-paraphrase of what it understood a probation officer's report to say the
-interview contained - not a transcript, not a recording, not the interview
-itself. What Mr. Bernecky actually said in that 2010 interview cannot be
-determined from this record; only the interview recording or transcript,
-which the government has never produced here, could resolve it. Point I
-develops, as an independent and affirmative reason to credit that dispute,
-why the government's own charging decisions in both of Mr. Bernecky's
-federal cases are difficult to reconcile with this statement having been
-made as described.
+The 2010 statement Mr. Bernecky disputes making. The Case Summary reports that, in a 2010 interview, Mr. Bernecky said he "used a desktop recorder to record children he viewed on webcam engaging in sexual acts," and separately said that if he "did not have something to look at (child pornography), he might be tempted to do something (have sexual contact with an actual child)." Mr. Bernecky disputes making this statement. Neither sentence appears, in any form, in the government's Supplemental Sentencing Statement (Ex. A) or in any other federal filing available to Respondent; the only source anywhere in this record for either sentence is the Board's own paraphrase of what it understood a probation officer's report to say the interview contained - not a transcript, not a recording, not the interview itself. What Mr. Bernecky actually said in that 2010 interview cannot be determined from this record; only the interview recording or transcript, which the government has never produced here, could resolve it. Point I develops, as an independent and affirmative reason to credit that dispute, why the government's own charging decisions in both of Mr. Bernecky's federal cases are difficult to reconcile with this statement having been made as described.
 
-The 2017 disclosure the Case Summary mislabels "sexual contact." During a
-2017 polygraph-linked disclosure, per the Case Summary, Mr. Bernecky
-described what the document itself terms "sexual contact" with two
-individuals - a 9-year-old boy in 2005, when Mr. Bernecky was sixteen, and a
-12-year-old boy in 2007, when he was eighteen. The conduct the Case Summary
-actually describes is narrower than the label it gives that conduct: on a
-day-camp bus, the 9-year-old "tried to sit on his lap," and at an
-after-school program, the 12-year-old "sat down on his back" - ordinary,
-child-initiated contact during ordinary camp and after-school activity,
-which the Case Summary does not describe Mr. Bernecky as having done,
-arranged, or sought out. A child climbing onto an adult's lap or back during
-ordinary horseplay is not "sexual contact" in any sense that term ordinarily
-carries; the label belongs to the Case Summary, not to the conduct it
-describes. Neither incident resulted in any charge, arrest, or
-contemporaneous allegation of wrongdoing at the time. Both were disclosed by
-Mr. Bernecky himself, years later, to his own treatment providers, as part
-of his own treatment engagement - not detected, not reported by any parent,
-employer, or child. The RAI itself does not score either one: Factors 2, 3,
-and 7 are all zero. Point I separately addresses why this specific
-disclosure - made in the course of Mr. Bernecky's own sex-offender treatment
-and reaching this record through a privileged clinical file the Board has
-no lawful way to obtain or verify - sits at a link in the record's chain of
-custody the Board cannot independently check.
+The 2017 disclosure the Case Summary mislabels "sexual contact." During a 2017 polygraph-linked disclosure, per the Case Summary, Mr. Bernecky described what the document itself terms "sexual contact" with two individuals - a 9-year-old boy in 2005, when Mr. Bernecky was sixteen, and a 12-year-old boy in 2007, when he was eighteen. The conduct the Case Summary actually describes is narrower than the label it gives that conduct: on a day-camp bus, the 9-year-old "tried to sit on his lap," and at an after-school program, the 12-year-old "sat down on his back" - ordinary, child-initiated contact during ordinary camp and after-school activity, which the Case Summary does not describe Mr. Bernecky as having done, arranged, or sought out. A child climbing onto an adult's lap or back during ordinary horseplay is not "sexual contact" in any sense that term ordinarily carries; the label belongs to the Case Summary, not to the conduct it describes. Neither incident resulted in any charge, arrest, or contemporaneous allegation of wrongdoing at the time. Both were disclosed by Mr. Bernecky himself, years later, to his own treatment providers, as part of his own treatment engagement - not detected, not reported by any parent, employer, or child. The RAI itself does not score either one: Factors 2, 3, and 7 are all zero. Point I separately addresses why this specific disclosure - made in the course of Mr. Bernecky's own sex-offender treatment and reaching this record through a privileged clinical file the Board has no lawful way to obtain or verify - sits at a link in the record's chain of custody the Board cannot independently check.
 
-A related account, no more reliable than the others - and unrepeated for
-nineteen years. The government's 2012 filing also states that Mr. Bernecky,
-as a 17-year-old YMCA employee, "kids... would climb on him at the pool and
-he would get sexually aroused because they would rub on him." Ex. A at 3.
-That sentence is not a quotation of Mr. Bernecky's own words - it appears
-without quotation marks, and the government's own filing sources it to "PSR
-at 70," the identical presentence report Point I already argues cannot be
-trusted as a source of fact in this proceeding. The government's filing is
-not an independent witness to what Mr. Bernecky said; it is a second
-paraphrase of that same document - one layer removed from the Case
-Summary's own paraphrase, not a firmer or independently verified source than
-it. Mr. Bernecky's own defense sentencing memorandum in the same case (Ex.
-E), filed by his own counsel the same month, addresses his background, his
-own disclosed history of childhood sexual abuse, and his treatment record in
-detail across eleven pages - and says nothing about this topic anywhere in
-it. That silence resolves nothing on its own, but it belongs before this
-Court rather than left unmentioned. Even accepting the account exactly as
-the government's filing describes it, no comparable incident, statement, or
-allegation of any kind appears anywhere in this record from any point after
-2007 - nineteen years, spanning both of Mr. Bernecky's convictions and his
-current supervision. Section 168-l(6) asks whether Mr. Bernecky presents a
-threat to public safety now, not whether something like this occurred once,
-nearly two decades ago, and was never repeated. See Point II.B, below. This
-account also does not obviously reconcile with the Case Summary's later,
-more specific 2017 account - two named individuals, two dated incidents, a
-camp bus and an after-school program, no pool. No document available to
-Respondent resolves whether the two accounts describe the same conduct,
-recalled with different specificity years apart, or something else.
-Respondent does not ask this Court to resolve that question in his favor. He
-asks the Court to notice that the question exists, against a Case Summary
-that presents its own account with no such uncertainty at all.
+A related account, no more reliable than the others - and unrepeated for nineteen years. The government's 2012 filing also states that Mr. Bernecky, as a 17-year-old YMCA employee, "kids... would climb on him at the pool and he would get sexually aroused because they would rub on him." Ex. A at 3. That sentence is not a quotation of Mr. Bernecky's own words - it appears without quotation marks, and the government's own filing sources it to "PSR at 70," the identical presentence report Point I already argues cannot be trusted as a source of fact in this proceeding. The government's filing is not an independent witness to what Mr. Bernecky said; it is a second paraphrase of that same document - one layer removed from the Case Summary's own paraphrase, not a firmer or independently verified source than it. Mr. Bernecky's own defense sentencing memorandum in the same case (Ex. E), filed by his own counsel the same month, addresses his background, his own disclosed history of childhood sexual abuse, and his treatment record in detail across eleven pages - and says nothing about this topic anywhere in it. That silence resolves nothing on its own, but it belongs before this Court rather than left unmentioned. Even accepting the account exactly as the government's filing describes it, no comparable incident, statement, or allegation of any kind appears anywhere in this record from any point after 2007 - nineteen years, spanning both of Mr. Bernecky's convictions and his current supervision. Section 168-l(6) asks whether Mr. Bernecky presents a threat to public safety now, not whether something like this occurred once, nearly two decades ago, and was never repeated. See Point II.B, below. This account also does not obviously reconcile with the Case Summary's later, more specific 2017 account - two named individuals, two dated incidents, a camp bus and an after-school program, no pool. No document available to Respondent resolves whether the two accounts describe the same conduct, recalled with different specificity years apart, or something else. Respondent does not ask this Court to resolve that question in his favor. He asks the Court to notice that the question exists, against a Case Summary that presents its own account with no such uncertainty at all.
 
 Supervision, treatment, and the record Mr. Bernecky has built since
 
-Mr. Bernecky was, at the time of the instant offense, actively engaged in
-sex-offender treatment - weekly group and monthly individual sessions - and
-remained in that treatment through the period the Board's own Case Summary
-describes. A 2017 sexual-history polygraph examination, following the
-disclosure described above, showed no deception, and his treating counselor
-reported that he "took accountability for his actions and showed insight
-into his offending behavior, his arousal to children, and the risks
-associated to the possibility of reoffending." Contemporaneous treatment
-notes from mid-to-late 2017 describe decreasing deviant fantasies and
-decreasing masturbation, and identify stress, not any renewed interest in
-child pornography, as his primary reported trigger.
+Mr. Bernecky was, at the time of the instant offense, actively engaged in sex-offender treatment - weekly group and monthly individual sessions - and remained in that treatment through the period the Board's own Case Summary describes. A 2017 sexual-history polygraph examination, following the disclosure described above, showed no deception, and his treating counselor reported that he "took accountability for his actions and showed insight into his offending behavior, his arousal to children, and the risks associated to the possibility of reoffending." Contemporaneous treatment notes from mid-to-late 2017 describe decreasing deviant fantasies and decreasing masturbation, and identify stress, not any renewed interest in child pornography, as his primary reported trigger.
 
-Mr. Bernecky has been on federal supervised release since his release from
-federal custody on July 31, 2026, and is currently serving a ten-year term
-of that supervision. He remains subject to ongoing probation supervision,
-mandated sex-offender treatment, and comprehensive computer and internet
-monitoring administered through the federal Computer and Internet Monitoring
-Program, under which the United States Probation Office is authorized to
-install monitoring software on any device he uses and to be notified of any
-impermissible or suspicious activity. The conditions the sentencing court
-imposed reflect the seriousness with which federal supervision treats Mr.
-Bernecky's history; they are not nominal, and Mr. Bernecky will remain under
-this same close federal supervision, in the community, for at least a
-decade from his release date.
+Mr. Bernecky has been on federal supervised release since his release from federal custody on July 31, 2026, and is currently serving a ten-year term of that supervision. He remains subject to ongoing probation supervision, mandated sex-offender treatment, and comprehensive computer and internet monitoring administered through the federal Computer and Internet Monitoring Program, under which the United States Probation Office is authorized to install monitoring software on any device he uses and to be notified of any impermissible or suspicious activity. The conditions the sentencing court imposed reflect the seriousness with which federal supervision treats Mr. Bernecky's history; they are not nominal, and Mr. Bernecky will remain under this same close federal supervision, in the community, for at least a decade from his release date.
 
 The federal record contradicts the Board's own Case Summary
 
-The Board's Case Summary is not a copy of the federal presentence report. It
-is the Board's own narrative, built from the Board's own reading of a
-document the Board never attaches, never quotes with a page citation, and
-never identifies with any pinpoint reference anywhere in its four pages. The
-federal court record itself - including the government's own contemporaneous
-filings - shows that narrative to be, in material respects, inexact, and in
-at least one respect internally impossible on its face.
+The Board's Case Summary is not a copy of the federal presentence report. It is the Board's own narrative, built from the Board's own reading of a document the Board never attaches, never quotes with a page citation, and never identifies with any pinpoint reference anywhere in its four pages. The federal court record itself - including the government's own contemporaneous filings - shows that narrative to be, in material respects, inexact, and in at least one respect internally impossible on its face.
 
-The Case Summary reports that Mr. Bernecky, in a 2010 interview, "stated
-that he could not help what he was doing, and he wished he could change
-it." No document in the federal record uses that phrasing. The government's
-own Supplemental Sentencing Statement (Ex. A) quotes Mr. Bernecky's actual
-words, in quotation marks, from the same interview: he "can't help it. I
-wish I could change it." Ex. A at 3. He separately stated, in the same
-interview, that he "tried to slow down" but "can't stop" - a second,
-distinct admission the Case Summary's single paraphrased sentence does not
-capture at all. Id.
+The Case Summary reports that Mr. Bernecky, in a 2010 interview, "stated that he could not help what he was doing, and he wished he could change it." No document in the federal record uses that phrasing. The government's own Supplemental Sentencing Statement (Ex. A) quotes Mr. Bernecky's actual words, in quotation marks, from the same interview: he "can't help it. I wish I could change it." Ex. A at 3. He separately stated, in the same interview, that he "tried to slow down" but "can't stop" - a second, distinct admission the Case Summary's single paraphrased sentence does not capture at all. Id.
 
-The Case Summary states that Mr. Bernecky, in the 2012 offense, "shared over
-62,000 files." That same Supplemental Sentencing Statement - the
-government's own contemporaneous filing, and the closest document of record
-to whatever the Case Summary means by "the PSR" on this point - states he
-was "sharing over 6,200 files." Ex. A at 3. The discrepancy is not a
-rounding difference. It is a full order of magnitude.
+The Case Summary states that Mr. Bernecky, in the 2012 offense, "shared over 62,000 files." That same Supplemental Sentencing Statement - the government's own contemporaneous filing, and the closest document of record to whatever the Case Summary means by "the PSR" on this point - states he was "sharing over 6,200 files." Ex. A at 3. The discrepancy is not a rounding difference. It is a full order of magnitude.
 
-The Case Summary attributes its description of the 2017 polygraph-linked
-disclosure - two specific, dated incidents, at a camp bus and an
-after-school program, involving two named ages - to paragraphs of "the
-revised PSR." The record shows that Mr. Bernecky's own counsel specifically
-objected, in an Amended Sentencing Statement (Ex. B), to those exact
-paragraphs - Paragraphs 79 through 81 of the revised PSR - as irrelevant and
-prejudicial, and asked that they be stricken. Ex. B at 2. No document of
-record shows whether the sentencing court ever ruled on that objection,
-ruled it unnecessary because it would not affect sentencing, or simply
-never reached it - a silence Federal Rule of Criminal Procedure 32(i)(3)(B)
-expressly permits, as discussed below. The absence of any further objection
-elsewhere in the 2018 case's record is not a concession that the rest of the
-PSR is accurate. That case proceeded on a Rule 11(c)(1)(C) plea agreement
-for a stipulated sentence of 120 months - the statutory mandatory minimum
-for a repeat offense under 18 U.S.C. Section 2252A(b)(2) - meaning the
-sentence itself was fixed by agreement regardless of the outcome of any
-objection to the PSR's content. Ex. C at 2. There was no incentive to
-litigate disputed PSR passages that could not change a sentence already
-agreed to in advance; counsel's silence as to any particular passage
-reflects that reality at least as plausibly as it reflects agreement that
-the passage is accurate.
+The Case Summary attributes its description of the 2017 polygraph-linked disclosure - two specific, dated incidents, at a camp bus and an after-school program, involving two named ages - to paragraphs of "the revised PSR." The record shows that Mr. Bernecky's own counsel specifically objected, in an Amended Sentencing Statement (Ex. B), to those exact paragraphs - Paragraphs 79 through 81 of the revised PSR - as irrelevant and prejudicial, and asked that they be stricken. Ex. B at 2. No document of record shows whether the sentencing court ever ruled on that objection, ruled it unnecessary because it would not affect sentencing, or simply never reached it - a silence Federal Rule of Criminal Procedure 32(i)(3)(B) expressly permits, as discussed below. The absence of any further objection elsewhere in the 2018 case's record is not a concession that the rest of the PSR is accurate. That case proceeded on a Rule 11(c)(1)(C) plea agreement for a stipulated sentence of 120 months - the statutory mandatory minimum for a repeat offense under 18 U.S.C. Section 2252A(b)(2) - meaning the sentence itself was fixed by agreement regardless of the outcome of any objection to the PSR's content. Ex. C at 2. There was no incentive to litigate disputed PSR passages that could not change a sentence already agreed to in advance; counsel's silence as to any particular passage reflects that reality at least as plausibly as it reflects agreement that the passage is accurate.
 
-The Case Summary further states that the instant offense - which the record
-elsewhere places in December 2017, with charging documents filed in 2018 -
-is described by, among other sources, "the Federal Presentence Investigation
-Report (PSR) revised on April 26, 2011." The Case Summary offers no
-explanation for how a report revised in April 2011 could describe an
-offense that had not yet occurred, and the federal record confirms no PSR of
-any kind was even issued in either of Mr. Bernecky's two federal cases until
-November 2011 at the earliest. Ex. A at 1.
+The Case Summary further states that the instant offense - which the record elsewhere places in December 2017, with charging documents filed in 2018 - is described by, among other sources, "the Federal Presentence Investigation Report (PSR) revised on April 26, 2011." The Case Summary offers no explanation for how a report revised in April 2011 could describe an offense that had not yet occurred, and the federal record confirms no PSR of any kind was even issued in either of Mr. Bernecky's two federal cases until November 2011 at the earliest. Ex. A at 1.
 
-This is what happens, demonstrably, when a document built for one court's
-sentencing purpose is read once, summarized once, and summarized again for a
-purpose it was never built to serve. A record assembled that way cannot
-carry the clear-and-convincing burden the Board's recommendation depends on.
+This is what happens, demonstrably, when a document built for one court's sentencing purpose is read once, summarized once, and summarized again for a purpose it was never built to serve. A record assembled that way cannot carry the clear-and-convincing burden the Board's recommendation depends on.
 
 ------------------------------------------------------------
 
@@ -306,537 +82,81 @@ ARGUMENT
 
 POINT I
 
-THE BOARD'S RECOMMENDATION RESTS ON A FEDERAL PRESENTENCE REPORT THAT THIS
-RECORD SHOWS TO BE AN UNRELIABLE SOURCE OF FACT
+THE BOARD'S RECOMMENDATION RESTS ON A FEDERAL PRESENTENCE REPORT THAT THIS RECORD SHOWS TO BE AN UNRELIABLE SOURCE OF FACT
 
-A federal presentence report is built to help one judge sentence one
-defendant in one federal proceeding. It is not built, and Congress never
-intended it, to serve as a source of adjudicated fact for a different court,
-in a different proceeding, applying a different and higher standard of
-proof, years later. That distinction is not academic here. It is the entire
-reason the Board's Case Summary - three layers removed from the underlying
-investigative record, containing at least the specific, checkable
-inaccuracies described above - cannot carry the clear-and-convincing burden
-Correction Law Section 168-n(3) places on the People.
+A federal presentence report is built to help one judge sentence one defendant in one federal proceeding. It is not built, and Congress never intended it, to serve as a source of adjudicated fact for a different court, in a different proceeding, applying a different and higher standard of proof, years later. That distinction is not academic here. It is the entire reason the Board's Case Summary - three layers removed from the underlying investigative record, containing at least the specific, checkable inaccuracies described above - cannot carry the clear-and-convincing burden Correction Law Section 168-n(3) places on the People.
 
-The rules that build a federal PSR permit exactly the kind of unreliability
-this record shows. No formal evidentiary limits govern what goes into a
-federal presentence report, and no statute or rule confines a probation
-officer to police or investigative reports; a PSR is free to draw as well on
-supervision notes, third-party statements, and any other source the
-governing rule and practice do not limit. As the Second Circuit has
-explained, "[n]o formal limitations inhibit the collection of information
-for such reports," and "[t]he reports frequently contain hearsay and
-information not relevant to the crime charged." United States v. Charmer
-Indus., Inc., 711 F.2d 1164, 1175-76 (2d Cir. 1983). "[T]he report may well
-contain hearsay statements that are not subject to cross-examination... or
-information bearing no relationship to the crime." Id. at 1171. This is not
-an oversight in how presentence reports are prepared; it is by design, and
-Federal Rule of Evidence 1101(d)(3) confirms it - the Rules of Evidence do
-not even apply to the sentencing proceeding a PSR is written for, let alone
-to a proceeding it was never written for at all.
+The rules that build a federal PSR permit exactly the kind of unreliability this record shows. No formal evidentiary limits govern what goes into a federal presentence report, and no statute or rule confines a probation officer to police or investigative reports; a PSR is free to draw as well on supervision notes, third-party statements, and any other source the governing rule and practice do not limit. As the Second Circuit has explained, "[n]o formal limitations inhibit the collection of information for such reports," and "[t]he reports frequently contain hearsay and information not relevant to the crime charged." United States v. Charmer Indus., Inc., 711 F.2d 1164, 1175-76 (2d Cir. 1983). "[T]he report may well contain hearsay statements that are not subject to cross-examination... or information bearing no relationship to the crime." Id. at 1171. This is not an oversight in how presentence reports are prepared; it is by design, and Federal Rule of Evidence 1101(d)(3) confirms it - the Rules of Evidence do not even apply to the sentencing proceeding a PSR is written for, let alone to a proceeding it was never written for at all.
 
-A defendant in Mr. Bernecky's position was never positioned, at any stage of
-these two cases, to check his own PSR against the record it claims to
-describe. Federal Rule of Criminal Procedure 32 requires disclosure of the
-presentence report to the defendant and defense counsel at least 35 days
-before sentencing, Fed. R. Crim. P. 32(e)(2) - but disclosure to counsel is
-not the same as the defendant personally holding or independently
-re-checking his own copy. Mr. Bernecky was released on conditions, not
-detained, through his 2012 sentencing in the first case. In the second case,
-he was taken into custody in December 2017, in connection with the
-violation and new charge that became that case, and remained detained
-through his June 2018 sentencing. During that pretrial detention, a
-defendant does not end up in personal possession of his own PSR for a
-practical reason, not a regulatory one: the Bureau of Prisons has no
-authority yet over a pretrial detainee held under a U.S. Marshals Service
-contract, typically in a local jail; it is defense counsel's own protective
-practice not to hand a client a personal copy, or let him privately possess
-one, in that setting - because what a PSR describes about him becoming
-known to other detainees can get him killed. Once sentencing was complete
-and Mr. Bernecky moved into actual Bureau of Prisons custody to serve his
-sentences, that same concern became a formal rule. The Bureau prohibits an
-inmate from retaining a copy of his own presentence report, precisely
-because, as the Bureau's own policy explains, other inmates pressure
-inmates for copies of exactly this kind of document, and inmates who
-produce or refuse to produce them "are threatened, assaulted, and/or seek
-protective custody." BOP Program Statement 1351.05, Release of Information,
-at 17 (Ex. D). The Bureau's rule does not create this safety concern; it
-confirms, from an official source, that the concern counsel already acted
-on pretrial was real. The practical result, at every stage, is the one
-Charmer itself anticipated, for a related reason: "there is no requirement
-that the defendant voice his objection to any statement with which he
-disagrees," and "in a significant number of cases, the defendant does not
-even request disclosure" of the report in the first place. Charmer, 711
-F.2d at 1175-76 (citing Fennell & Hall, Due Process at Sentencing: An
-Empirical and Legal Analysis of the Federal Reform, 93 Harv. L. Rev. 1615,
-1641 n.141 (1980)). Even where disclosure to counsel occurs exactly as the
-rule requires, a defendant in Mr. Bernecky's position never personally
-holds or independently re-checks the very document the Board now asks this
-Court to treat as established fact - a safety-driven barrier at every
-stage, not a failure of diligence on his part.
+A defendant in Mr. Bernecky's position was never positioned, at any stage of these two cases, to check his own PSR against the record it claims to describe. Federal Rule of Criminal Procedure 32 requires disclosure of the presentence report to the defendant and defense counsel at least 35 days before sentencing, Fed. R. Crim. P. 32(e)(2) - but disclosure to counsel is not the same as the defendant personally holding or independently re-checking his own copy. Mr. Bernecky was released on conditions, not detained, through his 2012 sentencing in the first case. In the second case, he was taken into custody in December 2017, in connection with the violation and new charge that became that case, and remained detained through his June 2018 sentencing. During that pretrial detention, a defendant does not end up in personal possession of his own PSR for a practical reason, not a regulatory one: the Bureau of Prisons has no authority yet over a pretrial detainee held under a U.S. Marshals Service contract, typically in a local jail; it is defense counsel's own protective practice not to hand a client a personal copy, or let him privately possess one, in that setting - because what a PSR describes about him becoming known to other detainees can get him killed. Once sentencing was complete and Mr. Bernecky moved into actual Bureau of Prisons custody to serve his sentences, that same concern became a formal rule. The Bureau prohibits an inmate from retaining a copy of his own presentence report, precisely because, as the Bureau's own policy explains, other inmates pressure inmates for copies of exactly this kind of document, and inmates who produce or refuse to produce them "are threatened, assaulted, and/or seek protective custody." BOP Program Statement 1351.05, Release of Information, at 17 (Ex. D). The Bureau's rule does not create this safety concern; it confirms, from an official source, that the concern counsel already acted on pretrial was real. The practical result, at every stage, is the one Charmer itself anticipated, for a related reason: "there is no requirement that the defendant voice his objection to any statement with which he disagrees," and "in a significant number of cases, the defendant does not even request disclosure" of the report in the first place. Charmer, 711 F.2d at 1175-76 (citing Fennell & Hall, Due Process at Sentencing: An Empirical and Legal Analysis of the Federal Reform, 93 Harv. L. Rev. 1615, 1641 n.141 (1980)). Even where disclosure to counsel occurs exactly as the rule requires, a defendant in Mr. Bernecky's position never personally holds or independently re-checks the very document the Board now asks this Court to treat as established fact - a safety-driven barrier at every stage, not a failure of diligence on his part.
 
-Nor does a sentencing court's silence mean a disputed fact was ever proven.
-Rule 32(i)(3)(B) permits a federal sentencing court, confronted with a
-disputed portion of the presentence report, to decline to rule on it
-entirely - to "determine that a ruling is unnecessary either because the
-matter will not affect sentencing, or because the court will not consider
-the matter in sentencing." Fed. R. Crim. P. 32(i)(3)(B). And even where a
-defendant's challenge to a specific PSR statement succeeds, that "does not
-mean the statement is expunged from the report" - it "nevertheless remains
-in the report," available to be read, years later, exactly as if it had
-never been challenged at all. Charmer, 711 F.2d at 1175-76. A federal
-presentence report, in other words, is a document that can contain
-unproven, uncontested, unresolved hearsay by design - and Correction Law
-Section 168-n(3) requires the People to prove Respondent's classification by
-clear and convincing evidence, not to reproduce a document that was never
-held to any evidentiary standard at all.
+Nor does a sentencing court's silence mean a disputed fact was ever proven. Rule 32(i)(3)(B) permits a federal sentencing court, confronted with a disputed portion of the presentence report, to decline to rule on it entirely - to "determine that a ruling is unnecessary either because the matter will not affect sentencing, or because the court will not consider the matter in sentencing." Fed. R. Crim. P. 32(i)(3)(B). And even where a defendant's challenge to a specific PSR statement succeeds, that "does not mean the statement is expunged from the report" - it "nevertheless remains in the report," available to be read, years later, exactly as if it had never been challenged at all. Charmer, 711 F.2d at 1175-76. A federal presentence report, in other words, is a document that can contain unproven, uncontested, unresolved hearsay by design - and Correction Law Section 168-n(3) requires the People to prove Respondent's classification by clear and convincing evidence, not to reproduce a document that was never held to any evidentiary standard at all.
 
-That gap in standards is not rhetorical. The Second Circuit has repeatedly
-confirmed that disputed sentencing facts are found, at most, by a
-preponderance of the evidence. See United States v. Vaughn, 430 F.3d 518
-(2d Cir. 2005); United States v. Garcia, 413 F.3d 201 (2d Cir. 2005). For
-the portions of a presentence report a defendant never disputes at all, the
-ordinary federal practice is starker still: the sentencing court "may
-accept" an undisputed portion "as a finding of fact," Fed. R. Crim. P.
-32(i)(3)(A), without any evidentiary showing preceding that acceptance. An
-undisputed PSR fact, in the ordinary case, is not a fact the government
-proved and the defendant failed to rebut - it is a fact nobody was ever
-required to prove at all. A federal presentence report can therefore stand
-behind facts proven, at best, by a preponderance, and, in a meaningful
-share of cases, by nothing whatsoever. Correction Law Section 168-n(3)
-requires more. It requires clear and convincing evidence - the same
-rigorous standard this Court will apply at Respondent's own hearing. A
-document built at a lower standard, or at no standard at all, cannot
-without more satisfy a higher one simply because it arrives wrapped in the
-Board's own paraphrase.
+That gap in standards is not rhetorical. The Second Circuit has repeatedly confirmed that disputed sentencing facts are found, at most, by a preponderance of the evidence. See United States v. Vaughn, 430 F.3d 518 (2d Cir. 2005); United States v. Garcia, 413 F.3d 201 (2d Cir. 2005). For the portions of a presentence report a defendant never disputes at all, the ordinary federal practice is starker still: the sentencing court "may accept" an undisputed portion "as a finding of fact," Fed. R. Crim. P. 32(i)(3)(A), without any evidentiary showing preceding that acceptance. An undisputed PSR fact, in the ordinary case, is not a fact the government proved and the defendant failed to rebut - it is a fact nobody was ever required to prove at all. A federal presentence report can therefore stand behind facts proven, at best, by a preponderance, and, in a meaningful share of cases, by nothing whatsoever. Correction Law Section 168-n(3) requires more. It requires clear and convincing evidence - the same rigorous standard this Court will apply at Respondent's own hearing. A document built at a lower standard, or at no standard at all, cannot without more satisfy a higher one simply because it arrives wrapped in the Board's own paraphrase.
 
-This is not the New York State case-summary practice Mingo excused from
-foundation. Reliable hearsay is admissible at a SORA hearing if, "based on
-the circumstances surrounding the development of the proof, a reasonable
-person would deem it trustworthy." People v. Mingo, 12 N.Y.3d 563 (2009).
-Mingo itself excuses ordinary New York State case summaries and presentence
-reports from any separate foundation showing precisely because "such
-documents are created under statutory mandates and their origins and
-function are well-known to SORA courts." That rationale describes New York
-State probation officers preparing New York State presentence reports,
-under New York State procedures, for New York State sentencing judges - the
-very process a Monroe County court sees case after case and knows how to
-evaluate. It does not describe a federal presentence report, prepared by
-federal probation officers under an entirely different statutory scheme,
-for a federal sentencing judge, applying federal Sentencing Guidelines
-conventions this Court does not administer in the ordinary course, and then
-filtered a third time through the Board's own further paraphrase before it
-ever reaches this record. Nothing about that compound structure - a Board
-summary, of a federal probation officer's summary, of an investigative
-record - is "well-known" to this Court in the way Mingo's excusal
-contemplates. And unlike the ordinary case summaries Mingo addressed, the
-Board's Case Summary here contains no pinpoint citation to any PSR page
-anywhere in its four pages - nothing that would let this Court, or
-Respondent, check the Board's paraphrase against its source even if the
-source were available. The specific inaccuracies detailed in the Statement
-of Facts above are not theoretical risks of that structure. They are what
-that structure has already produced.
+This is not the New York State case-summary practice Mingo excused from foundation. Reliable hearsay is admissible at a SORA hearing if, "based on the circumstances surrounding the development of the proof, a reasonable person would deem it trustworthy." People v. Mingo, 12 N.Y.3d 563 (2009). Mingo itself excuses ordinary New York State case summaries and presentence reports from any separate foundation showing precisely because "such documents are created under statutory mandates and their origins and function are well-known to SORA courts." That rationale describes New York State probation officers preparing New York State presentence reports, under New York State procedures, for New York State sentencing judges - the very process a Monroe County court sees case after case and knows how to evaluate. It does not describe a federal presentence report, prepared by federal probation officers under an entirely different statutory scheme, for a federal sentencing judge, applying federal Sentencing Guidelines conventions this Court does not administer in the ordinary course, and then filtered a third time through the Board's own further paraphrase before it ever reaches this record. Nothing about that compound structure - a Board summary, of a federal probation officer's summary, of an investigative record - is "well-known" to this Court in the way Mingo's excusal contemplates. And unlike the ordinary case summaries Mingo addressed, the Board's Case Summary here contains no pinpoint citation to any PSR page anywhere in its four pages - nothing that would let this Court, or Respondent, check the Board's paraphrase against its source even if the source were available. The specific inaccuracies detailed in the Statement of Facts above are not theoretical risks of that structure. They are what that structure has already produced.
 
-The record already shows what that structure produces, in a form that can
-be independently checked. The Case Summary attributes to Mr. Bernecky a
-statement that, if actually made, would describe conduct - recording
-children on webcam engaging in sexual acts - chargeable as production of
-child pornography under 18 U.S.C. Section 2251(a), carrying a mandatory
-minimum of fifteen years' imprisonment, and twenty-five years given a prior
-child-pornography conviction. Id. Section 2251(e). Mr. Bernecky disputes
-making that statement. The government's own charging decisions supply an
-independent, checkable reason to credit that dispute: prosecutors do not
-extend a plea to mere possession, in either of Mr. Bernecky's two federal
-cases, while holding an admission that would support a production charge
-carrying that kind of mandatory minimum. No production charge was ever
-filed against Mr. Bernecky, in 2012 or in 2018. That silence does not
-conclusively prove the attributed statement is inaccurate - Respondent has
-not obtained the underlying interview recording or transcript, and states
-that limitation candidly rather than overclaim it - but it is real,
-record-grounded evidence pointing the same direction as Mr. Bernecky's own
-denial, and it is exactly the kind of risk the distinction above warns of:
-a statement passed through the Board's paraphrase of a probation officer's
-own characterization of an unrecorded, unproduced interview, attributed to
-Respondent without a single word of it ever independently checked against
-its actual source.
+The record already shows what that structure produces, in a form that can be independently checked. The Case Summary attributes to Mr. Bernecky a statement that, if actually made, would describe conduct - recording children on webcam engaging in sexual acts - chargeable as production of child pornography under 18 U.S.C. Section 2251(a), carrying a mandatory minimum of fifteen years' imprisonment, and twenty-five years given a prior child-pornography conviction. Id. Section 2251(e). Mr. Bernecky disputes making that statement. The government's own charging decisions supply an independent, checkable reason to credit that dispute: prosecutors do not extend a plea to mere possession, in either of Mr. Bernecky's two federal cases, while holding an admission that would support a production charge carrying that kind of mandatory minimum. No production charge was ever filed against Mr. Bernecky, in 2012 or in 2018. That silence does not conclusively prove the attributed statement is inaccurate - Respondent has not obtained the underlying interview recording or transcript, and states that limitation candidly rather than overclaim it - but it is real, record-grounded evidence pointing the same direction as Mr. Bernecky's own denial, and it is exactly the kind of risk the distinction above warns of: a statement passed through the Board's paraphrase of a probation officer's own characterization of an unrecorded, unproduced interview, attributed to Respondent without a single word of it ever independently checked against its actual source.
 
-The Board has no lawful way to verify one link in this record's chain of
-custody. The Case Summary's account of the 2005 and 2007 incidents traces
-back to a disclosure Mr. Bernecky made in the course of his own
-sex-offender treatment, to his own licensed clinical social worker, in a
-treatment-program polygraph setting, for a treatment purpose. That
-clinician's records are protected by New York State's social-worker
-privilege, CPLR 4508 - a privilege that belongs to Mr. Bernecky, not to the
-treatment provider, the Board, or the People, and that only Mr. Bernecky can
-waive. Whatever authorization Mr. Bernecky gave his treatment provider to
-speak with his federal supervising officer was given for that purpose,
-supervision compliance, not for use in a New York State SORA proceeding
-years later, and nothing in this record shows he has ever authorized
-disclosure of his treatment communications for that different purpose. The
-material nonetheless reached a federal probation officer who was not the
-clinician Mr. Bernecky spoke to, who wrote it into a presentence report for
-a different case, years later, which the Board then paraphrased into the
-Case Summary now before this Court. Respondent flags this candidly as an
-argument this Court would be among the first to consider, not settled law -
-no reported SORA decision has yet addressed a treatment-privilege objection
-of this kind, and the scope of any waiver Mr. Bernecky gave his federal
-supervising officer is a genuinely open question this record does not
-resolve. But the structural point holds regardless of how that open
-question is answered: the Board has no lawful access to the one record that
-could actually confirm or refute what the Case Summary says Mr. Bernecky
-told his treatment provider, because the privilege over that record belongs
-to Mr. Bernecky, and nothing in this record shows he has ever given it up
-for this purpose. Whether that ever changes is his choice to make - not an
-assumption the Board is entitled to make for him.
+The Board has no lawful way to verify one link in this record's chain of custody. The Case Summary's account of the 2005 and 2007 incidents traces back to a disclosure Mr. Bernecky made in the course of his own sex-offender treatment, to his own licensed clinical social worker, in a treatment-program polygraph setting, for a treatment purpose. That clinician's records are protected by New York State's social-worker privilege, CPLR 4508 - a privilege that belongs to Mr. Bernecky, not to the treatment provider, the Board, or the People, and that only Mr. Bernecky can waive. Whatever authorization Mr. Bernecky gave his treatment provider to speak with his federal supervising officer was given for that purpose, supervision compliance, not for use in a New York State SORA proceeding years later, and nothing in this record shows he has ever authorized disclosure of his treatment communications for that different purpose. The material nonetheless reached a federal probation officer who was not the clinician Mr. Bernecky spoke to, who wrote it into a presentence report for a different case, years later, which the Board then paraphrased into the Case Summary now before this Court. Respondent flags this candidly as an argument this Court would be among the first to consider, not settled law - no reported SORA decision has yet addressed a treatment-privilege objection of this kind, and the scope of any waiver Mr. Bernecky gave his federal supervising officer is a genuinely open question this record does not resolve. But the structural point holds regardless of how that open question is answered: the Board has no lawful access to the one record that could actually confirm or refute what the Case Summary says Mr. Bernecky told his treatment provider, because the privilege over that record belongs to Mr. Bernecky, and nothing in this record shows he has ever given it up for this purpose. Whether that ever changes is his choice to make - not an assumption the Board is entitled to make for him.
 
-The relief this requires is narrow, and it is one Mingo already authorizes.
-Respondent does not ask this Court to import a criminal trial into a civil
-proceeding, and does not ask for anything the Court of Appeals has already
-held due process does not demand. See People v. Watts, 2024 NY Slip Op
-00926 (Ct. App.) (existing SORA safeguards - notice, counsel, disclosure,
-and an opportunity to object and present evidence - adequately balance the
-interests at stake). Respondent asks only what Mingo itself already
-provides: where a specific hearsay assertion is challenged, the proponent
-must establish its reliability "either through a pre-hearing affirmation,
-an offer of proof, or by testimony from a witness with knowledge of the
-internal procedures." Mingo, 12 N.Y.3d at 573-74. As to each of the
-specific, unattributed conclusions identified above - the "compelling
-evidence... not captured by scoring alone" sentence, the "inability to
-manage his sexual urges" characterization drawn from a document that does
-not address Override 1 at all, the disputed 2010 statement, the mislabeled
-2017 disclosure, and the specific factual assertions this record now shows
-do not match their own claimed federal source (Ex. A; Ex. B) - Respondent
-respectfully requests that the Court require the People to establish that
-foundation before giving those assertions the weight the Board's
-recommendation depends on, and Respondent objects, and preserves that
-objection, to any reliance on them absent such a showing.
+The relief this requires is narrow, and it is one Mingo already authorizes. Respondent does not ask this Court to import a criminal trial into a civil proceeding, and does not ask for anything the Court of Appeals has already held due process does not demand. See People v. Watts, 2024 NY Slip Op 00926 (Ct. App.) (existing SORA safeguards - notice, counsel, disclosure, and an opportunity to object and present evidence - adequately balance the interests at stake). Respondent asks only what Mingo itself already provides: where a specific hearsay assertion is challenged, the proponent must establish its reliability "either through a pre-hearing affirmation, an offer of proof, or by testimony from a witness with knowledge of the internal procedures." Mingo, 12 N.Y.3d at 573-74. As to each of the specific, unattributed conclusions identified above - the "compelling evidence... not captured by scoring alone" sentence, the "inability to manage his sexual urges" characterization drawn from a document that does not address Override 1 at all, the disputed 2010 statement, the mislabeled 2017 disclosure, and the specific factual assertions this record now shows do not match their own claimed federal source (Ex. A; Ex. B) - Respondent respectfully requests that the Court require the People to establish that foundation before giving those assertions the weight the Board's recommendation depends on, and Respondent objects, and preserves that objection, to any reliance on them absent such a showing.
 
 ------------------------------------------------------------
 
 POINT II
 
-RESPONDENT SHOULD NOT BE CLASSIFIED A LEVEL THREE OFFENDER BECAUSE, ON THIS
-RECORD, OVERRIDE 1 PROVES ONLY THAT HE MIGHT REOFFEND - NOT THAT HE
-THREATENS PUBLIC SAFETY
+RESPONDENT SHOULD NOT BE CLASSIFIED A LEVEL THREE OFFENDER BECAUSE, ON THIS RECORD, OVERRIDE 1 PROVES ONLY THAT HE MIGHT REOFFEND - NOT THAT HE THREATENS PUBLIC SAFETY
 
-Override 1 answers one question: whether Mr. Bernecky might commit another
-offense. Correction Law Section 168-l(6) asks a second, independent
-question the Board never answered: whether he threatens public safety. The
-Board proved the first. It never even attempted the second.
+Override 1 answers one question: whether Mr. Bernecky might commit another offense. Correction Law Section 168-l(6) asks a second, independent question the Board never answered: whether he threatens public safety. The Board proved the first. It never even attempted the second.
 
-A. The statute requires proof of two separate things, and the Board has
-offered evidence of only one
+A. The statute requires proof of two separate things, and the Board has offered evidence of only one
 
-Correction Law Section 168-l(6) states the standard for a Level Three
-classification in conjunctive terms: a court may so classify an offender
-only "[i]f the risk of repeat offense is high and there exists a threat to
-the public safety." Section 168-l(5) directs the Board to develop
-guidelines assessing both of those things separately - "the risk of a
-repeat offense by such sex offender and the threat posed to the public
-safety." Two elements, joined by "and."
+Correction Law Section 168-l(6) states the standard for a Level Three classification in conjunctive terms: a court may so classify an offender only "[i]f the risk of repeat offense is high and there exists a threat to the public safety." Section 168-l(5) directs the Board to develop guidelines assessing both of those things separately - "the risk of a repeat offense by such sex offender and the threat posed to the public safety." Two elements, joined by "and."
 
-Intuitively, the two can sound like the same question asked twice: if he is
-likely to do it again, isn't that itself the danger? It is not, and the
-difference is not a technicality. "Risk of repeat offense" asks how likely
-an offender is to engage again in the conduct that brought him to this
-proceeding. "Threat to public safety" asks something different: what
-happens to another person if he does. Those two questions come apart
-precisely where an offender's conduct, however likely to recur, has never
-once involved physical contact with anyone. A person can be genuinely
-likely to repeat a course of conduct society rightly condemns without that
-conduct, repeated, ever placing another person's body in danger. Mr.
-Bernecky's own record makes the distinction concrete rather than abstract:
-his conduct in both convictions was accessing images, alone, on a device.
-A high likelihood that he does that again is a real and serious finding.
-It is not, by itself, a finding that anyone is physically endangered by it.
-The RAI's own architecture already reflects this same distinction: it
-scores an offender's use of violence, forcible compulsion, and physical
-contact with a victim as questions entirely separate from his criminal
-history, because the Guidelines themselves treat "will he act again" and
-"is anyone in physical danger if he does" as different questions that can
-have different answers.
+Intuitively, the two can sound like the same question asked twice: if he is likely to do it again, isn't that itself the danger? It is not, and the difference is not a technicality. "Risk of repeat offense" asks how likely an offender is to engage again in the conduct that brought him to this proceeding. "Threat to public safety" asks something different: what happens to another person if he does. Those two questions come apart precisely where an offender's conduct, however likely to recur, has never once involved physical contact with anyone. A person can be genuinely likely to repeat a course of conduct society rightly condemns without that conduct, repeated, ever placing another person's body in danger. Mr. Bernecky's own record makes the distinction concrete rather than abstract: his conduct in both convictions was accessing images, alone, on a device. A high likelihood that he does that again is a real and serious finding. It is not, by itself, a finding that anyone is physically endangered by it. The RAI's own architecture already reflects this same distinction: it scores an offender's use of violence, forcible compulsion, and physical contact with a victim as questions entirely separate from his criminal history, because the Guidelines themselves treat "will he act again" and "is anyone in physical danger if he does" as different questions that can have different answers.
 
-That is an as-applied conclusion, not a claim about what a prior conviction
-can ever prove. An offender with a documented history of violence or
-contact offending - a prior conviction for rape, or for repeatedly
-molesting a child - presents a different case entirely: the same override
-could reasonably support both elements of Section 168-l(6) at once, and the
-showing needed to overcome that presumption would be correspondingly
-higher. That is not this case. Nothing in either of Mr. Bernecky's two
-convictions, or anywhere else in this record, involves violence, force, or
-contact with a child.
+That is an as-applied conclusion, not a claim about what a prior conviction can ever prove. An offender with a documented history of violence or contact offending - a prior conviction for rape, or for repeatedly molesting a child - presents a different case entirely: the same override could reasonably support both elements of Section 168-l(6) at once, and the showing needed to overcome that presumption would be correspondingly higher. That is not this case. Nothing in either of Mr. Bernecky's two convictions, or anywhere else in this record, involves violence, force, or contact with a child.
 
-The statute's text confirms the Legislature meant to ask both. Courts do
-not read statutory language to render any part of it superfluous - "[w]ords
-are not to be rejected as superfluous where it is practicable to give each
-a distinct and separate meaning." Leader v. Maroney, Ponzini & Spencer, 97
-N.Y.2d 95 (2001) (quoting Cohen v. Lord, Day & Lord, 75 N.Y.2d 95, 100
-(1990)). If "risk of repeat offense" and "threat to public safety" meant
-the same thing, the Legislature would have written one element, not two,
-and Level Two - which already requires proof that the risk of repeat
-offense is at least moderate - would carry the same practical consequences
-as Level Three. It does not. Level Three alone requires quarterly, in-person
-address verification with local law enforcement, Correction Law Section
-168-h - Level Two offenders verify in person only once every three years,
-Correction Law Section 168-f - and Level Three alone discloses the
-offender's place of employment to the public, Correction Law Section
-168-l(6)(c). The Legislature built two different tiers with two different
-consequences because it built two different findings.
+The statute's text confirms the Legislature meant to ask both. Courts do not read statutory language to render any part of it superfluous - "[w]ords are not to be rejected as superfluous where it is practicable to give each a distinct and separate meaning." Leader v. Maroney, Ponzini & Spencer, 97 N.Y.2d 95 (2001) (quoting Cohen v. Lord, Day & Lord, 75 N.Y.2d 95, 100 (1990)). If "risk of repeat offense" and "threat to public safety" meant the same thing, the Legislature would have written one element, not two, and Level Two - which already requires proof that the risk of repeat offense is at least moderate - would carry the same practical consequences as Level Three. It does not. Level Three alone requires quarterly, in-person address verification with local law enforcement, Correction Law Section 168-h - Level Two offenders verify in person only once every three years, Correction Law Section 168-f - and Level Three alone discloses the offender's place of employment to the public, Correction Law Section 168-l(6)(c). The Legislature built two different tiers with two different consequences because it built two different findings.
 
-Override 1 is not statutory text. It is the Board's own Guidelines
-mechanism, and its language asks only whether "the offender has a prior
-felony conviction for a sex crime" - nothing more. The Board's own
-explanation for why that single fact justifies a Level Three finding here
-is the sentence already quoted in the Statement of Facts: the prior
-conviction "automatically results in a presumptive Risk Level III, as this
-provides compelling evidence that he poses a serious risk to public
-safety." That sentence does not describe an independent public-safety
-finding. It describes the Board treating the very same fact that satisfies
-"risk of repeat offense" - the existence of a qualifying prior conviction -
-as if it also, automatically and without more, satisfied "threat to public
-safety." Nothing else in the Board's package speaks to the public-safety
-element specifically. No psychological or psychiatric evaluation appears
-anywhere in the record. No actuarial risk instrument beyond the RAI itself
-was administered. The single document the Case Summary cites for
-reinforcement - the Board's June 1, 2012 Position Statement - does not
-address Override 1 at all; on its own face, it addresses only the scoring
-of RAI Factors 3 and 7 in child-pornography cases and the entirely separate
-clinical override the Board has never invoked here. Respondent accepts that
-Override 1 correctly establishes the "risk of repeat offense" element on
-this record; his challenge is narrower, and precise: the Board has asked
-that same fact to do a second job - stand in, without any independent
-showing, for a finding Section 168-l(6) requires the Board to make on its
-own.
+Override 1 is not statutory text. It is the Board's own Guidelines mechanism, and its language asks only whether "the offender has a prior felony conviction for a sex crime" - nothing more. The Board's own explanation for why that single fact justifies a Level Three finding here is the sentence already quoted in the Statement of Facts: the prior conviction "automatically results in a presumptive Risk Level III, as this provides compelling evidence that he poses a serious risk to public safety." That sentence does not describe an independent public-safety finding. It describes the Board treating the very same fact that satisfies "risk of repeat offense" - the existence of a qualifying prior conviction - as if it also, automatically and without more, satisfied "threat to public safety." Nothing else in the Board's package speaks to the public-safety element specifically. No psychological or psychiatric evaluation appears anywhere in the record. No actuarial risk instrument beyond the RAI itself was administered. The single document the Case Summary cites for reinforcement - the Board's June 1, 2012 Position Statement - does not address Override 1 at all; on its own face, it addresses only the scoring of RAI Factors 3 and 7 in child-pornography cases and the entirely separate clinical override the Board has never invoked here. Respondent accepts that Override 1 correctly establishes the "risk of repeat offense" element on this record; his challenge is narrower, and precise: the Board has asked that same fact to do a second job - stand in, without any independent showing, for a finding Section 168-l(6) requires the Board to make on its own.
 
-B. Respondent's entire history is non-contact and digital - precisely the
-record Level Three's heightened measures were never shown to address
+B. Respondent's entire history is non-contact and digital - precisely the record Level Three's heightened measures were never shown to address
 
-Respondent does not dispute, and does not ask this Court to minimize, that
-his record gives real cause for concern that he may reoffend. He asks this
-Court to recognize what that record does not show: any indication, in
-either conviction, that he has ever posed or will ever pose a threat to
-anyone's physical safety. Both of Mr. Bernecky's convictions are passive,
-digital offenses - accessing and possessing images online. Neither involves
-force, a weapon, or any attempt to arrange contact with a child. That
-absence is not Respondent's characterization; it is the Board's own
-instrument, at zero, on every factor that measures it.
+Respondent does not dispute, and does not ask this Court to minimize, that his record gives real cause for concern that he may reoffend. He asks this Court to recognize what that record does not show: any indication, in either conviction, that he has ever posed or will ever pose a threat to anyone's physical safety. Both of Mr. Bernecky's convictions are passive, digital offenses - accessing and possessing images online. Neither involves force, a weapon, or any attempt to arrange contact with a child. That absence is not Respondent's characterization; it is the Board's own instrument, at zero, on every factor that measures it.
 
-The Court of Appeals has itself recognized that "the relationship between
-an offender's child pornography offenses and the likelihood he or she will
-commit hands-on offenses is uncertain due to the continuing development of
-scientific research." People v. Gillotti, 23 N.Y.3d 841, 858 (2014). The
-record before that same Court included expert testimony that
-child-pornography offenders who have not committed a hands-on offense have
-"only a 4% rate of committing such hands-on offenses in the future" - a
-rate the expert described as "considerably lower" than the rate for other
-offender categories. Id. at 849. And two judges of that Court, including
-the then-Chief Judge, went further still, writing that the classification
-apparatus' more intensive monitoring tiers were built with a different
-offender in mind entirely: "the vast majority of [child pornography
-consumers] should be classified at level one. The resources that go into
-the more intensive monitoring of level two and level three SORA registrants
-can be more usefully expended in keeping track of so-called 'contact
-offenders' - for example rapists, and abductors of children." Id. at 866
-(Smith, J., dissenting in part, joined by Lippman, Ch. J.). That is not the
-holding of Gillotti - the Gillotti majority itself held that "there is
-nothing inherent in child pornography offenses that convinces us to
-completely ignore the plain language of the guidelines," 23 N.Y.3d at 859,
-and rejected a categorical exemption for child-pornography offenders from
-ordinary point scoring. This Court need not adopt any categorical rule for
-child-pornography offenders - the Court of Appeals has already declined to
-adopt one. What it can do, as two of that Court's own judges already did,
-is weigh what Level Three's specific, heightened measures - quarterly
-public verification, employer disclosure - are actually calibrated to
-address, and ask whether this particular record shows Mr. Bernecky belongs
-in that category. It does not.
+The Court of Appeals has itself recognized that "the relationship between an offender's child pornography offenses and the likelihood he or she will commit hands-on offenses is uncertain due to the continuing development of scientific research." People v. Gillotti, 23 N.Y.3d 841, 858 (2014). The record before that same Court included expert testimony that child-pornography offenders who have not committed a hands-on offense have "only a 4% rate of committing such hands-on offenses in the future" - a rate the expert described as "considerably lower" than the rate for other offender categories. Id. at 849. And two judges of that Court, including the then-Chief Judge, went further still, writing that the classification apparatus' more intensive monitoring tiers were built with a different offender in mind entirely: "the vast majority of [child pornography consumers] should be classified at level one. The resources that go into the more intensive monitoring of level two and level three SORA registrants can be more usefully expended in keeping track of so-called 'contact offenders' - for example rapists, and abductors of children." Id. at 866 (Smith, J., dissenting in part, joined by Lippman, Ch. J.). That is not the holding of Gillotti - the Gillotti majority itself held that "there is nothing inherent in child pornography offenses that convinces us to completely ignore the plain language of the guidelines," 23 N.Y.3d at 859, and rejected a categorical exemption for child-pornography offenders from ordinary point scoring. This Court need not adopt any categorical rule for child-pornography offenders - the Court of Appeals has already declined to adopt one. What it can do, as two of that Court's own judges already did, is weigh what Level Three's specific, heightened measures - quarterly public verification, employer disclosure - are actually calibrated to address, and ask whether this particular record shows Mr. Bernecky belongs in that category. It does not.
 
-That gap between perceived and actual risk is not unique to two dissenting
-judges' own reading of the science. A 2022 empirical study of American
-adults' beliefs about child-pornography offenders - co-authored by a
-federal government researcher and published in a peer-reviewed journal -
-found that the public overestimates a child-pornography offender's risk of
-committing a future contact offense by roughly an order of magnitude: the
-public estimated that risk at 63%, where the actual, measured rate across
-the cited studies runs from approximately 3% to 4%. Steel, Newman,
-O'Rourke & Quayle, Public Perceptions of Child Pornography and Child
-Pornography Consumers, 51 Archives of Sexual Behavior 1173, 1180 (2022).
-New York State's own Risk Assessment Instrument does not escape that same
-gap: the Board's own June 1, 2012 Position Statement - the same document
-the Case Summary invokes against Mr. Bernecky - concedes that scoring every
-child-pornography offender identically under the instrument's ordinary
-factors "produces an unintended, anomalous result," because "the majority
-of offenders convicted of child pornography offenses will be scored the
-same when there are clearly vast differences amongst these types of
-offenders." A record built on an instrument the Board's own Position
-Statement admits routinely conflates a heterogeneous population is not the
-individualized showing Section 168-l(6) requires.
+That gap between perceived and actual risk is not unique to two dissenting judges' own reading of the science. A 2022 empirical study of American adults' beliefs about child-pornography offenders - co-authored by a federal government researcher and published in a peer-reviewed journal - found that the public overestimates a child-pornography offender's risk of committing a future contact offense by roughly an order of magnitude: the public estimated that risk at 63%, where the actual, measured rate across the cited studies runs from approximately 3% to 4%. Steel, Newman, O'Rourke & Quayle, Public Perceptions of Child Pornography and Child Pornography Consumers, 51 Archives of Sexual Behavior 1173, 1180 (2022). New York State's own Risk Assessment Instrument does not escape that same gap: the Board's own June 1, 2012 Position Statement - the same document the Case Summary invokes against Mr. Bernecky - concedes that scoring every child-pornography offender identically under the instrument's ordinary factors "produces an unintended, anomalous result," because "the majority of offenders convicted of child pornography offenses will be scored the same when there are clearly vast differences amongst these types of offenders." A record built on an instrument the Board's own Position Statement admits routinely conflates a heterogeneous population is not the individualized showing Section 168-l(6) requires.
 
-Then-Judge Sotomayor named this same error in a different area of law: "It
-is an inferential fallacy of ancient standing to conclude that, because
-members of group A are likely to be members of group B, then group B is
-entirely, or even largely composed of, members of group A." United States
-v. Falso, 544 F.3d 110 (2d Cir. 2008). Although Falso concerned the
-validity of a search warrant, the fallacy it names is applicable across
-legal issues. Some consumers of child pornography go on to commit contact
-offenses; it does not follow that a given consumer of child pornography -
-and certainly not this one, on this record - should be treated as though he
-already has or will. Section 168-l(6)'s "threat to public safety" is a
-present, forward-looking question, not a question about what an offender
-has already done; the fallacy Sotomayor names infects an inference about
-the future exactly as much as one about the past.
+Then-Judge Sotomayor named this same error in a different area of law: "It is an inferential fallacy of ancient standing to conclude that, because members of group A are likely to be members of group B, then group B is entirely, or even largely composed of, members of group A." United States v. Falso, 544 F.3d 110 (2d Cir. 2008). Although Falso concerned the validity of a search warrant, the fallacy it names is applicable across legal issues. Some consumers of child pornography go on to commit contact offenses; it does not follow that a given consumer of child pornography - and certainly not this one, on this record - should be treated as though he already has or will. Section 168-l(6)'s "threat to public safety" is a present, forward-looking question, not a question about what an offender has already done; the fallacy Sotomayor names infects an inference about the future exactly as much as one about the past.
 
-C. Even under a rebuttable presumption, Respondent has shown, by a
-preponderance, that he is not a threat to public safety
+C. Even under a rebuttable presumption, Respondent has shown, by a preponderance, that he is not a threat to public safety
 
-To the extent this Court concludes that Override 1 does reach the
-public-safety element, Correction Law Section 168-l(6) and Gillotti
-together supply Respondent a real avenue: a defendant may obtain a downward
-departure by identifying a factor of a kind, or to a degree, the Guidelines
-do not adequately account for, and proving the facts supporting it by a
-preponderance of the evidence - not clear and convincing evidence.
-Gillotti, 23 N.Y.3d 841. Respondent carries that burden here.
+To the extent this Court concludes that Override 1 does reach the public-safety element, Correction Law Section 168-l(6) and Gillotti together supply Respondent a real avenue: a defendant may obtain a downward departure by identifying a factor of a kind, or to a degree, the Guidelines do not adequately account for, and proving the facts supporting it by a preponderance of the evidence - not clear and convincing evidence. Gillotti, 23 N.Y.3d 841. Respondent carries that burden here.
 
-Mr. Bernecky is currently serving a ten-year term of federal supervised
-release, since his July 31, 2026 release, under conditions the sentencing
-court specifically calibrated to his history: continuous, comprehensive,
-privately-administered monitoring of his internet and computer activity
-through the federal Computer and Internet Monitoring Program, mandatory
-sex-offender treatment, and active probation oversight. He is, and will
-remain for at least a decade, under closer, more continuous supervision
-than any period covered by either of his two convictions. He has been,
-throughout the period documented in the Board's own Case Summary, actively
-and successfully engaged in sex-offender treatment - a 2017 polygraph
-examination showing no deception, a treating counselor's assessment that
-he "took accountability for his actions and showed insight into his
-offending behavior," and treatment notes describing declining deviant
-fantasies over the following months. The conditions imposed on him reflect
-the seriousness with which the federal courts already treat his history;
-they are not a formality, and they are the mechanism by which any future
-concern would be detected immediately, not years later.
+Mr. Bernecky is currently serving a ten-year term of federal supervised release, since his July 31, 2026 release, under conditions the sentencing court specifically calibrated to his history: continuous, comprehensive, privately-administered monitoring of his internet and computer activity through the federal Computer and Internet Monitoring Program, mandatory sex-offender treatment, and active probation oversight. He is, and will remain for at least a decade, under closer, more continuous supervision than any period covered by either of his two convictions. He has been, throughout the period documented in the Board's own Case Summary, actively and successfully engaged in sex-offender treatment - a 2017 polygraph examination showing no deception, a treating counselor's assessment that he "took accountability for his actions and showed insight into his offending behavior," and treatment notes describing declining deviant fantasies over the following months. The conditions imposed on him reflect the seriousness with which the federal courts already treat his history; they are not a formality, and they are the mechanism by which any future concern would be detected immediately, not years later.
 
-This record also contains one assertion that must be met directly, not
-left for the Board to press on reply: the Case Summary's account that, in
-2010, Mr. Bernecky told agents that without child pornography to view, he
-"might be tempted" to seek contact with a child. Mr. Bernecky disputes that
-he said this, for the reasons Point I develops in full - the government's
-own charging decisions, in both of his federal cases, are difficult to
-reconcile with an admission that would have supported a
-fifteen-to-twenty-five-year mandatory minimum production charge the
-government never brought. The Case Summary is not evidence the statement
-was made; it is the Board's own paraphrase of a document Respondent has
-never been permitted to see. Even assuming, solely for the sake of
-argument, that this record fairly reflects something said sixteen years ago
-by a 23-year-old who had not yet completed a single day of sex-offender
-treatment, Respondent has answered it since: seven years of sustained
-treatment specifically addressing his own arousal to children and "the
-risks associated to the possibility of reoffending," a 2017 polygraph
-examination showing no deception, and a treating counselor's own
-contemporaneous judgment that he had "took accountability for his actions
-and showed insight" into exactly that concern. Nothing in this record
-establishes that Mr. Bernecky presents no risk of viewing child pornography
-again. What it does establish is narrower, and different: no present or
-future risk that he will physically harm a child. To whatever extent this
-Court is not satisfied by either answer - the dispute over whether the
-statement was ever made, or the years of treatment that followed it -
-Respondent has a further, direct answer, addressed next.
+This record also contains one assertion that must be met directly, not left for the Board to press on reply: the Case Summary's account that, in 2010, Mr. Bernecky told agents that without child pornography to view, he "might be tempted" to seek contact with a child. Mr. Bernecky disputes that he said this, for the reasons Point I develops in full - the government's own charging decisions, in both of his federal cases, are difficult to reconcile with an admission that would have supported a fifteen-to-twenty-five-year mandatory minimum production charge the government never brought. The Case Summary is not evidence the statement was made; it is the Board's own paraphrase of a document Respondent has never been permitted to see. Even assuming, solely for the sake of argument, that this record fairly reflects something said sixteen years ago by a 23-year-old who had not yet completed a single day of sex-offender treatment, Respondent has answered it since: seven years of sustained treatment specifically addressing his own arousal to children and "the risks associated to the possibility of reoffending," a 2017 polygraph examination showing no deception, and a treating counselor's own contemporaneous judgment that he had "took accountability for his actions and showed insight" into exactly that concern. Nothing in this record establishes that Mr. Bernecky presents no risk of viewing child pornography again. What it does establish is narrower, and different: no present or future risk that he will physically harm a child. To whatever extent this Court is not satisfied by either answer - the dispute over whether the statement was ever made, or the years of treatment that followed it - Respondent has a further, direct answer, addressed next.
 
-D. A forensic evaluation - not speculation in either direction - is the
-proper way to resolve any remaining doubt
+D. A forensic evaluation - not speculation in either direction - is the proper way to resolve any remaining doubt
 
-Correction Law Article 6-C contains no mechanism by which Respondent can
-generate his own clinical evidence to answer the "threat to public safety"
-question the Board's record leaves open - not funded, not unfunded, not at
-all. That silence stands in sharp relief against the one New York State
-proceeding structurally closest to what a "threat to public safety" finding
-actually represents. Mental Hygiene Law Article 10 civil management
-requires a diagnosed clinical condition before any dangerousness finding
-may issue, and expressly forbids a factfinder from concluding dangerousness
-"solely on the basis of the respondent's commission of a sex offense." MHL
-Section 10.07(d). And Article 10 arms the very respondent SORA leaves
-without tools: "[i]f the respondent is financially unable to obtain an
-examiner, the court shall appoint an examiner of the respondent's choice to
-be paid within the limits prescribed by law." MHL Section 10.06(e). In the
-one place New York State has legislated how to prove - and how to contest -
-current sexual dangerousness by clear and convincing evidence, the
-respondent gets an examiner. Here, he gets nothing, unless this Court
-grants what County Law Section 722-c already authorizes: by its own text,
-that statute extends its expert-funding mechanism to "article six-c of the
-correction law" - SORA proceedings by name - and at least one Appellate
-Division panel has confirmed that "a defendant in a SORA proceeding may be
-entitled to the appointment of an expert upon a court's finding that expert
-services are necessary." People v. Linton, 94 A.D.3d 962, 962-63 (2d Dep't
-2012).
+Correction Law Article 6-C contains no mechanism by which Respondent can generate his own clinical evidence to answer the "threat to public safety" question the Board's record leaves open - not funded, not unfunded, not at all. That silence stands in sharp relief against the one New York State proceeding structurally closest to what a "threat to public safety" finding actually represents. Mental Hygiene Law Article 10 civil management requires a diagnosed clinical condition before any dangerousness finding may issue, and expressly forbids a factfinder from concluding dangerousness "solely on the basis of the respondent's commission of a sex offense." MHL Section 10.07(d). And Article 10 arms the very respondent SORA leaves without tools: "[i]f the respondent is financially unable to obtain an examiner, the court shall appoint an examiner of the respondent's choice to be paid within the limits prescribed by law." MHL Section 10.06(e). In the one place New York State has legislated how to prove - and how to contest - current sexual dangerousness by clear and convincing evidence, the respondent gets an examiner. Here, he gets nothing, unless this Court grants what County Law Section 722-c already authorizes: by its own text, that statute extends its expert-funding mechanism to "article six-c of the correction law" - SORA proceedings by name - and at least one Appellate Division panel has confirmed that "a defendant in a SORA proceeding may be entitled to the appointment of an expert upon a court's finding that expert services are necessary." People v. Linton, 94 A.D.3d 962, 962-63 (2d Dep't 2012).
 
-Respondent has moved separately for exactly that relief. This Court need
-not, and should not, decide this hearing on the theory that Mr. Bernecky's
-future dangerousness is unknowable. It is knowable, through the one
-mechanism designed to know it - and Respondent is the party asking for it.
-Put plainly: Respondent is not worried that Mr. Bernecky is going to
-disappear from supervision, and he is not worried that Mr. Bernecky is
-going to seek out and harm a child. But to whatever extent this Court is
-worried, that is precisely why Respondent has asked for a forensic
-evaluation - a conclusion only a forensic psychologist can actually reach,
-and the one piece of evidence this record currently lacks in either
-direction.
+Respondent has moved separately for exactly that relief. This Court need not, and should not, decide this hearing on the theory that Mr. Bernecky's future dangerousness is unknowable. It is knowable, through the one mechanism designed to know it - and Respondent is the party asking for it. Put plainly: Respondent is not worried that Mr. Bernecky is going to disappear from supervision, and he is not worried that Mr. Bernecky is going to seek out and harm a child. But to whatever extent this Court is worried, that is precisely why Respondent has asked for a forensic evaluation - a conclusion only a forensic psychologist can actually reach, and the one piece of evidence this record currently lacks in either direction.
 
-E. Denying Level Three now does not close this question forever -
-Correction Law Section 168-o gives the State a real remedy if real evidence
-of danger ever develops
+E. Denying Level Three now does not close this question forever - Correction Law Section 168-o gives the State a real remedy if real evidence of danger ever develops
 
-The conduct-specific conclusion Point II.A draws - that Override 1 supplies
-only the recidivism element on this particular record, see Point II.A,
-above - is not the last word on Mr. Bernecky either. A Level Two
-classification today is not a permanent judgment that Mr. Bernecky will
-never present a threat to public safety. Correction Law Section 168-o(3)
-gives the District Attorney a direct, statutory mechanism to seek an
-upward modification later, on real evidence: where an offender "has been
-convicted of a new crime" or has been found, after a proceeding under CPL
-Section 410.70 or Executive Law Section 259-i, to have "violated one or
-more conditions" of supervision, and where "the conduct underlying the new
-crime or the violation is of a nature that indicates an increased risk of
-a repeat sex offense," the District Attorney may petition to modify the
-level of notification upward - proved, again, by clear and convincing
-evidence. Correction Law Section 168-o(3). That mechanism is not remote or
-theoretical for Mr. Bernecky. He is currently under close federal
-supervision - the same computer monitoring, the same probation oversight,
-the same mandated treatment already described above - and will remain
-under it for at least ten years from his release date. Any violation of
-that supervision would itself immediately supply Section 168-o(3)'s
-predicate, and the same intensive supervision structure that supports a
-finding today that Mr. Bernecky is not a threat to public safety is
-precisely the mechanism that would surface any future violation and hand
-the State a clean, statutorily-authorized path to seek Level Three later,
-if it ever needs to. The safety valve here is not hypothetical. It is
-wired directly into the same supervision already keeping Mr. Bernecky
-monitored. This Court need not, and should not, treat today's
-classification as its only opportunity to protect the public. The statute
-the Legislature wrote does not treat it that way either.
+The conduct-specific conclusion Point II.A draws - that Override 1 supplies only the recidivism element on this particular record, see Point II.A, above - is not the last word on Mr. Bernecky either. A Level Two classification today is not a permanent judgment that Mr. Bernecky will never present a threat to public safety. Correction Law Section 168-o(3) gives the District Attorney a direct, statutory mechanism to seek an upward modification later, on real evidence: where an offender "has been convicted of a new crime" or has been found, after a proceeding under CPL Section 410.70 or Executive Law Section 259-i, to have "violated one or more conditions" of supervision, and where "the conduct underlying the new crime or the violation is of a nature that indicates an increased risk of a repeat sex offense," the District Attorney may petition to modify the level of notification upward - proved, again, by clear and convincing evidence. Correction Law Section 168-o(3). That mechanism is not remote or theoretical for Mr. Bernecky. He is currently under close federal supervision - the same computer monitoring, the same probation oversight, the same mandated treatment already described above - and will remain under it for at least ten years from his release date. Any violation of that supervision would itself immediately supply Section 168-o(3)'s predicate, and the same intensive supervision structure that supports a finding today that Mr. Bernecky is not a threat to public safety is precisely the mechanism that would surface any future violation and hand the State a clean, statutorily-authorized path to seek Level Three later, if it ever needs to. The safety valve here is not hypothetical. It is wired directly into the same supervision already keeping Mr. Bernecky monitored. This Court need not, and should not, treat today's classification as its only opportunity to protect the public. The statute the Legislature wrote does not treat it that way either.
 
 ------------------------------------------------------------
 
 CONCLUSION
 
-For the foregoing reasons, Respondent respectfully requests that this Court
-classify Jeffrey Bernecky as a Level Two sex offender. In the alternative,
-to the extent the Court is inclined to credit any specific factual
-assertion in the Board's Case Summary that Respondent has identified as
-unattributed, unfounded, disputed, or inconsistent with the underlying
-federal record, Respondent requests that the Court require the People to
-establish that assertion's reliability through the foundation People v.
-Mingo itself demands before relying on it, and Respondent preserves his
-objection to any reliance absent that showing. Respondent further requests
-that the Court hold this matter open, or otherwise account, for the pending
-application under County Law Section 722-c for a funded forensic risk
-evaluation, so that any residual question this Court may have about Mr.
-Bernecky's future dangerousness can be answered by the one form of
-evidence actually built to answer it. Respondent also renews and
-respectfully requests that this Court grant his pending application, under
-Correction Law Section 168-n(3), for assignment of counsel, independent of
-the relief requested above.
+For the foregoing reasons, Respondent respectfully requests that this Court classify Jeffrey Bernecky as a Level Two sex offender. In the alternative, to the extent the Court is inclined to credit any specific factual assertion in the Board's Case Summary that Respondent has identified as unattributed, unfounded, disputed, or inconsistent with the underlying federal record, Respondent requests that the Court require the People to establish that assertion's reliability through the foundation People v. Mingo itself demands before relying on it, and Respondent preserves his objection to any reliance absent that showing. Respondent further requests that the Court hold this matter open, or otherwise account, for the pending application under County Law Section 722-c for a funded forensic risk evaluation, so that any residual question this Court may have about Mr. Bernecky's future dangerousness can be answered by the one form of evidence actually built to answer it. Respondent also renews and respectfully requests that this Court grant his pending application, under Correction Law Section 168-n(3), for assignment of counsel, independent of the relief requested above.
 
 Respectfully submitted,
-
 
 _______________________________
 Jeffrey Bernecky
@@ -844,15 +164,8 @@ Respondent, Pro Se
 [Address]
 [Contact information]
 
-
 ------------------------------------------------------------
 NOTES
 ------------------------------------------------------------
 
-[1] Mr. Bernecky submits this memorandum pro se, with some assistance in
-its preparation, and does not believe he can adequately represent himself
-in a proceeding of this consequence. He has a pending application for
-assigned counsel under Correction Law Section 168-n(3), which this filing
-neither withdraws nor waives; he files now given the stakes of a Level
-Three determination and the likelihood that counsel assigned near the
-hearing date would not have time to prepare a submission this detailed.
+[1] Mr. Bernecky submits this memorandum pro se, with some assistance in its preparation, and does not believe he can adequately represent himself in a proceeding of this consequence. He has a pending application for assigned counsel under Correction Law Section 168-n(3), which this filing neither withdraws nor waives; he files now given the stakes of a Level Three determination and the likelihood that counsel assigned near the hearing date would not have time to prepare a submission this detailed.
