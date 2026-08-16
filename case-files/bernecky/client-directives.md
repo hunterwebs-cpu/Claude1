@@ -3537,3 +3537,17 @@ implemented — not just the addition of one explanatory paragraph.
 
 **Status: logging only — do not dispatch the Writer or edit the draft until the
 client says to proceed.**
+
+## SORA MEMORANDUM — voice decision: keep third person despite pro se filing (2026-08-15, cont'd)
+
+Twelfth flag, resolving one open question from the entry immediately above.
+Client's decision: **the document keeps its third-person voice** ("Respondent
+respectfully requests...") despite being filed pro se — it does not switch to
+first person ("I respectfully request..."). What still needs to change: the
+signature block (currently "Attorney for Respondent," which is no longer
+accurate for a pro se filing) and the explanatory paragraph on pro se status and
+the pending counsel motion (per the entry above) — the body's third-person
+argumentative voice itself is not changing.
+
+**Status: logging only — do not dispatch the Writer or edit the draft until the
+client says to proceed.**
