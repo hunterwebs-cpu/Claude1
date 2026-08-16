@@ -12,7 +12,7 @@ Article 6-C of the Correction Law
 
 NYSID No. OS6430
 
-Respondent.
+Respondent, Pro Se.[^1]
 
 ---
 
@@ -24,12 +24,6 @@ Before: Hon. Karen Bailey Turner, J.C.C.
 ---
 
 **Exhibits.** Respondent attaches and cites the following exhibits by letter throughout this memorandum: **Ex. A** — Government's Supplemental Sentencing Statement, No. 6:11-CR-06045, Doc. 24 (W.D.N.Y. filed Jan. 13, 2012); **Ex. B** — Amended Sentencing Statement, No. 6:18-CR-06018, Doc. 24 (W.D.N.Y. filed May 29, 2018); **Ex. C** — Government's Statement with Respect to Sentencing Factors, No. 6:18-CR-06018, Doc. 18 (W.D.N.Y. filed Apr. 24, 2018); **Ex. D** — Bureau of Prisons Program Statement 1351.05, *Release of Information* (as amended); **Ex. E** — Defendant's Sentencing Memorandum, No. 6:11-CR-06045, Doc. 23 (W.D.N.Y. filed Jan. 6, 2012).
-
----
-
-## A NOTE ON THIS FILING
-
-Mr. Bernecky prepared this memorandum himself, pro se, with some assistance in its preparation. He has not retained counsel and has not been assigned counsel to represent him at the September 11, 2026 hearing. He does not believe he can adequately represent himself in a proceeding of this consequence, and he has already applied to this Court, under Correction Law § 168-n(3), for assignment of counsel — an application that remains pending and that this filing neither withdraws nor waives. He submits this memorandum now, in this much detail, because a Level Three classification carries consequences that will follow him for the rest of his life, and because counsel assigned on or close to the hearing date would not likely have time to prepare a submission addressing a record this extensive. This filing is a protective measure made necessary by the stakes and the calendar — not a choice to proceed without counsel, and not a reason for this Court to delay ruling on his pending application for assigned counsel.
 
 ---
 
@@ -165,7 +159,7 @@ A Level Two classification today is not a permanent judgment that Mr. Bernecky w
 
 ## CONCLUSION
 
-For the foregoing reasons, Respondent respectfully requests that this Court classify Jeffrey Bernecky as a Level Two sex offender. In the alternative, to the extent the Court is inclined to credit any specific factual assertion in the Board's Case Summary that Respondent has identified as unattributed, unfounded, disputed, or inconsistent with the underlying federal record, Respondent requests that the Court require the People to establish that assertion's reliability through the foundation *People v. Mingo* itself demands before relying on it, and Respondent preserves his objection to any reliance absent that showing. Respondent further requests that the Court hold this matter open, or otherwise account, for the pending application under County Law § 722-c for a funded forensic risk evaluation, so that any residual question this Court may have about Mr. Bernecky's future dangerousness can be answered by the one form of evidence actually built to answer it. Respondent also renews and respectfully requests that this Court grant his pending application, under Correction Law § 168-n(3), for assignment of counsel, for the reasons stated at the outset of this memorandum and independent of the relief requested above.
+For the foregoing reasons, Respondent respectfully requests that this Court classify Jeffrey Bernecky as a Level Two sex offender. In the alternative, to the extent the Court is inclined to credit any specific factual assertion in the Board's Case Summary that Respondent has identified as unattributed, unfounded, disputed, or inconsistent with the underlying federal record, Respondent requests that the Court require the People to establish that assertion's reliability through the foundation *People v. Mingo* itself demands before relying on it, and Respondent preserves his objection to any reliance absent that showing. Respondent further requests that the Court hold this matter open, or otherwise account, for the pending application under County Law § 722-c for a funded forensic risk evaluation, so that any residual question this Court may have about Mr. Bernecky's future dangerousness can be answered by the one form of evidence actually built to answer it. Respondent also renews and respectfully requests that this Court grant his pending application, under Correction Law § 168-n(3), for assignment of counsel, independent of the relief requested above.
 
 Respectfully submitted,
 
@@ -174,3 +168,5 @@ Jeffrey Bernecky
 Respondent, Pro Se
 [Address]
 [Contact information]
+
+[^1]: Mr. Bernecky submits this memorandum pro se, with some assistance in its preparation, and does not believe he can adequately represent himself in a proceeding of this consequence. He has a pending application for assigned counsel under Correction Law § 168-n(3), which this filing neither withdraws nor waives; he files now given the stakes of a Level Three determination and the likelihood that counsel assigned near the hearing date would not have time to prepare a submission this detailed.
