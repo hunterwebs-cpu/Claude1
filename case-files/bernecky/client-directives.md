@@ -3475,3 +3475,23 @@ answered.
 
 **Status: logging only — do not dispatch the Writer or edit the draft until the
 client says to proceed.**
+
+## SORA MEMORANDUM — Point II.C's treatment of the 2010 statement needs to be reworked to reflect the dispute, not just the facts section (2026-08-15, cont'd)
+
+Tenth flag, on Point II.C's paragraph beginning "This record also contains one
+statement that must be met directly, not stepped around: in 2010... Mr. Bernecky
+told agents that without child pornography to view, he 'might be tempted' to
+seek contact with a child. Respondent weighs that statement against everything
+that came after it..." Client's note: **this passage needs to be phrased
+differently now that we are lodging a dispute over whether the statement was
+made at all** (see the earlier entry above, "client disputes the 2010 webcam/
+'might be tempted' statement entirely"). As currently written, Point II.C treats
+this as a genuine old admission to be *weighed* against seven years of
+subsequent treatment — that framing is no longer consistent with disputing that
+Mr. Bernecky said it in the first place. This is a downstream consequence of the
+earlier correction, not a new, independent point — flagged here because the
+client caught it on a second pass through the document and it needs to be fixed
+consistently with that earlier entry once editing begins.
+
+**Status: logging only — do not dispatch the Writer or edit the draft until the
+client says to proceed.**
