@@ -3404,6 +3404,8 @@ position to vouch for it than Respondent is to check it.
 **Status: logging only — do not dispatch the Writer or edit the draft until the
 client says to proceed.**
 
+## SORA MEMORANDUM — terminology precision: "New York" should read "New York State" (2026-08-15, cont'd)
+
 Seventh flag, on the *Mingo* discussion in Point I ("That rationale describes New
 York probation officers preparing New York presentence reports, under New York
 procedures, for New York sentencing judges..."). Client's instruction: wherever
@@ -3412,6 +3414,46 @@ the document refers to New York generally in this state-vs-federal contrast
 New York sentencing judges, and similarly throughout), it should say **"New York
 State"** specifically, not just "New York" — a precision point, applies wherever
 this pattern recurs in the document, not just this one sentence.
+
+**Status: logging only — do not dispatch the Writer or edit the draft until the
+client says to proceed.**
+
+## SORA MEMORANDUM — PSR disclosure has since been mandated by rule, but sex offenders in BOP custody are effectively barred from possessing a copy for safety reasons (2026-08-15, cont'd)
+
+Eighth flag, on the *Charmer* quotation in Point I: "there is no requirement that
+the defendant voice his objection to any statement with which he disagrees...
+in a significant number of cases, the defendant does not even request disclosure
+of the presentence report." *Charmer* is a 1983 decision. Per client, the
+disclosure rule has since been amended to **mandate** disclosure — but two
+important qualifications on how that plays out in practice, both worth folding
+into the document:
+
+1. **Disclosure in practice runs to defense counsel, not necessarily to the
+   defendant personally.**
+2. **A defendant — especially in a sex-offense case — will, as a practical
+   matter, essentially never end up in physical possession of his own PSR while
+   incarcerated, because of real physical-safety danger from other inmates if
+   the document (which would identify him as a sex offender) is found on him.**
+   Per client, this is not merely informal caution: **the Bureau of Prisons
+   (client's phrasing: "the Attorney General") prohibits inmates from possessing
+   a PSR while in BOP custody**, precisely for this safety reason.
+
+**Strategic significance, as I understand it from context (not yet client-
+confirmed as the intended use):** this may be a stronger, more current
+substitute or supplement for the *Charmer* "doesn't even request disclosure"
+point — rather than relying on a 1983 case's dated description of disclosure
+practice, the document could make a current, BOP-policy-grounded point that sex
+offenders specifically (Mr. Bernecky's own actual circumstance) are structurally
+prevented from reviewing and meaningfully contesting their own PSR's content
+while serving a sentence, which is exactly why inaccuracies of the kind already
+documented in this record (the quotation, file-count, and other discrepancies)
+can persist unnoticed and unchallenged.
+
+**Needs verification before drafting:** the specific BOP Program Statement or
+regulation prohibiting inmate possession of a PSR (client attributes this to "the
+Attorney General," which tracks BOP's status as a DOJ component — the actual
+regulatory citation is not yet confirmed in this matter's files) and the current
+text of Fed. R. Crim. P. 32's disclosure-mandate provision itself.
 
 **Status: logging only — do not dispatch the Writer or edit the draft until the
 client says to proceed.**
