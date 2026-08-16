@@ -81,7 +81,7 @@ The Case Summary attributes its description of the 2017 polygraph-linked disclos
 
 The Case Summary further states that the instant offense — which the record elsewhere places in December 2017, with charging documents filed in 2018 — is described by, among other sources, "the Federal Presentence Investigation Report (PSR) revised on April 26, 2011." The Case Summary offers no explanation for how a report revised in April 2011 could describe an offense that had not yet occurred, and the federal record confirms no PSR of any kind was even issued in either of Mr. Bernecky's two federal cases until November 2011 at the earliest. Ex. A at 1.
 
-None of this is offered to suggest the Board acted in bad faith. It is offered because it is what happens, demonstrably, when a document built for one court's sentencing purposes is read once, summarized once, and then summarized again for a purpose it was never built to serve.
+This is what happens, demonstrably, when a document built for one court's sentencing purpose is read once, summarized once, and summarized again for a purpose it was never built to serve. A record assembled that way cannot carry the clear-and-convincing burden the Board's recommendation depends on.
 
 ---
 
