@@ -3204,3 +3204,53 @@ this document's content when drafting. Needs to be checked.
 **Status: logging only.** Client is continuing to review the rest of the document
 before any edits are made — do not dispatch the Writer or make changes based on
 this entry until the client says to proceed.
+
+## SORA MEMORANDUM — client disputes the 2010 webcam/"might be tempted" statement entirely; strong affirmative argument it is inaccurate (2026-08-15, cont'd)
+
+Second flag from the same review pass, on the Statement of Facts paragraph
+beginning "The 2010 statement about what he might do without child pornography to
+view" — the paragraph describing the Case Summary's account that Bernecky said he
+"used a desktop recorder to record children he viewed on webcam engaging in
+sexual acts," and that without child pornography to look at he "might be tempted
+to... have sexual contact with an actual child." **This is a significant
+correction, not a minor note:**
+
+1. **Jeff does not believe he said this at all.** This directly contradicts the
+   current draft's sentence "Mr. Bernecky has not specifically disputed either" —
+   that sentence is no longer accurate and needs to be fixed. Per this matter's
+   own Failure 6 discipline, a disputed hostile-source characterization cannot be
+   presented as merely "unconfirmed" — it needs to be presented as affirmatively
+   disputed by the client.
+2. **A reference to "the PSR" is not sufficient sourcing to resolve what was
+   actually said.** Per client: to know what Bernecky actually said in the 2010
+   interview, counsel would need the government to produce the entire Miranda
+   interview (recording or transcript), not rely on a probation officer's/Board's
+   multiply-filtered paraphrase of it.
+3. **Client's own affirmative argument that the statement is very likely
+   inaccurate, not just unconfirmed — logged in full because it is a strong,
+   independently checkable argument, not mere assertion:** the government's own
+   silence on this statement in *either* federal sentencing is itself evidence
+   the statement did not happen as described. An admission to recording children
+   on webcam engaging in sexual acts would be an admission to **producing** child
+   pornography, chargeable under 18 U.S.C. § 2251(a) — a 15-year mandatory
+   minimum, and a 25-year mandatory minimum if charged after a prior child
+   pornography conviction. The government does not extend a plea agreement to a
+   single count of mere possession when it holds an admission to conduct that
+   would support a production charge carrying that kind of mandatory minimum.
+   The complete absence of any production charge, in either the 2012 or 2018
+   case, is itself strong circumstantic evidence that this specific attributed
+   statement is not accurate as recorded in the Case Summary — whether through
+   fabrication, mischaracterization, or conflation with something else in the
+   underlying file.
+
+**This changes how this material needs to be handled in the document, not just
+how it's footnoted** — the current draft treats this as a genuine (if old,
+pre-treatment) admission to be weighed against years of subsequent treatment.
+Per this correction, it should instead be treated as a disputed, affirmatively
+challenged Case Summary assertion — and the charging-decision argument above is
+strong enough that it may belong in Point I's PSR-reliability argument as a
+concrete example of exactly the kind of unreliability Point I already argues in
+the abstract, not only in the facts section as a disputed item to be "weighed."
+
+**Status: logging only, per client's ongoing review — do not dispatch the Writer
+or edit the draft until the client says to proceed.**
