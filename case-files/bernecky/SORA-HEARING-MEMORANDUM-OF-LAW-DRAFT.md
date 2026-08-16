@@ -23,7 +23,7 @@ Before: Hon. Karen Bailey Turner, J.C.C.
 
 ---
 
-**Exhibits.** Respondent attaches and cites the following exhibits by letter throughout this memorandum: **Ex. A** — Government's Supplemental Sentencing Statement, No. 6:11-CR-06045, Doc. 24 (W.D.N.Y. filed Jan. 13, 2012); **Ex. B** — Amended Sentencing Statement, No. 6:18-CR-06018, Doc. 24 (W.D.N.Y. filed May 29, 2018); **Ex. C** — Government's Statement with Respect to Sentencing Factors, No. 6:18-CR-06018, Doc. 18 (W.D.N.Y. filed Apr. 24, 2018); **Ex. D** — Bureau of Prisons Program Statement 1351.05, *Release of Information* (as amended); **Ex. E** — Defendant's Sentencing Memorandum, No. 6:11-CR-06045, Doc. 23 (W.D.N.Y. filed Jan. 6, 2012).
+**Exhibits.** Exhibits A through E, cited by letter throughout this memorandum, are annexed to and authenticated by the accompanying Certification of Jeffrey Bernecky, submitted herewith pursuant to CPLR 2106.
 
 ---
 
