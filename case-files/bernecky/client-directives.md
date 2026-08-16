@@ -3307,3 +3307,22 @@ of the document.
 
 **Status: logging only — do not dispatch research, the Writer, or edit the draft
 until the client says to proceed.**
+
+## SORA MEMORANDUM — client flags the YMCA/pool paragraph as raising the same issues (2026-08-15, cont'd)
+
+Fourth flag, on the paragraph beginning "A related, and not obviously
+reconcilable, admission already in the federal record" (the 2010 YMCA/pool
+account — "kids... would climb on him at the pool and he would get sexually
+aroused because they would rub on him"). Per client: **this raises effectively
+the same issues just flagged for the two paragraphs above** — the sourcing/
+verification concern, and the mischaracterization concern (children incidentally
+touching him during ordinary activity being framed as something more serious
+than it is). Note for whoever eventually drafts the fix: this passage is sourced
+to Doc. 24 (the government's own 2012 Supplemental Sentencing Statement, already
+independently verified this session as an accurate primary-source quote), not
+merely to the Case Summary's own paraphrase — a real factual difference from the
+other two passages that should inform how any revision handles it, even though
+the client's underlying objections are the same category.
+
+**Status: logging only — do not dispatch research, the Writer, or edit the draft
+until the client says to proceed.**
