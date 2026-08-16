@@ -3495,3 +3495,45 @@ consistently with that earlier entry once editing begins.
 
 **Status: logging only — do not dispatch the Writer or edit the draft until the
 client says to proceed.**
+
+## SORA MEMORANDUM — filing status: Bernecky is submitting this pro se, not through appointed counsel — major structural fact, affects framing throughout (2026-08-15, cont'd)
+
+Eleventh flag, and the most structurally significant one from this review pass.
+**Mr. Bernecky will be submitting this memorandum pro se** — not through
+appointed or retained counsel. This has not been reflected anywhere in the
+current draft, which is written throughout in an attorney's third-person voice
+("Respondent respectfully requests...") and signed "Attorney for Respondent."
+
+Client wants the document to explain, in its own voice, all of the following:
+1. **He has received help preparing it.** (Note for whoever drafts this: needs
+   careful, high-level wording — a pro se filer disclosing that he received some
+   legal assistance is common and unremarkable, but this must not describe *how*
+   the document was actually produced, consistent with this matter's standing
+   Failure 4 rule against narrating case-file/production process inside a filing
+   meant to look like ordinary advocacy.)
+2. **He is not able to adequately represent himself in this proceeding without
+   counsel.**
+3. **He has already moved for appointment of counsel** — this matter's file
+   already contains a draft application for assigned counsel
+   (`SORA-APPLICATION-FOR-ASSIGNED-COUNSEL-DRAFT.md`); the status of that motion
+   should be confirmed before this section is drafted.
+4. **Why he is filing this detailed memorandum himself despite that pending
+   motion:** given the gravity of a Level Three classification determination,
+   and the practical reality that an attorney appointed on or close to the
+   hearing date would not likely have adequate time to prepare a submission this
+   detailed, Mr. Bernecky is filing it himself **"in an abundance of caution"** —
+   protectively, not as a substitute for wanting counsel and not as any kind of
+   waiver of his pending request for appointed counsel.
+
+**Drafting note for whenever this is implemented (not yet authorized — client is
+still reviewing):** this explanation needs to be worded carefully so it cannot be
+read by the Court as Bernecky voluntarily proceeding pro se or as undermining his
+own pending counsel motion — the framing should affirmatively preserve and
+reinforce the request for counsel, not appear to abandon it. This also means the
+document's signature block, caption, and self-referential language throughout
+("Respondent respectfully requests," "Attorney for Respondent," etc.) will need
+a broader review for consistency with pro se submission once this is
+implemented — not just the addition of one explanatory paragraph.
+
+**Status: logging only — do not dispatch the Writer or edit the draft until the
+client says to proceed.**
