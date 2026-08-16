@@ -3372,7 +3372,37 @@ matter's own citation-discipline standard — Ex. A at 3, etc.).
 **Status: logging only — do not dispatch the Writer or edit the draft until the
 client says to proceed.**
 
-## SORA MEMORANDUM — terminology precision: "New York" should read "New York State" (2026-08-15, cont'd)
+## SORA MEMORANDUM — strategic reframing of the privilege research as an added reliability point, not only an exclusion argument (2026-08-15, cont'd)
+
+Client's proposed use of `SORA-TREATMENT-POLYGRAPH-PRIVILEGE-MEMO.md`, offered as
+a "what if" for consideration, not yet a final decision: fold the privilege
+finding into Point I's existing PSR-unreliability argument as **an additional,
+independent reason the record cannot be trusted** — not only, or even primarily,
+as a stand-alone "strike this evidence" motion.
+
+Client's own chain-of-custody description, in full: Respondent communicates with
+his LCSW; the LCSW communicates with (a) probation officer(s); that probation
+officer writes his/her own report/notes; years later, in the new (2018) case, a
+**different** probation officer is tasked with preparing the sentencing PSR and
+incorporates this material into it. **We do not know what the LCSW's actual
+clinical records show, and likely cannot find out — because of the privilege
+itself.** The federal probation officer's PSR only repeats/paraphrases what made
+it into the file; it does not include all of the underlying records from the
+original investigation.
+
+**The point, as client is framing it:** this adds a concrete, additional link to
+the hearsay-chain-of-telephone problem Point I already argues in the abstract
+(Board summary, of a federal PO's summary, of an investigative report) — except
+this specific link (the LCSW's own clinical records) is not just unverified, it
+is **structurally unverifiable**, because the privilege that would let Respondent
+access and check those records against what the PSR/Case Summary now claims is
+the very same privilege the People would need to overcome to use the material at
+all. Either way — privileged and excluded, or privileged and unverifiable — the
+record cannot be trusted at this specific link, and the Board is in no better
+position to vouch for it than Respondent is to check it.
+
+**Status: logging only — do not dispatch the Writer or edit the draft until the
+client says to proceed.**
 
 Seventh flag, on the *Mingo* discussion in Point I ("That rationale describes New
 York probation officers preparing New York presentence reports, under New York
