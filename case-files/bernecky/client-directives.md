@@ -3457,3 +3457,21 @@ text of Fed. R. Crim. P. 32's disclosure-mandate provision itself.
 
 **Status: logging only — do not dispatch the Writer or edit the draft until the
 client says to proceed.**
+
+## SORA MEMORANDUM — "has" should read "has or will," tracking the present-tense nature of the public-safety inquiry (2026-08-15, cont'd)
+
+Ninth flag, on the closing sentence of the Falso/Sotomayor paragraph in Point
+II.B: "it does not follow that a given consumer of child pornography — and
+certainly not this one, on this record — should be treated as though he already
+**has**." Client's instruction: this should read **"has or will,"** not "has"
+alone. Client's reasoning: "the threat to public safety is a question about a
+present threat, not a past threat... that's how I read the usage of present
+tense terms" — i.e., § 168-l(6)'s "there exists a threat to the public safety"
+language is present/forward-looking, not a question about past conduct alone.
+The sentence as currently written only rebuts an inference about what Mr.
+Bernecky has *already done*; it should also rebut the forward-looking inference
+(that he *will* do it), since that is the actual statutory question being
+answered.
+
+**Status: logging only — do not dispatch the Writer or edit the draft until the
+client says to proceed.**
