@@ -3371,3 +3371,17 @@ matter's own citation-discipline standard — Ex. A at 3, etc.).
 
 **Status: logging only — do not dispatch the Writer or edit the draft until the
 client says to proceed.**
+
+## SORA MEMORANDUM — terminology precision: "New York" should read "New York State" (2026-08-15, cont'd)
+
+Seventh flag, on the *Mingo* discussion in Point I ("That rationale describes New
+York probation officers preparing New York presentence reports, under New York
+procedures, for New York sentencing judges..."). Client's instruction: wherever
+the document refers to New York generally in this state-vs-federal contrast
+(New York probation officers, New York presentence reports, New York procedures,
+New York sentencing judges, and similarly throughout), it should say **"New York
+State"** specifically, not just "New York" — a precision point, applies wherever
+this pattern recurs in the document, not just this one sentence.
+
+**Status: logging only — do not dispatch the Writer or edit the draft until the
+client says to proceed.**
