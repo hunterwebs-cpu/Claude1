@@ -23,10 +23,6 @@ Before: Hon. Karen Bailey Turner, J.C.C.
 
 ---
 
-**Exhibits.** Exhibits A through E, cited by letter throughout this memorandum, are annexed to and authenticated by the accompanying Certification of Jeffrey Bernecky, submitted herewith pursuant to CPLR 2106.
-
----
-
 ## PRELIMINARY STATEMENT
 
 This proceeding turns on a document nobody in this courtroom has read and a word the Board of Examiners of Sex Offenders has never proven. The document is Jeffrey Bernecky's federal presentence report — a report a federal probation officer was free to build from investigative records, supervision notes, third-party statements, and any other source federal rule and practice place no limit on, not merely a single police report. The Board did not offer this Court that report itself. It offered a Case Summary — the Board's own narrative account of what that report said, filtered again through the Board's own paraphrase, and now presented to this Court as though it were established fact. The word is "safety." Correction Law § 168-l(6) does not authorize a Level Three classification because an offender might reoffend. It requires clear and convincing proof that he presently threatens public safety. The Board has never offered that proof. It has offered a single, fourteen-year-old prior conviction and called that conviction, by itself, "compelling evidence" of a threat the Board never independently examined.

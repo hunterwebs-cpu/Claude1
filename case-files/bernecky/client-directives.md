@@ -3551,3 +3551,29 @@ argumentative voice itself is not changing.
 
 **Status: logging only — do not dispatch the Writer or edit the draft until the
 client says to proceed.**
+
+## SORA MEMORANDUM — PERMANENT INSTRUCTION: remove the "Exhibits" grounding
+paragraph, do not reintroduce it in any future revision (2026-08-16)
+
+Client directive, verbatim: "flag this as removed and deleted by me and all
+future iterations need to remove it," referring to this paragraph, which
+previously sat at the top of the memorandum, right after the title and before
+the Preliminary Statement:
+
+> **Exhibits.** Exhibits A through E, cited by letter throughout this
+> memorandum, are annexed to and authenticated by the accompanying
+> Certification of Jeffrey Bernecky, submitted herewith pursuant to CPLR 2106.
+
+This was the grounding sentence added when the exhibits question was resolved
+in favor of a supporting CPLR 2106 Certification instead of a standalone
+exhibit legend inside the memorandum itself (see the earlier entries on the
+exhibits/certification question). The client has now removed it from both the
+`.md` and `.txt` versions of the memorandum and wants it permanently gone —
+**this paragraph must not be re-added in any future draft or revision pass,
+by the Writer or otherwise.** The Certification document itself
+(`SORA-CERTIFICATION-OF-JEFFREY-BERNECKY.md`) is unaffected and remains as
+drafted; only this one grounding sentence inside the memorandum is being
+removed. The inline "Ex. A," "Ex. B," etc. citations throughout the body of
+the memorandum are unaffected and remain exactly as written.
+
+**Status: logging only — no other edits authorized by this entry.**
