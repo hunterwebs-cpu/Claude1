@@ -71,6 +71,45 @@ A parenthetical statutory cross-reference directly under the title (e.g.
 `(Pursuant to CPLR 2106)`) is a subtitle, not a heading — center it, italicize
 it, and do not number it.
 
+### Pitfall #3 (real, client-facing): a numbered heading needs a tab and a hanging indent, not just the right characters
+
+Getting the label right ("I.", "A.", "1.") is not the same as getting the
+heading *formatted* right. A real Word multilevel list — which is what it
+looks like when someone builds headings by hand in Word — puts a **tab**
+between the number and the heading text (not a space), and gives each level
+a **hanging indent** that steps letters in from Roman numerals and numbers
+in further still. Writing `"I. " + heading` as one plain text run gets the
+character right and the formatting wrong: no tab, and every level sits flush
+at the same margin instead of stepping in. This shipped on every one of a
+matter's collateral filings before being caught — the fix (below) does not
+require replicating Word's native numbered-list feature (`numPr`), which
+needs a `numbering.xml` definition; a paragraph-level tab stop plus a
+matching hanging indent produces an identical visual result and is far
+simpler to generate from a script.
+
+```js
+// docx (npm): one heading paragraph, Roman-numeral level.
+// `left` is where the heading text (and the tab stop) sits; `hanging` is
+// how far left of that the number itself sits. Bump `left`/`hanging` up
+// per level (e.g. left 1080 -> 1440 -> 2340 DXA) so each level steps in
+// from the one above it -- match the exact values to the client's own
+// document if one already exists (inspect its word/numbering.xml).
+new Paragraph({
+  tabStops: [{ type: TabStopType.LEFT, position: 1080 }],
+  indent: { left: 1080, hanging: 720 },
+  children: [
+    new TextRun({ text: 'I.\t', bold: true }),   // literal tab char, not a space
+    ...inlineRuns(headingText, { bold: true }),
+  ],
+});
+```
+
+A literal `\t` inside a `TextRun`'s `text` is a real fix here, not a hack —
+`docx` (npm) serializes it to an actual `<w:tab/>` element, which Word and
+LibreOffice both honor against the paragraph's `tabStops`. Verify by
+rendering (per §5) and confirming the gap after the number is a tab jump to
+a fixed column, not proportional word-spacing.
+
 ---
 
 ## 2. Spacing rules
@@ -189,7 +228,8 @@ usually installable even in otherwise network-restricted environments.
 `scripts/md_to_filing_docx.js` — a working, tested Node.js/`docx` converter
 implementing everything above: table-based caption with a configurable
 title/case-info block, Roman/letter/number heading numbering with automatic
-counters, single-spaced headings and double-spaced justified indented body
+counters and real tab-stop/hanging-indent formatting per level (`HEADING_LEVELS`),
+single-spaced headings and double-spaced justified indented body
 text, footnote collection into a trailing NOTES section, and page numbering.
 Run directly (`node md_to_filing_docx.js config.json`) or import
 `{ convert, buildCaption, wrapTitle }` to reuse pieces in a client-specific

@@ -4170,3 +4170,63 @@ alongside the Certification (`2-Certification-of-Jeffrey-Bernecky.pdf`),
 per the client's instruction to keep them together.
 
 **Status: delivered to client.**
+
+## HEADING TAB/INDENT FIX — script updated for future use, NOT applied to the
+five already-delivered collateral filings (2026-08-17)
+
+Client's question, verbatim: "you didnt update all the spacing in th rest of
+the files like I did. how there is a tab between I. and the title, and then
+subheading are pushed over under the primary roman numerals title and so
+on. why not?" then, after an explanation: "so you can update the script for
+future? while it may not use words built in feature, I'm sure a script can
+specify spacing and stuff."
+
+**Root cause (explained to client, logged here for the record):** the
+client's own memo uses a real Word multilevel list (`numPr`/`ListParagraph`,
+tied to a list definition in `word/numbering.xml`) — that's what
+auto-generates a tab between "I." and the heading text, and a stepped
+hanging indent per level. The collateral-filing converter
+(`tools/md_to_ny_filing_docx.js`) instead built headings as one plain text
+run, `"I. " + heading`, glued together with a literal space — no tab, no
+per-level indent. This was not a deliberate simplification; it was reusing
+an earlier approach without checking it against how the client's own
+document actually achieved the effect.
+
+**Fix.** Rather than replicate Word's native numbered-list feature (which
+needs a full `numbering.xml` abstractNum/num definition), used the simpler
+equivalent: a paragraph `tabStops` entry plus a matching `indent: {left,
+hanging}`, with a literal tab character (`\t`) in the heading's lead-in text
+run ("I.\t", "A.\t", "1.\t"). `docx` (npm) serializes a literal `\t` inside a
+`TextRun` to a real `<w:tab/>` element, which both Word and LibreOffice
+honor against the paragraph's tab stops — confirmed by inspecting the
+generated XML and by rendering. Indent/tab values for all three levels were
+taken directly from the client's own memo's `word/numbering.xml`
+(abstractNumId=3), not estimated:
+
+| Level | left (DXA) | hanging (DXA) |
+|---|---|---|
+| Roman (`##`) | 1080 | 720 |
+| Letter (`###`) | 1440 | 360 |
+| Number (`####`, new — none of the five filings currently use a 4th
+  markdown level, added for future use) | 2340 | 360 |
+
+Updated `tools/md_to_ny_filing_docx.js` and its mirror,
+`.claude/skills/brief-formatting/scripts/md_to_filing_docx.js`; added the
+technique as a named pitfall (#3) in `SKILL.md`. Verified by rebuilding the
+Adjournment Motion in a scratch location only (never touching the delivered
+files) — rendered output matches the memo's own tab/indent behavior exactly
+(confirmed via schema validation and a rendered page-image comparison).
+
+**Explicitly not done, per client's own instruction ("don't do it"):** the
+five already-delivered collateral filings
+(`filing-pdfs/2-Certification...`, `3-Motion-to-Adjourn...`,
+`4-Application-for-Assignment-of-Counsel...`,
+`5-Motion-for-Forensic-Expert-Funding...`,
+`6-Demand-for-Disclosure-and-Subpoena...`, in both `.docx` and `.pdf`) were
+**not** regenerated with this fix. They still have the old plain-space
+heading formatting. This is a real, acknowledged gap between those files and
+the memo — flagged here so it isn't lost track of, to be closed only if and
+when the client asks for those five documents to be rebuilt.
+
+**Status: script and skill fixed and committed; the five delivered
+collateral filings intentionally left untouched, awaiting client direction.**

@@ -11,7 +11,20 @@ const fs = require('fs');
 const {
   Document, Packer, Paragraph, TextRun, AlignmentType, Table, TableRow,
   TableCell, WidthType, BorderStyle, VerticalAlign, Footer, PageNumber,
+  TabStopType,
 } = require('docx');
+
+// Indent/tab-stop values (DXA) replicating a real Word multilevel list --
+// matched to the client's own memo (word/numbering.xml, abstractNumId=3):
+// number sits in the hanging area, a tab jumps to `left`, where both the
+// heading text and any wrapped continuation line align. This is what
+// produces the tab between "I." and the heading, and the visual stepped
+// indent of letters under Roman numerals and numbers under letters.
+const HEADING_LEVELS = {
+  roman: { left: 1080, hanging: 720 },   // ## top-level (I., II., ...)
+  letter: { left: 1440, hanging: 360 },  // ### subheading (A., B., ...)
+  number: { left: 2340, hanging: 360 },  // #### sub-subheading (1., 2., ...)
+};
 
 const FONT = 'Times New Roman';
 const SIZE = 24; // 12pt
@@ -142,7 +155,7 @@ function convert(cfg) {
 
   const children = buildCaption(cfg);
 
-  let h1Counter = 0, h2Letter = 0;
+  let h1Counter = 0, h2Letter = 0, h3Number = 0;
   const footnotes = {};
   let paraBuf = [];
   let inNotes = false;
@@ -170,13 +183,36 @@ function convert(cfg) {
     let m = s.match(/^\[\^(\d+)\]:\s*(.*)$/);
     if (m) { flushPara(); footnotes[m[1]] = m[2]; i++; continue; }
 
+    if (s.startsWith('#### ')) {
+      flushPara();
+      let text = s.slice(5).trim().replace(/^[0-9]+\.\s*/, '');
+      h3Number++;
+      const lvl = HEADING_LEVELS.number;
+      children.push(new Paragraph({
+        tabStops: [{ type: TabStopType.LEFT, position: lvl.left }],
+        indent: { left: lvl.left, hanging: lvl.hanging },
+        children: [
+          new TextRun({ text: `${h3Number}.\t`, font: FONT, size: SIZE, bold: true, italics: true }),
+          ...inlineRuns(text, { bold: true, italics: true }),
+        ],
+        spacing: { before: 200, after: 100, line: SINGLE },
+      }));
+      i++; continue;
+    }
+
     if (s.startsWith('### ')) {
       flushPara();
       let text = s.slice(4).trim().replace(/^[A-Z]\.\s*/, '');
-      h2Letter++;
+      h2Letter++; h3Number = 0;
       const label = LETTERS[h2Letter - 1] || String(h2Letter);
+      const lvl = HEADING_LEVELS.letter;
       children.push(new Paragraph({
-        children: inlineRuns(`${label}. ${text}`, { bold: true, italics: true }),
+        tabStops: [{ type: TabStopType.LEFT, position: lvl.left }],
+        indent: { left: lvl.left, hanging: lvl.hanging },
+        children: [
+          new TextRun({ text: `${label}.\t`, font: FONT, size: SIZE, bold: true, italics: true }),
+          ...inlineRuns(text, { bold: true, italics: true }),
+        ],
         spacing: { before: 200, after: 100, line: SINGLE },
       }));
       i++; continue;
@@ -205,11 +241,19 @@ function convert(cfg) {
         }));
         i++; continue;
       }
-      h1Counter++; h2Letter = 0;
-      children.push(new Paragraph({
-        children: inlineRuns(`${toRoman(h1Counter)}. ${heading}`, { bold: true }),
-        spacing: { before: 280, after: 160, line: SINGLE },
-      }));
+      h1Counter++; h2Letter = 0; h3Number = 0;
+      {
+        const lvl = HEADING_LEVELS.roman;
+        children.push(new Paragraph({
+          tabStops: [{ type: TabStopType.LEFT, position: lvl.left }],
+          indent: { left: lvl.left, hanging: lvl.hanging },
+          children: [
+            new TextRun({ text: `${toRoman(h1Counter)}.\t`, font: FONT, size: SIZE, bold: true }),
+            ...inlineRuns(heading, { bold: true }),
+          ],
+          spacing: { before: 280, after: 160, line: SINGLE },
+        }));
+      }
       i++; continue;
     }
 
