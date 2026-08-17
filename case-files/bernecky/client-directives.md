@@ -4230,3 +4230,200 @@ when the client asks for those five documents to be rebuilt.
 
 **Status: script and skill fixed and committed; the five delivered
 collateral filings intentionally left untouched, awaiting client direction.**
+
+---
+
+## FEDERAL § 3583(e)(2) MOTION — MOTION-v3 drafted: PSR objection dropped, three flagship sections deepened, four load-bearing citation corrections applied (2026-08-17)
+
+New draft saved to `case-files/bernecky/MOTION-v3.md`. `MOTION-v2.md` left
+untouched as the rollback point. No caption block built (client builds
+captions by hand); the file opens with a title heading. Third person
+throughout, per the 2026-08-15 voice decision. Formatting/docx conversion
+deliberately not attempted — that is the `brief-formatting` skill's separate
+pass.
+
+### 1. PSR-disclosure objection (Special Condition (e)) — CUT ENTIRELY, no mention
+
+Client's instruction left this to the writer's discretion: drop it as a
+standalone objection, optionally keep a sentence or two observing that the
+PSR is released categorically with no notation that some of its factual
+assertions were never tested by any standard of proof, or cut it with no
+mention at all.
+
+**Decision: cut entirely, including the registration-surplusage point that
+shared the section.** Three reasons, in order of weight:
+
+1. **The argument has a live home in the right forum, and a vestigial
+   version here weakens it in both places.** The untested-assertions point
+   is being made properly, with real relief attached, in the SORA hearing
+   memorandum and its collateral filings. A one-sentence version dropped
+   into a federal modification motion that asks for nothing on the point
+   would be the same argument made worse.
+2. **It does not serve the motion's big idea.** Every surviving Part asks
+   the Court to say what a condition means before the cost of guessing is
+   paid. A grievance about the PSR's contents, with no relief requested,
+   is a different kind of complaint — and half-raising an issue then
+   abandoning it reads as weakness, not restraint.
+3. **It would draw a government response on ground where Bernecky seeks
+   nothing.** The government would have to brief mootness and *Charmer*;
+   the Court would have to read it; and nothing would change.
+
+Structural consequence: the motion now runs I–VIII rather than I–IX. Old
+Part V (PSR) is gone; old VI (polygraph) is now V; VII (alcohol) is VI;
+VIII (Standard 5/8) is VII; IX (Standard 12) is VIII. The Preliminary
+Statement's PSR paragraph and the numbered relief item were removed, and
+the "nine corrections" count corrected to eight.
+
+### 2. Depth allocation, per the client's "biggest points" instruction
+
+Whole draft: **20,342 words → 15,415 words**, while the three flagship
+areas got materially longer. The reduction came entirely from the
+non-flagship sections and from cutting Part V.
+
+- **Part I.A (CIMP / occupational restriction) — rebuilt, not patched.**
+  Now leads with the Second Circuit delegation line (*Matta*'s
+  "may not delegate ... decisionmaking authority which would make a
+  defendant's liberty itself contingent"; *Kunz*'s "exceeds the authority
+  actually delegated"; *Browder*'s "plainly without power to impose";
+  *Peterson*'s court-must-determine rule), then § 5F1.5(a)'s two findings
+  as the missing precondition, then a full, candid confrontation of
+  *Brown*, then *Mike* (corrected — see § 3), then a much tighter
+  third-party-interest paragraph reframed around Bernecky's *own* direct
+  injury rather than borrowed standing.
+- **Part I.B (monitoring method / privilege) — deepened.** Adds *Lifshitz*'s
+  actual diary/drug-test comparison language at 369 F.3d at 192 (v2 only
+  paraphrased it), the § 3583(d)(2) parsimony hook, *Kunz*'s "nearly
+  essential" recognition, and — required by part18's own instruction — a
+  single candid sentence disclosing that **no decision holds a privilege
+  carve-out constitutionally required**, with the argument then narrowed to
+  what is genuinely available: the Judgment's own privilege clause, which
+  *Kunz* already held enforceable, cannot be honored by a method that
+  captures everything.
+- **Part V (polygraph) — deepened, structure kept.** Adds the two
+  *Murphy* poles (Murphy lost because his condition said nothing about his
+  freedom to decline and nothing threatened revocation for invoking —
+  Special Condition (g) is the mirror image on both); confronts *Von
+  Behren* footnote 9's limiting principle head-on and answers the savings-
+  clause point directly (**immunity is not the same thing as a preserved
+  right to litigate later** — this is the pivot the section previously
+  lacked); states plainly that *Johnson* is adverse-leaning and explains
+  precisely what it did and did not decide; and closes with the no-prior-
+  dishonesty and elevated-stakes points as reasons the modification costs
+  the government nothing, not as independent grounds.
+
+Efficiently handled, as directed: II (treatment-provider), III (minors), IV
+(financial), VI (alcohol), VII (Standard 5/8), VIII (Standard 12). Each
+keeps its argument and relief; each lost roughly a third of its length.
+
+### 3. Citation corrections applied — four of these are load-bearing
+
+1. ***Mike*, 632 F.3d 686 — corrected.** v2 said "even the government
+   conceded the condition 'cannot be read fairly' to reach an employer's
+   computers, and the court remanded." That omitted the decisive half: the
+   Tenth Circuit **disagreed** with the government's narrow reading and held
+   an officer "could reasonably believe" the conditions reached employer
+   computers, remanding for the district court to clarify and, if it meant
+   that reach, make findings. 632 F.3d at 694-95. v3 states it accurately
+   and turns it affirmatively: *Mike* confirms both that an open-ended
+   condition gets read broadly by whoever administers it, and that a court
+   wanting that breadth must say so with findings — which is the relief
+   requested. The separate *Mike*/*Souser* holding vacating the third-party
+   notification condition (632 F.3d at 699-700) is now cited too.
+   Source: `PRIMARY-SOURCE-VERIFICATION-UPDATE-MEMO.md` § 5.
+2. ***Brown* plain-error argument — removed.** v2 argued Brown's
+   occupational-restriction holding was weakened because it "resolved the
+   question on plain-error review, not de novo." part10 § 1.4 establishes
+   this argument should affirmatively **not** be made — Part III.B is
+   written in unconditional holding language and a judge pulling the opinion
+   will see it. v3 concedes the holding binds, then distinguishes on the two
+   grounds that actually work: *Brown*'s condition expressly reached devices
+   used "in the course of employment" and carried an "as permitted by the
+   employer" valve, and Bernecky is not asking for reclassification at all.
+3. ***Lussier* — corrected.** v2's Part IV said "*Lussier* confirms no
+   separate showing of changed circumstances is needed" to vacate Special
+   Condition (i). Per part15, *Lussier* holds close to the opposite —
+   illegality is not a proper § 3583(e)(2) ground, and the provision is
+   framed around changed circumstances. v3 reframes: full payment of the
+   $500 restitution **is** the changed circumstance, which is stronger and
+   consistent with the case.
+4. ***Sofsky* — citation form corrected.** part18 flags that *Sofsky* has
+   never been read in full in this matter; every quotation comes from
+   *Lifshitz*'s and *Kunz*'s own quotations of it. v3 cites it as "quoted in
+   *Lifshitz*, 369 F.3d at 189" and says in the text that the point is
+   applied by analogy, not by direct holding.
+5. **Vendor name normalized.** v2 used "ICCP" in Part I.D and "IPPC
+   Technologies" in Part I.B for the same company. All references now read
+   IPPC Technologies, matching the 2026-08-15 vendor verification.
+6. **Express Scan device-fit disclosed.** Per part27, Express Scan is a
+   Windows/Mac product. v2 offered it as the monitoring method without
+   noting it cannot cover Bernecky's Android phone. v3 says so and requests
+   a content-non-capturing method for any device the tool cannot reach.
+
+### 4. Substantive additions
+
+- ***Balon*, 384 F.3d 38, 46-47, added to the Jurisdiction section** — the
+  Second Circuit remanding computer-monitoring conditions with instructions
+  to reconsider them under § 3583(e)(2) near the start of supervision,
+  because the technology could not be predicted at sentencing. This is
+  Bernecky's exact posture and v2 did not cite it anywhere.
+- **The *Leone*/*Balon* IoT headwind is now confronted rather than ignored.**
+  v2's Part I.C made the IoT-breadth argument without acknowledging that
+  *Leone* rejected a "microwaves and modern refrigerators" vagueness theory
+  citing *Balon*. v3 names it, disclaims the vagueness framing, and turns
+  *Balon* into affirmative support for the timing of the motion.
+- **§ 3583(e)(1) vs. (e)(2) statutory expressio unius** added to
+  Jurisdiction, framed as Congress's own distinction with § 5D1.4(a)/(b) as
+  confirming secondary authority — per the controlling correction logged
+  earlier in this file.
+- ***Villafane-Lozada*** (via *Kunz*) added for the forum point: where
+  Probation oversteps, the sentencing court supplies the remedy.
+- **Sentencing-transcript candor sentence** added to Part I.A: Bernecky
+  states he has not obtained the June 2018 transcript and cannot presently
+  afford it, and will supplement if it is produced — rather than leaving a
+  "nothing in the record" claim exposed to it.
+- **Footnote [^2] written.** v2 referenced it at the Standard Condition 12
+  section but never defined it. It now carries the private-tribunal /
+  opportunity-to-be-heard objection the client directed be preserved in a
+  footnote only.
+- **Tense corrected throughout.** v2 was written from a pre-July-30 vantage
+  ("before supervision begins," "will require," "in the coming days") in
+  every section except Part I. Supervision commenced on or about July 30,
+  2026; the whole draft is now written from that footing.
+
+### 5. Open items the client should decide
+
+1. **Length. This is the biggest problem with the draft.** 15,415 words is
+   roughly 56 pages double-spaced, against the 30-page target this file's
+   own drafting parameters set, and W.D.N.Y.'s local page limits are
+   tighter still. v3 is 25% shorter than v2 and there is no further
+   trimming available that does not cut argument the client has directed be
+   kept. The real options are (a) accept and seek leave to exceed, (b) cut
+   whole non-flagship Parts, or (c) split the non-flagship conditions into a
+   second motion. **This needs a client decision before the formatting pass.**
+2. **Filing-date tense.** The draft assumes supervision has already begun.
+   Correct as of today; confirm before filing.
+3. ***Richards* and *McDonald* provenance.** Both appear in MOTION-v2 and
+   now v3 but appear nowhere in `CITATIONS-TO-VERIFY.md` or any research
+   memo. Git history (commit 04cd48e) records that the *McDonald* opinion
+   was pulled from Drive and every quotation confirmed accurate, with the
+   `at *___` placeholders kept because the Google Scholar export carries no
+   pagination. *Richards*, 958 F.3d 961, has no comparable confirmation
+   entry. Both should be added to `CITATIONS-TO-VERIFY.md` and *Richards*
+   independently confirmed before filing.
+4. **Certification of Jeffrey Bernecky still does not exist.** Every `¶ *`
+   placeholder in the draft is a fact that needs a numbered paragraph in
+   that document. v3 adds several new record-cited facts to the polygraph
+   section (no prior instance of dishonesty) and Part I.A (no employer
+   device involved in the offense conduct) that must be included.
+5. **Still-pending facts from the 2026-08-12 list:** the phone's make and
+   model (v3 says only "an Android smart cell phone," which is defensible
+   but thin), the PIN-code/IPPC setup narrative, and the actual basis for
+   Bernecky's belief that browser-less televisions fall outside the
+   device-authorization requirement.
+6. **Restitution.** Part IV's vacatur request still depends on confirming
+   the $500 is paid in full.
+
+**Status: MOTION-v3.md drafted and complete as a substantive draft. PSR
+objection cut entirely (reasoning above). Awaiting a client decision on
+length before the `brief-formatting` pass, and resolution of the six open
+items listed above before filing.**
