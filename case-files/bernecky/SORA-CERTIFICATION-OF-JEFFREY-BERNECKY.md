@@ -27,7 +27,7 @@ Before: Hon. Karen Bailey Turner, J.C.C.
 
 Jeffrey Bernecky, appearing pro se, certifies as follows:
 
-1. I am the Respondent in this proceeding. I make this certification in support of my Memorandum of Law in Support of Respondent's Position, submitted in connection with the risk-level classification hearing scheduled for September 11, 2026. I have personal knowledge of the facts stated below, except where I state otherwise.
+1. I am the Respondent in this proceeding. I make this certification in support of my Memorandum of Law in Support of a Level Two Risk Classification, submitted in connection with the risk-level classification hearing scheduled for September 11, 2026. I have personal knowledge of the facts stated below, except where I state otherwise.
 
 2. I was the defendant in both of the federal criminal proceedings referenced in my Memorandum of Law: *United States v. Bernecky*, No. 6:11-CR-06045 (W.D.N.Y.), and *United States v. Bernecky*, No. 6:18-CR-06018 (W.D.N.Y.). The documents identified below as Exhibits A, B, C, and E are filings from those two case dockets, which I obtained from my own case files and records and which I recognize as true and correct copies of the documents they purport to be.
 
