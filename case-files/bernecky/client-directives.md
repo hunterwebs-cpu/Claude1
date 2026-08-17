@@ -4099,3 +4099,74 @@ title text.
 
 **Status: all six filings (memo + 5 collateral documents), in both `.docx`
 and `.pdf`, delivered to client. Formatting skill built and committed.**
+
+## EXHIBITS A THROUGH E ASSEMBLED AND PACKAGED WITH THE CERTIFICATION (2026-08-17)
+
+Client's instruction, verbatim: "I need you to pull the exhibits and package
+them in a single PDF with the appropriate cover pages and put them with the
+certification."
+
+**Sourced and verified all five exhibits against the Certification's own
+descriptions (`SORA-CERTIFICATION-OF-JEFFREY-BERNECKY.md` ¶¶3-6):**
+
+- **Exhibit A** — Government's Supplemental Sentencing Statement, filed
+  01/13/2012, Docket No. 6:11-CR-06045, Doc. 24 (W.D.N.Y.). Located in the
+  matter's Google Drive folder; confirmed by reading the document's own
+  case caption and filing stamp ("Case 6:11-cr-06045-DGL-JWF Document 24
+  Filed 01/13/12").
+- **Exhibit B** — Amended Sentencing Statement, filed 05/29/2018, Docket No.
+  6:18-CR-06018, Doc. 24 (W.D.N.Y.). Same Drive folder; confirmed by filing
+  stamp.
+- **Exhibit C** — Government's Statement with Respect to Sentencing
+  Factors, filed 04/24/2018, Docket No. 6:18-CR-06018, Doc. 18 (W.D.N.Y.).
+  Same Drive folder; confirmed by filing stamp. **Note:** the same Drive
+  folder also holds a same-titled document from the *2012* case (Doc. 21,
+  11/29/2011) — a different filing that is not one of the Certification's
+  named exhibits. Confirmed the 2018/Doc. 18 version, not the 2012/Doc. 21
+  version, was used.
+- **Exhibit D** — BOP Program Statement 1351.05, *Release of Information*
+  (as amended). Not in the Drive folder; fetched fresh from bop.gov. The
+  URL used earlier in this matter's research (`.../1351_005.pdf`) now
+  404s — bop.gov has since restructured its policy-document paths. Located
+  the current live copy at `.../1351_005_CN-2.pdf` (Change Notice 2, dated
+  March 9, 2016, amending the CN-1 version dated April 2, 2015) via a fresh
+  web search, and confirmed it is the right document and the right page by
+  finding the exact "threatened, assaulted, and/or seek protective
+  custody" passage this matter's memo already cites at "p. 17" — it appears
+  on the PDF's page 21, whose own printed header reads "PS 1351.05 ...
+  Page 17," an exact match.
+- **Exhibit E** — Defendant's Sentencing Memorandum, filed 01/06/2012,
+  Docket No. 6:11-CR-06045, Doc. 23 (W.D.N.Y.), by then-counsel Adrian J.
+  Burke, Esq. Same Drive folder; confirmed by filing stamp and by reading
+  the document itself (opens "UNITED STATES DISTRICT COURT ... SENTENCING
+  MEMORANDUM ... JEFFREY BERNECKY, Defendant ... ADRIAN J. BURKE... affirms
+  as follows"). **Flag, not a defect:** this 2012 memo has its own internal
+  "Exhibit A/B/C/D" references (character letters, a letter to the Court,
+  Linden Oaks correspondence, a DOJ letter) — a different, older lettering
+  scheme belonging to that 2012 filing itself, reproduced verbatim as part
+  of the historical record. Worth being aware of if anyone flips through
+  Exhibit E expecting its internal exhibit letters to mean the same thing
+  as the package's own A-E lettering — they don't; they're two unrelated
+  numbering schemes that happen to overlap.
+
+**Package built** (`case-files/bernecky/tools/build_exhibits.py`,
+reportlab + pypdf): a cover page (matching the matter's confirmed caption
+table, titled "EXHIBITS TO CERTIFICATION OF JEFFREY BERNECKY," with a full
+index of all five exhibits and their descriptions), then for each exhibit a
+divider page (large centered "EXHIBIT [letter]" plus its one-line
+description) immediately followed by that exhibit's own pages, unaltered.
+72 total pages (1 cover + 5 × (1 divider + N exhibit pages), N = 5, 5, 2,
+43, 11 for A-E respectively).
+
+**Verified:** every source PDF opened and page-counted before assembly;
+cover page, all five divider pages, and the first page of each exhibit
+rendered and visually reviewed (confirmed Exhibit E's scanned/image-based
+pages are legible, not corrupted, despite carrying almost no extractable
+text layer beyond the docket header — normal for a 2012-era scanned
+filing).
+
+Saved to `case-files/bernecky/filing-pdfs/2b-Exhibits-A-through-E.pdf`,
+alongside the Certification (`2-Certification-of-Jeffrey-Bernecky.pdf`),
+per the client's instruction to keep them together.
+
+**Status: delivered to client.**
