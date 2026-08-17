@@ -41,7 +41,11 @@ Jeffrey Bernecky, appearing pro se, certifies as follows:
 
 7. **Exhibit E.** Annexed hereto as Exhibit E is a true and correct copy of my Defendant's Sentencing Memorandum, filed January 6, 2012, in Docket No. 6:11-CR-06045, Doc. 23 (W.D.N.Y.), submitted on my behalf by my then-counsel, Adrian J. Burke, Esq.
 
-8. I submit this certification, and Exhibits A through E annexed to it, in support of my Memorandum of Law and my position that I should not be classified a Level Three sex offender.
+8. At my prior New York State SORA risk-level classification hearing before this Court in 2016 — the proceeding that resulted in my Level Two classification, later affirmed on appeal in *People v. Bernecky*, 161 A.D.3d 1540 (4th Dep't 2018), lv denied, 32 N.Y.3d 901 (2018) — the counsel assigned to represent me appeared for the first time on the day of the hearing itself, with no advance opportunity to meet with me, review my case, or prepare. That same counsel later filed the appeal that became the Fourth Department's 2018 decision without my knowledge or consent. I state this from my own personal recollection of that proceeding. I am not aware of any docket entry or other record in this matter's files that independently documents it, and I offer it here as my own account, not as an adjudicated fact.
+
+9. The Case Summary attributes to me, citing an unidentified document from my initial entry into the Bureau of Prisons, a report that I used hallucinogens, rarely, during the year before my arrest in my first case. I deny this attribution completely. I did not make that report, and I have never used hallucinogens. I make this denial based on my own personal knowledge of what I have and have not used and reported.
+
+10. I submit this certification, including the statements above, and Exhibits A through E annexed to it, in support of my Memorandum of Law and my position that I should not be classified a Level Three sex offender.
 
 ---
 
