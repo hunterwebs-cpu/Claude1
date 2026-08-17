@@ -3843,3 +3843,65 @@ ASCII copy for Bernecky's own review) from the corrected `.md` source, with
 the new caption, the filled-in address/phone, and the same Roman-numeral
 top-level section numbering used in the PDF, for consistency between the
 version Bernecky reviews and the version that gets filed.
+
+## MEMORANDUM OF LAW AS .DOCX, NO CAPTION — client is building the caption
+separately; heading numbering scheme corrected (2026-08-17)
+
+Client's instructions, verbatim: "the caption is wildly incorrect. give me
+the memo of law as a docx file n I will build the caption for you and then
+you can recreate it." and "the subheadings aren't lettered. you know, roman
+numerals for headings, then letters fr subheading, then numbers for sub sub
+heading. and you still have orphaned headings and subheadings."
+
+**Caption removed from this deliverable entirely**, per instruction — the
+client is building it and will supply it back for the coordinator to insert
+into a final version. Nothing about the caption-format research/verification
+done in the entry above is being treated as wrong or withdrawn; this is
+simply the client taking over that one piece of the document directly.
+Produced from `SORA-HEARING-MEMORANDUM-OF-LAW-DRAFT.md` starting at the title
+line, everything before it dropped.
+
+**Heading numbering scheme corrected** to Roman numerals / letters / numbers,
+three levels deep, and the "orphaned" (unlabeled) headings fixed:
+
+- **Level 1 — Roman numerals**, unchanged from the PDF fix already applied:
+  I. PRELIMINARY STATEMENT, II. STATEMENT OF FACTS, III. ARGUMENT,
+  IV. CONCLUSION.
+- **Level 2 — letters**, newly added: the five previously unlabeled
+  Statement of Facts subheadings ("The classification package...," "A record
+  without violence...," etc.) are now A. through E. This is the fix for the
+  client's "subheadings aren't lettered" point — these had no numbering at
+  all before.
+- **Level 3 — numbers**, converted from letters: the five subsections under
+  POINT II, previously labeled A. through E. inline in the source text, are
+  now numbered 1. through 5., since letters are now used one level up.
+
+**One structural judgment call, not yet confirmed with the client:** POINT I
+and POINT II, under ARGUMENT, are New York's own standard brief convention
+for major argument headings and were left exactly as "POINT I" / "POINT II"
+rather than folded into the letter scheme (i.e., not relabeled "B." and
+"D."). The all-caps descriptive title that follows each ("THE BOARD'S
+RECOMMENDATION RESTS ON...", "RESPONDENT SHOULD NOT BE CLASSIFIED...") was
+previously its own separate, unlabeled heading — this is very likely a
+second thing the "orphaned headings" comment was flagging — and is now
+merged into the same heading block as "POINT I"/"POINT II" rather than left
+standing alone. **Flagged for the client's confirmation**: this treats
+POINT I/II as already occupying the letter tier (by NY convention, not by
+an actual letter), rather than layering an additional "A./B." on top of
+them. If the client instead wants POINT I and POINT II themselves lettered
+or renumbered, that is a quick follow-up change.
+
+Verified via OOXML schema validation (passed) and a word-count integrity
+check against the source `.md` (ratio ~1.00, footnote text included, no
+content dropped) — LibreOffice is not available in this environment to
+render a visual preview (same network/package limitation encountered
+earlier in this matter with poppler-utils), so verification relied on
+pandoc text extraction plus the integrity check rather than a rendered
+preview image.
+
+Converter script: `case-files/bernecky/tools/md_to_docx_memo.js`. Output:
+`case-files/bernecky/filing-pdfs/Memorandum-of-Law-NO-CAPTION.docx`.
+
+**Status: delivered to client; awaiting the client's caption to merge back
+in, and awaiting confirmation on the POINT I/II numbering judgment call
+above.**
