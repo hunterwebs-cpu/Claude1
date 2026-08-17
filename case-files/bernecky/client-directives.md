@@ -3640,3 +3640,41 @@ represented hastily.
 **Status: logging only — awaiting the client's direction on whether/how to
 redeploy this into the Motion to Adjourn and/or the Application for
 Assignment of Counsel.**
+
+## Jeffrey Bernecky's own note on reading the memorandum, and new instruction:
+route both the same-day/appeal fact and a new disputed fact (hallucinogen use)
+through the Certification (2026-08-16)
+
+Bernecky's own reaction to the memorandum, relayed by the client: "Wow, yeah
+it's really good... Either way, wow, it's a great Motion!" He also raised one
+question of his own: the Case Summary attributes to him an admission of using
+hallucinogens, which he "denies completely," and asked whether it would serve
+any purpose to mention that dispute even though "it might not be directly
+relevant" — his own words: "that kinda pissed me off."
+
+**Primary-source location of this claim, found directly in the transcription**
+(`SORA-CLASSIFICATION-PACKAGE-TRANSCRIPTION.md`): "Notably, prior to the
+instant offense and upon his initial entry into the BOP, he reported the daily
+use of alcohol and marijuana and the rare use of hallucinogens during the year
+prior to his arrest for his first sex crime." This is attributed to an
+unidentified BOP intake document, not the 2010 agent interview or the 2017
+polygraph, and is not in this matter's files independently. Notably, the Case
+Summary's own text says, of this whole substance-use passage: "There are
+inconsistencies in what Mr. Bernecky reported relating to his use of alcohol
+and drugs" — the Board's own document already flags this account as internally
+inconsistent across sources (the PSR interview says he drank about once a week
+and tried marijuana "a couple of times"; the BOP intake account quoted above
+says "daily use of alcohol and marijuana" for the prior year) before the
+hallucinogen claim is even reached.
+
+**Client's instruction:** route both new items through the Certification of
+Jeffrey Bernecky (not, at least for now, into the main memorandum's argument) —
+(1) the same-day-counsel/appeal-without-consent fact from the prior SORA
+hearing, logged in the entry immediately above, and (2) Bernecky's own
+personal denial of the hallucinogen-use attribution, stated as his own
+certified account under CPLR 2106, consistent with how this matter has
+attributed disputed, unverifiable Case Summary claims throughout.
+
+**Status: ready to dispatch to the Writer** — add both items to
+`SORA-CERTIFICATION-OF-JEFFREY-BERNECKY.md` in Bernecky's own first-person
+certified voice, consistent with the document's existing paragraphs.
