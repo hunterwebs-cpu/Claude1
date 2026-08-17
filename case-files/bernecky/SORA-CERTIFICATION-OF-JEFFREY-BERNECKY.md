@@ -1,18 +1,18 @@
-STATE OF NEW YORK
 COUNTY COURT : COUNTY OF MONROE
+STATE OF NEW YORK
 
 ---
 
-In the Matter of the Application for a
-Risk Level Determination Pursuant to
-Article 6-C of the Correction Law
-(Sex Offender Registration Act) as to
+PEOPLE OF THE STATE OF NEW YORK,
+
+                    -against-
 
 **JEFFREY BERNECKY,**
 
-NYSID No. OS6430
+                    Respondent.
 
-Respondent, Pro Se.
+Index No. [_______]
+NYSID No. OS6430
 
 ---
 
@@ -45,7 +45,9 @@ Jeffrey Bernecky, appearing pro se, certifies as follows:
 
 9. The Case Summary attributes to me, citing an unidentified document from my initial entry into the Bureau of Prisons, a report that I used hallucinogens, rarely, during the year before my arrest in my first case. I deny this attribution completely. I did not make that report, and I have never used hallucinogens. I make this denial based on my own personal knowledge of what I have and have not used and reported.
 
-10. I submit this certification, including the statements above, and Exhibits A through E annexed to it, in support of my Memorandum of Law and my position that I should not be classified a Level Three sex offender.
+10. The Case Summary describes, using the label "sexual contact," two incidents from when I was a minor and a teenager: in 2005, when I was sixteen, on a day-camp bus, a 9-year-old child tried to sit on my lap; and in 2007, when I was eighteen, at an after-school program, a 12-year-old child sat down on my back. I disclosed both of these incidents myself, years later, to my own treatment providers, as part of my own treatment engagement — neither was detected or reported by any parent, employer, or child at the time, and neither resulted in any charge, arrest, or allegation of wrongdoing when it occurred. I did not initiate, arrange, or seek out either incident; each was a child climbing onto me during ordinary camp or after-school activity, not conduct I directed toward either child. I dispute that "sexual contact" accurately describes either incident as I disclosed it. That label was applied by the Case Summary, not by me, and I make this statement based on my own personal knowledge of what happened and what I disclosed, in both instances.
+
+11. I submit this certification, including the statements above, and Exhibits A through E annexed to it, in support of my Memorandum of Law and my position that I should not be classified a Level Three sex offender.
 
 ---
 
@@ -54,5 +56,6 @@ I affirm this ___ day of __________, 2026, under the penalties of perjury under 
 _______________________________
 Jeffrey Bernecky
 Respondent, Pro Se
-[Address]
-[Contact information]
+312 Lake Ave #7
+Rochester, NY 14608
+(585) 202-7634

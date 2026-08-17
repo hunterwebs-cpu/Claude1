@@ -3678,3 +3678,168 @@ attributed disputed, unverifiable Case Summary claims throughout.
 **Status: ready to dispatch to the Writer** — add both items to
 `SORA-CERTIFICATION-OF-JEFFREY-BERNECKY.md` in Bernecky's own first-person
 certified voice, consistent with the document's existing paragraphs.
+
+**Disposition: done.** Both items were added as Certification ¶8 (prior SORA
+hearing / same-day counsel / appeal filed without knowledge or consent) and
+¶9 (hallucinogen-use denial), each expressly attributed to Bernecky's own
+account and not asserted as adjudicated fact.
+
+## CAPTION FORMAT — corrected across all six filings; reverses an earlier,
+mistaken change made this same matter (2026-08-17)
+
+Client's instruction, verbatim: "as to the PDFs: is the the right caption
+format? I need this verified explicitly because it doesnt look right."
+
+**What was wrong.** Earlier in this matter, the coordinator instructed the
+Writer to replace the original adversarial "PEOPLE OF THE STATE OF NEW YORK
+-against- JEFFREY BERNECKY" caption on the four collateral drafts with an "In
+the Matter of the Application for a Risk Level Determination Pursuant to
+Article 6-C..." special-proceeding-style caption, on the mistaken belief that
+a civil SORA classification proceeding could not properly carry an
+adversarial criminal-style caption. That change was itself the error.
+
+**Verification performed.** Located and extracted (via direct PDF text
+extraction, not a summary or secondary source) the New York State Defenders
+Association's "A Defense Attorney's Guide to SORA Modification Proceedings,"
+which reproduces two actual sample captions used on filed SORA papers in New
+York trial courts. Both confirm the standard format is the adversarial
+criminal-style caption:
+
+```
+COUNTY COURT
+[COUNTY] COUNTY
+STATE OF NEW YORK
+--------------------------------------------------------------
+People of the State of New York,
+                                  [DOCUMENT TITLE]
+    vs.
+                                  Indictment #:_______
+                                  Index #: ___________
+[Name],
+                    Defendant.
+                                  NYSID #: _________
+--------------------------------------------------------------
+```
+
+**Correction applied.** Reverted all six filings (the memorandum and all
+five collateral documents) to this adversarial format, adding the Index
+No./NYSID No. fields the samples show and that this matter's earlier caption
+lacked:
+
+```
+COUNTY COURT : COUNTY OF MONROE
+STATE OF NEW YORK
+
+PEOPLE OF THE STATE OF NEW YORK,
+
+                    -against-
+
+JEFFREY BERNECKY,
+
+                    Respondent.
+
+Index No. [_______]
+NYSID No. OS6430
+```
+
+**One judgment call the client has not yet weighed in on:** the real sample
+caption uses "Defendant," not "Respondent," as the party designation. This
+matter's documents use "Respondent" throughout the body text of all six
+filings (hundreds of instances), consistent with SORA being a civil
+classification proceeding rather than a criminal prosecution of the pending
+matter. The coordinator kept "Respondent" in the caption rather than
+switching to "Defendant," reasoning that (1) "Respondent" is itself a
+defensible, commonly used designation for the subject of a SORA proceeding,
+and (2) matching the sample exactly on this one word would require a
+much larger and riskier find-and-replace across all six documents' body
+text, for a difference the sample source does not explain as substantively
+required. **This is flagged for the client's/Bernecky's own view — happy to
+switch to "Defendant" throughout if preferred.**
+
+**Status: applied and verified across all six `.md` source files.** PDF
+regeneration to follow with the corrected caption.
+
+## SIGNATURE-BLOCK CONTACT INFORMATION — address and phone filled in across
+all six filings (2026-08-17)
+
+Client's instruction, verbatim: "I forgot to tell you: 312 Lake Ave #7,
+Rochester, NY 14608 and phone 585-202-7634."
+
+Replaced the `[Address]` and `[Contact information]` placeholders in the
+signature block of all six `.md` filings with:
+
+```
+312 Lake Ave #7
+Rochester, NY 14608
+(585) 202-7634
+```
+
+Verified present at the expected location (immediately following "Jeffrey
+Bernecky / Respondent, Pro Se") in all six files.
+
+**Status: applied and verified.**
+
+## PDF LAYOUT — heading/spacing defects identified by the client from the
+first PDF batch; fixes in progress (2026-08-17)
+
+Client's instructions, verbatim: "an then, for instance, the memo of law,
+the title goes across the page with no break and then preliminary statement
+doesnt have a roman numeral so it is VERY VERY CONFUSING. looks like it is
+part of the papers title and not a heading." and "headings and subheading
+and titles should always be single spaced. same with block quotes."
+
+Three defects identified in the PDF converter script
+(`md_to_court_pdf.py`), all present in the first PDF batch sent to the
+client (built under the old caption, before this entry's fixes):
+
+1. Section headings (`## `) and titles (`# `) were set at `leading=24`
+   (double line-spacing), inherited from the body-text style, when court
+   rule only requires double-spacing for body text — headings, subheadings,
+   and titles read better, and are conventionally set, single-spaced.
+2. No visual separation distinguished the document title from the first
+   heading beneath it ("PRELIMINARY STATEMENT"), which — lacking any
+   numeral of its own — could be read as a continuation of the title itself
+   rather than a new section.
+3. Top-level structural headings (PRELIMINARY STATEMENT, STATEMENT OF
+   FACTS, ARGUMENT, CONCLUSION) carry no numbering at all, unlike POINT
+   I/POINT II and the lettered subsections beneath them, which already are
+   numbered.
+
+**Fix applied:** single-spaced heading/title styles; a visible rule plus
+added space between the title and the first heading; Roman-numeral prefixes
+auto-assigned to top-level (`## `) structural headings only, leaving POINT
+I/II and lettered subsections exactly as already numbered in the source
+text. No block quotes currently appear in any of the six documents, but the
+converter's blockquote handling (if/when needed) is being built
+single-spaced from the outset per this same instruction.
+
+**Status: script fixed, all six PDFs regenerated and re-verified** (visual
+preview of caption/heading pages, word-count integrity ratios all ~1.00-1.01
+across all six documents, no dropped content) and saved to
+`case-files/bernecky/filing-pdfs/`. Converter script committed to
+`case-files/bernecky/tools/md_to_court_pdf.py`.
+
+During re-verification, two further defects surfaced and were fixed in the
+same pass, both caught by the client directly from the first PDF batch and
+confirmed against the regenerated output:
+
+1. **Client instruction, verbatim: "you have to indent paragraphs."** Body
+   paragraphs had no first-line indent. Added a standard 0.5-inch
+   first-line indent to the body-text style; headings, the caption, and the
+   signature block are unaffected (they were never meant to indent).
+2. **A real rendering bug, found while verifying the fix above:** the
+   signature block's "Dated: ___, 2026" / venue line pair used a literal
+   `&nbsp;` HTML-entity sequence in the source Markdown to indent
+   "Rochester, New York" under the "Dated:" line. The PDF converter's
+   ampersand-escaping step (`&` to `&amp;`) ran before that entity was
+   interpreted, so it rendered as literal visible text `&nbsp;&nbsp;...`
+   instead of whitespace. Fixed by converting `&nbsp;` to a real
+   non-breaking space before escaping, and by keeping the venue line
+   attached to the same single-spaced "Dated:" paragraph rather than
+   letting it fall through into a justified, indented body paragraph.
+
+Also regenerated `SORA-HEARING-MEMORANDUM-OF-LAW-DRAFT.txt` (the plain-text
+ASCII copy for Bernecky's own review) from the corrected `.md` source, with
+the new caption, the filled-in address/phone, and the same Roman-numeral
+top-level section numbering used in the PDF, for consistency between the
+version Bernecky reviews and the version that gets filed.

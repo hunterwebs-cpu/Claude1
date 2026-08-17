@@ -1,18 +1,18 @@
-STATE OF NEW YORK
 COUNTY COURT : COUNTY OF MONROE
+STATE OF NEW YORK
 
 ---
 
-In the Matter of the Application for a
-Risk Level Determination Pursuant to
-Article 6-C of the Correction Law
-(Sex Offender Registration Act) as to
+PEOPLE OF THE STATE OF NEW YORK,
+
+                    -against-
 
 **JEFFREY BERNECKY,**
 
-NYSID No. OS6430
+                    Respondent.
 
-Respondent, Pro Se.
+Index No. [_______]
+NYSID No. OS6430
 
 ---
 
@@ -109,5 +109,6 @@ Respectfully submitted,
 _______________________________
 Jeffrey Bernecky
 Respondent, Pro Se
-[Address]
-[Contact information]
+312 Lake Ave #7
+Rochester, NY 14608
+(585) 202-7634
