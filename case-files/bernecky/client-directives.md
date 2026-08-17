@@ -3905,3 +3905,100 @@ Converter script: `case-files/bernecky/tools/md_to_docx_memo.js`. Output:
 **Status: delivered to client; awaiting the client's caption to merge back
 in, and awaiting confirmation on the POINT I/II numbering judgment call
 above.**
+
+## CLIENT SUPPLIED A FULLY REBUILT MEMO, INCLUDING HIS OWN CAPTION — merged
+in, caption realigned into a proper table (2026-08-17)
+
+Client uploaded `MemorandumofLawFIXED.docx`, with his own note: "I went to
+the lettering. in any event, I fixed A LOT. there were markdown errors
+showing through, the spacing for headings was off. this is how all that
+should look." On the caption specifically: "an errant line sits between the
+---X and preliminary statement that shouldn't be there but no matter what I
+tried I couldn't delete it. for the caption itself, my tabs weren't
+working... that is how it should LOOK. you should fix it to be better
+aligned nd tabbed etc but it MUST LOOK LIKE THE CAPTION I PROVIDED."
+
+**This client-built version is now the authoritative base document — his
+own rebuild of the body (headings, spacing, and the I./A./1. numbering
+scheme) was left completely untouched**, confirmed byte-for-byte identical
+before and after the coordinator's edit (checked from "PRELIMINARY
+STATEMENT" onward). Notably, the client's own rebuild answers the POINT
+I/II judgment call flagged in the entry above on his own terms: he dropped
+the "POINT I"/"POINT II" labels entirely and applied the Roman/letter/number
+scheme straight through — each Point's descriptive title is now itself a
+lettered ("A.", "B.") heading directly under "III. ARGUMENT," with its
+subsections numbered 1., 2., 3.... That resolves the open question; no
+further action needed there.
+
+**The caption content itself is also now controlling, superseding the
+"PEOPLE OF THE STATE OF NEW YORK -against-" caption researched and applied
+earlier in this matter.** The client rebuilt the caption in the "In re:
+Matter of the Application..." format (the one originally used in this
+matter before this session's since-reversed "correction"), now with an
+added right-hand column carrying the Index No./Hearing Date/Before fields
+and the document's own title — structurally similar to the two-column
+layout the NYSDA sample captions use, just with "In re:..." left-column
+content instead of "People v. [Name]." This is the client's own document,
+and per his explicit instruction the coordinator worked only with what he
+built rather than reintroducing the earlier researched format.
+
+**Two fixes made, both mechanical/technical, not substantive changes to his
+content:**
+
+1. **The "errant line."** Located in the raw XML: an empty paragraph
+   (`<w:p><w:pPr><w:spacing w:after="160"/></w:pPr></w:p>`) sitting between
+   the closing caption rule and the "PRELIMINARY STATEMENT" heading, with no
+   visible content — a stray artifact Word would not let him delete through
+   the UI (a known Word quirk with paragraphs adjacent to a numbered-list
+   paragraph). Removed directly in the XML.
+2. **The caption's two-column alignment.** The client had aligned the two
+   columns (party/case information on the left, Index No./Hearing
+   Date/Before/title on the right) using literal space characters typed
+   into single-column paragraphs — precisely the "my tabs weren't working"
+   problem, since space width in a proportional font does not produce
+   consistent column starts when the preceding text length varies line to
+   line (confirmed visually: "Index No," "Hearing Date," and "Before,"
+   started at three different horizontal positions in his version).
+   Rebuilt as a real borderless two-column table carrying the identical
+   text, so every row's right column now starts at exactly the same
+   position. Content, bolding, and italics preserved exactly as he wrote
+   them.
+
+**One substantive discrepancy caught and corrected, flagged here for
+confirmation:** the client's caption read "Before: Hon. Karen Bailey,
+J.C.C." — dropping "Turner" from the judge's name used consistently
+everywhere else in this matter (the hearing notice, every other filing's
+caption, and this matter's own records: Hon. Karen Bailey Turner, J.C.C.).
+Treated as an inadvertent drop while retyping the caption by hand, not an
+intentional change, and restored to "Hon. Karen Bailey Turner, J.C.C." in
+the merged version. **Flagged for the client's confirmation** — if the
+correct form is in fact just "Karen Bailey," say so and it will be
+corrected back.
+
+**Not raised as an error, flagged only as worth the client's attention:**
+the new document title, "RESPONDENT'S MEMORANDUM OF LAW IN SUPPORT OF HIS
+MOTION FOR DOWNWARD DEPARTURE," frames the relief sought as a discretionary
+downward departure from an otherwise-established presumptive level. The
+Point A/B argument structure itself does not make a departure argument (an
+express request that the Court deviate from a presumptive risk level based
+on aggravating/mitigating factors) — it argues the Board has not met its
+clear-and-convincing burden on the public-safety element in the first
+place, i.e., that no properly-proven presumptive Level Three exists to
+depart from. Both are legitimate theories, but they are analytically
+different, and a title invoking "departure" could read, to the Board or the
+Court, as conceding the presumptive level is otherwise sound. Not changed
+without the client's direction, since this is a framing choice, not a
+formatting error.
+
+Verified: OOXML schema validation passed; document body confirmed
+byte-identical to the client's upload outside the caption region;
+rendered and visually reviewed page-by-page after LibreOffice Writer and
+poppler-utils became available in this environment (both were successfully
+installed this session, resolving the earlier "cannot render/verify a
+`.docx` in this environment" limitation noted in the entry above).
+
+Saved to `case-files/bernecky/filing-pdfs/Memorandum-of-Law.docx`
+(replacing the earlier no-caption placeholder file of the same series).
+
+**Status: delivered to client. Awaiting confirmation on the "Karen Bailey
+Turner" fix and the "downward departure" title framing point.**
