@@ -3577,3 +3577,66 @@ removed. The inline "Ex. A," "Ex. B," etc. citations throughout the body of
 the memorandum are unaffected and remain exactly as written.
 
 **Status: logging only — no other edits authorized by this entry.**
+
+## COLLATERAL FILINGS — correction: the "counsel showed up day-of with no time
+to prepare" incident was the prior SORA hearing, not the 2018 federal case —
+and a new, serious fact: the resulting appeal was filed without Bernecky's
+knowledge or consent (2026-08-16)
+
+Client's correction, verbatim: "where Bernecky had assigned counsel show up
+day of was for his prior SORA hearing. And they indeed filed that appeal
+without Bernecky's knowledge or consent."
+
+**This corrects, and significantly upgrades, the coordinator's own prior
+conclusion that the "counsel assigned day-of, no time to prepare" claim was
+inaccurate.** The coordinator checked the 2018 *federal* docket (AFPD Hosken,
+appointed 12/12/2017, ~6 months before the June 2018 sentencing) and correctly
+found that account did not support a same-day/no-prep narrative — that finding
+stands and that federal-case example was correctly dropped from the
+Adjournment Motion and the Application for Assignment of Counsel. **But the
+client is now identifying a completely different, and more directly relevant,
+episode: Bernecky's *prior New York SORA classification hearing*** — the 2016
+Monroe County proceeding that produced the Level Two classification later
+affirmed in *People v. Bernecky*, 161 A.D.3d 1540 (4th Dep't 2018), lv denied,
+32 N.Y.3d 901 (2018) (both already independently confirmed elsewhere in this
+matter's research). Per the client: at that prior SORA hearing, assigned
+counsel appeared the day of the hearing, with no advance opportunity to
+prepare — and that same counsel subsequently **filed the appeal that became
+the 2018 Fourth Department decision without Bernecky's knowledge or
+consent.**
+
+**Why this is a stronger example than the one just removed:** it is not a
+different (federal, criminal-sentencing) proceeding offered by analogy — it
+is *the same kind of proceeding as the one now before this Court*, a New York
+SORA classification hearing, making it directly on point rather than
+analogical. It is also a considerably more serious fact than "insufficient
+prep time" alone — appellate counsel taking an appeal without the client's
+knowledge or authorization raises a real question about whether Bernecky's
+interests were actually represented in that proceeding at all, not merely
+represented hastily.
+
+**What needs to happen before this goes into any filing:**
+1. **Sourcing/attribution.** This is currently client testimony, not a
+   documented fact. It can be included in the collateral filings, but should
+   be attributed to Bernecky's own account (consistent with this matter's own
+   Failure 6 discipline) — most naturally through his own Certification under
+   CPLR 2106, where he can state it under penalty of perjury as a matter of
+   his personal knowledge, exactly the kind of first-person authentication
+   that document already exists to provide. It should not be asserted as an
+   adjudicated or independently documented fact until/unless a docket entry,
+   notice of appeal, or other record confirms it.
+2. **Scope question, not yet resolved — client should weigh in:** should this
+   fact be added to the Motion to Adjourn and/or Application for Assignment of
+   Counsel (where it would replace the dropped federal-case example with a
+   more accurate and more on-point one), or is this better preserved
+   separately as the seed of a future, distinct argument (e.g., about the
+   effectiveness of representation at the prior SORA hearing itself, which is
+   a different question from simply needing more time to prepare for *this*
+   hearing)? Using it here would be for the narrower "same-day assignment
+   causes real prejudice" point only — not for relitigating the prior
+   hearing's outcome, which is a materially different and larger use of the
+   same fact.
+
+**Status: logging only — awaiting the client's direction on whether/how to
+redeploy this into the Motion to Adjourn and/or the Application for
+Assignment of Counsel.**
