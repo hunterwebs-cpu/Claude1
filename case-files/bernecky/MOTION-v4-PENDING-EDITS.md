@@ -204,3 +204,22 @@ say he uses duck duck go. only offer it as an example." Rework so
 DuckDuckGo is cited as an illustrative example of tracker-blocking-as-
 default-mode generally, not as a factual claim about what Bernecky
 personally uses.
+
+## 16. General note: the whole draft needs to shed word count.
+
+Client, verbatim: "when the writer receoeved the file back, it is going to
+have to reduce its word usage. for instance, the statement of facts need
+not be this long[;] a fact relevant to each condition can be presented
+within the argument. but also some of the explanations are just w[a]y too
+verbose." Two distinct instructions:
+- **Statement of Facts should be shorter overall** — a fact that's only
+  relevant to one particular condition doesn't need to sit in the general
+  Statement of Facts; it can be introduced within that condition's own
+  Argument section instead, where it's actually used, rather than
+  front-loading everything.
+- **Separately, some of the explanatory prose throughout is just too
+  verbose** — a general tightening pass, not tied to any one passage; the
+  Writer should read for this on its own next round, on top of the
+  specific line-level cuts logged above.
+
+Client is still reading through v4 — more notes to follow.
