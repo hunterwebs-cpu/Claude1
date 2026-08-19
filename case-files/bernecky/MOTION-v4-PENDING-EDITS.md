@@ -370,4 +370,46 @@ silent going forward, and is the real basis for resolving the Fifth
 Amendment question now rather than waiting. Rewrite this subsection around
 that fact rather than around a scheduling premise that isn't accurate.
 
+## 21. Alcohol abstinence (Part V) needs a "why now," and there's a live factual hook for it.
+
+Client, verbatim: "alcohol abstinence. the why now is bernecky[']s
+prescribed medication and is in therapy. nobody has t[old] him he cannot
+have any alcohol." Part V currently has no "why now"/present-circumstances
+framing the way other sections do. Add one built on this fact: Bernecky is
+presently both in treatment and taking prescribed medication — meaning the
+clause's own disjunctive trigger ("while in treatment *or* taking
+psychotropic medication") is actually live for him right now — yet nobody
+has told him he may not have any alcohol at all. That gap between what the
+condition's text would require if enforced literally and what is actually
+being communicated to him is the same kind of unclear/as-administered
+problem running through the rest of the motion (silence, unfettered
+discretion) and gives this section a concrete present-tense hook rather
+than resting only on the abstract *Betts*/*Rodriguez* nexus argument.
+
+## 22. Polygraph — add a point about immunity needing to be full, cross-jurisdictional immunity, and this district's SR practice being a national outlier.
+
+Client, verbatim: "back to poly for a second. we should mention that the
+sr context in this district appears to be the only place in the country
+that has departed from the supreme court's jurisprudence on compelled self
+testimony. without immunity, and I mean full immunity from ALL
+JURISDICTIONS, you don't have to answer." Two components to add to the
+existing immunity discussion (which already covers *Murphy*'s "may not be
+used in a criminal proceeding" language and *Von Behren* footnote 9's
+immunity/preserved-right-to-litigate distinction): (1) sharpen the point
+that for immunity to function as the Fifth Amendment's own substitute for
+the privilege, it must be full immunity effective across all jurisdictions
+that could prosecute — not just a promise limited to this proceeding or
+this sovereign — since a promise that leaves any jurisdiction free to use
+the statement does not actually remove the risk of self-incrimination; (2)
+the claim that this district's (or this SR context's) practice is a
+national outlier from Supreme Court immunity doctrine is a strong,
+checkable claim that **needs real verification before it goes in a
+draft** — this requires either a genuine survey of how other districts
+structure SR polygraph conditions and their savings/immunity clauses, or
+at minimum honest sourcing for the "only place in the country" claim; do
+not assert it as fact without confirming it, and if it can't be confirmed,
+present the doctrinal point (immunity must be full and cross-jurisdictional
+to substitute for the privilege) without the unverified national-outlier
+claim riding on top of it.
+
 Client is still reading through v4 — more notes to follow.
