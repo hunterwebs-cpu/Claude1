@@ -438,4 +438,20 @@ with this particular officer; the reason for raising the condition is
 forward-looking clarity, not remedying an existing conflict) can stay, but
 it should be stated directly rather than as a passive disclaimer.
 
+## 25. Standard Condition 12 — state plainly this is Bernecky's first real opportunity to raise the facial objection.
+
+Client, verbatim: "condition 12. the reason he is making [the fa]cial
+objection is this is the first opportunity. boles and the standing order
+were both entered after bernecky's conviction became final." The second
+paragraph of Part VII (the "private tribunal" structural objection to the
+corrected condition) currently justifies raising it now only as "so that it
+is not later treated as waived." Add the stronger, more concrete point:
+both *Boles* (2019) and the District's standing order implementing it
+(March 22, 2019) post-date Bernecky's own conviction becoming final (June
+2018) — meaning this motion is genuinely his first real opportunity to
+raise a facial objection to the corrected condition's structure, not merely
+a precautionary preservation of an argument he could have made earlier.
+State that plainly alongside, not instead of, the existing
+not-waived framing.
+
 Client is still reading through v4 — more notes to follow.
