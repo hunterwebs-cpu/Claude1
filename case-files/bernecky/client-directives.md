@@ -4935,3 +4935,52 @@ client has finished the current read-through.
 
 **Status: logging only. Researcher dispatched separately (see below). Writer
 not dispatched. Awaiting client's full read-through of MOTION-v4.md.**
+
+## MORE ITEMS FROM THE CLIENT'S READ OF v4, AND A CORRECTED PROCESS —
+coordinator's direct edit to MOTION-v4.md reverted (2026-08-19)
+
+**Process correction, repeated and now actually followed: the coordinator's
+prior direct edit to MOTION-v4.md (the "she told Bernecky, not the company"
+fix, commit e10e256) has been reverted (commit 94cb6c8).** Client's
+instruction, verbatim: "reverse the edits you did. only thr writer does
+edits." The underlying factual correction is not wrong and is not being
+abandoned — see the entry above, "she told bernecky that. we don't know what
+was said to the company" — it is being routed to the Writer's next drafting
+pass instead of applied directly. **Going forward: during a client
+read-through pass, the coordinator does not edit MOTION-v4.md (or any
+filing) directly under any circumstances, including narrow factual fixes
+that look mechanical. Every correction, no matter how small, is logged here
+for the Writer to apply.**
+
+**6. Strike this passage entirely:** "Mr. Bernecky does not fault his
+probation officer for being asked a hard question by a worried employer.
+But she was not without an answer. The law supplied one, and it does not
+depend on what the employer requested or on what she judged sufficient: a
+probation officer has no authority to add a restriction the condition does
+not contain." Client's instruction: "strike this." No reason given beyond
+the instruction itself — the Writer should not assume a specific rationale
+(e.g., this may relate to note #3 above about not characterizing the
+employer's position, or to note #6's own excusing-then-not-excusing
+framing) and should simply remove it; the surrounding paragraphs' logic
+should be checked to make sure the transition still reads cleanly once it's
+gone.
+
+**7. Fix an unsupported factual presumption re: the CIMP Agreement's
+existence in 2018.** The passage at issue asserts (or the Writer's next
+draft should avoid asserting) "It did not exist in 2018" about the CIMP
+Participant Agreement (Exhibit A). Client's correction, verbatim: "we don't
+know if the current cimp existed in 2018. that is a presumption. but we do
+know this: it was not entered into evidence or attached to the psr." Replace
+any claim that the Agreement didn't exist at sentencing with the narrower,
+actually-supported claim: whether or not the current Agreement existed in
+some form in 2018, it was not entered into evidence and was not attached to
+the PSR — meaning it was never before the sentencing court regardless of
+when it came into existence. This is a meaningfully different and more
+defensible claim than "it did not exist," and the as-applied argument built
+on Exhibit A should rest on the record-based version, not the existence
+claim.
+
+**Status: logging only — items 6 and 7 above added to the backlog from this
+same read-through pass. Direct edit reverted, confirmed via diff (line 44
+of MOTION-v4.md matches the pre-edit original). Writer still not dispatched;
+awaiting the client to finish reading v4.**
