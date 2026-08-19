@@ -427,4 +427,15 @@ fact — not something available to raise at sentencing — and gives the
 vagueness/no-stated-standard argument a genuine "why now" rather than
 resting only on the abstract *Reeves*/*Matta* delegation analysis.
 
+## 24. Passive/hedging framing on the felon-contact condition.
+
+Line: "Mr. Bernecky is not aware of a dispute with his probation officer on
+this point, and he does not raise one. He raises the condition because..."
+Client: "I don't like this passive framing." Rewrite affirmatively —
+consistent with the client's standing instruction elsewhere in this pass
+against hedging/disclaiming language. The substance (no known live dispute
+with this particular officer; the reason for raising the condition is
+forward-looking clarity, not remedying an existing conflict) can stay, but
+it should be stated directly rather than as a passive disclaimer.
+
 Client is still reading through v4 — more notes to follow.
