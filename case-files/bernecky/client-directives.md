@@ -4822,3 +4822,125 @@ association, and risk notification. v3 had no comparable through-line.
 
 **Status: MOTION-v4.md complete as a substantive draft. Awaiting the client on
 items 1–3 and 6 above before the `brief-formatting` pass.**
+
+## FEDERAL § 3583(e)(2) MOTION — MOTION-v5 drafted: 25 client edit notes applied, Statement of Facts redistributed, general tightening pass (2026-08-19)
+
+Saved to `MOTION-v5.md`. v4, v3, v2 untouched.
+`MOTION-v4-PENDING-EDITS.md` reset to its header per its own stated purpose;
+the 25 notes live in this session's git history.
+
+### Approach: one continuous pass, not surgical patches
+
+The 25 notes touched every Part of the document, and item 16 required moving
+condition-specific facts out of the Statement of Facts into the Argument
+sections that use them — a document-wide reorganization, not a set of local
+fixes. Patching that in place would have left stale transitions everywhere.
+So v5 was written as a single front-to-back pass over the settled v4
+structure: same seven Parts, same headings, same verified citations, new
+prose where the notes required it and compressed prose throughout. This is
+the "reorganization + targeted edits" category, not a rebuild — the theory of
+the case is unchanged.
+
+### Length
+
+12,281 words vs. v4's 12,276 — flat. That number understates the cut: roughly
+1,500 words of new client-ordered content went in (Hunter, CVSA, the CJA
+point, the SORA "why now," the immunity/cross-jurisdiction point, three new
+"why now" hooks, the Item 17 independent objection), so about the same volume
+of explanatory prose came out. The Statement of Facts went from ~1,000 words
+to ~240; the wherefore clause now cross-references each Part's own relief
+paragraph instead of restating it. **Still over the 30-page target and
+W.D.N.Y.'s page limits — same three options as before: seek leave to exceed,
+cut argument the client directed be kept, or split.**
+
+### What changed substantively
+
+- **Part I.A** now leads with expressio unius — silence in the judgment is
+  intentional and the Judgment is the judgment — with *Matta* demoted to a
+  supporting delegation point. Employer dropped as a decisionmaker whose
+  discretion is being cabined; the argument runs solely against Probation's
+  authority. The "roadmap" sentence, the "does not fault his probation
+  officer" passage, and the "inadvertence" framing are gone.
+- **Part I.B** now opens on the Judgment's own NOTICE requirement, which sets
+  up Item 3's notice→permission vice. Item 17 is now independently objected
+  to on three grounds (judgment-expansion, *Kunz*'s narrowing reaching only
+  the https absurdity, and pre-approval being unworkable). Relief request (5)
+  rewritten to prohibit only circumvention/suppression — no pre-approval
+  mechanism proposed for either Item. Item 21 now has an explicit ask. The
+  Roku lock is framed as active prohibition rather than surveillance. Tablet
+  overgeneralization fixed. DuckDuckGo is an example, not his browser. CIMP
+  Agreement described as never before the sentencing court rather than as
+  not existing in 2018.
+- **Part I.D** ties the YouTube exchange directly to the *Peterson*/*Matta*
+  unfettered-discretion line rather than leaving it as an ambiguity example.
+- **Jurisdiction** now states that changed circumstances include changes in
+  law, listing the post-2018 authority the motion runs on.
+- **Part III** states restitution and the special assessment are paid in full;
+  the Special Condition (i) vacatur request is no longer conditional.
+- **Part IV** gained: CVSA folded into the substantive analysis; *Hunter*;
+  the Kastigar/Waterfront Commission point that immunity must be
+  cross-jurisdictional, anchored to the Judgment's own PSR-to-New-York
+  release provision; a rewritten "why now" built on the live SORA proceeding
+  rather than a scheduling premise; and the CJA counsel-invocation point tied
+  to § 3006A(a)(1)(E), which also produces a new request for appointed
+  counsel on this motion (new item 11 in the wherefore clause).
+- **Parts V, VI, VII** each gained a concrete "why now": alcohol (in
+  treatment *and* on prescribed medication, nobody has told him no alcohol);
+  residence (supervision began July 2026, never told the standard, looked and
+  couldn't find one); Condition 12 (*Boles* and the standing order both
+  postdate his June 2018 final conviction, so this is the first real
+  opportunity for the facial objection). Felon-contact passive disclaimer
+  rewritten affirmatively.
+
+### Verification — what held and what didn't
+
+1. ***Hunter* — CONFIRMED at primary source.** No separate Hunter file was in
+   the case folder, but the client had uploaded the slip opinion to Drive
+   (`24-1063_5ifl.pdf`). It is byte-identical (MD5 match) to the PDF pulled
+   directly from supremecourt.gov, which was text-extracted and read. Quotes
+   cited to slip op. 11, 12, and 10 (Gorsuch, J., concurring) are verbatim
+   from that text. Kavanaugh's concurrence (joined by Alito and Barrett) is
+   accurately described. **Hunter is used as a measure of how seriously the
+   Court treats a constitutionally infirm SR condition — not as a claim about
+   any waiver in Bernecky's own case.** No plea agreement has been located in
+   this matter, so nothing is asserted about whether he has an appeal waiver,
+   and the researcher's structural caution is respected: Hunter reinforces,
+   it does not substitute for, the changed-circumstances showing.
+2. **Android EULA — NOT CONFIRMED; claim not made.** Google's Managed Google
+   Play Agreement contains no term restricting Device Owner mode to
+   company-owned equipment, so "Probation and the vendor are violating the
+   express terms of the Android EULA" would not survive a check. What is
+   documented is Google's own definition of the tier as "intended for
+   company-owned devices that are used exclusively for work purposes," which
+   the draft quotes. **The stronger argument is the one v5 makes anyway:
+   Special Condition (a) authorizes surveilling activity, not enrolling a
+   personally owned phone in a tier carrying remote wipe and app control —
+   a Kunz/Browder exceeds-the-delegation point.** A EULA breach between
+   Google and a vendor would give Bernecky no remedy in any event.
+3. **"Only place in the country" — NOT CONFIRMED; claim dropped.** A national
+   survey of how districts structure SR polygraph immunity clauses is not
+   something that could be honestly sourced, and what searching did turn up
+   cuts against it (some jurisdictions do grant immunity for disclosures in
+   sex-offense treatment). The doctrinal point is kept and sharpened instead,
+   on *Kastigar* (immunity must be coextensive with the privilege) and
+   *Murphy v. Waterfront Comm'n* (the privilege runs across sovereigns) —
+   with the Judgment's own Special Condition (e) PSR-release provision as the
+   concrete, case-specific proof that material here travels to New York.
+4. **Bank encrypted email — used illustratively only.** Appears in a list of
+   ordinary encryption encounters ("a bank that delivers statements through a
+   secure message portal"), with no assertion about Bernecky's actual bank.
+
+### Open items for the client
+
+1. **Certification still does not exist.** Every `¶ __` needs a numbered
+   paragraph. v5 adds several beyond v4's set: restitution and the special
+   assessment paid in full; the SORA proceeding and the use of his treatment
+   statements in it; that he is currently in treatment and on prescribed
+   medication and nobody has told him no alcohol; and that he has never been
+   told the residence-approval standard and could not locate one.
+2. **Length still exceeds the page limit.** See above.
+3. **Carried forward, unchanged:** Judgment page pincites (still cited as
+   `Dkt. No. 28, Special Condition (a)`); the fee/ability-to-pay argument
+   remains deliberately absent; the vendor is still never named; *Sofsky* and
+   *Rodriguez* still carry `[VERIFY]` from prior rounds and should be pulled
+   before filing.
