@@ -222,4 +222,50 @@ verbose." Two distinct instructions:
   Writer should read for this on its own next round, on top of the
   specific line-level cuts logged above.
 
+## 17. Items 9 and 17 (encryption) — clarify whether Item 17 is actually being objected to, and why.
+
+Client, verbatim: "item 9 and 17. so are we objecting to item 17 or not? if
+not why is it mentioned at all? I think we are objecting as an expansion of
+the judgment. but also because encryption goes far beyond https websites
+that[] kunz discussed."
+
+The current draft (Part I.B, "Items 9 and 17 — encryption") cites *Kunz*'s
+narrowing construction of language "word for word the same" as Item 17,
+notes *Kunz* did not strike that language, and then pivots to argue Item 9
+"needs a narrowing that goes beyond what *Kunz* had occasion to give" — but
+never states plainly whether Item 17 itself is being challenged, or is just
+being cited as context/precedent for the Item 9 argument. The relief
+section then bundles both Items together ("construing Items 9 and 17 to
+reach only encryption Mr. Bernecky himself initiates..."), which reads as
+inconsistent with treating Item 17 as already resolved by *Kunz* in the
+body text above it.
+
+**Fix: state plainly that Item 17 is independently being objected to, for
+two reasons** — (1) it is, like the other challenged Items, an expansion
+beyond what the Judgment itself authorizes, not merely a CIMP-form
+implementation detail; and (2) even accepting *Kunz*'s narrowing
+construction on its own terms, that construction was calibrated
+specifically to the "https website"/transport-layer-encryption absurdity
+example *Kunz* actually confronted — "any type of encryption" reaches far
+more than that one scenario (e.g., at-rest encryption, messaging-app
+encryption, PGP, VPNs), and *Kunz*'s narrowing should not be read as having
+cleared the whole clause just because it cleared that one example. Make the
+independent argument for Item 17's overbreadth beyond what *Kunz* actually
+addressed, rather than treating *Kunz* as having already resolved it.
+
+**Additional point, same issue, client's follow-up:** "also on the 9/17
+issue. preapproval from a po is just untenable. he has to call any time he
+could be required to access major encryption... what about his bank? I'm
+pretty sure they send encrypted emails." Item 17's pre-approval-before-any-
+encryption mechanism is impractical on its own terms, independent of the
+Kunz-scope argument above — it would require Bernecky to seek advance
+approval literally any time ordinary life might involve encryption, and
+routine, unavoidable examples are easy to find: his own bank almost
+certainly sends him encrypted communications (verify this as a factual
+matter if a concrete example is wanted, or use it as an illustrative "what
+about—" example without asserting it as a confirmed fact about his own
+bank specifically). Add this as an independent, practical unworkability
+argument for Item 17, alongside the Judgment-expansion and Kunz-scope
+arguments above.
+
 Client is still reading through v4 — more notes to follow.
