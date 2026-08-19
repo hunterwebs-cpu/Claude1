@@ -4984,3 +4984,80 @@ claim.
 same read-through pass. Direct edit reverted, confirmed via diff (line 44
 of MOTION-v4.md matches the pre-edit original). Writer still not dispatched;
 awaiting the client to finish reading v4.**
+
+## RESEARCHER REPORT — constitutional-error-survives-procedural-bars analogy
+## VERIFIED (2026-08-19)
+
+Responding to item 5 of the 2026-08-17 read-through entry above. Memo written to
+`case-files/bernecky/research-output/part28-constitutional-error-analogy.md`.
+Research only — no draft was touched, and nothing here is authorized for
+insertion. The Drive folder was searched first and, as expected, held nothing on
+these three doctrines.
+
+**Sub-claim 1 (stat-max sentence survives a plea waiver) — CONFIRMED, and
+stronger than the framing assumed.** *Hunter v. United States*, No. 24-1063,
+608 U.S. ___ (June 18, 2026) (Kagan, J., 8-1), decided two months ago and
+therefore in none of this matter's prior research: an appeal waiver "is
+unenforceable when it would result in a miscarriage of justice." A sentence
+above the statutory maximum is the Court's *first* illustration; the *second*
+expressly includes a sentence "infected with a blatant constitutional error,
+such as when a judge ... imposes a constitutionally infirm condition of
+supervised release." Slip op. 12. That is the Supreme Court, this summer,
+naming an unconstitutional SR condition as the paradigm of an error too serious
+to leave standing behind an otherwise-valid procedural bar. Caveats: three
+Justices concurred solely to stress the bar is high; *Hunter* concerns
+direct-appeal waivers only (collateral-attack waivers rest on 7th Cir.
+*Keller*, 657 F.3d 675, 681); and no Second Circuit case was found squarely
+holding a waiver does not bar a stat-max claim — *Gomez-Perez*'s list omits it,
+though *Hunter* fn.1 places the Circuit in the majority camp via *Riggi*.
+
+**Sub-claim 2 (survives cause and prejudice) — NOT CONFIRMED as framed.** No
+authority holds a stat-max claim exempt from, or gets a softened version of,
+cause-and-prejudice. *Frady* (456 U.S. 152) and *Bousley* (523 U.S. 614) both
+applied the ordinary default framework to constitutional claims — *Frady* in
+fact imposes a *stricter* standard on collateral review than Rule 52(b). What is
+real is different doctrine: § 2255(a)'s text plus *Hill v. United States*
+(cognizability, not default), and the Second Circuit's separate
+actual-innocence-of-a-noncapital-sentence gateway (*Spence*, 219 F.3d 162),
+which the Supreme Court declined to endorse in *Dretke v. Haley*. The line that
+once said something close to the client's proposition — *Brown v. Caraway*,
+*Hill v. Masters*, *Wheeler* — was superseded by *Jones v. Hendrix*, 599 U.S.
+465 (2023), and must never be cited here without that caveat.
+
+**Sub-claim 3 (Rule 52(b) applied less exactingly to constitutional error) —
+NOT CONFIRMED as framed; the Second Circuit is the circuit that got reversed for
+it.** *United States v. Torres*, 901 F.2d 205 (2d Cir. 1990), does contain the
+sentence ("errors of constitutional magnitude will be noticed more freely under
+the plain error rule"), but it is pre-*Olano*, quoted from a 1977 Fifth Circuit
+case, and disclaimed by the same panel a paragraph later. *United States v.
+Marcus*, 560 U.S. 258 (2010), reversed the Second Circuit for relaxing plain
+error on an unpreserved constitutional claim; *Cotton*, 535 U.S. 625 (2002),
+denied relief at the fourth prong on a constitutional error that had produced an
+above-the-maximum sentence. Two kernels survive: the reserved structural-error
+question, and — much the more useful — the Second Circuit's own *Sofsky*
+relaxation, 287 F.3d 122, 125-26 (2d Cir. 2002), which entertains an unpreserved
+supervised-release condition "without insisting on strict compliance with the
+rigorous standards of Rule 52(b)." Its trigger is lack of notice plus a
+sentencing-only error, **not** constitutional significance, and it must be
+described that way — but it is post-*Olano*, in-circuit, and in exactly this
+subject matter.
+
+**One structural caution recorded for the Writer.** Every confirmed instance of a
+bar yielding involves an appellate court relaxing a judge- or party-made rule
+where its own institutional integrity is implicated (*Hunter*: "the courts are
+too enmeshed in its approval and implementation to escape responsibility").
+§ 3583(e)(2)'s changed-circumstances requirement is not that kind of rule. The
+analogy works as reinforcement for a timing argument that already stands on an
+actual changed circumstance; it is not a substitute for one.
+
+**Independent of the analogy: two items worth the client's attention.**
+(1) *Hunter* should probably be considered for the polygraph/Fifth Amendment
+section on its own merits, whatever happens to the analogy. (2) *United States
+v. McCrone*, No. 22-3178(L) (2d Cir. July 21, 2026) — reported as holding a
+"take any prescribed medications" condition plainly erroneous absent
+medically-grounded on-the-record findings — surfaced during this research and
+may matter to this motion directly. Both flagged, neither researched further,
+neither drafted.
+
+**Status: research complete and logged. No filing edited. Awaiting client
+direction before anything from part28 reaches a draft.**
