@@ -289,4 +289,23 @@ destroying data — rather than trying to enumerate or pre-approve which
 encryption uses or purposes are permitted. No pre-approval mechanism should
 be proposed as relief for either Item.
 
+## 18. The TV/YouTube example should be tied explicitly to "unfettered discretion," not just left as an ambiguity example.
+
+Passage (Part I.D): "...And Probation locked down a browser-less streaming
+television, telling Mr. Bernecky that YouTube presented a problem — a
+service that carries network news, congressional proceedings, instructional
+material, and nearly the full range of ordinary media. *Id.* ¶ __. An
+interpretive canon premised on everyone recognizing the same obvious
+meaning cannot resolve a dispute that has already demonstrated the meaning
+is not obvious." Client, verbatim: "even worse, the probation officer read
+it as giving the po unfettered discretion in the area." Add/reframe to
+state plainly that the officer's actual position here — flagging YouTube,
+a mainstream service with no connection to the offense conduct, as "a
+problem" — reflects her treating herself as having unfettered discretion in
+this area, not just an ambiguous or debatable reading. This should be tied
+directly to the delegation/unfettered-discretion doctrine already used
+elsewhere in the motion (the *Matta*/*Peterson* "unfettered discretion"
+line) — this factual example is a direct instance of that legal problem,
+not merely evidence that the text's meaning is contestable.
+
 Client is still reading through v4 — more notes to follow.
