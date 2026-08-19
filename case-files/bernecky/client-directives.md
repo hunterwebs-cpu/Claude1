@@ -4822,3 +4822,58 @@ association, and risk notification. v3 had no comparable through-line.
 
 **Status: MOTION-v4.md complete as a substantive draft. Awaiting the client on
 items 1–3 and 6 above before the `brief-formatting` pass.**
+
+## TWO ITEMS FOR THE NEXT DRAFTING ROUND — logging only, no drafting yet;
+client wants to read v4 and give further thoughts first (2026-08-17)
+
+**1. Restitution and special penalty assessment — CONFIRMED paid in full.**
+Client's instruction, verbatim: "restitution and special penalty assessment
+paid in full is confirmed. we can say that, and we can put that in
+bernecky's certification." This resolves open item #6 from the v4 report
+(Part III's vacatur request no longer needs a hedge on this point) and
+should also become a numbered paragraph in the not-yet-drafted Certification
+of Jeffrey Bernecky for this motion (a separate document from the SORA
+matter's certification of the same name — this one supports the SR
+modification motion).
+
+**2. Constitutional-challenge-survives-normal-bars argument — clarified as
+an analogy, not a claim of on-point SR authority.** Client's correction,
+verbatim: "as for the constitutional challenge argument, there has never
+been anything to hold that as far as sr is concerned. but [in] many other
+areas of law when there is a violation of the constitution itself, courts
+have not hesitated to invalidate it. for instance, a sentence in excess of
+stat[utory] max can be challenged even with plea waivers, and can even
+survive the cause and prejudice test. with regard to plain error issues,
+courts of appeal do not use rule 52(b) [with its ordinary strict standard]
+when the issue is of constitutional significance. thats what I was talking
+about. drawing an analogy."
+
+This corrects the v4 report's framing — the client was never asserting a
+Second Circuit (or any) holding that SR modification's changed-circumstances
+requirement has a constitutional carve-out (v4 already correctly found none
+exists, per *Kunz* n.14/*Villafane-Lozada*, and built the polygraph timing
+argument on an actual changed circumstance instead — that finding stands
+and is not being revisited). The point is narrower and different: draw an
+**analogy** from other doctrinal contexts where an ordinarily-applicable
+procedural bar softens or doesn't apply once the underlying claim is
+constitutional in nature —
+- a sentence exceeding the statutory maximum remains challengeable
+  notwithstanding an otherwise-valid appellate/collateral-attack waiver in a
+  plea agreement;
+- such a claim can survive the cause-and-prejudice standard that would
+  otherwise bar a procedurally defaulted claim;
+- on plain-error review, courts of appeals apply Rule 52(b) differently —
+  less exactingly — when the unpreserved error is of constitutional
+  significance, compared to an ordinary non-constitutional error.
+
+**Before use:** every one of these three sub-points needs a real, verified
+citation before it goes in any draft — this is exactly the kind of doctrinal
+claim this matter's own practice requires be confirmed against a primary
+source (a real case holding a stat-max sentence survives a plea waiver; a
+real case applying cause-and-prejudice to such a claim; real authority on
+Rule 52(b)'s different application to constitutional plain error) rather
+than asserted from recollection. None of this has been verified yet.
+
+**Status: logging only — do NOT dispatch the Writer on this. Client is
+reading MOTION-v4.md first and will give further direction before the next
+drafting pass.**
