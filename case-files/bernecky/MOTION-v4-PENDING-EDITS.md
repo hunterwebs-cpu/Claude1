@@ -308,4 +308,66 @@ elsewhere in the motion (the *Matta*/*Peterson* "unfettered discretion"
 line) — this factual example is a direct instance of that legal problem,
 not merely evidence that the text's meaning is contestable.
 
+## 19. Polygraph section — CVSA is never actually discussed, and a new CJA-counsel-invocation point needs adding.
+
+Client, verbatim: "polygraph: you don't mention cvsa. and you don't mention
+that when bernecky is posed [a]ny question by anyone he will at that time
+move for the appointment of counsel under the cja as the valid invocation
+of th[e] fifth amendment is a question of law that lay people are not
+equipped to answer. effectively, no lawyer equals invoking [across] the
+board[.]"
+
+Two additions to Part IV (Special Condition (g)):
+- **CVSA.** The section header names "Polygraph and Computerized Voice
+  Stress Analyzer Testing," but the entire body only discusses polygraph.
+  Add CVSA into the substantive Fifth Amendment analysis explicitly — the
+  compelled-answer problem applies equally to a CVSA examination, and the
+  motion should say so rather than leaving it to the header alone.
+- **CJA counsel-invocation tactic.** New point: whenever Bernecky is posed
+  any question by anyone in this context, he will move at that moment for
+  appointment of counsel under the CJA, on the theory that whether a given
+  invocation of the Fifth Amendment privilege is valid is a question of
+  law laypeople are not equipped to answer — meaning, practically, that
+  absent appointed counsel actually available to him, he will invoke
+  across the board. This connects to research already in this matter
+  (`RESEARCH-STATUS.md` item 11 / Track 24, `research-output/
+  part24-cja-critical-stage.md`): § 3006A(a)(1)(E) already lists
+  supervised-release modification proceedings as a mandatory CJA
+  appointment category — this may independently entitle Bernecky to
+  appointed counsel for this very motion, regardless of the polygraph
+  theory's outcome on the merits. Tie the new point to that existing
+  research rather than introducing it as a freestanding assertion.
+
+## 20. "Why now" is circular as written, and rests on a fact that isn't true — nothing is actually scheduled.
+
+Passage: "**Why now.** This is not a challenge to the legality of a
+condition as imposed in 2018. *See Balon*, 384 F.3d at 47 n.4. In 2018
+there was no examination scheduled, no question posed, and nothing for
+anyone to compel; the dispute could not have been presented. It can be
+presented now, and it will be presented one way or another." Client,
+verbatim: "the why now also is very circular. it says now because
+something is scheduled. I don't believe anything has been scheduled. why
+now. he is challenging the legal authority of this condition an[d]
+regardless of whatever the law may say about waiver absolutely nothing
+will convince[] him to answer anything[,] but there is a proceeding where
+his treatment polygraph answers are being used against him. sora. and they
+are discussed at length. th[is] compels bernecky to simply remain[]
+silent."
+
+Two problems with the current framing: (1) it implicitly relies on
+something being presently scheduled to justify "now," when — per the
+client — nothing actually is scheduled, which makes the argument circular
+and invites an easy rebuttal; (2) it misses the real, concrete reason this
+needs resolving now. **The actual "why now"**: this is not really about
+timing relative to any particular scheduled exam at all — nothing said
+about waiver doctrine will ever change Bernecky's intent not to answer
+under compulsion, regardless of when this is resolved. What makes this
+genuinely urgent is that there is an active, ongoing proceeding — the SORA
+risk-level hearing — in which Bernecky's treatment/polygraph-derived
+statements are already being used against him and discussed at length.
+That live, ongoing, demonstrated adverse use is what compels him to remain
+silent going forward, and is the real basis for resolving the Fifth
+Amendment question now rather than waiting. Rewrite this subsection around
+that fact rather than around a scheduling premise that isn't accurate.
+
 Client is still reading through v4 — more notes to follow.
