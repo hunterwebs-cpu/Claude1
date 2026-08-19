@@ -412,4 +412,19 @@ present the doctrinal point (immunity must be full and cross-jurisdictional
 to substitute for the privilege) without the unverified national-outlier
 claim riding on top of it.
 
+## 23. Standard Conditions 5 and 8 (Part VI) needs a simple changed-circumstances "why now" hook.
+
+Client, verbatim: "standard conditions 5 and 8. the changed circumstance is
+simple. at the start of supervision he has never been informed of whatever
+standard is utilized and hasn't been able to locate one." Add this as the
+section's changed-circumstances anchor, primarily for the Standard
+Condition 5 "approved" residence-standard argument: supervision only began
+in July 2026 (so this problem could not have existed, let alone been
+raised, in 2018); since it began, Bernecky has never been told what
+standard governs residence approval, and has made his own effort to locate
+one and been unable to. That is a concrete, present, supervision-triggered
+fact — not something available to raise at sentencing — and gives the
+vagueness/no-stated-standard argument a genuine "why now" rather than
+resting only on the abstract *Reeves*/*Matta* delegation analysis.
+
 Client is still reading through v4 — more notes to follow.
