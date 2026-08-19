@@ -4427,3 +4427,398 @@ keeps its argument and relief; each lost roughly a third of its length.
 objection cut entirely (reasoning above). Awaiting a client decision on
 length before the `brief-formatting` pass, and resolution of the six open
 items listed above before filing.**
+
+---
+
+## FEDERAL § 3583(e)(2) MOTION — MOTION-v4 drafted as a GROUND-UP REWRITE, not a revision of v3 (2026-08-19)
+
+Client graded v3 a C+ and directed a genuine rewrite: "there are a lot of
+notes... I think the writer will have to rewrite the whole thing as surgical
+edits are plainly impossible," and, correcting the coordinator, "when I call
+for a rewrite I mean it." New draft saved to `case-files/bernecky/MOTION-v4.md`.
+`MOTION-v2.md` and `MOTION-v3.md` untouched. No caption block (client builds
+captions by hand). Third person, pro se voice, per the 2026-08-15 voice
+decision. Formatting/docx conversion deliberately not attempted — that is the
+`brief-formatting` skill's separate pass.
+
+**Length: 12,266 words, down from v3's 15,415 (-20%).** Part I (CIMP) is now
+~5,100 words, roughly 42% of the document, against a v3 Part I that the client
+said "reads as the entire thing." Polygraph is ~1,900 words. The two flagship
+areas are still the deepest sections but no longer swallow the motion.
+
+### 1. Structural changes, and why
+
+**(a) Part I.D (CIMP Participant Agreement) moved from LAST to SECOND within
+Part I — not to first. Client asked the writer to "justify one way or another."**
+The client's diagnosis is right: the Agreement is where most of the problems
+live, and burying it at the end of Part I made it read as an afterthought.
+But leading the entire motion with a form-document objection buries the one
+sub-issue with a realized, already-paid injury (two weeks of lost wages, a job
+held hostage to an unwritten understanding), and the Agreement's specific
+defects are downstream of two framing points the employment section
+establishes — who may expand a condition, and what the condition actually
+authorizes. Resolution: employment stays first; the Agreement moves to I.B,
+where it now functions as the structural spine of the section rather than its
+tail. New Part I order: **A** employment — **B** CIMP Agreement — **C**
+monitoring method/privilege — **D** device scope.
+
+**(b) Special Condition (c) — contact with minors — CUT AS A STANDALONE
+SECTION.** This is the call most worth the client's review. The client's notes
+cut both surviving sub-arguments: the "narrow, not absurd" incidental-contact
+argument ("I think we can get rid of this... if probation later tries to say
+something, then we will come back") and the family-life/minors-in-the-home
+argument ("delete this too... I don't want to open a door for them to walk
+through unnecessarily"). The Statement-of-Facts note separately withdrew the
+"can't work with minors" claim as something a PO actually said. That left the
+section with no argument in it. Rather than keep an empty heading, the
+employment point was absorbed into Part I.A's third request for relief — a
+general ruling that the Judgment's silence on a subject creates no restriction
+and does not authorize Probation to supply one, which is what the client
+identified as the durable win ("getting a ruling that silence does not equate
+to presumptively applicable would work for all future issues"). Motion now runs
+I–VII rather than I–VIII.
+
+**(c) Standard Conditions 5 and 8 — felon association BUILT IN, not deleted.**
+The client floated deleting it (no live dispute yet) and then developed a full
+changed-circumstances theory at length. The developed theory reads as the
+actual preference and it is genuinely good, so it was built in: apartment
+complex with felon neighbors, a mandatory felony-based counseling group, an
+adult population in which roughly 8% carry a felony conviction, and eight years
+in a BOP facility where every person around him was a felon and where he made
+friends who now help him stay law-abiding. Relief reframed from "give me a
+standard" to the client's substantive ask: **disclosure/notification rather
+than advance approval**, with Probation retaining the ability to inquire. The
+residence half of the section keeps the stated-standard request.
+
+**(d) Statement of Facts rebuilt.** Cut the "told he can't work with minors"
+claim entirely (never said to him by any PO). Added, per the client: neither
+the government nor Probation ever asked for employment conditions or objected
+to their absence. Added the PO's statement to the employer that it owed her
+monitoring beyond its own procedures; the YouTube/smart-TV exchange; the total
+absence of any privilege instruction from Probation or the vendor; and the
+401(k)/investing facts.
+
+**(e) Preliminary Statement rebuilt around a single stated big idea** — "A
+judgment's silence is not a blank space for someone else to fill in" — which
+now runs through the employment argument, the Agreement argument, felon
+association, and risk notification. v3 had no comparable through-line.
+
+### 2. Style mandates applied
+
+- **Zero hedges.** "Candor requires" is gone everywhere; so is every
+  explanation of what weight out-of-circuit authority deserves, every "the
+  government will cite," every "applied by analogy rather than by direct
+  holding." Scanned and confirmed clean. Zero rhetorical questions.
+- ***Brown* reframed** to the client's own formulation: it confronted an
+  express restriction on employment computers; this Judgment is silent, and
+  silent because neither prerequisite could have been met. Not called adverse
+  authority, not called the government's best case.
+- ***Mike* reframed** — no "didn't go the way the government wanted" framing.
+- **No "That is not X. It is Y" narration.** The Android Device Owner passage
+  now just states what the status means and who Google built it for. Two
+  antithesis constructions survive at genuine section pivots; a third was
+  rewritten with a different sentence shape to keep it off tic frequency.
+- **Item 2/Item 3 paragraph** now opens on the contrast rather than spending a
+  sentence establishing Item 2 is fine.
+- **"Sheet 3B" eliminated.** Judgment cited as `Dkt. No. 28, Special Condition
+  (a)`; Agreement as `Ex. A ¶ N`. See open item 1 below.
+- **No taunting register anywhere**, including toward the PO. The client's
+  instruction was honored on both halves: no personal attack, but the point
+  that she was not without an answer — the law supplied one — is made directly.
+
+### 3. Substantive additions per the client's notes
+
+- **§ 3563(b)(5) now leads the employment argument, with § 5F1.5 as the
+  Guideline that implements it.** Verified (below). The practical consequence
+  the client asked for is stated: if the government now asserts an employment
+  restriction is necessary, it is asking the Court to impose one for the first
+  time, subject to the same findings and the same standard Bernecky must meet.
+- **PO has no authority to expand a condition** — carried by the Second
+  Circuit delegation line (*Matta*/*Kunz*/*Browder*/*Peterson*), which is the
+  actual, in-circuit doctrinal home for this. Verified.
+- **Court has zero power over the employer.** Added, with the relief the
+  client asked for: an order directing Probation to tell the employer in
+  writing that it owes the Probation Office nothing.
+- **Privilege process questions** added as the open questions the process has
+  never answered (designation, *in camera* review, suppression/destruction),
+  plus the fact that Bernecky was given no instruction of any kind.
+- **Image/video-only narrowing** built as the lead ask of Part I.C and tied
+  explicitly to *Lifshitz*'s drug-test/diary comparison — same idea applied to
+  file type instead of testing method.
+- **Express Scan / IPPC product proffer CUT.** Replaced with the client's
+  instruction: the Court sets the legal boundary, Probation designs the
+  implementation, and feasibility gets an evidentiary hearing if contested.
+- **Items 9 and 17 (encryption) fully rewritten** on the client's four points:
+  screen capture already yields plaintext because Bernecky must read it
+  himself; TLS is baseline infrastructure; email encryption is defensive, not
+  evasive; and this goes further than *Kunz*'s own discussion, stated directly
+  as an extension without apology.
+- **Item 5 (incognito) added** as a new point — an ordinary privacy feature,
+  default on every browser, DuckDuckGo's only mode, not built to defeat
+  device-level monitoring.
+- **TI graphing calculator / car / aircraft / mass-transit reductio** added to
+  Part I.D. *Leone* de-hedged and distinguished on the actual ground: facial
+  and hypothetical there, an officer actually over-reading here (the YouTube
+  exchange), and Bernecky is not making a vagueness argument at all.
+- **Financial section rebuilt** with the 401(k)/retail-investing changed
+  circumstance as the lead theory, per the client.
+- **Polygraph section rebuilt.** Opens on the affirmative conclusion, not a
+  list of disclaimers. *Von Behren* fn. 9 stated as the affirmative
+  distinction driving the case. *Johnson* distinguished on the real ground
+  (nobody there argued that compelling the answer itself is the violation),
+  stated as a distinction, not a concession. *McDonald* re-purposed to the
+  "err on the side of asserting the privilege" proposition. Added: a
+  changed-circumstances discussion (see § 4 below — the client's premise was
+  wrong and this had to be built differently), Bernecky's explicit stated
+  intent to invoke question-by-question, and the Track 22 judicial-economy
+  point.
+- **Risk notification** — the private-tribunal objection promoted out of a
+  footnote into the body as a live, stated objection, expressly not yet ripe,
+  with the client's relief: petition and summons rather than internal
+  determination, and appointed counsel for any hearing.
+- **Conclusion rewritten from scratch**, ten numbered items, matching the new
+  structure.
+
+### 4. VERIFICATION CHECKLIST — results
+
+**CONFIRMED:**
+
+1. **18 U.S.C. § 3563(b)(5) and its incorporation via § 3583(d).** Confirmed
+   verbatim. § 3563(b)(5): "refrain, in the case of an individual, from
+   engaging in a specified occupation, business, or profession bearing a
+   reasonably direct relationship to the conduct constituting the offense..."
+   § 3583(d) permits "any condition set forth as a discretionary condition of
+   probation in section 3563(b)." The client's theory holds and is now the
+   lead. **Note the one refinement:** § 3563(b)(5) carries the "reasonably
+   direct relationship" element but not the second, public-protection element;
+   that second element comes from § 5F1.5(a). The draft says the Guideline
+   "tracks the statute and adds the findings the statute presupposes," which
+   is accurate. It does not claim the two texts are identical.
+
+2. **PO has no authority to expand a condition beyond its express terms.**
+   Confirmed as settled Second Circuit law, though it lives in the delegation
+   doctrine rather than under that label. *Matta*, 777 F.3d at 122; *Kunz*, 68
+   F.4th at 767-68 ("exceeds the authority actually delegated to Probation by
+   the district court, and therefore may not be enforced as written");
+   *Browder*, 866 F.3d at 514; *Peterson*, 248 F.3d at 85-86. All quotes
+   verified against primary text.
+
+3. ***Mike* remand — CONFIRMED, and it is better than the client remembered.**
+   The amended judgment was located in Drive (`mikeamendedjudgmntoneremand.pdf`,
+   Cases folder) and read in full. **The district judge was the Hon. William P.
+   Johnson** (D.C. No. 1:07-cr-01334-**WJ**), who later became Chief Judge of
+   D.N.M. — the client's recollection of the judge is correct. The amended
+   judgment (ECF No. 99, filed 3/18/11) states its own purpose on page 1:
+   "clarify computer monitoring condition of supervision pursuant to remand by
+   the Court of Appeals for the 10th Circuit." **What it actually did:** every
+   monitoring authorization is now tied to "his/her computer(s)," and the exact
+   clause the Tenth Circuit had singled out — "warn others of the existence of
+   the monitoring software placed on his/her computer *or any such computer the
+   defendant may have access*" — now ends at "his/her computer," the offending
+   phrase deleted. No finding was made extending the conditions to employer
+   computers or to employment. **The draft states precisely this and quotes the
+   document. It does not assert that Judge Johnson expressly said "this does
+   not apply to employment"** — the order does not contain those words, and the
+   narrowing-plus-no-findings account is both accurate and stronger, because it
+   is the exact remedial path Bernecky is asking this Court to follow.
+
+4. **HIPAA transmission security.** Confirmed, **with a correction that
+   mattered.** 45 C.F.R. § 164.312(e)(1) requires covered entities to
+   "[i]mplement technical security measures to guard against unauthorized
+   access to electronic protected health information that is being transmitted
+   over an electronic communications network," and § 164.312(e)(2)(ii) names
+   encryption as the implementation specification. **But encryption is
+   "addressable," not "required."** The client's formulation — "if you request
+   your medical record it must be transmitted to you through encrypted
+   channels" — overstates it. The draft says federal law requires technical
+   measures against unauthorized access in transit "and the regulation names
+   encryption as the mechanism for doing so," which is accurate. Do not
+   upgrade it to a flat mandate.
+
+5. **The *McDonald* footnote — CONFIRMED, with two corrections.** Opinion
+   located in Drive and read in full. *United States v. McDonald*, No.
+   1:11-CR-01075-MV-1 (D.N.M. Jan. 6, 2026). **Judge: Martha Vázquez, Senior
+   District Judge** — confirmed, matching the "MV" in the docket number.
+   **Correction 1: the "err on the side" language is not in a footnote.** It is
+   in the body, in a passage the judge expressly wrote to give McDonald "and
+   similarly situated defendants a practical road map," noting that "defendants'
+   right to counsel does not generally extend into supervised release, meaning
+   that these tricky waters often must be navigated alone." That framing is
+   better for Bernecky than a footnote and the draft uses it. **Correction 2:
+   the verbatim sentence is** "Accordingly, defendants should err on the side of
+   asserting the privilege even where the question does not directly ask about
+   the commission of a crime." The draft quotes it exactly.
+   **Bonus finds from the same opinion, now used:** footnote 2's holding that a
+   court "lacks authority to tell a private treatment provider how to enforce,
+   or not enforce, their rules and regulations" (used in Part I.A on the
+   employer), and the court's express statement that it "would consider adding
+   language akin to that approved in *Richards*" on a motion to modify.
+
+6. ***Von Behren* footnote 9.** Confirmed verbatim from primary text. Also
+   confirmed: *Von Behren* attributes the "lead or a link in the chain of
+   evidence that could lead to prosecution" standard to *Maness v. Meyers*, 419
+   U.S. 449, 461 (1975) — so the client's instruction to move that quote off
+   *McDonald* and onto Supreme Court doctrine was correct. The draft quotes
+   *Von Behren* quoting *Maness*.
+
+7. **Felony-conviction prevalence.** Sourced and corrected upward: **8% of
+   U.S. adults**, not 5%. Shannon et al., *The Growth, Scope, and Spatial
+   Distribution of People With Felony Records in the United States, 1948-2010*,
+   54 Demography 1795 (2017).
+
+8. ***Brown*, 173 F.4th 45.** Slip opinion located in Drive and read in full.
+   Confirmed: Brown was a §§ 287/641 tax-fraud case, plain-error review, and
+   the condition expressly subjected devices used "in the course of employment"
+   to "monitoring restrictions as permitted by the employer." Holding confirmed
+   verbatim. Declined to follow *Gorychka*. The distinction in the draft is
+   accurate.
+
+9. ***Balon*, 384 F.3d 38.** Read in full. Confirmed: W.D.N.Y. origin;
+   "impossible to predict the state of computer technology at the commencement
+   of Balon's supervised release period"; the holding "that changing computer
+   technology is an appropriate factor to authorize a modification of
+   supervised release conditions under Section 3583(e)"; and footnote 4's
+   *Lussier* limitation ("illegal *ab initio*" / "fluid circumstances").
+
+10. ***Kunz*** quotes all re-verified against `KUNZ-OPINION-FULLTEXT.md`
+    (encryption construction at 764; "exceeds the authority actually delegated"
+    at 767-68; "not to abuse their power and access" at 766-67; "nearly
+    essential" at 773; single-device holding). **Also confirmed: Kunz's CIMP
+    ¶ 10 is the encrypted-email-account item, identical to Bernecky's Item 9,
+    and Kunz's narrowing discussion addressed ¶¶ 7, 16, and 18 — not ¶ 10.**
+    The draft therefore presents the Item 9 narrowing as an extension, stated
+    directly and grounded in this record's facts, per the client's instruction.
+
+**CUT AS UNVERIFIABLE OR UNHELPFUL:**
+
+11. **The Justice Gorsuch felon-prevalence quote — CUT.** The nearest real
+    source is an oral-argument remark in *Lange v. California* ("we live in a
+    world in which everything has been criminalized, and some professors have
+    even opined that there's not an American alive who hasn't committed a
+    felony under some state law"), which is a question from the bench
+    paraphrasing academics, not a holding or even a considered statement, and
+    reads as a gimmick in a filing. The Shannon study (item 7) does the same
+    work with a real number and a real citation.
+
+12. **BOP child-pornography prosecutions during Bernecky's incarceration —
+    CUT.** Real prosecutions exist and were located (five inmates at FCI Fort
+    Dix, 2017; USP Lewisburg, 2025), so the underlying claim is true. Two
+    reasons for cutting anyway. It does not advance the felon-association
+    theory — the persuasive half of the client's point is that the Court itself
+    placed Bernecky among felons for eight years and he made friends there who
+    help him, and that half is fully built in. And the client's own framing
+    ("anyone who believes that child porn wasn't available in the BOP need only
+    look at...") is combative in exactly the register the client elsewhere
+    directed be removed from this draft. **Flagging for the client's
+    reconsideration if he wants it back — the sourcing exists.**
+
+13. **The "Second Circuit doctrine that constitutional error escapes the
+    ordinary waiver/changed-circumstances rule" — NOT CONFIRMED, AND THE ACTUAL
+    RULE RUNS THE OTHER WAY.** This is the most important verification result
+    in this pass and the client needs to see it. The controlling Second Circuit
+    statement is *Kunz*, 68 F.4th at 774 n.14, quoting *Villafane-Lozada*, 973
+    F.3d at 152 & n.2: "generally, the illegality of a condition of supervised
+    release is **not** a proper ground for modification under 18 U.S.C.
+    § 3583(e)(2)... [t]here is an exception to this rule for new or unforeseen
+    circumstances, which include, among other things, technological changes."
+    A constitutional attack framed as "this condition was unlawful when
+    imposed" therefore runs into the bar rather than around it. The doctrine
+    the client was thinking of (unpreserved sentencing claims get plain-error
+    review on direct appeal rather than being waived) is a direct-appeal rule
+    and does not transfer to a § 3583(e)(2) motion.
+    **How the draft handles it instead, honestly and without weakening the
+    section:** the polygraph argument is framed as *not* a challenge to the
+    condition as imposed in 2018. Under *Murphy*, the violation is compulsion
+    at the moment of the question — and in 2018 there was no examination
+    scheduled, no question posed, and nothing to compel, so the dispute could
+    not have been presented. It can be now. That is a real changed
+    circumstance, it fits *Balon*'s "fluid circumstances" category squarely, and
+    it is the same proposition as the merits theory, which makes the section
+    stronger rather than weaker. **No claim about unpreserved constitutional
+    error appears in the draft.**
+
+**FLAGGED, USED WITH CARE:**
+
+14. **Screen capture vs. keystroke logging.** Per `part27-cimp-monitoring-
+    vendors.md`, IPPC/NCPTC's own privacy policy describes capturing "internet
+    activity, email communications (through supported clients), **screen
+    captures**, and application usage data" — the word "keystroke" appears
+    nowhere in the vendor's materials, and confirmed keystroke logging belongs
+    to a different vendor (RemoteCOM/SCOUT) with no connection to this case.
+    The draft therefore attributes **keystroke logging only to Bernecky's own
+    prior term of supervision** (his own account, cited to his certification)
+    and rests the present-tense privilege argument on **screen capture**, which
+    is vendor-documented and raises the identical privilege problem. The
+    client's belief that monitoring extends to "device control" is **not**
+    asserted as vendor practice; the device-control point is made instead from
+    the independently verified Android Device Owner finding, which is a fact
+    about Bernecky's own phone.
+
+15. ***Sofsky*, 287 F.3d 122** remains `[VERIFY]` in the file — the quoted
+    language is confirmed twice over through *Lifshitz*'s and *Kunz*'s own
+    verbatim quotations, but the opinion has not been read standalone. Cited
+    with a parenthetical noting it addressed a total access ban. Per the
+    client, no walk-back language added.
+16. ***Rodriguez*, No. 22-1820-cr** remains `[VERIFY]` — sourced from a Federal
+    Defenders blog paraphrase, not read directly. Still cited (alcohol
+    section). Pull before filing.
+17. ***Bleau*** and the *Weiskopf*/*Lonjose*/*Jenkins* family-contact cluster
+    are **no longer cited anywhere** — they went out with Special Condition (c).
+
+### 5. Adverse authority handled rather than avoided
+
+- ***Balon* at 48** is the real obstacle to the image/video-only narrowing:
+  the panel warned a user could disguise contraband "as a 'word' or 'excel'
+  document" by changing "the letters at the end of the file name," and found no
+  device then capable of what the defendant proposed. Rather than omit it, the
+  draft leads with it — because the same passage says "Perhaps our analysis has
+  missed something that Balon can clarify, but we offer this note so that Balon
+  will address the issue when the time comes." The draft answers: the time has
+  come, content-based file-type identification does not depend on a filename,
+  and if Probation says otherwise that is a fact question for a hearing.
+- ***McDonald*'s* own ripeness language ("[u]nless and until Mr. McDonald
+  validly attempts to invoke the privilege on a question-by-question basis and
+  the government expressly or implicitly threatens him") is answered by the
+  *submit to* / *shall answer* distinction the same opinion draws, and by
+  Bernecky's stated intent to invoke question by question.
+- ***Mike*'s* Fifth Amendment holding (no incriminating statement yet made,
+  so the Amendment is not implicated) is adverse on ripeness. *Mike* is
+  therefore cited **only** in Part I.A and never in the polygraph section.
+
+### 6. Open items for the client — carried forward and new
+
+1. **NEW — Judgment pincites.** The client asked that "Sheet 3B" be replaced
+   with docket-and-page form. The Judgment's internal page numbers were not
+   verifiable from the materials at hand, and inventing one was not acceptable,
+   so the draft cites `Dkt. No. 28, Special Condition (a)` throughout —
+   standard, unambiguous, and non-fabricated. **If the client wants literal
+   page pincites, supply the page on which Sheet 3B falls in Doc. 28 and they
+   can be inserted mechanically.**
+2. **NEW — Special Condition (c) is gone.** See § 1(b). This is the single call
+   most worth the client's confirmation.
+3. **NEW — fee/ability-to-pay argument remains absent.** It was a designated
+   Part I.D in the 2026-07-08 structure and disappeared from v2/v3 without a
+   logged decision. It is not in v4 either, because nothing in the current
+   directive set asks for it. **Flagging so the omission is a choice rather
+   than a drift.** *Bearden* and the four fee-bearing conditions are still
+   researched and available if the client wants it restored.
+4. **Certification of Jeffrey Bernecky still does not exist.** Every `¶ __`
+   is a fact needing a numbered paragraph. v4 adds several beyond v3's set:
+   the PO's statement that the employer owed her monitoring; the YouTube
+   exchange; the absence of any privilege instruction; the 401(k) and
+   investing facts; the felon-neighbors, counseling-group, and BOP-friendships
+   facts; and Bernecky's own account of social isolation preceding both
+   offenses.
+5. **Restitution.** Part III's vacatur request still depends on confirming the
+   $500 is paid in full.
+6. **Length.** 12,266 words is roughly 44 pages double-spaced, still over the
+   30-page target and over W.D.N.Y.'s page limits. Same three options as
+   before: seek leave to exceed, cut further, or split. The compression the
+   client asked for has been made; further cuts now start removing argument he
+   directed be kept.
+7. **Vendor identity** (IPPC as WDNY's CIMP contractor) still rests on the
+   client's phone call with Bernecky. v4 never names the vendor, which
+   sidesteps the problem entirely.
+
+**Status: MOTION-v4.md complete as a substantive draft. Awaiting the client on
+items 1–3 and 6 above before the `brief-formatting` pass.**
