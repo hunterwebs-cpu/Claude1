@@ -268,4 +268,25 @@ bank specifically). Add this as an independent, practical unworkability
 argument for Item 17, alongside the Judgment-expansion and Kunz-scope
 arguments above.
 
+**Relief request (5) needs to be rewritten, not just the argument above
+it.** Current text: "...construing Items 9 and 17 to reach only encryption
+Mr. Bernecky himself initiates for the purpose of concealing illegal
+activity or defeating monitoring, and adding to Item 9 the pre-approval
+mechanism Item 17 already contains." Client, verbatim: "I don't like the
+5th request. bernecky may need to use encryption technology for whatever
+uses exist in society today. curbing him from knowingly attempting to
+circumvent the monitoring regime or from actively suppressing data[.]" Two
+problems with the current phrasing: (1) it still tries to define/narrow
+which encryption uses are permitted by purpose, when the point is that he
+may need to use whatever encryption technology ordinary life requires,
+full stop — not a defined, pre-cleared category; and (2) it proposes adding
+Item 17's own pre-approval mechanism to Item 9 as the fix, which is
+inconsistent with the point immediately above that Item 17's pre-approval
+mechanism is itself untenable and being objected to. Rewrite relief request
+(5) to prohibit only the underlying bad conduct — knowingly attempting to
+circumvent or defeat the monitoring regime, or actively suppressing/
+destroying data — rather than trying to enumerate or pre-approve which
+encryption uses or purposes are permitted. No pre-approval mechanism should
+be proposed as relief for either Item.
+
 Client is still reading through v4 — more notes to follow.
