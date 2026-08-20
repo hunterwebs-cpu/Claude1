@@ -19,29 +19,18 @@ growing with content that has a shelf life of one drafting pass.
    directs revisiting the issue now. Lead with the new guideline as the
    changed circumstance, not with *Balon*.
 
-2. **Cut the semicolon-sentence habit.** Flagged example: "The government
-   never asked for an occupational restriction; neither did Probation."
-   These semicolon constructions are showing up more often in place of
-   plainer phrasing. Rewrite plainly, e.g.: "Neither the government nor
-   probation requested any occupational restrictions previously." Do a
-   pass for this pattern generally, not just the quoted line.
+2. ~~Cut the semicolon-sentence habit.~~ **Done** — Part I.A rewritten
+   2026-08-20; see `client-directives.md`.
 
-3. **Rewrite the expressio unius passage — reads like "an eighth grade term
-   paper."** Flagged passage: "That silence is the answer. A judgment that
-   itemizes thirty restrictions and omits a thirty-first has decided the
-   thirty-first. The canon is expressio unius est exclusio alterius, and it
-   applies with special force to a sentence, which is not a general grant of
-   supervisory power but a list of specific deprivations a court found
-   justified one at a time. The district court imposed the sentence as
-   written. Nobody may go back." Reframe instead along the lines of: the
-   maxim expressio unius est exclusio alterius applies with as much force to
-   a set of SR conditions as it does to a statute — conditions have long
-   been likened to mini-statutes in various fora. (Needs a cite for the
-   mini-statute characterization.)
+3. ~~Rewrite the expressio unius passage.~~ **Done** — see above. No
+   verifiable support found for the "mini-statute" characterization; the
+   Writer made the point structurally instead (closed, non-illustrative
+   enumeration by an authorized drafter) rather than use an unsupported
+   label. A possibly-relevant but unverified lead (Hessick & Morley,
+   *Interpreting Injunctions*, Va. L. Rev. — about injunctions, not SR
+   conditions) is noted in git history if the client wants it pursued.
 
-4. **Part I.A needs a full rewrite, not edits.** Still too verbose, feels
-   repetitive on the points it's already making, and reads clunky. A
-   ground-up rewrite of the section is in order rather than line edits.
+4. ~~Part I.A needs a full rewrite.~~ **Done.**
 
 5. **Treatment contract findings (research memo part29) — strategy for
    Part II.** Client's read on the objectionable terms, and how to handle

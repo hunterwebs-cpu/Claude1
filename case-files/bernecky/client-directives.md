@@ -4944,3 +4944,20 @@ cut argument the client directed be kept, or split.**
    remains deliberately absent; the vendor is still never named; *Sofsky* and
    *Rodriguez* still carry `[VERIFY]` from prior rounds and should be pulled
    before filing.
+
+## Part I.A rewrite (2026-08-20)
+
+Per client's round-2 read-through notes, Part I.A of MOTION-v5.md was
+rewritten in place (no version bump): cut the semicolon-joined-clause
+habit throughout the section; rebuilt the *expressio unius* passage on a
+cleaner structural argument (closed enumeration by an authorized drafter)
+rather than the client's proposed but unverifiable "mini-statute"
+characterization, which had no real supporting authority; and replaced the
+inaccurate "Judgment says nothing about employment" framing with a stronger
+one — the Judgment addresses employment twice (Standard Condition 7,
+Special Condition (e)) and both times imposes a reporting duty on Mr.
+Bernecky, never a restriction on his job. Added *Echazabal* for the canon's
+limiting test only (reintroducing a case a prior directive had removed for
+a different purpose — flagged, not a reversal of that removal). All facts,
+authority, and the three-part relief request survived; relief paragraph is
+verbatim.
