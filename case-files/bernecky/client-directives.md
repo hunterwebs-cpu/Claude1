@@ -5028,3 +5028,50 @@ others, including an employer" reading by name.
    carries the point without it.
 2. **Certification needs a new paragraph** for the fact that Bernecky
    "was not present for whatever the officer said to the company directly."
+
+## Part II round-2 rebuild (2026-08-20)
+
+Ten client notes (items 12-21) plus two research memos (part30 legal,
+part31 clinical) implemented in place (commit `b125d49`). Part II grew from
+4,724 to 9,618 words — now longer than Part I. Key changes: the passive
+paragraph closing the introduction was rewritten affirmatively per the
+client's explicit tone directive, now applied section-wide; the First
+Amendment argument on SC ¶ 8/¶ 4 was rebuilt on *Eaglin* (not *Loy*/
+*Peterson*, per verification), with the adverse *Simmons* authority met
+directly; SC ¶ 9's challenge was reframed on *Browder*'s "executes vs.
+contradicts" test after the client's private/public saving-construction
+theory did not hold up on research; the Fifth Amendment argument was
+corrected to FRE 413/414 (not Rule 404) per verified *Von Behren*, and
+*Reeves* was added ahead of *Boles* as binding authority for the isolation
+point; and part31's clinical-standards findings were integrated at their
+prescribed dosage (three insertions + one footnote in Part II, one
+paragraph in Part IV), with the corrected (not client's original,
+overstated) isolation-risk framing.
+
+### New open items
+
+1. **Length.** Part II is now 44% of the motion. If proportional balance
+   matters to the client, the Writer flagged the adverse-authority section
+   and the ¶ 4/¶ 5 discussion as the safest cuts.
+2. **Two out-of-scope citation fixes made and needing confirmation:** (a)
+   *Von Behren*'s full citation moved to its new first use in Part II.C,
+   shortening the existing Part IV cite; (b) **Part VI's misattributed
+   quotation was corrected** — "A condition is too vague if it requires a
+   reasonable person to speculate as to its meaning" was wrongly cited to
+   *Reeves* and is now correctly cited to *Carlineo*, 998 F.3d at 536 (this
+   error was flagged by both the treatment-contract memo and part30; a
+   confirmed misattributed quotation was not left in the filing even though
+   fixing it was outside this dispatch's assigned scope).
+3. **Three `[VERIFY]` flags carried forward, not resolved:** N.Y. Soc.
+   Serv. Law § 413 (mandatory-reporter sentence, Part II.C); *Phipps* and
+   *Bee* unread (Part II.A, adverse authority); the 6th-edition ATSA
+   guideline number for the role-boundary passage (Part II.E) — part31
+   located the passage without a number.
+4. **Two new Certification blanks opened:** that SC ¶ 1 alone bears no
+   marking on the signed document; that Mr. Bernecky has considered writing
+   a memoir describing the abuse he suffered.
+5. **One fact that would materially strengthen Part II.A** (per part30):
+   whether R.K.K.S. or Probation has ever produced a written clinical
+   opinion that adult material is contraindicated for Mr. Bernecky
+   specifically — *Eaglin* makes that the government's only real path.
+   Worth asking the client before filing.
