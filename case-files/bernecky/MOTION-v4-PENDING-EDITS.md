@@ -152,6 +152,25 @@ the full summary and new open items. Kept here only as a quick index:
     naturally, but the core instruction is simpler: pick a consistent
     replacement term and use it throughout, rather than "contract."
 
+    **Second update — the actual mechanic to use.** Client, verbatim: "we
+    can use[] quotes around contract or agreement once to show th[at]'s
+    what everyone else calls it. and then say we refer to it as x because
+    this is not an agreement as we understand that term. what consideration
+    does bernecky get?" Concrete instruction: quote "contract"/"agreement"
+    in scare quotes exactly once, near the top of Part II, to show that's
+    the label the document/R.K.K.S./everyone else uses — then state plainly
+    that the motion refers to it as [the chosen replacement term] because
+    it is not an agreement as that term is legally understood, and say why:
+    no negotiation, no meeting of the minds, no opportunity to object (item
+    23's original point), and — new point — **no consideration flowing to
+    Bernecky**. Work in the "what consideration does Bernecky get?"
+    question as a real element of the argument, not just rhetoric: an
+    agreement/contract requires consideration running both ways, and
+    nothing in this document identifies anything Bernecky receives in
+    exchange beyond being permitted to attend treatment he is already
+    court-ordered to attend. This gives item 23's "not a real agreement"
+    point actual doctrinal grounding rather than just an assertion.
+
 24. **HIGH PRIORITY — re-verify the *Browder* chronology before anything
     else touches Part II's opening.** Client's question, verbatim: "I
     thought browder was decided after bernecky's case?" This challenges the
