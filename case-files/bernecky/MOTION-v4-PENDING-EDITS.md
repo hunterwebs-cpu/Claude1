@@ -156,3 +156,76 @@ the full round-3 summary. Kept here only as a quick index:
     in-government actor instead. Check for the same implicit concession
     anywhere else this "outside the federal government" or similar framing
     appears in Part II (and elsewhere, if it recurs).
+
+17. **Consequences ¶ 2(vi) — sharpen the practical stakes.** ("...other
+    problem behavior not outlined in this Treatment Contract, as determined
+    in the sole discretion of the staff of the Practice.") Client, in his
+    own words: "what does that mean? he can go to jail for discharge
+    because someone decides something is a problem?" Already addressed
+    doctrinally in Part II.D (the *Matta*/*Carlineo*/*Jimenez* delegation
+    point on this exact clause) — but the practical consequence (discharge
+    → violation report → possible incarceration, on a standard nobody can
+    read in advance) should be stated plainly and concretely, not left
+    implicit in the doctrine.
+
+18. **Code of Conduct ¶ 6 — notification duty has nothing to do with
+    treatment and duplicates the PO relationship.** Flagged passage: "will
+    notify treatment staff of any change in my residence or employment
+    status and any other changes in relevant risk factors (including, but
+    not limited to, relationship status, social networks, substance abuse,
+    significant changes in income/debt, mobility [vehicle, Driver
+    License], health status, criminal behaviors [outside of or in addition
+    to Instant Offense or pending charges], medication compliance/changes,
+    means of communication, etc.)." Client: he is only required to notify
+    his *probation officer* of these things, not his treatment provider —
+    and none of this has anything to do with treatment. Sharpen the
+    existing Part II.D treatment of this paragraph along those lines (the
+    current draft flags it as lacking a stated purpose; add that it
+    duplicates/displaces a reporting relationship that already exists with
+    Probation and has no treatment nexus at all).
+
+19. **Special Conditions ¶ 9 (minor/vulnerable-population contact) — two
+    distinct problems, not yet both captured.**
+    - *Goes further than the Judgment, and shouldn't get a saving
+      construction.* The contract requires notice of any contact —
+      accidental, incidental, or intentional — with anyone under 18. The
+      Judgment does not require notification merely for speaking to a
+      minor; Special Condition (c) reaches only "deliberate contact" and
+      routes approval through the probation officer or the Court. Because
+      this contract term is not a judicial order, the client does not think
+      it should get the benefit of the *Kunz*-style narrowing/
+      avoid-absurd-results construction that applies to construing actual
+      court-ordered conditions — that doctrine exists to save a court's own
+      order from an absurd literal reading, not to rescue a private
+      provider's overbroad form.
+    - *"Vulnerable populations" is undefined, vague, and unsupported on
+      this record.* The term is left to be "defined by treatment staff,"
+      and there is no evidence Jeff has any issue involving "vulnerable
+      populations" as a category, outside of the minor-contact issue
+      already addressed separately.
+
+20. **Requirements/Code of Conduct "avoid... high-risk situations" /
+    "notify... of any relapse in problematic behavior" — Fifth Amendment
+    point needs to be added, and there is a separate vagueness problem too
+    (client raised this passage twice, treat as one combined note).**
+    Flagged passage: "agree to avoid situations and behaviors that will
+    place me at high risk of engaging in problematic behavior. I understand
+    that I am required to notify treatment staff within 24 hours of any
+    relapse in problematic behavior." Two points:
+    - *Fifth Amendment.* Part II.C already covers the general absence of
+      any privilege carve-out in the contract — but this specific clause
+      needs its own treatment: Jeff will always invoke his Fifth Amendment
+      right, treatment providers are mandatory reporters regardless of any
+      confidentiality waiver the contract purports to obtain, and with no
+      immunity from state or federal prosecution, Jeff will not — under any
+      circumstance — waive Fifth Amendment protection regardless of
+      whatever therapeutic benefit such disclosure might supposedly carry.
+      State this as an affirmative, unconditional position, not a
+      contingent one.
+    - *Vagueness, independent of the Fifth Amendment point.* "Problematic
+      behavior" is itself undefined and vague — what counts as a
+      "relapse in problematic behavior" triggering a 24-hour notification
+      duty is nowhere specified. This is a distinct defect from the
+      self-incrimination problem and should be argued separately (likely
+      alongside the existing vagueness authority already used in Part
+      II.A/B — *Carlineo*).
