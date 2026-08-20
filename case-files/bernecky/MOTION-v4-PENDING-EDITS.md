@@ -465,3 +465,25 @@ the full summary and new open items. Kept here only as a quick index:
     passage specifically, and a reminder to watch for the same
     over-lingering elsewhere given the Part's overall length problem
     (already flagged in `client-directives.md`).
+
+38. **ESCALATES item 36 — the whole SC ¶ 8 argument needs to be reframed,
+    not just supplemented with one more example.** Client, verbatim: "so
+    the entire porn argument needs to be adjusted. it presumes material is
+    only porn. but it says you can't use material[.] ... that [means it]
+    goes a lot further than that and should be read as what material
+    encompasses." This is a bigger fix than item 36's added example. Part
+    II.A's current framing treats SC ¶ 8 as fundamentally an
+    adult-pornography/First Amendment argument (built on *Eaglin*, with
+    pornography-adjacent overbreadth examples). That framing itself
+    presumes "material(s)" means pornographic content. The client's point:
+    the term "material(s) of any kind" has to be read for what it actually
+    covers first — which, as item 36 already flagged, plainly is not
+    limited to expressive/pornographic content at all (sex toys, condoms,
+    lubricant, etc.) — and the argument's structure should follow from that
+    broader reading, not treat the broader-than-porn examples as
+    afterthought additions bolted onto a fundamentally porn-centered
+    argument. Practically: lead the vagueness/overbreadth discussion of SC
+    ¶ 8 with what the term actually encompasses on its face (physical items
+    and all), and treat the First Amendment/*Eaglin* pornography argument as
+    one application of that broader vagueness problem — not the frame the
+    whole subpart is built around.
