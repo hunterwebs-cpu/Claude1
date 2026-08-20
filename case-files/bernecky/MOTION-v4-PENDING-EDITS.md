@@ -92,3 +92,37 @@ the full summary and new open items. Kept here only as a quick index:
     added ahead of *Boles*; clinical findings (part31) integrated at the
     prescribed dosage (3 insertions + 1 footnote in Part II, 1 paragraph in
     Part IV).
+
+## Notes on Part II (client read-through, round 2)
+
+22. **Don't read as isolated to the contract's "SPECIAL CONDITIONS"
+    section — client has objections to essentially the whole document.**
+    Client, verbatim: "why are we isolating to the special conditions? I
+    have objections to pretty much the entire document." Coordinator
+    clarified in chat (not an edit) that Part II as currently drafted
+    already reaches beyond the "SPECIAL CONDITIONS ¶" numbered list —
+    it also argues Requirements ¶ 1, Code of Conduct ¶¶ 5-6, Confidentiality
+    ¶¶ 1-3, and Consequences ¶¶ 1, 2(vi), 3(a) — but the client's read is
+    that it doesn't feel like it's treating the whole document as suspect.
+    Two things for the next pass: (a) do a full line-by-line pass through
+    every remaining paragraph of Exhibit B (all sections — Requirements,
+    Special Conditions, Code of Conduct, Confidentiality, Consequences) not
+    yet challenged, and either challenge it or make an affirmative decision
+    to leave it and say why; (b) consider whether the Part's current
+    structure/framing (organized around the contract's own "SPECIAL
+    CONDITIONS ¶" numbering as the throughline) is itself creating the
+    impression of a narrower challenge than intended, independent of what's
+    actually argued — a restructuring around the *type* of objection
+    (vagueness, delegation, Fifth Amendment, exceeds-Judgment, etc.) rather
+    than the contract's own section labels might read as more comprehensive
+    even without adding new substantive points.
+
+    **Also clarified in chat, worth carrying forward so it doesn't recur:**
+    the client's apparent premise that this contract's "SPECIAL CONDITIONS"
+    heading is connected to — or drawn from — the Judgment's Special
+    Conditions is a mix-up with a different, separate finding: it is the
+    *Judgment's* Special Conditions (entered 2018) that were found to be a
+    near-verbatim copy of *Browder*'s remand conditions (Judge Vilardo,
+    W.D.N.Y., three months earlier) — not this treatment contract. The
+    contract's own "SPECIAL CONDITIONS" heading is unrelated boilerplate
+    that happens to share the label.
