@@ -179,3 +179,28 @@ the full summary and new open items. Kept here only as a quick index:
     the absence of any clinicians at all. Check for the same overstatement
     anywhere else in Part II this sentence's framing was reused (e.g.,
     Part II.E's discussion of the same Treatment Team).
+
+26. **Item 24 resolved by the client — confirms the *Browder* dates, but
+    surfaces a more important structural point about Part II's
+    changed-circumstances posture.** Client, verbatim (decoded from typos):
+    "you[']re right on [B]rowder. our changed circumstances is different
+    than [B]rowder. bernecky didn['t] have [any] treatment conditions at
+    sentencing to even object to. we are in an as[-]applied posture." Item
+    24's chronology stands as drafted — no further re-verification needed
+    on the dates themselves. But the client is making a distinct, more
+    important point: *Browder*'s challenge arose because he had a treatment
+    agreement to object to at/near sentencing (a facial-type posture).
+    Bernecky did not — this treatment "contract" (see item 23) did not
+    exist at sentencing; it came into being only later, once he actually
+    entered treatment under Special Conditions (b)/(h). So the changed
+    circumstance underlying Part II is not the same kind of changed
+    circumstance as elsewhere in the motion (changes in law, new guidance,
+    etc.) — it is that **the very existence of this document is itself the
+    change**, and Bernecky's challenge to it is necessarily an as-applied
+    one under § 3583(e)(2), not a *Browder*-style direct-appeal posture.
+    Make this explicit somewhere early in Part II (the introduction, or
+    wherever the motion's changed-circumstances threshold is addressed) so
+    the *Browder* comparison doesn't read as claiming an identical
+    procedural posture — it supplies the substantive template for what the
+    conditions were supposed to say, not the same procedural vehicle for
+    challenging them.
