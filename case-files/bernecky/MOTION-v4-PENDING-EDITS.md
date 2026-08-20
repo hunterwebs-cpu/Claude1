@@ -368,3 +368,21 @@ the full summary and new open items. Kept here only as a quick index:
     request for an evidentiary hearing/discovery). Flag for the client:
     confirm whether the cut-off sentence continues before this goes to
     research or drafting.
+
+34. **Possible stronger *Browder* quote — needs verification before use.**
+    Flagged passage (currently in Part II): "'[c]ontrary to the
+    requirements of his special conditions, ... refused to 'comply with the
+    mandates of the treatment program,'' *id.* at 508 n.16. It reversed the
+    violation finding anyway. It did so because '[t]he gravamen of
+    Browder's complaint is simply that the proposed treatment agreement
+    conflicted with his actual sentence,' *id.* at 513, and because a
+    provider term that 'would contradict, rather than execute,' the
+    sentence is one the Probation Office 'was plainly [without power to
+    impose]'..." Client's recollection: he believes there is a better,
+    more direct quote from *Browder* — that the Second Circuit said Browder
+    was "well within his rights to refuse" (paraphrase, not verbatim; needs
+    to be located and confirmed against the actual opinion text before use,
+    per this matter's standing verification discipline). If confirmed, this
+    may be a stronger/more direct quote to lead with or add alongside the
+    existing "gravamen" and "contradict, rather than execute" quotes in
+    this passage.
