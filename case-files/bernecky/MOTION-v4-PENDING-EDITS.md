@@ -382,3 +382,20 @@ the full summary and new open items. Kept here only as a quick index:
     may be a stronger/more direct quote to lead with or add alongside the
     existing "gravamen" and "contradict, rather than execute" quotes in
     this passage.
+
+35. **Part II.A's opening line undercounts the scope of the challenge.**
+    Flagged passage — the sentence opening Part II.A: "Two of the
+    contract's terms restrict liberty this Judgment left untouched."
+    Client: "there are a lot of objections to liberty restrictions that
+    aren't in the judgment. not just 2." As written this literally scopes
+    to subpart A's own two terms (SC ¶¶ 4/8 and ¶ 5), which may be
+    technically accurate for that one subpart — but the client's point is
+    that read as an opening framing line, "two" undersells how many
+    unauthorized liberty-restricting terms this Part identifies across all
+    of Part II (SC ¶¶ 2, 4, 5, 6, 8, 9, Code of Conduct ¶ 6, Consequences
+    ¶¶ 2(vi), 3(a), etc.). Fix by either (a) rephrasing so it's clear this
+    sentence scopes only to subpart A and doesn't read as characterizing
+    the Part's total count, or (b) restructuring the opening to avoid a
+    specific numeric claim entirely. Consistent with item 22's broader
+    directive not to let any framing understate how comprehensive the
+    challenge to this document is.
