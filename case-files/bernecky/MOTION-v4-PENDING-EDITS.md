@@ -229,3 +229,45 @@ the full round-3 summary. Kept here only as a quick index:
       self-incrimination problem and should be argued separately (likely
       alongside the existing vagueness authority already used in Part
       II.A/B — *Carlineo*).
+
+21. **"Potential victim" disclosure is itself a Fifth Amendment/mandatory-
+    reporting trap — plus a broader research directive covering items
+    12-21.**
+    - *The substantive point.* SC ¶ 9's requirement to disclose contact
+      with a "potential victim" would itself trigger mandatory reporting,
+      creating a link in a chain of evidence. Client: "as *Von Behren*
+      discussed, even 404 information is subject to Fifth Amendment
+      scrutiny" — i.e., even uncharged/other-acts-type information (not
+      just the offense of conviction) can be privileged. This needs to be
+      verified against the actual *Von Behren* opinion (already cited
+      elsewhere in this motion, Part II.D and Part IV) and, if confirmed,
+      folded into the Fifth Amendment argument.
+    - **Research directive — applies to items 12 through 21 collectively.**
+      Client: "for everything I just discussed we need the research to
+      back it up. this is more complex because we are not dealing with a
+      law document but [a] treatment document." He wants the motion to cite
+      sources *from the psychological/clinical community* on how
+      unreasonable several of these contract terms are as clinical
+      practice, not just as legal doctrine. Concrete example given: the
+      motion discusses social isolation elsewhere (tone/effect of the
+      supervision regime generally), and this contract independently
+      *causes* social isolation by requiring "informed consent" from a
+      partner before a sexual relationship (SC ¶ 2) — "informed consent" is
+      a legal term of art / legal standard that a layperson (the partner)
+      cannot reliably satisfy in the moment, raising the practical question
+      of whether it even means *written* consent is required. Both angles
+      belong in the motion: the legal point (an undefined, layperson-
+      unworkable standard, per the existing vagueness authority) and the
+      clinical/practical point (a workable relationship becomes
+      functionally impossible to form under this term, driving exactly the
+      social isolation that responsible sex-offense treatment is supposed
+      to guard against — this needs real clinical-literature support, not
+      assertion).
+    - **This item signals a Researcher dispatch is likely needed** before
+      the next Part II drafting pass — to (a) verify the *Von Behren* 404
+      point, and (b) find genuine clinical/psychological-community sources
+      addressing informed-consent-from-partners requirements, social
+      isolation as a treatment risk factor, and any professional literature
+      critical of similarly-drafted treatment-contract terms. Do not
+      dispatch without the client's go-ahead — logged here per standing
+      practice; coordinator should ask before launching.
