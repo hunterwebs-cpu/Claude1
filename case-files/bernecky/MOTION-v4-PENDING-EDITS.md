@@ -139,3 +139,26 @@ the full summary and new open items. Kept here only as a quick index:
     of the minds/opportunity to object (this dovetails with item 22's
     "no meeting of the minds" theme and the *Von Behren* "non-negotiable"
     framing already used in Part II.D — consider tying them together).
+
+24. **HIGH PRIORITY — re-verify the *Browder* chronology before anything
+    else touches Part II's opening.** Client's question, verbatim: "I
+    thought browder was decided after bernecky's case?" This challenges the
+    factual predicate underlying Part II's entire "*Browder* genealogy"
+    passage — the claim that Special Condition (b) "reproduces, word for
+    word but for a single sentence, the sex-offense treatment condition a
+    judge of this District entered on remand in *Browder* on March 14, 2018
+    — three months before this Judgment issued," citing the Judgment as
+    entered June 12, 2018 (Dkt. No. 28) and the *Browder* Second Circuit
+    decision as 866 F.3d 504 (2d Cir. 2017). As currently drafted the dates
+    are internally consistent (2017 Circuit decision, March 2018 remand
+    order, June 2018 Judgment — Browder predates Bernecky both times), but
+    the client's recollection conflicts and this is foundational enough
+    (multiple paragraphs of Part II's introduction rest on the "textual
+    ancestor" claim) that it needs an actual re-verification pass — pull
+    the *Browder* remand order and the Second Circuit decision from primary
+    sources again, confirm every date (Second Circuit decision date,
+    remand-order date, Bernecky's own PSR date, plea date, and Judgment
+    date), and confirm the chronology actually supports the "reproduces...
+    three months before this Judgment issued" claim before this goes any
+    further. Do not simply re-assert the dates already in the draft —
+    actually re-check them against the source documents.
