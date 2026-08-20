@@ -141,3 +141,18 @@ the full round-3 summary. Kept here only as a quick index:
     film that explores violent sexual abuse and won awards. Use some or all
     of these to sharpen the vagueness/overbreadth argument already in Part
     II.A.
+
+16. **Don't concede that anyone outside an Article III court can impose
+    punishment.** Flagged passage (Part II.A, on SC ¶ 5's platform
+    pre-approval requirement): "...performs the same conversion and then
+    hands the permission to a party outside the federal government
+    entirely." Client: he understands the point being made, but doesn't
+    want this phrasing to read as if it concedes that *some* part of the
+    federal government (as opposed to a private party) *would* be validly
+    cloaked with the power to impose this kind of restriction. Only an
+    Article III court is so empowered — not Probation, not any other
+    executive-branch actor. Rewrite so the "outside the federal government"
+    framing doesn't imply the inverse would be fine if it were an
+    in-government actor instead. Check for the same implicit concession
+    anywhere else this "outside the federal government" or similar framing
+    appears in Part II (and elsewhere, if it recurs).
