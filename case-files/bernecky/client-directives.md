@@ -5001,3 +5001,30 @@ against Consequences ¶ 2(vi) in subpart D.
 5. Existing citation error in Part VI (line ~316, misattributes a
    *Carlineo* sentence to *Reeves*) still needs fixing — flagged by the
    research memo, not yet corrected anywhere but Part II.
+
+## Part I.A round-3 edits (2026-08-20)
+
+Six client notes implemented in place (commit `a1ded35`; Part I.A only):
+reframed the expressio unius/*Matta* passage as an *a fortiori* argument
+using *Cornell Univ. v. UAW Local 2300*, 942 F.2d 138 (2d Cir. 1991)
+(canon applied to a collective bargaining agreement) — the client's
+injunction-authority lead did not pan out (Hessick & Morley's article
+argues general textualism, not expressio unius, for court orders; no
+on-point Second Circuit authority found), so that rung was dropped rather
+than stretched, and the *Reading Law* pincite is `[VERIFY]` pending a
+physical-copy check; simplified the "neither finding was available to be
+made" sentence; corrected the overstated claim about what the PO told the
+employer (now states only what Bernecky was told directly, in both places
+the claim appeared); added *Marshall v. Barlow's, Inc.*, 436 U.S. 307, 311
+(1978), for corporate Fourth Amendment rights; struck the *McDonald*
+sentence from Part I.A (kept, correctly, in Part II); and tied the *Mike*
+holding directly into relief item (1), which now disclaims the "owned by
+others, including an employer" reading by name.
+
+### New open items
+
+1. **`Reading Law` pincite unverified** — either confirm against a
+   physical/authoritative copy or cut the sentence; the *Cornell* cite
+   carries the point without it.
+2. **Certification needs a new paragraph** for the fact that Bernecky
+   "was not present for whatever the officer said to the company directly."
