@@ -5075,3 +5075,17 @@ overstated) isolation-risk framing.
    opinion that adult material is contraindicated for Mr. Bernecky
    specifically — *Eaglin* makes that the government's only real path.
    Worth asking the client before filing.
+
+## Part II: full from-scratch rewrite ordered (2026-08-20)
+
+Client rejected the essay-length Part II outright — too long, too much of
+the client's own note-phrasing standing in for independent persuasive
+judgment, too many individual errors to keep patching. **Part II is being
+rebuilt from nothing**, in a concise list format (short label per
+objectionable term, a few tight numbered reasons, no essay treatment), per
+`PART-II-REWRITE-BRIEF.md`. The Writer dispatched on this rewrite is
+explicitly instructed not to read the current Part II text or the
+pending-edits items — only the brief and the underlying research memos
+(parts 29-31), exercising its own discretion on structure and phrasing.
+Client directed the dispatch to start at 10:41 AM Eastern (client's own
+session-limit reset), not before.
