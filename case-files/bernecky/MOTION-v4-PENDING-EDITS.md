@@ -126,3 +126,16 @@ the full summary and new open items. Kept here only as a quick index:
     W.D.N.Y., three months earlier) — not this treatment contract. The
     contract's own "SPECIAL CONDITIONS" heading is unrelated boilerplate
     that happens to share the label.
+
+23. **Put "contract" in quotes/scare quotes — it isn't one in a legal
+    sense.** Client, verbatim: "the word contract should be put in quotes
+    because nothing about this is a contract in a legal sense. there is no
+    negotiation there is no meeting of the minds, there is no opportunity
+    for objection." Applies throughout Part II wherever the document is
+    called "the contract," "the Treatment Contract," etc. — either flag the
+    term as the document's own self-description while making clear
+    Bernecky does not concede it meets the legal definition of a contract,
+    or make an affirmative point out of the absence of negotiation/meeting
+    of the minds/opportunity to object (this dovetails with item 22's
+    "no meeting of the minds" theme and the *Von Behren* "non-negotiable"
+    framing already used in Part II.D — consider tying them together).
