@@ -303,30 +303,29 @@ the full summary and new open items. Kept here only as a quick index:
     "treatment staff discretion" this Part spends the rest of its pages
     objecting to.
 
-31. **The *Browder* genealogy passage reads like a challenge to the
-    Judgment's own condition — it needs to be unmistakably clear that it
-    isn't.** Client, verbatim (message was cut off mid-thought, logged as
-    given): "this whole thing about browder reads as a challenge to the
+31. **CONFIRMED COMPLETE by client.** **The *Browder* genealogy passage
+    reads like a challenge to the Judgment's own condition — it needs to be
+    unmistakably clear that it isn't.** Client, verbatim: "this whole thing
+    about browder reads as a challenge to the
     condition[] imposed. but we aren't challenging the judge's condition,"
     followed by the flagged passage — "...treatment condition a judge of
     this District entered on remand in *Browder* on March 14, 2018 — three
     months before this Judgment issued... The same near-identity holds for
     this Judgment's computer-monitoring condition, its minor-contact
     condition..., its financial condition, its search condition, and its
-    mental health and alcohol [condition]" — and then, apparently starting
-    a further point before being interrupted: "the treatment agenc[y]'s
-    conditions are nearly identical [to Browder's — thought not completed]."
+    mental health and alcohol [condition]" — and: "the treatment agenc[y]'s
+    conditions are nearly identical" (a distinct closing point — the
+    provider's own contract terms, separately from the Judgment's lineage
+    discussion, are themselves substantively close to boilerplate seen
+    elsewhere, reinforcing that this is a form, not an individualized
+    document).
     **Action item:** rework this passage so it is unmistakable that the
     *Browder* genealogy is being used only to establish what the Judgment's
     template actually authorizes (via its shared lineage with Judge
     Vilardo's remand conditions) as a *baseline* — not as an attack on the
     Judgment or the sentencing judge's own condition. The target of the
     challenge throughout is the treatment *provider's* contract terms
-    diverging from that baseline, never the Judgment itself. If the client's
-    cut-off thought was headed toward a further point (e.g., about the
-    treatment agency's own contract terms being nearly identical to
-    something else), get clarification before drafting rather than
-    guessing at the rest of that sentence.
+    diverging from that baseline, never the Judgment itself.
 
 32. **Tone directive — stop being passive, "slam" the treatment provider on
     the hypocrisy point.** Client, verbatim: "the fact that a treating
@@ -346,16 +345,15 @@ the full summary and new open items. Kept here only as a quick index:
     standing instruction against passive/hedging framing throughout Part
     II.
 
-33. **New demand: require the probation officer to produce credentials
-    proving qualification to sit on a clinical "Treatment Team."** Client,
-    verbatim: "they, apparently with the probation officer[']s blessing[,
-    who is] allegedly qualified to be a member of the treatment team, and I
-    want to demand that the probation officer release their qualifications
-    to prove they are licensed to be a member of a treatment team in any
-    clinical setting in New York..." (message trails off — may continue;
-    check with the client before treating this as complete). Ties directly
-    into Part II.E's existing "Probation sits on the Treatment Team"
-    argument: if the officer (and/or supervisor) has no clinical
+33. **CONFIRMED COMPLETE by client.** **New demand: require the probation
+    officer to produce credentials proving qualification to sit on a
+    clinical "Treatment Team."** Client, verbatim: "they, apparently with
+    the probation officer[']s blessing[, who is] allegedly qualified to be
+    a member of the treatment team, and I want to demand that the probation
+    officer release their qualifications to prove they are licensed to be a
+    member of a treatment team in any clinical setting in New York." Ties
+    directly into Part II.E's existing "Probation sits on the Treatment
+    Team" argument: if the officer (and/or supervisor) has no clinical
     licensure/qualification recognized in New York for membership on a
     treatment team in a clinical setting, that undercuts R.K.K.S.'s own
     premise that Probation belongs on the Treatment Team at all — this
@@ -365,9 +363,7 @@ the full summary and new open items. Kept here only as a quick index:
     standard for treatment-team membership in a clinical setting that this
     argument could be grounded in, and (b) the appropriate procedural
     vehicle for such a demand in a § 3583(e)(2) motion (relief request vs.
-    request for an evidentiary hearing/discovery). Flag for the client:
-    confirm whether the cut-off sentence continues before this goes to
-    research or drafting.
+    request for an evidentiary hearing/discovery).
 
 34. **Possible stronger *Browder* quote — needs verification before use.**
     Flagged passage (currently in Part II): "'[c]ontrary to the
