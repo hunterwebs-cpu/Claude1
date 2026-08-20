@@ -244,3 +244,24 @@ the full summary and new open items. Kept here only as a quick index:
       [ask/challenge/dispute] X... he [asks/challenges/disputes] Y"
       construction generally, and eliminate the pattern everywhere it
       appears, not just at the two flagged locations.
+
+28. **State precisely why the "not academic" point isn't academic, instead
+    of just asserting it.** Flagged passage: "That question is not
+    academic, because these terms operate as conditions of supervision
+    whatever the paper they are printed on says. Special Condition (b)
+    commands that Mr. Bernecky 'participate...'" Client wants the actual
+    mechanism stated directly rather than left as an assertion: discharge
+    from the program for refusing to follow a rule the Practice imposed
+    without legal authority will be used to allege a violation of the
+    Judgment's condition to participate in treatment — and this happens
+    routinely, all across the country, not as a hypothetical risk unique to
+    Bernecky. Make that concrete mechanism (and its routineness elsewhere)
+    the stated reason the question isn't academic, rather than asserting
+    the conclusion and moving on. **Flag:** "as is proven all across the
+    country routinely" is a factual generalization — if it goes in the
+    motion as a factual claim rather than rhetorical color, it needs actual
+    supporting authority (e.g., a citable pattern from reported cases of
+    provider-imposed rules triggering violation proceedings), not just
+    assertion. If no such authority is readily available, state the
+    mechanism itself (discharge → violation allegation) without the
+    nationwide-frequency claim.
