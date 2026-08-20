@@ -4961,3 +4961,43 @@ limiting test only (reintroducing a case a prior directive had removed for
 a different purpose — flagged, not a reversal of that removal). All facts,
 authority, and the three-part relief request survived; relief paragraph is
 verbatim.
+
+## Part II rebuilt as as-applied challenge to the R.K.K.S. contract (2026-08-20)
+
+Per client's directive, Part II was discarded entirely and rebuilt
+(4,669 words, up from ~750) as a full as-applied challenge to Exhibit B,
+the R.K.K.S. treatment contract, using the part29 research memo. Structure:
+unheaded opening naming the contract's own "SPECIAL CONDITIONS" section and
+its empty individualization slot, then five subparts — (A) the
+material-ban/platform-preapproval terms; (B) SC ¶ 2's compelled
+partner-disclosure as an end run around *Boles*; (C) the missing Fifth
+Amendment carve-out, cross-referenced to (not duplicated from) Part IV;
+(D) Consequences ¶ 2(vi) and a compressed sweep of remaining divergent
+terms; (E) Consequences ¶ 3(a) — the client's "Probation on the Treatment
+Team" objection, argued on the client's own parent-in-therapy analogy, with
+relief limited to attendance/progress/clinically-grounded concerns and no
+production of internal notes or records absent a court order. *Jimenez*
+(2d Cir. 2026), the government's best authority, is conceded and answered
+head-on in the opening rather than avoided, then turned affirmatively
+against Consequences ¶ 2(vi) in subpart D.
+
+### Open items for the client (Part II)
+
+1. **`[VERIFY]` — *Jimenez*** (cited to slip op., no F.4th cite exists yet;
+   conform before filing) **and *Harris***, 164 F.4th 181, 197 (2d Cir.
+   2026) (single clause, not in the Drive Cases folder, nobody has read it
+   — read or cut).
+2. **Conclusion item 5 is now stale** (references "the procedure set out in
+   Part II," which is narrower than before) and **Statement of Facts ¶ 44
+   doesn't introduce Exhibit B** — both need a coordinator/Writer pass, not
+   done in this dispatch.
+3. **Signing date deliberately unaddressed.** Contract is dated 08/19/2026;
+   client says he signed in BOP custody during the Second Chance Act
+   placement. Part II doesn't assert a signing date or status — the
+   Certification will need to resolve this.
+4. **Whether R.K.K.S. serves under Special Condition (b) or (h) is still
+   unestablished** — one client question would let Part II make an
+   affirmative point instead of hedging.
+5. Existing citation error in Part VI (line ~316, misattributes a
+   *Carlineo* sentence to *Reeves*) still needs fixing — flagged by the
+   research memo, not yet corrected anywhere but Part II.
