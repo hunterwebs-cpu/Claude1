@@ -42,3 +42,34 @@ growing with content that has a shelf life of one drafting pass.
 4. **Part I.A needs a full rewrite, not edits.** Still too verbose, feels
    repetitive on the points it's already making, and reads clunky. A
    ground-up rewrite of the section is in order rather than line edits.
+
+5. **Treatment contract findings (research memo part29) — strategy for
+   Part II.** Client's read on the objectionable terms, and how to handle
+   them:
+
+   - **SC ¶ 2 (pre-authorization + proof of sexual partners' informed
+     consent to full disclosure of offense history) is an end run around
+     *Boles*.**
+   - **Consequences ¶ 3(a) (Probation on the "Treatment Team") is
+     "frankly objectionable"** — nothing in Bernecky's actual conditions
+     authorizes Probation to sit on the treatment team. Client's analogy: a
+     parent bringing a child to therapy isn't on the treatment team either,
+     but can be *informed*. On that basis, Bernecky does not consent to
+     release/disclosure of internal notes and files not ordinarily produced
+     to anyone in the ordinary course. He will only consent to the provider
+     informing the PO of progress, attendance, and concerns rooted in
+     actual clinical findings — not speculation. There has to be a workable
+     middle position along those lines for the relief request.
+   - **Proposed handling: replace the entire treatment-condition argument
+     in Part II with a full as-applied challenge now**, built from the
+     part29 memo's findings (the *Browder* genealogy, the Consequences
+     ¶ 3(a) hinge, the four flagged terms) rather than the current
+     procedural-only Part II.
+   - **Separately (not part of the motion): Jeff should send an
+     email/letter to his PO and to the treatment staff explaining the legal
+     challenge** before/alongside filing.
+   - **Missing from the contract entirely: an honesty requirement with no
+     accommodation for invoking the Fifth Amendment.** The contract compels
+     honesty/full disclosure but has no carve-out for a client invoking the
+     privilege — flag this as an additional objectionable gap, not just the
+     terms already in the memo.
