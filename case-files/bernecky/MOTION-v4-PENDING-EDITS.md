@@ -127,18 +127,30 @@ the full summary and new open items. Kept here only as a quick index:
     contract's own "SPECIAL CONDITIONS" heading is unrelated boilerplate
     that happens to share the label.
 
-23. **Put "contract" in quotes/scare quotes — it isn't one in a legal
-    sense.** Client, verbatim: "the word contract should be put in quotes
-    because nothing about this is a contract in a legal sense. there is no
+23. **SUPERSEDED/ESCALATED — see update below.** ~~Put "contract" in
+    quotes/scare quotes — it isn't one in a legal sense.~~ Original note:
+    Client, verbatim: "the word contract should be put in quotes because
+    nothing about this is a contract in a legal sense. there is no
     negotiation there is no meeting of the minds, there is no opportunity
-    for objection." Applies throughout Part II wherever the document is
-    called "the contract," "the Treatment Contract," etc. — either flag the
-    term as the document's own self-description while making clear
-    Bernecky does not concede it meets the legal definition of a contract,
-    or make an affirmative point out of the absence of negotiation/meeting
-    of the minds/opportunity to object (this dovetails with item 22's
+    for objection."
+
+    **Update — client went further, do this instead of scare quotes:**
+    "and stop calling it a contract. call it something that reflects there
+    is no bilateral understanding." Do not use scare-quoted "contract" as a
+    workaround — replace the term itself throughout Part II (and anywhere
+    else in the motion it's called "the Treatment Contract" or "the
+    contract") with language that doesn't concede a bilateral agreement at
+    all. Candidates to consider: "the document," "the form," "the intake
+    document," "the Practice's rules," "the instrument," or R.K.K.S.'s own
+    section titles where useful (it is still fine, and probably necessary,
+    to quote the document's own self-description — e.g., where it calls
+    itself a "Treatment Contract" in its own text — but that should read as
+    quoting the document's label, not adopting it as the motion's own
+    description of what the document is). This dovetails with item 22's
     "no meeting of the minds" theme and the *Von Behren* "non-negotiable"
-    framing already used in Part II.D — consider tying them together).
+    framing already used in Part II.D — tie them together if it fits
+    naturally, but the core instruction is simpler: pick a consistent
+    replacement term and use it throughout, rather than "contract."
 
 24. **HIGH PRIORITY — re-verify the *Browder* chronology before anything
     else touches Part II's opening.** Client's question, verbatim: "I
