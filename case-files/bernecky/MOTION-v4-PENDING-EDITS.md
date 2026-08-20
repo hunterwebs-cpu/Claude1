@@ -411,3 +411,20 @@ the full summary and new open items. Kept here only as a quick index:
     specific numeric claim entirely. Consistent with item 22's broader
     directive not to let any framing understate how comprehensive the
     challenge to this document is.
+
+36. **"Material(s)" in SC ¶ 8 isn't limited to images/text — it could reach
+    physical adult items with no restriction anywhere in the Judgment.**
+    Client, verbatim: "it just dawned on me: 'sexually stimulating
+    material(s) of' — what the hell are 'materials?' Sex toys? condoms?
+    lubricant? he doesn't have any restrictions on perfectly legal adult
+    items." SC ¶ 8's actual language: "I will not purchase, possess, view,
+    produce, or use sexually stimulating material(s) of any kind as defined
+    by my treatment staff." The existing overbreadth argument (items 14/15)
+    addresses this as a content-vagueness problem (pornography, literature,
+    film, etc.) — this is a distinct, additional angle: "material(s)" is
+    not even confined to expressive content. Read plainly, it could sweep
+    in ordinary physical adult items — sex toys, condoms, lubricant, and
+    similar — that carry no restriction anywhere in the Judgment and no
+    connection to the conduct of conviction. Add this as a further
+    overbreadth example/argument in Part II.A, alongside (not replacing)
+    the existing memoir/PSR/Bible/film examples from item 15.
