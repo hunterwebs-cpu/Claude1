@@ -281,3 +281,24 @@ the full summary and new open items. Kept here only as a quick index:
     was used more than once in earlier drafts, e.g. "the government's best
     authority is three months old") for the same premature-response framing
     and fix every instance, not just this one.
+
+30. **Don't hand a treating clinician the standard for what counts as a
+    valid absence — use an ordinary-person/rational-person standard with
+    concrete examples instead.** Flagged passage: "He'll miss a session
+    only for a reason a treating clinician would recognize as a good one."
+    Client, verbatim: "this is a hell of a claim and a lot of trust to put
+    on a treating clinician[]. who came up with this ... absurd contract[?]
+    I would rather say he will only miss for reasons generally accepted by
+    rational and sa[n]e people as reasonable: sickness, hospitalization,
+    family emergency, car dies en route, a car accident, etc. I want to be
+    pretty full here and list out all valid excuses employers and schools
+    generally approve without question." Rewrite to drop the
+    clinician's-discretion framing entirely — it hands exactly the kind of
+    trust to the provider that the rest of Part II argues the provider
+    hasn't earned — and replace with a reasonably comprehensive list of
+    ordinary, universally-recognized excuses (illness, hospitalization,
+    family emergency, car breakdown/accident, and similar — the kind of
+    thing employers and schools accept without question), so the standard
+    is an objective, common-sense one rather than delegated to the same
+    "treatment staff discretion" this Part spends the rest of its pages
+    objecting to.
