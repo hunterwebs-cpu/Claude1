@@ -162,3 +162,20 @@ the full summary and new open items. Kept here only as a quick index:
     three months before this Judgment issued" claim before this goes any
     further. Do not simply re-assert the dates already in the draft —
     actually re-check them against the source documents.
+
+25. **False statement — "The body that enforces the document is not
+    composed of clinicians" is contradicted by the very next sentence.**
+    Client, verbatim: "this is a false statement and you say it is in the
+    next sentence: [the body that enforces the] document is not composed of
+    clinicians. but it is composed of therapists who are clinicians. so it
+    is not ONLY composed of treating personnel." The Treatment Team is "all
+    therapists in the Practice, the Probation Officer, and the Probation
+    Supervisor" (Ex. B, Consequences ¶ 3(a)) — the therapists ARE
+    clinicians, so the sentence as written is factually wrong, not just
+    imprecise. Fix to the accurate point: the body is not composed
+    *exclusively* or *solely* of clinicians — it includes clinicians
+    alongside two non-clinical supervision officers, which is the actual
+    defect (Probation's presence on a clinical decision-making body), not
+    the absence of any clinicians at all. Check for the same overstatement
+    anywhere else in Part II this sentence's framing was reused (e.g.,
+    Part II.E's discussion of the same Treatment Team).
