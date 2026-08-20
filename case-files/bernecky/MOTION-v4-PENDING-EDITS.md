@@ -265,3 +265,19 @@ the full summary and new open items. Kept here only as a quick index:
     assertion. If no such authority is readily available, state the
     mechanism itself (discharge → violation allegation) without the
     nationwide-frequency claim.
+
+29. **Fix "the government's most recent authority" — no motion has been
+    filed, so the government hasn't cited anything yet.** Flagged passage:
+    "The government's most recent authority draws the line in the same
+    place. In *United States v. Jimenez*, the Second Circuit rejected
+    vagueness and delegation challenges..." Client, verbatim: "last I check
+    the government hasn't cited anything as we still haven't filed a motion
+    let alone received a response." This is inaccurate framing, not just
+    tone — nothing has been filed, so there is no government citation to
+    refer to. Reframe as an anticipated/likely authority rather than
+    something already advanced by the government: e.g., "the strongest
+    authority the government is likely to rely on," "the most relevant
+    adverse authority," or similar — check the rest of Part II (this phrase
+    was used more than once in earlier drafts, e.g. "the government's best
+    authority is three months old") for the same premature-response framing
+    and fix every instance, not just this one.
