@@ -447,3 +447,21 @@ the full summary and new open items. Kept here only as a quick index:
     connection to the conduct of conviction. Add this as a further
     overbreadth example/argument in Part II.A, alongside (not replacing)
     the existing memoir/PSR/Bible/film examples from item 15.
+
+37. **Compress item 12's unmarked-¶-1 point — it's belabored.** Flagged
+    passage: "Nothing in the contract says what a marking signifies, or
+    what its absence signifies. Its own operative language is 'I agree to
+    abide by the following special conditions' — not the following checked
+    conditions — and it nowhere states that an unmarked paragraph is
+    inoperative. A man holding this document cannot determine from it which
+    of its ten special conditions govern him. And where the form reserves
+    the space for the terms particular to this patient, the Practice filled
+    it in with four words: 'No special conditions designated.'" Client: "we
+    spend too much [time] slamming the[ir] inartful agreement. anyone
+    reading it would believe a check box means it is applicable. you can
+    make the point once. but move on." The point is obvious and doesn't
+    need multiple sentences reinforcing it — state it once, briefly, and
+    move to the next point. This is a general instruction for this
+    passage specifically, and a reminder to watch for the same
+    over-lingering elsewhere given the Part's overall length problem
+    (already flagged in `client-directives.md`).
