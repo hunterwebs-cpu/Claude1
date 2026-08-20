@@ -204,3 +204,43 @@ the full summary and new open items. Kept here only as a quick index:
     procedural posture — it supplies the substantive template for what the
     conditions were supposed to say, not the same procedural vehicle for
     challenging them.
+
+27. **The "we aren't here for X, we're here for Y" passive framing is
+    recurring — this is a repeat offense and needs a full sweep, not
+    another one-off patch.** Client, verbatim: "I have repeatedly said that
+    the[] 'we aren't here for x but here for y' is a bad passive framing.
+    and it is done yet again: 'Mr. Bernecky does not ask this Court to tell
+    R.K.K.S. how to run its program, and this Court could not. *McDonald*,
+    slip op. at 12 n.2. He asks it to hold that his compliance with this
+    Judgment...' This is totally irrelevant. the court knows it can't
+    require [anything] of the provider. but if they want the probation
+    contract then they will come into compliance with the ... law or
+    probation will have to find someone different. all we have to say is we
+    want a clarification stating that the objected to rules are
+    unenforceable and any discharge from the program based on those rules
+    cannot be used as a basis to find a violation of [supervised release]."
+    **Action items:**
+    - Cut the flagged "does not ask... He asks it to hold..." sentence pair
+      entirely — telling the Court something it obviously already knows
+      (it can't order a private provider around) is dead weight, not a
+      concession that needs stating.
+    - Replace with the client's own direct framing: Bernecky wants
+      clarification that the objected-to rules are unenforceable, and that
+      any discharge from the program based on those rules cannot be used
+      as a basis to find a violation of supervised release. This should
+      tighten, not lengthen, the relief already requested in Part II —
+      check it against the existing seven-item relief paragraph for
+      overlap/redundancy rather than adding a new item.
+    - The underlying logic (if the provider wants to keep supervising
+      Bernecky under Probation's arrangement, it has to operate within what
+      the Judgment actually authorizes, or Probation finds a different
+      provider) can inform the relief's framing but does not need to be
+      spelled out as a threat or a prediction in the motion itself.
+    - **This is now the second time this exact rhetorical pattern has been
+      flagged** (item 13 hit one instance; this is a different instance in
+      a different paragraph of the same introduction). Do not just fix this
+      one sentence — do a full pass through all of Part II (and ideally the
+      whole motion, time permitting) for the "Mr. Bernecky does not
+      [ask/challenge/dispute] X... he [asks/challenges/disputes] Y"
+      construction generally, and eliminate the pattern everywhere it
+      appears, not just at the two flagged locations.
