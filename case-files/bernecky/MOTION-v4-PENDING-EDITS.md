@@ -65,3 +65,79 @@ the full round-3 summary. Kept here only as a quick index:
 11. ~~Tie *Mike* into the relief request.~~ **Done** — relief item (1) now
     disclaims the "owned by others, including an employer" reading
     directly.
+
+## Notes on Part II (client read-through, round 1)
+
+12. **The unmarked SPECIAL CONDITIONS ¶ 1 shows the contract isn't a "model
+    of clarity."** Flagged passage: "Its special conditions open by telling
+    Mr. Bernecky that 'while under pretrial supervision or pretrial
+    diversion I am not permitted to talk about the offense for which I am
+    currently being investigated' — a paragraph addressed to a defendant
+    awaiting charges, which he has not been for eight years. Ex. B, Special
+    Conditions ¶ 1." Client: this particular condition has no marking next
+    to it on the actual document, unlike all the others, which presumably
+    means it doesn't apply. The contract's own text says "I agree to abide
+    by the following special conditions" — it does not say "the following
+    *checked* conditions." So the document doesn't even reliably tell the
+    reader which of its own ten conditions govern. Work this ambiguity into
+    the point being made with ¶ 1 (or nearby), rather than treating ¶ 1 as
+    cleanly "in effect" the way the paragraph currently implies.
+
+13. **The *Jimenez* paragraph closing the Part II introduction is
+    unacceptably passive — rewrite before anything else in Part II.**
+    Client, verbatim: "so this is a totally passive paragraph. who cares
+    what bernecky isnt doing. what he is doing is the crux. he is
+    challenging the program rules that conflict with the judgment and
+    refuses to predicate his supervised release on further punishment.
+    nothing to do with vagueness of the condition. reading the courts order
+    with reason and in line with the law, the command to follow the program
+    rules goes to showing up for his sessions and only missing for
+    justified reasons and participating in the program as far as the
+    program doesn't condition his success on further restrictions on his
+    liberty." And: "I will very rarely accept a passive aggressive argument.
+    and I will almost certainly never approve it as the final paragraph in
+    an introduction." Flagged passage (the paragraph beginning "The
+    government's best authority is three months old..." through "...whom he
+    may sleep with, and whether he may open his email is not."). Reframe
+    affirmatively around what Bernecky IS doing — challenging program rules
+    that conflict with the Judgment and refusing to have his supervised
+    release conditioned on further, unauthorized punishment — and construe
+    "follow the rules and regulations of that program" reasonably and in
+    line with law: it means showing up for sessions, missing only for
+    justified reasons, and participating in the program only insofar as the
+    program does not condition his success on additional restrictions on
+    his liberty. This is a structural note about tone/framing, not just
+    this one paragraph — apply the same affirmative-framing standard
+    generally, and never let a passive/defensive paragraph close an
+    introduction.
+
+14. **First Amendment invalidity of the "sexually stimulating material"
+    condition as to legal adult pornography — new authority to research and
+    add.** Client's understanding: a condition like SC ¶ 8/¶ 4 has been held
+    to violate the First Amendment as applied to *legal adult* pornography.
+    A treatment provider may believe, as a clinical matter, that adult porn
+    functions like a "gateway drug" — the defense would dispute that — but
+    the provider cannot rely on the Court to enforce that clinical theory on
+    the patient through the threat of revocation, absent a particularized
+    condition actually authorizing it. Client believes *Peterson* discussed
+    legal adult pornography, and that the Third Circuit in *Loy* vacated
+    such a condition. **Flag:** the part29 research memo instructed "do not
+    cite *Loy* at all" — that instruction and this client note are now in
+    tension and need to be reconciled through actual verification (find out
+    why the memo said not to cite it — bad law, distinguishable, mischaracte
+    -rized holding, etc. — before deciding whether/how to use it here).
+    *Peterson*, 248 F.3d 79 (2d Cir. 2001), is already used elsewhere in
+    this motion for its delegation holding — verify whether it also
+    addresses legal adult pornography and, if so, on what terms.
+
+15. **Overbreadth of "sexually stimulating material(s) of any kind" —
+    illustrative examples to add.** Client's examples of what the
+    undefined term could sweep in: Bernecky's own memoir, if he writes one
+    and describes the sexual abuse he suffered; the PSR itself, which
+    describes in graphic detail the images found in his possession; the
+    Bible, which recounts sexual activity including Lot's incestuous
+    relations with his own daughters; and the film *The Prince of Tides*
+    (Barbra Streisand and Nick Nolte) — arguably a therapeutically valuable
+    film that explores violent sexual abuse and won awards. Use some or all
+    of these to sharpen the vagueness/overbreadth argument already in Part
+    II.A.
