@@ -302,3 +302,69 @@ the full summary and new open items. Kept here only as a quick index:
     is an objective, common-sense one rather than delegated to the same
     "treatment staff discretion" this Part spends the rest of its pages
     objecting to.
+
+31. **The *Browder* genealogy passage reads like a challenge to the
+    Judgment's own condition — it needs to be unmistakably clear that it
+    isn't.** Client, verbatim (message was cut off mid-thought, logged as
+    given): "this whole thing about browder reads as a challenge to the
+    condition[] imposed. but we aren't challenging the judge's condition,"
+    followed by the flagged passage — "...treatment condition a judge of
+    this District entered on remand in *Browder* on March 14, 2018 — three
+    months before this Judgment issued... The same near-identity holds for
+    this Judgment's computer-monitoring condition, its minor-contact
+    condition..., its financial condition, its search condition, and its
+    mental health and alcohol [condition]" — and then, apparently starting
+    a further point before being interrupted: "the treatment agenc[y]'s
+    conditions are nearly identical [to Browder's — thought not completed]."
+    **Action item:** rework this passage so it is unmistakable that the
+    *Browder* genealogy is being used only to establish what the Judgment's
+    template actually authorizes (via its shared lineage with Judge
+    Vilardo's remand conditions) as a *baseline* — not as an attack on the
+    Judgment or the sentencing judge's own condition. The target of the
+    challenge throughout is the treatment *provider's* contract terms
+    diverging from that baseline, never the Judgment itself. If the client's
+    cut-off thought was headed toward a further point (e.g., about the
+    treatment agency's own contract terms being nearly identical to
+    something else), get clarification before drafting rather than
+    guessing at the rest of that sentence.
+
+32. **Tone directive — stop being passive, "slam" the treatment provider on
+    the hypocrisy point.** Client, verbatim: "the fact that a treating
+    provider in this very district where browder was has not implemented
+    the law in their practice shows a disregard for the law. if Jeff
+    disregarded the law like that he'd go to jail. and these people are
+    supposed to help him remain law abiding." And: "I'm being sarcastic
+    because this treatment contract pisses me off to no end. I don't want
+    passivity. I don't want to sound weak. I want to slam the treatment
+    provider fully." This is a section-wide tone directive, not a single
+    sentence to insert — the client wants forceful, unhedged advocacy
+    hitting this specific point: a provider operating in the very district
+    that decided *Browder* has apparently never brought its own contract
+    into compliance with that controlling precedent, while its entire
+    business is purportedly to help Bernecky remain law-abiding. Use this
+    irony pointedly. This reinforces (does not replace) items 13/27's
+    standing instruction against passive/hedging framing throughout Part
+    II.
+
+33. **New demand: require the probation officer to produce credentials
+    proving qualification to sit on a clinical "Treatment Team."** Client,
+    verbatim: "they, apparently with the probation officer[']s blessing[,
+    who is] allegedly qualified to be a member of the treatment team, and I
+    want to demand that the probation officer release their qualifications
+    to prove they are licensed to be a member of a treatment team in any
+    clinical setting in New York..." (message trails off — may continue;
+    check with the client before treating this as complete). Ties directly
+    into Part II.E's existing "Probation sits on the Treatment Team"
+    argument: if the officer (and/or supervisor) has no clinical
+    licensure/qualification recognized in New York for membership on a
+    treatment team in a clinical setting, that undercuts R.K.K.S.'s own
+    premise that Probation belongs on the Treatment Team at all — this
+    could be added either as an additional argument in II.E or as a new
+    relief item (production of qualifications/licensure). Needs research to
+    determine (a) whether New York has an actual licensure/qualification
+    standard for treatment-team membership in a clinical setting that this
+    argument could be grounded in, and (b) the appropriate procedural
+    vehicle for such a demand in a § 3583(e)(2) motion (relief request vs.
+    request for an evidentiary hearing/discovery). Flag for the client:
+    confirm whether the cut-off sentence continues before this goes to
+    research or drafting.
