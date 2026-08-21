@@ -213,3 +213,16 @@ provision goes to the execution of the therapy (an administrative detail
 within what the Judgment properly leaves to be worked out), not to
 something in excess of the Judgment — this is a vagueness/practicality
 objection, not an exceeds-the-Judgment objection.
+
+---
+
+**CODE OF CONDUCT ¶ 2:** "I will pay my assigned copay at the time of
+each session unless I have made other arrangements with the Practice and
+my Probation Officer."
+
+**Client's objection:** Who assigns this elusive "copay"? Jeff has health
+insurance through his provider. While his condition acknowledges he is
+responsible for part of the cost of treatment, the Court never fixed a
+specific amount. Jeff's position: he should be required to pay no more
+than his health insurance carrier requires for an in-network provider
+(likely around $10).
