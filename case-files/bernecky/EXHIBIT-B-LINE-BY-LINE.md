@@ -294,3 +294,14 @@ cannot fall back on "I will have you arrested if you don't tell us
 everything we want to hear." Therapists need to earn a patient's trust and
 build a relationship to the point where disclosure happens genuinely — not
 compel it by threat. Think *Good Will Hunting*.
+
+---
+
+**CONSEQUENCES ¶ 1:** "I understand that my supervising officer will be
+notified of any violation of this Treatment Contract. I also understand
+that law enforcement may be contacted if it becomes necessary to maintain
+the safety of potential victims and/or the community."
+
+**Client's objection:** This paragraph reinforces precisely why the Fifth
+Amendment applies — disclosures are routed to the supervising officer and
+potentially to law enforcement.
