@@ -453,3 +453,13 @@ polygraph) will be part of treatment."
 submit to plethysmograph testing, and nothing in his conditions requires
 or even implies it. Polygraph is being dealt with separately in Part IV —
 don't duplicate that argument here, just note the cross-reference.
+
+---
+
+**SPECIAL CONDITIONS ¶ 7:** "To be successful in treatment I understand
+that it is necessary discuss my offense conduct, fantasies, sexual
+behaviors, sexual thoughts, masturbation patterns, sexual history, and any
+other relevant topics."
+
+**Client's objection:** Fifth Amendment issue again. Also, "any other
+relevant topics" is vague.
