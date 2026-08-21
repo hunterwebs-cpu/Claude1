@@ -487,3 +487,17 @@ any of the above."
 
 **Client's objection:** "Accidental" isn't "deliberate" (the Judgment's
 actual standard). "Vulnerable populations" is vague.
+
+---
+
+**SPECIAL CONDITIONS ¶ 10 (individualization slot):** "I agree to abide by
+the following special conditions: No special conditions designated."
+
+**Client's objection:** None — no independent objection to this line
+itself (it is already used affirmatively elsewhere as evidence the
+document is boilerplate rather than individualized).
+
+---
+
+**This completes the SPECIAL CONDITIONS section — all ten paragraphs
+addressed.** Remaining: the closing acknowledgment/signature block.
