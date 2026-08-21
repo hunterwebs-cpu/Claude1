@@ -130,3 +130,14 @@ absolutely does not waive confidentiality as to his own voiced
 disagreements with treatment providers about theories he may not agree
 with — such as the view that all pornography is bad and problematic (see
 Requirements ¶ 1 objection, above).
+
+---
+
+**CONFIDENTIALITY ¶ 2:** "I understand that treatment staff will provide
+verbal and written reports to United States Probation and other
+individuals and agencies involved in my treatment pursuant to the terms of
+my probation and the agreements referenced in the preceding paragraph."
+
+**Client's objection:** Same as the objection to ¶ 1 — Probation is
+entitled to attendance, participation, and progress only, not a full
+report of everything discussed.
