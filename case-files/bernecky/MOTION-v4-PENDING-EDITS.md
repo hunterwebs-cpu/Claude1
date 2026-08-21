@@ -22,6 +22,47 @@ Writer against these items directly — use the brief instead.
 
 ---
 
+## Notes on Part II (post-rewrite, round 1)
+
+39. **FACTUAL ERROR — "no check box, initial, or marking of any kind" is
+    false; correct only as to SC ¶ 1.** Flagged passage: "No check box,
+    initial, or marking of any kind separates the paragraphs that apply to
+    him from those that do not, and the form's operative sentence is 'I
+    agree to abide by the following special conditions' — not the
+    following *checked* conditions." Client: "there are check boxes in the
+    special conditions and most of them are indeed checked. so where does
+    this come from." This is a real accuracy problem, not a framing
+    preference — the new draft over-generalized the original, correctly
+    verified fact (client read-through round 1, item 12): the document
+    *does* have markings throughout, and most paragraphs *are* checked —
+    the actual anomaly is that SC ¶ 1 specifically bears no marking, unlike
+    the others. The current sentence claims the opposite (no marking
+    anywhere) and must be corrected before this goes anywhere near a court.
+    Confirm the true state of the actual signed document (which paragraphs
+    are checked, which if any are not) before rewriting this sentence — do
+    not just revert to the item-12 phrasing without re-verifying against
+    the real Exhibit B.
+
+40. **Stop leading with "Special Conditions" as if the label matters —
+    same complaint as before, recurring.** Client, verbatim: "why are we
+    again isolating special conditions in the beginning. who cares what
+    they label them as. All of the terms are fucking conditions." This is
+    the same underlying concern as item 22 (client read-through round 1) —
+    despite the full rewrite, the opening of Part II again frames around
+    the document's own "Special Conditions" section specifically (its
+    first sentence discusses "Its first Special Condition..."). The
+    client's point: the document's own internal labels (Requirements,
+    Special Conditions, Code of Conduct, Confidentiality, Consequences) are
+    the document's own bookkeeping, not a legal distinction — every
+    provision in it functions as a condition regardless of which labeled
+    section it sits in, and the motion's own framing shouldn't adopt or
+    organize around the document's internal label scheme, especially not
+    as its opening move. Fix the opening so it doesn't lead with, or
+    otherwise privilege, the "Special Conditions" section over the
+    document's other sections.
+
+---
+
 ## Notes on MOTION-v5.md (client read-through, round 2)
 
 1. **Balon / changed-circumstances point.** The client believes *Balon*'s
