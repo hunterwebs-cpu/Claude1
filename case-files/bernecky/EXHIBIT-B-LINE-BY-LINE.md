@@ -423,3 +423,20 @@ around 13-14 years old — a book that won numerous awards. **`[VERIFY]`**
 before use: confirm the specific passage/description in *Angela's Ashes*
 and its award history (widely understood to have won the Pulitzer Prize,
 but confirm before citing) before these examples go into any draft.
+
+---
+
+**SPECIAL CONDITIONS ¶ 5:** "I understand that the use of any platforms
+including but not limited to (social media, dating sites, email,
+blog/discussion forums, gaming services, text apps, photo sharing sites,
+chat rooms, etc.) should be approved by treatment staff prior to use."
+
+**Client's objection:** "Should" be approved — is this a mandate or not?
+Ambiguous on its face. Why gaming systems? Why blog/discussion forums?
+Example: what if Jeff wants to visit lewrockwell.com — a hard-right
+libertarian commentary site where people publish their views — surely
+that isn't "problematic." What about participating in public comments on
+government proceedings, or running a personal blog? First Amendment
+implications throughout, and this is way outside the SR condition (which
+requires only notice and monitoring by Probation, not a private
+gatekeeper).
