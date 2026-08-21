@@ -226,3 +226,22 @@ responsible for part of the cost of treatment, the Court never fixed a
 specific amount. Jeff's position: he should be required to pay no more
 than his health insurance carrier requires for an in-network provider
 (likely around $10).
+
+---
+
+**CODE OF CONDUCT ¶ 3:** "I will not engage in the use of or possess
+illegal drugs, or controlled substances for which I do not have a
+physician prescription, and I will refrain from excessive use of
+alcohol."
+
+**Client's objection:** The phrase "controlled substances" is untenable as
+used — Jeff believes Tylenol, ibuprofen, and most over-the-counter
+medications are considered controlled substances under DEA schedules.
+**`[VERIFY]`** — this specific factual claim should be checked before use;
+ordinary OTC drugs like acetaminophen and ibuprofen are not, as far as
+verified, DEA-scheduled controlled substances, so this example may not
+hold up and using it could undercut rather than support the point. The
+underlying objection may still have merit with a better example (a
+legitimately scheduled medication he takes or could take without a
+standing prescription on file). Jeff's proposed fix regardless: this
+should simply be read the same as the standard SR drug condition.
