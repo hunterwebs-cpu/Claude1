@@ -5180,3 +5180,56 @@ text; two subtle misquotes were caught and fixed before commit** (a
    introduce Exhibit B; Conclusion item 5 still points to superseded
    relief language. Part VI's *Carlineo*/*Reeves* citation was checked and
    is already correct — no action needed there.
+
+## Part II rebuilt as one continuous section (2026-08-21, commit `f1da3cd`)
+
+Client directed a third full rebuild: after two drafts covering only a
+handful of provisions, client went through every paragraph of Exhibit B
+line by line and logged an objection (or explicit non-objection) to each
+one in `EXHIBIT-B-LINE-BY-LINE.md`, then stated one governing theory (the
+document is unenforceable as a revocation basis; "participate" means
+attend; R.K.K.S. keeps full control of its own program; none of it binds
+the sentence) and a hard structural mandate: one continuous section, no
+subparts, full Writer discretion otherwise. Delivered: **5,163 words**,
+one section, no lettered subparts — covering roughly 35 objected-to
+provisions grouped into four themes (compelled disclosure, no-content-
+until-staff-supplies-it vagueness, contradicts-the-Judgment, no Judgment
+counterpart at all) rather than itemized one-by-one, per the client's
+explicit instruction not to recreate the essay-per-provision structure.
+
+New authority found and verified: *Harris*, 164 F.4th 181, 197 (2d Cir.
+2026) — read directly, a direct hit on the Treatment Team/usurpation
+theory. Ripeness built in affirmatively using the Rule 32.1 Advisory
+Committee Note (a second sentence — "neglect, overwork, or simply
+unreasonableness" — found and added) plus *Browder*'s own timeline as a
+demonstration; honest finding that *Browder* itself contains no ripeness
+holding, so the Note supplies the rule and *Browder*'s facts supply the
+example. *Farrell*'s pre-enforcement distinction added as the merits
+payoff.
+
+**Two examples dropped as unverifiable, not patched over:** the
+Tylenol/ibuprofen "controlled substances" claim (factually wrong — neither
+is DEA-scheduled) was cut with no replacement rather than risk another
+shaky example; *Running with Scissors* and *Angela's Ashes* were dropped
+(specific passage content unverifiable without the books) and replaced
+with a stronger, fully-on-the-record point: the Judgment itself directs
+release of Bernecky's own PSR to a state board and a county court, so SC
+¶ 4 read literally forbids him to receive his own PSR without a clinic's
+approval. The checkbox/marking claim was dropped entirely rather than
+re-asserted — the Drive text extraction doesn't show markings either way.
+
+### New open items
+
+1. **Two new Certification paragraphs needed:** the isolation fact (works
+   and goes home, forms no relationships) and the group-session statement
+   that all adult pornography is wrong.
+2. **Whether R.K.K.S. serves under (b), (h), or both is still open** —
+   turned into an argument (Condition (h) has no rules-clause at all) but
+   one answer from the client would let it be stated rather than hedged.
+3. **The two authorizations incorporated by Confidentiality ¶ 1** (release/
+   PHI-release agreements) have still never been produced or seen — relief
+   covers them by operation, but they should be obtained.
+4. **Part IV now duplicates a full *McDonald* citation** Part II supplies
+   first — should become a short form there. Not touched, out of scope.
+5. **Shepardize before filing**, *Harris* and *Jimenez* especially — both
+   2026 decisions, neither previously in this file.
