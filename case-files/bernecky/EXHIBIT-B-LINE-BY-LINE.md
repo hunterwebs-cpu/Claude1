@@ -103,3 +103,30 @@ else — he is required, personally, to attend his own treatment. He is not
 required to ask another person to participate in it. If Jeff's
 significant others want to participate in therapy with him, that is a
 decision between them, not something the Practice may enforce against him.
+
+---
+
+**CONFIDENTIALITY ¶ 1:** "I acknowledge that as a requirement of my
+conditional release I am required to obtain Mental Health Counseling and
+that my Personal Health Information may be shared with United States
+Probation System pursuant to the Authorization to Release Confidential
+Information Mental Health Treatment Program agreement executed by me,
+which agreement I acknowledge is incorporated as part of this Treatment
+Contract. I further acknowledge that as part of my intake to the Practice
+I have executed an Authorization for Release of Protected Health
+Information agreement which allows the Practice to receive and disclose
+my Personal Health Information with United States Probation."
+
+**Client's objection:** This is not "conditional release" — Jeff is not
+on parole and not on probation. He is on supervised release, imposed as
+part of the sentence of imprisonment, a legally distinct status. Further,
+nothing in his actual conditions mandates a full and unequivocal waiver of
+his right to confidentiality. He recognizes Probation must have a
+mechanism to verify that he is participating, attending, and progressing —
+to that extent he will acquiesce and waive. But he does not waive
+confidentiality as to substantive matters generally protected, such as the
+content of conversations with a therapist or during group, and he
+absolutely does not waive confidentiality as to his own voiced
+disagreements with treatment providers about theories he may not agree
+with — such as the view that all pornography is bad and problematic (see
+Requirements ¶ 1 objection, above).
