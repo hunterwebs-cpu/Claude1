@@ -69,6 +69,16 @@ specific *Browder* holding and the specific Rule 32.1 Advisory Committee
 Notes language before drafting; this needs primary-source verification
 like everything else in this matter.
 
+**Structural instruction for the rewrite — one section, full discretion.**
+Client, verbatim: "the writer should be writing one section. not several
+sections and subsections for this. the writer has carte blanche discretion
+as to word choice and order and how to persuasively argue our big idea."
+Part II should be written as **one continuous section** — not broken into
+lettered subparts (A, B, C, D, E) the way every prior draft has been. The
+Writer has full discretion over word choice, ordering, and how to build
+the persuasive argument around the big idea above; the only structural
+constraint is that it not be subsectioned.
+
 ---
 
 **Title:** "TREATMENT CONTRACT"
