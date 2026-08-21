@@ -346,3 +346,16 @@ supervised release. Effectively: "failing to participate" (the actual SR
 standard) should be defined as Jeff knowingly and intentionally not
 attending his regularly scheduled sessions — not whatever the Practice's
 own contract deems a violation.
+
+---
+
+**CONSEQUENCES ¶ 3(a):** "The Treatment Team is comprised of all
+therapists in the Practice, the Probation Officer, and the Probation
+Supervisor."
+
+**Client's objection:** Jeff does not consent and will not submit himself
+for treatment to unqualified personnel. Probation is a supervising
+apparatus for the Court — it has absolutely no say in what treatment is
+provided, how it is provided, or when it is provided. Probation's
+ministerial function does not permit it to be transformed into a
+therapist.
