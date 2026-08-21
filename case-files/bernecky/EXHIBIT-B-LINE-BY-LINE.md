@@ -141,3 +141,20 @@ my probation and the agreements referenced in the preceding paragraph."
 **Client's objection:** Same as the objection to ¶ 1 — Probation is
 entitled to attendance, participation, and progress only, not a full
 report of everything discussed.
+
+---
+
+**CONFIDENTIALITY ¶ 3:** "I will not disclose any information regarding
+another client to anyone outside this program. I agree to have no contact
+with other clients outside my treatment group without prior approval of
+treatment staff. I will keep treatment staff informed of the nature of any
+contact I have with another client outside treatment sessions."
+
+**Client's objection:** He is required, at times, to have conversations
+with Probation, potentially a lawyer, and even the Court — and this
+paragraph bars disclosure of information about another client to "anyone
+outside this program," with no carve-out for those legitimate,
+necessary communications. Separately: the requirement to keep treatment
+staff informed of the nature of any contact he has with another client
+outside sessions is not in his conditions at all — nothing in the
+Judgment imposes this obligation.
