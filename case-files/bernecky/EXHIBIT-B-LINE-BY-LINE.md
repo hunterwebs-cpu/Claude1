@@ -393,3 +393,18 @@ his past offenses and facing rejection. In the client's own view, this is
 the very path to recidivism. **Needs a Certification paragraph** — this is
 a personal fact about Jeff's current isolation and its cause, not just
 legal argument, and should be stated as such in the Certification.
+
+---
+
+**SPECIAL CONDITIONS ¶ 3:** "I understand that I am not permitted to give
+or receive payment for sexual behaviors."
+
+**Client's objection (message appears to trail off — flag before treating
+as complete):** Unclear what this means — is paying for a pornographic
+video "payment for sexual behaviors"? Setting that aside, the only
+Judgment condition that would remotely apply is the general no-further-
+crimes condition, since giving or receiving payment for sex is a crime for
+both buyer and seller — so far as this paragraph is read that narrowly,
+then [message cuts off: "om" — unclear what follows, possibly "then OK" or
+similar]. **Needs client confirmation** on how this thought ends before
+finalizing this objection.
