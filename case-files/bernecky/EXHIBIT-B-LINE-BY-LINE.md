@@ -73,3 +73,19 @@ to doing something beyond the crime of conviction. Jeff pleaded guilty to
 possession of child pornography in both offenses, and distribution in the
 first offense. That's it — that is the entire universe of conduct he will
 discuss.
+
+---
+
+**REQUIREMENTS ¶ 3:** "I understand that I may be asked to discuss my
+treatment progress and treatment assignments in group therapy, with my
+Probation Officer, and other significant people in my life."
+
+**Client's objection:** Internal inconsistency: elsewhere the document says
+he won't breach another client's confidentiality (Confidentiality ¶ 3),
+yet this paragraph requires communicating with "other significant people
+in my life." Also unclear on its own terms: it only says he "may be
+asked" — it never says whether he is required to answer. All in all, he
+is fine discussing his progress and assignments in group and with his PO.
+He does not waive confidentiality as to any other soul on the planet —
+that is his right, and nothing here requires him to tell anyone else
+anything.
