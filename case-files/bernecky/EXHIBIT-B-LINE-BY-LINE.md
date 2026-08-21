@@ -440,3 +440,16 @@ government proceedings, or running a personal blog? First Amendment
 implications throughout, and this is way outside the SR condition (which
 requires only notice and monitoring by Probation, not a private
 gatekeeper).
+
+---
+
+**SPECIAL CONDITIONS ¶ 6:** "I understand that ongoing assessment of my
+progress through psychological and physiological evaluation (including
+but not limited to computer based sexual interest assessments and
+polygraph) will be part of treatment."
+
+**Client's objection:** "Computer based sexual interest assessments"
+(i.e., plethysmograph-type testing) will never be done — Jeff will never
+submit to plethysmograph testing, and nothing in his conditions requires
+or even implies it. Polygraph is being dealt with separately in Part IV —
+don't duplicate that argument here, just note the cross-reference.
