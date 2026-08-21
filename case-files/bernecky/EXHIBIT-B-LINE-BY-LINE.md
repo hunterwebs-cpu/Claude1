@@ -325,3 +325,24 @@ weapon to treatment" — objected for the reasons already stated (Code of
 Conduct ¶ 4). (vi) "other problem behavior not outlined in this Treatment
 Contract, as determined in the sole discretion of the staff of the
 Practice" — too vague, for reasons already discussed.
+
+---
+
+**CONSEQUENCES ¶ 3:** "I also understand and agree that engaging in any of
+the following behaviors will result in CONSIDERATION FOR DISCHARGE from
+the Practice by the Treatment Team: i) violation of the terms of this
+Treatment Contract; or ii) failing to attend three appointments without a
+verifiable medical or emergency excuse. In considering whether discharge
+is appropriate, the Treatment Team will consider the frequency of the
+problematic behavior, client accountability for the behavior, previous
+interventions for same or similar behavior, risk factors that increase
+likelihood of re offense, and the safety of the community."
+
+**Client's objection:** (i) "violation of the terms of this Treatment
+Contract" reinforces exactly why this motion exists. The relief sought is
+that discharge from treatment based on whatever determinations the
+Practice makes should not, by itself, be treated as a violation of
+supervised release. Effectively: "failing to participate" (the actual SR
+standard) should be defined as Jeff knowingly and intentionally not
+attending his regularly scheduled sessions — not whatever the Practice's
+own contract deems a violation.
