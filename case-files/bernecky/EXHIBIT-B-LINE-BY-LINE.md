@@ -17,6 +17,45 @@ below.
 
 ---
 
+## THE BIG IDEA — read this first, before any line-by-line detail below
+
+Client's own statement of the theory, verbatim, given after completing the
+full line-by-line pass: "here we are arguing that the 'contract' should be
+declared unenforceable as a basis for revocation of supervised release and
+that the actual condition be clarified to state that Jeff is required to
+'participate' which means a violation will only occur based on a failure
+to attend (without sufficient cause or excuse). As for the efficacy of
+treatment and the rules the provider wishes to employ, they are more than
+legally allowed to condition program acceptance on any of these. but Jeff
+will not agree to these terms to become a binding part of his supervised
+release. and I think that is the best fix. Jeff's signature to the
+document notwithstanding, for all the reasons discussed absolutely nothing
+in this 'contract' is enforceable against him in any court."
+
+Broken down:
+1. **Core relief:** the document should be declared unenforceable as a
+   basis for revoking supervised release.
+2. **Clarify the actual standard:** "participate" (Special Conditions (b)
+   and (h)) means attendance — a violation occurs only from failing to
+   attend, without sufficient cause or excuse. Nothing more.
+3. **R.K.K.S. keeps its own house:** the Practice remains free to
+   condition *program acceptance* on whatever terms it wants as a matter
+   of its own private business — that is not in dispute and this motion
+   does not ask the Court to control it.
+4. **But none of it binds his sentence:** Jeff will not agree that any of
+   the Practice's terms become part of his supervised release, and his
+   signature on the document does not change that — for all the reasons
+   catalogued below, nothing in this document is enforceable against him
+   in any court, regardless of the signature.
+
+Every line-by-line objection below is in service of this single theory.
+The next rewrite of Part II should be organized around it, not around the
+document's own section labels (see the objection to the recital and to
+"why are we isolating special conditions," logged separately in
+`MOTION-v4-PENDING-EDITS.md`).
+
+---
+
 **Title:** "TREATMENT CONTRACT"
 
 **Line 1 (opening recital):** "I, Bernecky, Jeffrey, hereby enter this
