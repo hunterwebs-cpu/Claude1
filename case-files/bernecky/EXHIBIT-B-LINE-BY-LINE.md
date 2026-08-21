@@ -36,4 +36,17 @@ custody.
 for my problematic behavior. I understand that successful treatment
 depends upon full acknowledgement of my actions and thinking patterns."
 
-**Client's objection:** [pending]
+**Client's objection:** What's missing is a definition of "problematic
+behavior." Does it mean only offense conduct for which there was actual
+proof (the conduct of conviction), or does anything alleged in the PSR
+become the definition regardless of veracity? Jeff will be honest and
+assume responsibility for the conduct he was actually convicted of — child
+pornography offenses — and while he will be honest with treatment staff
+about that, he will also invoke the Fifth Amendment where appropriate as
+to anything beyond it. Separately, "thinking patterns": Jeff was told by a
+therapist in a group setting that all adult pornography is wrong — that is
+the therapist's own ideology, not a fact, and the government has no power
+to compel adherence to a particular ideology or force abstinence from an
+otherwise legal behavior on anyone. "Full acknowledgement of my ... thinking
+patterns" reads as compelled agreement with that ideology, not honesty
+about conduct.
