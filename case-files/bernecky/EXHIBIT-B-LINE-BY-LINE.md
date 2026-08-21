@@ -271,3 +271,26 @@ of any relapse in problematic behavior."
 behavior" — it is undefined. Second, assuming it means criminal conduct,
 this compels Jeff to provide information about his own criminal conduct —
 a Fifth Amendment problem.
+
+---
+
+**CODE OF CONDUCT ¶ 6:** "I will notify treatment staff of any change in
+my residence or employment status and any other changes in relevant risk
+factors (including, but not limited to, relationship status, social
+networks, substance abuse, significant changes in income/debt, mobility
+[vehicle, Driver License], health status, criminal behaviors [outside of
+or in addition to Instant Offense or pending charges], medication
+compliance/changes, means of communication, etc.)."
+
+**Client's objection:** This is not a requirement in the conditions of
+supervised release, and it implicates a genuine liberty interest. He
+understands the Practice wants this information, and that's fine for
+them — but all he is actually required to do is notify Probation of
+changes in residence and employment. "Criminal behaviors" specifically is
+independently problematic under the Fifth Amendment.
+
+The broader point: at some point therapists need to be therapists, and
+cannot fall back on "I will have you arrested if you don't tell us
+everything we want to hear." Therapists need to earn a patient's trust and
+build a relationship to the point where disclosure happens genuinely — not
+compel it by threat. Think *Good Will Hunting*.
