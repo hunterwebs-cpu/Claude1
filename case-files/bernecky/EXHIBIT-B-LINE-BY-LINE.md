@@ -463,3 +463,15 @@ other relevant topics."
 
 **Client's objection:** Fifth Amendment issue again. Also, "any other
 relevant topics" is vague.
+
+---
+
+**SPECIAL CONDITIONS ¶ 8:** "I will not purchase, possess, view, produce,
+or use sexually stimulating material(s) of any kind as defined by my
+treatment staff. I understand that I am required to notify treatment
+staff within 24 hours of any incidents."
+
+**Client's objection:** Huge problems with "material(s)" — is this porn?
+Sexual devices? Condoms? (See also the earlier note on this exact
+overbreadth point.) And what is an "incident" — undefined, separate
+vagueness problem from "material(s)" itself.
