@@ -8,18 +8,16 @@ growing with content that has a shelf life of one drafting pass.
 
 ---
 
-## SUPERSEDED — items 12-38 below (all "Notes on Part II")
+## SUPERSEDED AND COMPLETE — items 12-38 below (all "Notes on Part II")
 
 The client rejected the essay-length Part II draft entirely: too long, too
 much verbatim client phrasing standing in for the Writer's own persuasive
 judgment, and too many individual errors to keep patching one at a time.
-**Part II is being rebuilt from scratch** per
-`case-files/bernecky/PART-II-REWRITE-BRIEF.md` — a concise, list-format
-argument, with the Writer explicitly barred from reading either the current
-Part II text in `MOTION-v5.md` or the items below as instructions to
-implement. The substantive facts and authority in items 12-38 were
-distilled into that brief; items 12-38 are kept here only as historical
-record of how each point was originally identified. Do not dispatch a
+**Part II was rebuilt from scratch 2026-08-21** (commit `7e96dc4`) per
+`case-files/bernecky/PART-II-REWRITE-BRIEF.md`, with the Writer barred from
+reading either the prior Part II text or the items below. Rebuild is done:
+4,455 words (was 9,443). See `client-directives.md` for the full summary
+and open items. Items 12-38 are kept here only as historical record. Do not dispatch a
 Writer against these items directly — use the brief instead.
 
 ---

@@ -5089,3 +5089,94 @@ pending-edits items — only the brief and the underlying research memos
 (parts 29-31), exercising its own discretion on structure and phrasing.
 Client directed the dispatch to start at 10:41 AM Eastern (client's own
 session-limit reset), not before.
+
+## Part II from-scratch rewrite delivered (2026-08-21, commit `7e96dc4`)
+
+**4,455 words, down from 9,443.** Motion as a whole: 21,933 → 16,945 words;
+Part II is now shorter than Part I. Dispatched with full discretion per
+`PART-II-REWRITE-BRIEF.md`; client offline throughout, Writer proceeded
+autonomously.
+
+**The organizing find, from primary sources (not the brief):** Special
+Conditions (b), (c), (d), (f), and (h) of the Judgment are word-for-word
+the conditions Judge Vilardo entered on remand in *Browder* three months
+before Judge Larimer sentenced Bernecky — and that remand order states the
+rule governing "follow the rules and regulations of that program" in one
+sentence: *Browder* "cannot be forced to sign or abide by agreements that
+reach beyond the Court's ordered conditions." Second find: Special
+Condition (b) reserves the exit from treatment to the Court — "not to
+leave treatment until complete or as ordered by the Court" — making
+discharge the load-bearing defect of the whole document, since every other
+clause is only dangerous because discharge triggers a violation report.
+Part II now leads with Probation-on-the-Treatment-Team + the undefined
+discharge trigger (¶ 2(vi)) on that basis, then material ban/platform
+gate, partner disclosure, minor/incidental contact, compelled
+disclosure/duplicative reporting, one relief block.
+
+**New authority found, not in the file before:** *United States v. Harris*,
+164 F.4th 181, 197 (2d Cir. 2026, decided Jan. 14) — vacated mental
+health/substance abuse conditions as improper delegations, directing the
+district court to make clear it alone decides *whether* a defendant
+participates in treatment. Now the lead case for the Treatment Team
+argument.
+
+**Adverse authority read and met, not avoided:** *Simmons*, *Phipps*, and
+*Bee* — all read in primary source. *Bee* in particular is closer to SC ¶ 8
+than the research anticipated (nearly the same "as determined by
+staff/officer" structure) but distinguished on real grounds: it was
+court-imposed on a stated, case-specific rationale under abuse-of-discretion
+review; SC ¶ 8 is none of those things. *Jimenez* was met honestly rather
+than minimized: its own condition *did* let a probation officer decide
+when Jimenez was released from treatment, and the Second Circuit upheld
+that — the distinguishing fact is that a sentencing judge wrote that
+delegation into the Jimenez judgment on the record, not that such
+delegation is categorically forbidden.
+
+**Every quotation in the section was mechanically checked against source
+text; two subtle misquotes were caught and fixed before commit** (a
+*Browder* footnote and a *Bee* bracket).
+
+### Judgment calls made in the client's absence, worth his review
+
+1. **The PO-credentials demand (item 33) is not in the filing.** No
+   citable New York licensure standard for treatment-team membership was
+   found, and § 3583(e)(2) has no discovery vehicle for the demand as
+   such. Made the point structurally instead, from the document's own
+   text (it separates "therapists" from "the Probation Officer, and the
+   Probation Supervisor" in its own definition). If the client wants the
+   demand itself made, it needs a different vehicle.
+2. **The incidental-contact Second Circuit recollection (added just before
+   this dispatch) did not check out** — no authority found holding
+   incidental minor contact can never be a problem. Not asserted. The
+   argument was built on the Judgment's own word "deliberate" instead,
+   which carries it without the unverified claim.
+3. **R.K.K.S.'s (b)-vs-(h) status turned into a one-sentence advantage**
+   rather than a hedge: Condition (h) has no rules-compliance clause at
+   all, so if R.K.K.S. serves under (h), the contract has no textual hook
+   in the Judgment whatsoever.
+4. **Signing-date tension unresolved, left unstated in Part II on
+   purpose:** the document is dated 08/19/2026; supervision began July
+   30, 2026; client's account is that he signed in BOP custody during a
+   Second Chance Act placement. **The Certification will need to resolve
+   this directly.**
+5. **"Contract" label handled with authority, not argued as contract-
+   formation doctrine** (no support found for that route): *Von Behren*
+   held a similarly-required provider agreement is "in effect" a set of
+   SR conditions; *Browder* n.38 noted the agreement there "even refers to
+   its terms as 'conditions'" — as this one does too.
+
+### New open items
+
+1. **`[VERIFY]` — *Harris* reporter pincite** (164 F.4th at 197): holding
+   and quotes confirmed from the slip opinion; the page number came from
+   *Jimenez*'s own citation to it and should be confirmed against the
+   reporter.
+2. **`[VERIFY]` — ATSA 6th-ed. role-boundary passage**, still cited to
+   "(Risk Management)" rather than a guideline number.
+3. **No citator run performed** (no Westlaw/Lexis in this environment) —
+   Shepardize everything before filing.
+4. **Two coordinating edits flagged as needed outside Part II, not made**
+   (out of this dispatch's scope): Statement of Facts ¶ 44 still doesn't
+   introduce Exhibit B; Conclusion item 5 still points to superseded
+   relief language. Part VI's *Carlineo*/*Reeves* citation was checked and
+   is already correct — no action needed there.
