@@ -54,6 +54,21 @@ document's own section labels (see the objection to the recital and to
 "why are we isolating special conditions," logged separately in
 `MOTION-v4-PENDING-EDITS.md`).
 
+**Ripeness — added by the client after stating the big idea.** Client,
+verbatim: "and we rely on [B]rowder and rule 32.1 advisory committee notes:
+he shouldn't have to wait until they make some allegation, terminate him,
+he is arrested and facing this court to challenge it." Use *Browder* and
+the Rule 32.1 Advisory Committee Notes to establish that this challenge is
+ripe now — Jeff should not have to wait for the Practice to make an
+allegation, discharge him, have him arrested, and bring him before this
+Court on a violation before he may challenge the document's terms. This
+should be built affirmatively into the motion itself (in the Jurisdiction
+section or wherever ripeness is otherwise addressed), not held back for a
+reply brief in case the government raises it. `[VERIFY]` — confirm the
+specific *Browder* holding and the specific Rule 32.1 Advisory Committee
+Notes language before drafting; this needs primary-source verification
+like everything else in this matter.
+
 ---
 
 **Title:** "TREATMENT CONTRACT"
