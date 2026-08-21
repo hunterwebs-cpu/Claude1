@@ -50,3 +50,26 @@ to compel adherence to a particular ideology or force abstinence from an
 otherwise legal behavior on anyone. "Full acknowledgement of my ... thinking
 patterns" reads as compelled agreement with that ideology, not honesty
 about conduct.
+
+---
+
+**REQUIREMENTS ¶ 2:** "I will actively participate in treatment. I
+understand that the length of time I spend in treatment is dependent on my
+readiness to change, my willingness to comply with treatment tasks,
+fulfill treatment goals, and demonstrate sustained change in my thinking
+and behaviors."
+
+**Client's objection:** "Participate" is undefined, yet failure to
+participate is a basis for discharge and potential revocation.
+Participation must be defined; as written it is too vague to be
+enforceable. Bernecky's proposed definition: he will attend whatever
+sessions are scheduled, do whatever assignments are issued, and speak
+about his conduct of conviction. What he will not do, and will never do,
+is admit to anything that could lead to a prosecution, trigger mandatory
+reporting laws, or otherwise place him in further legal jeopardy. Upon
+information and belief, providers will discharge patients who refuse to
+admit to uncharged or otherwise unproven conduct, or who refuse to admit
+to doing something beyond the crime of conviction. Jeff pleaded guilty to
+possession of child pornography in both offenses, and distribution in the
+first offense. That's it — that is the entire universe of conduct he will
+discuss.
