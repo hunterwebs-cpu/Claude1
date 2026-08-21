@@ -359,3 +359,18 @@ apparatus for the Court — it has absolutely no say in what treatment is
 provided, how it is provided, or when it is provided. Probation's
 ministerial function does not permit it to be transformed into a
 therapist.
+
+---
+
+**SPECIAL CONDITIONS ¶ 1:** "I understand that while under pretrial
+supervision or pretrial diversion I am not permitted to talk about the
+offense for which I am currently being investigated."
+
+**Client's objection:** Doesn't apply to Jeff. But it does prove the
+drafters understand the concept of constitutional rights — this one runs
+through the Sixth Amendment. The point: a similarly plain protective
+statement should be stated to everyone, including Jeff — something like
+"I understand that anything I may say can and will be used against me in
+a court of law." If the drafters understood this concept enough to build
+in a protection for someone under pretrial investigation, the absence of
+any comparable protection for Jeff is telling.
