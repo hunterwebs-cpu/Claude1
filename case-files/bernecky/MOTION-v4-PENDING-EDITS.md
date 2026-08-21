@@ -83,3 +83,19 @@ again.
    objections is addressed somewhere in the document — not just the four
    currently covered. Get a clear accounting of what's missing before
    doing another pass on what's already there.
+
+6. **ESCALATES item 5 — this is the third time, and the scope is "virtually
+   every line," not a curated subset.** Client, verbatim: "I object to
+   virtually every line of that agreement. and I'm pissed this is the
+   third time I'm facing this problem." This is the same underlying
+   complaint as item 22 (round 1) and item 40/2 (round 2, post-rewrite) —
+   the document treats only a subset of the treatment document as worth
+   challenging. The client is now stating the actual scope directly: he
+   objects to nearly the entire document, not four or five illustrative
+   provisions. Whatever gets built next needs to go through Exhibit B
+   line by line — Requirements, all ten Special Conditions paragraphs,
+   Code of Conduct, Confidentiality, Consequences — and account for each
+   one, either challenging it or making a deliberate, stated decision to
+   leave a specific line alone and why. A "representative sample of the
+   worst provisions" approach has now failed the client's expectations
+   three separate times and should not be tried a fourth time.
