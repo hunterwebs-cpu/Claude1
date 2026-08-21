@@ -305,3 +305,23 @@ the safety of potential victims and/or the community."
 **Client's objection:** This paragraph reinforces precisely why the Fifth
 Amendment applies — disclosures are routed to the supervising officer and
 potentially to law enforcement.
+
+---
+
+**CONSEQUENCES ¶ 2:** "I understand and agree that engaging in any of the
+following behaviors will result in IMMEDIATE DISCHARGE from the Practice:
+i) reoffense that includes the same or similar charge as the Instant
+Offense(s); ii) violation of the confidentiality of another client; iii)
+violent, unlawful, or stalking (in person or online) behavior towards the
+staff or clients of the Practice; iv) stealing behavior towards the staff
+or clients of the Practice; v) bringing any item that may be used as a
+weapon to treatment; or vi) other violations of the terms of this
+Treatment Contract, or other problem behavior not outlined in this
+Treatment Contract, as determined in the sole discretion of the staff of
+the Practice."
+
+**Client's objection:** (v) "bringing any item that may be used as a
+weapon to treatment" — objected for the reasons already stated (Code of
+Conduct ¶ 4). (vi) "other problem behavior not outlined in this Treatment
+Contract, as determined in the sole discretion of the staff of the
+Practice" — too vague, for reasons already discussed.
