@@ -174,3 +174,16 @@ ideation he had, say, six months ago — already past, already resolved —
 is everyone and their mother going to be notified over it? Client's own
 aside: people reading this document line by line will understand why so
 much time is being spent objecting to it; it is an absurd document.
+
+---
+
+**ACCESS TO CARE ¶ 1:** "I understand that if I cannot contact my
+treatment provider in the case of an emergency, I should call or text
+911, lifeline 211, or the suicide Prevention Hotline 18002738255."
+
+**Client's objection:** No independent objection to this paragraph's own
+text — but the irony is worth noting: the document goes from "expressing
+suicidal ideation may result in ... a mental hygiene arrest" (Confidentiality
+¶ 4) to directing him, one section later, to call 911 or a crisis hotline
+in an emergency — the very act that could trigger the consequence it just
+warned him about.
