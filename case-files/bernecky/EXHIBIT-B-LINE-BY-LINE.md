@@ -89,3 +89,17 @@ is fine discussing his progress and assignments in group and with his PO.
 He does not waive confidentiality as to any other soul on the planet —
 that is his right, and nothing here requires him to tell anyone else
 anything.
+
+---
+
+**REQUIREMENTS ¶ 4:** "I understand that my behavior has had an impact on
+significant relationships in my life. I will actively encourage the
+significant people in my life to participate in treatment on an
+as-needed basis as determined by treatment staff."
+
+**Client's objection:** This is an end run around the risk-notification
+condition. Jeff is not ordered to have therapy with or around anyone
+else — he is required, personally, to attend his own treatment. He is not
+required to ask another person to participate in it. If Jeff's
+significant others want to participate in therapy with him, that is a
+decision between them, not something the Practice may enforce against him.
