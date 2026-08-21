@@ -40,3 +40,33 @@ again.
    regardless of which labeled section it sits in. Fix the opening so it
    doesn't lead with, or otherwise privilege, the "Special Conditions"
    section over the document's other sections.
+
+3. **Part II.A is doctrinally wrong — this is not a delegation problem,
+   it's an usurpation problem.** Client, verbatim: "th[i]s is confusing.
+   it reads as a challenge to delegation in a[] special conditions of sr
+   not a treatment contract. the district [c]ourt here didn't illegally
+   delegate anything. probation and the treatment team sim[p]l[y]
+   superimposed themselves into that position." Part II.A currently reads
+   like a claim that the sentencing court improperly delegated
+   decision-making authority to Probation/the Treatment Team (the
+   *Matta*/*Harris*/*Villafane-Lozada* delegation-doctrine framing). That
+   is not the client's actual theory and is legally the wrong claim: the
+   Judgment never delegated this authority to anyone, properly or
+   improperly — Probation and the Treatment Team simply assumed a
+   decision-making role the Court never gave away in the first place. Fix
+   the doctrinal framing throughout II.A: this is not "the Court delegated
+   authority it shouldn't have," it's "no one delegated this authority at
+   all, and Probation/the Treatment Team took it anyway." The delegation
+   cases may still be useful (they establish what the Court validly could
+   and could not hand off), but the argument's own claim must be accurate
+   about what actually happened here.
+
+4. **Way too long — the introduction and II.A are both "a massive essay."
+   The client is tired halfway through point A.** Client, verbatim: "also,
+   this is a massive essay. so is the introduction. so it is way too long
+   winded. I'm tired halfway through point a." This is the same length
+   complaint as before, recurring even after the full rewrite — cut the
+   introduction and Part II.A substantially. Say what needs to be said and
+   stop; do not restate points, do not over-explain something the reader
+   already understands, do not pad with additional supporting sentences
+   once a point has landed.
