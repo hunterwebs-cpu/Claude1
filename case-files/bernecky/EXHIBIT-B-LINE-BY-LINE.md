@@ -245,3 +245,17 @@ underlying objection may still have merit with a better example (a
 legitimately scheduled medication he takes or could take without a
 standing prescription on file). Jeff's proposed fix regardless: this
 should simply be read the same as the standard SR drug condition.
+
+---
+
+**CODE OF CONDUCT ¶ 4:** "I will not become verbally or physically
+threatening or assaultive toward any staff member or client either inside
+or outside the office. I will not bring any item that may be used as a
+weapon to treatment; doing so will result in immediate discharge and
+potential legal action."
+
+**Client's objection:** "Item that may be used [as a weapon]" is
+objectionable — virtually anything can be used as a weapon, and this
+language lets the Practice be arbitrary about what counts. It should be
+defined specifically instead: e.g., Jeff is not allowed to possess or
+bring weapons to treatment as defined by law.
