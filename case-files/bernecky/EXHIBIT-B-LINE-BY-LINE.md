@@ -259,3 +259,15 @@ objectionable — virtually anything can be used as a weapon, and this
 language lets the Practice be arbitrary about what counts. It should be
 defined specifically instead: e.g., Jeff is not allowed to possess or
 bring weapons to treatment as defined by law.
+
+---
+
+**CODE OF CONDUCT ¶ 5:** "I agree to avoid situations and behaviors that
+will place me at high risk of engaging in problematic behavior. I
+understand that I am required to notify treatment staff within 24 hours
+of any relapse in problematic behavior."
+
+**Client's objection:** Two major issues. First, what is "problematic
+behavior" — it is undefined. Second, assuming it means criminal conduct,
+this compels Jeff to provide information about his own criminal conduct —
+a Fifth Amendment problem.
