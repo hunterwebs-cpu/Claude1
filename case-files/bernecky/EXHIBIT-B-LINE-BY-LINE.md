@@ -399,12 +399,11 @@ legal argument, and should be stated as such in the Certification.
 **SPECIAL CONDITIONS ¶ 3:** "I understand that I am not permitted to give
 or receive payment for sexual behaviors."
 
-**Client's objection (message appears to trail off — flag before treating
-as complete):** Unclear what this means — is paying for a pornographic
-video "payment for sexual behaviors"? Setting that aside, the only
-Judgment condition that would remotely apply is the general no-further-
-crimes condition, since giving or receiving payment for sex is a crime for
-both buyer and seller — so far as this paragraph is read that narrowly,
-then [message cuts off: "om" — unclear what follows, possibly "then OK" or
-similar]. **Needs client confirmation** on how this thought ends before
-finalizing this objection.
+**Client's objection — CONFIRMED COMPLETE:** Unclear what this means at
+first glance — is paying for a pornographic video "payment for sexual
+behaviors"? Setting that aside, the only Judgment condition that would
+remotely apply is the general no-further-crimes condition, since giving or
+receiving payment for sex is a crime for both buyer and seller. So far as
+this paragraph is read narrowly, as restating that general prohibition,
+it's okay — no independent objection beyond the initial ambiguity noted
+above.
