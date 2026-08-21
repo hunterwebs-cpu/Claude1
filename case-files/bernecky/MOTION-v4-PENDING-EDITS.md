@@ -70,3 +70,16 @@ again.
    stop; do not restate points, do not over-explain something the reader
    already understands, do not pad with additional supporting sentences
    once a point has landed.
+
+5. **Incomplete — client stopped reading because Part II doesn't cover all
+   of his objections to the document, only about four of them.** Client,
+   verbatim: "I stopped reading. it doesn't list out all my objections to
+   the agreement. it only talks about 4 of them." This is a coverage gap,
+   not a style note — before any further rewriting of tone or length, do a
+   complete audit of every provision in Exhibit B (Requirements, Special
+   Conditions ¶¶ 1-10, Code of Conduct, Confidentiality, Consequences)
+   against everything the client has flagged across every round of notes
+   this matter has gone through, and confirm every one of his actual
+   objections is addressed somewhere in the document — not just the four
+   currently covered. Get a clear accounting of what's missing before
+   doing another pass on what's already there.
