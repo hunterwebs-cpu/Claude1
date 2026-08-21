@@ -26,3 +26,13 @@ Counseling PLLC (the 'Practice')."
 **Client's objection:** This language makes it sound like Bernecky had
 some choice in the matter. None of the elements of a contract, under any
 law in any state in this country, would recognize this as a contract.
+
+---
+
+**REQUIREMENTS ¶ 1:** "I agree to be honest and assume full responsibility
+for my problematic behavior. I understand that successful treatment
+depends upon full acknowledgement of my actions and thinking patterns."
+
+**Client's objection:** He signs it or goes to jail. That's his view — the
+"agreement" is not really an agreement to anything; it is a condition of
+staying out of custody.
