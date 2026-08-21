@@ -187,3 +187,29 @@ suicidal ideation may result in ... a mental hygiene arrest" (Confidentiality
 ¶ 4) to directing him, one section later, to call 911 or a crisis hotline
 in an emergency — the very act that could trigger the consequence it just
 warned him about.
+
+---
+
+**CODE OF CONDUCT ¶ 1:** "I will attend all treatment sessions and be on
+time. I understand that the only acceptable excuse for absence or
+lateness is a verifiable medical or other emergency. I will notify the
+appropriate staff member as soon as possible about any situation that
+affects my attendance or punctuality. I understand that after three
+unexcused absences my case will be reviewed for discharge."
+
+**Client's objection:** "Verifiable medical or other emergency" — "other"
+is undefined and vague on its own. "Verifiable medical" is also too
+cabined: what about a contagious but non-severe/endemic illness — e.g.,
+Jeff has symptoms consistent with COVID (or any of a number of other
+contagions), doesn't consider it necessary to get tested, but attending
+would risk sickening everyone else in the room? Is he still required to
+attend because nothing has been "verified"? And what would verification
+even require — production of his own confidential medical records? The
+point behind the paragraph is understood, but the better standard is:
+calling and explaining the situation, and getting verbal approval, at the
+first opportunity — not this cabined "verifiable medical or other
+emergency" language. **Note:** the client stipulates that this particular
+provision goes to the execution of the therapy (an administrative detail
+within what the Judgment properly leaves to be worked out), not to
+something in excess of the Judgment — this is a vagueness/practicality
+objection, not an exceeds-the-Judgment objection.
