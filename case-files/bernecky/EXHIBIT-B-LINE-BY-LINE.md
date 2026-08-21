@@ -221,7 +221,7 @@ each session unless I have made other arrangements with the Practice and
 my Probation Officer."
 
 **Client's objection:** Who assigns this elusive "copay"? Jeff has health
-insurance through his provider. While his condition acknowledges he is
+insurance through his employer. While his condition acknowledges he is
 responsible for part of the cost of treatment, the Court never fixed a
 specific amount. Jeff's position: he should be required to pay no more
 than his health insurance carrier requires for an in-network provider
