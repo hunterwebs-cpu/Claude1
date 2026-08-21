@@ -407,3 +407,19 @@ receiving payment for sex is a crime for both buyer and seller. So far as
 this paragraph is read narrowly, as restating that general prohibition,
 it's okay — no independent objection beyond the initial ambiguity noted
 above.
+
+---
+
+**SPECIAL CONDITIONS ¶ 4:** "I also understand that it is also not
+permitted to send or to receive sexually explicit images or narratives
+without prior approval by treatment staff."
+
+**Client's objection:** "Narratives" carries epic First Amendment
+implications — under this clause Jeff couldn't buy a memoir. Examples:
+*Running with Scissors* (Augusten Burroughs), which contains extensive
+sexual narrative content, and *Angela's Ashes* (Frank McCourt), which
+describes the author masturbating on the roof of a castle in Ireland at
+around 13-14 years old — a book that won numerous awards. **`[VERIFY]`**
+before use: confirm the specific passage/description in *Angela's Ashes*
+and its award history (widely understood to have won the Pulitzer Prize,
+but confirm before citing) before these examples go into any draft.
