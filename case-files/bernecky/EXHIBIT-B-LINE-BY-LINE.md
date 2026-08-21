@@ -158,3 +158,19 @@ necessary communications. Separately: the requirement to keep treatment
 staff informed of the nature of any contact he has with another client
 outside sessions is not in his conditions at all — nothing in the
 Judgment imposes this obligation.
+
+---
+
+**CONFIDENTIALITY ¶ 4:** "I understand that the expression of suicidal or
+homicidal ideation will result in one or more the following: notification
+to my Probation Officer; a referral to mobile crisis; or a mental hygiene
+arrest."
+
+**Client's objection:** This exposes the underlying problem with mandatory
+reporting generally — it effectively tells a patient not to talk about
+this. The provision even contemplates potential civil detention (a mental
+hygiene arrest). Taken to its natural end: if Jeff mentions a suicidal
+ideation he had, say, six months ago — already past, already resolved —
+is everyone and their mother going to be notified over it? Client's own
+aside: people reading this document line by line will understand why so
+much time is being spent objecting to it; it is an absurd document.
