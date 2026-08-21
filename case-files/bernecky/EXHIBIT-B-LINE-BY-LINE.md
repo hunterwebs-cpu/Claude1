@@ -374,3 +374,22 @@ statement should be stated to everyone, including Jeff — something like
 a court of law." If the drafters understood this concept enough to build
 in a protection for someone under pretrial investigation, the absence of
 any comparable protection for Jeff is telling.
+
+---
+
+**SPECIAL CONDITIONS ¶ 2:** "I understand that I am required to disclose
+all my intimate partners to treatment staff. I understand that I need to
+provide acceptable proof of informed consent to treatment staff which
+includes disclosure of my offense history in full prior to engaging in a
+sexual relationship."
+
+**Client's objection:** Strenuous objection. This is an end run around
+*Boles*. What would even qualify as "informed consent," and what proves
+it — a signed consent form? This is not only well outside the SR
+conditions, it is antithetical to the goals of treatment: it will, and
+indeed does, result in social isolation. Jeff goes only to work and home
+because he is terrified of having to go through the trauma of disclosing
+his past offenses and facing rejection. In the client's own view, this is
+the very path to recidivism. **Needs a Certification paragraph** — this is
+a personal fact about Jeff's current isolation and its cause, not just
+legal argument, and should be stated as such in the Certification.
