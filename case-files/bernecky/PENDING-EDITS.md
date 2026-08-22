@@ -82,3 +82,20 @@ summary.
    already used elsewhere. If a CBT-specific claim is asserted as fact
    (rather than as the client's own view), it would need verification
    before use.
+
+5. **New footnote — Fifth Amendment issue on the "criminal behaviors"
+   disclosure/law-enforcement-routing passage.** Flagged passage: "...grant
+   the relief sought. Immediate discharge follows from 'other problem
+   behavior not outlined in this Treatment Contract, as determined in the
+   sole discretion of the staff of the Practice,' and from bringing 'any
+   item that may be used as a weapon.' Ex. B, Consequences ¶ 2. He must
+   report 'any relapse in problematic behavior' within twenty-four hours
+   and disclose changes in 'criminal behaviors,' while Consequences ¶ 1
+   routes what he says to his supervising officer and, if staff think it
+   necessary, to law enforcement..." Client wants a footnote decrying the
+   obvious Fifth Amendment issue here: he would be reported for disclosing
+   a new crime, regardless of what it is. Whatever might be said about a
+   "valid invocation" of the privilege in the abstract, the structural
+   problem is that asking whether he has committed a new crime, and
+   predicating discharge — which would likely trigger both an SR violation
+   arrest and a new criminal case — on the answer, is itself compulsion.
