@@ -17,3 +17,15 @@ summary.
 1. **Strike this sentence entirely.** Flagged: "His objections to that
    condition are set out in Part IV, infra, and are not repeated here."
    Client: "strike this." No replacement given — just remove it.
+
+2. **Reframe "would survive any cure of it" — confusing transition from
+   problem to survival.** Flagged: "The third problem runs deeper than
+   vagueness and would survive any cure of it:" Client: "it's a little
+   confusing. we discuss a problem and then survival. while I understand
+   it is proper grammatically, the problem itself would still be present
+   even if the court had approve[d] it, I think we should reframe it."
+   The actual point: this (First Amendment) problem isn't just a
+   vagueness/delegation defect that a more precisely drafted or
+   court-approved version could fix — it would remain even if the Court
+   itself had imposed this exact term. Reframe around that idea directly
+   rather than "survive any cure."
