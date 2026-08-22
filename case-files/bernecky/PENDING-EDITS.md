@@ -31,3 +31,15 @@ now, so it never goes stale the way a version-tagged filename does.
    (currently "Nothing turns on the signature") — it explains affirmatively
    *why* he signed rather than merely arguing the signature doesn't bind
    him.
+
+3. **Strike the "roadmap" sentence — don't name what the government will
+   argue.** Flagged passage: "The phrase the government will rely on —
+   'follow the rules and regulations of that program' — is language that
+   entered this District's judgments as part of the correction *Browder*
+   required. It cannot be the clause that authorizes what *Browder*
+   forbade." Client: "strike this. I don't hand out road maps. they may
+   not [even] say this." This is a standing instruction from earlier in
+   this matter (do not pre-argue or anticipate specific arguments the
+   government hasn't made) — the point about the phrase's provenance can
+   still be made, but not framed as predicting what the government's brief
+   will say.
