@@ -5414,3 +5414,57 @@ exhibited and was left as an ordinary bibliographic cite.
    — 6th-edition guidelines 12.04/12.05 confirmed, but confirming they're
    genuinely new (not carried over from 2014) needs the 2014 PDF, which
    wasn't available this pass.
+
+## Part I (CIMP) rebuilt with a minimal brief (2026-08-22, commit `b6e9765`)
+
+Same lean-brief approach that worked for Part II: no prior draft read, big
+ideas only (five client theories: employment restriction never imposed
+but Probation reading one in; CIMP rules exceed the Judgment and are
+vague; "internet capable device" construed too broadly; notice-vs-
+authorization; privilege/non-illegal carve-out defeated by real-time
+tracking), primary sources only, proportion instruction (one issue among
+several — brevity matters, but this one matters a lot to the client).
+Delivered: **3,315 words, down from 5,571 (40% cut)** — Part I is now
+shorter than Part II (4,614). Whole motion: 16,975 → 14,716.
+
+One big idea drives four subparts: the Judgment requires *notice* of
+devices; the CIMP Agreement requires *authorization*; only one of those is
+the actual sentence. New authority found and verified: *United States v.
+Ruff* (2d Cir. summary order) — the Second Circuit's own capability
+formulation, "a computer that could be used to access child pornography
+over the internet," used as the standard for construing "internet capable
+device." *Brown*, 173 F.4th 45 (2d Cir. 2026) — partly adverse (monitoring
+isn't per se an occupational restriction) — was read in full and used
+against itself: its own three-part limitation is applied with Bernecky
+placed on the far side of it.
+
+**One authority the file treats as the strongest available point was
+deliberately not used:** *United States v. Mike*, 632 F.3d 686 (10th Cir.
+2011) — the Writer would not cite a holding it hadn't verified this
+session from primary source, even though prior notes flag it as
+important. Worth adding once verified.
+
+### New open items
+
+1. **The under-18 employment instruction needs sourcing** — currently
+   drafted only as "he was told," with no who/when/writing. This is
+   Part I.D's strongest fact and its least documented; strengthening it
+   needs client input.
+2. **Five new Certification paragraphs needed**: the employer sequence,
+   two weeks of lost pay, the Roku PIN, the under-18 instruction, the
+   phone lock screen.
+3. ***Mike*, 632 F.3d 686 (10th Cir. 2011)** — not cited, needs
+   verification before it can be added to Part I.C.
+4. ***Brown* pincites are to the slip opinion** (pp. 10, 12) — convert to
+   reporter pagination if available.
+5. **Monitoring vendor unconfirmed** — a RemoteCOM handout is in Drive but
+   nothing confirms it's Bernecky's actual vendor. If confirmed, the
+   handout's own instruction to install antivirus *before* enrollment
+   directly contradicts Agreement ¶ 16 — a useful detail once verified.
+6. **Item 5 (in-private browsing) was conceded, not argued** — the Writer
+   found it already reads sensibly as limited to "my monitored device"
+   and said so rather than manufacture an objection. Flag if the client
+   wants it argued harder anyway.
+7. Conclusion renumbered (four Part I items collapsed to three; downstream
+   items shifted) — the only change made outside Part I, necessary to keep
+   cross-references live.
