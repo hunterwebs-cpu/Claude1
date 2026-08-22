@@ -77,3 +77,12 @@ now, so it never goes stale the way a version-tagged filename does.
    with what "material(s) of any kind" actually covers on its face, and
    treat the pornography/*Eaglin* discussion as one application of that
    broader problem, not the frame.
+
+6. **Add "individualized" — ties to the settled doctrine that SR
+   conditions must be individualized.** Flagged passage: "...patient is
+   not the execution of an order this Court entered about this
+   defendant." Client: "I would say an individualized order this court
+   entered, as every case says conditions are to be individualized."
+   Small wording fix: work "individualized" into this sentence to
+   explicitly invoke that doctrinal requirement rather than leaving it
+   implicit.
