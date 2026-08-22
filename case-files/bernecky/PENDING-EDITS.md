@@ -58,3 +58,22 @@ now, so it never goes stale the way a version-tagged filename does.
    them. Reframe around that actual objection (ties to the "ministerial
    function" point logged earlier in `EXHIBIT-B-LINE-BY-LINE.md`,
    Consequences ¶ 3(a) objection).
+
+5. **RECURRING — SC ¶ 8 is again being framed as a pornography issue. It
+   isn't.** Flagged passage: "...material(s) of any kind as defined by my
+   treatment staff.' The Judgment forbids Mr. Bernecky to possess child
+   pornography and says nothing about lawful adult material. Dkt. No. 28,
+   Special Condition (j). The defect..." Client: "why is this limited to
+   porn? material is an expa[nsive] word." This is the same point flagged
+   twice before in this matter (see `EXHIBIT-B-LINE-BY-LINE.md`, SC ¶ 8
+   objection, and the earlier session's items on "material(s)" overbreadth)
+   and it has resurfaced in this draft. "Sexually stimulating material(s)
+   of any kind" is not confined to pornography or expressive content at
+   all — on its plain text it reaches ordinary legal items (sex toys,
+   condoms, lubricant, etc.). Framing the Judgment comparison solely
+   against the child-pornography condition (Special Condition (j))
+   understates the term's actual reach and keeps recreating the same
+   porn-centric framing the client has now rejected multiple times. Lead
+   with what "material(s) of any kind" actually covers on its face, and
+   treat the pornography/*Eaglin* discussion as one application of that
+   broader problem, not the frame.
