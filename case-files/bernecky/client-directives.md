@@ -5275,15 +5275,6 @@ arrest irony, the copay point, the "controlled substances" example.
 2. **Two Certification paragraphs required**: signing/attendance, and the
    isolation fact (works and goes home, forms no relationships) — the
    second is what makes *Reeves* land as fact rather than prediction.
-   **New third paragraph, client's own framing:** Jeff signed Exhibit B
-   specifically so he would not end up in Browder's situation — arrested
-   for refusing to sign — and is instead coming to this Court to fix the
-   problem the document creates, rather than refusing and litigating a
-   violation after the fact. Confirmed 08/19/2026 signing date verified
-   directly against the primary document text (not an inference). This
-   framing should also inform Part II's own signature paragraph (currently
-   "Nothing turns on the signature") — it explains affirmatively *why* he
-   signed rather than merely arguing the signature doesn't bind him.
 3. **Pre-existing citation error found in Part IV, not touched (out of
    scope):** attributes to ATSA guideline 12.06 language that actually
    sits in 12.04; the 12.05 quote is correct.

@@ -23,3 +23,15 @@ again.
    by fiat (i.e., accept a restriction beyond what a court has actually
    ordered simply because a private party demanded it, without asking a
    court to determine that it's warranted).
+
+2. **Signing-date confirmation and new Certification framing.** The
+   08/19/2026 signing date is confirmed against the actual primary
+   document text (not an inference). Client's framing for a new
+   Certification paragraph: Jeff signed Exhibit B specifically so he would
+   not end up in Browder's situation — arrested for refusing to sign — and
+   is instead coming to this Court to fix the problem the document
+   creates, rather than refusing and litigating a violation after the
+   fact. This should also inform Part II's own signature paragraph
+   (currently "Nothing turns on the signature") — it explains affirmatively
+   *why* he signed rather than merely arguing the signature doesn't bind
+   him.
