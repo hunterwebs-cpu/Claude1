@@ -101,3 +101,17 @@ now, so it never goes stale the way a version-tagged filename does.
    directly into item 6 above — lead with the individualization point as
    the reason the doctrine matters here, using this document's own blank
    space and pretrial-diversion leftover as the proof.
+
+8. **LAST ITEM THIS ROUND — client says the rest looks good. Sharpen the
+   "why we are here" point.** Client, verbatim: "we are here because
+   discharge from treatment, regardless of the reason, has been
+   universally held to be a violation of supervision. indeed, browder
+   himself was violated for refusing to sign the contract." Make this
+   point more clearly and directly somewhere near the existing "reason to
+   say it now" paragraph — discharge from treatment is the actual trigger
+   for a violation, not a hypothetical risk, and *Browder* is the concrete
+   proof: he was violated for exactly this (refusing to sign). **Flag:**
+   "universally held" is a strong claim — verify it against real authority
+   before using that specific phrase; if it can't be verified as literally
+   universal, state the point on *Browder*'s own facts (which are already
+   verified) without the "universally" framing.
