@@ -99,3 +99,18 @@ summary.
    problem is that asking whether he has committed a new crime, and
    predicating discharge — which would likely trigger both an SR violation
    arrest and a new criminal case — on the answer, is itself compulsion.
+
+6. **New footnote — the only testing Judgment actually requires is CVSA/
+   polygraph; Bernecky will never submit to physiological testing
+   requiring exposure or genital manipulation.** Flagged passage: "The
+   document also makes 'computer based sexual interest assessments' a
+   term of treatment, though nothing in the Judgment mentions them; the
+   profession that supplies this treatment treats such testing as
+   requiring the client's specific informed consent, obtained for the
+   procedure itself. Mr. Bernecky will not submit to that testing."
+   Footnote content: the only test Jeff must submit to under the Judgment
+   is CVSA or polygraph — the problems with those are discussed elsewhere
+   in the motion (Part IV) and not repeated here — but Jeff will never,
+   under any circumstance, submit to a physiological test requiring him to
+   expose himself or allow anyone to manipulate his genitals, such as
+   plethysmography testing.
