@@ -5325,3 +5325,51 @@ facial violation, with *Browder*'s actual procedural history as proof.
 4. Minor citation-order redundancy: *Betts* now gets its first full cite in
    Part II, with Part V's full cite becoming technically duplicative — not
    touched, out of scope.
+
+## Part II finalized — 6-item round (2026-08-21, commit `0460792`)
+
+Client's final round on Part II: swept all pronoun references to a
+judge/the Court and fixed them (plus one the client didn't flag); added
+two new footnotes (Treatment Team role-boundary objection; Fifth Amendment
+structural-compulsion point, written narrowly per instruction, no general
+doctrine overclaimed) and a third (testing — only polygraph/CVSA required,
+will never submit to plethysmography-type testing); restructured the SC
+¶ 8 discussion from 4 to 6 paragraphs to lead affirmatively (fixing the
+recurring "not X, then Y" pattern) with three distinct problems — exceeds
+the Judgment, vagueness, First Amendment — in that order; reframed the
+provider-search sentence to require Probation to locate a provider that
+works within the Judgment, with a new paragraph on coercion vs. genuine
+therapeutic alliance placed right after it (deliberately not at the very
+end, to preserve the section's existing closing sequence).
+
+**Both new citations verified in full primary text, not assumed:**
+*Voelker*, 489 F.3d 139 (3d Cir. 2007), confirmed to hold what the client
+recalled (First Amendment implications for a ban reaching legal adult
+material; vacated a § 2256(2)-anchored condition that still swept in legal
+pornography). No Second Circuit case actually uses "heightened scrutiny"
+for legal pornography; *Eaglin*, 913 F.3d 88, supplies the real in-circuit
+formulation ("carefully scrutinize unusual and severe conditions") and was
+used instead — flagged as a client-recollection correction, not a
+citation swap made without telling him.
+
+### New open items
+
+1. **Part IV's footnote cross-reference was preserved by design, not
+   accident** — adding footnotes to Part II would have broken Part IV's
+   "see Part II, supra, n.1" pointer, so the full ATSA citation apparatus
+   was kept in the new first footnote rather than moved. Worth a
+   confirming look next time Part IV is touched.
+2. **ATSA 6th-edition role-boundary cite still lacks a guideline number**
+   (cited to risk-management guidelines generally; 2014 ed. 19.02 used as
+   *accord*) — pull the number if a client or filing reviewer wants it.
+3. **Part II grew again** (SC ¶ 8 from 4 to 6 paragraphs, plus a new
+   coercion paragraph) — flagged proactively in case overall length
+   becomes a concern; the *Simmons* contrast sentence and the *Voelker*
+   out-of-circuit disclaimer are the two most cuttable pieces if so.
+4. **Relief item (5) was extended slightly beyond the literal footnote 6
+   note** — now also covers "any physiological testing other than the
+   polygraph and computerized voice stress analyzer examinations Special
+   Condition (g) addresses," not just plethysmography by name. Flagged as
+   a scope choice, not silently made.
+5. Carried forward, still open: Certification `¶ __` placeholders
+   throughout; *Kunz* 767-68 pincite `[VERIFY]`.
