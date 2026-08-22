@@ -42,3 +42,23 @@ summary.
    it. (Write this up as an actual footnote, not verbatim client
    phrasing — same standing instruction as always: rewrite appropriately,
    don't insert as dictated text.)
+
+3. **RECURRING — another "not X, then Y" construction, this time in the SC
+   ¶ 8 discussion.** Flagged: "Read as written, that sentence is not about
+   pornography." Client: "this is a not x then y statement that I loath[e]."
+   Same standing objection as items 13/27 from earlier in this matter —
+   state things affirmatively, don't lead with what something isn't.
+   Client's proposed replacement: "it is clear this condition applies to
+   all manner of sexually 'stimulating' materials. And there are myriad
+   problems with such a condition, not the least of which is [that it]
+   exceeds the [C]ourt['s] conditions [a]s imposed. [B]ut in some respects
+   it also has First Amendment implications." Structure to build toward:
+   (a) affirmative statement that SC ¶ 8 reaches all manner of sexually
+   "stimulating" materials; (b) "myriad problems," leading with exceeding
+   the Judgment; (c) First Amendment implications as a further, distinct
+   problem — citing *Voelker* (3d Cir.) on pornography, and Second Circuit
+   authority on heightened scrutiny for legal pornography (**`[VERIFY]`**
+   both — confirm what these cases actually hold before citing; *Voelker*
+   in particular needs a full read, not just the name); (d) then proceed
+   through the list of specific materials (sex toys, condoms, lubricant,
+   etc.) as examples of the overbreadth.
