@@ -5266,10 +5266,12 @@ arrest irony, the copay point, the "controlled substances" example.
 
 ### New open items
 
-1. **No Westlaw cite found for the *Browder* remand order** — cited as a
-   Decision and Order with no WL number/pincites. This is now the most
-   important district-court citation in the section; if the client has a
-   citation, it should be added.
+1. ~~No Westlaw cite found for the *Browder* remand order.~~ **Resolved —
+   client confirms a district-court document like this is never assigned
+   a WL/Lexis citation; it is simply cited by ECF number.** Current
+   citation format (case number, court, date, judge, no WL cite) is
+   correct as-is. If the ECF number for the remand order is ever located,
+   it can be added as a pincite, but nothing is broken as currently cited.
 2. **Two Certification paragraphs required**: signing/attendance, and the
    isolation fact (works and goes home, forms no relationships) — the
    second is what makes *Reeves* land as fact rather than prediction.
