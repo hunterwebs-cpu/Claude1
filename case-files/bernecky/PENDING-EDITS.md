@@ -24,3 +24,21 @@ summary.
    or the judge's actual name (e.g., "Judge Vilardo"). Sweep the
    surrounding paragraphs for any other pronoun standing in for a judge or
    the Court and fix all of them, not just this one instance.
+
+2. **New footnote on the "Treatment Team" paragraph — approved as written,
+   add a footnote.** Client on the current text ("...professional limited
+   liability company. And the document then folds Probation back in on
+   the provider's own terms...A probation officer is not a clinician.
+   Special Condition (b) hands him the administrative details of
+   treatment — which provider, which schedule — and the Judgment gives
+   him no part in the clinical judgment whether a patient should remain
+   in treatment or be put out of it..."): "I love this. but I want a
+   footnote added." Footnote content, client's own words: Bernecky
+   absolutely objects to the probation officer being appointed to act as
+   a clinician or in loco parentis on the treatment team — that is not
+   supervision, and the probation officer has literally zero say in what
+   Jeff's treatment should or does entail. Probation selected a provider,
+   and Probation's job is to verify he goes and "participates." That's
+   it. (Write this up as an actual footnote, not verbatim client
+   phrasing — same standing instruction as always: rewrite appropriately,
+   don't insert as dictated text.)
