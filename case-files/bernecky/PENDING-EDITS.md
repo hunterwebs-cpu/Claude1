@@ -86,3 +86,18 @@ now, so it never goes stale the way a version-tagged filename does.
    Small wording fix: work "individualized" into this sentence to
    explicitly invoke that doctrinal requirement rather than leaving it
    implicit.
+
+7. **Reframe the individualization-blank paragraph around the nondelegation
+   doctrine's rationale.** Full flagged paragraph: "What the document is
+   appears in its own individualization blank: 'I agree to abide by the
+   following special conditions: No special conditions designated.' Ex.
+   B. The same section opens with a term written for somebody else
+   entirely — a person 'under pretrial supervision or pretrial diversion.'
+   Id., Special Conditions ¶ 1. A form with nothing in the space reserved
+   for this patient is not the execution of an order this Court entered
+   about this defendant." Client's proposed reframe: the face of the
+   document demonstrates precisely why the nondelegation doctrine exists,
+   because this "contract" is plainly not an individualized mandate. Ties
+   directly into item 6 above — lead with the individualization point as
+   the reason the doctrine matters here, using this document's own blank
+   space and pretrial-diversion leftover as the proof.
