@@ -1,18 +1,14 @@
-# Pending Edits — Motion to Modify SR Conditions (MOTION-v5.md)
+# Pending Edits — SR Modification Motion
 
-**Purpose:** a disposable scratch file for the client's line-by-line notes on
-the current draft, to be handed to the Writer for the next drafting pass and
-then deleted/reset once implemented. This file holds only notes on the draft
-currently in front of the client — nothing else. Completed/superseded rounds
-are deleted outright, not marked done and left in place; their substance
-lives in `client-directives.md` and in git history if it's ever needed
-again.
-
-**Status: notes on the fourth Part II draft (commit `a27d7ed`), below.**
+**Purpose:** a disposable scratch file for the client's line-by-line notes
+on whatever draft is currently in front of him, to be handed to the Writer
+for the next drafting pass. Nothing more than the current round lives
+here. This file is not version-numbered — it covers whatever's live right
+now, so it never goes stale the way a version-tagged filename does.
 
 ---
 
-## Notes on Part II (fourth draft, read-through 1)
+## Notes on Part II, fourth draft (commit `a27d7ed`)
 
 1. **"Not a request for new law" — unclear jargon, cut it.** Flagged
    sentence: "That order did something else, and it is the reason this
