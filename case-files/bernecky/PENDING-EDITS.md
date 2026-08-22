@@ -43,3 +43,18 @@ now, so it never goes stale the way a version-tagged filename does.
    government hasn't made) — the point about the phrase's provenance can
    still be made, but not framed as predicting what the government's brief
    will say.
+
+4. **Non sequitur — "no order of this Court created that body" misses the
+   actual objection.** Flagged passage: "...with authority to discharge
+   Mr. Bernecky from the treatment his sentence requires him to complete.
+   Ex. B, Consequences ¶ 3(a). No order of this Court created that body,
+   named its members, or gave it that power." Client: "this is a non
+   sequitur. of course the court didn't order that body. Jeff's objection
+   is that probation is not qualified to make actual treatment decisions
+   and indeed was not empowered to." The point isn't that the Court failed
+   to create the Treatment Team (obviously true and not the issue) — it's
+   that Probation is not clinically qualified to make treatment/discharge
+   decisions and was never empowered, by this Court or otherwise, to make
+   them. Reframe around that actual objection (ties to the "ministerial
+   function" point logged earlier in `EXHIBIT-B-LINE-BY-LINE.md`,
+   Consequences ¶ 3(a) objection).
