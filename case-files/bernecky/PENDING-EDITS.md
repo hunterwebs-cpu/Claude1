@@ -62,3 +62,23 @@ summary.
    in particular needs a full read, not just the name); (d) then proceed
    through the list of specific materials (sex toys, condoms, lubricant,
    etc.) as examples of the overbreadth.
+
+4. **Reframe "Probation may find another provider" affirmatively — require
+   a provider that works within the Judgment.** Flagged passage: "...and
+   Probation may find another provider." Client's proposed reframe:
+   Probation should be *required* to locate a provider willing to work
+   within the scaffolding of the Court's Judgment. Underlying point, in
+   the client's own words: treatment providers should not be able to
+   unilaterally rely on "do X or go to jail." Instead, they should work to
+   help their patient understand behavioral issues and consider change
+   despite something being legal — that is the entire point of CBT
+   (cognitive behavioral therapy). In this document's model, by contrast,
+   the treatment provider wields its rules like a club backed by the
+   threat of arrest — which is not conducive to a genuine therapeutic
+   relationship. This is a real thematic/closing point, not just a
+   sentence fix — consider where in the document (or as a closing
+   thought) this critique of coercion-vs-therapeutic-alliance lands best,
+   and whether it should tie into the ATSA/professional-standards material
+   already used elsewhere. If a CBT-specific claim is asserted as fact
+   (rather than as the client's own view), it would need verification
+   before use.
