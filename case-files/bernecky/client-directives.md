@@ -5282,3 +5282,46 @@ arrest irony, the copay point, the "controlled substances" example.
    working document — its substance was mined for this draft, but the
    draft is deliberately illustrative rather than itemized against it.
    Kept as historical record.
+
+## Part II — 8 targeted edits applied (2026-08-21, commit `249fc23`)
+
+Client read-through of the fourth draft produced 8 notes (logged and
+implemented from `PENDING-EDITS.md`, explicitly as direction to rewrite,
+not text to insert verbatim): cut unclear "not a request for new law"
+jargon; confirmed the 08/19/2026 signing date and added why he signed
+(to avoid Browder's fate, then came to court instead of litigating from
+detention); struck the sentence predicting the government's argument,
+replacing it with a sourced (not predicted) provenance point — and caught
+a real overstatement in the process, that Bernecky's SC (b) is "clause for
+clause" identical to Browder's remand condition (it isn't; Browder's
+carries an extra inpatient-approval sentence, now corrected); fixed the
+Treatment Team non sequitur to state the actual objection (Probation isn't
+clinically qualified and was never given a role in that judgment); rebuilt
+SC ¶ 8's argument to lead with "material(s)" covering physical objects,
+not just pornography, framing *Eaglin*/*Simmons* as one application rather
+than the frame — new structural point found along the way: the Judgment
+restricts possession in exactly three defined categories, and ¶ 8 adds an
+undefined fourth; reframed the individualization-blank paragraph around
+why the nondelegation doctrine exists, anchored to *Betts*, 886 F.3d 202
+(newly found and verified); and made the discharge-equals-violation point
+directly, proved on *Browder*'s own facts.
+
+**"Universally held" was not used** — the Writer could not verify it (the
+closest material is the government's litigating position in *Von Behren*,
+not a holding) and wrote a stronger, already-verified alternative instead:
+the Judgment's own text makes discharge before completion or court order a
+facial violation, with *Browder*'s actual procedural history as proof.
+
+### New open items
+
+1. **`Eaglin` is not in the Drive Cases folder** — the quote used traces to
+   `research-output/part30`, not a fresh read this pass. Recommend adding
+   the PDF to Drive for a confirming read before filing.
+2. **SC ¶ 8's "any incidents" notification clause** — flagged as vague in
+   `EXHIBIT-B-LINE-BY-LINE.md` but not one of the 8 items; a cheap
+   one-clause addition next round if wanted.
+3. **Certification still needs the item-2 "why he signed" paragraph** —
+   does not yet exist in `SORA-CERTIFICATION-OF-JEFFREY-BERNECKY.md`.
+4. Minor citation-order redundancy: *Betts* now gets its first full cite in
+   Part II, with Part V's full cite becoming technically duplicative — not
+   touched, out of scope.
