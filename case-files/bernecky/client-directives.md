@@ -5373,3 +5373,44 @@ citation swap made without telling him.
    a scope choice, not silently made.
 5. Carried forward, still open: Certification `¶ __` placeholders
    throughout; *Kunz* 767-68 pincite `[VERIFY]`.
+
+## Struck cross-ref, reframed transition, ATSA pinpointed as Exhibit C (2026-08-22, commit `33e5d0f`)
+
+Three-item round: struck an unnecessary cross-reference sentence; reframed
+the confusing "would survive any cure of it" transition into a direct
+statement that the SC ¶ 8 First Amendment problem would remain even if
+this Court itself had imposed the term word for word; and — the client
+having uploaded the actual ATSA 6th ed. (2025) *Best Practice Guidelines
+for Men* PDF to Drive — every 6th-edition citation in the motion was
+checked against the real document and given a genuine pinpoint (guideline
+number and page), replacing the prior research memo's looser section-only
+references, with an Exhibit C reference added alongside each.
+
+**One real citation error caught and fixed in the process:** Part IV had
+attributed the denial/minimization-recidivism proposition to Guideline
+12.06; it's actually at Guideline 12.04, page 55. 12.06 says something
+adjacent but different (limits on clinical recommendations, not the
+recidivism-link uncertainty). Fixed, along with a paraphrase drift ("on
+recidivism risk" → "in sexual recidivism risk," matching the source).
+
+The 2014 edition (cited as *accord* in the same footnotes) is not being
+exhibited and was left as an ordinary bibliographic cite.
+
+### New open items
+
+1. **Page-reference convention needs a decision before Exhibit C is
+   built.** Citations currently point to the guidelines' own internal
+   pagination; if the assembled Exhibit C PDF gets continuous/Bates
+   stamping, the five pinpoints will need a mechanical re-pass afterward.
+2. **Exhibit C itself (cover page + combined PDF) still needs to be
+   built** — this citation pass only fixed the motion's text; the physical
+   exhibit package is a separate follow-up task, same process as
+   Exhibits A/B.
+3. **Guideline 22 (pp. 73-74), on polygraph reliability and CVSA-adjacent
+   cautions, is not currently cited anywhere** — flagged as live material
+   for Part IV if the client wants it added; deliberately not added
+   without instruction since it's new argument, not a citation fix.
+4. **The "current edition adds" framing in Part IV is only half-verified**
+   — 6th-edition guidelines 12.04/12.05 confirmed, but confirming they're
+   genuinely new (not carried over from 2014) needs the 2014 PDF, which
+   wasn't available this pass.
