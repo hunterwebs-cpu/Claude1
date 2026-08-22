@@ -5233,3 +5233,50 @@ re-asserted — the Drive text extraction doesn't show markings either way.
    first — should become a short form there. Not touched, out of scope.
 5. **Shepardize before filing**, *Harris* and *Jimenez* especially — both
    2026 decisions, neither previously in this file.
+
+## Part II rebuilt a fourth time, from primary sources only, minimal brief (2026-08-21, commit `a27d7ed`)
+
+Client rejected the ~35-provision one-section draft as still missing the
+point — too long, and gave a model paragraph directly (short, one
+continuous argument, illustrative not exhaustive) plus a coordinator
+process correction: stop layering additional structure/constraints on top
+of the `writer` Skill. Re-dispatched with a minimal brief — the model
+paragraph, the client's own line-by-line file as raw source material (not
+pre-organized into themes), and an instruction to read only primary
+sources (Drive documents, actual case law) rather than any prior
+AI-generated memo or draft. Delivered: **2,563 words** — proportionate to
+the rest of the motion (Part IV is 2,916; all of Part I is ~4,600 across
+four subparts).
+
+**New finding, not in any prior memo:** direct textual comparison confirms
+Special Condition (b) is, clause for clause, and Special Condition (h),
+sentence for sentence, the conditions Judge Vilardo re-imposed on remand in
+*Browder* on March 14, 2018 — three months before Bernecky's sentencing.
+That means "follow the rules and regulations of that program" entered this
+District's judgments *as part of the correction Browder required*,
+converting the client's theory from argument into an inference from the
+record.
+
+**Deliberately illustrative, not exhaustive** — argues two provisions
+(SC ¶ 8's materials ban, SC ¶ 2's partner-disclosure/informed-consent
+requirement) in depth, per the client's model, and compresses the rest
+into one paragraph saying so. Fifth Amendment cross-referenced to Part IV
+rather than repeated. Cut for proportion, not merit: the mental-hygiene-
+arrest irony, the copay point, the "controlled substances" example.
+
+### New open items
+
+1. **No Westlaw cite found for the *Browder* remand order** — cited as a
+   Decision and Order with no WL number/pincites. This is now the most
+   important district-court citation in the section; if the client has a
+   citation, it should be added.
+2. **Two Certification paragraphs required**: signing/attendance, and the
+   isolation fact (works and goes home, forms no relationships) — the
+   second is what makes *Reeves* land as fact rather than prediction.
+3. **Pre-existing citation error found in Part IV, not touched (out of
+   scope):** attributes to ATSA guideline 12.06 language that actually
+   sits in 12.04; the 12.05 quote is correct.
+4. **`EXHIBIT-B-LINE-BY-LINE.md` is now largely superseded** as the active
+   working document — its substance was mined for this draft, but the
+   draft is deliberately illustrative rather than itemized against it.
+   Kept as historical record.
