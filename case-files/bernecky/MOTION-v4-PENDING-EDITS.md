@@ -8,8 +8,18 @@ are deleted outright, not marked done and left in place; their substance
 lives in `client-directives.md` and in git history if it's ever needed
 again.
 
-**Status: empty.** Items 1-6 (coverage gap, delegation-vs-usurpation
-framing, length) were superseded by the full Part II rebuild built from
-`EXHIBIT-B-LINE-BY-LINE.md` — one continuous section, ~35 provisions
-addressed, commit `f1da3cd`. See `client-directives.md` for the summary.
-Add new notes below as the client reads through this version.
+**Status: notes on the fourth Part II draft (commit `a27d7ed`), below.**
+
+---
+
+## Notes on Part II (fourth draft, read-through 1)
+
+1. **"Not a request for new law" — unclear jargon, cut it.** Flagged
+   sentence: "That order did something else, and it is the reason this
+   argument is not a request for new law." Client: "what is a request for
+   new law? I have no idea what this means." Replace with the client's own
+   framing: this is why Bernecky is seeking clarification — he doesn't
+   want to go to jail, but he also doesn't want to curtail his own liberty
+   by fiat (i.e., accept a restriction beyond what a court has actually
+   ordered simply because a private party demanded it, without asking a
+   court to determine that it's warranted).
