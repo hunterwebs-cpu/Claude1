@@ -61,3 +61,13 @@ rebuilt Part I (commit `b6e9765`).
    the Judgment-text/no-restriction-imposed theory alone without this
    fact, or whether it needs a different anchoring fact, or whether it
    should be cut/merged elsewhere if it has no remaining factual support.
+
+4. **Factual/citation error — *Peterson* is a Second Circuit decision, not
+   a decision "from this District."** Flagged: "United States v. Peterson,
+   248 F.3d 79, 83 (2d Cir. 2001) — a decision from this District — and..."
+   Client: "Peterson is a decision from the second circuit, not a decision
+   from this district." Fix the characterization — it is a Second Circuit
+   appellate decision. If it happens to have originated as an appeal from
+   this District, verify that and say so accurately (e.g., "on appeal from
+   this District"), but do not call the decision itself "a decision from
+   this District" if it is not one.
