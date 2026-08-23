@@ -45,3 +45,19 @@ rebuilt Part I (commit `b6e9765`).
    anywhere in the Judgment. Don't frame this as a resolved footnote;
    frame it as Probation affirmatively legitimizing an imposition the
    Judgment never authorized.
+
+3. **HIGH PRIORITY — FACTUAL RETRACTION. Strike the under-18-employment
+   claim entirely; it never happened.** Flagged: "And Mr. Bernecky has
+   been told he may not work anywhere that employs people under
+   eighteen — an instruction that appears in no condition of his
+   sentence." Client: "bernecky retracted this. he was never told that."
+   This fact must be struck from Part I entirely — it is not a framing fix,
+   it is a retraction of something that did not occur. This was the
+   factual basis for Part I.D (the occupational-restriction subpart) and
+   was flagged by the Writer's own report as "the strongest fact in the
+   section and the least documented" — now confirmed false, not just
+   underdocumented. **Part I.D needs to be reassessed, not just have this
+   sentence removed** — check whether the subpart's argument can stand on
+   the Judgment-text/no-restriction-imposed theory alone without this
+   fact, or whether it needs a different anchoring fact, or whether it
+   should be cut/merged elsewhere if it has no remaining factual support.
