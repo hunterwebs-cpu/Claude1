@@ -28,3 +28,20 @@ rebuilt Part I (commit `b6e9765`).
    standing order fail the individualization requirement — **`[VERIFY]`**
    this before using it; find the actual case if it exists rather than
    assuming the recollection is correct as stated.
+
+2. **Clarify the timeline and sharpen the actual point of the employer
+   passage.** Flagged: "About two weeks of pay later, Probation accepted
+   the arrangement the employer had proposed on its own — an internal
+   account with internet access disabled — and the matter closed
+   informally." Client: confusing as written. Clarifications: (a) the two
+   weeks without pay happened right as supervision was beginning, not at
+   some later point in ongoing supervision; (b) the underlying employment
+   question arose while Jeff was still technically in BOP custody but
+   physically in the community, on a Second Chance Act halfway-house
+   placement — not after full supervised release had commenced; (c) most
+   importantly, "the matter closed informally" undersells the actual
+   problem — the real issue is that Probation **validated the company's
+   concern** by voicing requirements to the employer that do not exist
+   anywhere in the Judgment. Don't frame this as a resolved footnote;
+   frame it as Probation affirmatively legitimizing an imposition the
+   Judgment never authorized.
