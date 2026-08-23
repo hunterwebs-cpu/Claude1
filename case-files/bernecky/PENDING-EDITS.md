@@ -72,6 +72,14 @@ rebuilt Part I (commit `b6e9765`).
    this District"), but do not call the decision itself "a decision from
    this District" if it is not one.
 
+**Note on items 1-4:** the whole section is being rebuilt from scratch, so
+these aren't standalone line-fixes to apply to the existing draft. They
+still matter as facts/law the rebuild must get right — the individualization
+theory (1), the corrected employer timeline and framing (2), the retracted
+under-18 fact that must not appear anywhere in the new draft (3), and the
+corrected characterization of *Peterson* if it's cited at all (4). Carry
+them into the rebuild brief; don't treat them as items to "fix" in place.
+
 5. **CLIENT GRADES THIS DRAFT AN "F" — MAJOR RESTRUCTURING NEEDED, NOT
    INCREMENTAL EDITS. He says he is done reading this version.** Client,
    verbatim: "so this argument sucks. and I am grading it an F." And: "I
