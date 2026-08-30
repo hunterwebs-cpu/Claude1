@@ -137,6 +137,21 @@ The following could not be fully, independently confirmed and should be treated 
 
 ---
 
+## Addendum (31 August 2026) — corrected facts from HMCTS record and email chronology
+
+Two material corrections/additions to the analysis above, based on the beneficiary's actual email correspondence (reviewed 30–31 August 2026) and the official HMCTS probate record subsequently located:
+
+**Corrected dates.** Sylvia Mary Ryder died **23 October 2024**. The Grant of Probate issued **15 July 2025** (Probate No. 1749218303758892, Principal Registry) — i.e., roughly 8.5 months from death to Grant, which is slower than today's straightforward-case benchmarks but not itself remarkable. The real problem is what has (not) happened since: as of this addendum, it has been **over 13 months since the Grant issued** and **~22 months since death**, with no final account or distribution, an interim accounting only as of November 2025, and — per the email chronology — **no communication from the firm at all since 24 April 2026** (over four months), despite an explicit promise on that date to "come back to you in due course." This moves the case decisively out of "registry backlog might explain it" territory (Section 4.1 above) and into "the administration itself has stalled post-Grant, with no external bottleneck to blame" territory — the firm has had unfettered ability to act for over a year.
+
+**Personal representative structure — open question.** The beneficiary reports that "the original executor gave coexecutor power to the probate attorney" — understood to mean the named executor (Mrs Julie John) granted some form of co-executor authority to someone at Graham Evans & Partners (likely Natasja Jones, though this is not yet confirmed). This matters legally because two quite different mechanisms could be meant, with different consequences:
+
+- **A formal deed appointing an additional personal representative** (or Mrs John renouncing/having "power reserved" to a substitute executor) would make that person a personal representative in her own right, owing the direct s.25 AEA 1925 statutory duty to account and administer "according to law" — closing the gap noted in Section 4.3 above about beneficiaries not being the solicitor's client, since PR duties run directly to beneficiaries regardless of any solicitor-client relationship. It would also make that person a proper target, alongside Mrs John, of a s.50 AJA 1985 application if it ever came to that.
+- **A delegation under section 25 of the Trustee Act 1925** (as amended) lets an executor delegate their functions to an attorney for a defined period without making the attorney a personal representative — liability for proper administration would generally remain with Mrs John personally, with the attorney owing a duty of care in exercising the delegated functions.
+
+This has not been resolved and matters enough to ask for directly — the revised complaint letter (see case file) now explicitly requests confirmation of exactly what was granted, to whom, and under what instrument, with a copy of that instrument.
+
+---
+
 ### Sources consulted
 
 Primary (read directly):
