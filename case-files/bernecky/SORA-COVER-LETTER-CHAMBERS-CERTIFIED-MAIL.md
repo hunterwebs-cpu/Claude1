@@ -3,7 +3,7 @@ Jeffrey Bernecky\
 Rochester, NY 14608\
 (585) 202-7634
 
-[_______________], 2026
+September 5, 2026
 
 VIA CERTIFIED MAIL, RETURN RECEIPT REQUESTED
 
@@ -13,13 +13,14 @@ Hall of Justice\
 99 Exchange Blvd., 5th Floor, Room 545\
 Rochester, NY 14614
 
-Re: People v. Bernecky — SORA Risk-Level Classification Hearing, September 11, 2026, 11:30 a.m.
+Re: People v. Bernecky — SORA Risk-Level Classification Hearing, September 11, 2026, 11:30 a.m.\
+Index No.: None assigned by the Clerk's Office as of this date
 
 Dear Judge Bailey Turner:
 
 I am the respondent in the above matter, appearing without counsel. I am sending this letter and the enclosed documents directly to Your Honor's chambers, by certified mail, because I have been unable to get them filed any other way, and the hearing is now only days away.
 
-I attempted to file these documents with the Clerk's Office in person on two separate occasions. Both times I was told the Court does not accept filings from unrepresented parties, and that I should either retain or be assigned an attorney, or bring the documents to the hearing itself. I called the Monroe County Public Defender's Office to seek assigned counsel. Whether an attorney has been assigned to this case on paper, I do not know — but no attorney from that office has taken my call, reviewed these documents, or discussed this case with me in any way. I am sending an identical set of these documents to the Clerk's Office today, by the same method, so that both chambers and the Clerk's Office have them in advance of the hearing regardless of how each office is able to process them.
+I attempted to file these documents with the Clerk's Office in person on two separate occasions. Both times I was told the Court does not accept filings from unrepresented parties, and that I should either retain or be assigned an attorney, or bring the documents to the hearing itself. The Clerk's Office also told me that no index or indictment number has been assigned to this matter, and that this results from my underlying conviction having occurred outside Monroe County. I am noting that here so the absence of a number on these documents is not mistaken for an omission on my part. I called the Monroe County Public Defender's Office to seek assigned counsel. Whether an attorney has been assigned to this case on paper, I do not know — but no attorney from that office has taken my call, reviewed these documents, or discussed this case with me in any way. I am sending an identical set of these documents to the Clerk's Office today, by the same method, so that both chambers and the Clerk's Office have them in advance of the hearing regardless of how each office is able to process them.
 
 I am enclosing six documents:
 
