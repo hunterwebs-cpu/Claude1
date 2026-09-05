@@ -19,16 +19,16 @@ Dear Judge Bailey Turner:
 
 I am the respondent in the above matter, appearing without counsel. I am sending this letter and the enclosed documents directly to Your Honor's chambers, by certified mail, because I have been unable to get them filed any other way, and the hearing is now only days away.
 
-I attempted to file these documents with the Clerk's Office in person on two separate occasions. Both times I was told the Court does not accept filings from unrepresented parties, and that I should either retain or be assigned an attorney, or bring the documents to the hearing itself. I called the Monroe County Public Defender's Office to seek assigned counsel. No attorney has been assigned to me, and no one from that office has reviewed these documents or discussed this case with me. I am sending an identical set of these documents to the Clerk's Office today, by the same method, so that both chambers and the Clerk's Office have them in advance of the hearing regardless of how each office is able to process them.
+I attempted to file these documents with the Clerk's Office in person on two separate occasions. Both times I was told the Court does not accept filings from unrepresented parties, and that I should either retain or be assigned an attorney, or bring the documents to the hearing itself. I called the Monroe County Public Defender's Office to seek assigned counsel. Whether an attorney has been assigned to this case on paper, I do not know — but no attorney from that office has taken my call, reviewed these documents, or discussed this case with me in any way. I am sending an identical set of these documents to the Clerk's Office today, by the same method, so that both chambers and the Clerk's Office have them in advance of the hearing regardless of how each office is able to process them.
 
 I am enclosing six documents:
 
-1. Application for Assignment of Counsel
-2. Motion to Adjourn
-3. Demand for Disclosure and, if Necessary, Subpoena Duces Tecum
-4. Motion for Forensic Expert Funding Pursuant to County Law § 722-c
-5. Memorandum of Law in Support of Respondent's Application for a Downward Departure
-6. Certification of Jeffrey Bernecky, with Exhibits A through E
+1. Memorandum of Law in Support of Respondent's Application for a Downward Departure
+2. Certification of Jeffrey Bernecky, with Exhibits A through E (Exhibits at Item 2b)
+3. Motion to Adjourn
+4. Application for Assignment of Counsel
+5. Motion for Forensic Expert Funding Pursuant to County Law § 722-c
+6. Demand for Disclosure and, if Necessary, Subpoena Duces Tecum
 
 I am asking the Court to accept these documents into the record, or to direct the Clerk's Office to do so, in advance of the September 11, 2026 hearing. I intend to raise this filing history, and to renew each of these requests, on the record at the hearing itself if they have not been resolved before then.
 
