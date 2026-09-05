@@ -1,4 +1,4 @@
-# A Federal Judge Kept Me at Fort Dix Long Enough to Say Goodbye to My Mother
+# A Lawsuit About Something Else Is Why I Got to Say Goodbye to My Mother
 
 *Then the Bureau transferred me anyway.*
 
@@ -33,15 +33,17 @@ That call is the last thing I have. I got it because I happened to still be at F
 
 Here is why that was not a given.
 
-The Bureau started moving to transfer me in March. I litigated it, and a federal judge granted a temporary restraining order stopping the transfer.
+The Bureau moved to transfer me in March. I sued — *Khan v. Thompson*, filed in the District of New Jersey on March 12, 2025 — and a federal judge granted a temporary restraining order stopping it.
 
-So when my mother died in April, I was still at the prison where I had lived for nearly ten years.
+That case had nothing to do with my mother. Not one word of it. It was about a retaliatory transfer, and no lawyer stood in front of a judge and asked him to let a man say goodbye to his dying mother.
+
+But the order held. So when she died in April, I was still at the prison where I had lived for nearly ten years.
 
 That matters more than it sounds like it should. Whatever anyone wants to say about convicted felons, after a decade you have friends here — real ones. We have all been through hard shit, and it helps having men around who know that without being told.
 
 They carried me that week. If I had been three days into a new compound where nobody knew my name, I could have made the same phone call and I do not know how I would have handled what came after it.
 
-A judge gave me that. Not the Bureau.
+I got that week because an unrelated lawsuit happened to be pending. That is the entire reason. Luck, wearing a court order.
 
 ---
 
@@ -101,7 +103,7 @@ She was always there. She always took my call. She was in my corner, every singl
 
 We had our issues, she and I. Plenty of them. And we still built something close through a phone that cut off every fifteen minutes and a visiting room with a guard in the corner.
 
-A federal judge is the reason I got to tell her goodbye. That should not be how this works.
+The reason I got to tell her goodbye is that I had a lawsuit going about something else. That should not be how this works.
 
 ---
 
