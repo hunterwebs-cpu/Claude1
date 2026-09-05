@@ -35,7 +35,7 @@ Here is why that was not a given.
 
 The Bureau moved to transfer me in March. I sued — *Khan v. Thompson*, filed in the District of New Jersey on March 12, 2025 — and a federal judge granted a temporary restraining order stopping it.
 
-That case had nothing to do with my mother. Not one word of it. It was about a retaliatory transfer, and no lawyer stood in front of a judge and asked him to let a man say goodbye to his dying mother.
+That case had nothing to do with my mother. Not one word of it. It was about a retaliatory transfer, and nobody stood in front of that judge and asked her to let a man say goodbye to his dying mother.
 
 But the order held. So when she died in April, I was still at the prison where I had lived for nearly ten years.
 
