@@ -1,4 +1,4 @@
-# A Lawsuit About Something Else Is Why I Got to Say Goodbye to My Mother
+# My Mother Died While I Was Locked Up and the Bureau of Prisons Never Noticed
 
 *My brother told me she died over prison email.*
 
@@ -33,9 +33,9 @@ That call is the last thing I have. I got it because I happened to still be at F
 
 Here is why that was not a given.
 
-The Bureau moved to transfer me in March. I sued — *Khan v. Thompson*, filed in the District of New Jersey on March 12, 2025 — and a federal judge granted a temporary restraining order stopping it.
+The Bureau moved to transfer me in March. I sued over it, and a federal judge granted a temporary restraining order stopping the transfer.
 
-That case had nothing to do with my mother. Not one word of it. It was about a retaliatory transfer, and nobody stood in front of that judge and asked her to let a man say goodbye to his dying mother.
+That case had nothing to do with my mother. Not one word of it. It was about a retaliatory transfer, and nobody stood in that courtroom and asked a judge to let a man say goodbye to his dying mother.
 
 But the order held. So when she died in April, I was still at the prison where I had lived for nearly ten years.
 
@@ -51,7 +51,11 @@ In May they transferred me to a prison in Texas.
 
 That had nothing to do with my mother either. The transfer fight started in March, it had its own reasons, and her dying in April neither caused it nor slowed it down. It simply proceeded.
 
-That is the part worth understanding. Nobody weighs this. A man's mother can die on a Tuesday and his transfer can go through weeks later, and the two facts never meet on a single piece of paper.
+Here is what I actually want people to understand, and it is the reason I am writing this at all.
+
+The Bureau of Prisons is a machine. Not a cruel one — a machine. It does not weigh a dying parent, a sick child, a marriage coming apart, or a man who is barely holding himself together. There is no place to enter that information and nothing that stops when you do.
+
+A man's mother can die on a Tuesday and his transfer can go through weeks later, and the two facts never meet on a single piece of paper.
 
 ---
 
@@ -105,7 +109,9 @@ She was always there. She always took my call. She was in my corner, every singl
 
 We had our issues, she and I. Plenty of them. And we still built something close through a phone that cut off every fifteen minutes and a visiting room with a guard in the corner.
 
-The reason I got to tell her goodbye is that I had a lawsuit going about something else. That should not be how this works.
+The reason I got to tell her goodbye is that I had a lawsuit going about something else, and the machine happened to be stopped that month.
+
+That should not be how this works.
 
 ---
 
