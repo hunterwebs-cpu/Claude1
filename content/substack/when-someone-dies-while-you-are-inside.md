@@ -1,6 +1,6 @@
 # My Mother Died While I Was Locked Up and the Bureau of Prisons Never Noticed
 
-*My brother told me she died over prison email.*
+*My brother told me she died over CorrLinks.*
 
 By Bilal Khan
 *Intel From The Inside — A Surviving the Feds Exclusive*
