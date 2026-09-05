@@ -1,6 +1,6 @@
 # A Lawsuit About Something Else Is Why I Got to Say Goodbye to My Mother
 
-*Then the Bureau transferred me anyway.*
+*My brother told me she died over prison email.*
 
 By Bilal Khan
 *Intel From The Inside — A Surviving the Feds Exclusive*
@@ -47,9 +47,11 @@ I got that week because an unrelated lawsuit happened to be pending. That is the
 
 ---
 
-In May they transferred me anyway.
+In May they transferred me to a prison in Texas.
 
-The Bureau does not care if someone in your family is dying. They will move you across the country in the middle of it, and the paperwork will not have a line on it for your mother.
+That had nothing to do with my mother either. The transfer fight started in March, it had its own reasons, and her dying in April neither caused it nor slowed it down. It simply proceeded.
+
+That is the part worth understanding. Nobody weighs this. A man's mother can die on a Tuesday and his transfer can go through weeks later, and the two facts never meet on a single piece of paper.
 
 ---
 
