@@ -1,16 +1,16 @@
-Jeffrey Bernecky
-312 Lake Ave #7
-Rochester, NY 14608
+Jeffrey Bernecky\
+312 Lake Ave #7\
+Rochester, NY 14608\
 (585) 202-7634
 
 [_______________], 2026
 
 VIA CERTIFIED MAIL, RETURN RECEIPT REQUESTED
 
-Hon. Karen Bailey Turner, J.C.C.
-Monroe County Court
-Hall of Justice
-99 Exchange Blvd., 5th Floor, Room 545
+Hon. Karen Bailey Turner, J.C.C.\
+Monroe County Court\
+Hall of Justice\
+99 Exchange Blvd., 5th Floor, Room 545\
 Rochester, NY 14614
 
 Re: People v. Bernecky — SORA Risk-Level Classification Hearing, September 11, 2026, 11:30 a.m.
@@ -36,10 +36,10 @@ A copy of this letter and its enclosures is being sent to the Monroe County Dist
 
 Respectfully,
 
-_______________________________
-Jeffrey Bernecky
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+Jeffrey Bernecky\
 Respondent, Pro Se
 
-Enclosures: as listed above
-cc: Monroe County District Attorney's Office
+Enclosures: as listed above\
+cc: Monroe County District Attorney's Office\
 cc: Monroe County Court Clerk's Office (duplicate set enclosed under separate cover, same date)
