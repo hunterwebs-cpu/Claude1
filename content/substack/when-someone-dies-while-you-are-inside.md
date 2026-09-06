@@ -29,27 +29,21 @@ My father and my sister stayed at her side until the end. I was nine hundred mil
 
 That call is the last thing I have. I got it because I happened to still be at Fort Dix that week.
 
----
+That was not a given. The Bureau had been trying to transfer me since March, and a court order stopped it — so when she died in April I was still at the prison where I had lived for nearly ten years. Two months later they moved me to Texas anyway.
 
-Here is why that was not a given.
-
-The Bureau moved to transfer me in March. I sued over it, and a federal judge granted a temporary restraining order stopping the transfer.
-
-That case had nothing to do with my mother. Not one word of it. It was about a retaliatory transfer, and nobody stood in that courtroom and asked a judge to let a man say goodbye to his dying mother.
-
-But the order held. So when she died in April, I was still at the prison where I had lived for nearly ten years.
-
-That matters more than it sounds like it should. Whatever anyone wants to say about convicted felons, after a decade you have friends here — real ones. We have all been through hard shit, and it helps having men around who know that without being told.
-
-They carried me that week. If I had been three days into a new compound where nobody knew my name, I could have made the same phone call and I do not know how I would have handled what came after it.
-
-I got that week because an unrelated lawsuit happened to be pending. That is the entire reason. Luck, wearing a court order.
+None of that had anything to do with my mother. The transfer had its own reasons and its own calendar, and her dying never entered into it in either direction.
 
 ---
 
-In May they transferred me to a prison in Texas.
+Being here that week mattered more than it sounds like it should.
 
-That had nothing to do with my mother either. The transfer fight started in March, it had its own reasons, and her dying in April neither caused it nor slowed it down. It simply proceeded.
+Whatever anyone wants to say about convicted felons, after a decade you have friends — real ones. We have all been through hard shit, and it helps to be around men who know that without being told.
+
+They carried me. If I had been three days into a new compound where nobody knew my name, I could have made the same phone call and I do not know how I would have handled what came after it.
+
+I got that only because a piece of paper happened to be in place that month. Not because anyone decided I should have it.
+
+---
 
 Here is what I actually want people to understand, and it is the reason I am writing this at all.
 
@@ -57,9 +51,15 @@ The Bureau of Prisons is a machine. Not a cruel one — a machine. It does not w
 
 A man's mother can die on a Tuesday and his transfer can go through weeks later, and the two facts never meet on a single piece of paper.
 
+Bad things happen to everybody, free or not. What is different in here is that you get no say in when they land, and no say in where you are standing when they do.
+
+There is never a good time. There is only where the machine has you when it happens.
+
 ---
 
-The unit manager offered to let me call home. That happened only after the court order — and that same unit manager had no objection to my being transferred. He is the one who effectuated the transfer that a court later reversed.
+My unit manager offered to let me call home. That same unit manager had no objection to my being shipped across the country, and she was the one who processed it.
+
+Both of those things were true about the same person in the same month, and neither one touched the other. That is not hypocrisy. That is two unrelated tickets in the same inbox.
 
 I never asked for a furlough. I have been at a low security prison this entire time and I have never once seen one granted.
 
