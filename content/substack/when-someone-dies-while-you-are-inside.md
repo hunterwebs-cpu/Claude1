@@ -111,7 +111,7 @@ I miss her.
 
 She was always there. She always took my call. She was in my corner, every single time, for fourteen years.
 
-We had our issues, she and I. Plenty of them. And we still built something close through a phone that cut off every fifteen minutes and a visiting room with a guard in the corner.
+We had our issues, she and I. Plenty of them. And we still built something close through a monitored phone with a clock running on it, across every year of this.
 
 The reason I got to tell her goodbye is that I had a lawsuit going about something else, and the machine happened to be stopped that month.
 
