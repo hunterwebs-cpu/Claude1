@@ -25,7 +25,9 @@ But that was it.
 
 They put me on speaker phone and I said goodbye to my mother.
 
-My father and my sister stayed at her side until the end. I was nine hundred miles of policy away, on a fifteen-minute call, in a room full of men pretending not to listen.
+My father and my sister stayed at her side until the end.
+
+I was in New Jersey. She was in Rhode Island. A few hours in a car — and it made no difference at all. Distance is not what separates you in here. I could have been next door and it would have been the same phone on the same wall, with the same clock running down.
 
 That call is the last thing I have. I got it because I happened to still be at Fort Dix that week.
 
@@ -83,7 +85,7 @@ She was not the first.
 
 A close friend of mine died of cancer. Another woman — a friend of the family who was a second mother to me through some very hard teenage years — took her own life.
 
-I learned about both of them on a random phone call home. Not a scheduled one. Not a call anybody had prepared me for. I picked up the phone on an ordinary afternoon and someone told me, and then the fifteen minutes ran out.
+I learned about both of them on a random phone call home. Not a scheduled one. Not a call anybody had prepared me for. I picked up the phone on an ordinary afternoon and someone told me, and then the call ended because calls end.
 
 ---
 
