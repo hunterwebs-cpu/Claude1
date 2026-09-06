@@ -47,7 +47,9 @@ I got that only because a piece of paper happened to be in place that month. Not
 
 Here is what I actually want people to understand, and it is the reason I am writing this at all.
 
-The Bureau of Prisons is a machine. Not a cruel one — a machine. It does not weigh a dying parent, a sick child, a marriage coming apart, or a man who is barely holding himself together. There is no place to enter that information and nothing that stops when you do.
+The Bureau of Prisons is a machine. It does not weigh a dying parent, a sick child, a marriage coming apart, or a man who is barely holding himself together. There is no place to enter that information and nothing that stops when you do.
+
+Do not mistake that for neutrality. This agency is cruel in plenty of ways, and the bureaucracy is one of them. A process with no place to put your mother is not gentler than cruelty. It just spreads it out thin enough that no single person ever has to own it.
 
 A man's mother can die on a Tuesday and his transfer can go through weeks later, and the two facts never meet on a single piece of paper.
 
