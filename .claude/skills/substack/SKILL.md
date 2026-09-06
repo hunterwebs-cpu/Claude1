@@ -432,6 +432,8 @@ and is not legal advice.*
 
 **Step 1:** Save source file to `content/substack/[slug].md`
 
+**Step 0:** `pip install python-docx` if the environment is fresh. Remote containers get recycled and lose it; the generator fails with `ModuleNotFoundError: No module named 'docx'`.
+
 **Step 2:** Generate .docx
 ```bash
 python3 scripts/dispatch_wordcount.py content/substack/[slug].md   # gate: must PASS

@@ -67,7 +67,7 @@ Both of those things were true about the same person in the same month, and neit
 
 I never asked for a furlough. I have been at a low security prison this entire time and I have never once seen one granted.
 
-The rule is simple: you are allowed to ask. Getting it approved is another thing entirely. Maybe at a camp. Not here.
+The rule is simple: you are allowed to ask. Getting it approved is another thing entirely. *Maybe* at a camp. Not here.
 
 So I did not put in the request. Why go through all that just to get your hopes up for nothing?
 
@@ -95,7 +95,9 @@ I learned about both of them on a random phone call home. Not a scheduled one. N
 
 **If someone is seriously ill, tell him early and keep telling him.** My family walked me through my mother's entire illness. That is why the last call was a goodbye and not a shock.
 
-**Call the institution yourself when someone dies.** Ask for the chaplain and tell them what happened. The chaplain will come and find him and tell him in person, and someone will be standing there when he hears it.
+**Call the institution yourself when someone dies.** Every BOP institution is supposed to put you through to the chaplain, or to the on-duty lieutenant if there is no chaplain available. Tell them what happened. They will usually go find him and tell him in the moment, face to face, with somebody standing there when he hears it.
+
+That system works. It just does not start until the phone rings.
 
 WARNING: NOBODY AT THE PRISON KNOWS YOUR FAMILY MEMBER DIED UNLESS SOMEBODY ON THE OUTSIDE CALLS AND SAYS SO. IF YOU DO NOT CALL, HE FINDS OUT ALONE, STARING AT A SCREEN.
 
