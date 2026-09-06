@@ -113,6 +113,10 @@ She was always there. She always took my call. She was in my corner, every singl
 
 We had our issues, she and I. Plenty of them. And we still built something close through a phone that cuts off every fifteen minutes, across every year of this.
 
+She came to see me a few times after she got sick. The last time I saw my mother's face was December of 2023. She died sixteen months later.
+
+I did not know that December was the last one. Nobody ever knows that. Out there you just get more chances to be wrong about it.
+
 The reason I got to tell her goodbye is that I had a lawsuit going about something else, and the machine happened to be stopped that month.
 
 That should not be how this works.
