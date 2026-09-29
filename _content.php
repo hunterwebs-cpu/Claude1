@@ -11,6 +11,12 @@
    Written for PHP 7.4+ (Hostinger).
    ========================================================================== */
 
+/* mbstring is on virtually every host, but a missing extension must not take the
+   Journal down: fall back to byte-safe equivalents. */
+if (!function_exists('mb_strlen'))   { function mb_strlen($s)                 { return strlen($s); } }
+if (!function_exists('mb_substr'))   { function mb_substr($s, $a, $l = null)  { return $l === null ? substr($s, $a) : substr($s, $a, $l); } }
+if (!function_exists('mb_strrpos'))  { function mb_strrpos($h, $n)            { return strrpos($h, $n); } }
+
 if (!defined('STF_SITE')) define('STF_SITE', 'https://survivingthefeds.com');
 if (!defined('STF_CONTENT_DIR')) define('STF_CONTENT_DIR', __DIR__ . '/content/blog');
 
