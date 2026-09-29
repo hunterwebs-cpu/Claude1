@@ -46,7 +46,7 @@
         "name": "Surviving the Feds",
         "url": "https://survivingthefeds.com/",
         "slogan": "Knowledge + Strength = Freedom",
-        "description": "Real-world knowledge about the federal criminal system, from someone who served 20 years in federal prison. Free guides, books, and resources for federal defendants and their families.",
+        "description": "Real-world knowledge about the federal criminal system, from someone sentenced to 20 years in federal prison. Free guides, books, and resources for federal defendants and their families.",
         "logo": {
           "@type": "ImageObject",
           "url": "https://survivingthefeds.com/assets/img/logo-silver.png",
@@ -59,7 +59,7 @@
         "@type": "Person",
         "@id": "https://survivingthefeds.com/#bilal",
         "name": "Bilal Khan",
-        "description": "Author and federal system educator who served 20 years in federal prison. Writes on pretrial procedure, sentencing, and post-conviction relief for defendants and their families.",
+        "description": "Author and federal system educator who was sentenced to 20 years in federal prison. Writes on pretrial procedure, sentencing, and post-conviction relief for defendants and their families.",
         "knowsAbout": [
           "Federal sentencing guidelines",
           "28 U.S.C. § 2255 post-conviction relief",

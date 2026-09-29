@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Free Federal Sentencing Calculators | Surviving the Feds</title>
-  <meta name="description" content="Free federal sentencing calculators: guideline range, FSA First Step Act time credits, BOP security level, USSC sentencing statistics, and printable guideline reference sheets. Built by someone who served 20 years inside." />
+  <meta name="description" content="Free federal sentencing calculators: guideline range, FSA First Step Act time credits, BOP security level, USSC sentencing statistics, and printable guideline reference sheets. Built by someone sentenced to 20 years in federal prison." />
   <meta name="theme-color" content="#0A0B0E" />
 
   <!-- Open Graph -->
@@ -279,7 +279,7 @@
             <span class="route-num">→</span>
             <div class="route-body">
               <strong>The Books</strong>
-              <span>Pretrial to post-conviction — the complete map, written by someone who served 20 years and learned every piece of it.</span>
+              <span>Pretrial to post-conviction — the complete map, written by someone sentenced to 20 years who learned every piece of it.</span>
             </div>
             <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
