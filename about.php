@@ -3,8 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Bilal Khan — Surviving the Feds</title>
+  <title>Bilal Khan: Author of Surviving Pretrial &amp; The 2255 Motion Handbook</title>
   <meta name="description" content="Bilal Khan navigated the federal system firsthand and taught federal law to fellow inmates living it in real time. That hard-won knowledge became the Surviving the Feds books." />
+  <link rel="canonical" href="https://survivingthefeds.com/about.php" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:site_name" content="Surviving the Feds" />
+  <meta property="og:title" content="Bilal Khan, author of Surviving Pretrial and The 2255 Motion Handbook" />
+  <meta property="og:description" content="Bilal Khan navigated the federal system firsthand and taught federal law to fellow inmates. That knowledge became the Surviving the Feds books. Not a lawyer." />
+  <meta property="og:url" content="https://survivingthefeds.com/about.php" />
+  <meta property="og:image" content="https://survivingthefeds.com/assets/img/bilal-khan.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="theme-color" content="#0A0B0E" />  <?php require '_head.php'; ?>
 </head>
 <body>
@@ -104,7 +112,7 @@
             Explore the Books
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
-          <a class="btn btn--ghost" href="blog.php">Read the Journal</a>
+          <a class="btn btn--ghost" href="/journal">Read the Journal</a>
           <a class="btn btn--ghost" href="calculators.php">Free Calculators</a>
         </div>
       </div>

@@ -208,4 +208,28 @@
       btn.addEventListener('mouseleave', function () { btn.style.transform = ''; });
     });
   }
+
+  /* ---- Outbound book-click tracking (GA4) ------------------------------ */
+  /* Sends one event per click on an Amazon or Surviving Pretrial book-site
+     link, labelled by book and format, so we can see which pages and articles
+     actually send buyers to Amazon. No effect if analytics is unavailable. */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a || typeof window.gtag !== 'function') return;
+    var href = a.getAttribute('href') || '';
+    var book = null;
+    if (/amazon\.com\/.*(B0BT19Y3V8|B0BTCDLWN8)/.test(href)) book = 'surviving_pretrial';
+    else if (/amazon\.com\/.*(B0D8HQRJN8|B0D9FXJHZZ)/.test(href)) book = '2255_handbook';
+    else if (/amazon\.com\/dp\/B0D471H5Z9/.test(href)) book = 'series';
+    if (book) {
+      window.gtag('event', 'amazon_click', {
+        book: book,
+        format: /ebook|B0BTCDLWN8|B0D9FXJHZZ/.test(href) ? 'kindle' : 'paperback',
+        page_path: window.location.pathname,
+        transport_type: 'beacon'
+      });
+    } else if (/^https:\/\/sp\.survivingthefeds\.com/.test(href)) {
+      window.gtag('event', 'book_site_click', { page_path: window.location.pathname, transport_type: 'beacon' });
+    }
+  });
 })();

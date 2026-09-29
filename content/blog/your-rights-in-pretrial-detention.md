@@ -5,6 +5,8 @@ date: "2026-06-20"
 category: "Pretrial"
 author: "Bilal Khan"
 excerpt: "You have not been convicted. The government cannot punish you. Here is what they owe you inside that facility — and how to make them deliver it."
+seo_title: "Your Rights in Federal Pretrial Detention"
+description: "You have not been convicted, so what does the facility owe you? Your rights in federal pretrial detention and how to press for them."
 cover: "assets/img/cover-pretrial-rights.webp"
 ---
 

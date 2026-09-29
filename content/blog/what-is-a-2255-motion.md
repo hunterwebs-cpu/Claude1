@@ -4,6 +4,8 @@ date: "2026-05-27"
 category: "Post-Conviction"
 author: "Bilal Khan"
 excerpt: "Conviction is not always the end of the road. A § 2255 motion is one of the most powerful — and most misunderstood — tools a federal inmate has. Here's the plain-language primer."
+seo_title: "What Is a 2255 Motion? Who Can File"
+description: "A 2255 motion challenges a federal conviction or sentence. Who can file, common grounds like ineffective assistance of counsel, and why the deadlines matter."
 cover: "assets/img/cover-2255-motion.webp"
 ---
 

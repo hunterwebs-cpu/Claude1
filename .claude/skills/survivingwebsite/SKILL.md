@@ -31,8 +31,9 @@ the two books. Founder is "present but understated."
 5. Keep everything **responsive** and respect `prefers-reduced-motion`. No emojis
    as icons — use inline SVG.
 6. **SEO page titles on every article page:** format is `[Primary keyword]: [Hook] | Surviving the Feds`.
-   `post.js` and `blog.js` set this dynamically from frontmatter. Never leave the
-   static `<title>Article — Surviving the Feds</title>` as the published title.
+   `blog.php` renders it on the server from frontmatter (`seo_title`, falling back
+   to `title`); `description` (falling back to `excerpt`) feeds the meta description.
+   Titles and descriptions must be in the raw HTML, never injected by JavaScript.
    Use the `journal-article` skill for all article editing/creation work.
 
 ## Repo & deployment
@@ -63,10 +64,15 @@ the two books. Founder is "present but understated."
 - `books.html` — both books with real covers + Amazon links + a real review each.
 - `about.html` — Bilal Khan founder story + "taught law to fellow inmates" + S.B.M. testimonial.
 - `is-my-lawyer-any-good.html` — podcast + 6-point lawyer checklist (from the book).
-- `blog.html` (index) + `post.html` (single, `?slug=`); posts in `content/blog/*.md`
-  (Markdown + YAML frontmatter). `content/posts.php` auto-lists them (Hostinger has
-  PHP); `content/posts.json` is the static fallback. `blog.js` renders cards,
-  `post.js` renders an article via marked.js (CDN).
+- `blog.php` serves the Journal at `/journal` (list) and `/journal/<slug>` (article),
+  rendered on the server via `_content.php` + vendored Parsedown Extra (`_lib/`).
+  Posts live in `content/blog/*.md` (Markdown + YAML frontmatter: title, date,
+  category, author, excerpt, cover, plus optional `seo_title`, `description`,
+  `updated`). `.htaccess` maps the clean URLs; `blog.php?slug=`, `blog.php` and
+  `post.php?slug=` all 301 to them. `blog.js` is a progressive enhancement only
+  (in-page article swap). `sitemap.php` generates `/sitemap.xml` from the folder;
+  update its static-page `lastmod` dates when a page's content changes.
+  `404.php` is the real-404 page. `llms.txt` is the AI-crawler index.
 - `admin/` — Decap CMS (publish dashboard); needs GitHub OAuth setup (see DEPLOY.md).
 - `assets/css/styles.css` — global design system + tokens. `assets/css/start.css` —
   Start Here bespoke layout only.
@@ -75,7 +81,7 @@ the two books. Founder is "present but understated."
 - `assets/img/` — `logo.png` (badge), `cover-pretrial.jpg`, `cover-2255.jpg`,
   `bilal-khan.jpg` (headshot), `photos/` (courtroom, guard-tower, walkway, handcuffs,
   defendant-judge), `uploads/` (CMS).
-- `robots.txt`, `sitemap.xml`, `DEPLOY.md`, `README.md`.
+- `robots.txt`, `sitemap.php` (served as `/sitemap.xml`), `llms.txt`, `DEPLOY.md`, `README.md`.
 
 ## Design system
 **Brand colors (logo): black + orange + silver.** Tokens live in `:root` in

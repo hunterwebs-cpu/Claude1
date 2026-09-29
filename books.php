@@ -3,8 +3,119 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Books — Surviving the Feds</title>
-  <meta name="description" content="The Surviving the Feds book series by Bilal Khan. Surviving Pretrial and The 2255 Motion Handbook — available in paperback on Amazon." />
+  <title>Books for Federal Defendants: Pretrial &amp; 2255 Guides</title>
+  <meta name="description" content="Surviving Pretrial and The 2255 Motion Handbook by Bilal Khan. Plain-English guides to a federal case, from indictment to post-conviction. Not legal advice." />
+  <link rel="canonical" href="https://survivingthefeds.com/books.php" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Surviving the Feds" />
+  <meta property="og:title" content="Books for Federal Defendants: Surviving Pretrial &amp; The 2255 Motion Handbook" />
+  <meta property="og:description" content="Plain-English guides to a federal case by Bilal Khan, from arrest and indictment through sentencing and post-conviction." />
+  <meta property="og:url" content="https://survivingthefeds.com/books.php" />
+  <meta property="og:image" content="https://survivingthefeds.com/assets/img/og-home.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Book",
+      "@id": "https://survivingthefeds.com/books.php#surviving-pretrial",
+      "name": "Surviving Pretrial: The Ultimate Survival Guide to Being Busted & Prosecuted by the Feds",
+      "alternateName": "Surviving Pretrial",
+      "author": {
+        "@type": "Person",
+        "@id": "https://survivingthefeds.com/#bilal",
+        "name": "Bilal Khan",
+        "url": "https://survivingthefeds.com/about.php"
+      },
+      "description": "A plain-English guide to a federal criminal case for defendants and their families: arrest, detention hearings, working with or replacing your lawyer, plea bargains, the presentence report, and sentencing.",
+      "isbn": "9798372032569",
+      "bookFormat": "https://schema.org/Paperback",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@type": "BookSeries",
+        "name": "Surviving the Feds"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Federal criminal defendants and their families"
+      },
+      "url": "https://sp.survivingthefeds.com/",
+      "sameAs": [
+        "https://www.amazon.com/dp/B0BT19Y3V8",
+        "https://sp.survivingthefeds.com/"
+      ],
+      "workExample": [
+        {
+          "@type": "Book",
+          "bookFormat": "https://schema.org/Paperback",
+          "url": "https://www.amazon.com/dp/B0BT19Y3V8"
+        },
+        {
+          "@type": "Book",
+          "bookFormat": "https://schema.org/EBook",
+          "url": "https://www.amazon.com/dp/B0BTCDLWN8"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://survivingthefeds.com/books.php#2255-motion-handbook",
+      "name": "The 2255 Motion Handbook: A Post-Conviction Relief Guide for Federal Inmates",
+      "alternateName": "The 2255 Motion Handbook",
+      "author": {
+        "@type": "Person",
+        "@id": "https://survivingthefeds.com/#bilal",
+        "name": "Bilal Khan",
+        "url": "https://survivingthefeds.com/about.php"
+      },
+      "description": "A step-by-step guide for non-lawyers to challenging a federal conviction or sentence with a 28 U.S.C. § 2255 motion: who can file, deadlines, ineffective assistance of counsel, drafting the motion and brief, and what to expect after filing.",
+      "bookFormat": "https://schema.org/Paperback",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@type": "BookSeries",
+        "name": "Surviving the Feds"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Federal prisoners and their families"
+      },
+      "sameAs": [
+        "https://www.amazon.com/dp/B0D8HQRJN8"
+      ],
+      "workExample": [
+        {
+          "@type": "Book",
+          "bookFormat": "https://schema.org/Paperback",
+          "url": "https://www.amazon.com/dp/B0D8HQRJN8"
+        },
+        {
+          "@type": "Book",
+          "bookFormat": "https://schema.org/EBook",
+          "url": "https://www.amazon.com/dp/B0D9FXJHZZ"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://survivingthefeds.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Books",
+          "item": "https://survivingthefeds.com/books.php"
+        }
+      ]
+    }
+  ]
+}
+  </script>
   <meta name="theme-color" content="#0A0B0E" />  <?php require '_head.php'; ?>
 </head>
 <body>
@@ -114,6 +225,7 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
               </a>
               <a class="btn btn--ghost" href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted-ebook/dp/B0BTCDLWN8" target="_blank" rel="noopener">Kindle Edition</a>
+              <a class="btn btn--ghost" href="https://sp.survivingthefeds.com/">Read the first pages free</a>
             </div>
             <div class="book-quote">
               <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>

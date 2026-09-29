@@ -4,6 +4,8 @@ date: "2026-06-07"
 category: "Family Support"
 author: "Bilal Khan"
 excerpt: "Every call is recorded. Every letter may be read. Here is the complete, practical guide to communicating with a family member in federal custody — and what never to say on any of those lines."
+seo_title: "Calls, Mail & Visits in Federal Custody"
+description: "A practical guide to calls, mail, email, and visits with someone in federal custody, including why calls are recorded and what never to say on any line."
 cover: "assets/img/cover-staying-connected.webp"
 ---
 

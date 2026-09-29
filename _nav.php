@@ -2,7 +2,7 @@
 // Shared navigation partial — include after setting $stf_page.
 // Optional: $nav_cta_label, $nav_cta_href, $nav_cta_attrs for per-page CTA override.
 $_cta_label = $nav_cta_label ?? 'Start Here';
-$_cta_href  = $nav_cta_href  ?? 'start-here.php';
+$_cta_href  = $nav_cta_href  ?? '/start-here.php';
 $_cta_attrs = $nav_cta_attrs ?? '';
 function _stf_cur(string $page, string $current): string {
   return $page === $current ? ' aria-current="page"' : '';
@@ -18,15 +18,15 @@ $_p = $stf_page ?? '';
   <header class="site-header">
     <div class="container">
       <nav class="nav" aria-label="Primary">
-        <a class="brand" href="index.php" aria-label="Surviving the Feds home">
-          <img src="assets/img/logo-gold.png" alt="Surviving the Feds" width="192" height="192" />
+        <a class="brand" href="/" aria-label="Surviving the Feds home">
+          <img src="/assets/img/logo-gold.png" alt="Surviving the Feds" width="192" height="192" />
         </a>
         <div class="nav-links">
-          <a class="nav-link" href="index.php"<?= _stf_cur($_p,'home') ?>>Home</a>
-          <a class="nav-link" href="calculators.php"<?= _stf_cur($_p,'calculators') ?>>Calculators</a>
-          <a class="nav-link" href="books.php"<?= _stf_cur($_p,'books') ?>>Books</a>
-          <a class="nav-link" href="blog.php"<?= _stf_cur($_p,'blog') ?>>Journal</a>
-          <a class="nav-link" href="about.php"<?= _stf_cur($_p,'about') ?>>About</a>
+          <a class="nav-link" href="/"<?= _stf_cur($_p,'home') ?>>Home</a>
+          <a class="nav-link" href="/calculators.php"<?= _stf_cur($_p,'calculators') ?>>Calculators</a>
+          <a class="nav-link" href="/books.php"<?= _stf_cur($_p,'books') ?>>Books</a>
+          <a class="nav-link" href="/journal"<?= _stf_cur($_p,'blog') ?>>Journal</a>
+          <a class="nav-link" href="/about.php"<?= _stf_cur($_p,'about') ?>>About</a>
         </div>
         <div class="nav-cta">
           <a class="btn btn--primary" href="<?= htmlspecialchars($_cta_href) ?>"<?= $_cta_attrs ?>>
@@ -44,12 +44,12 @@ $_p = $stf_page ?? '';
   <!-- Full-screen overlay mega-menu -->
   <div class="nav-overlay" id="mega-menu">
     <nav class="overlay-menu" aria-label="Site menu">
-      <a href="index.php">Home</a>
-      <a href="start-here.php">Start Here</a>
-      <a href="calculators.php">Calculators</a>
-      <a href="books.php">Books</a>
-      <a href="blog.php">Journal</a>
-      <a href="about.php">About</a>
+      <a href="/">Home</a>
+      <a href="/start-here.php">Start Here</a>
+      <a href="/calculators.php">Calculators</a>
+      <a href="/books.php">Books</a>
+      <a href="/journal">Journal</a>
+      <a href="/about.php">About</a>
     </nav>
     <aside class="overlay-aside">
       <p class="eyebrow">Knowledge + Strength = Freedom</p>

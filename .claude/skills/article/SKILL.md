@@ -101,7 +101,7 @@ Target the primary keyword phrase. Example: `first-step-act-time-credits`.
 
 Every article follows this structure:
 
-1. **Frontmatter** (title, slug, date, category, author, excerpt)
+1. **Frontmatter** (title, slug, date, category, author, excerpt, seo_title, description)
 2. **H1 title** (display title — can be longer/more dramatic than the SEO title)
 3. `**By Bilal Khan**` byline
 4. Horizontal rule (`---`)
@@ -162,7 +162,7 @@ Before committing any article:
 - [ ] Endnotes numbered sequentially; no gap from removed sections
 - [ ] [VERIFY] tags converted to HTML comments in endnotes, removed from body
 - [ ] Sign-off and About the Author present
-- [ ] Frontmatter complete (title, slug, date, category, author, excerpt)
+- [ ] Frontmatter complete (title, slug, date, category, author, excerpt, seo_title ~40-45 chars, description 150-160 chars)
 - [ ] Voice check: read opening and one middle section aloud — does it sound like
       Bilal? Short declarative sentences? Personal authority? No hedging?
 - [ ] SEO page title format applied (for when `<title>` is generated dynamically)

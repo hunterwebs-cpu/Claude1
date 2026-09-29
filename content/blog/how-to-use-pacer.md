@@ -5,6 +5,8 @@ date: "2026-06-20"
 category: "Defense Strategy"
 author: "Bilal Khan"
 excerpt: "PACER contains every filing in your federal case. If you're inside, you can't touch it — but your family can. Here is exactly what to do with it."
+seo_title: "How to Use PACER to Follow a Federal Case"
+description: "PACER holds every filing in a federal case. A defendant inside can't use it, but family can. Here is how to follow the case and keep the costs down."
 cover: "assets/img/cover-pacer.webp"
 ---
 

@@ -4,6 +4,8 @@ date: "2026-06-16"
 category: "Pretrial"
 author: "Bilal Khan"
 excerpt: "More than 97 percent of federal convictions come from guilty pleas, not trials. Understanding what you're really agreeing to — before you sign — can be the difference between a fair outcome and a catastrophic one."
+seo_title: "Should You Take a Federal Plea Deal?"
+description: "What a federal plea deal is, what it costs, and when to take one. Over 97 percent of federal convictions come from guilty pleas, so know what you sign."
 cover: "assets/img/cover-plea-deal.webp"
 ---
 

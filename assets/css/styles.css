@@ -790,6 +790,7 @@ body.journal-page {
   transition: background .18s, border-color .18s;
 }
 
+a.journal-item { text-decoration: none; box-sizing: border-box; }
 .journal-item:hover { background: var(--surface-2); }
 
 .journal-item--active {

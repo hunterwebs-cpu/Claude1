@@ -3,8 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Is My Lawyer Any Good? — Surviving the Feds</title>
+  <title>Is My Federal Lawyer Any Good? A Checklist</title>
   <meta name="description" content="How to tell whether your federal defense attorney is actually prepared to fight — a checklist from Surviving Pretrial, plus the Set for Sentencing podcast episode." />
+  <link rel="canonical" href="https://survivingthefeds.com/is-my-lawyer-any-good.php" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Surviving the Feds" />
+  <meta property="og:title" content="Is My Federal Lawyer Any Good? A Checklist" />
+  <meta property="og:description" content="How to tell whether your federal defense attorney is prepared to fight, from Surviving Pretrial." />
+  <meta property="og:url" content="https://survivingthefeds.com/is-my-lawyer-any-good.php" />
+  <meta property="og:image" content="https://survivingthefeds.com/assets/img/og-home.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="theme-color" content="#0A0B0E" />  <?php require '_head.php'; ?>
 </head>
 <body>

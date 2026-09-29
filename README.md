@@ -10,13 +10,15 @@ blog. Dark, bold, defiant theme. No build step required.
 ```
 index.html          Home (mission, books teaser, founder, journal teaser)
 books.html          The Books — Surviving Pretrial + The 2255 Motion Handbook
-blog.html           The Journal — article index
-post.html           Single-article renderer (?slug=...)
+blog.php            The Journal: /journal (index) and /journal/<slug> (article), server-rendered
+post.php            Legacy URL: 301s to /journal/<slug>
+_content.php        Journal helpers (frontmatter, Markdown -> HTML, SEO helpers)
+sitemap.php         Generates /sitemap.xml from content/blog
 admin/              Decap CMS publishing dashboard (/admin)
 content/blog/*.md   Blog posts (Markdown + frontmatter)
-content/posts.php   Auto-lists posts (PHP); falls back to posts.json
+content/posts.php   Legacy JSON post index (no longer used by the site)
 assets/css/         styles.css — all theming via CSS variables
-assets/js/          main.js (UI), blog.js (list), post.js (article)
+assets/js/          main.js (UI + outbound book-click tracking), blog.js (in-page article swap)
 assets/img/         logo.svg, emblem.svg (swap with official artwork)
 ```
 

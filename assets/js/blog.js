@@ -1,156 +1,23 @@
 /* ============================================================================
-   SURVIVING THE FEDS — Blog engine (client-side, buildless)
-   Reads /content/posts.json (list of slugs), loads each Markdown file,
-   parses its YAML-ish frontmatter, and renders content.
+   SURVIVING THE FEDS — Journal enhancements (progressive, not required)
 
-   Two modes:
-     JOURNAL  — split-pane command center (blog.html), detected by #journal-reader
-     GRID     — card grid for homepage (#home-posts) and any other grid containers
+   Articles and the article list are rendered on the server (blog.php), so this
+   file is only an enhancement: on the split-pane Journal it lets a click swap
+   the article into the reader without a full page load. If anything here fails
+   the click falls back to a normal navigation to /journal/<slug>, which is a
+   complete page on its own.
    ========================================================================== */
 (function () {
   'use strict';
 
-  var CONTENT_BASE = 'content/blog/';
-  var AUTO_INDEX   = 'content/posts.php';
-  var MANIFEST     = 'content/posts.json';
+  var reader = document.getElementById('journal-reader');
+  if (!reader) return;
 
-  /* Minimal frontmatter parser */
-  function parseFrontmatter(raw) {
-    var meta = {}, body = raw;
-    var m = raw.match(/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/);
-    if (m) {
-      body = m[2];
-      m[1].split('\n').forEach(function (line) {
-        var idx = line.indexOf(':');
-        if (idx === -1) return;
-        var key = line.slice(0, idx).trim();
-        var val = line.slice(idx + 1).trim().replace(/^["']|["']$/g, '');
-        if (key) meta[key] = val;
-      });
-    }
-    meta.body = body;
-    return meta;
-  }
+  var ARTICLE_PATH = /^\/journal\/([a-z0-9]+(?:-[a-z0-9]+)*)\/?$/;
 
-  function fmtDate(iso) {
-    var d = new Date(iso + 'T00:00:00');
-    if (isNaN(d)) return iso || '';
-    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-  }
-
-  function esc(s) {
-    return String(s || '').replace(/[&<>"]/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
-    });
-  }
-
-  /* Strip print/layout markers and unresolved editor notes */
-  function stripMarkers(md) {
-    return md
-      .replace(/^\[LOGO:[^\]]*\]\s*$/gm, '')
-      .replace(/^\[ORANGE RULE LINE[^\]]*\]\s*$/gm, '')
-      .replace(/^\[HEADSHOT:[^\]]*\]\s*$/gm, '')
-      .replace(/^\[SIGNATURE IMAGE[^\]]*\]\s*$/gm, '')
-      .replace(/^\[TWO-BOOK FOOTER[^\]]*\]\s*$/gm, '')
-      .replace(/^\[PRINT:[^\]]*\]\s*$/gm, '')
-      .replace(/^>?\s*\[VERIFY:[^\]]*\]\s*$/gm, '')
-      .replace(/^\[\^\d+\]:\s*\[VERIFY[^\]]*\]\s*$/gm, '')
-      .replace(/\[VERIFY:[^\]]*\]/g, '')
-      .replace(/\[VERIFY\]/g, '')
-      .replace(/\[LOGO:[^\]]*\]/g, '')
-      .replace(/\[ORANGE RULE LINE[^\]]*\]/g, '')
-      .replace(/\[HEADSHOT:[^\]]*\]/g, '')
-      .replace(/\[SIGNATURE IMAGE[^\]]*\]/g, '')
-      .replace(/\[TWO-BOOK FOOTER\]/g, '')
-      .replace(/^\[[^\]]*\.(png|jpg|jpeg|webp|gif)\]\s*$/gim, '')
-      .replace(/\n{4,}/g, '\n\n\n');
-  }
-
-  /* Legacy path: fetch every .md in full to read its frontmatter.
-     Only used when posts.php is unavailable and we fall back to posts.json. */
-  function loadPostsLegacy(slugs) {
-    return Promise.all(slugs.map(function (slug) {
-      return fetch(CONTENT_BASE + slug + '.md')
-        .then(function (r) { return r.ok ? r.text() : ''; })
-        .then(function (raw) {
-          if (!raw) return null;
-          var meta = parseFrontmatter(raw);
-          meta.slug = slug;
-          return meta;
-        })
-        .catch(function () { return null; });
-    })).then(function (posts) {
-      return posts
-        .filter(Boolean)
-        .sort(function (a, b) { return (b.date || '').localeCompare(a.date || ''); });
-    });
-  }
-
-  /* Load all posts. posts.php now returns frontmatter directly, so the common
-     case is ONE request (~3.7KB) instead of one per article (~112KB). */
-  function loadPosts() {
-    return fetch(AUTO_INDEX)
-      .then(function (r) {
-        if (!r.ok) throw new Error('no php');
-        return r.json();
-      })
-      .then(function (posts) {
-        if (!Array.isArray(posts) || !posts.length) throw new Error('empty');
-        /* Legacy shape: an array of slug strings rather than objects */
-        if (typeof posts[0] === 'string') return loadPostsLegacy(posts);
-        return posts;
-      })
-      .catch(function () {
-        return fetch(MANIFEST)
-          .then(function (r) {
-            if (!r.ok) throw new Error('manifest');
-            return r.json();
-          })
-          .then(loadPostsLegacy);
-      });
-  }
-
-  /* ---- GRID MODE: card rendering (homepage) ------------------------------- */
-
-  function cardHTML(post) {
-    var thumb = post.cover
-      ? '<img src="' + esc(post.cover) + '" alt="" loading="lazy" />'
-      : '<span class="ph-mark" aria-hidden="true">§</span>';
-    return '' +
-      '<a class="post-card" href="post.php?slug=' + encodeURIComponent(post.slug) + '">' +
-        '<div class="post-thumb">' + thumb + '</div>' +
-        '<div class="post-body">' +
-          '<span class="post-cat">' + esc(post.category || 'Article') + '</span>' +
-          '<h3>' + esc(post.title) + '</h3>' +
-          '<p>' + esc(post.excerpt || '') + '</p>' +
-          '<span class="post-date">' + fmtDate(post.date) + '</span>' +
-        '</div>' +
-      '</a>';
-  }
-
-  function render(targetId, limit) {
-    var el = document.getElementById(targetId);
-    if (!el) return;
-    loadPosts().then(function (posts) {
-      var list = limit ? posts.slice(0, limit) : posts;
-      if (!list.length) {
-        el.innerHTML = '<p style="color:var(--muted)">No articles yet — check back soon.</p>';
-        return;
-      }
-      el.innerHTML = list.map(cardHTML).join('');
-    }).catch(function () {
-      el.innerHTML = '<p style="color:var(--muted)">Articles are loading from the server. If you are viewing this file locally, run it on a web host to see posts.</p>';
-    });
-  }
-
-  /* ---- JOURNAL MODE: split-pane command center ---------------------------- */
-
-  function journalItemHTML(post) {
-    return '<button class="journal-item" data-slug="' + esc(post.slug) + '" type="button">' +
-      '<span class="journal-item-cat">' + esc(post.category || 'Article') + '</span>' +
-      '<span class="journal-item-title">' + esc(post.title) + '</span>' +
-      '<span class="journal-item-date">' + fmtDate(post.date) + '</span>' +
-      '</button>';
+  function slugFromPath(path) {
+    var m = (path || window.location.pathname).match(ARTICLE_PATH);
+    return m ? m[1] : null;
   }
 
   /* Simple string hash — seeds image layout variation per article */
@@ -187,7 +54,6 @@
     var welcome = document.getElementById('journal-welcome');
     var article = document.getElementById('journal-article');
     if (showArticle) {
-      /* Fade article in: make visible but transparent, then remove fade-enter */
       if (article) {
         article.hidden = false;
         article.classList.add('fade-enter');
@@ -197,10 +63,8 @@
           });
         });
       }
-      /* Fade welcome out via class */
       if (welcome) welcome.classList.add('is-hidden');
     } else {
-      /* Restore welcome, hide article */
       if (welcome) welcome.classList.remove('is-hidden');
       if (article) {
         article.hidden = true;
@@ -209,126 +73,94 @@
     }
   }
 
-  function loadArticleInReader(slug, skipHistory) {
-    if (!skipHistory) {
-      history.pushState({ slug: slug }, '', '?slug=' + encodeURIComponent(slug));
-    }
-
-    /* Mark active item in sidebar */
-    document.querySelectorAll('.journal-item').forEach(function (btn) {
-      btn.classList.toggle('journal-item--active', btn.dataset.slug === slug);
+  function markActive(slug) {
+    document.querySelectorAll('.journal-item').forEach(function (a) {
+      var on = a.getAttribute('data-slug') === slug;
+      a.classList.toggle('journal-item--active', on);
+      if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
     });
+  }
 
-    /* Show article pane with loading message */
-    setReaderState(true);
-    var bodyEl = document.getElementById('jr-body');
-    if (bodyEl) bodyEl.innerHTML = '<p style="text-align:center;color:var(--muted);padding:56px 0;">Loading…</p>';
-
-    /* Scroll reader back to top */
-    var reader = document.getElementById('journal-reader');
-    if (reader) reader.scrollTop = 0;
-
-    /* Mobile: enter reading mode */
-    document.body.classList.add('journal-reading');
-
-    /* Update document title immediately (will be overwritten on load) */
-    document.title = 'Loading… | Surviving the Feds';
-
-    fetch(CONTENT_BASE + slug + '.md')
-      .then(function (r) { if (!r.ok) throw new Error('404'); return r.text(); })
-      .then(function (raw) {
-        var meta = parseFrontmatter(raw);
-
-        /* SEO: title and description */
-        document.title = (meta.title || 'Article') + ' | Surviving the Feds';
-        var desc = document.querySelector('meta[name="description"]');
-        if (desc && meta.excerpt) desc.setAttribute('content', meta.excerpt);
-
-        /* Populate article header */
-        var catEl   = document.getElementById('jr-cat');
-        var titleEl = document.getElementById('jr-title');
-        var metaEl  = document.getElementById('jr-meta');
-        if (catEl)   catEl.textContent   = meta.category || 'Article';
-        if (titleEl) titleEl.textContent = meta.title || '';
-        if (metaEl)  metaEl.textContent  = [meta.author, fmtDate(meta.date)].filter(Boolean).join('  ·  ');
-
-        /* Render body */
-        var bodyText = stripMarkers(meta.body);
-        if (bodyEl) {
-          bodyEl.innerHTML = window.marked
-            ? window.marked.parse(bodyText)
-            : '<pre style="white-space:pre-wrap">' + esc(bodyText) + '</pre>';
-          enhanceImages(bodyEl, slug);
-        }
+  /* Swap an article into the reader by fetching its server-rendered page. */
+  function loadArticleInReader(slug, skipHistory) {
+    var url = '/journal/' + slug;
+    return fetch(url, { headers: { 'X-Requested-With': 'fetch' }, credentials: 'same-origin' })
+      .then(function (r) {
+        if (!r.ok) throw new Error('status ' + r.status);
+        return r.text();
       })
-      .catch(function () {
-        if (bodyEl) bodyEl.innerHTML = '<p style="text-align:center;color:var(--muted);padding:56px 0;">Could not load that article. Try refreshing.</p>';
-        document.title = 'The Journal | Surviving the Feds';
+      .then(function (html) {
+        var doc = new DOMParser().parseFromString(html, 'text/html');
+        var body = doc.getElementById('jr-body');
+        var title = doc.getElementById('jr-title');
+        if (!body || !title) throw new Error('unexpected page');
+
+        ['jr-cat', 'jr-title', 'jr-meta'].forEach(function (id) {
+          var from = doc.getElementById(id), to = document.getElementById(id);
+          if (from && to) to.textContent = from.textContent;
+        });
+        var bodyEl = document.getElementById('jr-body');
+        bodyEl.innerHTML = body.innerHTML;
+        enhanceImages(bodyEl, slug);
+
+        /* Keep title, description and canonical honest for the new URL */
+        document.title = doc.title;
+        var d = document.querySelector('meta[name="description"]');
+        var nd = doc.querySelector('meta[name="description"]');
+        if (d && nd) d.setAttribute('content', nd.getAttribute('content'));
+        var c = document.querySelector('link[rel="canonical"]');
+        var nc = doc.querySelector('link[rel="canonical"]');
+        if (c && nc) c.setAttribute('href', nc.getAttribute('href'));
+
+        if (!skipHistory) history.pushState({ slug: slug }, '', url);
+        markActive(slug);
+        setReaderState(true);
+        document.body.classList.add('journal-reading');
+        reader.scrollTop = 0;
       });
   }
 
   function showWelcome() {
     setReaderState(false);
     document.body.classList.remove('journal-reading');
-    document.title = 'The Journal | Surviving the Feds';
-    document.querySelectorAll('.journal-item').forEach(function (btn) {
-      btn.classList.remove('journal-item--active');
+    document.title = 'Federal Case Guides: Plain-English Answers | Surviving the Feds';
+    markActive(null);
+  }
+
+  /* Article images on a directly-loaded page */
+  var initialBody = document.getElementById('jr-body');
+  var initialSlug = slugFromPath();
+  if (initialBody && initialSlug) enhanceImages(initialBody, initialSlug);
+
+  /* Intercept in-page article links; anything that fails just navigates. */
+  document.addEventListener('click', function (e) {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    var a = e.target.closest && e.target.closest('a[href^="/journal/"]');
+    if (!a) return;
+    var slug = slugFromPath(a.getAttribute('href'));
+    if (!slug) return;
+    e.preventDefault();
+    loadArticleInReader(slug).catch(function () {
+      window.location.href = a.getAttribute('href');
+    });
+  });
+
+  /* Mobile: back to the article list */
+  var backBtn = document.getElementById('journal-back');
+  if (backBtn) {
+    backBtn.addEventListener('click', function () {
+      history.pushState(null, '', '/journal');
+      showWelcome();
     });
   }
 
-  function renderJournal() {
-    var listEl = document.getElementById('post-list');
-    if (!listEl) return;
-
-    loadPosts().then(function (posts) {
-      if (!posts.length) {
-        listEl.innerHTML = '<p style="color:var(--muted);padding:16px 24px;font-size:.9rem;">No articles yet — check back soon.</p>';
-        return;
-      }
-      listEl.innerHTML = posts.map(journalItemHTML).join('');
-
-      /* Wire clicks */
-      listEl.querySelectorAll('.journal-item').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          loadArticleInReader(btn.dataset.slug);
-        });
-      });
-
-      /* Auto-load from URL slug */
-      var slug = new URLSearchParams(window.location.search).get('slug');
-      if (slug) {
-        loadArticleInReader(slug, true);
-      }
-    }).catch(function () {
-      listEl.innerHTML = '<p style="color:var(--muted);padding:16px 24px;font-size:.9rem;">Articles loading from server.</p>';
-    });
-
-    /* Back button (mobile) */
-    var backBtn = document.getElementById('journal-back');
-    if (backBtn) {
-      backBtn.addEventListener('click', function () {
-        history.pushState(null, '', window.location.pathname);
-        showWelcome();
-      });
+  /* Browser back / forward */
+  window.addEventListener('popstate', function () {
+    var slug = slugFromPath();
+    if (slug) {
+      loadArticleInReader(slug, true).catch(function () { window.location.reload(); });
+    } else {
+      showWelcome();
     }
-
-    /* Browser back/forward */
-    window.addEventListener('popstate', function (e) {
-      var slug = e.state && e.state.slug;
-      if (slug) {
-        loadArticleInReader(slug, true);
-      } else {
-        showWelcome();
-      }
-    });
-  }
-
-  /* ---- Auto-wire ---------------------------------------------------------- */
-  if (document.getElementById('journal-reader')) {
-    renderJournal();
-  } else {
-    render('post-list', 0);
-    render('home-posts', 4);
-  }
-
+  });
 })();

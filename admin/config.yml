@@ -43,5 +43,8 @@ collections:
       - { label: "Category", name: "category", widget: "select", options: ["Pretrial", "Defense Strategy", "Post-Conviction", "Sentencing", "Family Guidance", "General"], default: "General" }
       - { label: "Author", name: "author", widget: "string", default: "Bilal Khan" }
       - { label: "Excerpt", name: "excerpt", widget: "text", hint: "One or two sentences shown on the article card and in previews." }
+      - { label: "Search title (SEO)", name: "seo_title", widget: "string", required: false, hint: "Plain-language, keyword-first title for Google, about 40-45 characters. Example: 'Should You Take a Federal Plea Deal?'. ' | Surviving the Feds' is added automatically." }
+      - { label: "Search description (SEO)", name: "description", widget: "text", required: false, hint: "150-160 characters. Say what the reader will learn in plain words. Falls back to the excerpt if empty." }
+      - { label: "Last updated", name: "updated", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", required: false, hint: "Set when you materially revise an article (law changes, new figures). Shown to search engines as the modified date." }
       - { label: "Cover Image", name: "cover", widget: "image", required: false, hint: "Optional. If left blank, a styled placeholder is shown." }
       - { label: "Body", name: "body", widget: "markdown" }

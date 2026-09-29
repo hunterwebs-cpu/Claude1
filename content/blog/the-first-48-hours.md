@@ -4,6 +4,8 @@ date: "2026-06-10"
 category: "Pretrial"
 author: "Bilal Khan"
 excerpt: "The decisions made in the first two days of a federal case can echo for years. Here is what to do — and what to never do — when the feds come."
+seo_title: "First 48 Hours After a Federal Arrest"
+description: "What to do, and what never to do, in the first 48 hours after a federal arrest. A plain-English guide for the person charged and the family trying to help."
 cover: "assets/img/cover-first-48-hours.webp"
 ---
 

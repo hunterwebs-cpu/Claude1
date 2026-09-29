@@ -4,6 +4,8 @@ date: "2026-06-13"
 category: "Sentencing"
 author: "Bilal Khan"
 excerpt: "The sentence is often decided long before anyone walks into a courtroom. Here's how the federal sentencing guidelines work, what the Presentence Report actually does, and what families need to understand before that day comes."
+seo_title: "How Federal Sentencing Works: The PSR"
+description: "How federal sentences are decided: the sentencing guidelines, what the Presentence Report (PSR) does, and what families need to know before sentencing."
 cover: "assets/img/cover-sentencing-numbers.webp"
 ---
 

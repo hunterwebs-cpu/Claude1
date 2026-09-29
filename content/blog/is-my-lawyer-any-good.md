@@ -4,6 +4,8 @@ date: "2026-06-04"
 category: "Defense Strategy"
 author: "Bilal Khan"
 excerpt: "Most families hire a federal defense attorney while terrified and in the dark. Here are seven questions that separate a fighter from an expensive disappointment."
+seo_title: "Is Your Federal Lawyer Any Good? 7 Questions"
+description: "Seven questions that show whether your federal defense attorney is fighting for you or just going through the motions. For defendants and their families."
 cover: "assets/img/cover-lawyer-quality.webp"
 ---
 

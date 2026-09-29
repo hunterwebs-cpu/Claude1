@@ -177,8 +177,7 @@ the active one; overlay idx 01–05).
   (split header + 3 cards) → testimonial quote band → mission CTA.
 - **`is-my-lawyer-any-good.html`**: page hero → intro `.lead.deck` + book callout →
   podcast card → 6-point checklist → CTA. (Checklist drawn from the book.)
-- **`blog.html`**: hero head → `#post-list` (rendered) → CTA.
-- **`post.html`**: renders `?slug=` article into `.prose`; print/PDF toolbar.
+- **`blog.php`** (`/journal`, `/journal/<slug>`): server-rendered split-pane reader; article list and article body are in the initial HTML; print/PDF toolbar.
 - **`start-here.html`**: CRISIS SUB-BRAND — separate system (see top note).
 
 ---
@@ -187,10 +186,11 @@ the active one; overlay idx 01–05).
 
 - Posts/guides = Markdown files in `content/blog/<slug>.md` with YAML frontmatter:
   `title`, `date` (YYYY-MM-DD), `category`, `author`, `excerpt`, optional `cover`,
-  then the body.
-- Listing source: `content/posts.php` auto-lists the folder (Hostinger has PHP);
-  `content/posts.json` is the static fallback array of slugs. `blog.js` builds cards;
-  `post.js` renders a single article with marked.js (CDN).
+  optional `seo_title`, `description`, `updated`, then the body.
+- Rendering: `_content.php` lists and parses the folder and renders Markdown on the
+  server (vendored Parsedown Extra in `_lib/`, footnotes supported), so the title,
+  meta, schema and text are in the initial HTML. `blog.js` only adds an in-page
+  article swap. `content/posts.php` / `posts.json` are legacy and unused.
 - Decap CMS at `/admin` (GitHub backend; OAuth setup in `DEPLOY.md`).
 - **Planned:** 8 free in-depth guides + a PACER guide, each its own page/article and
   cross-linked from Start Here. All free.

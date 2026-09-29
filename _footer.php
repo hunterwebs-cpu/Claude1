@@ -5,33 +5,34 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="footer-logo">
-            <img src="assets/img/logo-silver.png" alt="Surviving the Feds" width="228" height="228" />
+            <img src="/assets/img/logo-silver.png" alt="Surviving the Feds" width="228" height="228" />
           </div>
           <p class="footer-catchphrase">Knowledge + Strength = Freedom</p>
           <p>Real answers about the federal system, from someone who lived it.</p>
         </div>
         <div class="footer-col">
           <h4>Explore</h4>
-          <a href="index.php">Home</a>
-          <a href="start-here.php">Start Here</a>
-          <a href="calculators.php">Calculators</a>
-          <a href="about.php">About</a>
-          <a href="books.php">Books</a>
-          <a href="blog.php">The Journal</a>
-          <a href="is-my-lawyer-any-good.php">Is My Lawyer Any Good?</a>
-          <a href="glossary.php">Federal Terms Glossary</a>
+          <a href="/">Home</a>
+          <a href="/start-here.php">Start Here</a>
+          <a href="/calculators.php">Calculators</a>
+          <a href="/about.php">About</a>
+          <a href="/books.php">Books</a>
+          <a href="/journal">The Journal</a>
+          <a href="/is-my-lawyer-any-good.php">Is My Lawyer Any Good?</a>
+          <a href="/glossary.php">Federal Terms Glossary</a>
         </div>
         <div class="footer-col">
           <h4>Calculators</h4>
-          <a href="calculators.php#tool-guideline">Guideline Range</a>
-          <a href="calculators.php#tool-stats">Sentencing Statistics</a>
-          <a href="calculators.php#tool-fsa">FSA Time Credits</a>
-          <a href="calculators.php#tool-bop">BOP Security Level</a>
-          <a href="calculators.php#tool-refsheets">Reference Sheets</a>
+          <a href="/calculators.php#tool-guideline">Guideline Range</a>
+          <a href="/calculators.php#tool-stats">Sentencing Statistics</a>
+          <a href="/calculators.php#tool-fsa">FSA Time Credits</a>
+          <a href="/calculators.php#tool-bop">BOP Security Level</a>
+          <a href="/calculators.php#tool-refsheets">Reference Sheets</a>
         </div>
         <div class="footer-col">
           <h4>Books</h4>
-          <a href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8" target="_blank" rel="noopener">Surviving Pretrial</a>
+          <a href="https://sp.survivingthefeds.com/">Surviving Pretrial (book site)</a>
+          <a href="https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8" target="_blank" rel="noopener">Surviving Pretrial on Amazon</a>
           <a href="https://www.amazon.com/2255-Motion-Handbook-Post-Conviction-Surviving/dp/B0D8HQRJN8" target="_blank" rel="noopener">The 2255 Motion Handbook</a>
           <a href="https://www.amazon.com/dp/B0D471H5Z9" target="_blank" rel="noopener">The Series on Amazon</a>
         </div>
@@ -43,4 +44,4 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js?v=<?= filemtime(__DIR__ . '/assets/js/main.js') ?>" defer></script>
+  <script src="/assets/js/main.js?v=<?= filemtime(__DIR__ . '/assets/js/main.js') ?>" defer></script>

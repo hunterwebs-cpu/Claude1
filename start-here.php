@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Start Here — Surviving the Feds</title>
-  <meta name="description" content="You landed in the right place. This is where people in the first hours, days, and weeks of a federal criminal case get real answers — free, no judgment, no money required." />
+  <title>Just Arrested or Indicted? Start Here</title>
+  <meta name="description" content="What to do in the first hours, days, and weeks of a federal case, for the person charged and the family. Free, plain-English, no judgment." />
   <meta name="theme-color" content="#0A0B0E" />
   <meta property="og:title" content="Start Here — Surviving the Feds" />
   <meta property="og:description" content="Pick your situation. Get the answers nobody else is giving you — free, no money, no judgment." />
@@ -279,7 +279,7 @@
 
       <div class="cr-resource-group">
         <div class="cr-resource-group-label">From This Site</div>
-        <a class="cr-resource-link" href="blog.php">
+        <a class="cr-resource-link" href="/journal">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/></svg>
           Free Articles
         </a>
@@ -451,7 +451,7 @@
           <h3>Surviving Pretrial. The full field guide.</h3>
           <p>Written by someone who went through every stage of a federal case. Covers arrest through sentencing in plain language. Many families read the first chapter the night of the arrest.</p>
           <a class="cr-btn" href="books.php">See the Book <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <a class="cr-btn cr-btn--ghost" href="blog.php">Free Articles</a>
+          <a class="cr-btn cr-btn--ghost" href="/journal">Free Articles</a>
         </div>
       </div>
     </div>
@@ -512,7 +512,7 @@
           <h3>Surviving Pretrial. Written for both of you.</h3>
           <p>Covers the full pretrial process — from the night of arrest through sentencing. Written in language you don't need a law degree to understand.</p>
           <a class="cr-btn" href="books.php">See the Book <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <a class="cr-btn cr-btn--ghost" href="blog.php">Free Articles</a>
+          <a class="cr-btn cr-btn--ghost" href="/journal">Free Articles</a>
         </div>
       </div>
     </div>
@@ -576,7 +576,7 @@
           <h3>Surviving Pretrial. Before and after arrest.</h3>
           <p>The book covers everything from the investigation stage through sentencing — including how to choose an attorney, what to expect at every hearing.</p>
           <a class="cr-btn" href="books.php">See the Book <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <a class="cr-btn cr-btn--ghost" href="blog.php">Free Articles</a>
+          <a class="cr-btn cr-btn--ghost" href="/journal">Free Articles</a>
         </div>
       </div>
     </div>
@@ -657,7 +657,7 @@
           <h3>Surviving Pretrial. The full picture.</h3>
           <p>Covers the PSR, the plea agreement, the sentencing hearing, attorney evaluation, and everything in between — written from the inside.</p>
           <a class="cr-btn" href="books.php">See the Book <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <a class="cr-btn cr-btn--ghost" href="blog.php">Free Articles</a>
+          <a class="cr-btn cr-btn--ghost" href="/journal">Free Articles</a>
         </div>
       </div>
     </div>
@@ -726,7 +726,7 @@
           <h3>Surviving Pretrial. Know the system that's holding them.</h3>
           <p>Understanding how BOP facilities work — what's required, what isn't, and how to navigate the system — is in the book.</p>
           <a class="cr-btn" href="books.php">See the Book <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <a class="cr-btn cr-btn--ghost" href="blog.php">Free Articles</a>
+          <a class="cr-btn cr-btn--ghost" href="/journal">Free Articles</a>
         </div>
       </div>
     </div>
@@ -1871,7 +1871,7 @@
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/></svg>
     LISA Newsletter for Inmates
   </a>
-  <a class="cr-resource-link" href="blog.php">
+  <a class="cr-resource-link" href="/journal">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/></svg>
     Free Articles
   </a>

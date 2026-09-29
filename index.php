@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<?php require __DIR__ . '/_content.php'; $latest_posts = array_slice(stf_posts(), 0, 3); ?><!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Federal Sentencing Calculators &amp; Survival Guides — Surviving the Feds</title>
-  <meta name="description" content="When the federal government comes for someone you love, knowledge is the first line of defense. Free guides, books, and real answers from someone who served 20 years in federal prison." />
+  <title>Federal Case Help for Defendants &amp; Families</title>
+  <meta name="description" content="Plain-English guides, free sentencing calculators, and books on federal cases — from indictment to sentencing to 2255 — written by someone who lived it." />
   <meta name="theme-color" content="#0A0B0E" />
 
   <link rel="canonical" href="https://survivingthefeds.com/" />
@@ -109,7 +109,7 @@
               Start Here
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="btn btn--ghost" href="blog.php">Read the Journal</a>
+            <a class="btn btn--ghost" href="/journal">Read the Journal</a>
           </div>
 
           <p class="hero-statement-sub">No judgment. No agenda. Just the truth.</p>
@@ -320,10 +320,26 @@
           <p class="lead">Free guides and articles on federal procedure, defense strategy, and surviving the process — written in plain language. Every article is printable to mail inside.</p>
         </div>
         <div class="post-grid" id="home-posts" data-reveal data-delay="1">
-          <!-- Populated by blog.js (latest 3). -->
+<?php foreach ($latest_posts as $p): ?>
+          <a class="post-card" href="<?= stf_h(stf_url($p['slug'])) ?>">
+            <div class="post-thumb">
+<?php if (!empty($p['cover'])): ?>
+              <img src="/<?= stf_h(ltrim($p['cover'], '/')) ?>" alt="" loading="lazy" />
+<?php else: ?>
+              <span class="ph-mark" aria-hidden="true">§</span>
+<?php endif; ?>
+            </div>
+            <div class="post-body">
+              <span class="post-cat"><?= stf_h($p['category'] ?? 'Article') ?></span>
+              <h3><?= stf_h($p['title'] ?? $p['slug']) ?></h3>
+              <p><?= stf_h($p['excerpt'] ?? '') ?></p>
+              <span class="post-date"><?= stf_h(stf_fmt_date($p['date'] ?? '')) ?></span>
+            </div>
+          </a>
+<?php endforeach; ?>
         </div>
         <div class="center" style="margin-top:48px;" data-reveal>
-          <a class="btn btn--ghost" href="blog.php">Read the Journal</a>
+          <a class="btn btn--ghost" href="/journal">Read the Journal</a>
         </div>
       </div>
     </section>
@@ -399,6 +415,5 @@
 
 <?php require '_footer.php'; ?>
 
-  <script src="assets/js/blog.js?v=<?= filemtime(__DIR__ . '/assets/js/blog.js') ?>" defer></script>
 </body>
 </html>
