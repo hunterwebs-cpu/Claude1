@@ -117,6 +117,10 @@ function stf_render_markdown(string $md): string {
     $html = $parser->text(stf_strip_markers($md));
     error_reporting($old);
 
+    // Editorial notes live in HTML comments (VERIFY, SRC, BILAL, PRINT markers).
+    // They must never reach a reader or a crawler, so strip every comment.
+    $html = preg_replace('/<!--.*?-->/s', '', $html);
+
     // Articles are served from /journal/<slug>, so relative asset and page links
     // written for the site root must become root-relative.
     $html = preg_replace('/(src|href)="(assets|content)\//', '$1="/$2/', $html);
