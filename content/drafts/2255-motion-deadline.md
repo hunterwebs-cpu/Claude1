@@ -83,7 +83,7 @@ There is one more rule that ties into timing. A second 2255 motion cannot be fil
 2. Write the dates in a notebook. Count forward yourself. Then count again.
 3. Do not file on the last day. Mail the motion weeks early. Federal rules treat an inmate's filing as made on the day it is placed in the prison's internal mail system, if you can prove it, but you do not want to rely on that.[^9]
 4. If a new Supreme Court decision might help you, write down its date today.
-5. If you are close to the deadline, or past it, get a licensed attorney to look at your dates. This is one place where an hour of a lawyer's time is worth it.
+5. If you are close to the deadline, or past it, have someone you trust check your dates against the docket. Count them twice. If you bring in a lawyer, vet them the way you would for any other job, and do not let them hold your file or your deadline.
 6. If you are preparing to file without a lawyer, the form itself is not hard. I explain it line by line in "How to Fill Out the 2255 Form," and the whole process, including the brief, is in *The 2255 Motion Handbook*.
 
 Be Well, Stay Safe, and Survive the Feds,

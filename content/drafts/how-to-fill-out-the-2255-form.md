@@ -129,7 +129,7 @@ If you cannot pay the costs of the motion, such as for an attorney or transcript
 3. Write your grounds on a separate sheet first, one fact at a time, with dates.
 4. Calculate your deadline before anything else.
 5. Fill in the form in pencil first if you have to. Then type or print it neatly.
-6. Have a licensed lawyer review it if there is any way to afford one, even for an hour.
+6. Have someone you trust read it against the form's instructions before you mail it. A second pair of eyes catches missing answers.
 
 The form is the small part. *The 2255 Motion Handbook* goes through this form and the brief step by step, and includes real motions and briefs so you can see what a finished one looks like. I wrote it because when I needed it, it did not exist.
 

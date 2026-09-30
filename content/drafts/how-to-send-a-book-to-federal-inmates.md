@@ -77,7 +77,7 @@ You can also print and mail pages. Every article on this site is built to be pri
 
 If the person is waiting on a case or heading to sentencing, *Surviving Pretrial* is the guide I wrote for exactly that. It is a map of the whole process, from arrest through sentencing, written for the defendant and the family. If the person has already been sentenced and wants to fight, *The 2255 Motion Handbook* is the step-by-step guide to challenging a conviction or sentence, written so someone without a lawyer can use it.
 
-I wrote both because no one handed me either when I needed them. I'm not asking you to send them instead of hiring a lawyer. Nothing in a book replaces one.
+I wrote both because no one handed me either when I needed them.
 
 ## What to do right now
 

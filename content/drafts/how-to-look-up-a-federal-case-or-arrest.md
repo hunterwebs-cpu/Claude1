@@ -28,15 +28,15 @@ That silence is a system, not an accident. The good news is that federal custody
 
 Work these in order. Do all of them. Each one closes a gap the others leave open.
 
-**Call the U.S. Marshals Service in the district where the arrest happened.** Every federal judicial district has a Marshals office. Ask one question: is this person in your custody, and where are they being held? They may refuse to tell a family member anything. Some will confirm a location, some will send you to the court. Call anyway. A defense lawyer gets this answer with one phone call, which is one more reason to get counsel involved fast.
+**Call the U.S. Marshals Service in the district where the arrest happened.** Every federal judicial district has a Marshals office. Ask one question: is this person in your custody, and where are they being held? They may refuse to tell a family member anything. Some will confirm a location, some will send you to the court. Call anyway, and write down who you spoke to, the date, and what they said.
 
 **Search the county jails around the arrest.** Because the Marshals house most pretrial defendants in contract county jails, the person is very likely sitting in one. Look up the jail rosters for the county where the arrest happened and the neighboring counties. Most publish an online inmate search. Search under every version of the name, including a middle name and any nickname.
 
 **Use the Federal Bureau of Prisons inmate locator.** The BOP runs a free search at bop.gov/inmateloc. It covers people in BOP custody from 1982 to the present and you can search by name or by register number.[^1] Understand what it will and will not show you. People held in federal detention centers, which the BOP runs, can show up. People held in a county jail under a Marshals contract will not. And if the result says "Released" or "Not in BOP Custody," read the fine print: the BOP itself says the person "may still be in the custody of some other correctional/criminal justice system/law enforcement entity, or on parole or supervised release."[^1] That is not the same thing as free.
 
-**Find out who the lawyer is.** At the first court appearance, the judge asks whether the person can afford a lawyer. If not, the court appoints one. In most districts that is the Federal Public Defender's office. Call that office for the district and ask whether they represent the person. If they do, they can tell you a lot. If a private lawyer was hired, the docket will list them (more on that below).
+**Find out who the lawyer of record is.** At the first court appearance, the judge asks whether the person can afford a lawyer. If not, the court appoints one. Whoever ends up representing the person, the docket lists them (more on that below). Learn the name. Do not treat the name as a reason to relax. A lawyer's name on a case tells you who is being paid or appointed. It does not tell you whether they are doing the work, and the docket is one of the few ways a family can check.
 
-EVERY FEDERAL DEFENDANT MUST BE TAKEN BEFORE A JUDGE WITHOUT UNNECESSARY DELAY AFTER ARREST. If days go by and you still cannot find out where your person is or whether a judge has seen them, that is a problem to raise with a lawyer immediately.[^4]
+EVERY FEDERAL DEFENDANT MUST BE TAKEN BEFORE A JUDGE WITHOUT UNNECESSARY DELAY AFTER ARREST. If days go by and you still cannot find out where your person is or whether a judge has seen them, write down every date and every name you were given. That timeline matters later.[^4]
 
 ## Step two: find the case
 
@@ -82,7 +82,7 @@ Inside, I could not use PACER at all. I wrote letters to the court asking for pr
 4. Register a free PACER account at pacer.uscourts.gov and search for the case in the correct district.
 5. Once you have the case number, write it down everywhere. You will need it for every call and every letter.
 6. Print the docket and the charging document. If the person is in a jail, mail them copies. Many jails allow letters and printed pages. Ask the jail what it accepts.
-7. Get a lawyer's name onto the docket, or call the Federal Public Defender.
+7. Read the docket for the lawyer of record, and keep checking it against what that lawyer tells you. If a lawyer says something was filed and it is not on the docket, ask why. Do not hire or fire anyone in a panic. How to vet a federal defense lawyer, with the questions to ask, is Part Four of *Surviving Pretrial*.
 
 Finding the case is the first small win. It will not fix anything on its own. But it turns "I don't know anything" into "here is what they say," and that is the only place you can start from. The map for everything that comes next, the detention hearing, the plea decision, the presentence report, and sentencing, is what I wrote *Surviving Pretrial* to be.
 

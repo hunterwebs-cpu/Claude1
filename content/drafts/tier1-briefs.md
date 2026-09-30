@@ -10,6 +10,7 @@ The four Tier 1 pages already drafted in full are `how-to-look-up-a-federal-case
 - Endnotes numbered, every citation flagged for verification before publication.
 - Fixed end CTA for both books; vary any earlier book mention.
 - SEO frontmatter: `seo_title` about 40–45 characters, `description` 150–160 characters, plain question wording (the searcher's words, not legal terms).
+- **Lawyer advice must match the book.** Do not tell readers to hire a lawyer quickly or to "get a lawyer first." The books' position is to vet before hiring and to check a lawyer's work against the docket (*Surviving Pretrial*, Part Four is the vetting framework). Any line about lawyers in these pages is Bilal's call. Where a brief below mentions a lawyer, treat it as a placeholder for him to decide, not as advice to publish.
 - Personal stories come only from VOICE.md section 10 or Bilal's published book text. Do not invent new ones.
 
 ---
@@ -50,13 +51,13 @@ The four Tier 1 pages already drafted in full are `how-to-look-up-a-federal-case
   2. Target vs. subject vs. witness (the Justice Department's own definitions)
   3. What it does and does not mean (not an arrest; not always followed by a charge; not a favor)
   4. What NOT to do (call the agent, "explain yourself," delete anything, talk to friends)
-  5. What to do in the first 24 hours (do not respond alone; lawyer before contact; preserve, do not destroy)
-  6. What a lawyer will ask you
+  5. What to do in the first 24 hours (do not respond on your own; do not contact the agent; preserve, do not destroy). **Bilal to decide** what, if anything, the page says about bringing in a lawyer and how to vet one.
+  6. What questions to ask before you rely on anyone (point to the vetting framework in the book)
 - **Personal hooks:** Bilal never received a target letter (charged by complaint), which is itself the point: many people are indicted without one. The "recorded lines" material (what hurts a defendant on the phone) fits the "do not talk" section. Grand jury dismissal rarity.
 - **Verify:** Justice Manual § 9-11.151 (advice of rights of grand jury witnesses, including definitions of "target" and "subject"); 18 U.S.C. §§ 1512, 1519 (obstruction and destruction of records) for the "do not destroy" warning, worded carefully; whatever the Justice Department says about how often a target letter precedes indictment (do not state a rate unless a source gives one).
 - **Length:** 4–6 pages. **Overlap with book:** target letters are NOT covered in the book, so go deeper here.
 - **Competition note:** this SERP is crowded with law firms. Compete on a plain, non-"call us" voice and a concrete first-24-hours plan. It is a brand-trust page more than a book-sales page.
-- **Risks:** this page comes closest to legal advice. Use "generally" and "in most cases," and an unmistakable "get a licensed lawyer before you respond" line.
+- **Risks:** this page comes closest to legal advice. Use "generally" and "in most cases." Whether the page carries a "talk to a lawyer before you respond" line, and how it is worded, is Bilal's decision.
 
 ---
 
@@ -113,7 +114,7 @@ The four Tier 1 pages already drafted in full are `how-to-look-up-a-federal-case
 - **Personal hooks:** the 50-page objection ("object to everything"); the GoDaddy password and the two-point obstruction enhancement that BOP and probation still cite; supervised release conditions: "standard does not mean harmless."
 - **Verify:** Fed. R. Crim. P. 32 (presentence report, disclosure, objections, time limits); U.S.S.G. Chapter 5 (sentencing determination) and § 5D1.3 (conditions of supervised release); the local district's PSR timeline, which varies.
 - **Length:** short, 3–5 pages. VOICE.md §6 says taste plus a pointer to the book, because the book already has an eight-stage breakdown of the PSR.
-- **Risks:** deadlines. Use ALL CAPS once for the objection deadline and cite the Rule, with a "confirm with your lawyer, because local rules can change it" line.
+- **Risks:** deadlines. Use ALL CAPS once for the objection deadline and cite the Rule, with a "confirm the deadline for your district, because local rules can change it" line.
 
 ---
 
