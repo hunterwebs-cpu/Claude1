@@ -1,5 +1,5 @@
 ---
-title: "How to Send a Book to Someone in Federal Prison or a Federal Detention Jail"
+title: "How to Send a Book to Someone in Federal Prison or in a County Jail on a Federal Case"
 slug: "how-to-send-a-book-to-federal-inmates"
 date: "2026-09-29"
 category: "Family Support"
@@ -24,11 +24,11 @@ You order a book. You type in the address. A week later it comes back, or it nev
 
 The rules are not complicated once you know who makes them. The problem is that there are two different sets, and most families are dealing with the wrong one. Which one applies to your person?
 
-## The two places a federal defendant can be
+## Two kinds of facility, two sets of rules
 
-**In a Bureau of Prisons facility.** That means a federal prison, a federal correctional institution, or a federal detention center run by the BOP. The BOP has one national policy for books and other publications, and it applies the same way in every one of its institutions. This is the part I can give you in detail.
+**In a Bureau of Prisons facility.** That means a federal prison, a federal correctional institution, or a Federal Detention Center or Federal Transfer Center that the BOP itself runs (FDC Philadelphia is one). Those are run by the federal government. The BOP has one national policy for books and other publications, and it applies the same way in every one of its institutions. This is the part I can give you in detail.
 
-**In a county jail under a U.S. Marshals contract.** Most people waiting on a federal case are held here, not in a BOP facility. The BOP's book rules do not govern these jails. Each jail writes its own. Some accept paperbacks from an approved vendor. Some accept nothing, not even from Amazon.<!-- VERIFY: Bilal to confirm from experience that some county jails refuse books entirely or have replaced them with tablets. --> I was held in a string of them, and the rules were never the same from one jail to the next.
+**In a county jail.** Most people waiting on a federal case are held here, not in a BOP facility. A county jail is not a federal facility. The county (or a private company the county hires) runs it, and the U.S. Marshals only rent the beds. The BOP's book rules do not apply. Each jail writes its own, and they differ.<!-- VERIFY (Bilal): confirm "Federal Transfer Center" and "FDC Philadelphia" as examples of BOP-run pretrial facilities, and that some private companies operate contract facilities, as in your own list of places you were held. --> Some accept paperbacks from an approved vendor. Some accept nothing, not even from Amazon.<!-- VERIFY: Bilal to confirm from experience that some county jails refuse books entirely or have replaced them with tablets. --> I was held in a string of them, and the rules were never the same from one jail to the next.
 
 For a county jail, the only answer that counts is the jail's. Call the jail, ask for the mail room or the inmate services desk, and ask three questions: Do you accept books? Who is allowed to send them? Is there a limit on how many at one time? Get the answer in writing if you can. Many jails post an inmate handbook on their website.
 
