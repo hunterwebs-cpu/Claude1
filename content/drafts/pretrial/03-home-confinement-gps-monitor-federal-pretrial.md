@@ -5,7 +5,7 @@ date: "2026-10-01"
 category: "Pretrial"
 author: "Bilal Khan"
 excerpt: "House arrest before trial means a GPS monitor you cannot remove and a probation officer who approves every trip. Here is what it is like, what it costs you, and how to ask for it."
-seo_title: "House Arrest and GPS Monitors in a Federal Case"
+seo_title: "Ankle Monitor and House Arrest Before Trial"
 description: "How house arrest and GPS monitoring work on federal pretrial release: the rules, the conditions, how to ask for it, and why the time earns no credit."
 draft: true
 ---

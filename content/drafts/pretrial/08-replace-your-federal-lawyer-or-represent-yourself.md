@@ -5,8 +5,8 @@ date: "2026-10-01"
 category: "Pretrial"
 author: "Bilal Khan"
 excerpt: "You can get a lawyer appointed, hire one later, replace one who is not working for you, or represent yourself. Here is how each works and what each costs you."
-seo_title: "Replace Your Federal Lawyer or Go Pro Se"
-description: "How to get a lawyer in a federal case, when to replace yours, and what representing yourself (pro se) means: the Faretta hearing, risks, and standby counsel."
+seo_title: "Can You Fire Your Federal Lawyer? Or Go Pro Se"
+description: "How to get a lawyer in a federal case, when to fire yours, and what representing yourself (pro se) means: the Faretta hearing, risks, and standby counsel."
 draft: true
 ---
 

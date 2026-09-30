@@ -5,7 +5,7 @@ date: "2026-10-01"
 category: "Pretrial"
 author: "Bilal Khan"
 excerpt: "A judge can release you before trial on the condition that you live in a halfway house. Here is how it works, what it costs you, and why some defendants say jail was easier."
-seo_title: "Halfway House Before Trial in a Federal Case"
+seo_title: "Federal Halfway House Rules Before Trial"
 description: "What a halfway house means on federal pretrial release: the rules, no credit for time served, what a violation costs, and how to decide before the hearing."
 draft: true
 ---

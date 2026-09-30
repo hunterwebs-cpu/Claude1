@@ -6,7 +6,7 @@ category: "Pretrial"
 author: "Bilal Khan"
 excerpt: "A pretrial services officer interviews you, writes the report the judge reads before your detention hearing, and may supervise you if you are released. Here is what they ask and where it ends up."
 seo_title: "Federal Pretrial Services Officer: What to Expect"
-description: "What a federal pretrial services officer does: the interview at your first appearance, the report to the judge, supervision if released, and where it goes later."
+description: "What a federal pretrial services officer does: the interview at your first appearance, the report to the judge, supervision if released, and where it goes."
 draft: true
 ---
 
