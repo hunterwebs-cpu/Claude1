@@ -1,59 +1,74 @@
-# Kumar v. United States, No. 26-1250 — filing package review notes (not for filing)
+# Kumar v. United States, No. 26-1250: review notes for the expanded response (not for filing)
 
-Prepared 10/10/2026. Privileged work product.
+Revised 10/10/2026. Privileged work product.
 
 ## Files
 | File | Use |
 |---|---|
-| `0-READ-FIRST-INSTRUCTIONS-FOR-KUMAR.pdf` | Plain-language signing/mailing instructions for Kumar |
-| `1-KUMAR-RESPONSE-ONLY.pdf` | The response (10 pp.) + certificate of compliance + certificate of service/inmate declaration (11 pp. total) |
-| `2-KUMAR-FILING-PACKAGE-COMPLETE.pdf` | Response + index of exhibits + Exhibits A–D (69 pp.) — print 6 sets of this |
-| `3-KUMAR-RESPONSE-EDITABLE.docx` | Editable text of the response (hand-built docx; open once to check layout) |
-| `4-OPTIONAL-KUMAR-DECLARATION.pdf/.docx` | Optional sworn mail-receipt declaration; response does not reference it |
+| `0-READ-FIRST-INSTRUCTIONS-FOR-KUMAR.pdf` | Signing and mailing instructions for Kumar (now covers the Declaration) |
+| `1-KUMAR-RESPONSE-ONLY.pdf` | Response with certificates (19 pp.; 4,693 words; limit 5,200) |
+| `2-KUMAR-FILING-PACKAGE-COMPLETE.pdf` | Response, Kumar Declaration, index, Exhibits A–F (84 pp.). Print 6 sets |
+| `3-KUMAR-RESPONSE-EDITABLE.docx` | Editable text with the Declaration |
 
-Exhibits: A = ECF 130 (22 pp., full); B = D. Mass. docket report pp. 20–23 (entries 132–142, incl. ECF 137, 139, 141), PACER transaction receipt page flattened and the account login removed; C = ECF 122 with 122-1 and 122-2 (22 pp.); D = ECF 75 (5 pp.).
-The earlier drafts (`KUMAR-PROSE-RESPONSE-DRAFT.*` in `research-output/`) are superseded and were removed.
+Exhibits:
+- A: ECF 130.
+- B: docket report pp. 20–23, entries ECF 133–142. The PACER receipt was removed.
+- C: ECF 122, 122-1 and 122-2.
+- D: ECF 75.
+- E: First Circuit orders of 5/8/2026 and 7/1/2026.
+- F: ECF 80.
 
-## First Circuit compliance (checked against the Rulebook text through 5/13/2025)
-| Requirement | Status |
-|---|---|
-| FRAP 27(d)(1)(B) caption: case no., court, title, descriptive title identifying filing party; cover not required | Met (title identifies Appellant, response, leave, and alternative remand — FRAP 27(a)(3)(B)) |
-| 27(d)(1)(D) 8½×11, text double-spaced, block quotes >2 lines indented/single, margins ≥1", page numbers in margin only | Met (Times 14 pt; 1" margins; page numbers at bottom margin) |
-| 27(d)(1)(E) / 32(a)(5)-(6) typeface | Times-Roman 14 pt |
-| 27(d)(2)(A) ≤ 5,200 words | 2,473 words (caption through conclusion) |
-| 27(a)(2)(A) grounds, relief, legal argument | Met |
-| 27(a)(2)(B)(iii) district court decision as separate exhibit | Exhibit A |
-| 27(a)(2)(C)(i) no separate brief | Met (single document) |
-| 32(g) certificate of compliance | Included; recount if the text is edited |
-| 25(d) proof of service (date, manner, names, addresses) | Included |
-| 25(a)(2)(A)(iii) inmate filing: § 1746 declaration with date of deposit and statement that first-class postage prepaid | Included in the certificate of service |
-| 27(d)(3) original + 3 copies; Local Rule 25.0(a): e-filing is voluntary only for non-incarcerated pro se, so Kumar files on paper | Instructions say 4 sets to the court, 1 for the Government, 1 for himself |
-| Local Rule 32.0 (disk/PDF) | Does not apply to pro se parties |
-| Local Rule 27.0 (no special format rule for responses found) | n/a |
+## The Declaration is now part of the filing
+The response cites Kumar Decl. ¶¶ 2–5 for these facts:
+- Mail at Fort Dix is sporadic.
+- He never received the 5/8, 6/25 and 7/1 orders.
+- He learned the certificate had been narrowed only from the Government's motion.
 
-## Citation and quotation status
-Verified against source text on 10/10/2026: 1st Cir. R. 27.0(c); FRAP 26(b), 26(c), 27(a)(3), 27(d), 25(a)(2)(A)(iii), 25(d) (Rulebook through 5/13/2025 — confirm no later amendment); *Hill* (body text; pin 59 is the standard pin); *Tollett* (quoted sentence; pin 267); *Miller-El* quotes at 327 and 338 (338 quote bracketed "[certificate of appealability]" for "COA"); *Dugas* quotes; *Caramadre* sentence quoting *Moreno-Espada*, 666 F.3d at 64; record quotes from ECF 75, 122, 122-1, 122-2, 130 and the Government's motion.
-Not confirmed / to do before mailing:
-1. *Dugas*: the Drive PDF has no reporter pagination, so the *Dugas* quotes carry no pinpoints; add them from Westlaw. The "506 F.3d 1, 3" cite repeats the Government's.
-2. *Caramadre* pin 371 and *Pike* pin 68 are taken from the opinions' own cites and the Government's motion.
-3. 28 U.S.C. § 2255(b) quotation (from memory of the statute; confirm).
-4. ECF 137, 139, 141 quotations come from the docket text in the PACER docket report, not from the order PDFs. ECF 141 is a text-only electronic order, so Exhibit B is the record copy.
-5. Page cites for ECF 122 and 130 use the PDF pages ("Page x of y").
+**If Kumar cannot swear to any of those facts, Part I, the Statement and Part IV.D must be revised before filing.** I found no public source specific to Fort Dix mail problems, so that assertion rests on his declaration together with ECF 137 and ECF 139.
+
+## Authorities: verification status
+Verified against primary text on 10/10/2026, using CAP static reporter text with page markers, the Drive PDFs, or the Rulebook:
+- *Grant-Chase*, 145 F.3d at 435.
+- *Bui*, 170 F.3d at 236 (the "free-ranging appeal" passage) and at 237 (limited COA, notice of an outside date, "may be deemed").
+- *Gonzalez v. Thaler*, 565 U.S. at 137 and 146.
+- *Griggs*, 459 U.S. at 58.
+- *Peralta*, 597 F.3d at 83–84.
+- *Vargas-De Jesús*, 813 F.3d at 419 n.6.
+- *Fernández-Santos*, 856 F.3d at 17 and 22.
+- *Gaffney*, 469 F.3d at 214–15.
+- *Rodriguez*, 311 F.3d at 437.
+- *Concepción-Guliam*: facts and holding from the slip opinion; the pin 31 is the Government's.
+- *Caramadre*: plea-withdrawal context.
+- *Miller-El* at 327 and 338.
+- *Hill* at 59, *Tollett* at 267, *Dugas* (quoted text).
+- *Lee*: quoted text.
+- 1st Cir. R. 22.0(c)–(d), 27.0(c)–(d); I.O.P. V(C); FRAP 22(b), 25, 26, 27.
+
+Still to confirm:
+1. *Lee* pinpoint 367. The Drive copy has no reporter pages.
+2. *Dugas* pinpoints for the two quotations. The brief cites "Id." to the Government's 506 F.3d 1, 3.
+3. *Pike* pin 68, taken from *Dugas*'s own citation.
+4. Rule 11(a) of the § 2255 Rules: the two characterizations ("state the specific issues"; "direct the parties to submit arguments on whether a certificate should issue").
+5. Text of 28 U.S.C. § 2255(b).
+6. Quotations from ECF 137, 139 and 141 come from the docket text (Ex. B).
+
+## The COA argument: candid assessment
+This is the user's chosen argument, built on what the rules actually say. Its strengths:
+- Local Rule 22.0(d) on a full grant.
+- *Bui*'s "free-ranging appeal" passage.
+- *Grant-Chase*'s "only one certificate."
+- *Gonzalez* assigning a (c)(3) defect to the panel on a party's timely objection.
+- I.O.P. V(C) confining clerk's orders to routine procedural motions.
+- ECF 141 calling the request a directive to "re-certify" and to issue a "new" certificate.
+
+Weaknesses the Government will press:
+- *Bui* holds certificates are issue-specific, and Rule 11(a) requires a district court to "state the specific issue or issues." The brief acknowledges this and argues that Judge Wolf identified the issues by reference to the decision he certified.
+- The 5/8 order is captioned "Order of Court" and signed "By the Court." The Government will call it the Court's order, not the Clerk's. The brief answers with I.O.P. V(C)'s rule that an order entered under 27.0(d) is a clerk's order.
+- The Court may simply treat 7/1 as the operative Bui notice and hold Kumar to it. The alternative request for 30 days to apply for an expanded certificate is the fallback.
+
+Tone was kept firm, not combative. The brief does not accuse the Clerk of misconduct; it argues the order's limits.
 
 ## Day-of-filing checks
-- Re-pull the 1st Cir. docket (26-1250). The draft says there is no order setting a response date or ruling on the motion, and that the only action is the 9/30 stay. If anything changed, revise Part I.
-- Confirm which 8/24/2026 entry is the operative opening brief (70-page "Disclosure statement" vs. 8-page "Appellant's brief").
-- Confirm Kumar's compound. The 1st Cir. docket and the Government use FCI Fort Dix, P.O. Box 2000; the district civil docket lists East P.O. Box 2000 and West P.O. Box 7000. The package uses the 1st Cir. docket address as instructed.
-
-## Choices built into the filing
-- Timeliness argued first; leave under FRAP 26(b) retained as a fallback (no rule I found requires the court to set a response date; FRAP 27(a)(3)(A) runs 10 days automatically unless the court extends).
-- Good cause rests on the record only (ECF 137, 139); no new factual assertions by Kumar. The mail-receipt declaration is optional and unreferenced.
-- Concedes no letter protects the 2/27/2020 false statements (Count 3).
-- No request to vacate the 9/30 stay; no application to expand the COA; Part IV.F is a neutral reservation quoting ECF 130 at 22.
-- Alternative request for vacatur and remand for a § 2255(b) hearing (named in the title per FRAP 27(a)(3)(B)); the Government may respond to that request within 10 days (27(a)(3)(B)) and may reply within 7 days (27(a)(4)).
-- Does not argue the ECF 58-1 exhibits (7/30/2020 emails about pushing out the indictment deadline for plea negotiations hurt the delay/motive theory) and does not mention that Kumar filed his opening brief on 8/24, a week after the 8/17 briefing schedule.
-
-## Main risks
-- A COA does not preclude summary affirmance; the Government will say Counts 1–2 rest on evidence independent of anything Kumar said and that prejudice under *Hill* fails.
-- The "response is timely" position is untested; if the court treats the response as late it relies on the fallback.
-- Whether the 7/30/2020 emails and plea-negotiation history come in on the Government's reply.
+- Re-pull the 26-1250 docket. The brief states that no order has set a response date and that the Court has not ruled.
+- Confirm Kumar's compound and address (P.O. Box 2000).
+- Recount the words if anything is edited.
