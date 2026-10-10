@@ -1,0 +1,51 @@
+RAW TESSERACT OCR (300 dpi, psm 6), uncorrected. Per-page mean word confidence in each header. ECF 58 pp.1-10 handwritten/typed pro se text ~92-96; 58-1 pages (PDF pp.11-17) 42-94 (p.13 = 42, handwritten exhibit page, essentially unreadable by OCR; pp.14-17 have handwriting/stamps ~72-77). Vertical bars and stray fragments are scan artifacts. Verified by eye against page images: PDF pp. 11, 12, 14, 16.
+
+===== PDF page 1 of 2 (mean conf 93) =====
+Case 1:21-cr-10157-AK Document 72 Filed 04/26/22 Pagelof2
+UNITED STATES DISTRICT COURT
+DISTRICT OF MASSACHUSETTS
+UNITED STATES OF AMERICA )
+Vv. Cr. No. 21-10157-MLW
+
+MANISH KUMAR,
+
+Defendant. )
+
+MEMORANDUM AND ORDER
+
+WOLF, D.J. April 26, 2022
+
+On February 28, 2022, defendant Manish Kumar filed a pro se
+motion to dismiss the indictment on three alleged grounds: (1)
+double jeopardy; (2) vindictive prosecution; and (3)
+unconstitutional delay. See Dkt. No. 58 (the "Motion"); see also
+
+| Letter Requesting Production of Waiver of DOJ Petite Policy
+
+Document (Dkt. No. 57). C. Henry Fasoldt, Esq. was then serving as
+stand-by counsel for Kumar. See Dkt. No. 53. Mr. Fasoldt has since
+been appointed as Kumar's fourth attorney. See Dkt. No. 65. The
+court has been informed that Kumar still requests a ruling on his
+pro se Motion. See Order and Final Status Report (Dkt. No. 70).
+
+Ordinarily, this court does not consider pro se motions filed
+by represented defendants. See United States v.- Tracy, 989 F.2d
+1279, 1285 (lst Cir. 1993) ("A district court enjoys wide latitude
+in managing its docket and can require represented parties to
+present motions through counsel."); United States v. Lépez-Soto,
+960 F.3d 1, 15 (1st Cir. 2020) ("So long as (defendant] was
+represented by counsel, he had no right to file his own motions").
+
+1
+===== PDF page 2 of 2 (mean conf 92) =====
+Case 1:21-cr-10157-AK Document 72 Filed 04/26/22 Page 2of2
+However, the court has discretion and may consider such motions.
+See Tracy, 989 F.2d at 1285.
+
+Therefore, it is hereby ORDERED that, by May 5, 2022, Kumar
+shall consult with Mr. Fasoldt and report: (1) whether he wishes
+to maintain the Motion; and (2) whether Mr. Fasoldt will supplement
+the Motion. Any supplement shall be filed by May 12, 2022.
+
+UNITED STATES DISTRICT GE
+2
