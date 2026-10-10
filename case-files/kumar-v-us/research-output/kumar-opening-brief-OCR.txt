@@ -1,0 +1,2002 @@
+# OCR text of Kumar pro se opening brief (kumar open br 26-1250_Documents.pdf, Drive 106qBkXLmKe2M6mgdxut-cHSKbhutwmtZ)
+# Tesseract 5.3.4 OCR at 200dpi; may contain OCR errors. Verify against PDF before quoting.
+
+----- PDF PAGE 01 -----
+Case: 26-1250 Document: 00118496192 Page:1 Date Filed: 08/24/2026 — Entry ID: 6836756
+
+No. 26-1250
+
+IN THE UNITED STATES COURT OF APPEALS
+FOR THE FIRST CIRCUIT
+
+UNITED STATES OF AMERICA,
+Appellee,
+
+Vv.
+
+MANISH KUMAR,
+Appellant.
+
+On Appeal from the United States District Court
+for the District of Massachusetts
+Criminal No. 1:21-cr-10157-MLW | Civil No. 1:24-cv-12710-MLW
+The Honorable Mark L. Wolf, District Judge
+
+APPELLANT'S OPENING BRIEF
+EXPEDITED REVIEW REQUESTED
+
+Manish Kumar For Appellee:
+Reg. No. 83763-053 Kriss Basil, AUSA
+FCI Fort Dix United States Attorney's Office
+P.O. Box 2000 District of Massachusetts
+Joint Base MDL, NJ 08640 1 Courthouse Way, Suite 9200
+
+Appellant Pro Se Boston, MA 02210
+
+
+----- PDF PAGE 02 -----
+Case: 26-1250 Document: 00118496192 Page:2 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+CORPORATE DISCLOSURE STATEMENT
+
+Pursuant to Federal Rule of Appellate Procedure 26.1, Appellant Manish
+
+Kumar is an individual and has no corporate interests to disclose.
+
+----- PDF PAGE 03 -----
+Case: 26-1250 Document: 00118496192 Page:3 Date Filed: 08/24/2026 — Entry ID: 6836756
+
+STATEMENT OF RELATED CASES
+
+Pursuant to First Circuit Local Rule 28.0(a)(1), Appellant identifies the
+
+following related cases:
+
+1. United States v. Kumar, No. 23-1087 (1st Cir. Aug. 12, 2024)
+(direct appeal from judgment of conviction and sentence in Crim. No.
+1:21-cr-10157-MLW; First Circuit affirmed). All record documents
+referenced in this brief were filed in Crim. No. 1:21-cr-10157-MLW in the
+
+United States District Court for the District of Massachusetts.
+
+2. United States v. Kumar, No. 1:20-cr-00089-JIM-PAS (D.R.I.)
+(Rhode Island prosecution; final judgment entered February 12, 2021;
+
+amended judgment April 1, 2021).
+
+3. Kumar v. United States, No. 22-1270 (1st Cir.) (appeal from
+denial of § 2255 motion in Rhode Island case; resolved 2022).
+
+----- PDF PAGE 04 -----
+Case: 26-1250 Document: 00118496192 Page:4 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+TABLE OF CONTENTS
+
+Corporate Disclosure Statement i
+
+Statement of Related Cases ii
+
+Table of Contents iii
+
+Table of Authorities iv
+
+Jurisdictional Statement 1
+
+Statement of the Issues 2
+
+Statement of the Case 4
+
+A. The Rhode Island Prosecution and the Proffer Sessions 4
+
+B. The Government's Decision to Charge — and Its Decision to Wait 5
+
+C. The Rhode Island Conviction and Its Sentencing Consequences 6
+
+D. Kumar Seeks Correction of His Sentence — The Massachusetts Complaint 7
+Follows
+
+E. The Massachusetts Indictment, Plea, and Sentence 8
+
+F. The Direct Appeal 10
+
+G. The § 2255 Motion and the District Court's Denial 10
+
+Summary of Argument 12
+
+Argument 17
+
+I. Kumar's Fifth Amendment Claims Reach the Merits 17
+
+A. Class v. United States Preserves Both Claims 18
+
+1, What Class Actually Held 18
+
+2. Vindictive Prosecution: Direct Class Application 19
+
+3. Preindictment Delay: A Principled Extension This Court Should Adopt 20
+B. Alternatively, IAC Provides Cause and Prejudice Under Murray v. Carrier 25
+C. The Withdrawal Cannot Constitute a Knowing Waiver Under Zerbst 26
+
+IL. The Government's Deliberate Sequential Prosecution Violated the Fifth 29
+Amendment
+
+iti
+
+----- PDF PAGE 05 -----
+Case: 26-1250 Document: 00118496192 Page: 5 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+A. Standard of Review . 29
+B. The Consolidated Fifth Amendment Violation 30
+C. Preindictment Delay 31
+1. The Governing Standard 31
+2. The Government's Delay Was Not Investigative — The Basil Affidavit 31
+Proves It
+3. The Prejudice: Deliberately Engineered, Not Incidental 33
+4. The Lovasco Safe Harbor Is Unavailable 40
+D. Vindictive Prosecution 41
+1. The Governing Standard 41
+2. The Sequence Establishes a Realistic Likelihood of Vindictiveness 41
+3, The Barrios Overlap Confirms the Vindictive Pattern 43
+4. The District Court's Analysis Was Legally Deficient 44
+III. Counsel Rendered Constitutionally Ineffective Assistance 45
+A. The Governing Standard 45
+B. Ground One: Failure to Secure Massachusetts Proffer Protection 46
+C. Ground Two: Materially Inaccurate Guidelines Advice 49
+D. Ground Three: Failure to Make the § 5K2.23 Departure Motion 52
+E. The Three IAC Grounds Collectively Establish the Carrier Gateway 55
+Conclusion 56
+Certificate of Compliance 58
+Certificate of Service 59
+
+iv
+
+----- PDF PAGE 06 -----
+Case: 26-1250 Document: 00118496192 Page:6 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+TABLE OF AUTHORITIES
+CASES
+
+Blackledge v. Perry, 417 U.S. 21 (1974) 13, 18, 19, 20,
+21, 41, 42, 44
+
+Brady v. United States, 397 U.S. 742 (1970) 27
+Class v. United States, 583 U.S. 174 (2018) passim
+Damon v. United States, 732 F.3d 1 (1st Cir. 2013) 29, 45
+Gall v. United States, 552 U.S. 38 (2007) 36
+Glover vy. United States, 531 U.S. 198 (2001) passim
+Hill v. Lockhart, 474 U.S. 52 (1985) 49, 50
+Johnson v. Zerbst, 304 U.S. 458 (1938) 26, 27
+Lafler v. Cooper, 566 U.S. 156 (2012) 35
+Lee v. United States, 582 U.S. 357 (2017) 27, 51
+Lynch vy. Ficco, 438 F.3d 35 (1st Cir. 2006) 25, 45, 46
+McMann vy, Richardson, 397 U.S. 759 (1970) 27, 28, 50
+Molina-Martinez v. United States, 578 U.S. 189 (2016) 36, 52
+Murray v. Carrier, 477 U.S. 478 (1986) 25,45
+Rosales-Mireles v. United States, 585 U.S. 129 (2018) 52
+Strickland v. Washington, 466 U.S. 668 (1984) passim
+Tollett v. Henderson, 411 U.S. 258 (1973) 18, 20, 22, 27,
+28
+
+United States v. Broce, 488 U.S. 563 (1989) 18
+United States v. Chavez-Diaz, 949 F.3d 1202 (9th Cir. 2020) 22, 23, 24
+United States v. Cheveres-Morales, 83 F.4th 34 (Ist Cir. 2023) 35, 36, 52
+United States v. Ciampi, 419 F.3d 20 (1st Cir. 2005) 39
+United States v. Concepcion-Guliam, 62 F.4th 26 (1st Cir. 2023) 26
+
+----- PDF PAGE 07 -----
+Case: 26-1250 Document: 00118496192 Page:7 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+United States v. Crooks, 766 F.2d 7 (1st Cir. 1985) 31
+United States v. Davila-Reyes, 84 F.4th 400 (1st Cir. 2023) (en banc) 18
+United States v. De Vaughn, 694 F.3d 1141 (10th Cir. 2012) 20
+United States y. Goodwin, 457 U.S. 368 (1982) 41, 42, 44
+United States v. Ihenacho, 716 F.3d 266 (1st Cir. 2013) 15, 38, 39
+United States y. Irizarry-Colon, 848 F.3d 61 (Ist Cir. 2017) 31
+United States vy. Lovasco, 431 U.S. 783 (1977) passim
+United States v. Marion, 404 U.S. 307 (1971) passim
+United States v. McCoy, 977 F.2d 706 (Ist Cir. 1992) 34
+United States v. McGill, 11 F.3d 223 (1st Cir. 1993) 49
+United States v. Riojas, No. 24-40378 (5th Cir. 2025) . 20
+United States v. Stokes, 124 F.3d 39 (1st Cir. 1997) 23, 34
+Wolfe v. Virginia, 139 S. Ct. 790 (2019) 19
+STATUTES AND RULES
+18 U.S.C. § 3553(a) 16
+18 U.S.C, § 3584 24
+28 U.S.C. § 2253 1
+28 U.S.C. § 2255 passim
+Fed. R. App. P. 32 ; 40
+Fed. R. Crim. P, 36 5,6
+USS.G. § 3D1.2 16
+US.S.G. §4A1.1 4
+U.S.S.G. § 4A1.3 37
+US.S.G. § 5G1.3 passim
+U.S.S.G, § 5K2,23 passim
+Ist Cir. L.R. 27.0 1
+1st Cir. L.R. 28.0 iii
+
+----- PDF PAGE 08 -----
+Case: 26-1250 Document: 00118496192 Page:8 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+USS. Sentencing Comm'n, Judiciary Sentencing Information (JSIN), § 25
+2B1.1, Offense Level 27, CHC I & II (FY2021-2025),
+https://jsin.ussc.gov
+
+----- PDF PAGE 09 -----
+Case: 26-1250 Document: 00118496192 Page:9 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+JURISDICTIONAL STATEMENT
+
+The district court had jurisdiction over the underlying criminal case
+pursuant to 18 U.S.C. § 3231. The district court had jurisdiction over
+Appellant's motion to vacate under 28 U.S.C. § 2255. On August 28, 2025,
+the district court denied the § 2255 motion and issued a Certificate of
+Appealability sua sponte. Dkt. No. 130. Kumar timely appealed on
+February 11, 2026. Dkt. No. 132. This Court has jurisdiction pursuant to
+28 U.S.C. §§ 2253 and 2255(d).
+
+All docket entries cited herein refer to the docket in United States v.
+Kumar, Crim. No. 1:21-cr-10157-MLW (D. Mass.), unless otherwise
+specified. Rhode Island docket entries are cited as RI-ECF followed by the
+entry number, referring to United States v. Kumar, No.
+
+1:20-cr-00089-JIM-PAS (D.R.L).
+
+Appellant respectfully requests expedited consideration of this
+appeal pursuant to First Circuit Local Rule 27.0. Appellant Manish Kumar
+is anticipated to be released from federal custody within twelve months. A
+
+separate motion for expedited review accompanies this brief.
+
+----- PDF PAGE 10 -----
+Case: 26-1250 Document: 00118496192 Page:10 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+STATEMENT OF THE ISSUES
+
+I. Whether Kumar's Fifth Amendment claims — vindictive prosecution
+and preindictment delay — survive his unconditional guilty plea under
+Class v. United States, 583 U.S. 174 (2018), or alternatively whether
+counsel's constitutionally deficient performance provides cause and
+prejudice to excuse procedural default under Murray v. Carrier, 477
+
+USS. 478 (1986).
+
+II. Whether the government violated Kumar's Fifth Amendment due
+process rights by deliberately sequencing his prosecution — holding
+Massachusetts charges in reserve while Kumar served his Rhode Island
+sentence, with complete investigative knowledge and a made charging
+decision — for the specific purpose of manufacturing a criminal history
+enhancement, foreclosing concurrent sentencing, and intercepting
+
+Kumar immediately upon his completion of that sentence.
+
+----- PDF PAGE 11 -----
+Case: 26-1250 Document: 00118496192 Page:11 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+III. Whether counsel rendered constitutionally ineffective assistance by: (a)
+failing to secure Massachusetts proffer protection before Kumar
+participated in sessions with Massachusetts federal agents in Boston, in
+the presence of the lead Massachusetts prosecutor; (b) advising Kumar
+that his Guidelines exposure was 15 to 20 months when his actual range
+was 87 to 108 months, inducing withdrawal of a pending motion to
+dismiss; and (c) failing to make an explicit § 5K2.23 departure motion
+
+at sentencing.
+
+----- PDF PAGE 12 -----
+Case: 26-1250 Document: 00118496192 Page:12 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+STATEMENT OF THE CASE
+
+A. The Rhode Island Prosecution and the Proffer Sessions
+
+On August 25, 2019, Manish Kumar was arrested at JFK Airport on a
+criminal complaint filed in the District of Rhode Island alleging conspiracy
+to commit wire fraud, wire fraud, and aggravated identity theft arising
+from fraudulent call center operations and credit card fraud. United States
+v. Kumar, No. 20-cr-00089-JJM-PAS (D.R.1.), RI-ECF 3, 4. No drug
+charges were filed. The Rhode Island investigation was conducted by
+federal agents based in Massachusetts. Dkt. No. 122-2 (Basil Aff.) § 2.
+
+Following his arrest, and on advice of counsel, Kumar agreed to
+cooperate with a separate Massachusetts-based investigation into money
+laundering and drug trafficking. Dkt. No. 122 at 2. Over the course of
+eleven proffer sessions conducted in the District of Massachusetts, from
+the day of his arrest through February 27, 2020, Kumar provided
+information to federal investigators and authorized access to his personal
+electronic devices and accounts. Dkt. No. 130 at 3 (citing PSR {J 10, 40).
+Counsel was present at every session. Jd.
+
+Kumar had a proffer agreement with the District of Rhode Island.
+Dkt. No. 122 at 2-3 (citing PSR { 42). He had no proffer agreement with
+the District of Massachusetts. Ja; Rule 11 Hr'g Tr., Dkt. No. 91, at 6-7.
+
+The Rhode Island proffer agreement permitted derivative use of Kumar's
+
+----- PDF PAGE 13 -----
+Case: 26-1250 Document: 00118496192 Page: 13. Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+statements and authorized their use against him in prosecutions for false
+statements. Dkt. No. 122-1 (Proffer Letter) {J 1, 3. No equivalent
+protection governed the Massachusetts sessions.
+
+At the February 27, 2020 meeting in Boston — the final and
+dispositive proffer session — AUSA Basil, the lead Massachusetts
+prosecutor, was personally present alongside federal investigators. Dkt.
+No. 122-2 3. It was at this session that Kumar made statements the
+government characterized as false. Jd. After the meeting, Kumar stopped
+
+cooperating and federal agents began investigating Kumar as a target. Id.
+
+B. The Government's Decision to Charge — and Its Decision to Wait
+
+The February 27, 2020 meeting gave the government the evidentiary
+foundation for the Massachusetts indictment. By June 2020, Kumar's own
+counsel confirmed to AUSA Basil that Kumar faced likely Massachusetts
+prosecution. Dkt. No. 122 at 4. By September 2020, Kumar knew
+Massachusetts intended to charge him. Jd The government filed no
+complaint, sought no indictment, and took no charging action in
+Massachusetts for the next fourteen months.
+
+The government's own prosecutor later explained this under oath.
+AUSA Basil stated in his affidavit submitted in support of the
+government's § 2255 opposition: 'Although I had intended to charge him
+
+with a co-conspirator later in the year, I sought and obtained a criminal
+
+----- PDF PAGE 14 -----
+Case: 26-1250 Document: 00118496192 Page:14 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+complaint in May to arrest him before he was removed from the United
+
+States by ICE.’ Dkt. No, 122-2 7 8.
+
+C. The Rhode Island Conviction and Its Sentencing Consequences
+
+On October 21, 2020, the Rhode Island U.S. Attorney filed an Information
+charging Kumar with seven counts of wire fraud, conspiracy, and
+aggravated identity theft. RI-ECF 14. Kumar waived indictment and
+pleaded guilty unconditionally on November 5, 2020. RI-ECF 16, 17. On
+February 12, 2021, the Rhode Island district court sentenced Kumar to 24
+months of imprisonment. RI-ECF 27. Kumar was a non-citizen subject to
+deportation upon completion of his sentence — a fact known to everyone
+in the courtroom on February 12, 2021.
+
+The Rhode Island conviction carried three criminal history points
+under U.S.S.G. § 4A1.1(a), placing Kumar in Criminal History Category II
+for purposes of any future federal sentencing. Dkt. No. 130 at 6 (citing
+PSR {| 67-69). Had the Massachusetts conduct been charged
+simultaneously with or prior to the Rhode Island conviction, Kumar would
+have had no criminal history and would have been sentenced as a CHC I
+defendant. Dkt. No. 96 (Def.'s Sent. Mem.) at 7. The difference between
+CHC I and CHC II at offense level 27 is a Guidelines floor of 70 months
+versus 87 months — a 17-month differential built mechanically into the
+
+Guidelines table.
+
+----- PDF PAGE 15 -----
+Case: 26-1250 Document: 00118496192 Page:15 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+D. Kumar Seeks Correction of His Sentence — The Massachusetts
+
+Complaint Follows
+
+On March 24, 2021, Kumar filed a pro se letter with the Rhode Island
+district court, noting a discrepancy between his sentence and the BOP's
+calculation of his release date. RI-ECF 30. The court convened a chambers
+conference and on March 31, 2021 issued a Text Order confirming that the
+original February 12 judgment contained a clerical error — it had stated
+‘time served as to Counts 1-5' when the court had actually imposed one day
+on those counts. RI-ECF (Text Order, Mar. 31, 2021). On April 1, 2021,
+the amended judgment was entered. RI-ECF 31.
+
+On May 7, 2021, Kumar was released from BOP custody to an
+Immigration and Customs Enforcement detainer. Dkt. No. 130 at 5 (citing
+PSR J 67). May 7 was Kumar's birthday. He had completed every day of
+his lawfully imposed Rhode Island sentence. He was in ICE custody and
+facing deportation — a consequence the government had known would
+occur since February 12, 2021.
+
+On May 12, 2021 — the same day AUSA Basil learned Kumar had
+been released from BOP custody — the government filed a criminal
+complaint in the District of Massachusetts. Dkt. No. 4; Dkt. No. 122-2 4 8.
+On May 13, 2021, while in immigration custody, Kumar was arrested on
+
+the Massachusetts charges. Dkt. No. 130 at 5.
+
+----- PDF PAGE 16 -----
+Case: 26-1250 Document: 00118496192 Page:16 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+E. The Massachusetts Indictment, Plea, and Sentence
+
+On May 17, 2021, a grand jury indicted Kumar on three counts: conspiracy
+to smuggle misbranded drugs into the United States in violation of 21
+US.C. § 846; conspiracy to distribute controlled substances in violation of
+21 U.S.C. § 846; and making false statements in violation of 18 U.S.C. §
+1001(a)(2). Dkt. No. 8; Dkt. No. 130 at 4. The false statement count arose
+directly from Kumar's February 27, 2020 proffer session conducted
+without Massachusetts proffer protection. Dkt. No. 122 at 3; Dkt. No.
+122-2 93.
+
+Kumar's first two appointed attorneys each declined to file a motion
+to dismiss. Dkt. No. 122 at 5. Proceeding pro se with standby counsel,
+Kumar filed a motion to dismiss on February 28, 2022, raising double
+jeopardy, vindictive prosecution, and preindictment delay. Dkt. No. 58.
+Standby counsel Attorney Fasoldt filed a supplemental motion on May 12,
+2022, adding an improper successive prosecution claim. Dkt. No. 75.
+
+In September 2022, Kumar withdrew the motion to dismiss and
+sought a Rule 11 hearing. Dkt. No. 83. Kumar later explained in a letter to
+the court that he withdrew because he believed his Guidelines sentencing
+range was only 15 to 20 months. Jd. On October 6, 2022, Kumar pleaded
+guilty to all three counts unconditionally and without a plea agreement.
+
+Dkt. No. 86; Rule 11 Hr'g Tr., Dkt. No. 91.
+
+----- PDF PAGE 17 -----
+Case: 26-1250 Document: 00118496192 Page:17 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+The final Presentence Report calculated a Guidelines range of 87 to
+108 months, based on a loss amount of $3,500,000 under the fraud
+cross-reference and a CHC II designation from the Rhode Island
+conviction. Dkt. No. 130 at 5-6 (citing PSR J] 67-69). At sentencing,
+counsel argued that sequential prosecution — first Rhode Island, then
+Massachusetts — was the sole cause of the CHC II designation, and that
+had the cases been prosecuted together Kumar would have been sentenced
+as CHC I. Dkt. No. 96 at 7; Sent. Hr'g Tr., Dkt. No. 111, at 41-45. Counsel
+asked the court to 'categorize at least under fairness and equity Kumar as a
+Criminal History Category I.' Sent. Hr'g Tr., Dkt. No. 111, at 43.
+
+The court sentenced Kumar to 87 months of imprisonment — the
+floor of the CHC II Guidelines range —- along with 36 months of
+supervised release and a $100,000 fine. Judgment, Dkt. No. 102; Dkt. No.
+130 at 8. At the hearing, the court stated that it had considered imposing a
+sentence of 72 months — below the CHC II floor and within the CHC I
+range — until Kumar made a statement during allocution that the court
+found inconsistent with his guilty plea. Sent. Hr'g Tr., Dkt. No. 111, at 50;
+Dkt. No. 130 at 8.
+
+10
+
+----- PDF PAGE 18 -----
+Case: 26-1250 Document: 00118496192 Page:18 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+F. The Direct Appeal
+
+Kumar appealed, challenging the application of the fraud cross-reference
+under U.S.S.G. § 2N2.1 and the loss amount calculation. Dkt. No. 104. On
+August 12, 2024, the First Circuit affirmed. Dkt. Nos. 117, 118.
+
+G. The § 2255 Motion and the District Court's Denial
+
+On. October 24, 2024, Kumar filed a pro se motion to vacate under 28
+U.S.C. § 2255, raising three grounds: ineffective assistance of counsel,
+vindictive prosecution, and unconstitutional preindictment delay. Dkt. No.
+120. The government opposed. Dkt. No. 122. In support of its opposition,
+the government submitted an affidavit from AUSA Kriss Basil, the lead
+Massachusetts prosecutor. Dkt. No. 122-2.
+
+Basil's affidavit disclosed three facts central to this appeal. First, he
+had opened the Massachusetts investigation in 2019 and personally
+attended the February 2020 Boston meeting. Dkt. No. 122-2 4 2-3.
+Second, he was aware of Kumar's Rhode Island guilty plea, sentencing,
+and the subsequent correction of the clerical error in the Rhode Island
+judgment. Jd. § 6. Third — and most significantly — he had already
+decided to charge Kumar and ‘intended to charge him with a
+co-conspirator later in the year,’ but moved immediately upon learning of
+Kumar's BOP release on May 12, 2021, to ‘arrest him before he was
+
+removed from the United States by ICE." Id. J 8.
+
+11
+
+----- PDF PAGE 19 -----
+Case: 26-1250 Document: 00118496192 Page:19 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+On August 28, 2025, the district court denied the § 2255 motion.
+Dkt. No. 130. The district court denied the IAC claims on the merits,
+finding no deficient performance and no prejudice. Jd. at 13-16. It denied
+the vindictive prosecution and preindictment delay claims as waived and,
+in the alternative, as meritless. Ja. at 16-22. On the prejudice prong of the
+preindictment delay claim, the district court held that because 87 months
+falls within the overlapping Guidelines ranges for CHC I and CHC II at
+offense level 27, no prejudice resulted from the CHC II designation. /d. at
+21. The district court did not address the sentencing court's own 72-month
+pre-allocution statement as evidence that the CHC elevation had actual
+sentencing consequence. The district court issued a Certificate of
+Appealability sua sponte, noting the ‘unusual facts of this case.’ Jd. at
+
+21-22.
+
+12
+
+----- PDF PAGE 20 -----
+Case: 26-1250 Document: 00118496192 Page:20 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+SUMMARY OF ARGUMENT
+
+Manish Kumar is serving 87 months in federal prison for drug trafficking
+offenses prosecuted in Massachusetts. The government had complete
+knowledge of the Massachusetts conduct from the day it began — August
+2019 — when Kumar participated in proffer sessions with Massachusetts
+FBI agents in Boston. It did not charge him. It waited while Kumar was
+convicted and sentenced in Rhode Island. It waited while Kumar served
+every day of that sentence. It waited while Kumar was released to ICE
+custody on May 7, 2021 — his birthday — and began deportation
+proceedings. Then, on May 12, 2021, the same day AUSA Basil learned
+Kumar had been released from federal prison, the government filed a
+complaint in the District of Massachusetts. Kumar was arrested out of ICE
+custody on May 13 — six days after completing his Rhode Island
+sentence.
+
+The government's own prosecutor explained the timing under oath.
+AUSA Basil stated that he had already decided to charge Kumar and ‘had
+intended to charge him with a co-conspirator later in the year,' but moved
+when he did to arrest Kumar ‘before he was removed from the United
+States by ICE.’ Dkt. No. 122-2 § 8. The government had known since
+February 12, 2021 — the date of Kumar's Rhode Island sentencing — that
+Kumar would be deported upon completing that sentence. Nothing about
+
+the ICE consequence was new on May 12. Nothing about the investigation
+
+13
+
+----- PDF PAGE 21 -----
+Case: 26-1250 Document: 00118496192 Page: 21 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+changed between February and May. The case was ready to charge. The
+charging decision had been made. The only thing that changed on May 12
+was Kumar's custodial status.
+
+What the government's timing strategy accomplished is documented
+in the record with mathematical precision. Kumar's Rhode Island
+conviction produced three criminal history points, placing him in Criminal
+History Category I. Had he been charged in Massachusetts before the
+Rhode Island conviction was final — as he could have been — he would
+have been sentenced as a CHC I defendant with no prior criminal history.
+The difference is a Guidelines floor of 70 months versus 87 months. The
+sentencing court itself confirmed the consequence: it stated that until
+Kumar's allocution, it had ‘considered imposing a sentence of 72 months.’
+Sent. Hr'g Tr., Dkt. No. 111, at 50. Under Glover v. United States, 531
+U.S. 198, 203 (2001), any non-trivial increment of additional incarceration
+is constitutionally cognizable prejudice as a matter of law.
+
+This appeal presents three grounds for reversal, each independently
+sufficient.
+
+First — the threshold question. The district court held Kumar's
+Fifth Amendment claims waived. That ruling was error on three
+independent grounds. Class v. United States, 583 U.S. 174 (2018), directly
+preserves Kumar's vindictive prosecution claim — the Court identified
+
+Blackledge v. Perry, 417 U.S. 21 (1974), as the paradigm case surviving an
+
+14
+
+----- PDF PAGE 22 -----
+Case: 26-1250 Document: 00118496192 Page:22 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+unconditional plea, and vindictive prosecution is that paradigm. Class also
+provides the principled framework for preserving Kumar's preindictment
+delay claim, which — unlike conventional investigative-delay claims —
+challenges the government's authority to exercise its prosecutorial power
+in a manner deliberately designed to manufacture punishment.
+Independently, counsel's constitutionally deficient advice — a Guidelines
+estimate of 15 to 20 months against an actual range of 87 to 108 months —
+provides cause and prejudice under Murray v. Carrier, 477 U.S. 478
+(1986), to excuse any procedural default. And the withdrawal of the
+motion to dismiss, induced by that five-fold underestimate, cannot
+constitute the knowing and intelligent relinquishment Johnson v. Zerbst,
+304 USS. 458 (1938), requires.
+
+Second — the constitutional merits. The government's deliberate
+prosecution sequencing violated Kumar's Fifth Amendment right to due
+process through two doctrinal expressions of the same constitutional
+violation. As preindictment delay: the government had complete
+investigative knowledge, had made the charging decision, and waited —
+not to investigate, but to ensure the Rhode Island conviction would accrue
+as criminal history and the window for concurrent sentencing would close.
+Basil's own affidavit eliminates the Lovasco safe harbor. As vindictive
+prosecution: the complaint was filed the day Basil learned Kumar had been
+
+released, six days after Kumar completed his sentence and was transferred
+
+15
+
+----- PDF PAGE 23 -----
+Case: 26-1250 Document: 00118496192 Page:23 Date Filed: 08/24/2026 — Entry ID: 6836756
+
+to ICE. The government's sequencing strategy structurally disabled the
+sentencing court's ability to impose a sentence sufficient but not greater
+than necessary, by splitting what should have been a single consolidated
+prosecution into two proceedings no single court could evaluate as a
+whole. Kumar was arrested on August 27, 2019. His projected release date
+is August 26, 2027 — exactly eight years of continuous federal custody for
+a defendant with no prior criminal history, stemming from a single arrest.
+The 24 months served in Rhode Island and the 87 months being served in
+Massachusetts total 102 months of de facto consecutive federal custody.
+According to the United States Sentencing Commission's Judiciary
+Sentencing Information for fiscal years 2021-2025, defendants sentenced
+under § 2B1.1 at offense level 27 in Criminal History Category I — where
+Kumar would have been in a consolidated prosecution — received a
+median sentence of 48 months. Kumar is serving 102 months: more than
+double the median. Even in his artificially inflated CHC II cell, the median
+is 66 months. Kumar's Massachusetts sentence alone exceeds that by 21
+months — and he received no departure or variance. Compare United
+States v. Ihenacho, 716 F.3d 266, 269 (1st Cir. 2013) (comparable conduct
+prosecuted in single indictment; defendant sentenced to 63 months).
+
+Third — ineffective assistance of counsel. Counsel failed Kumar
+at every stage at which he could have been protected. He allowed Kumar
+
+to participate in eleven proffer sessions — conducted in Boston, with
+
+16
+
+----- PDF PAGE 24 -----
+Case: 26-1250 Document: 00118496192 Page:24 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+Massachusetts FBI agents, culminating in a session personally attended by
+the lead Massachusetts prosecutor — without securing Massachusetts
+proffer protection. Those sessions provided the evidentiary foundation for
+the prosecution. He estimated a Guidelines range five times below the
+actual range, inducing Kumar to abandon a motion to dismiss he had
+fought for through two attorneys and a Faretta hearing. And at sentencing,
+
+_ he argued for a below-Guidelines sentence to account for the sequential
+prosecution consequences without providing the Guidelines vehicle that
+would have allowed the court to get there: a § 5K2.23 departure motion
+grounded in the Sentencing Commission's own text and commentary.
+Under Glover, every additional month of incarceration flowing from these
+failures is Sixth Amendment prejudice as a matter of law.
+
+The district court issued a Certificate of Appealability sua sponte,
+acknowledging the ‘unusual facts of this case.' Dkt. No. 130 at 21-22. This
+Court should reverse the denial of Kumar's § 2255 motion and remand
+with instructions to vacate his conviction and sentence, or alternatively to
+
+conduct the evidentiary hearing the district court denied.
+
+17
+
+----- PDF PAGE 25 -----
+Case: 26-1250 Document: 00118496192 Page:25 Date Filed: 08/24/2026 —_Entry ID: 6836756
+
+ARGUMENT
+
+L KUMAR'S FIFTH AMENDMENT CLAIMS REACH THE
+MERITS.
+
+The district court held Kumar's vindictive prosecution and preindictment
+delay claims waived. Dkt. No. 130 at 16-17. That ruling was error. Three
+independent grounds establish that both claims reach the merits: Class v.
+United States preserves them; counsel's constitutionally deficient
+performance provides cause and prejudice to excuse any default; and the
+withdrawal of the motion to dismiss cannot constitute a knowing and
+intelligent waiver where it was induced by a materially inaccurate
+
+Guidelines estimate.
+
+18
+
+----- PDF PAGE 26 -----
+Case: 26-1250 Document: 00118496192 Page:26 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+A. Class v. United States Directly Preserves the Vindictive Prosecution
+Claim and Provides the Principled Framework for Extending
+
+Preservation to the Preindictment Delay Claim.
+
+1. What Class Actually Held — and What It Did Not.
+
+Class v. United States, 583 U.S. 174 (2018), held that an unconditional
+guilty plea does not bar a defendant from raising claims that challenge ‘the
+Government's power to criminalize [the defendant's] admitted conduct' and
+thereby 'call into question the Government's power to "constitutionally
+prosecute him." Jd. at 185 (quoting United States v. Broce, 488 U.S. 563,
+575 (1989)). The Court distinguished such claims from ‘antecedent
+constitutional violations’ waived under Tollett v. Henderson, 411 U.S. 258,
+266-67 (1973) — trial-process errors that do not go to the government's
+authority to prosecute. Class, 583 U.S. at 183.
+
+Kumar acknowledges what Class involved: a facial challenge to the
+constitutionality of the statute of conviction. The statutes under which
+Kumar was convicted are unquestionably valid. He does not challenge
+them. But Class's holding was not limited to facial statutory challenges.
+The Court rooted its analysis in the Menna-Blackledge line and
+specifically identified Blackledge v. Perry, 417 U.S. 21 (1974), as the
+paradigm of a surviving claim. Class, 583 U.S. at 181-82. Blackledge did
+not involve a facial statutory challenge. It involved a claim that the
+
+government's conduct in bringing charges — escalating from misdemeanor
+
+19
+
+----- PDF PAGE 27 -----
+Case: 26-1250 Document: 00118496192 Page:27 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+to felony after Perry exercised. his right to appeal — constitutionally
+forfeited its authority to prosecute him at all. Blackledge, 417 U.S. at
+28-30. The operative test from Class is whether the claim goes to 'the very
+power of the State to prosecute.' 583 U.S. at 181 (quoting Blackledge, 417
+USS. at 30).
+
+2. Vindictive Prosecution: Direct Class Application, Not
+
+Extension.
+
+Kumar's vindictive prosecution claim is not an extension of Class. It is its
+direct application. Class identified Blackledge — a vindictive prosecution
+case — as the paradigm surviving claim precisely because vindictive
+prosecution goes to the government's authority to prosecute, not to the
+faimess of the trial process. A defendant who establishes vindictive
+prosecution establishes that the government brought charges as a penalty
+for his exercise of a constitutional right, thereby forfeiting any legitimate
+authority to prosecute him at all. Blackledge, 417 U.S. at 28-29.
+
+The Supreme Court confirmed this in Wolfe v. Virginia, 139 S. Ct.
+790 (2019), vacating a state court's refusal to reach a Blackledge vindictive
+prosecution claim notwithstanding the defendant's guilty plea and
+remanding for reconsideration in light of Class. Even before Class, courts
+recognized vindictive prosecution as categorically different from ordinary
+pre-plea constitutional violations. See United States v. De Vaughn, 694
+F.3d 1141, 1145-46 (10th Cir. 2012) (pre-Class, recognizing that a ‘narrow
+
+20
+
+----- PDF PAGE 28 -----
+Case: 26-1250 Document: 00118496192 Page:28 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+exception exists’ for 'due process claims for vindictive prosecution’ that
+survive a guilty plea under Blackledge). The Fifth Circuit in United States
+v. Riojas, No. 24-40378 (Sth Cir. 2025), listed vindictive prosecution
+among recognized Class survivors.
+
+This Court has not directly addressed the question, but its MDLEA
+decisions supply the answer. In United States v. Davila-Reyes, 84 F Ath
+400, 415-16 (1st Cir. 2023) (en banc), the court presumed that
+constitutional: challenges to the government's prosecutorial authority
+survived unconditional pleas under Class. The principle stated there —
+that claims calling into question the government's ‘power to
+"constitutionally prosecute" the defendant’ reach the merits — compels the
+same result here. Vindictive prosecution is the Class paradigm case. This
+
+Court should so hold.
+
+3. Preindictment Delay: A Principled Extension This Court
+Should Adopt.
+
+Kumar's preindictment delay claim presents a harder question and he
+acknowledges it candidly. Most preindictment delay claims turn on
+evidentiary prejudice: lost witnesses, faded memories, destroyed evidence.
+Such claims are analytically closer to ‘antecedent constitutional violations'
+under Tollett, because they go to the fairness of the trial process rather than
+to the government's authority to prosecute. Even De Vaughn described the
+
+Blackledge/Menna exception as ‘narrow.' 694 F.3d at 1145-46.
+
+21
+
+----- PDF PAGE 29 -----
+Case: 26-1250 Document: 00118496192 Page:29 Date Filed: 08/24/2026 —_Entry ID: 6836756
+
+Kumar nonetheless submits that this Court should extend Class to
+his preindictment delay claim, and that the extension is principled and
+limited. Kumar does not argue that the delay cost him evidence or
+witnesses. He argues that the government deliberately structured its
+prosecution timing — holding Massachusetts charges in reserve while
+Kumar served his Rhode Island sentence — for the specific purpose of
+manufacturing a criminal history enhancement and foreclosing concurrent
+sentencing. That claim does not go to trial fairness. It goes to whether the
+government's deliberate manipulation of prosecutorial timing to maximize
+punishment constitutionally forfeited its authority to proceed in that
+manner.
+
+Framed that way, the claim is structurally indistinguishable from
+Blackledge vindictiveness. In Blackledge, the government's misconduct
+was escalating charges in response to the exercise of a right. Here, the
+government's misconduct was deliberately timing charges to engineer a
+sentencing enhancement. Both claims assert that the government's
+prosecutorial conduct — independent of the merits of the underlying
+charges — stripped it of constitutional authority to proceed as it did. Both
+can be resolved on the face of the record without contradicting the factual
+admissions of the plea. Both go to the government's power to prosecute,
+
+not to the defendant's guilt.
+
+22
+
+----- PDF PAGE 30 -----
+Case: 26-1250 Document: 00118496192 Page:30 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+United States v. Chavez-Diaz's contrary holding does not withstand
+scrutiny and this Court should reject it. 949 F.3d 1202, 1206-07 (9th Cir.
+2020). The Ninth Circuit reasoned that all preindictment delay claims are
+inherently evidentiary and fact-bound, making them categorically
+equivalent to antecedent constitutional violations under Jollett. But that
+reasoning misreads the doctrinal foundation Class established. Class drew
+the survival line not at statutory facial challenges but at claims going to the
+government's power to prosecute. Class, 583 U.S. at 181. Chavez-Diaz
+collapsed Class's conduct-based analysis back into the pre-Class
+framework Class was designed to supersede. A decision that misreads the
+doctrinal predicate of the controlling Supreme Court authority is not
+persuasive and this Court should reject it.
+
+Alternatively, even accepting Chavez-Diaz on its own terms, it is
+factually and analytically distinguishable. Chavez-Diaz addressed a
+conventional investigative delay claim — the government took time to
+build its case and the defendant alleged the passage of time prejudiced his
+trial defense. Kumar's claim is categorically different in two respects.
+
+First, Kumar does not allege the delay impaired his ability to defend
+at trial. He alleges the government made a deliberate prosecutorial
+decision — confirmed by the government's own sworn affidavit — to time
+its charges specifically to manufacture a criminal history enhancement
+
+after having already decided to prosecute him. That is a claim about the
+
+23
+
+----- PDF PAGE 31 -----
+Case: 26-1250 Document: 00118496192 Page:31 Date Filed: 08/24/2026 —_Entry ID: 6836756
+
+government's authority to exercise its prosecutorial power in that manner,
+not a trial-process complaint.
+
+Second, and critically, this case implicates a dimension Chavez-Diaz
+never considered. Congress commanded in 18 U.S.C. § 3553(a) that
+sentencing courts impose sentences ‘sufficient, but not greater than
+necessary’ to achieve the purposes of punishment. That command
+presupposes the court is operating with an accurate picture of the
+defendant's total punishment. The government's sequential prosecution
+strategy made that structurally impossible. Had the conduct been
+prosecuted simultaneously, a single sentencing court would have applied §
+5G1.3's coordination requirement, evaluated the aggregate punishment
+against § 3553(a)'s parsimony command, and produced a reviewable
+sentencing determination. Instead, the government's sequencing produced
+two separate docket entries in two separate districts — a 24-month Rhode
+Island sentence and an 87-month Massachusetts sentence — with an
+aggregate of 111 months that no single court, no Sentencing Commission
+report, and no congressional disparity analysis could evaluate as‘a whole.
+
+The government also had institutional obligations counseling
+consolidation. The Department of Justice's Principles of Federal
+Prosecution — the Petite policy — generally disfavors sequential federal
+prosecutions of the same defendant for conduct arising from the same
+
+transaction. The First Circuit recognized in United States v. Stokes, 124
+
+24
+
+----- PDF PAGE 32 -----
+Case: 26-1250 Document: 00118496192 Page:32 Date Filed: 08/24/2026 —_Entry ID: 6836756
+
+F.3d 39, 41 n.J (1st Cir. 1997), that the government sought a Petite policy
+waiver specifically because sequential prosecution of related conduct is the
+exception, not the rule. Federal Rule of Criminal Procedure 8 permits
+joinder of related offenses precisely to avoid duplicative proceedings and
+their sentencing consequences. The Sentencing Commission in
+Amendment 660 to U.S.S.G. § 5G1.3 stated its purpose as mitigating 'the
+possibility that the fortuity and timing of separate prosecutions will grossly
+increase the defendant's sentence.’ The government's deliberate departure
+from consolidation norms — with complete knowledge of both sets of
+conduct — defeated every mechanism Congress and the Commission built
+to ensure proportionate punishment.
+
+This Court should reject Chavez-Diaz as wrongly decided on its
+Class analysis, and distinguish it as analytically inapposite to the question
+Kumar presents. The limiting principle is workable: survival under Class
+is available for preindictment delay claims asserting the government
+deliberately abused its prosecutorial power to inflict punishment — not for
+garden-variety investigative delay claims that turn on_ trial-process
+
+prejudice.
+
+25
+
+----- PDF PAGE 33 -----
+Case: 26-1250 Document: 00118496192 Page:33 Date Filed: 08/24/2026 —_Entry ID: 6836756
+
+B. Alternatively, Counsel's Constitutionally Deficient Performance
+
+Provides Cause and Prejudice to Excuse Any Procedural Default.
+
+Murray v. Carrier, 477 U.S. 478, 488 (1986), held that attorney error
+constituting a constitutional violation under Strickland establishes ‘cause'
+sufficient to excuse procedural default. In Lynch v. Ficco, 438 F.3d 35,
+49-50 (1st Cir. 2006), this Court held that a petitioner who satisfies
+Strickland prejudice simultaneously satisfies the Frady actual prejudice
+requirement, collapsing both inquiries into one when IAC is the gateway.
+
+As demonstrated in Argument III below, counsel committed two
+independent constitutional violations. First, he failed to secure
+Massachusetts proffer protection before Kumar participated in sessions
+that became the evidentiary foundation of his prosecution. Second, he
+advised Kumar that his Guidelines exposure was 15 to 20 months when his
+actual range was 87 to 108 months — a five-fold underestimate that
+directly caused Kumar to withdraw a pending motion to dismiss raising the
+precise constitutional claims at issue here.
+
+The withdrawal was not a knowing strategic choice. It was the direct
+product of constitutionally deficient advice that deprived Kumar of any
+accurate understanding of what he was surrendering. A defendant who
+abandons a potentially meritorious constitutional defense based on advice
+that his sentencing exposure is one-fifth its actual magnitude has not made
+
+the kind of deliberate, informed judgment that procedural default rules are
+
+26
+
+----- PDF PAGE 34 -----
+Case: 26-1250 Document: 00118496192 Page:34 Date Filed: 08/24/2026 —_Entry ID: 6836756
+
+designed to enforce. The reasonable probability that accurate advice would
+have produced a different decision — continued pursuit of the motion to
+dismiss —- is not merely sufficient. It is the only inference the record
+supports. This gateway is fully independent of the Class analysis and
+provides an independent path to the merits of Argument II regardless of
+
+how this Court resolves the first-impression question.
+
+C. The Withdrawal Cannot Constitute a Knowing and Voluntary
+
+Waiver Under Zerbst.
+
+The district court held that Kumar waived his constitutional claims by
+filing and then withdrawing his motion to dismiss. Dkt. No. 130 at 16-17
+(citing United States v. Concepcion-Guliam, 62 F.4th 26, 31 (1st Cir.
+2023)). That holding rests on a misapplication of the waiver standard.
+
+Johnson v. Zerbst, 304 U.S. 458, 464 (1938), requires that waiver of
+a constitutional right be 'an intentional relinquishment or abandonment of a
+known right or privilege.’ Courts must ‘indulge every reasonable
+presumption against waiver of fundamental constitutional rights.’ Jd.
+Whether waiver occurred 'must depend, in each case, upon the particular
+facts and circumstances surrounding that case.' Jd.
+
+Concepcion-Guliam does not resolve this question. That case held
+that a knowing, counseled withdrawal of a pretrial motion constitutes
+
+waiver. It did not address — and expressly did not decide — whether a
+
+27
+
+----- PDF PAGE 35 -----
+Case: 26-1250 Document: 00118496192 Page:35 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+withdrawal induced by materially inaccurate advice about sentencing
+consequences satisfies Zerbst's knowing-and-intelligent standard. That is a
+question of first impression.
+
+The Brady-McMann-Tollett line answers it. A waiver is ‘intelligent’
+only if made 'by one fully aware of the direct consequences’ of the
+decision. Brady v. United States, 397 U.S. 742, 755 (1970). A plea — and
+by extension a pre-plea waiver of constitutional defenses — is not
+knowing if counsel's advice 'ffe]ll below the range of competence
+demanded of attorneys in criminal cases.' McMann v. Richardson, 397
+US. 759, 770-71 (1970). Lee v. United States, 582 U.S. 357, 364-65
+(2017), confirmed that erroneous advice on the consequences of
+proceeding can negate the voluntariness of the resulting decision.
+
+Kumar withdrew the motion to dismiss believing his Guidelines
+exposure was 15 to 20 months. His actual exposure was 87 to 108 months.
+No defendant with accurate information about a potential 87-month
+sentence — after having fired two lawyers to pursue a constitutional
+motion to dismiss — would voluntarily abandon that motion. The disparity
+between what Kumar was told and what was true is not a matter of degree.
+It is a structural defect in the knowing-and-intelligent predicate Zerbst
+requires. This Court should hold that a withdrawal induced by a Guidelines
+estimate that understates actual exposure by a factor of five does not
+
+satisfy Zerbst's standard — a question of first impression compelled by the
+
+28
+
+----- PDF PAGE 36 -----
+Case: 26-1250 Document: 00118496192 Page:36 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+Brady-McMann-Tollett line.
+
+29
+
+----- PDF PAGE 37 -----
+Case: 26-1250 Document: 00118496192 Page:37 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+I. THE GOVERNMENT'S DELIBERATE SEQUENTIAL
+PROSECUTION VIOLATED KUMAR'S FIFTH AMENDMENT
+RIGHT TO DUE PROCESS.
+
+A. Standard of Review.
+
+This Court reviews the district court's denial of Kumar's § 2255 motion de
+novo as to legal conclusions and for clear error as to factual findings.
+Damon v. United States, 732 F.3d 1, 3 (1st Cir. 2013). The district court's
+holding that Kumar suffered no cognizable prejudice from the CHC
+elevation is a legal conclusion about the scope of the Marion/Lovasco
+prejudice prong — reviewed de novo. The district court's acceptance of the
+government's investigative-delay justification presents a mixed question in
+which the controlling issue — whether the Basil affidavit's admissions
+defeat the Lovasco safe harbor — is a legal conclusion reviewed de novo.
+The district court explicitly incorporated the government's reasoning by
+reference, Dkt. No. 130 at 1, confirming that its legal conclusions are
+coextensive with the government's arguments and subject to this Court's
+
+independent review.
+
+30
+
+----- PDF PAGE 38 -----
+Case: 26-1250 Document: 00118496192 Page:38 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+B. The Consolidated Fifth Amendment Violation.
+
+Kumar's vindictive prosecution and preindictment delay claims are not two
+separate constitutional grievances. They are two doctrinal expressions of a
+single Fifth Amendment violation rooted in the government's deliberate
+prosecutorial sequencing. strategy. Vindictive prosecution supplies the
+motive evidence. Preindictment delay supplies the constitutional
+framework for relief. The two analyses reinforce each other and are
+presented together because the evidence establishing bad faith under the
+vindictive prosecution doctrine simultaneously defeats the Lovasco
+investigative-delay safe harbor that is the government's only available
+
+defense.
+
+31
+
+----- PDF PAGE 39 -----
+Case: 26-1250 Document: 00118496192 Page:39 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+C. Preindictment Delay.
+
+1. The Governing Standard.
+
+The Fifth Amendment's Due Process Clause protects against oppressive
+preindictment delay. United States v. Marion, 404 U.S. 307, 324 (1971);
+United States v. Lovasco, 431 U.S. 783, 789 (1977). In the First Circuit, a
+defendant must establish substantial actual prejudice and intentional delay
+to gain a tactical advantage. United States v. Irizarry-Col6én, 848 F.3d 61,
+70-71 (1st Cir. 2017). Lovasco established that delay for legitimate —
+investigative purposes does not violate due process even if prejudice
+results. 431 U.S. at 795-96. But Lovasco expressly reserved the case of
+delay 'solely to gain tactical advantage over the accused’ —— the precise
+scenario Marion identified as the constitutional violation. Lovasco, 431
+US. at 795 (quoting Marion, 404 U.S. at 324). This case presents that
+
+reserved scenario in its purest form.
+
+2. The Government's Delay Was Not Investigative — The Basil
+Affidavit Proves It.
+
+The government's standard defense to a preindictment delay claim is the
+
+Lovasco safe harbor: it was still investigating. That defense is unavailable
+
+here because the government's own prosecutor eliminated it under oath.
+AUSA Basil stated in his affidavit: ‘Although I had intended to
+
+charge him with a co-conspirator later in the year, I sought and obtained a
+
+32
+
+----- PDF PAGE 40 -----
+Case: 26-1250 Document: 00118496192 Page:40 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+criminal complaint in May to arrest him before he was removed from the
+United States by ICE.' Dkt. No. 122-2 4 8. Three admissions embedded in
+that single sentence defeat the Lovasco safe harbor entirely.
+
+First: Basil had already decided to charge Kumar. ‘Intended to
+charge’ is not the language of an ongoing investigation — it is the language
+of a made decision awaiting execution. Lovasco protects delay to complete
+investigation. It does not protect delay after the charging decision is made.
+
+Second: The timing was entirely within Basil's control. He planned
+to charge Kumar ‘later in the year' — on his own schedule, coordinated
+with a co-conspirator prosecution. That is prosecutorial convenience, not
+investigative necessity. Lovasco explicitly distinguishes between these.
+431 USS. at 795 0.17.
+
+Third: The actual trigger for the May 12 filing was not a new
+investigative development. It was Kumar's release from BOP custody. The
+investigation did not suddenly conclude on May 12. Nothing changed
+about the evidence. The only thing that changed was Kumar's custodial
+status.
+
+The affidavit internally contradicts itself. Paragraph 5 asserts the
+investigation was ‘significantly hampered by the COVID-19 pandemic’ and
+actively continued through 'spring 2021.’ Dkt. No. 122-2 § 5. But
+paragraph 8 reveals Basil had already decided to charge Kumar and was
+
+planning the filing timeline around co-conspirator coordination. Jd. § 8. An
+
+33
+
+----- PDF PAGE 41 -----
+Case: 26-1250 Document: 00118496192 Page: 41 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+investigation genuinely still underway does not produce a filing schedule
+built around co-conspirator timing. The COVID justification and the
+co-conspirator timing plan are mutually inconsistent. The Lovasco safe
+harbor requires a genuine investigative justification — not a post-hoc
+rationalization contradicted by the prosecutor's own contemporaneous
+account of his actual decision-making.
+
+Finally, the-government had complete prosecutorial knowledge from
+the proffer sessions. The eleven sessions conducted between August 2019
+and February 27, 2020 gave the government every fact underlying the
+Massachusetts indictment. Dkt. No. 130 at 3 (citing PSR {ff 10, 40).
+Lovasco expressly reserved the case of a government that 'had complete
+knowledge’ and delayed ‘solely to gain tactical advantage.' 431 U.S. at 795
+(quoting Marion, 404 U.S. at 324). That is this case.
+
+3. The Prejudice: Deliberately Engineered, Not Incidental.
+
+The district court held that Kumar suffered no cognizable prejudice from
+the CHC elevation because 87 months falls within the overlapping
+Guidelines ranges for CHC I and CHC II at offense level 27. Dkt. No. 130
+at 21. That analysis is legally deficient in three independent respects.
+First, the overlapping-ranges reasoning asks the wrong
+question. The Marion/Lovasco prejudice inquiry does not ask whether the
+resulting sentence could have been the same absent the delay. It asks
+
+whether the delay caused actual harm. The question is not whether 87
+
+34
+
+----- PDF PAGE 42 -----
+Case: 26-1250 Document: 00118496192 Page:42 Date Filed: 08/24/2026 —_Entry ID: 6836756
+
+months was available under CHC I — it was. The question is whether the
+CHC II designation had actual sentencing consequence. The sentencing
+court's own record answers it: the court stated it had considered imposing
+72 months — within the CHC I range and below the CHC II floor of 87
+months — until Kumar's allocution changed its calculus. Sent. Hr'g Tr.,
+Dkt. No. 111, at 50; Dkt. No. 130 at 8. The CHC II designation anchored
+the court's starting point and produced a Guidelines floor 17 months higher
+than it would have been. That is not speculative harm. It is documented
+record evidence of actual sentencing consequence, stated by the sentencing
+court itself.
+
+Second, this is not incidental sentencing prejudice — it was
+engineered. Every prior case rejecting sentencing consequences as Marion
+prejudice involved passive delay where sentencing harm was an
+unintended byproduct. The defendant in McCoy could not show concurrent
+sentences would have been ordered. United States v. McCoy, 977 F.2d
+706, 711 (ist Cir. 1992). The defendant in Stokes was asking a court to
+speculate about a sentence not yet imposed. United States v. Stokes, 124
+F.3d 39, 44 (1st Cir. 1997). Kumar's situation is categorically different.
+The government did not accidentally allow time to pass and inadvertently
+create a criminal history point. It made a deliberate decision — confirmed
+under oath by AUSA Basil — to time the Massachusetts prosecution after
+
+Kumar had fully served his Rhode Island sentence, having already decided
+
+35
+
+----- PDF PAGE 43 -----
+Case: 26-1250 Document: 00118496192 Page:43 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+to charge him and with full knowledge that the Rhode Island conviction
+would count as criminal history. The prejudice was the point, not a side
+effect.
+
+When the government engineers sentencing harm as the mechanism
+of a constitutional violation, the conventional distinction between
+trial-process prejudice and sentencing prejudice dissolves. Glover v.
+United States, 531 U.S. 198, 203-04 (2001), established that any
+non-trivial sentencing increment is constitutionally cognizable harm — the
+Court held that ‘any amount of actual jail time has Sixth Amendment
+significance' and rejected any de minimis threshold. Lafler v. Cooper, 566
+U.S. 156, 165 (2012), confirmed that sentencing is a constituent stage of
+the criminal proceeding for constitutional purposes. These principles,
+applied to deliberately engineered sentencing harm, establish that Kumar's
+prejudice — a documented minimum 17-month Guidelines floor increase
+confirmed by the sentencing court's own pre-allocution. statement —
+satisfies the Marion/Lovasco substantial prejudice standard.
+
+United States v. Cheveres-Morales, 83 F 4th 34, 43 (1st Cir. 2023),
+is directly on point. There, the First Circuit raised sua sponte a criminal
+history error that inflated the defendant's CHC from I to II — precisely the
+same elevation Kumar experienced. The court vacated the sentence,
+holding that the inflated Guidelines range infringed the defendant's
+
+substantial rights because 'the guidelines are "the starting point and the
+
+36
+
+----- PDF PAGE 44 -----
+Case: 26-1250 Document: 00118496192 Page:44 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+initial benchmark" in a sentencing proceeding. Jd. (quoting Gall v. United
+States, 552 U.S. 38, 49 (2007)); see also Molina-Martinez v. United States,
+578 U.S. 189, 204 (2016). The district court's overlapping-ranges analysis
+is irreconcilable with Cheveres-Morales: the First Circuit did not ask
+whether the ultimately imposed sentence could have been the same under
+the correct range — it asked whether the inflated range served as the
+starting point. It did here, as the sentencing court's own 72-month
+pre-allocution statement confirms.
+
+Third, the structural dimension of the prejudice amplifies its
+cognizability. The government's sequential prosecution — strategy
+structurally disabled the sentencing court's ability to fulfill its § 3553(a)
+obligation to impose a sentence sufficient but not greater than necessary.
+The government's sequencing produced two separate docket entries in two
+separate districts — a 24-month Rhode Island sentence and an 87-month
+Massachusetts sentence — with an aggregate of 111 months that no single
+court, no Sentencing Commission report, and no congressional disparity
+analysis could evaluate as a whole. The Sentencing Commission itself
+anticipated this problem. In Amendment 660 to U.S.S.G. § 5G1.3, the
+Commission stated its purpose as mitigating 'the possibility that the
+fortuity and timing of separate prosecutions will grossly increase the
+
+defendant's sentence.’
+
+37
+
+----- PDF PAGE 45 -----
+Case: 26-1250 Document: 00118496192 Page:45 Date Filed: 08/24/2026 — Entry ID: 6836756
+
+Fourth, the aggregate custodial picture and the Commission's
+own data make the prejudice impossible to minimize. Manish Kumar
+was arrested on August 27, 2019. His projected release date is August 26,
+2027 — exactly eight years of continuous federal incarceration to the day,
+stemming from a single arrest, a.single investigation, and a single course
+of conduct the government knew about in its entirety from the moment it
+began. Kumar had-no criminal history prior to that arrest. He has.been
+arrested once in his life.
+
+The government's sequencing decision converted that single arrest
+into two consecutive federal sentences — 24 months in Rhode Island
+followed immediately by 87 months in Massachusetts — producing 102
+months of continuous federal custody served as a de facto single term. Had
+the government prosecuted the related conduct in a single consolidated
+proceeding — as the Petite policy, Federal Rule of Criminal Procedure 8,
+and the Sentencing Commission's own grouping rules under U.S.S.G. §
+3D1.2 all contemplate — Kumar would have faced a single Guidelines
+calculation in a single district with a single sentence. No court would have
+sentenced Kumar to 102 consecutive months for a single consolidated
+prosecution of conduct the government knew about simultaneously from
+August 2019 forward.
+
+The United States Sentencing Commission's own data confirms the
+
+magnitude of the disparity. According to the Commission's Judiciary
+
+38
+
+----- PDF PAGE 46 -----
+Case: 26-1250 Document: 00118496192 Page:46 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+Sentencing Information for fiscal years 2021-2025, defendants sentenced
+under § 2B1.1 at offense level 27 in Criminal History Category I — the
+cell Kumar would have occupied in a consolidated prosecution — received
+a median sentence of 48 months and an average of 48 months, with 51
+percent receiving a downward departure or variance. Kumar is serving 102
+months of continuous custody — more than double the median for a
+consolidated prosecution of the same conduct. United States Sentencing
+Commission, Judiciary Sentencing Information, § 2B1.1, Offense Level
+27, CHC I (FY2021-2025), available at https://jsin.ussc.gov.
+
+Even measured against his artificially inflated CHC II cell, the
+disparity is severe. The median sentence for defendants at offense level 27
+in Criminal History Category If — Kumar's actual sentencing cell — is 66
+months, with an average of 65 months and 40 percent of defendants
+receiving a downward departure or variance. Kumar received 87 months in
+Massachusetts alone, with no departure or variance, despite the sequential
+prosecution anomaly counsel identified at sentencing. Kumar's
+Massachusetts sentence alone is 21 months above the median for his own
+sentencing cell. United States Sentencing Commission, Judiciary
+Sentencing Information, § 2B1.1, Offense Level 27, CHC II
+(FY2021-2025), available at https://jsin.ussc.gov.
+
+Compare United States v. Ihenacho, 716 F.3d 266, 269 (1st Cir.
+
+2013) (defendant prosecuted in single indictment for comparable conduct
+
+39
+
+----- PDF PAGE 47 -----
+Case: 26-1250 Document: 00118496192 Page:47 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+sentenced to 63 months). Kumar is serving 39 months more than the
+Thenacho defendant for what is, in substance, the same type of case
+prosecuted as two. The government's sequencing strategy produced every
+month of that disparity. Under Glover v. United States, 531 U.S. 198, 203
+(2001), every month is constitutionally cognizable prejudice — and under
+the Sentencing Commission's own data, the prejudice amounts to more
+than four years of incarceration beyond what similarly situated defendants
+typically receive in consolidated proceedings.
+
+Kumar raised sentencing prejudice in three forms in his § 2255
+motion —- CHC inflation, ineligibility for zero-point offender reductions,
+and foreclosure of concurrent sentencing. See Dkt. No. 122 at 15
+(government's summary of Kumar's prejudice arguments). The
+government addressed each on the merits. Jd at 15-16. The Glover
+standard and the Commission's JSIN data are legal authorities and
+statistical evidence supporting those factual theories — not new theories
+— and are properly before this Court. Pro se filings are construed liberally
+to raise the strongest arguments they suggest. United States v. Ciampi, 419
+F.3d 20, 24 (1st Cir. 2005).
+
+40°
+
+----- PDF PAGE 48 -----
+Case: 26-1250 Document: 00118496192 Page:48 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+4. The Lovasco Safe Harbor Is Unavailable.
+
+Lovasco established that delay for legitimate investigative purposes does
+not violate due process even if prejudice results. 431 U.S. at 795-96. The
+government will invoke this safe harbor. It is unavailable on this record for
+three reasons, all established by the government's own submissions.
+
+The charging decision was already made. Basil's affidavit states he
+‘had intended to charge him with a co-conspirator later in the year.’ Dkt.
+No. 122-2 9 8. A prosecutor who has decided to charge and is planning the
+timing is not investigating. Lovasco protects delay to complete
+investigation of the defendant's conduct. It does not protect delay after the
+charging decision is made.
+
+The affidavit internally contradicts itself. Paragraph 5 asserts
+ongoing COVID-impaired investigation through spring 2021. Paragraph 8
+reveals Basil had decided to charge Kumar and was planning timing
+around co-conspirator coordination. An investigation genuinely still
+underway does not produce a filing schedule built around co-conspirator
+timing. The two paragraphs cannot both be true.
+
+The government had complete prosecutorial knowledge from the
+proffer sessions. Dkt. No. 130 at 3 (citing PSR ff 10, 40). Lovasco
+expressly reserved the case of a government that ‘had complete knowledge’
+and delayed 'solely to gain tactical advantage.’ 431 U.S. at 795 (quoting
+Marion, 404 U.S. at 324). That is this case.
+
+41
+
+----- PDF PAGE 49 -----
+Case: 26-1250 Document: 00118496192 Page:49 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+D. Vindictive Prosecution. :
+
+i. The Governing Standard.
+
+The Due Process Clause prohibits the government from bringing charges
+against a defendant in retaliation. for the exercise of a legal right.
+Blackledge v. Perry, 417 U.S. 21, 28-29 (1974). Where the circumstances
+give rise to a ‘realistic likelihood of vindictiveness,’ a presumption arises
+that the government must rebut with legitimate, non-vindictive
+justification. United States v. Goodwin, 457 U.S. 368, 373 (1982). The
+presumption is strongest in post-conviction settings where the defendant
+has exercised a right that threatens to undo the government's prior
+
+litigation position. Blackledge, 417 U.S. at 27-28.
+
+2. The Sequence Establishes a Realistic Likelihood of
+
+Vindictiveness.
+
+Kumar served his full Rhode Island sentence. His release was the
+mandatory consequence of completing the sentence he was lawfully
+imposed. Upon completing that sentence he was transferred to ICE
+custody for deportation. The government had known since February 12,
+2021 — the date of the Rhode Island sentencing — that this is exactly
+what would happen. The same day Basil learned Kumar had been released
+from BOP custody, he filed the Massachusetts complaint. Dkt. No. 122-2
+8.
+
+42
+
+----- PDF PAGE 50 -----
+Case: 26-1250 Document: 00118496192 Page:50 Date Filed: 08/24/2026 _—_ Entry ID: 6836756
+
+The government will argue this reflects administrative necessity —
+preventing deportation. That argument fails on its own terms. The
+government knew since February 12, 2021 that Kumar would be subject to
+deportation upon release. If preventing deportation was the legitimate
+reason for filing, it had three and a half months to file before Kumar
+completed his sentence. It chose not to. The ‘prevent deportation’
+justification explains why the government filed at all — not why it filed at
+that precise moment.
+
+The Blackledge presumption does not require proof of subjective
+animus. It requires circumstances that give rise to a realistic likelihood that
+the prosecution was retaliatory. Goodwin, 457 U.S. at 373. A prosecution
+filed the same day a defendant completes his sentence and is transferred to
+immigration custody — by a prosecutor who had already decided to charge
+him, knew the deportation consequence since sentencing, and chose to
+
+wait until that precise moment — presents exactly that realistic likelihood.
+
+43
+
+----- PDF PAGE 51 -----
+Case: 26-1250 Document: 00118496192 Page:51 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+3. The Barrios Overlap Confirms the Vindictive Pattern.
+
+The Massachusetts prosecution did not arise in a vacuum. It arose from the
+same investigative matrix — the same Massachusetts-based FBI agents,
+the same Boston proffer sessions —- that produced the Rhode Island case.
+Dkt. No. 122-2 {§ 2-3; Dkt. No. 123 (Kumar Reply). The government's
+decision to bring Massachusetts charges only after Kumar completed his
+Rhode Island sentence was not the product of independent prosecutorial
+judgment by a separate office. It was a continuation of a’single federal
+investigation by a single team that had been monitoring Kumar's status
+throughout.
+
+The government's own affidavit acknowledges awareness of the
+Rhode Island proceedings at each stage. Dkt. No. 122-2 9 6. The claim that
+‘no one from the U.S. Attorney's Office in Rhode Island asked me to take
+any action,' id. § 7, addresses coordination between two USAOs — which
+is not Kumar's argument. Kumar's argument is about Basil's own
+knowledge and his own timing decisions, all established by paragraphs 6
+
+and 8 of his own affidavit without any need to prove inter-office direction.
+
+----- PDF PAGE 52 -----
+Case: 26-1250 Document: 00118496192 Page:52 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+4. The District Court's Analysis Was Legally Deficient.
+
+The district court rejected the vindictive prosecution claim on two
+grounds: waiver and the absence of evidence that the government harbored
+animus toward Kumar. Dkt. No. 130 at 16-17. The waiver holding. is
+addressed in Argument I. On the merits, the district court's animus analysis
+misapplied the governing standard.
+
+Blackledge does not require proof of subjective animus. It requires a
+realistic likelihood of vindictiveness arising from the circumstances of the
+prosecution. Goodwin, 457 U.S. at 373. The district court demanded that
+Kumar prove 'the government prosecutor harbored any animus toward
+him.' Dkt. No. 130 at 17. That is the wrong standard. The Blackledge
+presumption exists precisely because subjective animus is rarely provable
+— the doctrine operates on objective circumstances, not psychological
+states. By demanding proof of subjective animus the district court
+effectively nullified the Blackledge presumption entirely. That legal error
+
+is reviewed de novo and requires reversal.
+
+45
+
+----- PDF PAGE 53 -----
+Case: 26-1250 Document: 00118496192 Page:53 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+Ii. COUNSEL RENDERED CONSTITUTIONALLY
+INEFFECTIVE ASSISTANCE AT MULTIPLE CRITICAL
+STAGES.
+
+A. The Governing Standard.
+
+To establish ineffective assistance of counsel, Kumar must show that
+counsel's performance fell below an objective standard of reasonableness
+under prevailing professional norms, and that but for the deficient
+performance there is a reasonable probability the result would have been
+different. Strickland v. Washington, 466 U.S. 668, 687-88 (1984). In the
+guilty plea context, prejudice requires showing a reasonable probability
+that but for counsel's errors Kumar would not have pleaded guilty and
+would have insisted on going to trial. Hill v. Lockhart, 474 U.S. 52, 59
+(1985). At sentencing, Glover v. United States, 531 U.S. 198, 203 (2001),
+establishes that any increase in actual jail time constitutes cognizable
+Strickland prejudice — ‘any amount of actual jail time has Sixth
+Amendment significance.’
+
+This Court reviews the district court's legal conclusions on IAC de
+novo and its factual findings for clear error. Damon, 732 F.3d at 3. Each of
+the three grounds below independently satisfies both Strickland prongs and
+independently satisfies the Carrier cause-and-prejudice standard for
+
+excusing the procedural default of the Fifth Amendment claims in
+
+46
+
+----- PDF PAGE 54 -----
+Case: 26-1250 Document: 00118496192 Page:54 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+Argument II. Under Lynch v. Ficco, 438 F.3d 35, 49-50 (1st Cir. 2006),
+the Strickland prejudice showing simultaneously satisfies Frady actual
+
+prejudice, collapsing both inquiries when IAC is the gateway.
+
+B. Ground One: Counsel's Failure to Secure Massachusetts Proffer
+Protection Was Constitutionally Deficient and Caused the
+
+Prosecution.
+
+1. Deficient Performance.
+
+Kumar participated in eleven proffer sessions with federal investigators
+between August 2019 and February 27, 2020. Dkt. No. 130 at 3 (citing
+PSR {fj 10, 40). Counsel was present at every session. Kumar had a proffer
+agreement with the District of Rhode Island. Dkt. No. 122 at 2-3 (citing
+PSR { 42). He had no proffer agreement with the District of
+Massachusetts. Rule 11 Hr'g Tr., Dkt. No. 91, at 6-7.
+
+This was not a strategic choice — and it was not a subtle
+professional judgment call. The Massachusetts jurisdictional exposure was
+unmistakable from the first session and became impossible to ignore by the
+last. The sessions occurred physically in Boston, in the District of
+Massachusetts, with Massachusetts-based FBI agents. Dkt. No. 130 at 3-4;
+Dkt. No. 122-2 43. AUSA Basil — the lead Massachusetts prosecutor who
+would ultimately sign the complaint against Kumar — personally attended
+
+the February 2020 session in Boston. Dkt. No. 122-2 § 3. A defense
+
+47
+
+----- PDF PAGE 55 -----
+Case: 26-1250 Document: 00118496192 Page:55 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+attorney present in that room, watching his client provide information
+about Massachusetts conduct to a Massachusetts AUSA and
+Massachusetts agents, faced an unambiguous professional obligation
+before his client said a single word: he was required to secure
+Massachusetts proffer protection as a precondition to further cooperation,
+or at minimum to raise the absence of such protection with his client as a
+threshold concern.
+
+There is no conceivable strategic rationale for allowing a client to
+proffer information to the lead prosecutor of a separate jurisdiction — in
+that jurisdiction's courthouse city, to that jurisdiction's agents — without
+first securing that jurisdiction's protection. The failure to do so fell well
+below the objective standard of reasonableness. Strickland, 466 U.S. at
+688.
+
+The government's response below — that a proffer agreement would
+not have protected against false statements — misses the point. Dkt. No.
+122 at 1-2. The question is not whether Kumar's false statements could
+have been used regardless. The question is whether a competent attorney
+would have secured protections that gave Kumar any suppression rights at
+all with respect to the Massachusetts prosecution. Without a Massachusetts
+proffer agreement, Kumar had none. Basil's affidavit identifies the
+February 27 session as the event that converted Kumar from cooperating
+
+witness to prosecution target. Dkt. No. 122-2 3. If any session required
+
+48
+
+----- PDF PAGE 56 -----
+Case: 26-1250 Document: 00118496192 Page:56 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+protection, it was the one that ended Kumar's cooperation and began his
+prosecution.
+
+There is also a significant unresolved factual dispute. Counsel
+objected to the PSR's statement that the sessions took place without any
+cooperation agreement, asserting that a proffer agreement letter existed.
+Dkt. No. 130 at 4 (citing PSR at p. 4 n.2 and pp. 42-43). The Probation
+Office stated it did not receive the letter. Jd. The government cannot locate
+a signed copy. Dkt. No. 122 at 3 n.2. This disputed factual record was
+never resolved at an evidentiary hearing. The district court's denial without
+a hearing on this disputed fact was itself error. See 28 U.S.C. § 2255(b)
+(requiring a hearing unless the record conclusively shows no entitlement to
+
+relief).
+
+2. Prejudice.
+
+The proffer sessions — and specifically the February 27, 2020 session —
+provided the evidentiary foundation for the Massachusetts prosecution.
+Basil confirms this directly: it was after that session that federal agents
+began investigating Kumar as a target. Dkt. No. 122-2 § 3. The false
+statement count arose from statements made at that session. Dkt. No. 8;
+Dkt. No. 130 at 4.
+
+Had counsel secured Massachusetts proffer protection, Kumar
+would have retained suppression rights with respect to his statements and
+
+their fruits. The government could not have used those statements as the
+
+49
+
+----- PDF PAGE 57 -----
+Case: 26-1250 Document: 00118496192 Page:57 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+foundation for the false statement count without first litigating and
+winning a suppression motion. The reasonable probability that suppression
+litigation would have produced a different outcome satisfies Strickland's
+
+prejudice standard. Hill, 474 U.S. at 59.
+
+C. Ground Two: Counsel's Materially Inaccurate Guidelines Advice
+Induced the Withdrawal of the Motion to Dismiss and the
+
+Unconditional Plea.
+
+1. Deficient Performance.
+
+On September 30, 2022, Kumar sent a letter to the district court explaining
+that he wanted to withdraw his motion to dismiss and plead guilty because
+he believed his Guidelines sentencing range was only 15 to 20 months.
+Dkt. No. 122 at 6 (citing Dkt. No. 83). His actual Guidelines range was 87
+to 108 months — more than five times the range counsel communicated to
+him. Dkt. No. 130 at 6-8.
+
+This was not a close call or a matter of reasonable professional
+disagreement. Kumar was charged with drug trafficking offenses carrying
+a fraud cross-reference under U.S.S.G. § 2N2.1 tied to a loss amount
+exceeding $3.5 million. The loss table under § 2B1.1(b)(1) applies
+mechanically to a documented loss figure. The computation that generates
+a 15—20 month estimate for a $3.5 million loss cross-reference case is not a
+
+reasonable professional prediction. It reflects a fundamental failure to
+
+50
+
+----- PDF PAGE 58 -----
+Case: 26-1250 Document: 00118496192 Page:58 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+apply the Guidelines to the charged conduct. McMann v. Richardson, 397
+U.S. 759, 770-71 (1970) (plea induced by advice outside 'the range of
+competence demanded of attorneys in criminal cases' is constitutionally
+infirm). An estimate five times below the actual Guidelines floor falls
+
+outside that range by any measure.
+
+2. Prejudice — The Withdrawal of the Motion to Dismiss.
+
+The causal chain from counsel's deficient advice to Kumar's prejudice is
+documented in Kumar's own contemporaneous letter to the district court.
+He did not withdraw the motion because he concluded it lacked merit. He
+withdrew it because he was told the sentencing consequences of
+proceeding were minimal. Dkt. No. 122 at 6 (citing Dkt. No. 83).
+
+The record leaves no serious question about what Kumar would
+have done with accurate advice. He fired two lawyers before proceeding
+pro se specifically because they would not file this motion. Dkt. No. 122 at
+5. He drafted and filed it himself. Dkt. No. 58. He maintained it through a
+Faretta hearing when the government pressed him to accept representation
+by counsel who would not pursue it. Dkt. No. 122 at 6; Faretta Hr'g Tr.,
+Dkt. No. 93, at 20-21. He directed Attorney Fasoldt to file a supplemental
+brief in support on May 12, 2022. Dkt. No. 75. He withdrew it only after
+receiving a Guidelines estimate so dramatically wrong that proceeding
+
+appeared irrational. Dkt. No. 83.
+
+51
+
+----- PDF PAGE 59 -----
+Case: 26-1250 Document: 00118496192 Page:59 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+A defendant who fired two lawyers over this motion, drafted it
+himself, and maintained it through repeated adversity does not abandon it
+based on a merit reassessment. The record admits only one inference:
+Kumar abandoned the motion because the cost-benefit calculation was
+corrupted by a five-fold understatement of what pleading guilty would
+actually cost him. Lee v. United States, 582 U.S. 357, 364-65 (2017)
+(erroneous advice on consequences of proceeding negates voluntariness of
+resulting decision). The reasonable probability that accurate Guidelines
+advice would have produced a different decision is not merely sufficient to
+
+satisfy Strickland. It is the only inference the record supports.
+
+3. Prejudice — The Resulting Sentence and the Glover Standard.
+
+Independently of the motion to dismiss, the Guidelines miscalculation
+produced direct sentencing prejudice measurable in months of actual
+incarceration. Had counsel accurately estimated the Guidelines exposure
+before the plea, Kumar would have had the opportunity to negotiate a plea
+agreement that addressed the sequential prosecution consequences —
+including a § 5G1.3(b) credit argument, a § 5K2.23 departure request, and
+a potential CHC I stipulation. The unconditional plea with no agreement
+foreclosed all of these avenues.
+
+Under Glover, any increase in actual jail time flowing from
+counsel's deficient performance constitutes cognizable Strickland
+
+prejudice. 531 U.S. at 203-04. The 17-month differential between the
+
+52
+
+----- PDF PAGE 60 -----
+Case: 26-1250 Document: 00118496192 Page:60 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+CHC I Guidelines floor of 70 months and the CHC II floor of 87 months
+— confirmed by the sentencing court's own pre-allocution statement that it
+had considered imposing 72 months — is not a theoretical calculation. It is
+a documented, record-proven increment of additional incarceration
+flowing directly from counsel's failure to protect Kumar's position before
+the plea. Under Glover that is prejudice as a matter of law.
+Rosales-Mireles v. United States, 585 U.S. 129 (2018), and
+Cheveres-Morales, 83 F.4th at 43, reinforce this conclusion. A
+miscalculated Guidelines range ordinarily warrants relief because the
+range serves as the initial benchmark from which all sentencing decisions
+proceed. The anchoring effect of the inflated benchmark is itself the
+prejudice — and the sentencing court's own 72-month pre-allocution
+
+statement proves the benchmark mattered here.
+
+D. Ground Three: Counsel's Failure to Make the § 5K2.23 Departure
+
+Motion at Sentencing.
+
+1. Deficient Performance.
+
+Counsel understood that the sequential prosecution had distorted Kumar's
+criminal history. He argued as much in the sentencing memorandum. Dkt.
+No. 96 at 7-9. He asked the district court to treat Kumar as CHC I ‘under
+
+fairness and equity.' Sent. Hr'g Tr., Dkt. No. 111, at 43.
+
+53
+
+----- PDF PAGE 61 -----
+Case: 26-1250 Document: 00118496192 Page:61 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+But counsel gestured at the argument without anchoring it in the
+Guidelines provision that directly codifies it. U.S.S.G, § 5K2.23 provides
+that a downward departure is warranted where the defendant has
+completed a sentence for related conduct that, had it been undischarged at
+sentencing, would have qualified for a § 5G1.3(b) adjustment. The
+Sentencing Commission's own commentary to Amendment 660 states the
+provision's purpose in terms that map directly onto Kumar's facts: to
+mitigate ‘the possibility that the fortuity and timing of separate
+prosecutions will grossly increase the defendant's sentence.’
+
+A competent attorney arguing against the sentencing consequences
+of sequential federal prosecution does not appeal to fairness and equity as
+
+_ a freestanding equitable argument while leaving the Guidelines provision
+that codifies that principle uncited. The § 5K2.23 departure motion should
+have been the centerpiece of the sentencing argument. The failure to make
+it explicitly and in Guidelines terms fell below the objective standard of
+reasonableness.
+
+The government's response below — that § 5G1.3(b) applies only to
+undischarged terms — proves the point rather than defeating it. Dkt. No.
+122 at 2. § 5K2.23 exists precisely for the situation where the prior term
+has been discharged. Counsel's failure to distinguish between the two
+provisions and to invoke the applicable one reflects the same fundamental
+
+unfamiliarity with the Guidelines framework that produced the five-fold
+
+34
+
+----- PDF PAGE 62 -----
+Case: 26-1250 Document: 00118496192 Page:62 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+underestimate of Kumar's sentencing exposure.
+
+2. Prejudice.
+
+The sentencing court considered imposing 72 months before Kumar's
+allocution changed its calculus. Sent. Hr'g Tr., Dkt. No. 111, at 50; Dkt.
+No. 130 at 8. The court was receptive to the argument. What it lacked was
+the Guidelines vehicle to act on it.
+
+A properly anchored § 5K2.23 departure motion — grounded in the
+Commission's own text and commentary, supported by record evidence of
+the contemporaneous Rhode Island and Massachusetts conduct, and
+quantified by the documented 17-month CHC differential — would have
+given the sentencing court a Guidelines-based departure vehicle rather
+than requiring a freestanding variance. The reasonable probability that
+such a motion would have produced a sentence at or below 72 months
+satisfies Strickland's prejudice standard. Under Glover, the additional
+months of incarceration resulting from counsel's failure to make this
+
+argument constitute cognizable Sixth Amendment injury.
+
+535
+
+----- PDF PAGE 63 -----
+Case: 26-1250 Document: 00118496192 Page:63 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+E. The Three IAC Grounds Are Mutually Reinforcing and
+
+Collectively Establish the Carrier Gateway.
+
+Each of the three IAC grounds independently satisfies Strickland. Taken
+together they describe systemic failure across every stage at which counsel
+could have protected Kumar from the consequences of the government's
+sequential prosecution strategy. Counsel failed at the cooperation stage —
+allowing Kumar to proffer to Massachusetts investigators without
+Massachusetts protection, in Massachusetts, to a Massachusetts AUSA.
+Counsel failed at the litigation stage — providing a Guidelines estimate so
+dramatically wrong that it induced Kumar to abandon the only legal
+challenge that could have stopped the prosecution. And counsel failed at
+the sentencing stage — arguing for a result the court was predisposed to
+reach without providing the Guidelines vehicle that would have allowed
+the court to get there.
+
+The Carrier gateway follows directly. Under Lynch v. Ficco, 438
+F.3d at 49-50, the Strickland prejudice showing on any one of these three
+grounds simultaneously satisfies the Frady actual prejudice requirement
+for excusing the procedural default of the Fifth Amendment claims in
+Argument II. The IAC is not merely an independent ground for relief — it
+is the explanation for why the constitutional claims were never properly
+
+litigated below, and the reason this Court must reach them on the merits.
+
+56
+
+----- PDF PAGE 64 -----
+Case: 26-1250 Document: 00118496192 Page:64 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+CONCLUSION
+
+For the foregoing reasons, Appellant Manish Kumar respectfully requests
+that this Court reverse the district court's denial of his motion to vacate
+under 28 U.S.C. § 2255 and remand with instructions to vacate his
+conviction and sentence.
+
+In the alternative, Kumar requests that this Court remand with
+instructions to conduct an evidentiary hearing on his ineffective assistance
+of counsel claims, specifically: (1) whether Massachusetts proffer
+protection was obtained and, if not, whether counsel's failure to obtain it
+fell below the objective standard of reasonableness; (2) whether counsel
+advised Kumar that his Guidelines exposure was 15 to 20 months, and
+whether that advice induced the withdrawal of his motion to dismiss; and
+(3) whether counsel's failure to make an explicit § 5K2.23 departure
+motion at sentencing constituted deficient performance causing actual
+
+prejudice.
+
+Respectfully submitted, ~
+
+ANAN
+
+Manish Kumar
+Reg. No. 83763-053
+FCI Fort Dix
+
+P.O. Box 2000
+
+57
+
+----- PDF PAGE 65 -----
+Case: 26-1250 Document: 00118496192 Page:65 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+Joint Base MDL, NJ 08640
+
+Appellant Pro Se
+
+58
+
+----- PDF PAGE 66 -----
+Case: 26-1250 Document: 00118496192 Page:66 Date Filed: 08/24/2026 —__ Entry ID: 6836756
+
+CERTIFICATE OF COMPLIANCE
+
+Pursuant to Federal Rule of Appellate Procedure 32(g), the undersigned
+certifies that this brief complies with the type-volume limitation of Fed. R.
+App. P. 32(a)(7)(B). This brief contains 10,929 words, excluding the items
+listed in Fed. R. App. P. 32(f), which is within the 13,000-word limit for
+principal briefs.
+
+This brief complies with the typeface requirements of Fed. R. App.
+P. 32(a)(S) and the type style requirements of Fed. R. App. P. 32(a)(6)
+
+because it has been prepared in a proportionally sp§ced typeface usipg
+Times New Roman 14-point font, double-spaced.
+am, Kum
+
+Appellant Pro Se
+
+59
+
+----- PDF PAGE 67 -----
+Case: 26-1250 Document: 00118496192 Page:67 Date Filed: 08/24/2026 —_ Entry ID: 6836756
+
+CERTIFICATE OF SERVICE
+
+I, Manish Kumar, hereby certify that on the date set forth below, I caused
+to be served a true and correct copy of the foregoing Appellant's Opening
+Brief upon counsel for Appellee by depositing the same in the United
+
+States mail, first-class postage prepaid, addressed as follows:
+
+Kriss Basil, Assistant United States Attorney
+United States Attorney's Office
+
+District of Massachusetts
+
+1 Courthouse Way, Suite 9200
+
+Boston, Massachusetts 02210
+
+I also certify that the original and required copies have been mailed
+
+to the Clerk of the United States Court of Appeals for the First Circuit.
+
+Date:
+
+x
+fact
+Reg. No. 83763-053
+FCI Fort Dix, P.O. Box 2000
+
+Joint Base MDL, NJ 08640
+
+60
+
+----- PDF PAGE 68 -----
+ms. .
+) : as
+
+83103053
+PO Box 2000 .
+
+Teint Base MDL, NT
+
+O86, 0
+
+OK
+
+ges
+et,
+
+So
+
+ee
+
+lo,
+
+Johu ‘Joseph Mogkles -
+United States Count of Appeals fax
+
+the First Cyoust
+
+4A Cowtthouse hay , Swte 200,
+
+_ Boston MA 02210
+
+“nae
+
+
+----- PDF PAGE 69 -----
+Case: 26-1250 Document: 00118496218 Page:1 Date Filed: 08/24/2026 — Entry ID: 6836756
+
+United States Court of Appeals
+For the First Circuit
+
+No. 26-1250
+MANISH KUMAR,
+Petitioner - Appellant,
+v.
+UNITED STATES,
+
+Respondent - Appellee.
+
+APPELLEE’S BRIEFING NOTICE
+
+Issued: August 24, 2026
+
+Appellee’s brief must be filed by September 23, 2026.
+
+The deadline for filing appellant’s reply brief will run from service of appellee’s brief in
+accordance with Fed. R. App. P. 31 and Ist Cir. R. 31.0. Parties are advised that extensions of
+time are not normally allowed without timely motion for good cause shown.
+
+Presently, it appears that this case may be ready for argument or submission at the coming
+December, 2026 session.
+
+The First Circuit Rulebook, which contains the Federal Rules of Appellate Procedure, First
+Circuit Local Rules and First Circuit Internal Operating Procedures, is available on the court’s
+website at www.cal .uscourts.gov. Please note that the court’s website also contains tips on filing
+briefs, including a checklist of what your brief must contain.
+
+Failure to file a timely brief in compliance with the federal and local rules could result
+in the appellee not being heard at oral argument. See 1st Cir. R. 45.0.
+
+Anastasia Dubrovsky, Clerk
+
+----- PDF PAGE 70 -----
+Case: 26-1250 Document: 00118496218 Page:2 Date Filed: 08/24/2026 Entry ID: 6836756
+
+UNITED STATES COURT OF APPEALS
+FOR THE FIRST CIRCUIT
+
+John Joseph Moakley
+
+United States Courthouse
+
+1 Courthouse Way, Suite 2500
+
+Boston, MA 02210
+
+Case Manager: Alistair - (617) 748-4664
+
+ce:
+Kriss Basil
+
+Manish Kumar
+
+Donald Campbell Lockhart
