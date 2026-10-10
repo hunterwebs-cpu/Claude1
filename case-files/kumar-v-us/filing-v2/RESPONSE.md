@@ -1,0 +1,162 @@
+^ UNITED STATES COURT OF APPEALS
+^ FOR THE FIRST CIRCUIT
+
+^ No. 26-1250
+
+^ MANISH KUMAR,
+^ Petitioner-Appellant,
+
+^ v.
+
+^ UNITED STATES,
+^ Respondent-Appellee.
+
+^ On Appeal from the United States District Court for the District of Massachusetts
+^ (No. 1:24-cv-12710-MLW; No. 1:21-cr-10157-AK)
+
+^ **APPELLANT MANISH KUMAR'S RESPONSE IN OPPOSITION TO THE GOVERNMENT'S MOTION FOR SUMMARY DISPOSITION, WITH INCORPORATED REQUESTS (1) TO HOLD THAT THE AUGUST 28, 2025 CERTIFICATE OF APPEALABILITY GOVERNS THE SCOPE OF THE APPEAL, OR TO RECONSIDER THE CLERK'S ORDERS OF MAY 8 AND JULY 1, 2026, OR ALTERNATIVELY TO GRANT LEAVE TO APPLY FOR AN EXPANDED CERTIFICATE; (2) TO LIFT THE STAY OF BRIEFING AND SET THE GOVERNMENT'S BRIEFING DATE; (3) ALTERNATIVELY TO VACATE AND REMAND FOR AN EVIDENTIARY HEARING; AND (4) FOR LEAVE UNDER FED. R. APP. P. 26(b) TO THE EXTENT REQUIRED**
+
+## PRELIMINARY STATEMENT
+
+Manish Kumar met with federal investigators eleven times, some of those meetings in Massachusetts, and gave them his account of his business along with access to his phones, computers and email. He did it without a proffer letter from the District of Massachusetts. His own lawyer later told the district court that those statements and that device data were the primary evidence for the charges, including the drug conspiracies that now hold him for 87 months.
+
+The Government's answer is that a proffer letter would not have protected the lie Kumar told at the last meeting. Kumar agrees. That concession disposes of Count 3, the false-statement count, and nothing else. A proffer letter does not protect a lie. It protects the truth, and the truth Kumar told is what the case on Counts 1 and 2 was built on. Whether he would have pleaded guilty to those counts had his own words been kept out of the Government's case-in-chief is a question of fact that no court has taken evidence on, and that two district judges have certified as one reasonable jurists could debate. A question of that kind is substantial, and Local Rule 27.0(c) does not reach it.
+
+The Government's effort to confine the appeal fails for a related reason. The only judge who decided Kumar's motion certified its denial without limitation. The narrowing that followed began with an order the Clerk entered under Local Rule 27.0(d), a rule for routine procedural motions, when no motion was pending and no party had objected to the certificate. Kumar never received that order, the re-certification it prompted, or the deadline that followed. Waiver requires a known right knowingly given up. Kumar gave up nothing.
+
+## STATEMENT OF FACTS
+
+### A. The Meetings and the Case They Produced
+
+After his August 2019 arrest on Rhode Island fraud charges, Kumar met with federal investigators in eleven sessions through February 27, 2020, "including in the District of Massachusetts." ECF 130 at 3. He provided information and authorized investigators to access his electronic devices, his Apple ID and his email accounts. *Id.* At many of the meetings he discussed the pharmaceutical business he ran in India. ECF 75 at 2. The Massachusetts prosecutor opened an investigation in 2019 "with a cooperating witness, Manish Kumar." ECF 122-2 ¶ 2. By the Government's account, before February 27, 2020, it was not investigating Kumar for drug crimes; "[h]e was a cooperating witness." ECF 122 at 14 n.5.
+
+Kumar had a proffer letter from the District of Rhode Island, of which the Government has produced only an unsigned copy. ECF 122 at 3 & n.2; ECF 122-1. He had none from the District of Massachusetts. ECF 122 at 3. The Rhode Island letter, whose terms the Government calls standard, ECF 122 at 8, provides that no statement "or other information provided" by Kumar will be used against him directly "in the case-in-chief of any criminal case," so long as he is truthful. ECF 122-1 ¶ 1. Untruthful statements may be used in a prosecution for false statements, *id.*, and the Government may make derivative use of what it learns, *id.* ¶ 3.
+
+At the February 27, 2020 meeting in Boston, attended by Kumar's counsel and the Massachusetts prosecutor, Kumar falsely denied that his business dealt in controlled substances. ECF 122-2 ¶ 3; ECF 130 at 4. Agents then began investigating him "as a target." ECF 122-2 ¶ 3. Judge Wolf found that what Kumar provided at that session "was the starting point" for the investigation. ECF 130 at 20. The indictment charged two drug-related conspiracies and one false statement. ECF 130 at 5-6. Kumar's counsel told the district court that the "primary evidence" for the charges was Kumar's statements to law enforcement "and the data from his personal electronics which he gave to law enforcement." ECF 75 at 2.
+
+### B. The Plea
+
+Kumar did not want to plead. He asked for new counsel because his first lawyer would not file a motion to dismiss, parted with a second, filed the motion himself, and maintained it once counsel was appointed. ECF 122 at 5-6; ECF 75. The Government told the district court that "[a]ll indications are that Kumar intended to fight the drug charges and the false statement charge." ECF 122 at 16. In September 2022, counsel withdrew the motion "in light of his request for a Rule 11 Hearing." ECF 80. Kumar wrote the court that he was withdrawing it and pleading guilty because he believed his guideline range was 15 to 20 months. ECF 122 at 6. He pleaded guilty to all three counts without a plea agreement. The final presentence report set a range of 87 to 108 months, and he received 87. ECF 130 at 6, 8.
+
+### C. The Ruling and the Certificate
+
+Kumar's pro se § 2255 motion raised ineffective assistance in failing to obtain proffer protection, ineffective assistance at sentencing, vindictive prosecution and pre-indictment delay. ECF 130 at 9, 12-13. The Government asked the court to deny it "without holding an evidentiary hearing," ECF 122 at 1, while advising that if any issue were live it "will need to speak with and to obtain evidence from Kumar's former counsel," *id.* at 17. Judge Wolf decided the motion on the papers. On the proffer claim he assumed deficient performance and found no prejudice because proffer letters "typically do not protect a person from prosecution for making false statements" and because there was no evidence a Massachusetts agreement would have barred derivative use. ECF 130 at 13-14. He then wrote: "In view of the low bar to obtaining a COA and the unusual facts of this case, the court is issuing a COA." *Id.* at 22. His order provides: "A Certificate of Appealability of the denial of Kumar's 2255 Motion is hereby ISSUED." *Id.* Kumar did not receive that order in time to appeal, as the district court later found. ECF 137.
+
+### D. The Orders Kumar Never Received
+
+Kumar filed his notice of appeal on February 11, 2026, and the case was reassigned to Judge Kelley the same day. ECF 132; ECF 133. On May 1, 2026, mail sent to Kumar by the district court was returned as undeliverable. ECF 139. On May 8, 2026, with no motion pending, an order "Entered . . . Pursuant to 1st Cir. R. 27.0(d)" and signed by the Clerk stated: "The district court is requested to identify which issue or issues satisfy the standard set forth in 28 U.S.C. § 2253(c)(2) and to forward its decision to this court." Ex. E. Judge Kelley read it as an order "to issue a new Certificate of Appealability" that "directed this Court to re-certify the appeal." ECF 141. Applying the certificate standard afresh, she certified the proffer claim and the delay claim and declined to certify the other two. *Id.* On the proffer claim she wrote: "Reasonable jurists could disagree with this finding, as well as with whether counsel's failure to obtain an immunity agreement caused Defendant to suffer prejudice." *Id.* A July 1, 2026 order, also entered under Rule 27.0(d), set July 31 as the deadline to apply for an expanded certificate. Ex. E.
+
+Mail at FCI Fort Dix reaches Kumar sporadically, and court mail has arrived late or not at all. Kumar Decl. ¶ 2. He never received the May 8, June 25 or July 1 orders. *Id.* ¶¶ 3-5. Believing Judge Wolf's certificate covered every claim, he wrote his opening brief on that basis and filed it on August 24, 2026. Kumar Decl. ¶ 8; No. 26-1250, docket entry of Aug. 24, 2026. He learned the certificate had been narrowed only when the Government's motion arrived. Kumar Decl. ¶ 7.
+
+## ARGUMENT
+
+Summary disposition is available only "if it shall clearly appear that no substantial question is presented." 1st Cir. R. 27.0(c). The proffer claim presents one, and the certificate that governs this appeal reaches every claim Kumar raised.
+
+### I. THE PROFFER CLAIM PRESENTS A SUBSTANTIAL QUESTION THAT NO COURT HAS ANSWERED
+
+### A. A Proffer Letter Protects Truthful Statements, and Truthful Statements Built the Drug Case
+
+The Government defends the ruling below on two grounds: a proffer letter would not have shielded Kumar's false statements, and it would not have barred derivative use. Mot. 6. Both are true, and neither decides the claim.
+
+The Government does not defend counsel's performance; it assumes deficiency for argument's sake, Mot. 6, as Judge Wolf did, ECF 130 at 13. The record explains why. The Massachusetts prosecutor had treated Kumar as a cooperating witness since 2019, ECF 122-2 ¶ 2, and the February 2020 meeting in Boston was called to probe Kumar's possible cooperation "including as to drug crimes," *id.* ¶ 3. Counsel brought Kumar into that room knowing which office sat across the table and holding no letter from it. The only live question is prejudice.
+
+The first ground answers Count 3. No proffer letter would have protected what Kumar said on February 27, 2020; the standard letter excludes untruthful statements by its terms. ECF 122-1 ¶ 1. Kumar concedes the point. But Count 3 is a false-statement count with a five-year statutory maximum. 18 U.S.C. § 1001(a). The 87-month sentence was driven by the guideline calculation for the drug conspiracies, including a $3.5 million loss figure. ECF 130 at 6. The false-statement rationale does not touch those counts.
+
+The second ground answers half of the remaining question. The standard letter permits derivative use, but it forbids direct use of truthful statements "or other information provided" by the defendant in "the case-in-chief of any criminal case." ECF 122-1 ¶ 1. Direct use is exactly what Kumar's counsel described in identifying Kumar's statements and the device data Kumar handed over as the "primary evidence" in the case. ECF 75 at 2. The Government's own motion makes the point: the facts it calls overwhelming include the "numerous spreadsheets on his computer" that recorded the drug sales. Mot. 3, 7. Kumar gave investigators access to that computer during the proffer sessions. ECF 130 at 3. Whether data a defendant hands over in a proffer is "information provided," barred from the case-in-chief, or merely a lead the Government may pursue, is a question the district court never addressed. Nor did the court ask what proof of Counts 1 and 2 would have remained once Kumar's own words and files were excluded.
+
+The absence of protection was not a technicality. Judge Wolf found no showing that the Rhode Island letter bound Massachusetts prosecutors. ECF 130 at 14. On that finding, nothing Kumar said in any of the eleven sessions was protected against the office that prosecuted him.
+
+The Government reframes the claim as one about suppression and argues that Kumar cannot show any evidence "would have been suppressible" or that he could have won dismissal. Mot. 6-7. A proffer letter is not a suppression doctrine that a defendant must establish through the Fourth or Fifth Amendment. It is an agreement, and the Government's own form spells out its effect: "No proffered statement or other information provided by your client will be used against him directly in the case-in-chief of any criminal case," so long as the client is truthful. ECF 122-1 ¶ 1. A defendant holding that letter needs no constitutional theory to keep his words out of the Government's case. He needs only to show what the Government promised. Counsel's failure to secure that promise from the office that would prosecute Kumar is what left those words available.
+
+### B. The Prejudice Question Is What Kumar Would Have Done, and the Record Answers It
+
+Where a defendant has pleaded guilty, prejudice means "a reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial." *Hill v. Lockhart*, 474 U.S. 52, 59 (1985). In *Hill*, the petitioner lost because he never alleged that, properly advised, he would have gone to trial. *Id.* at 60. The Supreme Court later made clear that the inquiry "focuses on a defendant's decisionmaking, which may not turn solely on the likelihood of conviction after trial." *Lee v. United States*, 582 U.S. 357, 367 (2017). In *Lee*, a defendant with no viable defense established prejudice because the record showed that avoiding deportation was decisive for him, and the Court directed judges to "look to contemporaneous evidence to substantiate a defendant's expressed preferences." *Id.* at 369.
+
+The contemporaneous evidence here is unusually strong, and much of it comes from the Government. Kumar changed lawyers to get a motion to dismiss filed, filed it himself, and kept it alive with appointed counsel. ECF 122 at 5-6. The Government told the district court that "[a]ll indications are that Kumar intended to fight the drug charges." ECF 122 at 16. He gave up that fight only on the belief that he faced 15 to 20 months, and he received 87. ECF 122 at 6. A defendant who resisted pleading while facing a case built on his own statements had every reason to resist harder had those statements been excluded from it. The Government's response, that overwhelming evidence and the acceptance-of-responsibility reduction gave Kumar every incentive to plead, Mot. 7, assumes the evidence would have been the same. That assumption is the disputed question.
+
+The Government's authorities do not resolve it. In *United States v. Caramadre*, 807 F.3d 359, 371 (1st Cir. 2015), a direct appeal from the denial of a plea-withdrawal motion, the district court had held a multi-day evidentiary hearing, and the defendant never explained why better advice would have led him to continue his trial. In *United States v. Fernández-Santos*, 856 F.3d 10, 17-18 (1st Cir. 2017), also a direct appeal, this Court declined to decide an ineffective-assistance claim on an undeveloped record and left it for a § 2255 proceeding where facts could be found. Kumar is in that proceeding, and he has explained exactly why he would have chosen differently.
+
+The Government also faults Kumar's pro se brief for not engaging the prejudice ruling closely enough. Mot. 7. That brief argues that the proffer sessions supplied the evidentiary foundation for the Massachusetts prosecution and that counsel's failure to obtain protection caused it. Appellant's Br. 47-50. The question under Rule 27.0(c), however, is not whether a prisoner writing without counsel framed every point as a lawyer would. It is whether the claim clearly presents no substantial question. A claim two district judges have certified does not meet that description.
+
+### C. A Ruling Without a Hearing Leaves Nothing for Clear-Error Deference to Attach To
+
+The Government asks for review of the prejudice "findings" for clear error, citing *Dugas v. Coplan*, 506 F.3d 1, 3 (1st Cir. 2007). Mot. 7. In *Dugas*, this Court had remanded an ineffective-assistance claim; the district court allowed discovery, took affidavits and held an evidentiary hearing before finding no prejudice, and this Court deferred to findings made on that record. Here there was no hearing, no testimony and no finding about what Kumar would have done. The ruling rested on what proffer letters "typically" say, ECF 130 at 13, a proposition about documents, not a credibility determination. The record also left basic facts unresolved: the order describes eleven sessions "including in the District of Massachusetts" in one place and a "single proffer session" in Massachusetts in another. *Id.* at 3, 19.
+
+Section 2255(b) requires a hearing "[u]nless the motion and the files and records of the case conclusively show that the prisoner is entitled to no relief." A hearing is unnecessary only when the motion is facially inadequate or "conclusively refuted as to the alleged facts by the files and records of the case." *United States v. McGill*, 11 F.3d 223, 225-26 (1st Cir. 1993) (quoting *Moran v. Hogan*, 494 F.2d 1220, 1222 (1st Cir. 1974)). Nothing in this record refutes Kumar's account of why he pleaded; the Government's own filings support it. The Government acknowledged below that a live issue would require evidence from Kumar's former counsel. ECF 122 at 17. Two judges have found the issue live. At a minimum, it warrants full briefing, and if the Court reaches the merits, a remand for the hearing the statute requires.
+
+### II. JUDGE WOLF'S CERTIFICATE GOVERNS THE SCOPE OF THIS APPEAL
+
+The Government says Kumar's remaining claims fall outside "the limited scope of the COA." Mot. 9. The certificate that governs is Judge Wolf's, and it has no limits.
+
+### A. Judge Wolf Certified Every Claim the Motion Raised
+
+A certificate must "indicate which specific issue or issues satisfy" the substantial-showing standard, 28 U.S.C. § 2253(c)(3), and a district court that issues one "must state the specific issue or issues" that do, Rule 11(a), Rules Governing Section 2255 Proceedings. This Court has held that certificates are issue-specific: a petitioner granted a certificate on some issues may not argue others without obtaining a certificate for them. *Bui v. DiPaolo*, 170 F.3d 232, 236-37 (1st Cir. 1999). Kumar accepts both rules. Neither is offended here.
+
+Judge Wolf analyzed each of Kumar's claims, ECF 130 at 12-21, and then certified "the denial of Kumar's 2255 Motion," *id.* at 22, which is to say every claim the motion raised. He gave a reason that applies to all of them: "the low bar to obtaining a COA and the unusual facts of this case." *Id.* Those facts run through every claim. A cooperating witness, prosecuted in a second district on the strength of his own unprotected cooperation, charged after he had served his first sentence, and sentenced with a criminal history that the first prosecution supplied, raises the proffer claim, the delay claim, the vindictiveness claim and the sentencing claim alike. A judge who found those facts unusual enough to warrant appellate review had no reason to sort among the claims they produced, and Judge Wolf did not. *Bui* itself recognized this situation. When the district court finds that all of a petitioner's issues pass the substantial-showing standard, "a free-ranging appeal lies." 170 F.3d at 236. This Court's rules say the same: "If the district court grants a certificate of appealability on all issues, the petitioner's appeal shall go forward." 1st Cir. R. 22.0(d). The issue-specific rule of *Bui* exists to stop a petitioner from using one certified claim to carry uncertified ones. *Bui*, 170 F.3d at 236-37. It has no work to do when the judge certified them all. Judge Wolf did not list the claims by number, but a certificate covering the denial of the whole motion identifies its issues as surely as a list would.
+
+### B. A Clerk's Order Could Not Reopen a Certificate No Party Had Challenged
+
+Even if the certificate's form fell short of § 2253(c)(3), that defect would not have permitted what followed. In *Gonzalez v. Thaler*, 565 U.S. 134 (2012), a circuit judge issued a certificate that identified only a procedural question and no constitutional issue at all, and the State later argued that the omission defeated the court of appeals' jurisdiction. The Supreme Court held that § 2253(c)(3) is not jurisdictional. *Id.* at 143. It is mandatory in a specific sense: "If a party timely raises the COA's failure to indicate a constitutional issue, the court of appeals panel must address the defect by considering an amendment to the COA or remanding to the district judge for specification of the issues." *Id.* at 146. Three features of that holding matter here. A party must raise the defect; neither party did. The court of appeals panel must address it; no panel did. And the remedy is specification of the issues the district judge certified, not a fresh decision withdrawing certification from issues already certified.
+
+The May 8 order did not come from a panel. It states on its face that it was "Entered . . . Pursuant to 1st Cir. R. 27.0(d)," and it is signed by the Clerk. Ex. E. Rule 27.0(d) authorizes the Clerk "to dispose of certain routine, procedural motions." The Court's operating procedures give as typical examples motions to enlarge time, consolidate, correct filings, correct captions and withdraw counsel, and they explain that "a clerk's order states on its face that it is entered pursuant to 1st Cir. R. 27.0(d)." I.O.P. V(C). The order is captioned "Order of Court" and closes "By the Court," but so does the July 1 order, and the operating procedures identify a clerk's order by its recital of Rule 27.0(d), which both orders bear. The May 8 order disposed of no motion, because none was pending. It instead set in motion the reconsideration of a certificate, which is not a routine procedural matter. When this Court adopted its procedure for limited certificates, it committed certificate determinations to three-judge panels. *Bui*, 170 F.3d at 238 n.2; *see* Fed. R. App. P. 22(b)(2). No rule commits them to the Clerk.
+
+The order asked the district court only to "identify" the issues that satisfied the standard. What it produced was different. Judge Wolf, the judge who decided the motion, had found every issue certifiable. Judge Kelley, to whom the case had been reassigned, read the request as a directive "to issue a new Certificate of Appealability" and re-decided the question, withdrawing certification from two claims. ECF 141. In *Grant-Chase v. Commissioner*, 145 F.3d 431, 435 (1st Cir. 1998), this Court set aside a local rule that required a petitioner holding a district judge's certificate to obtain a second one here, because § 2253(c) "contemplates the issuance of only one certificate before an appeal to this court may be taken." Judge Wolf's certificate was that one. And a notice of appeal "divests the district court of its control over those aspects of the case involved in the appeal." *Griggs v. Provident Consumer Discount Co.*, 459 U.S. 56, 58 (1982) (per curiam). *Griggs* held a notice of appeal ineffective because it was filed while a motion to alter the judgment was pending, reasoning that a district court and a court of appeals "should not attempt to assert jurisdiction over a case simultaneously." *Id.* After Kumar's appeal was docketed on Judge Wolf's certificate, any narrowing of that certificate required this Court's authority, exercised as *Gonzalez* describes. A request the Clerk issued under Rule 27.0(d) did not supply it.
+
+The rules also supply the remedy. A party "adversely affected by the action of the clerk" may move for reconsideration, and the motion goes to a judge or panel unless the Clerk grants it. 1st Cir. R. 27.0(d); *see* Fed. R. App. P. 27(b). Those provisions speak of clerk action on a motion, and an order entered under the same rule without any motion can be no less open to review. Kumar could not seek reconsideration of orders he never received. He asks the Court to treat this response as that motion and to vacate the May 8 and July 1 orders insofar as they displace Judge Wolf's certificate.
+
+### C. A Deadline Kumar Never Received Cannot Waive Claims He Never Knew Were Uncertified
+
+The Government treats Kumar's failure to meet the July 31 deadline as dispositive. Mot. 5, 9. *Bui* says only that missing such a deadline "may be deemed to constitute a waiver." 170 F.3d at 237. The word is permissive, and the Government's own authority explains why it must be. "A party waives a right when he intentionally relinquishes or abandons it." *United States v. Rodriguez*, 311 F.3d 435, 437 (1st Cir. 2002). Kumar could not relinquish a right he did not know was at stake. He did not receive the orders that narrowed his certificate and set the deadline. Kumar Decl. ¶¶ 3-5. The district court has already found that court mail failed to reach him once in this very proceeding, ECF 137, and mail sent to him came back undeliverable a week before the May 8 order issued, ECF 139. Throughout, Kumar litigated on the premise that Judge Wolf's certificate controlled. Kumar Decl. ¶ 8.
+
+The Government's cases involve nothing like this. In *Peralta v. United States*, 597 F.3d 74, 83-84 (1st Cir. 2010) (per curiam), the petitioner himself asked the district court to certify two issues, received exactly that certificate, and then briefed issues he had never asked anyone to certify. In *Vargas-De Jesús v. United States*, 813 F.3d 414, 419 n.6 (1st Cir. 2016), this Court had issued a certificate on an issue it framed, and the petitioner argued a different point he never sought to certify. Each petitioner knew the scope of his certificate because he had asked for it or received it. Kumar received an unrestricted certificate and never learned it had been narrowed.
+
+If the Court concludes that the June 25 order governs, Kumar asks in the alternative for leave to apply for an expanded certificate within 30 days of the Court's order. *Bui* contemplates exactly that sequence: when a petitioner seasonably seeks to expand a limited certificate, the appeal on the certified issues is held in abeyance until the request is decided. 170 F.3d at 238. An application filed promptly after Kumar first learned of the narrowing is seasonable.
+
+### III. THE DELAY CLAIM RISES OR FALLS WITH THE PLEA
+
+Judge Kelley certified the pre-indictment delay claim because reasonable jurists could disagree with the district court's conclusion about the pandemic's effect on the delay. ECF 141. The Government's lead response is waiver, by withdrawal of the motion to dismiss and by the unconditional plea. Mot. 7-8.
+
+Both waivers depend on the plea. Counsel withdrew the motion "in light of his request for a Rule 11 Hearing," ECF 80, and Kumar told the court he was withdrawing it to plead guilty because he believed he faced 15 to 20 months, ECF 122 at 6. The withdrawal was a step toward the plea, and it can stand no firmer than the plea it served. *United States v. Concepción-Guliam*, 62 F.4th 26, 31 (1st Cir. 2023), and *Rodriguez*, 311 F.3d at 437, enforced withdrawals on direct appeal against defendants who abandoned a claim in the district court and then tried to revive the same claim on appeal; neither involved a withdrawal made to enter a plea that is itself under collateral attack. *Tollett v. Henderson*, 411 U.S. 258, 267 (1973), bars independent pre-plea claims but preserves the defendant's right to attack "the voluntary and intelligent character of the guilty plea" through counsel's advice. And in *United States v. Gaffney*, 469 F.3d 211, 214-15 (1st Cir. 2006), this Court declined to rest on *Tollett* and decided the claim on other grounds.
+
+On the merits, the Government's account of the delay deserves a hearing rather than acceptance. The prosecutor attested that the plan had been to charge Kumar "with a co-conspirator later in the year," and that the May 2021 complaint was sought only after the prosecutor learned that Kumar had been released from Bureau of Prisons custody. ECF 122-2 ¶ 8. The timing of the charge, in other words, was a choice, not the product of the investigation's completion. Whether that choice served investigation or tactical advantage is debatable, as Judge Kelley found. If the plea falls, this claim returns with it.
+
+### IV. THIS RESPONSE IS PROPERLY BEFORE THE COURT
+
+No order set a date for this response, Kumar Decl. ¶ 6, and the Court has not ruled on the motion. Rule 27.0(c) provides for summary disposition "on such notice as the court may order." To the extent the ten-day period of Fed. R. App. P. 27(a)(3)(A), extended under Rule 26(c) for service by mail, applies, the Court may extend it, Fed. R. App. P. 27(a)(3)(A), and "may permit an act to be done after that time expires" for good cause, Fed. R. App. P. 26(b). Kumar asks it to do so. Good cause is shown by the facts set out above: Kumar is a pro se prisoner whose court mail arrives late or not at all, Kumar Decl. ¶ 2, and the district court has already found that he did not receive a dispositive order in this case, ECF 137. The Government suffers no prejudice. Briefing is stayed at its request, and its motion remains under submission.
+
+The stay rests on the motion for summary disposition. The Government sought it only because, "[i]f the Court grants summary disposition, full briefing will be unnecessary." Gov't Mot. to Stay ¶ 3. Once the motion is denied, the stay should be lifted and a date set for the Government's brief.
+
+## CONCLUSION
+
+The Court should (1) deny the Government's motion for summary disposition; (2) hold that the August 28, 2025 certificate of appealability governs the scope of this appeal, or, treating this response as a motion under Local Rule 27.0(d), vacate the May 8 and July 1, 2026 orders to the extent they displace that certificate, or, alternatively, grant Kumar leave to apply for an expanded certificate within 30 days; (3) lift the stay and set a date for the Government's brief; (4) alternatively, vacate the denial of the proffer claim and remand for an evidentiary hearing under 28 U.S.C. § 2255(b); and (5) to the extent required, grant leave under Fed. R. App. P. 26(b) to file this response.
+
+Respectfully submitted,
+
+______________________________
+Manish Kumar, pro se
+Fed. Reg. No. 83763-053
+FCI Fort Dix
+P.O. Box 2000
+Joint Base MDL, NJ 08640-0000
+
+Dated: ____________, 2026
+
+## CERTIFICATE OF COMPLIANCE
+
+This response complies with the type-volume limit of Fed. R. App. P. 27(d)(2)(A) because, excluding the parts of the document exempted by Fed. R. App. P. 32(f), it contains 4,960 words. It complies with the typeface and type-style requirements of Fed. R. App. P. 27(d)(1)(E) and 32(a)(5)-(6) because it has been prepared in a proportionally spaced typeface in 14-point type.
+
+______________________________
+Manish Kumar
+
+## CERTIFICATE OF SERVICE AND DECLARATION OF INMATE FILING
+
+I, Manish Kumar, declare that on ____________, 2026, I deposited in the internal legal mail system at FCI Fort Dix, with first-class postage prepaid, an envelope addressed to the Clerk, United States Court of Appeals for the First Circuit, John Joseph Moakley U.S. Courthouse, 1 Courthouse Way, Suite 2500, Boston, MA 02210, containing the original and three copies of this response, the Declaration of Manish Kumar, and Exhibits A through F. Fed. R. App. P. 25(a)(2)(A)(iii).
+
+On the same date, I served a copy of the same papers by depositing them in the same legal mail system, with first-class postage prepaid, addressed to: Donald C. Lockhart, Assistant U.S. Attorney, and Kriss Basil, Assistant U.S. Attorney, United States Attorney's Office, 1 Courthouse Way, Suite 9200, Boston, MA 02210.
+
+I declare under penalty of perjury under the laws of the United States of America that the foregoing is true and correct. 28 U.S.C. § 1746.
+
+Executed on ____________, 2026, at Joint Base MDL, New Jersey.
+
+______________________________
+Manish Kumar
