@@ -7,7 +7,7 @@
 
 **Verify before filing (not independently confirmed):** FRAP 26(b), 26(c), 27(a)(3)(A) and 25(a)(2)(A)(iii) text in the current Rulebook; the 1st Cir. R. 27.0(c) quotation; *Hill*, 474 U.S. at 59; *Tollett*, 411 U.S. at 267 (the quoted sentence); *Dugas* quotations and pinpoints (506 F.3d 1, quotations taken from a prior research file, pinpoints not confirmed); *Caramadre*, 807 F.3d at 371 (quoted as the Government quotes it); *Miller-El* quotations (taken from ECF 141, which quotes them); 28 U.S.C. §2255(b) text. Quotations from ECF 75, 122, 122-1, 122-2, 130 and the Government’s motion were taken from the copies on the Drive; quotations from ECF 137, 139 and 141 were taken from the docket text in the PACER docket report, so compare them with the orders themselves. Pages cited for ECF 122 and 130 are the PDF page numbers (“Page x of y”).
 
-**Choices made in this draft (change if you disagree):** (a) concedes that no proffer letter would have protected the February 27, 2020 false statements (Count 3), as Kumar’s own brief already does; (b) does not ask to vacate the 9/30 stay (a plain denial of the motion ends it in practice; a request to vacate would be a separate fight); (c) does not apply to expand the certificate of appealability; Part IV.F is a neutral reservation that neither concedes nor asserts any defect in Judge Wolf’s certificate; (d) does not mention that Kumar filed his opening brief on 8/24/2026, a week after the 8/17 briefing schedule (the Government may raise it); (e) delay claim is kept short and does not argue the ECF 58-1 exhibits, which hurt on motive (the 7/30/2020 emails about pushing out the indictment deadline for plea negotiations).
+**Choices made in this draft (change if you disagree):** (a) concedes that no proffer letter would have protected the February 27, 2020 false statements (Count 3), as Kumar’s own brief already does; (b) does not ask to vacate the 9/30 stay (a plain denial of the motion ends it in practice; a request to vacate would be a separate fight); (c) does not apply to expand the certificate of appealability; Part IV.F is a neutral reservation that neither concedes nor asserts any defect in Judge Wolf’s certificate; (d) does not mention that Kumar filed his opening brief on 8/24/2026, a week after the 8/17 briefing schedule (the Government may raise it); (e) timeliness is argued first (the docket shows no order setting a response date, and no rule I found requires the court to set one; FRAP 27(a)(3)(A) runs 10 days automatically unless the court extends it), with leave under FRAP 26(b) kept as a fallback in the same filing; (f) delay claim is kept short and does not argue the ECF 58-1 exhibits, which hurt on motive (the 7/30/2020 emails about pushing out the indictment deadline for plea negotiations).
 
 **Known weaknesses:** a COA does not preclude summary affirmance; the Government will say Counts 1-2 rest on evidence independent of anything Kumar said (the PSR); the prejudice theory depends on facts nobody has found; this response is late, and the court may not accept good cause on a record-only showing.
 
@@ -26,15 +26,15 @@ v.
 UNITED STATES OF AMERICA,  
 Respondent-Appellee.
 
-**APPELLANT’S MOTION FOR LEAVE TO FILE RESPONSE OUT OF TIME AND RESPONSE IN OPPOSITION TO APPELLEE’S MOTION FOR SUMMARY DISPOSITION**
+**APPELLANT’S RESPONSE IN OPPOSITION TO APPELLEE’S MOTION FOR SUMMARY DISPOSITION AND, TO THE EXTENT NECESSARY, MOTION FOR LEAVE TO FILE OUT OF TIME**
 
-Appellant Manish Kumar, pro se, asks the Court (1) for leave under Fed. R. App. P. 26(b) to file this response after the date it was due, and (2) to deny the Government’s motion for summary disposition under 1st Cir. R. 27.0(c). On September 30, 2026, the Court granted the Government’s motion to stay briefing as unopposed. The Court has not ruled on the motion for summary disposition.
+Appellant Manish Kumar, pro se, asks the Court to deny the Government’s motion for summary disposition under 1st Cir. R. 27.0(c). The Court has not set a date for a response to that motion, and has not ruled on it. To the extent the Court considers this response late, Mr. Kumar asks for leave under Fed. R. App. P. 26(b) to file it now.
 
-### I. MOTION FOR LEAVE TO FILE OUT OF TIME
+### I. THIS RESPONSE IS TIMELY; ALTERNATIVELY, THERE IS GOOD CAUSE FOR LEAVE
 
-1. The Government served its motion by first-class mail on September 11, 2026, addressed to Mr. Kumar at FCI Fort Dix. (Gov’t Mot. for Summary Disposition, Certificate of Service.) A response to a motion is due 10 days after service, Fed. R. App. P. 27(a)(3)(A), plus three days when service is by mail, Fed. R. App. P. 26(c). That date was September 24, 2026.
+1. The Government served its motion by first-class mail on September 11, 2026, addressed to Mr. Kumar at FCI Fort Dix. (Gov’t Mot. for Summary Disposition, Certificate of Service.) Mr. Kumar is a pro se prisoner and is not a participant in the Court’s electronic filing system. The docket reflects no order setting a date for a response to the motion, no order ruling on it, and no notice to Mr. Kumar of any deadline. The only action since the motion was filed is the September 30, 2026 order granting the Government’s separate motion to stay briefing as unopposed. Mr. Kumar submits that, in these circumstances, this response is timely.
 
-2. Rule 26(b) provides that “[f]or good cause, the court may extend the time prescribed by these rules or by its order to perform any act, or may permit an act to be done after that time expires.”
+2. If the Court nonetheless applies the 10-day period of Fed. R. App. P. 27(a)(3)(A), plus the three days Rule 26(c) adds for service by mail, that period ended on September 24, 2026. In that event Mr. Kumar asks for leave to file now. Rule 26(b) provides that “[f]or good cause, the court may extend the time prescribed by these rules or by its order to perform any act, or may permit an act to be done after that time expires.”
 
 3. Good cause exists. Mr. Kumar is a federal prisoner, proceeding pro se, who depends on the prison mail system. The record in this case shows that court mail has not reliably reached him. On April 17, 2026, the district court found that he “adequately claims that he did not receive notice of entry of the Order within 21 days of its entry,” noted that “[t]he docket also does not indicate if the Order was mailed to Mr. Kumar at the prison facility where he is imprisoned,” and concluded that “[t]hese facts cumulatively provide sufficient evidence that Mr. Kumar did not receive notice of the Order.” D. Mass. ECF 137. The court reopened his time to appeal, and noted that the Government “did not oppose the Motion or contest the Declaration.” *Id.* On May 4, 2026, the district court docket recorded: “Mail sent to Manish Kumar Returned as Undeliverable.” D. Mass. ECF 139.
 
@@ -104,7 +104,7 @@ Date: [DATE]
 
 ### CERTIFICATE OF COMPLIANCE
 
-This document complies with the type-volume limit of Fed. R. App. P. 27(d)(2)(A) because, excluding the parts exempted by Fed. R. App. P. 32(f), it contains approximately 2338 words [RECOUNT AFTER FINAL EDITS], and with the typeface and type-style requirements of Fed. R. App. P. 32(a)(5) and (6) because it is prepared in a proportionally spaced typeface (Times New Roman, 14 point).
+This document complies with the type-volume limit of Fed. R. App. P. 27(d)(2)(A) because, excluding the parts exempted by Fed. R. App. P. 32(f), it contains approximately 2429 words [RECOUNT AFTER FINAL EDITS], and with the typeface and type-style requirements of Fed. R. App. P. 32(a)(5) and (6) because it is prepared in a proportionally spaced typeface (Times New Roman, 14 point).
 
 /s/ _______________________   Manish Kumar, pro se   Date: [DATE]
 
