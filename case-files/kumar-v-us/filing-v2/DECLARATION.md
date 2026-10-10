@@ -23,15 +23,15 @@ I, Manish Kumar, declare as follows:
 
 4. I never received the district court's order dated June 25, 2026, which issued a certificate of appealability on two issues.
 
-5. I never received the order of this Court dated July 1, 2026, which set July 31, 2026 as the deadline to apply for an expanded certificate of appealability.
+5. I received the order of this Court dated July 1, 2026. It did not say that Judge Wolf's certificate of appealability had been replaced or that a new certificate had been issued, and I had not received the May 8 or June 25, 2026 orders. I believed it was a standard form order sent to appellants in § 2255 appeals. I did not understand it to mean that my certificate of appealability had been limited to two issues.
 
 6. I have never received any order setting a date by which I was to respond to the Government's motion for summary disposition.
 
-7. I received the Government's motion for summary disposition on ____________, 2026. Before I received it, I did not know that the certificate of appealability in my case had been limited to two issues. I learned that only from the Government's motion.
+7. Prison officials delivered the Government's motion for summary disposition to me on or about September 30, 2026. Before I received it, I did not know that the certificate of appealability in my case had been limited to two issues. I learned that only from the Government's motion.
 
 8. Until I received the Government's motion, I believed that the certificate of appealability Judge Wolf issued on August 28, 2025 covered every ground raised in my § 2255 motion. I prepared and filed my opening brief in this Court on that understanding.
 
-9. If I had received the July 1, 2026 order before July 31, 2026, I would have applied to this Court for an expanded certificate of appealability by that date.
+9. If I had known before July 31, 2026 that Judge Wolf's certificate of appealability had been replaced by a certificate limited to two issues, I would have applied to this Court for an expanded certificate of appealability by that date.
 
 I declare under penalty of perjury under the laws of the United States of America that the foregoing is true and correct. 28 U.S.C. § 1746.
 
