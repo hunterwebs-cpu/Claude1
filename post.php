@@ -1,10 +1,82 @@
+<?php
+require __DIR__ . '/_seo.php';
+require __DIR__ . '/_posts.php';
+
+/* Server-render the article so crawlers that don't run JavaScript (and every
+   reader on a slow phone) get the full text, title and metadata in the HTML. */
+$slug = isset($_GET['slug']) ? (string) $_GET['slug'] : '';
+$post = stf_load_post($slug);
+
+if ($post) {
+    list($published, $modified) = stf_post_dates($post);
+    $title   = isset($post['title']) ? $post['title'] : 'Article';
+    $excerpt = isset($post['excerpt']) ? $post['excerpt'] : '';
+    $path    = stf_post_path($slug);
+    $url     = stf_url($path);
+    $cover   = !empty($post['cover']) ? ltrim($post['cover'], '/') : '';
+    $byline  = implode('  ·  ', array_filter(array(
+        isset($post['author']) ? $post['author'] : '',
+        stf_fmt_date(isset($post['date']) ? $post['date'] : ''),
+    )));
+    $bodyHtml = stf_render_markdown($post['body']);
+
+    $article = array(
+        '@type'            => 'Article',
+        '@id'              => $url . '#article',
+        'headline'         => $title,
+        'description'      => $excerpt,
+        'image'            => array(stf_url($cover ?: STF_DEFAULT_IMAGE)),
+        'author'           => array('@id' => STF_PERSON_ID, 'name' => 'Bilal Khan'),
+        'publisher'        => array('@id' => STF_ORG_ID),
+        'mainEntityOfPage' => $url,
+        'isPartOf'         => array('@id' => STF_WEBSITE_ID),
+        'inLanguage'       => 'en-US',
+    );
+    if (!empty($post['category'])) $article['articleSection'] = $post['category'];
+    if ($published) {
+        $article['datePublished'] = $published;
+        $article['dateModified']  = $modified;
+    }
+    if (isset($post['author']) && $post['author'] !== 'Bilal Khan') {
+        $article['author'] = array('@type' => 'Person', 'name' => $post['author']);
+    }
+} else {
+    http_response_code(404);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Article — Surviving the Feds</title>
-  <meta name="description" content="An article from the Surviving the Feds Journal." />
+<?php if ($post):
+    stf_meta(array(
+        'title'       => stf_post_title_tag($post),
+        'description' => $excerpt,
+        'path'        => $path,
+        'og_title'    => $title,
+        'type'        => 'article',
+        'image'       => $cover,
+        'image_alt'   => $title,
+        'extra_og'    => $published ? array(
+            array('article:published_time', $published),
+            array('article:modified_time', $modified),
+        ) : array(),
+    ));
+    stf_jsonld(array(
+        $article,
+        stf_breadcrumbs(array(array('Home', ''), array('The Journal', 'blog.php'), array($title, $path))),
+        stf_website_node(),
+        stf_org_node(),
+        stf_person_node(),
+    ));
+else:
+    stf_meta(array(
+        'title'       => 'Article not found | Surviving the Feds',
+        'description' => 'That article could not be found. Browse every free guide in the Surviving the Feds Journal.',
+        'noindex'     => true,
+    ));
+endif; ?>
   <meta name="theme-color" content="#0A0B0E" />  <?php require '_head.php'; ?>
 </head>
 <body>
@@ -13,6 +85,11 @@
 
   <main>
     <article class="article" id="article-root">
+<?php if (!$post): ?>
+      <div class="article-header"><span class="eyebrow center">The Journal</span>
+        <h1>Article not found</h1><p class="lead center">We couldn't find that article.</p>
+        <div class="center" style="margin-top:28px;"><a class="btn btn--primary" href="blog.php">Back to the Journal</a></div></div>
+<?php else: ?>
       <div class="container">
       <!-- Print sheet: <tfoot> repeats at the bottom of every printed page and
            reserves its own space, so body copy can never flow underneath it. -->
@@ -36,9 +113,9 @@
         </div>
 
         <header class="article-header">
-          <span class="eyebrow center" id="a-cat">The Journal</span>
-          <h1 id="a-title">Loading…</h1>
-          <p class="article-meta" id="a-meta"></p>
+          <span class="eyebrow center" id="a-cat"><?= h(!empty($post['category']) ? $post['category'] : 'Article') ?></span>
+          <h1 id="a-title"><?= h($title) ?></h1>
+          <p class="article-meta" id="a-meta"><?= h($byline) ?></p>
         </header>
 
         <!-- Download / print toolbar (hidden when printing) -->
@@ -50,7 +127,9 @@
           <span class="tools-hint">To mail to someone inside, choose <strong>“Save as PDF”</strong> or print directly.</span>
         </div>
 
-        <div class="prose" id="a-body"></div>
+        <div class="prose" id="a-body">
+<?= $bodyHtml /* Markdown from content/blog via the CMS; raw HTML allowed, as marked.js did */ ?>
+        </div>
 
         <!-- Book promo + Amazon CTA appended to the printed / saved PDF page -->
         <aside class="print-books print-only">
@@ -79,6 +158,7 @@
         </td></tr></tbody>
       </table>
       </div>
+<?php endif; ?>
     </article>
 
     <!-- CTA BAND -->
@@ -104,8 +184,5 @@
 
 <?php require '_footer.php'; ?>
 
-  <!-- Markdown renderer -->
-  <script src="assets/js/marked.min.js"></script>
-  <script src="assets/js/post.js?v=16" defer></script>
 </body>
 </html>
