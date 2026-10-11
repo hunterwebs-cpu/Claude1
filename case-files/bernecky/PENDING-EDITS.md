@@ -23,8 +23,9 @@ Blast radius to handle on the rebuild:
 - Conclusion: delete item 6 (polygraph); renumber 7→6, 8→7, 9→8.
 - Preliminary Statement ¶4: remove the polygraph sentence ("And Special
   Condition (g) commands him to answer questions under polygraph...").
-- **DECISION PENDING:** the § 3006A(a)(1)(E) counsel-appointment request
-  (Conclusion item 10) was anchored in Part IV — keep it (rehomed) or drop it?
+- **DECIDED (2026-10-11):** KEEP the § 3006A(a)(1)(E) counsel-appointment
+  request and rehome its justification (Preliminary Statement or a short
+  standalone note) so it survives the polygraph cut.
 - **HOLD:** the SORA-use fact (treatment statements used against him in Monroe
   County) and the ATSA written-confidentiality-warning point currently live in
   Part IV. These are treatment-interface points — candidates to migrate into
@@ -56,9 +57,11 @@ Factual-predicate / accuracy notes for the rebuild:
 - **CERTIFICATION NEEDS from Jeff:** what he was shown/told about the system's
   capture (screen images, typed text, documents), and the absence of any
   disclosed privilege/screening mechanism.
-- **DECISION PENDING:** is as-applied the new LEAD/spine with the
+- **DECISION PENDING (planning):** is as-applied the new LEAD/spine with the
   device-definition and employment (Part I.D) arguments retained as additional
-  grounds — or a full replacement of the construction argument?
+  grounds — or a full replacement of the construction argument? Client is
+  pulling Jeff's emails about recent events before deciding. DO NOT REBUILD —
+  planning phase.
 
 ## 3. Treatment — DEFERRED
 
