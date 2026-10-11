@@ -8,15 +8,19 @@ blog. Dark, bold, defiant theme. No build step required.
 ## Structure
 
 ```
-index.html          Home (mission, books teaser, founder, journal teaser)
-books.html          The Books — Surviving Pretrial + The 2255 Motion Handbook
-blog.html           The Journal — article index
-post.html           Single-article renderer (?slug=...)
+index.php           Home (mission, books teaser, founder, journal teaser)
+books.php           The Books — Surviving Pretrial + The 2255 Motion Handbook
+blog.php            The Journal — article index (server-rendered links)
+post.php            Single article, server-rendered from Markdown (?slug=...)
+_seo.php            Shared <title>/meta/canonical/OG + JSON-LD entity graph
+_posts.php          Shared post helpers (frontmatter, listing, Markdown)
+sitemap.php         Generated sitemap, served at /sitemap.xml
+lib/Parsedown.php   Vendored Markdown parser (MIT)
 admin/              Decap CMS publishing dashboard (/admin)
 content/blog/*.md   Blog posts (Markdown + frontmatter)
 content/posts.php   Auto-lists posts (PHP); falls back to posts.json
 assets/css/         styles.css — all theming via CSS variables
-assets/js/          main.js (UI), blog.js (list), post.js (article)
+assets/js/          main.js (UI), blog.js (Journal reader enhancement)
 assets/img/         logo.svg, emblem.svg (swap with official artwork)
 ```
 
@@ -24,7 +28,7 @@ assets/img/         logo.svg, emblem.svg (swap with official artwork)
 
 ```bash
 # from the project root
-python3 -m http.server 8080
+php -S localhost:8080
 # then open http://localhost:8080
 ```
 The blog loads posts over HTTP, so preview via a local server (not by opening

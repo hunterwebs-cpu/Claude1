@@ -9,24 +9,28 @@ this document is the deep reference.
 > 1. **Main brand** (dark, defiant) — `assets/css/styles.css`. Used by home, books,
 >    about, blog, post, is-my-lawyer.
 > 2. **Crisis sub-brand** (the "Emergency Room") — `assets/css/start.css`, a
->    self-contained system used ONLY by `start-here.html`. Different fonts, palette,
+>    self-contained system used ONLY by `start-here.php`. Different fonts, palette,
 >    reset, and `--cr-*` tokens. **Never** mix the two. This spec documents the
->    MAIN brand; for Start Here, read `start.css` + `start-here.html` directly.
+>    MAIN brand; for Start Here, read `start.css` + `start-here.php` directly.
 
 ---
 
 ## 1. Tech & conventions
 
-- **Static site.** Hand-coded HTML + CSS + vanilla JS. **No build step, no framework.**
+- **Hand-coded PHP pages** (shared `_head.php`/`_nav.php`/`_footer.php`/`_seo.php`
+  includes) + CSS + vanilla JS. **No build step, no framework, no Composer.**
+- **Everything a crawler needs is in the server HTML.** Titles, meta, canonical,
+  OG/Twitter and JSON-LD are emitted in PHP via `_seo.php`; articles and the
+  Journal list are rendered by PHP. JavaScript only enhances.
 - **Hosting/deploy:** Hostinger, auto-deploys from GitHub `main`. Work on branch
   `claude/surviving-feds-site-5n4cmc`, then fast-forward `main` and push (goes live
   in ~1 min). Never force-push `main`; if it diverges (parallel sessions happen),
   rebase onto `origin/main`.
 - **Cache busting:** HTML is `no-cache` via `.htaccess`; CSS/JS are long-cached.
-  When you change a `.css`/`.js` file, **bump the `?v=N` query** on its `<link>`/
-  `<script>` refs across *all* HTML files in the same change.
-- **Local preview:** `python3 -m http.server` from repo root (blog uses `fetch`, so
-  it needs http, not `file://`).
+  `styles.css`, `main.js` and `blog.js` use `?v=<?= filemtime(...) ?>` and bust
+  themselves; for any ref still on a hand-set `?v=N`, **bump it** in the same change.
+- **Local preview:** `php -S localhost:8080` from repo root. It ignores `.htaccess`,
+  so open `.php` URLs directly (`/sitemap.php` rather than `/sitemap.xml`).
 - **Images:** optimize before commit (Pillow). Hero/background JPGs ≤ ~1920px wide,
   progressive, q≈82–88. Use `loading="lazy"` on below-the-fold `<img>`.
 - **Icons:** inline SVG only (stroke style, 24×24 viewBox, `stroke-width` 1.8–2).
@@ -167,19 +171,19 @@ All main-brand pages share the **same header, overlay menu, and footer** (5 nav
 items: Home · Start Here · The Books · The Journal · About; set `aria-current` on
 the active one; overlay idx 01–05).
 
-- **`index.html`** (home): photo hero → marquee → promise strip → mission (split
+- **`index.php`** (home): photo hero → marquee → promise strip → mission (split
   header + 3 feature cards) → books teaser (2 covers) → reviews (3) → quote band →
   founder teaser (subtle, links to About) → "what's coming" services (3 soon cards)
   → journal teaser (`#home-posts`, latest 3) → photo CTA band.
-- **`books.html`**: page hero → Book 1 (`.book-section` w/ faint bg photo) → divider
+- **`books.php`**: page hero → Book 1 (`.book-section` w/ faint bg photo) → divider
   → Book 2 → disclaimer callout → series CTA.
-- **`about.html`**: page hero → story split (headshot) → teaching credential
+- **`about.php`**: page hero → story split (headshot) → teaching credential
   (split header + 3 cards) → testimonial quote band → mission CTA.
-- **`is-my-lawyer-any-good.html`**: page hero → intro `.lead.deck` + book callout →
+- **`is-my-lawyer-any-good.php`**: page hero → intro `.lead.deck` + book callout →
   podcast card → 6-point checklist → CTA. (Checklist drawn from the book.)
-- **`blog.html`**: hero head → `#post-list` (rendered) → CTA.
-- **`post.html`**: renders `?slug=` article into `.prose`; print/PDF toolbar.
-- **`start-here.html`**: CRISIS SUB-BRAND — separate system (see top note).
+- **`blog.php`**: sidebar list (`#post-list`, server-rendered `<a>` links) + JS reader pane.
+- **`post.php`**: server-renders the `?slug=` article into `.prose`; print/PDF toolbar.
+- **`start-here.php`**: CRISIS SUB-BRAND — separate system (see top note).
 
 ---
 
@@ -188,9 +192,13 @@ the active one; overlay idx 01–05).
 - Posts/guides = Markdown files in `content/blog/<slug>.md` with YAML frontmatter:
   `title`, `date` (YYYY-MM-DD), `category`, `author`, `excerpt`, optional `cover`,
   then the body.
-- Listing source: `content/posts.php` auto-lists the folder (Hostinger has PHP);
-  `content/posts.json` is the static fallback array of slugs. `blog.js` builds cards;
-  `post.js` renders a single article with marked.js (CDN).
+- Rendering: `_posts.php` parses frontmatter, lists posts and renders Markdown
+  with vendored `lib/Parsedown.php`; `post.php`, `blog.php`, the homepage cards and
+  `sitemap.php` all use it. Optional frontmatter: `seoTitle` (the `<title>` when
+  the display title doesn't fit `[Keyword]: [Hook]`) and `updated` (YYYY-MM-DD,
+  drives `dateModified` and sitemap `lastmod`).
+- `content/posts.php` returns the same list as JSON for `blog.js`;
+  `content/posts.json` is the static fallback array of slugs.
 - Decap CMS at `/admin` (GitHub backend; OAuth setup in `DEPLOY.md`).
 - **Planned:** 8 free in-depth guides + a PACER guide, each its own page/article and
   cross-linked from Start Here. All free.
