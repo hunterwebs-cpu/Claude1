@@ -1,72 +1,66 @@
 # Pending Edits — SR Modification Motion
 
-**Purpose:** a disposable scratch file for the client's line-by-line notes
-on whatever draft is currently in front of him, to be handed to the Writer
-for the next drafting pass. Nothing more than the current round lives
-here. This file is not version-numbered — it covers whatever's live right
-now, so it never goes stale the way a version-tagged filename does.
+**Purpose:** disposable scratch file for the current live round of direction on
+`MOTION-v5.md`. Supersedes whatever was here before.
 
-**Status: notes below.** The prior round (items 1-5, the "F" grade —
-device-scope lead, carve-out emphasis, Item 5 re-examined, security/
-functionality reframe) was implemented via the from-scratch rebuild
-(commit `92ebb14`). This round's notes are on that rebuilt Part I.
+**Status: COURSE CORRECTION (2026-10-11).** The prior Part I read-through notes
+(device-definition rebuild + six line items) are superseded — Part I is being
+rebuilt on a new theory. Three-front direction from the client:
 
 ---
 
-## Notes on rebuilt Part I, read-through 1
+## 1. Polygraph (Part IV) — REMOVE ENTIRELY
 
-1. **"Read the way the Participant Agreement applies it" — attribute the
-   application to Probation too, not just the Agreement.** Client: "I would
-   say the way th[e] participant agreement and the probation officer
-   applies the condition." Fix the phrase so both the Agreement's terms
-   and the probation officer's application of them are named as the thing
-   being read/construed — not the document alone.
+Client: strike the whole polygraph/CVSA argument. Jeff will instead assert the
+Fifth Amendment question-by-question if he is actually examined — the standard
+*Murphy*/*Hoffman* approach ("assert if called, as all the cases say to do"),
+rather than briefing a facial/as-applied attack on the condition now.
 
-2. **"which objects" — add a qualifier.** Client suggests inserting
-   "ubiquitous," "everyday," or "necessary" between "which" and "objects"
-   (in the device-scope discussion). Pick the word that fits the sentence
-   best; the point is to make concrete how ordinary/unavoidable the
-   objects being swept in are.
+Blast radius to handle on the rebuild:
+- Delete Part IV (Special Condition (g)), lines ~182-226.
+- Renumber V→IV (alcohol), VI→V (SC 5 & 8), VII→VI (risk notification), and
+  each "Relief requested (Part __)" label.
+- Conclusion: delete item 6 (polygraph); renumber 7→6, 8→7, 9→8.
+- Preliminary Statement ¶4: remove the polygraph sentence ("And Special
+  Condition (g) commands him to answer questions under polygraph...").
+- **DECISION PENDING:** the § 3006A(a)(1)(E) counsel-appointment request
+  (Conclusion item 10) was anchored in Part IV — keep it (rehomed) or drop it?
+- **HOLD:** the SORA-use fact (treatment statements used against him in Monroe
+  County) and the ATSA written-confidentiality-warning point currently live in
+  Part IV. These are treatment-interface points — candidates to migrate into
+  the treatment argument, not to be lost. Resolve with the treatment direction.
 
-3. **After "He participates." — add a citation to Bernecky's own
-   certification that can detail the cell phone and television.** Location:
-   the sentence ending "...authorized by the Court or the U.S. Probation
-   Office." Dkt. No. 28. He participates. The [...]" Add a cite here to the
-   certification (the document elsewhere referred to with `¶ __`
-   placeholders — check whether a real paragraph number/content now exists
-   for the cell phone and television facts) right after "He participates."
+## 2. Computer monitoring (Part I) — REBUILD AS AN AS-APPLIED CHALLENGE
 
-4. **Recast the notice/permission/surveillance/examination passage as a
-   list — more dramatic and memorable as enumerated items than as
-   continuous prose.** Flagged passage: "The condition then states what
-   participation requires: he 'must provide the U.S. Probation Office
-   advance notification of any computer(s), automated service(s), or
-   connected device(s) that will be used during the term of supervision,'
-   and the Office 'is authorized to install any application as necessary
-   to surveil all activity on computer(s) or connected device(s) owned or
-   operated by the defendant.' Id. Unannounced examination follows '[a]s
-   triggered by impermissible/suspicious activity,' and reaches 'the
-   computer(s), connected device(s), storage media, and any internal or
-   external peripherals.' Id." Client wants this broken into a list format
-   (e.g., the notice requirement, the surveillance-installation
-   authorization, and the unannounced-examination trigger/scope as
-   separate enumerated items) rather than run together as prose.
+Client's theory/facts: the monitoring system Probation actually deployed can
+take unrestricted screenshots of the screen, read all text typed, and capture
+all documents; it is not limited in scope; and no privilege-screening mechanism
+has been disclosed. As-applied, that violates the Judgment's own limiting clause
+(avoid privileged info + private-lawful material) and the Fourth Amendment
+narrow-tailoring rule (*Lifshitz*: monitors must remain "conscientiously
+unaware" of irrelevant material).
 
-5. **Add a "cf." (or possibly "id.") citation to the Judgment at the end of
-   the "Mr. Bernecky's employment." sentence.** Client isn't certain
-   whether it should be "cf." or "id." — use whichever is actually correct
-   given what immediately precedes it in the final text; the point is a
-   citation to the Judgment belongs there.
+Factual-predicate / accuracy notes for the rebuild:
+- "Unrestricted screenshots" — well-sourced (the program captures screen
+  images; the vendor's own privacy policy admits "screen captures").
+- "Reads all text typed" (keystrokes) — record source is *Browder*, 866 F.3d
+  at 507 (2d Cir. quoting the WDNY participant agreement: "capture of
+  keystrokes, application information, internet use history, email
+  correspondence, and chat conversations"). NOTE: WDNY's vendor is
+  client-identified as IPPC Technologies, and IPPC's own public materials
+  describe screen capture but do NOT admit keystroke logging — so source the
+  keystroke point to *Browder* + Jeff's certification, not to the vendor by name.
+- "No privilege mechanism disclosed" — Jeff can attest (certification) he was
+  never shown/told of any filter, screening protocol, or privilege carve-out;
+  put Probation to its proof + evidentiary-hearing hook.
+- **CERTIFICATION NEEDS from Jeff:** what he was shown/told about the system's
+  capture (screen images, typed text, documents), and the absence of any
+  disclosed privilege/screening mechanism.
+- **DECISION PENDING:** is as-applied the new LEAD/spine with the
+  device-definition and employment (Part I.D) arguments retained as additional
+  grounds — or a full replacement of the construction argument?
 
-6. **Reframe the individualization point (currently built around "What the
-   form has never been is individualized to Mr. Bernecky, and that is what
-   a condition of a criminal sentence has to be") — great point, needs a
-   slight reframe, and strip the block quote.** Client's reframe: the
-   Agreement has never been individualized to Mr. Bernecky — a requirement
-   that applies with particular force here, where the Agreement goes
-   beyond the terms of the Judgment and purports to further restrict a
-   supervisee's liberty. On the quote that follows ("A district court is
-   required to make an individualized assessment when..."): strike the
-   block quote itself and instead fold the citations into the sentence
-   with a short explanatory parenthetical supporting the point, rather
-   than quoting the case at length.
+## 3. Treatment — DEFERRED
+
+Client: "that's a whole thing." Await the client's walk-through before touching
+Part II.
