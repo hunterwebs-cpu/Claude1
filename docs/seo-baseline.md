@@ -64,3 +64,78 @@ config was intentionally left untouched.
 - Extension-less URLs (`/about`) return 200 with the same content as `/about.php`
   (no redirect) — canonical tags are what consolidate them.
 
+
+## After (branch `claude/seo-server-render`, 2026-10-11)
+
+Same crawler and user agent, run against `php -S localhost:8080` on the branch
+(PHP's dev server ignores `.htaccess`, so `.php` URLs were hit directly; the
+`.htaccess` rules — `/sitemap.xml` → `sitemap.php`, `_*.php` and `lib/` → 403 —
+were checked separately under Apache 2.4 with the real `.htaccess`). Canonicals
+point at `https://survivingthefeds.com/…`.
+
+| URL | HTTP | `<title>` | Canonical | `<h1>` (first) | Words before → after | JSON-LD @types | Twitter card |
+|---|---|---|---|---|---|---|---|
+| `/` | 200 | Federal Sentencing Calculators & Survival Guides — Surviving the Feds | yes | It isn't easy. But you can survive this. | 835 → **1019** | WebSite, Organization, Person | summary_large_image |
+| `/start-here.php` | 200 | Start Here — Surviving the Feds | yes | **none** | 8220 → **8220** | WebPage | **none** |
+| `/calculators.php` | 200 | Free Federal Sentencing Calculators \| Surviving the Feds | yes | Federal Sentencing Calculators — Built for the people who need them. | 1218 → **1218** | WebSite, Organization, Person, WebPage, FAQPage | summary |
+| `/books.php` | 200 | Books — Surviving the Feds | yes | **none** | 1871 → **1871** | BookSeries, Book, Book, BreadcrumbList, Person, Organization, WebSite | summary_large_image |
+| `/blog.php` | 200 | The Journal \| Surviving the Feds | yes | Guides & Articles | 300 → **711** | CollectionPage, BreadcrumbList, WebSite, Organization, Person | summary_large_image |
+| `/glossary.php` | 200 | Federal Criminal Law Glossary — Plain Language \| Surviving the Feds | yes | The Federal System, Translated. | 2471 → **2471** | DefinedTermSet | summary |
+| `/about.php` | 200 | About Bilal Khan — Surviving the Feds | yes | Bilal Khan | 481 → **481** | ProfilePage, BreadcrumbList, Person, Organization, WebSite | summary_large_image |
+| `/is-my-lawyer-any-good.php` | 200 | Is My Lawyer Any Good? — Surviving the Feds | yes | Is My Lawyer Any Good? | 592 → **592** | WebPage, BreadcrumbList, WebSite, Organization, Person | summary_large_image |
+| `/post.php?slug=how-to-use-pacer` | 200 | How to Use PACER to Follow Your Federal Case \| Surviving the Feds | yes | How to Use PACER to Follow Your Federal Case | 374 → **5794** | Article, BreadcrumbList, WebSite, Organization, Person | summary_large_image |
+| `/post.php?slug=the-first-step-act` | 200 | The First Step Act: What It Actually Gets You \| Surviving the Feds | yes | The First Step Act: What It Actually Gets You | 374 → **3869** | Article, BreadcrumbList, WebSite, Organization, Person | summary_large_image |
+| `/post.php?slug=your-rights-in-pretrial-detention` | 200 | Your Rights in Pretrial Federal Detention \| Surviving the Feds | yes | Your Rights in Pretrial Federal Detention | 374 → **4074** | Article, BreadcrumbList, WebSite, Organization, Person | summary_large_image |
+| `/post.php?slug=understanding-the-plea-deal` | 200 | Understanding the Plea Deal: What It Is, What It Costs, and When to Take It \| Surviving the Feds | yes | Understanding the Plea Deal: What It Is, What It Costs, and When to Take It | 374 → **1353** | Article, BreadcrumbList, WebSite, Organization, Person | summary_large_image |
+| `/post.php?slug=federal-sentencing-what-drives-the-numbers` | 200 | Federal Sentencing 101: What Drives the Numbers \| Surviving the Feds | yes | Federal Sentencing 101: What Drives the Numbers | 374 → **1427** | Article, BreadcrumbList, WebSite, Organization, Person | summary_large_image |
+| `/post.php?slug=the-first-48-hours` | 200 | The First 48 Hours After a Federal Arrest \| Surviving the Feds | yes | The First 48 Hours After a Federal Arrest | 374 → **976** | Article, BreadcrumbList, WebSite, Organization, Person | summary_large_image |
+| `/post.php?slug=staying-connected-calls-mail-visits` | 200 | Staying Connected: Calls, Mail, Email, and Visits in Federal Custody \| Surviving the Feds | yes | Staying Connected: Calls, Mail, Email, and Visits in Federal Custody | 374 → **1508** | Article, BreadcrumbList, WebSite, Organization, Person | summary_large_image |
+| `/post.php?slug=is-my-lawyer-any-good` | 200 | Is My Lawyer Actually Any Good? 7 Questions That Reveal the Truth \| Surviving the Feds | yes | Is My Lawyer Actually Any Good? 7 Questions That Reveal the Truth | 374 → **947** | Article, BreadcrumbList, WebSite, Organization, Person | summary_large_image |
+| `/post.php?slug=what-is-a-2255-motion` | 200 | What Is a 2255 Motion — and Who Can File One? \| Surviving the Feds | yes | What Is a 2255 Motion — and Who Can File One? | 374 → **964** | Article, BreadcrumbList, WebSite, Organization, Person | summary_large_image |
+
+Bad slugs (`nope-not-real`, `../posts`, `How-To-Use-Pacer`, empty, `a b`) → **404**
+with `<meta name="robots" content="noindex, follow">` and no canonical (was 200).
+"Loading…" occurrences in raw HTML: **0** on every page (was 1 on `blog.php` and
+on every post). Every JSON-LD block parses; no placeholders.
+
+### Summary
+
+| Check | Before | After |
+|---|---|---|
+| Posts with a unique, article-specific `<title>` | 0 / 9 | 9 / 9 |
+| Posts whose raw HTML contains the full article text | 0 / 9 | 9 / 9 (verbatim match against the old marked.js render) |
+| Posts with `<h1>` = article title | 0 / 9 | 9 / 9 |
+| Pages with a canonical tag | 4 / 17 | 17 / 17 |
+| Pages with Twitter tags | 1 / 17 | 16 / 17 (Start Here untouched) |
+| Crawlable `<a href>` links to posts on `blog.php` | 0 | 9 (+ 4 on the homepage) |
+| Book structured data | none | BookSeries + 2 × Book (paperback + Kindle editions) |
+| Sitemap | hand-maintained | generated; new CMS posts appear automatically |
+| Unknown slug | 200 + "Loading…" | 404 + noindex |
+
+Note: `start-here.php` is out of scope and unchanged — it has a canonical,
+`og:title`/`og:description`/`og:image` and WebPage JSON-LD, but no `og:url`,
+`og:type`, Twitter tags or `<h1>`.
+
+### Rendering parity (Playwright, Chromium, 2026-10-11)
+
+Live site vs branch, all 9 posts + `blog.php` + `blog.php?slug=the-first-48-hours`:
+
+- **JS-rendered article text**: identical character counts on all 9 posts; same
+  `document.title` and H1s; no console or page errors.
+- **Full-page desktop screenshots (1440 px)**: 8 / 9 posts pixel-identical.
+  `how-to-use-pacer` differs only inside its embedded screenshots, because the
+  Hostinger CDN serves re-encoded JPEGs (341 KB in the repo, 223 KB live).
+- **Print / Save-as-PDF (Letter)**: same page count for every page (e.g. PACER
+  30 = 30, First Step Act 12 = 12), identical extracted text, and every
+  rasterised page pixel-identical except PACER pp. 11, 16 and 21 (the same
+  re-encoded images).
+- **`blog.php`**: with excerpts hidden, the sidebar is pixel-identical to live at
+  1440 px and 390 px. The only visible change is the new two-line excerpt under
+  each title (required so the list carries title, excerpt and date).
+- **Interaction**: a plain click opens the article in the reader (URL becomes
+  `?slug=…`, item marked active); Ctrl/Cmd-click opens `post.php?slug=…` in a
+  new tab; Back returns to the list; with JavaScript disabled, clicking follows
+  the link to the server-rendered article.
+
+Screenshots: `docs/seo-screenshots/` (left = live, right = branch).
+
