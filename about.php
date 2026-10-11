@@ -61,28 +61,18 @@ stf_jsonld(array(
             </div>
           </div>
           <div class="founder-bio" data-reveal data-delay="1">
-            <span class="eyebrow">The short version</span>
+            <span class="eyebrow">His story</span>
             <h2>He didn't study the system. He survived it.</h2>
-            <p>People say you should hire an attorney to watch your attorney. Almost no one can afford that. The next best thing is someone who has already been through the federal system firsthand — and came out understanding federal criminal procedure better than most who only ever read about it.</p>
-            <p>That's Bilal Khan. He isn't a lawyer and doesn't pretend to be. What he is, is someone who lived the process from the inside — the fear, the confusion, the high-stakes decisions that get made fast — and turned that experience into something useful for the people coming after him.</p>
+            <p>People say you should hire an attorney to watch your attorney. Almost no one can afford that. The next best thing is someone who has already been through the federal system firsthand &mdash; and came out understanding federal criminal procedure better than most who only ever read about it. That's Bilal Khan.</p>
+            <p>His road here wasn't a straight line. He started as an EMT, then served in the U.S. Marine Corps. He went on to work in the operating room as a surgical first assistant and surgical ultrasound technologist in thoracic and vascular surgery, then moved into healthcare leadership &mdash; building surgical practices across the Southwest as a medical executive and earning the Certified Medical Practice Executive (CMPE) credential.</p>
+            <p>Then the federal government came for him. The prosecution was going for 80 years. After he pleaded guilty, his defense fought for an amended plea agreement that locked his sentence at 20. He lived exactly what you're facing now &mdash; the fear, the confusion, the high-stakes decisions that get made fast.</p>
+            <p>Inside, he went to work. He completed paralegal studies coursework through Adams State University and spent the next 15 years as a criminal-law paralegal &mdash; on criminal, post-conviction, and family-law matters for fellow prisoners, and alongside national sentencing experts, including Doug Passon, on prison placement, transfers, Bureau of Prisons issues, and sentencing mitigation. He litigated his own cases too, without a lawyer: he won a reversal in a federal court of appeals in a religious-freedom case against a jail that promoted Christianity at the expense of Muslim and other religious detainees &mdash; the case later settled &mdash; and he challenged a retaliatory transfer and was sent back to the prison he had been moved from.</p>
+            <p>He isn't a lawyer and doesn't pretend to be, and nothing on this site is legal advice. What he offers is the thing most defendants never get: the view from someone who has stood where they're standing &mdash; turned into something useful for the people coming after him.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- THE LONG VERSION -->
-    <section class="section" style="padding-top:0;">
-      <div class="container narrow">
-        <div class="founder-bio" data-reveal>
-          <span class="eyebrow">The long version</span>
-          <h2>A life on both sides of the system.</h2>
-          <p>Before any of this, Bilal became an EMT, then served in the U.S. Marine Corps. He went on to work in the operating room as a surgical first assistant and surgical ultrasound technologist in thoracic and vascular surgery, then moved into healthcare leadership &mdash; building surgical practices across the Southwest as a medical executive and earning the Certified Medical Practice Executive (CMPE) credential from the American College of Medical Practice Executives.</p>
-          <p>Then the federal government came for him. The prosecution was going for 80 years. After he pleaded guilty, his defense fought for an amended plea agreement that locked his sentence at 20. Inside, he completed paralegal studies coursework through Adams State University and spent the next 15 years working as a criminal-law paralegal &mdash; on criminal, post-conviction, and family-law matters for fellow prisoners, and alongside national sentencing experts, including Doug Passon, on prison placement, transfers, Bureau of Prisons issues, and sentencing mitigation.</p>
-          <p>He has litigated his own cases, too, without a lawyer. He won a reversal in a federal court of appeals in a religious-freedom case against a jail that promoted Christianity at the expense of Muslim and other religious detainees &mdash; the case later settled &mdash; and he challenged a retaliatory transfer and was sent back to the prison he had been moved from.</p>
-          <p>He is not an attorney, and nothing on this site is legal advice. What he offers is the thing most defendants never get: the view from someone who has stood where they're standing.</p>
-        </div>
-      </div>
-    </section>
 
     <!-- TEACHING CREDENTIAL -->
     <section class="section section--alt">
