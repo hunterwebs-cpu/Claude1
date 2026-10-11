@@ -155,16 +155,35 @@ function stf_strip_markers($md)
         '/^\[[^\]]*\.(png|jpg|jpeg|webp|gif)\]\s*$/im' => '',
         '/\n{4,}/'                             => "\n\n\n",
     );
-    return preg_replace(array_keys($rules), array_values($rules), $md);
+    $md = preg_replace(array_keys($rules), array_values($rules), $md);
+
+    // A footnote whose definition was removed above (it was only a [VERIFY]
+    // note) must not leave a dangling [^n] reference in the text.
+    preg_match_all('/^\[\^([^\]\s]+)\]:/m', $md, $defs);
+    $defined = array_flip($defs[1]);
+    return preg_replace_callback('/\[\^([^\]\s]+)\](?!:)/', function ($m) use ($defined) {
+        return isset($defined[$m[1]]) ? $m[0] : '';
+    }, $md);
 }
 
-/** Markdown → HTML with the vendored Parsedown (lib/Parsedown.php, MIT). */
+/** Markdown → HTML with vendored Parsedown + ParsedownExtra (lib/, MIT) — Extra adds footnotes. */
 function stf_render_markdown($md)
 {
-    static $pd = null;
-    if ($pd === null) {
-        require_once __DIR__ . '/lib/Parsedown.php';
-        $pd = new Parsedown();
+    require_once __DIR__ . '/lib/Parsedown.php';
+    require_once __DIR__ . '/lib/ParsedownExtra.php';
+    $pd   = new ParsedownExtra();   // fresh instance: Extra's footnote counter isn't reset by text()
+    $html = $pd->text(stf_strip_markers($md));
+
+    // Extra appends footnotes at the very end. If the article has its own
+    // "Endnotes"/"Notes" heading, put the list under it instead of leaving
+    // that heading empty above the book footer.
+    if (preg_match('#\n?<div class="footnotes">\s*<hr />\s*(<ol>.*</ol>)\s*</div>\s*$#s', $html, $fn, PREG_OFFSET_CAPTURE)
+        && preg_match('#<h2>(?:Endnotes|Notes|Footnotes)</h2>#i', $html, $h2, PREG_OFFSET_CAPTURE)
+        && $h2[0][1] < $fn[0][1]) {
+        $list = "\n<div class=\"footnotes\">\n" . $fn[1][0] . "\n</div>";
+        $html = substr($html, 0, $fn[0][1]);
+        $at   = $h2[0][1] + strlen($h2[0][0]);
+        $html = substr($html, 0, $at) . $list . substr($html, $at);
     }
-    return $pd->text(stf_strip_markers($md));
+    return $html;
 }

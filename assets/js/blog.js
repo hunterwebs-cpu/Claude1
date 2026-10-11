@@ -45,28 +45,6 @@
     });
   }
 
-  /* Strip print/layout markers and unresolved editor notes */
-  function stripMarkers(md) {
-    return md
-      .replace(/^\[LOGO:[^\]]*\]\s*$/gm, '')
-      .replace(/^\[ORANGE RULE LINE[^\]]*\]\s*$/gm, '')
-      .replace(/^\[HEADSHOT:[^\]]*\]\s*$/gm, '')
-      .replace(/^\[SIGNATURE IMAGE[^\]]*\]\s*$/gm, '')
-      .replace(/^\[TWO-BOOK FOOTER[^\]]*\]\s*$/gm, '')
-      .replace(/^\[PRINT:[^\]]*\]\s*$/gm, '')
-      .replace(/^>?\s*\[VERIFY:[^\]]*\]\s*$/gm, '')
-      .replace(/^\[\^\d+\]:\s*\[VERIFY[^\]]*\]\s*$/gm, '')
-      .replace(/\[VERIFY:[^\]]*\]/g, '')
-      .replace(/\[VERIFY\]/g, '')
-      .replace(/\[LOGO:[^\]]*\]/g, '')
-      .replace(/\[ORANGE RULE LINE[^\]]*\]/g, '')
-      .replace(/\[HEADSHOT:[^\]]*\]/g, '')
-      .replace(/\[SIGNATURE IMAGE[^\]]*\]/g, '')
-      .replace(/\[TWO-BOOK FOOTER\]/g, '')
-      .replace(/^\[[^\]]*\.(png|jpg|jpeg|webp|gif)\]\s*$/gim, '')
-      .replace(/\n{4,}/g, '\n\n\n');
-  }
-
   /* Legacy path: fetch every .md in full to read its frontmatter.
      Only used when posts.php is unavailable and we fall back to posts.json. */
   function loadPostsLegacy(slugs) {
@@ -236,30 +214,29 @@
     /* Update document title immediately (will be overwritten on load) */
     document.title = 'Loading… | Surviving the Feds';
 
-    fetch(CONTENT_BASE + slug + '.md')
+    /* Use the server-rendered article (post.php) so the reader shows exactly
+       what crawlers and the standalone page get — footnotes included. */
+    fetch('post.php?slug=' + encodeURIComponent(slug))
       .then(function (r) { if (!r.ok) throw new Error('404'); return r.text(); })
-      .then(function (raw) {
-        var meta = parseFrontmatter(raw);
+      .then(function (html) {
+        var doc = new DOMParser().parseFromString(html, 'text/html');
+        var pick = function (id) { return doc.getElementById(id); };
+        if (!pick('a-body')) throw new Error('no article');
 
-        /* SEO: title and description */
-        document.title = (meta.seoTitle || meta.title || 'Article') + ' | Surviving the Feds';
+        document.title = doc.title || 'The Journal | Surviving the Feds';
         var desc = document.querySelector('meta[name="description"]');
-        if (desc && meta.excerpt) desc.setAttribute('content', meta.excerpt);
+        var srcDesc = doc.querySelector('meta[name="description"]');
+        if (desc && srcDesc) desc.setAttribute('content', srcDesc.getAttribute('content'));
 
-        /* Populate article header */
         var catEl   = document.getElementById('jr-cat');
         var titleEl = document.getElementById('jr-title');
         var metaEl  = document.getElementById('jr-meta');
-        if (catEl)   catEl.textContent   = meta.category || 'Article';
-        if (titleEl) titleEl.textContent = meta.title || '';
-        if (metaEl)  metaEl.textContent  = [meta.author, fmtDate(meta.date)].filter(Boolean).join('  ·  ');
+        if (catEl)   catEl.textContent   = pick('a-cat') ? pick('a-cat').textContent : 'Article';
+        if (titleEl) titleEl.textContent = pick('a-title') ? pick('a-title').textContent : '';
+        if (metaEl)  metaEl.textContent  = pick('a-meta') ? pick('a-meta').textContent : '';
 
-        /* Render body */
-        var bodyText = stripMarkers(meta.body);
         if (bodyEl) {
-          bodyEl.innerHTML = window.marked
-            ? window.marked.parse(bodyText)
-            : '<pre style="white-space:pre-wrap">' + esc(bodyText) + '</pre>';
+          bodyEl.innerHTML = pick('a-body').innerHTML;
           enhanceImages(bodyEl, slug);
         }
       })

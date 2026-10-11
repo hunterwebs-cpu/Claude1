@@ -31,7 +31,8 @@ the two books. Founder is "present but understated."
 5. Keep everything **responsive** and respect `prefers-reduced-motion`. No emojis
    as icons — use inline SVG.
 6. **Content must be in the server-rendered HTML.** Articles are rendered by PHP
-   (`post.php` + `_posts.php` + vendored `lib/Parsedown.php`) so Google and AI
+   (`post.php` + `_posts.php` + vendored `lib/Parsedown.php` + `lib/ParsedownExtra.php`
+   for footnotes) so Google and AI
    crawlers that don't run JavaScript (OAI-SearchBot, ChatGPT-User,
    Claude-SearchBot, PerplexityBot) see the full text. `<title>`, meta
    description, canonical, Open Graph/Twitter and JSON-LD are set **in PHP** via
@@ -74,9 +75,12 @@ the two books. Founder is "present but understated."
 - `is-my-lawyer-any-good.php` — podcast + 6-point lawyer checklist (from the book).
 - `blog.php` (index) + `post.php` (single, `?slug=`); posts in `content/blog/*.md`
   (Markdown + YAML frontmatter). Both pages render server-side from `_posts.php`
-  (frontmatter parsing, listing, Markdown via `lib/Parsedown.php`). `blog.php`
-  outputs the list as real `<a href>` links; `blog.js` only enhances (opens
-  articles in the split-pane reader). `content/posts.php` is the JSON index
+  (frontmatter parsing, listing, Markdown via `lib/Parsedown.php` +
+  `lib/ParsedownExtra.php`, which renders `[^n]` footnotes under the article's
+  `## Endnotes` heading; references whose definition is only a `[VERIFY]` note
+  are dropped with it). `blog.php` outputs the list as real `<a href>` links;
+  `blog.js` only enhances: it opens articles in the split-pane reader using the
+  body `post.php` rendered, so both views are identical. `content/posts.php` is the JSON index
   `blog.js` falls back to; `content/posts.json` is the last-resort static list.
   Unknown slugs return a real 404 + noindex.
 - `_seo.php` — shared `<title>`/meta/canonical/OG/Twitter (`stf_meta()`) and the

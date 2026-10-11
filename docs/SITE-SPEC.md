@@ -193,7 +193,8 @@ the active one; overlay idx 01–05).
   `title`, `date` (YYYY-MM-DD), `category`, `author`, `excerpt`, optional `cover`,
   then the body.
 - Rendering: `_posts.php` parses frontmatter, lists posts and renders Markdown
-  with vendored `lib/Parsedown.php`; `post.php`, `blog.php`, the homepage cards and
+  with vendored `lib/Parsedown.php` + `lib/ParsedownExtra.php` (footnotes);
+  `post.php`, `blog.php`, the homepage cards and
   `sitemap.php` all use it. Optional frontmatter: `seoTitle` (the `<title>` when
   the display title doesn't fit `[Keyword]: [Hook]`) and `updated` (YYYY-MM-DD,
   drives `dateModified` and sitemap `lastmod`).

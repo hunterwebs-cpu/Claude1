@@ -160,8 +160,6 @@ stf_jsonld(array(
 
   </div>
 
-  <!-- Markdown renderer (needed for inline article loading) -->
-  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" defer></script>
   <script src="assets/js/blog.js?v=<?= filemtime(__DIR__ . '/assets/js/blog.js') ?>" defer></script>
 </body>
 </html>

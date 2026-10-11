@@ -15,7 +15,7 @@ post.php            Single article, server-rendered from Markdown (?slug=...)
 _seo.php            Shared <title>/meta/canonical/OG + JSON-LD entity graph
 _posts.php          Shared post helpers (frontmatter, listing, Markdown)
 sitemap.php         Generated sitemap, served at /sitemap.xml
-lib/Parsedown.php   Vendored Markdown parser (MIT)
+lib/Parsedown*.php  Vendored Markdown parser + Extra for footnotes (MIT)
 admin/              Decap CMS publishing dashboard (/admin)
 content/blog/*.md   Blog posts (Markdown + frontmatter)
 content/posts.php   Auto-lists posts (PHP); falls back to posts.json

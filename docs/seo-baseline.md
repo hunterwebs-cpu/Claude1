@@ -139,3 +139,32 @@ Live site vs branch, all 9 posts + `blog.php` + `blog.php?slug=the-first-48-hour
 
 Screenshots: `docs/seo-screenshots/` (left = live, right = branch).
 
+
+## Follow-up (same branch): footnotes and Person.sameAs
+
+- Footnotes previously showed as literal `[^1]` text, on the live site too
+  (marked.js has no footnote support): 4 markers in `how-to-use-pacer` and 21 in
+  `your-rights-in-pretrial-detention`, counting references and definitions.
+  `lib/ParsedownExtra.php` (0.8.1, MIT, built for Parsedown 1.7.4) now renders them.
+  There is one local patch: line 397 uses `array($this, 'sortFootnotes')`
+  instead of the `'self::sortFootnotes'` callable, which PHP 8.2+ flags as
+  deprecated.
+- References whose definition was only a `[VERIFY]` note (removed before
+  rendering) are dropped too, so there are no orphan markers or empty notes.
+  No citation text was written or changed. The pretrial post now shows notes
+  1–3 (its source notes 1, 6 and 9). The list is placed under the article's
+  existing `## Endnotes` heading.
+- Raw HTML: `[^` occurs **0** times in all 9 posts. Body text of both posts is
+  identical to the old render apart from the markers, and every surviving
+  definition appears in the footnote list.
+- Other 7 posts: rendered HTML is byte-identical to before. Full-page desktop
+  screenshots are pixel-identical to live, and print PDFs have the same page
+  counts and identical text.
+- The two footnoted posts keep the same print page counts (30, 13). Their print
+  text differs from live only in the footnote markers and numbering.
+- The `blog.php` reader now loads the body that `post.php` rendered instead of
+  re-rendering Markdown with marked.js (removed from the CDN), so footnotes
+  appear there too.
+- `Person.sameAs` no longer lists `setforsentencing.substack.com` (Doug
+  Passon's publication, not a profile of Bilal). The homepage podcast and
+  Substack cards are unchanged.

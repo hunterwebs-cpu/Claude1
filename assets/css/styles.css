@@ -719,6 +719,11 @@ body.marquee-paused .marquee-track { animation-play-state: paused; }
 .prose strong { color: var(--text); }
 .prose code { background: var(--surface-2); padding: 2px 8px; border-radius: 6px; font-size: .9em; }
 .prose hr { border: 0; border-top: 1px solid var(--border); margin: 40px 0; }
+/* Footnotes (ParsedownExtra): reference marks must not stretch the line */
+.prose sup { line-height: 0; }
+.prose .footnote-ref,
+.prose .footnote-backref { border-bottom: 0; }
+.prose .footnotes { font-size: .9em; }
 
 /* ---- Journal Command Center (split-pane reader) -------------------------- */
 body.journal-page {
@@ -1364,6 +1369,8 @@ body.menu-open { overflow: hidden; }
   .prose h3 { font-size: 13pt; margin: 14pt 0 5pt; color:#000; }
   .prose p, .prose li { color: #000; margin-bottom: 9pt; }
   .prose a { color: #000; border: 0; text-decoration: underline; }
+  .prose .footnote-backref { display: none; }
+  .prose .footnote-ref { text-decoration: none; }
   .prose blockquote { border-left: 3px solid #000; color:#000; font-size: 13pt; }
   .prose h2, .prose h3 { break-after: avoid; }
   .prose p, .prose blockquote, .prose li { break-inside: avoid; }
