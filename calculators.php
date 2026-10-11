@@ -274,7 +274,7 @@ stf_jsonld(array(stf_website_node(), stf_org_node(), stf_person_node()));
             <span class="route-num">→</span>
             <div class="route-body">
               <strong>The Books</strong>
-              <span>Pretrial to post-conviction — the complete map, written by someone who served 20 years and learned every piece of it.</span>
+              <span>Pretrial to post-conviction — the complete map, written by someone sentenced to 20 years who learned every piece of it from the inside.</span>
             </div>
             <svg class="route-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>

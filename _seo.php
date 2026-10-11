@@ -111,7 +111,7 @@ function stf_org_node()
         'name'        => 'Surviving the Feds',
         'url'         => STF_SITE . '/',
         'slogan'      => 'Knowledge + Strength = Freedom',
-        'description' => 'Real-world knowledge about the federal criminal system, from someone who served 20 years in federal prison. Free guides, books, and resources for federal defendants and their families.',
+        'description' => 'Real-world knowledge about the federal criminal system, from someone who was sentenced to 20 years in federal prison. Free guides, books, and resources for federal defendants and their families.',
         'logo'        => array(
             '@type'  => 'ImageObject',
             'url'    => STF_SITE . '/assets/img/logo-silver.png',
@@ -130,7 +130,7 @@ function stf_person_node()
         'name'        => 'Bilal Khan',
         'url'         => STF_SITE . '/about.php',
         'image'       => STF_SITE . '/assets/img/bilal-khan.jpg',
-        'description' => 'Author and federal system educator who served 20 years in federal prison. Writes on pretrial procedure, sentencing, and post-conviction relief for defendants and their families.',
+        'description' => 'Author and criminal-law paralegal. A former U.S. Marine, EMT, surgical first assistant and medical practice executive, he was sentenced to 20 years in federal prison, trained as a paralegal inside, and has spent 15 years on criminal, post-conviction and sentencing-mitigation work. Writes on pretrial procedure, sentencing, and post-conviction relief for defendants and their families. Not an attorney.',
         'knowsAbout'  => array(
             'Federal sentencing guidelines',
             '28 U.S.C. § 2255 post-conviction relief',

@@ -10,7 +10,7 @@ require __DIR__ . '/_posts.php';
 <?php
 stf_meta(array(
     'title'          => 'Federal Sentencing Calculators & Survival Guides — Surviving the Feds',
-    'description'    => 'When the federal government comes for someone you love, knowledge is the first line of defense. Free guides, books, and real answers from someone who served 20 years in federal prison.',
+    'description'    => 'When the federal government comes for someone you love, knowledge is the first line of defense. Free guides, books, and real answers from someone who was sentenced to 20 years in federal prison.',
     'path'           => '',
     'og_title'       => 'Surviving the Feds — Knowledge + Strength = Freedom',
     'og_description' => 'Real answers about the federal system, from someone who lived it. Built for families. Free, because you deserve it.',

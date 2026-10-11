@@ -183,7 +183,7 @@ Key facts that inform the voice and may be woven into articles:
 - Spent pretrial time in: Doña Ana County Detention Center, Torrance County Detention Facility (Estancia), Otero County Detention Facility, Lower Buckeye Jail (Maricopa County), Oklahoma City Transfer Center, FDC Philadelphia, USP Lewisburg (transit), FCI Fort Dix, FCI Big Spring (Texas).
 - **Case type: keep private.** Do not reference offense type or hint at it in any article.
 - Inside, taught federal law to fellow inmates — the direct origin of both books.
-- Served 20 years. Government's initial ask: 80 years.
+- Sentenced to 20 years (amended plea agreement). Government's initial ask: 80 years. Say "sentenced to 20 years" — never "served 20 years".
 - Now works professionally — uses PACER routinely to track cases and court dates.
 
 ---

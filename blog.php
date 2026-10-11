@@ -142,7 +142,7 @@ stf_jsonld(array(
           <div class="journal-cta-inner">
             <span class="eyebrow center">Go deeper</span>
             <h2>The books go where the articles can't.</h2>
-            <p class="lead center">Every article here is a starting point. The books are the full field guide — written by someone who spent 20 years navigating the system you're in right now.</p>
+            <p class="lead center">Every article here is a starting point. The books are the full field guide — written by someone who has lived the system you're in right now.</p>
             <div class="hero-actions" style="justify-content:center;">
               <a class="btn btn--primary" href="books.php">
                 Explore the Books
