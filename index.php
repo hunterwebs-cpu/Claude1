@@ -1,80 +1,25 @@
+<?php
+require __DIR__ . '/_seo.php';
+require __DIR__ . '/_posts.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Federal Sentencing Calculators &amp; Survival Guides — Surviving the Feds</title>
-  <meta name="description" content="When the federal government comes for someone you love, knowledge is the first line of defense. Free guides, books, and real answers from someone who served 20 years in federal prison." />
+<?php
+stf_meta(array(
+    'title'          => 'Federal Sentencing Calculators & Survival Guides — Surviving the Feds',
+    'description'    => 'When the federal government comes for someone you love, knowledge is the first line of defense. Free guides, books, and real answers from someone who served 20 years in federal prison.',
+    'path'           => '',
+    'og_title'       => 'Surviving the Feds — Knowledge + Strength = Freedom',
+    'og_description' => 'Real answers about the federal system, from someone who lived it. Built for families. Free, because you deserve it.',
+));
+?>
   <meta name="theme-color" content="#0A0B0E" />
 
-  <link rel="canonical" href="https://survivingthefeds.com/" />
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://survivingthefeds.com/" />
-  <meta property="og:site_name" content="Surviving the Feds" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:title" content="Surviving the Feds — Knowledge + Strength = Freedom" />
-  <meta property="og:description" content="Real answers about the federal system, from someone who lived it. Built for families. Free, because you deserve it." />
-  <meta property="og:image" content="https://survivingthefeds.com/assets/img/og-home.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Surviving the Feds — Knowledge + Strength = Freedom" />
-
-  <!-- Twitter / X -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Surviving the Feds — Knowledge + Strength = Freedom" />
-  <meta name="twitter:description" content="Real answers about the federal system, from someone who lived it. Built for families. Free, because you deserve it." />
-  <meta name="twitter:image" content="https://survivingthefeds.com/assets/img/og-home.jpg" />
-
-  <!-- Structured data — helps AI search engines cite this site -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://survivingthefeds.com/#website",
-        "url": "https://survivingthefeds.com/",
-        "name": "Surviving the Feds",
-        "inLanguage": "en-US",
-        "publisher": { "@id": "https://survivingthefeds.com/#org" }
-      },
-      {
-        "@type": "Organization",
-        "@id": "https://survivingthefeds.com/#org",
-        "name": "Surviving the Feds",
-        "url": "https://survivingthefeds.com/",
-        "slogan": "Knowledge + Strength = Freedom",
-        "description": "Real-world knowledge about the federal criminal system, from someone who served 20 years in federal prison. Free guides, books, and resources for federal defendants and their families.",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://survivingthefeds.com/assets/img/logo-silver.png",
-          "width": 228,
-          "height": 228
-        },
-        "founder": { "@id": "https://survivingthefeds.com/#bilal" }
-      },
-      {
-        "@type": "Person",
-        "@id": "https://survivingthefeds.com/#bilal",
-        "name": "Bilal Khan",
-        "description": "Author and federal system educator who served 20 years in federal prison. Writes on pretrial procedure, sentencing, and post-conviction relief for defendants and their families.",
-        "knowsAbout": [
-          "Federal sentencing guidelines",
-          "28 U.S.C. § 2255 post-conviction relief",
-          "First Step Act time credits",
-          "Federal Bureau of Prisons designation",
-          "Federal pretrial detention"
-        ],
-        "sameAs": [
-          "https://www.amazon.com/stores/author/B0BT42HHBS",
-          "https://setforsentencing.substack.com/"
-        ]
-      }
-    ]
-  }
-  </script>
+  <!-- Structured data — one entity graph shared by every page (see _seo.php) -->
+<?php stf_jsonld(array(stf_website_node(), stf_org_node(), stf_person_node())); ?>
 
   <!-- LCP hero image: preloaded so it isn't stuck behind the stylesheet parse -->
   <link rel="preload" as="image" href="assets/img/hero-bg-1920.webp" fetchpriority="high" media="(min-width: 901px)" />
@@ -320,7 +265,17 @@
           <p class="lead">Free guides and articles on federal procedure, defense strategy, and surviving the process — written in plain language. Every article is printable to mail inside.</p>
         </div>
         <div class="post-grid" id="home-posts" data-reveal data-delay="1">
-          <!-- Populated by blog.js (latest 3). -->
+<?php foreach (array_slice(stf_list_posts(), 0, 4) as $p): ?>
+          <a class="post-card" href="<?= h(stf_post_path($p['slug'])) ?>">
+            <div class="post-thumb"><?php if (!empty($p['cover'])): ?><img src="<?= h($p['cover']) ?>" alt="" loading="lazy" /><?php else: ?><span class="ph-mark" aria-hidden="true">§</span><?php endif; ?></div>
+            <div class="post-body">
+              <span class="post-cat"><?= h(!empty($p['category']) ? $p['category'] : 'Article') ?></span>
+              <h3><?= h(isset($p['title']) ? $p['title'] : $p['slug']) ?></h3>
+              <p><?= h(isset($p['excerpt']) ? $p['excerpt'] : '') ?></p>
+              <span class="post-date"><?= h(stf_fmt_date(isset($p['date']) ? $p['date'] : '')) ?></span>
+            </div>
+          </a>
+<?php endforeach; ?>
         </div>
         <div class="center" style="margin-top:48px;" data-reveal>
           <a class="btn btn--ghost" href="blog.php">Read the Journal</a>

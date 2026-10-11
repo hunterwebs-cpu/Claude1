@@ -1,10 +1,47 @@
+<?php
+require __DIR__ . '/_seo.php';
+require __DIR__ . '/_posts.php';
+$stf_posts = stf_list_posts();
+
+$stf_list = array();
+foreach ($stf_posts as $i => $p) {
+    $stf_list[] = array(
+        '@type'    => 'ListItem',
+        'position' => $i + 1,
+        'url'      => stf_url(stf_post_path($p['slug'])),
+        'name'     => isset($p['title']) ? $p['title'] : $p['slug'],
+    );
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Journal | Surviving the Feds</title>
-  <meta name="description" content="Plain-language guides on federal criminal procedure, defense strategy, sentencing, and surviving the process — from someone who lived it." />
+<?php
+stf_meta(array(
+    'title'       => 'The Journal | Surviving the Feds',
+    'description' => 'Plain-language guides on federal criminal procedure, defense strategy, sentencing, and surviving the process — from someone who lived it.',
+    'path'        => 'blog.php',
+));
+stf_jsonld(array(
+    array(
+        '@type'       => 'CollectionPage',
+        '@id'         => stf_url('blog.php') . '#page',
+        'url'         => stf_url('blog.php'),
+        'name'        => 'The Journal',
+        'description' => 'Plain-language guides on federal criminal procedure, defense strategy, sentencing, and surviving the process — from someone who lived it.',
+        'isPartOf'    => array('@id' => STF_WEBSITE_ID),
+        'publisher'   => array('@id' => STF_ORG_ID),
+        'inLanguage'  => 'en-US',
+        'mainEntity'  => array('@type' => 'ItemList', 'itemListElement' => $stf_list),
+    ),
+    stf_breadcrumbs(array(array('Home', ''), array('The Journal', 'blog.php'))),
+    stf_website_node(),
+    stf_org_node(),
+    stf_person_node(),
+));
+?>
   <meta name="theme-color" content="#0A0B0E" />  <?php require '_head.php'; ?>
 </head>
 <body class="journal-page">
@@ -18,11 +55,22 @@
     <aside class="journal-sidebar">
       <div class="journal-sidebar-head">
         <span class="eyebrow">The Journal</span>
-        <h2 class="journal-sidebar-title">Guides &amp; Articles</h2>
+        <h1 class="journal-sidebar-title">Guides &amp; Articles</h1>
         <p class="journal-sidebar-sub">Straight talk about the federal system. No bullshit, no false hope.</p>
       </div>
       <nav class="journal-nav" id="post-list" aria-label="Articles">
-        <p style="color:var(--muted);padding:16px 24px;font-size:.9rem;">Loading articles…</p>
+<?php if (!$stf_posts): ?>
+        <p style="color:var(--muted);padding:16px 24px;font-size:.9rem;">No articles yet — check back soon.</p>
+<?php endif; foreach ($stf_posts as $p): $d = stf_iso_date(isset($p['date']) ? $p['date'] : ''); ?>
+        <a class="journal-item" href="<?= h(stf_post_path($p['slug'])) ?>" data-slug="<?= h($p['slug']) ?>">
+          <span class="journal-item-cat"><?= h(!empty($p['category']) ? $p['category'] : 'Article') ?></span>
+          <span class="journal-item-title"><?= h(isset($p['title']) ? $p['title'] : $p['slug']) ?></span>
+<?php if (!empty($p['excerpt'])): ?>
+          <span class="journal-item-excerpt"><?= h($p['excerpt']) ?></span>
+<?php endif; ?>
+          <span class="journal-item-date"><?php if ($d): ?><time datetime="<?= h($d) ?>"><?= h(stf_fmt_date($d)) ?></time><?php endif; ?></span>
+        </a>
+<?php endforeach; ?>
       </nav>
     </aside>
 
@@ -54,7 +102,7 @@
 
         <header class="journal-article-head">
           <span class="eyebrow center" id="jr-cat">Category</span>
-          <h1 id="jr-title">Loading…</h1>
+          <h2 class="journal-article-title" id="jr-title"></h2>
           <p class="article-meta" id="jr-meta"></p>
           <div class="journal-tools screen-only">
             <button class="btn btn--primary" type="button" data-print>

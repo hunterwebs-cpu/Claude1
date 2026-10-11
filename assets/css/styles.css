@@ -787,6 +787,10 @@ body.journal-page {
   text-align: left;
   cursor: pointer;
   color: var(--text);
+  /* items are <a> links now (were <button>): keep the button's text metrics */
+  line-height: normal;
+  letter-spacing: normal;
+  text-decoration: none;
   transition: background .18s, border-color .18s;
 }
 
@@ -814,6 +818,17 @@ body.journal-page {
   font-weight: 600;
   line-height: 1.4;
   color: var(--text);
+  margin-bottom: 6px;
+}
+
+.journal-item-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: .8rem;
+  line-height: 1.45;
+  color: var(--muted);
   margin-bottom: 6px;
 }
 
@@ -889,7 +904,8 @@ body.journal-page {
   text-align: center;
 }
 
-.journal-article-head h1 {
+.journal-article-head h1,
+.journal-article-head .journal-article-title {
   font-family: var(--font-display);
   font-size: clamp(2rem, 4vw, 3.2rem);
   font-weight: 600;
