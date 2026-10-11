@@ -101,7 +101,9 @@ Target the primary keyword phrase. Example: `first-step-act-time-credits`.
 
 Every article follows this structure:
 
-1. **Frontmatter** (title, slug, date, category, author, excerpt)
+1. **Frontmatter** (title, slug, date, category, author, excerpt; optional
+   `seoTitle` when the display title doesn't fit the SEO title format, optional
+   `updated` — YYYY-MM-DD — when an article is substantively revised)
 2. **H1 title** (display title — can be longer/more dramatic than the SEO title)
 3. `**By Bilal Khan**` byline
 4. Horizontal rule (`---`)
@@ -165,7 +167,8 @@ Before committing any article:
 - [ ] Frontmatter complete (title, slug, date, category, author, excerpt)
 - [ ] Voice check: read opening and one middle section aloud — does it sound like
       Bilal? Short declarative sentences? Personal authority? No hedging?
-- [ ] SEO page title format applied (for when `<title>` is generated dynamically)
+- [ ] SEO page title format applied — `post.php` builds `<title>` in PHP from
+      `seoTitle` if set, else `title`, + ` | Surviving the Feds`
 - [ ] No fabricated quotes
 
 ---

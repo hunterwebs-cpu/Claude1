@@ -5,7 +5,7 @@ description: Build, edit, and extend the Surviving the Feds website (survivingth
 
 # Surviving the Feds — Project Handbook
 
-A premium, hand-coded **static site** (HTML + CSS + vanilla JS, no build step) for
+A premium, hand-coded site (PHP includes + CSS + vanilla JS, no build step) for
 the brand **Surviving the Feds** by author **Bilal Khan**. Tagline:
 **Knowledge + Strength = Freedom.** The mission: put real, lived federal-system
 knowledge into the hands of defendants and their families — for free — and sell
@@ -30,10 +30,18 @@ the two books. Founder is "present but understated."
    different.** Start Here is deliberately bespoke (see below).
 5. Keep everything **responsive** and respect `prefers-reduced-motion`. No emojis
    as icons — use inline SVG.
-6. **SEO page titles on every article page:** format is `[Primary keyword]: [Hook] | Surviving the Feds`.
-   `post.js` and `blog.js` set this dynamically from frontmatter. Never leave the
-   static `<title>Article — Surviving the Feds</title>` as the published title.
-   Use the `journal-article` skill for all article editing/creation work.
+6. **Content must be in the server-rendered HTML.** Articles are rendered by PHP
+   (`post.php` + `_posts.php` + vendored `lib/Parsedown.php` + `lib/ParsedownExtra.php`
+   for footnotes) so Google and AI
+   crawlers that don't run JavaScript (OAI-SearchBot, ChatGPT-User,
+   Claude-SearchBot, PerplexityBot) see the full text. `<title>`, meta
+   description, canonical, Open Graph/Twitter and JSON-LD are set **in PHP** via
+   `_seo.php` (`stf_meta()`, `stf_jsonld()`) — never with JavaScript, and never
+   leave a "Loading…" placeholder in the HTML. JS may only enhance content that
+   is already there. Article `<title>` format: `[Primary keyword]: [Hook] |
+   Surviving the Feds` — set the optional `seoTitle` frontmatter field when the
+   display title doesn't already fit it. Use the `article` skill for all
+   article editing/creation work.
 
 ## Repo & deployment
 - Dev branch: **`claude/surviving-feds-site-5n4cmc`**. Work here, then fast-forward
@@ -43,30 +51,45 @@ the two books. Founder is "present but understated."
   refs across all HTML (HTML itself is no-cache via `.htaccess`) → commit on dev →
   `git checkout main && git merge --ff-only <dev> && git push origin main` →
   `git checkout <dev>`.
-- Local preview: `python3 -m http.server` from repo root (the blog uses `fetch`,
-  so it needs http, not `file://`). Images optimized with Pillow (`pip install pillow`).
+- Local preview: `php -S localhost:8080` from repo root (PHP's dev server ignores
+  `.htaccess`, so open `.php` URLs directly; `/sitemap.xml` is `sitemap.php`).
+  Images optimized with Pillow (`pip install pillow`).
 - `.htaccess` sets HTML to no-cache, static assets long-cache, blocks `/.git`.
-- Cache-bust version is currently **v=14** — check current value in the HTML
-  and increment when CSS/JS change.
+- `styles.css`, `main.js` and `blog.js` are cache-busted automatically with
+  `?v=<?= filemtime(...) ?>`. Any ref still using a hand-set `?v=N` (e.g.
+  `glossary.css?v=1`, `start.css`) must be incremented by hand when that file changes.
 
 ## File map
-- `index.html` — dark cinematic homepage (hero photo, mission, books teaser,
+- `index.php` — dark cinematic homepage (hero photo, mission, books teaser,
   reviews, founder teaser, services-coming-soon, journal teaser, CTA).
-- `start-here.html` — the **crisis "Emergency Room" sub-brand**: a completely
+- `start-here.php` — the **crisis "Emergency Room" sub-brand**: a completely
   separate trade dress from the rest of the site. **Self-contained
   `assets/css/start.css`** (its own reset + `--cr-*` tokens; does NOT depend on
   styles.css). Fonts **Zilla Slab + DM Sans + Caveat**; slate/cool-grey canvas,
   deep-teal accent, aged-parchment intro **letter overlay** (`#cr-letter`), a
   minimal crisis header (`.cr-header`, not the main nav), triage + "command center"
   sections, `assets/img/shield-sf.svg`. Classes are `cr-`-prefixed. **Read
-  start.css + start-here.html before editing**; do NOT impose main-site components on it.
-- `books.html` — both books with real covers + Amazon links + a real review each.
-- `about.html` — Bilal Khan founder story + "taught law to fellow inmates" + S.B.M. testimonial.
-- `is-my-lawyer-any-good.html` — podcast + 6-point lawyer checklist (from the book).
-- `blog.html` (index) + `post.html` (single, `?slug=`); posts in `content/blog/*.md`
-  (Markdown + YAML frontmatter). `content/posts.php` auto-lists them (Hostinger has
-  PHP); `content/posts.json` is the static fallback. `blog.js` renders cards,
-  `post.js` renders an article via marked.js (CDN).
+  start.css + start-here.php before editing**; do NOT impose main-site components on it.
+- `books.php` — both books with real covers + Amazon links + a real review each.
+- `about.php` — Bilal Khan founder story + "taught law to fellow inmates" + S.B.M. testimonial.
+- `is-my-lawyer-any-good.php` — podcast + 6-point lawyer checklist (from the book).
+- `blog.php` (index) + `post.php` (single, `?slug=`); posts in `content/blog/*.md`
+  (Markdown + YAML frontmatter). Both pages render server-side from `_posts.php`
+  (frontmatter parsing, listing, Markdown via `lib/Parsedown.php` +
+  `lib/ParsedownExtra.php`, which renders `[^n]` footnotes under the article's
+  `## Endnotes` heading; references whose definition is only a `[VERIFY]` note
+  are dropped with it). `blog.php` outputs the list as real `<a href>` links;
+  `blog.js` only enhances: it opens articles in the split-pane reader using the
+  body `post.php` rendered, so both views are identical. `content/posts.php` is the JSON index
+  `blog.js` falls back to; `content/posts.json` is the last-resort static list.
+  Unknown slugs return a real 404 + noindex.
+- `_seo.php` — shared `<title>`/meta/canonical/OG/Twitter (`stf_meta()`) and the
+  JSON-LD entity graph (`stf_jsonld()`, Organization `#org`, Person `#bilal`,
+  WebSite `#website`). Every page uses it, so the @ids never drift.
+- `sitemap.php` — generated sitemap, served at `/sitemap.xml` via `.htaccess`.
+  Static pages are listed in it; posts are added automatically. lastmod comes from
+  frontmatter (`updated`, else `date`) — not filemtime, which Hostinger resets on
+  every deploy.
 - `admin/` — Decap CMS (publish dashboard); needs GitHub OAuth setup (see DEPLOY.md).
 - `assets/css/styles.css` — global design system + tokens. `assets/css/start.css` —
   Start Here bespoke layout only.
@@ -75,7 +98,7 @@ the two books. Founder is "present but understated."
 - `assets/img/` — `logo.png` (badge), `cover-pretrial.jpg`, `cover-2255.jpg`,
   `bilal-khan.jpg` (headshot), `photos/` (courtroom, guard-tower, walkway, handcuffs,
   defendant-judge), `uploads/` (CMS).
-- `robots.txt`, `sitemap.xml`, `DEPLOY.md`, `README.md`.
+- `robots.txt`, `sitemap.php`, `DEPLOY.md`, `README.md`.
 
 ## Design system
 **Brand colors (logo): black + orange + silver.** Tokens live in `:root` in

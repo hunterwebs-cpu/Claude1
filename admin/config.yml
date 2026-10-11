@@ -40,6 +40,8 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "SEO Title (optional)", name: "seoTitle", widget: "string", required: false, hint: "The browser-tab / Google title, without the site name. Format: Primary keyword: Hook (under 65 characters), e.g. \"First Step Act Time Credits: What You're Actually Getting\". Leave blank to use the Title." }
+      - { label: "Last Updated (optional)", name: "updated", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", required: false, hint: "Set only when you substantively revise the article. Feeds dateModified and the sitemap." }
       - { label: "Category", name: "category", widget: "select", options: ["Pretrial", "Defense Strategy", "Post-Conviction", "Sentencing", "Family Guidance", "General"], default: "General" }
       - { label: "Author", name: "author", widget: "string", default: "Bilal Khan" }
       - { label: "Excerpt", name: "excerpt", widget: "text", hint: "One or two sentences shown on the article card and in previews." }

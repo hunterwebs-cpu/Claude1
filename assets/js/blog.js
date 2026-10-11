@@ -1,11 +1,12 @@
 /* ============================================================================
-   SURVIVING THE FEDS — Blog engine (client-side, buildless)
-   Reads /content/posts.json (list of slugs), loads each Markdown file,
-   parses its YAML-ish frontmatter, and renders content.
+   SURVIVING THE FEDS — Journal enhancements (progressive, buildless)
+   The article list (blog.php), homepage cards (index.php) and full articles
+   (post.php) are rendered by PHP, so they work with JavaScript off and are
+   readable by crawlers. This script only enhances on top:
 
-   Two modes:
-     JOURNAL  — split-pane command center (blog.html), detected by #journal-reader
-     GRID     — card grid for homepage (#home-posts) and any other grid containers
+     JOURNAL  — blog.php: clicking a server-rendered link opens the article in
+                the split-pane reader instead of navigating (#journal-reader)
+     GRID     — fills a card grid only if the server didn't (#home-posts)
    ========================================================================== */
 (function () {
   'use strict';
@@ -42,28 +43,6 @@
     return String(s || '').replace(/[&<>"]/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
     });
-  }
-
-  /* Strip print/layout markers and unresolved editor notes */
-  function stripMarkers(md) {
-    return md
-      .replace(/^\[LOGO:[^\]]*\]\s*$/gm, '')
-      .replace(/^\[ORANGE RULE LINE[^\]]*\]\s*$/gm, '')
-      .replace(/^\[HEADSHOT:[^\]]*\]\s*$/gm, '')
-      .replace(/^\[SIGNATURE IMAGE[^\]]*\]\s*$/gm, '')
-      .replace(/^\[TWO-BOOK FOOTER[^\]]*\]\s*$/gm, '')
-      .replace(/^\[PRINT:[^\]]*\]\s*$/gm, '')
-      .replace(/^>?\s*\[VERIFY:[^\]]*\]\s*$/gm, '')
-      .replace(/^\[\^\d+\]:\s*\[VERIFY[^\]]*\]\s*$/gm, '')
-      .replace(/\[VERIFY:[^\]]*\]/g, '')
-      .replace(/\[VERIFY\]/g, '')
-      .replace(/\[LOGO:[^\]]*\]/g, '')
-      .replace(/\[ORANGE RULE LINE[^\]]*\]/g, '')
-      .replace(/\[HEADSHOT:[^\]]*\]/g, '')
-      .replace(/\[SIGNATURE IMAGE[^\]]*\]/g, '')
-      .replace(/\[TWO-BOOK FOOTER\]/g, '')
-      .replace(/^\[[^\]]*\.(png|jpg|jpeg|webp|gif)\]\s*$/gim, '')
-      .replace(/\n{4,}/g, '\n\n\n');
   }
 
   /* Legacy path: fetch every .md in full to read its frontmatter.
@@ -130,7 +109,7 @@
 
   function render(targetId, limit) {
     var el = document.getElementById(targetId);
-    if (!el) return;
+    if (!el || el.querySelector('.post-card')) return;   // server already rendered it
     loadPosts().then(function (posts) {
       var list = limit ? posts.slice(0, limit) : posts;
       if (!list.length) {
@@ -146,11 +125,12 @@
   /* ---- JOURNAL MODE: split-pane command center ---------------------------- */
 
   function journalItemHTML(post) {
-    return '<button class="journal-item" data-slug="' + esc(post.slug) + '" type="button">' +
+    return '<a class="journal-item" href="post.php?slug=' + encodeURIComponent(post.slug) + '" data-slug="' + esc(post.slug) + '">' +
       '<span class="journal-item-cat">' + esc(post.category || 'Article') + '</span>' +
       '<span class="journal-item-title">' + esc(post.title) + '</span>' +
+      (post.excerpt ? '<span class="journal-item-excerpt">' + esc(post.excerpt) + '</span>' : '') +
       '<span class="journal-item-date">' + fmtDate(post.date) + '</span>' +
-      '</button>';
+      '</a>';
   }
 
   /* Simple string hash — seeds image layout variation per article */
@@ -234,30 +214,29 @@
     /* Update document title immediately (will be overwritten on load) */
     document.title = 'Loading… | Surviving the Feds';
 
-    fetch(CONTENT_BASE + slug + '.md')
+    /* Use the server-rendered article (post.php) so the reader shows exactly
+       what crawlers and the standalone page get — footnotes included. */
+    fetch('post.php?slug=' + encodeURIComponent(slug))
       .then(function (r) { if (!r.ok) throw new Error('404'); return r.text(); })
-      .then(function (raw) {
-        var meta = parseFrontmatter(raw);
+      .then(function (html) {
+        var doc = new DOMParser().parseFromString(html, 'text/html');
+        var pick = function (id) { return doc.getElementById(id); };
+        if (!pick('a-body')) throw new Error('no article');
 
-        /* SEO: title and description */
-        document.title = (meta.title || 'Article') + ' | Surviving the Feds';
+        document.title = doc.title || 'The Journal | Surviving the Feds';
         var desc = document.querySelector('meta[name="description"]');
-        if (desc && meta.excerpt) desc.setAttribute('content', meta.excerpt);
+        var srcDesc = doc.querySelector('meta[name="description"]');
+        if (desc && srcDesc) desc.setAttribute('content', srcDesc.getAttribute('content'));
 
-        /* Populate article header */
         var catEl   = document.getElementById('jr-cat');
         var titleEl = document.getElementById('jr-title');
         var metaEl  = document.getElementById('jr-meta');
-        if (catEl)   catEl.textContent   = meta.category || 'Article';
-        if (titleEl) titleEl.textContent = meta.title || '';
-        if (metaEl)  metaEl.textContent  = [meta.author, fmtDate(meta.date)].filter(Boolean).join('  ·  ');
+        if (catEl)   catEl.textContent   = pick('a-cat') ? pick('a-cat').textContent : 'Article';
+        if (titleEl) titleEl.textContent = pick('a-title') ? pick('a-title').textContent : '';
+        if (metaEl)  metaEl.textContent  = pick('a-meta') ? pick('a-meta').textContent : '';
 
-        /* Render body */
-        var bodyText = stripMarkers(meta.body);
         if (bodyEl) {
-          bodyEl.innerHTML = window.marked
-            ? window.marked.parse(bodyText)
-            : '<pre style="white-space:pre-wrap">' + esc(bodyText) + '</pre>';
+          bodyEl.innerHTML = pick('a-body').innerHTML;
           enhanceImages(bodyEl, slug);
         }
       })
@@ -280,28 +259,33 @@
     var listEl = document.getElementById('post-list');
     if (!listEl) return;
 
-    loadPosts().then(function (posts) {
-      if (!posts.length) {
-        listEl.innerHTML = '<p style="color:var(--muted);padding:16px 24px;font-size:.9rem;">No articles yet — check back soon.</p>';
-        return;
-      }
-      listEl.innerHTML = posts.map(journalItemHTML).join('');
-
-      /* Wire clicks */
-      listEl.querySelectorAll('.journal-item').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          loadArticleInReader(btn.dataset.slug);
+    function wire() {
+      /* Plain clicks open the reader; modified clicks (new tab etc.) follow the link */
+      listEl.querySelectorAll('.journal-item').forEach(function (link) {
+        link.addEventListener('click', function (e) {
+          if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+          e.preventDefault();
+          loadArticleInReader(link.dataset.slug);
         });
       });
 
       /* Auto-load from URL slug */
       var slug = new URLSearchParams(window.location.search).get('slug');
-      if (slug) {
+      if (slug && /^[a-z0-9-]+$/.test(slug)) {
         loadArticleInReader(slug, true);
       }
-    }).catch(function () {
-      listEl.innerHTML = '<p style="color:var(--muted);padding:16px 24px;font-size:.9rem;">Articles loading from server.</p>';
-    });
+    }
+
+    /* Normal case: PHP already rendered the list as real links */
+    if (listEl.querySelector('.journal-item')) {
+      wire();
+    } else {
+      loadPosts().then(function (posts) {
+        if (!posts.length) return;
+        listEl.innerHTML = posts.map(journalItemHTML).join('');
+        wire();
+      }).catch(function () { /* keep whatever the server rendered */ });
+    }
 
     /* Back button (mobile) */
     var backBtn = document.getElementById('journal-back');
