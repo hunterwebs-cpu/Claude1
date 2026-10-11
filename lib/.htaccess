@@ -1,0 +1,2 @@
+# Vendored PHP libraries are included by pages, never requested directly.
+Require all denied
