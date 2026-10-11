@@ -140,7 +140,6 @@ function stf_person_node()
         ),
         'sameAs'      => array(
             'https://www.amazon.com/stores/author/B0BT42HHBS',
-            'https://setforsentencing.substack.com/',
         ),
     );
 }
