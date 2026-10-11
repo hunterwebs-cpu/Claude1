@@ -7,7 +7,7 @@
 <?php
 stf_meta(array(
     'title'       => 'About Bilal Khan — Surviving the Feds',
-    'description' => 'Former Marine, EMT and medical executive Bilal Khan was sentenced to 20 years in federal prison, became a criminal-law paralegal inside, and turned that knowledge into the Surviving the Feds books.',
+    'description' => 'Former EMT, Marine military policeman and medical executive Bilal Khan was sentenced to 20 years in federal prison, became a criminal-law paralegal inside, and turned that knowledge into the Surviving the Feds books.',
     'path'        => 'about.php',
     'type'        => 'profile',
     'image'       => 'assets/img/bilal-khan.jpg',
@@ -76,7 +76,7 @@ stf_jsonld(array(
         <div class="founder-bio" data-reveal>
           <span class="eyebrow">The long version</span>
           <h2>A life on both sides of the system.</h2>
-          <p>Before any of this, Bilal served in the U.S. Marine Corps and became an EMT. He went on to work in the operating room as a surgical first assistant and surgical ultrasound technologist in thoracic and vascular surgery, then moved into healthcare leadership &mdash; building surgical practices across the Southwest as a medical executive and earning the Certified Medical Practice Executive (CMPE) credential from the American College of Medical Practice Executives.</p>
+          <p>Before any of this, Bilal became an EMT, then served in the U.S. Marine Corps as a military policeman. He went on to work in the operating room as a surgical first assistant and surgical ultrasound technologist in thoracic and vascular surgery, then moved into healthcare leadership &mdash; building surgical practices across the Southwest as a medical executive and earning the Certified Medical Practice Executive (CMPE) credential from the American College of Medical Practice Executives.</p>
           <p>Then the federal government came for him. The prosecution was going for 80 years. After he pleaded guilty, his defense fought for an amended plea agreement that locked his sentence at 20. Inside, he completed paralegal studies coursework through Adams State University and spent the next 15 years working as a criminal-law paralegal &mdash; on criminal, post-conviction, and family-law matters for fellow prisoners, and alongside national sentencing experts, including Doug Passon, on prison placement, transfers, Bureau of Prisons issues, and sentencing mitigation.</p>
           <p>He has litigated his own cases, too, without a lawyer. He won a reversal in a federal court of appeals in a religious-freedom case against a jail that promoted Christianity at the expense of Muslim and other religious detainees &mdash; the case later settled &mdash; and he challenged a retaliatory transfer and was sent back to the prison he had been moved from.</p>
           <p>He is not an attorney, and nothing on this site is legal advice. What he offers is the thing most defendants never get: the view from someone who has stood where they're standing.</p>
