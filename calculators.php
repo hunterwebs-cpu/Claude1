@@ -1,21 +1,20 @@
+<?php require __DIR__ . '/_seo.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Free Federal Sentencing Calculators | Surviving the Feds</title>
-  <meta name="description" content="Free federal sentencing calculators: guideline range, FSA First Step Act time credits, BOP security level, USSC sentencing statistics, and printable guideline reference sheets. Built by someone who served 20 years inside." />
+<?php
+stf_meta(array(
+    'title'          => 'Free Federal Sentencing Calculators | Surviving the Feds',
+    'description'    => 'Free federal sentencing calculators: guideline range, FSA First Step Act time credits, BOP security level, USSC sentencing statistics, and printable guideline reference sheets. Built by someone who served 20 years inside.',
+    'path'           => 'calculators.php',
+    'og_description' => 'Federal sentencing guideline calculator, FSA time credits calculator, BOP security level estimator, and USSC sentencing statistics — all free, built by someone who lived it.',
+    'image'          => 'assets/img/logo.png',
+));
+stf_jsonld(array(stf_website_node(), stf_org_node(), stf_person_node()));
+?>
   <meta name="theme-color" content="#0A0B0E" />
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Free Federal Sentencing Calculators | Surviving the Feds" />
-  <meta property="og:description" content="Federal sentencing guideline calculator, FSA time credits calculator, BOP security level estimator, and USSC sentencing statistics — all free, built by someone who lived it." />
-  <meta property="og:image" content="https://survivingthefeds.com/assets/img/logo.png" />
-  <meta property="og:url" content="https://survivingthefeds.com/calculators.php" />
-
-  <!-- Canonical -->
-  <link rel="canonical" href="https://survivingthefeds.com/calculators.php" />
   <!-- Schema: SoftwareApplication for each tool -->
   <script type="application/ld+json">
   {
@@ -24,11 +23,7 @@
     "name": "Free Federal Sentencing Calculators",
     "description": "Free calculators for people facing federal sentencing: guideline range calculator, FSA First Step Act time credits calculator, BOP security level estimator, and USSC sentencing statistics viewer.",
     "url": "https://survivingthefeds.com/calculators.php",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Surviving the Feds",
-      "url": "https://survivingthefeds.com"
-    },
+    "publisher": { "@id": "https://survivingthefeds.com/#org" },
     "hasPart": [
       {
         "@type": "SoftwareApplication",

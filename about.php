@@ -1,10 +1,34 @@
+<?php require __DIR__ . '/_seo.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Bilal Khan — Surviving the Feds</title>
-  <meta name="description" content="Bilal Khan navigated the federal system firsthand and taught federal law to fellow inmates living it in real time. That hard-won knowledge became the Surviving the Feds books." />
+<?php
+stf_meta(array(
+    'title'       => 'About Bilal Khan — Surviving the Feds',
+    'description' => 'Bilal Khan navigated the federal system firsthand and taught federal law to fellow inmates living it in real time. That hard-won knowledge became the Surviving the Feds books.',
+    'path'        => 'about.php',
+    'type'        => 'profile',
+    'image'       => 'assets/img/bilal-khan.jpg',
+    'image_alt'   => 'Bilal Khan',
+));
+stf_jsonld(array(
+    array(
+        '@type'      => 'ProfilePage',
+        '@id'        => stf_url('about.php') . '#page',
+        'url'        => stf_url('about.php'),
+        'name'       => 'About Bilal Khan',
+        'mainEntity' => array('@id' => STF_PERSON_ID),
+        'isPartOf'   => array('@id' => STF_WEBSITE_ID),
+        'inLanguage' => 'en-US',
+    ),
+    stf_breadcrumbs(array(array('Home', ''), array('About', 'about.php'))),
+    stf_person_node(),
+    stf_org_node(),
+    stf_website_node(),
+));
+?>
   <meta name="theme-color" content="#0A0B0E" />  <?php require '_head.php'; ?>
 </head>
 <body>

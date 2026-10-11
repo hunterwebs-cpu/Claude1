@@ -1,10 +1,33 @@
+<?php require __DIR__ . '/_seo.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Is My Lawyer Any Good? — Surviving the Feds</title>
-  <meta name="description" content="How to tell whether your federal defense attorney is actually prepared to fight — a checklist from Surviving Pretrial, plus the Set for Sentencing podcast episode." />
+<?php
+stf_meta(array(
+    'title'       => 'Is My Lawyer Any Good? — Surviving the Feds',
+    'description' => 'How to tell whether your federal defense attorney is actually prepared to fight — a checklist from Surviving Pretrial, plus the Set for Sentencing podcast episode.',
+    'path'        => 'is-my-lawyer-any-good.php',
+));
+stf_jsonld(array(
+    array(
+        '@type'       => 'WebPage',
+        '@id'         => stf_url('is-my-lawyer-any-good.php') . '#page',
+        'url'         => stf_url('is-my-lawyer-any-good.php'),
+        'name'        => 'Is My Lawyer Any Good?',
+        'description' => 'How to tell whether your federal defense attorney is actually prepared to fight — a checklist from Surviving Pretrial, plus the Set for Sentencing podcast episode.',
+        'isPartOf'    => array('@id' => STF_WEBSITE_ID),
+        'publisher'   => array('@id' => STF_ORG_ID),
+        'author'      => array('@id' => STF_PERSON_ID),
+        'inLanguage'  => 'en-US',
+    ),
+    stf_breadcrumbs(array(array('Home', ''), array('Is My Lawyer Any Good?', 'is-my-lawyer-any-good.php'))),
+    stf_website_node(),
+    stf_org_node(),
+    stf_person_node(),
+));
+?>
   <meta name="theme-color" content="#0A0B0E" />  <?php require '_head.php'; ?>
 </head>
 <body>

@@ -1,17 +1,21 @@
+<?php require __DIR__ . '/_seo.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Federal Criminal Law Glossary — Plain Language | Surviving the Feds</title>
-  <meta name="description" content="Plain-language definitions of the federal criminal law terms families encounter most — from arraignment to supervised release. No law degree required." />
-  <meta name="theme-color" content="#0A0B0E" />
-
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Federal Criminal Law Glossary — Plain Language" />
-  <meta property="og:description" content="Plain-language definitions of the terms families encounter most in a federal criminal case. No law degree required." />
-  <meta property="og:image" content="https://survivingthefeds.com/assets/img/logo.png" />
-  <link rel="canonical" href="https://survivingthefeds.com/glossary.php" />  <link rel="stylesheet" href="assets/css/glossary.css?v=1" />
+<?php
+stf_meta(array(
+    'title'          => 'Federal Criminal Law Glossary — Plain Language | Surviving the Feds',
+    'description'    => 'Plain-language definitions of the federal criminal law terms families encounter most — from arraignment to supervised release. No law degree required.',
+    'path'           => 'glossary.php',
+    'type'           => 'article',
+    'og_title'       => 'Federal Criminal Law Glossary — Plain Language',
+    'og_description' => 'Plain-language definitions of the terms families encounter most in a federal criminal case. No law degree required.',
+    'image'          => 'assets/img/logo.png',
+));
+?>
+  <meta name="theme-color" content="#0A0B0E" />  <link rel="stylesheet" href="assets/css/glossary.css?v=1" />
   <?php require '_head.php'; ?>
 </head>
 <body>

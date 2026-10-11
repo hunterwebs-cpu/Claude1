@@ -1,10 +1,73 @@
+<?php require __DIR__ . '/_seo.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Books — Surviving the Feds</title>
-  <meta name="description" content="The Surviving the Feds book series by Bilal Khan. Surviving Pretrial and The 2255 Motion Handbook — available in paperback on Amazon." />
+<?php
+stf_meta(array(
+    'title'       => 'Books — Surviving the Feds',
+    'description' => 'The Surviving the Feds book series by Bilal Khan. Surviving Pretrial and The 2255 Motion Handbook — available in paperback on Amazon.',
+    'path'        => 'books.php',
+));
+/* Book facts: only what is already on this page (titles, subtitles, covers,
+   descriptions, Amazon editions/ASINs). No ISBNs, prices or ratings — those
+   need to come from the owner before they go in here. */
+$stf_series = array('@id' => stf_url('books.php') . '#series');
+$stf_book = function ($id, $pos, $name, $subtitle, $cover, $desc, $paperback, $kindle) use ($stf_series) {
+    $edition = function ($format, $asin, $url) {
+        return array(
+            '@type'      => 'Book',
+            'bookFormat' => 'https://schema.org/' . $format,
+            'identifier' => array('@type' => 'PropertyValue', 'propertyID' => 'ASIN', 'value' => $asin),
+            'offers'     => array('@type' => 'Offer', 'url' => $url),
+        );
+    };
+    return array(
+        '@type'                => 'Book',
+        '@id'                  => stf_url('books.php') . '#' . $id,
+        'name'                 => $name,
+        'alternativeHeadline'  => $subtitle,
+        'author'               => array('@id' => STF_PERSON_ID),
+        'image'                => stf_url($cover),
+        'url'                  => stf_url('books.php') . '#' . $id,
+        'description'          => $desc,
+        'inLanguage'           => 'en-US',
+        'isPartOf'             => $stf_series,
+        'position'             => $pos,
+        'workExample'          => array(
+            $edition('Paperback', $paperback[0], $paperback[1]),
+            $edition('EBook', $kindle[0], $kindle[1]),
+        ),
+    );
+};
+stf_jsonld(array(
+    array(
+        '@type'    => 'BookSeries',
+        '@id'      => $stf_series['@id'],
+        'name'     => 'Surviving the Feds Series',
+        'author'   => array('@id' => STF_PERSON_ID),
+        'url'      => 'https://www.amazon.com/dp/B0D471H5Z9',
+        'hasPart'  => array(array('@id' => stf_url('books.php') . '#surviving-pretrial'), array('@id' => stf_url('books.php') . '#2255-motion-handbook')),
+    ),
+    $stf_book('surviving-pretrial', 1, 'Surviving Pretrial',
+        'The Ultimate Survival Guide to Being Busted & Prosecuted by the Feds',
+        'assets/img/cover-pretrial.jpg',
+        'The moment federal charges land, everything changes overnight — and the pretrial phase quietly decides much of what follows. This is the guide written for the family at the kitchen table and the defendant in the holding cell: how to evaluate your attorney, what detention and bond really look like, how federal charges differ from state, what never to say on a recorded call, and how cooperation and plea deals actually work. No legalese. No false hope. Just the truth.',
+        array('B0BT19Y3V8', 'https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted/dp/B0BT19Y3V8'),
+        array('B0BTCDLWN8', 'https://www.amazon.com/Surviving-Pretrial-Ultimate-Survival-Prosecuted-ebook/dp/B0BTCDLWN8')),
+    $stf_book('2255-motion-handbook', 2, 'The 2255 Motion Handbook',
+        'A Post-Conviction Relief Guide for Federal Inmates',
+        'assets/img/cover-2255.jpg',
+        'Conviction is not the end of the fight. A 28 U.S.C. § 2255 motion is one of the most powerful — and most misunderstood — tools a federal inmate has. The first guide of its kind, this handbook walks you through the exact steps to file, argue, and fight for your freedom: grounds for relief, deadlines that can sink a case, ineffective-assistance claims, and how to give your motion its best possible shot. Written so a non-lawyer can actually use it.',
+        array('B0D8HQRJN8', 'https://www.amazon.com/2255-Motion-Handbook-Post-Conviction-Surviving/dp/B0D8HQRJN8'),
+        array('B0D9FXJHZZ', 'https://www.amazon.com/2255-Motion-Handbook-Post-Conviction-Surviving-ebook/dp/B0D9FXJHZZ')),
+    stf_breadcrumbs(array(array('Home', ''), array('Books', 'books.php'))),
+    stf_person_node(),
+    stf_org_node(),
+    stf_website_node(),
+));
+?>
   <meta name="theme-color" content="#0A0B0E" />  <?php require '_head.php'; ?>
 </head>
 <body>
