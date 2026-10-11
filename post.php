@@ -4,13 +4,12 @@ require __DIR__ . '/_posts.php';
 
 /* Server-render the article so crawlers that don't run JavaScript (and every
    reader on a slow phone) get the full text, title and metadata in the HTML. */
-$slug = isset($_GET['slug']) ? (string) $_GET['slug'] : '';
+$slug = (isset($_GET['slug']) && is_string($_GET['slug'])) ? $_GET['slug'] : '';
 $post = stf_load_post($slug);
 
 if ($post) {
     list($published, $modified) = stf_post_dates($post);
     $title   = isset($post['title']) ? $post['title'] : 'Article';
-    $excerpt = isset($post['excerpt']) ? $post['excerpt'] : '';
     $path    = stf_post_path($slug);
     $url     = stf_url($path);
     $cover   = !empty($post['cover']) ? ltrim($post['cover'], '/') : '';
@@ -19,6 +18,12 @@ if ($post) {
         stf_fmt_date(isset($post['date']) ? $post['date'] : ''),
     )));
     $bodyHtml = stf_render_markdown($post['body']);
+    $excerpt  = !empty($post['excerpt']) ? $post['excerpt'] : '';
+    if ($excerpt === '') {
+        // no excerpt in the frontmatter: fall back to the opening of the article
+        $text    = trim(preg_replace('/\s+/', ' ', html_entity_decode(strip_tags($bodyHtml), ENT_QUOTES | ENT_HTML5, 'UTF-8')));
+        $excerpt = mb_strlen($text) > 155 ? rtrim(mb_substr($text, 0, 155)) . '…' : $text;
+    }
 
     $article = array(
         '@type'            => 'Article',
