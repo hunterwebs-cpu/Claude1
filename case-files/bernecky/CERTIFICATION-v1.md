@@ -70,15 +70,15 @@ Jeffrey Bernecky declares as follows:
 
 27. After this Court sentenced me, and while I was in prison, my sister had **[number]** children. They are now **[ages]**.
 
-28. My mother, my father, and my sister know about my convictions.
+28. My parents are not together. My mother, my stepfather, and my father know about my convictions. **[Confirm whether your sister knows.]**
 
-29. My family gathers at my mother's home for Thanksgiving, Christmas, and **[other holidays or occasions]**. My sister brings her children. **[Confirm, and name any other children, such as cousins' children, who are usually there.]**
+29. My family gathers for Thanksgiving, Christmas, and **[other holidays or occasions]** at **[whose home or homes]**. My sister and her children are not expected at the gatherings I attend. But family holidays are not planned to the minute, and my sister could arrive with her children without notice while I am there. **[Confirm, and name any other children, such as cousins' children, who could be present.]**
 
 30. I have not been at a family holiday gathering since **[year]**. **[Confirm.]**
 
 31. **[I have / I have not]** asked my probation officer for permission to attend family gatherings where my sister's children are present. **[If you asked, say when and what she said.]**
 
-32. If the Court approves, I will attend family gatherings only when my mother, my father, or my sister is present, and I will not be alone with any child. **[Confirm these terms work for you.]**
+32. If my sister arrives with her children while I am at a family gathering, I will not be alone with any child, and my mother, my stepfather, or my father will be present. **[Confirm these terms work for you.]**
 
 ## Treatment Participation and Statements by Treatment Staff
 

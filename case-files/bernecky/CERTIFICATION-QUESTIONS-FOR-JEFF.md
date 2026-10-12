@@ -58,11 +58,11 @@ Everything in **bold brackets** is something only you can confirm or fill in. Th
 
 - **¶ 26.** Confirm you have no biological or adopted children.
 - **¶ 27.** How many children does your sister have, and how old are they now? Were they all born after June 2018?
-- **¶ 28.** Do your mother, father, and sister all know about your convictions?
-- **¶ 29.** Is it right that the family gets together at your mom's for Thanksgiving and Christmas and your sister brings her kids? What other holidays or occasions? Are any other kids usually there (cousins' kids, family friends)? Do your parents live together?
+- **¶ 28.** You've told us your parents aren't together and that your mom, stepdad, and dad know about your convictions. Does your sister know?
+- **¶ 29.** Where do the holiday gatherings happen (mom's, dad's, both)? Which holidays or occasions? Is it right that your sister and her kids aren't expected at gatherings you attend, but could show up without notice? Could any other kids be there (cousins' kids, family friends)?
 - **¶ 30.** What was the last family holiday you were at? (We guessed you were in custody from December 2017. Is that right?)
 - **¶ 31.** Have you asked your PO for permission to go to family gatherings where your sister's kids are? If so, when, and what did she say? The Court will want to know this.
-- **¶ 32.** Do the proposed terms work for you: a parent or your sister present, and never alone with a child?
+- **¶ 32.** If your sister shows up with her kids while you're there, do these terms work for you: never alone with a child, and your mom, stepdad, or dad present?
 
 ## Treatment
 
