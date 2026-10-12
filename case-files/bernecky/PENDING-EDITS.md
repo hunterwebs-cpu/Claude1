@@ -336,8 +336,7 @@ reverted. These notes are direction for the Writer, not text to paste.)
 4. **Family:** Jeff's parents are not together. Mom, stepdad, and dad know about
    his convictions (sister not mentioned — confirm). The sister's kids are not
    likely to attend gatherings with Jeff — BUT the concern is the sister just
-   showing up. "Who plans Christmas to the minute?" Ties to "deliberate
-   contact" / Johnson (inadvertent presence is not a violation).
+   showing up. "Who plans Christmas to the minute?"
 5. **Exhibit A is signed.** The Treatment Contract PDF on Drive shows Jeff's
    signature dated 08/19/2026 (p. 3). The questions file wrongly says the copy
    shows a blank signature line — fix. (CIMP agreement photos do show no
