@@ -114,6 +114,36 @@ Where this already stands in the motion:
 "Therapist rules" the client refers to = Exhibit B (RKKS Treatment Contract),
 already mined into Part II, + the release form above.
 
+**More treatment-imposed partner / social-media rules (client update 2026-10-12):**
+1. Must disclose offense history to potential sexual partners.
+2. Must get the therapist's permission AND informed consent from potential
+   partners.
+3. If he wants to use adult social media, must display his conviction plainly
+   (e.g., on Grindr).
+- Items 1-2 ≈ Treatment Contract Special Conditions ¶2 (already in Part II via
+  *Reeves*). Item 3 (public conviction display on adult social media) appears
+  NEW — likely a verbal treatment directive, not in the written contract;
+  compelled public self-disclosure / compelled-speech + associational-rights
+  angle, ties to *Reeves*. CONFIRM source (written vs. verbal) — if verbal, via
+  Jeff's certification.
+
+**Unifying theory (client's framing, refined for accuracy):** client wants to
+"tie everything Jeff says to the provider rules." Accurate/stronger version: tie
+everything to **"not the Judgment"** — the through-line is that sources other
+than the Judgment are filling its silence (the motion's existing thesis: "A
+judgment's silence is not a blank space for someone else to fill in"). Be
+precise about source, don't overclaim everything is in the written contract:
+  - FROM THE WRITTEN CONTRACT (Ex. B): ¶8 material, ¶2 partner disclosure/consent,
+    PO-on-treatment-team, reporting terms.
+  - FROM PO DIRECTIVES (verbal, via certification): the speaking ban, the 17+
+    event, enforced using monitoring output.
+  - FROM VERBAL TREATMENT DIRECTIVES (via certification): viagra, Grindr
+    conviction-display, possibly the hook-up rule.
+  - THE BLUR IS THE POINT: the PO sits on the treatment team, so "treatment
+    rule" and "PO directive" are the same apparatus — which is exactly the
+    role-confusion / confidentiality-collapse problem. Use the blur, don't
+    paper over it.
+
 ---
 
 ## EMAIL INTAKE — Jeff to Bilal, 3 emails (logged 2026-10-12)
@@ -140,13 +170,21 @@ the existing § 3583(e)(2) "at any time" + Rule 32.1 + Balon framing, and
 strengthened by the speaking-ban below (a present, applied restriction).
 
 **NEW FACTS, triaged by usability:**
-- **RIPE / applied to Jeff now — the speaking ban (email 9/19):** Probation told
-  him he can't speak to anyone in online games / anyone he doesn't personally
-  know, because he can't verify their age/identity; he "ha[s] not spoken to
-  anyone since." His condition bars only DELIBERATE contact with a minor; it
-  does not bar speaking to anyone whose age is unverified. Textbook
-  Probation-beyond-the-Judgment, and ripe. **Strongest new fact.** Need exact
-  minor-contact condition text from the Judgment.
+- **RIPE / applied to Jeff now — the speaking ban (email 9/19 + client update
+  2026-10-12):** Probation told him he can't speak to anyone in online games /
+  anyone he doesn't personally know, because he can't verify their age/identity;
+  he "ha[s] not spoken to anyone since." His condition bars only DELIBERATE
+  contact with a minor; it does not bar speaking to anyone whose age is
+  unverified. **UPGRADE:** the PO herself told him she had NOTICED he was still
+  speaking on games and he needed to stop — that is why he stopped. So the
+  monitoring output is the ENGINE by which Probation detects and enforces a
+  restriction the Judgment never imposed. This is the bridge that reconciles the
+  user's as-applied interest with Jeff's skepticism: NOT "the monitoring is too
+  invasive" (Jeff's disfavored loser), but "the monitoring is being used to
+  enforce beyond-text rules" (Jeff's favored, concrete, ripe frame). Answers
+  Jeff's own "what tangible harm / what can the court do" question. Textbook
+  Probation-beyond-the-Judgment, ripe, and surveillance-powered. **Strongest new
+  fact.** Need exact minor-contact condition text from the Judgment.
 - **RIPE / applied (email 9/19) — the 17+ event:** treatment told him to report
   an event with a 17+ age limit ("potential for pornographic material"); then
   probation said he shouldn't have gone because minors "could have snuck in."
