@@ -58,15 +58,61 @@ Factual-predicate / accuracy notes for the rebuild:
   capture (screen images, typed text, documents), and the absence of any
   disclosed privilege/screening mechanism.
 - **DECISION PENDING (planning):** is as-applied the new LEAD/spine with the
-  device-definition and employment (Part I.D) arguments retained as additional
-  grounds — or a full replacement of the construction argument? Client is
-  pulling Jeff's emails about recent events before deciding. DO NOT REBUILD —
-  planning phase.
+  device-definition arguments retained — or a full replacement of the
+  construction argument? Jeff's emails push toward the targeted-clarification
+  frame and away from a frontal invasiveness challenge. Leaning: keep targeted
+  frame; reframe the privilege/no-screening point as "enforce the carve-out the
+  Court already wrote." DO NOT REBUILD — planning phase.
+- **DECIDED (2026-10-12): EMPLOYMENT IS OUT.** Jeff is happy at his job; not an
+  issue; "if it isn't broken don't fix it." Cut Part I.D and its relief entirely.
+  RIPPLE FLAG: the employer episode (two weeks' lost pay) is also woven into the
+  Preliminary Statement, Statement of Facts, and Jurisdiction section — decide
+  whether to scrub it entirely or keep a trimmed version as past illustration of
+  the pattern (it was doing double duty as "proof this already happened").
 
-## 3. Treatment — DEFERRED
+## 3. Treatment — SPINE IDENTIFIED (planning, 2026-10-12)
 
-Client: "that's a whole thing." Await the client's walk-through before touching
-Part II.
+Client's core problem: **the probation officer sitting on the treatment team is
+"absolutely horrific and problematic"** — it collapses any confidential
+therapeutic space. Also: the provider's credibility (therapist told Jeff sex
+offenders are "legally prohibited" from being prescribed Viagra — false) — "the
+therapy place is a joke."
+
+Where this already stands in the motion:
+- **PO-on-treatment-team is ALREADY in Part II** — main text ("Treatment Team...
+  comprised of all therapists in the Practice, the Probation Officer, and the
+  Probation Supervisor"; "A probation officer is not a clinician") + footnote
+  ii-2 (ATSA Guideline 29.02: providers limit role to clinicians, POs "should
+  not assume specialized clinical responsibilities within treatment programs...
+  with clients for whom they have supervision responsibility"). Question for the
+  client: ELEVATE this to the LEAD/spine of Part II? Currently it's one strand;
+  the ¶8 adult-material argument gets the most real estate.
+- **UN-MINED ASSET — the RKKS "Authorization to Release Confidential
+  Information" form** (signed 7-30-26; transcribed in
+  COMPUTER-MONITORING-RULES-TRANSCRIPTION.md Doc 2). It authorizes RKKS to
+  release to Probation EVERYTHING — "type, frequency, and effectiveness of
+  therapy (including psychotherapy notes)," test results, diagnosis, prognosis —
+  and says revoking it "could be considered a violation." This is the strongest
+  concrete proof of the confidentiality collapse the client is describing, and
+  it is NOT currently cited in Part II. Would need to be added as an exhibit.
+- **Compelled-disclosure theory relocates here.** With Part IV (polygraph)
+  removed, the "disclosures routed to the people who prosecute you" problem lives
+  naturally in the treatment Part — contract Code of Conduct ¶¶5-6 (report
+  relapse/criminal behaviors) + Consequences ¶1 (routed to PO, then law
+  enforcement) + PO-on-team + the release form. Reframe around the contract, not
+  the polygraph. NOTE: removing Part IV breaks Part II cross-refs to it (main
+  text "Part IV, infra"; fns ii-3, ii-4; Relief ¶5's SC(g) reference) — fix on
+  rebuild.
+- **Viagra/credibility:** use SURGICALLY — as a concrete illustration of the
+  peril of letting "treatment staff" define the scope of a federal sentence's
+  restrictions (¶8's "as defined by my treatment staff"): the staff empowered to
+  define contraband are the same staff who told a patient a lawful prescription
+  is illegal. Do NOT make "the therapy place is a joke" a theme — it would
+  undercut Part II's measured, court-dignifying register, which is what makes it
+  strong. Via Jeff's certification if used.
+
+"Therapist rules" the client refers to = Exhibit B (RKKS Treatment Contract),
+already mined into Part II, + the release form above.
 
 ---
 
