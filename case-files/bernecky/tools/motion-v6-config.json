@@ -1,0 +1,25 @@
+{
+  "mdPath": "MOTION-v6-fable.md",
+  "outPath": "MOTION-v6-fable.docx",
+  "court": ["UNITED STATES DISTRICT COURT", "WESTERN DISTRICT OF NEW YORK"],
+  "leftBlock": [
+    {"text": "UNITED STATES OF AMERICA,"},
+    {"text": ""},
+    {"text": "v.", "indent": 1440},
+    {"text": ""},
+    {"text": "JEFFREY BERNECKY,"},
+    {"text": ""},
+    {"text": "Defendant.", "indent": 2880}
+  ],
+  "rightBlock": [
+    {"text": "No. 6:18-CR-06018-DGL-MWP"},
+    {"text": ""},
+    {"text": "Hon. David G. Larimer"}
+  ],
+  "titleLines": [
+    "MOTION TO CLARIFY OR MODIFY",
+    "CONDITIONS OF SUPERVISED",
+    "RELEASE AND FOR",
+    "APPOINTMENT OF COUNSEL"
+  ]
+}
