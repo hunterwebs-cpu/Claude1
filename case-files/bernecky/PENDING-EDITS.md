@@ -277,3 +277,38 @@ Parts — Part III (finances / SC(i) vacatur), Part V (alcohol abstinence), Part
 VI (residence approval + felon contact, SC 5 & 8) — or do those survive as minor
 additional points? Employment already cut; question is whether we narrow to the
 4 big buckets or keep the small-ball items.
+
+---
+
+## CLIENT NOTES ON MOTION-v6-opus / MOTION-v6-fable (2026-10-13)
+
+Verdict: both genuinely good. Fable better on citations (and formatting);
+Opus better on persuasive prose. Next: one Opus agent merges — Opus persuasion,
+Fable citation practice + formatting — shown both drafts.
+
+1. **Missing: U.S.S.G. § 5D1.4 (2025 amendment) policy statement** on modifying
+   conditions / reviewing them early in the term of supervision for
+   appropriateness. Must be in.
+2. **Stop saying "we don't argue legality."** We do — an as-applied challenge
+   goes to legality. Risk notification: *Boles* vacated the old condition, yet
+   the old one is what's being applied to Jeff ("notify everyone").
+3. **Adults-online / minors link:** the drafts tie the ban on talking with
+   adults to the minor-contact condition but never explain how they connect.
+   Explain it.
+4. **IRAC methodology** (client: "my skill requires IRAC for a reason").
+   Jurisdiction section = two questions: CAN the judge do what we ask (law) and
+   SHOULD the judge do it (argument). Some conditions had the law change under
+   them (Boles, standing order, § 5D1.4), which supports changing them. The
+   standing order apparently was not applied to Jeff's conditions — he was made
+   to sign the same old conditions at intake.
+5. **Treatment contract — legal theory unclear.** Don't say "a decision before
+   he violates" (implies he will violate). Say precisely what it is:
+   overzealous application of a condition is not enforceable.
+6. **Compliance framing vs. the adults-online ban.** The motion says he
+   complies with everything, but the PO told him he may not communicate with
+   putative adults online because Probation can't verify ages. That shows
+   (a) Probation actively monitoring LEGAL online activity the condition carved
+   out, and (b) First Amendment suppression. Use it.
+7. **Workflow:** the Certification should have been built FIRST and taken to
+   Jeff before the motion. Sequence now: Certification draft → (to Jeff) →
+   merged motion citing real ¶ numbers.
