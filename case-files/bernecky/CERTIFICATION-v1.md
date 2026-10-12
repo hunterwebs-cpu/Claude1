@@ -44,17 +44,17 @@ Jeffrey Bernecky declares as follows:
 
 ## Instructions About Online Communication
 
-17. I play games on my phone. Some of these games let players exchange typed messages. I play these games only on my phone, which has the Probation Office's monitoring software installed. **[Confirm. Naming the games is optional.]**
+17. I enjoy playing video games. Until the instruction described in paragraphs 19 and 20, I played games on my phone, including games that let players exchange typed messages. I played them only on my phone, which has the Probation Office's monitoring software installed. **[Confirm. Naming the games is optional.]**
 
 18. Before **[date of the instruction in paragraph 19]**, I exchanged typed messages in these games with other players whom I did not know personally. In those conversations I stated that I would not speak with anyone under 18. **[If true, add: "To my knowledge, every person I exchanged messages with was an adult," and say how you knew.]**
 
-19. On or about **[date]**, my probation officer, **[name]**, told me that she had noticed that I had been speaking with people in online games, and that I needed to stop. She did not tell me how she had noticed. I had not told her about those conversations. **[Confirm each sentence. If she did say how she knew, say what she said.]**
+19. On or about **[date]**, my probation officer, **[name]**, told me that she had noticed that I had been speaking with people in online games, and that I needed to stop. I had not told her about those conversations. **[Confirm.]**
 
 20. She told me that I may not speak with anyone while playing online games, because there is no way to verify their age or identity, and that I may not speak with anyone I do not personally know. She told me I may speak with people I know in real life. The instruction is not limited to people under 18. It applies to adults I do not personally know. **[Confirm whether she said adults were included or whether that is how you understood "anyone." Confirm whether the instruction covered only online games or all online communication, such as social media, messaging apps, and forums.]**
 
 21. No one has told me that any person I exchanged messages with in an online game was under 18. **[Confirm.]**
 
-22. I have not spoken with anyone in an online game since my probation officer gave me that instruction. **[If also true, add: "I have not communicated online with anyone I do not personally know since then."]**
+22. No one told me to stop playing video games. But after my probation officer gave me that instruction, I stopped playing online games altogether, and I have not played since. I have not spoken with anyone in an online game since then. **[If also true, add: "I have not communicated online with anyone I do not personally know since then."]**
 
 ## The 17-and-Older Event
 
@@ -92,9 +92,9 @@ Jeffrey Bernecky declares as follows:
 
 36. Monitoring software was installed on my phone, a **[make and model]**, on or about **[date]**, by **[who installed it or walked you through installing it, for example the monitoring company]**. **[Describe the steps briefly.]**
 
-37. **[State what you have been told or shown about what the software captures (for example screen images, typed text, messages, documents, browsing), who told or showed you, and when. Do not say that it records keystrokes unless someone told you so or you have seen it yourself.]**
+37. I was told that the monitoring software can take a full screenshot of my phone's screen at any time. **[Say who told you and when.]**
 
-38. No one from the Probation Office or the monitoring company has told me how the monitoring is designed to avoid reading privileged information, or whether my communications with this Court or my drafts of legal papers are excluded from review. I have not been given any written description of how the monitoring handles that material. **[Confirm. If you were told anything on this subject, say who, when, and what.]**
+38. No one from the Probation Office or the monitoring company has told me that anything on my phone is protected from viewing, or that any procedure exists to prevent Probation from viewing lawful material, such as my typed conversations with other players in a game, my communications with this Court, or my drafts of legal papers. No one has told me how the monitoring is designed to avoid reading privileged information. I have not been given any written description of how the monitoring handles any of that material. **[Confirm. If you were told anything on this subject, say who, when, and what.]**
 
 39. I am representing myself on this motion **[and in a pending proceeding in Monroe County Court concerning my sex-offender risk level]**. I prepare my legal papers, including this motion, on **[name each device]**, which **[is / are]** monitored. **[Be exact. Probation will read this paragraph.]**
 
