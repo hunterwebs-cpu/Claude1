@@ -211,3 +211,69 @@ Judgment's text" [Jeff's facts strongly support this]. The one piece of (a)
 maybe worth keeping, reframed modestly: "enforce the carve-out the Court already
 wrote" (the Judgment's own privilege/private-lawful limit + no disclosed
 screening) — a court-dignifying ask, not a "software is unconstitutional" crusade.
+
+---
+
+## PROPOSED 4-BUCKET ARCHITECTURE (client's framing, 2026-10-12) — THE REBUILD PLAN
+
+Back to the drawing board. Motion reorganizes around four big points; every
+fact/rule gathered above plugs into one. Order TBD (client: "don't need to do
+anything in this order"). Polygraph OUT, employment OUT.
+
+**BUCKET 1 — Risk Notification → "billboard disclosure to the world."**
+Theory: Standard Condition 12 (risk notification) should have been vacated/
+removed under the W.D.N.Y. standing order + *Boles* (2d Cir. 2019); instead
+treatment + probation inflate it into public/broadcast disclosure.
+Plugs in: *Boles* + the standing order [VERIFY what the order actually did];
+Grindr / adult-social-media "display your conviction plainly" [confirm source];
+disclose-offense-to-sexual-partners + informed-consent (contract ¶2) — MIGRATES
+here from current Part II; *Reeves* (2d Cir.) as vacatur authority.
+NEED: exact SC-12 text + standing-order effect; Grindr-rule source.
+
+**BUCKET 2 — Family gatherings / minor-contact → winter-holidays ripeness.**
+Theory: the minor-contact special condition is applied to bar family gatherings /
+any setting where a minor might be, far beyond "deliberate contact with a minor."
+Plugs in: minor-contact special condition [NEED exact text]; the speaking ban
+(the associational restriction itself — lead here, enforcement engine is
+Bucket 4); the 17+ event; FAMILY HOLIDAY GATHERINGS = urgency/ripeness
+(Thanksgiving/Christmas imminent, time-sensitive to filing); possible *Browder*
+parallel (his judgment excluded his own children from no-contact).
+NEED: exact minor-contact condition text; Jeff's specifics on which family
+gatherings he's been told he can't attend.
+
+**BUCKET 3 — Treatment contract / "follow the rules of the program" → *Browder*
+(as-applied).**
+Theory: SC(b)'s "follow the rules and regulations of that program" is used to
+make the provider's private contract terms enforceable SR conditions; under
+*Browder* the provider/probation can't reach beyond the court's conditions. As
+applied, contract + PO-on-team + release form collapse treatment into a
+surveillance/enforcement arm.
+Plugs in: *Browder* spine (already in Part II); confidentiality collapse =
+PO-on-treatment-team + the RELEASE FORM (total disclosure incl. psychotherapy
+notes; revocation = violation) [ADD AS EXHIBIT]; "participate = attend"
+clarification; ¶8 material + sole-discretion discharge + compelled disclosure
+routed to PO/law enforcement (the ex-polygraph compelled-disclosure theory
+relocates here); viagra (surgical, staff-defined-term overreach); the document's
+non-individualization ("No special conditions designated"; pretrial-diversion
+leftover).
+
+**BUCKET 4 — CIMP → does not abide by the Judgment's privilege / legal-activity
+carve-out, as written AND in practice.**
+Theory: the Judgment commands monitoring be designed to avoid privileged info +
+private-lawful material; the CIMP violates that both as written and in practice
+(unrestricted capture, no disclosed privilege screening, used to enforce
+beyond-text rules). NOT an invasiveness attack — "enforce the carve-out the
+Court already wrote."
+Plugs in: the Judgment's limiting clause; unrestricted capture (screen/keystroke/
+documents) + no privilege-screening disclosed (Jeff cert + *Browder* source);
+monitoring-as-enforcement-engine (PO "noticed" game speech → enforced speaking
+ban; cross-ref Bucket 2); device-definition (targeted clarification Jeff
+endorses); Items 5/9/14/16/17 (security/maintenance = perfectly legal activity);
+Items 19/21 (beyond-Judgment).
+NEED: Jeff's certification on capture + no-screening.
+
+**OPEN STRUCTURAL DECISION:** do these 4 REPLACE the motion's current smaller
+Parts — Part III (finances / SC(i) vacatur), Part V (alcohol abstinence), Part
+VI (residence approval + felon contact, SC 5 & 8) — or do those survive as minor
+additional points? Employment already cut; question is whether we narrow to the
+4 big buckets or keep the small-ball items.
