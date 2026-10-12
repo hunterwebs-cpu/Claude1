@@ -67,3 +67,63 @@ Factual-predicate / accuracy notes for the rebuild:
 
 Client: "that's a whole thing." Await the client's walk-through before touching
 Part II.
+
+---
+
+## EMAIL INTAKE — Jeff to Bilal, 3 emails (logged 2026-10-12)
+
+Sent from a different account out of fear of retaliation; wants it quiet until
+the motion is submitted. Source: Drive, "USA v Jeff Bernecky" folder,
+"The stuff you asked for" (.pdf x3).
+
+**Jeff's strategic steer (email 9/23) — this is the headline.** On the computer
+monitoring, Jeff is skeptical of fighting the software's invasiveness head-on:
+his own research says keystroke logging is justified by public-safety/
+rehabilitation and a "diminished privacy" standard, these challenges "always
+get shot down," the vendor is "the only game in town," and "trying to fight the
+software as a whole and its overreach isn't going to do anything and might
+detract from what I am asking for." BUT: "The particulars of amending my
+conditions makes a lot of sense." → cuts against a frontal as-applied
+invasiveness challenge; favors the targeted-clarification frame.
+
+**Jeff's ripeness worry (email 9/19):** "Where exactly do we go from here... What
+would we be asking the Courts to actually do about it? Unless I'm being charged
+with some sort of violation... there's not really anything they can do without
+something to rule on... in what tangible way will it help me?" — answerable via
+the existing § 3583(e)(2) "at any time" + Rule 32.1 + Balon framing, and
+strengthened by the speaking-ban below (a present, applied restriction).
+
+**NEW FACTS, triaged by usability:**
+- **RIPE / applied to Jeff now — the speaking ban (email 9/19):** Probation told
+  him he can't speak to anyone in online games / anyone he doesn't personally
+  know, because he can't verify their age/identity; he "ha[s] not spoken to
+  anyone since." His condition bars only DELIBERATE contact with a minor; it
+  does not bar speaking to anyone whose age is unverified. Textbook
+  Probation-beyond-the-Judgment, and ripe. **Strongest new fact.** Need exact
+  minor-contact condition text from the Judgment.
+- **RIPE / applied (email 9/19) — the 17+ event:** treatment told him to report
+  an event with a 17+ age limit ("potential for pornographic material"); then
+  probation said he shouldn't have gone because minors "could have snuck in."
+  Contradictory directives; Probation-beyond-text.
+- **Keystroke/text capture CONFIRMED as applied (email 9/19):** Probation knows
+  what he typed in games ("they must know that I've typed that too") — corroborates
+  the capture predicate from Jeff's own experience.
+- **POLICY-COLOR, NOT RIPE as to Jeff (email 10/4) — viagra:** told in a session
+  (not about him) that sex offenders can't take viagra; registry is checked for
+  prescriptions. Not currently applied to Jeff. Pattern evidence only.
+- **SECONDHAND, NOT JEFF'S FACTS (email 10/4) — hook-up/relationship ban:**
+  another group member told he can't have hook-up sex post-treatment. Jeff cites
+  *United States v. Reeves* (2d Cir.) — relationship-disclosure condition vacated
+  as vague, insufficiently connected, intrusive on associational rights. Good 2d
+  Cir. authority [VERIFY independently — Jeff found via AI search], but not Jeff's
+  own ripe injury.
+
+**Strategic tension to resolve with the user:** user directed an as-applied
+challenge on the monitoring (unrestricted capture / no privilege mechanism);
+Jeff's own emails push away from that frame and toward targeted clarification.
+Two senses of "as-applied": (a) Fourth-Amendment attack on the software's scope
+[Jeff skeptical]; (b) "here's how Probation applies these conditions beyond the
+Judgment's text" [Jeff's facts strongly support this]. The one piece of (a)
+maybe worth keeping, reframed modestly: "enforce the carve-out the Court already
+wrote" (the Judgment's own privilege/private-lawful limit + no disclosed
+screening) — a court-dignifying ask, not a "software is unconstitutional" crusade.
