@@ -312,3 +312,38 @@ Fable citation practice + formatting — shown both drafts.
 7. **Workflow:** the Certification should have been built FIRST and taken to
    Jeff before the motion. Sequence now: Certification draft → (to Jeff) →
    merged motion citing real ¶ numbers.
+
+---
+
+## CLIENT NOTES ON CERTIFICATION-v1 (2026-10-13) — for the Writer
+
+(Coordinator wrongly edited the certification directly; those edits were
+reverted. These notes are direction for the Writer, not text to paste.)
+
+1. **¶ 25 (17+ event):** "a judge wouldn't see it that way" is VERBATIM — Jeff
+   told the client the PO said exactly that. Quote it. "Snuck in" still needs
+   Jeff to confirm exact wording.
+2. **Monitoring — drop the "I don't know how they monitor" framing** (the
+   keylogger "assuming" caveat in ¶ 37 and the "she did not tell me how she
+   noticed" line in ¶ 19). Facts: Jeff WAS TOLD the software can take a full
+   screenshot at any time. There is zero indication anything is protected from
+   viewing or subject to any procedure to prevent disclosure of perfectly legal
+   things — e.g., a message conversation through a game.
+3. **Games:** Jeff enjoys playing video games. Nobody told him to stop playing
+   games altogether, but after the PO's instruction he stopped playing
+   entirely. (Client wrote "No I play games" — read as he no longer plays;
+   confirm.)
+4. **Family:** Jeff's parents are not together. Mom, stepdad, and dad know about
+   his convictions (sister not mentioned — confirm). The sister's kids are not
+   likely to attend gatherings with Jeff — BUT the concern is the sister just
+   showing up. "Who plans Christmas to the minute?" Ties to "deliberate
+   contact" / Johnson (inadvertent presence is not a violation).
+5. **Exhibit A is signed.** The Treatment Contract PDF on Drive shows Jeff's
+   signature dated 08/19/2026 (p. 3). The questions file wrongly says the copy
+   shows a blank signature line — fix. (CIMP agreement photos do show no
+   signature.)
+6. **Unused contract term (Ex. A, Special Conditions):** "the use of any
+   platforms including but not limited to (social media, dating sites, email,
+   blog/discussion forums, gaming services, text apps, photo sharing sites,
+   chat rooms, etc.) should be approved by treatment staff prior to use." A
+   written provider rule over gaming and dating apps.

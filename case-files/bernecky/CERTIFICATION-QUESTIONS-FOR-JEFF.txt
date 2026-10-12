@@ -35,7 +35,7 @@ TREATMENT DOCUMENTS
 
 * Para. 11. Who picked R.K.K.S.? Did your PO send you there? What date did you start?
 * Para. 12. Where did you sign the release form (Exhibit B) on July 30, and who handed it to you, Probation or R.K.K.S.? Note: the form says "RKKS Forensic Counseling," while the Treatment Contract says "R.K.K.S. Mental Health Counseling PLLC." Are these the same place?
-* Para. 13. Who gave you the Treatment Contract on August 19? Did anyone tell you that you had to sign it to get into treatment, or that refusing would be reported to Probation? What did they say? Did you sign on paper or electronically? (Our copy is the electronic intake PDF; it shows your signature and the date 08/19/2026.)
+* Para. 13. Who gave you the Treatment Contract on August 19? Did anyone tell you that you had to sign it to get into treatment, or that refusing would be reported to Probation? What did they say? Did you sign on paper or electronically? The copy we have shows a blank signature line, so if you have a copy that shows your signature, send it.
 * The Treatment Contract also mentions a second form, an "Authorization for Release of Protected Health Information," signed at intake at R.K.K.S. Did you sign that? Do you have a copy?
 
 PARTNERS AND DATING PROFILES
@@ -48,19 +48,19 @@ PARTNERS AND DATING PROFILES
 ONLINE GAMES AND TALKING TO PEOPLE
 ----------------------------------
 
-* Para. 17. Did you play these games only on your monitored phone? Which games (optional)?
+* Para. 17. Do you play these games only on your monitored phone? Which games (optional)?
 * Para. 18. As far as you know, was everyone you messaged in the games an adult? How did you know (they said so, the game is 18+, something else)? If you don't know, that's fine; we'll leave that sentence out.
-* Para. 19. About what date did your PO tell you to stop? Did she say she had noticed you talking in games? Had you told her about the conversations yourself?
+* Para. 19. About what date did your PO tell you to stop? Did she say she had noticed you talking in games? Did she say how she knew? Had you told her about the conversations yourself?
 * Para. 20. This is the key paragraph. As best you remember, what exactly did she say? Did she say this includes adults, or did she say "anyone" and you understood that to include adults? Was it only about games, or about all online communication (social media, messaging apps, forums, comment sections)?
 * Para. 21. Has anyone ever told you that someone you messaged was under 18?
-* Para. 22. Confirm that no one told you to stop playing games, and that you stopped playing online games altogether after the instruction and haven't played since. Have you communicated online with anyone you don't personally know since?
+* Para. 22. Have you talked to anyone in a game since? Have you communicated online with anyone you don't personally know since?
 
 THE 17+ EVENT
 -------------
 
 * Para. 23. What was the event, where, and when? How was the 17+ age limit enforced (ID check, wristbands, ticketing)? As far as you know, did you have contact with anyone under 18 there?
 * Para. 24. Who at R.K.K.S. told you that you should have reported it first? Was there actually any sexual material at the event?
-* Para. 25. When did your PO talk to you about it, and how did she find out you went? You told us "a judge wouldn't see it that way" were her exact words, so it is quoted. Was "could have snuck in" her exact wording, or the gist?
+* Para. 25. When did your PO talk to you about it, and how did she find out you went? Are "could have snuck in" and "a judge wouldn't see it that way" her exact words or the gist?
 * Before you swear to this section, is there anything else about the event we should know, for example whether alcohol was served? (Your mental-health treatment condition bars alcohol while you're in treatment.)
 
 FAMILY
@@ -68,11 +68,11 @@ FAMILY
 
 * Para. 26. Confirm you have no biological or adopted children.
 * Para. 27. How many children does your sister have, and how old are they now? Were they all born after June 2018?
-* Para. 28. You've told us your parents aren't together and that your mom, stepdad, and dad know about your convictions. Does your sister know?
-* Para. 29. Where do the holiday gatherings happen (mom's, dad's, both)? Which holidays or occasions? Is it right that your sister and her kids aren't expected at gatherings you attend, but could show up without notice? Could any other kids be there (cousins' kids, family friends)?
+* Para. 28. Do your mother, father, and sister all know about your convictions?
+* Para. 29. Is it right that the family gets together at your mom's for Thanksgiving and Christmas and your sister brings her kids? What other holidays or occasions? Are any other kids usually there (cousins' kids, family friends)? Do your parents live together?
 * Para. 30. What was the last family holiday you were at? (We guessed you were in custody from December 2017. Is that right?)
 * Para. 31. Have you asked your PO for permission to go to family gatherings where your sister's kids are? If so, when, and what did she say? The Court will want to know this.
-* Para. 32. If your sister shows up with her kids while you're there, do these terms work for you: never alone with a child, and your mom, stepdad, or dad present?
+* Para. 32. Do the proposed terms work for you: a parent or your sister present, and never alone with a child?
 
 TREATMENT
 ---------
@@ -85,8 +85,8 @@ MONITORING
 
 * Para. 35. When did you get the Computer Monitoring Program Participant Agreement (Exhibit C), and from whom? Did you sign it, and on what date? Our copy shows no signature, so send a photo of the signed page if you have one.
 * Para. 36. What make and model is your phone? When was the software installed, and who did it (the monitoring company, your PO, you with instructions)? Walk us through the steps briefly.
-* Para. 37. Who told you the software can take a full screenshot of your screen at any time, and when?
-* Para. 38. Has anyone ever told you that anything on your phone is protected from viewing, or that there's any procedure to keep Probation from reading lawful material (like your game messages, court papers, or messages to the Court)? Were you given any written policy?
+* Para. 37. What has anyone actually told or shown you about what the software captures? Your September 19 email said you were assuming a keylogger. We can only say "keystrokes" in a sworn statement if someone told you that or you've seen it. Otherwise we describe only what you were told or shown.
+* Para. 38. Has anyone ever told you how the monitoring avoids reading privileged or legal material, or whether your court papers and messages to the Court are excluded? Were you given any written policy?
 * Para. 39. Is the Monroe County SORA case still pending? Which device or devices do you use to research, write, or communicate about your legal papers? Be exact, because Probation will read this. If the answer is complicated, call before you write it down.
 
 COUNSEL
