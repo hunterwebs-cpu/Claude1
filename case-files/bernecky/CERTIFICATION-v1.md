@@ -62,7 +62,7 @@ Jeffrey Bernecky declares as follows:
 
 24. Afterward, **[name and role at R.K.K.S.]** told me that I should have told treatment staff about the event before I went, because an event with that age limit had "potential for pornographic material." **[Say whether there was any sexual material at the event.]**
 
-25. My probation officer then told me that I should not have gone, because minors could possibly have been there, including minors who could have snuck in without my knowing. I said that a grocery store carries a much greater chance of being near minors than an event like that. She answered that a judge would not see it that way. **[Give the date, say how Probation learned of the event, and say whether these are her exact words or the substance of what she said.]**
+25. My probation officer then told me that I should not have gone, because minors could possibly have been there, including minors who could have snuck in without my knowing. I said that a grocery store carries a much greater chance of being near minors than an event like that. She answered, “a judge wouldn’t see it that way.” **[Give the date, say how Probation learned of the event, and say whether “snuck in” was her exact wording or the substance of what she said.]**
 
 ## Family Gatherings
 
