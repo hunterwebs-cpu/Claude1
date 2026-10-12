@@ -1,0 +1,89 @@
+# Questions for Jeff: Your Certification
+
+Jeff, this is the sworn statement that goes with your motion. You sign it under penalty of perjury, and the Court, the prosecutor, and Probation will all read it. The motion will cite it by paragraph number, so it has to be right before the motion is finished.
+
+Everything in **bold brackets** is something only you can confirm or fill in. The questions below cover every bracket, by paragraph number. Short answers are fine. If something is wrong, say so. If you don't remember something exactly, say that too; "to the best of my recollection" is fine, but a guess written as fact is not.
+
+## General
+
+- Read every paragraph, including the ones with no brackets, and tell us if anything is wrong, overstated, or missing.
+- When you tell us what someone said, tell us whether those were their **exact words** or just the gist. We only put words in quotation marks if you're sure they're exact.
+- Please give names and roles (your PO's name, your therapist's name) where you can. If you would rather not name someone, tell us and we'll use their title.
+
+## Background
+
+- **¶ 2.** Was Mark Hosken appointed by the Court (Federal Public Defender), or did you or your family pay him?
+- **¶ 3.** Is it accurate that neither conviction involved physical contact with a child and that you have never been *charged* with anything involving contact with a child?
+- **¶ 4.** Are you full-time? What month and year did you start your current job? (We don't need to name the employer.)
+- **¶ 5.** Have you followed every instruction from your PO and treatment since July 30? Think about the 17+ event too (treatment said you should have told them first). If there's anything Probation or treatment could call a failure to follow an instruction, tell us now so we can deal with it honestly.
+
+## Intake and the old risk condition
+
+- **¶ 6.** What date was your intake with Probation, and where? Who went over your conditions? What exactly did you sign (a form listing the conditions, an acknowledgment page, something else)? Did they give you a copy? **If you have a copy, send a photo of every page.** It would become Exhibit E.
+- **¶ 7.** Did the Standard Condition 12 you signed read the way it's quoted in ¶ 7 (the probation officer decides whether you "pose a risk" and can make you notify people)? If you don't have a copy, are you confident enough to say "to the best of my recollection"?
+- **¶ 8.** Did anyone at Probation ever show you or mention the 2019 replacement wording (Exhibit D), where *the Court* has to decide you pose a risk before anyone can make you notify anyone?
+- **¶ 9.** Have you ever gotten notice of, or gone to, any court hearing about whether you pose a risk to someone? Has anyone told you the Court made that decision? Have you looked at the docket for your case? If so, when?
+- **¶ 10.** Where did your copy of the standing order (Exhibit D) come from?
+
+## Treatment documents
+
+- **¶ 11.** Who picked R.K.K.S.? Did your PO send you there? What date did you start?
+- **¶ 12.** Where did you sign the release form (Exhibit B) on July 30, and who handed it to you, Probation or R.K.K.S.? Note: the form says "RKKS Forensic Counseling," while the Treatment Contract says "R.K.K.S. Mental Health Counseling PLLC." Are these the same place?
+- **¶ 13.** Who gave you the Treatment Contract on August 19? Did anyone tell you that you had to sign it to get into treatment, or that refusing would be reported to Probation? What did they say? Did you sign on paper or electronically? The copy we have shows a blank signature line, so **if you have a copy that shows your signature, send it.**
+- The Treatment Contract also mentions a second form, an "Authorization for Release of Protected Health Information," signed at intake at R.K.K.S. Did you sign that? Do you have a copy?
+
+## Partners and dating profiles
+
+- **¶ 14.** Has anyone at R.K.K.S. explained what counts as "acceptable proof of informed consent"? Has anyone told you, separately from the written contract, that you need your therapist's *permission* before a sexual relationship? If so, who and when?
+- **¶ 15.** Who told you a Grindr or dating profile has to show your conviction: your therapist, your PO, or both? When? Was it said out loud or written down? Does it apply only to dating apps, or to any social-media profile?
+- **¶ 16.** Is it accurate that you go to work and come home, and haven't pursued a relationship because of these rules? Please add a sentence or two in your own words about why.
+
+## Online games and talking to people
+
+- **¶ 17.** Do you play these games only on your monitored phone? Which games (optional)?
+- **¶ 18.** As far as you know, was everyone you messaged in the games an adult? How did you know (they said so, the game is 18+, something else)? If you don't know, that's fine; we'll leave that sentence out.
+- **¶ 19.** About what date did your PO tell you to stop? Did she say she had noticed you talking in games? Did she say *how* she knew? Had you told her about the conversations yourself?
+- **¶ 20.** This is the key paragraph. As best you remember, what exactly did she say? Did she say this includes adults, or did she say "anyone" and you understood that to include adults? Was it only about games, or about all online communication (social media, messaging apps, forums, comment sections)?
+- **¶ 21.** Has anyone ever told you that someone you messaged was under 18?
+- **¶ 22.** Have you talked to anyone in a game since? Have you communicated online with anyone you don't personally know since?
+
+## The 17+ event
+
+- **¶ 23.** What was the event, where, and when? How was the 17+ age limit enforced (ID check, wristbands, ticketing)? As far as you know, did you have contact with anyone under 18 there?
+- **¶ 24.** Who at R.K.K.S. told you that you should have reported it first? Was there actually any sexual material at the event?
+- **¶ 25.** When did your PO talk to you about it, and how did she find out you went? Are "could have snuck in" and "a judge wouldn't see it that way" her exact words or the gist?
+- Before you swear to this section, is there anything else about the event we should know, for example whether alcohol was served? (Your mental-health treatment condition bars alcohol while you're in treatment.)
+
+## Family
+
+- **¶ 26.** Confirm you have no biological or adopted children.
+- **¶ 27.** How many children does your sister have, and how old are they now? Were they all born after June 2018?
+- **¶ 28.** Do your mother, father, and sister all know about your convictions?
+- **¶ 29.** Is it right that the family gets together at your mom's for Thanksgiving and Christmas and your sister brings her kids? What other holidays or occasions? Are any other kids usually there (cousins' kids, family friends)? Do your parents live together?
+- **¶ 30.** What was the last family holiday you were at? (We guessed you were in custody from December 2017. Is that right?)
+- **¶ 31.** Have you asked your PO for permission to go to family gatherings where your sister's kids are? If so, when, and what did she say? The Court will want to know this.
+- **¶ 32.** Do the proposed terms work for you: a parent or your sister present, and never alone with a child?
+
+## Treatment
+
+- **¶ 33.** Have you made every scheduled session? Any missed or late sessions, and why?
+- **¶ 34.** What week was the Viagra conversation? (Your email of October 4 said "this past week.") What is the therapist's name? Is it right that it didn't come up because of anything about you?
+
+## Monitoring
+
+- **¶ 35.** When did you get the Computer Monitoring Program Participant Agreement (Exhibit C), and from whom? Did you sign it, and on what date? Our copy shows no signature, so **send a photo of the signed page if you have one.**
+- **¶ 36.** What make and model is your phone? When was the software installed, and who did it (the monitoring company, your PO, you with instructions)? Walk us through the steps briefly.
+- **¶ 37.** What has anyone actually told or shown you about what the software captures? Your September 19 email said you were *assuming* a keylogger. We can only say "keystrokes" in a sworn statement if someone told you that or you've seen it. Otherwise we describe only what you were told or shown.
+- **¶ 38.** Has anyone ever told you how the monitoring avoids reading privileged or legal material, or whether your court papers and messages to the Court are excluded? Were you given any written policy?
+- **¶ 39.** Is the Monroe County SORA case still pending? Which device or devices do you use to research, write, or communicate about your legal papers? **Be exact, because Probation will read this.** If the answer is complicated, call before you write it down.
+
+## Counsel
+
+- **¶ 40.** Confirm you can't afford a lawyer for this motion. You'll need to fill out a CJA Form 23 (financial affidavit); we'll send it separately.
+
+## Things to check before you sign
+
+- **Exhibits.** The exhibits are lettered A (Treatment Contract), B (release form), C (Computer Monitoring Agreement), D (standing order), and possibly E (your intake conditions form, if you have it). Make sure each exhibit we attach is the same as the document you signed or received.
+- **Other people's information.** Don't add anything about other men in your group. The Treatment Contract bars sharing other clients' information, and their stories aren't your facts. This is why the group member's "no hook-up sex" story isn't in here.
+- **Possible addition (your choice).** We were told that a therapist said in group that all adult pornography is wrong. If that happened to you directly, tell us who said it, when, and roughly what was said, and we can add a paragraph. It ties to the Treatment Contract's ban on "sexually stimulating material(s) of any kind as defined by my treatment staff."
+- **Signing.** Don't sign or date it yet. Once the brackets are resolved we'll send a clean final version to sign.
